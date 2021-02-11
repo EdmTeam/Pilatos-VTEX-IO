@@ -1,0 +1,13 @@
+{
+    "store-locator": {
+        "component": "StoreLocator"
+    },
+    "clear-cart": {
+        "component": "ClearCart"
+    },
+    "custom-sticky": {
+        "component": "CustomSticky",
+        "composition": "children",
+        "allowed": "*"
+    }
+}

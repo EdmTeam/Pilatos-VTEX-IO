@@ -1,0 +1,54 @@
+{
+    "flex-layout.col#brand-3": {
+        "children": ["flex-layout.row#brand-3-content"],
+        "props": {
+            "blockClass": "contentBrand"
+        }
+    },
+    "flex-layout.row#brand-3-content": {
+        "children": [
+            "flex-layout.col#brand-3-section-1",
+            "flex-layout.col#brand-3-section-2"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "flex-layout.col#brand-3-section-1": {
+        "children": ["image#brand-3"],
+        "props": {
+            "width": "45%",
+            "verticalAlign": "middle"           
+        }
+    },
+    "flex-layout.col#brand-3-section-2": {
+        "children": [
+            "rich-text#brand-3",
+            "rich-text#brand-3-section-2"
+        ],
+        "props": {
+            "width": "55%",
+            "verticalAlign": "middle"
+        }
+    },
+      "image#brand-3": {
+        "props": {
+            "src": "/arquivos/umbro.png",
+            "link": {
+                "url": "/"
+            }
+        }
+    },
+    "rich-text#brand-3": {
+        "props": {
+            "text": "*¡PRODUCTOS*\n**NUEVOS!**",
+            "blockClass": "colorBrand"
+        }
+    },
+    "rich-text#brand-3-section-2": {
+        "props": {
+            "text": "*Colección de Guayos*",
+            "blockClass": "colorBrandSection2"
+        }
+    }
+}

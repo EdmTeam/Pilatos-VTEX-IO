@@ -1,0 +1,139 @@
+{
+  "store.custom#less-price": {
+    "blocks": [
+      "search-result-layout.customQuery#collection"
+    ]
+  },
+  "store.search#collection": {
+    "blocks": [
+      "search-result-layout.customQuery#collection"
+    ],
+    "props": {
+      "context": {
+        "__unstableProductOriginVtex": true,
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 12,
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "skip"
+      }
+    }
+  },
+  "search-result-layout.customQuery#collection": {
+    "blocks": [
+      "search-result-layout.desktop#collection",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ],
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 12,
+        "skusFilter": "FIRST_AVAILABLE",
+        "mapField": "productClusterIds",
+        "queryField": "141",
+        "__unstableProductOriginVtex": true,
+        "hiddenFacets": {
+          "specificationFilters": {
+            "hiddenFilters": [
+              {
+                "name": "Material"
+              },
+              {
+                "name": "Alto (Cm)"
+              },
+              {
+                "name": "Ancho (Cm)"
+              },
+              {
+                "name": "Breve Descripción"
+              },
+              {
+                "name": "Descripción"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "search-result-layout.desktop#collection": {
+    "children": [
+      "flex-layout.row#banner-search",
+      "flex-layout.row#bread-crumb-collection",
+      "flex-layout.row#search-info",
+      "flex-layout.row#search-title-collection",
+      "flex-layout.row#result"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "preventRouteChange": true,
+      "maxItemsPerPage": 12,
+      "hideUnavailableItems": true,
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      },
+      "__unstableProductOriginVtex": true,
+      "blockClass": "search-desktop",
+      "hiddenFacets": {
+        "specificationFilters": {
+          "hiddenFilters": [
+            {
+              "name": "Material"
+            },
+            {
+              "name": "Alto (Cm)"
+            },
+            {
+              "name": "Ancho (Cm)"
+            },
+            {
+              "name": "Breve Descripción"
+            },
+            {
+              "name": "Descripción"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "flex-layout.row#bread-crumb-collection": {
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "left",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "breadcrumb#collection"
+    ]
+  },
+  "breadcrumb#collection": {
+    "props": {
+      "showOnMobile": true,
+      "breadcrumb": [
+        {
+          "name": "Menos de S/49",
+          "href": "/menos-49"
+        }
+      ]
+    }
+  },
+  "flex-layout.row#search-title-collection": {
+    "children": [
+      "rich-text#search-title-collection"
+    ],
+    "props": {
+      "blockClass": "search-title"
+    }
+  },
+  "rich-text#search-title-collection": {
+    "props": {
+      "text": "**Menos de S/49**"
+    }
+  }
+}

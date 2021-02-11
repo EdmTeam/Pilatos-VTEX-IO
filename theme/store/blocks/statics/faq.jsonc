@@ -1,0 +1,1138 @@
+{
+    "store.custom#faq": {
+        "blocks": [
+            "flex-layout.row#static-accordion-faq-1",
+            "flex-layout.row#static-accordion-faq-2",
+            "flex-layout.row#static-accordion-faq-3",
+            "flex-layout.row#static-accordion-faq-4",
+            "flex-layout.row#static-accordion-faq-5",
+            "flex-layout.row#static-accordion-faq-6",
+            "flex-layout.row#static-accordion-faq-7",
+            "flex-layout.row#static-accordion-faq-8"
+        ]
+    },
+    "flex-layout.row#static-accordion-faq-1": {
+        "props": {
+            "blockClass": [
+                "static-accordion",
+                "static-faq"
+            ]
+        },
+        "children": [
+            "flex-layout.col#static-accordion-menu-faq-1"
+        ]
+    },
+    "flex-layout.col#static-accordion-menu-faq-1": {
+        "props": {
+            "width": "100%"
+        },
+        "children": [
+            "rich-text#title-faq-1",
+            "vtex.menu@2.x:menu#static-accordion-menu-faq"
+        ]
+    },
+    "rich-text#title-faq-1": {
+        "props": {
+            "text": "### Mi cuenta"
+        }
+    },
+    "vtex.menu@2.x:menu#static-accordion-menu-faq": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#porquecrear",
+            "menu-item#comocreo",
+            "menu-item#comopuedocambiar",
+            "menu-item#comoedito",
+            "menu-item#comopuedorecibir"
+        ]
+    },
+    "menu-item#porquecrear": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "accordion-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "¿Por qué crear una cuenta?"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#static-accordion-content-1"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#static-accordion-content-1": {
+        "props": {
+            "blockClass": "static-accordion-content"
+        },
+        "children": [
+            "rich-text#static-accordion-content-1"
+        ]
+    },
+    "rich-text#static-accordion-content-1": {
+        "props": {
+            "text": "Nuestro sitio te permite comprar lo que deseas sin necesidad de crear una cuenta. Solo debes ingresar tu correo electrónico y los datos necesarios para la compra. Sin embargo, al crear una cuenta podrás hacerles seguimiento a todos tus pedidos, guardar tus preferencias de compra y datos de envío, tarjetas usadas, entre otros beneficios que harán que tu proceso de compra sea mucho más fácil y rápido. Además, ¡crear tu cuenta es completamente gratis!",
+            "blockClass": "static-accordion-content"
+        }
+    },
+    "menu-item#comocreo": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "accordion-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "¿Cómo creo mi cuenta?"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#static-accordion-content-2"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#static-accordion-content-2": {
+        "props": {
+            "blockClass": "static-accordion-content"
+        },
+        "children": [
+            "rich-text#static-accordion-content-2"
+        ]
+    },
+    "rich-text#static-accordion-content-2": {
+        "props": {
+            "text": "Ubica el ícono de **Mi cuenta** en la barra superior. \n \n Elige la opción **Recibir clave de acceso por mail** y a continuación ingresa tu correo electrónico. \n \n Recibirás un correo como éste con el código para ingresar en la web. \n \n Ingresa el código que recibiste en el sitio. \n \n ¡Listo! Tu cuenta ha sido creada. En ella podrás ver tu perfil, el detalle de tus pedidos y tus direcciones guardadas.",
+            "blockClass": "static-accordion-content"
+        }
+    },
+    "menu-item#comopuedocambiar": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "accordion-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "¿Cómo puedo cambiar o recuperar mi contraseña?"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#static-accordion-content-3"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#static-accordion-content-3": {
+        "props": {
+            "blockClass": "static-accordion-content"
+        },
+        "children": [
+            "rich-text#static-accordion-content-3"
+        ]
+    },
+    "rich-text#static-accordion-content-3": {
+        "props": {
+            "text": "Ubica el ícono de Mi cuenta en la barra superior. \n \n Elige la opción **Recibir clave de acceso por mail** y a continuación ingresa tu correo electrónico. \n \n Recibirás un correo como éste con el código para ingresar en la web. \n \n Ingresa el código que recibiste en el sitio. \n \n ¡Listo! Tu cuenta ha sido creada. En ella podrás ver tu perfil, el detalle de tus pedidos y tus direcciones guardadas.",
+            "blockClass": "static-accordion-content"
+        }
+    },
+    "menu-item#comoedito": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "accordion-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "¿Cómo edito los datos de mi cuenta?"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#static-accordion-content-4"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#static-accordion-content-4": {
+        "props": {
+            "blockClass": "static-accordion-content"
+        },
+        "children": [
+            "rich-text#static-accordion-content-4"
+        ]
+    },
+    "rich-text#static-accordion-content-4": {
+        "props": {
+            "text": "Ubica el ícono de Mi cuenta en la barra superior. \n \n Verás el resumen de tu perfil. Haz clic en Perfil para editar los datos. \n \n En esta parte podrás editar tus datos e incluir campos corporativos en caso lo desees. Al finalizar haz clic en Guardar cambios.",
+            "blockClass": "static-accordion-content"
+        }
+    },
+    "menu-item#comopuedorecibir": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "accordion-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "¿Cómo puedo recibir las promociones y novedades de RealPlazaGo.com?"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#static-accordion-content-5"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#static-accordion-content-5": {
+        "props": {
+            "blockClass": "static-accordion-content"
+        },
+        "children": [
+            "rich-text#static-accordion-content-5"
+        ]
+    },
+    "rich-text#static-accordion-content-5": {
+        "props": {
+            "text": "Existen 3 formas para poder recibir estos correos: \n \n **1.** Ingresa tu correo electrónico en la parte inferior de nuestra página principal. Al hacer clic en **enviar**, verás el formulario que debes de llenar con tus datos para proceder. \n \n 2. Antes de terminar tu compra puedes aceptar en la segunda casilla para poder enviarte las promociones a tu correo. \n \n 3. Una vez que ya hayas creado tu cuenta, ingresa a tu perfil y selecciona la opción para recibir los boletines informativos promocionales.",
+            "blockClass": "static-accordion-content"
+        }
+    },
+    "flex-layout.row#static-accordion-faq-2": {
+        "props": {
+            "blockClass": [
+                "static-accordion",
+                "static-faq-no-margin"
+            ]
+        },
+        "children": [
+            "flex-layout.col#static-accordion-menu-faq-2"
+        ]
+    },
+    "flex-layout.col#static-accordion-menu-faq-2": {
+        "props": {
+            "width": "100%"
+        },
+        "children": [
+            "rich-text#title-faq-2",
+            "vtex.menu@2.x:menu#static-accordion-menu-faq-2"
+        ]
+    },
+    "rich-text#title-faq-2": {
+        "props": {
+            "text": "### Métodos de pago"
+        }
+    },
+    "vtex.menu@2.x:menu#static-accordion-menu-faq-2": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#cualessonlosmetodos",
+            "menu-item#comopuedopagar",
+            "menu-item#quetarjetas"
+        ]
+    },
+    "menu-item#cualessonlosmetodos": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "accordion-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "¿Cuáles son los métodos de pago aceptados?"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#static-accordion-content-6"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#static-accordion-content-6": {
+        "props": {
+            "blockClass": "static-accordion-content"
+        },
+        "children": [
+            "rich-text#static-accordion-content-6"
+        ]
+    },
+    "rich-text#static-accordion-content-6": {
+        "props": {
+            "text": "Por el momento solo aceptamos pagos con tarjeta de crédito o débito. Asegúrate de que esté habilitada para hacer compras por internet.",
+            "blockClass": "static-accordion-content"
+        }
+    },
+    "menu-item#comopuedopagar": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "accordion-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "¿Puedo pagar en RealPlazaGo.com con tarjetas de crédito extranjeras?"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#static-accordion-content-7"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#static-accordion-content-7": {
+        "props": {
+            "blockClass": "static-accordion-content"
+        },
+        "children": [
+            "rich-text#static-accordion-content-7"
+        ]
+    },
+    "rich-text#static-accordion-content-7": {
+        "props": {
+            "text": "Por el momento solo puedes pagar con tarjetas emitidas en Perú.",
+            "blockClass": "static-accordion-content"
+        }
+    },
+    "menu-item#quetarjetas": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "accordion-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "¿Qué tarjetas de crédito aceptan?"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#static-accordion-content-8"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#static-accordion-content-8": {
+        "props": {
+            "blockClass": "static-accordion-content"
+        },
+        "children": [
+            "rich-text#static-accordion-content-8"
+        ]
+    },
+    "rich-text#static-accordion-content-8": {
+        "props": {
+            "text": "Aceptamos todas las tarjetas que sean emitidas en Perú y que tengan las siguientes marcas: \n - Visa \n - MasterCard \n - American Express \n - Diners",
+            "blockClass": "static-accordion-content"
+        }
+    },
+    "flex-layout.row#static-accordion-faq-3": {
+        "props": {
+            "blockClass": [
+                "static-accordion",
+                "static-faq-no-margin"
+            ]
+        },
+        "children": [
+            "flex-layout.col#static-accordion-menu-faq-3"
+        ]
+    },
+    "flex-layout.col#static-accordion-menu-faq-3": {
+        "props": {
+            "width": "100%"
+        },
+        "children": [
+            "rich-text#title-faq-3",
+            "vtex.menu@2.x:menu#static-accordion-menu-faq-3"
+        ]
+    },
+    "rich-text#title-faq-3": {
+        "props": {
+            "text": " ### Precios y Promociones"
+        }
+    },
+    "vtex.menu@2.x:menu#static-accordion-menu-faq-3": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#puedenvariar",
+            "menu-item#igv",
+            "menu-item#quierosaber"
+        ]
+    },
+    "menu-item#puedenvariar": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "accordion-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "Los precios expresados en RealPlazaGo.com ¿pueden variar?"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#static-accordion-content-9"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#static-accordion-content-9": {
+        "props": {
+            "blockClass": "static-accordion-content"
+        },
+        "children": [
+            "rich-text#static-accordion-content-9"
+        ]
+    },
+    "rich-text#static-accordion-content-9": {
+        "props": {
+            "text": "Sí, ésta y otra información como stocks, servicios, promociones y demás información podrían ser modificadas en cualquier momento y sin previo aviso; estos cambios no afectarán a las solicitudes de compra que ya hayan sido aprobadas y comunicadas con anterioridad.",
+            "blockClass": "static-accordion-content"
+        }
+    },
+    "menu-item#igv": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "accordion-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "¿Los precios de los productos incluyen IGV?"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#static-accordion-content-10"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#static-accordion-content-10": {
+        "props": {
+            "blockClass": "static-accordion-content"
+        },
+        "children": [
+            "rich-text#static-accordion-content-10"
+        ]
+    },
+    "rich-text#static-accordion-content-10": {
+        "props": {
+            "text": "Todos los precios incluyen IGV",
+            "blockClass": "static-accordion-content"
+        }
+    },
+    "menu-item#quierosaber": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "accordion-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "Si quiero saber la disponibilidad de un producto ¿Dónde puedo consultar?"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#static-accordion-content-11"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#static-accordion-content-11": {
+        "props": {
+            "blockClass": "static-accordion-content"
+        },
+        "children": [
+            "rich-text#static-accordion-content-11"
+        ]
+    },
+    "rich-text#static-accordion-content-11": {
+        "props": {
+            "text": "Los podrás consultar en la misma página del producto.",
+            "blockClass": "static-accordion-content"
+        }
+    },
+    "flex-layout.row#static-accordion-faq-4": {
+        "props": {
+            "blockClass": [
+                "static-accordion",
+                "static-faq-no-margin"
+            ]
+        },
+        "children": [
+            "flex-layout.col#static-accordion-menu-faq-4"
+        ]
+    },
+    "flex-layout.col#static-accordion-menu-faq-4": {
+        "props": {
+            "width": "100%"
+        },
+        "children": [
+            "rich-text#title-faq-4",
+            "vtex.menu@2.x:menu#static-accordion-menu-faq-4"
+        ]
+    },
+    "rich-text#title-faq-4": {
+        "props": {
+            "text": "### Despacho"
+        }
+    },
+    "vtex.menu@2.x:menu#static-accordion-menu-faq-4": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#modalidades",
+            "menu-item#donderealizan",
+            "menu-item#cuantocuesta",
+            "menu-item#quepasasino"
+        ]
+    },
+    "menu-item#modalidades": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "accordion-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "¿Cuáles son las modalidades de despacho?"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#static-accordion-content-12"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#static-accordion-content-12": {
+        "props": {
+            "blockClass": "static-accordion-content"
+        },
+        "children": [
+            "rich-text#static-accordion-content-12"
+        ]
+    },
+    "rich-text#static-accordion-content-12": {
+        "props": {
+            "text": "Por el momento, la única modalidad de despacho es la de envío a domicilio. Nuestros vendedores enviarán sus productos a la puerta de tu casa o donde lo desees, tomando todas las precauciones y siguiendo todos los protocolos por tu seguridad y bienestar.",
+            "blockClass": "static-accordion-content"
+        }
+    },
+    "menu-item#donderealizan": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "accordion-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "¿Dónde realizan envíos?"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#static-accordion-content-13"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#static-accordion-content-13": {
+        "props": {
+            "blockClass": "static-accordion-content"
+        },
+        "children": [
+            "rich-text#static-accordion-content-13"
+        ]
+    },
+    "rich-text#static-accordion-content-13": {
+        "props": {
+            "text": "La cobertura de envíos depende de cada vendedor. Solo algunos productos cuentan con despacho a provincia.",
+            "blockClass": "static-accordion-content"
+        }
+    },
+    "menu-item#quepasasino": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "accordion-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "¿Qué pasa si no me encuentro en el lugar de despacho cuando lleguen a dejarme el pedido?"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#static-accordion-content-15"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#static-accordion-content-15": {
+        "props": {
+            "blockClass": "static-accordion-content"
+        },
+        "children": [
+            "rich-text#static-accordion-content-15"
+        ]
+    },
+    "rich-text#static-accordion-content-15": {
+        "props": {
+            "text": "Los vendedores podrán esperarte hasta 10 minutos. Si no te encuentras, nos comunicaremos contigo para reprogramar la entrega. Solo se aceptará 1 reprogramación sin cargo adicional.",
+            "blockClass": "static-accordion-content"
+        }
+    },
+    "menu-item#cuantocuesta": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "accordion-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "¿Cuánto cuesta y cuánto demora el envío de los productos?"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#static-accordion-content-14"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#static-accordion-content-14": {
+        "props": {
+            "blockClass": "static-accordion-content"
+        },
+        "children": [
+            "rich-text#static-accordion-content-14"
+        ]
+    },
+    "rich-text#static-accordion-content-14": {
+        "props": {
+            "text": "El plazo mínimo de entrega es al día siguiente de la compra. El plazo máximo varía de acuerdo a las políticas de entrega de cada vendedor. \n El costo del despacho varía y depende del volumen y distancia.",
+            "blockClass": "static-accordion-content"
+        }
+    },
+    "flex-layout.row#static-accordion-faq-5": {
+        "props": {
+            "blockClass": [
+                "static-accordion",
+                "static-faq-no-margin"
+            ]
+        },
+        "children": [
+            "flex-layout.col#static-accordion-menu-faq-5"
+        ]
+    },
+    "flex-layout.col#static-accordion-menu-faq-5": {
+        "props": {
+            "width": "100%"
+        },
+        "children": [
+            "rich-text#title-faq-5",
+            "vtex.menu@2.x:menu#static-accordion-menu-faq-5"
+        ]
+    },
+    "rich-text#title-faq-5": {
+        "props": {
+            "text": "### Pedidos y Recepción"
+        }
+    },
+    "vtex.menu@2.x:menu#static-accordion-menu-faq-5": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#comocontrato",
+            "menu-item#siyoarmo",
+            "menu-item#comosecuando",
+            "menu-item#comohagosimipedido",
+            "menu-item#comopuedoanular",
+            "menu-item#cualeselplazo"
+        ]
+    },
+    "menu-item#comocontrato": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "accordion-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "¿Cómo contrato el servicio de armado?"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#static-accordion-content-16"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#static-accordion-content-16": {
+        "props": {
+            "blockClass": "static-accordion-content"
+        },
+        "children": [
+            "rich-text#static-accordion-content-16"
+        ]
+    },
+    "rich-text#static-accordion-content-16": {
+        "props": {
+            "text": "Antes de proceder con el pago, al revisar los productos de tu carrito, podrás agregar el servicio de instalación, exclusivo para los productos de Promart.",
+            "blockClass": "static-accordion-content"
+        }
+    },
+    "menu-item#siyoarmo": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "accordion-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "Si yo armo y/o instalo el producto por mi cuenta y posteriormente presenta desperfectos ¿se mantendrá la garantía?"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#static-accordion-content-17"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#static-accordion-content-17": {
+        "props": {
+            "blockClass": "static-accordion-content"
+        },
+        "children": [
+            "rich-text#static-accordion-content-17"
+        ]
+    },
+    "rich-text#static-accordion-content-17": {
+        "props": {
+            "text": "La garantía de producto se pierde por una manipulación errada del producto, por lo que te recomendamos dejar el armado o instalación en manos de los expertos de Promart. De esa forma, mantendrás la garantía.",
+            "blockClass": "static-accordion-content"
+        }
+    },
+    "menu-item#comosecuando": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "accordion-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "¿Cómo sé cuándo llegará mi pedido?"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#static-accordion-content-18"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#static-accordion-content-18": {
+        "props": {
+            "blockClass": "static-accordion-content"
+        },
+        "children": [
+            "rich-text#static-accordion-content-18"
+        ]
+    },
+    "rich-text#static-accordion-content-18": {
+        "props": {
+            "text": "- Ingresa a tu cuenta y haz clic en **Pedidos**. \n \n - En esta página verás el historial de tus pedidos y sus estados. Para ver el detalle haz click en **Ver detalles del pedido**.\n \n - A continuación, podrás ver el detalle de tu pedido seleccionado: la dirección de entrega, método de pago, el resumen y los estados pendientes. Si deseas volver a repetir ese pedido puedes hacer clic en **Hacer pedido de nuevo**.",
+            "blockClass": "static-accordion-content"
+        }
+    },
+    "menu-item#comohagosimipedido": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "accordion-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "¿Qué hago si mi pedido ha llegado incompleto?"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#static-accordion-content-19"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#static-accordion-content-19": {
+        "props": {
+            "blockClass": "static-accordion-content"
+        },
+        "children": [
+            "rich-text#static-accordion-content-19"
+        ]
+    },
+    "rich-text#static-accordion-content-19": {
+        "props": {
+            "text": "Los pedidos que se realizan en RealPlazaGo.com pueden incluir uno o más vendedores. Puede que un vendedor haga el envío de sus productos antes que otro. Sin embargo, si tu producto ha llego en la fecha indicada y está incompleto, puedes escribirnos a servicioalcliente@realplazago.com o llamar al (01) 601-4000 y te atenderemos.",
+            "blockClass": "static-accordion-content"
+        }
+    },
+    "menu-item#comopuedoanular": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "accordion-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "¿Puedo anular mi compra?"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#static-accordion-content-20"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#static-accordion-content-20": {
+        "props": {
+            "blockClass": "static-accordion-content"
+        },
+        "children": [
+            "rich-text#static-accordion-content-20"
+        ]
+    },
+    "rich-text#static-accordion-content-20": {
+        "props": {
+            "text": "Para anular tu compra debes escribirnos a servicioalcliente@realplazago.com o llamar al (01) 601-4000 y te atenderemos. Ten en cuenta que el plazo de anulación de los pedidos es de 48h antes de la fecha aproximada de entrega.",
+            "blockClass": "static-accordion-content"
+        }
+    },
+    "menu-item#cualeselplazo": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "accordion-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "¿Cuál es el plazo de devolución de mi dinero, si solicito una anulación de mi compra?"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#static-accordion-content-21"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#static-accordion-content-21": {
+        "props": {
+            "blockClass": "static-accordion-content"
+        },
+        "children": [
+            "rich-text#static-accordion-content-21"
+        ]
+    },
+    "rich-text#static-accordion-content-21": {
+        "props": {
+            "text": "El plazo de reembolso varía entre cada vendedor, siendo el plazo máximo 3 días calendario. El extorno dependerá del tiempo que tarda tu banco en realizarlo.",
+            "blockClass": "static-accordion-content"
+        }
+    },
+    "flex-layout.row#static-accordion-faq-6": {
+        "props": {
+            "blockClass": [
+                "static-accordion",
+                "static-faq-no-margin"
+            ]
+        },
+        "children": [
+            "flex-layout.col#static-accordion-menu-faq-6"
+        ]
+    },
+    "flex-layout.col#static-accordion-menu-faq-6": {
+        "props": {
+            "width": "100%"
+        },
+        "children": [
+            "rich-text#title-faq-6",
+            "vtex.menu@2.x:menu#static-accordion-menu-faq-6"
+        ]
+    },
+    "rich-text#title-faq-6": {
+        "props": {
+            "text": "### Cambios y Devoluciones"
+        }
+    },
+    "vtex.menu@2.x:menu#static-accordion-menu-faq-6": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#quedebohacerpararealizar",
+            "menu-item#queplazotengo",
+            "menu-item#enqueproductos"
+        ]
+    },
+    "menu-item#quedebohacerpararealizar": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "accordion-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "¿Qué debo hacer para realizar un cambio o devolución de producto y/o servicio?"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#static-accordion-content-22"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#static-accordion-content-22": {
+        "props": {
+            "blockClass": "static-accordion-content"
+        },
+        "children": [
+            "rich-text#static-accordion-content-22"
+        ]
+    },
+    "rich-text#static-accordion-content-22": {
+        "props": {
+            "text": "Para ayudarte a realizar un cambio o devolución debes escribirnos a servicioalcliente@realplazago.com o llamar al (01) 601-4000. Te informamos que hay ciertos plazos dependiendo de cada vendedor.",
+            "blockClass": "static-accordion-content"
+        }
+    },
+    "menu-item#queplazotengo": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "accordion-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "¿Qué plazo tengo para hacer un cambio o devolución?"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#static-accordion-content-23"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#static-accordion-content-23": {
+        "props": {
+            "blockClass": "static-accordion-content"
+        },
+        "children": [
+            "rich-text#static-accordion-content-23"
+        ]
+    },
+    "rich-text#static-accordion-content-23": {
+        "props": {
+            "text": "El plazo máximo de devolución depende de cada vendedor: \n \n El plazo máximo de devolución de Promart es 30 días calendario después de la fecha de entrega de tu pedido. El plazo máximo de devolución de Oechsle es de 7 días calendario. En el caso de Plaza Vea, para los productos perecibles se podrá hacer la solicitud del cambio y/o devolución hasta 24 horas luego de realizar la compra/recibir pedido. Para productos no perecibles, y productos de electro y hogar, se podrá hacer la solicitud del cambio y/o devolución hasta 7 días luego de realizar la compra/recibir pedido.",
+            "blockClass": "static-accordion-content"
+        }
+    },
+    "menu-item#enqueproductos": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "accordion-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "¿En qué productos no se aceptan devoluciones?"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#static-accordion-content-24"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#static-accordion-content-24": {
+        "props": {
+            "blockClass": "static-accordion-content"
+        },
+        "children": [
+            "rich-text#static-accordion-content-24"
+        ]
+    },
+    "rich-text#static-accordion-content-24": {
+        "props": {
+            "text": "No se aceptarán devoluciones de los siguientes productos: \n - Productos a pedido \n - Productos cortados a medida o preparados (pinturas) \n - Productos con servicio de instalación o armado \n - Productos de exhibición \n - Productos con último stock \n - Productos sujetos a promociones (descuento por volumen, ítem gratis, etc) \n - Tapas de inodoro",
+            "blockClass": "static-accordion-content"
+        }
+    },
+    "flex-layout.row#static-accordion-faq-7": {
+        "props": {
+            "blockClass": [
+                "static-accordion",
+                "static-faq-no-margin"
+            ]
+        },
+        "children": [
+            "flex-layout.col#static-accordion-menu-faq-7"
+        ]
+    },
+    "flex-layout.col#static-accordion-menu-faq-7": {
+        "props": {
+            "width": "100%"
+        },
+        "children": [
+            "rich-text#title-faq-7",
+            "vtex.menu@2.x:menu#static-accordion-menu-faq-7"
+        ]
+    },
+    "rich-text#title-faq-7": {
+        "props": {
+            "text": "### Seguridad"
+        }
+    },
+    "vtex.menu@2.x:menu#static-accordion-menu-faq-7": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#esseguro",
+            "menu-item#realplazago"
+        ]
+    },
+    "menu-item#esseguro": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "accordion-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "¿Es seguro comprar en RealPlazaGo.com?"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#static-accordion-content-25"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#static-accordion-content-25": {
+        "props": {
+            "blockClass": "static-accordion-content"
+        },
+        "children": [
+            "rich-text#static-accordion-content-25"
+        ]
+    },
+    "rich-text#static-accordion-content-25": {
+        "props": {
+            "text": "Sí, en nuestra página web podrás comprar de forma segura. Utilizamos los más altos niveles de seguridad para proteger tanto tus datos personales como los de tus pagos.",
+            "blockClass": "static-accordion-content"
+        }
+    },
+    "menu-item#realplazago": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "accordion-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "¿RealPlazaGo.com realiza llamadas a sus clientes?"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#static-accordion-content-26"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#static-accordion-content-26": {
+        "props": {
+            "blockClass": "static-accordion-content"
+        },
+        "children": [
+            "rich-text#static-accordion-content-26"
+        ]
+    },
+    "rich-text#static-accordion-content-26": {
+        "props": {
+            "text": "Sí, tenemos el compromiso de brindarte el mejor servicio, es así que nos interesa estar comunicados contigo en cada etapa de tu compra a través de RealPlazaGo.com. Nuestro Centro de Servicio al Cliente podrá contactarte para informarte si hubiera algún cambio con el estado de tu pedido, informarte del estado de tus reclamos o reembolsos, entre otras cosas.",
+            "blockClass": "static-accordion-content"
+        }
+    },
+    "flex-layout.row#static-accordion-faq-8": {
+        "props": {
+            "blockClass": [
+                "static-accordion",
+                "static-faq-no-margin"
+            ]
+        },
+        "children": [
+            "flex-layout.col#static-accordion-menu-faq-8"
+        ]
+    },
+    "flex-layout.col#static-accordion-menu-faq-8": {
+        "props": {
+            "width": "100%"
+        },
+        "children": [
+            "rich-text#title-faq-8",
+            "vtex.menu@2.x:menu#static-accordion-menu-faq-8"
+        ]
+    },
+    "rich-text#title-faq-8": {
+        "props": {
+            "text": "### Atención al Cliente"
+        }
+    },
+    "vtex.menu@2.x:menu#static-accordion-menu-faq-8": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#cualeselhorario",
+            "menu-item#comomepuedocomunicar"
+        ]
+    },
+    "menu-item#cualeselhorario": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "accordion-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "¿Cuál es el horario del Centro de Servicio al Cliente?"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#static-accordion-content-27"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#static-accordion-content-27": {
+        "props": {
+            "blockClass": "static-accordion-content"
+        },
+        "children": [
+            "rich-text#static-accordion-content-27"
+        ]
+    },
+    "rich-text#static-accordion-content-27": {
+        "props": {
+            "text": "Nuestro horario es de 9am a 7pm de lunes a sábado. Y de 9am a 3pm los domingos.",
+            "blockClass": "static-accordion-content"
+        }
+    },
+    "menu-item#comomepuedocomunicar": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "accordion-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "¿Cómo me puedo comunicar con el Centro de Servicio al Cliente?"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#static-accordion-content-28"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#static-accordion-content-28": {
+        "props": {
+            "blockClass": "static-accordion-content"
+        },
+        "children": [
+            "rich-text#static-accordion-content-28"
+        ]
+    },
+    "rich-text#static-accordion-content-28": {
+        "props": {
+            "text": "Puedes escribirnos al correo electrónico: servicioalcliente@realplazago.com o llamar al (01) 601-4000 y te atenderemos con mucho gusto. Adicionalmente, contamos con un chat que te acompañará durante tu compra para apoyarte con lo que necesites. Puedes hablar con un agente.",
+            "blockClass": "static-accordion-content"
+        }
+    }
+}

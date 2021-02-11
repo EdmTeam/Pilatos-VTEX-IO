@@ -1,0 +1,54 @@
+{
+    "flex-layout.col#brand-2": {
+        "children": ["flex-layout.row#brand-2-content"],
+        "props": {
+            "blockClass": "contentBrand"
+        }
+    },
+    "flex-layout.row#brand-2-content": {
+        "children": [
+            "flex-layout.col#brand-2-section-1",
+            "flex-layout.col#brand-2-section-2"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "flex-layout.col#brand-2-section-1": {
+        "children": ["image#brand-2"],
+        "props": {
+            "width": "45%",
+            "verticalAlign": "middle"           
+        }
+    },
+    "flex-layout.col#brand-2-section-2": {
+        "children": [
+            "rich-text#brand-2",
+            "rich-text#brand-2-section-2"
+        ],
+        "props": {
+            "width": "55%",
+            "verticalAlign": "middle"
+        }
+    },
+      "image#brand-2": {
+        "props": {
+            "src": "/arquivos/vans.png",
+            "link": {
+                "url": "/"
+            }
+        }
+    },
+    "rich-text#brand-2": {
+        "props": {
+            "text": "*HASTA*\n**20% dto.**",
+            "blockClass": "colorBrand"
+        }
+    },
+    "rich-text#brand-2-section-2": {
+        "props": {
+            "text": "*Productos Seleccionados*",
+            "blockClass": "colorBrandSection2"
+        }
+    }
+}

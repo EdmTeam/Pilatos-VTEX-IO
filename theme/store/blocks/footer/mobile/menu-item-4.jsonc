@@ -1,0 +1,49 @@
+{
+    "vtex.menu@2.x:menu#footer-mobile-3": {
+        "children": [
+            "menu-item#footer-mobile-3-row-1"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+
+    "menu-item#footer-mobile-3-row-1": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "Mi Cuenta"
+            },
+            "blockClass": "accordionLevel1"
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#footer-mobile-3-row-1"
+        ]
+    },
+
+    "vtex.menu@2.x:submenu.accordion#footer-mobile-3-row-1": {
+        "children": [
+            "rich-text#submenu-3-text-1",
+            "rich-text#submenu-3-text-2"
+        ],
+        "props": {
+            "blockClass": "contentSubMenu"
+        }
+    },
+
+    "rich-text#submenu-3-text-1": {
+        "props": {
+            "text": "Iniciar sesión"
+        }
+    },
+
+    "rich-text#submenu-3-text-2": {
+        "props": {
+            "text": "Rastrea tu pedido"
+        }
+    }
+}

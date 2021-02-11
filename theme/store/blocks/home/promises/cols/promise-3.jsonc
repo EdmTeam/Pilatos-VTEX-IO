@@ -1,0 +1,93 @@
+{
+    "flex-layout.col#desk-brands-promise-col3": {
+        "children": [
+            "flex-layout.row#brands-promise-row3"
+        ],
+        "props": {
+            "blockClass": "colPromise"
+        }
+    },
+
+    "flex-layout.col#mobile-brands-promise-col3": {
+        "children": [
+            "flex-layout.row#mobile-brands-promise-row3"
+        ],
+        "props": {
+            "blockClass": "colPromise"
+        }
+    },
+
+    "flex-layout.row#brands-promise-row3": {
+        "children": [
+            "flex-layout.col#promise-3-col1",
+            "flex-layout.col#promise-3-col2"
+        ]
+    },
+
+    "flex-layout.row#mobile-brands-promise-row3": {
+        "children": [
+            "flex-layout.col#promise-3-col1",
+            "flex-layout.col#mobile-promise-3-col2"
+        ]
+    },
+
+    "flex-layout.col#promise-3-col1": {
+        "children": [
+            "rich-text#promise-ico-3"
+        ],
+        "props": {
+            "width": "20%",
+            "blockClass": "promiseImage"
+        }
+    },
+
+    "flex-layout.col#promise-3-col2": {
+        "children": [
+            "rich-text#promise-3-text-1",
+            "rich-text#promise-3-text-2"
+        ],
+        "props": {
+            "width": "80%",
+            "blockClass": "contentRichText"
+        }
+    },
+
+    "flex-layout.col#mobile-promise-3-col2": {
+        "children": [
+            "rich-text#mobile-promise-3-text-1"
+        ],
+        "props": {
+            "width": "80%",
+            "blockClass": "contentRichText"
+        }
+    },
+
+    "rich-text#promise-3-text-1": {
+        "props": {
+            "text": "**DEVOLUCIONES**",
+            "blockClass": "colorPromise"
+        }
+    },
+
+    "rich-text#mobile-promise-3-text-1": {
+        "props": {
+            "text": "**DEVOLUCIÓN**",
+            "blockClass": "colorPromise"
+        }
+    },
+
+    "rich-text#promise-3-text-2": {
+        "props": {
+            "text": "En un plazo de 5 días hábiles luego de la entrega",
+            "blockClass": "colorPromise2"
+        }
+    },
+
+    "rich-text#promise-ico-3": {
+        "props": {
+            "text": "",
+            "width": "100%",
+            "blockClass": "icon-Payment"
+        }
+    }
+}

@@ -1,0 +1,42 @@
+{
+  "flex-layout.row#logo-drawer": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "logo#drawer"
+    ]
+  },
+  "logo#drawer": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "/arquivos/logo.png",
+      "width": "250"
+    }
+  },
+  "flex-layout.row#logo-mobile": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "logo#mobile"
+    ]
+  },
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "/arquivos/logo-mobile.png",
+      "width": "50"
+    }
+  },
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "/arquivos/logo.png",
+      "width": "250"
+    }
+  }
+}

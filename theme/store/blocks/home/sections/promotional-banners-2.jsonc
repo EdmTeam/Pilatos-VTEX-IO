@@ -1,0 +1,285 @@
+{
+    "responsive-layout.phone#promotional-banners-2": {
+        "children":[
+            "flex-layout.row#promotional-banners-2"
+        ]
+    },
+
+    "flex-layout.row#promotional-banners-2": {
+        "children":[
+            "flex-layout.col#promotional-banners-2-col-1",
+            "flex-layout.col#promotional-banners-2-col-2",
+            "flex-layout.col#promotional-banners-2-col-3"
+        ],
+        "props":{
+            "blockClass": "promBannerContent"
+        }
+    },
+
+    "flex-layout.col#promotional-banners-2-col-1":{
+        "children":[
+            "image#promotional-banners-2-img-1",
+            "rich-text#des-promotional-banners-2-img-1",
+            "rich-text#link-promotional-banners-2-img-1"
+        ],
+        "props":{
+            "blockClass": "promBannerContentImg"
+        }
+    },
+
+    "image#promotional-banners-2-img-1": {
+        "props": {
+            "src": "/arquivos/category-banner-mobile-2.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "PromotionalBannerImg"
+        }
+    },
+
+    "rich-text#des-promotional-banners-2-img-1": {
+        "props":{
+            "text": "LEGGINS PARA MUJER",
+            "blockClass": "desPromotionalBanners"
+        }
+    },
+
+    "rich-text#link-promotional-banners-2-img-1": {
+        "props":{
+            "text": "[VER MÁS](#!)",
+            "blockClass": "linkPromotionalBanners"
+        }
+    },
+
+    "flex-layout.col#promotional-banners-2-col-2":{
+        "children":[
+            "image#promotional-banners-2-img-2",
+            "rich-text#des-promotional-banners-2-img-2",
+            "rich-text#link-promotional-banners-2-img-2"
+        ],
+        "props":{
+            "blockClass": "promBannerContentImg"
+        }
+    },
+
+    "image#promotional-banners-2-img-2": {
+        "props": {
+            "src": "/arquivos/category-banner-mobile-1.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "PromotionalBannerImg"
+        }
+    },
+
+    "rich-text#des-promotional-banners-2-img-2": {
+        "props":{
+            "text": "LEGGINS PARA MUJER",
+            "blockClass": "desPromotionalBanners"
+        }
+    },
+
+    "rich-text#link-promotional-banners-2-img-2": {
+        "props":{
+            "text": "[VER MÁS](#!)",
+            "blockClass": "linkPromotionalBanners"
+        }
+    },
+
+    "flex-layout.col#promotional-banners-2-col-3":{
+        "children":[
+            "image#promotional-banners-2-img-3",
+            "rich-text#des-promotional-banners-2-img-3",
+            "rich-text#link-promotional-banners-2-img-3"
+        ],
+        "props":{
+            "blockClass": "promBannerContentImg"
+        }
+    },
+
+    "image#promotional-banners-2-img-3": {
+        "props": {
+            "src": "/arquivos/category-banner-mobile-2.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "PromotionalBannerImg"
+        }
+    },
+
+    "rich-text#des-promotional-banners-2-img-3": {
+        "props":{
+            "text": "LEGGINS PARA MUJER",
+            "blockClass": "desPromotionalBanners"
+        }
+    },
+
+    "rich-text#link-promotional-banners-2-img-3": {
+        "props":{
+            "text": "[VER MÁS](#!)",
+            "blockClass": "linkPromotionalBanners"
+        }
+    },
+
+    //Baners secundarios Desktop
+    "responsive-layout.desktop#promotional-banners-2": {
+        "children":[
+            "flex-layout.row#desk-promotional-banners-2"
+        ]
+    },
+
+    "responsive-layout.tablet#promotional-banners-2": {
+        "children":[
+            "flex-layout.row#desk-promotional-banners-2"
+        ]
+    },
+
+    "flex-layout.row#desk-promotional-banners-2": {
+        "children":[
+            "flex-layout.col#desk-promotional-banners-2-col-1",
+            "flex-layout.col#desk-promotional-banners-2-col-2",
+            "flex-layout.col#desk-promotional-banners-2-col-3"
+        ],
+        "props":{
+            "blockClass": "promBannerContent"
+        }
+    },
+
+    "flex-layout.col#desk-promotional-banners-2-col-1":{
+        "children":[
+            "image#desk-promotional-banners-2-img-1",
+            "rich-text#desk-des-promotional-banners-2-img-1",
+            "rich-text#desk-title-promotional-banners-2-img-1",
+            "rich-text#desk-link-promotional-banners-2-img-1"
+        ],
+        "props":{
+            "blockClass": "promBannerContentImg",
+            "width": "52%"
+        }
+    },
+
+    "image#desk-promotional-banners-2-img-1": {
+        "props": {
+            "src": "/arquivos/category-banner-desk-5.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "PromotionalBannerImg"
+        }
+    },
+
+    "rich-text#desk-title-promotional-banners-2-img-1": {
+        "props":{
+            "text": "LEGGINS PARA MUJER",
+            "blockClass": "desPromotionalBanners"
+        }
+    },
+
+    "rich-text#desk-des-promotional-banners-2-img-1": {
+        "props":{
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "blockClass": "desBanners"
+        }
+    },
+
+    "rich-text#desk-link-promotional-banners-2-img-1": {
+        "props":{
+            "text": "[VER MÁS](#!)",
+            "blockClass": "linkPromotionalBanners"
+        }
+    },
+
+    "flex-layout.col#desk-promotional-banners-2-col-2":{
+        "children":[
+            "image#desk-promotional-banners-2-img-2",
+            "rich-text#desk-des-promotional-banners-2-img-2",
+            "rich-text#desk-title-promotional-banners-2-img-2",
+            "rich-text#desk-link-promotional-banners-2-img-2"
+        ],
+        "props":{
+            "blockClass": "promBannerContentImg",
+            "width": "33%"
+        }
+    },
+
+    "image#desk-promotional-banners-2-img-2": {
+        "props": {
+            "src": "/arquivos/category-banner-desk-4.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "PromotionalBannerImg"
+        }
+    },
+
+    "rich-text#desk-title-promotional-banners-2-img-2": {
+        "props":{
+            "text": "RUNNING",
+            "blockClass": "desPromotionalBannersCenter"
+        }
+    },
+
+    "rich-text#desk-des-promotional-banners-2-img-2": {
+        "props":{
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            "blockClass": "desBannersCenter"
+        }
+    },
+
+    "rich-text#desk-link-promotional-banners-2-img-2": {
+        "props":{
+            "text": "[VER MÁS](#!)",
+            "blockClass": "linkPromotionalBannersCenter"
+        }
+    },
+
+    "flex-layout.col#desk-promotional-banners-2-col-3":{
+        "children":[
+            "image#desk-promotional-banners-2-img-3",
+            "rich-text#desk-des-promotional-banners-2-img-3",
+            "rich-text#desk-title-promotional-banners-2-img-3",
+            "rich-text#desk-link-promotional-banners-2-img-3"
+        ],
+        "props":{
+            "blockClass": "promBannerContentImg",
+            "width": "52%"
+        }
+    },
+
+    "image#desk-promotional-banners-2-img-3": {
+        "props": {
+            "src": "/arquivos/category-banner-desk-5.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "PromotionalBannerImg"
+        }
+    },
+
+    "rich-text#desk-title-promotional-banners-2-img-3": {
+        "props":{
+            "text": "LEGGINS PARA MUJER",
+            "blockClass": "desPromotionalBanners"
+        }
+    },
+
+    "rich-text#desk-des-promotional-banners-2-img-3": {
+        "props":{
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "blockClass": "desBanners"
+        }
+    },
+
+    "rich-text#desk-link-promotional-banners-2-img-3": {
+        "props":{
+            "text": "[VER MÁS](#!)",
+            "blockClass": "linkPromotionalBanners"
+        }
+    }
+}

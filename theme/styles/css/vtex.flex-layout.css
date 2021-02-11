@@ -1,0 +1,342 @@
+.flexCol--filterCol {
+  max-width: 500px;
+  min-width: 230px;
+}
+
+.flexColChild{
+  height: auto !important;
+}
+
+.flexRow--productSpecificationGroup:not(:first-child) {
+  margin-top: 1.5rem;
+}
+
+.flexRow--productSpecificationGroupName {
+  background-color: gray;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+}
+
+.flexCol--productSpecificationName {
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.flexCol--productSpecificationValue {
+  padding: 1rem 1rem 1rem 0;
+}
+
+.flexRow--productSpecification:nth-child(even) {
+  background-color: #f7f7f7;
+}
+
+.flexRow--copyright{
+    background-color:#000000;
+}
+
+@media only screen and (min-width: 1180px){
+  .flexRow--contentPromotionalDesk{
+    width: 85%;
+  }
+}
+
+/* Estilos personalizados footer */
+
+.flexRow--contentFooter{
+  padding: 2rem 1.5rem 0 1.5rem;
+}
+
+.flexRowContent--contentItem1{
+  padding: 2rem 1.5rem 0 1.5rem;
+}
+
+.flexRow--contentContact{
+  margin: 0;
+}
+
+.flexRow--rowContactFull{
+  margin: .3rem 0;
+}
+
+.flexColChild--contentRichtextFooter{
+  display: flex;
+  align-items: center;
+}
+
+.flexRowContent--contentStorelocator{
+  padding: .9rem 5.5rem;
+  border: 1px solid #000000;
+  margin: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flexColChild--contentFooter{
+  margin: .5rem 0;
+}
+
+@media only screen and (min-width: 764px){
+  .flexRowContent--contentStorelocator{
+    min-width: 180px;
+    width: 75%;
+    padding: .8rem 1rem;
+  }
+}
+
+/* Footer desktop */
+
+@media only screen and (min-width: 1180px){
+  .flexRowContent--contentfooter{
+    display: block;
+  }
+
+  .flexRowContent--contentContact{
+    display: block;
+  }
+
+  .flexCol--contenteItem{
+    margin-left: 3rem;
+  }
+
+  .flexCol--contenteItem1{
+    margin: 0 1rem;
+  }
+
+  .flexCol--contenteItemAyuda{
+    margin-left: 5rem;
+  }
+
+  .flexRowContent--contentStorelocator{
+    padding: .7rem 1rem;
+    width: 90%;
+    text-align: center;
+  }
+
+  .flexColChild--contenteItem{
+    height: auto !important;
+  }
+
+  .flexCol--contentRichtextFooter{
+    justify-content: center;
+    margin-left: .5rem;
+  }
+}
+
+/* Estilos Header */
+
+.flexRowContent--contenedorHeader, .flexColChild--contenedorHeader{
+  flex-direction: column;
+  background: #FFFFFF;
+}
+
+.flexCol--contenicos{
+  padding-right: 2rem;
+}
+
+.flexRow--contentHeaderRow1{
+  padding: 1rem 0;
+  margin: 0;
+}
+
+.flexColChild--icoLogin, 
+.flexCol--icoWishlist, 
+.flexColChild--icoCart, 
+.flexColChild--contentLogo,
+.flexCol--contentSearchMobile{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flexCol--contentLogo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1rem;
+}
+
+.flexRow--contentHeaderMenu{
+  width: 50%;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+
+.flexRow--contentHeaderMenuActive{
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+
+/* Estilos a promesa de valor de marca */
+.flexRow--contentPromeses{
+  width: 90%;
+  margin: 1rem auto 2rem auto;
+}
+
+.flexCol--promiseImage{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: .6rem;
+}
+
+.flexCol--colPromise{
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin: 0 .5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: .5rem .6rem;
+}
+
+@media only screen and (min-width: 1180px){
+  .flexCol--promiseImage{
+    margin-bottom: 0;
+  }
+
+  .flexRow--contentPromeses{
+    width: 80%;
+    padding: 1rem .6rem;
+  }
+
+  .flexCol--colPromise{
+    margin: 0 3.2rem;
+    padding: 1rem .6rem;
+  }
+}
+
+@media only screen and (min-width: 1260px){
+  .flexCol--colPromise{
+    margin: 0 2rem;
+    padding: 1rem .6rem;
+  }
+}
+
+
+/* Estilos para la vitrina */
+.flexRow--sliderContentShelf{
+  width: 80%;
+  margin: 0 auto 2rem auto;
+}
+
+.flexRow--contentPrice{
+  margin-bottom: .5rem;
+}
+
+.flexColChild--contentPrices{
+  text-align: left;
+}
+
+.flexRow--contentButton{
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 50px;
+}
+
+@media only screen and (min-width: 1180px){
+  .flexColChild--contentButton{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+/* Estilos a los banners secundarios */
+.flexRow--contentPromotionalBannerDesk{
+  width: 80%;
+  margin: 1rem auto 2rem auto;
+}
+
+.flexCol--PromotionalBannerConterImg{
+  margin: 0 .8rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.flexRowContent--contentTitle{
+  position: relative;
+}
+
+.flexCol--contentTitleText{
+  z-index: 2;
+}
+
+.flexCol--contentTitleLine{
+  height: 5px;
+  width: 220px !important;
+  background: #FFD400;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+@media only screen and (min-width: 760px){
+  .flexRowContent--contentTitle{
+    flex-direction: column;
+  }
+
+  .flexRow--contentCategoryBannerDesk{
+    width: 80%;
+    margin: 1rem auto 2rem auto;
+  }
+
+  .flexRowContent--contentTitle .stretchChildrenWidth{
+    width: 100% !important;
+  }
+
+  .flexCol--categoryBannerConterImg{
+    margin: 0 .8rem;
+  }
+}
+
+.flexRowContent--promBannerContent{
+  width: 93% !important;
+  margin: 2rem auto 0 auto;
+}
+
+.flexCol--promBannerContentImg{
+  position: relative;
+  margin-bottom: 1.3rem;
+}
+
+@media only screen and (min-width: 760px){
+  .flexRow--promBannerContent{
+    width: 80% !important;
+    margin: 0 auto;
+  }
+
+  .flexRowContent--promBannerContent{
+    width: auto !important;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch
+  }
+
+  .flexRowContent--promBannerContent::-webkit-scrollbar {
+    background: #E5E5E5;
+    display: block;
+  }
+
+  .flexRowContent--promBannerContent::-webkit-scrollbar{
+    background: transparent;
+    height: 10px;
+    border-radius: 10px;
+    display: block;
+  }
+
+  .flexRowContent--promBannerContent .stretchChildrenWidth{
+    flex: 10 0 auto;
+    margin: 0 .6rem;
+  }
+
+  .flexRowContent--promBannerContent .stretchChildrenWidth:nth-child(odd){
+    width: 568.250px !important;
+  }
+
+  .flexRowContent--promBannerContent .stretchChildrenWidth:nth-child(even){
+    width: 360.609px !important;
+  }
+}

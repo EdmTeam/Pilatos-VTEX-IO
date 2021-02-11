@@ -1,0 +1,77 @@
+{
+    "vtex.menu@2.x:menu#footer-mobile-2": {
+        "children": [
+            "menu-item#footer-mobile-2-row-1"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+
+    "menu-item#footer-mobile-2-row-1": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "Información Legal"
+            },
+            "blockClass": "accordionLevel1"
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#footer-mobile-2-row-1"
+        ]
+    },
+
+    "vtex.menu@2.x:submenu.accordion#footer-mobile-2-row-1": {
+        "children": [
+            "rich-text#submenu-2-text-1",
+            "rich-text#submenu-2-text-2",
+            "rich-text#submenu-2-text-3",
+            "rich-text#submenu-2-text-4",
+            "rich-text#submenu-2-text-5",
+            "rich-text#submenu-2-text-6"
+        ],
+        "props": {
+            "blockClass": "contentSubMenu"
+        }
+    },
+
+    "rich-text#submenu-2-text-1": {
+        "props": {
+            "text": "Términos y condiciones"
+        }
+    },
+
+    "rich-text#submenu-2-text-2": {
+        "props": {
+            "text": "Politícas de privacidad"
+        }
+    },
+
+    "rich-text#submenu-2-text-3": {
+        "props": {
+            "text": "Promociones vigentes"
+        }
+    },
+
+    "rich-text#submenu-2-text-4": {
+        "props": {
+            "text": "Promociones PILATOS Outlet y Mixtas"
+        }
+    },
+
+    "rich-text#submenu-2-text-5": {
+        "props": {
+            "text": "Promociones Tiendas New Balance"
+        }
+    },
+
+    "rich-text#submenu-2-text-6": {
+        "props": {
+            "text": "Promociones Tiendas CELIO"
+        }
+    }
+}

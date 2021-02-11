@@ -1,0 +1,113 @@
+{
+  "store.orderplaced": {
+    "blocks": [
+      "order-placed"
+    ]
+  },
+  "store.account": {
+    "blocks": [
+      "my-account"
+    ],
+    "parent": {
+      "challenge": "challenge.profile"
+    }
+  },
+  "store.login": {
+    "blocks": [
+      "login-content"
+    ]
+  },
+  "login": {
+    "props": {
+      "iconLabel": "Mi Cuenta",
+      "showIconProfile": true,
+      "accountOptionLinks": [
+        {
+          "label": "Mi Perfil",
+          "path": "/account#/profile",
+          "cssClass": "profile-link"
+        },
+        {
+          "label": "Mis Direcciones",
+          "path": "/account#/addresses",
+          "cssClass": "profile-link"
+        },
+        {
+          "label": "Mis Pedidos",
+          "path": "/account#/orders",
+          "cssClass": "profile-link"
+        }
+      ],
+      "emailPlaceholder": "Ingresa tu email",
+      "optionsTitle": "Elige una de las opciones para confirmar tu identidad",
+      "accessCodeTitle": "Ingresa tu correo electrónico para enviarte tu código de acceso",
+      "termsAndConditions": "Al registrarte estas aceptando nuestros [Términos y Condiciones](/terminos-y-condiciones) y nuestras [Políticas de Privacidad](/politicas-de-privacidad)"
+    }
+  },
+  "login-content": {
+    "props": {
+      "isInitialScreenOptionOnly": false,
+      "defaultOption": 1,
+      "showPasswordVerificationIntoTooltip": true
+    }
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "flex-layout.row#spacer": {
+    "props": {
+      "paddingBottom": 7,
+      "marginBottom":7
+    }
+  },
+  "slider-layout#home-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "always"
+    }
+  },
+  "product-price": {
+    "props": {
+      "showSavings": true,
+      "showInstallments": true
+    }
+  }, 
+  "flex-layout.row#product-prices": {
+    "children": [
+      //"summary-full-price"
+    ]
+  },
+  "back-to-top-button": {
+    "props": {
+      "displayThreshold": "400",
+      "display": "caret-icon"
+    }
+  },
+  "add-to-cart-button": {
+    "props": {
+      "text": "Lo quiero",
+      "unavailableText": "Agotado"
+    }
+  },
+  "product-summary-specification-badges": {
+    "props": {
+      "specificationGroupName": "Group",
+      "specificationName": "On Sale",
+      "visibleWhen": true,
+      "displayValue": "SPECIFICATION_NAME"
+    }
+  },
+  "store.product-review-form": {
+    "blocks": [
+      "product-review-form"
+    ]
+  }
+}

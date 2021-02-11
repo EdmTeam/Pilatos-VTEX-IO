@@ -1,0 +1,671 @@
+{
+    "store.custom#quienes-somos": {
+        "props": {
+            "blockClass": "quienes-somos"
+        },
+        "blocks": [
+            "flex-layout.row#static-top-title",
+            "flex-layout.row#static-top-body",
+            "flex-layout.row#static-top-image",
+            "flex-layout.row#static-two-columns",
+            "flex-layout.row#static-title-with-bg",
+            "flex-layout.row#static-term-title",
+            "flex-layout.row#static-term-subtitle",
+            "flex-layout.row#static-term-item",
+            "flex-layout.row#static-term-item",
+            "flex-layout.row#static-term-item",
+            "flex-layout.row#static-body-with-bg",
+            "flex-layout.row#static-term-item-2",
+            "flex-layout.row#static-term-item-2",
+            "flex-layout.row#static-term-item-2",
+            "flex-layout.row#static-table",
+            "flex-layout.row#static-table-2",
+            "flex-layout.row#static-accordion"
+            /* "flex-layout.row#form" */
+        ]
+    },
+    "flex-layout.row#static-top-title": {
+        "props": {
+            "blockClass": "static-top-title"
+        },
+        "children": [
+            "rich-text#static-top-title"
+        ]
+    },
+    "rich-text#static-top-title": {
+        "props": {
+            "text": "LOREM IPSUM DOLOR SIT AMET CONSECTETUER ADIPISCING ELI",
+            "blockClass": "static-top-title"
+        }
+    },
+    "flex-layout.row#static-top-body": {
+        "props": {
+            "blockClass": "static-top-body"
+        },
+        "children": [
+            "rich-text#static-top-body"
+        ]
+    },
+    "rich-text#static-top-body": {
+        "props": {
+            "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.",
+            "blockClass": "static-top-body"
+        }
+    },
+    "flex-layout.row#static-top-image": {
+        "props": {
+            "blockClass": "static-top-image"
+        },
+        "children": [
+            "image#static-top-image"
+        ]
+    },
+    "image#static-top-image": {
+        "props": {
+            "src": "/arquivos/static-template-image.png",
+            "blockClass": "static-top-image"
+        }
+    },
+    "flex-layout.row#static-two-columns": {
+        "props": {
+            "blockClass": "static-two-columns"
+        },
+        "children": [
+            "flex-layout.col#column-1",
+            "flex-layout.col#column-2"
+        ]
+    },
+    "flex-layout.col#column-1": {
+        "props": {
+            "blockClass": "column-1"
+        },
+        "children": [
+            "rich-text#title-column-1",
+            "rich-text#body-column-1"
+        ]
+    },
+    "rich-text#title-column-1": {
+        "props": {
+            "text": "LOREM IPSUM DOLOR SIT AMET, CONSECTETUER ADIPISCING ELIT, SED DIAM NONUMMY NIBH",
+            "blockClass": "title-column"
+        }
+    },
+    "rich-text#body-column-1": {
+        "props": {
+            "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. \n \n Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie conse-quat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. \n \n Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie conse-quat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.",
+            "blockClass": "body-column"
+        }
+    },
+    "flex-layout.col#column-2": {
+        "props": {
+            "blockClass": "column-2"
+        },
+        "children": [
+            "rich-text#title-column-2",
+            "rich-text#body-column-2"
+        ]
+    },
+    "rich-text#title-column-2": {
+        "props": {
+            "text": "LOREM IPSUM DOLOR SIT AMET, CONSECTETUER ADIPISCING ELIT, SED DIAM NONUMMY NIBH",
+            "blockClass": "title-column"
+        }
+    },
+    "rich-text#body-column-2": {
+        "props": {
+            "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. \n \n Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie conse-quat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.",
+            "blockClass": "body-column"
+        }
+    },
+    "flex-layout.row#static-title-with-bg": {
+        "props": {
+            "blockClass": "static-title-with-bg"
+        },
+        "children": [
+            "rich-text#static-title-with-bg"
+        ]
+    },
+    "rich-text#static-title-with-bg": {
+        "props": {
+            "text": "Términos y condiciones",
+            "blockClass": "static-title-with-bg"
+        }
+    },
+    "flex-layout.row#static-term-title": {
+        "props": {
+            "blockClass": "static-term-title",
+            "marginBottom": 3
+        },
+        "children": [
+            "rich-text#static-term-title"
+        ]
+    },
+    "rich-text#static-term-title": {
+        "props": {
+            "text": "Término para la aceptación de la oferta",
+            "blockClass": "static-term-title"
+        }
+    },
+    "flex-layout.row#static-term-subtitle": {
+        "props": {
+            "marginBottom": 4,
+            "blockClass": "static-term-title"
+        },
+        "children": [
+            "rich-text#static-term-subtitle"
+        ]
+    },
+    "rich-text#static-term-subtitle": {
+        "props": {
+            "text": "Lorem ipsumdolor sit amet",
+            "blockClass": "static-term-subtitle"
+        }
+    },
+    "flex-layout.row#static-term-item": {
+        "props": {
+            "marginBottom": 5,
+            "blockClass": "static-term-item"
+        },
+        "children": [
+            "rich-text#static-term-item"
+        ]
+    },
+    "rich-text#static-term-item": {
+        "props": {
+            "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
+            "blockClass": "static-term-item"
+        }
+    },
+    "flex-layout.row#static-body-with-bg": {
+        "props": {
+            "blockClass": "static-body-with-bg"
+        },
+        "children": [
+            "rich-text#static-body-with-bg"
+        ]
+    },
+    "rich-text#static-body-with-bg": {
+        "props": {
+            "text": "Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.",
+            "blockClass": "static-body-with-bg"
+        }
+    },
+    "flex-layout.row#static-term-item-2": {
+        "props": {
+            "marginBottom": 5,
+            "blockClass": [
+                "static-term-item",
+                "static-term-item-2"
+            ]
+        },
+        "children": [
+            "rich-text#static-term-item-2"
+        ]
+    },
+    "rich-text#static-term-item-2": {
+        "props": {
+            "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
+            "blockClass": "static-term-item-2"
+        }
+    },
+    "flex-layout.row#static-table": {
+        "props": {
+            "marginTop": 4,
+            "marginBottom": 5,
+            "blockClass": "static-table"
+        },
+        "children": [
+            "flex-layout.col#static-table"
+        ]
+    },
+    "flex-layout.col#static-table": {
+        "props": {
+            "blockClass": "static-table"
+        },
+        "children": [
+            "flex-layout.row#static-table-head",
+            "flex-layout.row#static-table-body",
+            "flex-layout.row#static-table-body",
+            "flex-layout.row#static-table-body",
+            "flex-layout.row#static-table-body"
+        ]
+    },
+    "flex-layout.row#static-table-head": {
+        "props": {
+            "blockClass": "static-table-head"
+        },
+        "children": [
+            "flex-layout.col#static-table-head-col-1",
+            "flex-layout.col#static-table-head-col-2"
+        ]
+    },
+    "flex-layout.col#static-table-head-col-1": {
+        "props": {
+            "blockClass": [
+                "static-table-head-col",
+                "static-table-head-col-1"
+            ]
+        },
+        "children": [
+            "rich-text#static-table-head-col-1"
+        ]
+    },
+    "rich-text#static-table-head-col-1": {
+        "props": {
+            "text": "Punto de Atención",
+            "blockClass": [
+                "static-table-head-col",
+                "static-table-head-col-1"
+            ]
+        }
+    },
+    "flex-layout.col#static-table-head-col-2": {
+        "props": {
+            "blockClass": [
+                "static-table-head-col",
+                "static-table-head-col-2"
+            ]
+        },
+        "children": [
+            "rich-text#static-table-head-col-2"
+        ]
+    },
+    "rich-text#static-table-head-col-2": {
+        "props": {
+            "text": "Información Principal",
+            "blockClass": [
+                "static-table-head-col",
+                "static-table-head-col-2"
+            ]
+        }
+    },
+    "flex-layout.row#static-table-body": {
+        "props": {
+            "blockClass": "static-table-body"
+        },
+        "children": [
+            "flex-layout.col#static-table-body-col-1",
+            "flex-layout.col#static-table-body-col-2"
+        ]
+    },
+    "flex-layout.col#static-table-body-col-1": {
+        "props": {
+            "blockClass": [
+                "static-table-body-col",
+                "static-table-body-col-1"
+            ]
+        },
+        "children": [
+            "rich-text#static-table-body-col-1"
+        ]
+    },
+    "rich-text#static-table-body-col-1": {
+        "props": {
+            "text": "Real Plaza Miraflores",
+            "blockClass": [
+                "static-table-body-col",
+                "static-table-body-col-1"
+            ]
+        }
+    },
+    "flex-layout.col#static-table-body-col-2": {
+        "props": {
+            "blockClass": [
+                "static-table-body-col",
+                "static-table-body-col-2"
+            ]
+        },
+        "children": [
+            "rich-text#static-table-body-col-2"
+        ]
+    },
+    "rich-text#static-table-body-col-2": {
+        "props": {
+            "text": "Aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie.",
+            "blockClass": [
+                "static-table-body-col",
+                "static-table-body-col-2"
+            ]
+        }
+    },
+    "flex-layout.row#static-table-2": {
+        "props": {
+            "marginTop": 4,
+            "marginBottom": 8,
+            "blockClass": [
+                "static-table",
+                "static-table-2"
+            ]
+        },
+        "children": [
+            "flex-layout.col#static-table-2"
+        ]
+    },
+    "flex-layout.col#static-table-2": {
+        "props": {
+            "blockClass": "static-table"
+        },
+        "children": [
+            "flex-layout.row#static-table-head-2",
+            "flex-layout.row#static-table-body-2",
+            "flex-layout.row#static-table-body-2",
+            "flex-layout.row#static-table-body-2",
+            "flex-layout.row#static-table-body-2"
+        ]
+    },
+    "flex-layout.row#static-table-head-2": {
+        "props": {
+            "blockClass": "static-table-head"
+        },
+        "children": [
+            "flex-layout.col#static-table-head-col-3",
+            "flex-layout.col#static-table-head-col-4",
+            "flex-layout.col#static-table-head-col-5",
+            "flex-layout.col#static-table-head-col-6"
+        ]
+    },
+    "flex-layout.col#static-table-head-col-3": {
+        "props": {
+            "blockClass": [
+                "static-table-head-col",
+                "static-table-head-col-3"
+            ]
+        },
+        "children": [
+            "rich-text#static-table-head-col-3"
+        ]
+    },
+    "rich-text#static-table-head-col-3": {
+        "props": {
+            "text": "Punto de Atención",
+            "blockClass": [
+                "static-table-head-col",
+                "static-table-head-col-3"
+            ]
+        }
+    },
+    "flex-layout.col#static-table-head-col-4": {
+        "props": {
+            "blockClass": [
+                "static-table-head-col",
+                "static-table-head-col-3"
+            ]
+        },
+        "children": [
+            "rich-text#static-table-head-col-4"
+        ]
+    },
+    "rich-text#static-table-head-col-4": {
+        "props": {
+            "text": "Números de tiendas",
+            "blockClass": [
+                "static-table-head-col",
+                "static-table-head-col-4"
+            ]
+        }
+    },
+    "flex-layout.col#static-table-head-col-5": {
+        "props": {
+            "blockClass": [
+                "static-table-head-col",
+                "static-table-head-col-5"
+            ]
+        },
+        "children": [
+            "rich-text#static-table-head-col-5"
+        ]
+    },
+    "rich-text#static-table-head-col-5": {
+        "props": {
+            "text": "Teléfono",
+            "blockClass": [
+                "static-table-head-col",
+                "static-table-head-col-5"
+            ]
+        }
+    },
+    "flex-layout.col#static-table-head-col-6": {
+        "props": {
+            "blockClass": [
+                "static-table-head-col",
+                "static-table-head-col-6"
+            ]
+        },
+        "children": [
+            "rich-text#static-table-head-col-6"
+        ]
+    },
+    "rich-text#static-table-head-col-6": {
+        "props": {
+            "text": "Horario de atención",
+            "blockClass": [
+                "static-table-head-col",
+                "static-table-head-col-6"
+            ]
+        }
+    },
+    "flex-layout.row#static-table-body-2": {
+        "props": {
+            "blockClass": "static-table-body"
+        },
+        "children": [
+            "flex-layout.col#static-table-body-col-3",
+            "flex-layout.col#static-table-body-col-4",
+            "flex-layout.col#static-table-body-col-5",
+            "flex-layout.col#static-table-body-col-6"
+        ]
+    },
+    "flex-layout.col#static-table-body-col-3": {
+        "props": {
+            "blockClass": [
+                "static-table-body-col",
+                "static-table-body-col-3"
+            ]
+        },
+        "children": [
+            "rich-text#static-table-body-col-3"
+        ]
+    },
+    "rich-text#static-table-body-col-3": {
+        "props": {
+            "text": "Real Plaza Miraflores",
+            "blockClass": [
+                "static-table-body-col",
+                "static-table-body-col-3"
+            ]
+        }
+    },
+    "flex-layout.col#static-table-body-col-4": {
+        "props": {
+            "blockClass": [
+                "static-table-body-col",
+                "static-table-body-col-4"
+            ]
+        },
+        "children": [
+            "rich-text#static-table-body-col-4"
+        ]
+    },
+    "rich-text#static-table-body-col-4": {
+        "props": {
+            "text": "35 tiendas",
+            "blockClass": [
+                "static-table-body-col",
+                "static-table-body-col-4"
+            ]
+        }
+    },
+    "flex-layout.col#static-table-body-col-5": {
+        "props": {
+            "blockClass": [
+                "static-table-body-col",
+                "static-table-body-col-5"
+            ]
+        },
+        "children": [
+            "rich-text#static-table-body-col-5"
+        ]
+    },
+    "rich-text#static-table-body-col-5": {
+        "props": {
+            "text": "+51 161 18200",
+            "blockClass": [
+                "static-table-body-col",
+                "static-table-body-col-5"
+            ]
+        }
+    },
+    "flex-layout.col#static-table-body-col-6": {
+        "props": {
+            "blockClass": [
+                "static-table-body-col",
+                "static-table-body-col-6"
+            ]
+        },
+        "children": [
+            "rich-text#static-table-body-col-6"
+        ]
+    },
+    "rich-text#static-table-body-col-6": {
+        "props": {
+            "text": "Lun a Dom de 8:00 am a 20:00 pm",
+            "blockClass": [
+                "static-table-body-col",
+                "static-table-body-col-6"
+            ]
+        }
+    },
+    "flex-layout.row#static-accordion": {
+        "props": {
+            "blockClass": "static-accordion"
+        },
+        "children": [
+            "flex-layout.col#static-accordion-text",
+            "flex-layout.col#static-accordion-menu"
+        ]
+    },
+    "flex-layout.col#static-accordion-text": {
+        "props": {
+            "width": "40%",
+            "paddingRight": 5,
+            "blockClass": "static-accordion-text"
+        },
+        "children": [
+            "rich-text#static-accordion-text-title",
+            "rich-text#static-accordion-text-body"
+        ]
+    },
+    "rich-text#static-accordion-text-title": {
+        "props": {
+            "text": "LOREM IPSUM DOLOR",
+            "blockClass": "static-accordion-text-title"
+        }
+    },
+    "rich-text#static-accordion-text-body": {
+        "props": {
+            "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam,",
+            "blockClass": "static-accordion-text-body"
+        }
+    },
+    "flex-layout.col#static-accordion-menu": {
+        "props": {
+            "width": "60%",
+            "paddingLeft": 8
+        },
+        "children": [
+            "vtex.menu@2.x:menu#static-accordion-menu"
+        ]
+    },
+    "vtex.menu@2.x:menu#static-accordion-menu": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#lorem",
+            "menu-item#lorem",
+            "menu-item#lorem",
+            "menu-item#lorem"
+        ]
+    },
+    "menu-item#lorem": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "accordion-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "¿Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed?"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#static-accordion-content"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#static-accordion-content": {
+        "props": {
+            "blockClass": "static-accordion-content"
+        },
+        "children": [
+            "rich-text#static-accordion-content"
+        ]
+    },
+    "rich-text#static-accordion-content": {
+        "props": {
+            "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullam- corper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendre- rit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.",
+            "blockClass": "static-accordion-content"
+        }
+    },
+    "flex-layout.row#form": {
+        "children": [
+            "flex-layout.col#form"
+        ]
+    },
+    "flex-layout.col#form": {
+        "children": [
+            "form"
+        ]
+    },
+    "form": {
+        "props": {
+            "entity": "CS",
+            "schema": "Customers"
+        },
+        "children": [
+            "form-input.text#name",
+            "form-input.text#last_name",
+            "form-submit"
+        ],
+        "blocks": [
+            "form-success"
+        ]
+    },
+    "form-success": {
+        "children": [
+            "rich-text#successSubmit"
+        ]
+    },
+    "rich-text#successSubmit": {
+        "props": {
+            "text": "Succesfully submitted the data!",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "form-input.text#name": {
+        "props": {
+            "pointer": "#/properties/name"
+        }
+    },
+    "form-input.text#last_name": {
+        "props": {
+            "pointer": "#/properties/last_name"
+        }
+    },
+    "form-submit": {
+        "props": {
+            "label": "Submit"
+        }
+    }
+}

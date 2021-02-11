@@ -1,0 +1,10 @@
+{
+    "footer": {
+        "blocks": [
+            "footer-layout.mobile",
+            // "footer-layout.tablet",
+            "footer-layout.desktop"
+        ]
+    }
+}
+  

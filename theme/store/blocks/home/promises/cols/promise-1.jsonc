@@ -1,0 +1,93 @@
+{
+    "flex-layout.col#desk-brands-promise-col1": {
+        "children": [
+            "flex-layout.row#brands-promise-row1"
+        ],
+        "props": {
+            "blockClass": "colPromise"
+        }
+    },
+
+    "flex-layout.col#mobile-brands-promise-col1": {
+        "children": [
+            "flex-layout.row#mobile-brands-promise-row1"
+        ],
+        "props": {
+            "blockClass": "colPromise"
+        }
+    },
+
+    "flex-layout.row#brands-promise-row1": {
+        "children": [
+            "flex-layout.col#promise-1-col1",
+            "flex-layout.col#promise-1-col2"
+        ]
+    },
+
+    "flex-layout.row#mobile-brands-promise-row1": {
+        "children": [
+            "flex-layout.col#promise-1-col1",
+            "flex-layout.col#mobile-promise-1-col2"
+        ]
+    },
+
+    "flex-layout.col#promise-1-col1": {
+        "children": [
+            "rich-text#promise-ico-1"
+        ],
+        "props": {
+            "blockClass": "promiseImage",
+            "width": "20%"
+        }
+    },
+
+    "flex-layout.col#promise-1-col2": {
+        "children": [
+            "rich-text#promise-1-text-1",
+            "rich-text#promise-1-text-2"
+        ],
+        "props": {
+            "width": "80%",
+            "blockClass": "contentRichText"
+        }
+    },
+
+    "flex-layout.col#mobile-promise-1-col2": {
+        "children": [
+            "rich-text#mobile-promise-1-text-1"
+        ],
+        "props": {
+            "width": "80%",
+            "blockClass": "contentRichText"
+        }
+    },
+
+    "rich-text#promise-1-text-1": {
+        "props": {
+            "text": "**COMPRA ASEGURADA**",
+            "blockClass": "colorPromise"
+        }
+    },
+
+    "rich-text#mobile-promise-1-text-1": {
+        "props": {
+            "text": "**COMPRA SEGURA**",
+            "blockClass": "colorPromise"
+        }
+    },
+
+    "rich-text#promise-1-text-2": {
+        "props": {
+            "text": "Compra de forma segura con la tecnología SSL",
+            "blockClass": "colorPromise2"
+        }
+    },
+
+    "rich-text#promise-ico-1": {
+        "props": {
+            "text": "",
+            "width": "100%",
+            "blockClass": "icon-Security"
+        }
+    }
+}

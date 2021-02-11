@@ -1,0 +1,54 @@
+{
+    "flex-layout.col#brand-1": {
+        "children": ["flex-layout.row#brand-1-content"],
+        "props": {
+            "blockClass": "contentBrand"
+        }
+    },
+    "flex-layout.row#brand-1-content": {
+        "children": [
+            "flex-layout.col#brand-1-section-1",
+            "flex-layout.col#brand-1-section-2"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "flex-layout.col#brand-1-section-1": {
+        "children": ["image#brand-1"],
+        "props": {
+            "width": "45%",
+            "verticalAlign": "middle"           
+        }
+    },
+    "flex-layout.col#brand-1-section-2": {
+        "children": [
+            "rich-text#brand-1",
+            "rich-text#brand-1-section-2"
+        ],
+        "props": {
+            "width": "55%",
+            "verticalAlign": "middle"
+        }
+    },
+    "image#brand-1": {
+        "props": {
+            "src": "/arquivos/puma.png",
+            "link": {
+                "url": "/"
+            }
+        }
+    },
+    "rich-text#brand-1": {
+        "props": {
+            "text": "*APROVECHA*\n**2X1**",
+            "blockClass": "colorBrand"
+        }
+    },
+    "rich-text#brand-1-section-2": {
+        "props": {
+            "text": "*Ropa de Mujer*",
+            "blockClass": "colorBrandSection2"
+        }
+    }
+}

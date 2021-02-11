@@ -1,0 +1,16 @@
+.stackItem--quickview {
+  right: 0;
+  top: 0;
+  left: auto;
+}
+
+.stackItem--imageShelf--addWishList{
+  right: 0;
+  bottom: 0;
+  left: auto;
+  top: auto;
+  padding: 8px;
+  border-radius: 50%;
+  background: #ffffff;
+  margin: 10px;
+}

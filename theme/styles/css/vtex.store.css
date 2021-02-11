@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&display=swap');
+@import url('/arquivos/font-icommon.css');
+
+/* Variables */
+
+
+/* Estilos forzados */
+:global(.vtex-stack-layout-0-x-stackItem--addWishList)
+:global(.vtex-button__label){
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* :global(.vtex-wish-list-1-x-outline){
+    background: transparent;
+} */
+
+@media only screen and (min-width: 1180px){
+    :global(.vtex-button)
+    :global(.vtex-button__label){
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+}
+
+:global(.vtex-stack-layout-0-x-stackItem--addWishList)
+:global(.vtex-wish-list-1-x-iconSize){
+    width: 20px;
+    height: 20px;
+}
+
+:global(.vtex-stack-layout-0-x-stackItem--addWishList)
+:global(.vtex-button){
+    min-height: auto !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--contentButton)
+:global(.vtex-button__label){
+    padding: 0 !important;
+}
+
+::-webkit-scrollbar {
+    display: block;
+    background: #E5E5E5;
+}
+::-webkit-scrollbar-track {
+    display: block;
+
+}
+::-webkit-scrollbar-thumb {
+    display: block;
+    background: #AAA9A9;
+    border-radius: 10px;
+}

@@ -1,0 +1,9 @@
+.listContainer{
+    justify-content: space-evenly;
+}
+
+.container .listContainer :global(.vtex-rich-text-0-x-paragraph) {
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}

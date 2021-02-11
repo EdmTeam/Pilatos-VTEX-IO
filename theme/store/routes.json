@@ -1,0 +1,20 @@
+{
+    "store.custom#quienes-somos": {
+        "path": "/quienes-somos"
+    },
+
+    "store.custom#contact-us": {
+        "path": "/contactenos"
+    },
+
+    "store.custom#faq": {
+        "path": "/preguntas-frecuentes"
+    },
+    "store.custom#less-price": {
+        "path": "/menos-49"
+    },
+
+    "store.custom#tiendas-oficiales": {
+        "path": "/tiendas-oficiales"
+    }
+}

@@ -1,0 +1,55 @@
+.productBrandContainer{
+    text-align: right;
+    margin-top: .5rem;
+}
+
+.productBrand.brandName{
+    font-weight: bold;
+    color: gray;
+}
+
+.productBrandName{
+    font-weight: bold;
+    color: #000000;
+}
+
+.nameContainer{
+    margin: 1rem 0 .5rem 0;
+    padding: 0;
+    justify-content: left;
+    min-height: 45px;
+}
+
+.nameContainer .nameWrapper{
+    text-align: left;
+}
+
+.nameContainer .nameWrapper .brandName{
+    font-size: 12px;
+    line-height: 120%;
+    font-style: normal;
+    font-weight: normal;
+    color: #260C11;
+    font-family: Mulish;
+    text-align: left;
+}
+
+.element--shelfSlide{
+    position: relative;
+}
+
+.container--shelfSlide{
+    margin: 0 .3rem;
+    position: relative;
+}
+
+@media only screen and (min-width: 1180px){
+    .nameContainer .nameWrapper .brandName{
+        font-size: 13px;
+        line-height: 140%;
+    }
+
+    .container--shelfSlide{
+        margin: 0 1rem;
+    }
+}

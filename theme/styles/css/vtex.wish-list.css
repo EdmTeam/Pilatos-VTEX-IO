@@ -1,0 +1,29 @@
+.wishlistIconContainer :global(.vtex-button) {
+    background: transparent!important;
+    outline: none;
+    border: none;
+}
+
+.wishlistIconContainer{
+    position: relative;
+}
+
+/* :global(.vtex-wish-list-1-x-outline){
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+:global(.vtex-wish-list-1-x-outline)::before{
+    content: '\e923';
+}
+
+:global(.vtex-wish-list-1-x-outline){
+    background: transparent;
+    color: black;
+}    */

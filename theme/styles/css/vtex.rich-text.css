@@ -1,0 +1,401 @@
+/*Personalización de estilos*/
+
+.container--colorBrand{
+  color: #00A2DC;
+}
+
+.container--colorBrand .paragraph{
+  margin: 5px 0 2px .6rem;
+}
+
+.italic--colorBrand{
+  font-size: 11px;
+  font-style: normal;
+}
+
+.paragraph--colorBrandSection2{
+  margin: 1px 0 8px .6rem;
+  font-size: 9px;
+}
+
+.italic--colorBrandSection2{
+  font-style: normal;
+}
+
+.container--colorPromise{
+  color: #000000;
+}
+
+.container--colorPromise .paragraph{
+  margin: 0;
+  text-align: center;
+  font-size: 9px;
+}
+
+@media only screen and (min-width: 1180px){
+  .container--colorPromise .paragraph{
+    margin: 0 0 0 1rem;
+    font-size: 11px;
+    text-align: left;
+  }
+}
+
+.container--colorPromise2{
+  color: #00A2DC;
+}
+
+.container--colorPromise2 .paragraph{
+  margin: 0 0 0 1rem;
+  color: #000000;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 13px;
+}
+
+.strong--colorPromise{
+  color: #F2A922;
+}
+
+@media only screen and (min-width: 1180px) {
+  .container--colorPromise2 .paragraph{
+    font-size: 13px;
+  }
+
+  .container--colorPromise .paragraph{
+    font-size: 13px;
+  }
+}
+
+.paragraph--titleOfertasUnicas{
+  font-weight: bold;
+  font-size: 13px;
+  text-align: left;
+  color: #000000;
+  line-height: 36px;
+  letter-spacing: 0.02em;
+}
+
+.strong--titleOfertasUnicas{
+  color: #00A2DC;
+}
+
+.italic--titleOfertasUnicas{
+  font-style: normal;
+}
+
+.paragraph--textOfertasUnicas{
+  margin: 0 0 1.5rem 0;
+  font-size: 10px;
+  color: #000000;
+}
+
+@media only screen and (min-width: 768px) {
+  .container--titleOfertasUnicas, .container--textOfertasUnicas{
+    justify-content: flex-start;
+    padding-left: 1rem;
+  }
+
+  .paragraph--titleOfertasUnicas{
+    font-size: 18px;
+    margin: .5rem 0;
+    line-height: 20px
+  }
+
+  .paragraph--textOfertasUnicas{
+    font-size: 13px;
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: 1180px) {
+  .paragraph--titleOfertasUnicas{
+    font-size: 30px;
+    margin: 1rem 0;
+    line-height: 35px
+  }
+
+  .paragraph--textOfertasUnicas{
+    font-size: 15px;
+    margin: .2rem 0;
+    text-align: left;
+  }
+}
+
+/* Estiolos personalizados footer*/
+
+.paragraph--titleItemsfooter{
+  margin: 0 0 1rem 0;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 95%;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+.paragraph--descriptionItemsfooter{
+  margin: 0 0 1rem 0;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.02em;
+  color: #575757;
+}
+
+.paragraph--infocontactItemsfooter{
+  margin: 0;
+  font-size: 10px;
+  line-height: 95%;
+  letter-spacing: 0.02em;
+  text-decoration-line: underline;
+}
+
+.link--infocontactItemsfooter{
+  color: #575757;
+}
+
+.paragraph--storelocatorItemsfooter{
+  margin: 0;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+.container--storelocatorItemsfooter{
+  width: 100%;
+  justify-content: center;
+}
+
+.container--legalFooter{
+  justify-content: center;
+  align-items: center;
+  background: #E5E5E5;
+  margin-top: .5rem;
+}
+
+.paragraph--legalFooter{
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+}
+
+.link--linkFooter{
+  color: #575757;
+  text-decoration: none;
+}
+
+.paragraph--linkFooter{
+  margin: 0 0 1rem 0;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.02em;
+}
+
+@media only screen and (min-width: 768px) {
+  .wrapper--mailItemsfooter, 
+  .wrapper--telItemsfooter,
+  .wrapper--whatsappItemsfooter,
+  .wrapper--locatorItemsfooter{
+    font-size: 1.2rem
+  }
+}
+
+@media only screen and (min-width: 1180px) {
+  .wrapper--mailItemsfooter, 
+  .wrapper--telItemsfooter,
+  .wrapper--whatsappItemsfooter,
+  .wrapper--locatorItemsfooter{
+    font-size: 1.4rem
+  }
+}
+
+/* Estilos Header */
+
+.container--textTopHeader{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000000;
+}
+
+.paragraph--textTopHeader{
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 9px;
+  line-height: 95%;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 1rem 0;
+  padding: 0 6rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .paragraph--textTopHeader{
+    padding: 0;
+  }
+}
+
+.container--icoWishlist{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper--icoSearch{
+  font-size: 1.8rem;
+}
+
+.paragraph--icoWishlist{
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.link--icoWishlist{
+  font-size: 1.3rem;
+  color: #000000;
+  text-decoration: none;
+}
+
+/* Estilos a promesa de valor de marca */
+.container--icon-Security,
+.container--icon-Payment,
+.container--icon-Delivery{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper--icon-Security,
+.wrapper--icon-Payment,
+.wrapper--icon-Delivery{
+  font-size: 2.2rem;
+}
+
+/* Estilos a los banners promocionales */
+.container--titlePromotionalBanners{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.strong--titlePromotionalBanners{
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 31px;
+  color: #000000;
+}
+
+.container--titleCategoryBanners{
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper--titleCategoryBanners .paragraph{
+  margin: .5rem 0;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.container--desPromotionalBanners, 
+.container--desPromotionalBannersCenter{
+  position: absolute;
+  bottom: 84px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.paragraph--desPromotionalBanners, 
+.paragraph--desPromotionalBannersCenter{
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 95%;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: transparent;
+  -webkit-text-stroke: 1px #000000;
+  margin: 0;
+}
+
+.container--linkPromotionalBanners{
+  align-items: center;
+  justify-content: center;
+}
+
+.paragraph--linkPromotionalBanners{
+  margin: 2rem 0 1rem 0;
+}
+
+.link--linkPromotionalBanners, 
+.link--linkPromotionalBannersCenter{
+  padding: 1rem 3.6rem;
+  background: #000000;
+  border-radius: 50px;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 95%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.paragraph--desBanners{
+  margin: 1.5rem auto 0 auto;
+  width: 90%;
+}
+
+@media only screen and (min-width: 760px){
+  .container--desPromotionalBanners{
+    bottom: 168px;
+    justify-content: left;
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .container--desPromotionalBannersCenter{
+    bottom: 168px;
+    justify-content: center;
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .paragraph--desPromotionalBanners, 
+  .paragraph--desPromotionalBannersCenter{
+    font-size: 28px;
+    letter-spacing: 0.03em;
+    color: #000000;
+  }
+
+  .container--linkPromotionalBanners{
+    justify-content: left;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .container--linkPromotionalBannersCenter{
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .paragraph--linkPromotionalBanners{
+    margin-top: 1rem;
+  }
+
+  .paragraph--desBannersCenter{
+    text-align: center;
+  }
+}

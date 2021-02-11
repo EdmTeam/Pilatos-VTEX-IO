@@ -1,0 +1,87 @@
+{
+    "modal-trigger#quickview": {
+        "children": [
+            "icon-search",
+            "modal-layout#quickview"
+        ],
+        "props": {
+            "blockClass": "quickview"
+        }
+    },
+    "modal-layout#quickview": {
+        "children": [
+            "modal-header",
+            "flex-layout.row#quickview-main-row"
+        ]
+    },
+    "flex-layout.row#quickview-main-row": {
+        "children": [
+            "flex-layout.col#quickview-images",
+            "flex-layout.col#quickview-product-details"
+        ],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+    "flex-layout.col#quickview-images": {
+        "children": [
+            "product-images#quickview"
+        ],
+        "props": {
+            "preventVerticalStretch": true
+        }
+    },
+    "flex-layout.col#quickview-product-details": {
+        "children": [
+            "modal-content#quickview"
+        ],
+        "props": {
+            "preventVerticalStretch": true
+        }
+    },
+    "modal-content#quickview": {
+        "children": [
+            "flex-layout.row#product-name",
+            "product-rating-summary",
+            "flex-layout.row#product-brand",
+            "product-identifier.product",
+            "product-price#product",
+            "product-separator",
+            "sku-selector",
+            "product-quantity",
+            "product-assembly-options",
+            "product-gifts",
+            "flex-layout.row#buy-button",
+            "modal-actions#quickview"
+        ]
+    },
+    "modal-actions#quickview": {
+        "children": [
+            "flex-layout.row#quickview-view-more"
+        ]
+    },
+    "flex-layout.row#quickview-view-more": {
+        "children": [
+            "link.product#view-more"
+        ]
+    },
+    "link.product#view-more": {
+        "props": {
+            "buttonProps": {
+                "variant": "secondary"
+            },
+            "displayMode": "button",
+            "label": "Ver detalle",
+            "href": "/{slug}/p"
+        }
+    },
+    "product-images#quickview": {
+        "props": {
+            "aspectRatio": {
+                "desktop": "auto",
+                "phone": "16:9"
+            },
+            "displayThumbnailsArrows": true
+        }
+    }
+}

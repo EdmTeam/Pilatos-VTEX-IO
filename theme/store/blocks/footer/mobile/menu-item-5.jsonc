@@ -1,0 +1,56 @@
+{
+    "vtex.menu@2.x:menu#footer-mobile-4": {
+        "children": [
+            "menu-item#footer-mobile-4-row-1"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+
+    "menu-item#footer-mobile-4-row-1": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "Sobre PILATOS"
+            },
+            "blockClass": "accordionLevel1"
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#footer-mobile-4-row-1"
+        ]
+    },
+
+    "vtex.menu@2.x:submenu.accordion#footer-mobile-4-row-1": {
+        "children": [
+            "rich-text#submenu-4-text-1",
+            "rich-text#submenu-4-text-2",
+            "rich-text#submenu-4-text-3"
+        ],
+        "props": {
+            "blockClass": "contentSubMenu"
+        }
+    },
+
+    "rich-text#submenu-4-text-1": {
+        "props": {
+            "text": "Nosotros"
+        }
+    },
+
+    "rich-text#submenu-4-text-2": {
+        "props": {
+            "text": "Trabaja con nosotros"
+        }
+    },
+
+    "rich-text#submenu-4-text-3": {
+        "props": {
+            "text": "Nuestras tiendas"
+        }
+    }
+}

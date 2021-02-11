@@ -1,0 +1,28 @@
+{
+  "flex-layout.col#menu-desk-col-6": {
+    "children": [
+      "vtex.menu@2.x:menu#menu-desktop-6"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#menu-desktop-6": {
+    "children": [
+      "menu-item#menu-item-6-desk-1"
+    ]
+  },
+  
+  "menu-item#menu-item-6-desk-1": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nuevo",
+        "noFollow": false,
+        "tagTitle": "NUEVO",
+        "text": "NUEVO"
+      },
+      "blockClass": "menuLinkHeader"
+    }
+  }
+}

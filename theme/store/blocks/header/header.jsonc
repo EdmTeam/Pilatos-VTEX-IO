@@ -1,0 +1,73 @@
+{
+  "header": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header.full": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "custom-sticky#header-sticky-inactive",
+      // "sticky-layout#header-sticky-inactive",
+      "custom-sticky#header-sticky-active"
+      // "sticky-layout#header-sticky-active"
+    ]
+  },
+
+
+  //Header Mobile
+  "header-layout.mobile": {
+    "children": [
+      "responsive-layout.tablet#header-tablet",
+      "responsive-layout.phone#header-phone"
+    ]
+  },
+
+  "responsive-layout.phone#header-phone": {
+    "children": [
+      "sticky-layout#header-mobile"
+    ]
+  },
+
+  "responsive-layout.tablet#header-tablet": {
+    "children": [
+        "sticky-layout#header-mobile"
+    ]
+  },
+
+  "sticky-layout#header-mobile": {
+    "children": [
+      "flex-layout.row#header-sticky-mobile"
+    ],
+    "props": {
+      "position": "top"
+    }
+  },
+
+  //Header Desktop
+  "custom-sticky#header-sticky-inactive": {
+  // "sticky-layout#header-sticky-inactive": {
+    "children": [
+      "flex-layout.row#header-sticky-inactive-desk"
+    ],
+    "props": {
+      "multiHeader": false
+    }
+  },
+
+  "custom-sticky#header-sticky-active": {
+  // "sticky-layout#header-sticky-active": {
+    "children": [
+      "flex-layout.row#header-sticky-active-desk"
+    ],
+    "props": {
+      "multiHeader": true
+    }
+  }
+}

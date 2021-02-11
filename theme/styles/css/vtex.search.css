@@ -1,0 +1,7 @@
+.suggestionsListLink {
+    border-radius: 5px;
+    padding: 7px 20px;
+    border: 1px solid #ccc;
+    color: #1e5bc6;
+    display: block;
+}

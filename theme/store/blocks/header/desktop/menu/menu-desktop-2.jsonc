@@ -1,0 +1,28 @@
+{
+  "flex-layout.col#menu-desk-col-2": {
+    "children": [
+      "vtex.menu@2.x:menu#menu-desktop-2"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#menu-desktop-2": {
+    "children": [
+      "menu-item#menu-item-2-desk-1"
+    ]
+  },
+  
+  "menu-item#menu-item-2-desk-1": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mujer",
+        "noFollow": false,
+        "tagTitle": "MUJER",
+        "text": "MUJER"
+      },
+      "blockClass": "menuLinkHeader"
+    }
+  }
+}

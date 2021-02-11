@@ -1,0 +1,45 @@
+{
+    "responsive-layout.phone#brands-promise": {
+        "children": [
+            "flex-layout.row#mobile-brands-promise"
+        ]    
+    },
+
+    "responsive-layout.tablet#brands-promise": {
+        "children": [
+            "flex-layout.row#desk-brands-promise"
+        ]    
+    },
+
+    "responsive-layout.desktop#brands-promise": {
+        "children": [
+            "flex-layout.row#desk-brands-promise"
+        ]    
+    },
+
+    "flex-layout.row#mobile-brands-promise": {
+        "children": [
+            "flex-layout.col#mobile-brands-promise-col1",
+            "flex-layout.col#mobile-brands-promise-col2",
+            "flex-layout.col#mobile-brands-promise-col3"
+        ],
+        "props": {
+            "blockClass": "contentPromeses",
+            "preserveLayoutOnMobile": true,
+            "rowGap": 2
+        }
+    },
+
+    "flex-layout.row#desk-brands-promise": {
+        "children": [
+            "flex-layout.col#desk-brands-promise-col1",
+            "flex-layout.col#desk-brands-promise-col2",
+            "flex-layout.col#desk-brands-promise-col3"
+        ],
+        "props": {
+            "blockClass": "contentPromeses",
+            "preserveLayoutOnMobile": true,
+            "rowGap": 2
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+  "flex-layout.col#menu-desk-col-3": {
+    "children": [
+      "vtex.menu@2.x:menu#menu-desktop-3"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#menu-desktop-3": {
+    "children": [
+      "menu-item#menu-item-3-desk-1"
+    ]
+  },
+  
+  "menu-item#menu-item-3-desk-1": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/niños",
+        "noFollow": false,
+        "tagTitle": "NIÑOS",
+        "text": "NIÑOS"
+      },
+      "blockClass": "menuLinkHeader"
+    }
+  }
+}

@@ -1,0 +1,245 @@
+{
+    "flex-layout.col#desk-menu-item-col-1": {
+        "children": [
+            "rich-text#desk-menu-item-title",
+            "rich-text#desk-menu-item-description",
+            "flex-layout.col#desk-item-contact",
+            "flex-layout.row#desk-item-storelocator"
+        ],
+        "props": {
+            "width": "20%",
+            "blockClass": "contenteItem1"
+        }
+    },
+
+    "rich-text#desk-menu-item-title": {
+        "props": {
+            "text": "Contáctanos",
+            "blockClass": "titleItemsfooter"
+        }
+    },
+
+    "rich-text#desk-menu-item-description": {
+        "props": {
+            "text": "Envíanos un correo electrónico, \nllámanos o chatea con nosotros:",
+            "blockClass": "descriptionItemsfooter"
+        }
+    },
+
+    //Items para los contactos
+    "flex-layout.col#desk-item-contact": {
+        "children": [
+            "flex-layout.col#desk-item-contact-1",
+            "flex-layout.col#desk-item-contact-2",
+            "flex-layout.col#desk-item-contact-3"
+        ],
+        "props": {
+            "blockClass": "contentContact",
+            "width": "100%"
+        }
+    },
+
+    //Correo de contacto
+    "flex-layout.col#desk-item-contact-1": {
+        "children": [
+            "flex-layout.row#desk-item-contact-row-1"
+        ],
+        "props": {
+            "width": "100%"
+        }
+    },
+
+    "flex-layout.row#desk-item-contact-row-1": {
+        "children": [
+            "flex-layout.col#desk-item-contact-col-1",
+            "flex-layout.col#desk-item-contact-info-col-1"
+        ],
+        "props": {
+            "blockClass": "rowContactFull"
+        }
+    },
+
+    "flex-layout.col#desk-item-contact-col-1": {
+        "children": [
+            "rich-text#desk-menu-item-contact-ico-1"
+        ],
+        "props": {
+            "width": "10%"
+        }
+    },
+
+    "flex-layout.col#desk-item-contact-info-col-1": {
+        "children": [
+            "rich-text#desk-menu-item-contact-infocontact-1"
+        ],
+        "props": {
+            "width": "90%",
+            "blockClass": "contentRichtextFooter"
+        }
+    },
+
+    "rich-text#desk-menu-item-contact-ico-1": {
+        "props": {
+            "text": "",
+            "blockClass": "mailItemsfooter"
+        }
+    },
+
+    "rich-text#desk-menu-item-contact-infocontact-1": {
+        "props": {
+            "text": "tiendavirtual@estudiodemoda.com.co",
+            "blockClass": "infocontactItemsfooter"
+        }
+    },
+
+    //Telefonos de Contacto
+    "flex-layout.col#desk-item-contact-2": {
+        "children": [
+            "flex-layout.row#desk-item-contact-row-2"
+        ],
+        "props": {
+            "width": "100%"
+        }
+    },
+
+    "flex-layout.row#desk-item-contact-row-2": {
+        "children": [
+            "flex-layout.col#desk-item-contact-col-2",
+            "flex-layout.col#desk-item-contact-info-col-2"
+        ],
+        "props": {
+            "blockClass": "rowContactFull"
+        }
+    },
+
+    "flex-layout.col#desk-item-contact-col-2": {
+        "children": [
+            "rich-text#desk-menu-item-contact-ico-2"
+        ],
+        "props": {
+            "width": "10%"
+        }
+    },
+
+    "flex-layout.col#desk-item-contact-info-col-2": {
+        "children": [
+            "rich-text#desk-menu-item-contact-infocontact-2"
+        ],
+        "props": {
+            "width": "90%",
+            "blockClass": "contentRichtextFooter"
+        }
+    },
+
+    "rich-text#desk-menu-item-contact-ico-2": {
+        "props": {
+            "text": "",
+            "blockClass": "telItemsfooter"
+        }
+    },
+
+    "rich-text#desk-menu-item-contact-infocontact-2": {
+        "props": {
+            "text": "(4) 265 31 11 ext: 4297 - 4300",
+            "blockClass": "infocontactItemsfooter"
+        }
+    },
+
+    //WhatsApp Contacto
+    "flex-layout.col#desk-item-contact-3": {
+        "children": [
+            "flex-layout.row#desk-item-contact-row-3"
+        ],
+        "props": {
+            "width": "100%"
+        }
+    },
+
+    "flex-layout.row#desk-item-contact-row-3": {
+        "children": [
+            "flex-layout.col#desk-item-contact-col-3",
+            "flex-layout.col#desk-item-contact-info-col-3"
+        ],
+        "props": {
+            "blockClass": "rowContactFull"
+        }
+    },
+
+    "flex-layout.col#desk-item-contact-col-3": {
+        "children": [
+            "rich-text#desk-menu-item-contact-ico-3"
+        ],
+        "props": {
+            "width": "10%"
+        }
+    },
+
+    "flex-layout.col#desk-item-contact-info-col-3": {
+        "children": [
+            "rich-text#desk-menu-item-contact-infocontact-3"
+        ],
+        "props": {
+            "width": "90%",
+            "blockClass": "contentRichtextFooter"
+        }
+    },
+
+    "rich-text#desk-menu-item-contact-ico-3": {
+        "props": {
+            "text": "",
+            "blockClass": "whatsappItemsfooter"
+        }
+    },
+
+    "rich-text#desk-menu-item-contact-infocontact-3": {
+        "props": {
+            "text": "300 234 6789",
+            "blockClass": "infocontactItemsfooter"
+        }
+    },
+
+    //Store locator
+    "flex-layout.row#desk-item-storelocator": {
+        "children": [
+            "flex-layout.col#desk-item-storelocator-col-1",
+            "flex-layout.col#desk-item-storelocator-col-2"
+        ],
+        "props": {
+            "blockClass": "contentStorelocator",
+            "preserveLayoutOnMobile": true
+        }
+    },
+
+    "flex-layout.col#desk-item-storelocator-col-1": {
+        "children": [
+            "rich-text#desk-menu-item-storelocator-ico"
+        ],
+        "props": {
+            "width": "10%"
+        }
+    },
+
+    "flex-layout.col#desk-item-storelocator-col-2": {
+        "children": [
+            "rich-text#desk-menu-item-storelocator-infocontact"
+        ],
+        "props": {
+            "width": "90%",
+            "blockClass": "contentRichtextFooter"
+        }
+    },
+
+    "rich-text#desk-menu-item-storelocator-ico": {
+        "props": {
+            "text": "",
+            "blockClass": "locatorItemsfooter"
+        }
+    },
+
+    "rich-text#desk-menu-item-storelocator-infocontact": {
+        "props": {
+            "text": "Localizador de tiendas",
+            "blockClass": "storelocatorItemsfooter"
+        }
+    }
+}

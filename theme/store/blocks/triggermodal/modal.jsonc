@@ -1,0 +1,203 @@
+{
+  "modal-trigger#modal-home": {
+    "props": {
+      "trigger": "load"
+    },
+    "children": ["modal-layout#modal-home"]
+  },
+
+  /*MODAL*/
+
+  "modal-layout#modal-home": {
+    "props": {
+      "blockClass": ["cyberwow-modal-content"]
+    },
+    "children": [
+      "modal-header#welcome-modal-header",
+      "flex-layout.row#modal-welcome-all-content"
+    ]
+  },
+  "modal-header#welcome-modal-header": {
+    "props": {
+      "showCloseButton": true,
+      "blockClass": ["cyberwow-modal-header"]
+    },
+    "children": []
+  },
+  "rich-text#welcome-modal-content-header": {
+    "props": {
+      "blockClass": ["cyberwow-modal-header"],
+      "text": "Bienvenido a RealPlaza Go!"
+    }
+  },
+
+  "flex-layout.row#modal-header-container": {
+    "props": {
+      "blockClass": "modal-header-all-rowcontent"
+    },
+    "children": [
+      "logo#mobile",
+      "rich-text#welcome-modal-content-header"
+    ]
+  },
+
+  "flex-layout.row#modal-welcome-all-content": {
+    "props": {
+      "blockClass": "modal-welcome-all-rowcontent"
+    },
+    "children": [
+      "rich-text#cyber-modal-title",
+      "rich-text#cyber-modal-content-one",
+      "rich-text#cyber-modal-content-two",
+      "link#cyber-redirect",
+      "image#cyber-image"
+    ]
+  },
+
+    /*MODAL NEW CONTENT*/
+    "rich-text#cyber-modal-title": {
+      "props": {
+        "blockClass": ["cyber-modal-title"],
+        "text": "¡Ya viene Cyber WOW!"
+      }
+    },
+  
+    "rich-text#cyber-modal-content-one": {
+      "props": {
+        "blockClass": ["cyber-modal-content-one"],
+        "text": "En *Real Plaza Go* del 19 al 23 de Octubre"
+      }
+    },
+  
+    "rich-text#cyber-modal-content-two": {
+      "props": {
+        "blockClass": ["cyber-modal-content-two"],
+        "text": "Registrate para enterarte de nuestras ofertas"
+      }
+    },
+  
+    "link#cyber-redirect": {
+      "props": {
+        "href": "/cyberwow",
+        "label": "Aquí",
+        "blockClass": ["cyber-redirect"]
+      }
+    },
+
+    "image#cyber-image": {
+      "props": {
+          "src": "https://s3.amazonaws.com/dev-application-fileserver/nps-images/1602728155178-wow.svg",
+          "blockClass": ["cyber-image"]
+      }
+    },
+
+    /*------*/
+
+  "flex-layout.col#modal-welcome-all-content-left": {
+    "props": {
+      "blockClass": "modal-welcome-all-content"
+    },
+    "children": [
+      "flex-layout.col#modal-welcome-image-responsive-container",
+      "rich-text#welcome-modal-content",
+      "flex-layout.col#modal-form"
+    ]
+  },
+
+  "flex-layout.col#modal-welcome-all-content-right": {
+    "props": {
+      "blockClass": "modal-welcome-all-content"
+    },
+    "children": ["flex-layout.col#modal-product-wow"]
+  },
+
+  "rich-text#welcome-modal-content": {
+    "props": {
+      "blockClass": ["welcome-modal-text"],
+      "text": "Ingresa tu email por tus compras durante el Cyber Wow el 19, 20, 21, 22 y 23 de octubre, participa del sorteo para ganar un Smart Tv Samsung Crystal de 65''"
+    }
+  },
+
+  "flex-layout.col#modal-welcome-image-responsive-container": {
+    "props": {
+      "blockClass": "welcome-image-responsive-container"
+    },
+    "children": [
+      "responsive-layout.desktop#welcome-image-desktop",
+      "responsive-layout.tablet#welcome-image-tablet",
+      "responsive-layout.phone#welcome-image-phone"
+    ]
+  },
+  "responsive-layout.desktop#welcome-image-desktop": {
+    "children": ["image#welcome-image-banner-desktop"]
+  },
+  "image#welcome-image-banner-desktop": {
+    "props": {
+      "src": "https://s3.amazonaws.com/dev-application-fileserver/nps-images/1602175623406-cyberwow.png",
+      "blockClass": ["welcome-image-banner"]
+    }
+  },
+  "responsive-layout.tablet#welcome-image-tablet": {
+    "children": ["image#welcome-image-banner-tablet"]
+  },
+  "image#welcome-image-banner-tablet": {
+    "props": {
+      "src": "https://s3.amazonaws.com/dev-application-fileserver/nps-images/1602175623406-cyberwow.png",
+      "blockClass": ["welcome-image-banner"]
+    }
+  },
+  "responsive-layout.phone#welcome-image-phone": {
+    "children": ["image#welcome-image-banner-phone"]
+  },
+  "image#welcome-image-banner-phone": {
+    "props": {
+      "src": "https://s3.amazonaws.com/dev-application-fileserver/nps-images/1602175623406-cyberwow.png",
+      "blockClass": ["welcome-image-banner-phone"]
+    }
+  },
+
+  /*MODAL FORM*/
+  "flex-layout.col#modal-form": {
+    "children": []
+  },
+
+  /*RIGHT COL*/
+
+  "flex-layout.col#modal-product-wow": {
+    "props": {
+      "blockClass": "welcome-image-product-responsive-container"
+    },
+    "children": [
+      "responsive-layout.desktop#modal-product-wow-image-desktop",
+      "responsive-layout.tablet#modal-product-wow-image-tablet",
+      "responsive-layout.phone#modal-product-wow-image-phone"
+    ]
+  },
+  "responsive-layout.desktop#modal-product-wow-image-desktop": {
+    "children": ["image#modal-product-wow-image-desktop"]
+  },
+  "image#modal-product-wow-image-desktop": {
+    "props": {
+      "src": "https://plazavea.vteximg.com.br/arquivos/pre-cyberwow-sorteo-tv-D.png?v=637372664272770000",
+      "blockClass": ["modal-product-image-banner"]
+    }
+  },
+  "responsive-layout.tablet#modal-product-wow-image-tablet": {
+    "children": ["image#modal-product-wow-image-tablet"]
+  },
+  "image#modal-product-wow-image-tablet": {
+    "props": {
+      "src": "https://plazavea.vteximg.com.br/arquivos/pre-cyberwow-sorteo-tv-D.png?v=637372664272770000",
+      "blockClass": ["modal-product-image-banner"]
+    }
+  },
+  "responsive-layout.phone#modal-product-wow-image-phone": {
+    "children": ["image#modal-product-wow-image-desktop"]
+  },
+  "image#modal-product-wow-image-phone": {
+    "props": {
+      "src": "https://plazavea.vteximg.com.br/arquivos/pre-cyberwow-sorteo-tv-D.png?v=637372664272770000",
+      "blockClass": ["modal-product-image-banner"]
+    }
+  }
+}

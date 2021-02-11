@@ -1,0 +1,38 @@
+{
+    "store.custom#contact-us": {
+        "blocks": [
+            "rich-text#contact-us-1",
+            "rich-text#contact-us-2",
+            "rich-text#contact-us-3",
+            "rich-text#contact-us-4"
+        ]
+    },
+    "rich-text#contact-us-1": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "**CONTÁCTANOS**"
+        }
+    },
+    "rich-text#contact-us-2": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "**Llámenos**"
+        }
+    },
+    "rich-text#contact-us-3": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "(1) 601-4000 De lunes a sábado de 9:00am a 7:00pm Domingos y feriados de 9:00am a 3:00pm"
+        }
+    },
+    "rich-text#contact-us-4": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Escríbenos: correo@dominio.com"
+        }
+    }
+}

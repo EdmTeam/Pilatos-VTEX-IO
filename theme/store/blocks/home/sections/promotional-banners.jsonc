@@ -1,0 +1,233 @@
+{
+    "responsive-layout.phone#promotional-banners": {
+        "children":[
+            "flex-layout.row#mobile-promotional-banners"
+        ]
+    },
+
+    "flex-layout.row#mobile-promotional-banners": {
+        "children":[
+            "rich-text#title-promotional-banners",
+            "flex-layout.row#mobile-promotional-banners-grid"
+        ]
+    },
+    
+    "rich-text#title-promotional-banners": {
+        "props":{
+            "text": "**NOVEDADES**",
+            "blockClass": "titlePromotionalBanners"
+        }
+    },
+
+    "flex-layout.row#mobile-promotional-banners-grid":{
+        "children":[
+            "image#mobile-banner-1",
+            "list-context.image-list#promotional-banner"
+        ]
+    },
+
+    "image#mobile-banner-1": {
+        "props": {
+            "src": "/arquivos/prom-banner-mob-3.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "width": "94%"
+        }
+    },
+
+    "list-context.image-list#promotional-banner": {
+        "children": [
+            "slider-layout#promotional-banner"
+        ],
+        "props": {
+            "images": [
+                {
+                    "image": "/arquivos/prom-banner-mob-2.png",
+                    "mobileImage": "/arquivos/prom-banner-mob-2.png",
+                    "description": "Promotional Banner",
+                    "link": {
+                        "url": "/",
+                        "attributeTitle": ""
+                    }
+                },
+                {
+                    "image": "/arquivos/prom-banner-mob-1.png",
+                    "mobileImage": "/arquivos/prom-banner-mob-1.png",
+                    "description": "Promotional Banner",
+                    "link": {
+                        "url": "/",
+                        "attributeTitle": ""
+                    }
+                },
+                {
+                    "image": "/arquivos/prom-banner-mob-1.png",
+                    "mobileImage": "/arquivos/prom-banner-mob-1.png",
+                    "description": "Promotional Banner",
+                    "link": {
+                        "url": "/",
+                        "attributeTitle": ""
+                    }
+                }
+            ]
+        }
+    },
+    "slider-layout#promotional-banner": {
+        "props": {
+            "blockClass": "contentPromotionalBanner",
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "centerMode": "to-the-left",
+            "showNavigationArrows": "desktopOnly",
+            "showPaginationDots": "always"
+        }
+    },
+
+    // Banners promocionales Descktop
+    "responsive-layout.tablet#promotional-banners": {
+        "children":[
+            "rich-text#title-promotional-banners",
+            "flex-layout.row#desk-promotional-banners"
+        ]
+    },
+
+    "responsive-layout.desktop#promotional-banners": {
+        "children":[
+            "rich-text#title-promotional-banners",
+            "flex-layout.row#desk-promotional-banners"
+        ]
+    },
+
+    "flex-layout.row#desk-promotional-banners": {
+        "children":[
+            "flex-layout.row#desk-promotional-banners-grid"
+        ],
+        "props":{
+            "blockClass":"contentPromotionalBannerDesk"
+        }
+    },
+
+    "flex-layout.row#desk-promotional-banners-grid": {
+        "children": [
+            "flex-layout.col#desk-promotional-banners-col-1",
+            "flex-layout.col#desk-promotional-banners-col-2",
+            "flex-layout.col#desk-promotional-banners-col-3"
+        ]
+    },
+
+    "flex-layout.col#desk-promotional-banners-col-1": {
+        "children":[
+            "image#desk-promotional-banners-col-1-img-1"
+        ],
+        "props":{
+            "blockClass": "PromotionalBannerConterImg",
+            "width": "30%"
+        }
+    },
+
+    "image#desk-promotional-banners-col-1-img-1": {
+        "props": {
+            "src": "/arquivos/prom-banner-desk-5.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "PromotionalBannerImg"
+        }
+    },
+
+    "flex-layout.col#desk-promotional-banners-col-2": {
+        "children":[
+            "flex-layout.row#desk-promotional-banners-col-2-row-1",
+            "flex-layout.row#desk-promotional-banners-col-2-row-2"
+        ],
+        "props":{
+            "blockClass": "PromotionalBannerConterImg",
+            "width": "35%"
+        }
+    },
+
+    "flex-layout.row#desk-promotional-banners-col-2-row-1": {
+        "children":[
+            "image#desk-promotional-banners-col-2-img-1"
+        ]
+    },
+
+    "image#desk-promotional-banners-col-2-img-1": {
+        "props": {
+            "src": "/arquivos/prom-banner-desk-4.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "PromotionalBannerImg"
+        }
+    },
+
+    "flex-layout.row#desk-promotional-banners-col-2-row-2": {
+        "children":[
+            "image#desk-promotional-banners-col-2-img-2"
+        ]
+    },
+
+    "image#desk-promotional-banners-col-2-img-2": {
+        "props": {
+            "src": "/arquivos/prom-banner-desk-2.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "PromotionalBannerImg3"
+        }
+    },
+
+
+    "flex-layout.col#desk-promotional-banners-col-3": {
+        "children":[
+            "flex-layout.row#desk-promotional-banners-col-3-row-1",
+            "flex-layout.row#desk-promotional-banners-col-3-row-2"
+        ],
+        "props":{
+            "blockClass": "PromotionalBannerConterImg",
+            "width": "35%"
+        }
+    },
+
+    "flex-layout.row#desk-promotional-banners-col-3-row-1": {
+        "children":[
+            "image#desk-promotional-banners-col-3-img-1"
+        ]
+    },
+
+    "image#desk-promotional-banners-col-3-img-1": {
+        "props": {
+            "src": "/arquivos/prom-banner-desk-3.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "PromotionalBannerImg"
+        }
+    },
+
+    "flex-layout.row#desk-promotional-banners-col-3-row-2": {
+        "children":[
+            "image#desk-promotional-banners-col-3-img-2"
+        ]
+    },
+
+    "image#desk-promotional-banners-col-3-img-2": {
+        "props": {
+            "src": "/arquivos/prom-banner-desk-1.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "PromotionalBannerImg"
+        }
+    }
+}

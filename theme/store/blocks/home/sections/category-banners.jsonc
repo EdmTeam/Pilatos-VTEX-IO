@@ -1,0 +1,201 @@
+{
+    "responsive-layout.phone#category-banners": {
+        "children":[
+            "flex-layout.row#mobile-category-banners"
+        ]
+    },
+
+    "flex-layout.row#mobile-category-banners": {
+        "children":[
+            "flex-layout.row#category-banners-title",
+            "list-context.image-list#category-banner"
+        ]
+    },
+
+    "flex-layout.row#category-banners-title": {
+        "children": [
+            "flex-layout.col#mobile-category-banners-title-col-1",
+            "flex-layout.col#mobile-category-banners-title-col-2"
+        ],
+        "props":{
+            "blockClass": "contentTitle"
+        }
+    },
+
+    "flex-layout.col#mobile-category-banners-title-col-1": {
+        "children": [
+            "rich-text#title-category-banners"
+        ],
+        "props":{
+            "blockClass": "contentTitleText"
+        }
+    },
+
+    "flex-layout.col#mobile-category-banners-title-col-2": {
+        "children": [
+            "rich-text#title-line-category-banners"
+        ],
+        "props":{
+            "blockClass": "contentTitleLine"
+        }
+    },
+
+    "rich-text#title-category-banners": {
+        "props": {
+            "text": "CATEGORÍAS DESTACADAS",
+            "blockClass": "titleCategoryBanners"
+        }
+    },
+
+    "rich-text#title-line-category-banners": {
+        "props": {
+            "text": ""
+        }
+    },
+
+    "list-context.image-list#category-banner": {
+        "children": [
+            "slider-layout#category-banner"
+        ],
+        "props": {
+            "images": [
+                {
+                    "image": "/arquivos/category-banner-mobile-4.png",
+                    "mobileImage": "/arquivos/category-banner-mobile-4.png",
+                    "description": "Promotional Banner",
+                    "link": {
+                        "url": "/",
+                        "attributeTitle": ""
+                    },
+                    "title": ""
+                },
+                {
+                    "image": "/arquivos/category-banner-mobile-3.png",
+                    "mobileImage": "/arquivos/category-banner-mobile-3.png",
+                    "description": "Promotional Banner",
+                    "link": {
+                        "url": "/",
+                        "attributeTitle": ""
+                    },
+                    "title": ""
+                },
+                {
+                    "image": "/arquivos/category-banner-mobile-4.png",
+                    "mobileImage": "/arquivos/category-banner-mobile-4.png",
+                    "description": "Promotional Banner",
+                    "link": {
+                        "url": "/",
+                        "attributeTitle": ""
+                    },
+                    "title": ""
+                }
+            ]
+        }
+    },
+
+    "slider-layout#category-banner": {
+        "props": {
+            "blockClass": "contentCategoryBanner",
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "centerMode": "to-the-left",
+            "showNavigationArrows": "desktopOnly",
+            "showPaginationDots": "never"
+        }
+    },
+
+    //Category Banners desktop
+    "responsive-layout.desktop#category-banners": {
+        "children":[
+            "flex-layout.row#category-banners-title",
+            "flex-layout.row#desk-category-banners"
+        ]
+    },
+
+    "responsive-layout.tablet#category-banners": {
+        "children":[
+            "flex-layout.row#category-banners-title",
+            "flex-layout.row#desk-category-banners"
+        ]
+    },
+
+    "flex-layout.row#desk-category-banners": {
+        "children":[
+            "flex-layout.row#desk-category-banners-img"
+        ],
+        "props":{
+            "blockClass":"contentCategoryBannerDesk"
+        }
+    },
+
+    "flex-layout.row#desk-category-banners-img": {
+        "children":[
+            "flex-layout.col#desk-category-banners-col-1",
+            "flex-layout.col#desk-category-banners-col-2",
+            "flex-layout.col#desk-category-banners-col-3"
+        ]
+    },
+
+    "flex-layout.col#desk-category-banners-col-1":{
+        "children":[
+            "image#desk-category-banners-img-1"
+        ],
+        "props":{
+            "blockClass": "categoryBannerConterImg"
+        }
+    },
+
+    "image#desk-category-banners-img-1": {
+        "props": {
+            "src": "/arquivos/category-banner-desk-3.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "PromotionalBannerImg"
+        }
+    },
+
+    "flex-layout.col#desk-category-banners-col-2":{
+        "children":[
+            "image#desk-category-banners-img-2"
+        ],
+        "props":{
+            "blockClass": "categoryBannerConterImg"
+        }
+    },
+
+    "image#desk-category-banners-img-2": {
+        "props": {
+            "src": "/arquivos/category-banner-desk-2.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "PromotionalBannerImg"
+        }
+    },
+
+    "flex-layout.col#desk-category-banners-col-3":{
+        "children":[
+            "image#desk-category-banners-img-3"
+        ],
+        "props":{
+            "blockClass": "categoryBannerConterImg"
+        }
+    },
+
+    "image#desk-category-banners-img-3": {
+        "props": {
+            "src": "/arquivos/category-banner-desk-1.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "PromotionalBannerImg"
+        }
+    }
+}

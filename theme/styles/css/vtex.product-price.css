@@ -1,0 +1,65 @@
+.listPrice{
+    font-weight: bold;
+}
+
+.sellingPrice{
+    font-weight: bold;
+    color: gray;
+}
+
+.savings{
+   font-weight: bold;
+   color: red;
+}
+
+.sellingPrice, .listPriceValue{
+    margin: .3rem 0 .5rem 0;
+}
+
+.sellingPrice .currencyContainer, .listPriceValue .currencyContainer{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: #222221;
+}
+
+.listPriceValue .currencyContainer{
+    text-decoration-line: line-through;
+    color: #AAA9A9;
+}
+
+.savings{
+    color: transparent;
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    z-index: 1000;
+}
+
+.savings .savingsPercentage{
+    color: #ffffff;
+    height: 32px;
+    width: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #DD0B3D;
+    font-weight: 800;
+    font-size: 11px;
+    line-height: 100%;
+    border-radius: 50%;
+}
+
+@media only screen and (min-width: 1180px){
+    .sellingPrice .currencyContainer, .listPriceValue .currencyContainer{
+        font-size: 15px;
+    }
+}
+
+.skuSelectorContainer{
+    margin: .5rem 0;
+}
+

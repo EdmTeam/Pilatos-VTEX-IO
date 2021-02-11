@@ -1,0 +1,102 @@
+.styledLink--item-departamentos::before {
+    width: 25px;
+    height: 14px;
+    content: "";
+    display: block;
+    float: left;
+    background-size: contain;
+    margin-right: 8px;
+    background-image: url("/arquivos/icono-menu.png");
+}
+
+.styledLinkContent--item-departamentos{
+    color: white;
+}
+
+.menuItem--item-departamentos {
+    background-color: black;
+    width: 205px;
+}
+
+.submenuWrapper--departamentos {
+    padding: 0!important;
+    min-height: 70vh;
+    width: 300px;
+    background-color: #e4e6e6;
+}
+
+.styledLink--titulo-menu {
+    color: #D70D27;
+    font-weight: bold;
+    padding-top: 2px;
+    height: 29px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+}
+
+:global(.vtex-rich-text-0-x-link--titulo-menu){
+    color: #D70D27;
+    font-weight: bold;
+    padding-top: 2px;
+    height: 29px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+}
+
+:global(.vtex-rich-text-0-x-link--titulo-menu):visited{
+    color: #D70D27;
+    font-weight: bold;
+}
+
+.submenuContainer--submenu-principal {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: calc(100vw - 300px);
+}
+.submenu--submenu-principal {
+    width: 100%;
+    min-height: 70vh;
+    justify-content: flex-start;
+}
+
+.submenuWrapper--submenu-principal {
+    width: 100%;
+}
+
+/*Estilos personalizados*/
+
+.submenuAccordion--contentSubMenu{
+    display: block;
+}
+
+.menuItem--accordionLevel1{
+    margin: .5rem 0;
+}
+
+.styledLinkContainer{
+    margin: 0;
+    padding: 0 8px;
+}
+
+.styledLinkContent{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 95%;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+/* Estilos al header */
+
+.styledLinkContent--menuLinkHeader{
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}

@@ -1,0 +1,136 @@
+{
+  "store.search#category": {
+    "blocks": [
+      "search-result-layout#category"
+    ],
+    "props": {
+      "context": {
+        "skusFilter": "ALL",
+        "simulationBehavior": "skip",
+        "maxItemsPerPage": 12,
+        "__unstableProductOriginVtex": true,
+        "hideUnavailableItems": true
+      }
+    }
+  },
+  "search-result-layout#category": {
+    "blocks": [
+      "search-result-layout.desktop#category",
+      "search-result-layout.mobile#category",
+      "search-not-found-layout"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "__unstableProductOriginVtex": true
+    }
+  },
+  "search-result-layout.desktop#category": {
+    "children": [
+      "flex-layout.row#banner-brand",
+      "flex-layout.row#bread-crumb",
+      "flex-layout.row#suggestion",
+      "flex-layout.row#search-info",
+      "flex-layout.row#result",
+      "flex-layout.row#spacer"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "preventRouteChange": true,
+      "maxItemsPerPage": 12,
+      "hideUnavailableItems": true,
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      },
+      "__unstableProductOriginVtex": true,
+      "blockClass": "search-desktop-category",
+      "hiddenFacets": {
+        "specificationFilters": {
+          "hiddenFilters": [
+            {
+              "name": "Material"
+            },
+            {
+              "name": "Alto (Cm)"
+            },
+            {
+              "name": "Ancho (Cm)"
+            },
+            {
+              "name": "Breve Descripción"
+            },
+            {
+              "name": "Descripción"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "flex-layout.row#banner-category": {
+    "children": [
+      "search-banner#category"
+    ]
+  },
+  "search-banner#category": {
+    "props": {
+      "area": "one",
+      "horizontalAlignment": "center"
+    }
+  },
+  "search-result-layout.mobile#category": {
+    "children": [
+      "flex-layout.row#banner-category-mobile",
+      "flex-layout.row#bread-crumb",
+      "flex-layout.row#suggestion",
+      "flex-layout.row#search-info-mobile",
+      "flex-layout.row#product-count-mobile",
+      "flex-layout.row#fetch-previous",
+      "flex-layout.row#content-mobile",
+      "flex-layout.row#count-per-page",
+      "flex-layout.row#products-progress-bar",
+      "flex-layout.row#fetch-more",
+      "flex-layout.row#spacer"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "__unstableProductOriginVtex": true,
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      },
+      "hiddenFacets": {
+        "specificationFilters": {
+          "hiddenFilters": [
+            {
+              "name": "Material"
+            },
+            {
+              "name": "Alto (Cm)"
+            },
+            {
+              "name": "Ancho (Cm)"
+            },
+            {
+              "name": "Breve Descripción"
+            },
+            {
+              "name": "Descripción"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "flex-layout.row#banner-category-mobile": {
+    "children": [
+      "search-banner#banner-category-mobile"
+    ]
+  },
+  "search-banner#banner-category-mobile": {
+    "props": {
+      "area": "two",
+      "horizontalAlignment": "center"
+    }
+  }
+}

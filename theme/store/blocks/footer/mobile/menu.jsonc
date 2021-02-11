@@ -1,0 +1,47 @@
+{
+    "footer-layout.mobile": {
+        "children": [
+            "flex-layout.row#content-footer-mobile",
+            "flex-layout.row#legal-medios-pago-mobile"
+        ]
+    },
+    "flex-layout.row#content-footer-mobile": {
+        "children": [
+            "flex-layout.col#menu-item",
+            "flex-layout.col#content-footer-mobile"
+        ],
+        "props": {
+            "blockClass": "contentItem1",
+            "preserveLayoutOnMobile": false
+        }
+    },
+
+    "flex-layout.col#content-footer-mobile": {
+        "children": [
+            "vtex.menu@2.x:menu#footer-mobile-1",
+            "vtex.menu@2.x:menu#footer-mobile-2",
+            "vtex.menu@2.x:menu#footer-mobile-3",
+            "vtex.menu@2.x:menu#footer-mobile-4"
+        ],
+        "props": {
+            "blockClass": "contentFooter",
+            "width": "100%"
+        }
+    },
+
+    "flex-layout.row#legal-medios-pago-mobile": {
+        "children": [
+            "rich-text#legal-medios-pago-mobile"        
+        ],
+        "props": {
+            "blockClass": "contentLegal"
+        }
+    },
+
+    "rich-text#legal-medios-pago-mobile": {
+        "props": {
+            "text": "Legales / Medios de pago",
+            "blockClass": "legalFooter"
+        }
+    }
+}

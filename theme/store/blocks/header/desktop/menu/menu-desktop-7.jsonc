@@ -1,0 +1,28 @@
+{
+  "flex-layout.col#menu-desk-col-7": {
+    "children": [
+      "vtex.menu@2.x:menu#menu-desktop-7"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#menu-desktop-7": {
+    "children": [
+      "menu-item#menu-item-7-desk-1"
+    ]
+  },
+  
+  "menu-item#menu-item-7-desk-1": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "PILATOS CONCEPT",
+        "text": "PILATOS CONCEPT"
+      },
+      "blockClass": "menuLinkHeader"
+    }
+  }
+}

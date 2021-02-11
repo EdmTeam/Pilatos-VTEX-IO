@@ -1,0 +1,28 @@
+{
+  "flex-layout.col#menu-desk-col-4": {
+    "children": [
+      "vtex.menu@2.x:menu#menu-desktop-4"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#menu-desktop-4": {
+    "children": [
+      "menu-item#menu-item-4-desk-1"
+    ]
+  },
+  
+  "menu-item#menu-item-4-desk-1": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/marcas",
+        "noFollow": false,
+        "tagTitle": "MARCAS",
+        "text": "MARCAS"
+      },
+      "blockClass": "menuLinkHeader"
+    }
+  }
+}

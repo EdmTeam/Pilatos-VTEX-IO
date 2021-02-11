@@ -1,0 +1,86 @@
+{
+    "flex-layout.col#desk-brands-promise-col2": {
+        "children": [
+            "flex-layout.row#brands-promise-row2"
+        ],
+        "props": {
+            "blockClass": "colPromise"
+        }
+    },
+
+    "flex-layout.col#mobile-brands-promise-col2": {
+        "children": [
+            "flex-layout.row#mobile-brands-promise-row2"
+        ],
+        "props": {
+            "blockClass": "colPromise"
+        }
+    },
+
+    "flex-layout.row#brands-promise-row2": {
+        "children": [
+            "flex-layout.col#promise-2-col1",
+            "flex-layout.col#promise-2-col2"
+        ]
+    },
+
+    "flex-layout.row#mobile-brands-promise-row2": {
+        "children": [
+            "flex-layout.col#promise-2-col1",
+            "flex-layout.col#mobile-promise-2-col2"
+        ]
+    },
+
+    "flex-layout.col#promise-2-col1": {
+        "children": [
+            "rich-text#promise-ico-2"
+        ],
+        "props": {
+            "width": "20%",
+            "blockClass": "promiseImage"
+        }
+    },
+
+    "flex-layout.col#promise-2-col2": {
+        "children": [
+            "rich-text#promise-2-text-1",
+            "rich-text#promise-2-text-2"
+        ],
+        "props": {
+            "width": "80%",
+            "blockClass": "contentRichText"
+        }
+    },
+
+    "flex-layout.col#mobile-promise-2-col2": {
+        "children": [
+            "rich-text#promise-2-text-1"
+        ],
+        "props": {
+            "width": "80%",
+            "blockClass": "contentRichText"
+        }
+    },
+
+    "rich-text#promise-2-text-1": {
+        "props": {
+            "text": "**ENTREGAS**",
+            "blockClass": "colorPromise"
+        }
+    },
+
+    "rich-text#promise-2-text-2": {
+        "props": {
+            "text": "Envíos gratis a partir de $250.000",
+            "blockClass": "colorPromise2"
+        }
+    },
+
+    "rich-text#promise-ico-2": {
+        "props": {
+            "text": "",
+            "width": "100%",
+            "blockClass": "icon-Delivery"
+        }
+    }
+}

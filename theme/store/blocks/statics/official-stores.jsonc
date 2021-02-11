@@ -1,0 +1,1949 @@
+{
+  "store.custom#tiendas-oficiales": {
+    "blocks": [
+      "flex-layout.row#official-stores-title",
+      "flex-layout.row#official-stores-main",
+      "flex-layout.row#official-stores-section"
+    ]
+  },
+  "flex-layout.row#official-stores-title": {
+    "props": {
+      "blockClass": "official-stores-title"
+    },
+    "children": [
+      "image#official-stores-title"
+    ]
+  },
+  "image#official-stores-title": {
+    "props": {
+      "src": "/arquivos/official-stores-title.png",
+      "blockClass": "official-stores-title"
+    }
+  },
+  "flex-layout.row#official-stores-main": {
+    "props": {
+      "blockClass": "official-stores-main"
+    },
+    "children": [
+      "list-context.image-list#official-stores-main"
+    ]
+  },
+  "list-context.image-list#official-stores-main": {
+    "children": [
+      "slider-layout#official-stores-main"
+    ],
+    "props": {
+      "blockClass": [
+        "official-stores-main"
+      ],
+      "images": [
+        {
+          "image": "/arquivos/miniso.png",
+          "mobileImage": "/arquivos/miniso.png",
+          "description": "Miniso",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/sfera.png",
+          "mobileImage": "/arquivos/sfera.png",
+          "description": "Sfera",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/renzocosta.png",
+          "mobileImage": "/arquivos/renzocosta.png",
+          "description": "Renzo Costa",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/mac.png",
+          "mobileImage": "/arquivos/mac.png",
+          "description": "Mac",
+          "link": {
+            "url": "/"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#official-stores-main": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "official-stores-main"
+    }
+  },
+  "flex-layout.row#official-stores-section": {
+    "props": {
+      "blockClass": "official-stores-section"
+    },
+    "children": [
+      "flex-layout.row#official-stores-section-title",
+      "flex-layout.row#official-stores-section-1",
+      "flex-layout.row#official-stores-section-1-main",
+      "flex-layout.row#official-stores-section-2",
+      "flex-layout.row#official-stores-section-2-main",
+      "flex-layout.row#official-stores-section-3",
+      "flex-layout.row#official-stores-section-3-main",
+      "flex-layout.row#official-stores-section-4",
+      "flex-layout.row#official-stores-section-4-main",
+      "flex-layout.row#official-stores-section-5",
+      "flex-layout.row#official-stores-section-5-main",
+      "flex-layout.row#official-stores-section-6",
+      "flex-layout.row#official-stores-section-6-main",
+      "flex-layout.row#official-stores-section-7",
+      "flex-layout.row#official-stores-section-7-main",
+      "flex-layout.row#official-stores-section-8",
+      "flex-layout.row#official-stores-section-8-main",
+      "flex-layout.row#official-stores-section-9",
+      "flex-layout.row#official-stores-section-9-main",
+      "flex-layout.row#official-stores-section-10",
+      "flex-layout.row#official-stores-section-10-main",
+      "flex-layout.row#official-stores-section-11",
+      "flex-layout.row#official-stores-section-11-main",
+      "flex-layout.row#official-stores-section-12",
+      "flex-layout.row#official-stores-section-12-main",
+      "flex-layout.row#official-stores-section-13",
+      "flex-layout.row#official-stores-section-13-main",
+      "flex-layout.row#official-stores-section-14",
+      "flex-layout.row#official-stores-section-14-main",
+      "flex-layout.row#official-stores-section-15",
+      "flex-layout.row#official-stores-section-15-main",
+      "flex-layout.row#official-stores-section-16",
+      "flex-layout.row#official-stores-section-16-main"
+    ]
+  },
+  "flex-layout.row#official-stores-section-title": {
+    "props": {
+      "blockClass": "official-stores-section-title"
+    },
+    "children": [
+      "rich-text#official-stores-section-title"
+    ]
+  },
+  "rich-text#official-stores-section-title": {
+    "props": {
+      "text": "Compra aquí tus marcas preferidas",
+      "blockClass": "official-stores-section-title"
+    }
+  },
+  "flex-layout.row#official-stores-section-1": {
+    "props": {
+      "blockClass": "official-stores-section-1"
+    },
+    "children": [
+      "rich-text#official-stores-section-1-title",
+      "rich-text#official-stores-section-1-link"
+    ]
+  },
+  "rich-text#official-stores-section-1-title": {
+    "props": {
+      "text": "Tecnología",
+      "blockClass": [
+        "official-stores-section-1-title"
+      ]
+    }
+  },
+  "rich-text#official-stores-section-1-link": {
+    "props": {
+      "text": "[Ver todo](/)",
+      "blockClass": [
+        "official-stores-section-1-link"
+      ]
+    }
+  },
+  "flex-layout.row#official-stores-section-1-main": {
+    "props": {
+      "blockClass": "official-stores-section-1-main"
+    },
+    "children": [
+      "list-context.image-list#official-stores-section-1-main"
+    ]
+  },
+  "list-context.image-list#official-stores-section-1-main": {
+    "children": [
+      "slider-layout#official-stores-section-1-main"
+    ],
+    "props": {
+      "blockClass": [
+        "official-stores-section-1-main"
+      ],
+      "images": [
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Miniso",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Sfera",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Renzo Costa",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Mac",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Mac",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Mac",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Mac",
+          "link": {
+            "url": "/"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#official-stores-section-1-main": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 4,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "official-stores-section-1-main"
+    }
+  },
+  "flex-layout.row#official-stores-section-2": {
+    "props": {
+      "blockClass": "official-stores-section-1"
+    },
+    "children": [
+      "rich-text#official-stores-section-2-title",
+      "rich-text#official-stores-section-2-link"
+    ]
+  },
+  "rich-text#official-stores-section-2-title": {
+    "props": {
+      "text": "Electrohogar",
+      "blockClass": [
+        "official-stores-section-1-title"
+      ]
+    }
+  },
+  "rich-text#official-stores-section-2-link": {
+    "props": {
+      "text": "[Ver todo](/)",
+      "blockClass": [
+        "official-stores-section-1-link"
+      ]
+    }
+  },
+  "flex-layout.row#official-stores-section-2-main": {
+    "props": {
+      "blockClass": "official-stores-section-1-main"
+    },
+    "children": [
+      "list-context.image-list#official-stores-section-2-main"
+    ]
+  },
+  "list-context.image-list#official-stores-section-2-main": {
+    "children": [
+      "slider-layout#official-stores-section-1-main"
+    ],
+    "props": {
+      "blockClass": [
+        "official-stores-section-2-main"
+      ],
+      "images": [
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Miniso",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Sfera",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Renzo Costa",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Mac",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Mac",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Mac",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Mac",
+          "link": {
+            "url": "/"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#official-stores-section-2-main": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 4,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "official-stores-section-1-main"
+    }
+  },
+  "flex-layout.row#official-stores-section-3": {
+    "props": {
+      "blockClass": "official-stores-section-1"
+    },
+    "children": [
+      "rich-text#official-stores-section-3-title",
+      "rich-text#official-stores-section-3-link"
+    ]
+  },
+  "rich-text#official-stores-section-3-title": {
+    "props": {
+      "text": "Deco Hogar",
+      "blockClass": [
+        "official-stores-section-1-title"
+      ]
+    }
+  },
+  "rich-text#official-stores-section-3-link": {
+    "props": {
+      "text": "[Ver todo](/)",
+      "blockClass": [
+        "official-stores-section-1-link"
+      ]
+    }
+  },
+  "flex-layout.row#official-stores-section-3-main": {
+    "props": {
+      "blockClass": "official-stores-section-1-main"
+    },
+    "children": [
+      "list-context.image-list#official-stores-section-3-main"
+    ]
+  },
+  "list-context.image-list#official-stores-section-3-main": {
+    "children": [
+      "slider-layout#official-stores-section-1-main"
+    ],
+    "props": {
+      "blockClass": [
+        "official-stores-section-3-main"
+      ],
+      "images": [
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Miniso",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Sfera",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Renzo Costa",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Mac",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Mac",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Mac",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Mac",
+          "link": {
+            "url": "/"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#official-stores-section-3-main": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 4,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "official-stores-section-1-main"
+    }
+  },
+  "flex-layout.row#official-stores-section-4": {
+    "props": {
+      "blockClass": "official-stores-section-1"
+    },
+    "children": [
+      "rich-text#official-stores-section-4-title",
+      "rich-text#official-stores-section-4-link"
+    ]
+  },
+  "rich-text#official-stores-section-4-title": {
+    "props": {
+      "text": "Salud y Bienestar",
+      "blockClass": [
+        "official-stores-section-1-title"
+      ]
+    }
+  },
+  "rich-text#official-stores-section-4-link": {
+    "props": {
+      "text": "[Ver todo](/)",
+      "blockClass": [
+        "official-stores-section-1-link"
+      ]
+    }
+  },
+  "flex-layout.row#official-stores-section-4-main": {
+    "props": {
+      "blockClass": "official-stores-section-1-main"
+    },
+    "children": [
+      "list-context.image-list#official-stores-section-4-main"
+    ]
+  },
+  "list-context.image-list#official-stores-section-4-main": {
+    "children": [
+      "slider-layout#official-stores-section-4-main"
+    ],
+    "props": {
+      "blockClass": [
+        "official-stores-section-3-main"
+      ],
+      "images": [
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Miniso",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Sfera",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Renzo Costa",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Mac",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Mac",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Mac",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Mac",
+          "link": {
+            "url": "/"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#official-stores-section-4-main": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 4,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "official-stores-section-1-main"
+    }
+  },
+  "flex-layout.row#official-stores-section-5": {
+    "props": {
+      "blockClass": "official-stores-section-1"
+    },
+    "children": [
+      "rich-text#official-stores-section-5-title",
+      "rich-text#official-stores-section-5-link"
+    ]
+  },
+  "rich-text#official-stores-section-5-title": {
+    "props": {
+      "text": "Deportes",
+      "blockClass": [
+        "official-stores-section-1-title"
+      ]
+    }
+  },
+  "rich-text#official-stores-section-5-link": {
+    "props": {
+      "text": "[Ver todo](/)",
+      "blockClass": [
+        "official-stores-section-1-link"
+      ]
+    }
+  },
+  "flex-layout.row#official-stores-section-5-main": {
+    "props": {
+      "blockClass": "official-stores-section-1-main"
+    },
+    "children": [
+      "list-context.image-list#official-stores-section-5-main"
+    ]
+  },
+  "list-context.image-list#official-stores-section-5-main": {
+    "children": [
+      "slider-layout#official-stores-section-5-main"
+    ],
+    "props": {
+      "blockClass": [
+        "official-stores-section-3-main"
+      ],
+      "images": [
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Miniso",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Sfera",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Renzo Costa",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Mac",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Mac",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Mac",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Mac",
+          "link": {
+            "url": "/"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#official-stores-section-5-main": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 4,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "official-stores-section-1-main"
+    }
+  },
+  "flex-layout.row#official-stores-section-6": {
+    "props": {
+      "blockClass": "official-stores-section-1"
+    },
+    "children": [
+      "rich-text#official-stores-section-6-title",
+      "rich-text#official-stores-section-6-link"
+    ]
+  },
+  "rich-text#official-stores-section-6-title": {
+    "props": {
+      "text": "Moda Mujer",
+      "blockClass": [
+        "official-stores-section-1-title"
+      ]
+    }
+  },
+  "rich-text#official-stores-section-6-link": {
+    "props": {
+      "text": "[Ver todo](/)",
+      "blockClass": [
+        "official-stores-section-1-link"
+      ]
+    }
+  },
+  "flex-layout.row#official-stores-section-6-main": {
+    "props": {
+      "blockClass": "official-stores-section-1-main"
+    },
+    "children": [
+      "list-context.image-list#official-stores-section-6-main"
+    ]
+  },
+  "list-context.image-list#official-stores-section-6-main": {
+    "children": [
+      "slider-layout#official-stores-section-6-main"
+    ],
+    "props": {
+      "blockClass": [
+        "official-stores-section-3-main"
+      ],
+      "images": [
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Miniso",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Sfera",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Renzo Costa",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Mac",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Mac",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Mac",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Mac",
+          "link": {
+            "url": "/"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#official-stores-section-6-main": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 4,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "official-stores-section-1-main"
+    }
+  },
+  "flex-layout.row#official-stores-section-7": {
+    "props": {
+      "blockClass": "official-stores-section-1"
+    },
+    "children": [
+      "rich-text#official-stores-section-7-title",
+      "rich-text#official-stores-section-7-link"
+    ]
+  },
+  "rich-text#official-stores-section-7-title": {
+    "props": {
+      "text": "Moda Hombre",
+      "blockClass": [
+        "official-stores-section-1-title"
+      ]
+    }
+  },
+  "rich-text#official-stores-section-7-link": {
+    "props": {
+      "text": "[Ver todo](/)",
+      "blockClass": [
+        "official-stores-section-1-link"
+      ]
+    }
+  },
+  "flex-layout.row#official-stores-section-7-main": {
+    "props": {
+      "blockClass": "official-stores-section-1-main"
+    },
+    "children": [
+      "list-context.image-list#official-stores-section-7-main"
+    ]
+  },
+  "list-context.image-list#official-stores-section-7-main": {
+    "children": [
+      "slider-layout#official-stores-section-7-main"
+    ],
+    "props": {
+      "blockClass": [
+        "official-stores-section-3-main"
+      ],
+      "images": [
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Miniso",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Sfera",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Renzo Costa",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Mac",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Mac",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Mac",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Mac",
+          "link": {
+            "url": "/"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#official-stores-section-7-main": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 4,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "official-stores-section-1-main"
+    }
+  },
+  "flex-layout.row#official-stores-section-8": {
+    "props": {
+      "blockClass": "official-stores-section-1"
+    },
+    "children": [
+      "rich-text#official-stores-section-8-title",
+      "rich-text#official-stores-section-8-link"
+    ]
+  },
+  "rich-text#official-stores-section-8-title": {
+    "props": {
+      "text": "Accesorios",
+      "blockClass": [
+        "official-stores-section-1-title"
+      ]
+    }
+  },
+  "rich-text#official-stores-section-8-link": {
+    "props": {
+      "text": "[Ver todo](/)",
+      "blockClass": [
+        "official-stores-section-1-link"
+      ]
+    }
+  },
+  "flex-layout.row#official-stores-section-8-main": {
+    "props": {
+      "blockClass": "official-stores-section-1-main"
+    },
+    "children": [
+      "list-context.image-list#official-stores-section-8-main"
+    ]
+  },
+  "list-context.image-list#official-stores-section-8-main": {
+    "children": [
+      "slider-layout#official-stores-section-8-main"
+    ],
+    "props": {
+      "blockClass": [
+        "official-stores-section-3-main"
+      ],
+      "images": [
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Miniso",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Sfera",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Renzo Costa",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Mac",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Mac",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Mac",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Mac",
+          "link": {
+            "url": "/"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#official-stores-section-8-main": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 4,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "official-stores-section-1-main"
+    }
+  },
+  "flex-layout.row#official-stores-section-9": {
+    "props": {
+      "blockClass": "official-stores-section-1"
+    },
+    "children": [
+      "rich-text#official-stores-section-9-title",
+      "rich-text#official-stores-section-9-link"
+    ]
+  },
+  "rich-text#official-stores-section-9-title": {
+    "props": {
+      "text": "Belleza",
+      "blockClass": [
+        "official-stores-section-1-title"
+      ]
+    }
+  },
+  "rich-text#official-stores-section-9-link": {
+    "props": {
+      "text": "[Ver todo](/)",
+      "blockClass": [
+        "official-stores-section-1-link"
+      ]
+    }
+  },
+  "flex-layout.row#official-stores-section-9-main": {
+    "props": {
+      "blockClass": "official-stores-section-1-main"
+    },
+    "children": [
+      "list-context.image-list#official-stores-section-9-main"
+    ]
+  },
+  "list-context.image-list#official-stores-section-9-main": {
+    "children": [
+      "slider-layout#official-stores-section-9-main"
+    ],
+    "props": {
+      "blockClass": [
+        "official-stores-section-3-main"
+      ],
+      "images": [
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Miniso",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Sfera",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Renzo Costa",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Mac",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Mac",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Mac",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Mac",
+          "link": {
+            "url": "/"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#official-stores-section-9-main": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 4,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "official-stores-section-1-main"
+    }
+  },
+  "flex-layout.row#official-stores-section-10": {
+    "props": {
+      "blockClass": "official-stores-section-1"
+    },
+    "children": [
+      "rich-text#official-stores-section-10-title",
+      "rich-text#official-stores-section-10-link"
+    ]
+  },
+  "rich-text#official-stores-section-10-title": {
+    "props": {
+      "text": "Infantil",
+      "blockClass": [
+        "official-stores-section-1-title"
+      ]
+    }
+  },
+  "rich-text#official-stores-section-10-link": {
+    "props": {
+      "text": "[Ver todo](/)",
+      "blockClass": [
+        "official-stores-section-1-link"
+      ]
+    }
+  },
+  "flex-layout.row#official-stores-section-10-main": {
+    "props": {
+      "blockClass": "official-stores-section-1-main"
+    },
+    "children": [
+      "list-context.image-list#official-stores-section-10-main"
+    ]
+  },
+  "list-context.image-list#official-stores-section-10-main": {
+    "children": [
+      "slider-layout#official-stores-section-10-main"
+    ],
+    "props": {
+      "blockClass": [
+        "official-stores-section-3-main"
+      ],
+      "images": [
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Miniso",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Sfera",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Renzo Costa",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Mac",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Mac",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Mac",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Mac",
+          "link": {
+            "url": "/"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#official-stores-section-10-main": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 4,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "official-stores-section-1-main"
+    }
+  },
+  "flex-layout.row#official-stores-section-11": {
+    "props": {
+      "blockClass": "official-stores-section-1"
+    },
+    "children": [
+      "rich-text#official-stores-section-11-title",
+      "rich-text#official-stores-section-11-link"
+    ]
+  },
+  "rich-text#official-stores-section-11-title": {
+    "props": {
+      "text": "Juegos y Juguetes",
+      "blockClass": [
+        "official-stores-section-1-title"
+      ]
+    }
+  },
+  "rich-text#official-stores-section-11-link": {
+    "props": {
+      "text": "[Ver todo](/)",
+      "blockClass": [
+        "official-stores-section-1-link"
+      ]
+    }
+  },
+  "flex-layout.row#official-stores-section-11-main": {
+    "props": {
+      "blockClass": "official-stores-section-1-main"
+    },
+    "children": [
+      "list-context.image-list#official-stores-section-11-main"
+    ]
+  },
+  "list-context.image-list#official-stores-section-11-main": {
+    "children": [
+      "slider-layout#official-stores-section-11-main"
+    ],
+    "props": {
+      "blockClass": [
+        "official-stores-section-3-main"
+      ],
+      "images": [
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Miniso",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Sfera",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Renzo Costa",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Mac",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Mac",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Mac",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Mac",
+          "link": {
+            "url": "/"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#official-stores-section-11-main": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 4,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "official-stores-section-1-main"
+    }
+  },
+  "flex-layout.row#official-stores-section-12": {
+    "props": {
+      "blockClass": "official-stores-section-1"
+    },
+    "children": [
+      "rich-text#official-stores-section-12-title",
+      "rich-text#official-stores-section-12-link"
+    ]
+  },
+  "rich-text#official-stores-section-12-title": {
+    "props": {
+      "text": "Mundo Bebe",
+      "blockClass": [
+        "official-stores-section-1-title"
+      ]
+    }
+  },
+  "rich-text#official-stores-section-12-link": {
+    "props": {
+      "text": "[Ver todo](/)",
+      "blockClass": [
+        "official-stores-section-1-link"
+      ]
+    }
+  },
+  "flex-layout.row#official-stores-section-12-main": {
+    "props": {
+      "blockClass": "official-stores-section-1-main"
+    },
+    "children": [
+      "list-context.image-list#official-stores-section-12-main"
+    ]
+  },
+  "list-context.image-list#official-stores-section-12-main": {
+    "children": [
+      "slider-layout#official-stores-section-12-main"
+    ],
+    "props": {
+      "blockClass": [
+        "official-stores-section-3-main"
+      ],
+      "images": [
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Miniso",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Sfera",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Renzo Costa",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Mac",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Mac",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Mac",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Mac",
+          "link": {
+            "url": "/"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#official-stores-section-12-main": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 4,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "official-stores-section-1-main"
+    }
+  },
+  "flex-layout.row#official-stores-section-13": {
+    "props": {
+      "blockClass": "official-stores-section-1"
+    },
+    "children": [
+      "rich-text#official-stores-section-13-title",
+      "rich-text#official-stores-section-13-link"
+    ]
+  },
+  "rich-text#official-stores-section-13-title": {
+    "props": {
+      "text": "Oficina y Útiles",
+      "blockClass": [
+        "official-stores-section-1-title"
+      ]
+    }
+  },
+  "rich-text#official-stores-section-13-link": {
+    "props": {
+      "text": "[Ver todo](/)",
+      "blockClass": [
+        "official-stores-section-1-link"
+      ]
+    }
+  },
+  "flex-layout.row#official-stores-section-13-main": {
+    "props": {
+      "blockClass": "official-stores-section-1-main"
+    },
+    "children": [
+      "list-context.image-list#official-stores-section-13-main"
+    ]
+  },
+  "list-context.image-list#official-stores-section-13-main": {
+    "children": [
+      "slider-layout#official-stores-section-13-main"
+    ],
+    "props": {
+      "blockClass": [
+        "official-stores-section-3-main"
+      ],
+      "images": [
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Miniso",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Sfera",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Renzo Costa",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Mac",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Mac",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Mac",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Mac",
+          "link": {
+            "url": "/"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#official-stores-section-13-main": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 4,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "official-stores-section-1-main"
+    }
+  },
+  "flex-layout.row#official-stores-section-14": {
+    "props": {
+      "blockClass": "official-stores-section-1"
+    },
+    "children": [
+      "rich-text#official-stores-section-14-title",
+      "rich-text#official-stores-section-14-link"
+    ]
+  },
+  "rich-text#official-stores-section-14-title": {
+    "props": {
+      "text": "Supermercados",
+      "blockClass": [
+        "official-stores-section-1-title"
+      ]
+    }
+  },
+  "rich-text#official-stores-section-14-link": {
+    "props": {
+      "text": "[Ver todo](/)",
+      "blockClass": [
+        "official-stores-section-1-link"
+      ]
+    }
+  },
+  "flex-layout.row#official-stores-section-14-main": {
+    "props": {
+      "blockClass": "official-stores-section-1-main"
+    },
+    "children": [
+      "list-context.image-list#official-stores-section-14-main"
+    ]
+  },
+  "list-context.image-list#official-stores-section-14-main": {
+    "children": [
+      "slider-layout#official-stores-section-14-main"
+    ],
+    "props": {
+      "blockClass": [
+        "official-stores-section-3-main"
+      ],
+      "images": [
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Miniso",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Sfera",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Renzo Costa",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Mac",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Mac",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Mac",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Mac",
+          "link": {
+            "url": "/"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#official-stores-section-14-main": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 4,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "official-stores-section-1-main"
+    }
+  },
+  "flex-layout.row#official-stores-section-15": {
+    "props": {
+      "blockClass": "official-stores-section-1"
+    },
+    "children": [
+      "rich-text#official-stores-section-15-title",
+      "rich-text#official-stores-section-15-link"
+    ]
+  },
+  "rich-text#official-stores-section-15-title": {
+    "props": {
+      "text": "Mascotas",
+      "blockClass": [
+        "official-stores-section-1-title"
+      ]
+    }
+  },
+  "rich-text#official-stores-section-15-link": {
+    "props": {
+      "text": "[Ver todo](/)",
+      "blockClass": [
+        "official-stores-section-1-link"
+      ]
+    }
+  },
+  "flex-layout.row#official-stores-section-15-main": {
+    "props": {
+      "blockClass": "official-stores-section-1-main"
+    },
+    "children": [
+      "list-context.image-list#official-stores-section-15-main"
+    ]
+  },
+  "list-context.image-list#official-stores-section-15-main": {
+    "children": [
+      "slider-layout#official-stores-section-15-main"
+    ],
+    "props": {
+      "blockClass": [
+        "official-stores-section-3-main"
+      ],
+      "images": [
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Miniso",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Sfera",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Renzo Costa",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Mac",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Mac",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Mac",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Mac",
+          "link": {
+            "url": "/"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#official-stores-section-15-main": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 4,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "official-stores-section-1-main"
+    }
+  },
+  "flex-layout.row#official-stores-section-16": {
+    "props": {
+      "blockClass": "official-stores-section-1"
+    },
+    "children": [
+      "rich-text#official-stores-section-16-title",
+      "rich-text#official-stores-section-16-link"
+    ]
+  },
+  "rich-text#official-stores-section-16-title": {
+    "props": {
+      "text": "Otros",
+      "blockClass": [
+        "official-stores-section-1-title"
+      ]
+    }
+  },
+  "rich-text#official-stores-section-16-link": {
+    "props": {
+      "text": "[Ver todo](/)",
+      "blockClass": [
+        "official-stores-section-1-link"
+      ]
+    }
+  },
+  "flex-layout.row#official-stores-section-16-main": {
+    "props": {
+      "blockClass": "official-stores-section-1-main"
+    },
+    "children": [
+      "list-context.image-list#official-stores-section-16-main"
+    ]
+  },
+  "list-context.image-list#official-stores-section-16-main": {
+    "children": [
+      "slider-layout#official-stores-section-16-main"
+    ],
+    "props": {
+      "blockClass": [
+        "official-stores-section-3-main"
+      ],
+      "images": [
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Miniso",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Sfera",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Renzo Costa",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Mac",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Mac",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Mac",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "/arquivos/apple.png",
+          "mobileImage": "/arquivos/apple.png",
+          "description": "Mac",
+          "link": {
+            "url": "/"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#official-stores-section-16-main": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 4,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "official-stores-section-1-main"
+    }
+  }
+}

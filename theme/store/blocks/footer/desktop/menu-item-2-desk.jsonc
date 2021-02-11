@@ -1,0 +1,58 @@
+{
+    "flex-layout.col#desk-menu-item-col-2": {
+        "children": [
+            "rich-text#desk-menu-item-2-title",
+            "flex-layout.col#desk-menu-item-2-contentlink"
+        ],
+        "props": {
+            "width": "20%",
+            "blockClass": "contenteItem"
+        }
+    },
+
+    "flex-layout.col#desk-menu-item-2-contentlink": {
+        "children": [
+            "rich-text#desk-menu-item-2-link-1",
+            "rich-text#desk-menu-item-2-link-2",
+            "rich-text#desk-menu-item-2-link-3",
+            "rich-text#desk-menu-item-2-link-4"
+        ]
+    },
+
+    "rich-text#desk-menu-item-2-title": {
+        "props": {
+            "text": "Ayuda",
+            "blockClass": "titleItemsfooter"
+        }
+    },
+
+    "rich-text#desk-menu-item-2-link-1": {
+        "props": {
+            "text": "[Preguntas frecuentes](#!)",
+            "blockClass": "linkFooter"
+        }
+    },
+
+    "rich-text#desk-menu-item-2-link-2": {
+        "props": {
+            "text": "[Preguntas frecuentes COVID-19](#!)",
+            "blockClass": "linkFooter"
+        }
+    },
+
+    "rich-text#desk-menu-item-2-link-3": {
+        "props": {
+            "text": "[Garantía de productos](#!)",
+            "blockClass": "linkFooter"
+        }
+    },
+
+    "rich-text#desk-menu-item-2-link-4": {
+        "props": {
+            "text": "[Cambios y devoluciones](#!)",
+            "blockClass": "linkFooter"
+        }
+    }
+
+    
+}

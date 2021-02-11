@@ -1,0 +1,78 @@
+{
+    //paginas 404
+    "store.not-found#product": {
+        "blocks": [
+            "flex-layout.row#not-found-1",
+            "flex-layout.row#not-found-2",
+            "flex-layout.row#not-found-3",
+            "flex-layout.row#spacer"
+        ]
+    },
+    "store.not-found#search": {
+        "blocks": [
+            "flex-layout.row#not-found-1",
+            "flex-layout.row#not-found-2",
+            "flex-layout.row#not-found-3",
+            "flex-layout.row#spacer"
+        ]
+    },
+    //cuando no hay resultados de busqueda
+    "search-not-found-layout": {
+        "children": [
+            "flex-layout.row#bread-crumb",
+            "flex-layout.row#not-found-1",
+            "flex-layout.row#not-found-2",
+            "flex-layout.row#not-found-3",
+            "flex-layout.row#spacer"
+        ]
+    },
+    "flex-layout.row#not-found-1": {
+        "children": [
+            "not-found"
+        ],
+        "props": {
+            "fullWidth": true
+        }
+    },
+    "flex-layout.row#not-found-2": {
+        "children": [
+            "rich-text#not-found"
+        ],
+        "props": {
+            "fullWidth": true
+        }
+    },
+    "rich-text#not-found": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "**Te puede interesar**"
+        }
+    },
+    "flex-layout.row#not-found-3": {
+        "children": [
+            "flex-layout.row#shelf-not-found"
+        ],
+        "props": {
+            "fullWidth": true
+        }
+    },
+    "flex-layout.row#shelf-not-found": {
+        "children": [
+            "list-context.product-list#shelf-not-found"
+        ]
+    },
+    "list-context.product-list#shelf-not-found": {
+        "blocks": [
+            "product-summary.shelf"
+        ],
+        "children": [
+            "slider-layout#home-products"
+        ],
+        "props": {
+            "orderBy": "OrderByTopSaleDESC",
+            //"collection": "138",
+            "maxItems": 14
+        }
+    }
+}

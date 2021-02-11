@@ -1,0 +1,141 @@
+{
+  
+  "product-summary.shelf": {
+    "children": [
+      "product-price-savings#summary",
+      "stack-layout#prodsum",
+      "product-summary-brand",
+      "product-summary-name",
+      "flex-layout.row#price",
+      "product-summary-space",
+      "flex-layout.row#sku-btn"
+    ],
+    "props":{
+      "blockClass": "shelfSlide"
+    }
+  },
+
+  "flex-layout.row#price": {
+    "children": [
+      "flex-layout.col#selling-price",
+      "flex-layout.col#list-price"
+    ],
+    "props":{
+      "blockClass": "contentPrice"
+    }
+  },
+
+  "flex-layout.col#selling-price":{
+    "children": [
+      "product-selling-price#summary"
+    ],
+    "props":{
+      "blockClass": "contentPrices"
+    }
+  },
+
+  "flex-layout.col#list-price":{
+    "children": [
+      "product-list-price"
+    ],
+    "props":{
+      "blockClass": "contentPrices"
+    }
+  },
+
+  "flex-layout.row#sku-btn": {
+    "children": [
+      "flex-layout.col#content-sku",
+      "flex-layout.col#add-to-cart"
+    ],
+    "props":{
+      "blockClass": "contentSkuBtn"
+    }
+  },
+  "product-summary-sku-selector": {
+    "props":{
+      // "visibility": "more-than-one"
+      // "initialSelection": "all"
+    }
+  },
+  "flex-layout.col#content-sku": {
+    "children": [
+      "product-summary-sku-selector"
+    ],
+    "props": {
+      "width": "80%",
+      "blockClass": "contentSku"
+    }
+  },
+
+  "flex-layout.col#add-to-cart": {
+    "children": [
+      "add-to-cart-button"
+    ],
+    "props": {
+      "width": "20%",
+      "blockClass": "contentButton"
+    }
+  },
+  "add-to-cart-button":{
+    "props": {
+      "onClickBehavior": "add-to-cart"
+    }
+  },
+  "stack-layout#prodsum": {
+    "children": [
+      "product-summary-image#shelf",
+      "vtex.product-highlights@2.x:product-highlights#collection",
+      // "modal-trigger#quickview",
+      "flex-layout.row#add-to-list-btn"
+    ],
+    "props": {
+      "blockClass": "imageShelf"
+    }
+  },
+  "product-summary-image#shelf": {
+    "props": {
+      "showBadge": false,
+      "aspectRatio": "1:1",
+      "maxHeight": 300
+    }
+  },
+  "flex-layout.row#add-to-list-btn":{
+    "children": [
+      "add-to-list-btn"
+    ],
+    "props": {
+      "blockClass": "addWishList"
+    }
+  },
+  "vtex.product-highlights@2.x:product-highlights#collection": {
+    "props": {
+      "type": "collection"
+    },
+    "children": ["product-highlight-wrapper"]
+  },
+  "product-highlight-wrapper": {
+    "children": ["product-highlight-text"]
+  },
+  "product-highlight-text": {
+    "props": {
+      "message": "{highlightName}"
+    }
+  },
+  "product-selling-price#summary": {
+    "props": {
+      "markers": [
+        "highlight"
+      ],
+      "message": "{sellingPriceValue}"
+    }
+  },
+  "product-price-savings#summary": {
+    "props": {
+      "message": "-{savingsPercentage} Off",
+      "markers": [
+        "discount"
+      ]
+    }
+  }
+}

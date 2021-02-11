@@ -1,0 +1,292 @@
+{
+  "flex-layout.row#header-sticky-inactive-desk": {
+    "children": [
+      "flex-layout.col#header-sticky-inactive-desk"
+    ]
+  },
+
+  "flex-layout.row#header-sticky-active-desk": {
+    "children": [
+      "flex-layout.col#header-sticky-active-desk"
+    ]
+  },
+
+  "flex-layout.col#header-sticky-inactive-desk": {
+    "children": [
+      "flex-layout.col#top-header-desk",
+      "flex-layout.col#header-desk",
+      "flex-layout.col#menu-desk"
+    ],
+    "props": {
+      "blockClass": "contenedorHeader"
+    }
+  },
+
+  "flex-layout.col#header-sticky-active-desk": {
+    "children": [
+      "flex-layout.col#header-active-desk"
+    ],
+    "props": {
+      "blockClass": "contenedorHeader"
+    }
+  },
+
+  // Top header
+  "flex-layout.col#top-header-desk": {
+    "children": [
+      "rich-text#top-header-desk"
+    ],
+    "props": {
+      "width": "100%"
+    }
+  },
+
+  "rich-text#top-header-desk": {
+    "props": {
+        "text": "obtén envío gratuito por compras superiores a $300.000    |    Actualmente nuestro tiempo de entrega es de 5 - 15 días aproximadamente",
+        "blockClass": "textTopHeader"
+    }
+  },
+
+  //header sin sticky
+  "flex-layout.col#header-desk":{
+    "children": [
+      "flex-layout.row#header-desk"    
+    ],
+    "props": {
+      "width": "100%"
+    }
+  },
+
+  "flex-layout.col#header-active-desk":{
+    "children": [
+      "flex-layout.row#header-active-desk"    
+    ],
+    "props": {
+      "width": "100%"
+    }
+  },
+
+  "flex-layout.row#header-desk": {
+    "children": [
+      "flex-layout.col#header-desk-col-1",
+      "flex-layout.col#header-desk-col-2",
+      "flex-layout.col#header-desk-col-3"
+    ],
+    "props": {
+      "blockClass": "contentHeaderRow1"
+    }
+  },
+
+  "flex-layout.row#header-active-desk": {
+    "children": [
+      "flex-layout.col#header-active-desk-col-2",
+      "flex-layout.col#menu-active-desk",
+      "flex-layout.col#header-desk-col-3"
+    ],
+    "props": {
+      "blockClass": "contentHeaderRow1"
+    }
+  },
+
+  "flex-layout.col#header-desk-col-1": {
+    "props": {
+      "width": "38%"
+    }
+  },
+
+  "flex-layout.col#header-desk-col-2": {
+    "children": [
+      "image#logo-pilatos"
+    ],
+    "props": {
+      "width": "24%",
+      "blockClass": "contentLogo"
+    }
+  },
+
+  "flex-layout.col#header-active-desk-col-2": {
+    "children": [
+      "image#logo-pilatos"
+    ],
+    "props": {
+      "width": "11%",
+      "blockClass": "contentLogo"
+    }
+  },
+
+  "image#logo-pilatos": {
+    "props": {
+        "src": "/arquivos/pilatos_logo_BN.png",
+        "link": {
+            "url": "/"
+        }
+    }
+  },
+
+  "flex-layout.col#header-desk-col-3": {
+    "children": [
+      "flex-layout.row#header-items-desk"
+    ],
+    "props": {
+      "width": "35%"
+    }
+  },
+
+  "flex-layout.row#header-items-desk": {
+    "children": [
+      "flex-layout.col#header-items-desk-col-1",
+      "flex-layout.col#header-items-desk-col-2"
+    ]
+  },
+
+  "flex-layout.col#header-items-desk-col-1": {
+    "children": [
+      "search-bar"
+    ],
+    "props": {
+      "width": "55%"
+    }
+  },
+
+  "search-bar": {
+    "blocks": [
+      "autocomplete-result-list.v2"
+    ],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "placeholder": "¿Qué estás buscando?",
+      "blockClass": "contentSearch"
+    }
+  },
+  "autocomplete-result-list.v2": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "props": {
+      "__unstableProductOriginVtex": true,
+      //"productLayout": "HORIZONTAL",
+      "maxSuggestedProducts":3,
+      "historyFirst": true
+    }
+  },
+
+
+  // Seccion de iconos
+  "flex-layout.col#header-items-desk-col-2": {
+    "children": [ 
+      "flex-layout.row#header-items-desk-ico"
+    ],
+    "props": {
+      "width": "45%",
+      "blockClass": "contenicos"
+    }
+  },
+
+  "flex-layout.row#header-items-desk-ico": {
+    "children": [
+      "flex-layout.col#header-items-desk-ico-col-1",
+      "flex-layout.col#header-items-desk-ico-col-2",
+      "flex-layout.col#header-items-desk-ico-col-3"
+    ]
+  },
+
+  //Icono wishList
+  "flex-layout.col#header-items-desk-ico-col-1": {
+    "children": [
+      "rich-text#header-items-ico-1"
+    ],
+    "props": {
+      "width": "33%",
+      "blockClass": "icoWishlist"
+    }
+  },
+
+  "rich-text#header-items-ico-1": {
+    "props": {
+      "text": "[](/wishlist)",
+      "blockClass": "icoWishlist"
+    }
+  },
+
+  //Icono login
+  "flex-layout.col#header-items-desk-ico-col-2": {
+    "children": [
+      "login"
+    ],
+    "props": {
+      "width": "33%",
+      "blockClass": "icoLogin"
+    }
+  },
+
+  "login#header-items-ico-2": {
+    "props": {
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true
+    }
+  },
+
+  //Icono carrito
+  "flex-layout.col#header-items-desk-ico-col-3": {
+    "children": [
+      "minicart.v2"
+    ],
+    "props": {
+      "width": "33%",
+      "blockClass": "icoCart"
+    }
+  },
+
+  //Seccion para el menu
+  "flex-layout.col#menu-desk": {
+    "children": [
+      "flex-layout.row#menu-desk"
+    ],
+    "props": {
+      "width": "100%"
+    }
+  },
+
+  "flex-layout.col#menu-active-desk": {
+    "children": [
+      "flex-layout.row#menu-active-desk"
+    ],
+    "props": {
+      "width": "51%"
+    }
+  },
+
+  "flex-layout.row#menu-desk": {
+    "children": [
+      "flex-layout.col#menu-desk-col-1",
+      "flex-layout.col#menu-desk-col-2",
+      "flex-layout.col#menu-desk-col-3",
+      "flex-layout.col#menu-desk-col-4",
+      "flex-layout.col#menu-desk-col-5",
+      "flex-layout.col#menu-desk-col-6",
+      "flex-layout.col#menu-desk-col-7"
+    ],
+    "props": {
+      "blockClass": "contentHeaderMenu"
+    }
+  },
+
+  "flex-layout.row#menu-active-desk": {
+    "children": [
+      "flex-layout.col#menu-desk-col-1",
+      "flex-layout.col#menu-desk-col-2",
+      "flex-layout.col#menu-desk-col-3",
+      "flex-layout.col#menu-desk-col-4",
+      "flex-layout.col#menu-desk-col-5",
+      "flex-layout.col#menu-desk-col-6",
+      "flex-layout.col#menu-desk-col-7"
+    ],
+    "props": {
+      "blockClass": "contentHeaderMenuActive"
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+    "vtex.menu@2.x:menu#footer-mobile-1": {
+        "children": [
+            "menu-item#footer-mobile-1-row-1"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+
+    "menu-item#footer-mobile-1-row-1": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "Ayuda"
+            },
+            "blockClass": "accordionLevel1"
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#footer-mobile-1-row-1"
+        ]
+    },
+
+    "vtex.menu@2.x:submenu.accordion#footer-mobile-1-row-1": {
+        "children": [
+            "rich-text#submenu-1-text-1",
+            "rich-text#submenu-1-text-2",
+            "rich-text#submenu-1-text-3",
+            "rich-text#submenu-1-text-4"
+        ],
+        "props": {
+            "blockClass": "contentSubMenu"
+        }
+    },
+
+    "rich-text#submenu-1-text-1": {
+        "props": {
+            "text": "Preguntas frecuentes"
+        }
+    },
+
+    "rich-text#submenu-1-text-2": {
+        "props": {
+            "text": "Preguntas frecuentes COVID-19"
+        }
+    },
+
+    "rich-text#submenu-1-text-3": {
+        "props": {
+            "text": "Garantias de productos"
+        }
+    },
+
+    "rich-text#submenu-1-text-4": {
+        "props": {
+            "text": "Cambios y devoluciones"
+        }
+    }
+}
