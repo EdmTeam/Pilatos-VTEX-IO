@@ -1,0 +1,33 @@
+.openIconContainer--menu-drawer{
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 1.8rem;
+}
+
+.openIconContainer--menu-drawer .menuIcon--menu-drawer{
+    display: none;
+}
+
+/* Estilos al menu mobile */
+.drawerHeader--contenedorMenuHeader{
+    margin-bottom: 3rem;
+}
+
+.drawerContent--menu-drawer{
+    overflow: visible;
+}
+
+.openIconContainer--menuDrawerLevel1{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 100%;
+}
+
+.menuIcon--menuDrawerLevel1{
+    color: transparent;
+}

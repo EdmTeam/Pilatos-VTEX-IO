@@ -2,13 +2,19 @@
   "flex-layout.col#menu-desk-col-7": {
     "children": [
       "vtex.menu@2.x:menu#menu-desktop-7"
-    ]
+    ],
+    "props":{
+      "width": "22%"
+    }
   },
 
   "vtex.menu@2.x:menu#menu-desktop-7": {
     "children": [
       "menu-item#menu-item-7-desk-1"
-    ]
+    ],
+    "props":{
+      "blockClass": "menucontainerDesk"
+    }
   },
   
   "menu-item#menu-item-7-desk-1": {

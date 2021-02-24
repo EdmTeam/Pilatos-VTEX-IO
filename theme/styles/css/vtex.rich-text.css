@@ -122,6 +122,9 @@
 }
 
 /* Estiolos personalizados footer*/
+.container--titleItemsfooter{
+  justify-content: center;
+}
 
 .paragraph--titleItemsfooter{
   margin: 0 0 1rem 0;
@@ -129,7 +132,15 @@
   font-size: 16px;
   line-height: 95%;
   letter-spacing: 0.02em;
-  color: #000000;
+  color: #FFFFFF;
+}
+
+.container--descriptionItemsfooter{
+  justify-content: center;
+}
+
+.wrapper--descriptionItemsfooter{
+  text-align: center;
 }
 
 .paragraph--descriptionItemsfooter{
@@ -137,7 +148,7 @@
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.02em;
-  color: #575757;
+  color: #FFFFFF;
 }
 
 .paragraph--infocontactItemsfooter{
@@ -145,11 +156,7 @@
   font-size: 10px;
   line-height: 95%;
   letter-spacing: 0.02em;
-  text-decoration-line: underline;
-}
-
-.link--infocontactItemsfooter{
-  color: #575757;
+  text-decoration: none;
 }
 
 .paragraph--storelocatorItemsfooter{
@@ -161,22 +168,46 @@
   color: #000000;
 }
 
+.wrapper--locatorItemsfooter{
+  color: #000000;
+  font-size: 2.2rem;
+}
+
 .container--storelocatorItemsfooter{
   width: 100%;
   justify-content: center;
 }
 
+.wrapper--textSubmenu .paragraph{
+  margin: .5rem 0;
+}
+
+.wrapper--textSubmenu .link{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
 .container--legalFooter{
   justify-content: center;
   align-items: center;
-  background: #E5E5E5;
-  margin-top: .5rem;
+  background: #FFFFFF;
+  margin-top: 0;
 }
 
 .paragraph--legalFooter{
   font-size: 10px;
   line-height: 12px;
   text-align: center;
+  margin: .3rem 0;
+}
+
+.wrapper--mailItemsfooter,
+.link--infocontactItemsfooter,
+.wrapper--telItemsfooter,
+.paragraph--infocontactItemsfooter
+{
+  color: #FFFFFF;
+  text-decoration: none;
 }
 
 .link--linkFooter{
@@ -194,8 +225,8 @@
 @media only screen and (min-width: 768px) {
   .wrapper--mailItemsfooter, 
   .wrapper--telItemsfooter,
-  .wrapper--whatsappItemsfooter,
-  .wrapper--locatorItemsfooter{
+  .wrapper--whatsappItemsfooter
+  {
     font-size: 1.2rem
   }
 }
@@ -222,11 +253,11 @@
   color: #FFFFFF;
   font-weight: bold;
   font-size: 9px;
-  line-height: 95%;
+  line-height: 12px;
   text-align: center;
   letter-spacing: 1px;
   text-transform: uppercase;
-  margin: 1rem 0;
+  margin: .5rem 0;
   padding: 0 6rem;
 }
 
@@ -243,7 +274,13 @@
 }
 
 .wrapper--icoSearch{
-  font-size: 1.8rem;
+  font-size: 1.3rem;
+}
+
+@media only screen and (min-width: 760px){
+  .container--icoSearch .wrapper--icoSearch{
+    font-size: 1.6rem;
+  }
 }
 
 .paragraph--icoWishlist{
@@ -297,7 +334,7 @@
 .wrapper--titleCategoryBanners .paragraph{
   margin: .5rem 0;
   font-weight: 900;
-  font-size: 15px;
+  font-size: 19px;
   line-height: 19px;
   letter-spacing: 0.03em;
   color: #000000;
@@ -316,12 +353,11 @@
 .paragraph--desPromotionalBanners, 
 .paragraph--desPromotionalBannersCenter{
   font-weight: 900;
-  font-size: 25px;
+  font-size: 24px;
   line-height: 95%;
   text-align: center;
   letter-spacing: 0.03em;
-  color: transparent;
-  -webkit-text-stroke: 1px #000000;
+  color: #000000;
   margin: 0;
 }
 
@@ -350,14 +386,18 @@
   text-decoration: none;
 }
 
-.paragraph--desBanners{
+.paragraph--desBanners, .paragraph--desBannersCenter{
   margin: 1.5rem auto 0 auto;
   width: 90%;
 }
 
 @media only screen and (min-width: 760px){
-  .container--desPromotionalBanners{
-    bottom: 168px;
+  .wrapper--titleCategoryBanners .paragraph{
+    font-size: 26px;
+  }
+
+  .container--desPromotionalBanners, .container--desPromotionalBannersCenter{
+    bottom: 160px;
     justify-content: left;
     width: 90%;
     left: 50%;
@@ -365,11 +405,7 @@
   }
 
   .container--desPromotionalBannersCenter{
-    bottom: 168px;
     justify-content: center;
-    width: 90%;
-    left: 50%;
-    transform: translateX(-50%);
   }
 
   .paragraph--desPromotionalBanners, 
@@ -398,4 +434,67 @@
   .paragraph--desBannersCenter{
     text-align: center;
   }
+}
+
+/* Estilos al menu mobile */
+.paragraph--itemMenuLevel1{
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 11px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #000000;
+  margin: 1.4rem 0;
+}
+
+.container--icoMenuLevel1{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.wrapper--icoMenuLevel1{
+  font-size: .6rem;
+  background: #FFD400;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.wrapper--icoMenuLevel1::before{
+  position: absolute;
+  top: 50%;
+  left: 54%;
+  transform: translate(-50%, -50%);
+}
+
+.container--textWishlist,
+.container--textlogin
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper--icoWishlist::before{
+  font-size: 1.6rem !important;
+  font-weight: bold;
+  color: #000000;
+}
+
+.wrapper--icoLogin::before{
+  font-size: 1.5rem !important;
+  font-weight: bold;
+  color: #000000;
+}
+
+.paragraph--textWishlist,
+.paragraph--textlogin
+{
+  margin: 1rem 0;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 15px;
+  color: #000000;
 }

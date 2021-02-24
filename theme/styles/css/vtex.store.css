@@ -11,9 +11,18 @@
     margin: 0 !important;
 }
 
+:global(.vtex-store-link-0-x-link){
+    text-decoration: none;
+}
+
+
 /* :global(.vtex-wish-list-1-x-outline){
     background: transparent;
 } */
+
+:global(.vtex-minicart-2-x-minicartIconContainer) :global(.vtex-store-icons-0-x-cartIcon){
+    display: none;
+}
 
 @media only screen and (min-width: 1180px){
     :global(.vtex-button)

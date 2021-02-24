@@ -41,37 +41,43 @@
 
     "rich-text#submenu-2-text-1": {
         "props": {
-            "text": "Términos y condiciones"
+            "text": "[Términos y condiciones](#!)",
+            "blockClass": "textSubmenu"
         }
     },
 
     "rich-text#submenu-2-text-2": {
         "props": {
-            "text": "Politícas de privacidad"
+            "text": "[Politícas de privacidad](#!)",
+            "blockClass": "textSubmenu"
         }
     },
 
     "rich-text#submenu-2-text-3": {
         "props": {
-            "text": "Promociones vigentes"
+            "text": "[Promociones vigentes](#!)",
+            "blockClass": "textSubmenu"
         }
     },
 
     "rich-text#submenu-2-text-4": {
         "props": {
-            "text": "Promociones PILATOS Outlet y Mixtas"
+            "text": "[Promociones PILATOS Outlet y Mixtas](#!)",
+            "blockClass": "textSubmenu"
         }
     },
 
     "rich-text#submenu-2-text-5": {
         "props": {
-            "text": "Promociones Tiendas New Balance"
+            "text": "[Promociones Tiendas New Balance](#!)",
+            "blockClass": "textSubmenu"
         }
     },
 
     "rich-text#submenu-2-text-6": {
         "props": {
-            "text": "Promociones Tiendas CELIO"
+            "text": "[Promociones Tiendas CELIO](#!)",
+            "blockClass": "textSubmenu"
         }
     }
 }

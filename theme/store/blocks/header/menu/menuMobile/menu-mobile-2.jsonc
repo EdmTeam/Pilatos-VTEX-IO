@@ -1,0 +1,88 @@
+{
+    "flex-layout.row#submenu-level-1-row-2": {
+        "children": [
+            "flex-layout.row#submenu-level-1-texto-row-2",
+            "drawer#submenu-level-1-row-2"
+        ],
+        "props": {
+            "blockClass": "contenItemsLevel1"
+        }
+    },
+
+    //Texto del menu
+    "flex-layout.row#submenu-level-1-texto-row-2": {
+        "children": [
+            "rich-text#submenu-level-1-texto-row-2",
+            "rich-text#submenu-level-1-icono-row-2"
+        ],
+        "props":{
+            "preserveLayoutOnMobile":true
+        }
+    },
+
+    "rich-text#submenu-level-1-texto-row-2": {
+        "props": {
+            "text": "Mujer",
+            "blockClass": "itemMenuLevel1",
+            "width": "90%"
+        }
+    },
+
+    "rich-text#submenu-level-1-icono-row-2": {
+        "props": {
+            "text": "",
+            "blockClass": "icoMenuLevel1",
+            "width": "10%"
+        }
+    },
+
+    "drawer#submenu-level-1-row-2": {
+        "props": {
+            "blockClass": "menuDrawerLevel1",
+            "slideDirection": "leftToRight",
+            "maxWidth": 315,
+            "width": "90%"
+        },
+        "blocks": [
+            "drawer-header#submenu-level-1-row-2"
+        ],
+        "children": [
+            "menu#drawer-row-2"
+        ]
+    },
+
+    "drawer-header#submenu-level-1-row-2": {
+        "children": [
+            "flex-layout.row#submenu-level-1-items-row-2"
+        ],
+        "props":{
+            "blockClass":"contenedorMenuHeader"
+        }
+      },
+      "flex-layout.row#submenu-level-1-items-row-2": {
+        "children": [
+            "flex-layout.row#close-drawer-row-2"
+        ]
+    },
+
+    "flex-layout.row#close-drawer-row-2": {
+        "children": [
+            "drawer-close-button"
+        ],
+        "props":{
+            "preserveLayoutOnMobile":true,
+            "preventHorizontalStretch":true
+        }
+    },
+
+    //=====================================
+    "menu#drawer-row-2": {
+        "children": [
+            //"sidebar-menu"
+        ],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "menu-drawer"
+        }
+    }
+}

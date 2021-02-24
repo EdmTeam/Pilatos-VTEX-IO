@@ -38,19 +38,22 @@
 
     "rich-text#submenu-4-text-1": {
         "props": {
-            "text": "Nosotros"
+            "text": "[Nosotros](#!)",
+            "blockClass": "textSubmenu"
         }
     },
 
     "rich-text#submenu-4-text-2": {
         "props": {
-            "text": "Trabaja con nosotros"
+            "text": "[Trabaja con nosotros](#!)",
+            "blockClass": "textSubmenu"
         }
     },
 
     "rich-text#submenu-4-text-3": {
         "props": {
-            "text": "Nuestras tiendas"
+            "text": "[Nuestras tiendas](#!)",
+            "blockClass": "textSubmenu"
         }
     }
 }

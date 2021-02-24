@@ -43,7 +43,7 @@
 
   "rich-text#top-header-desk": {
     "props": {
-        "text": "obtén envío gratuito por compras superiores a $300.000    |    Actualmente nuestro tiempo de entrega es de 5 - 15 días aproximadamente",
+        "text": "OBTÉN ENVÍO GRATUITO POR COMPRAS SUPERIORES A $250.000  |  TIEMPO DE ENTREGA 5 - 15 DÍAS HÁBILES",
         "blockClass": "textTopHeader"
     }
   },
@@ -110,8 +110,8 @@
       "image#logo-pilatos"
     ],
     "props": {
-      "width": "11%",
-      "blockClass": "contentLogo"
+      "width": "14%",
+      "blockClass": "contentLogoActive"
     }
   },
 
@@ -256,7 +256,7 @@
       "flex-layout.row#menu-active-desk"
     ],
     "props": {
-      "width": "51%"
+      "width": "48%"
     }
   },
 

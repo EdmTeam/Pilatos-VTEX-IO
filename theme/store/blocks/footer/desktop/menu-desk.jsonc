@@ -21,7 +21,7 @@
 
     "flex-layout.row#legal-medios-pago-desk": {
         "children": [
-            "rich-text#legal-medios-pago-mobile"        
+            "rich-text#legal-medios-pago-desk"
         ],
         "props": {
             "blockClass": "contentLegal"

@@ -61,8 +61,32 @@
 
 /* Baner secundarios */
 .sliderLayoutContainer--contentPromotionalBanner{
-    width: 93% !important;
+    width: 100% !important;
     margin: 1.4rem 0;
+}
+
+.paginationDotsContainer--contentPromotionalBanner{
+    bottom: -1.8rem;
+}
+
+.paginationDot--contentPromotionalBanner{
+    margin: 0 .5rem
+}
+
+@media only screen and (max-width: 759px){
+    .sliderLayoutContainer--contentPromotionalBanner{
+        justify-content: flex-end;
+    }
+
+    .sliderTrackContainer--contentPromotionalBanner{
+        width: 96%;
+    }
+}
+
+@media only screen and (min-width: 760px){
+    .sliderLayoutContainer--contentPromotionalBanner{
+        width: 93% !important;
+    }
 }
 
 .imageElementLink--contentPromotionalBanner{
@@ -76,8 +100,23 @@
 }
 
 .sliderLayoutContainer--contentCategoryBanner{
-    width: 93% !important;
+    width: 100% !important;
     margin: 1.4rem 0;
+}
+
+@media only screen and (max-width: 759px){
+    .sliderLayoutContainer--contentCategoryBanner{
+        justify-content: flex-end;
+    }
+    .sliderTrackContainer--contentCategoryBanner{
+        width: 93%;
+    }
+}
+
+@media only screen and (min-width: 760px){
+    .sliderLayoutContainer--contentCategoryBanner{
+        width: 93% !important;
+    }
 }
 
 .imageElementLink--contentCategoryBanner{

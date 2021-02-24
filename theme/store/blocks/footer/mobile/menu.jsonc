@@ -2,13 +2,15 @@
     "footer-layout.mobile": {
         "children": [
             "flex-layout.row#content-footer-mobile",
-            "flex-layout.row#legal-medios-pago-mobile"
+            "flex-layout.row#legal-medios-pago-mobile",
+            "flex-layout.row#medios-pago"
         ]
     },
     "flex-layout.row#content-footer-mobile": {
         "children": [
             "flex-layout.col#menu-item",
-            "flex-layout.col#content-footer-mobile"
+            "flex-layout.col#content-footer-mobile",
+            "flex-layout.row#logos-mobile"
         ],
         "props": {
             "blockClass": "contentItem1",
@@ -29,19 +31,108 @@
         }
     },
 
+    "flex-layout.row#logos-mobile": {
+        "children": [
+            "image#logo-1-pilatos",
+            "image#logo-2-pilatos"
+        ],
+        "props":{
+            "preserveLayoutOnMobile": true,
+            "blockClass": "contentLogoFooter"
+        }
+    },
+
+    "image#logo-1-pilatos": {
+        "props": {
+            "src": "/arquivos/logo_SIC.png",
+            "width": "55%",
+            "blockClass": "imgLogoFooter1"
+        }
+    },
+
+    "image#logo-2-pilatos": {
+        "props": {
+            "src": "/arquivos/camara-comercio.png",
+            "width": "45%",
+            "blockClass": "imgLogoFooter2"
+        }
+    },
+
     "flex-layout.row#legal-medios-pago-mobile": {
         "children": [
-            "rich-text#legal-medios-pago-mobile"        
+            "rich-text#legal-mobile",
+            "flex-layout.row#legal-2-mobile"
         ],
         "props": {
             "blockClass": "contentLegal"
         }
     },
 
-    "rich-text#legal-medios-pago-mobile": {
+    "rich-text#legal-mobile": {
         "props": {
-            "text": "Legales / Medios de pago",
+            "text": "Pilatos 2021 © Todos los derechos reservados",
             "blockClass": "legalFooter"
+        }
+    },
+
+    "flex-layout.row#legal-2-mobile":{
+        "children": [
+            "flex-layout.col#legal-2-col-1",
+            "flex-layout.col#legal-2-col-2",
+            "flex-layout.col#legal-2-col-3"
+        ],
+        "props":{
+            "preserveLayoutOnMobile": true,
+            "blockClass": "legalFooter2"
+        }
+    },
+
+    "flex-layout.col#legal-2-col-1":{
+        "children": [
+            "rich-text#legal-2-col-1"
+        ],
+        "props":{
+            "width": "42%"
+        }
+    },
+
+    "rich-text#legal-2-col-1": {
+        "props": {
+            "text": "Empowered By",
+            "blockClass": "legalFooter"
+        }
+    },
+
+    "flex-layout.col#legal-2-col-2":{
+        "children": [
+        ],
+        "props":{
+            "width": "29%",
+            "blockClass": "icoBlacksip"
+        }
+    },
+
+    "flex-layout.col#legal-2-col-3":{
+        "children": [
+        ],
+        "props":{
+            "width": "29%",
+            "blockClass": "icoVtex"
+        }
+    },
+
+    "flex-layout.row#medios-pago":{
+        "children":[
+            "image#medios-pago"
+        ],
+        "props":{
+            "blockClass": "imgMediosPago"
+        }
+    },
+
+    "image#medios-pago": {
+        "props": {
+            "src": "/arquivos/medios-pago.png"
         }
     }
 }

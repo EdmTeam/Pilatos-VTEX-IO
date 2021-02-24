@@ -39,25 +39,29 @@
 
     "rich-text#submenu-1-text-1": {
         "props": {
-            "text": "Preguntas frecuentes"
+            "text": "[Preguntas frecuentes](#!)",
+            "blockClass": "textSubmenu"
         }
     },
 
     "rich-text#submenu-1-text-2": {
         "props": {
-            "text": "Preguntas frecuentes COVID-19"
+            "text": "[Preguntas frecuentes COVID-19](#!)",
+            "blockClass": "textSubmenu"
         }
     },
 
     "rich-text#submenu-1-text-3": {
         "props": {
-            "text": "Garantias de productos"
+            "text": "[Garantias de productos](#!)",
+            "blockClass": "textSubmenu"
         }
     },
 
     "rich-text#submenu-1-text-4": {
         "props": {
-            "text": "Cambios y devoluciones"
+            "text": "[Cambios y devoluciones](#!)",
+            "blockClass": "textSubmenu"
         }
     }
 }

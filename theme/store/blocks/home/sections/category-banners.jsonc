@@ -136,7 +136,10 @@
             "flex-layout.col#desk-category-banners-col-1",
             "flex-layout.col#desk-category-banners-col-2",
             "flex-layout.col#desk-category-banners-col-3"
-        ]
+        ],
+        "props":{
+            "blockClass": "contentCategoryCol"
+        }
     },
 
     "flex-layout.col#desk-category-banners-col-1":{

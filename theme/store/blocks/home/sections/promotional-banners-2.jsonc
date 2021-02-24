@@ -76,7 +76,7 @@
 
     "rich-text#des-promotional-banners-2-img-2": {
         "props":{
-            "text": "LEGGINS PARA MUJER",
+            "text": "RUNNING",
             "blockClass": "desPromotionalBanners"
         }
     },
@@ -141,7 +141,8 @@
         "children":[
             "flex-layout.col#desk-promotional-banners-2-col-1",
             "flex-layout.col#desk-promotional-banners-2-col-2",
-            "flex-layout.col#desk-promotional-banners-2-col-3"
+            "flex-layout.col#desk-promotional-banners-2-col-3",
+            "flex-layout.col#desk-promotional-banners-2-col-4"
         ],
         "props":{
             "blockClass": "promBannerContent"
@@ -280,6 +281,51 @@
         "props":{
             "text": "[VER MÁS](#!)",
             "blockClass": "linkPromotionalBanners"
+        }
+    },
+
+    "flex-layout.col#desk-promotional-banners-2-col-4":{
+        "children":[
+            "image#desk-promotional-banners-2-img-2",
+            "rich-text#desk-des-promotional-banners-2-img-2",
+            "rich-text#desk-title-promotional-banners-2-img-2",
+            "rich-text#desk-link-promotional-banners-2-img-2"
+        ],
+        "props":{
+            "blockClass": "promBannerContentImg",
+            "width": "33%"
+        }
+    },
+
+    "image#desk-promotional-banners-2-img-4": {
+        "props": {
+            "src": "/arquivos/category-banner-desk-4.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "PromotionalBannerImg"
+        }
+    },
+
+    "rich-text#desk-title-promotional-banners-2-img-4": {
+        "props":{
+            "text": "RUNNING",
+            "blockClass": "desPromotionalBannersCenter"
+        }
+    },
+
+    "rich-text#desk-des-promotional-banners-2-img-4": {
+        "props":{
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            "blockClass": "desBannersCenter"
+        }
+    },
+
+    "rich-text#desk-link-promotional-banners-2-img-4": {
+        "props":{
+            "text": "[VER MÁS](#!)",
+            "blockClass": "linkPromotionalBannersCenter"
         }
     }
 }

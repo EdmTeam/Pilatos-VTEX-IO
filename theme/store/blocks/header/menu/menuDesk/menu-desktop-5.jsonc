@@ -2,13 +2,19 @@
   "flex-layout.col#menu-desk-col-5": {
     "children": [
       "vtex.menu@2.x:menu#menu-desktop-5"
-    ]
+    ],
+    "props":{
+      "width": "13%"
+    }
   },
 
   "vtex.menu@2.x:menu#menu-desktop-5": {
     "children": [
       "menu-item#menu-item-5-desk-1"
-    ]
+    ],
+    "props":{
+      "blockClass": "menucontainerDesk"
+    }
   },
   
   "menu-item#menu-item-5-desk-1": {
@@ -22,7 +28,7 @@
         "tagTitle": "SALE",
         "text": "SALE"
       },
-      "blockClass": "menuLinkHeader"
+      "blockClass": "menuLinkHeaderColor"
     }
   }
 }

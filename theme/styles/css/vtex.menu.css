@@ -67,7 +67,6 @@
 }
 
 /*Estilos personalizados*/
-
 .submenuAccordion--contentSubMenu{
     display: block;
 }
@@ -90,13 +89,41 @@
     color: #000000;
 }
 
+.styledLinkContent--accordionLevel1{
+    color: #ffffff;
+}
+
+.accordionIcon--accordionLevel1{
+    color: transparent;
+    position: relative;
+}
+
+.accordionIcon--accordionLevel1::before{
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #FFFFFF;
+}
+
 /* Estilos al header */
 
-.styledLinkContent--menuLinkHeader{
-    font-weight: 900;
+.menuContainer--menucontainerDesk{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.styledLinkContent--menuLinkHeader, 
+.styledLinkContent--menuLinkHeaderColor
+{
+    font-weight: bold;
     font-size: 12px;
     line-height: 100%;
     text-align: center;
     letter-spacing: 0.05em;
     text-transform: uppercase;
+}
+
+.styledLinkContent--menuLinkHeaderColor{
+    color: #DD0B3D;
 }

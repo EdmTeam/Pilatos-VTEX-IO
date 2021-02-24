@@ -1,0 +1,33 @@
+.minicartIconContainer{
+    font-size: 1.4rem;
+    color: #000000;
+}
+
+@media only screen and (min-width: 760px){
+    .minicartIconContainer{
+        font-size: 1.7rem;
+    }
+}
+
+.minicartQuantityBadge{
+    top: -0.35rem;
+    right: -0.5rem;
+    width: 10px;
+    height: 9px;
+    font-size: .65rem;
+    border-radius: 50%;
+    background: #ffffff;
+    border: 1.8px solid #000000;
+    color: #000000;
+    font-weight: bold;
+}
+
+@media only screen and (min-width: 1180px){
+    .minicartQuantityBadge{
+        top: -0.8rem;
+        right: -0.75rem;
+        border: 2px solid #DD0B3D;
+        padding: 5px 5px 5px 5px;
+        font-size: .7rem;
+    }
+}

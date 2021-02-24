@@ -13,14 +13,14 @@
 
     "rich-text#menu-item-title": {
         "props": {
-            "text": "Contáctanos",
+            "text": "CONTÁCTANOS",
             "blockClass": "titleItemsfooter"
         }
     },
 
     "rich-text#menu-item-description": {
         "props": {
-            "text": "Envíanos un correo electrónico, \nllámanos o chatea con nosotros:",
+            "text": "Envíanos un correo electrónico \nllámanos o chatea con nosotros",
             "blockClass": "descriptionItemsfooter"
         }
     },
@@ -29,8 +29,8 @@
     "flex-layout.col#item-contact": {
         "children": [
             "flex-layout.col#item-contact-1",
-            "flex-layout.col#item-contact-2",
-            "flex-layout.col#item-contact-3"
+            "flex-layout.col#item-contact-2"
+            // "flex-layout.col#item-contact-3"
         ],
         "props": {
             "blockClass": "contentContact",
@@ -73,7 +73,7 @@
             "rich-text#menu-item-contact-infocontact-1"
         ],
         "props": {
-            "width": "90%",
+            "width": "55%",
             "blockClass": "contentRichtextFooter"
         }
     },
@@ -127,7 +127,7 @@
             "rich-text#menu-item-contact-infocontact-2"
         ],
         "props": {
-            "width": "90%",
+            "width": "47%",
             "blockClass": "contentRichtextFooter"
         }
     },
@@ -181,7 +181,7 @@
             "rich-text#menu-item-contact-infocontact-3"
         ],
         "props": {
-            "width": "90%",
+            "width": "55%",
             "blockClass": "contentRichtextFooter"
         }
     },

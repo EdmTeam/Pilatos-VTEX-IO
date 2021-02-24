@@ -47,7 +47,9 @@
 }
 
 .flexRowContent--contentItem1{
-  padding: 2rem 1.5rem 0 1.5rem;
+  padding: 1rem 1.5rem 2rem 1.5rem;
+  background: #000000;
+  margin-top: 1rem;
 }
 
 .flexRow--contentContact{
@@ -58,22 +60,55 @@
   margin: .3rem 0;
 }
 
+.flexRowContent--rowContactFull{
+  justify-content: center;
+}
+
 .flexColChild--contentRichtextFooter{
   display: flex;
   align-items: center;
 }
 
 .flexRowContent--contentStorelocator{
-  padding: .9rem 5.5rem;
-  border: 1px solid #000000;
-  margin: 1rem 0;
+  padding: .2rem .3rem;
+  margin: 1rem auto;
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 65%;
+  background: #FFD400;
 }
 
 .flexColChild--contentFooter{
   margin: .5rem 0;
+}
+
+.flexRow--contentLogoFooter{
+  width: 80% !important;
+  margin: 1rem auto 0 auto;
+}
+
+.flexRowContent--contentLegal{
+  padding: 1rem 0 .6rem 0;
+}
+
+.flexRow--legalFooter2{
+  width: 53% !important;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.flexCol--icoBlacksip, .flexCol--icoVtex{
+  font-size: 3.5rem;
+  position: relative;
+}
+
+.flexCol--icoVtex{
+  color: #F71963;
+}
+
+.flexRowContent--imgMediosPago{
+  padding-bottom: .5rem;
 }
 
 @media only screen and (min-width: 764px){
@@ -130,8 +165,13 @@
   background: #FFFFFF;
 }
 
+.flexColChild--contentIcoMenu{
+  height: 100% !important;
+}
+
 .flexCol--contenicos{
-  padding-right: 2rem;
+  padding-right: 0;
+  padding-left: 2rem;
 }
 
 .flexRow--contentHeaderRow1{
@@ -139,21 +179,32 @@
   margin: 0;
 }
 
+.flexColChild--icoCart{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .flexColChild--icoLogin, 
 .flexCol--icoWishlist, 
 .flexColChild--icoCart, 
 .flexColChild--contentLogo,
+.flexCol--contentLogoActive,
 .flexCol--contentSearchMobile{
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+.flexCol--contentLogoActive{
+  margin-left: 2rem;
+}
+
 .flexCol--contentLogo{
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 1rem;
+  margin-left: 0;
 }
 
 .flexRow--contentHeaderMenu{
@@ -163,7 +214,7 @@
 }
 
 .flexRow--contentHeaderMenuActive{
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
   margin-top: 1rem;
 }
@@ -265,22 +316,29 @@
 
 .flexCol--contentTitleLine{
   height: 5px;
-  width: 220px !important;
+  width: 288px !important;
   background: #FFD400;
   position: absolute;
-  bottom: 10px;
+  bottom: 6px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 1;
 }
 
 @media only screen and (min-width: 760px){
+  .flexCol--contentTitleLine{
+    height: 7px;
+    width: 390px !important;
+    bottom: 4px;
+  }
+
   .flexRowContent--contentTitle{
     flex-direction: column;
+    margin-bottom: 3rem;
   }
 
   .flexRow--contentCategoryBannerDesk{
-    width: 80%;
+    width: 90%;
     margin: 1rem auto 2rem auto;
   }
 
@@ -288,8 +346,12 @@
     width: 100% !important;
   }
 
+  .flexRowContent--contentCategoryCol .stretchChildrenWidth{
+    width: 33.3% !important;
+  }
+
   .flexCol--categoryBannerConterImg{
-    margin: 0 .8rem;
+    margin: 0 1.2rem;
   }
 }
 
@@ -312,7 +374,8 @@
   .flexRowContent--promBannerContent{
     width: auto !important;
     overflow: auto;
-    -webkit-overflow-scrolling: touch
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
   }
 
   .flexRowContent--promBannerContent::-webkit-scrollbar {
@@ -339,4 +402,32 @@
   .flexRowContent--promBannerContent .stretchChildrenWidth:nth-child(even){
     width: 360.609px !important;
   }
+}
+
+/* Estilos al menu mobile */
+.flexRow--contenItemsLevel1{
+  width: 100%;
+  padding: 0 1rem 0 1.5rem;
+  position: relative;
+}
+
+.flexRow--contentItemsMenu{
+  width: 100%;
+}
+
+.flexRow--contentFooterMenu{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin-bottom: 2rem;
+}
+
+.flexRowContent--contentBtnWishlist{
+  padding: 0 2rem;
+  margin: .3rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 85%;
+  border: 1px solid #000000;
 }

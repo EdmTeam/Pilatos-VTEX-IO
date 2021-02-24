@@ -19,19 +19,19 @@
 }
 
 :global(.vtex-rich-text-0-x-wrapper--telItemsfooter)::before{
-    content: '\e919';
+    content: '\e913';
 }
 
 :global(.vtex-rich-text-0-x-wrapper--mailItemsfooter)::before{
-    content: '\e90e';
+    content: '\e90f';
 }
 
 :global(.vtex-rich-text-0-x-wrapper--whatsappItemsfooter)::before{
-    content: "\e922";
+    content: "\e923";
 }
 
 :global(.vtex-rich-text-0-x-wrapper--locatorItemsfooter)::before{
-    content: '\e900';
+    content: '\e914';
 }
 
 @media only screen and (min-width: 1180px){
