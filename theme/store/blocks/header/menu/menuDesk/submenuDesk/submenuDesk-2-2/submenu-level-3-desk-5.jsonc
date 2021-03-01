@@ -1,0 +1,47 @@
+{
+    "flex-layout.col#submenu-desk-departament-2-category-5":{
+        "children":[
+            "flex-layout.col#submenu-desk-departament-2-category-5-row-1"
+        ]
+    },
+
+    "flex-layout.col#submenu-desk-departament-2-category-5-row-1":{
+        "children":[
+            "rich-text#submenu-desk-departament-2-category-5",
+            "rich-text#submenu-desk-departament-2-category-5-subcategory-1",
+            "rich-text#submenu-desk-departament-2-category-5-subcategory-2",
+            "rich-text#submenu-desk-departament-2-category-5-subcategory-3"
+        ],
+        "props":{
+            "blockClass": "contentBlockSubmenu"
+        }
+    },
+
+    "rich-text#submenu-desk-departament-2-category-5":{
+        "props":{
+            "text": "[ROPA DE PLAYA](/mujer/ropa-de-playa)",
+            "blockClass": "textCategory"
+        }
+    },
+
+    "rich-text#submenu-desk-departament-2-category-5-subcategory-1":{
+        "props":{
+            "text": "[Pantalones](/mujer/ropa-de-playa/pantalones)",
+            "blockClass": "textSubcategory"
+        }
+    },
+
+    "rich-text#submenu-desk-departament-2-category-5-subcategory-2":{
+        "props":{
+            "text": "[Accesorios](/mujer/ropa-de-playa/accesorios)",
+            "blockClass": "textSubcategory"
+        }
+    },
+
+    "rich-text#submenu-desk-departament-2-category-5-subcategory-3":{
+        "props":{
+            "text": "[Sandalias](/mujer/ropa-de-playa/sandalias)",
+            "blockClass": "textSubcategory"
+        }
+    }
+}

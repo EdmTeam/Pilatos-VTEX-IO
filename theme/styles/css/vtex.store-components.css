@@ -83,7 +83,7 @@
 
 /* Estilos para los iconos header */
 :global(.vtex-rich-text-0-x-link--icoWishlist),
-:global(.vtex-rich-text-0-x-wrapper--icoWishlist),
+:global(.vtex-flex-layout-0-x-flexRowContent--contentBtnWishlist) :global(.vtex-rich-text-0-x-wrapper--icoWishlist),
 :global(.vtex-rich-text-0-x-wrapper--icoSearch),
 :global(.vtex-rich-text-0-x-wrapper--icon-Security),
 :global(.vtex-rich-text-0-x-wrapper--icon-Payment),
@@ -94,10 +94,14 @@
 :global(.vtex-flex-layout-0-x-flexCol--icoVtex),
 :global(.vtex-menu-2-x-accordionIcon--accordionLevel1--isClosed),
 :global(.vtex-menu-2-x-accordionIcon--accordionLevel1--isOpen),
+:global(.vtex-menu-2-x-accordionIcon--menuAccordionLevel1--isClosed),
+:global(.vtex-menu-2-x-accordionIcon--menuAccordionLevel1--isOpen),
 :global(.vtex-login-2-x-container) :global(.vtex-button),
 :global(.vtex-store-components-3-x-autoCompleteOuterContainer--contentSearch) :global(.vtex-store-components-3-x-searchBarIcon--search),
 :global(.vtex-rich-text-0-x-wrapper--icoMenuLevel1),
-:global(.vtex-rich-text-0-x-wrapper--icoLogin)
+:global(.vtex-rich-text-0-x-wrapper--icoLogin),
+:global(.vtex-flex-layout-0-x-flexColChild--contentBack) :global(.vtex-store-drawer-0-x-closeIconButton),
+:global(.vtex-rich-text-0-x-wrapper--submenuIco)
 {
     font-family: 'icomoon' !important;
     speak: never;
@@ -107,6 +111,18 @@
     text-transform: none;
     line-height: 1;
     -webkit-font-smoothing: antialiased;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--contentBack) :global(.vtex-store-drawer-0-x-closeIconButton)::before{
+    content: '\e90d';
+    color: #BF6E0B;
+    font-size: 1.4rem;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--submenuIco)::before{
+    content: '\e917';
+    color: #BF6E0B;
+    font-size: 1.1rem;
 }
 
 :global(.vtex-rich-text-0-x-wrapper--icoMenuLevel1)::before{
@@ -133,11 +149,15 @@
     content: '\e921';
 }
 
-:global(.vtex-menu-2-x-accordionIcon--accordionLevel1--isOpen)::before{
+:global(.vtex-menu-2-x-accordionIcon--accordionLevel1--isOpen)::before,
+:global(.vtex-menu-2-x-accordionIcon--menuAccordionLevel1--isOpen)::before
+{
     content: '\e920';
 }
 
-:global(.vtex-menu-2-x-accordionIcon--accordionLevel1--isClosed)::before{
+:global(.vtex-menu-2-x-accordionIcon--accordionLevel1--isClosed)::before,
+:global(.vtex-menu-2-x-accordionIcon--menuAccordionLevel1--isClosed)::before
+{
     content: '\e904';
 }
 
@@ -167,7 +187,7 @@
 }
 
 :global(.vtex-rich-text-0-x-link--icoWishlist)::before,
-:global(.vtex-rich-text-0-x-wrapper--icoWishlist)::before
+:global(.vtex-flex-layout-0-x-flexRowContent--contentBtnWishlist) :global(.vtex-rich-text-0-x-wrapper--icoWishlist)::before
 {
     content: '\e908';
     color: #000000;
@@ -225,7 +245,7 @@
 
 @media only screen and (min-width: 760px){
     .imageElementLink .imageElement{
-        width: 80%;
+        width: 100%;
     }
 }
 
@@ -300,4 +320,13 @@
 
 .imageElement--PromotionalBannerImg, .imageElement--PromotionalBannerImg3{
     width: 100%;
+}
+
+/* Estilos a el menu */
+.imageElement--contentBannerMenu{
+    width: 100%;
+}
+
+.imageElementLink--contentBannerMenu{
+    margin: 1.5rem 0 1.3rem 0;
 }

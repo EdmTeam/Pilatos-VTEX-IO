@@ -23,12 +23,15 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/mujer",
+        // "href": "/mujer",
         "noFollow": false,
         "tagTitle": "MUJER",
         "text": "MUJER"
       },
-      "blockClass": "menuLinkHeader"
-    }
+      "blockClass": "menuLinkHeaderHover"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#submenu-level-2-desk-row-2"
+    ]
   }
 }

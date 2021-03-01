@@ -1,0 +1,59 @@
+{
+    "vtex.menu@2.x:menu#submenu-level-3-row-3": {
+        "children": [
+            "menu-item#submenu-level-3-row-3"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+
+    "menu-item#submenu-level-3-row-3": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "Ropa de Playa"
+            },
+            "blockClass": "menuAccordionLevel1"
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#submenu-level-3-row-3"
+        ]
+    },
+
+    "vtex.menu@2.x:submenu.accordion#submenu-level-3-row-3": {
+        "children": [
+            "rich-text#submenu-level-3-text-1-row-3",
+            "rich-text#submenu-level-3-text-2-row-3",
+            "rich-text#submenu-level-3-text-3-row-3"
+        ],
+        "props": {
+            "blockClass": "contentSubMenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-3-text-1-row-3": {
+        "props": {
+            "text": "[Accesorios](/hombre/ropa-de-playa/accesorios)",
+            "blockClass": "textSubmenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-3-text-2-row-3": {
+        "props": {
+            "text": "[Pantalonetas](/hombre/pantalonetas/pantalonetas)",
+            "blockClass": "textSubmenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-3-text-3-row-3": {
+        "props": {
+            "text": "[Sandalias](/hombre/ropa-de-playa/sandalias)",
+            "blockClass": "textSubmenuAcordeon"
+        }
+    }
+}

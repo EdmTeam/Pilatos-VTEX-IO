@@ -15,6 +15,48 @@
     text-decoration: none;
 }
 
+:global(.vtex-flex-layout-0-x-flexRow--contentHeaderMenuActive) :global(.vtex-menu-2-x-menuItem--menuLinkHeader),
+:global(.vtex-flex-layout-0-x-flexRow--contentHeaderMenuActive) :global(.vtex-menu-2-x-menuItem--menuLinkHeaderColor)
+{
+    padding: 2.2rem 0;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--contentHeaderMenuActive) :global(.vtex-menu-2-x-menuItem--menuLinkHeaderHover){
+    padding: 2.2rem 0;
+}
+
+@media only screen and (max-width: 1179px){
+    :global(.vtex-flex-layout-0-x-flexRowContent--contentBtnWishlist) :global(.vtex-button__label){
+        display: block !important;
+        padding: 0 2rem !important;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--contentBtnWishlist) :global(.vtex-login-2-x-profileIcon){
+        display: none;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--contentBtnWishlist) :global(.vtex-login-2-x-label){
+        margin: 1rem 0;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 15px;
+        color: #000000;
+        display: block;
+        text-transform: unset;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--contentBtnWishlist) :global(.vtex-button){
+        display: flex;
+        align-items: center;
+        border: none;
+        outline: none;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--contentBtnWishlist) :global(.vtex-button)::before{
+        font-size: 1.3rem !important;
+    }
+}
+
 
 /* :global(.vtex-wish-list-1-x-outline){
     background: transparent;
@@ -60,4 +102,61 @@
     display: block;
     background: #AAA9A9;
     border-radius: 10px;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--contentBack) :global(.vtex-store-drawer-0-x-closeIconButton){
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--contentBack) :global(.vtex-store-drawer-0-x-closeIcon){
+    display: none;
+}
+
+/* Formatear estilos de menu */
+@media only screen and (min-width: 1280px){
+    :global(.vtex-flex-layout-0-x-flexRow--contentHeaderMenuActive)
+    :global(.vtex-menu-2-x-submenuWrapper--contentSubmenuDesk-1),
+    :global(.vtex-flex-layout-0-x-flexRow--contentHeaderMenuActive)
+    :global(.vtex-menu-2-x-submenuWrapper--contentSubmenuDesk-2),
+    :global(.vtex-flex-layout-0-x-flexRow--contentHeaderMenuActive)
+    :global(.vtex-menu-2-x-submenuWrapper--contentSubmenuDesk-3)
+    {
+        top: 98%;
+        width: 700px;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRow--contentHeaderMenuActive)
+    :global(.vtex-menu-2-x-submenuWrapper--contentSubmenuDesk-1){
+        left: -73px;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRow--contentHeaderMenuActive)
+    :global(.vtex-menu-2-x-submenuWrapper--contentSubmenuDesk-2){
+        left: -145px;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRow--contentHeaderMenuActive)
+    :global(.vtex-menu-2-x-submenuWrapper--contentSubmenuDesk-3){
+        left: -217px;
+    }
+}
+
+@media only screen and (min-width: 1360px){
+    :global(.vtex-flex-layout-0-x-flexRow--contentHeaderMenuActive)
+    :global(.vtex-menu-2-x-submenuWrapper--contentSubmenuDesk-1){
+        left: -60px;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRow--contentHeaderMenuActive)
+    :global(.vtex-menu-2-x-submenuWrapper--contentSubmenuDesk-2){
+        left: -136px;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRow--contentHeaderMenuActive)
+    :global(.vtex-menu-2-x-submenuWrapper--contentSubmenuDesk-3){
+        left: -212px;
+    }
 }

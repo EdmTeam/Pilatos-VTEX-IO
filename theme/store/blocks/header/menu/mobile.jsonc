@@ -140,14 +140,15 @@
             "flex-layout.row#submenu-level-1-footer-row-2"        
         ],
         "props":{
-            "href": "/"
+            "href": "#"
         }
     },
 
     "flex-layout.row#submenu-level-1-footer-row-2":{
         "children": [
-            "rich-text#submenu-level-1-footer-row-2-ico",
-            "rich-text#submenu-level-1-footer-row-2-text"
+            // "rich-text#submenu-level-1-footer-row-2-ico",
+            // "rich-text#submenu-level-1-footer-row-2-text"
+            "login"
         ],
         "props":{
             "preserveLayoutOnMobile":true,

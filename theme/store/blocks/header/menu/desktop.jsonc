@@ -51,7 +51,8 @@
   //header sin sticky
   "flex-layout.col#header-desk":{
     "children": [
-      "flex-layout.row#header-desk"    
+      "rich-text#header-active-desk-padding",
+      "flex-layout.row#header-desk"
     ],
     "props": {
       "width": "100%"
@@ -60,7 +61,7 @@
 
   "flex-layout.col#header-active-desk":{
     "children": [
-      "flex-layout.row#header-active-desk"    
+      "flex-layout.row#header-active-desk"
     ],
     "props": {
       "width": "100%"
@@ -89,9 +90,16 @@
     }
   },
 
+  "rich-text#header-active-desk-padding":{
+    "props":{
+      "text": "",
+      "blockClass": "paddingActive"
+    }
+  },
+
   "flex-layout.col#header-desk-col-1": {
     "props": {
-      "width": "38%"
+      "width": "36%"
     }
   },
 
@@ -100,7 +108,7 @@
       "image#logo-pilatos"
     ],
     "props": {
-      "width": "24%",
+      "width": "28%",
       "blockClass": "contentLogo"
     }
   },
@@ -129,7 +137,8 @@
       "flex-layout.row#header-items-desk"
     ],
     "props": {
-      "width": "35%"
+      "width": "35%",
+      "blockClass":"contenticonos"
     }
   },
 
@@ -197,7 +206,7 @@
       "rich-text#header-items-ico-1"
     ],
     "props": {
-      "width": "33%",
+      "width": "30%",
       "blockClass": "icoWishlist"
     }
   },
@@ -215,7 +224,7 @@
       "login"
     ],
     "props": {
-      "width": "33%",
+      "width": "30%",
       "blockClass": "icoLogin"
     }
   },
@@ -236,7 +245,7 @@
       "minicart.v2"
     ],
     "props": {
-      "width": "33%",
+      "width": "30%",
       "blockClass": "icoCart"
     }
   },

@@ -1,0 +1,67 @@
+{
+    "vtex.menu@2.x:menu#submenu-level-3-row-2-row-2": {
+        "children": [
+            "menu-item#submenu-level-3-row-2-row-2"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+
+    "menu-item#submenu-level-3-row-2-row-2": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "Jeans"
+            },
+            "blockClass": "menuAccordionLevel1"
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#submenu-level-3-row-2-row-2"
+        ]
+    },
+
+    "vtex.menu@2.x:submenu.accordion#submenu-level-3-row-2-row-2": {
+        "children": [
+            "rich-text#submenu-level-3-text-1-row-2-row-2",
+            "rich-text#submenu-level-3-text-2-row-2-row-2",
+            "rich-text#submenu-level-3-text-3-row-2-row-2",
+            "rich-text#submenu-level-3-text-4-row-2-row-2"
+        ],
+        "props": {
+            "blockClass": "contentSubMenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-3-text-1-row-2-row-2": {
+        "props": {
+            "text": "[Jean Ancho](/mujer/jeans/jean-ancho)",
+            "blockClass": "textSubmenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-3-text-2-row-2-row-2": {
+        "props": {
+            "text": "[Regular](/mujer/jeans/regular)",
+            "blockClass": "textSubmenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-3-text-3-row-2-row-2": {
+        "props": {
+            "text": "[Slim](/mujer/jeans/slim)",
+            "blockClass": "textSubmenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-3-text-4-row-2-row-2": {
+        "props": {
+            "text": "[Superslim](/mujer/jeans/superslim)",
+            "blockClass": "textSubmenuAcordeon"
+        }
+    }
+}

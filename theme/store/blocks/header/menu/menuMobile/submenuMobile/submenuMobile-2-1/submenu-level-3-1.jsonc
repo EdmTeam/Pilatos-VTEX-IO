@@ -1,0 +1,99 @@
+{
+    "vtex.menu@2.x:menu#submenu-level-3-row-1": {
+        "children": [
+            "menu-item#submenu-level-3-row-1"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+
+    "menu-item#submenu-level-3-row-1": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "Ropa"
+            },
+            "blockClass": "menuAccordionLevel1"
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#submenu-level-3-row-1"
+        ]
+    },
+
+    "vtex.menu@2.x:submenu.accordion#submenu-level-3-row-1": {
+        "children": [
+            "rich-text#submenu-level-3-text-1-row-1",
+            "rich-text#submenu-level-3-text-2-row-1",
+            "rich-text#submenu-level-3-text-3-row-1",
+            "rich-text#submenu-level-3-text-4-row-1",
+            "rich-text#submenu-level-3-text-5-row-1",
+            "rich-text#submenu-level-3-text-6-row-1",
+            "rich-text#submenu-level-3-text-7-row-1",
+            "rich-text#submenu-level-3-text-8-row-1"
+        ],
+        "props": {
+            "blockClass": "contentSubMenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-3-text-1-row-1": {
+        "props": {
+            "text": "[Camisetas](/hombre/ropa/camisetas)",
+            "blockClass": "textSubmenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-3-text-2-row-1": {
+        "props": {
+            "text": "[Camisas](/hombre/ropa/camisas)",
+            "blockClass": "textSubmenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-3-text-3-row-1": {
+        "props": {
+            "text": "[Polos](/hombre/ropa/polos)",
+            "blockClass": "textSubmenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-3-text-4-row-1": {
+        "props": {
+            "text": "[Buzos](/hombre/ropa/buzos)",
+            "blockClass": "textSubmenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-3-text-5-row-1": {
+        "props": {
+            "text": "[Chaquetas](/hombre/ropa/Chaquetas)",
+            "blockClass": "textSubmenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-3-text-6-row-1": {
+        "props": {
+            "text": "[Pantalones](/hombre/ropa/pantalones)",
+            "blockClass": "textSubmenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-3-text-7-row-1": {
+        "props": {
+            "text": "[Bermudas](/hombre/ropa/bermudas)",
+            "blockClass": "textSubmenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-3-text-8-row-1": {
+        "props": {
+            "text": "[Sudaderas](/hombre/ropa/sudaderas)",
+            "blockClass": "textSubmenuAcordeon"
+        }
+    }
+}

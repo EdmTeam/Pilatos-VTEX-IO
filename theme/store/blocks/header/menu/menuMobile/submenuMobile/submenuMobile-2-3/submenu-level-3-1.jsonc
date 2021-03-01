@@ -1,0 +1,113 @@
+{
+    "vtex.menu@2.x:menu#submenu-level-3-row-1-row-3": {
+        "children": [
+            "menu-item#submenu-level-3-row-1-row-3"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+
+    "menu-item#submenu-level-3-row-1-row-3": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "Ropa"
+            },
+            "blockClass": "menuAccordionLevel1"
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#submenu-level-3-row-1-row-3"
+        ]
+    },
+
+    "vtex.menu@2.x:submenu.accordion#submenu-level-3-row-1-row-3": {
+        "children": [
+            "rich-text#submenu-level-3-text-1-row-1-row-3",
+            "rich-text#submenu-level-3-text-2-row-1-row-3",
+            "rich-text#submenu-level-3-text-3-row-1-row-3",
+            "rich-text#submenu-level-3-text-4-row-1-row-3",
+            "rich-text#submenu-level-3-text-5-row-1-row-3",
+            "rich-text#submenu-level-3-text-6-row-1-row-3",
+            "rich-text#submenu-level-3-text-7-row-1-row-3",
+            "rich-text#submenu-level-3-text-8-row-1-row-3"
+        ],
+        "props": {
+            "blockClass": "contentSubMenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-3-text-1-row-1-row-3": {
+        "props": {
+            "text": "[Camisetas](/niños/ropa/camisetas)",
+            "blockClass": "textSubmenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-3-text-2-row-1-row-3": {
+        "props": {
+            "text": "[Camisas](/niños/ropa/camisas)",
+            "blockClass": "textSubmenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-3-text-3-row-1-row-3": {
+        "props": {
+            "text": "[Polos](/niños/ropa/polos)",
+            "blockClass": "textSubmenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-3-text-4-row-1-row-3": {
+        "props": {
+            "text": "[Buzos](/niños/ropa/buzos)",
+            "blockClass": "textSubmenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-3-text-5-row-1-row-3": {
+        "props": {
+            "text": "[Chaquetas](/niños/ropa/chaquetas)",
+            "blockClass": "textSubmenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-3-text-6-row-1-row-3": {
+        "props": {
+            "text": "[Pantalones](/niños/ropa/pantalones)",
+            "blockClass": "textSubmenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-3-text-7-row-1-row-3": {
+        "props": {
+            "text": "[Bermudas](/niños/ropa/bermudas)",
+            "blockClass": "textSubmenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-3-text-8-row-1-row-3": {
+        "props": {
+            "text": "[Sudaderas](/niños/ropa/sudaderas)",
+            "blockClass": "textSubmenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-3-text-9-row-1-row-3": {
+        "props": {
+            "text": "[Vestidos](/niños/ropa/vestidos)",
+            "blockClass": "textSubmenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-3-text-10-row-1-row-3": {
+        "props": {
+            "text": "[Shorts](/niños/ropa/shorts)",
+            "blockClass": "textSubmenuAcordeon"
+        }
+    }
+}

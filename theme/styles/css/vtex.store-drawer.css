@@ -13,10 +13,20 @@
 
 /* Estilos al menu mobile */
 .drawerHeader--contenedorMenuHeader{
-    margin-bottom: 3rem;
+    margin-bottom: 1.5rem;
 }
 
-.drawerContent--menu-drawer{
+.closeIconButton{
+    padding: 0;
+}
+
+.closeIcon{
+    height: 40px !important;
+    width: 40px !important;
+    color: #848484;
+}
+
+.drawerContent--menu-drawer, .drawerContent--menuDrawerLevel1{
     overflow: visible;
 }
 

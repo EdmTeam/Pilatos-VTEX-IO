@@ -171,11 +171,11 @@
 
 .flexCol--contenicos{
   padding-right: 0;
-  padding-left: 2rem;
+  padding-left: 1rem;
 }
 
 .flexRow--contentHeaderRow1{
-  padding: 1rem 0;
+  padding: 0;
   margin: 0;
 }
 
@@ -210,13 +210,28 @@
 .flexRow--contentHeaderMenu{
   width: 50%;
   margin: 0 auto;
-  padding: 1rem 0;
+  padding: 0;
+}
+
+.flexRowContent--contentHeaderMenu{
+  position: relative;
 }
 
 .flexRow--contentHeaderMenuActive{
   width: 90%;
   margin: 0 auto;
-  margin-top: 1rem;
+  margin-top: 0;
+  padding: 0;
+  position: relative
+}
+
+.flexCol--contenticonos{
+  display: flex;
+  justify-content: center;
+}
+
+.flexRowContent--contentHeaderRow1{
+  padding-top: 0;
 }
 
 /* Estilos a promesa de valor de marca */
@@ -430,4 +445,32 @@
   justify-content: center;
   width: 85%;
   border: 1px solid #000000;
+}
+
+/* Estilos Submenu */
+.flexRow--contenItemsLevel2{
+  width: 100%;
+}
+
+.flexRow--subContenItemsLevel2{
+  padding: 0 1rem;
+  width: 100%;
+}
+
+.flexCol--contentBack{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.flexRow--boxSubmenu{
+  width: 100%;
+}
+
+.flexCol--contentBlockSubmenu{
+  margin-bottom: .6rem;
+}
+
+.flexCol--contentDepartamentImg{
+  margin-top: .7rem;
 }

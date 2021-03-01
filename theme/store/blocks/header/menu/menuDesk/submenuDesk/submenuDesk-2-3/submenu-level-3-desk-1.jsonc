@@ -1,0 +1,88 @@
+{
+    "flex-layout.col#submenu-desk-departament-3-category-1":{
+        "children":[
+            "flex-layout.col#submenu-desk-departament-3-category-1-row-1",
+            "flex-layout.col#submenu-desk-departament-3-category-4-row-1"
+        ]
+    },
+
+    "flex-layout.col#submenu-desk-departament-3-category-1-row-1":{
+        "children":[
+            "rich-text#submenu-desk-departament-3-category-1",
+            "rich-text#submenu-desk-departament-3-category-1-subcategory-1",
+            "rich-text#submenu-desk-departament-3-category-1-subcategory-2",
+            "rich-text#submenu-desk-departament-3-category-1-subcategory-3",
+            "rich-text#submenu-desk-departament-3-category-1-subcategory-4",
+            "rich-text#submenu-desk-departament-3-category-1-subcategory-5",
+            "rich-text#submenu-desk-departament-3-category-1-subcategory-6",
+            "rich-text#submenu-desk-departament-3-category-1-subcategory-7",
+            "rich-text#submenu-desk-departament-3-category-1-subcategory-8"
+        ],
+        "props":{
+            "blockClass": "contentBlockSubmenu"
+        }
+    },
+
+    "rich-text#submenu-desk-departament-3-category-1":{
+        "props":{
+            "text": "[ROPA](/niños/ropa)",
+            "blockClass": "textCategory"
+        }
+    },
+
+    "rich-text#submenu-desk-departament-3-category-1-subcategory-1":{
+        "props":{
+            "text": "[Camisetas](/niños/ropa/camisetas)",
+            "blockClass": "textSubcategory"
+        }
+    },
+
+    "rich-text#submenu-desk-departament-3-category-1-subcategory-2":{
+        "props":{
+            "text": "[Camisas](/niños/ropa/camisas)",
+            "blockClass": "textSubcategory"
+        }
+    },
+
+    "rich-text#submenu-desk-departament-3-category-1-subcategory-3":{
+        "props":{
+            "text": "[Polos](/niños/ropa/polos)",
+            "blockClass": "textSubcategory"
+        }
+    },
+
+    "rich-text#submenu-desk-departament-3-category-1-subcategory-4":{
+        "props":{
+            "text": "[Buzos](/niños/ropa/buzos)",
+            "blockClass": "textSubcategory"
+        }
+    },
+
+    "rich-text#submenu-desk-departament-3-category-1-subcategory-5":{
+        "props":{
+            "text": "[Chaquetas](/niños/ropa/chaquetas)",
+            "blockClass": "textSubcategory"
+        }
+    },
+
+    "rich-text#submenu-desk-departament-3-category-1-subcategory-6":{
+        "props":{
+            "text": "[Pantalones](/niños/ropa/pantalones)",
+            "blockClass": "textSubcategory"
+        }
+    },
+
+    "rich-text#submenu-desk-departament-3-category-1-subcategory-7":{
+        "props":{
+            "text": "[Bermudas](/niños/ropa/bermudas)",
+            "blockClass": "textSubcategory"
+        }
+    },
+
+    "rich-text#submenu-desk-departament-3-category-1-subcategory-8":{
+        "props":{
+            "text": "[Sudaderas](/niños/ropa/sudaderas)",
+            "blockClass": "textSubcategory"
+        }
+    }
+}

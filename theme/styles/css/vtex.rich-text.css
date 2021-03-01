@@ -249,6 +249,10 @@
   background: #000000;
 }
 
+.container--paddingActive{
+  padding: .5rem 0;
+}
+
 .paragraph--textTopHeader{
   color: #FFFFFF;
   font-weight: bold;
@@ -258,7 +262,7 @@
   letter-spacing: 1px;
   text-transform: uppercase;
   margin: .5rem 0;
-  padding: 0 6rem;
+  padding: 0 4rem;
 }
 
 @media only screen and (min-width: 768px) {
@@ -497,4 +501,85 @@
   font-size: 15px;
   line-height: 15px;
   color: #000000;
+}
+
+/* Estilos al submenu */
+.container--contentSubmenuTitle,
+.container--contentSubmenuTitleLink
+{
+  justify-content: flex-end;
+}
+
+.wrapper--contentSubmenuTitle .paragraph{
+  margin: .2rem 0;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 15px;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+.wrapper--contentSubmenuTitleLink .paragraph{
+  margin: .2rem 0;
+  font-size: 10px;
+  line-height: 9px;
+  letter-spacing: 0.05em;
+}
+
+.link--contentSubmenuTitleLink{
+  font-weight: bold;
+  text-decoration-line: underline;
+  color: #000000;
+}
+
+.paragraph--textSubmenuAcordeon{
+  margin: .35rem 0;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 95%;
+  letter-spacing: 0.02em;
+}
+
+.link--textSubmenuAcordeon{
+  color: #575757;
+  text-decoration: none;
+}
+
+.container--submenuIco{
+  justify-content: center;
+  align-items: center;
+}
+
+.paragraph--submenulink{
+  font-weight: 800;
+  font-size: 10px;
+  line-height: 13px;
+  letter-spacing: 0.03em;
+  color: #606060;
+}
+
+.wrapper--textCategory .paragraph{
+  margin: .7rem 0 .6rem 0;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.03em;
+}
+
+.wrapper--textCategory .link{
+  color: #000000;
+  text-decoration: none;
+}
+
+.wrapper--textSubcategory .paragraph{
+  margin: .2rem 0;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 15px;
+  letter-spacing: 0.03em;
+}
+
+.wrapper--textSubcategory .link{
+  color: #260C11;
+  text-decoration: none;
 }

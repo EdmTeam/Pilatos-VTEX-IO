@@ -47,7 +47,7 @@
             "drawer-header#submenu-level-1-row-3"
         ],
         "children": [
-            "menu#drawer-row-3"
+            "flex-layout.row#submenu-level-2-row-3"
         ]
     },
 
@@ -72,17 +72,6 @@
         "props":{
             "preserveLayoutOnMobile":true,
             "preventHorizontalStretch":true
-        }
-    },
-
-    //=====================================
-    "menu#drawer-row-3": {
-        "children": [
-            //"sidebar-menu"
-        ],
-        "props": {
-            "orientation": "vertical",
-            "blockClass": "menu-drawer"
         }
     }
 }

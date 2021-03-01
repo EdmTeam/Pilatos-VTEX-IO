@@ -1,0 +1,47 @@
+{
+    "flex-layout.col#submenu-desk-departament-2-category-4":{
+        "children":[
+            "flex-layout.col#submenu-desk-departament-2-category-4-row-1"
+        ]
+    },
+
+    "flex-layout.col#submenu-desk-departament-2-category-4-row-1":{
+        "children":[
+            "rich-text#submenu-desk-departament-2-category-4",
+            "rich-text#submenu-desk-departament-2-category-4-subcategory-1",
+            "rich-text#submenu-desk-departament-2-category-4-subcategory-2",
+            "rich-text#submenu-desk-departament-2-category-4-subcategory-3"
+        ],
+        "props":{
+            "blockClass": "contentBlockSubmenu"
+        }
+    },
+
+    "rich-text#submenu-desk-departament-2-category-4":{
+        "props":{
+            "text": "[ZAPATOS](/mujer/zapatos)",
+            "blockClass": "textCategory"
+        }
+    },
+
+    "rich-text#submenu-desk-departament-2-category-4-subcategory-1":{
+        "props":{
+            "text": "[Zapatos](/mujer/zapatos/zapatos)",
+            "blockClass": "textSubcategory"
+        }
+    },
+
+    "rich-text#submenu-desk-departament-2-category-4-subcategory-2":{
+        "props":{
+            "text": "[Sandalias](/mujer/zapatos/sandalias)",
+            "blockClass": "textSubcategory"
+        }
+    },
+
+    "rich-text#submenu-desk-departament-2-category-4-subcategory-3":{
+        "props":{
+            "text": "[Tenis](/mujer/zapatos/tenis)",
+            "blockClass": "textSubcategory"
+        }
+    }
+}

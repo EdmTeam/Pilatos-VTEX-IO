@@ -1,0 +1,51 @@
+{
+    "vtex.menu@2.x:menu#submenu-level-3-row-4": {
+        "children": [
+            "menu-item#submenu-level-3-row-4"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+
+    "menu-item#submenu-level-3-row-4": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "Ropa interior"
+            },
+            "blockClass": "menuAccordionLevel1"
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#submenu-level-3-row-4"
+        ]
+    },
+
+    "vtex.menu@2.x:submenu.accordion#submenu-level-3-row-4": {
+        "children": [
+            "rich-text#submenu-level-3-text-1-row-4",
+            "rich-text#submenu-level-3-text-2-row-4"
+        ],
+        "props": {
+            "blockClass": "contentSubMenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-3-text-1-row-4": {
+        "props": {
+            "text": "[Boxer](/hombre/ropa-interior/boxer)",
+            "blockClass": "textSubmenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-3-text-2-row-4": {
+        "props": {
+            "text": "[Medias](/hombre/ropa-interior/medias)",
+            "blockClass": "textSubmenuAcordeon"
+        }
+    }
+}

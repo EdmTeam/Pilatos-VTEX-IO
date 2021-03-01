@@ -13,7 +13,8 @@
       "menu-item#menu-item-desk-1"
     ],
     "props":{
-      "blockClass": "menucontainerDesk"
+      "blockClass": "menucontainerDesk",
+      "experimentalOptimizeRendering": true
     }
   },
   
@@ -23,12 +24,15 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/hombre",
+        // "href": "/hombre",
         "noFollow": false,
         "tagTitle": "HOMBRE",
         "text": "HOMBRE"
       },
-      "blockClass": "menuLinkHeader"
-    }
+      "blockClass": "menuLinkHeaderHover"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#submenu-level-2-desk-row-1"
+    ]
   }
 }

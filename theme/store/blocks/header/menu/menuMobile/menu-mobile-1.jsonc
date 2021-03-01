@@ -47,8 +47,17 @@
             "drawer-header#submenu-level-1-row-1"
         ],
         "children": [
-            "menu#drawer-row-1"
+            "flex-layout.row#submenu-level-2"
         ]
+    },
+
+    "flex-layout.row#submenu-level-2":{
+        "children":[
+            "flex-layout.row#submenu-level-2-row-1"
+        ],
+        "props":{
+            "blockClass": "contenItemsLevel2"
+        }
     },
 
     "drawer-header#submenu-level-1-row-1": {
@@ -72,17 +81,6 @@
         "props":{
             "preserveLayoutOnMobile":true,
             "preventHorizontalStretch":true
-        }
-    },
-
-    //=====================================
-    "menu#drawer-row-1": {
-        "children": [
-            //"sidebar-menu"
-        ],
-        "props": {
-            "orientation": "vertical",
-            "blockClass": "menu-drawer"
         }
     }
 }

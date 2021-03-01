@@ -1,0 +1,70 @@
+{
+    "flex-layout.row#submenu-level-2-row-2": {
+        "children": [
+            "flex-layout.row#submenu-level-2-header-row-2",
+            "image#submenu-level-2-image-row-2",
+            "vtex.menu@2.x:menu#submenu-level-3-row-1-row-2",
+            "vtex.menu@2.x:menu#submenu-level-3-row-2-row-2",
+            "vtex.menu@2.x:menu#submenu-level-3-row-3-row-2",
+            "vtex.menu@2.x:menu#submenu-level-3-row-4-row-2"
+        ],
+        "props": {
+            "blockClass": "subContenItemsLevel2"
+        }
+    },
+
+    "flex-layout.row#submenu-level-2-header-row-2":{
+        "children":[
+            "flex-layout.col#submenu-level-2-close-drawer-row-2",
+            "flex-layout.col#submenu-level-2-title-row-2"
+        ],
+        "props":{
+            "preserveLayoutOnMobile":true
+        }
+    },
+
+    "flex-layout.col#submenu-level-2-close-drawer-row-2": {
+        "children": [
+            "drawer-close-button"
+        ],
+        "props":{
+            "blockClass": "contentBack",
+            "width": "20%"
+        }
+    },
+
+    "flex-layout.col#submenu-level-2-title-row-2":{
+        "children":[
+            "rich-text#submenu-level-2-title-row-2",
+            "rich-text#submenu-level-2-title-link-row-2"
+        ],
+        "props":{
+            "blockClass": "contentSubmenuTitle",
+            "width": "80%"
+        }
+    },
+
+    "rich-text#submenu-level-2-title-row-2":{
+        "props":{
+            "text": "MUJER",
+            "blockClass": "contentSubmenuTitle"
+        }
+    },
+
+    "rich-text#submenu-level-2-title-link-row-2":{
+        "props":{
+            "text": "[VER TODO](/mujer)",
+            "blockClass": "contentSubmenuTitleLink"
+        }
+    },
+
+    "image#submenu-level-2-image-row-2":{
+        "props": {
+            "src": "/arquivos/banner-menu-mobile-1.png",
+            "link": {
+                "url": "/mujer"
+            },
+            "blockClass": "contentBannerMenu"
+        }
+    }
+}

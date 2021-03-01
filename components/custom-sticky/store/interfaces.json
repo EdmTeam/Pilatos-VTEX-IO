@@ -9,5 +9,10 @@
         "component": "CustomSticky",
         "composition": "children",
         "allowed": "*"
+    },
+    "close-menu-mobile": {
+        "component": "CloseMenu",
+        "composition": "children",
+        "allowed": "*"
     }
 }

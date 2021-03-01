@@ -1,0 +1,70 @@
+{
+    "flex-layout.row#submenu-level-2-row-3": {
+        "children": [
+            "flex-layout.row#submenu-level-2-header-row-3",
+            "image#submenu-level-2-image-row-3",
+            "vtex.menu@2.x:menu#submenu-level-3-row-1-row-3",
+            "vtex.menu@2.x:menu#submenu-level-3-row-2-row-3",
+            "vtex.menu@2.x:menu#submenu-level-3-row-3-row-3",
+            "vtex.menu@2.x:menu#submenu-level-3-row-4-row-3"
+        ],
+        "props": {
+            "blockClass": "subContenItemsLevel2"
+        }
+    },
+
+    "flex-layout.row#submenu-level-2-header-row-3":{
+        "children":[
+            "flex-layout.col#submenu-level-2-close-drawer-row-3",
+            "flex-layout.col#submenu-level-2-title-row-3"
+        ],
+        "props":{
+            "preserveLayoutOnMobile":true
+        }
+    },
+
+    "flex-layout.col#submenu-level-2-close-drawer-row-3": {
+        "children": [
+            "drawer-close-button"
+        ],
+        "props":{
+            "blockClass": "contentBack",
+            "width": "20%"
+        }
+    },
+
+    "flex-layout.col#submenu-level-2-title-row-3":{
+        "children":[
+            "rich-text#submenu-level-2-title-row-3",
+            "rich-text#submenu-level-2-title-link-row-3"
+        ],
+        "props":{
+            "blockClass": "contentSubmenuTitle",
+            "width": "80%"
+        }
+    },
+
+    "rich-text#submenu-level-2-title-row-3":{
+        "props":{
+            "text": "NIÑOS",
+            "blockClass": "contentSubmenuTitle"
+        }
+    },
+
+    "rich-text#submenu-level-2-title-link-row-3":{
+        "props":{
+            "text": "[VER TODO](/niños)",
+            "blockClass": "contentSubmenuTitleLink"
+        }
+    },
+
+    "image#submenu-level-2-image-row-3":{
+        "props": {
+            "src": "/arquivos/banner-menu-mobile-1.png",
+            "link": {
+                "url": "/niños"
+            },
+            "blockClass": "contentBannerMenu"
+        }
+    }
+}

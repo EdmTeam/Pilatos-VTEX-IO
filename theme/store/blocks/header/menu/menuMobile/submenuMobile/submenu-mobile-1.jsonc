@@ -1,0 +1,83 @@
+{
+    "flex-layout.row#submenu-level-2-row-1": {
+        "children": [
+            "flex-layout.row#submenu-level-2-header-row-1",
+            "image#submenu-level-2-image-row-1",
+            "vtex.menu@2.x:menu#submenu-level-3-row-1",
+            "vtex.menu@2.x:menu#submenu-level-3-row-2",
+            "vtex.menu@2.x:menu#submenu-level-3-row-3",
+            "vtex.menu@2.x:menu#submenu-level-3-row-4"
+        ],
+        "props": {
+            "blockClass": "subContenItemsLevel2"
+        }
+    },
+
+    "flex-layout.row#submenu-level-2-header-row-1":{
+        "children":[
+            "flex-layout.col#submenu-level-2-close-drawer-row-1",
+            "flex-layout.col#submenu-level-2-title-row-1"
+        ],
+        "props":{
+            "preserveLayoutOnMobile":true
+        }
+    },
+
+    "flex-layout.col#submenu-level-2-close-drawer-row-1": {
+        "children": [
+            "drawer-close-button",
+            "close-menu-mobile"
+        ],
+        "props":{
+            "blockClass": "contentBack",
+            "width": "20%"
+        }
+    },
+
+    "close-menu-mobile": {
+        "children":[
+            "rich-text#test"
+        ]
+    },
+
+    "rich-text#test":{
+        "props":{
+            "text": "test"
+        }
+    },
+
+    "flex-layout.col#submenu-level-2-title-row-1":{
+        "children":[
+            "rich-text#submenu-level-2-title-row-1",
+            "rich-text#submenu-level-2-title-link-row-1"
+        ],
+        "props":{
+            "blockClass": "contentSubmenuTitle",
+            "width": "80%"
+        }
+    },
+
+    "rich-text#submenu-level-2-title-row-1":{
+        "props":{
+            "text": "HOMBRE",
+            "blockClass": "contentSubmenuTitle"
+        }
+    },
+
+    "rich-text#submenu-level-2-title-link-row-1":{
+        "props":{
+            "text": "[VER TODO](/hombre)",
+            "blockClass": "contentSubmenuTitleLink"
+        }
+    },
+
+    "image#submenu-level-2-image-row-1":{
+        "props": {
+            "src": "/arquivos/banner-menu-mobile-1.png",
+            "link": {
+                "url": "/"
+            },
+            "blockClass": "contentBannerMenu"
+        }
+    }
+}

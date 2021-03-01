@@ -1,0 +1,39 @@
+{
+    "flex-layout.col#submenu-desk-departament-1-category-6":{
+        "children":[
+            "flex-layout.col#submenu-desk-departament-1-category-6-row-1"
+        ]
+    },
+
+    "flex-layout.col#submenu-desk-departament-1-category-6-row-1":{
+        "children":[
+            "rich-text#submenu-desk-departament-1-category-6",
+            "rich-text#submenu-desk-departament-1-category-6-subcategory-1",
+            "rich-text#submenu-desk-departament-1-category-6-subcategory-2"
+        ],
+        "props":{
+            "blockClass": "contentBlockSubmenu"
+        }
+    },
+
+    "rich-text#submenu-desk-departament-1-category-6":{
+        "props":{
+            "text": "[ROPA INTERIOR](/hombre/ropa-interior)",
+            "blockClass": "textCategory"
+        }
+    },
+
+    "rich-text#submenu-desk-departament-1-category-6-subcategory-1":{
+        "props":{
+            "text": "[Boxer](/hombre/ropa-interior/boxer)",
+            "blockClass": "textSubcategory"
+        }
+    },
+
+    "rich-text#submenu-desk-departament-1-category-6-subcategory-2":{
+        "props":{
+            "text": "[Medias](/hombre/ropa-interior/medias)",
+            "blockClass": "textSubcategory"
+        }
+    }
+}

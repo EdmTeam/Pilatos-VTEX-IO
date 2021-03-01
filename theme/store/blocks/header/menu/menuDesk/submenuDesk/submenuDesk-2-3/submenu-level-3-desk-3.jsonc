@@ -1,0 +1,127 @@
+{
+    "flex-layout.col#submenu-desk-departament-3-category-3":{
+        "children":[
+            "flex-layout.col#submenu-desk-departament-3-category-3-row-1"
+        ]
+    },
+
+    "flex-layout.col#submenu-desk-departament-3-category-3-row-1":{
+        "children":[
+            "rich-text#submenu-desk-departament-3-category-3",
+            "rich-text#submenu-desk-departament-3-category-3-subcategory-1",
+            "rich-text#submenu-desk-departament-3-category-3-subcategory-2",
+            "rich-text#submenu-desk-departament-3-category-3-subcategory-3",
+            "rich-text#submenu-desk-departament-3-category-3-subcategory-4",
+            "rich-text#submenu-desk-departament-3-category-3-subcategory-5",
+            "rich-text#submenu-desk-departament-3-category-3-subcategory-6",
+            "rich-text#submenu-desk-departament-3-category-3-subcategory-7",
+            "rich-text#submenu-desk-departament-3-category-3-subcategory-8",
+            "rich-text#submenu-desk-departament-3-category-3-subcategory-9",
+            "rich-text#submenu-desk-departament-3-category-3-subcategory-10",
+            "rich-text#submenu-desk-departament-3-category-3-subcategory-11",
+            "rich-text#submenu-desk-departament-3-category-3-subcategory-12",
+            "rich-text#submenu-desk-departament-3-category-3-subcategory-13"
+        ],
+        "props":{
+            "blockClass": "contentBlockSubmenu"
+        }
+    },
+
+    "rich-text#submenu-desk-departament-3-category-3":{
+        "props":{
+            "text": "[ACCESORIOS](/niños/accesorios)",
+            "blockClass": "textCategory"
+        }
+    },
+
+    "rich-text#submenu-desk-departament-3-category-3-subcategory-1":{
+        "props":{
+            "text": "[Tapabocas](/niños/accesorios/tapabocas)",
+            "blockClass": "textSubcategory"
+        }
+    },
+
+    "rich-text#submenu-desk-departament-3-category-3-subcategory-2":{
+        "props":{
+            "text": "[Gorras](/niños/accesorios/gorras)",
+            "blockClass": "textSubcategory"
+        }
+    },
+
+    "rich-text#submenu-desk-departament-3-category-3-subcategory-3":{
+        "props":{
+            "text": "[Bolsos](/niños/accesorios/bolsos)",
+            "blockClass": "textSubcategory"
+        }
+    },
+
+    "rich-text#submenu-desk-departament-3-category-3-subcategory-4":{
+        "props":{
+            "text": "[Bufandas](/niños/accesorios/bufandas)",
+            "blockClass": "textSubcategory"
+        }
+    },
+
+    "rich-text#submenu-desk-departament-3-category-3-subcategory-5":{
+        "props":{
+            "text": "[Correas](/niños/accesorios/correas)",
+            "blockClass": "textSubcategory"
+        }
+    },
+
+    "rich-text#submenu-desk-departament-3-category-3-subcategory-6":{
+        "props":{
+            "text": "[Gafas](/niños/accesorios/gafas)",
+            "blockClass": "textSubcategory"
+        }
+    },
+
+    "rich-text#submenu-desk-departament-3-category-3-subcategory-7":{
+        "props":{
+            "text": "[Relojes](/niños/accesorios/relojes)",
+            "blockClass": "textSubcategory"
+        }
+    },
+
+    "rich-text#submenu-desk-departament-3-category-3-subcategory-8":{
+        "props":{
+            "text": "[Fragancias](/niños/accesorios/fragancias)",
+            "blockClass": "textSubcategory"
+        }
+    },
+
+    "rich-text#submenu-desk-departament-3-category-3-subcategory-9":{
+        "props":{
+            "text": "[Morrales](/biños/accesorios/morrales)",
+            "blockClass": "textSubcategory"
+        }
+    },
+
+    "rich-text#submenu-desk-departament-3-category-3-subcategory-10":{
+        "props":{
+            "text": "[Maletas](/niños/accesorios/maletas)",
+            "blockClass": "textSubcategory"
+        }
+    },
+
+    "rich-text#submenu-desk-departament-3-category-3-subcategory-11":{
+        "props":{
+            "text": "[Billeteras](/niños/accesorios/billeteras)",
+            "blockClass": "textSubcategory"
+        }
+    },
+
+    "rich-text#submenu-desk-departament-3-category-3-subcategory-12":{
+        "props":{
+            "text": "[Estuches](/niños/accesorios/estuches)",
+            "blockClass": "textSubcategory"
+        }
+    },
+
+    "rich-text#submenu-desk-departament-3-category-3-subcategory-13":{
+        "props":{
+            "text": "[Otros Accesorios](/niños/accesorios/otros-accesorios)",
+            "blockClass": "textSubcategory"
+        }
+    }
+}

@@ -1,0 +1,96 @@
+{
+    "vtex.menu@2.x:submenu#submenu-level-2-desk-row-3": {
+        "children": [
+            "flex-layout.row#submenu-desk-row-3"
+        ],
+        "props":{
+            "blockClass": "contentSubmenuDesk-3"
+        }
+    },
+
+    "flex-layout.row#submenu-desk-row-3":{
+        "children":[
+            "flex-layout.col#submenu-desk-col-1-row-3"
+        ],
+        "props":{
+            "blockClass": "boxSubmenu"
+        }
+    },
+
+    "flex-layout.col#submenu-desk-col-1-row-3": {
+        "children":[
+            "link#submenu-desk-vertodo-row-3",
+            "flex-layout.row#submenu-desk-department-options-row-3"
+        ]
+    },
+
+    "link#submenu-desk-vertodo-row-3":{
+        "children":[
+            "flex-layout.row#submenu-desk-vertodo-row-3"
+        ],
+        "props":{
+            "blockClass": "submenulink",
+            "href": "/niños"
+        }
+    },
+
+    "flex-layout.row#submenu-desk-vertodo-row-3":{
+        "children":[
+            "rich-text#submenu-desk-vertodo-row-3",
+            "rich-text#submenu-desk-ico-row-3"
+        ]
+    },
+
+    "rich-text#submenu-desk-vertodo-row-3":{
+        "props":{
+            "text": "VER TODO NIÑOS",
+            "blockClass": "submenulink",
+            "width": "21%"
+        }
+    },
+
+    "rich-text#submenu-desk-ico-row-3":{
+        "props":{
+            "text": "",
+            "blockClass": "submenuIco",
+            "width": "4%"
+        }
+    },
+
+    "flex-layout.row#submenu-desk-department-options-row-3":{
+        "children":[
+            "flex-layout.row#submenu-desk-category-options-col-1-row-3",
+            "flex-layout.col#submenu-desk-category-options-col-2-row-3"
+        ]
+    },
+
+    "flex-layout.row#submenu-desk-category-options-col-1-row-3":{
+        "children":[
+            "flex-layout.col#submenu-desk-departament-3-category-1",
+            "flex-layout.col#submenu-desk-departament-3-category-2",
+            "flex-layout.col#submenu-desk-departament-3-category-3"
+        ],
+        "props":{
+            "width": "70%"
+        }
+    },
+
+    "flex-layout.col#submenu-desk-category-options-col-2-row-3":{
+        "children":[
+            "image#image-departament-1-row-3"
+        ],
+        "props":{
+            "width": "30%",
+            "blockClass": "contentDepartamentImg"     
+        }
+    },
+
+    "image#image-departament-1-row-3":{
+        "props": {
+            "src": "/arquivos/banner-menu-destop-1.png",
+            "link": {
+                "url": "/niños"
+            }
+        }
+    }
+}

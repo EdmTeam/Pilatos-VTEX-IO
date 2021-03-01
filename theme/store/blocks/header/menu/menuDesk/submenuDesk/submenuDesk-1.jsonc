@@ -1,0 +1,96 @@
+{
+    "vtex.menu@2.x:submenu#submenu-level-2-desk-row-1": {
+        "children": [
+            "flex-layout.row#submenu-desk-row-1"
+        ],
+        "props":{
+            "blockClass": "contentSubmenuDesk-1"
+        }
+    },
+
+    "flex-layout.row#submenu-desk-row-1":{
+        "children":[
+            "flex-layout.col#submenu-desk-col-1"
+        ],
+        "props":{
+            "blockClass": "boxSubmenu"
+        }
+    },
+
+    "flex-layout.col#submenu-desk-col-1": {
+        "children":[
+            "link#submenu-desk-vertodo-row-1",
+            "flex-layout.row#submenu-desk-department-options-row-1"
+        ]
+    },
+
+    "link#submenu-desk-vertodo-row-1":{
+        "children":[
+            "flex-layout.row#submenu-desk-vertodo-row-1"        
+        ],
+        "props":{
+            "blockClass": "submenulink",
+            "href": "/hombre"
+        }
+    },
+
+    "flex-layout.row#submenu-desk-vertodo-row-1":{
+        "children":[
+            "rich-text#submenu-desk-vertodo-row-1",
+            "rich-text#submenu-desk-ico-row-1"
+        ]
+    },
+
+    "rich-text#submenu-desk-vertodo-row-1":{
+        "props":{
+            "text": "VER TODO HOMBRE",
+            "blockClass": "submenulink",
+            "width": "21%"
+        }
+    },
+
+    "rich-text#submenu-desk-ico-row-1":{
+        "props":{
+            "text": "",
+            "blockClass": "submenuIco",
+            "width": "4%"
+        }
+    },
+
+    "flex-layout.row#submenu-desk-department-options-row-1":{
+        "children":[
+            "flex-layout.row#submenu-desk-category-options-col-1",
+            "flex-layout.col#submenu-desk-category-options-col-2"
+        ]
+    },
+
+    "flex-layout.row#submenu-desk-category-options-col-1":{
+        "children":[
+            "flex-layout.col#submenu-desk-departament-1-category-1",
+            "flex-layout.col#submenu-desk-departament-1-category-2",
+            "flex-layout.col#submenu-desk-departament-1-category-3"
+        ],
+        "props":{
+            "width": "70%"
+        }
+    },
+
+    "flex-layout.col#submenu-desk-category-options-col-2":{
+        "children":[
+            "image#image-departament-1"
+        ],
+        "props":{
+            "width": "30%",
+            "blockClass": "contentDepartamentImg"     
+        }
+    },
+
+    "image#image-departament-1":{
+        "props": {
+            "src": "/arquivos/banner-menu-destop-1.png",
+            "link": {
+                "url": "/hombre"
+            }
+        }
+    }
+}
