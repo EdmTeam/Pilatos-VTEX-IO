@@ -37,6 +37,16 @@ const CustomSticky: FC<props> = ({
             let scrollsticky = window.scrollY;
 
             scrollsticky > 0 ? setSticky(true) : setSticky(false);
+
+            // const activeBar = document.querySelector('.pilatos21-custom-sticky-0-x-noStickyActive');
+            let loginModal;
+            loginModal = document.querySelectorAll('.vtex-login-2-x-portalContainer');
+
+            if(loginModal){
+                loginModal.forEach(modal => {
+                    (modal as HTMLElement).style.display = 'none';
+                });
+            }
         }
         
         return () => window.removeEventListener('scroll', headerSticky);

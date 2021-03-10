@@ -14,5 +14,10 @@
         "component": "CloseMenu",
         "composition": "children",
         "allowed": "*"
+    },
+    "open-search-bar-mobile": {
+        "component": "SearchBarMobile",
+        "composition": "children",
+        "allowed": "*"
     }
 }

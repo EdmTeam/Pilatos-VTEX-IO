@@ -1,0 +1,110 @@
+{
+    "flex-layout.row#header-search-mobile": {
+        "children": [
+          "flex-layout.col#header-search-mobile-col-1",
+          "flex-layout.col#header-search-mobile-col-2"
+        ],
+        "props":{
+          "blockClass": "contentSearchClose",
+          "preserveLayoutOnMobile":true,
+          "width": "100%"
+        }
+    },
+
+    "flex-layout.col#header-search-mobile-col-1":{
+        "children":[
+          "open-search-bar-mobile"
+        ],
+        "props":{
+          "width": "10%",
+          "blockClass": "contentCloseIco"
+        }
+    },
+
+    "flex-layout.col#header-search-mobile-col-2":{
+      "children":[
+        "search-bar#mobile"
+      ],
+      "props":{
+        "width": "90%"
+      }
+    },
+
+    "open-search-bar-mobile":{
+        "children":[
+          "rich-text#search-close-icono-1"
+        ]
+    },
+
+    "rich-text#search-close-icono-1":{
+      "props":{
+          "text": "",
+          "blockClass": "closeIco"
+      }
+    },
+    
+    "search-bar#mobile": {
+        "blocks": [
+            // "autocomplete-result-list.v2#mobile"
+            "autocomplete-result-list.v2"
+        ],
+        "props": {
+            "openAutocompleteOnFocus": true,
+            "placeholder": "¿Qué estás buscando?",
+            "blockClass": "contentSearch",
+            "displayMode": "search-button"
+        }
+    },
+
+    "autocomplete-result-list.v2": {
+      "blocks": [
+        "product-summary.shelf#search-bar"
+      ],
+      "props": {
+        "__unstableProductOriginVtex": true,
+        "productLayout": "VERTICAL",
+        "maxSuggestedProducts":4,
+        "historyFirst": true,
+        "autocompleteWidth": "100"
+      }
+    },
+
+    // "autocomplete-result-list.v2#mobile": {
+    //     "blocks": [
+    //       "product-summary.shelf#search-bar"
+    //     ],
+    //     "props": {
+    //         "productLayout": "VERTICAL",
+    //         "historyFirst": true,
+    //         "maxSuggestedProducts":4,
+    //         "autocompleteWidth": "100"
+    //     }
+    // },
+
+    "product-summary.shelf#search-bar": {
+        "children": [
+          "stack-layout#prodsum-search",
+          "product-summary-brand",
+          "product-summary-name"
+        ],
+        "props":{
+          "blockClass": "shelfSearch"
+        }
+    },
+
+    "stack-layout#prodsum-search": {
+      "children": [
+          "product-summary-image#shelf-search"
+      ],
+      "props": {
+        "blockClass": "imageShelf"
+      }
+    },
+    "product-summary-image#shelf-search": {
+        "props": {
+          "showBadge": false,
+          "aspectRatio": "1:1",
+          "maxHeight": 300
+        }
+    }
+}

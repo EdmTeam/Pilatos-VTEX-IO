@@ -4,7 +4,7 @@
             "flex-layout.row#submenu-desk-row-1"
         ],
         "props":{
-            "blockClass": "contentSubmenuDesk-1"
+            "blockClass": "contentSubmenuDesk"
         }
     },
 

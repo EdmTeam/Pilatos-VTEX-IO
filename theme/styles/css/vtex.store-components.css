@@ -101,7 +101,9 @@
 :global(.vtex-rich-text-0-x-wrapper--icoMenuLevel1),
 :global(.vtex-rich-text-0-x-wrapper--icoLogin),
 :global(.vtex-flex-layout-0-x-flexColChild--contentBack) :global(.vtex-store-drawer-0-x-closeIconButton),
-:global(.vtex-rich-text-0-x-wrapper--submenuIco)
+:global(.vtex-rich-text-0-x-wrapper--submenuIco),
+:global(.vtex-rich-text-0-x-wrapper--closeIco),
+:global(.vtex-product-list-0-x-removeButton)
 {
     font-family: 'icomoon' !important;
     speak: never;
@@ -111,6 +113,14 @@
     text-transform: none;
     line-height: 1;
     -webkit-font-smoothing: antialiased;
+}
+
+:global(.vtex-product-list-0-x-removeButton)::before{
+    content: '\e91e';
+}
+
+:global(.vtex-rich-text-0-x-wrapper--closeIco)::before{
+    content: '\e901';
 }
 
 :global(.vtex-flex-layout-0-x-flexColChild--contentBack) :global(.vtex-store-drawer-0-x-closeIconButton)::before{
@@ -329,4 +339,9 @@
 
 .imageElementLink--contentBannerMenu{
     margin: 1.5rem 0 1.3rem 0;
+}
+
+.suffixWrapper--contentSearch .closeIcon--contentSearch{
+    width: 25px;
+    height: 25px;
 }

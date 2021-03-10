@@ -1,8 +1,12 @@
 {
     "flex-layout.row#header-sticky-mobile": {
         "children": [
-            "flex-layout.col#header-sticky-mobile"
-          ]
+            "flex-layout.col#header-sticky-mobile",
+            "flex-layout.row#header-search-mobile"
+        ],
+        "props":{
+            "blockClass": "contenedorHeaderSearch"
+        }
     },
 
     "flex-layout.col#header-sticky-mobile": {
@@ -11,7 +15,8 @@
             "flex-layout.row#header-mobile"
         ],
         "props": {
-            "blockClass": "contenedorHeader"
+            "blockClass": "contenedorHeader",
+            "width": "100%"
         }
     },
 
@@ -43,7 +48,8 @@
             "flex-layout.col#header-mobile-col-6"
         ],
         "props": {
-            "preserveLayoutOnMobile": true
+            "preserveLayoutOnMobile": true,
+            "blockClass": "contentHeaderBar"
         }
     },
 
@@ -188,11 +194,26 @@
 
     "flex-layout.row#close-drawer": {
         "children": [
-            "drawer-close-button"
+            "drawer-close-button",
+            "close-menu-mobile#close-drawer"
         ],
         "props":{
             "preserveLayoutOnMobile":true,
-            "preventHorizontalStretch":true
+            "preventHorizontalStretch":true,
+            "blockClass": "contentBtnClose"
+        }
+    },
+
+    "close-menu-mobile#close-drawer": {
+        "children":[
+            "rich-text#submenu-close-icono"
+        ]
+    },
+
+    "rich-text#submenu-close-icono":{
+        "props":{
+            "text": "",
+            "blockClass": "closeIco"
         }
     },
 
@@ -238,7 +259,7 @@
     //Icono carrito
     "flex-layout.col#header-mobile-col-5": {
         "children": [
-        "minicart.v2"
+            "minicart.v2#pilatos"
         ],
         "props": {
         "width": "11%",
@@ -252,27 +273,4 @@
             "width": "7%"
         }
     }
-
-    // "search-bar#mobile": {
-    //     "blocks": [
-    //         "autocomplete-result-list.v2#mobile"
-    //     ],
-    //     "props": {
-    //         "openAutocompleteOnFocus": true,
-    //         "placeholder": "¿Qué estás buscando?",
-    //         "blockClass": "contentSearch",
-    //         "compactMode": true
-    //     }
-    // },
-    // "autocomplete-result-list.v2#mobile": {
-    //     "blocks": [
-    //         "product-summary.shelf"
-    //     ],
-    //     "props": {
-    //         "__unstableProductOriginVtex": true,
-    //         //"productLayout": "HORIZONTAL",
-    //         "maxSuggestedProducts":3,
-    //         "historyFirst": true
-    //     }
-    // }
 }

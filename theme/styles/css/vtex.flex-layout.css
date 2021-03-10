@@ -457,6 +457,11 @@
   width: 100%;
 }
 
+.flexRow--subContenItems1{
+  height: 340px;
+  overflow: auto;
+}
+
 .flexCol--contentBack{
   display: flex;
   align-items: flex-start;
@@ -473,4 +478,51 @@
 
 .flexCol--contentDepartamentImg{
   margin-top: .7rem;
+}
+
+.flexRowContent--contentBtnClose{
+  position: relative;
+  padding: .2rem;
+}
+
+.flexRowContent--contenedorHeaderSearch{
+  flex-direction: column;
+}
+
+.flexRow--contentSearchClose{
+  display: none;
+  background: #FFFFFF;
+}
+
+.flexRowContent--contentSearchClose{
+  width: 92%;
+  margin: 0 auto;
+  border-bottom: 1px solid #AAA9A9;
+}
+
+.flexColChild--contentCloseIco{
+  height: 100% !important;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* Estilos resumen de carrito */
+.flexCol--contentRemoveButton{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flexRow--contentShelfCart{
+  margin: 1rem 0;
+}
+
+.flexRowContent--contentShelfCart{
+  padding: 5px 0;
+  border-bottom: 1px solid #EFEFEF;
+}
+
+.flexCol--contentInfoProductCart{
+  padding-right: .5rem;
 }

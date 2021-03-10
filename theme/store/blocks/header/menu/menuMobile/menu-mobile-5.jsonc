@@ -23,7 +23,10 @@
     "rich-text#submenu-level-1-texto-row-5": {
         "props": {
             "text": "Sale",
-            "blockClass": "itemMenuLevel1",
+            "blockClass": [
+                "itemMenuLevel1",
+                "itemMenuLevel1Sale"
+            ],
             "width": "90%"
         }
     },
@@ -67,11 +70,26 @@
 
     "flex-layout.row#close-drawer-row-5": {
         "children": [
-            "drawer-close-button"
+            "drawer-close-button",
+            "close-menu-mobile#close-drawer-row-5"
         ],
         "props":{
             "preserveLayoutOnMobile":true,
-            "preventHorizontalStretch":true
+            "preventHorizontalStretch":true,
+            "blockClass": "contentBtnClose"
+        }
+    },
+
+    "close-menu-mobile#close-drawer-row-5": {
+        "children":[
+            "rich-text#submenu-close-icono-5"
+        ]
+    },
+
+    "rich-text#submenu-close-icono-5":{
+        "props":{
+            "text": "",
+            "blockClass": "closeIco"
         }
     },
 

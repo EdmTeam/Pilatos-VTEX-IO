@@ -10,6 +10,7 @@
 .savings{
    font-weight: bold;
    color: red;
+   z-index: 1 !important;
 }
 
 .sellingPrice, .listPriceValue{

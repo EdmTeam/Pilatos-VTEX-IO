@@ -54,8 +54,8 @@
   },
   "product-summary-sku-selector": {
     "props":{
-      // "visibility": "more-than-one"
-      // "initialSelection": "all"
+      "visibility": "more-than-one",
+      "initialSelection": "all"
     }
   },
   "flex-layout.col#content-sku": {

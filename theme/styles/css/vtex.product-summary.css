@@ -53,3 +53,70 @@
         margin: 0 1rem;
     }
 }
+
+@media only screen and (max-width: 760px){
+    .element--shelfSearch .brandName{
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        display: block;
+        font-size: 9px;
+        line-height: 11px;
+        color: #000000 !important;
+    }
+
+    .container--shelfSearch{
+        margin: 0 1rem;
+    }
+
+    .element--shelfSearch .productBrandContainer{
+        text-align: left;
+    }
+
+    .element--shelfSearch .nameContainer{
+        margin: .2rem 0;
+        min-height: auto;
+    }
+}
+
+.element{
+    position: relative;
+}
+
+@media only screen and (min-width: 1180px){
+    .element--shelfSearch .nameContainer{
+        margin: .2rem 0;
+        min-height: 15px;
+    }
+
+    .element--shelfSearch .brandName{
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        display: block;
+        font-size: 9px !important;
+        line-height: 11px;
+        color: #000000 !important;
+    }
+
+    .container--shelfSearch{
+        margin: 0 1rem;
+    }
+
+    .element--shelfSearch{
+        padding-bottom: 0;
+    }
+
+    .container--shelfSearch .productBrandContainer{
+        text-align: left;
+    }
+
+    .container--shelfSearch .productBrandName{
+        font-family: Mulish;
+        font-weight: 900;
+        font-size: 9px;
+        line-height: 11px;
+        color: #575756;
+        text-transform: uppercase;
+    }
+}

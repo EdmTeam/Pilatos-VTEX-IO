@@ -3,13 +3,22 @@
         "children": [
             "flex-layout.row#submenu-level-2-header-row-1",
             "image#submenu-level-2-image-row-1",
+            "flex-layout.row#submenu-level-2-items-1"
+        ],
+        "props": {
+            "blockClass": "subContenItemsLevel2"
+        }
+    },
+
+    "flex-layout.row#submenu-level-2-items-1":{
+        "children": [
             "vtex.menu@2.x:menu#submenu-level-3-row-1",
             "vtex.menu@2.x:menu#submenu-level-3-row-2",
             "vtex.menu@2.x:menu#submenu-level-3-row-3",
             "vtex.menu@2.x:menu#submenu-level-3-row-4"
         ],
         "props": {
-            "blockClass": "subContenItemsLevel2"
+            "blockClass": "subContenItems1"
         }
     },
 
@@ -25,24 +34,11 @@
 
     "flex-layout.col#submenu-level-2-close-drawer-row-1": {
         "children": [
-            "drawer-close-button",
-            "close-menu-mobile"
+            "drawer-close-button"
         ],
         "props":{
             "blockClass": "contentBack",
             "width": "20%"
-        }
-    },
-
-    "close-menu-mobile": {
-        "children":[
-            "rich-text#test"
-        ]
-    },
-
-    "rich-text#test":{
-        "props":{
-            "text": "test"
         }
     },
 
@@ -75,7 +71,7 @@
         "props": {
             "src": "/arquivos/banner-menu-mobile-1.png",
             "link": {
-                "url": "/"
+                "url": "/hombre"
             },
             "blockClass": "contentBannerMenu"
         }

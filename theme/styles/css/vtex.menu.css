@@ -178,22 +178,17 @@
     width: 100%;
 }
 
-.submenuContainer--contentSubmenuDesk-1,
-.submenuContainer--contentSubmenuDesk-2,
-.submenuContainer--contentSubmenuDesk-3
-{
+.submenuContainer--contentSubmenuDesk{
     position: static;
 }
 
-.submenuWrapper--contentSubmenuDesk-1,
-.submenuWrapper--contentSubmenuDesk-2,
-.submenuWrapper--contentSubmenuDesk-3
-{
+.submenuWrapper--contentSubmenuDesk{
     width: 700px;
-    top: 99%;
     background: #F2F2F2;
     padding: .75rem 2rem;
-    z-index: 1000;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 @media only screen and (min-width: 1280px){

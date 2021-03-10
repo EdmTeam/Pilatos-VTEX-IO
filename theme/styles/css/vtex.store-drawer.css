@@ -23,7 +23,7 @@
 .closeIcon{
     height: 40px !important;
     width: 40px !important;
-    color: #848484;
+    color: transparent;
 }
 
 .drawerContent--menu-drawer, .drawerContent--menuDrawerLevel1{

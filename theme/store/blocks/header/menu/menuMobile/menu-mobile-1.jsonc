@@ -76,11 +76,26 @@
 
     "flex-layout.row#close-drawer-row-1": {
         "children": [
-            "drawer-close-button"
+            "drawer-close-button",
+            "close-menu-mobile#close-drawer-row-1"
         ],
         "props":{
             "preserveLayoutOnMobile":true,
-            "preventHorizontalStretch":true
+            "preventHorizontalStretch":true,
+            "blockClass": "contentBtnClose"
+        }
+    },
+
+    "close-menu-mobile#close-drawer-row-1": {
+        "children":[
+            "rich-text#submenu-close-icono-1"
+        ]
+    },
+
+    "rich-text#submenu-close-icono-1":{
+        "props":{
+            "text": "",
+            "blockClass": "closeIco"
         }
     }
 }

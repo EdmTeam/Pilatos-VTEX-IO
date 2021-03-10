@@ -65,13 +65,38 @@
         ]
     },
 
+    // "flex-layout.row#close-drawer-row-2": {
+    //     "children": [
+    //         "drawer-close-button"
+    //     ],
+    //     "props":{
+    //         "preserveLayoutOnMobile":true,
+    //         "preventHorizontalStretch":true
+    //     }
+    // },
+
     "flex-layout.row#close-drawer-row-2": {
         "children": [
-            "drawer-close-button"
+            "drawer-close-button",
+            "close-menu-mobile#close-drawer-row-2"
         ],
         "props":{
             "preserveLayoutOnMobile":true,
-            "preventHorizontalStretch":true
+            "preventHorizontalStretch":true,
+            "blockClass": "contentBtnClose"
+        }
+    },
+
+    "close-menu-mobile#close-drawer-row-2": {
+        "children":[
+            "rich-text#submenu-close-icono-2"
+        ]
+    },
+
+    "rich-text#submenu-close-icono-2":{
+        "props":{
+            "text": "",
+            "blockClass": "closeIco"
         }
     }
 }

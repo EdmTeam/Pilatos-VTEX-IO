@@ -2,13 +2,19 @@
   "flex-layout.row#header-sticky-inactive-desk": {
     "children": [
       "flex-layout.col#header-sticky-inactive-desk"
-    ]
+    ],
+    "props":{
+      "blockClass": "contentBarHeaderInactive"
+    }
   },
 
   "flex-layout.row#header-sticky-active-desk": {
     "children": [
       "flex-layout.col#header-sticky-active-desk"
-    ]
+    ],
+    "props":{
+      "blockClass": "contentBarHeaderActive"
+    }
   },
 
   "flex-layout.col#header-sticky-inactive-desk": {
@@ -160,7 +166,7 @@
 
   "search-bar": {
     "blocks": [
-      "autocomplete-result-list.v2"
+      "autocomplete-result-list.v2#desktop"
     ],
     "props": {
       "openAutocompleteOnFocus": true,
@@ -168,14 +174,14 @@
       "blockClass": "contentSearch"
     }
   },
-  "autocomplete-result-list.v2": {
+  "autocomplete-result-list.v2#desktop": {
     "blocks": [
-      "product-summary.shelf"
+      "product-summary.shelf#search-bar"
     ],
     "props": {
       "__unstableProductOriginVtex": true,
       //"productLayout": "HORIZONTAL",
-      "maxSuggestedProducts":3,
+      "maxSuggestedProducts":4,
       "historyFirst": true
     }
   },
@@ -231,18 +237,15 @@
 
   "login#header-items-ico-2": {
     "props": {
-      "emailAndPasswordTitle": "LOG-IN",
-      "accessCodeTitle": "Acess Code LOG-IN",
-      "emailPlaceholder": "e-mail",
-      "passwordPlaceholder": "password",
-      "showPasswordVerificationIntoTooltip": true
+      "logInButtonBehavior": "link",
+      "accountOptionsButtonBehavior": "link"
     }
   },
 
   //Icono carrito
   "flex-layout.col#header-items-desk-ico-col-3": {
     "children": [
-      "minicart.v2"
+      "minicart.v2#pilatos"
     ],
     "props": {
       "width": "30%",

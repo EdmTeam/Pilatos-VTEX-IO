@@ -451,6 +451,10 @@
   margin: 1.4rem 0;
 }
 
+.wrapper--itemMenuLevel1Sale .paragraph--itemMenuLevel1{
+  color: #BF6E0B;
+}
+
 .container--icoMenuLevel1{
   display: flex;
   align-items: center;
@@ -582,4 +586,22 @@
 .wrapper--textSubcategory .link{
   color: #260C11;
   text-decoration: none;
+}
+
+.container--closeIco{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper--closeIco{
+  color: #848484;
+  font-size: 1.6rem;
 }

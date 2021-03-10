@@ -3,13 +3,22 @@
         "children": [
             "flex-layout.row#submenu-level-2-header-row-2",
             "image#submenu-level-2-image-row-2",
+            "flex-layout.row#submenu-level-2-items-2"
+        ],
+        "props": {
+            "blockClass": "subContenItemsLevel2"
+        }
+    },
+
+    "flex-layout.row#submenu-level-2-items-2":{
+        "children": [
             "vtex.menu@2.x:menu#submenu-level-3-row-1-row-2",
             "vtex.menu@2.x:menu#submenu-level-3-row-2-row-2",
             "vtex.menu@2.x:menu#submenu-level-3-row-3-row-2",
             "vtex.menu@2.x:menu#submenu-level-3-row-4-row-2"
         ],
         "props": {
-            "blockClass": "subContenItemsLevel2"
+            "blockClass": "subContenItems1"
         }
     },
 
