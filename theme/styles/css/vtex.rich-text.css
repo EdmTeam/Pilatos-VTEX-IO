@@ -124,12 +124,13 @@
 /* Estiolos personalizados footer*/
 .container--titleItemsfooter{
   justify-content: center;
+  margin-top: 11.3rem;
 }
 
 .paragraph--titleItemsfooter{
-  margin: 0 0 1rem 0;
+  margin: 0 0 8px 0;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 95%;
   letter-spacing: 0.02em;
   color: #FFFFFF;
@@ -145,8 +146,8 @@
 
 .paragraph--descriptionItemsfooter{
   margin: 0 0 1rem 0;
-  font-size: 12px;
-  line-height: 14px;
+  font-size: 11px;
+  line-height: 13px;
   letter-spacing: 0.02em;
   color: #FFFFFF;
 }
@@ -170,7 +171,7 @@
 
 .wrapper--locatorItemsfooter{
   color: #000000;
-  font-size: 2.2rem;
+  font-size: 1.6rem;
 }
 
 .container--storelocatorItemsfooter{
@@ -179,12 +180,16 @@
 }
 
 .wrapper--textSubmenu .paragraph{
-  margin: .5rem 0;
+  margin: 0;
 }
 
 .wrapper--textSubmenu .link{
   color: #FFFFFF;
   text-decoration: none;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
 }
 
 .container--legalFooter{
@@ -195,10 +200,10 @@
 }
 
 .paragraph--legalFooter{
-  font-size: 10px;
+  font-size: 9px;
   line-height: 12px;
   text-align: center;
-  margin: .3rem 0;
+  margin: 3px 0;
 }
 
 .wrapper--mailItemsfooter,
@@ -211,7 +216,7 @@
 }
 
 .link--linkFooter{
-  color: #575757;
+  color: #FFFFFF;
   text-decoration: none;
 }
 
@@ -237,6 +242,93 @@
   .wrapper--whatsappItemsfooter,
   .wrapper--locatorItemsfooter{
     font-size: 1.4rem
+  }
+
+  .container--titleItemsfooter{
+    justify-content: flex-start;
+  }
+
+  .paragraph--titleItemsfooter{
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin: 0 0 5px 0;
+  }
+
+  .container--descriptionItemsfooter{
+    justify-content: flex-start;
+  }
+
+  .wrapper--descriptionItemsfooter{
+    text-align: left;
+  }
+
+  .paragraph--descriptionItemsfooter{
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0.02em;
+    margin: 0 0 1.2rem 0;
+  }
+
+  .wrapper--mailItemsfooter, .wrapper--telItemsfooter{
+    font-size: 1.1rem;
+  }
+
+  .paragraph--linkFooter{
+    margin: 0 0 .6rem 0;
+  }
+
+  .link--linkFooter{
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 10px;
+    letter-spacing: 0.02em;
+  }
+
+  .wrapper--legalRights .paragraph{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 19px;
+    color: #000000;
+    margin: 0 0 0 2.14rem;
+  }
+
+  .wrapper--icoBlacksip{
+    font-size: 3rem;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+  }
+
+  .wrapper--icoVtex{
+    font-size: 3rem;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    color: #F71963;
+  }
+}
+
+@media only screen and (min-width: 1300px){
+  .wrapper--legalRights .paragraph{
+    margin: 0 0 0 2.5rem;
+  }
+}
+
+@media only screen and (min-width: 1910px){
+  .wrapper--legalRights .paragraph{
+    font-size: 14.5px;
+    line-height: 20px;
+  }
+
+  .wrapper--icoBlacksip, .wrapper--icoVtex{
+    font-size: 4.5rem;
+    height: 25px;
   }
 }
 
@@ -537,10 +629,10 @@
 }
 
 .paragraph--textSubmenuAcordeon{
-  margin: .35rem 0;
+  margin: .3rem 0;
   font-weight: normal;
-  font-size: 13px;
-  line-height: 95%;
+  font-size: 10px;
+  line-height: 9px;
   letter-spacing: 0.02em;
 }
 
@@ -592,16 +684,160 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  top: 0;
-  left: 0;
+  top: -5px;
+  left: -2px;
   z-index: 5;
   cursor: pointer;
-  display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .wrapper--closeIco{
   color: #848484;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
+}
+
+.container--keepBuying{
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper--keepBuying .paragraph{
+  margin: .5rem 0 .3rem 0;
+}
+
+.wrapper--keepBuying .link{
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.04em;
+  text-decoration-line: underline;
+  color: #FFFFFF;
+}
+
+@media only screen and (min-width: 1180px){
+  .container--closeIco{
+    display: flex;
+  }
+
+  .container--keepBuying{
+    display: flex;
+  }
+}
+
+/* Estilos al Newsletter */
+.container--titleNewsletter{
+  justify-content: center;
+}
+
+.paragraph--titleNewsletter{
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 24px;
+  letter-spacing: 0.075em;
+  color: #000000;
+  margin: .5rem 0;
+}
+
+.paragraph--desNewsletter{
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 13px;
+  letter-spacing: 0.06em;
+  color: #000000;
+  text-align: center;
+  padding: 0 1rem;
+  margin: .5rem 0;
+}
+
+.strong--desNewsletter{
+  font-weight: 800;
+  font-size: 15px;
+}
+
+:global(.vtex-input__label){
+  display: none;
+}
+
+.container--icoFacebook,
+.container--icoInstagram,
+.container--icoWhatsapp{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container--icoFacebook .paragraph,
+.container--icoInstagram .paragraph,
+.container--icoWhatsapp .paragraph{
+  margin: 1.24rem 0 0 0;
+}
+
+.container--icoFacebook .link,
+.container--icoInstagram .link,
+.container--icoWhatsapp .link{
+  font-size: 1.3rem;
+  color: #000000;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 1180px){
+  .container--titleItemsfooter{
+    margin-top: 6.7rem;
+  }
+
+  .paragraph--titleNewsletter{
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 13px;
+    letter-spacing: 0.075em;
+    margin: 1.2rem 0;
+  }
+
+  .container--desNewsletter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .paragraph--desNewsletter{
+    font-size: 15px;
+  }
+
+  .strong--desNewsletter{
+    font-size: 20px;
+  }
+
+  .container--icoFacebook .paragraph,
+  .container--icoInstagram .paragraph,
+  .container--icoWhatsapp .paragraph{
+    margin: 1.7rem 0 0 0;
+  }
+
+  .container--icoFacebook .link,
+  .container--icoInstagram .link,
+  .container--icoWhatsapp .link{
+    font-size: 1.2rem;
+    color: #000000;
+    text-decoration: none;
+  }
+}
+
+.container--titleShelf{
+  justify-content: center;
+}
+
+.container--titleShelf .paragraph{
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 19px;
+  text-align: center;
+  color: #000000;
+}
+
+.wrapper--titleShelf .paragraph{
+  margin-top: 0;
+  font-weight: bold;
+  font-size: 25px;
 }

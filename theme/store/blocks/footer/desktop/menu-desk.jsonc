@@ -8,6 +8,7 @@
 
     "flex-layout.row#desk-menu-item": {
         "children": [
+            "flex-layout.col#news-letter",
             "flex-layout.col#desk-menu-item-col-1",
             "flex-layout.col#desk-menu-item-col-2",
             "flex-layout.col#desk-menu-item-col-3",
@@ -21,17 +22,90 @@
 
     "flex-layout.row#legal-medios-pago-desk": {
         "children": [
-            "rich-text#legal-medios-pago-desk"
+            "flex-layout.col#legal-medios-pago-desk-col-1",
+            "flex-layout.row#legal-medios-pago-desk-col-2"
         ],
         "props": {
             "blockClass": "contentLegal"
         }
     },
 
-    "rich-text#legal-medios-pago-desk": {
+    "flex-layout.col#legal-medios-pago-desk-col-1":{
+        "children":[
+            "flex-layout.row#legal-medios-pago-desk-col-1"
+        ],
+        "props":{
+            "width": "50%",
+            "blockClass": "contentLegalRights"
+        }
+    },
+
+    "flex-layout.row#legal-medios-pago-desk-col-1":{
+        "children":[
+            "flex-layout.col#legal-rights",
+            "flex-layout.col#legal-ico-blacksip",
+            "flex-layout.col#legal-ico-vtex"
+        ],
+        "props":{
+            "blockClass": "legalRights"
+        }
+    },
+
+    "flex-layout.col#legal-rights":{
+        "children":[
+            "rich-text#legal-rights"        
+        ],
+        "props":{
+            "width": "52%"
+        }
+    },
+
+    "rich-text#legal-rights":{
         "props": {
-            "text": "Legales / Medios de pago",
-            "blockClass": "legalFooter"
+            "text": "Pilatos 2021 © Todos los derechos reservados  |  Empowered By",
+            "blockClass": "legalRights"
+        }
+    },
+
+    "flex-layout.col#legal-ico-blacksip":{
+        "children":[
+            "rich-text#legal-ico-blacksip"
+        ],
+        "props":{
+            "width": "8%"
+        }
+    },
+
+    "rich-text#legal-ico-blacksip":{
+        "props": {
+            "text": "",
+            "blockClass": "icoBlacksip"
+        }
+    },
+
+    "flex-layout.col#legal-ico-vtex":{
+        "children":[
+            "rich-text#legal-ico-vtex"
+        ],
+        "props":{
+            "width": "8%"
+        }
+    },
+
+    "rich-text#legal-ico-vtex":{
+        "props": {
+            "text": "",
+            "blockClass": "icoVtex"
+        }
+    },
+
+    "flex-layout.row#legal-medios-pago-desk-col-2":{
+        "children":[
+            "image#medios-pago"
+        ],
+        "props":{
+            "width": "50%",
+            "blockClass": "paymentMethods"
         }
     }
 }

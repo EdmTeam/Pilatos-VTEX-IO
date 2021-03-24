@@ -40,3 +40,13 @@
     letter-spacing: 0.02em;
     color: #E30613;
 }
+
+.quantitySelectorContainer{
+    width: auto;
+}
+
+@media only screen and (min-width: 1180px){
+    .quantitySelectorContainer{
+        width: 3.5rem;
+    }
+}

@@ -8,10 +8,11 @@
       "responsive-layout.phone#category-banners",
       "responsive-layout.tablet#category-banners",
       "responsive-layout.desktop#category-banners",
-      "flex-layout.row#demo1",
+      "flex-layout.row#most-viewed",
       "responsive-layout.phone#promotional-banners-2",
       "responsive-layout.desktop#promotional-banners-2",
       "responsive-layout.tablet#promotional-banners-2",
+      "flex-layout.row#Recently-viewed",
       "responsive-layout.phone#promotional-banners",
       "responsive-layout.tablet#promotional-banners",
       "responsive-layout.desktop#promotional-banners"

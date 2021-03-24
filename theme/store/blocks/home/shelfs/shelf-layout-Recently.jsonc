@@ -1,41 +1,41 @@
 {
-    "flex-layout.row#most-viewed": {
+    "flex-layout.row#Recently-viewed": {
         "children": [
-            "flex-layout.col#most-viewed"
+            "flex-layout.col#Recently-viewed"
         ],
         "props": {
             "blockClass": "sliderContentShelf"
         }
     },
 
-    "flex-layout.col#most-viewed": {
+    "flex-layout.col#Recently-viewed": {
         "children": [
-            "rich-text#title-most-viewed",
-            "list-context.product-list#most-viewed"        
+            "rich-text#title-Recently-viewed",
+            "list-context.product-list#Recently-viewed"
         ]
     },
 
-    "rich-text#title-most-viewed":{
+    "rich-text#title-Recently-viewed":{
         "props":{
-            "text": "Los más vistos",
+            "text": "Vistos Recientemente",
             "blockClass": "titleShelf"
         }
     },
 
-    "list-context.product-list#most-viewed": {
+    "list-context.product-list#Recently-viewed": {
         "blocks": [
-            "product-summary.shelf#most-viewed"
+            "product-summary#most-viewed"
         ],
         "children": [
-            "slider-layout#home-shelf-most-viewed"
+            "slider-layout#home-shelf-Recently-viewed"
         ],
         "props": {
             "orderBy": "OrderByTopSaleDESC",
             "collection": "137",
-            "maxItems": 100
+            "maxItems": 30
         }
     },
-    "slider-layout#home-shelf-most-viewed": {
+    "slider-layout#home-shelf-Recently-viewed": {
         "props": {
           "itemsPerPage": {
             "desktop": 4,

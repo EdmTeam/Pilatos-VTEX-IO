@@ -2,11 +2,12 @@
     "flex-layout.col#desk-menu-item-col-5": {
         "children": [
             "rich-text#desk-menu-item-5-title",
-            "flex-layout.col#desk-menu-item-5-contentlink"
+            "flex-layout.col#desk-menu-item-5-contentlink",
+            "flex-layout.row#logos-mobile"
         ],
         "props": {
-            "width": "20%",
-            "blockClass": "contenteItem"
+            "width": "15%",
+            "blockClass": ["contenteItem5", "contenteItem"]
         }
     },
 
@@ -19,8 +20,9 @@
 
     "flex-layout.col#desk-menu-item-5-contentlink": {
         "children": [
-            "rich-text#desk-menu-item-4-link-1",
-            "rich-text#desk-menu-item-4-link-2"
+            "rich-text#desk-menu-item-5-link-1",
+            "rich-text#desk-menu-item-5-link-2",
+            "rich-text#desk-menu-item-5-link-3"
         ]
     },
 

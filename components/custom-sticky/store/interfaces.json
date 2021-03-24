@@ -15,6 +15,11 @@
         "composition": "children",
         "allowed": "*"
     },
+    "close-cart-popup": {
+        "component": "CloseCart",
+        "composition": "children",
+        "allowed": "*"
+    },
     "open-search-bar-mobile": {
         "component": "SearchBarMobile",
         "composition": "children",

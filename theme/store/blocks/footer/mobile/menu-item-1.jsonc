@@ -73,7 +73,7 @@
             "rich-text#menu-item-contact-infocontact-1"
         ],
         "props": {
-            "width": "55%",
+            "width": "64%",
             "blockClass": "contentRichtextFooter"
         }
     },
@@ -127,7 +127,7 @@
             "rich-text#menu-item-contact-infocontact-2"
         ],
         "props": {
-            "width": "47%",
+            "width": "53%",
             "blockClass": "contentRichtextFooter"
         }
     },

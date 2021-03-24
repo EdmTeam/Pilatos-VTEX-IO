@@ -136,7 +136,7 @@
     width: 750px;
 }
 
-@media only screen and (max-width: 1920px){
+@media only screen and (min-width: 1920px){
     :global(.vtex-flex-layout-0-x-flexRow--contentBarHeaderActive) :global(.vtex-menu-2-x-submenuWrapper--contentSubmenuDesk)
     {
         top: 81px;
@@ -172,10 +172,16 @@
 }
 
 :global(.vtex-flex-layout-0-x-flexColChild--contentQuantitySelector) :global(.vtex-dropdown__container){
-    height: 2.2rem;
+    height: 2.1rem;
     border: 1px solid #AAA9A9;
 }
 
 :global(.vtex-product-list-0-x-deleteIcon){
     display: none;
+}
+
+@media only screen and (max-width: 1180px){
+    :global(.vtex-flex-layout-0-x-flexColChild--contentQuantitySelector) :global(.vtex-dropdown__container){
+        height: 2.2rem;
+    }
 }

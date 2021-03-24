@@ -69,6 +69,7 @@
 /*Estilos personalizados*/
 .submenuAccordion--contentSubMenu{
     display: block;
+    padding-left: .6rem;
 }
 
 .menuItem--accordionLevel1{
@@ -91,6 +92,11 @@
 
 .styledLinkContent--accordionLevel1{
     color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 13px;
+    line-height: 19px;
+    margin-bottom: 0;
 }
 
 .accordionIcon--accordionLevel1,
@@ -150,18 +156,30 @@
     margin-top: 0;
 }
 
+.submenuAccordion--contentSubMenuAcordeon::-webkit-scrollbar {
+    width: 6px;
+}
+
+.submenuAccordion--contentSubMenuAcordeon::-webkit-scrollbar-thumb {
+    display: block;
+    background: #FFD400;
+    border-radius: 10px;
+}
+
 .submenuAccordion--contentSubMenuAcordeon{
     display: block;
     padding-left: .8rem;
+    overflow: auto;
+    height: 148px;
 }
 
 .styledLinkContainer--menuAccordionLevel1{
-    padding: 1rem 0;
+    padding: .65rem 0;
 }
 
 .styledLinkContent--menuAccordionLevel1{
     font-weight: bold;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 13px;
     letter-spacing: 0.02em;
     color: #000000;

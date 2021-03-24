@@ -5,8 +5,8 @@
             "flex-layout.col#desk-menu-item-3-contentlink"
         ],
         "props": {
-            "width": "20%",
-            "blockClass": "contenteItem"
+            "width": "27%",
+            "blockClass": ["contenteItem3", "contenteItem"]
         }
     },
 

@@ -12,8 +12,13 @@
 }
 
 /* Estilos al menu mobile */
+.drawer--menuDrawerLevel1, .drawer--menu-drawer{
+    width: 81% !important;
+    min-width: 250px !important;
+}
+
 .drawerHeader--contenedorMenuHeader{
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.7rem;
 }
 
 .closeIconButton{

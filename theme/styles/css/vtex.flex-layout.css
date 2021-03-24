@@ -47,9 +47,10 @@
 }
 
 .flexRowContent--contentItem1{
-  padding: 1rem 1.5rem 2rem 1.5rem;
+  padding: 1rem 13px 1rem 13px;
   background: #000000;
-  margin-top: 1rem;
+  margin-top: 8.5rem;
+  position: relative;
 }
 
 .flexRow--contentContact{
@@ -70,21 +71,21 @@
 }
 
 .flexRowContent--contentStorelocator{
-  padding: .2rem .3rem;
-  margin: 1rem auto;
+  padding: 6px 7px;
+  margin: 1rem auto 36px auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 65%;
+  width: 75%;
   background: #FFD400;
 }
 
 .flexColChild--contentFooter{
-  margin: .5rem 0;
+  margin: 0;
 }
 
 .flexRow--contentLogoFooter{
-  width: 80% !important;
+  width: 65% !important;
   margin: 1rem auto 0 auto;
 }
 
@@ -96,6 +97,10 @@
   width: 53% !important;
   margin: 0 auto;
   overflow: hidden;
+}
+
+.flexCol--contentRichtextFooter{
+  justify-content: center;
 }
 
 .flexCol--icoBlacksip, .flexCol--icoVtex{
@@ -120,8 +125,21 @@
 }
 
 /* Footer desktop */
-
 @media only screen and (min-width: 1180px){
+  .flexRow--contentFooter{
+    background: #000000;
+    padding: 3rem 5.45rem 0 5.45rem;
+    position: relative;
+  }
+
+  .flexRow--contentLogoFooter{
+    position: absolute;
+    width: 222px !important;
+    right: 0;
+    bottom: 0;
+    margin: 0 9% 1.1rem 0;
+  }
+
   .flexRowContent--contentfooter{
     display: block;
   }
@@ -131,20 +149,37 @@
   }
 
   .flexCol--contenteItem{
-    margin-left: 3rem;
+    margin-left: 2rem;
   }
 
   .flexCol--contenteItem1{
-    margin: 0 1rem;
+    margin: 0 .7rem 0 0;
+  }
+
+  .flexCol--contenteItem2{
+    margin-left: 4.4rem;
+  }
+
+  .flexCol--contenteItem3{
+    margin-left: 3.35rem;
   }
 
   .flexCol--contenteItemAyuda{
-    margin-left: 5rem;
+    margin-left: 2.2rem;
+  }
+
+  .flexCol--contenteItem5{
+    margin-left: 0;
+  }
+
+  .flexCol--telItemsfooter{
+    align-items: flex-start !important;
   }
 
   .flexRowContent--contentStorelocator{
-    padding: .7rem 1rem;
-    width: 90%;
+    padding: .4rem .6rem;
+    margin: 2.6rem auto 23px;
+    width: 100%;
     text-align: center;
   }
 
@@ -154,7 +189,43 @@
 
   .flexCol--contentRichtextFooter{
     justify-content: center;
+    align-items: center;
     margin-left: .5rem;
+  }
+
+  .flexCol--mailItemsfooter{
+    align-items: flex-start;
+  }
+
+  .flexRowContent--paymentMethods :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+    justify-content: flex-end;
+  }
+
+  .flexRowContent--paymentMethods :global(.vtex-store-components-3-x-imageElement){
+    margin-right: 0;
+    width: 61%;
+  }
+
+  .flexCol--contentLegalRights{
+    justify-content: center;
+  }
+
+  .flexRowContent--contentLegal{
+    padding: .4rem 0 .3rem 0;
+  }
+
+  .flexRowContent--paymentMethods{
+    padding-right: 2.3rem;
+  }
+}
+
+@media only screen and (min-width: 1910px){
+  .flexCol--contenteItem1{
+    padding-right: 3rem;
+  }
+
+  .flexCol--contentRichtextFooter{
+    margin-left: 0;
   }
 }
 
@@ -283,8 +354,14 @@
 
 /* Estilos para la vitrina */
 .flexRow--sliderContentShelf{
-  width: 80%;
+  width: 90%;
   margin: 0 auto 2rem auto;
+}
+
+@media only screen and (min-width: 1180px){
+  .flexRow--sliderContentShelf{
+    width: 84%;
+  }
 }
 
 .flexRow--contentPrice{
@@ -301,11 +378,60 @@
   border-radius: 50px;
 }
 
+.flexRow--addWishList :global(.vtex-wish-list-1-x-iconSize){
+  display: none;
+}
+
+.flexRow--addWishList :global(.vtex-button) :global(.vtex-button__label){
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  color: #000000;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.flexRow--addWishList :global(.vtex-button) :global(.vtex-button__label)::before{
+  content: '\e909';
+}
+
 @media only screen and (min-width: 1180px){
   .flexColChild--contentButton{
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+
+  .flexRow--contentPrice{
+    margin-bottom: 1.2rem;
+  }
+
+  .flexRowContent--contentSkuBtn{
+    align-items: center;
+  }
+
+  .flexCol--contentButton{
+    margin-right: 0;
+  }
+
+  .flexCol--contentButton :global(.vtex-button){
+    width: 40px !important;
+    height: 40px !important;
+  }
+
+  .flexRow--sliderContentShelf :global(.vtex-product-price-1-x-savings){
+    top: 0;
+    left: 16px;
+  }
+
+  .flexRow--sliderContentShelf :global(.vtex-product-price-1-x-savings) :global(.vtex-product-price-1-x-savingsPercentage){
+    width: 28px;
+    height: 28px;
   }
 }
 
@@ -372,7 +498,7 @@
 
 .flexRowContent--promBannerContent{
   width: 93% !important;
-  margin: 2rem auto 0 auto;
+  margin: 2rem auto;
 }
 
 .flexCol--promBannerContentImg{
@@ -438,7 +564,7 @@
 }
 
 .flexRowContent--contentBtnWishlist{
-  padding: 0 2rem;
+  padding: 0 1.5rem;
   margin: .3rem auto;
   display: flex;
   align-items: center;
@@ -459,7 +585,7 @@
 
 .flexRow--subContenItems1{
   height: 340px;
-  overflow: auto;
+  overflow: visible;
 }
 
 .flexCol--contentBack{
@@ -515,7 +641,7 @@
 }
 
 .flexRow--contentShelfCart{
-  margin: 1rem 0;
+  margin: .1rem 0 1rem 0;
 }
 
 .flexRowContent--contentShelfCart{
@@ -524,5 +650,137 @@
 }
 
 .flexCol--contentInfoProductCart{
-  padding-right: .5rem;
+  padding: 0 .5rem;
+}
+
+.flexRow--contentFooterCart{
+  background: #000000;
+  padding-bottom: 0;
+}
+
+@media only screen and (min-width: 1180px){
+  .flexRow--contentShelfCart{
+    margin: .5rem 0 1rem 0;
+  }
+
+  .flexCol--contentInfoProductCart{
+    padding: 0 .5rem 0 0;
+  }
+
+  .flexRow--contentFooterCart{
+    padding-bottom: .5rem;
+  }
+}
+
+/* Estilos Newsletter */
+.flexCol--contentNewsletter{
+  background: #FFFFFF;
+  width: 88% !important;
+  position: absolute;
+  margin: 0 auto;
+  height: auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  top: -6.4rem;
+}
+
+.flexColChild--contentNewsletter{
+  padding: 1.3rem 1.3rem 1rem 1.3rem;
+}
+
+.flexColChild--contentNewsletter :global(.vtex-input-prefix__group){
+  margin-top: .8rem;
+  height: 2rem;
+}
+
+.flexColChild--contentNewsletter :global(.vtex-styleguide-9-x-input)::placeholder{
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: #000000;
+}
+
+.flexColChild--contentNewsletter :global(.vtex-store-form-0-x-formSubmitContainer){
+  margin-top: .4rem;
+}
+
+.flexColChild--contentNewsletter :global(.vtex-button){
+  width: 100%;
+  background: #FFD400;
+  outline: none;
+  color: #000000;
+  min-height: 1.7rem;
+  font-size: 1rem;
+}
+
+.flexColChild--contentNewsletter :global(.vtex-button):hover{
+  background: #FFD400;
+  outline: none;
+  border: none;
+}
+
+.flexColChild--contentNewsletter :global(.vtex-button__label){
+  display: none;
+}
+
+.flexColChild--contentNewsletter :global(.vtex-checkbox__line-container){
+  margin-top: 1rem;
+}
+
+.flexColChild--contentNewsletter :global(.vtex-checkbox__label){
+  font-weight: 300;
+  font-size: 9px;
+  line-height: 13px;
+  letter-spacing: 0.01em;
+  color: #000000;
+}
+
+.flexRowContent--contentSocialMedia{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 45%;
+  margin: 0 auto;
+}
+
+.flexRowContent--contentSocialMedia .stretchChildrenWidth{
+  width: 50% !important;
+}
+
+@media only screen and (min-width: 1180px){
+  .flexRow--contentFooter{
+    margin-top: 9rem;
+  }
+
+  .flexCol--contentNewsletter{
+    width: 61.3% !important;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    top: -7.7rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .flexCol--contentInput{
+    width: 41%;
+    margin: 0 auto;
+    margin-top: 4px;
+    position: relative;
+  }
+
+  .flexCol--contentInput :global(.vtex-store-form-0-x-formSubmitContainer){
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: 17%;
+  }
+
+  .flexColChild--contentNewsletter :global(.vtex-checkbox__line-container){
+    width: 41%;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+
+  .flexRowContent--contentSocialMedia{
+    width: 15%;
+  }
 }

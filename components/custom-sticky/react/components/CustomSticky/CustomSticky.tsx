@@ -47,6 +47,15 @@ const CustomSticky: FC<props> = ({
                     (modal as HTMLElement).style.display = 'none';
                 });
             }
+
+            let cartModal;
+            cartModal = document.querySelectorAll('.vtex-minicart-2-x-popupWrapper');
+
+            if(cartModal){
+                cartModal.forEach(modal => {
+                    (modal as HTMLElement).style.display = 'none';
+                });
+            }
         }
         
         return () => window.removeEventListener('scroll', headerSticky);

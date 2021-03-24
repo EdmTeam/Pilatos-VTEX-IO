@@ -1,6 +1,6 @@
 {
   
-  "product-summary.shelf": {
+  "product-summary:#most-viewed": {
     "children": [
       "product-price-savings#summary",
       "stack-layout#prodsum",
@@ -52,15 +52,12 @@
       "blockClass": "contentSkuBtn"
     }
   },
-  "product-summary-sku-selector": {
-    "props":{
-      "visibility": "more-than-one",
-      "initialSelection": "all"
-    }
-  },
+
   "flex-layout.col#content-sku": {
     "children": [
-      "product-summary-sku-selector"
+      // "product-summary-sku-selector"
+      "product-summary-sku-selector#color",
+      "product-summary-sku-selector#Talla"
     ],
     "props": {
       "width": "80%",
@@ -68,18 +65,53 @@
     }
   },
 
+  // "product-summary-sku-selector": {
+  //   "props":{
+  //     "visibility": "more-than-one",
+  //     "initialSelection": "complete"
+  //   }
+  // },
+
+  "product-summary-sku-selector#color": {
+    "props": {
+      "showValueForVariation ": "image",
+      "showVariationsLabels": true,
+      "visibleVariations": ["Color"],
+      "displayMode": {
+        "mobile": "slider",
+        "desktop": "default"
+      },
+      "sliderDisplayThreshold": "3",
+      "sliderItemsPerPage": "3",
+      "initialSelection": "complete",
+      "infinite": false,
+      "navigationStep": "1"
+    }
+  },
+
+  "product-summary-sku-selector#Talla": {
+    "props": {
+      "showValueForVariation ": "image",
+      "showVariationsLabels": true,
+      "visibleVariations": ["Talla"],
+      "displayMode": "select",
+      "initialSelection": "complete"
+    }
+  },
+
   "flex-layout.col#add-to-cart": {
     "children": [
-      "add-to-cart-button"
+      "add-to-cart-button#shelf"
     ],
     "props": {
       "width": "20%",
       "blockClass": "contentButton"
     }
   },
-  "add-to-cart-button":{
+  "add-to-cart-button#shelf":{
     "props": {
-      "onClickBehavior": "add-to-cart"
+      "onClickBehavior": "add-to-cart",
+      "text": "AGREGAR"
     }
   },
   "stack-layout#prodsum": {

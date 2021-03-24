@@ -1,0 +1,80 @@
+.summarySmallDisclaimer{
+    display: none;
+}
+
+.summaryItemContainer{
+    margin: .5rem 0;
+}
+
+.summaryItemContainer:nth-child(odd) .summaryItemLabel{
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    position: relative;
+}
+
+.summaryItemContainer:nth-child(odd) .summaryItemLabel::before{
+    content: 'Envío:';
+    position: absolute;
+    left: 0;
+    top: 1.6rem;
+    color: #FFFFFF;
+}
+
+.summaryItemContainer:nth-child(odd) .summaryItemPrice .price{
+    position: relative;
+}
+
+.summaryItemContainer:nth-child(odd) .summaryItemPrice .price::before{
+    content: 'A calcular';
+    position: absolute;
+    right: 0;
+    top: 1.6rem;
+    color: #FFFFFF;
+}
+
+.summaryItemContainer:nth-child(even) .summaryItemLabel{
+    font-weight: 800;
+    font-size: 17px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.summaryItemLabel::after{
+    content: ':';
+}
+
+.price{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.summaryItemContainer:nth-child(even){
+    margin: 1.4rem 0 0 0;
+}
+
+.summaryItemContainer:nth-child(odd){
+    margin: .5rem 0 2.35rem 0;
+}
+
+.summaryItemContainer:nth-child(even) .price{
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+@media only screen and (min-width: 1180px){
+    .summaryItemContainer:nth-child(odd) .summaryItemLabel::before{
+        top: 1.7rem;
+    }
+
+    .summaryItemContainer:nth-child(odd){
+        margin: .5rem 0 3rem 0;
+    }
+}

@@ -6,7 +6,7 @@
         ],
         "props": {
             "width": "20%",
-            "blockClass": "contenteItem"
+            "blockClass": ["contenteItem2", "contenteItem"]
         }
     },
 
@@ -35,7 +35,7 @@
 
     "rich-text#desk-menu-item-2-link-2": {
         "props": {
-            "text": "[Preguntas frecuentes COVID-19](#!)",
+            "text": "[COVID-19](#!)",
             "blockClass": "linkFooter"
         }
     },

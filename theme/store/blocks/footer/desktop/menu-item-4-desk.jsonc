@@ -5,7 +5,7 @@
             "flex-layout.col#desk-menu-item-4-contentlink"
         ],
         "props": {
-            "width": "20%",
+            "width": "18%",
             "blockClass": "contenteItemAyuda"
         }
     },
@@ -26,14 +26,14 @@
 
     "rich-text#desk-menu-item-4-link-1": {
         "props": {
-            "text": "[Iniciar sesión](#!)",
+            "text": "[Iniciar Sesión](#!)",
             "blockClass": "linkFooter"
         }
     },
 
     "rich-text#desk-menu-item-4-link-2": {
         "props": {
-            "text": "[Rastrea tu pedido](#!)",
+            "text": "[Rastrea Pedido](#!)",
             "blockClass": "linkFooter"
         }
     }

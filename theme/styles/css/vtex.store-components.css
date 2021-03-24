@@ -91,6 +91,8 @@
 :global(.vtex-store-drawer-0-x-openIconContainer--menu-drawer),
 :global(.vtex-minicart-2-x-minicartIconContainer),
 :global(.vtex-flex-layout-0-x-flexCol--icoBlacksip),
+:global(.vtex-rich-text-0-x-wrapper--icoBlacksip),
+:global(.vtex-rich-text-0-x-wrapper--icoVtex),
 :global(.vtex-flex-layout-0-x-flexCol--icoVtex),
 :global(.vtex-menu-2-x-accordionIcon--accordionLevel1--isClosed),
 :global(.vtex-menu-2-x-accordionIcon--accordionLevel1--isOpen),
@@ -103,7 +105,11 @@
 :global(.vtex-flex-layout-0-x-flexColChild--contentBack) :global(.vtex-store-drawer-0-x-closeIconButton),
 :global(.vtex-rich-text-0-x-wrapper--submenuIco),
 :global(.vtex-rich-text-0-x-wrapper--closeIco),
-:global(.vtex-product-list-0-x-removeButton)
+:global(.vtex-product-list-0-x-removeButton),
+:global(.vtex-flex-layout-0-x-flexColChild--contentNewsletter) :global(.vtex-button),
+:global(.vtex-rich-text-0-x-wrapper--icoFacebook) :global(.vtex-rich-text-0-x-link),
+:global(.vtex-rich-text-0-x-wrapper--icoInstagram) :global(.vtex-rich-text-0-x-link),
+:global(.vtex-rich-text-0-x-wrapper--icoWhatsapp) :global(.vtex-rich-text-0-x-link)
 {
     font-family: 'icomoon' !important;
     speak: never;
@@ -113,6 +119,22 @@
     text-transform: none;
     line-height: 1;
     -webkit-font-smoothing: antialiased;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--icoWhatsapp) :global(.vtex-rich-text-0-x-link)::before{
+    content: '\e923';
+}
+
+:global(.vtex-rich-text-0-x-wrapper--icoInstagram) :global(.vtex-rich-text-0-x-link)::before{
+    content: '\e90c';
+}
+
+:global(.vtex-rich-text-0-x-wrapper--icoFacebook) :global(.vtex-rich-text-0-x-link)::before{
+    content: '\e905';
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--contentNewsletter) :global(.vtex-button)::before{
+    content: '\e91a';
 }
 
 :global(.vtex-product-list-0-x-removeButton)::before{
@@ -126,7 +148,7 @@
 :global(.vtex-flex-layout-0-x-flexColChild--contentBack) :global(.vtex-store-drawer-0-x-closeIconButton)::before{
     content: '\e90d';
     color: #BF6E0B;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 
 :global(.vtex-rich-text-0-x-wrapper--submenuIco)::before{
@@ -171,11 +193,19 @@
     content: '\e904';
 }
 
+:global(.vtex-rich-text-0-x-wrapper--icoBlacksip)::before{
+    content: '\e90a';
+}
+
 :global(.vtex-flex-layout-0-x-flexCol--icoBlacksip)::before{
     content: '\e90a';
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+}
+
+:global(.vtex-rich-text-0-x-wrapper--icoVtex)::before{
+    content: '\e90b';
 }
 
 :global(.vtex-flex-layout-0-x-flexCol--icoVtex)::before{
@@ -261,10 +291,22 @@
 
 .imageElement--imgLogoFooter1{
     width: 100% !important;
+    margin-top: 7px;
 }
 
 .imageElement--imgLogoFooter2{
-    width: 70% !important;
+    width: 80% !important;
+    margin-left: 11px;
+}
+
+@media only screen and (min-width: 1180px){
+    .imageElement--imgLogoFooter1{
+        margin-right: 14px;
+    }
+    .imageElement--imgLogoFooter2{
+        margin-right: 28px;
+        width: 70% !important;
+    }
 }
 
 /* Vitrina */
@@ -275,6 +317,30 @@
 .skuSelectorTextContainer{
     display: none;
     margin-bottom: .3rem;
+    text-align: left;
+    font-weight: 800;
+    font-size: 9px;
+    line-height: 9px;
+    color: #260C11;
+}
+
+.skuSelectorSelectContainer{
+    width: 100%;
+}
+
+.skuSelectorSelectContainer :global(.vtex-dropdown__container){
+    height: 1.4rem;
+    border-radius: 0;
+    border-width: 0;
+    border: 0.5px solid #848484;
+}
+
+.skuSelectorSelectContainer :global(.vtex-dropdown__button){
+    padding: 0 .5rem;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 10px;
+    color: #848484;
 }
 
 .skuSelectorContainer{
@@ -296,13 +362,13 @@
 }
 
 .skuSelectorItem{
-    height: 25px;
-    width: 25px;
-    margin: 5px 5px;
+    height: 18px;
+    width: 18px;
+    margin: 4px 5px;
 }
 
 .skuSelectorSubcontainer--color{
-    margin: .5rem 0 .3rem 0;
+    margin: .1rem 0 .3rem 0;
 }
 
 .skuSelectorSubcontainer--talla{
@@ -338,7 +404,7 @@
 }
 
 .imageElementLink--contentBannerMenu{
-    margin: 1.5rem 0 1.3rem 0;
+    margin: 1.2rem 0 .9rem 0;
 }
 
 .suffixWrapper--contentSearch .closeIcon--contentSearch{

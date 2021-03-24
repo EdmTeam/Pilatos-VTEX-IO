@@ -137,3 +137,15 @@
     height: 10px !important;
     width: 10px !important;
 }
+
+:global(.vtex-flex-layout-0-x-flexRowContent--sliderContentShelf) .sliderArrows{
+    top: 25%;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--sliderContentShelf) .sliderRightArrow{
+    right: -1%;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--sliderContentShelf) .sliderLeftArrow{
+    left: -1%;
+}

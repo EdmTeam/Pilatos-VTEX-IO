@@ -30,8 +30,8 @@
     "flex-layout.col#desk-item-contact": {
         "children": [
             "flex-layout.col#desk-item-contact-1",
-            "flex-layout.col#desk-item-contact-2",
-            "flex-layout.col#desk-item-contact-3"
+            "flex-layout.col#desk-item-contact-2"
+            // "flex-layout.col#desk-item-contact-3"
         ],
         "props": {
             "blockClass": "contentContact",
@@ -74,7 +74,7 @@
         ],
         "props": {
             "width": "90%",
-            "blockClass": "contentRichtextFooter"
+            "blockClass": ["contentRichtextFooter", "mailItemsfooter"]
         }
     },
 
@@ -127,7 +127,7 @@
         ],
         "props": {
             "width": "90%",
-            "blockClass": "contentRichtextFooter"
+            "blockClass": ["contentRichtextFooter", "telItemsfooter"]
         }
     },
 
@@ -146,57 +146,57 @@
     },
 
     //WhatsApp Contacto
-    "flex-layout.col#desk-item-contact-3": {
-        "children": [
-            "flex-layout.row#desk-item-contact-row-3"
-        ],
-        "props": {
-            "width": "100%"
-        }
-    },
+    // "flex-layout.col#desk-item-contact-3": {
+    //     "children": [
+    //         "flex-layout.row#desk-item-contact-row-3"
+    //     ],
+    //     "props": {
+    //         "width": "100%"
+    //     }
+    // },
 
-    "flex-layout.row#desk-item-contact-row-3": {
-        "children": [
-            "flex-layout.col#desk-item-contact-col-3",
-            "flex-layout.col#desk-item-contact-info-col-3"
-        ],
-        "props": {
-            "blockClass": "rowContactFull"
-        }
-    },
+    // "flex-layout.row#desk-item-contact-row-3": {
+    //     "children": [
+    //         "flex-layout.col#desk-item-contact-col-3",
+    //         "flex-layout.col#desk-item-contact-info-col-3"
+    //     ],
+    //     "props": {
+    //         "blockClass": "rowContactFull"
+    //     }
+    // },
 
-    "flex-layout.col#desk-item-contact-col-3": {
-        "children": [
-            "rich-text#desk-menu-item-contact-ico-3"
-        ],
-        "props": {
-            "width": "10%"
-        }
-    },
+    // "flex-layout.col#desk-item-contact-col-3": {
+    //     "children": [
+    //         "rich-text#desk-menu-item-contact-ico-3"
+    //     ],
+    //     "props": {
+    //         "width": "10%"
+    //     }
+    // },
 
-    "flex-layout.col#desk-item-contact-info-col-3": {
-        "children": [
-            "rich-text#desk-menu-item-contact-infocontact-3"
-        ],
-        "props": {
-            "width": "90%",
-            "blockClass": "contentRichtextFooter"
-        }
-    },
+    // "flex-layout.col#desk-item-contact-info-col-3": {
+    //     "children": [
+    //         "rich-text#desk-menu-item-contact-infocontact-3"
+    //     ],
+    //     "props": {
+    //         "width": "90%",
+    //         "blockClass": "contentRichtextFooter"
+    //     }
+    // },
 
-    "rich-text#desk-menu-item-contact-ico-3": {
-        "props": {
-            "text": "",
-            "blockClass": "whatsappItemsfooter"
-        }
-    },
+    // "rich-text#desk-menu-item-contact-ico-3": {
+    //     "props": {
+    //         "text": "",
+    //         "blockClass": "whatsappItemsfooter"
+    //     }
+    // },
 
-    "rich-text#desk-menu-item-contact-infocontact-3": {
-        "props": {
-            "text": "300 234 6789",
-            "blockClass": "infocontactItemsfooter"
-        }
-    },
+    // "rich-text#desk-menu-item-contact-infocontact-3": {
+    //     "props": {
+    //         "text": "300 234 6789",
+    //         "blockClass": "infocontactItemsfooter"
+    //     }
+    // },
 
     //Store locator
     "flex-layout.row#desk-item-storelocator": {
@@ -238,7 +238,7 @@
 
     "rich-text#desk-menu-item-storelocator-infocontact": {
         "props": {
-            "text": "Localizador de tiendas",
+            "text": "Localizador de Tiendas",
             "blockClass": "storelocatorItemsfooter"
         }
     }

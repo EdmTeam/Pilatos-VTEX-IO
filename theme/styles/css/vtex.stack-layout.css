@@ -9,9 +9,15 @@
   bottom: 0;
   left: auto;
   top: auto;
-  padding: 8px;
-  border-radius: 50%;
+  padding: 5px;
+  border-radius: 100%;
   background: #ffffff;
-  margin: 10px;
+  margin: 0 3px 7px 0;
   z-index: 1 !important;
+}
+
+@media only screen and (min-width: 1180px){
+  .stackItem--imageShelf--addWishList{
+    margin: 0 20px 13px 0;
+  }
 }

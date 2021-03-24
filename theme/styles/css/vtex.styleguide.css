@@ -1,0 +1,22 @@
+.progressHeight{
+    overflow: visible;
+    height: 5px;
+}
+
+.progressHeight .progressHeight{
+    background: #DD0B3D;
+    position: relative;
+}
+
+.progressHeight .progressHeight::after{
+    content: '';
+    top: 50%;
+    right: -6px;
+    transform: translateY(-50%);
+    width: 13px;
+    height: 13px;
+    background: #DD0B3D;
+    position: absolute;
+    z-index: 5;
+    border-radius: 50%;
+}

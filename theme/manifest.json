@@ -15,7 +15,6 @@
   "dependencies": {
     "vtex.store": "2.x",
     "vtex.store-header": "2.x",
-    "vtex.product-summary": "2.x",
     "vtex.store-footer": "2.x",
     "vtex.store-components": "3.x",
     "vtex.styleguide": "9.x",
@@ -63,8 +62,11 @@
     "vtex.tab-layout": "0.x",
     "vtex.order-placed": "2.x",
     "vtex.product-specifications": "1.x",
-    "vtex.add-to-cart-button": "0.x",
-    "pilatos21.custom-sticky": "0.x"
+    "pilatos21.add-to-cart-button": "0.x",
+    "pilatos21.custom-sticky": "0.x",
+    "vtex.product-summary": "2.x",
+    "vtex.product-summary-context": "0.x",
+    "pilatos21.free-shipping": "0.x"
   },
   "peerDependencies": {
     "vtex.wish-list": "1.x"

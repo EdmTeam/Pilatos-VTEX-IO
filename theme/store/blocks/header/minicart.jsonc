@@ -2,7 +2,8 @@
   "minicart.v2#pilatos": {
     "props": {
       "MinicartIcon": "icon-cart#minicart-icon",
-      "variation": "popup"
+      "variation": "popup",
+      "blockClass": "contentMinicart"
     },
     "children": [
       "minicart-base-content"
@@ -18,6 +19,7 @@
       "minicart-empty-state"
     ],
     "children": [
+      "close-cart-popup",
       "minicart-product-list",
       "flex-layout.row#minicart-footer"
     ]
@@ -25,15 +27,68 @@
   "flex-layout.row#minicart-footer": {
     "children": [
       "flex-layout.col#minicart-footer"
+    ],
+    "props":{
+      "blockClass": "contentFooterCart",
+      "preserveLayoutOnMobile":true
+    }
+  },
+
+  "close-cart-popup":{
+    "children":[
+      "rich-text#submenu-close-icono"    
     ]
   },
+
+  // "rich-text#submenu-close-icono":{
+  //   "props":{
+  //       "text": "",
+  //       "blockClass": "closeIco"
+  //   }
+  // },
 
   "flex-layout.col#minicart-footer": {
     "children": [
       "minicart-summary",
+      "free-shipping",
+      "rich-text#keep-buying",
       "minicart-checkout-button"
     ]
   },
+
+  "rich-text#keep-buying":{
+    "props":{
+      "text": "[SEGUIR COMPRANDO](/)",
+      "blockClass": "keepBuying"
+    }
+  },
+
+  "free-shipping":{
+    "props": {
+      "valueOfFreeShipping": 300000,
+      "infoLabel": {
+        "labelInitial": "",
+        "labelBetween": "¡Faltan ",
+        "labelFinal": " para que tu envío sea ",
+        "labelFreeShippingComplete": "Test complete",
+        "labelAdditional": "totalmente gratis!"
+      },
+      "show": {
+        "freeShippingComponent": true,
+        "informativeFreeShippingText": true,
+        "percentageFreeShipping":true,
+        "rangeFreeShipping": true,
+        "labelInitial": false,
+        "subTotal": false,
+        "labelBetween": true,
+        "missingForFreeShipping": true,
+        "labelFinal": true,
+        "labelFreeShippingComplete": true,
+        "labelAdditional": true
+      }
+    }
+  },
+
   "minicart-product-list": {
     "blocks": [
       "product-list#minicart"
@@ -47,7 +102,7 @@
 
   "product-list-content-mobile":{
     "children":[
-      "flex-layout.row#product-list"    
+      "flex-layout.row#product-list"
     ]
   },
 
@@ -57,7 +112,8 @@
       "flex-layout.col#product-list-shelf"
     ],
     "props":{
-      "blockClass": "contentShelfCart"
+      "blockClass": "contentShelfCart",
+      "preserveLayoutOnMobile":true
     }
   },
 
@@ -75,7 +131,10 @@
       "flex-layout.col#product-list-image",
       "flex-layout.col#product-list-info-product",
       "flex-layout.col#product-list-quantity-selector"
-    ]
+    ],
+    "props":{
+      "preserveLayoutOnMobile":true
+    }
   },
 
   "flex-layout.col#product-list-image":{
@@ -92,7 +151,10 @@
     "children":[
       "flex-layout.col#product-list-remove-col-1",
       "flex-layout.col#product-list-image-col-2"
-    ]
+    ],
+    "props":{
+      "preserveLayoutOnMobile":true
+    }
   },
 
   "flex-layout.col#product-list-remove-col-1":{

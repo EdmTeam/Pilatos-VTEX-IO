@@ -8,6 +8,7 @@
     },
     "flex-layout.row#content-footer-mobile": {
         "children": [
+            "flex-layout.col#news-letter",
             "flex-layout.col#menu-item",
             "flex-layout.col#content-footer-mobile",
             "flex-layout.row#logos-mobile"
@@ -17,6 +18,125 @@
             "preserveLayoutOnMobile": false
         }
     },
+
+    "flex-layout.col#news-letter":{
+        "children":[
+            "flex-layout.col#news-letter-row-1"
+        ],
+        "props":{
+            "blockClass": "contentNewsletter"
+        }
+    },
+
+    "flex-layout.col#news-letter-row-1":{
+        "children":[
+            "rich-text#formTitle",
+            "rich-text#form-description",
+            "form#news-letter",
+            "flex-layout.row#content-social-media"
+        ]
+    },
+
+    "rich-text#formTitle":{
+        "props":{
+            "text": "SUSCRÍBETE",
+            "blockClass": "titleNewsletter"
+        }
+    },
+
+    "rich-text#form-description":{
+        "props":{
+            "text": "y recibe **15% dto.** en tu primera compra",
+            "blockClass": "desNewsletter"
+        }
+    },
+
+    "form#news-letter": {
+        "props": {
+          "entity": "NL",
+          "schema": "newsletter"
+        },
+    "children": [
+        "flex-layout.col#news-letter-input",
+        "form-input.checkbox#check"
+        ],
+    "blocks": ["form-success#newsletter"]
+    },
+
+    "flex-layout.col#news-letter-input":{
+        "children":[
+            "form-input.text#email",
+            "form-submit#submit"
+        ],
+        "props":{
+            "blockClass": "contentInput"
+        }
+    },    
+
+    "form-success#newsletter": {
+        "children": [
+            "rich-text#successSubmit-newsletter"
+        ]
+      },
+    "rich-text#successSubmit-newsletter": {
+        "props": {
+          "text": "Registro Completo",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER"
+        }
+    },
+
+    "form-input.text#email": {
+        "props": {
+          "pointer": "#/properties/email",
+          "placeholder": "Ingresa tu email"
+        }
+    },
+
+    "form-submit#submit": {
+        "props": {
+          "label": "Submit"
+        }
+    },
+
+    "form-input.checkbox#check": {
+        "props": {
+          "pointer": "#/properties/check",
+          "label": "Acepto políticas de datos y términos y condiciones"
+        }
+    },
+
+    "flex-layout.row#content-social-media":{
+        "children":[
+            "rich-text#facebook",
+            "rich-text#instagram"
+            // "rich-text#whatsapp"
+        ],
+        "props":{
+            "blockClass":"contentSocialMedia"
+        }
+    },
+
+    "rich-text#facebook":{
+        "props":{
+            "text": "[](/)",
+            "blockClass": "icoFacebook"
+        }
+    },
+
+    "rich-text#instagram":{
+        "props":{
+            "text": "[](/)",
+            "blockClass": "icoInstagram"
+        }
+    },
+
+    // "rich-text#whatsapp":{
+    //     "props":{
+    //         "text": "[](/)",
+    //         "blockClass": "icoWhatsapp"
+    //     }
+    // },
 
     "flex-layout.col#content-footer-mobile": {
         "children": [
@@ -92,7 +212,7 @@
             "rich-text#legal-2-col-1"
         ],
         "props":{
-            "width": "42%"
+            "width": "40%"
         }
     },
 
