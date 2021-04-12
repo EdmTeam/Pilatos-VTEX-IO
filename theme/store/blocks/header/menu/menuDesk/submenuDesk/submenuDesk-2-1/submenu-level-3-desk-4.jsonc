@@ -1,44 +1,44 @@
 {
-    "flex-layout.col#submenu-desk-departament-1-category-4":{
+    "flex-layout.col#submenu-desk-department-1-category-4":{
         "children":[
-            "flex-layout.col#submenu-desk-departament-1-category-4-row-1"
+            "flex-layout.col#submenu-desk-department-1-category-4-row-1"
         ]
     },
 
-    "flex-layout.col#submenu-desk-departament-1-category-4-row-1":{
+    "flex-layout.col#submenu-desk-department-1-category-4-row-1":{
         "children":[
-            "rich-text#submenu-desk-departament-1-category-4",
-            "rich-text#submenu-desk-departament-1-category-4-subcategory-1",
-            "rich-text#submenu-desk-departament-1-category-4-subcategory-2",
-            "rich-text#submenu-desk-departament-1-category-4-subcategory-3"
+            "rich-text#submenu-desk-department-1-category-4",
+            "rich-text#submenu-desk-department-1-category-4-subcategory-1",
+            "rich-text#submenu-desk-department-1-category-4-subcategory-2",
+            "rich-text#submenu-desk-department-1-category-4-subcategory-3"
         ],
         "props":{
             "blockClass": "contentBlockSubmenu"
         }
     },
 
-    "rich-text#submenu-desk-departament-1-category-4":{
+    "rich-text#submenu-desk-department-1-category-4":{
         "props":{
             "text": "[ZAPATOS](/hombre/zapatos)",
             "blockClass": "textCategory"
         }
     },
 
-    "rich-text#submenu-desk-departament-1-category-4-subcategory-1":{
+    "rich-text#submenu-desk-department-1-category-4-subcategory-1":{
         "props":{
             "text": "[Zapatos](/hombre/zapatos/zapatos)",
             "blockClass": "textSubcategory"
         }
     },
 
-    "rich-text#submenu-desk-departament-1-category-4-subcategory-2":{
+    "rich-text#submenu-desk-department-1-category-4-subcategory-2":{
         "props":{
             "text": "[Sandalias](/hombre/zapatos/sandalias)",
             "blockClass": "textSubcategory"
         }
     },
 
-    "rich-text#submenu-desk-departament-1-category-4-subcategory-3":{
+    "rich-text#submenu-desk-department-1-category-4-subcategory-3":{
         "props":{
             "text": "[Tenis](/hombre/zapatos/tenis)",
             "blockClass": "textSubcategory"

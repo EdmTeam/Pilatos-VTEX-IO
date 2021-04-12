@@ -42,7 +42,7 @@
   },
   "shelf.relatedProducts": {
     "blocks": [
-      "product-summary.shelf"
+      "vtex.product-summary:product-summary.shelf"
     ],
     "props": {
       "recommendation": "view",

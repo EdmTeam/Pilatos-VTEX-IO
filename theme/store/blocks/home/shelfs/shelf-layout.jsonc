@@ -11,7 +11,7 @@
     "flex-layout.col#most-viewed": {
         "children": [
             "rich-text#title-most-viewed",
-            "list-context.product-list#most-viewed"        
+            "vtex.product-summary:list-context.product-list#most-viewed"        
         ]
     },
 
@@ -22,9 +22,9 @@
         }
     },
 
-    "list-context.product-list#most-viewed": {
+    "vtex.product-summary:list-context.product-list#most-viewed": {
         "blocks": [
-            "product-summary.shelf#most-viewed"
+            "vtex.product-summary:product-summary.shelf#most-viewed"
         ],
         "children": [
             "slider-layout#home-shelf-most-viewed"

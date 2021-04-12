@@ -37,14 +37,14 @@
 
     "rich-text#submenu-level-3-text-1-row-3-row-3": {
         "props": {
-            "text": "[Niña](/niños/ropa-de-playa/niña)",
+            "text": "[Niña](/ninos/ropa-de-playa/niña)",
             "blockClass": "textSubmenuAcordeon"
         }
     },
 
     "rich-text#submenu-level-3-text-2-row-3-row-3": {
         "props": {
-            "text": "[niño](/niños/ropa-de-playa/niño)",
+            "text": "[niño](/ninos/ropa-de-playa/niño)",
             "blockClass": "textSubmenuAcordeon"
         }
     }

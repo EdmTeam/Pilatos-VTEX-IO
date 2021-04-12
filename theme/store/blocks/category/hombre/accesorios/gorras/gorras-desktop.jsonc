@@ -1,0 +1,115 @@
+{
+    "store.custom#category-gorras-hombre":{
+        "blocks":[
+            "flex-layout.row#banner-category-gorras-hombre",
+            "search-result-layout.customQuery#category-gorras-hombre"
+        ]
+    },
+
+    "flex-layout.row#banner-category-gorras-hombre":{
+        "children":[
+            "flex-layout.col#banner-category-gorras-hombre"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#banner-category-gorras-hombre":{
+        "children":[
+            "rich-text#category-gorras-hombre-bread-crumb",
+            "rich-text#category-gorras-hombre-title",
+            "rich-text#category-gorras-hombre-description",
+            "responsive-layout.desktop#category-gorras-hombre-banners",
+            "responsive-layout.mobile#category-gorras-hombre-banners"
+        ]
+    },
+
+    "responsive-layout.desktop#category-gorras-hombre-banners":{
+        "children":[
+            "flex-layout.row#category-gorras-hombre-banners-1"
+        ]
+    },
+
+    "rich-text#category-gorras-hombre-bread-crumb":{
+        "props":{
+            "text": "[Home](/) / [**Hombre**](/hombre) / [**Accesorios**](/hombre/accesorios) / [**Gorras**](/hombre/accesorios/gorras)",
+            "blockClass": "departmentBreadCrumb"
+        }
+    },
+
+    "rich-text#category-gorras-hombre-title":{
+        "props":{
+            "text": "Gorras para hombre",
+            "blockClass": "departmentTitle"
+        }
+    },
+
+    "rich-text#category-gorras-hombre-description":{
+        "props":{
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "blockClass": "departmentDescription"
+        }
+    },
+
+    "search-result-layout.customQuery#category-gorras-hombre": {
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile#category-gorras-hombre"
+        ],
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceASC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 12,
+                "queryField": "hombre/accesorios/gorras",
+                "skusFilter": "ALL",
+                "mapField": "category-1"
+            }
+        }
+    },
+
+    "flex-layout.row#category-gorras-hombre-banners-1":{
+        "children":[
+            "image#category-gorras-hombre-banners-1-img-1",
+            "image#category-gorras-hombre-banners-1-img-2",
+            "image#category-gorras-hombre-banners-1-img-3"
+        ],
+        "props":{
+            "blockClass":"contentCategoryBannersDesk"
+        }
+    },
+
+    "image#category-gorras-hombre-banners-1-img-1": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-3.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+    "image#category-gorras-hombre-banners-1-img-2": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-2.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-2"
+        }
+    },
+
+    "image#category-gorras-hombre-banners-1-img-3": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-1.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-3"
+        }
+    }
+}

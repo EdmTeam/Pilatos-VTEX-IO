@@ -1,0 +1,115 @@
+{
+    "store.custom#category-tapabocas-hombre":{
+        "blocks":[
+            "flex-layout.row#banner-category-tapabocas-hombre",
+            "search-result-layout.customQuery#category-tapabocas-hombre"
+        ]
+    },
+
+    "flex-layout.row#banner-category-tapabocas-hombre":{
+        "children":[
+            "flex-layout.col#banner-category-tapabocas-hombre"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#banner-category-tapabocas-hombre":{
+        "children":[
+            "rich-text#category-tapabocas-hombre-bread-crumb",
+            "rich-text#category-tapabocas-hombre-title",
+            "rich-text#category-tapabocas-hombre-description",
+            "responsive-layout.desktop#category-tapabocas-hombre-banners",
+            "responsive-layout.mobile#category-tapabocas-hombre-banners"
+        ]
+    },
+
+    "responsive-layout.desktop#category-tapabocas-hombre-banners":{
+        "children":[
+            "flex-layout.row#category-tapabocas-hombre-banners-1"
+        ]
+    },
+
+    "rich-text#category-tapabocas-hombre-bread-crumb":{
+        "props":{
+            "text": "[Home](/) / [**Hombre**](/hombre) / [**Accesorios**](/hombre/accesorios) / [**Tapabocas**](/hombre/accesorios/tapabocas)",
+            "blockClass": "departmentBreadCrumb"
+        }
+    },
+
+    "rich-text#category-tapabocas-hombre-title":{
+        "props":{
+            "text": "Tapabocas para hombre",
+            "blockClass": "departmentTitle"
+        }
+    },
+
+    "rich-text#category-tapabocas-hombre-description":{
+        "props":{
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "blockClass": "departmentDescription"
+        }
+    },
+
+    "search-result-layout.customQuery#category-tapabocas-hombre": {
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile#category-tapabocas-hombre"
+        ],
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceASC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 12,
+                "queryField": "hombre/accesorios/tapabocas",
+                "skusFilter": "ALL",
+                "mapField": "category-1"
+            }
+        }
+    },
+
+    "flex-layout.row#category-tapabocas-hombre-banners-1":{
+        "children":[
+            "image#category-tapabocas-hombre-banners-1-img-1",
+            "image#category-tapabocas-hombre-banners-1-img-2",
+            "image#category-tapabocas-hombre-banners-1-img-3"
+        ],
+        "props":{
+            "blockClass":"contentCategoryBannersDesk"
+        }
+    },
+
+    "image#category-tapabocas-hombre-banners-1-img-1": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-3.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+    "image#category-tapabocas-hombre-banners-1-img-2": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-2.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-2"
+        }
+    },
+
+    "image#category-tapabocas-hombre-banners-1-img-3": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-1.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-3"
+        }
+    }
+}

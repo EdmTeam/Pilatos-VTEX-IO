@@ -1,0 +1,115 @@
+{
+    "store.custom#category-ropa-de-playa-hombre":{
+        "blocks":[
+            "flex-layout.row#banner-category-ropa-de-playa-hombre",
+            "search-result-layout.customQuery#category-ropa-de-playa-hombre"
+        ]
+    },
+
+    "flex-layout.row#banner-category-ropa-de-playa-hombre":{
+        "children":[
+            "flex-layout.col#banner-category-ropa-de-playa-hombre"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#banner-category-ropa-de-playa-hombre":{
+        "children":[
+            "rich-text#category-ropa-de-playa-hombre-bread-crumb",
+            "rich-text#category-ropa-de-playa-hombre-title",
+            "rich-text#category-ropa-de-playa-hombre-description",
+            "responsive-layout.desktop#category-ropa-de-playa-hombre-banners",
+            "responsive-layout.mobile#category-ropa-de-playa-hombre-banners"
+        ]
+    },
+
+    "responsive-layout.desktop#category-ropa-de-playa-hombre-banners":{
+        "children":[
+            "flex-layout.row#category-ropa-de-playa-hombre-banners-1"
+        ]
+    },
+
+    "rich-text#category-ropa-de-playa-hombre-bread-crumb":{
+        "props":{
+            "text": "[Home](/) / [**Hombre**](/hombre) / [**Ropa de Playa**](/hombre/ropa-de-playa)",
+            "blockClass": "departmentBreadCrumb"
+        }
+    },
+
+    "rich-text#category-ropa-de-playa-hombre-title":{
+        "props":{
+            "text": "Ropa de playa para hombre",
+            "blockClass": "departmentTitle"
+        }
+    },
+
+    "rich-text#category-ropa-de-playa-hombre-description":{
+        "props":{
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "blockClass": "departmentDescription"
+        }
+    },
+
+    "search-result-layout.customQuery#category-ropa-de-playa-hombre": {
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile#category-ropa-de-playa-hombre"
+        ],
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceASC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 12,
+                "queryField": "hombre/ropa-de-playa",
+                "skusFilter": "ALL",
+                "mapField": "category-1"
+            }
+        }
+    },
+
+    "flex-layout.row#category-ropa-de-playa-hombre-banners-1":{
+        "children":[
+            "image#category-ropa-de-playa-hombre-banners-1-img-1",
+            "image#category-ropa-de-playa-hombre-banners-1-img-2",
+            "image#category-ropa-de-playa-hombre-banners-1-img-3"
+        ],
+        "props":{
+            "blockClass":"contentCategoryBannersDesk"
+        }
+    },
+
+    "image#category-ropa-de-playa-hombre-banners-1-img-1": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-3.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+    "image#category-ropa-de-playa-hombre-banners-1-img-2": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-2.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-2"
+        }
+    },
+
+    "image#category-ropa-de-playa-hombre-banners-1-img-3": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-1.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-3"
+        }
+    }
+}

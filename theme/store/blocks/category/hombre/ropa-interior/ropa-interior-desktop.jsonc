@@ -1,0 +1,115 @@
+{
+    "store.custom#category-ropa-interior-hombre":{
+        "blocks":[
+            "flex-layout.row#banner-category-ropa-interior-hombre",
+            "search-result-layout.customQuery#category-ropa-interior-hombre"
+        ]
+    },
+
+    "flex-layout.row#banner-category-ropa-interior-hombre":{
+        "children":[
+            "flex-layout.col#banner-category-ropa-interior-hombre"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#banner-category-ropa-interior-hombre":{
+        "children":[
+            "rich-text#category-ropa-interior-hombre-bread-crumb",
+            "rich-text#category-ropa-interior-hombre-title",
+            "rich-text#category-ropa-interior-hombre-description",
+            "responsive-layout.desktop#category-ropa-interior-hombre-banners",
+            "responsive-layout.mobile#category-ropa-interior-hombre-banners"
+        ]
+    },
+
+    "responsive-layout.desktop#category-ropa-interior-hombre-banners":{
+        "children":[
+            "flex-layout.row#category-ropa-interior-hombre-banners-1"
+        ]
+    },
+
+    "rich-text#category-ropa-interior-hombre-bread-crumb":{
+        "props":{
+            "text": "[Home](/) / [**Hombre**](/hombre) / [**Ropa Interior**](/hombre/ropa-interior)",
+            "blockClass": "departmentBreadCrumb"
+        }
+    },
+
+    "rich-text#category-ropa-interior-hombre-title":{
+        "props":{
+            "text": "Ropa interior para hombre",
+            "blockClass": "departmentTitle"
+        }
+    },
+
+    "rich-text#category-ropa-interior-hombre-description":{
+        "props":{
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "blockClass": "departmentDescription"
+        }
+    },
+
+    "search-result-layout.customQuery#category-ropa-interior-hombre": {
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile#category-ropa-interior-hombre"
+        ],
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceASC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 12,
+                "queryField": "hombre/ropa-interior",
+                "skusFilter": "ALL",
+                "mapField": "category-1"
+            }
+        }
+    },
+
+    "flex-layout.row#category-ropa-interior-hombre-banners-1":{
+        "children":[
+            "image#category-ropa-interior-hombre-banners-1-img-1",
+            "image#category-ropa-interior-hombre-banners-1-img-2",
+            "image#category-ropa-interior-hombre-banners-1-img-3"
+        ],
+        "props":{
+            "blockClass":"contentCategoryBannersDesk"
+        }
+    },
+
+    "image#category-ropa-interior-hombre-banners-1-img-1": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-3.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+    "image#category-ropa-interior-hombre-banners-1-img-2": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-2.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-2"
+        }
+    },
+
+    "image#category-ropa-interior-hombre-banners-1-img-3": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-1.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-3"
+        }
+    }
+}

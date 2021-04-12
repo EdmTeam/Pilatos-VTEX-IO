@@ -1,0 +1,115 @@
+{
+    "store.custom#category-sandalias-baño-niños":{
+        "blocks":[
+            "flex-layout.row#banner-category-sandalias-baño-niños",
+            "search-result-layout.customQuery#category-sandalias-baño-niños"
+        ]
+    },
+
+    "flex-layout.row#banner-category-sandalias-baño-niños":{
+        "children":[
+            "flex-layout.col#banner-category-sandalias-baño-niños"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#banner-category-sandalias-baño-niños":{
+        "children":[
+            "rich-text#category-sandalias-baño-niños-bread-crumb",
+            "rich-text#category-sandalias-baño-niños-title",
+            "rich-text#category-sandalias-baño-niños-description",
+            "responsive-layout.desktop#category-sandalias-baño-niños-banners",
+            "responsive-layout.mobile#category-sandalias-baño-niños-banners"
+        ]
+    },
+
+    "responsive-layout.desktop#category-sandalias-baño-niños-banners":{
+        "children":[
+            "flex-layout.row#category-sandalias-baño-niños-banners-1"
+        ]
+    },
+
+    "rich-text#category-sandalias-baño-niños-bread-crumb":{
+        "props":{
+            "text": "[Home](/) / [**Niños**](/niños) / [**Ropa de Playa**](/niños/ropa-de-playa) / [**Sandalias de Baño**](/niños/ropa-de-playa/sandalias-de-baño)",
+            "blockClass": "departmentBreadCrumb"
+        }
+    },
+
+    "rich-text#category-sandalias-baño-niños-title":{
+        "props":{
+            "text": "sandalias-baño para niños",
+            "blockClass": "departmentTitle"
+        }
+    },
+
+    "rich-text#category-sandalias-baño-niños-description":{
+        "props":{
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "blockClass": "departmentDescription"
+        }
+    },
+
+    "search-result-layout.customQuery#category-sandalias-baño-niños": {
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile#category-sandalias-baño-niños"
+        ],
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceASC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 12,
+                "queryField": "niños/ropa-de-playa/sandalias-de-baño",
+                "skusFilter": "ALL",
+                "mapField": "category-1"
+            }
+        }
+    },
+
+    "flex-layout.row#category-sandalias-baño-niños-banners-1":{
+        "children":[
+            "image#category-sandalias-baño-niños-banners-1-img-1",
+            "image#category-sandalias-baño-niños-banners-1-img-2",
+            "image#category-sandalias-baño-niños-banners-1-img-3"
+        ],
+        "props":{
+            "blockClass":"contentCategoryBannersDesk"
+        }
+    },
+
+    "image#category-sandalias-baño-niños-banners-1-img-1": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-3.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+    "image#category-sandalias-baño-niños-banners-1-img-2": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-2.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-2"
+        }
+    },
+
+    "image#category-sandalias-baño-niños-banners-1-img-3": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-1.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-3"
+        }
+    }
+}

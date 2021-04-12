@@ -1,0 +1,115 @@
+{
+    "store.custom#category-medias-mujer":{
+        "blocks":[
+            "flex-layout.row#banner-category-medias-mujer",
+            "search-result-layout.customQuery#category-medias-mujer"
+        ]
+    },
+
+    "flex-layout.row#banner-category-medias-mujer":{
+        "children":[
+            "flex-layout.col#banner-category-medias-mujer"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#banner-category-medias-mujer":{
+        "children":[
+            "rich-text#category-medias-mujer-bread-crumb",
+            "rich-text#category-medias-mujer-title",
+            "rich-text#category-medias-mujer-description",
+            "responsive-layout.desktop#category-medias-mujer-banners",
+            "responsive-layout.mobile#category-medias-mujer-banners"
+        ]
+    },
+
+    "responsive-layout.desktop#category-medias-mujer-banners":{
+        "children":[
+            "flex-layout.row#category-medias-mujer-banners-1"
+        ]
+    },
+
+    "rich-text#category-medias-mujer-bread-crumb":{
+        "props":{
+            "text": "[Home](/) / [**Mujer**](/mujer) / [**Ropa Interior**](/mujer/ropa-interior) / [**Medias**](/mujer/ropa-interior/medias)",
+            "blockClass": "departmentBreadCrumb"
+        }
+    },
+
+    "rich-text#category-medias-mujer-title":{
+        "props":{
+            "text": "Medias para mujer",
+            "blockClass": "departmentTitle"
+        }
+    },
+
+    "rich-text#category-medias-mujer-description":{
+        "props":{
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "blockClass": "departmentDescription"
+        }
+    },
+
+    "search-result-layout.customQuery#category-medias-mujer": {
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile#category-medias-mujer"
+        ],
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceASC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 12,
+                "queryField": "mujer/ropa-interior/medias",
+                "skusFilter": "ALL",
+                "mapField": "category-1"
+            }
+        }
+    },
+
+    "flex-layout.row#category-medias-mujer-banners-1":{
+        "children":[
+            "image#category-medias-mujer-banners-1-img-1",
+            "image#category-medias-mujer-banners-1-img-2",
+            "image#category-medias-mujer-banners-1-img-3"
+        ],
+        "props":{
+            "blockClass":"contentCategoryBannersDesk"
+        }
+    },
+
+    "image#category-medias-mujer-banners-1-img-1": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-3.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+    "image#category-medias-mujer-banners-1-img-2": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-2.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-2"
+        }
+    },
+
+    "image#category-medias-mujer-banners-1-img-3": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-1.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-3"
+        }
+    }
+}

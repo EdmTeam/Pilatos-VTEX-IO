@@ -1,0 +1,115 @@
+{
+    "store.custom#category-billetera-mujer":{
+        "blocks":[
+            "flex-layout.row#banner-category-billetera-mujer",
+            "search-result-layout.customQuery#category-billetera-mujer"
+        ]
+    },
+
+    "flex-layout.row#banner-category-billetera-mujer":{
+        "children":[
+            "flex-layout.col#banner-category-billetera-mujer"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#banner-category-billetera-mujer":{
+        "children":[
+            "rich-text#category-billetera-mujer-bread-crumb",
+            "rich-text#category-billetera-mujer-title",
+            "rich-text#category-billetera-mujer-description",
+            "responsive-layout.desktop#category-billetera-mujer-banners",
+            "responsive-layout.mobile#category-billetera-mujer-banners"
+        ]
+    },
+
+    "responsive-layout.desktop#category-billetera-mujer-banners":{
+        "children":[
+            "flex-layout.row#category-billetera-mujer-banners-1"
+        ]
+    },
+
+    "rich-text#category-billetera-mujer-bread-crumb":{
+        "props":{
+            "text": "[Home](/) / [**Mujer**](/mujer) / [**Accesorios**](/mujer/accesorios) / [**Billetera**](/mujer/accesorios/billeteras)",
+            "blockClass": "departmentBreadCrumb"
+        }
+    },
+
+    "rich-text#category-billetera-mujer-title":{
+        "props":{
+            "text": "Billetera para mujer",
+            "blockClass": "departmentTitle"
+        }
+    },
+
+    "rich-text#category-billetera-mujer-description":{
+        "props":{
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "blockClass": "departmentDescription"
+        }
+    },
+
+    "search-result-layout.customQuery#category-billetera-mujer": {
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile#category-billetera-mujer"
+        ],
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceASC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 12,
+                "queryField": "mujer/accesorios/billetera",
+                "skusFilter": "ALL",
+                "mapField": "category-1"
+            }
+        }
+    },
+
+    "flex-layout.row#category-billetera-mujer-banners-1":{
+        "children":[
+            "image#category-billetera-mujer-banners-1-img-1",
+            "image#category-billetera-mujer-banners-1-img-2",
+            "image#category-billetera-mujer-banners-1-img-3"
+        ],
+        "props":{
+            "blockClass":"contentCategoryBannersDesk"
+        }
+    },
+
+    "image#category-billetera-mujer-banners-1-img-1": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-3.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+    "image#category-billetera-mujer-banners-1-img-2": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-2.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-2"
+        }
+    },
+
+    "image#category-billetera-mujer-banners-1-img-3": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-1.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-3"
+        }
+    }
+}

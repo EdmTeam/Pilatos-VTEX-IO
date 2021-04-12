@@ -1,0 +1,115 @@
+{
+    "store.custom#category-pantalonetas-hombre":{
+        "blocks":[
+            "flex-layout.row#banner-category-pantalonetas-hombre",
+            "search-result-layout.customQuery#category-pantalonetas-hombre"
+        ]
+    },
+
+    "flex-layout.row#banner-category-pantalonetas-hombre":{
+        "children":[
+            "flex-layout.col#banner-category-pantalonetas-hombre"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#banner-category-pantalonetas-hombre":{
+        "children":[
+            "rich-text#category-pantalonetas-hombre-bread-crumb",
+            "rich-text#category-pantalonetas-hombre-title",
+            "rich-text#category-pantalonetas-hombre-description",
+            "responsive-layout.desktop#category-pantalonetas-hombre-banners",
+            "responsive-layout.mobile#category-pantalonetas-hombre-banners"
+        ]
+    },
+
+    "responsive-layout.desktop#category-pantalonetas-hombre-banners":{
+        "children":[
+            "flex-layout.row#category-pantalonetas-hombre-banners-1"
+        ]
+    },
+
+    "rich-text#category-pantalonetas-hombre-bread-crumb":{
+        "props":{
+            "text": "[Home](/) / [**Hombre**](/hombre) / [**Ropa de Playa**](/hombre/ropa-de-playa) / [**Pantalonetas**](/hombre/ropa-de-playa/pantalonetas)",
+            "blockClass": "departmentBreadCrumb"
+        }
+    },
+
+    "rich-text#category-pantalonetas-hombre-title":{
+        "props":{
+            "text": "Pantalonetas para hombre",
+            "blockClass": "departmentTitle"
+        }
+    },
+
+    "rich-text#category-pantalonetas-hombre-description":{
+        "props":{
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "blockClass": "departmentDescription"
+        }
+    },
+
+    "search-result-layout.customQuery#category-pantalonetas-hombre": {
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile#category-pantalonetas-hombre"
+        ],
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceASC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 12,
+                "queryField": "hombre/ropa-de-playa/pantalonetas",
+                "skusFilter": "ALL",
+                "mapField": "category-1"
+            }
+        }
+    },
+
+    "flex-layout.row#category-pantalonetas-hombre-banners-1":{
+        "children":[
+            "image#category-pantalonetas-hombre-banners-1-img-1",
+            "image#category-pantalonetas-hombre-banners-1-img-2",
+            "image#category-pantalonetas-hombre-banners-1-img-3"
+        ],
+        "props":{
+            "blockClass":"contentCategoryBannersDesk"
+        }
+    },
+
+    "image#category-pantalonetas-hombre-banners-1-img-1": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-3.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+    "image#category-pantalonetas-hombre-banners-1-img-2": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-2.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-2"
+        }
+    },
+
+    "image#category-pantalonetas-hombre-banners-1-img-3": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-1.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-3"
+        }
+    }
+}

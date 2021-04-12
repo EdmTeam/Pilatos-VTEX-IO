@@ -43,70 +43,70 @@
 
     "rich-text#submenu-level-3-text-1-row-1-row-3": {
         "props": {
-            "text": "[Camisetas](/niños/ropa/camisetas)",
+            "text": "[Camisetas](/ninos/ropa/camisetas)",
             "blockClass": "textSubmenuAcordeon"
         }
     },
 
     "rich-text#submenu-level-3-text-2-row-1-row-3": {
         "props": {
-            "text": "[Camisas](/niños/ropa/camisas)",
+            "text": "[Camisas](/ninos/ropa/camisas)",
             "blockClass": "textSubmenuAcordeon"
         }
     },
 
     "rich-text#submenu-level-3-text-3-row-1-row-3": {
         "props": {
-            "text": "[Polos](/niños/ropa/polos)",
+            "text": "[Polos](/ninos/ropa/polos)",
             "blockClass": "textSubmenuAcordeon"
         }
     },
 
     "rich-text#submenu-level-3-text-4-row-1-row-3": {
         "props": {
-            "text": "[Buzos](/niños/ropa/buzos)",
+            "text": "[Buzos](/ninos/ropa/buzos)",
             "blockClass": "textSubmenuAcordeon"
         }
     },
 
     "rich-text#submenu-level-3-text-5-row-1-row-3": {
         "props": {
-            "text": "[Chaquetas](/niños/ropa/chaquetas)",
+            "text": "[Chaquetas](/ninos/ropa/chaquetas)",
             "blockClass": "textSubmenuAcordeon"
         }
     },
 
     "rich-text#submenu-level-3-text-6-row-1-row-3": {
         "props": {
-            "text": "[Pantalones](/niños/ropa/pantalones)",
+            "text": "[Pantalones](/ninos/ropa/pantalones)",
             "blockClass": "textSubmenuAcordeon"
         }
     },
 
     "rich-text#submenu-level-3-text-7-row-1-row-3": {
         "props": {
-            "text": "[Bermudas](/niños/ropa/bermudas)",
+            "text": "[Bermudas](/ninos/ropa/bermudas)",
             "blockClass": "textSubmenuAcordeon"
         }
     },
 
     "rich-text#submenu-level-3-text-8-row-1-row-3": {
         "props": {
-            "text": "[Sudaderas](/niños/ropa/sudaderas)",
+            "text": "[Sudaderas](/ninos/ropa/sudaderas)",
             "blockClass": "textSubmenuAcordeon"
         }
     },
 
     "rich-text#submenu-level-3-text-9-row-1-row-3": {
         "props": {
-            "text": "[Vestidos](/niños/ropa/vestidos)",
+            "text": "[Vestidos](/ninos/ropa/vestidos)",
             "blockClass": "textSubmenuAcordeon"
         }
     },
 
     "rich-text#submenu-level-3-text-10-row-1-row-3": {
         "props": {
-            "text": "[Shorts](/niños/ropa/shorts)",
+            "text": "[Shorts](/ninos/ropa/shorts)",
             "blockClass": "textSubmenuAcordeon"
         }
     }

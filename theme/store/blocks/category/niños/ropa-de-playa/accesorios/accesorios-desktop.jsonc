@@ -1,0 +1,115 @@
+{
+    "store.custom#category-ropa-playa-accesorios-niños":{
+        "blocks":[
+            "flex-layout.row#banner-category-ropa-playa-accesorios-niños",
+            "search-result-layout.customQuery#category-ropa-playa-accesorios-niños"
+        ]
+    },
+
+    "flex-layout.row#banner-category-ropa-playa-accesorios-niños":{
+        "children":[
+            "flex-layout.col#banner-category-ropa-playa-accesorios-niños"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#banner-category-ropa-playa-accesorios-niños":{
+        "children":[
+            "rich-text#category-ropa-playa-accesorios-niños-bread-crumb",
+            "rich-text#category-ropa-playa-accesorios-niños-title",
+            "rich-text#category-ropa-playa-accesorios-niños-description",
+            "responsive-layout.desktop#category-ropa-playa-accesorios-niños-banners",
+            "responsive-layout.mobile#category-ropa-playa-accesorios-niños-banners"
+        ]
+    },
+
+    "responsive-layout.desktop#category-ropa-playa-accesorios-niños-banners":{
+        "children":[
+            "flex-layout.row#category-ropa-playa-accesorios-niños-banners-1"
+        ]
+    },
+
+    "rich-text#category-ropa-playa-accesorios-niños-bread-crumb":{
+        "props":{
+            "text": "[Home](/) / [**Niños**](/niños) / [**Ropa de Playa**](/niños/ropa-de-playa) / [**Accesorios**](/niños/ropa-de-playa/accesorios)",
+            "blockClass": "departmentBreadCrumb"
+        }
+    },
+
+    "rich-text#category-ropa-playa-accesorios-niños-title":{
+        "props":{
+            "text": "Accesorios para niños",
+            "blockClass": "departmentTitle"
+        }
+    },
+
+    "rich-text#category-ropa-playa-accesorios-niños-description":{
+        "props":{
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "blockClass": "departmentDescription"
+        }
+    },
+
+    "search-result-layout.customQuery#category-ropa-playa-accesorios-niños": {
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile#category-ropa-playa-accesorios-niños"
+        ],
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceASC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 12,
+                "queryField": "niños/ropa-de-playa/accesorios",
+                "skusFilter": "ALL",
+                "mapField": "category-1"
+            }
+        }
+    },
+
+    "flex-layout.row#category-ropa-playa-accesorios-niños-banners-1":{
+        "children":[
+            "image#category-ropa-playa-accesorios-niños-banners-1-img-1",
+            "image#category-ropa-playa-accesorios-niños-banners-1-img-2",
+            "image#category-ropa-playa-accesorios-niños-banners-1-img-3"
+        ],
+        "props":{
+            "blockClass":"contentCategoryBannersDesk"
+        }
+    },
+
+    "image#category-ropa-playa-accesorios-niños-banners-1-img-1": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-3.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+    "image#category-ropa-playa-accesorios-niños-banners-1-img-2": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-2.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-2"
+        }
+    },
+
+    "image#category-ropa-playa-accesorios-niños-banners-1-img-3": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-1.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-3"
+        }
+    }
+}

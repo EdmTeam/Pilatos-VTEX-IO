@@ -1,13 +1,13 @@
 {
   
-  "product-summary:#most-viewed": {
+  "vtex.product-summary:product-summary.shelf#most-viewed": {
     "children": [
       "product-price-savings#summary",
       "stack-layout#prodsum",
-      "product-summary-brand",
-      "product-summary-name",
+      "vtex.product-summary:product-summary-brand",
+      "vtex.product-summary:product-summary-name",
       "flex-layout.row#price",
-      "product-summary-space",
+      "vtex.product-summary:product-summary-space",
       "flex-layout.row#sku-btn"
     ],
     "props":{
@@ -21,7 +21,8 @@
       "flex-layout.col#list-price"
     ],
     "props":{
-      "blockClass": "contentPrice"
+      "blockClass": "contentPrice",
+      "preserveLayoutOnMobile": true
     }
   },
 
@@ -56,8 +57,8 @@
   "flex-layout.col#content-sku": {
     "children": [
       // "product-summary-sku-selector"
-      "product-summary-sku-selector#color",
-      "product-summary-sku-selector#Talla"
+      "pilatos21.product-summary:product-summary-sku-selector#color",
+      "vtex.product-summary:product-summary-sku-selector#Talla"
     ],
     "props": {
       "width": "80%",
@@ -72,24 +73,20 @@
   //   }
   // },
 
-  "product-summary-sku-selector#color": {
+  "pilatos21.product-summary:product-summary-sku-selector#color": {
     "props": {
       "showValueForVariation ": "image",
       "showVariationsLabels": true,
       "visibleVariations": ["Color"],
-      "displayMode": {
-        "mobile": "slider",
-        "desktop": "default"
-      },
-      "sliderDisplayThreshold": "3",
-      "sliderItemsPerPage": "3",
+      "displayMode": "slider",
+      "sliderDisplayThreshold": "4",
+      "sliderItemsPerPage": "1",
       "initialSelection": "complete",
-      "infinite": false,
-      "navigationStep": "1"
+      "thumbnailImage": ["Color"]
     }
   },
 
-  "product-summary-sku-selector#Talla": {
+  "vtex.product-summary:product-summary-sku-selector#Talla": {
     "props": {
       "showValueForVariation ": "image",
       "showVariationsLabels": true,
@@ -116,7 +113,7 @@
   },
   "stack-layout#prodsum": {
     "children": [
-      "product-summary-image#shelf",
+      "vtex.product-summary:product-summary-image#shelf",
       "vtex.product-highlights@2.x:product-highlights#collection",
       // "modal-trigger#quickview",
       "flex-layout.row#add-to-list-btn"
@@ -125,7 +122,7 @@
       "blockClass": "imageShelf"
     }
   },
-  "product-summary-image#shelf": {
+  "vtex.product-summary:product-summary-image#shelf": {
     "props": {
       "showBadge": false,
       "aspectRatio": "1:1",

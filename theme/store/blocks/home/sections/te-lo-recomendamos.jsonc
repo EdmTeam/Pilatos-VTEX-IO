@@ -1,0 +1,51 @@
+{
+    "flex-layout.row#shelf-title-te-recomendamos": {
+        "children": [
+            "flex-layout.col#shelf-title-te-recomendamos-col-1"
+        ]
+    },
+    "flex-layout.col#shelf-title-te-recomendamos-col-1": {
+        "children": [
+            "rich-text#shelf-title-te-recomendamos"
+        ],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+    "rich-text#shelf-title-te-recomendamos": {
+        "props": {
+            "text": "**Te Recomendamos**"
+        }
+    },
+    "flex-layout.row#shelf-te-recomendamos": {
+        "children": [
+            "vtex.product-summary:list-context.product-list#shelf-te-recomendamos"
+        ]
+    },
+    "vtex.product-summary:list-context.product-list#shelf-te-recomendamos": {
+        "blocks": [
+            "vtex.product-summary:product-summary.shelf#test"
+        ],
+        "children": [
+            "slider-layout#home-products"
+        ],
+        "props": {
+            "orderBy": "OrderByTopSaleDESC",
+            //"collection": "138",
+            "maxItems": 14
+        }
+    },
+
+    "vtex.product-summary:product-summary.shelf#test": {
+        "children": [
+          "product-price-savings#summary",
+          "stack-layout#prodsum",
+          "vtex.product-summary:product-summary-brand",
+          "vtex.product-summary:product-summary-name",
+          "vtex.product-summary:product-summary-space",
+          "product-list-price",
+          "product-selling-price#summary"
+        //   "flex-layout.row#add-to-cart"
+        ]
+    }
+}

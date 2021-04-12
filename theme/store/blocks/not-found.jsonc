@@ -59,12 +59,12 @@
     },
     "flex-layout.row#shelf-not-found": {
         "children": [
-            "list-context.product-list#shelf-not-found"
+            "vtex.product-summary:list-context.product-list#shelf-not-found"
         ]
     },
-    "list-context.product-list#shelf-not-found": {
+    "vtex.product-summary:list-context.product-list#shelf-not-found": {
         "blocks": [
-            "product-summary.shelf"
+            "vtex.product-summary:product-summary.shelf"
         ],
         "children": [
             "slider-layout#home-products"

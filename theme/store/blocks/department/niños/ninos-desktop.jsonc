@@ -1,0 +1,175 @@
+{
+    "store.custom#department-ninos":{
+        "blocks":[
+            "flex-layout.row#banner-department-ninos",
+            "search-result-layout.customQuery#department-ninos"
+        ]
+    },
+
+    "flex-layout.row#banner-department-ninos":{
+        "children":[
+            "flex-layout.col#banner-department-ninos"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#banner-department-ninos":{
+        "children":[
+            "rich-text#departmen-ninos-bread-crumb",
+            "rich-text#department-ninos-title",
+            "rich-text#department-ninos-description",
+            "responsive-layout.desktop#department-ninos-banners",
+            "responsive-layout.mobile#department-ninos-banners"
+        ]
+    },
+
+    "responsive-layout.desktop#department-ninos-banners":{
+        "children":[
+            "flex-layout.col#department-ninos-banners-1",
+            "flex-layout.row#department-ninos-banners-2"
+        ]
+    },
+
+    "rich-text#departmen-ninos-bread-crumb":{
+        "props":{
+            "text": "[Home](/) / [**Niños**](/ninos)",
+            "blockClass": "departmentBreadCrumb"
+        }
+    },
+
+    "rich-text#department-ninos-title":{
+        "props":{
+            "text": "Niños",
+            "blockClass": "departmentTitle"
+        }
+    },
+
+    "rich-text#department-ninos-description":{
+        "props":{
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "blockClass": "departmentDescription"
+        }
+    },
+
+    "search-result-layout.customQuery#department-ninos": {
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile#ninos"
+        ],
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceASC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 12,
+                "queryField": "niños",
+                "skusFilter": "ALL",
+                "mapField": "category-1"
+            }
+        }
+    },
+
+    "flex-layout.col#department-ninos-banners-1":{
+        "children":[
+            "image#department-ninos-banners-1-img-1",
+            "image#department-ninos-banners-1-img-2"
+        ],
+        "props":{
+            "blockClass":"contentBannersDesk"
+        }
+    },
+
+    "image#department-ninos-banners-1-img-1": {
+        "props": {
+            "src": "/arquivos/Dep-desk-1.png",
+            "link": {
+                "url": "/ninos/ropa/camisetas",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+    "image#department-ninos-banners-1-img-2": {
+        "props": {
+            "src": "/arquivos/Dep-desk-2.png",
+            "link": {
+                "url": "/ninos/ropa-interior",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-2"
+        }
+    },
+
+    "flex-layout.row#department-ninos-banners-2":{
+        "children":[
+            "flex-layout.col#department-ninos-banners-2-img-1",
+            "flex-layout.col#department-ninos-banners-2-img-2",
+            "flex-layout.col#department-ninos-banners-2-img-3"
+        ],
+        "props":{
+            "blockClass":"contentBanners-2"
+        }
+    },
+
+    "flex-layout.col#department-ninos-banners-2-img-1":{
+        "children":[
+            "image#department-ninos-banners-2-img-1"
+        ],
+        "props":{
+            "width": "31%"
+        }
+    },
+
+    "image#department-ninos-banners-2-img-1": {
+        "props": {
+            "src": "/arquivos/Dep-desk-3.png",
+            "link": {
+                "url": "/ninos/zapatos/tenis",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-3"
+        }
+    },
+
+    "flex-layout.col#department-ninos-banners-2-img-2":{
+        "children":[
+            "image#department-ninos-banners-2-img-2"
+        ],
+        "props":{
+            "width": "31%"
+        }
+    },
+
+    "image#department-ninos-banners-2-img-2": {
+        "props": {
+            "src": "/arquivos/Dep-desk-5.png",
+            "link": {
+                "url": "/ninos/accesorios/tapabocas",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-4"
+        }
+    },
+
+    "flex-layout.col#department-ninos-banners-2-img-3":{
+        "children":[
+            "image#department-ninos-banners-2-img-3"
+        ],
+        "props":{
+            "width": "37%"
+        }
+    },
+
+    "image#department-ninos-banners-2-img-3": {
+        "props": {
+            "src": "/arquivos/Dep-desk-4.png",
+            "link": {
+                "url": "/ninos/jeans",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-5"
+        }
+    }
+}

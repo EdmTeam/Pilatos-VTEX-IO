@@ -841,3 +841,79 @@
   font-weight: bold;
   font-size: 25px;
 }
+
+
+/* Estilos pagina de departamento */
+.wrapper--departmentBreadCrumb{
+  width: 88%;
+  margin: 0 auto;  
+}
+
+.wrapper--departmentBreadCrumb .paragraph{
+  line-height: 13px;
+  font-size: 9px;
+  margin-top: .2rem;
+}
+
+.wrapper--departmentBreadCrumb .paragraph .link{
+  color: #000000;
+  text-decoration: none;
+}
+
+.container--departmentTitle{
+  width: 88%;
+  margin: 0 auto;  
+}
+
+.wrapper--departmentTitle .paragraph{
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 28px;
+  color: #000000;
+  margin: .3rem 0 0 0;
+}
+
+.container--departmentDescription{
+  width: 88%;
+  margin: 0 auto;
+}
+
+.wrapper--departmentDescription .paragraph{
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 13px;
+  color: #000000;
+  width: 100%;
+  margin: 0 0 1rem 0;
+}
+
+@media only screen and (min-width: 1180px){
+  .wrapper--departmentBreadCrumb,
+  .container--departmentTitle,
+  .container--departmentDescription{
+    width: 100%;
+  }
+
+  .wrapper--departmentBreadCrumb .paragraph{
+    font-size: 10px;
+    margin-top: 9px;
+  } 
+  .wrapper--departmentTitle .paragraph{
+    font-size: 22px;
+    margin: 1rem 0 .5rem 0;
+  }
+
+  .wrapper--departmentDescription .paragraph{
+    font-size: 12px;
+    width: 78%;
+    margin: 0 0 1.3rem 0;
+  }
+}
+
+.wrapper--textOrderBy .paragraph{
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 11px;
+  letter-spacing: 0.02em;
+  color: #000000;
+}

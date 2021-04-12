@@ -1,0 +1,115 @@
+{
+    "store.custom#category-bolsos-niños":{
+        "blocks":[
+            "flex-layout.row#banner-category-bolsos-niños",
+            "search-result-layout.customQuery#category-bolsos-niños"
+        ]
+    },
+
+    "flex-layout.row#banner-category-bolsos-niños":{
+        "children":[
+            "flex-layout.col#banner-category-bolsos-niños"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#banner-category-bolsos-niños":{
+        "children":[
+            "rich-text#category-bolsos-niños-bread-crumb",
+            "rich-text#category-bolsos-niños-title",
+            "rich-text#category-bolsos-niños-description",
+            "responsive-layout.desktop#category-bolsos-niños-banners",
+            "responsive-layout.mobile#category-bolsos-niños-banners"
+        ]
+    },
+
+    "responsive-layout.desktop#category-bolsos-niños-banners":{
+        "children":[
+            "flex-layout.row#category-bolsos-niños-banners-1"
+        ]
+    },
+
+    "rich-text#category-bolsos-niños-bread-crumb":{
+        "props":{
+            "text": "[Home](/) / [**Niños**](/ninos) / [**Accesorios**](/ninos/accesorios) / [**Bolsos**](/ninos/accesorios/bolsos)",
+            "blockClass": "departmentBreadCrumb"
+        }
+    },
+
+    "rich-text#category-bolsos-niños-title":{
+        "props":{
+            "text": "Bolsos para niños",
+            "blockClass": "departmentTitle"
+        }
+    },
+
+    "rich-text#category-bolsos-niños-description":{
+        "props":{
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "blockClass": "departmentDescription"
+        }
+    },
+
+    "search-result-layout.customQuery#category-bolsos-niños": {
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile#category-bolsos-niños"
+        ],
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceASC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 12,
+                "queryField": "niños/accesorios/bolsos",
+                "skusFilter": "ALL",
+                "mapField": "category-1"
+            }
+        }
+    },
+
+    "flex-layout.row#category-bolsos-niños-banners-1":{
+        "children":[
+            "image#category-bolsos-niños-banners-1-img-1",
+            "image#category-bolsos-niños-banners-1-img-2",
+            "image#category-bolsos-niños-banners-1-img-3"
+        ],
+        "props":{
+            "blockClass":"contentCategoryBannersDesk"
+        }
+    },
+
+    "image#category-bolsos-niños-banners-1-img-1": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-3.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+    "image#category-bolsos-niños-banners-1-img-2": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-2.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-2"
+        }
+    },
+
+    "image#category-bolsos-niños-banners-1-img-3": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-1.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-3"
+        }
+    }
+}

@@ -50,6 +50,14 @@
     height: 48px;
 }
 
+.childrenContainer--contentMinicart{
+    height: calc(100% - 48px);
+}
+
+.minicartSideBarContentWrapper--contentMinicart{
+    height: 100% !important;
+}
+
 .closeIconButton--contentMinicart{
     position: absolute;
     right: 0;
@@ -70,7 +78,7 @@
 
 .drawer--contentMinicart .minicartProductListContainer{
     min-height: 247px;
-    max-height: 300px;
+    max-height: 370px;
     padding: 0 1rem 0 .75rem;
 }
 
@@ -182,6 +190,11 @@
     color: #848484;
 }
 
+.portalContainer--contentMinicart{
+    top: 5px !important;
+    left: -3px !important;
+}
+
 .closeIconContainer--contentMinicart
 
 .popupBoxPosition{
@@ -193,6 +206,6 @@
 .popupArrowUp{
     top: -7px;
     z-index: -1;
-    right: 7px;
+    right: 9px;
     background: #000000;
 }

@@ -1,0 +1,115 @@
+{
+    "store.custom#category-perfumes-hombre":{
+        "blocks":[
+            "flex-layout.row#banner-category-perfumes-hombre",
+            "search-result-layout.customQuery#category-perfumes-hombre"
+        ]
+    },
+
+    "flex-layout.row#banner-category-perfumes-hombre":{
+        "children":[
+            "flex-layout.col#banner-category-perfumes-hombre"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#banner-category-perfumes-hombre":{
+        "children":[
+            "rich-text#category-perfumes-hombre-bread-crumb",
+            "rich-text#category-perfumes-hombre-title",
+            "rich-text#category-perfumes-hombre-description",
+            "responsive-layout.desktop#category-perfumes-hombre-banners",
+            "responsive-layout.mobile#category-perfumes-hombre-banners"
+        ]
+    },
+
+    "responsive-layout.desktop#category-perfumes-hombre-banners":{
+        "children":[
+            "flex-layout.row#category-perfumes-hombre-banners-1"
+        ]
+    },
+
+    "rich-text#category-perfumes-hombre-bread-crumb":{
+        "props":{
+            "text": "[Home](/) / [**Hombre**](/hombre) / [**Accesorios**](/hombre/accesorios) / [**Perfumes**](/hombre/accesorios/perfumes)",
+            "blockClass": "departmentBreadCrumb"
+        }
+    },
+
+    "rich-text#category-perfumes-hombre-title":{
+        "props":{
+            "text": "Perfumes para hombre",
+            "blockClass": "departmentTitle"
+        }
+    },
+
+    "rich-text#category-perfumes-hombre-description":{
+        "props":{
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "blockClass": "departmentDescription"
+        }
+    },
+
+    "search-result-layout.customQuery#category-perfumes-hombre": {
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile#category-perfumes-hombre"
+        ],
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceASC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 12,
+                "queryField": "hombre/accesorios/perfumes",
+                "skusFilter": "ALL",
+                "mapField": "category-1"
+            }
+        }
+    },
+
+    "flex-layout.row#category-perfumes-hombre-banners-1":{
+        "children":[
+            "image#category-perfumes-hombre-banners-1-img-1",
+            "image#category-perfumes-hombre-banners-1-img-2",
+            "image#category-perfumes-hombre-banners-1-img-3"
+        ],
+        "props":{
+            "blockClass":"contentCategoryBannersDesk"
+        }
+    },
+
+    "image#category-perfumes-hombre-banners-1-img-1": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-3.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+    "image#category-perfumes-hombre-banners-1-img-2": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-2.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-2"
+        }
+    },
+
+    "image#category-perfumes-hombre-banners-1-img-3": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-1.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-3"
+        }
+    }
+}

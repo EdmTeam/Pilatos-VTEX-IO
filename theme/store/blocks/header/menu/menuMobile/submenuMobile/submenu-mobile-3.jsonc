@@ -53,7 +53,7 @@
 
     "rich-text#submenu-level-2-title-link-row-3":{
         "props":{
-            "text": "[VER TODO](/niños)",
+            "text": "[VER TODO](/ninos)",
             "blockClass": "contentSubmenuTitleLink"
         }
     },
@@ -62,7 +62,7 @@
         "props": {
             "src": "/arquivos/banner-menu-mobile-1.png",
             "link": {
-                "url": "/niños"
+                "url": "/ninos"
             },
             "blockClass": "contentBannerMenu"
         }

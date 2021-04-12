@@ -1,0 +1,115 @@
+{
+    "store.custom#category-tops-mujer":{
+        "blocks":[
+            "flex-layout.row#banner-category-tops-mujer",
+            "search-result-layout.customQuery#category-tops-mujer"
+        ]
+    },
+
+    "flex-layout.row#banner-category-tops-mujer":{
+        "children":[
+            "flex-layout.col#banner-category-tops-mujer"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#banner-category-tops-mujer":{
+        "children":[
+            "rich-text#category-tops-mujer-bread-crumb",
+            "rich-text#category-tops-mujer-title",
+            "rich-text#category-tops-mujer-description",
+            "responsive-layout.desktop#category-tops-mujer-banners",
+            "responsive-layout.mobile#category-tops-mujer-banners"
+        ]
+    },
+
+    "responsive-layout.desktop#category-tops-mujer-banners":{
+        "children":[
+            "flex-layout.row#category-tops-mujer-banners-1"
+        ]
+    },
+
+    "rich-text#category-tops-mujer-bread-crumb":{
+        "props":{
+            "text": "[Home](/) / [**Mujer**](/mujer) / [**Ropa Interior**](/mujer/ropa-interior) / [**Tops**](/mujer/ropa-interior/tops)",
+            "blockClass": "departmentBreadCrumb"
+        }
+    },
+
+    "rich-text#category-tops-mujer-title":{
+        "props":{
+            "text": "Tops para mujer",
+            "blockClass": "departmentTitle"
+        }
+    },
+
+    "rich-text#category-tops-mujer-description":{
+        "props":{
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "blockClass": "departmentDescription"
+        }
+    },
+
+    "search-result-layout.customQuery#category-tops-mujer": {
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile#category-tops-mujer"
+        ],
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceASC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 12,
+                "queryField": "mujer/ropa-interior/tops",
+                "skusFilter": "ALL",
+                "mapField": "category-1"
+            }
+        }
+    },
+
+    "flex-layout.row#category-tops-mujer-banners-1":{
+        "children":[
+            "image#category-tops-mujer-banners-1-img-1",
+            "image#category-tops-mujer-banners-1-img-2",
+            "image#category-tops-mujer-banners-1-img-3"
+        ],
+        "props":{
+            "blockClass":"contentCategoryBannersDesk"
+        }
+    },
+
+    "image#category-tops-mujer-banners-1-img-1": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-3.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+    "image#category-tops-mujer-banners-1-img-2": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-2.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-2"
+        }
+    },
+
+    "image#category-tops-mujer-banners-1-img-3": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-1.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-3"
+        }
+    }
+}

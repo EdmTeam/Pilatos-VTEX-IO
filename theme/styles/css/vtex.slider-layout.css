@@ -149,3 +149,29 @@
 :global(.vtex-flex-layout-0-x-flexRowContent--sliderContentShelf) .sliderLeftArrow{
     left: -1%;
 }
+
+
+.sliderLayoutContainer--departmenBannerSlide{
+    margin: .3rem 0 3rem 0;
+}
+
+.slide--departmenBannerSlide{
+    margin-right: 1.5% !important;
+    margin-left: 0 !important;
+    width: 11% !important;
+}
+
+.paginationDotsContainer--departmenBannerSlide{
+    bottom: -1.5rem;
+}
+
+.sliderTrack--departmenBannerSlide{
+    margin-top: .2rem;
+    margin-left: 1.5rem;
+}
+
+@media only screen and (min-width: 1180px){
+    .sliderLayoutContainer--departmenBannerSlide{
+        margin: 1rem 0 2rem 0;
+    }
+}

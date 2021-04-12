@@ -1,0 +1,140 @@
+{
+    "responsive-layout.mobile#category-slim-niños-banners":{
+        "children":[
+            "flex-layout.col#category-slim-niños-banners-1-mobile"
+        ]
+    },
+
+    "flex-layout.col#category-slim-niños-banners-1-mobile":{
+        "children":[
+            "list-context.image-list#department-banner-mobile-category-slim-niños"
+        ],
+        "props":{
+            "blockClass":"contentBannersDesk"
+        }
+    },
+
+    "search-result-layout.mobile#category-slim-niños": {
+        "children": [
+          "flex-layout.row#banner-search-mobile",
+          "flex-layout.row#bread-crumb",
+          "flex-layout.row#suggestion",
+          "flex-layout.row#search-info-mobile-category-slim-niños",
+          "flex-layout.row#fetch-previous",
+          "flex-layout.row#content-mobile",
+          "flex-layout.row#fetch-more"
+        ],
+        "props": {
+            "preventRouteChange": true,
+            "hiddenFacets": {
+                "specificationFilters": {
+                    "hiddenFilters": [
+                        {
+                        "name": "Brand"
+                        },
+                        {
+                        "name": "Department"
+                        },
+                        {
+                        "name": "Category"
+                        },
+                        {
+                        "name": "Subcategory"
+                        },
+                        {
+                        "name": "Material"
+                        },
+                        {
+                        "name": "Alto (Cm)"
+                        },
+                        {
+                        "name": "Ancho (Cm)"
+                        },
+                        {
+                        "name": "Breve Descripción"
+                        },
+                        {
+                        "name": "Descripción"
+                        },
+                        {
+                        "name": "Material"
+                        }
+                    ]
+                }
+            },
+            "__unstableProductOriginVtex": true,
+            "mobileLayout": {
+                "mode1": "small",
+                "mode2": "normal"
+            }
+        }
+    },
+
+    "flex-layout.row#search-info-mobile-category-slim-niños": {
+        "children": [
+          "flex-layout.col#filterMobile",
+          "flex-layout.col#order-by-mobile"
+        ],
+        "props": {
+          "preserveLayoutOnMobile": true,
+          "colSizing": "auto",
+          "colJustify": "around",
+          "blockClass": "search-in-mobile"
+        }
+    },
+
+    "list-context.image-list#department-banner-mobile-category-slim-niños": {
+        "children": [
+            "slider-layout#department-banner-mobile-category-slim-niños"
+        ],
+        "props": {
+            "images": [
+                {
+                    "image": "/arquivos/category-bn-mobile-1.png",
+                    "mobileImage": "/arquivos/category-bn-mobile-1.png",
+                    "description": "Promotional Banner",
+                    "link": {
+                        "url": "/",
+                        "attributeTitle": ""
+                    },
+                    "title": "",
+                    "width": "235px"
+                },
+                {
+                    "image": "/arquivos/category-bn-mobile-1.png",
+                    "mobileImage": "/arquivos/category-bn-mobile-1.png",
+                    "description": "Promotional Banner",
+                    "link": {
+                        "url": "/",
+                        "attributeTitle": ""
+                    },
+                    "title": ""
+                },
+                {
+                    "image": "/arquivos/category-bn-mobile-1.png",
+                    "mobileImage": "/arquivos/Dep-mobile-2.png",
+                    "description": "Promotional Banner",
+                    "link": {
+                        "url": "/",
+                        "attributeTitle": ""
+                    },
+                    "title": ""
+                }
+            ]
+        }
+    },
+
+    "slider-layout#department-banner-mobile-category-slim-niños": {
+        "props": {
+            "blockClass": "departmenBannerSlide",
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "centerMode": "to-the-left",
+            "showNavigationArrows": "desktopOnly",
+            "showPaginationDots": "mobileOnly"
+        }
+    }
+}

@@ -176,7 +176,7 @@
   },
   "autocomplete-result-list.v2#desktop": {
     "blocks": [
-      "product-summary.shelf#search-bar"
+      "vtex.product-summary:product-summary.shelf#search-bar"
     ],
     "props": {
       "__unstableProductOriginVtex": true,
@@ -227,7 +227,7 @@
   //Icono login
   "flex-layout.col#header-items-desk-ico-col-2": {
     "children": [
-      "login"
+      "login#header-items-ico-2"
     ],
     "props": {
       "width": "30%",
@@ -237,8 +237,8 @@
 
   "login#header-items-ico-2": {
     "props": {
-      "logInButtonBehavior": "link",
-      "accountOptionsButtonBehavior": "link"
+      "optionsTitle": "Ingresa o crea tu cuenta",
+      "hasGoogleOneTap": true
     }
   },
 

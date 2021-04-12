@@ -1,0 +1,115 @@
+{
+    "store.custom#category-jeans-hombre":{
+        "blocks":[
+            "flex-layout.row#banner-category-jeans-hombre",
+            "search-result-layout.customQuery#category-jeans-hombre"
+        ]
+    },
+
+    "flex-layout.row#banner-category-jeans-hombre":{
+        "children":[
+            "flex-layout.col#banner-category-jeans-hombre"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#banner-category-jeans-hombre":{
+        "children":[
+            "rich-text#category-jeans-hombre-bread-crumb",
+            "rich-text#category-jeans-hombre-title",
+            "rich-text#category-jeans-hombre-description",
+            "responsive-layout.desktop#category-jeans-hombre-banners",
+            "responsive-layout.mobile#category-jeans-hombre-banners"
+        ]
+    },
+
+    "responsive-layout.desktop#category-jeans-hombre-banners":{
+        "children":[
+            "flex-layout.row#category-jeans-hombre-banners-1"
+        ]
+    },
+
+    "rich-text#category-jeans-hombre-bread-crumb":{
+        "props":{
+            "text": "[Home](/) / [**Hombre**](/hombre) / [**Jeans**](/hombre/Jeans)",
+            "blockClass": "departmentBreadCrumb"
+        }
+    },
+
+    "rich-text#category-jeans-hombre-title":{
+        "props":{
+            "text": "Jeans para hombre",
+            "blockClass": "departmentTitle"
+        }
+    },
+
+    "rich-text#category-jeans-hombre-description":{
+        "props":{
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "blockClass": "departmentDescription"
+        }
+    },
+
+    "search-result-layout.customQuery#category-jeans-hombre": {
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile#category-jeans-hombre"
+        ],
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceASC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 12,
+                "queryField": "hombre/jeans",
+                "skusFilter": "ALL",
+                "mapField": "category-1"
+            }
+        }
+    },
+
+    "flex-layout.row#category-jeans-hombre-banners-1":{
+        "children":[
+            "image#category-jeans-hombre-banners-1-img-1",
+            "image#category-jeans-hombre-banners-1-img-2",
+            "image#category-jeans-hombre-banners-1-img-3"
+        ],
+        "props":{
+            "blockClass":"contentCategoryBannersDesk"
+        }
+    },
+
+    "image#category-jeans-hombre-banners-1-img-1": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-3.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+    "image#category-jeans-hombre-banners-1-img-2": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-2.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-2"
+        }
+    },
+
+    "image#category-jeans-hombre-banners-1-img-3": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-1.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-3"
+        }
+    }
+}

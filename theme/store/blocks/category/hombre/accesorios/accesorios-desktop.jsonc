@@ -1,0 +1,115 @@
+{
+    "store.custom#category-accesorios-hombre":{
+        "blocks":[
+            "flex-layout.row#banner-category-accesorios-hombre",
+            "search-result-layout.customQuery#category-accesorios-hombre"
+        ]
+    },
+
+    "flex-layout.row#banner-category-accesorios-hombre":{
+        "children":[
+            "flex-layout.col#banner-category-accesorios-hombre"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#banner-category-accesorios-hombre":{
+        "children":[
+            "rich-text#category-accesorios-hombre-bread-crumb",
+            "rich-text#category-accesorios-hombre-title",
+            "rich-text#category-accesorios-hombre-description",
+            "responsive-layout.desktop#category-accesorios-hombre-banners",
+            "responsive-layout.mobile#category-accesorios-hombre-banners"
+        ]
+    },
+
+    "responsive-layout.desktop#category-accesorios-hombre-banners":{
+        "children":[
+            "flex-layout.row#category-accesorios-hombre-banners-1"
+        ]
+    },
+
+    "rich-text#category-accesorios-hombre-bread-crumb":{
+        "props":{
+            "text": "[Home](/) / [**Hombre**](/hombre) / [**Accesorios**](/hombre/accesorios)",
+            "blockClass": "departmentBreadCrumb"
+        }
+    },
+
+    "rich-text#category-accesorios-hombre-title":{
+        "props":{
+            "text": "Accesorios para hombre",
+            "blockClass": "departmentTitle"
+        }
+    },
+
+    "rich-text#category-accesorios-hombre-description":{
+        "props":{
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "blockClass": "departmentDescription"
+        }
+    },
+
+    "search-result-layout.customQuery#category-accesorios-hombre": {
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile#category-accesorios-hombre"
+        ],
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceASC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 12,
+                "queryField": "hombre/accesorios",
+                "skusFilter": "ALL",
+                "mapField": "category-1"
+            }
+        }
+    },
+
+    "flex-layout.row#category-accesorios-hombre-banners-1":{
+        "children":[
+            "image#category-accesorios-hombre-banners-1-img-1",
+            "image#category-accesorios-hombre-banners-1-img-2",
+            "image#category-accesorios-hombre-banners-1-img-3"
+        ],
+        "props":{
+            "blockClass":"contentCategoryBannersDesk"
+        }
+    },
+
+    "image#category-accesorios-hombre-banners-1-img-1": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-3.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+    "image#category-accesorios-hombre-banners-1-img-2": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-2.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-2"
+        }
+    },
+
+    "image#category-accesorios-hombre-banners-1-img-3": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-1.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-3"
+        }
+    }
+}

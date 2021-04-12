@@ -39,28 +39,28 @@
 
     "rich-text#submenu-level-3-text-1-row-2-row-3": {
         "props": {
-            "text": "[Jean Ancho](/niños/jeans/jean-ancho)",
+            "text": "[Jean Ancho](/ninos/jeans/jean-ancho)",
             "blockClass": "textSubmenuAcordeon"
         }
     },
 
     "rich-text#submenu-level-3-text-2-row-2-row-3": {
         "props": {
-            "text": "[Regular](/niños/jeans/regular)",
+            "text": "[Regular](/ninos/jeans/regular)",
             "blockClass": "textSubmenuAcordeon"
         }
     },
 
     "rich-text#submenu-level-3-text-3-row-2-row-3": {
         "props": {
-            "text": "[Slim](/niños/jeans/slim)",
+            "text": "[Slim](/ninos/jeans/slim)",
             "blockClass": "textSubmenuAcordeon"
         }
     },
 
     "rich-text#submenu-level-3-text-4-row-2-row-3": {
         "props": {
-            "text": "[Superslim](/niños/jeans/superslim)",
+            "text": "[Superslim](/ninos/jeans/superslim)",
             "blockClass": "textSubmenuAcordeon"
         }
     }

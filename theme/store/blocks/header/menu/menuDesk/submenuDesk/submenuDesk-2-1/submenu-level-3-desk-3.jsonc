@@ -1,124 +1,124 @@
 {
-    "flex-layout.col#submenu-desk-departament-1-category-3":{
+    "flex-layout.col#submenu-desk-department-1-category-3":{
         "children":[
-            "flex-layout.col#submenu-desk-departament-1-category-3-row-1"
+            "flex-layout.col#submenu-desk-department-1-category-3-row-1"
         ]
     },
 
-    "flex-layout.col#submenu-desk-departament-1-category-3-row-1":{
+    "flex-layout.col#submenu-desk-department-1-category-3-row-1":{
         "children":[
-            "rich-text#submenu-desk-departament-1-category-3",
-            "rich-text#submenu-desk-departament-1-category-3-subcategory-1",
-            "rich-text#submenu-desk-departament-1-category-3-subcategory-2",
-            "rich-text#submenu-desk-departament-1-category-3-subcategory-3",
-            "rich-text#submenu-desk-departament-1-category-3-subcategory-4",
-            "rich-text#submenu-desk-departament-1-category-3-subcategory-5",
-            "rich-text#submenu-desk-departament-1-category-3-subcategory-6",
-            "rich-text#submenu-desk-departament-1-category-3-subcategory-7",
-            "rich-text#submenu-desk-departament-1-category-3-subcategory-8",
-            "rich-text#submenu-desk-departament-1-category-3-subcategory-9",
-            "rich-text#submenu-desk-departament-1-category-3-subcategory-10",
-            "rich-text#submenu-desk-departament-1-category-3-subcategory-11",
-            "rich-text#submenu-desk-departament-1-category-3-subcategory-12",
-            "rich-text#submenu-desk-departament-1-category-3-subcategory-13"
+            "rich-text#submenu-desk-department-1-category-3",
+            "rich-text#submenu-desk-department-1-category-3-subcategory-1",
+            "rich-text#submenu-desk-department-1-category-3-subcategory-2",
+            "rich-text#submenu-desk-department-1-category-3-subcategory-3",
+            "rich-text#submenu-desk-department-1-category-3-subcategory-4",
+            "rich-text#submenu-desk-department-1-category-3-subcategory-5",
+            "rich-text#submenu-desk-department-1-category-3-subcategory-6",
+            "rich-text#submenu-desk-department-1-category-3-subcategory-7",
+            "rich-text#submenu-desk-department-1-category-3-subcategory-8",
+            "rich-text#submenu-desk-department-1-category-3-subcategory-9",
+            "rich-text#submenu-desk-department-1-category-3-subcategory-10",
+            "rich-text#submenu-desk-department-1-category-3-subcategory-11",
+            "rich-text#submenu-desk-department-1-category-3-subcategory-12",
+            "rich-text#submenu-desk-department-1-category-3-subcategory-13"
         ],
         "props":{
             "blockClass": "contentBlockSubmenu"
         }
     },
 
-    "rich-text#submenu-desk-departament-1-category-3":{
+    "rich-text#submenu-desk-department-1-category-3":{
         "props":{
             "text": "[ACCESORIOS](/hombre/accesorios)",
             "blockClass": "textCategory"
         }
     },
 
-    "rich-text#submenu-desk-departament-1-category-3-subcategory-1":{
+    "rich-text#submenu-desk-department-1-category-3-subcategory-1":{
         "props":{
             "text": "[Tapabocas](/hombre/accesorios/tapabocas)",
             "blockClass": "textSubcategory"
         }
     },
 
-    "rich-text#submenu-desk-departament-1-category-3-subcategory-2":{
+    "rich-text#submenu-desk-department-1-category-3-subcategory-2":{
         "props":{
             "text": "[Gorras](/hombre/accesorios/gorras)",
             "blockClass": "textSubcategory"
         }
     },
 
-    "rich-text#submenu-desk-departament-1-category-3-subcategory-3":{
+    "rich-text#submenu-desk-department-1-category-3-subcategory-3":{
         "props":{
             "text": "[Bolsos](/hombre/accesorios/bolsos)",
             "blockClass": "textSubcategory"
         }
     },
 
-    "rich-text#submenu-desk-departament-1-category-3-subcategory-4":{
+    "rich-text#submenu-desk-department-1-category-3-subcategory-4":{
         "props":{
             "text": "[Bufandas](/hombre/accesorios/bufandas)",
             "blockClass": "textSubcategory"
         }
     },
 
-    "rich-text#submenu-desk-departament-1-category-3-subcategory-5":{
+    "rich-text#submenu-desk-department-1-category-3-subcategory-5":{
         "props":{
             "text": "[Correas](/hombre/accesorios/correas)",
             "blockClass": "textSubcategory"
         }
     },
 
-    "rich-text#submenu-desk-departament-1-category-3-subcategory-6":{
+    "rich-text#submenu-desk-department-1-category-3-subcategory-6":{
         "props":{
             "text": "[Gafas](/hombre/accesorios/gafas)",
             "blockClass": "textSubcategory"
         }
     },
 
-    "rich-text#submenu-desk-departament-1-category-3-subcategory-7":{
+    "rich-text#submenu-desk-department-1-category-3-subcategory-7":{
         "props":{
             "text": "[Relojes](/hombre/accesorios/relojes)",
             "blockClass": "textSubcategory"
         }
     },
 
-    "rich-text#submenu-desk-departament-1-category-3-subcategory-8":{
+    "rich-text#submenu-desk-department-1-category-3-subcategory-8":{
         "props":{
             "text": "[Fragancias](/hombre/accesorios/fragancias)",
             "blockClass": "textSubcategory"
         }
     },
 
-    "rich-text#submenu-desk-departament-1-category-3-subcategory-9":{
+    "rich-text#submenu-desk-department-1-category-3-subcategory-9":{
         "props":{
             "text": "[Morrales](/hombre/accesorios/morrales)",
             "blockClass": "textSubcategory"
         }
     },
 
-    "rich-text#submenu-desk-departament-1-category-3-subcategory-10":{
+    "rich-text#submenu-desk-department-1-category-3-subcategory-10":{
         "props":{
             "text": "[Maletas](/hombre/accesorios/maletas)",
             "blockClass": "textSubcategory"
         }
     },
 
-    "rich-text#submenu-desk-departament-1-category-3-subcategory-11":{
+    "rich-text#submenu-desk-department-1-category-3-subcategory-11":{
         "props":{
             "text": "[Billeteras](/hombre/accesorios/billeteras)",
             "blockClass": "textSubcategory"
         }
     },
 
-    "rich-text#submenu-desk-departament-1-category-3-subcategory-12":{
+    "rich-text#submenu-desk-department-1-category-3-subcategory-12":{
         "props":{
             "text": "[Estuches](/hombre/accesorios/estuches)",
             "blockClass": "textSubcategory"
         }
     },
 
-    "rich-text#submenu-desk-departament-1-category-3-subcategory-13":{
+    "rich-text#submenu-desk-department-1-category-3-subcategory-13":{
         "props":{
             "text": "[Otros Accesorios](/hombre/accesorios/otros-accesorios)",
             "blockClass": "textSubcategory"

@@ -1,4 +1,4 @@
-.styledLink--item-departamentos::before {
+.styledLink--item-departmentos::before {
     width: 25px;
     height: 14px;
     content: "";
@@ -9,16 +9,16 @@
     background-image: url("/arquivos/icono-menu.png");
 }
 
-.styledLinkContent--item-departamentos{
+.styledLinkContent--item-departmentos{
     color: white;
 }
 
-.menuItem--item-departamentos {
+.menuItem--item-departmentos {
     background-color: black;
     width: 205px;
 }
 
-.submenuWrapper--departamentos {
+.submenuWrapper--departmentos {
     padding: 0!important;
     min-height: 70vh;
     width: 300px;
@@ -171,6 +171,7 @@
     padding-left: .8rem;
     overflow: auto;
     height: 148px;
+    width: 98.4%;
 }
 
 .styledLinkContainer--menuAccordionLevel1{

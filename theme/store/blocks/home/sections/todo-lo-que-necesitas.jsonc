@@ -1,0 +1,292 @@
+{
+    "flex-layout.row#shelf-title-todo-lo-que-necesitas": {
+        "children": [
+            "flex-layout.col#shelf-title-todo-lo-que-necesitas-col-1"
+        ]
+    },
+    "flex-layout.col#shelf-title-todo-lo-que-necesitas-col-1": {
+        "children": [
+            "rich-text#shelf-title-todo-lo-que-necesitas"
+        ],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+    "rich-text#shelf-title-todo-lo-que-necesitas": {
+        "props": {
+            "text": "**¡Todo lo que necesitas al mejor precio!**"
+        }
+    },
+    "responsive-layout.desktop#todo-lo-que-necesitas": {
+        "children": [
+            "flex-layout.row#desktop-banners-todo-lo-que-necesitas-1",
+            "flex-layout.row#desktop-banners-todo-lo-que-necesitas-2"
+        ]
+    },
+    "flex-layout.row#desktop-banners-todo-lo-que-necesitas-1": {
+        "children": [
+            "flex-layout.col#desktop-banners-home-todo-lo-que-necesitas-1",
+            "flex-layout.col#desktop-banners-home-todo-lo-que-necesitas-2",
+            "flex-layout.col#desktop-banners-home-todo-lo-que-necesitas-3"
+        ],
+        "props":{
+            "fullWidth": true
+        }
+    },
+    "flex-layout.col#desktop-banners-home-todo-lo-que-necesitas-1": {
+        "children": [
+            "image#desktop-home-todo-lo-que-necesitas-1"
+        ],
+        "props": {
+            "width": "40%",
+            "marginLeft": 5
+        }
+    },
+    "image#desktop-home-todo-lo-que-necesitas-1": {
+        "props": {
+            "src": "/arquivos/banner-1-all-need.png",
+            "link": {
+                "url": "/138?map=productClustersId"
+            }
+        }
+    },
+    "flex-layout.col#desktop-banners-home-todo-lo-que-necesitas-2": {
+        "children": [
+            "image#desktop-home-todo-lo-que-necesitas-2"
+        ],
+        "props": {
+            "width": "30%",
+            "marginLeft": 5
+        }
+    },
+    "image#desktop-home-todo-lo-que-necesitas-2": {
+        "props": {
+            "src": "/arquivos/banner-2-all-need.png",
+            "link": {
+                "url": "/138?map=productClustersId"
+            }
+        }
+    },
+    "flex-layout.col#desktop-banners-home-todo-lo-que-necesitas-3": {
+        "children": [
+            "image#desktop-home-todo-lo-que-necesitas-3"
+        ],
+        "props": {
+            "width": "30%",
+            "marginLeft": 5
+        }
+    },
+    "image#desktop-home-todo-lo-que-necesitas-3": {
+        "props": {
+            "src": "/arquivos/banner-3-all-need.png",
+            "link": {
+                "url": "/138?map=productClustersId"
+            }
+        }
+    },
+    "flex-layout.row#desktop-banners-todo-lo-que-necesitas-2": {
+        "children": [
+            "flex-layout.col#desktop-banners-home-todo-lo-que-necesitas-4",
+            "flex-layout.col#desktop-banners-home-todo-lo-que-necesitas-5",
+            "flex-layout.col#desktop-banners-home-todo-lo-que-necesitas-6"
+        ],
+        "props": {
+            "fullWidth": true
+        }
+    },
+    "flex-layout.col#desktop-banners-home-todo-lo-que-necesitas-4": {
+        "children": [
+            "image#desktop-home-todo-lo-que-necesitas-4"
+        ],
+        "props": {
+            "width": "30%",
+            "marginLeft": 5
+        }
+    },
+    "image#desktop-home-todo-lo-que-necesitas-4": {
+        "props": {
+            "src": "/arquivos/banner-4-all-need.png",
+            "link": {
+                "url": "/138?map=productClustersId"
+            }
+        }
+    },
+    "flex-layout.col#desktop-banners-home-todo-lo-que-necesitas-5": {
+        "children": [
+            "image#desktop-home-todo-lo-que-necesitas-5"
+        ],
+        "props": {
+            "width": "30%",
+            "marginLeft": 5
+        }
+    },
+    "image#desktop-home-todo-lo-que-necesitas-5": {
+        "props": {
+            "src": "/arquivos/banner-5-all-need.png",
+            "link": {
+                "url": "/138?map=productClustersId"
+            }
+        }
+    },
+    "flex-layout.col#desktop-banners-home-todo-lo-que-necesitas-6": {
+        "props": {
+            "width": "40%",
+            "marginLeft": 5
+        },
+        "children": [
+            "image#desktop-home-todo-lo-que-necesitas-6"
+        ]
+    },
+    "image#desktop-home-todo-lo-que-necesitas-6": {
+        "props": {
+            "src": "/arquivos/banner-6-all-need.png",
+            "link": {
+                "url": "/138?map=productClustersId"
+            }
+        }
+    },
+    "responsive-layout.mobile#todo-lo-que-necesitas": {
+        "children": [
+            "flex-layout.row#mobile-banners-todo-lo-que-necesitas-1",
+            "flex-layout.row#mobile-banners-todo-lo-que-necesitas-2",
+            "flex-layout.row#mobile-banners-todo-lo-que-necesitas-3",
+            "flex-layout.row#mobile-banners-todo-lo-que-necesitas-4"
+        ]
+    },
+    "flex-layout.row#mobile-banners-todo-lo-que-necesitas-1": {
+        "children": [
+            "flex-layout.col#mobile-home-todo-lo-que-necesitas-1"
+        ]
+    },
+    "flex-layout.col#mobile-home-todo-lo-que-necesitas-1": {
+        "children": [
+            "image#mobile-home-todo-lo-que-necesitas-1"
+        ]
+    },
+    "image#mobile-home-todo-lo-que-necesitas-1": {
+        "props": {
+            "src": "/arquivos/banner-1-all-need-mobile.png",
+            "link": {
+                "url": "/138?map=productClustersId"
+            }
+        }
+    },
+    "flex-layout.row#mobile-banners-todo-lo-que-necesitas-2": {
+        "children": [
+            "flex-layout.col#mobile-home-todo-lo-que-necesitas-2",
+            "flex-layout.col#mobile-home-todo-lo-que-necesitas-3"
+        ],
+        "props":{
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "flex-layout.col#mobile-home-todo-lo-que-necesitas-2": {
+        "props": {
+            "width": "50%"
+        },
+        "children": [
+            "image#mobile-home-todo-lo-que-necesitas-2"
+        ]
+    },
+    "image#mobile-home-todo-lo-que-necesitas-2": {
+        "props": {
+            "src": "/arquivos/banner-2-all-need-mobile.png",
+            "link": {
+                "url": "/138?map=productClustersId"
+            }
+        }
+    },
+    "flex-layout.col#mobile-home-todo-lo-que-necesitas-3": {
+        "props": {
+            "width": "50%"
+        },
+        "children": [
+            "image#mobile-home-todo-lo-que-necesitas-3"
+        ]
+    },
+    "image#mobile-home-todo-lo-que-necesitas-3": {
+        "props": {
+            "src": "/arquivos/banner-3-all-need-mobile.png",
+            "link": {
+                "url": "/138?map=productClustersId"
+            }
+        }
+    },
+    "flex-layout.row#mobile-banners-todo-lo-que-necesitas-3": {
+        "children": [
+            "flex-layout.col#mobile-home-todo-lo-que-necesitas-4",
+            "flex-layout.col#mobile-home-todo-lo-que-necesitas-5"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "flex-layout.col#mobile-home-todo-lo-que-necesitas-4": {
+        "props": {
+            "width": "50%"
+        },
+        "children": [
+            "image#mobile-home-todo-lo-que-necesitas-4"
+        ]
+    },
+    "image#mobile-home-todo-lo-que-necesitas-4": {
+        "props": {
+            "src": "/arquivos/banner-4-all-need-mobile.png",
+            "link": {
+                "url": "/138?map=productClustersId"
+            }
+        }
+    },
+    "flex-layout.col#mobile-home-todo-lo-que-necesitas-5": {
+        "props": {
+            "width": "50%"
+        },
+        "children": [
+            "image#mobile-home-todo-lo-que-necesitas-5"
+        ]
+    },
+    "image#mobile-home-todo-lo-que-necesitas-5": {
+        "props": {
+            "src": "/arquivos/banner-5-all-need-mobile.png",
+            "link": {
+                "url": "/138?map=productClustersId"
+            }
+        }
+    },
+    "flex-layout.row#mobile-banners-todo-lo-que-necesitas-4": {
+        "children": [
+            "flex-layout.col#mobile-home-todo-lo-que-necesitas-6"
+        ]
+    },
+    "flex-layout.col#mobile-home-todo-lo-que-necesitas-6": {
+        "children": [
+            "image#mobile-home-todo-lo-que-necesitas-6"
+        ]
+    },
+    "image#mobile-home-todo-lo-que-necesitas-6": {
+        "props": {
+            "src": "/arquivos/banner-6-all-need-mobile.png",
+            "link": {
+                "url": "/138?map=productClustersId"
+            }
+        }
+    },
+    "flex-layout.row#shelf-todo-lo-que-necesitas": {
+        "children": [
+            "vtex.product-summary:list-context.product-list#shelf-desktop-todo-lo-que-necesitas"
+        ]
+    },
+    "vtex.product-summary:list-context.product-list#shelf-desktop-todo-lo-que-necesitas": {
+        "blocks": [
+            "vtex.product-summary:product-summary.shelf"
+        ],
+        "children": [
+            "slider-layout#home-products"
+        ],
+        "props": {
+            "orderBy": "OrderByTopSaleDESC",
+            "collection": "137",
+            "maxItems": 14
+        }
+    }
+}

@@ -5,3 +5,83 @@
     letter-spacing: 1px;
     padding-left: 2.1rem;
 }
+
+.searchResultContainer{
+    width: 100%
+}
+
+.productCount{
+    color: #D1D1D1;
+}
+
+:global(.vtex__icon-check){
+    background: #000000;
+    color: #000000;
+}
+
+:global(.vtex-checkbox__box){
+    border: 1px solid #FFFFFF;
+}
+
+:global(.vtex-checkbox__box-wrapper){
+    border: 1px solid #828282;
+    border-radius: 3px;
+}
+
+.filter__container--selectedFilters .productCount{
+    display: none;
+}
+
+.filter__container--selectedFilters :global(.vtex-checkbox__container){
+    opacity: 0;
+}
+
+.filter__container--selectedFilters .filterTemplateOverflow{
+    padding-left: .2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.filter__container--selectedFilters .filterTemplateOverflow .filterItem{
+    width: auto;
+}
+
+.filter__container--selectedFilters .filterTemplateOverflow .filterItem :global(.vtex-checkbox__line-container){
+    border: 1px solid #000000;
+    margin: .3rem .3rem .3rem 0;
+}
+
+.filter__container--selectedFilters .filterTemplateOverflow .filterItem :global(.vtex-checkbox__line-container) :global(.vtex-checkbox__label){
+    padding: .35rem 2rem .35rem 0;
+    position: relative;
+    display: block;
+}
+
+.filter__container--selectedFilters .filterTemplateOverflow .filterItem :global(.vtex-checkbox__line-container) :global(.vtex-checkbox__label)::after{
+    content: 'X';
+    position: absolute;
+    right: .5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.3rem;
+}
+
+/* .filter__container--selectedFilters .filterTemplateOverflow .filterItem :global(.vtex-checkbox__line-container){
+    margin: .4rem 0;
+} */
+
+
+.filter__container--marca{
+    display: none;
+}
+
+@media only screen and (min-width: 1180px){
+    .searchResultContainer{
+        width: 100%;
+    }
+
+    .searchResultContainer{
+        width: 88%;
+        margin: 0 auto;
+    }
+}

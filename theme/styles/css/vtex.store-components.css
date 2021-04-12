@@ -364,7 +364,7 @@
 .skuSelectorItem{
     height: 18px;
     width: 18px;
-    margin: 4px 5px;
+    margin: 4px 4px;
 }
 
 .skuSelectorSubcontainer--color{
@@ -410,4 +410,29 @@
 .suffixWrapper--contentSearch .closeIcon--contentSearch{
     width: 25px;
     height: 25px;
+}
+
+/* Estilos a la pagina de departamento */
+.imageElementLink--departmentBannerImg-1{
+    margin-bottom: .5rem;
+}
+
+.imageElementLink--departmentBannerImg-3{
+    margin-right: .6rem;
+}
+
+.imageElementLink--departmentBannerImg-4{
+    margin: 0 .3rem;
+}
+
+.imageElementLink--departmentBannerImg-5{
+    margin-left: .6rem;
+    background: #f4f3f6;
+}
+
+@media only screen and (min-width: 1180px){
+    .skuSelectorItem{
+        height: 20px;
+        width: 20px;
+    }
 }

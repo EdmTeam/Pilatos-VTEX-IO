@@ -1,0 +1,115 @@
+{
+    "store.custom#category-sudaderas-mujer":{
+        "blocks":[
+            "flex-layout.row#banner-category-sudaderas-mujer",
+            "search-result-layout.customQuery#category-sudaderas-mujer"
+        ]
+    },
+
+    "flex-layout.row#banner-category-sudaderas-mujer":{
+        "children":[
+            "flex-layout.col#banner-category-sudaderas-mujer"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#banner-category-sudaderas-mujer":{
+        "children":[
+            "rich-text#category-sudaderas-mujer-bread-crumb",
+            "rich-text#category-sudaderas-mujer-title",
+            "rich-text#category-sudaderas-mujer-description",
+            "responsive-layout.desktop#category-sudaderas-mujer-banners",
+            "responsive-layout.mobile#category-sudaderas-mujer-banners"
+        ]
+    },
+
+    "responsive-layout.desktop#category-sudaderas-mujer-banners":{
+        "children":[
+            "flex-layout.row#category-sudaderas-mujer-banners-1"
+        ]
+    },
+
+    "rich-text#category-sudaderas-mujer-bread-crumb":{
+        "props":{
+            "text": "[Home](/) / [**Mujer**](/mujer) / [**Ropa**](/mujer/ropa) / [**Sudaderas**](/mujer/ropa/sudaderas)",
+            "blockClass": "departmentBreadCrumb"
+        }
+    },
+
+    "rich-text#category-sudaderas-mujer-title":{
+        "props":{
+            "text": "Sudaderas para mujer",
+            "blockClass": "departmentTitle"
+        }
+    },
+
+    "rich-text#category-sudaderas-mujer-description":{
+        "props":{
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "blockClass": "departmentDescription"
+        }
+    },
+
+    "search-result-layout.customQuery#category-sudaderas-mujer": {
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile#category-sudaderas-mujer"
+        ],
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceASC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 12,
+                "queryField": "mujer/ropa/sudaderas",
+                "skusFilter": "ALL",
+                "mapField": "category-1"
+            }
+        }
+    },
+
+    "flex-layout.row#category-sudaderas-mujer-banners-1":{
+        "children":[
+            "image#category-sudaderas-mujer-banners-1-img-1",
+            "image#category-sudaderas-mujer-banners-1-img-2",
+            "image#category-sudaderas-mujer-banners-1-img-3"
+        ],
+        "props":{
+            "blockClass":"contentCategoryBannersDesk"
+        }
+    },
+
+    "image#category-sudaderas-mujer-banners-1-img-1": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-3.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+    "image#category-sudaderas-mujer-banners-1-img-2": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-2.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-2"
+        }
+    },
+
+    "image#category-sudaderas-mujer-banners-1-img-3": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-1.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-3"
+        }
+    }
+}

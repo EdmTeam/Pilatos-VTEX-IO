@@ -1,0 +1,115 @@
+{
+    "store.custom#category-ropa-playa-accesorios-mujer":{
+        "blocks":[
+            "flex-layout.row#banner-category-ropa-playa-accesorios-mujer",
+            "search-result-layout.customQuery#category-ropa-playa-accesorios-mujer"
+        ]
+    },
+
+    "flex-layout.row#banner-category-ropa-playa-accesorios-mujer":{
+        "children":[
+            "flex-layout.col#banner-category-ropa-playa-accesorios-mujer"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#banner-category-ropa-playa-accesorios-mujer":{
+        "children":[
+            "rich-text#category-ropa-playa-accesorios-mujer-bread-crumb",
+            "rich-text#category-ropa-playa-accesorios-mujer-title",
+            "rich-text#category-ropa-playa-accesorios-mujer-description",
+            "responsive-layout.desktop#category-ropa-playa-accesorios-mujer-banners",
+            "responsive-layout.mobile#category-ropa-playa-accesorios-mujer-banners"
+        ]
+    },
+
+    "responsive-layout.desktop#category-ropa-playa-accesorios-mujer-banners":{
+        "children":[
+            "flex-layout.row#category-ropa-playa-accesorios-mujer-banners-1"
+        ]
+    },
+
+    "rich-text#category-ropa-playa-accesorios-mujer-bread-crumb":{
+        "props":{
+            "text": "[Home](/) / [**Mujer**](/mujer) / [**Ropa de Playa**](/mujer/ropa-de-playa) / [**Accesorios**](/mujer/ropa-de-playa/accesorios)",
+            "blockClass": "departmentBreadCrumb"
+        }
+    },
+
+    "rich-text#category-ropa-playa-accesorios-mujer-title":{
+        "props":{
+            "text": "Accesorios para mujer",
+            "blockClass": "departmentTitle"
+        }
+    },
+
+    "rich-text#category-ropa-playa-accesorios-mujer-description":{
+        "props":{
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "blockClass": "departmentDescription"
+        }
+    },
+
+    "search-result-layout.customQuery#category-ropa-playa-accesorios-mujer": {
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile#category-ropa-playa-accesorios-mujer"
+        ],
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceASC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 12,
+                "queryField": "mujer/ropa-de-playa/accesorios",
+                "skusFilter": "ALL",
+                "mapField": "category-1"
+            }
+        }
+    },
+
+    "flex-layout.row#category-ropa-playa-accesorios-mujer-banners-1":{
+        "children":[
+            "image#category-ropa-playa-accesorios-mujer-banners-1-img-1",
+            "image#category-ropa-playa-accesorios-mujer-banners-1-img-2",
+            "image#category-ropa-playa-accesorios-mujer-banners-1-img-3"
+        ],
+        "props":{
+            "blockClass":"contentCategoryBannersDesk"
+        }
+    },
+
+    "image#category-ropa-playa-accesorios-mujer-banners-1-img-1": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-3.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+    "image#category-ropa-playa-accesorios-mujer-banners-1-img-2": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-2.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-2"
+        }
+    },
+
+    "image#category-ropa-playa-accesorios-mujer-banners-1-img-3": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-1.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-3"
+        }
+    }
+}

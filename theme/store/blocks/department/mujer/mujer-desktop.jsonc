@@ -1,0 +1,175 @@
+{
+    "store.custom#department-mujer":{
+        "blocks":[
+            "flex-layout.row#banner-department-mujer",
+            "search-result-layout.customQuery#department-mujer"
+        ]
+    },
+
+    "flex-layout.row#banner-department-mujer":{
+        "children":[
+            "flex-layout.col#banner-department-mujer"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#banner-department-mujer":{
+        "children":[
+            "rich-text#departmen-mujer-bread-crumb",
+            "rich-text#department-mujer-title",
+            "rich-text#department-mujer-description",
+            "responsive-layout.desktop#department-mujer-banners",
+            "responsive-layout.mobile#department-mujer-banners"
+        ]
+    },
+
+    "responsive-layout.desktop#department-mujer-banners":{
+        "children":[
+            "flex-layout.col#department-mujer-banners-1",
+            "flex-layout.row#department-mujer-banners-2"
+        ]
+    },
+
+    "rich-text#departmen-mujer-bread-crumb":{
+        "props":{
+            "text": "[Home](/) / [**Mujer**](/mujer)",
+            "blockClass": "departmentBreadCrumb"
+        }
+    },
+
+    "rich-text#department-mujer-title":{
+        "props":{
+            "text": "Mujer",
+            "blockClass": "departmentTitle"
+        }
+    },
+
+    "rich-text#department-mujer-description":{
+        "props":{
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "blockClass": "departmentDescription"
+        }
+    },
+
+    "search-result-layout.customQuery#department-mujer": {
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile#mujer"
+        ],
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceASC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 12,
+                "queryField": "mujer",
+                "skusFilter": "ALL",
+                "mapField": "category-1"
+            }
+        }
+    },
+
+    "flex-layout.col#department-mujer-banners-1":{
+        "children":[
+            "image#department-mujer-banners-1-img-1",
+            "image#department-mujer-banners-1-img-2"
+        ],
+        "props":{
+            "blockClass":"contentBannersDesk"
+        }
+    },
+
+    "image#department-mujer-banners-1-img-1": {
+        "props": {
+            "src": "/arquivos/Dep-desk-1.png",
+            "link": {
+                "url": "/mujer/ropa/camisetas",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+    "image#department-mujer-banners-1-img-2": {
+        "props": {
+            "src": "/arquivos/Dep-desk-2.png",
+            "link": {
+                "url": "/mujer/ropa-interior",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-2"
+        }
+    },
+
+    "flex-layout.row#department-mujer-banners-2":{
+        "children":[
+            "flex-layout.col#department-mujer-banners-2-img-1",
+            "flex-layout.col#department-mujer-banners-2-img-2",
+            "flex-layout.col#department-mujer-banners-2-img-3"
+        ],
+        "props":{
+            "blockClass":"contentBanners-2"
+        }
+    },
+
+    "flex-layout.col#department-mujer-banners-2-img-1":{
+        "children":[
+            "image#department-mujer-banners-2-img-1"
+        ],
+        "props":{
+            "width": "31%"
+        }
+    },
+
+    "image#department-mujer-banners-2-img-1": {
+        "props": {
+            "src": "/arquivos/Dep-desk-3.png",
+            "link": {
+                "url": "/mujer/zapatos/tenis",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-3"
+        }
+    },
+
+    "flex-layout.col#department-mujer-banners-2-img-2":{
+        "children":[
+            "image#department-mujer-banners-2-img-2"
+        ],
+        "props":{
+            "width": "31%"
+        }
+    },
+
+    "image#department-mujer-banners-2-img-2": {
+        "props": {
+            "src": "/arquivos/Dep-desk-5.png",
+            "link": {
+                "url": "/mujer/accesorios/tapabocas",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-4"
+        }
+    },
+
+    "flex-layout.col#department-mujer-banners-2-img-3":{
+        "children":[
+            "image#department-mujer-banners-2-img-3"
+        ],
+        "props":{
+            "width": "37%"
+        }
+    },
+
+    "image#department-mujer-banners-2-img-3": {
+        "props": {
+            "src": "/arquivos/Dep-desk-4.png",
+            "link": {
+                "url": "/mujer/jeans",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-5"
+        }
+    }
+}

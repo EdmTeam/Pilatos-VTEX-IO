@@ -154,7 +154,7 @@
         "children": [
             // "rich-text#submenu-level-1-footer-row-2-ico",
             // "rich-text#submenu-level-1-footer-row-2-text"
-            "login"
+            "login#header-items-ico-2"
         ],
         "props":{
             "preserveLayoutOnMobile":true,

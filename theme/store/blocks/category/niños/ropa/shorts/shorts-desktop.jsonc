@@ -1,0 +1,115 @@
+{
+    "store.custom#category-shorts-niños":{
+        "blocks":[
+            "flex-layout.row#banner-category-shorts-niños",
+            "search-result-layout.customQuery#category-shorts-niños"
+        ]
+    },
+
+    "flex-layout.row#banner-category-shorts-niños":{
+        "children":[
+            "flex-layout.col#banner-category-shorts-niños"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#banner-category-shorts-niños":{
+        "children":[
+            "rich-text#category-shorts-niños-bread-crumb",
+            "rich-text#category-shorts-niños-title",
+            "rich-text#category-shorts-niños-description",
+            "responsive-layout.desktop#category-shorts-niños-banners",
+            "responsive-layout.mobile#category-shorts-niños-banners"
+        ]
+    },
+
+    "responsive-layout.desktop#category-shorts-niños-banners":{
+        "children":[
+            "flex-layout.row#category-shorts-niños-banners-1"
+        ]
+    },
+
+    "rich-text#category-shorts-niños-bread-crumb":{
+        "props":{
+            "text": "[Home](/) / [**Niños**](/niños) / [**Ropa**](/niños/ropa) / [**Shorts**](/niños/ropa/shorts)",
+            "blockClass": "departmentBreadCrumb"
+        }
+    },
+
+    "rich-text#category-shorts-niños-title":{
+        "props":{
+            "text": "Shorts para niños",
+            "blockClass": "departmentTitle"
+        }
+    },
+
+    "rich-text#category-shorts-niños-description":{
+        "props":{
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "blockClass": "departmentDescription"
+        }
+    },
+
+    "search-result-layout.customQuery#category-shorts-niños": {
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile#category-shorts-niños"
+        ],
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceASC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 12,
+                "queryField": "niños/ropa/shorts",
+                "skusFilter": "ALL",
+                "mapField": "category-1"
+            }
+        }
+    },
+
+    "flex-layout.row#category-shorts-niños-banners-1":{
+        "children":[
+            "image#category-shorts-niños-banners-1-img-1",
+            "image#category-shorts-niños-banners-1-img-2",
+            "image#category-shorts-niños-banners-1-img-3"
+        ],
+        "props":{
+            "blockClass":"contentCategoryBannersDesk"
+        }
+    },
+
+    "image#category-shorts-niños-banners-1-img-1": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-3.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+    "image#category-shorts-niños-banners-1-img-2": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-2.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-2"
+        }
+    },
+
+    "image#category-shorts-niños-banners-1-img-3": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-1.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-3"
+        }
+    }
+}

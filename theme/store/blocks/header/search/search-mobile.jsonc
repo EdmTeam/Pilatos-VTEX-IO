@@ -58,7 +58,7 @@
 
     "autocomplete-result-list.v2": {
       "blocks": [
-        "product-summary.shelf#search-bar"
+        "vtex.product-summary:product-summary.shelf#search-bar"
       ],
       "props": {
         "__unstableProductOriginVtex": true,
@@ -81,11 +81,11 @@
     //     }
     // },
 
-    "product-summary.shelf#search-bar": {
+    "vtex.product-summary:product-summary.shelf#search-bar": {
         "children": [
           "stack-layout#prodsum-search",
-          "product-summary-brand",
-          "product-summary-name"
+          "vtex.product-summary:product-summary-brand",
+          "vtex.product-summary:product-summary-name"
         ],
         "props":{
           "blockClass": "shelfSearch"
@@ -94,13 +94,13 @@
 
     "stack-layout#prodsum-search": {
       "children": [
-          "product-summary-image#shelf-search"
+          "vtex.product-summary:product-summary-image#shelf-search"
       ],
       "props": {
         "blockClass": "imageShelf"
       }
     },
-    "product-summary-image#shelf-search": {
+    "vtex.product-summary:product-summary-image#shelf-search": {
         "props": {
           "showBadge": false,
           "aspectRatio": "1:1",

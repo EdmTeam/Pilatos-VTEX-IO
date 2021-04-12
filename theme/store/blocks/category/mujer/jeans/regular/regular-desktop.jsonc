@@ -1,0 +1,115 @@
+{
+    "store.custom#category-regular-mujer":{
+        "blocks":[
+            "flex-layout.row#banner-category-regular-mujer",
+            "search-result-layout.customQuery#category-regular-mujer"
+        ]
+    },
+
+    "flex-layout.row#banner-category-regular-mujer":{
+        "children":[
+            "flex-layout.col#banner-category-regular-mujer"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#banner-category-regular-mujer":{
+        "children":[
+            "rich-text#category-regular-mujer-bread-crumb",
+            "rich-text#category-regular-mujer-title",
+            "rich-text#category-regular-mujer-description",
+            "responsive-layout.desktop#category-regular-mujer-banners",
+            "responsive-layout.mobile#category-regular-mujer-banners"
+        ]
+    },
+
+    "responsive-layout.desktop#category-regular-mujer-banners":{
+        "children":[
+            "flex-layout.row#category-regular-mujer-banners-1"
+        ]
+    },
+
+    "rich-text#category-regular-mujer-bread-crumb":{
+        "props":{
+            "text": "[Home](/) / [**Mujer**](/mujer) / [**Jeans**](/mujer/jeans) / [**Regular**](/mujer/jeans/regular)",
+            "blockClass": "departmentBreadCrumb"
+        }
+    },
+
+    "rich-text#category-regular-mujer-title":{
+        "props":{
+            "text": "Regular para mujer",
+            "blockClass": "departmentTitle"
+        }
+    },
+
+    "rich-text#category-regular-mujer-description":{
+        "props":{
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "blockClass": "departmentDescription"
+        }
+    },
+
+    "search-result-layout.customQuery#category-regular-mujer": {
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile#category-regular-mujer"
+        ],
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceASC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 12,
+                "queryField": "mujer/jeans/regular",
+                "skusFilter": "ALL",
+                "mapField": "category-1"
+            }
+        }
+    },
+
+    "flex-layout.row#category-regular-mujer-banners-1":{
+        "children":[
+            "image#category-regular-mujer-banners-1-img-1",
+            "image#category-regular-mujer-banners-1-img-2",
+            "image#category-regular-mujer-banners-1-img-3"
+        ],
+        "props":{
+            "blockClass":"contentCategoryBannersDesk"
+        }
+    },
+
+    "image#category-regular-mujer-banners-1-img-1": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-3.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+    "image#category-regular-mujer-banners-1-img-2": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-2.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-2"
+        }
+    },
+
+    "image#category-regular-mujer-banners-1-img-3": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-1.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-3"
+        }
+    }
+}

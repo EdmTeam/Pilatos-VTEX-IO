@@ -1,0 +1,115 @@
+{
+    "store.custom#category-billetera-hombre":{
+        "blocks":[
+            "flex-layout.row#banner-category-billetera-hombre",
+            "search-result-layout.customQuery#category-billetera-hombre"
+        ]
+    },
+
+    "flex-layout.row#banner-category-billetera-hombre":{
+        "children":[
+            "flex-layout.col#banner-category-billetera-hombre"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#banner-category-billetera-hombre":{
+        "children":[
+            "rich-text#category-billetera-hombre-bread-crumb",
+            "rich-text#category-billetera-hombre-title",
+            "rich-text#category-billetera-hombre-description",
+            "responsive-layout.desktop#category-billetera-hombre-banners",
+            "responsive-layout.mobile#category-billetera-hombre-banners"
+        ]
+    },
+
+    "responsive-layout.desktop#category-billetera-hombre-banners":{
+        "children":[
+            "flex-layout.row#category-billetera-hombre-banners-1"
+        ]
+    },
+
+    "rich-text#category-billetera-hombre-bread-crumb":{
+        "props":{
+            "text": "[Home](/) / [**Hombre**](/hombre) / [**Accesorios**](/hombre/accesorios) / [**Billetera**](/hombre/accesorios/billeteras)",
+            "blockClass": "departmentBreadCrumb"
+        }
+    },
+
+    "rich-text#category-billetera-hombre-title":{
+        "props":{
+            "text": "Billetera para hombre",
+            "blockClass": "departmentTitle"
+        }
+    },
+
+    "rich-text#category-billetera-hombre-description":{
+        "props":{
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "blockClass": "departmentDescription"
+        }
+    },
+
+    "search-result-layout.customQuery#category-billetera-hombre": {
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile#category-billetera-hombre"
+        ],
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceASC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 12,
+                "queryField": "hombre/accesorios/billetera",
+                "skusFilter": "ALL",
+                "mapField": "category-1"
+            }
+        }
+    },
+
+    "flex-layout.row#category-billetera-hombre-banners-1":{
+        "children":[
+            "image#category-billetera-hombre-banners-1-img-1",
+            "image#category-billetera-hombre-banners-1-img-2",
+            "image#category-billetera-hombre-banners-1-img-3"
+        ],
+        "props":{
+            "blockClass":"contentCategoryBannersDesk"
+        }
+    },
+
+    "image#category-billetera-hombre-banners-1-img-1": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-3.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+    "image#category-billetera-hombre-banners-1-img-2": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-2.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-2"
+        }
+    },
+
+    "image#category-billetera-hombre-banners-1-img-3": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-1.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-3"
+        }
+    }
+}

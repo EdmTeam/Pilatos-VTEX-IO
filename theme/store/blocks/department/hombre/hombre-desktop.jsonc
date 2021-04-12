@@ -1,0 +1,174 @@
+{
+    "store.custom#department-hombre":{
+        "blocks":[
+            "flex-layout.row#banner-department-hombre",
+            "search-result-layout.customQuery#department-hombre"
+        ]
+    },
+
+    "flex-layout.row#banner-department-hombre":{
+        "children":[
+            "flex-layout.col#banner-department-hombre"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#banner-department-hombre":{
+        "children":[
+            "rich-text#departmen-hombre-bread-crumb",
+            "rich-text#department-hombre-title",
+            "rich-text#department-hombre-description",
+            "responsive-layout.desktop#department-hombre-banners",
+            "responsive-layout.mobile#department-hombre-banners"
+        ]
+    },
+
+    "responsive-layout.desktop#department-hombre-banners":{
+        "children":[
+            "flex-layout.col#department-hombre-banners-1",
+            "flex-layout.row#department-hombre-banners-2"
+        ]
+    },
+
+    "rich-text#departmen-hombre-bread-crumb":{
+        "props":{
+            "text": "[Home](/) / [**Hombre**](/hombre)",
+            "blockClass": "departmentBreadCrumb"
+        }
+    },
+
+    "rich-text#department-hombre-title":{
+        "props":{
+            "text": "Hombre",
+            "blockClass": "departmentTitle"
+        }
+    },
+
+    "rich-text#department-hombre-description":{
+        "props":{
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "blockClass": "departmentDescription"
+        }
+    },
+
+    "search-result-layout.customQuery#department-hombre": {
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile#hombre"
+        ],
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceASC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 12,
+                "queryField": "hombre",
+                "mapField": "category-1"
+            }
+        }
+    },
+
+    "flex-layout.col#department-hombre-banners-1":{
+        "children":[
+            "image#department-hombre-banners-1-img-1",
+            "image#department-hombre-banners-1-img-2"
+        ],
+        "props":{
+            "blockClass":"contentBannersDesk"
+        }
+    },
+
+    "image#department-hombre-banners-1-img-1": {
+        "props": {
+            "src": "/arquivos/Dep-desk-1.png",
+            "link": {
+                "url": "/hombre/camisetas",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+    "image#department-hombre-banners-1-img-2": {
+        "props": {
+            "src": "/arquivos/Dep-desk-2.png",
+            "link": {
+                "url": "/hombre/ropa-interior",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-2"
+        }
+    },
+
+    "flex-layout.row#department-hombre-banners-2":{
+        "children":[
+            "flex-layout.col#department-hombre-banners-2-img-1",
+            "flex-layout.col#department-hombre-banners-2-img-2",
+            "flex-layout.col#department-hombre-banners-2-img-3"
+        ],
+        "props":{
+            "blockClass":"contentBanners-2"
+        }
+    },
+
+    "flex-layout.col#department-hombre-banners-2-img-1":{
+        "children":[
+            "image#department-hombre-banners-2-img-1"
+        ],
+        "props":{
+            "width": "31%"
+        }
+    },
+
+    "image#department-hombre-banners-2-img-1": {
+        "props": {
+            "src": "/arquivos/Dep-desk-3.png",
+            "link": {
+                "url": "/hombre/zapatos/tenis",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-3"
+        }
+    },
+
+    "flex-layout.col#department-hombre-banners-2-img-2":{
+        "children":[
+            "image#department-hombre-banners-2-img-2"
+        ],
+        "props":{
+            "width": "31%"
+        }
+    },
+
+    "image#department-hombre-banners-2-img-2": {
+        "props": {
+            "src": "/arquivos/Dep-desk-5.png",
+            "link": {
+                "url": "/hombre/accesorios/tapabocas",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-4"
+        }
+    },
+
+    "flex-layout.col#department-hombre-banners-2-img-3":{
+        "children":[
+            "image#department-hombre-banners-2-img-3"
+        ],
+        "props":{
+            "width": "37%"
+        }
+    },
+
+    "image#department-hombre-banners-2-img-3": {
+        "props": {
+            "src": "/arquivos/Dep-desk-4.png",
+            "link": {
+                "url": "/hombre/jeans",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-5"
+        }
+    }
+}

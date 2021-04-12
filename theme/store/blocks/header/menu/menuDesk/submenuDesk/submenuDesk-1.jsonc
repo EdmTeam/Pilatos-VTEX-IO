@@ -66,9 +66,9 @@
 
     "flex-layout.row#submenu-desk-category-options-col-1":{
         "children":[
-            "flex-layout.col#submenu-desk-departament-1-category-1",
-            "flex-layout.col#submenu-desk-departament-1-category-2",
-            "flex-layout.col#submenu-desk-departament-1-category-3"
+            "flex-layout.col#submenu-desk-department-1-category-1",
+            "flex-layout.col#submenu-desk-department-1-category-2",
+            "flex-layout.col#submenu-desk-department-1-category-3"
         ],
         "props":{
             "width": "70%"
@@ -77,15 +77,15 @@
 
     "flex-layout.col#submenu-desk-category-options-col-2":{
         "children":[
-            "image#image-departament-1"
+            "image#image-department-1"
         ],
         "props":{
             "width": "30%",
-            "blockClass": "contentDepartamentImg"     
+            "blockClass": "contentdepartmentImg"     
         }
     },
 
-    "image#image-departament-1":{
+    "image#image-department-1":{
         "props": {
             "src": "/arquivos/banner-menu-destop-1.png",
             "link": {

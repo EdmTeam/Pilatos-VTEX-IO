@@ -46,3 +46,69 @@
 .menuIcon--menuDrawerLevel1{
     color: transparent;
 }
+
+
+/* Estilos a los filtros */
+.openIconContainer--filterDrawer{
+    color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .5rem .75rem .5rem 2rem;
+}
+
+.openIconContainer--filterDrawer::before{
+    content: 'Filtrar';
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.drawerContent--filterDrawer{
+    position: relative;
+    padding-top: 1rem;
+}
+
+.drawerHeader--contenedorFilterHeader{
+    position: absolute;
+    top: 1rem;
+    left: 0.3rem;
+}
+
+.drawerHeader--contenedorFilterHeader :global(.vtex-rich-text-0-x-wrapper--closeIco){
+    color: #000000;
+}
+
+.drawerContent--filterDrawer :global(.vtex-checkbox__label){
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.drawerContent--filterDrawer :global(.vtex-checkbox__line-container){
+    margin-bottom: .5rem;
+}
+
+.drawerContent--filterDrawer :global(.vtex-search-result-3-x-filterTemplateOverflow)::-webkit-scrollbar {
+    width: 6px;
+    background: #FFFFFF;
+}
+
+.drawerContent--filterDrawer :global(.vtex-search-result-3-x-filterTemplateOverflow)::-webkit-scrollbar-thumb {
+    display: block;
+    background: #C4C4C4;
+    border-radius: 10px;
+}
+
+.drawerContent--filterDrawer :global(.vtex-search-result-3-x-filterTemplateOverflow){
+    width: 221px;
+    padding-left: 1.5rem;
+}
+
+.opened--filterDrawer{
+    left: 50%;
+    transform: translateX(-50%) !important;
+}

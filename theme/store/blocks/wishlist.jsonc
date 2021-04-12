@@ -28,19 +28,19 @@
     },
     "list-context.wishlist": {
         "blocks": [
-            "product-summary.shelf#wishlist"
+            "vtex.product-summary:product-summary.shelf#wishlist"
         ],
         "children": [
             "slider-layout#wishlist"
         ]
     },
-    "product-summary.shelf#wishlist": {
+    "vtex.product-summary:product-summary.shelf#wishlist": {
         "children": [
             "add-to-list-btn",
-            "product-summary-image",
-            "product-summary-name",
-            "product-summary-space",
-            "product-summary-price",
+            "vtex.product-summary:product-summary-image",
+            "vtex.product-summary:product-summary-name",
+            "vtex.product-summary:product-summary-space",
+            "vtex.product-summary:product-summary-price",
             "add-to-cart-button"
         ]
     },

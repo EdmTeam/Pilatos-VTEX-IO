@@ -11,7 +11,7 @@
     "flex-layout.col#Recently-viewed": {
         "children": [
             "rich-text#title-Recently-viewed",
-            "list-context.product-list#Recently-viewed"
+            "vtex.product-summary:list-context.product-list#Recently-viewed"
         ]
     },
 
@@ -22,9 +22,9 @@
         }
     },
 
-    "list-context.product-list#Recently-viewed": {
+    "vtex.product-summary:list-context.product-list#Recently-viewed": {
         "blocks": [
-            "product-summary#most-viewed"
+            "vtex.product-summary:product-summary.shelf#most-viewed"
         ],
         "children": [
             "slider-layout#home-shelf-Recently-viewed"
@@ -32,7 +32,7 @@
         "props": {
             "orderBy": "OrderByTopSaleDESC",
             "collection": "137",
-            "maxItems": 30
+            "maxItems": 100
         }
     },
     "slider-layout#home-shelf-Recently-viewed": {

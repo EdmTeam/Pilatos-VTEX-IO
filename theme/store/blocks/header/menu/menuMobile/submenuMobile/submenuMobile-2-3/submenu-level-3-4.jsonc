@@ -38,21 +38,21 @@
 
     "rich-text#submenu-level-3-text-1-row-4-row-3": {
         "props": {
-            "text": "[Sandalias](/niños/zapatos/sandalias)",
+            "text": "[Sandalias](/ninos/zapatos/sandalias)",
             "blockClass": "textSubmenuAcordeon"
         }
     },
 
     "rich-text#submenu-level-3-text-2-row-4-row-3": {
         "props": {
-            "text": "[Tenis](/niños/zapatos/tenis)",
+            "text": "[Tenis](/ninos/zapatos/tenis)",
             "blockClass": "textSubmenuAcordeon"
         }
     },
 
     "rich-text#submenu-level-3-text-3-row-4-row-3": {
         "props": {
-            "text": "[Zapatos](/niños/zapatos/zapatos)",
+            "text": "[Zapatos](/ninos/zapatos/zapatos)",
             "blockClass": "textSubmenuAcordeon"
         }
     }

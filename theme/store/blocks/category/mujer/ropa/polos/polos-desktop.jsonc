@@ -1,0 +1,115 @@
+{
+    "store.custom#category-polos-mujer":{
+        "blocks":[
+            "flex-layout.row#banner-category-polos-mujer",
+            "search-result-layout.customQuery#category-polos-mujer"
+        ]
+    },
+
+    "flex-layout.row#banner-category-polos-mujer":{
+        "children":[
+            "flex-layout.col#banner-category-polos-mujer"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#banner-category-polos-mujer":{
+        "children":[
+            "rich-text#category-polos-mujer-bread-crumb",
+            "rich-text#category-polos-mujer-title",
+            "rich-text#category-polos-mujer-description",
+            "responsive-layout.desktop#category-polos-mujer-banners",
+            "responsive-layout.mobile#category-polos-mujer-banners"
+        ]
+    },
+
+    "responsive-layout.desktop#category-polos-mujer-banners":{
+        "children":[
+            "flex-layout.row#category-polos-mujer-banners-1"
+        ]
+    },
+
+    "rich-text#category-polos-mujer-bread-crumb":{
+        "props":{
+            "text": "[Home](/) / [**Mujer**](/mujer) / [**Ropa**](/mujer/ropa) / [**Polos**](/mujer/ropa/polos)",
+            "blockClass": "departmentBreadCrumb"
+        }
+    },
+
+    "rich-text#category-polos-mujer-title":{
+        "props":{
+            "text": "Polos para mujer",
+            "blockClass": "departmentTitle"
+        }
+    },
+
+    "rich-text#category-polos-mujer-description":{
+        "props":{
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "blockClass": "departmentDescription"
+        }
+    },
+
+    "search-result-layout.customQuery#category-polos-mujer": {
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile#category-polos-mujer"
+        ],
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceASC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 12,
+                "queryField": "mujer/ropa/polos",
+                "skusFilter": "ALL",
+                "mapField": "category-1"
+            }
+        }
+    },
+
+    "flex-layout.row#category-polos-mujer-banners-1":{
+        "children":[
+            "image#category-polos-mujer-banners-1-img-1",
+            "image#category-polos-mujer-banners-1-img-2",
+            "image#category-polos-mujer-banners-1-img-3"
+        ],
+        "props":{
+            "blockClass":"contentCategoryBannersDesk"
+        }
+    },
+
+    "image#category-polos-mujer-banners-1-img-1": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-3.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+    "image#category-polos-mujer-banners-1-img-2": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-2.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-2"
+        }
+    },
+
+    "image#category-polos-mujer-banners-1-img-3": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-1.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-3"
+        }
+    }
+}

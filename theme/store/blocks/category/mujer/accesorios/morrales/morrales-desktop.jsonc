@@ -1,0 +1,115 @@
+{
+    "store.custom#category-morrales-mujer":{
+        "blocks":[
+            "flex-layout.row#banner-category-morrales-mujer",
+            "search-result-layout.customQuery#category-morrales-mujer"
+        ]
+    },
+
+    "flex-layout.row#banner-category-morrales-mujer":{
+        "children":[
+            "flex-layout.col#banner-category-morrales-mujer"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#banner-category-morrales-mujer":{
+        "children":[
+            "rich-text#category-morrales-mujer-bread-crumb",
+            "rich-text#category-morrales-mujer-title",
+            "rich-text#category-morrales-mujer-description",
+            "responsive-layout.desktop#category-morrales-mujer-banners",
+            "responsive-layout.mobile#category-morrales-mujer-banners"
+        ]
+    },
+
+    "responsive-layout.desktop#category-morrales-mujer-banners":{
+        "children":[
+            "flex-layout.row#category-morrales-mujer-banners-1"
+        ]
+    },
+
+    "rich-text#category-morrales-mujer-bread-crumb":{
+        "props":{
+            "text": "[Home](/) / [**Mujer**](/mujer) / [**Accesorios**](/mujer/accesorios) / [**Morrales**](/mujer/accesorios/morrales)",
+            "blockClass": "departmentBreadCrumb"
+        }
+    },
+
+    "rich-text#category-morrales-mujer-title":{
+        "props":{
+            "text": "Morrales para mujer",
+            "blockClass": "departmentTitle"
+        }
+    },
+
+    "rich-text#category-morrales-mujer-description":{
+        "props":{
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "blockClass": "departmentDescription"
+        }
+    },
+
+    "search-result-layout.customQuery#category-morrales-mujer": {
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile#category-morrales-mujer"
+        ],
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceASC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 12,
+                "queryField": "mujer/accesorios/morrales",
+                "skusFilter": "ALL",
+                "mapField": "category-1"
+            }
+        }
+    },
+
+    "flex-layout.row#category-morrales-mujer-banners-1":{
+        "children":[
+            "image#category-morrales-mujer-banners-1-img-1",
+            "image#category-morrales-mujer-banners-1-img-2",
+            "image#category-morrales-mujer-banners-1-img-3"
+        ],
+        "props":{
+            "blockClass":"contentCategoryBannersDesk"
+        }
+    },
+
+    "image#category-morrales-mujer-banners-1-img-1": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-3.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+    "image#category-morrales-mujer-banners-1-img-2": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-2.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-2"
+        }
+    },
+
+    "image#category-morrales-mujer-banners-1-img-3": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-1.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-3"
+        }
+    }
+}

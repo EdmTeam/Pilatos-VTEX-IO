@@ -602,7 +602,7 @@
   margin-bottom: .6rem;
 }
 
-.flexCol--contentDepartamentImg{
+.flexCol--contentdepartmentImg{
   margin-top: .7rem;
 }
 
@@ -664,7 +664,7 @@
   }
 
   .flexCol--contentInfoProductCart{
-    padding: 0 .5rem 0 0;
+    padding: 0 .5rem 0 5px;
   }
 
   .flexRow--contentFooterCart{
@@ -782,5 +782,205 @@
 
   .flexRowContent--contentSocialMedia{
     width: 15%;
+  }
+}
+
+/* Estilos pagina de departamento */
+.flexRow--contentSearch{
+  width: 100%;
+}
+
+.flexCol--contentBannersDesk{
+  height: auto;
+}
+
+.flexRowContent--contentBanners-2{
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+:global(.vtex-breadcrumb-1-x-container){
+  display: none;
+}
+
+.flexCol--filterCol{
+  min-width: 260px;
+  position: relative;
+}
+
+.flexCol--contentResult{
+  min-width: 65%;
+}
+
+.flexRow--contentResultFilter{
+  margin-top: 2.6rem;
+}
+
+:global(.vtex-search-result-3-x-gallery){
+  padding-left: 0rem;
+  width: 90%;
+  margin: 0 auto;
+}
+
+:global(.vtex-search-result-3-x-orderByButton){
+  justify-content: center;
+  padding: .5rem 0;
+  border: none;
+  border-radius: 0;
+}
+
+:global(.vtex-search-result-3-x-filterPopupArrowIcon){
+  padding: 0 1rem;
+  width: 5%;
+  display: none;
+}
+
+.flexCol--filterOrderBy{
+  position: absolute;
+  top: 2.4rem;
+  height: auto;
+}
+
+:global(.vtex-search-result-3-x-filterMessage){
+  margin-bottom: 1.5rem;
+  margin-left: 3.2rem;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 14px;
+  letter-spacing: 0.02em;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+:global(.vtex-search-result-3-x-filterPopupTitle){
+  text-transform: capitalize;
+  width: 95%;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.025em;
+  color: #000000;
+}
+
+:global(.vtex-search-result-3-x-orderByText){
+  display: none;
+}
+
+:global(.vtex-search-result-3-x-filterTitle){
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 12px;
+  line-height: 18px;
+  color: #000000;
+}
+
+:global(.vtex-search-result-3-x-caretIcon){
+  height: 11px;
+  width: 11px;
+  color: #FFD400;
+}
+
+:global(.vtex-checkbox__label){
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+:global(.vtex-checkbox__line-container){
+  margin-bottom: .5rem;
+}
+
+:global(.vtex-search-result-3-x-filterTemplateOverflow){
+  width: 242px;
+  padding-left: 1.5rem;
+}
+
+:global(.vtex-search-result-3-x-filterTemplateOverflow)::-webkit-scrollbar {
+  width: 6px;
+  background: #FFFFFF;
+}
+
+:global(.vtex-search-result-3-x-filterTemplateOverflow)::-webkit-scrollbar-thumb {
+  display: block;
+  background: #C4C4C4;
+  border-radius: 10px;
+}
+
+:global(.vtex-search-result-3-x-buttonShowMore) :global(.vtex-button){
+  background: #FFFFFF;
+  border: none;
+  border: 1px solid #000000;
+  box-shadow: none;
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.07em;
+  outline: none;
+  border-radius: 0;
+  padding: .5rem 3rem;
+}
+
+.flexRowContent--search-in-mobile{
+  border: 1px solid #000000;
+  width: 88%;
+  margin: .8rem auto;
+}
+
+.flexRowContent--search-in-mobile .stretchChildrenWidth{
+  width: 50% !important;
+}
+
+.flexCol--filterMobileCol{
+  border-right: 1px solid #000000;
+}
+
+@media only screen and (min-width: 1180px){
+  .flexRow--contentSearch{
+    width: 88%;
+    margin: 0 auto;
+  }
+
+  :global(.vtex-search-result-3-x-gallery){
+    padding-left: 6.3rem;
+    width: 100%;
+  }
+
+  :global(.vtex-search-result-3-x-filterPopupArrowIcon){
+    display: block;
+  }
+
+  :global(.vtex-search-result-3-x-orderByButton){
+    border: 1px solid #D3D1D1;
+    padding: .8rem 0;
+  }
+
+  .flexRowContent--search-in-mobile{
+    width: 100%;
+  }
+
+  :global(.vtex-search-result-3-x-filterMessage){
+    margin-bottom: 6.3rem;
+    margin-left: 0;
+    font-weight: 900;
+  }
+
+  .flexRowContent--contentCategoryBannersDesk .stretchChildrenWidth{
+    width: 33.3% !important;
+  }
+
+  .flexRowContent--contentCategoryBannersDesk :global(.vtex-store-components-3-x-imageElementLink--departmentBannerImg-1){
+    margin-right: 1.2rem;
+  }
+
+  .flexRowContent--contentCategoryBannersDesk :global(.vtex-store-components-3-x-imageElementLink--departmentBannerImg-2){
+    margin: 0 .6rem .5rem .6rem;
+  }
+
+  .flexRowContent--contentCategoryBannersDesk :global(.vtex-store-components-3-x-imageElementLink--departmentBannerImg-3){
+    margin: 0 0 .5rem 1.2rem;
   }
 }

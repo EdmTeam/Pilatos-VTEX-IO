@@ -1,0 +1,115 @@
+{
+    "store.custom#category-perfumes-niños":{
+        "blocks":[
+            "flex-layout.row#banner-category-perfumes-niños",
+            "search-result-layout.customQuery#category-perfumes-niños"
+        ]
+    },
+
+    "flex-layout.row#banner-category-perfumes-niños":{
+        "children":[
+            "flex-layout.col#banner-category-perfumes-niños"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#banner-category-perfumes-niños":{
+        "children":[
+            "rich-text#category-perfumes-niños-bread-crumb",
+            "rich-text#category-perfumes-niños-title",
+            "rich-text#category-perfumes-niños-description",
+            "responsive-layout.desktop#category-perfumes-niños-banners",
+            "responsive-layout.mobile#category-perfumes-niños-banners"
+        ]
+    },
+
+    "responsive-layout.desktop#category-perfumes-niños-banners":{
+        "children":[
+            "flex-layout.row#category-perfumes-niños-banners-1"
+        ]
+    },
+
+    "rich-text#category-perfumes-niños-bread-crumb":{
+        "props":{
+            "text": "[Home](/) / [**Niños**](/ninos) / [**Accesorios**](/ninos/accesorios) / [**Perfumes**](/ninos/accesorios/perfumes)",
+            "blockClass": "departmentBreadCrumb"
+        }
+    },
+
+    "rich-text#category-perfumes-niños-title":{
+        "props":{
+            "text": "Perfumes para niños",
+            "blockClass": "departmentTitle"
+        }
+    },
+
+    "rich-text#category-perfumes-niños-description":{
+        "props":{
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "blockClass": "departmentDescription"
+        }
+    },
+
+    "search-result-layout.customQuery#category-perfumes-niños": {
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile#category-perfumes-niños"
+        ],
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceASC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 12,
+                "queryField": "niños/accesorios/perfumes",
+                "skusFilter": "ALL",
+                "mapField": "category-1"
+            }
+        }
+    },
+
+    "flex-layout.row#category-perfumes-niños-banners-1":{
+        "children":[
+            "image#category-perfumes-niños-banners-1-img-1",
+            "image#category-perfumes-niños-banners-1-img-2",
+            "image#category-perfumes-niños-banners-1-img-3"
+        ],
+        "props":{
+            "blockClass":"contentCategoryBannersDesk"
+        }
+    },
+
+    "image#category-perfumes-niños-banners-1-img-1": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-3.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+    "image#category-perfumes-niños-banners-1-img-2": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-2.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-2"
+        }
+    },
+
+    "image#category-perfumes-niños-banners-1-img-3": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-1.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-3"
+        }
+    }
+}

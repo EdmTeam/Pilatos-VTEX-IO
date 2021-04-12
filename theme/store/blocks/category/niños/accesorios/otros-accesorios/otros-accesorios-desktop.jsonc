@@ -1,0 +1,115 @@
+{
+    "store.custom#category-otros-accesorios-niños":{
+        "blocks":[
+            "flex-layout.row#banner-category-otros-accesorios-niños",
+            "search-result-layout.customQuery#category-otros-accesorios-niños"
+        ]
+    },
+
+    "flex-layout.row#banner-category-otros-accesorios-niños":{
+        "children":[
+            "flex-layout.col#banner-category-otros-accesorios-niños"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#banner-category-otros-accesorios-niños":{
+        "children":[
+            "rich-text#category-otros-accesorios-niños-bread-crumb",
+            "rich-text#category-otros-accesorios-niños-title",
+            "rich-text#category-otros-accesorios-niños-description",
+            "responsive-layout.desktop#category-otros-accesorios-niños-banners",
+            "responsive-layout.mobile#category-otros-accesorios-niños-banners"
+        ]
+    },
+
+    "responsive-layout.desktop#category-otros-accesorios-niños-banners":{
+        "children":[
+            "flex-layout.row#category-otros-accesorios-niños-banners-1"
+        ]
+    },
+
+    "rich-text#category-otros-accesorios-niños-bread-crumb":{
+        "props":{
+            "text": "[Home](/) / [**Niños**](/ninos) / [**Accesorios**](/ninos/accesorios) / [**Otros Accesorios**](/ninos/accesorios/otros-accesorios)",
+            "blockClass": "departmentBreadCrumb"
+        }
+    },
+
+    "rich-text#category-otros-accesorios-niños-title":{
+        "props":{
+            "text": "Otros accesorios para niños",
+            "blockClass": "departmentTitle"
+        }
+    },
+
+    "rich-text#category-otros-accesorios-niños-description":{
+        "props":{
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "blockClass": "departmentDescription"
+        }
+    },
+
+    "search-result-layout.customQuery#category-otros-accesorios-niños": {
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile#category-otros-accesorios-niños"
+        ],
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceASC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 12,
+                "queryField": "niños/accesorios/otros-accesorios",
+                "skusFilter": "ALL",
+                "mapField": "category-1"
+            }
+        }
+    },
+
+    "flex-layout.row#category-otros-accesorios-niños-banners-1":{
+        "children":[
+            "image#category-otros-accesorios-niños-banners-1-img-1",
+            "image#category-otros-accesorios-niños-banners-1-img-2",
+            "image#category-otros-accesorios-niños-banners-1-img-3"
+        ],
+        "props":{
+            "blockClass":"contentCategoryBannersDesk"
+        }
+    },
+
+    "image#category-otros-accesorios-niños-banners-1-img-1": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-3.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+    "image#category-otros-accesorios-niños-banners-1-img-2": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-2.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-2"
+        }
+    },
+
+    "image#category-otros-accesorios-niños-banners-1-img-3": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-1.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-3"
+        }
+    }
+}

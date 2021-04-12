@@ -1,0 +1,115 @@
+{
+    "store.custom#category-bikinis-mujer":{
+        "blocks":[
+            "flex-layout.row#banner-category-bikinis-mujer",
+            "search-result-layout.customQuery#category-bikinis-mujer"
+        ]
+    },
+
+    "flex-layout.row#banner-category-bikinis-mujer":{
+        "children":[
+            "flex-layout.col#banner-category-bikinis-mujer"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#banner-category-bikinis-mujer":{
+        "children":[
+            "rich-text#category-bikinis-mujer-bread-crumb",
+            "rich-text#category-bikinis-mujer-title",
+            "rich-text#category-bikinis-mujer-description",
+            "responsive-layout.desktop#category-bikinis-mujer-banners",
+            "responsive-layout.mobile#category-bikinis-mujer-banners"
+        ]
+    },
+
+    "responsive-layout.desktop#category-bikinis-mujer-banners":{
+        "children":[
+            "flex-layout.row#category-bikinis-mujer-banners-1"
+        ]
+    },
+
+    "rich-text#category-bikinis-mujer-bread-crumb":{
+        "props":{
+            "text": "[Home](/) / [**Mujer**](/mujer) / [**Ropa de Playa**](/mujer/ropa-de-playa) / [**Bikinis**](/mujer/ropa-de-playa/bikinis)",
+            "blockClass": "departmentBreadCrumb"
+        }
+    },
+
+    "rich-text#category-bikinis-mujer-title":{
+        "props":{
+            "text": "Bikinis para mujer",
+            "blockClass": "departmentTitle"
+        }
+    },
+
+    "rich-text#category-bikinis-mujer-description":{
+        "props":{
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "blockClass": "departmentDescription"
+        }
+    },
+
+    "search-result-layout.customQuery#category-bikinis-mujer": {
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile#category-bikinis-mujer"
+        ],
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceASC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 12,
+                "queryField": "mujer/ropa-de-playa/bikinis",
+                "skusFilter": "ALL",
+                "mapField": "category-1"
+            }
+        }
+    },
+
+    "flex-layout.row#category-bikinis-mujer-banners-1":{
+        "children":[
+            "image#category-bikinis-mujer-banners-1-img-1",
+            "image#category-bikinis-mujer-banners-1-img-2",
+            "image#category-bikinis-mujer-banners-1-img-3"
+        ],
+        "props":{
+            "blockClass":"contentCategoryBannersDesk"
+        }
+    },
+
+    "image#category-bikinis-mujer-banners-1-img-1": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-3.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+    "image#category-bikinis-mujer-banners-1-img-2": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-2.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-2"
+        }
+    },
+
+    "image#category-bikinis-mujer-banners-1-img-3": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-1.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-3"
+        }
+    }
+}

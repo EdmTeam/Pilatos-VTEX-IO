@@ -1,56 +1,56 @@
 {
-    "flex-layout.col#submenu-desk-departament-3-category-2":{
+    "flex-layout.col#submenu-desk-department-3-category-2":{
         "children":[
-            "flex-layout.col#submenu-desk-departament-3-category-2-row-1",
-            "flex-layout.col#submenu-desk-departament-3-category-5-row-1",
-            "flex-layout.col#submenu-desk-departament-3-category-6-row-1"
+            "flex-layout.col#submenu-desk-department-3-category-2-row-1",
+            "flex-layout.col#submenu-desk-department-3-category-5-row-1",
+            "flex-layout.col#submenu-desk-department-3-category-6-row-1"
         ]
     },
 
-    "flex-layout.col#submenu-desk-departament-3-category-2-row-1":{
+    "flex-layout.col#submenu-desk-department-3-category-2-row-1":{
         "children":[
-            "rich-text#submenu-desk-departament-3-category-2",
-            "rich-text#submenu-desk-departament-3-category-2-subcategory-1",
-            "rich-text#submenu-desk-departament-3-category-2-subcategory-2",
-            "rich-text#submenu-desk-departament-3-category-2-subcategory-3",
-            "rich-text#submenu-desk-departament-3-category-2-subcategory-4"
+            "rich-text#submenu-desk-department-3-category-2",
+            "rich-text#submenu-desk-department-3-category-2-subcategory-1",
+            "rich-text#submenu-desk-department-3-category-2-subcategory-2",
+            "rich-text#submenu-desk-department-3-category-2-subcategory-3",
+            "rich-text#submenu-desk-department-3-category-2-subcategory-4"
         ],
         "props":{
             "blockClass": "contentBlockSubmenu"
         }
     },
 
-    "rich-text#submenu-desk-departament-3-category-2":{
+    "rich-text#submenu-desk-department-3-category-2":{
         "props":{
-            "text": "[JEANS](/niños/jeans)",
+            "text": "[JEANS](/ninos/jeans)",
             "blockClass": "textCategory"
         }
     },
 
-    "rich-text#submenu-desk-departament-3-category-2-subcategory-1":{
+    "rich-text#submenu-desk-department-3-category-2-subcategory-1":{
         "props":{
-            "text": "[Superslin](/niños/ropa/Superslin)",
+            "text": "[Superslin](/ninos/ropa/Superslin)",
             "blockClass": "textSubcategory"
         }
     },
 
-    "rich-text#submenu-desk-departament-3-category-2-subcategory-2":{
+    "rich-text#submenu-desk-department-3-category-2-subcategory-2":{
         "props":{
-            "text": "[Regular](/niños/ropa/regular)",
+            "text": "[Regular](/ninos/ropa/regular)",
             "blockClass": "textSubcategory"
         }
     },
 
-    "rich-text#submenu-desk-departament-3-category-2-subcategory-3":{
+    "rich-text#submenu-desk-department-3-category-2-subcategory-3":{
         "props":{
-            "text": "[Wide](/niños/ropa/wide)",
+            "text": "[Wide](/ninos/ropa/wide)",
             "blockClass": "textSubcategory"
         }
     },
 
-    "rich-text#submenu-desk-departament-3-category-2-subcategory-4":{
+    "rich-text#submenu-desk-department-3-category-2-subcategory-4":{
         "props":{
-            "text": "[Slim](/niños/ropa/slim)",
+            "text": "[Slim](/ninos/ropa/slim)",
             "blockClass": "textSubcategory"
         }
     }

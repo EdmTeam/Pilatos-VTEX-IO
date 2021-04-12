@@ -1,0 +1,115 @@
+{
+    "store.custom#category-bolsos-mujer":{
+        "blocks":[
+            "flex-layout.row#banner-category-bolsos-mujer",
+            "search-result-layout.customQuery#category-bolsos-mujer"
+        ]
+    },
+
+    "flex-layout.row#banner-category-bolsos-mujer":{
+        "children":[
+            "flex-layout.col#banner-category-bolsos-mujer"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#banner-category-bolsos-mujer":{
+        "children":[
+            "rich-text#category-bolsos-mujer-bread-crumb",
+            "rich-text#category-bolsos-mujer-title",
+            "rich-text#category-bolsos-mujer-description",
+            "responsive-layout.desktop#category-bolsos-mujer-banners",
+            "responsive-layout.mobile#category-bolsos-mujer-banners"
+        ]
+    },
+
+    "responsive-layout.desktop#category-bolsos-mujer-banners":{
+        "children":[
+            "flex-layout.row#category-bolsos-mujer-banners-1"
+        ]
+    },
+
+    "rich-text#category-bolsos-mujer-bread-crumb":{
+        "props":{
+            "text": "[Home](/) / [**Mujer**](/mujer) / [**Accesorios**](/mujer/accesorios) / [**Bolsos**](/mujer/accesorios/bolsos)",
+            "blockClass": "departmentBreadCrumb"
+        }
+    },
+
+    "rich-text#category-bolsos-mujer-title":{
+        "props":{
+            "text": "Bolsos para mujer",
+            "blockClass": "departmentTitle"
+        }
+    },
+
+    "rich-text#category-bolsos-mujer-description":{
+        "props":{
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "blockClass": "departmentDescription"
+        }
+    },
+
+    "search-result-layout.customQuery#category-bolsos-mujer": {
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile#category-bolsos-mujer"
+        ],
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceASC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 12,
+                "queryField": "mujer/accesorios/bolsos",
+                "skusFilter": "ALL",
+                "mapField": "category-1"
+            }
+        }
+    },
+
+    "flex-layout.row#category-bolsos-mujer-banners-1":{
+        "children":[
+            "image#category-bolsos-mujer-banners-1-img-1",
+            "image#category-bolsos-mujer-banners-1-img-2",
+            "image#category-bolsos-mujer-banners-1-img-3"
+        ],
+        "props":{
+            "blockClass":"contentCategoryBannersDesk"
+        }
+    },
+
+    "image#category-bolsos-mujer-banners-1-img-1": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-3.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+    "image#category-bolsos-mujer-banners-1-img-2": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-2.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-2"
+        }
+    },
+
+    "image#category-bolsos-mujer-banners-1-img-3": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-1.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-3"
+        }
+    }
+}

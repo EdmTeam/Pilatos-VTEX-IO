@@ -97,7 +97,7 @@
       "unavailableText": "Agotado"
     }
   },
-  "product-summary-specification-badges": {
+  "vtex.product-summary:product-summary-specification-badges": {
     "props": {
       "specificationGroupName": "Group",
       "specificationName": "On Sale",

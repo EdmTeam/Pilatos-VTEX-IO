@@ -1,0 +1,115 @@
+{
+    "store.custom#category-relojes-hombre":{
+        "blocks":[
+            "flex-layout.row#banner-category-relojes-hombre",
+            "search-result-layout.customQuery#category-relojes-hombre"
+        ]
+    },
+
+    "flex-layout.row#banner-category-relojes-hombre":{
+        "children":[
+            "flex-layout.col#banner-category-relojes-hombre"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#banner-category-relojes-hombre":{
+        "children":[
+            "rich-text#category-relojes-hombre-bread-crumb",
+            "rich-text#category-relojes-hombre-title",
+            "rich-text#category-relojes-hombre-description",
+            "responsive-layout.desktop#category-relojes-hombre-banners",
+            "responsive-layout.mobile#category-relojes-hombre-banners"
+        ]
+    },
+
+    "responsive-layout.desktop#category-relojes-hombre-banners":{
+        "children":[
+            "flex-layout.row#category-relojes-hombre-banners-1"
+        ]
+    },
+
+    "rich-text#category-relojes-hombre-bread-crumb":{
+        "props":{
+            "text": "[Home](/) / [**Hombre**](/hombre) / [**Accesorios**](/hombre/accesorios) / [**Relojes**](/hombre/accesorios/relojes)",
+            "blockClass": "departmentBreadCrumb"
+        }
+    },
+
+    "rich-text#category-relojes-hombre-title":{
+        "props":{
+            "text": "Relojes para hombre",
+            "blockClass": "departmentTitle"
+        }
+    },
+
+    "rich-text#category-relojes-hombre-description":{
+        "props":{
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "blockClass": "departmentDescription"
+        }
+    },
+
+    "search-result-layout.customQuery#category-relojes-hombre": {
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile#category-relojes-hombre"
+        ],
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceASC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 12,
+                "queryField": "hombre/accesorios/relojes",
+                "skusFilter": "ALL",
+                "mapField": "category-1"
+            }
+        }
+    },
+
+    "flex-layout.row#category-relojes-hombre-banners-1":{
+        "children":[
+            "image#category-relojes-hombre-banners-1-img-1",
+            "image#category-relojes-hombre-banners-1-img-2",
+            "image#category-relojes-hombre-banners-1-img-3"
+        ],
+        "props":{
+            "blockClass":"contentCategoryBannersDesk"
+        }
+    },
+
+    "image#category-relojes-hombre-banners-1-img-1": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-3.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+    "image#category-relojes-hombre-banners-1-img-2": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-2.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-2"
+        }
+    },
+
+    "image#category-relojes-hombre-banners-1-img-3": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-1.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-3"
+        }
+    }
+}

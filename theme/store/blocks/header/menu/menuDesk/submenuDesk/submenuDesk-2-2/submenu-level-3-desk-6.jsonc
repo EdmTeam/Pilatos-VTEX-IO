@@ -1,36 +1,36 @@
 {
-    "flex-layout.col#submenu-desk-departament-2-category-6":{
+    "flex-layout.col#submenu-desk-department-2-category-6":{
         "children":[
-            "flex-layout.col#submenu-desk-departament-2-category-6-row-1"
+            "flex-layout.col#submenu-desk-department-2-category-6-row-1"
         ]
     },
 
-    "flex-layout.col#submenu-desk-departament-2-category-6-row-1":{
+    "flex-layout.col#submenu-desk-department-2-category-6-row-1":{
         "children":[
-            "rich-text#submenu-desk-departament-2-category-6",
-            "rich-text#submenu-desk-departament-2-category-6-subcategory-1",
-            "rich-text#submenu-desk-departament-2-category-6-subcategory-2"
+            "rich-text#submenu-desk-department-2-category-6",
+            "rich-text#submenu-desk-department-2-category-6-subcategory-1",
+            "rich-text#submenu-desk-department-2-category-6-subcategory-2"
         ],
         "props":{
             "blockClass": "contentBlockSubmenu"
         }
     },
 
-    "rich-text#submenu-desk-departament-2-category-6":{
+    "rich-text#submenu-desk-department-2-category-6":{
         "props":{
             "text": "[ROPA INTERIOR](/mujer/ropa-interior)",
             "blockClass": "textCategory"
         }
     },
 
-    "rich-text#submenu-desk-departament-2-category-6-subcategory-1":{
+    "rich-text#submenu-desk-department-2-category-6-subcategory-1":{
         "props":{
             "text": "[Boxer](/mujer/ropa-interior/boxer)",
             "blockClass": "textSubcategory"
         }
     },
 
-    "rich-text#submenu-desk-departament-2-category-6-subcategory-2":{
+    "rich-text#submenu-desk-department-2-category-6-subcategory-2":{
         "props":{
             "text": "[Medias](/mujer/ropa-interior/medias)",
             "blockClass": "textSubcategory"

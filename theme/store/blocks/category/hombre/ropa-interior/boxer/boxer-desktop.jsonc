@@ -1,0 +1,115 @@
+{
+    "store.custom#category-boxer-hombre":{
+        "blocks":[
+            "flex-layout.row#banner-category-boxer-hombre",
+            "search-result-layout.customQuery#category-boxer-hombre"
+        ]
+    },
+
+    "flex-layout.row#banner-category-boxer-hombre":{
+        "children":[
+            "flex-layout.col#banner-category-boxer-hombre"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#banner-category-boxer-hombre":{
+        "children":[
+            "rich-text#category-boxer-hombre-bread-crumb",
+            "rich-text#category-boxer-hombre-title",
+            "rich-text#category-boxer-hombre-description",
+            "responsive-layout.desktop#category-boxer-hombre-banners",
+            "responsive-layout.mobile#category-boxer-hombre-banners"
+        ]
+    },
+
+    "responsive-layout.desktop#category-boxer-hombre-banners":{
+        "children":[
+            "flex-layout.row#category-boxer-hombre-banners-1"
+        ]
+    },
+
+    "rich-text#category-boxer-hombre-bread-crumb":{
+        "props":{
+            "text": "[Home](/) / [**Hombre**](/hombre) / [**Ropa Interior**](/hombre/ropa-interior) / [**Boxer**](/hombre/ropa-interior/boxer)",
+            "blockClass": "departmentBreadCrumb"
+        }
+    },
+
+    "rich-text#category-boxer-hombre-title":{
+        "props":{
+            "text": "Boxer para hombre",
+            "blockClass": "departmentTitle"
+        }
+    },
+
+    "rich-text#category-boxer-hombre-description":{
+        "props":{
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "blockClass": "departmentDescription"
+        }
+    },
+
+    "search-result-layout.customQuery#category-boxer-hombre": {
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile#category-boxer-hombre"
+        ],
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceASC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 12,
+                "queryField": "hombre/ropa-interior/boxer",
+                "skusFilter": "ALL",
+                "mapField": "category-1"
+            }
+        }
+    },
+
+    "flex-layout.row#category-boxer-hombre-banners-1":{
+        "children":[
+            "image#category-boxer-hombre-banners-1-img-1",
+            "image#category-boxer-hombre-banners-1-img-2",
+            "image#category-boxer-hombre-banners-1-img-3"
+        ],
+        "props":{
+            "blockClass":"contentCategoryBannersDesk"
+        }
+    },
+
+    "image#category-boxer-hombre-banners-1-img-1": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-3.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+    "image#category-boxer-hombre-banners-1-img-2": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-2.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-2"
+        }
+    },
+
+    "image#category-boxer-hombre-banners-1-img-3": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-1.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-3"
+        }
+    }
+}

@@ -1,0 +1,115 @@
+{
+    "store.custom#category-tapabocas-niños":{
+        "blocks":[
+            "flex-layout.row#banner-category-tapabocas-niños",
+            "search-result-layout.customQuery#category-tapabocas-niños"
+        ]
+    },
+
+    "flex-layout.row#banner-category-tapabocas-niños":{
+        "children":[
+            "flex-layout.col#banner-category-tapabocas-niños"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#banner-category-tapabocas-niños":{
+        "children":[
+            "rich-text#category-tapabocas-niños-bread-crumb",
+            "rich-text#category-tapabocas-niños-title",
+            "rich-text#category-tapabocas-niños-description",
+            "responsive-layout.desktop#category-tapabocas-niños-banners",
+            "responsive-layout.mobile#category-tapabocas-niños-banners"
+        ]
+    },
+
+    "responsive-layout.desktop#category-tapabocas-niños-banners":{
+        "children":[
+            "flex-layout.row#category-tapabocas-niños-banners-1"
+        ]
+    },
+
+    "rich-text#category-tapabocas-niños-bread-crumb":{
+        "props":{
+            "text": "[Home](/) / [**Niños**](/ninos) / [**Accesorios**](/ninos/accesorios) / [**Tapabocas**](/ninos/accesorios/tapabocas)",
+            "blockClass": "departmentBreadCrumb"
+        }
+    },
+
+    "rich-text#category-tapabocas-niños-title":{
+        "props":{
+            "text": "Tapabocas para niños",
+            "blockClass": "departmentTitle"
+        }
+    },
+
+    "rich-text#category-tapabocas-niños-description":{
+        "props":{
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "blockClass": "departmentDescription"
+        }
+    },
+
+    "search-result-layout.customQuery#category-tapabocas-niños": {
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile#category-tapabocas-niños"
+        ],
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceASC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 12,
+                "queryField": "niños/accesorios/tapabocas",
+                "skusFilter": "ALL",
+                "mapField": "category-1"
+            }
+        }
+    },
+
+    "flex-layout.row#category-tapabocas-niños-banners-1":{
+        "children":[
+            "image#category-tapabocas-niños-banners-1-img-1",
+            "image#category-tapabocas-niños-banners-1-img-2",
+            "image#category-tapabocas-niños-banners-1-img-3"
+        ],
+        "props":{
+            "blockClass":"contentCategoryBannersDesk"
+        }
+    },
+
+    "image#category-tapabocas-niños-banners-1-img-1": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-3.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+    "image#category-tapabocas-niños-banners-1-img-2": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-2.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-2"
+        }
+    },
+
+    "image#category-tapabocas-niños-banners-1-img-3": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-1.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-3"
+        }
+    }
+}
