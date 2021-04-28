@@ -3,7 +3,10 @@
         "blocks":[
             "flex-layout.row#banner-category-ropa-interior-mujer",
             "search-result-layout.customQuery#category-ropa-interior-mujer"
-        ]
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
     },
 
     "flex-layout.row#banner-category-ropa-interior-mujer":{

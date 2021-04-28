@@ -4,15 +4,8 @@
             "flex-layout.row#banner-category-ropa-hombre",
             "search-result-layout.customQuery#category-ropa-hombre"
         ],
-        "props": {
-            "context": {
-                "__unstableProductOriginVtex": true,
-                "skusFilter": "FIRST_AVAILABLE",
-                "simulationBehavior": "skip",
-                "maxItemsPerPage": 12,
-                "hideUnavailableItems": true
-            },
-            "blockClass": "contentLanding"
+        "props":{
+            "blockClass": "contentStoreCustom"
         }
     },
 

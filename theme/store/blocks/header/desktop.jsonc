@@ -238,7 +238,27 @@
   "login#header-items-ico-2": {
     "props": {
       "optionsTitle": "Ingresa o crea tu cuenta",
-      "hasGoogleOneTap": true
+      "accessCodeTitle": "Ingresa tu correo electrónico para enviarte el código de acceso",
+      "emailPlaceholder": "Ingresa tu correo electrónico",
+      "showPasswordVerificationIntoTooltip": true,
+      "accountOptionLinks": [
+        {
+          "label": "Mi Perfil",
+          "path": "/account#/profile",
+          "cssClass": "profile-link"
+        },
+        {
+          "label": "Mis Pedidos",
+          "path": "/account#/orders",
+          "cssClass": "profile-link"
+        },
+        {
+          "label": "Mis Direcciones",
+          "path": "/account#/addresses",
+          "cssClass": "profile-link"
+        }
+      ],
+      "oAuthRedirect": "Google"
     }
   },
 

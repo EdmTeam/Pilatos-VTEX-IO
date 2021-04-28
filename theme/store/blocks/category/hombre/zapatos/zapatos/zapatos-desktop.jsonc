@@ -3,7 +3,10 @@
         "blocks":[
             "flex-layout.row#banner-category-sub-zapatos-hombre",
             "search-result-layout.customQuery#category-sub-zapatos-hombre"
-        ]
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
     },
 
     "flex-layout.row#banner-category-sub-zapatos-hombre":{

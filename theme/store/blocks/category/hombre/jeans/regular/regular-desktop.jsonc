@@ -3,7 +3,10 @@
         "blocks":[
             "flex-layout.row#banner-category-regular-hombre",
             "search-result-layout.customQuery#category-regular-hombre"
-        ]
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
     },
 
     "flex-layout.row#banner-category-regular-hombre":{

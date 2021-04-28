@@ -2,77 +2,124 @@
     //paginas 404
     "store.not-found#product": {
         "blocks": [
-            "flex-layout.row#not-found-1",
-            "flex-layout.row#not-found-2",
-            "flex-layout.row#not-found-3",
-            "flex-layout.row#spacer"
+            "flex-layout.row#error404",
+            "rich-text#btnHome"
         ]
     },
+
     "store.not-found#search": {
         "blocks": [
-            "flex-layout.row#not-found-1",
-            "flex-layout.row#not-found-2",
-            "flex-layout.row#not-found-3",
-            "flex-layout.row#spacer"
+            "flex-layout.row#error404",
+            "rich-text#btnHome"
         ]
     },
+
+    "flex-layout.row#error404":{
+        "props":{
+            "blockClass": "errorPage"
+        }
+    },
+
+    "rich-text#btnHome":{
+        "props":{
+            "text": "[IR AL HOME](/)",
+            "blockClass": "btnHome"
+        }
+    },
+
     //cuando no hay resultados de busqueda
     "search-not-found-layout": {
         "children": [
-            "flex-layout.row#bread-crumb",
-            "flex-layout.row#not-found-1",
-            "flex-layout.row#not-found-2",
-            "flex-layout.row#not-found-3",
-            "flex-layout.row#spacer"
+            "responsive-layout.mobile#error-search",
+            "responsive-layout.desktop#error-search",
+            "flex-layout.row#content-links"
         ]
     },
-    "flex-layout.row#not-found-1": {
-        "children": [
-            "not-found"
-        ],
-        "props": {
-            "fullWidth": true
-        }
-    },
-    "flex-layout.row#not-found-2": {
-        "children": [
-            "rich-text#not-found"
-        ],
-        "props": {
-            "fullWidth": true
-        }
-    },
-    "rich-text#not-found": {
-        "props": {
-            "textAlignment": "CENTER",
-            "textPosition": "CENTER",
-            "text": "**Te puede interesar**"
-        }
-    },
-    "flex-layout.row#not-found-3": {
-        "children": [
-            "flex-layout.row#shelf-not-found"
-        ],
-        "props": {
-            "fullWidth": true
-        }
-    },
-    "flex-layout.row#shelf-not-found": {
-        "children": [
-            "vtex.product-summary:list-context.product-list#shelf-not-found"
+
+    "responsive-layout.mobile#error-search":{
+        "children":[
+            "flex-layout.row#errorbusquedaIco",
+            "rich-text#error-busqueda",
+            "flex-layout.row#error-busqueda-vacia",
+            "rich-text#error-des"
         ]
     },
-    "vtex.product-summary:list-context.product-list#shelf-not-found": {
-        "blocks": [
-            "vtex.product-summary:product-summary.shelf"
+
+    "responsive-layout.desktop#error-search":{
+        "children":[
+            "flex-layout.row#errorbusquedaIco-desk"
+        ]
+    },
+
+    "flex-layout.row#errorbusquedaIco-desk":{
+        "props":{
+            "blockClass": "errorPageBusquedaIcoDesk"
+        }
+    },
+    
+    "flex-layout.row#errorbusquedaIco":{
+        "props":{
+            "blockClass": "errorPageBusquedaIco"
+        }
+    },
+
+    "rich-text#error-busqueda":{
+        "props":{
+            "text": "BÚSQUEDA",
+            "blockClass": "errorBusqueda"
+        }
+    },
+
+    "flex-layout.row#error-busqueda-vacia":{
+        "props":{
+            "blockClass": "errorPageBusquedaVacia"
+        }
+    },
+
+    "rich-text#error-des":{
+        "props":{
+            "text": "Tu término no coincide, busca nuevamente o navega en nuestras categorías",
+            "blockClass": "errorBusquedaDes"
+        }
+    },
+
+    "flex-layout.row#content-links":{
+        "children":[
+            "rich-text#btn-category-1",
+            "rich-text#btn-category-2",
+            "rich-text#btn-category-3",
+            "rich-text#btn-category-4"
         ],
-        "children": [
-            "slider-layout#home-products"
-        ],
-        "props": {
-            "orderBy": "OrderByTopSaleDESC",
-            //"collection": "138",
-            "maxItems": 14
+        "props":{
+            "blockClass": "contentLinks"
+        }
+    },
+
+    "rich-text#btn-category-1":{
+        "props":{
+            "text": "[Hombre](/hombre)",
+            "blockClass": "btnLink"
+        }
+    },
+
+    "rich-text#btn-category-2":{
+        "props":{
+            "text": "[Mujer](/Mujer)",
+            "blockClass": "btnLink"
+        }
+    },
+
+    "rich-text#btn-category-3":{
+        "props":{
+            "text": "[Niños](/Niños)",
+            "blockClass": "btnLink"
+        }
+    },
+
+    "rich-text#btn-category-4":{
+        "props":{
+            "text": "[Sale](/)",
+            "blockClass": ["btnLink", "btnLinkRed"]
         }
     }
 }

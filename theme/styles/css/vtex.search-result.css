@@ -66,12 +66,92 @@
     font-size: 1.3rem;
 }
 
-/* .filter__container--selectedFilters .filterTemplateOverflow .filterItem :global(.vtex-checkbox__line-container){
-    margin: .4rem 0;
-} */
-
-
 .filter__container--marca{
+    display: none;
+}
+
+.container--layout--contentStoreCustom :global(.vtex-breadcrumb-1-x-container),
+.container--layout--contentStoreCustom .galleryTitle--layout
+{
+    display: none;
+}
+
+.galleryTitle--layout{
+    margin: 0 auto;
+    width: 88%;
+    padding: 0;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    text-transform: capitalize;
+}
+
+.galleryTitle--layout::before{
+    content: 'Búsqueda: ';
+}
+
+.searchResultContainer :global(.vtex-breadcrumb-1-x-container){
+    width: 88%;
+    margin: 0 auto;
+}
+
+.searchResultContainer .totalProducts--layout{
+    display: none;
+}
+
+.searchResultContainer :global(.vtex-breadcrumb-1-x-homeLink){
+    padding: .125rem 0;
+}
+  
+.searchResultContainer :global(.vtex-breadcrumb-1-x-homeLink)::before{
+    content: 'Home';
+}
+  
+.searchResultContainer :global(.vtex-breadcrumb-1-x-homeLink),
+.searchResultContainer :global(.vtex-breadcrumb-1-x-arrow) :global(.vtex-breadcrumb-1-x-link){
+    font-weight: normal;
+    font-size: 9px;
+    line-height: 11px;
+    color: #000000;
+}
+
+.searchResultContainer :global(.vtex-breadcrumb-1-x-arrow) :global(.vtex-breadcrumb-1-x-caretIcon){
+    display: none;
+}
+  
+.searchResultContainer :global(.vtex-breadcrumb-1-x-arrow){
+    padding: 0;
+}
+  
+.searchResultContainer :global(.vtex-breadcrumb-1-x-term){
+    padding-left: .15rem;
+    padding-right: .1rem;
+}
+  
+.searchResultContainer :global(.vtex-breadcrumb-1-x-term){
+    font-weight: bold;
+    font-size: 9px;
+    line-height: 11px;
+    color: #000000;
+}
+  
+.searchResultContainer :global(.vtex-breadcrumb-1-x-arrow) :global(.vtex-breadcrumb-1-x-link){
+    padding-left: 0;
+    padding-right: 0;
+    font-weight: bold;
+}
+  
+.searchResultContainer :global(.vtex-breadcrumb-1-x-arrow) :global(.vtex-breadcrumb-1-x-link)::before,
+.searchResultContainer :global(.vtex-breadcrumb-1-x-term)::before{
+    content: '/';
+    margin: 0 .15rem;
+    font-weight: normal;
+}
+  
+.searchResultContainer :global(.vtex-breadcrumb-1-x-homeLink) :global(.vtex-breadcrumb-1-x-homeIcon){
     display: none;
 }
 
@@ -83,5 +163,16 @@
     .searchResultContainer{
         width: 88%;
         margin: 0 auto;
+    }
+
+    .searchResultContainer :global(.vtex-breadcrumb-1-x-container){
+        width: 100%;
+    }
+
+    .galleryTitle--layout{
+        margin: 0;
+        font-size: 22px;
+        line-height: 28px;
+        width: 100%;
     }
 }

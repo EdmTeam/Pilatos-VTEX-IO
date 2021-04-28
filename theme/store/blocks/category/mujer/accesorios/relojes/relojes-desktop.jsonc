@@ -3,7 +3,10 @@
         "blocks":[
             "flex-layout.row#banner-category-relojes-mujer",
             "search-result-layout.customQuery#category-relojes-mujer"
-        ]
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
     },
 
     "flex-layout.row#banner-category-relojes-mujer":{

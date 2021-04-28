@@ -3,7 +3,10 @@
         "blocks":[
             "flex-layout.row#banner-category-ropa-de-playa-niños",
             "search-result-layout.customQuery#category-ropa-de-playa-niños"
-        ]
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
     },
 
     "flex-layout.row#banner-category-ropa-de-playa-niños":{

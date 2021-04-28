@@ -3,7 +3,10 @@
         "blocks":[
             "flex-layout.row#banner-category-chaquetas-hombre",
             "search-result-layout.customQuery#category-chaquetas-hombre"
-        ]
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
     },
 
     "flex-layout.row#banner-category-chaquetas-hombre":{

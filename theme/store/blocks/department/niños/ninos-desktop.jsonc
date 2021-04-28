@@ -3,7 +3,10 @@
         "blocks":[
             "flex-layout.row#banner-department-ninos",
             "search-result-layout.customQuery#department-ninos"
-        ]
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
     },
 
     "flex-layout.row#banner-department-ninos":{

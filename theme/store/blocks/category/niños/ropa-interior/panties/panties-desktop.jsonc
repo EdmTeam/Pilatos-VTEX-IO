@@ -3,7 +3,10 @@
         "blocks":[
             "flex-layout.row#banner-category-panties-niños",
             "search-result-layout.customQuery#category-panties-niños"
-        ]
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
     },
 
     "flex-layout.row#banner-category-panties-niños":{

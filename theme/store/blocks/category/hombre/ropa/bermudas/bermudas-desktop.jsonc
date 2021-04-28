@@ -3,7 +3,10 @@
         "blocks":[
             "flex-layout.row#banner-category-bermudas-hombre",
             "search-result-layout.customQuery#category-bermudas-hombre"
-        ]
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
     },
 
     "flex-layout.row#banner-category-bermudas-hombre":{

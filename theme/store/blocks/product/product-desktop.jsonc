@@ -1,0 +1,79 @@
+{
+    "responsive-layout.tablet#product-view-product":{
+        "children":[
+            "flex-layout.row#product-view-product-tablet"
+        ]
+      },
+
+    "responsive-layout.desktop#product-view-product":{
+        "children":[
+            "flex-layout.row#product-view-product-tablet"
+        ]
+    },
+    
+      "flex-layout.row#product-view-product-tablet":{
+        "children":[
+            "flex-layout.col#stack-product-tablet",
+            "flex-layout.col#product-description-tablet"
+        ],
+        "props":{
+            "blockClass": "contentProductInfo"
+        }
+    },
+
+    "flex-layout.col#stack-product-tablet":{
+        "children":[
+            "stack-layout#product"
+        ],
+        "props":{
+            "width": "60%"
+        }
+    },
+
+    "flex-layout.col#product-description-tablet":{
+        "children":[
+            "vtex.store-components:product-brand",
+            "vtex.store-components:product-name",
+            "flex-layout.row#product-identifier-rating",
+            "product-price#product",
+            "sku-selector",
+            "flex-layout.row#product-button-quantity",
+            "link#scrollLink",
+            "share#default",
+            "pilatos21.add-to-cart-button:add-to-cart-button"
+          
+        ],
+        "props":{
+            "blockClass": ["product-description", "stack-product"],
+            "width": "40%"
+        }
+    },
+
+    "flex-layout.row#product-button-quantity":{
+        "children":[
+            "flex-layout.col#product-quantity",
+            "flex-layout.col#product-button"
+        ],
+        "props":{
+            "blockClass": "contentButtonQuantity"
+        }
+    },
+
+    "flex-layout.col#product-quantity":{
+        "children":[
+            "product-quantity"
+        ],
+        "props":{
+            "width": "27%"
+        }
+    },
+
+    "flex-layout.col#product-button":{
+        "children":[
+            "flex-layout.row#product-button"
+        ],
+        "props":{
+            "width": "73%"
+        }
+    }
+}

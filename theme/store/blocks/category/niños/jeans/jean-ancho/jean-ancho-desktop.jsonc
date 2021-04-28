@@ -3,7 +3,10 @@
         "blocks":[
             "flex-layout.row#banner-category-jean-ancho-niños",
             "search-result-layout.customQuery#category-jean-ancho-niños"
-        ]
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
     },
 
     "flex-layout.row#banner-category-jean-ancho-niños":{

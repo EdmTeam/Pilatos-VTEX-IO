@@ -3,7 +3,10 @@
         "blocks":[
             "flex-layout.row#banner-category-enteros-mujer",
             "search-result-layout.customQuery#category-enteros-mujer"
-        ]
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
     },
 
     "flex-layout.row#banner-category-enteros-mujer":{

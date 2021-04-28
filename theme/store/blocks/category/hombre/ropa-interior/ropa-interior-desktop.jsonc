@@ -3,7 +3,10 @@
         "blocks":[
             "flex-layout.row#banner-category-ropa-interior-hombre",
             "search-result-layout.customQuery#category-ropa-interior-hombre"
-        ]
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
     },
 
     "flex-layout.row#banner-category-ropa-interior-hombre":{

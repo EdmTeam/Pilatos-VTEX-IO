@@ -23,39 +23,26 @@
         "props": {
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
-            "text": "**Lista de deseos**"
+            "text": "Mis favoritos",
+            "blockClass": "wishlistTitle"
         }
     },
     "list-context.wishlist": {
         "blocks": [
-            "vtex.product-summary:product-summary.shelf#wishlist"
+            "vtex.product-summary:product-summary.shelf#most-viewed"
         ],
         "children": [
-            "slider-layout#wishlist"
+            "flex-layout.row#productwish-content"
         ]
     },
-    "vtex.product-summary:product-summary.shelf#wishlist": {
-        "children": [
-            "add-to-list-btn",
-            "vtex.product-summary:product-summary-image",
-            "vtex.product-summary:product-summary-name",
-            "vtex.product-summary:product-summary-space",
-            "vtex.product-summary:product-summary-price",
-            "add-to-cart-button"
-        ]
-    },
-    "slider-layout#wishlist": {
-        "props": {
-            "itemsPerPage": {
-                "desktop": 5,
-                "tablet": 3,
-                "phone": 1
-            },
-            "showNavigationArrows": "desktopOnly",
-            "showPaginationDots": "always",
-            "infinite": false,
-            "fullWidth": true,
-            "blockClass": "shelf"
+
+    "flex-layout.row#productwish-content":{
+        "children":[
+            "list-context-renderer"
+        ],
+        "props":{
+            "blockClass": "productContentW"
         }
     }
+    
 }

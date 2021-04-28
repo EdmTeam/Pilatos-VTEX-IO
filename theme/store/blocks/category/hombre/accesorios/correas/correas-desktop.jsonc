@@ -3,7 +3,10 @@
         "blocks":[
             "flex-layout.row#banner-category-correas-hombre",
             "search-result-layout.customQuery#category-correas-hombre"
-        ]
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
     },
 
     "flex-layout.row#banner-category-correas-hombre":{

@@ -3,7 +3,10 @@
         "blocks":[
             "flex-layout.row#banner-category-polos-niños",
             "search-result-layout.customQuery#category-polos-niños"
-        ]
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
     },
 
     "flex-layout.row#banner-category-polos-niños":{

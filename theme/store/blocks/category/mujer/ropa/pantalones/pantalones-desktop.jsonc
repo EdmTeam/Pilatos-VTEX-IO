@@ -3,7 +3,10 @@
         "blocks":[
             "flex-layout.row#banner-category-pantalones-mujer",
             "search-result-layout.customQuery#category-pantalones-mujer"
-        ]
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
     },
 
     "flex-layout.row#banner-category-pantalones-mujer":{

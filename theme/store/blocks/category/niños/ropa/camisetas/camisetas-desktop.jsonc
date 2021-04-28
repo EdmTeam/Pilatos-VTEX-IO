@@ -3,7 +3,10 @@
         "blocks":[
             "flex-layout.row#banner-category-camisetas-niños",
             "search-result-layout.customQuery#category-camisetas-niños"
-        ]
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
     },
 
     "flex-layout.row#banner-category-camisetas-niños":{

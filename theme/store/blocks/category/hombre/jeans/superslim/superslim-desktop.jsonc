@@ -3,7 +3,10 @@
         "blocks":[
             "flex-layout.row#banner-category-superslim-hombre",
             "search-result-layout.customQuery#category-superslim-hombre"
-        ]
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
     },
 
     "flex-layout.row#banner-category-superslim-hombre":{

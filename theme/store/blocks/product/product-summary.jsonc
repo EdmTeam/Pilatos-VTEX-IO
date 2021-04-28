@@ -1,5 +1,4 @@
 {
-  
   "vtex.product-summary:product-summary.shelf#most-viewed": {
     "children": [
       "product-price-savings#summary",
@@ -98,14 +97,14 @@
 
   "flex-layout.col#add-to-cart": {
     "children": [
-      "add-to-cart-button#shelf"
+      "pilatos21.add-to-cart-button:add-to-cart-button#shelf"
     ],
     "props": {
       "width": "20%",
       "blockClass": "contentButton"
     }
   },
-  "add-to-cart-button#shelf":{
+  "pilatos21.add-to-cart-button:add-to-cart-button#shelf":{
     "props": {
       "onClickBehavior": "add-to-cart",
       "text": "AGREGAR"

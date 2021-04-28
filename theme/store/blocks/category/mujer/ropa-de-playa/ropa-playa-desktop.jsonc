@@ -3,7 +3,10 @@
         "blocks":[
             "flex-layout.row#banner-category-ropa-de-playa-mujer",
             "search-result-layout.customQuery#category-ropa-de-playa-mujer"
-        ]
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
     },
 
     "flex-layout.row#banner-category-ropa-de-playa-mujer":{

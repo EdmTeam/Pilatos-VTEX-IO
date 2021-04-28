@@ -1,0 +1,109 @@
+div[class="vtex-styleguide-9-x-jsFocusVisible"] div[role="button"]{
+    flex-direction: row-reverse;
+}
+
+:global(.review__comment--user){
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.055em;
+    color: #292929;
+    display: block;
+    margin-top: .1rem;
+}
+
+:global(.vtex-tab-layout-0-x-contentItem--productTabComment) :global(.review__rating){
+    display: none;
+}
+
+:global(.vtex-styleguide-9-x-jsFocusVisible) :global(.vtex__icon-caret-down){
+    color: #000000;
+    width: 12px !important;
+    height: 11px !important;
+}
+
+:global(.vtex-styleguide-9-x-jsFocusVisible) :global(.mr3){
+    margin-right: 0;
+}
+
+:global(.vtex-reviews-and-ratings-1-x-reviewCommentsContainer) :global(.flex):global(.mb7){
+    display: none;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--stack-product) :global(#pilatos21-add-to-cart-button-0-x-btnStyle){
+    position: absolute;
+    bottom: 0;
+    height: 0;
+    width: 0;
+    z-index: -1;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--contentProductInfo) :global(#pilatos21-add-to-cart-button-0-x-btnStyle){
+    position: absolute;
+    bottom: 0;
+    height: 0;
+    width: 0;
+    z-index: -1;
+}
+
+:global(.vtex-reviews-and-ratings-1-x-formContainer) :global(.vtex-card) h3{
+    display: none;
+}
+
+:global(.vtex-reviews-and-ratings-1-x-container) :global(.vtex-reviews-and-ratings-1-x-starpicker) :global(.t-heading-4):global(.pointer){
+    margin-bottom: 1.2rem;
+    display: block;
+}
+
+:global(.vtex-reviews-and-ratings-1-x-container) :global(.vtex-reviews-and-ratings-1-x-writeReviewContainer) :global(.vtex-styleguide-9-x-jsFocusVisible) div[role="button"]{
+    display: none;
+}
+
+:global(.vtex-reviews-and-ratings-1-x-container) :global(.vtex-reviews-and-ratings-1-x-writeReviewContainer) :global(.vtex-styleguide-9-x-jsFocusVisible) div[role="region"]{
+    height: auto !important;
+}
+
+:global(.vtex-reviews-and-ratings-1-x-container) :global(.vtex-card) form div:last-child{
+    display: flex;
+    justify-content: flex-end;
+}
+
+:global(.vtex-reviews-and-ratings-1-x-container) :global(.vtex-card) form div:last-child :global(.vtex-button){
+    width: 140px;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: transparent;
+    position: relative;
+}
+
+:global(.vtex-reviews-and-ratings-1-x-container) :global(.vtex-card) form div:last-child :global(.vtex-button)::before{
+    content: 'Enviar';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 1180px){
+    :global(.review__comment--user){
+        display: inline;
+        margin-left: .5rem;
+        font-size: 13px;
+        line-height: 16px;
+        letter-spacing: 0.055em;
+        color: #292929;
+    }
+
+    :global(.vtex-reviews-and-ratings-1-x-reviewCommentsContainer) :global(.review__comment){
+        border-bottom: 1px solid #606060;;
+    }
+}

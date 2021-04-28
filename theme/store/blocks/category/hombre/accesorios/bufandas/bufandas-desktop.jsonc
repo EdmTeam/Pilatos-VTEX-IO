@@ -3,7 +3,10 @@
         "blocks":[
             "flex-layout.row#banner-category-bufandas-hombre",
             "search-result-layout.customQuery#category-bufandas-hombre"
-        ]
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
     },
 
     "flex-layout.row#banner-category-bufandas-hombre":{

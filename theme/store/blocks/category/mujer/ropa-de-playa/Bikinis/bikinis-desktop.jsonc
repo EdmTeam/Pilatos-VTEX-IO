@@ -3,7 +3,10 @@
         "blocks":[
             "flex-layout.row#banner-category-bikinis-mujer",
             "search-result-layout.customQuery#category-bikinis-mujer"
-        ]
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
     },
 
     "flex-layout.row#banner-category-bikinis-mujer":{

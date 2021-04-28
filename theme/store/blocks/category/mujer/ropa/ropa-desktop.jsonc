@@ -3,7 +3,10 @@
         "blocks":[
             "flex-layout.row#banner-category-ropa-mujer",
             "search-result-layout.customQuery#category-ropa-mujer"
-        ]
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
     },
 
     "flex-layout.row#banner-category-ropa-mujer":{

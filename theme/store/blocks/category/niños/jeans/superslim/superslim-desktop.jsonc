@@ -3,7 +3,10 @@
         "blocks":[
             "flex-layout.row#banner-category-superslim-niños",
             "search-result-layout.customQuery#category-superslim-niños"
-        ]
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
     },
 
     "flex-layout.row#banner-category-superslim-niños":{

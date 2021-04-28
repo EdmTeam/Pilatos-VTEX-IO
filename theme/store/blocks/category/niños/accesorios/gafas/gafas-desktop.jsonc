@@ -3,7 +3,10 @@
         "blocks":[
             "flex-layout.row#banner-category-gafas-niños",
             "search-result-layout.customQuery#category-gafas-niños"
-        ]
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
     },
 
     "flex-layout.row#banner-category-gafas-niños":{

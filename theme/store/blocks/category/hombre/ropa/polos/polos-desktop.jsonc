@@ -3,7 +3,10 @@
         "blocks":[
             "flex-layout.row#banner-category-polos-hombre",
             "search-result-layout.customQuery#category-polos-hombre"
-        ]
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
     },
 
     "flex-layout.row#banner-category-polos-hombre":{

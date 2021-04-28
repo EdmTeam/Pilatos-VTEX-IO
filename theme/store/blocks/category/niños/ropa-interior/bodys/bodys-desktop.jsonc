@@ -3,7 +3,10 @@
         "blocks":[
             "flex-layout.row#banner-category-bodys-niños",
             "search-result-layout.customQuery#category-bodys-niños"
-        ]
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
     },
 
     "flex-layout.row#banner-category-bodys-niños":{

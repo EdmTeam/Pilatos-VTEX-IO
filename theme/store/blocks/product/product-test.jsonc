@@ -1,0 +1,197 @@
+{
+  // "store.product": {
+  //   "children": [
+  //     "breadcrumb",
+  //     "flex-layout.row#product-main",
+  //     "flex-layout.row#product-tab-container",
+  //     "flex-layout.row#related-products",
+  //     "product-questions-and-answers"
+  //   ],
+  //   "props":{
+  //     "blockClass": "test"
+  //   }
+  // },
+  "flex-layout.row#product-reviews": {
+    "props": {
+      "marginBottom": 7
+    },
+    "children": [
+      "product-reviews"
+    ]
+  },
+  
+  "flex-layout.row#product-tab-container": {
+    "props": {
+      "blockClass": "product-tab-container"
+    },
+    "children": [
+      "tab-layout#product-tab"
+    ]
+  },
+  "flex-layout.row#related-products": {
+    "props": {
+      "marginBottom": 10
+    },
+    "children": [
+      "shelf.relatedProducts"
+    ]
+  },
+  "shelf.relatedProducts": {
+    "blocks": [
+      "vtex.product-summary:product-summary.shelf"
+    ],
+    "props": {
+      "recommendation": "view",
+      "productList": {
+        "arrows": true,
+        "titleText": "También te puede interesar",
+        "minItemsPerPage": 2,
+        "itemsPerPage": 5
+      }
+    }
+  },
+  
+  "flex-layout.row#product-main": {
+    "props": {
+      "colGap": 7,
+      "rowGap": 7,
+      "marginTop": 4,
+      "marginBottom": 7,
+      "paddingTop": 7,
+      "paddingBottom": 7
+    },
+    "children": [
+      "flex-layout.col#stack-product",
+      "flex-layout.col#right-col"
+    ]
+  },
+  "product-specification-badges": {
+    "props": {
+      "specificationGroupName": "Group",
+      "specificationName": "On Sale",
+      "visibleWhen": true,
+      "displayValue": "SPECIFICATION_NAME"
+    }
+  },
+  "flex-layout.col#stack-product": {
+    "children": [
+      "stack-layout#product"
+    ],
+    "props": {
+      "width": "60%",
+      "rowGap": 0
+    }
+  },
+  "stack-layout#product": {
+    "children": [
+      "flex-layout.row#product-image",
+      "product-bookmark",
+      "product-specification-badges"
+    ]
+  },
+  "flex-layout.row#product-image": {
+    "children": [
+      "product-images"
+    ]
+  },
+  "product-images": {
+    "props": {
+      "aspectRatio": {
+        "desktop": "auto",
+        "phone": "16:9"
+      },
+      "displayThumbnailsArrows": true
+    }
+  },
+  "flex-layout.col#right-col": {
+    "props": {
+      "preventVerticalStretch": true,
+      "rowGap": 0
+    },
+    "children": [
+      "add-to-list-btn",
+      "flex-layout.row#product-name",
+      "product-rating-summary",
+      "flex-layout.row#product-brand",
+      "product-identifier.product",
+      "product-price#product",
+      "product-separator",
+      "sku-selector",
+      "product-quantity",
+      "product-assembly-options",
+      "product-gifts",
+      "flex-layout.row#buy-button",
+      "availability-subscriber",
+      "flex-layout.row#share-and-payments"
+    ]
+  },
+  "flex-layout.row#product-brand": {
+    "props": {
+      "marginBottom": 3
+    },
+    "children": [
+      "vtex.store-components:product-brand"
+    ]
+  },
+  "flex-layout.row#product-name": {
+    "props": {
+      "marginBottom": 3,
+      "blockClass": "product-name"
+    },
+    "children": [
+      "vtex.store-components:product-name"
+    ]
+  },
+  "sku-selector": {
+    "props": {
+      // "variationsSpacing": 3,
+      // "showValueNameForImageVariation": true,
+      "hideImpossibleCombinations": false
+    }
+  },
+  "product-price#product": {
+    "props": {
+      "showInstallments": true,
+      "showSavings": true
+    }
+  },
+  "flex-layout.row#buy-button": {
+    "props": {
+      "marginTop": 4,
+      "marginBottom": 7
+    },
+    "children": [
+      "vtex.add-to-cart-button:add-to-cart-button"
+    ]
+  },
+    "share#default": {
+      "props": {
+        "social": {
+          "Facebook": true,
+          "Twitter": true,
+          "WhatsApp": true,
+          "Pinterest": false
+        }
+      }
+    },
+  "flex-layout.col#pay-icons-product": {
+    "children": [
+      "image#pay-icons-product"
+    ]
+  },
+  "image#pay-icons-product": {
+    "props": {
+      "src": "/arquivos/medios-de-pago.png",
+      "maxWidth": "250px"
+    }
+  },
+  "flex-layout.row#share-and-payments": {
+    "props": {
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "share#default",
+      "flex-layout.col#pay-icons-product"
+    ]
+  }
+}

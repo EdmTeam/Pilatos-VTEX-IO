@@ -3,7 +3,10 @@
         "blocks":[
             "flex-layout.row#banner-category-maletas-hombre",
             "search-result-layout.customQuery#category-maletas-hombre"
-        ]
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
     },
 
     "flex-layout.row#banner-category-maletas-hombre":{

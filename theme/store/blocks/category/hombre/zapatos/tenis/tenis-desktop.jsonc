@@ -3,7 +3,10 @@
         "blocks":[
             "flex-layout.row#banner-category-tenis-hombre",
             "search-result-layout.customQuery#category-tenis-hombre"
-        ]
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
     },
 
     "flex-layout.row#banner-category-tenis-hombre":{

@@ -91,7 +91,7 @@
       "display": "caret-icon"
     }
   },
-  "add-to-cart-button": {
+  "vtex.add-to-cart-button:add-to-cart-button": {
     "props": {
       "text": "Lo quiero",
       "unavailableText": "Agotado"

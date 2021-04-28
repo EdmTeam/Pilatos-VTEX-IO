@@ -3,7 +3,10 @@
         "blocks":[
             "flex-layout.row#banner-category-jeans-hombre",
             "search-result-layout.customQuery#category-jeans-hombre"
-        ]
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
     },
 
     "flex-layout.row#banner-category-jeans-hombre":{

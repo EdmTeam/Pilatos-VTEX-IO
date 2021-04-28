@@ -3,7 +3,10 @@
         "blocks":[
             "flex-layout.row#banner-category-otros-accesorios-hombre",
             "search-result-layout.customQuery#category-otros-accesorios-hombre"
-        ]
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
     },
 
     "flex-layout.row#banner-category-otros-accesorios-hombre":{

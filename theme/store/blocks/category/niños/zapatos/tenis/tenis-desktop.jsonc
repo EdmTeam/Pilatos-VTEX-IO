@@ -3,7 +3,10 @@
         "blocks":[
             "flex-layout.row#banner-category-tenis-niños",
             "search-result-layout.customQuery#category-tenis-niños"
-        ]
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
     },
 
     "flex-layout.row#banner-category-tenis-niños":{

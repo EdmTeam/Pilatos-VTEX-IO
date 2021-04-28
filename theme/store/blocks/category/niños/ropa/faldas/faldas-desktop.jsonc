@@ -3,7 +3,10 @@
         "blocks":[
             "flex-layout.row#banner-category-faldas-niños",
             "search-result-layout.customQuery#category-faldas-niños"
-        ]
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
     },
 
     "flex-layout.row#banner-category-faldas-niños":{

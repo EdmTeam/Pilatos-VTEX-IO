@@ -11,7 +11,10 @@
   "flex-layout.row#product-tab": {
     "children": [
       "tab-list#product-tab"
-    ]
+    ],
+    "props":{
+      "blockClass": "poductTab"
+    }
   },
   "tab-list#product-tab": {
     "children": [
@@ -45,7 +48,7 @@
   },
   "rich-text#product-tab-specification": {
     "props": {
-      "text": "Especificaciones",
+      "text": "Características",
       "blockClass": "product-tab-specification"
     }
   },
@@ -59,7 +62,7 @@
   },
   "rich-text#product-tab-comment": {
     "props": {
-      "text": "Comentarios",
+      "text": "Comentarios / reseñas",
       "blockClass": "product-tab-comment"
     }
   },
@@ -68,18 +71,29 @@
       "tab-content.item#product-tab-description",
       "tab-content.item#product-tab-specification",
       "tab-content.item#product-tab-comment"
-    ]
+    ],
+    "props":{
+      "blockClass": "tabInfo"
+    }
   },
   "tab-content.item#product-tab-description": {
     "children": [
+      "rich-text#arrow",
       "product-description"
     ],
     "props": {
       "tabId": "product-tab-description"
     }
   },
+  "rich-text#arrow":{
+    "props":{
+      "text": "",
+      "blockClass": "tabArrow"
+    }
+  },
   "tab-content.item#product-tab-specification": {
     "children": [
+      "rich-text#arrow",
       "product-specification-group#table"
     ],
     "props": {
@@ -88,10 +102,18 @@
   },
   "tab-content.item#product-tab-comment": {
     "children": [
+      "rich-text#arrow",
       "product-reviews"
     ],
     "props": {
-      "tabId": "product-tab-comment"
+      "tabId": "product-tab-comment",
+      "blockClass": "productTabComment"
+    }
+  },
+
+  "product-reviews":{
+    "props":{
+      "Range": 5
     }
   }
 }

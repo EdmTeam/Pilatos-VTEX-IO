@@ -3,7 +3,10 @@
         "blocks":[
             "flex-layout.row#banner-category-slim-mujer",
             "search-result-layout.customQuery#category-slim-mujer"
-        ]
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
     },
 
     "flex-layout.row#banner-category-slim-mujer":{

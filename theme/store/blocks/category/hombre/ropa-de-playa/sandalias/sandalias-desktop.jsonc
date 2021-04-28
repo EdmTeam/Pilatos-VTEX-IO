@@ -3,7 +3,10 @@
         "blocks":[
             "flex-layout.row#banner-category-sandalias-hombre",
             "search-result-layout.customQuery#category-sandalias-hombre"
-        ]
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
     },
 
     "flex-layout.row#banner-category-sandalias-hombre":{

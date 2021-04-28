@@ -3,7 +3,10 @@
         "blocks":[
             "flex-layout.row#banner-category-vestidos-niños",
             "search-result-layout.customQuery#category-vestidos-niños"
-        ]
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
     },
 
     "flex-layout.row#banner-category-vestidos-niños":{

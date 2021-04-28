@@ -174,4 +174,32 @@
     .sliderLayoutContainer--departmenBannerSlide{
         margin: 1rem 0 2rem 0;
     }
+
+    .slide--promBannerContent:nth-child(odd){
+        width: 26% !important;
+        margin-left: 1% !important;
+        margin-right: 0 !important;
+    }
+
+    .slide--promBannerContent:nth-child(even){
+        width: 16.5% !important;
+        margin-left: 1% !important;
+        margin-right: 0 !important;
+    }
+
+    .sliderLeftArrow--promBannerContent{
+        left: 15px;
+        top: 13rem;
+    }
+
+    .sliderRightArrow--promBannerContent{
+        right: 15px;
+        top: 13rem;
+    }
+
+    .paginationDot--promBannerContent{
+        height: 1rem !important;
+        width: 1rem !important;
+        margin: 0 .7rem;
+    }
 }

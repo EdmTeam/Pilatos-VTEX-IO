@@ -3,7 +3,10 @@
         "blocks":[
             "flex-layout.row#banner-category-sub-zapatos-mujer",
             "search-result-layout.customQuery#category-sub-zapatos-mujer"
-        ]
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
     },
 
     "flex-layout.row#banner-category-sub-zapatos-mujer":{

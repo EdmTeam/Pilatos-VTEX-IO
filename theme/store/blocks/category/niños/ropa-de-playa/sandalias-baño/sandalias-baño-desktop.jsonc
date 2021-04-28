@@ -3,7 +3,10 @@
         "blocks":[
             "flex-layout.row#banner-category-sandalias-baño-niños",
             "search-result-layout.customQuery#category-sandalias-baño-niños"
-        ]
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
     },
 
     "flex-layout.row#banner-category-sandalias-baño-niños":{

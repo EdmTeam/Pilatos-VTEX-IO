@@ -3,7 +3,10 @@
         "blocks":[
             "flex-layout.row#banner-category-estuches-niños",
             "search-result-layout.customQuery#category-estuches-niños"
-        ]
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
     },
 
     "flex-layout.row#banner-category-estuches-niños":{

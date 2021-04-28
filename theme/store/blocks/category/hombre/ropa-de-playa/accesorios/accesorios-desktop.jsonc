@@ -3,7 +3,10 @@
         "blocks":[
             "flex-layout.row#banner-category-ropa-playa-accesorios-hombre",
             "search-result-layout.customQuery#category-ropa-playa-accesorios-hombre"
-        ]
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
     },
 
     "flex-layout.row#banner-category-ropa-playa-accesorios-hombre":{

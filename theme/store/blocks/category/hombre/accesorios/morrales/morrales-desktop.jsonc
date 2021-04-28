@@ -3,7 +3,10 @@
         "blocks":[
             "flex-layout.row#banner-category-morrales-hombre",
             "search-result-layout.customQuery#category-morrales-hombre"
-        ]
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
     },
 
     "flex-layout.row#banner-category-morrales-hombre":{

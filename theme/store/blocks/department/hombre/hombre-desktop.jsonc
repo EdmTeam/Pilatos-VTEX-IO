@@ -3,7 +3,10 @@
         "blocks":[
             "flex-layout.row#banner-department-hombre",
             "search-result-layout.customQuery#department-hombre"
-        ]
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
     },
 
     "flex-layout.row#banner-department-hombre":{

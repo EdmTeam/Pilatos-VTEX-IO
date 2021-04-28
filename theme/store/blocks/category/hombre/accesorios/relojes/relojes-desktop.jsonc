@@ -3,7 +3,10 @@
         "blocks":[
             "flex-layout.row#banner-category-relojes-hombre",
             "search-result-layout.customQuery#category-relojes-hombre"
-        ]
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
     },
 
     "flex-layout.row#banner-category-relojes-hombre":{

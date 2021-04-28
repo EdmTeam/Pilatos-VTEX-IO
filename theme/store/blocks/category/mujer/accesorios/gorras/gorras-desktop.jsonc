@@ -3,7 +3,10 @@
         "blocks":[
             "flex-layout.row#banner-category-gorras-mujer",
             "search-result-layout.customQuery#category-gorras-mujer"
-        ]
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
     },
 
     "flex-layout.row#banner-category-gorras-mujer":{

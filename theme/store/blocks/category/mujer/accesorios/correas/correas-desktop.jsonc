@@ -3,7 +3,10 @@
         "blocks":[
             "flex-layout.row#banner-category-correas-mujer",
             "search-result-layout.customQuery#category-correas-mujer"
-        ]
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
     },
 
     "flex-layout.row#banner-category-correas-mujer":{

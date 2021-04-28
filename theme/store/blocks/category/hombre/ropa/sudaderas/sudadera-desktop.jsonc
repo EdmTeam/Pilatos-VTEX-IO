@@ -3,7 +3,10 @@
         "blocks":[
             "flex-layout.row#banner-category-sudaderas-hombre",
             "search-result-layout.customQuery#category-sudaderas-hombre"
-        ]
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
     },
 
     "flex-layout.row#banner-category-sudaderas-hombre":{

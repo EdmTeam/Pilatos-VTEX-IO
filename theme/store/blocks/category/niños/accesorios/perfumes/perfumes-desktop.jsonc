@@ -3,7 +3,10 @@
         "blocks":[
             "flex-layout.row#banner-category-perfumes-niños",
             "search-result-layout.customQuery#category-perfumes-niños"
-        ]
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
     },
 
     "flex-layout.row#banner-category-perfumes-niños":{

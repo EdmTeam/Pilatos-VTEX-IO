@@ -3,7 +3,10 @@
         "blocks":[
             "flex-layout.row#banner-category-sandalias-niños",
             "search-result-layout.customQuery#category-sandalias-niños"
-        ]
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
     },
 
     "flex-layout.row#banner-category-sandalias-niños":{

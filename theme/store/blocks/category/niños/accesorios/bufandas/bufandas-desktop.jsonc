@@ -3,7 +3,10 @@
         "blocks":[
             "flex-layout.row#banner-category-bufandas-niños",
             "search-result-layout.customQuery#category-bufandas-niños"
-        ]
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
     },
 
     "flex-layout.row#banner-category-bufandas-niños":{

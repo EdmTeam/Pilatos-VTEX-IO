@@ -3,7 +3,10 @@
         "blocks":[
             "flex-layout.row#banner-category-bermudas-niños",
             "search-result-layout.customQuery#category-bermudas-niños"
-        ]
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
     },
 
     "flex-layout.row#banner-category-bermudas-niños":{

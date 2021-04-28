@@ -3,7 +3,10 @@
         "blocks":[
             "flex-layout.row#banner-category-faldas-mujer",
             "search-result-layout.customQuery#category-faldas-mujer"
-        ]
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
     },
 
     "flex-layout.row#banner-category-faldas-mujer":{

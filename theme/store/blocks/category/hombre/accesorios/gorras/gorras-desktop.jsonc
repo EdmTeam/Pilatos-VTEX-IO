@@ -3,7 +3,10 @@
         "blocks":[
             "flex-layout.row#banner-category-gorras-hombre",
             "search-result-layout.customQuery#category-gorras-hombre"
-        ]
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
     },
 
     "flex-layout.row#banner-category-gorras-hombre":{

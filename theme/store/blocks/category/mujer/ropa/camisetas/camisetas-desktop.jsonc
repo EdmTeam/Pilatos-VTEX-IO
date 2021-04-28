@@ -3,7 +3,10 @@
         "blocks":[
             "flex-layout.row#banner-category-camisetas-mujer",
             "search-result-layout.customQuery#category-camisetas-mujer"
-        ]
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
     },
 
     "flex-layout.row#banner-category-camisetas-mujer":{

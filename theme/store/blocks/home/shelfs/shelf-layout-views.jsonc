@@ -1,0 +1,95 @@
+{
+    "flex-layout.row#viewed": {
+        "children": [
+            "flex-layout.col#viewed"
+        ],
+        "props": {
+            "blockClass": "sliderContentShelf"
+        }
+    },
+
+    "flex-layout.col#viewed": {
+        "children": [
+            "rich-text#title-viewed",
+            "responsive-layout.phone#shelf-views",
+            "responsive-layout.tablet#shelf-views",
+            "responsive-layout.desktop#shelf-views"
+        ],
+        "props":{
+            "blockClass":"sliderContentShelfProduct"
+        }
+    },
+
+    "rich-text#title-viewed":{
+        "props":{
+            "text": "Últimos vistos",
+            "blockClass": "titleShelfProduct"
+        }
+    },
+
+    "responsive-layout.phone#shelf-views":{
+        "children":[
+            "shelf.relatedProducts#views-mobile"
+        ]
+    },
+
+    "responsive-layout.tablet#shelf-views":{
+        "children":[
+            "shelf.relatedProducts#views-tablet"
+        ]
+    },
+
+    "responsive-layout.desktop#shelf-views":{
+        "children":[
+            "shelf.relatedProducts#views-desktop"
+        ]
+    },
+
+    "shelf.relatedProducts#views-mobile": {
+        "blocks": [
+            "vtex.product-summary:product-summary.shelf#most-viewed"
+        ],
+        "props": {
+            "recommendation": "view",
+            "productList": {
+                "arrows": true,
+                "showTitle": false,
+                "maxItems": 14,
+                "minItemsPerPage": 2,
+                "itemsPerPage": 2
+            }
+        }
+    },
+
+    "shelf.relatedProducts#views-tablet": {
+        "blocks": [
+            "vtex.product-summary:product-summary.shelf#most-viewed"
+        ],
+        "props": {
+            "recommendation": "view",
+            "productList": {
+                "arrows": true,
+                "showTitle": false,
+                "maxItems": 14,
+                "minItemsPerPage": 2,
+                "itemsPerPage": 3
+            }
+        }
+    },
+
+    "shelf.relatedProducts#views-desktop": {
+        "blocks": [
+            "vtex.product-summary:product-summary.shelf#most-viewed"
+        ],
+        "props": {
+            "recommendation": "view",
+            "productList": {
+                "arrows": true,
+                "showTitle": false,
+                "maxItems": 14,
+                "minItemsPerPage": 2,
+                "itemsPerPage": 4
+            }
+        }
+    }
+}

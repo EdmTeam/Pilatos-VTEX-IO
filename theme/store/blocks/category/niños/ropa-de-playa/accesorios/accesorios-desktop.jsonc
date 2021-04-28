@@ -3,7 +3,10 @@
         "blocks":[
             "flex-layout.row#banner-category-ropa-playa-accesorios-niños",
             "search-result-layout.customQuery#category-ropa-playa-accesorios-niños"
-        ]
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
     },
 
     "flex-layout.row#banner-category-ropa-playa-accesorios-niños":{

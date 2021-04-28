@@ -3,7 +3,10 @@
         "blocks":[
             "flex-layout.row#banner-category-otros-accesorios-niños",
             "search-result-layout.customQuery#category-otros-accesorios-niños"
-        ]
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
     },
 
     "flex-layout.row#banner-category-otros-accesorios-niños":{

@@ -3,7 +3,10 @@
         "blocks":[
             "flex-layout.row#banner-category-buzos-niños",
             "search-result-layout.customQuery#category-buzos-niños"
-        ]
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
     },
 
     "flex-layout.row#banner-category-buzos-niños":{
