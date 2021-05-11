@@ -336,9 +336,16 @@
     }
   },
 
+  "filter-navigator.v3":{
+    "props": {
+      "openFiltersMode": "one"
+    }
+  },
+
   "filter-navigator.v3#filterMobile": {
     "props": {
       // "initiallyCollapsed": true,
+      "openFiltersMode": "one",
       "layout": "desktop"
     }
   },

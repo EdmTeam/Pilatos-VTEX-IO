@@ -219,7 +219,7 @@
 
   "rich-text#header-items-ico-1": {
     "props": {
-      "text": "[](/wishlist)",
+      "text": "[](/lista-deseos)",
       "blockClass": "icoWishlist"
     }
   },

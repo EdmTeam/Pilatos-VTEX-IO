@@ -64,7 +64,7 @@
 
     "rich-text#promise-1-text-1": {
         "props": {
-            "text": "**COMPRA ASEGURADA**",
+            "text": "**COMPRA SEGURA**",
             "blockClass": "colorPromise"
         }
     },

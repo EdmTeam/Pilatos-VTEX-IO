@@ -1,0 +1,80 @@
+{
+  "store.wishlist": {
+    "blocks": ["flex-layout.row#top", "list-context.wishlist"]
+  },
+  "flex-layout.row#top": {
+    "children": ["flex-layout.col#title"]
+  },
+  "flex-layout.col#title": {
+    "children": ["rich-text#title"],
+    "props": {
+      "blockClass": "titleWishlist",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#title": {
+    "props": {
+      "text": "### MIS FAVORITOS 2"
+    }
+  },
+  "calzacosta.list-context.wishlist:list-context.wishlist": {
+    "blocks": ["product-summary.shelf#wishlist"],
+    "children": ["slider-layout#wishlist"]
+  },
+  "product-summary.shelf#wishlist": {
+    "children": [
+      "product-summary-image",
+      "product-summary-name",
+      "product-summary-space",
+      "product-summary-price",
+      "flex-layout.row#bottom-section-shelf-wishlist"
+    ]
+  },
+  "flex-layout.row#bottom-section-shelf-wishlist": {
+    "children": [
+      "flex-layout.col#cart-button-wishlist",
+      "flex-layout.col#remove-item"
+    ],
+    "props": {
+      "blockClass": ["wrapper-bottom-section-shelf-whislist"],
+      "marginTop": 4,
+      "marginBottom": 4
+    }
+  },
+  "flex-layout.col#cart-button-wishlist": {
+    "children": ["add-to-cart-button"],
+    "props": {
+      "width": "90%",
+      "blockClass": "btn-add-to-cart-wishlist"
+    }
+  },
+  "flex-layout.col#remove-item": {
+    "children": ["add-to-list-btn"],
+    "props": {
+      "blockClass": "remove-item-wishlist"
+    }
+  },
+
+  "add-to-list-btn": {
+    "children": ["rich-text#addToList"]
+  },
+  "rich-text#addToList": {
+    "props": {
+      "text": "Possible login"
+    }
+  },
+  "slider-layout#wishlist": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1
+      },
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "always",
+      "infinite": false,
+      "fullWidth": true,
+      "blockClass": "shelf"
+    }
+  }
+}

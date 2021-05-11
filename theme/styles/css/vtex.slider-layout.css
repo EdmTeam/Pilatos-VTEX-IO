@@ -9,15 +9,19 @@
     width: 100% !important;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 760px){
     .slide--contentSlide{
         width: 7.21% !important;
         margin-left: 0.32125% !important;
         margin-right: 0.32125% !important;
     }
+
+    .sliderArrows--contentBanner{
+        display: none;
+    }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 740px) {
     .sliderLayoutContainer--contentSlide{
         width: 85% !important;
     }
@@ -83,7 +87,7 @@
     }
 }
 
-@media only screen and (min-width: 760px){
+@media only screen and (min-width: 740px){
     .sliderLayoutContainer--contentPromotionalBanner{
         width: 93% !important;
     }
@@ -113,7 +117,7 @@
     }
 }
 
-@media only screen and (min-width: 760px){
+@media only screen and (min-width: 740px){
     .sliderLayoutContainer--contentCategoryBanner{
         width: 93% !important;
     }
@@ -170,19 +174,19 @@
     margin-left: 1.5rem;
 }
 
-@media only screen and (min-width: 1180px){
+@media only screen and (min-width: 740px){
     .sliderLayoutContainer--departmenBannerSlide{
         margin: 1rem 0 2rem 0;
     }
 
     .slide--promBannerContent:nth-child(odd){
-        width: 26% !important;
+        width: 14.15% !important;
         margin-left: 1% !important;
         margin-right: 0 !important;
     }
 
     .slide--promBannerContent:nth-child(even){
-        width: 16.5% !important;
+        width: 9% !important;
         margin-left: 1% !important;
         margin-right: 0 !important;
     }
@@ -201,5 +205,70 @@
         height: 1rem !important;
         width: 1rem !important;
         margin: 0 .7rem;
+    }
+}
+
+@media only screen and (min-width: 1180px){
+    .slide--promBannerContent:nth-child(odd){
+        width: 26% !important;
+        margin-left: 1% !important;
+        margin-right: 0 !important;
+    }
+
+    .slide--promBannerContent:nth-child(even){
+        width: 16.5% !important;
+        margin-left: 1% !important;
+        margin-right: 0 !important;
+    }
+}
+
+.sliderLayoutContainer--contentSlideBrand{
+    width: 90% !important;
+    margin: 3rem auto;
+}
+
+.sliderLeftArrow--contentSlideBrand{
+    left: -15px;
+}
+
+.sliderRightArrow--contentSlideBrand{
+    right: -15px;
+}
+
+.sliderArrows--contentSlideBrand{
+    padding: 0;
+    background: transparent !important;
+}
+
+.sliderArrows--contentSlideBrand .caretIcon{
+    height: 23px !important;
+    width: 23px !important;
+}
+
+@media only screen and (min-width: 740px){
+    .sliderLayoutContainer--contentSlideBrand{
+        width: 92% !important;
+    }
+
+    .sliderLeftArrow--contentSlideBrand{
+        left: -17px;
+    }
+    
+    .sliderRightArrow--contentSlideBrand{
+        right: -17px;
+    }
+}
+
+@media only screen and (min-width: 740px){
+    .sliderLayoutContainer--contentSlideBrand{
+        width: 76% !important;
+    }
+
+    .sliderLeftArrow--contentSlideBrand{
+        left: -35px;
+    }
+    
+    .sliderRightArrow--contentSlideBrand{
+        right: -35px;
     }
 }

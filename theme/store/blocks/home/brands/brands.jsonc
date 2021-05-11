@@ -9,32 +9,67 @@
     },
     "slider-layout#brands": {
       "props": {
-        "blockClass": "contentSlide",
+        "blockClass": ["contentSlide", "contentSlideBrand"],
         "itemsPerPage": {
-          "desktop": 5,
-          "tablet": 3,
-          "phone": 1
+          "desktop": 8,
+          "tablet": 6,
+          "phone": 3
         },
-        "centerMode": {
-          "desktop": "disabled",
-          "tablet": "disabled",
-          "phone": "to-the-left"
-        },
-        "infinite": true,
-        "showNavigationArrows":"never",
-        "showPaginationDots":"never",
-        "autoplay": {
-          "timeout": 3000,
-          "stopOnHover": false
-        }
+        "showPaginationDots":"never"
+        // "autoplay": {
+        //   "timeout": 5000,
+        //   "stopOnHover": false
+        // }
       }, 
       "children": [
-        "flex-layout.col#brand-1",
-        "flex-layout.col#brand-2",
-        "flex-layout.col#brand-3",
-        "flex-layout.col#brand-4",
-        "flex-layout.col#brand-5",
-        "flex-layout.col#brand-6"
+        "image#brand-1",
+        "image#brand-2",
+        "image#brand-3",
+        "image#brand-4",
+        "image#brand-1",
+        "image#brand-2",
+        "image#brand-3",
+        "image#brand-4",
+        "image#brand-1",
+        "image#brand-2",
+        "image#brand-3",
+        "image#brand-4"
       ]
+    },
+
+    "image#brand-1": {
+      "props": {
+          "src": "/arquivos/vans.png",
+          "link": {
+              "url": "/"
+          }
+      }
+    },
+
+    "image#brand-2": {
+      "props": {
+          "src": "/arquivos/umbro.png",
+          "link": {
+              "url": "/"
+          }
+      }
+    },
+
+    "image#brand-3": {
+      "props": {
+          "src": "/arquivos/puma.png",
+          "link": {
+              "url": "/"
+          }
+      }
+    },
+
+    "image#brand-4": {
+      "props": {
+          "src": "/arquivos/converse.png",
+          "link": {
+              "url": "/"
+          }
+      }
     }
   }

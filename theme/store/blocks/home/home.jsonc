@@ -1,7 +1,9 @@
 {
   "store.home": {
     "blocks": [
-      "list-context.image-list#banner-principal",
+      "responsive-layout.phone#banner-principal",
+      "responsive-layout.tablet#banner-principal",
+      "responsive-layout.desktop#banner-principal",
       "responsive-layout.phone#brands-promise",
       "responsive-layout.tablet#brands-promise",
       "responsive-layout.desktop#brands-promise",
@@ -9,6 +11,7 @@
       "responsive-layout.tablet#category-banners",
       "responsive-layout.desktop#category-banners",
       "flex-layout.row#most-viewed",
+      "flex-layout.row#brands",
       "responsive-layout.phone#promotional-banners-2",
       "responsive-layout.desktop#promotional-banners-2",
       "responsive-layout.tablet#promotional-banners-2",

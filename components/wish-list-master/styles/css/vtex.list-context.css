@@ -1,0 +1,17 @@
+.list--wishlist__grid {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.list--wishlist__grid :global(.vtex-list-context-0-x-item--wishlist__grid) {
+    width: 25%;
+}
+
+@media screen and (min-width: 768px) {
+    .list--wishlist__grid :global(.vtex-list-context-0-x-item--wishlist__grid) {
+        width: 50%;
+    }
+}

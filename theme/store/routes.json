@@ -542,5 +542,9 @@
 
     "store.custom#category-zapatos-niños": {
         "path": "/ninos/zapatos"
+    },
+
+    "store.wishlist": {
+        "path": "/lista-deseos"
     }
 }

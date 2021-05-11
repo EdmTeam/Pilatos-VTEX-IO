@@ -1,0 +1,320 @@
+.orderPlacedHeader{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.orderPlacedWrapper{
+    padding-top: 2rem;
+}
+
+.orderDatetime{
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    color: #8F8F8F;
+}
+
+.confirmationMessage{
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.025em;
+    color: #000000;
+    text-align: left;
+}
+
+.section--confirmation{
+    margin-bottom: 2rem;
+}
+
+.orderPlacedMainWrapper{
+    margin-top: 0;
+}
+
+.orderNumber{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.025em;
+    color: #000000;
+    margin-bottom: .5rem;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--subtitleEmail) .customerInfoListName,
+:global(.vtex-flex-layout-0-x-flexRow--subtitleEmail) .customerInfoListDocument,
+:global(.vtex-flex-layout-0-x-flexRow--subtitleEmail) .customerInfoListPhone
+{
+    display: none;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--subtitleEmail) .customerInfoListEmail{
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.025em;
+    color: #000000;
+    font-family: 'Mulish';
+    padding: 0;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--subtitleEmail) .customerInfoListEmail::before{
+    content: 'Enviaremos a el email ';
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--subtitleEmail) .customerInfoListEmail::after{
+    content: ' los detalles de la compra. Estamos procesando el pago, en pocos minutos recibirá un email de confirmación de compra.';
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--personalCustomer) .customerInfoListName,
+:global(.vtex-flex-layout-0-x-flexCol--personalCustomer) .customerInfoListDocument,
+:global(.vtex-flex-layout-0-x-flexCol--personalCustomer) .customerInfoListPhone{
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    color: #000000;
+    padding-bottom: 0;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--personalCustomer) .customerInfoListEmail{
+    display: none;
+}
+
+.orderPaymentWrapper .orderPaymentItem{
+    padding: 0;
+}
+
+.orderPaymentWrapper .paymentGroup,
+.orderPaymentWrapper .paymentValue
+{
+    padding-top: 4px;
+    margin: 0;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+.orderPaymentWrapper .paymentGroup::before{
+    content: 'Pago con ';
+}
+
+.totalListWrapper .totalList,
+.package--delivery
+{
+    margin: 0;
+}
+
+.totalListWrapper .totalList .totalListItemValue,
+.totalListWrapper .totalList .totalListItemLabel
+{
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 13px;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+.totalListWrapper .totalList .totalListItem--Items,
+.totalListWrapper .totalList .totalListItem--Shipping
+{
+    border-bottom: 1px solid #AAA9A9;
+}
+
+:global(.vtex-flex-layout1-x-flexColChild--receiveInformation) .packageHeader--delivery{
+    height: 30px;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--receiveInformation) .packageHeader--delivery{
+    display: block;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--receiveInformation) .packageHeader--delivery .packageShippingEstimate,
+:global(.vtex-flex-layout-0-x-flexColChild--receiveInformation) .packageHeader--delivery .packageSLA
+{
+    display: none;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--receiveInformation) .productList{
+    display: none;
+}
+
+:global(.vtex-flex-layout1-x-flexColChild--receiveInformation) .package--delivery .packageShippingEstimate,
+:global(.vtex-flex-layout1-x-flexColChild--receiveInformation) .package--delivery .packageSLA,
+:global(.vtex-flex-layout1-x-flexColChild--receiveInformation) .package--delivery .productList,
+:global(.vtex-flex-layout-0-x-flexColChild--deliveryCityInformation) .package--delivery .productList
+{
+    display: none;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--deliveryCityInformation) .packageAddressWrapper{
+    margin: 0;
+}
+
+.package--delivery .packageDeliveryTitle{
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.025em;
+    color: #000000;
+    display: block;
+    margin-top: .4rem;
+    text-transform: uppercase;
+    color: transparent;
+    position: relative;
+}
+
+.package--delivery .packageDeliveryTitle::before{
+    content: 'Recibir';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    color: #000000;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--deliveryCityInformation) .packageHeader--delivery{
+    display: none;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--businessDayInformation) .packageHeader--delivery{
+    display: block;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--businessDayInformation) .packageHeader--delivery .packageDeliveryTitle,
+:global(.vtex-flex-layout-0-x-flexColChild--businessDayInformation) .packageHeader--delivery .packageSLA
+{
+    display: none;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--businessDayInformation) .packageHeader--delivery .packageShippingEstimate{
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    color: #000000;
+    display: block;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--businessDayInformation) .packageHeader--delivery{
+    margin: 0;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--productListInformation) .packageHeaderColumn{
+    display: none;
+}
+
+.productQuantity{
+    display: block;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--receiveInformation) .packageAddressWrapper{
+    margin: 0;
+}
+
+@media only screen and (min-width: 750px){
+    .orderPlacedHeader{
+        width: 95%;
+    }
+
+    .orderPlacedMainWrapper{
+        width: 95%;
+    }
+
+    .productImageWrapper{
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .productInfoColumn{
+        display: block;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 0;
+        width: 61%;
+    }
+
+    .productPrice{
+        display: block;
+        position: absolute;
+        top: 73%;
+        transform: translateY(-50%);
+        right: 0;
+        width: 36%;
+        font-size: 13px;
+        font-weight: 700;
+    }
+
+    @media only screen and (min-width: 1180px){
+        .orderPlacedHeader{
+            width: 80%;
+        }
+
+        .orderPlacedMainWrapper{
+            width: 80%;
+        }   
+
+        .productImageWrapper{
+            width: 7rem;
+            height: 7rem;
+        }
+
+        .productPrice{
+            top: 65%;
+            transform: translateY(-50%);
+            width: 36%;
+            font-size: 14px;
+        }
+
+        .productInfoColumn{
+            width: 61%;
+        }
+    }
+
+    .section--confirmation{
+        margin-bottom: 1rem;
+    }
+
+    .orderNumber{
+        margin-top: 3.5rem;
+    }
+
+    .totalListWrapper{
+        justify-content: flex-start;
+    }
+
+    .totalList{
+        width: 100%;
+    }
+
+    .productWrapper{
+        position: relative;
+    }
+
+    .productName{
+        display: block;
+        font-weight: bold;
+        font-size: 11px;
+        line-height: 14px;
+        letter-spacing: 0.01em;
+        color: #000000;
+        height: 30px;
+    }
+
+    
+
+    .package--delivery .productList{
+        width: 100%;
+    }
+
+    .productQuantity{
+        margin-top: 7px;
+    }
+}

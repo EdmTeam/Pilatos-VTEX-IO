@@ -71,7 +71,7 @@
     "pilatos21.free-shipping": "0.x"
   },
   "peerDependencies": {
-    "vtex.wish-list": "1.x"
+    "pilatos21.wishlist": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

@@ -8,7 +8,7 @@
 
     "flex-layout.row#desk-menu-item": {
         "children": [
-            "flex-layout.col#news-letter",
+            "flex-layout.col#news-letter-desk",
             "flex-layout.col#desk-menu-item-col-1",
             "flex-layout.col#desk-menu-item-col-2",
             "flex-layout.col#desk-menu-item-col-3",
@@ -17,6 +17,15 @@
         ],
         "props": {
             "blockClass": "contentFooter"
+        }
+    },
+
+    "flex-layout.col#news-letter-desk":{
+        "children":[
+            "flex-layout.col#news-letter-row-1"
+        ],
+        "props":{
+            "blockClass": ["contentNewsletter", "contentNewsletterMobile"]
         }
     },
 

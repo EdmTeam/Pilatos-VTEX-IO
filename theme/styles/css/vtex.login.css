@@ -274,3 +274,150 @@
     padding: .2rem 1rem;
     margin-bottom: 1rem;
 }
+
+@media only screen and (max-width: 1180px){
+    .content--emailAndPassword{
+        display: block;
+    }
+
+    .optionsSticky .formTitle{
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        color: #000000;
+        margin-bottom: 2rem;
+    }
+
+    .optionsSticky .formTitle::before{
+        display: none;
+    }
+
+    .emailVerification .formTitle{
+        margin: 2rem 0 .7rem 0;
+    }
+
+    .content--emailAndPassword .options{
+        min-width: auto;
+        width: 100%;
+    }
+
+    .contentAlwaysWithOptions .button{
+        border: none;
+    }
+
+    .contentAlwaysWithOptions .button :global(.vtex-button){
+        background: #000000;
+        color: #FFFFFF;
+        font-weight: bold;
+        font-size: 11px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        border: none;
+        border-radius: 100px;
+    }
+
+    .emailAndPasswordForm .formTitle{
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 15px;
+        color: #000000;
+    }
+
+    .emailAndPasswordForm .inputContainerEmail,
+    .emailAndPasswordForm .inputContainerPassword{
+        padding: 0;
+        margin: 1rem 0;
+    }
+
+    .emailAndPasswordForm .inputContainerEmail :global(.vtex-input-prefix__group),
+    .emailAndPasswordForm .inputContainerPassword :global(.vtex-input-prefix__group){
+        border: 1px solid #000000;
+        padding: 0 .5rem;
+        height: 2rem;
+    }
+
+    .emailAndPasswordForm .inputContainerEmail::before,
+    .emailAndPasswordForm .inputContainerPassword::before
+    {
+        display: none;
+    }
+
+    .emailAndPasswordForm .forgotPasswordLink{
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 14px;
+        letter-spacing: 0.02em;
+        text-decoration-line: underline;
+        color: #000000;
+    }
+}
+
+@media only screen and (min-width: 1180px){
+    .contentAlwaysWithOptions{
+        position: relative;
+        padding-top: 3.5rem;
+    }
+
+    .optionsSticky .formTitle{
+        position: absolute;
+        left: 50%;
+        top: 0;
+        transform: translateX(-50%);
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        color: #000000;
+    }
+
+    .optionsSticky .formTitle::before{
+        display: none;
+    }
+
+    .contentAlwaysWithOptions .button :global(.vtex-button){
+        background: #000000;
+        color: #FFFFFF;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        border: none;
+        border-radius: 100px;
+    }
+
+    .emailAndPasswordForm .formTitle{
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 15px;
+        color: #000000;
+    }
+
+    .emailAndPasswordForm .inputContainerEmail,
+    .emailAndPasswordForm .inputContainerPassword{
+        padding: 0;
+        margin: 1rem 0;
+    }
+
+    .emailAndPasswordForm .inputContainerEmail :global(.vtex-input-prefix__group),
+    .emailAndPasswordForm .inputContainerPassword :global(.vtex-input-prefix__group){
+        border: 1px solid #000000;
+        padding: 0 .5rem;
+        height: 2rem;
+    }
+
+    .emailAndPasswordForm .inputContainerEmail::before,
+    .emailAndPasswordForm .inputContainerPassword::before
+    {
+        display: none;
+    }
+
+    .emailAndPasswordForm .forgotPasswordLink{
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 14px;
+        letter-spacing: 0.02em;
+        text-decoration-line: underline;
+        color: #000000;
+    }
+}

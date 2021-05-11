@@ -3,7 +3,7 @@
     color: #000000;
 }
 
-@media only screen and (min-width: 760px){
+@media only screen and (min-width: 740px){
     .minicartIconContainer{
         font-size: 1.7rem;
     }
@@ -208,4 +208,17 @@
     z-index: -1;
     right: 9px;
     background: #000000;
+}
+
+@media only screen and (min-width: 740px){
+    .minicartSideBarContentWrapper--contentMinicart .minicartContentContainer{
+        height: auto;
+    }
+
+    .drawer--contentMinicart .minicartProductListContainer{
+        min-height: 250px;
+        max-height: none;
+        height: 447px;
+        padding: 0 1rem 0 .75rem;
+    }
 }

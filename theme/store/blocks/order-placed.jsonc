@@ -28,70 +28,227 @@
   },
   "flex-layout.col#confirmation-content": {
     "children": [
-      "rich-text#confirmation-title",
-      "rich-text#confirmation-subtitle-1",
-      "rich-text#confirmation-subtitle-2"
+      "flex-layout.row#confirmation-ico-mobile",
+      "flex-layout.row#confirmation-ico-desk",
+      "rich-text#confirmation-title-confirmed",
+      "flex-layout.row#date"
     ]
   },
-  "rich-text#confirmation-title": {
-    "props": {
-      "text": "¡Tu compra ha sido realizada con éxito!"
+
+  "flex-layout.row#confirmation-ico-mobile":{
+    "children":[],
+    "props":{
+      "blockClass": "oneToOneNavigationMobile"
     }
   },
-  "rich-text#confirmation-subtitle-1": {
-    "props": {
-      "text": "Enviaremos toda la información de tu compra por e-mail a su correo\nTambién te notificaremos sobre los cambios de estado de tu pedido."
+
+  "flex-layout.row#confirmation-ico-desk":{
+    "children":[],
+    "props":{
+      "blockClass": "oneToOneNavigationDesk"
     }
   },
-  "rich-text#confirmation-subtitle-2": {
-    "props": {
-      "text": "Recuerda que cada marca gestiona el envío de los productos. Si necesitas ayudas con tu producto\nllámanos al 611-82-000 o escríbenos a el correo comprasonline@realplaza.com"
+
+  "rich-text#confirmation-title-confirmed":{
+    "props":{
+      "text": "Pedido Confirmado",
+      "blockClass": "titleConfirmed"
     }
   },
+
+  "flex-layout.row#date":{
+    "children":[
+      "op-order-datetime"
+    ]
+  },
+
   "op-order": {
     "children": [
+      "flex-layout.row#info-title",
       "op-order-number",
-      "flex-layout.row#section-1"
+      "flex-layout.row#section-1",
+      "flex-layout.row#section-2",
+      "flex-layout.row#buttons-order"
     ]
   },
+
+  "flex-layout.row#buttons-order":{
+    "children":[
+      "rich-text#btn-new",
+      "rich-text#btn-orders"
+    ],
+    "props":{
+      "blockClass": "btnsOrder"
+    }
+  },
+
+  "rich-text#btn-new":{
+    "props":{
+      "text": "[Hacer nuevas compras](/)",
+      "blockClass": "linkBtnNew"
+    }
+  },
+
+  "rich-text#btn-orders":{
+    "props":{
+      "text": "[Ir a mis pedidos](/account#/orders)",
+      "blockClass": "linkBtnOrder"
+    }
+  },
+
+  "flex-layout.row#info-title":{
+    "children":[
+      "flex-layout.col#info-title"
+    ]
+  },
+
+  "flex-layout.col#info-title":{
+    "children":[
+      "rich-text#confirmation-title",
+      "flex-layout.row#subtitle-email"
+    ],
+    "props":{
+      "blockClass": "orderInfoTitle"
+    }
+  },
+
+  "rich-text#confirmation-title": {
+    "props": {
+      "text": "Su pedido ha sido confirmado con éxito.",
+      "blockClass": "titleConfirmedDetail"
+    }
+  },
+
+  "flex-layout.row#subtitle-email":{
+    "children":[
+      "op-order-customer"
+    ],
+    "props":{
+      "blockClass": "subtitleEmail"
+    }
+  },
+  
   "flex-layout.row#section-1": {
     "children": [
       "flex-layout.col#section-address",
       "flex-layout.col#section-payment",
       "flex-layout.col#section-summary"
-    ]
+    ],
+    "props":{
+      "blockClass": "confirmedSection-1"
+    }
   },
+  "flex-layout.row#section-2":{
+    "children":[
+      "flex-layout.col#section-receive",
+      "flex-layout.col#section-3"
+    ],
+    "props":{
+      "blockClass": "confirmedSection-2"
+    }
+  },
+
+  "flex-layout.col#section-3":{
+    "children":[
+      "flex-layout.col#section-delivery-city",
+      "flex-layout.col#section-business-day-product-list"
+    ],
+    "props":{
+      "blockClass": "confirmedSection-3",
+      "width": "35%"
+    }
+  },
+
   "flex-layout.col#section-address": {
     "children": [
       "rich-text#section-address",
-      "op-order-delivery-packages"
-    ]
+      "op-order-customer"
+    ],
+    "props":{
+      "blockClass": "personalCustomer"
+    }
   },
   "rich-text#section-address": {
     "props": {
-      "text": "DIRECCION"
+      "text": "DATOS PERSONALES",
+      "blockClass": "customerInformation"
     }
   },
   "flex-layout.col#section-payment": {
     "children": [
       "rich-text#section-payment",
       "op-order-payment"
-    ]
+    ],
+    "props": {
+      "blockClass": "paymentInformation"
+    }
   },
   "rich-text#section-payment": {
     "props": {
-      "text": "MEDIO DE PAGO"
+      "text": "MEDIO DE PAGO",
+      "blockClass": "paymentInformation"
     }
   },
   "flex-layout.col#section-summary": {
     "children": [
       "rich-text#section-summary",
       "op-order-total"
-    ]
+    ],
+    "props": {
+      "blockClass": "totalInformation"
+    }
   },
   "rich-text#section-summary": {
     "props": {
-      "text": "RESUMEN"
+      "text": "RESUMEN",
+      "blockClass": "totalInformation"
+    }
+  },
+
+  "flex-layout.col#section-receive": {
+    "children": [
+      "op-order-delivery-packages"
+    ],
+    "props": {
+      "blockClass": "receiveInformation",
+      "width": "33%"
+    }
+  },
+
+  "flex-layout.col#section-delivery-city": {
+    "children": [
+      "op-order-delivery-packages",
+      "flex-layout.col#section-business-day"
+    ],
+    "props": {
+      "blockClass": "deliveryCityInformation"
+    }
+  },
+
+  "flex-layout.col#section-business-day-product-list":{
+    "children": [
+      "flex-layout.col#section-product-list"
+    ],
+    "props": {
+      "blockClass": "businessProductInformation"
+    }
+  },
+
+  "flex-layout.col#section-business-day": {
+    "children": [
+      "op-order-delivery-packages"
+    ],
+    "props": {
+      "blockClass": "businessDayInformation"
+    }
+  },
+
+  "flex-layout.col#section-product-list": {
+    "children": [
+      "op-order-delivery-packages"
+    ],
+    "props": {
+      "blockClass": "productListInformation"
     }
   }
 }

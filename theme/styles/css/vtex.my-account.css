@@ -1,0 +1,1314 @@
+:global(.vtex-pageHeader__title) {
+    font-size: 22px;
+    
+    font-style: normal;
+    font-weight: bold;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #000;
+}
+
+:global(.vtex-account__page-body){
+    background: #000000;
+}
+
+/* MY ACCOUNT PAGE */
+:global(.vtex-account)
+:global(.vtex-my-account-1-x-menu)
+:global(.vtex-my-account-1-x-userInfo)
+:global(.vtex-my-account-1-x-userImage){
+    display: none;
+}
+
+:global(.vtex-account)
+:global(.vtex-my-account-1-x-menu)
+:global(.vtex-my-account-1-x-userInfo)
+:global(.vtex-my-account-1-x-userGreeting){
+    font-size: 0;
+}
+:global(.vtex-account)
+:global(.vtex-my-account-1-x-menu)
+:global(.vtex-my-account-1-x-userInfo)
+:global(.vtex-my-account-1-x-userGreeting)::before{
+    content: "¡Hola";
+    font-size: 30px;
+    
+    font-style: normal;
+    font-weight: bold;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #000;
+}
+
+:global(.vtex-account)
+:global(.vtex-my-account-1-x-menu)
+:global(.vtex-my-account-1-x-userInfo)
+:global(.vtex-my-account-1-x-userName){
+    font-size: 30px;
+    
+    font-style: normal;
+    font-weight: bold;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #000;
+}
+
+
+:global(.vtex-my-account-1-x-profile){
+    background: #fff;
+}
+
+:global(.vtex-my-account-1-x-profile)
+:global(.vtex-my-account-1-x-profileBoxContainer)
+:global(.vtex-my-account-1-x-boxContainer){
+    border-color: #000;
+    border-width: .1rem;
+}
+
+:global(.vtex-my-account-1-x-profile)
+:global(.vtex-my-account-1-x-profileBoxContainer)
+:global(.vtex-my-account-1-x-boxContainer)
+:global(.vtex-my-account-1-x-boxContainerFooter){
+    display: contents;
+    margin-bottom: 2rem;
+}
+
+:global(.vtex-my-account-1-x-profile)
+:global(.vtex-my-account-1-x-profileBoxContainer)
+:global(.vtex-my-account-1-x-boxContainer)
+:global(.vtex-my-account-1-x-boxContainerFooter)
+:global(.vtex-button){
+    align-self: center;
+    border-color: #000;
+    border-width: .1rem;
+    border-radius: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+:global(.vtex-my-account-1-x-profile)
+:global(.vtex-my-account-1-x-profileBoxContainer)
+:global(.vtex-my-account-1-x-boxContainer)
+:global(.vtex-my-account-1-x-boxContainerFooter)
+:global(.vtex-button)
+:global(.vtex-button__label){
+    font-size: .875rem;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 12px;
+    letter-spacing: 0.02em;
+    color: #000;
+}
+
+:global(.vtex-my-account-1-x-passwordBoxContainer)
+:global(.vtex-my-account-1-x-boxContainer){
+    border-color: #000;
+    border-width: .1rem;
+}
+
+:global(.vtex-my-account-1-x-newsletterBoxContainer)
+:global(.vtex-my-account-1-x-boxContainer){
+    border-color: #000;
+    border-width: .1rem;
+}
+
+:global(.vtex-profile-form-3-x-profileSummary)
+:global(.vtex-my-account-1-x-nameContainer)
+:global(.vtex-my-account-1-x-firstNameSubContainer)
+:global(.vtex-my-account-1-x-dataEntryLabel){
+    font-size: 1rem;
+    
+    font-style: normal;
+    font-weight: normal;
+    line-height: 12px;
+    letter-spacing: 0.02em;
+    color: #979899;
+}
+
+:global(.vtex-profile-form-3-x-profileSummary)
+:global(.vtex-my-account-1-x-nameContainer)
+:global(.vtex-my-account-1-x-firstNameSubContainer)
+:global(.vtex-my-account-1-x-dataEntryChildren){
+    font-size: 1rem;
+    
+    font-style: normal;
+    font-weight: normal;
+    line-height: 12px;
+    letter-spacing: 0.02em;
+    color: #000;
+}
+
+:global(.vtex-profile-form-3-x-profileSummary)
+:global(.vtex-my-account-1-x-nameContainer)
+:global(.vtex-my-account-1-x-lastNameSubContainer)
+:global(.vtex-my-account-1-x-dataEntryLabel){
+    font-size: 1rem;
+    
+    font-style: normal;
+    font-weight: normal;
+    line-height: 12px;
+    letter-spacing: 0.02em;
+    color: #979899;
+}
+
+:global(.vtex-profile-form-3-x-profileSummary)
+:global(.vtex-my-account-1-x-nameContainer)
+:global(.vtex-my-account-1-x-lastNameSubContainer)
+:global(.vtex-my-account-1-x-dataEntryChildren){
+    font-size: 1rem;
+    
+    font-style: normal;
+    font-weight: normal;
+    line-height: 12px;
+    letter-spacing: 0.02em;
+    color: #000;
+}
+
+:global(.vtex-profile-form-3-x-profileSummary)
+:global(.vtex-my-account-1-x-emailContainer)
+:global(.vtex-my-account-1-x-dataEntryLabel){
+    font-size: 1rem;
+    
+    font-style: normal;
+    font-weight: normal;
+    line-height: 12px;
+    letter-spacing: 0.02em;
+    color: #979899;
+}
+
+:global(.vtex-profile-form-3-x-profileSummary)
+:global(.vtex-my-account-1-x-emailContainer)
+:global(.vtex-my-account-1-x-dataEntryChildren){
+    font-size: 1rem;
+    
+    font-style: normal;
+    font-weight: normal;
+    line-height: 12px;
+    letter-spacing: 0.02em;
+    color: #000;
+}
+
+:global(.vtex-profile-form-3-x-profileSummary)
+:global(.vtex-my-account-1-x-genderContainer)
+:global(.vtex-my-account-1-x-documentsSubContainer)
+:global(.vtex-my-account-1-x-dataEntryLabel){
+    font-size: 1rem;
+    
+    font-style: normal;
+    font-weight: normal;
+    line-height: 12px;
+    letter-spacing: 0.02em;
+    color: #979899;
+}
+
+:global(.vtex-profile-form-3-x-profileSummary)
+:global(.vtex-my-account-1-x-genderContainer)
+:global(.vtex-my-account-1-x-documentsSubContainer)
+:global(.vtex-my-account-1-x-dataEntryChildren){
+    font-size: 1rem;
+    
+    font-style: normal;
+    font-weight: normal;
+    line-height: 12px;
+    letter-spacing: 0.02em;
+    color: #000;
+}
+
+:global(.vtex-profile-form-3-x-profileSummary)
+:global(.vtex-my-account-1-x-genderContainer)
+:global(.vtex-my-account-1-x-genderSubContainer)
+:global(.vtex-my-account-1-x-dataEntryLabel){
+    font-size: 1rem;
+    
+    font-style: normal;
+    font-weight: normal;
+    line-height: 12px;
+    letter-spacing: 0.02em;
+    color: #979899;
+}
+
+:global(.vtex-profile-form-3-x-profileSummary)
+:global(.vtex-my-account-1-x-genderContainer)
+:global(.vtex-my-account-1-x-genderSubContainer)
+:global(.vtex-my-account-1-x-dataEntryChildren){
+    font-size: 1rem;
+    
+    font-style: normal;
+    font-weight: normal;
+    line-height: 12px;
+    letter-spacing: 0.02em;
+    color: #000;
+}
+
+:global(.vtex-profile-form-3-x-profileSummary)
+:global(.vtex-my-account-1-x-phoneNumberContainer)
+:global(.vtex-my-account-1-x-dateOfBirthSubContainer)
+:global(.vtex-my-account-1-x-dataEntryLabel){
+    font-size: 1rem;
+    
+    font-style: normal;
+    font-weight: normal;
+    line-height: 12px;
+    letter-spacing: 0.02em;
+    color: #979899;
+}
+
+:global(.vtex-profile-form-3-x-profileSummary)
+:global(.vtex-my-account-1-x-phoneNumberContainer)
+:global(.vtex-my-account-1-x-dateOfBirthSubContainer)
+:global(.vtex-my-account-1-x-dataEntryChildren){
+    font-size: 1rem;
+    
+    font-style: normal;
+    font-weight: normal;
+    line-height: 12px;
+    letter-spacing: 0.02em;
+    color: #000;
+}
+
+:global(.vtex-profile-form-3-x-profileSummary)
+:global(.vtex-my-account-1-x-phoneNumberContainer)
+:global(.vtex-my-account-1-x-phoneNumberSubContainer)
+:global(.vtex-my-account-1-x-dataEntryLabel){
+    font-size: 1rem;
+    
+    font-style: normal;
+    font-weight: normal;
+    line-height: 12px;
+    letter-spacing: 0.02em;
+    color: #979899;
+}
+
+:global(.vtex-profile-form-3-x-profileSummary)
+:global(.vtex-my-account-1-x-phoneNumberContainer)
+:global(.vtex-my-account-1-x-phoneNumberSubContainer)
+:global(.vtex-my-account-1-x-dataEntryChildren){
+    font-size: 1rem;
+    
+    font-style: normal;
+    font-weight: normal;
+    line-height: 12px;
+    letter-spacing: 0.02em;
+    color: #000;
+}
+
+:global(.vtex-profile-form-3-x-profileSummary)
+:global(.vtex-my-account-1-x-corporateName)
+:global(.vtex-my-account-1-x-dataEntryLabel){
+    font-size: 1rem;
+    
+    font-style: normal;
+    font-weight: normal;
+    line-height: 12px;
+    letter-spacing: 0.02em;
+    color: #979899;
+}
+
+:global(.vtex-profile-form-3-x-profileSummary)
+:global(.vtex-my-account-1-x-corporateName)
+:global(.vtex-my-account-1-x-dataEntryChildren){
+    font-size: 1rem;
+    
+    font-style: normal;
+    font-weight: normal;
+    line-height: 12px;
+    letter-spacing: 0.02em;
+    color: #000;
+}
+
+:global(.vtex-profile-form-3-x-profileSummary)
+:global(.vtex-my-account-1-x-corporateDocument)
+:global(.vtex-my-account-1-x-dataEntryLabel){
+    font-size: 1rem;
+    
+    font-style: normal;
+    font-weight: normal;
+    line-height: 12px;
+    letter-spacing: 0.02em;
+    color: #979899;
+}
+
+:global(.vtex-profile-form-3-x-profileSummary)
+:global(.vtex-my-account-1-x-corporateDocument)
+:global(.vtex-my-account-1-x-dataEntryChildren){
+    font-size: 1rem;
+    
+    font-style: normal;
+    font-weight: normal;
+    line-height: 12px;
+    letter-spacing: 0.02em;
+    color: #000;
+}
+
+:global(.vtex-profile-form-3-x-profileSummary)
+:global(.vtex-my-account-1-x-businessPhoneContainer)
+:global(.vtex-my-account-1-x-businessPhoneSubContainer)
+:global(.vtex-my-account-1-x-dataEntryLabel){
+    font-size: 1rem;
+    
+    font-style: normal;
+    font-weight: normal;
+    line-height: 12px;
+    letter-spacing: 0.02em;
+    color: #979899;
+}
+
+:global(.vtex-profile-form-3-x-profileSummary)
+:global(.vtex-my-account-1-x-businessPhoneContainer)
+:global(.vtex-my-account-1-x-businessPhoneSubContainer)
+:global(.vtex-my-account-1-x-dataEntryChildren){
+    font-size: 1rem;
+    
+    font-style: normal;
+    font-weight: normal;
+    line-height: 12px;
+    letter-spacing: 0.02em;
+    color: #000;
+}
+
+:global(.vtex-profile-form-3-x-profileSummary)
+:global(.vtex-my-account-1-x-businessPhoneContainer)
+:global(.vtex-my-account-1-x-businessPhoneSubContainer){
+    margin-bottom: 1rem;
+}
+
+
+:global(.vtex-my-account-1-x-passwordBoxContainer)
+:global(.vtex-my-account-1-x-passwordBox)
+:global(.vtex-my-account-1-x-dataEntryLabel){
+    font-size: 1rem;
+    
+    font-style: normal;
+    font-weight: normal;
+    line-height: 12px;
+    letter-spacing: 0.02em;
+    color: #979899;
+}
+
+:global(.vtex-my-account-1-x-passwordBoxContainer)
+:global(.vtex-my-account-1-x-passwordBox)
+:global(.vtex-my-account-1-x-dataEntryChildren){
+    font-size: 1rem;
+    
+    font-style: normal;
+    font-weight: normal;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #000;
+}
+
+:global(.vtex-my-account-1-x-passwordBoxContainer)
+:global(.vtex-my-account-1-x-boxContainer)
+:global(.vtex-my-account-1-x-boxContainerFooter)
+:global(.vtex-button){
+    background: #FFD400;
+    border-radius: 1.5rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+
+:global(.vtex-my-account-1-x-passwordBoxContainer)
+:global(.vtex-my-account-1-x-boxContainer)
+:global(.vtex-my-account-1-x-boxContainerFooter)
+:global(.vtex-button)
+:global(.vtex-button__label){
+    font-size: .875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 12px;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+:global(.vtex-my-account-1-x-newsletterBoxContainer)
+:global(.vtex-my-account-1-x-boxContainer)
+:global(.vtex-my-account-1-x-boxContainerBody)
+:global(.vtex-my-account-1-x-newsletterContainerTitle){
+    font-size: 1rem;
+    
+    font-style: normal;
+    font-weight: normal;
+    line-height: 12px;
+    letter-spacing: 0.02em;
+    color: #979899;
+}
+
+:global(.vtex-my-account-1-x-newsletterBoxContainer)
+:global(.vtex-my-account-1-x-boxContainer)
+:global(.vtex-my-account-1-x-boxContainerBody)
+:global(.vtex-my-account-1-x-newsletterContainerMessage){
+    font-size: 1rem;
+    
+    font-style: normal;
+    font-weight: normal;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #979899;
+}
+
+:global(.vtex-my-account-1-x-newsletterBoxContainer)
+:global(.vtex-my-account-1-x-boxContainer)
+:global(.vtex-my-account-1-x-boxContainerBody)
+:global(.vtex-my-account-1-x-passwordBox)
+:global(.vtex-checkbox__line-container)
+:global(.vtex-checkbox__label){
+    font-size: 0rem;
+}
+
+:global(.vtex-my-account-1-x-newsletterBoxContainer)
+:global(.vtex-my-account-1-x-boxContainer)
+:global(.vtex-my-account-1-x-boxContainerBody)
+:global(.vtex-my-account-1-x-passwordBox)
+:global(.vtex-checkbox__line-container)
+:global(.vtex-checkbox__label)::before{
+    content: 'Si, quiero recibir el boletín informativo con promociones';
+    font-size: 1rem;
+    
+    font-style: normal;
+    font-weight: normal;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #000;
+}
+
+:global(.vtex-my-account-1-x-newsletterBoxContainer)
+:global(.vtex-my-account-1-x-boxContainer)
+:global(.vtex-my-account-1-x-boxContainerBody)
+:global(.vtex-my-account-1-x-passwordBox)
+:global(.vtex-checkbox__line-container)
+:global(.vtex-checkbox__container){
+    margin-top: 4px;
+}
+
+:global(.vtex-account)
+:global(.vtex-account__page)
+:global(.vtex-account__page-body){
+    background: #fff;
+}
+
+:global(.vtex-my-account-1-x-addressList)
+:global(.vtex-my-account-1-x-addressBox)
+:global(.vtex-my-account-1-x-boxContainer){
+    border-color: #000;
+    border-width: .1rem;
+    border-radius: 0.5rem;
+}
+
+:global(.vtex-my-account-1-x-addressList)
+:global(.vtex-my-account-1-x-addressBox)
+:global(.vtex-my-account-1-x-boxContainer)
+:global(.vtex-my-account-1-x-boxContainerBody){
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+:global(.vtex-my-account-1-x-addressList)
+:global(.vtex-my-account-1-x-addressBox)
+:global(.vtex-my-account-1-x-boxContainer)
+:global(.vtex-my-account-1-x-boxContainerBody)
+:global(.address-summary-PER){
+    font-size: 16px;
+    
+    font-style: normal;
+    font-weight: normal;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #000;
+}
+
+:global(.vtex-my-account-1-x-addressList)
+:global(.vtex-my-account-1-x-addressBox)
+:global(.vtex-my-account-1-x-boxContainer)
+:global(.vtex-my-account-1-x-boxContainerFooter)
+:global(.vtex-button){
+    border-color: #000;
+    border-width: .1rem;
+    border-radius: 1.5rem;
+}
+
+:global(.vtex-my-account-1-x-addressList)
+:global(.vtex-my-account-1-x-addressBox)
+:global(.vtex-my-account-1-x-boxContainer)
+:global(.vtex-my-account-1-x-boxContainerFooter)
+:global(.vtex-button)
+:global(.vtex-button__label){
+    font-size: .875rem;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 12px;
+    letter-spacing: 0.02em;
+    color: #000;
+    padding: 0 1rem !important;
+}
+
+/*:global(.vtex-pageHeader__container)
+:global(.vtex-pageHeader__title){
+    color: transparent;
+} JPS*/
+
+/*:global(.vtex-pageHeader__container)
+:global(.vtex-pageHeader-link__container){
+    display: none;
+} JPS*/
+
+:global(.vtex-pageHeader__container){
+    padding-left: 0.9rem;
+    padding-bottom: 0;
+}
+
+:global(.vtex-pageHeader__container)
+:global(.vtex-pageHeader-link__container){
+    margin-bottom: 2rem;
+}
+
+:global(.vtex-account__order-details)
+div
+time{
+    font-size: 14px;
+    
+    font-style: normal;
+    font-weight: normal;
+    line-height: 12px;
+    letter-spacing: 0.02em;
+    color: #979899;
+    margin-left: 0.4rem;
+}
+
+:global(.vtex-pageHeader__container)
+:global(.vtex-pageHeader__children)
+:global(.vtex-button){
+    border-radius: 1.5rem;
+}
+
+:global(.vtex-account__page)
+:global(.vtex-account__cards-list)
+:global(.c-on-base){
+    font-size: 24px;
+    
+    font-style: normal;
+    font-weight: bold;
+    line-height: 12px;
+    letter-spacing: 0.02em;
+    color: #979899;
+}
+
+:global(.vtex-account__page)
+:global(.vtex-my-account-1-x-addressList)
+:global(.t-heading-4){
+    font-size: 24px;
+    
+    font-style: normal;
+    font-weight: bold;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #979899;
+}
+
+:global(.vtex-account__page)
+:global(.vtex-account__orders-list)
+:global(.c-on-base){
+    font-size: 24px;
+    
+    font-style: normal;
+    font-weight: bold;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #979899;
+}
+
+:global(.vtex-account__page)
+:global(.vtex-account__create-card)
+:global(.vtex-radioGroup)
+:global(.vtex-radio)
+:global(.vtex-radio__label){
+    padding-left: 2rem;
+}
+
+:global(.vtex-account__page){
+    width: 100%;
+}
+
+:global(.vtex-account__page)
+:global(.vtex-account__page-body)
+:global(.vtex-my-orders-app-3-x-orderHeader){
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    padding: 0.8rem 1.5rem;
+}
+
+:global(.vtex-account__page)
+:global(.vtex-account__page-body)
+:global(.vtex-my-orders-app-3-x-orderCard){
+    border-radius: 1rem;
+}
+
+
+:global(.vtex-account__page)
+:global(.vtex-account__page-body)
+:global(.vtex-my-orders-app-3-x-orderHeader)
+:global(.vtex-my-orders-app-3-x-orderHeaderLabel){
+    font-size: .75rem;
+    
+    font-style: normal;
+    font-weight: bold;
+    line-height: 12px;
+    letter-spacing: 0.02em;
+    color: #000;
+}
+
+:global(.vtex-account__page)
+:global(.vtex-account__page-body)
+:global(.vtex-my-orders-app-3-x-orderHeader)
+:global(.vtex-my-orders-app-3-x-orderHeaderValue){
+    font-size: 13px;
+    
+    font-style: normal;
+    font-weight: normal;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #727273;
+}
+
+:global(.vtex-account__page)
+:global(.vtex-account__page-body)
+:global(.vtex-my-orders-app-3-x-orderHeader)
+:global(.vtex-my-orders-app-3-x-orderId){
+    font-size: .75rem;
+    
+    font-style: normal;
+    font-weight: normal;
+    line-height: 12px;
+    letter-spacing: 0.02em;
+    color: #000;
+}
+
+:global(.vtex-account__page)
+:global(.vtex-account__page-body)
+:global(.vtex-my-orders-app-3-x-orderHeader)
+:global(.vtex-my-orders-app-3-x-sellerOrderId)
+:global(.dib)
+:global(.c-on-muted-1){
+    
+    font-style: normal;
+    line-height: 12px;
+    letter-spacing: 0.02em;
+}
+
+:global(.vtex-account__page)
+:global(.vtex-account__page-body)
+:global(.vtex-my-orders-app-3-x-orderProduct)
+:global(.vtex-my-orders-app-3-x-orderProductShipping){
+    font-size: 13px;
+    
+    font-style: normal;
+    font-weight: normal;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #727273;
+}
+
+:global(.vtex-account__page)
+:global(.vtex-account__page-body)
+:global(.vtex-my-orders-app-3-x-orderProduct)
+:global(.vtex-my-orders-app-3-x-orderProductQuantityValue){
+    font-size: 14px;
+    
+    font-style: normal;
+    font-weight: bold;
+    line-height: 5px;
+    letter-spacing: 0.02em;
+    color: #000;
+}
+
+:global(.vtex-account__page)
+:global(.vtex-account__page-body)
+:global(.vtex-my-orders-app-3-x-orderProduct)
+:global(.vtex-my-orders-app-3-x-orderProductName){
+    font-size: 14px;
+    
+    font-style: normal;
+    font-weight: bold;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+    color: #000;
+}
+
+:global(.vtex-account__page)
+:global(.vtex-account__page-body)
+:global(.vtex-my-orders-app-3-x-orderProduct)
+:global(.v-top) img{
+    width: 100%;
+    height: auto;
+}
+
+:global(.vtex-account__page)
+:global(.vtex-account__page-body)
+:global(.vtex-my-orders-app-3-x-orderBody)
+:global(.vtex-my-orders-app-3-x-detailsBtn){
+    background: #FFD400;
+    border-radius: 1.5rem;
+    width: 13.5rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    order: 2;
+    margin-top: 0;
+}
+
+:global(.vtex-account__page)
+:global(.vtex-account__page-body)
+:global(.vtex-my-orders-app-3-x-orderBody)
+:global(.vtex-my-orders-app-3-x-detailsBtn)
+:global(.db){
+    font-size: 12px;
+    font-style: normal;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #000000;
+    margin-left: 0.7rem;
+    font-weight: 700;
+}
+
+:global(.vtex-account__page)
+:global(.vtex-account__page-body)
+:global(.vtex-my-orders-app-3-x-orderBody)
+:global(.vtex-my-orders-app-3-x-cancelBtn){
+    width: 13.5rem;
+    height: 32px;
+    background-repeat: no-repeat;
+    padding-left: 2rem;
+    background-image: url(/arquivos/mi-pedido-cancelar.PNG);
+    background-position: 14px;
+    order: 3;
+    margin-top: 0.8rem;
+    position: relative;
+}
+
+:global(.vtex-account__page)
+:global(.vtex-account__page-body)
+:global(.vtex-my-orders-app-3-x-orderBody)
+:global(.vtex-my-orders-app-3-x-cancelBtn)::before{
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    content: '\e901';
+    color: #000000;
+    position: absolute;
+    left: 0;
+    margin-left: .8rem;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: bold;
+}
+
+:global(.vtex-account__page)
+:global(.vtex-account__page-body)
+:global(.vtex-my-orders-app-3-x-orderBody)
+:global(.vtex-my-orders-app-3-x-cancelBtn)
+:global(.vtex-my-orders-app-3-x-font){
+    color: #000000;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 0;
+    margin-right: 1rem;
+}
+
+:global(.vtex-account__page)
+:global(.vtex-account__page-body)
+:global(.vtex-my-orders-app-3-x-orderBody)
+:global(.vtex-my-orders-app-3-x-cancelBtn) svg {
+    display: none;
+}
+
+:global(.vtex-account__order-details)
+div
+ul
+li
+:global(.no-underline)
+span{
+    color: #000000;
+    font-size: 12px;
+    
+    font-style: normal;
+    font-weight: bold;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+    margin-right: 0.4rem;
+}
+
+
+:global(.vtex-account__page)
+:global(.vtex-account__page-body)
+:global(.vtex-my-orders-app-3-x-orderBody)
+:global(.cf){
+    display: flex;
+    flex-direction: column;
+}
+
+:global(.vtex-account__page)
+:global(.vtex-account__page-body)
+:global(.vtex-my-orders-app-3-x-orderBody)
+:global(.vtex-my-orders-app-3-x-reorderBtn){
+    color: #000000;
+    border-color: #000;
+    border-radius: 1.5rem;
+    border: solid;
+    border-width: 1px;
+    width: 13.5rem;
+    height: 32px;
+    background-repeat: no-repeat;
+    padding-left: 2rem;
+    background-image: url(/arquivos/mi-pedido-volver.PNG);
+    background-position: 14px;
+    order: 1;
+    position: relative;
+}
+
+:global(.vtex-account__page)
+:global(.vtex-account__page-body)
+:global(.vtex-my-orders-app-3-x-orderBody)
+:global(.vtex-my-orders-app-3-x-reorderBtn)::before{
+    content: '';
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: .8rem;
+    background-image: url("data:image/svg+xml,%3Csvg width='12' height='12' viewBox='0 0 12 12' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23clip0)'%3E%3Cpath d='M6.86717 0H1.08882C0.588875 0 0.183594 0.405281 0.183594 0.905227C0.183594 1.40517 0.588875 1.81045 1.08882 1.81045H6.86717C8.5982 1.81045 10.0065 3.21874 10.0065 4.94977C10.0065 6.68079 8.5982 8.08908 6.86717 8.08908H6.4235V6.81846C6.4235 6.1808 5.7332 5.78227 5.18096 6.10113L1.41266 8.277C0.860492 8.59582 0.860469 9.39281 1.41263 9.71166L5.18094 11.8878C5.73315 12.2066 6.4235 11.8081 6.4235 11.1704V9.89953H6.86717C9.59649 9.89953 11.8169 7.67909 11.8169 4.94977C11.8169 2.22045 9.59649 0 6.86717 0V0Z' fill='black'/%3E%3Cpath d='M6.86717 1.81069C8.4549 1.81069 9.77091 2.99553 9.97796 4.52743C9.99664 4.38917 10.0065 4.24814 10.0065 4.10485C10.0065 2.37382 8.59822 0.965535 6.8672 0.965535H1.08882C0.741547 0.965535 0.440117 0.769902 0.288289 0.48291C0.221539 0.609074 0.183594 0.752816 0.183594 0.905488C0.183594 1.40543 0.588875 1.81071 1.08882 1.81071H6.86717V1.81069Z' fill='black'/%3E%3Cpath d='M6.8675 9.05451H6.42383V9.89969H6.8675C9.59682 9.89969 11.8173 7.67924 11.8173 4.94992C11.8173 4.80756 11.8109 4.66668 11.799 4.52734C11.5839 7.05955 9.45444 9.05451 6.8675 9.05451Z' fill='black'/%3E%3Cpath d='M5.18115 11.0426L1.41285 8.8665C1.28197 8.79094 1.18253 8.68833 1.11369 8.57178C0.892116 8.94699 0.991561 9.4684 1.41285 9.71169L5.18115 11.8878C5.73337 12.2067 6.42372 11.8082 6.42372 11.1705V10.3253C6.42372 10.963 5.73337 11.3615 5.18115 11.0426Z' fill='black'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0'%3E%3Crect width='12' height='12' fill='white'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A");
+}
+
+:global(.vtex-account__order-details)
+div
+ul
+li
+:global(.underline)
+span{
+    color: #000000;
+    font-size: 12px;
+    
+    font-style: normal;
+    font-weight: bold;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+}
+
+:global(.vtex-account__order-details)
+div
+ul
+li
+:global(.underline)
+svg{
+    display: none;
+}
+
+:global(.vtex-account__order-details)
+div
+ul
+li
+:global(.underline){
+    color: #000000;
+    width: 12rem;
+    height: 32px;
+    background-repeat: no-repeat;
+    padding-left: 1rem;
+    background-image: url(/arquivos/mi-pedido-volver.PNG);
+    background-position: 14px;
+}
+
+
+
+
+
+
+:global(.vtex-account__page)
+:global(.vtex-account__page-body)
+:global(.vtex-my-orders-app-3-x-orderBody)
+:global(.vtex-my-orders-app-3-x-reorderBtn)
+:global(.vtex-my-orders-app-3-x-font){
+    color: #000000;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin-top: 0.5rem;
+    margin-bottom: 0.3rem;
+    margin-right: 0.3rem;
+    margin-left: 0;
+}
+
+:global(.vtex-account__page)
+:global(.vtex-account__page-body)
+:global(.vtex-my-orders-app-3-x-orderBody)
+:global(.vtex-my-orders-app-3-x-reorderBtn) svg{
+    display: none;
+}
+
+:global(.vtex-radio__label)
+:global(.address-summary-PER){
+    padding-left: 2rem;
+}
+
+
+
+
+:global(.vtex-account__order-details)
+article
+section{
+    border-radius: 0.5rem;
+}
+
+:global(.vtex-account__order-details)
+article
+section
+h3{
+    
+    font-size: .875rem;
+    color: #000;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}
+
+:global(.vtex-account__order-details)
+article
+section
+strong{
+    
+    font-size: .875rem;
+    color: #000;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+}
+
+:global(.vtex-account__order-details)
+article
+section
+:global(.lh-copy){
+    
+    font-size: .875rem;
+    color: #000;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+}
+
+:global(.vtex-account__order-details)
+article
+section
+:global(.address-summary-PER){
+    margin-top: 0.4rem;
+}
+
+
+
+:global(.vtex-account__order-details)
+article
+section
+:global(.cf){
+    
+    font-size: .875rem;
+    color: #000;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+}
+
+
+
+:global(.vtex-account__page)
+:global(.vtex-account__page-body)
+:global(.myo-progress-bar){
+    border-radius: 0.5rem;
+}
+
+:global(.vtex-account__page)
+:global(.vtex-account__page-body)
+:global(.myo-progress-bar)
+:global(.myo-progress-bar__title-font){
+    
+    font-size: 15px;
+    color: #000;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+}
+
+
+
+:global(.vtex-account__page)
+:global(.vtex-account__page-body)
+:global(.myo-progress-bar)
+:global(.myo-progress-bar__height1){
+    border-color: #FFD400;
+}
+
+:global(.vtex-account__page)
+:global(.vtex-account__page-body)
+:global(.myo-progress-bar)
+:global(.myo-progress-bar__circle){
+    background-color: #FFD400;
+}
+
+:global(.vtex-account__page)
+:global(.vtex-account__page-body)
+:global(.myo-progress-bar)
+:global(.myo-progress-bar__ma-inner-circle){
+    background-color: #FFD400;
+    border-color: #fff;
+}
+
+:global(.vtex-account__page)
+:global(.vtex-account__page-body)
+:global(.myo-progress-bar)
+:global(.myo-progress-bar__ma-inner-circle)::before{
+    background: #FFD400;
+}
+
+
+
+:global(.vtex-account__page)
+:global(.vtex-account__page-body)
+:global(.vtex-account__order-details)
+:global(.center) 
+:global(.w-40-ns)
+time{
+    
+    font-size: 12px;
+    color: #727273;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+}
+
+
+:global(.vtex-account__order-details)
+div
+:global(.pv7)
+h2{
+    
+    font-size: 15px;
+    color: #000;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}
+
+:global(.vtex-account__order-details)
+div
+:global(.pv7)
+:global(.mr3){
+    
+    font-size: 13px;
+    color: #000;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+}
+
+
+:global(.vtex-account__order-details)
+:global(.vtex-my-orders-app-3-x-productTable)
+thead
+tr
+th{
+    
+    font-size: 15px;
+    color: #000;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+}
+
+:global(.vtex-account__order-details)
+:global(.vtex-my-orders-app-3-x-productTable)
+tbody
+tr
+:global(.vtex-my-orders-app-3-x-productPrice){
+    
+    font-size: 14px;
+    color: #000;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+}
+
+:global(.vtex-account__order-details)
+:global(.vtex-my-orders-app-3-x-productTable)
+tbody
+tr
+:global(.vtex-my-orders-app-3-x-productQuantity){
+    
+    font-size: 14px;
+    color: #000;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+}
+
+:global(.vtex-account__order-details)
+:global(.vtex-my-orders-app-3-x-productTable)
+tbody
+tr
+:global(.vtex-my-orders-app-3-x-productTotalPrice){
+    
+    font-size: 14px;
+    color: #000;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+}
+
+:global(.vtex-account__order-details)
+:global(.vtex-my-orders-app-3-x-productTable)
+tbody
+tr
+:global(.vtex-my-orders-app-3-x-productInfo)
+div
+a{
+    
+    font-size: 13px;
+    color: #000;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+:global(.vtex-account__order-details)
+:global(.vtex-my-orders-app-3-x-productTable)
+tbody
+tr
+:global(.vtex-my-orders-app-3-x-productInfo)
+div
+span{
+    
+    font-size: 10px;
+    color: #727273;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    :global(.vtex-pageHeader__container){
+        padding-bottom: 0;
+        padding-left: 1.5rem;
+    }
+
+    :global(.vtex-pageHeader__container)
+    :global(.vtex-pageHeader-link__container){
+        display: flex;
+        margin-bottom: .5rem;
+    }
+
+    :global(.vtex-my-account-1-x-addressList)
+    :global(.vtex-my-account-1-x-addressBox):first-child :first-child{
+        width: -webkit-fill-available;
+    }
+
+    /*:global(.vtex-pageHeader__container)
+    :global(.vtex-pageHeader__title){
+        display: none;
+    }*/
+
+    :global(.vtex-my-account-1-x-addressList)
+    :global(.vtex-my-account-1-x-addressBox){
+        display: block;
+    }
+
+    :global(.vtex-account)
+    :global(.vtex-account__page)
+    :global(.vtex-my-orders-app-3-x-ordersList){
+        padding-top: 0;
+    }
+
+    :global(.vtex-account__order-details)
+    div
+    ul
+    li
+    :global(.no-underline)
+    span{
+        color: #000000;
+        font-size: 12px;
+        
+        font-style: normal;
+        font-weight: bold;
+        line-height: 15px;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        margin-top: 0.3rem;
+        margin-bottom: 0.3rem;
+        margin-right: 0.4rem;
+        margin-left: 1rem;
+    }
+
+    :global(.vtex-account__order-details)
+    div
+    :global(.w-40-ns){
+        padding-bottom: 1rem;
+    }
+
+    :global(.vtex-account__order-details)
+    :global(.myo-progress-bar)
+    :global(.myo-progress-bar__mobile-text)
+    span{
+        color: #000000;
+        font-size: 0.9rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 15px;
+        letter-spacing: 0.02em;
+        margin-right: 1.7rem;
+    }
+
+    :global(.vtex-account__order-details)
+    div
+    time{
+        font-size: 14px;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 12px;
+        letter-spacing: 0.02em;
+        color: #979899;
+        margin-left: 1rem;
+    }
+}

@@ -54,7 +54,7 @@
 
     "flex-layout.col#mobile-promise-2-col2": {
         "children": [
-            "rich-text#promise-2-text-1"
+            "rich-text#promise-2-text-1-mobile"
         ],
         "props": {
             "width": "80%",
@@ -65,6 +65,13 @@
     "rich-text#promise-2-text-1": {
         "props": {
             "text": "**ENTREGAS**",
+            "blockClass": "colorPromise"
+        }
+    },
+
+    "rich-text#promise-2-text-1-mobile": {
+        "props": {
+            "text": "**Envío gratis desde 250mil**",
             "blockClass": "colorPromise"
         }
     },

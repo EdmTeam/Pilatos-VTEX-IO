@@ -30,6 +30,7 @@
   margin: 0;
   text-align: center;
   font-size: 9px;
+  text-transform: uppercase;
 }
 
 @media only screen and (min-width: 1180px){
@@ -89,7 +90,7 @@
   color: #000000;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 740px) {
   .container--titleOfertasUnicas, .container--textOfertasUnicas{
     justify-content: flex-start;
     padding-left: 1rem;
@@ -227,7 +228,7 @@
   letter-spacing: 0.02em;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 740px) {
   .wrapper--mailItemsfooter, 
   .wrapper--telItemsfooter,
   .wrapper--whatsappItemsfooter
@@ -357,7 +358,7 @@
   padding: 0 4rem;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 740px) {
   .paragraph--textTopHeader{
     padding: 0;
   }
@@ -373,7 +374,7 @@
   font-size: 1.3rem;
 }
 
-@media only screen and (min-width: 760px){
+@media only screen and (min-width: 740px){
   .container--icoSearch .wrapper--icoSearch{
     font-size: 1.6rem;
   }
@@ -487,7 +488,7 @@
   width: 90%;
 }
 
-@media only screen and (min-width: 760px){
+@media only screen and (min-width: 740px){
   .wrapper--titleCategoryBanners .paragraph{
     font-size: 26px;
   }
@@ -782,9 +783,9 @@
   text-decoration: none;
 }
 
-@media only screen and (min-width: 1180px){
+@media only screen and (min-width: 740px){
   .container--titleItemsfooter{
-    margin-top: 6.7rem;
+    margin-top: 9.7rem;
   }
 
   .paragraph--titleNewsletter{
@@ -821,6 +822,12 @@
     font-size: 1.2rem;
     color: #000000;
     text-decoration: none;
+  }
+}
+
+@media only screen and (min-width: 1180px){
+  .container--titleItemsfooter{
+    margin-top: 6.7rem;
   }
 }
 
@@ -948,6 +955,7 @@
   width: 20px;
   background-position: center;
   background-repeat: no-repeat;
+  margin-left: 1rem;
 }
 
 .container--titleShelfProduct{
@@ -1139,6 +1147,10 @@
   .wrapper--btnLink .paragraph{
     margin: .3rem .7rem;
   }
+
+  .container--tabArrow{
+    margin-left: 0;
+  }
 }
 
 /* Estilos a pagina de wishList */
@@ -1167,10 +1179,145 @@
     line-height: 28px;
     padding: 0 2.5rem;
   }
+
+  .container--titleShelfProduct{
+    margin: 2.5rem 0 2rem 0;
+  }
   
+  .wrapper--titleShelfProduct .paragraph{
+    font-size: 25px;
+    line-height: 31px;
+    margin-bottom: .5rem;
+  }
+
   .wrapper--wishlistTitle .paragraph::before{
     width: 34px;
     height: 31px;
     background-image: url("data:image/svg+xml,%3Csvg width='34' height='32' viewBox='0 0 24 23' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M18.0169 2.39369L18.0176 2.3944C19.932 4.39293 19.9457 7.56759 18.011 9.6554L10.5547 17.5379C10.496 17.5892 10.3391 17.6658 10.1538 17.6658C9.94514 17.6658 9.84326 17.624 9.67993 17.4669L2.29673 9.65544C0.362005 7.56762 0.375726 4.39295 2.29008 2.3944L2.29988 2.38417L2.30933 2.37362C3.21838 1.35899 4.44785 0.85 5.76091 0.85C7.04982 0.85 8.29784 1.41718 9.23106 2.39369L9.24119 2.40429L9.25168 2.41453L9.55995 2.7156L10.1538 3.29561L10.7477 2.7156L11.056 2.41453L11.0763 2.39473L11.0952 2.37362C12.0043 1.35899 13.2337 0.85 14.5468 0.85C15.8357 0.85 17.0837 1.41718 18.0169 2.39369Z' fill='white' stroke='%23222221' stroke-width='1.7'/%3E%3Cpath d='M22.058 8.80611L22.0587 8.80682C23.5082 10.3557 23.5216 12.8269 22.0522 14.4506L16.1866 20.7978C16.1802 20.8023 16.1629 20.8137 16.1322 20.8257C16.0889 20.8425 16.0413 20.8514 16 20.8514C15.917 20.8514 15.8858 20.8385 15.8745 20.8335C15.8603 20.8272 15.8258 20.8092 15.7613 20.7463L9.94793 14.4507C8.47845 12.827 8.49181 10.3557 9.94131 8.80682L9.95097 8.7965L9.96028 8.78587C10.6426 8.00631 11.5597 7.61923 12.5389 7.61923C13.4939 7.61923 14.4294 8.04951 15.1358 8.80611L15.1458 8.81682L15.1562 8.82717L15.3991 9.06997L16 9.67069L16.6009 9.06997L16.8438 8.82718L16.8638 8.80717L16.8825 8.78587C17.5648 8.00631 18.4819 7.61923 19.4611 7.61923C20.4161 7.61923 21.3516 8.04951 22.058 8.80611Z' fill='%23FFD400' stroke='%23FFD400' stroke-width='1.7'/%3E%3C/svg%3E%0A");
   }
+}
+
+@media only screen and (min-width: 740px) {
+  .wrapper--colorPromise{
+    padding-left: 1rem;
+  }
+
+  .wrapper--titleCategoryBanners .paragraph{
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+  }
+}
+
+@media only screen and (min-width: 1180px) {
+  .wrapper--colorPromise{
+    padding-left: 0;
+  }
+
+  .wrapper--titleCategoryBanners .paragraph{
+    font-size: 26px;
+  }
+}
+
+/* Estilos pagina de agradecimiento y confirmacion */
+.wrapper--titleConfirmed .paragraph{
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 25px;
+  color: #000000;
+  margin: 2rem 0 .3rem 0;
+}
+
+.wrapper--titleConfirmedDetail .paragraph,
+.wrapper--confirmedDetail .paragraph{
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.025em;
+  color: #000000;
+}
+
+.container--linkBtnNew{
+  margin-top: 2rem;
+}
+
+.wrapper--linkBtnOrder, .wrapper--linkBtnNew{
+  width: 90%;
+}
+
+.container--linkBtnNew, .container--linkBtnOrder{
+  justify-content: center !important;
+  margin-bottom: 1rem;
+}
+
+@media only screen and (min-width: 750px){
+  .wrapper--titleConfirmedDetail .paragraph{
+    margin: 0  0 1.2rem 0;
+  }
+
+  .wrapper--linkBtnNew{
+    width: 100%;
+  }
+
+  .container--linkBtnNew, .container--linkBtnOrder{
+    justify-content: flex-end !important;
+    margin: 0;
+  }
+}
+
+.wrapper--confirmedDetail .paragraph{
+  margin: 0;
+}
+
+.wrapper--customerInformation .paragraph,
+.wrapper--paymentInformation .paragraph,
+.wrapper--totalInformation .paragraph
+{
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.025em;
+  color: #000000;
+  margin-bottom: .4rem;
+}
+
+.wrapper--linkBtnOrder .paragraph,
+.wrapper--linkBtnNew .paragraph
+{
+  margin: 0;
+  text-align: center;
+}
+
+.wrapper--linkBtnOrder .link--linkBtnOrder,
+.wrapper--linkBtnNew .link--linkBtnNew
+{
+  border: 1px solid #000000;
+  border-radius: 100px;
+  padding: 1rem 3rem;
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.wrapper--linkBtnOrder .link--linkBtnOrder{
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.01em;
+  color: #000000;
+}
+
+.wrapper--linkBtnNew .link--linkBtnNew{
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+  background: #000000;
+  padding: 1rem 2rem;
+}
+
+.container--linkBtnNew, .container--linkBtnOrder{
+  justify-content: flex-end;
 }

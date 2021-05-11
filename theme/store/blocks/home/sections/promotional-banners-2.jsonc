@@ -135,6 +135,12 @@
         ]
     },
 
+    "responsive-layout.tablet#promotional-banners-2-tablet": {
+        "children":[
+            "flex-layout.row#desk-promotional-banners-2"
+        ]
+    },
+
     "responsive-layout.tablet#promotional-banners-2": {
         "children":[
             "flex-layout.row#desk-promotional-banners-2"
@@ -162,7 +168,6 @@
             "phone": 1
           },
           "infinite": false,
-          "showNavigationArrows": "desktopOnly",
           "blockClass": "promBannerContent",
           "centerMode": "to-the-left"
         },

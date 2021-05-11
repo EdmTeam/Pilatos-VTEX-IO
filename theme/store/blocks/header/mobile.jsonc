@@ -12,7 +12,8 @@
     "flex-layout.col#header-sticky-mobile": {
         "children": [
             "flex-layout.col#top-header-mobile",
-            "flex-layout.row#header-mobile"
+            "responsive-layout.phone#header-mobile-col",
+            "responsive-layout.tablet#header-mobile-col"
         ],
         "props": {
             "blockClass": "contenedorHeader",
@@ -38,6 +39,17 @@
     },
 
     //Barra header
+    "responsive-layout.phone#header-mobile-col": {
+        "children":[
+            "flex-layout.row#header-mobile"
+        ]
+    },
+    "responsive-layout.tablet#header-mobile-col": {
+        "children":[
+            "flex-layout.row#header-mobile-tablet"
+        ]
+    },
+
     "flex-layout.row#header-mobile": {
         "children": [
             "flex-layout.col#header-mobile-col-1",
@@ -53,6 +65,21 @@
         }
     },
 
+    "flex-layout.row#header-mobile-tablet": {
+        "children": [
+            "flex-layout.col#header-mobile-col-1-tablet",
+            "flex-layout.col#header-mobile-col-2-tablet",
+            "flex-layout.col#header-mobile-col-3-tablet",
+            "flex-layout.col#header-mobile-col-4-tablet",
+            "flex-layout.col#header-mobile-col-5-tablet",
+            "flex-layout.col#header-mobile-col-6-tablet"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "blockClass": "contentHeaderBar"
+        }
+    },
+
     //Menu mobile
     "flex-layout.col#header-mobile-col-1": {
         "children": [
@@ -60,6 +87,16 @@
         ],
         "props": {
             "width": "20%",
+            "blockClass": "contentIcoMenu"
+        }
+    },
+
+    "flex-layout.col#header-mobile-col-1-tablet": {
+        "children": [
+            "drawer#header-mobile"        
+        ],
+        "props": {
+            "width": "10%",
             "blockClass": "contentIcoMenu"
         }
     },
@@ -110,7 +147,7 @@
             "flex-layout.row#submenu-level-1-footer-row-1"        
         ],
         "props":{
-            "href": "/"
+            "href": "/lista-deseos"
         }
     },
 
@@ -146,7 +183,7 @@
             "flex-layout.row#submenu-level-1-footer-row-2"        
         ],
         "props":{
-            "href": "#"
+            "href": "/login"
         }
     },
 
@@ -228,11 +265,29 @@
         }
     },
 
+    "flex-layout.col#header-mobile-col-2-tablet": {
+        "children": [
+            "image#logo-pilatos"
+        ],
+        "props": {
+            "width": "15%",
+            "blockClass": "contentLogo"
+        }
+    },
+
     "flex-layout.col#header-mobile-col-3": {
         "children": [
         ],
         "props": {
             "width": "25%"
+        }
+    },
+
+    "flex-layout.col#header-mobile-col-3-tablet": {
+        "children": [
+        ],
+        "props": {
+            "width": "55%"
         }
     },
 
@@ -243,6 +298,16 @@
         ],
         "props": {
             "width": "11%",
+            "blockClass": "contentSearchMobile"
+        }
+    },
+
+    "flex-layout.col#header-mobile-col-4-tablet": {
+        "children": [
+            "rich-text#header-items-ico-1-mobile"
+        ],
+        "props": {
+            "width": "8%",
             "blockClass": "contentSearchMobile"
         }
     },
@@ -266,11 +331,30 @@
         "blockClass": "icoCart"
         }
     },
+
+    "flex-layout.col#header-mobile-col-5-tablet": {
+        "children": [
+            "minicart.v2#pilatos"
+        ],
+        "props": {
+        "width": "8%",
+        "blockClass": "icoCart"
+        }
+    },
+
     "flex-layout.col#header-mobile-col-6": {
         "children": [
         ],
         "props": {
             "width": "7%"
+        }
+    },
+
+    "flex-layout.col#header-mobile-col-6-tablet": {
+        "children": [
+        ],
+        "props": {
+            "width": "4%"
         }
     }
 }
