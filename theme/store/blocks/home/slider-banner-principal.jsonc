@@ -25,7 +25,7 @@
             "height": 600,
             "images": [
                 {
-                    "image": "/arquivos/banner-mobile.png",
+                    "image": "/arquivos/Pilatos-Camisetas3x2-768x720.jpg",
                     "link": {
                         "url": "/",
                         "attributeTitle": ""
@@ -52,7 +52,7 @@
             "height": 600,
             "images": [
                 {
-                    "image": "/arquivos/banner-tablet.png",
+                    "image": "/arquivos/Pilatos-Camisetas3x2-1024x400.jpg",
                     "link": {
                         "url": "/",
                         "attributeTitle": ""
@@ -79,7 +79,7 @@
             "height": 600,
             "images": [
                 {
-                    "image": "/arquivos/banner-desk.png",
+                    "image": "/arquivos/Pilatos-Camisetas3x2-1920x600.jpg",
                     "link": {
                         "url": "/",
                         "attributeTitle": ""

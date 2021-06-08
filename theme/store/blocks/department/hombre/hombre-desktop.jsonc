@@ -24,7 +24,8 @@
             "rich-text#department-hombre-title",
             "rich-text#department-hombre-description",
             "responsive-layout.desktop#department-hombre-banners",
-            "responsive-layout.mobile#department-hombre-banners"
+            "responsive-layout.tablet#department-hombre-banners",
+            "responsive-layout.phone#department-hombre-banners"
         ]
     },
 

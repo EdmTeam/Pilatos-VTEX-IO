@@ -68,7 +68,8 @@
     "vtex.add-to-cart-button": "0.x",
     "pilatos21.add-to-cart-button": "0.x",
     "pilatos21.custom-sticky": "0.x",
-    "pilatos21.free-shipping": "0.x"
+    "pilatos21.free-shipping": "0.x",
+    "pilatos21.store-locator": "0.x"
   },
   "peerDependencies": {
     "pilatos21.wishlist": "0.x"

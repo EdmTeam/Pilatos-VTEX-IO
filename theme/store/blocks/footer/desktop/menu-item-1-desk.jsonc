@@ -4,7 +4,7 @@
             "rich-text#desk-menu-item-title",
             "rich-text#desk-menu-item-description",
             "flex-layout.col#desk-item-contact",
-            "flex-layout.row#desk-item-storelocator"
+            "link#store-locator"
         ],
         "props": {
             "width": "20%",
@@ -199,6 +199,14 @@
     // },
 
     //Store locator
+    "link#store-locator":{
+        "children":[
+            "flex-layout.row#desk-item-storelocator"        
+        ],
+        "props":{
+            "href": "/localizador-tiendas"
+        }
+    },
     "flex-layout.row#desk-item-storelocator": {
         "children": [
             "flex-layout.col#desk-item-storelocator-col-1",

@@ -1,4 +1,8 @@
-div[class="vtex-styleguide-9-x-jsFocusVisible"] div[role="button"]{
+:root{
+    --colornegro: #000
+}
+
+:global(.vtex-styleguide-9-x-jsFocusVisible) div[role="button"]{
     flex-direction: row-reverse;
 }
 

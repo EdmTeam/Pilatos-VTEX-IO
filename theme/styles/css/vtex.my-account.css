@@ -1312,3 +1312,7 @@ span{
         margin-left: 1rem;
     }
 }
+
+.boxContainerBody :global(.vtex-input__label){
+    display: block;
+}

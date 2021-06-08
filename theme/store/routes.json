@@ -546,5 +546,9 @@
 
     "store.wishlist": {
         "path": "/lista-deseos"
+    },
+
+    "store.custom#store-locator":{
+        "path": "/localizador-tiendas"
     }
 }

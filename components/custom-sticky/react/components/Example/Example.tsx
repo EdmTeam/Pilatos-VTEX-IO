@@ -1,26 +1,22 @@
 import React from 'react';
-import { FormattedMessage } from 'react-intl';
 import { useCssHandles } from 'vtex.css-handles';
 
 /**
  * declare todos los modificadores de clases que necesite su proyecto recuerde
  * que esto permitira que su proyectos sea configurable
  */
-const CSS_HANDLES = ['title'] as const;
+const CSS_HANDLES = ['icono'] as const;
 /**
  * declaracion del componente
  */
-const Example: StorefrontFunctionComponent<ExampleProps> = ({ title }) => {
+const Example: StorefrontFunctionComponent<ExampleProps> = ({ classIco }) => {
     const handles = useCssHandles(CSS_HANDLES);
-    const titleText = title || (
-        <FormattedMessage id="admin/editor.example.title" />
-    );
 
     return (
         <div
-            className={`${handles.title} t-heading-2 fw3 w-100 c-muted-1 db tc`}
+            className={`${handles.icono} ${classIco}`}
         >
-            {titleText}
+            
         </div>
     );
 };
@@ -30,15 +26,12 @@ const Example: StorefrontFunctionComponent<ExampleProps> = ({ title }) => {
  * para lograr la maxima paremetrizacion del componente
  */
 interface ExampleProps {
-    title: string;
+    classIco: string;
 }
 
 /**
  * propiedades por defecto del componete
  */
-Example.defaultProps = {
-    title: 'esta es una prueba',
-};
 
 /**
  * esquema base del componenete esto habilita el site editor desde el admin

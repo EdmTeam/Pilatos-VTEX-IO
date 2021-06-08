@@ -58,6 +58,24 @@
   .flexRowContent--contentItem1{
     padding: 1rem 6rem;
   }
+
+  .flexRow--search-in-mobile{
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  :global(.vtex-search-result-3-x-container--layout--searchResultMobile) :global(.vtex-breadcrumb-1-x-container){
+    display: none;
+  }
+
+  :global(.vtex-search-result-3-x-container--layout--searchResultMobile) .flexRowContent--contentBanners-2{
+    margin: .5rem auto .8rem auto;
+    width: 95%;
+  }
+
+  :global(.vtex-search-result-3-x-container--layout--searchResultMobile) .flexRowContent--contentBanners-2 .stretchChildrenWidth{
+    width: 33.3% !important;
+  }
 }
 
 .flexRow--contentContact{
@@ -332,6 +350,22 @@
   padding-top: 0;
 }
 
+.flexRowContent--subContenItems1{
+  overflow: auto;
+  padding-right: .5rem;
+  height: 295px;
+}
+
+.flexRowContent--subContenItems1::-webkit-scrollbar{
+  width: 6px;
+}
+
+.flexRowContent--subContenItems1::-webkit-scrollbar-thumb {
+  display: block;
+  background: #FFD400;
+  border-radius: 10px;
+}
+
 @media only screen and (min-width: 740px){
   .flexRowContent--contentItemsMenu,
   .flexRowContent--subContenItemsLevel2,
@@ -340,6 +374,11 @@
   .flexRowContent--contentFooterMenu
   {
     display: block;
+  }
+
+  .flexRowContent--subContenItems1{
+    height: auto;
+    padding-right: 0;
   }
 
   .flexRow--contentFooterMenu{
