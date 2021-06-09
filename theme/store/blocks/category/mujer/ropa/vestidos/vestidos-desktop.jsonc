@@ -24,7 +24,8 @@
             "rich-text#category-vestidos-mujer-title",
             "rich-text#category-vestidos-mujer-description",
             "responsive-layout.desktop#category-vestidos-mujer-banners",
-            "responsive-layout.mobile#category-vestidos-mujer-banners"
+            "responsive-layout.phone#category-vestidos-mujer-banners",
+            "responsive-layout.tablet#category-vestidos-mujer-banners"
         ]
     },
 

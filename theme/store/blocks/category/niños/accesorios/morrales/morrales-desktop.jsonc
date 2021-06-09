@@ -24,7 +24,8 @@
             "rich-text#category-morrales-niños-title",
             "rich-text#category-morrales-niños-description",
             "responsive-layout.desktop#category-morrales-niños-banners",
-            "responsive-layout.mobile#category-morrales-niños-banners"
+            "responsive-layout.phone#category-morrales-niños-banners",
+            "responsive-layout.tablet#category-morrales-niños-banners"
         ]
     },
 

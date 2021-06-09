@@ -24,7 +24,8 @@
             "rich-text#category-ropa-interior-mujer-title",
             "rich-text#category-ropa-interior-mujer-description",
             "responsive-layout.desktop#category-ropa-interior-mujer-banners",
-            "responsive-layout.mobile#category-ropa-interior-mujer-banners"
+            "responsive-layout.phone#category-ropa-interior-mujer-banners",
+            "responsive-layout.tablet#category-ropa-interior-mujer-banners"
         ]
     },
 

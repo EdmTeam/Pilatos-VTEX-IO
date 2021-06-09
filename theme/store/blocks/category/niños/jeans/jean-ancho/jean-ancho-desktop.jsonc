@@ -24,7 +24,8 @@
             "rich-text#category-jean-ancho-niños-title",
             "rich-text#category-jean-ancho-niños-description",
             "responsive-layout.desktop#category-jean-ancho-niños-banners",
-            "responsive-layout.mobile#category-jean-ancho-niños-banners"
+            "responsive-layout.phone#category-jean-ancho-niños-banners",
+            "responsive-layout.tablet#category-jean-ancho-niños-banners"
         ]
     },
 

@@ -24,7 +24,8 @@
             "rich-text#category-ropa-niños-title",
             "rich-text#category-ropa-niños-description",
             "responsive-layout.desktop#category-ropa-niños-banners",
-            "responsive-layout.mobile#category-ropa-niños-banners"
+            "responsive-layout.phone#category-ropa-niños-banners",
+            "responsive-layout.tablet#category-ropa-niños-banners"
         ]
     },
 

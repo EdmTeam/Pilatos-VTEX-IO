@@ -24,7 +24,8 @@
             "rich-text#category-ropa-playa-accesorios-hombre-title",
             "rich-text#category-ropa-playa-accesorios-hombre-description",
             "responsive-layout.desktop#category-ropa-playa-accesorios-hombre-banners",
-            "responsive-layout.mobile#category-ropa-playa-accesorios-hombre-banners"
+            "responsive-layout.phone#category-ropa-playa-accesorios-hombre-banners",
+            "responsive-layout.tablet#category-ropa-playa-accesorios-hombre-banners"
         ]
     },
 

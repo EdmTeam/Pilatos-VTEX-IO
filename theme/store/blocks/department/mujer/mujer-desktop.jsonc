@@ -24,7 +24,8 @@
             "rich-text#department-mujer-title",
             "rich-text#department-mujer-description",
             "responsive-layout.desktop#department-mujer-banners",
-            "responsive-layout.mobile#department-mujer-banners"
+            "responsive-layout.tablet#department-mujer-banners",
+            "responsive-layout.phone#department-mujer-banners"
         ]
     },
 

@@ -24,7 +24,8 @@
             "rich-text#category-morrales-mujer-title",
             "rich-text#category-morrales-mujer-description",
             "responsive-layout.desktop#category-morrales-mujer-banners",
-            "responsive-layout.mobile#category-morrales-mujer-banners"
+            "responsive-layout.phone#category-morrales-mujer-banners",
+            "responsive-layout.tablet#category-morrales-mujer-banners"
         ]
     },
 

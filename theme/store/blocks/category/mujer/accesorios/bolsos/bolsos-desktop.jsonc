@@ -24,7 +24,8 @@
             "rich-text#category-bolsos-mujer-title",
             "rich-text#category-bolsos-mujer-description",
             "responsive-layout.desktop#category-bolsos-mujer-banners",
-            "responsive-layout.mobile#category-bolsos-mujer-banners"
+            "responsive-layout.phone#category-bolsos-mujer-banners",
+            "responsive-layout.tablet#category-bolsos-mujer-banners"
         ]
     },
 

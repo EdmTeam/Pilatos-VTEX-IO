@@ -24,7 +24,8 @@
             "rich-text#category-polos-hombre-title",
             "rich-text#category-polos-hombre-description",
             "responsive-layout.desktop#category-polos-hombre-banners",
-            "responsive-layout.mobile#category-polos-hombre-banners"
+            "responsive-layout.phone#category-polos-hombre-banners",
+            "responsive-layout.tablet#category-polos-hombre-banners"
         ]
     },
 

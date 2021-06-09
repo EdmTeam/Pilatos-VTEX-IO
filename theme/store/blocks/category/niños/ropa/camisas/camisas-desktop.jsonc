@@ -24,7 +24,8 @@
             "rich-text#category-camisas-niños-title",
             "rich-text#category-camisas-niños-description",
             "responsive-layout.desktop#category-camisas-niños-banners",
-            "responsive-layout.mobile#category-camisas-niños-banners"
+            "responsive-layout.phone#category-camisas-niños-banners",
+            "responsive-layout.tablet#category-camisas-niños-banners"
         ]
     },
 

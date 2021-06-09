@@ -24,7 +24,8 @@
             "rich-text#category-superslim-mujer-title",
             "rich-text#category-superslim-mujer-description",
             "responsive-layout.desktop#category-superslim-mujer-banners",
-            "responsive-layout.mobile#category-superslim-mujer-banners"
+            "responsive-layout.phone#category-superslim-mujer-banners",
+            "responsive-layout.tablet#category-superslim-mujer-banners"
         ]
     },
 

@@ -24,7 +24,8 @@
             "rich-text#category-ropa-hombre-title",
             "rich-text#category-ropa-hombre-description",
             "responsive-layout.desktop#category-ropa-hombre-banners",
-            "responsive-layout.mobile#category-ropa-hombre-banners"
+            "responsive-layout.phone#category-ropa-hombre-banners",
+            "responsive-layout.tablet#category-ropa-hombre-banners"
         ]
     },
 

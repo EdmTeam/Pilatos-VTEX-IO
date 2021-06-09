@@ -24,7 +24,8 @@
             "rich-text#category-wide-hombre-title",
             "rich-text#category-wide-hombre-description",
             "responsive-layout.desktop#category-wide-hombre-banners",
-            "responsive-layout.mobile#category-wide-hombre-banners"
+            "responsive-layout.phone#category-wide-hombre-banners",
+            "responsive-layout.tablet#category-wide-hombre-banners"
         ]
     },
 

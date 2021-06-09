@@ -24,7 +24,8 @@
             "rich-text#category-boxer-hombre-title",
             "rich-text#category-boxer-hombre-description",
             "responsive-layout.desktop#category-boxer-hombre-banners",
-            "responsive-layout.mobile#category-boxer-hombre-banners"
+            "responsive-layout.phone#category-boxer-hombre-banners",
+            "responsive-layout.tablet#category-boxer-hombre-banners"
         ]
     },
 

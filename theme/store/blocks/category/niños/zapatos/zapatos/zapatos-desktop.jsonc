@@ -24,7 +24,8 @@
             "rich-text#category-sub-zapatos-niños-title",
             "rich-text#category-sub-zapatos-niños-description",
             "responsive-layout.desktop#category-sub-zapatos-niños-banners",
-            "responsive-layout.mobile#category-sub-zapatos-niños-banners"
+            "responsive-layout.phone#category-sub-zapatos-niños-banners",
+            "responsive-layout.tablet#category-sub-zapatos-niños-banners"
         ]
     },
 

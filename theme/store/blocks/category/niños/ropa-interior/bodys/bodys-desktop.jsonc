@@ -24,7 +24,8 @@
             "rich-text#category-bodys-niños-title",
             "rich-text#category-bodys-niños-description",
             "responsive-layout.desktop#category-bodys-niños-banners",
-            "responsive-layout.mobile#category-bodys-niños-banners"
+            "responsive-layout.phone#category-bodys-niños-banners",
+            "responsive-layout.tablet#category-bodys-niños-banners"
         ]
     },
 

@@ -24,7 +24,8 @@
             "rich-text#category-superslim-niños-title",
             "rich-text#category-superslim-niños-description",
             "responsive-layout.desktop#category-superslim-niños-banners",
-            "responsive-layout.mobile#category-superslim-niños-banners"
+            "responsive-layout.phone#category-superslim-niños-banners",
+            "responsive-layout.tablet#category-superslim-niños-banners"
         ]
     },
 

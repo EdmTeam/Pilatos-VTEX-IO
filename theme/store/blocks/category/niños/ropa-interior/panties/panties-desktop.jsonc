@@ -24,7 +24,8 @@
             "rich-text#category-panties-niños-title",
             "rich-text#category-panties-niños-description",
             "responsive-layout.desktop#category-panties-niños-banners",
-            "responsive-layout.mobile#category-panties-niños-banners"
+            "responsive-layout.phone#category-panties-niños-banners",
+            "responsive-layout.tablet#category-panties-niños-banners"
         ]
     },
 

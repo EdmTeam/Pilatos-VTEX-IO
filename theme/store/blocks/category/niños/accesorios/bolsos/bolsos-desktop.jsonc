@@ -24,7 +24,8 @@
             "rich-text#category-bolsos-niños-title",
             "rich-text#category-bolsos-niños-description",
             "responsive-layout.desktop#category-bolsos-niños-banners",
-            "responsive-layout.mobile#category-bolsos-niños-banners"
+            "responsive-layout.phone#category-bolsos-niños-banners",
+            "responsive-layout.tablet#category-bolsos-niños-banners"
         ]
     },
 

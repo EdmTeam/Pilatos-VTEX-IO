@@ -24,7 +24,8 @@
             "rich-text#category-chaquetas-niños-title",
             "rich-text#category-chaquetas-niños-description",
             "responsive-layout.desktop#category-chaquetas-niños-banners",
-            "responsive-layout.mobile#category-chaquetas-niños-banners"
+            "responsive-layout.phone#category-chaquetas-niños-banners",
+            "responsive-layout.tablet#category-chaquetas-niños-banners"
         ]
     },
 

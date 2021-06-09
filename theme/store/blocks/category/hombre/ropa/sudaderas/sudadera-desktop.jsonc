@@ -24,7 +24,8 @@
             "rich-text#category-sudaderas-hombre-title",
             "rich-text#category-sudaderas-hombre-description",
             "responsive-layout.desktop#category-sudaderas-hombre-banners",
-            "responsive-layout.mobile#category-sudaderas-hombre-banners"
+            "responsive-layout.phone#category-sudaderas-hombre-banners",
+            "responsive-layout.tablet#category-sudaderas-hombre-banners"
         ]
     },
 

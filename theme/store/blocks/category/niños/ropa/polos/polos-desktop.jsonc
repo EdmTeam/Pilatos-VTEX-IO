@@ -24,7 +24,8 @@
             "rich-text#category-polos-niños-title",
             "rich-text#category-polos-niños-description",
             "responsive-layout.desktop#category-polos-niños-banners",
-            "responsive-layout.mobile#category-polos-niños-banners"
+            "responsive-layout.phone#category-polos-niños-banners",
+            "responsive-layout.tablet#category-polos-niños-banners"
         ]
     },
 

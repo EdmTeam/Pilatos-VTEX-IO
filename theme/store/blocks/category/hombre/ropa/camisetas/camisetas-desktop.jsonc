@@ -24,7 +24,8 @@
             "rich-text#category-camisetas-hombre-title",
             "rich-text#category-camisetas-hombre-description",
             "responsive-layout.desktop#category-camisetas-hombre-banners",
-            "responsive-layout.mobile#category-camisetas-hombre-banners"
+            "responsive-layout.phone#category-camisetas-hombre-banners",
+            "responsive-layout.tablet#category-camisetas-hombre-banners"
         ]
     },
 

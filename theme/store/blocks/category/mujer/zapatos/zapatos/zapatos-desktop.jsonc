@@ -24,7 +24,8 @@
             "rich-text#category-sub-zapatos-mujer-title",
             "rich-text#category-sub-zapatos-mujer-description",
             "responsive-layout.desktop#category-sub-zapatos-mujer-banners",
-            "responsive-layout.mobile#category-sub-zapatos-mujer-banners"
+            "responsive-layout.phone#category-sub-zapatos-mujer-banners",
+            "responsive-layout.tablet#category-sub-zapatos-mujer-banners"
         ]
     },
 

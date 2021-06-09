@@ -24,7 +24,8 @@
             "rich-text#category-bikinis-mujer-title",
             "rich-text#category-bikinis-mujer-description",
             "responsive-layout.desktop#category-bikinis-mujer-banners",
-            "responsive-layout.mobile#category-bikinis-mujer-banners"
+            "responsive-layout.phone#category-bikinis-mujer-banners",
+            "responsive-layout.tablet#category-bikinis-mujer-banners"
         ]
     },
 

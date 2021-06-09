@@ -24,7 +24,8 @@
             "rich-text#category-ropa-de-playa-mujer-title",
             "rich-text#category-ropa-de-playa-mujer-description",
             "responsive-layout.desktop#category-ropa-de-playa-mujer-banners",
-            "responsive-layout.mobile#category-ropa-de-playa-mujer-banners"
+            "responsive-layout.phone#category-ropa-de-playa-mujer-banners",
+            "responsive-layout.tablet#category-ropa-de-playa-mujer-banners"
         ]
     },
 

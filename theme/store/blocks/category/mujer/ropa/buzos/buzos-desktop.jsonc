@@ -24,7 +24,8 @@
             "rich-text#category-buzos-mujer-title",
             "rich-text#category-buzos-mujer-description",
             "responsive-layout.desktop#category-buzos-mujer-banners",
-            "responsive-layout.mobile#category-buzos-mujer-banners"
+            "responsive-layout.phone#category-buzos-mujer-banners",
+            "responsive-layout.tablet#category-buzos-mujer-banners"
         ]
     },
 

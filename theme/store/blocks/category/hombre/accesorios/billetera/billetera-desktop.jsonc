@@ -24,7 +24,8 @@
             "rich-text#category-billetera-hombre-title",
             "rich-text#category-billetera-hombre-description",
             "responsive-layout.desktop#category-billetera-hombre-banners",
-            "responsive-layout.mobile#category-billetera-hombre-banners"
+            "responsive-layout.tablet#category-billetera-hombre-banners",
+            "responsive-layout.phone#category-billetera-hombre-banners"
         ]
     },
 

@@ -24,7 +24,8 @@
             "rich-text#category-relojes-mujer-title",
             "rich-text#category-relojes-mujer-description",
             "responsive-layout.desktop#category-relojes-mujer-banners",
-            "responsive-layout.mobile#category-relojes-mujer-banners"
+            "responsive-layout.phone#category-relojes-mujer-banners",
+            "responsive-layout.tablet#category-relojes-mujer-banners"
         ]
     },
 

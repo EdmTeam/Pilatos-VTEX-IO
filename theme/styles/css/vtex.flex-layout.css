@@ -54,6 +54,10 @@
   display: block;
 }
 
+:global(.vtex-search-result-3-x-container--layout--searchResultMobile) :global(.vtex-breadcrumb-1-x-container){
+  display: none;
+}
+
 @media only screen and (min-width: 740px){
   .flexRowContent--contentItem1{
     padding: 1rem 6rem;
@@ -64,10 +68,6 @@
     margin: 0 auto;
   }
 
-  :global(.vtex-search-result-3-x-container--layout--searchResultMobile) :global(.vtex-breadcrumb-1-x-container){
-    display: none;
-  }
-
   :global(.vtex-search-result-3-x-container--layout--searchResultMobile) .flexRowContent--contentBanners-2{
     margin: .5rem auto .8rem auto;
     width: 95%;
@@ -75,6 +75,11 @@
 
   :global(.vtex-search-result-3-x-container--layout--searchResultMobile) .flexRowContent--contentBanners-2 .stretchChildrenWidth{
     width: 33.3% !important;
+  }
+
+  .flexRowContent--contentBanners-2{
+    width: 95%;
+    margin: .5rem auto !important;
   }
 }
 

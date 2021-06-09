@@ -24,7 +24,8 @@
             "rich-text#category-medias-hombre-title",
             "rich-text#category-medias-hombre-description",
             "responsive-layout.desktop#category-medias-hombre-banners",
-            "responsive-layout.mobile#category-medias-hombre-banners"
+            "responsive-layout.phone#category-medias-hombre-banners",
+            "responsive-layout.tablet#category-medias-hombre-banners"
         ]
     },
 

@@ -1,5 +1,5 @@
 {
-    "responsive-layout.mobile#category-regular-niños-banners":{
+    "responsive-layout.phone#category-regular-niños-banners":{
         "children":[
             "flex-layout.col#category-regular-niños-banners-1-mobile"
         ]
@@ -135,6 +135,84 @@
             "centerMode": "to-the-left",
             "showNavigationArrows": "desktopOnly",
             "showPaginationDots": "mobileOnly"
+        }
+    },
+
+    //Tablet
+    "responsive-layout.tablet#category-regular-niños-banners":{
+        "children":[
+            "flex-layout.row#category-regular-niños-banners"
+        ]
+    },
+
+    "flex-layout.row#category-regular-niños-banners":{
+        "children":[
+            "flex-layout.col#category-regular-niños-banners-2-img-1-tablet",
+            "flex-layout.col#category-regular-niños-banners-2-img-2-tablet",
+            "flex-layout.col#category-regular-niños-banners-2-img-3-tablet"
+        ],
+        "props":{
+            "blockClass":"contentBanners-2"
+        }
+    },
+
+    "flex-layout.col#category-regular-niños-banners-2-img-1-tablet":{
+        "children":[
+            "image#category-regular-niños-banners-2-img-1-tablet"
+        ],
+        "props":{
+            "width": "33%"
+        }
+    },
+
+    "image#category-regular-niños-banners-2-img-1-tablet": {
+        "props": {
+            "src": "/arquivos/category-banner-tab-1.png",
+            "link": {
+                "url": "/niños/zapatos/tenis",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-3"
+        }
+    },
+
+    "flex-layout.col#category-regular-niños-banners-2-img-2-tablet":{
+        "children":[
+            "image#category-regular-niños-banners-2-img-2-tablet"
+        ],
+        "props":{
+            "width": "33%"
+        }
+    },
+
+    "image#category-regular-niños-banners-2-img-2-tablet": {
+        "props": {
+            "src": "/arquivos/category-banner-tab-2.png",
+            "link": {
+                "url": "/niños/accesorios/tapabocas",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-4"
+        }
+    },
+
+    "flex-layout.col#category-regular-niños-banners-2-img-3-tablet":{
+        "children":[
+            "image#category-regular-niños-banners-2-img-3-tablet"
+        ],
+        "props":{
+            "width": "33%"
+        }
+    },
+
+    "image#category-regular-niños-banners-2-img-3-tablet": {
+        "props": {
+            "src": "/arquivos/category-banner-tab-3.png",
+            "link": {
+                "url": "/niños/jeans",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-5"
         }
     }
 }

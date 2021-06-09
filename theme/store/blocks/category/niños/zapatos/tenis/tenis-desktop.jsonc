@@ -24,7 +24,8 @@
             "rich-text#category-tenis-niños-title",
             "rich-text#category-tenis-niños-description",
             "responsive-layout.desktop#category-tenis-niños-banners",
-            "responsive-layout.mobile#category-tenis-niños-banners"
+            "responsive-layout.phone#category-tenis-niños-banners",
+            "responsive-layout.tablet#category-tenis-niños-banners"
         ]
     },
 

@@ -24,7 +24,8 @@
             "rich-text#category-medias-mujer-title",
             "rich-text#category-medias-mujer-description",
             "responsive-layout.desktop#category-medias-mujer-banners",
-            "responsive-layout.mobile#category-medias-mujer-banners"
+            "responsive-layout.phone#category-medias-mujer-banners",
+            "responsive-layout.tablet#category-medias-mujer-banners"
         ]
     },
 

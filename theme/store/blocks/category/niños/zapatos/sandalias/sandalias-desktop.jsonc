@@ -24,7 +24,8 @@
             "rich-text#category-zapatos-sandalias-niños-title",
             "rich-text#category-zapatos-sandalias-niños-description",
             "responsive-layout.desktop#category-zapatos-sandalias-niños-banners",
-            "responsive-layout.mobile#category-zapatos-sandalias-niños-banners"
+            "responsive-layout.phone#category-zapatos-sandalias-niños-banners",
+            "responsive-layout.tablet#category-zapatos-sandalias-niños-banners"
         ]
     },
 

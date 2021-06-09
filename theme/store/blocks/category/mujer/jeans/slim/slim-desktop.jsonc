@@ -24,7 +24,8 @@
             "rich-text#category-slim-mujer-title",
             "rich-text#category-slim-mujer-description",
             "responsive-layout.desktop#category-slim-mujer-banners",
-            "responsive-layout.mobile#category-slim-mujer-banners"
+            "responsive-layout.phone#category-slim-mujer-banners",
+            "responsive-layout.tablet#category-slim-mujer-banners"
         ]
     },
 

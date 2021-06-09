@@ -24,7 +24,8 @@
             "rich-text#category-accesorios-niños-title",
             "rich-text#category-accesorios-niños-description",
             "responsive-layout.desktop#category-accesorios-niños-banners",
-            "responsive-layout.mobile#category-accesorios-niños-banners"
+            "responsive-layout.phone#category-accesorios-niños-banners",
+            "responsive-layout.tablet#category-accesorios-niños-banners"
         ]
     },
 

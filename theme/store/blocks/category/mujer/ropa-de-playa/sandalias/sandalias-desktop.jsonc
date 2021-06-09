@@ -24,7 +24,8 @@
             "rich-text#category-sandalias-mujer-title",
             "rich-text#category-sandalias-mujer-description",
             "responsive-layout.desktop#category-sandalias-mujer-banners",
-            "responsive-layout.mobile#category-sandalias-mujer-banners"
+            "responsive-layout.phone#category-sandalias-mujer-banners",
+            "responsive-layout.tablet#category-sandalias-mujer-banners"
         ]
     },
 

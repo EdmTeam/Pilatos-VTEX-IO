@@ -24,7 +24,8 @@
             "rich-text#category-gafas-mujer-title",
             "rich-text#category-gafas-mujer-description",
             "responsive-layout.desktop#category-gafas-mujer-banners",
-            "responsive-layout.mobile#category-gafas-mujer-banners"
+            "responsive-layout.phone#category-gafas-mujer-banners",
+            "responsive-layout.tablet#category-gafas-mujer-banners"
         ]
     },
 

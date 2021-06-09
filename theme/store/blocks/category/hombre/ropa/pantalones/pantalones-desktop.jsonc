@@ -24,7 +24,8 @@
             "rich-text#category-pantalones-hombre-title",
             "rich-text#category-pantalones-hombre-description",
             "responsive-layout.desktop#category-pantalones-hombre-banners",
-            "responsive-layout.mobile#category-pantalones-hombre-banners"
+            "responsive-layout.phone#category-pantalones-hombre-banners",
+            "responsive-layout.tablet#category-pantalones-hombre-banners"
         ]
     },
 

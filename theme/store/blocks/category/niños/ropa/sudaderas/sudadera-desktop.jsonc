@@ -24,7 +24,8 @@
             "rich-text#category-sudaderas-niños-title",
             "rich-text#category-sudaderas-niños-description",
             "responsive-layout.desktop#category-sudaderas-niños-banners",
-            "responsive-layout.mobile#category-sudaderas-niños-banners"
+            "responsive-layout.phone#category-sudaderas-niños-banners",
+            "responsive-layout.tablet#category-sudaderas-niños-banners"
         ]
     },
 

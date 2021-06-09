@@ -24,7 +24,8 @@
             "rich-text#category-enteros-mujer-title",
             "rich-text#category-enteros-mujer-description",
             "responsive-layout.desktop#category-enteros-mujer-banners",
-            "responsive-layout.mobile#category-enteros-mujer-banners"
+            "responsive-layout.phone#category-enteros-mujer-banners",
+            "responsive-layout.tablet#category-enteros-mujer-banners"
         ]
     },
 

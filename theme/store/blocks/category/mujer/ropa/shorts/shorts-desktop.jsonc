@@ -24,7 +24,8 @@
             "rich-text#category-shorts-mujer-title",
             "rich-text#category-shorts-mujer-description",
             "responsive-layout.desktop#category-shorts-mujer-banners",
-            "responsive-layout.mobile#category-shorts-mujer-banners"
+            "responsive-layout.phone#category-shorts-mujer-banners",
+            "responsive-layout.tablet#category-shorts-mujer-banners"
         ]
     },
 

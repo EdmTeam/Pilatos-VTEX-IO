@@ -24,7 +24,8 @@
             "rich-text#category-ropa-interior-niños-title",
             "rich-text#category-ropa-interior-niños-description",
             "responsive-layout.desktop#category-ropa-interior-niños-banners",
-            "responsive-layout.mobile#category-ropa-interior-niños-banners"
+            "responsive-layout.phone#category-ropa-interior-niños-banners",
+            "responsive-layout.tablet#category-ropa-interior-niños-banners"
         ]
     },
 

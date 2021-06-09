@@ -24,7 +24,8 @@
             "rich-text#category-vestidos-niños-title",
             "rich-text#category-vestidos-niños-description",
             "responsive-layout.desktop#category-vestidos-niños-banners",
-            "responsive-layout.mobile#category-vestidos-niños-banners"
+            "responsive-layout.phone#category-vestidos-niños-banners",
+            "responsive-layout.tablet#category-vestidos-niños-banners"
         ]
     },
 

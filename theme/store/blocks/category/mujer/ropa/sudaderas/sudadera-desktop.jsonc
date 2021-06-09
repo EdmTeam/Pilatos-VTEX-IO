@@ -24,7 +24,8 @@
             "rich-text#category-sudaderas-mujer-title",
             "rich-text#category-sudaderas-mujer-description",
             "responsive-layout.desktop#category-sudaderas-mujer-banners",
-            "responsive-layout.mobile#category-sudaderas-mujer-banners"
+            "responsive-layout.phone#category-sudaderas-mujer-banners",
+            "responsive-layout.tablet#category-sudaderas-mujer-banners"
         ]
     },
 

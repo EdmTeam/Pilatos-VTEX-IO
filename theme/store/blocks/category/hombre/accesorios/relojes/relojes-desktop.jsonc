@@ -24,7 +24,8 @@
             "rich-text#category-relojes-hombre-title",
             "rich-text#category-relojes-hombre-description",
             "responsive-layout.desktop#category-relojes-hombre-banners",
-            "responsive-layout.mobile#category-relojes-hombre-banners"
+            "responsive-layout.phone#category-relojes-hombre-banners",
+            "responsive-layout.tablet#category-relojes-hombre-banners"
         ]
     },
 

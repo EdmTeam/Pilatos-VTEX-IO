@@ -24,7 +24,8 @@
             "rich-text#category-bufandas-mujer-title",
             "rich-text#category-bufandas-mujer-description",
             "responsive-layout.desktop#category-bufandas-mujer-banners",
-            "responsive-layout.mobile#category-bufandas-mujer-banners"
+            "responsive-layout.phone#category-bufandas-mujer-banners",
+            "responsive-layout.tablet#category-bufandas-mujer-banners"
         ]
     },
 

@@ -24,7 +24,8 @@
             "rich-text#category-perfumes-mujer-title",
             "rich-text#category-perfumes-mujer-description",
             "responsive-layout.desktop#category-perfumes-mujer-banners",
-            "responsive-layout.mobile#category-perfumes-mujer-banners"
+            "responsive-layout.phone#category-perfumes-mujer-banners",
+            "responsive-layout.tablet#category-perfumes-mujer-banners"
         ]
     },
 

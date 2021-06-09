@@ -24,7 +24,8 @@
             "rich-text#category-tapabocas-mujer-title",
             "rich-text#category-tapabocas-mujer-description",
             "responsive-layout.desktop#category-tapabocas-mujer-banners",
-            "responsive-layout.mobile#category-tapabocas-mujer-banners"
+            "responsive-layout.phone#category-tapabocas-mujer-banners",
+            "responsive-layout.tablet#category-tapabocas-mujer-banners"
         ]
     },
 

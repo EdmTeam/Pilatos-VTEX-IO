@@ -24,7 +24,8 @@
             "rich-text#category-bikinis-niños-title",
             "rich-text#category-bikinis-niños-description",
             "responsive-layout.desktop#category-bikinis-niños-banners",
-            "responsive-layout.mobile#category-bikinis-niños-banners"
+            "responsive-layout.phone#category-bikinis-niños-banners",
+            "responsive-layout.tablet#category-bikinis-niños-banners"
         ]
     },
 

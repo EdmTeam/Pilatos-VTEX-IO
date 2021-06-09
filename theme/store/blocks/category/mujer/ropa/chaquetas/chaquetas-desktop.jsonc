@@ -24,7 +24,8 @@
             "rich-text#category-chaquetas-mujer-title",
             "rich-text#category-chaquetas-mujer-description",
             "responsive-layout.desktop#category-chaquetas-mujer-banners",
-            "responsive-layout.mobile#category-chaquetas-mujer-banners"
+            "responsive-layout.phone#category-chaquetas-mujer-banners",
+            "responsive-layout.tablet#category-chaquetas-mujer-banners"
         ]
     },
 

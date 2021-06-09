@@ -24,7 +24,8 @@
             "rich-text#category-superslim-hombre-title",
             "rich-text#category-superslim-hombre-description",
             "responsive-layout.desktop#category-superslim-hombre-banners",
-            "responsive-layout.mobile#category-superslim-hombre-banners"
+            "responsive-layout.phone#category-superslim-hombre-banners",
+            "responsive-layout.tablet#category-superslim-hombre-banners"
         ]
     },
 

@@ -24,7 +24,8 @@
             "rich-text#category-jeans-hombre-title",
             "rich-text#category-jeans-hombre-description",
             "responsive-layout.desktop#category-jeans-hombre-banners",
-            "responsive-layout.mobile#category-jeans-hombre-banners"
+            "responsive-layout.phone#category-jeans-hombre-banners",
+            "responsive-layout.tablet#category-jeans-hombre-banners"
         ]
     },
 

@@ -24,7 +24,8 @@
             "rich-text#category-panties-mujer-title",
             "rich-text#category-panties-mujer-description",
             "responsive-layout.desktop#category-panties-mujer-banners",
-            "responsive-layout.mobile#category-panties-mujer-banners"
+            "responsive-layout.phone#category-panties-mujer-banners",
+            "responsive-layout.tablet#category-panties-mujer-banners"
         ]
     },
 

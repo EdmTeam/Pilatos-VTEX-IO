@@ -24,7 +24,8 @@
             "rich-text#category-correas-mujer-title",
             "rich-text#category-correas-mujer-description",
             "responsive-layout.desktop#category-correas-mujer-banners",
-            "responsive-layout.mobile#category-correas-mujer-banners"
+            "responsive-layout.phone#category-correas-mujer-banners",
+            "responsive-layout.tablet#category-correas-mujer-banners"
         ]
     },
 

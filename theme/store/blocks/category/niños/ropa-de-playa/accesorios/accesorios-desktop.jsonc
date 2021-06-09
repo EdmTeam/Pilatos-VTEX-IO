@@ -24,7 +24,8 @@
             "rich-text#category-ropa-playa-accesorios-niños-title",
             "rich-text#category-ropa-playa-accesorios-niños-description",
             "responsive-layout.desktop#category-ropa-playa-accesorios-niños-banners",
-            "responsive-layout.mobile#category-ropa-playa-accesorios-niños-banners"
+            "responsive-layout.phone#category-ropa-playa-accesorios-niños-banners",
+            "responsive-layout.tablet#category-ropa-playa-accesorios-niños-banners"
         ]
     },
 

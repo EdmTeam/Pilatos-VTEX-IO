@@ -24,7 +24,8 @@
             "rich-text#category-enteros-niños-title",
             "rich-text#category-enteros-niños-description",
             "responsive-layout.desktop#category-enteros-niños-banners",
-            "responsive-layout.mobile#category-enteros-niños-banners"
+            "responsive-layout.phone#category-enteros-niños-banners",
+            "responsive-layout.tablet#category-enteros-niños-banners"
         ]
     },
 

@@ -24,7 +24,8 @@
             "rich-text#category-regular-niños-title",
             "rich-text#category-regular-niños-description",
             "responsive-layout.desktop#category-regular-niños-banners",
-            "responsive-layout.mobile#category-regular-niños-banners"
+            "responsive-layout.phone#category-regular-niños-banners",
+            "responsive-layout.tablet#category-regular-niños-banners"
         ]
     },
 

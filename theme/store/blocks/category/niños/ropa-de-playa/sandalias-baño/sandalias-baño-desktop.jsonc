@@ -24,7 +24,8 @@
             "rich-text#category-sandalias-baño-niños-title",
             "rich-text#category-sandalias-baño-niños-description",
             "responsive-layout.desktop#category-sandalias-baño-niños-banners",
-            "responsive-layout.mobile#category-sandalias-baño-niños-banners"
+            "responsive-layout.phone#category-sandalias-baño-niños-banners",
+            "responsive-layout.tablet#category-sandalias-baño-niños-banners"
         ]
     },
 

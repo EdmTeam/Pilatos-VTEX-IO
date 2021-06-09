@@ -24,7 +24,8 @@
             "rich-text#department-ninos-title",
             "rich-text#department-ninos-description",
             "responsive-layout.desktop#department-ninos-banners",
-            "responsive-layout.mobile#department-ninos-banners"
+            "responsive-layout.tablet#department-ninos-banners",
+            "responsive-layout.phone#department-ninos-banners"
         ]
     },
 

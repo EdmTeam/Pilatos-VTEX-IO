@@ -24,7 +24,8 @@
             "rich-text#category-morrales-hombre-title",
             "rich-text#category-morrales-hombre-description",
             "responsive-layout.desktop#category-morrales-hombre-banners",
-            "responsive-layout.mobile#category-morrales-hombre-banners"
+            "responsive-layout.phone#category-morrales-hombre-banners",
+            "responsive-layout.tablet#category-morrales-hombre-banners"
         ]
     },
 

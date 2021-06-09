@@ -24,7 +24,8 @@
             "rich-text#category-estuches-mujer-title",
             "rich-text#category-estuches-mujer-description",
             "responsive-layout.desktop#category-estuches-mujer-banners",
-            "responsive-layout.mobile#category-estuches-mujer-banners"
+            "responsive-layout.phone#category-estuches-mujer-banners",
+            "responsive-layout.tablet#category-estuches-mujer-banners"
         ]
     },
 

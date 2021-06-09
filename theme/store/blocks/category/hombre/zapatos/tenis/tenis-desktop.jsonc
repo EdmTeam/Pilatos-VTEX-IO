@@ -24,7 +24,8 @@
             "rich-text#category-tenis-hombre-title",
             "rich-text#category-tenis-hombre-description",
             "responsive-layout.desktop#category-tenis-hombre-banners",
-            "responsive-layout.mobile#category-tenis-hombre-banners"
+            "responsive-layout.phone#category-tenis-hombre-banners",
+            "responsive-layout.tablet#category-tenis-hombre-banners"
         ]
     },
 

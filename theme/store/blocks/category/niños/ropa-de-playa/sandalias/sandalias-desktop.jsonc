@@ -24,7 +24,8 @@
             "rich-text#category-sandalias-niños-title",
             "rich-text#category-sandalias-niños-description",
             "responsive-layout.desktop#category-sandalias-niños-banners",
-            "responsive-layout.mobile#category-sandalias-niños-banners"
+            "responsive-layout.phone#category-sandalias-niños-banners",
+            "responsive-layout.tablet#category-sandalias-niños-banners"
         ]
     },
 

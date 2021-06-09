@@ -24,7 +24,8 @@
             "rich-text#category-sub-zapatos-hombre-title",
             "rich-text#category-sub-zapatos-hombre-description",
             "responsive-layout.desktop#category-sub-zapatos-hombre-banners",
-            "responsive-layout.mobile#category-sub-zapatos-hombre-banners"
+            "responsive-layout.phone#category-sub-zapatos-hombre-banners",
+            "responsive-layout.tablet#category-sub-zapatos-hombre-banners"
         ]
     },
 

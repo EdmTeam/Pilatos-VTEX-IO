@@ -24,7 +24,8 @@
             "rich-text#category-pantalones-niños-title",
             "rich-text#category-pantalones-niños-description",
             "responsive-layout.desktop#category-pantalones-niños-banners",
-            "responsive-layout.mobile#category-pantalones-niños-banners"
+            "responsive-layout.phone#category-pantalones-niños-banners",
+            "responsive-layout.tablet#category-pantalones-niños-banners"
         ]
     },
 

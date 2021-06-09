@@ -24,7 +24,8 @@
             "rich-text#category-slim-hombre-title",
             "rich-text#category-slim-hombre-description",
             "responsive-layout.desktop#category-slim-hombre-banners",
-            "responsive-layout.mobile#category-slim-hombre-banners"
+            "responsive-layout.phone#category-slim-hombre-banners",
+            "responsive-layout.tablet#category-slim-hombre-banners"
         ]
     },
 

@@ -21,7 +21,8 @@
             "rich-text#category-tapabocas-hombre-title",
             "rich-text#category-tapabocas-hombre-description",
             "responsive-layout.desktop#category-tapabocas-hombre-banners",
-            "responsive-layout.mobile#category-tapabocas-hombre-banners"
+            "responsive-layout.phone#category-tapabocas-hombre-banners",
+            "responsive-layout.tablet#category-tapabocas-hombre-banners"
         ]
     },
 

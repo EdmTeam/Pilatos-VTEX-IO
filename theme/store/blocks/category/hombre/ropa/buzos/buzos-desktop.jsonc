@@ -24,7 +24,8 @@
             "rich-text#category-buzos-hombre-title",
             "rich-text#category-buzos-hombre-description",
             "responsive-layout.desktop#category-buzos-hombre-banners",
-            "responsive-layout.mobile#category-buzos-hombre-banners"
+            "responsive-layout.phone#category-buzos-hombre-banners",
+            "responsive-layout.tablet#category-buzos-hombre-banners"
         ]
     },
 

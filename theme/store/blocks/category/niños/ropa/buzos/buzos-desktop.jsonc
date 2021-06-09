@@ -24,7 +24,8 @@
             "rich-text#category-buzos-niños-title",
             "rich-text#category-buzos-niños-description",
             "responsive-layout.desktop#category-buzos-niños-banners",
-            "responsive-layout.mobile#category-buzos-niños-banners"
+            "responsive-layout.phone#category-buzos-niños-banners",
+            "responsive-layout.tablet#category-buzos-niños-banners"
         ]
     },
 

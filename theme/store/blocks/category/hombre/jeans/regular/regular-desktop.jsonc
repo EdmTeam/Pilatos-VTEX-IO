@@ -24,7 +24,8 @@
             "rich-text#category-regular-hombre-title",
             "rich-text#category-regular-hombre-description",
             "responsive-layout.desktop#category-regular-hombre-banners",
-            "responsive-layout.mobile#category-regular-hombre-banners"
+            "responsive-layout.phone#category-regular-hombre-banners",
+            "responsive-layout.tablet#category-regular-hombre-banners"
         ]
     },
 

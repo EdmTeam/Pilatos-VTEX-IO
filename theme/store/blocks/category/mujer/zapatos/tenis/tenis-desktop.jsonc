@@ -24,7 +24,8 @@
             "rich-text#category-tenis-mujer-title",
             "rich-text#category-tenis-mujer-description",
             "responsive-layout.desktop#category-tenis-mujer-banners",
-            "responsive-layout.mobile#category-tenis-mujer-banners"
+            "responsive-layout.phone#category-tenis-mujer-banners",
+            "responsive-layout.tablet#category-tenis-mujer-banners"
         ]
     },
 

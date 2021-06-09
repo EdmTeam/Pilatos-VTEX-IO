@@ -24,7 +24,8 @@
             "rich-text#category-bermudas-hombre-title",
             "rich-text#category-bermudas-hombre-description",
             "responsive-layout.desktop#category-bermudas-hombre-banners",
-            "responsive-layout.mobile#category-bermudas-hombre-banners"
+            "responsive-layout.phone#category-bermudas-hombre-banners",
+            "responsive-layout.tablet#category-bermudas-hombre-banners"
         ]
     },
 

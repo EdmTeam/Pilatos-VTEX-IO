@@ -24,7 +24,8 @@
             "rich-text#category-maletas-hombre-title",
             "rich-text#category-maletas-hombre-description",
             "responsive-layout.desktop#category-maletas-hombre-banners",
-            "responsive-layout.mobile#category-maletas-hombre-banners"
+            "responsive-layout.phone#category-maletas-hombre-banners",
+            "responsive-layout.tablet#category-maletas-hombre-banners"
         ]
     },
 

@@ -24,7 +24,8 @@
             "rich-text#category-perfumes-niños-title",
             "rich-text#category-perfumes-niños-description",
             "responsive-layout.desktop#category-perfumes-niños-banners",
-            "responsive-layout.mobile#category-perfumes-niños-banners"
+            "responsive-layout.phone#category-perfumes-niños-banners",
+            "responsive-layout.tablet#category-perfumes-niños-banners"
         ]
     },
 

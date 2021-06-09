@@ -24,7 +24,8 @@
             "rich-text#category-ropa-mujer-title",
             "rich-text#category-ropa-mujer-description",
             "responsive-layout.desktop#category-ropa-mujer-banners",
-            "responsive-layout.mobile#category-ropa-mujer-banners"
+            "responsive-layout.phone#category-ropa-mujer-banners",
+            "responsive-layout.tablet#category-ropa-mujer-banners"
         ]
     },
 

@@ -24,7 +24,8 @@
             "rich-text#category-jeans-niños-title",
             "rich-text#category-jeans-niños-description",
             "responsive-layout.desktop#category-jeans-niños-banners",
-            "responsive-layout.mobile#category-jeans-niños-banners"
+            "responsive-layout.phone#category-jeans-niños-banners",
+            "responsive-layout.tablet#category-jeans-niños-banners"
         ]
     },
 

@@ -24,7 +24,8 @@
             "rich-text#category-zapatos-sandalias-hombre-title",
             "rich-text#category-zapatos-sandalias-hombre-description",
             "responsive-layout.desktop#category-zapatos-sandalias-hombre-banners",
-            "responsive-layout.mobile#category-zapatos-sandalias-hombre-banners"
+            "responsive-layout.phone#category-zapatos-sandalias-hombre-banners",
+            "responsive-layout.tablet#category-zapatos-sandalias-hombre-banners"
         ]
     },
 

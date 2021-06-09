@@ -24,7 +24,8 @@
             "rich-text#category-relojes-niños-title",
             "rich-text#category-relojes-niños-description",
             "responsive-layout.desktop#category-relojes-niños-banners",
-            "responsive-layout.mobile#category-relojes-niños-banners"
+            "responsive-layout.phone#category-relojes-niños-banners",
+            "responsive-layout.tablet#category-relojes-niños-banners"
         ]
     },
 

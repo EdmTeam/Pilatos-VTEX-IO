@@ -24,7 +24,8 @@
             "rich-text#category-maletas-mujer-title",
             "rich-text#category-maletas-mujer-description",
             "responsive-layout.desktop#category-maletas-mujer-banners",
-            "responsive-layout.mobile#category-maletas-mujer-banners"
+            "responsive-layout.phone#category-maletas-mujer-banners",
+            "responsive-layout.tablet#category-maletas-mujer-banners"
         ]
     },
 

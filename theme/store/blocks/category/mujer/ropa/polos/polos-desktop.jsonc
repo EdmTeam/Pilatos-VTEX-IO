@@ -24,7 +24,8 @@
             "rich-text#category-polos-mujer-title",
             "rich-text#category-polos-mujer-description",
             "responsive-layout.desktop#category-polos-mujer-banners",
-            "responsive-layout.mobile#category-polos-mujer-banners"
+            "responsive-layout.phone#category-polos-mujer-banners",
+            "responsive-layout.tablet#category-polos-mujer-banners"
         ]
     },
 

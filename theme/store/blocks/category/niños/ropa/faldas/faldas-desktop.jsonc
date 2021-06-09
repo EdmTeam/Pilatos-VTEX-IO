@@ -24,7 +24,8 @@
             "rich-text#category-faldas-niños-title",
             "rich-text#category-faldas-niños-description",
             "responsive-layout.desktop#category-faldas-niños-banners",
-            "responsive-layout.mobile#category-faldas-niños-banners"
+            "responsive-layout.phone#category-faldas-niños-banners",
+            "responsive-layout.tablet#category-faldas-niños-banners"
         ]
     },
 

@@ -24,7 +24,8 @@
             "rich-text#category-estuches-hombre-title",
             "rich-text#category-estuches-hombre-description",
             "responsive-layout.desktop#category-estuches-hombre-banners",
-            "responsive-layout.mobile#category-estuches-hombre-banners"
+            "responsive-layout.phone#category-estuches-hombre-banners",
+            "responsive-layout.tablet#category-estuches-hombre-banners"
         ]
     },
 

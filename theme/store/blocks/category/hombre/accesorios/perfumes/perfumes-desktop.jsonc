@@ -24,7 +24,8 @@
             "rich-text#category-perfumes-hombre-title",
             "rich-text#category-perfumes-hombre-description",
             "responsive-layout.desktop#category-perfumes-hombre-banners",
-            "responsive-layout.mobile#category-perfumes-hombre-banners"
+            "responsive-layout.phone#category-perfumes-hombre-banners",
+            "responsive-layout.tablet#category-perfumes-hombre-banners"
         ]
     },
 

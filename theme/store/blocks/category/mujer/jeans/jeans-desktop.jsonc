@@ -24,7 +24,8 @@
             "rich-text#category-jeans-mujer-title",
             "rich-text#category-jeans-mujer-description",
             "responsive-layout.desktop#category-jeans-mujer-banners",
-            "responsive-layout.mobile#category-jeans-mujer-banners"
+            "responsive-layout.phone#category-jeans-mujer-banners",
+            "responsive-layout.tablet#category-jeans-mujer-banners"
         ]
     },
 

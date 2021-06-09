@@ -24,7 +24,8 @@
             "rich-text#category-ropa-interior-hombre-title",
             "rich-text#category-ropa-interior-hombre-description",
             "responsive-layout.desktop#category-ropa-interior-hombre-banners",
-            "responsive-layout.mobile#category-ropa-interior-hombre-banners"
+            "responsive-layout.phone#category-ropa-interior-hombre-banners",
+            "responsive-layout.tablet#category-ropa-interior-hombre-banners"
         ]
     },
 

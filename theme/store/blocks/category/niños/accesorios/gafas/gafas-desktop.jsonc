@@ -24,7 +24,8 @@
             "rich-text#category-gafas-niños-title",
             "rich-text#category-gafas-niños-description",
             "responsive-layout.desktop#category-gafas-niños-banners",
-            "responsive-layout.mobile#category-gafas-niños-banners"
+            "responsive-layout.phone#category-gafas-niños-banners",
+            "responsive-layout.tablet#category-gafas-niños-banners"
         ]
     },
 

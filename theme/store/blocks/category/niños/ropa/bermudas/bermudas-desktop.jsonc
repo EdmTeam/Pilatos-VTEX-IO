@@ -24,7 +24,8 @@
             "rich-text#category-bermudas-niños-title",
             "rich-text#category-bermudas-niños-description",
             "responsive-layout.desktop#category-bermudas-niños-banners",
-            "responsive-layout.mobile#category-bermudas-niños-banners"
+            "responsive-layout.phone#category-bermudas-niños-banners",
+            "responsive-layout.tablet#category-bermudas-niños-banners"
         ]
     },
 

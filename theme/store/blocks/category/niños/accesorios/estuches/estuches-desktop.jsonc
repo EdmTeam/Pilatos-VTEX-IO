@@ -24,7 +24,8 @@
             "rich-text#category-estuches-niños-title",
             "rich-text#category-estuches-niños-description",
             "responsive-layout.desktop#category-estuches-niños-banners",
-            "responsive-layout.mobile#category-estuches-niños-banners"
+            "responsive-layout.phone#category-estuches-niños-banners",
+            "responsive-layout.tablet#category-estuches-niños-banners"
         ]
     },
 

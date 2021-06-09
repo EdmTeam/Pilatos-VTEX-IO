@@ -24,7 +24,8 @@
             "rich-text#category-gorras-mujer-title",
             "rich-text#category-gorras-mujer-description",
             "responsive-layout.desktop#category-gorras-mujer-banners",
-            "responsive-layout.mobile#category-gorras-mujer-banners"
+            "responsive-layout.phone#category-gorras-mujer-banners",
+            "responsive-layout.tablet#category-gorras-mujer-banners"
         ]
     },
 

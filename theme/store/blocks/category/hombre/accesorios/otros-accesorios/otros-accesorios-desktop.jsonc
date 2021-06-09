@@ -24,7 +24,8 @@
             "rich-text#category-otros-accesorios-hombre-title",
             "rich-text#category-otros-accesorios-hombre-description",
             "responsive-layout.desktop#category-otros-accesorios-hombre-banners",
-            "responsive-layout.mobile#category-otros-accesorios-hombre-banners"
+            "responsive-layout.phone#category-otros-accesorios-hombre-banners",
+            "responsive-layout.tablet#category-otros-accesorios-hombre-banners"
         ]
     },
 

@@ -24,7 +24,8 @@
             "rich-text#category-bufandas-hombre-title",
             "rich-text#category-bufandas-hombre-description",
             "responsive-layout.desktop#category-bufandas-hombre-banners",
-            "responsive-layout.mobile#category-bufandas-hombre-banners"
+            "responsive-layout.tablet#category-bufandas-hombre-banners",
+            "responsive-layout.phone#category-bufandas-hombre-banners"
         ]
     },
 

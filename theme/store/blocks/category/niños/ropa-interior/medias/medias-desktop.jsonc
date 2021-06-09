@@ -24,7 +24,8 @@
             "rich-text#category-medias-niños-title",
             "rich-text#category-medias-niños-description",
             "responsive-layout.desktop#category-medias-niños-banners",
-            "responsive-layout.mobile#category-medias-niños-banners"
+            "responsive-layout.phone#category-medias-niños-banners",
+            "responsive-layout.tablet#category-medias-niños-banners"
         ]
     },
 

@@ -24,7 +24,8 @@
             "rich-text#category-correas-niños-title",
             "rich-text#category-correas-niños-description",
             "responsive-layout.desktop#category-correas-niños-banners",
-            "responsive-layout.mobile#category-correas-niños-banners"
+            "responsive-layout.phone#category-correas-niños-banners",
+            "responsive-layout.tablet#category-correas-niños-banners"
         ]
     },
 

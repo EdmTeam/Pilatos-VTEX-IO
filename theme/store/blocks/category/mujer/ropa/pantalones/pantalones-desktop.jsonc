@@ -24,7 +24,8 @@
             "rich-text#category-pantalones-mujer-title",
             "rich-text#category-pantalones-mujer-description",
             "responsive-layout.desktop#category-pantalones-mujer-banners",
-            "responsive-layout.mobile#category-pantalones-mujer-banners"
+            "responsive-layout.phone#category-pantalones-mujer-banners",
+            "responsive-layout.tablet#category-pantalones-mujer-banners"
         ]
     },
 

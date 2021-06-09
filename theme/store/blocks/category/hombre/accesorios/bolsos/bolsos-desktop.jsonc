@@ -24,7 +24,8 @@
             "rich-text#category-bolsos-hombre-title",
             "rich-text#category-bolsos-hombre-description",
             "responsive-layout.desktop#category-bolsos-hombre-banners",
-            "responsive-layout.mobile#category-bolsos-hombre-banners"
+            "responsive-layout.tablet#category-bolsos-hombre-banners",
+            "responsive-layout.phone#category-bolsos-hombre-banners"
         ]
     },
 

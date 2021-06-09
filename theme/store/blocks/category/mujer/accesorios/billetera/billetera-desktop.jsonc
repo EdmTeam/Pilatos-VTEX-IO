@@ -24,7 +24,8 @@
             "rich-text#category-billetera-mujer-title",
             "rich-text#category-billetera-mujer-description",
             "responsive-layout.desktop#category-billetera-mujer-banners",
-            "responsive-layout.mobile#category-billetera-mujer-banners"
+            "responsive-layout.phone#category-billetera-mujer-banners",
+            "responsive-layout.tablet#category-billetera-mujer-banners"
         ]
     },
 

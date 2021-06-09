@@ -24,7 +24,8 @@
             "rich-text#category-chaquetas-hombre-title",
             "rich-text#category-chaquetas-hombre-description",
             "responsive-layout.desktop#category-chaquetas-hombre-banners",
-            "responsive-layout.mobile#category-chaquetas-hombre-banners"
+            "responsive-layout.phone#category-chaquetas-hombre-banners",
+            "responsive-layout.tablet#category-chaquetas-hombre-banners"
         ]
     },
 

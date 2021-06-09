@@ -1,5 +1,5 @@
 {
-    "responsive-layout.mobile#department-mujer-banners":{
+    "responsive-layout.phone#department-mujer-banners":{
         "children":[
             "flex-layout.col#department-mujer-banners-1-mobile"
         ]
@@ -30,13 +30,15 @@
           "flex-layout.row#banner-search-mobile",
           "flex-layout.row#bread-crumb",
           "flex-layout.row#suggestion",
+          "responsive-layout.phone#department-mujer-banners-2-phone",
+          "responsive-layout.tablet#department-mujer-banners-2-tablet",
           "flex-layout.row#search-info-mobile-mujer",
-          "list-context.image-list#department-banner-mobile",
           "flex-layout.row#fetch-previous",
           "flex-layout.row#content-mobile",
           "flex-layout.row#fetch-more"
         ],
         "props": {
+            "blockClass": "searchResultMobile",
             "preventRouteChange": true,
             "hiddenFacets": {
                 "specificationFilters": {
@@ -95,6 +97,12 @@
         }
     },
 
+    "responsive-layout.phone#department-mujer-banners-2-phone":{
+        "children":[
+            "list-context.image-list#department-banner-mobile"
+        ]
+    },
+
     "list-context.image-list#department-banner-mobile": {
         "children": [
             "slider-layout#department-banner-mobile"
@@ -147,6 +155,110 @@
             "centerMode": "to-the-left",
             "showNavigationArrows": "desktopOnly",
             "showPaginationDots": "mobileOnly"
+        }
+    },
+
+    //Tablet
+    "responsive-layout.tablet#department-mujer-banners":{
+        "children":[
+            "flex-layout.col#department-mujer-banners-1-tablet"
+        ]
+    },
+
+    "flex-layout.col#department-mujer-banners-1-tablet":{
+        "children":[
+            "image#department-mujer-banners-1-img-1-tablet"
+        ],
+        "props":{
+            "blockClass":"contentBannersDesk"
+        }
+    },
+
+    "image#department-mujer-banners-1-img-1-tablet": {
+        "props": {
+            "src": "/arquivos/Dep-tablet-1.png",
+            "link": {
+                "url": "/mujer/ropa/camisetas",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+    "responsive-layout.tablet#department-mujer-banners-2-tablet":{
+        "children":[
+            "flex-layout.row#department-mujer-banners-2-tablet"
+        ]
+    },
+
+    "flex-layout.row#department-mujer-banners-2-tablet":{
+        "children":[
+            "flex-layout.col#department-mujer-banners-2-img-1-tablet",
+            "flex-layout.col#department-mujer-banners-2-img-2-tablet",
+            "flex-layout.col#department-mujer-banners-2-img-3-tablet"
+        ],
+        "props":{
+            "blockClass":"contentBanners-2"
+        }
+    },
+
+    "flex-layout.col#department-mujer-banners-2-img-1-tablet":{
+        "children":[
+            "image#department-mujer-banners-2-img-1-tablet"
+        ],
+        "props":{
+            "width": "33%"
+        }
+    },
+
+    "image#department-mujer-banners-2-img-1-tablet": {
+        "props": {
+            "src": "/arquivos/Dep-mobile-2.png",
+            "link": {
+                "url": "/mujer/zapatos/tenis",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-3"
+        }
+    },
+
+    "flex-layout.col#department-mujer-banners-2-img-2-tablet":{
+        "children":[
+            "image#department-mujer-banners-2-img-2-tablet"
+        ],
+        "props":{
+            "width": "33%"
+        }
+    },
+
+    "image#department-mujer-banners-2-img-2-tablet": {
+        "props": {
+            "src": "/arquivos/Dep-mobile-3.png",
+            "link": {
+                "url": "/mujer/accesorios/tapabocas",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-4"
+        }
+    },
+
+    "flex-layout.col#department-mujer-banners-2-img-3-tablet":{
+        "children":[
+            "image#department-mujer-banners-2-img-3-tablet"
+        ],
+        "props":{
+            "width": "33%"
+        }
+    },
+
+    "image#department-mujer-banners-2-img-3-tablet": {
+        "props": {
+            "src": "/arquivos/Dep-mobile-4.png",
+            "link": {
+                "url": "/mujer/jeans",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-5"
         }
     }
 }

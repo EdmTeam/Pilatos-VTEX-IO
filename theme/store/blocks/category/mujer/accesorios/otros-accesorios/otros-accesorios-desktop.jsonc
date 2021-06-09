@@ -24,7 +24,8 @@
             "rich-text#category-otros-accesorios-mujer-title",
             "rich-text#category-otros-accesorios-mujer-description",
             "responsive-layout.desktop#category-otros-accesorios-mujer-banners",
-            "responsive-layout.mobile#category-otros-accesorios-mujer-banners"
+            "responsive-layout.phone#category-otros-accesorios-mujer-banners",
+            "responsive-layout.tablet#category-otros-accesorios-mujer-banners"
         ]
     },
 

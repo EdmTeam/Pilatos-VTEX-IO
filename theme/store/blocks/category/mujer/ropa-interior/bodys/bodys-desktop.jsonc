@@ -24,7 +24,8 @@
             "rich-text#category-bodys-mujer-title",
             "rich-text#category-bodys-mujer-description",
             "responsive-layout.desktop#category-bodys-mujer-banners",
-            "responsive-layout.mobile#category-bodys-mujer-banners"
+            "responsive-layout.phone#category-bodys-mujer-banners",
+            "responsive-layout.tablet#category-bodys-mujer-banners"
         ]
     },
 

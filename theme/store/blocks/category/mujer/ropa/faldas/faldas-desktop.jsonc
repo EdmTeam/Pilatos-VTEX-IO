@@ -24,7 +24,8 @@
             "rich-text#category-faldas-mujer-title",
             "rich-text#category-faldas-mujer-description",
             "responsive-layout.desktop#category-faldas-mujer-banners",
-            "responsive-layout.mobile#category-faldas-mujer-banners"
+            "responsive-layout.phone#category-faldas-mujer-banners",
+            "responsive-layout.tablet#category-faldas-mujer-banners"
         ]
     },
 

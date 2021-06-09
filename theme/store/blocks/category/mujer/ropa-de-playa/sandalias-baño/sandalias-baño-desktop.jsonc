@@ -24,7 +24,8 @@
             "rich-text#category-sandalias-baño-mujer-title",
             "rich-text#category-sandalias-baño-mujer-description",
             "responsive-layout.desktop#category-sandalias-baño-mujer-banners",
-            "responsive-layout.mobile#category-sandalias-baño-mujer-banners"
+            "responsive-layout.phone#category-sandalias-baño-mujer-banners",
+            "responsive-layout.tablet#category-sandalias-baño-mujer-banners"
         ]
     },
 

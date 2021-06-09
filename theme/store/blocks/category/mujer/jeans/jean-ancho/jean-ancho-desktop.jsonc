@@ -24,7 +24,8 @@
             "rich-text#category-jean-ancho-mujer-title",
             "rich-text#category-jean-ancho-mujer-description",
             "responsive-layout.desktop#category-jean-ancho-mujer-banners",
-            "responsive-layout.mobile#category-jean-ancho-mujer-banners"
+            "responsive-layout.phone#category-jean-ancho-mujer-banners",
+            "responsive-layout.tablet#category-jean-ancho-mujer-banners"
         ]
     },
 

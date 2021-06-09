@@ -24,7 +24,8 @@
             "rich-text#category-gafas-hombre-title",
             "rich-text#category-gafas-hombre-description",
             "responsive-layout.desktop#category-gafas-hombre-banners",
-            "responsive-layout.mobile#category-gafas-hombre-banners"
+            "responsive-layout.phone#category-gafas-hombre-banners",
+            "responsive-layout.tablet#category-gafas-hombre-banners"
         ]
     },
 

@@ -24,7 +24,8 @@
             "rich-text#category-gorras-hombre-title",
             "rich-text#category-gorras-hombre-description",
             "responsive-layout.desktop#category-gorras-hombre-banners",
-            "responsive-layout.mobile#category-gorras-hombre-banners"
+            "responsive-layout.phone#category-gorras-hombre-banners",
+            "responsive-layout.tablet#category-gorras-hombre-banners"
         ]
     },
 

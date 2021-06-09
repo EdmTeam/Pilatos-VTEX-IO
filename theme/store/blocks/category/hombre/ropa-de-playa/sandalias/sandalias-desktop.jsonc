@@ -24,7 +24,8 @@
             "rich-text#category-sandalias-hombre-title",
             "rich-text#category-sandalias-hombre-description",
             "responsive-layout.desktop#category-sandalias-hombre-banners",
-            "responsive-layout.mobile#category-sandalias-hombre-banners"
+            "responsive-layout.phone#category-sandalias-hombre-banners",
+            "responsive-layout.tablet#category-sandalias-hombre-banners"
         ]
     },
 

@@ -24,7 +24,8 @@
             "rich-text#category-correas-hombre-title",
             "rich-text#category-correas-hombre-description",
             "responsive-layout.desktop#category-correas-hombre-banners",
-            "responsive-layout.mobile#category-correas-hombre-banners"
+            "responsive-layout.phone#category-correas-hombre-banners",
+            "responsive-layout.tablet#category-correas-hombre-banners"
         ]
     },
 

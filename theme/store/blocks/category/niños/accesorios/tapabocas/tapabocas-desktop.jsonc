@@ -24,7 +24,8 @@
             "rich-text#category-tapabocas-niños-title",
             "rich-text#category-tapabocas-niños-description",
             "responsive-layout.desktop#category-tapabocas-niños-banners",
-            "responsive-layout.mobile#category-tapabocas-niños-banners"
+            "responsive-layout.phone#category-tapabocas-niños-banners",
+            "responsive-layout.tablet#category-tapabocas-niños-banners"
         ]
     },
 

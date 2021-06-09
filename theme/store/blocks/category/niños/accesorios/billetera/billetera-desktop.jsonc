@@ -24,7 +24,8 @@
             "rich-text#category-billetera-niños-title",
             "rich-text#category-billetera-niños-description",
             "responsive-layout.desktop#category-billetera-niños-banners",
-            "responsive-layout.mobile#category-billetera-niños-banners"
+            "responsive-layout.phone#category-billetera-niños-banners",
+            "responsive-layout.tablet#category-billetera-niños-banners"
         ]
     },
 
