@@ -1,0 +1,150 @@
+{
+  // VITRINA 1
+  "flex-layout.row#vitrine-event1": {
+    "children": [
+      "vtex.product-summary:list-context.product-list#vitrine-event1"
+    ],
+    "props": {
+      "blockClass": ["sliderContentShelf", "sliderShelfSale"]
+    }
+  },
+  "vtex.product-summary:list-context.product-list#vitrine-event1": {
+    "blocks": [
+      "vtex.product-summary:product-summary.shelf#most-viewed"
+    ],
+    "children": [
+      "slider-layout#vitrine-event1"
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "collection": "137",
+      "maxItems": 4
+    }
+  },
+  "slider-layout#vitrine-event1": {
+    "props": {
+      "blockClass": "vitrine-sale",
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 4,
+        "phone": 4
+      },
+      "infinite": false,
+      // "showNavigationArrows": "desktopOnly",
+      "showNavigationArrows": "never",
+      // "showPaginationDots": "always"
+      "showPaginationDots": "never"
+    }
+  },
+  // VITRINA 2
+  "flex-layout.row#vitrine-event2": {
+    "children": [
+      "vtex.product-summary:list-context.product-list#vitrine-event2"
+    ],
+    "props": {
+      "blockClass": ["sliderContentShelf", "sliderShelfSale"]
+    }
+  },
+  "vtex.product-summary:list-context.product-list#vitrine-event2": {
+    "blocks": [
+      "vtex.product-summary:product-summary.shelf#most-viewed"
+    ],
+    "children": [
+      "slider-layout#vitrine-event1"
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "collection": "137",
+      "maxItems": 4
+    }
+  },
+  "slider-layout#vitrine-event2": {
+    "props": {
+      "blockClass": "vitrine-sale",
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 4,
+        "phone": 4
+      },
+      "infinite": false,
+      // "showNavigationArrows": "desktopOnly",
+      "showNavigationArrows": "never",
+      // "showPaginationDots": "always"
+      "showPaginationDots": "never"
+    }
+  },
+  // VITRINA 3
+  "flex-layout.row#vitrine-event3": {
+    "children": [
+      "vtex.product-summary:list-context.product-list#vitrine-event3"
+    ],
+    "props": {
+      "blockClass": ["sliderContentShelf", "sliderShelfSale"]
+    }
+  },
+  "vtex.product-summary:list-context.product-list#vitrine-event3": {
+    "blocks": [
+      "vtex.product-summary:product-summary.shelf#most-viewed"
+    ],
+    "children": [
+      "slider-layout#vitrine-event1"
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "collection": "137",
+      "maxItems": 4
+    }
+  },
+  "slider-layout#vitrine-event3": {
+    "props": {
+      "blockClass": "vitrine-sale",
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 4,
+        "phone": 4
+      },
+      "infinite": false,
+      // "showNavigationArrows": "desktopOnly",
+      "showNavigationArrows": "never",
+      // "showPaginationDots": "always"
+      "showPaginationDots": "never"
+    }
+  },
+  // VITRINA 2
+  "flex-layout.row#vitrine-event4": {
+    "children": [
+      "vtex.product-summary:list-context.product-list#vitrine-event4"
+    ],
+    "props": {
+      "blockClass": ["sliderContentShelf", "sliderShelfSale"]
+    }
+  },
+  "vtex.product-summary:list-context.product-list#vitrine-event4": {
+    "blocks": [
+      "vtex.product-summary:product-summary.shelf#most-viewed"
+    ],
+    "children": [
+      "slider-layout#vitrine-event1"
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "collection": "137",
+      "maxItems": 4
+    }
+  },
+  "slider-layout#vitrine-event4": {
+    "props": {
+      "blockClass": "vitrine-sale",
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 4,
+        "phone": 4
+      },
+      "infinite": false,
+      // "showNavigationArrows": "desktopOnly",
+      "showNavigationArrows": "never",
+      // "showPaginationDots": "always"
+      "showPaginationDots": "never"
+    }
+  }
+}

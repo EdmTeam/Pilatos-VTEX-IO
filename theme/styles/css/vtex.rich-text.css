@@ -1321,3 +1321,61 @@
 .container--linkBtnNew, .container--linkBtnOrder{
   justify-content: flex-end;
 }
+
+.headingLevel1--event-title {
+  margin: 0 0 10px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  color: #FFD400;
+}
+
+.strong--event-title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.paragraph--event-message {
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+}
+
+.container--section-title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.paragraph--section-title {
+  margin: 0 auto;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.065em;
+  color: #000000;
+}
+
+@media screen and (max-width: 767px) {
+  .paragraph--event-message {
+    font-size: 12px;
+  }
+
+  .container--title-sub-banners {
+    justify-content: flex-start;
+    padding: 0 5%;
+    margin-bottom: 25px;
+  }
+
+  .container--title-tabs {
+    margin-bottom: 20px;
+  }
+
+  .wrapper--title-tabs .paragraph--section-title {
+    font-size: 13px;
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "rich-text#title-vitrine-sale": {
+    "props": {
+      "text": "PROMOS DESTACADAS",
+      "blockClass": ["section-title", "title-tabs"]
+    }
+  },
+
+  "tab-layout#menu-vitrines": {
+    "children": [
+      "tab-list#menu-vitrine",
+      "tab-content#menu-vitrine"
+    ],
+    "props": {
+      "blockClass": "menu-vitrine",
+      "defaultActiveTabId": "vitrine1"
+    }
+  },
+  "tab-list#menu-vitrine": {
+    "children": [
+      "tab-list.item#vitrine1",
+      "tab-list.item#vitrine2",
+      "tab-list.item#vitrine3",
+      "tab-list.item#vitrine4"
+    ],
+    "props":{
+      "blockClass": "menuTabVitrine"
+    }
+  },
+  "tab-list.item#vitrine1": {
+    "props": {
+      "blockClass": "menuTabVitrine-item",
+      "tabId": "vitrine1",
+      "label": "CAMISETAS",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-list.item#vitrine2": {
+    "props": {
+      "blockClass": "menuTabVitrine-item",
+      "tabId": "vitrine2",
+      "label": "TENIS"
+    }
+  },
+  "tab-list.item#vitrine3": {
+    "props": {
+      "blockClass": "menuTabVitrine-item",
+      "tabId": "vitrine3",
+      "label": "PANTALONES"
+    }
+  },
+  "tab-list.item#vitrine4": {
+    "props": {
+      "blockClass": "menuTabVitrine-item",
+      "tabId": "vitrine4",
+      "label": "ACCESORIOS"
+    }
+  },
+
+
+  "tab-content#menu-vitrine": {
+    "children": [
+      "tab-content.item#vitrine1",
+      "tab-content.item#vitrine2",
+      "tab-content.item#vitrine3",
+      "tab-content.item#vitrine4"
+    ],
+    "props": {
+      "blockClass": "contentTabVitrine"
+    }
+
+  },
+  "tab-content.item#vitrine1": {
+    "children": [
+      "flex-layout.row#vitrine-event1"
+    ],
+    "props": {
+      "blockClass": "menuTabVitrine-content",
+      "tabId": "vitrine1"
+    }
+  },
+  "tab-content.item#vitrine2": {
+    "children": [
+      "flex-layout.row#vitrine-event2"
+    ],
+    "props": {
+      "blockClass": "menuTabVitrine-content",
+      "tabId": "vitrine2"
+    }
+  },
+  "tab-content.item#vitrine3": {
+    "children": [
+      "flex-layout.row#vitrine-event3"
+    ],
+    "props": {
+      "blockClass": "menuTabVitrine-content",
+      "tabId": "vitrine3"
+    }
+  },
+  "tab-content.item#vitrine4": {
+    "children": [
+      "flex-layout.row#vitrine-event4"
+    ],
+    "props": {
+      "blockClass": "menuTabVitrine-content",
+      "tabId": "vitrine4"
+    }
+  }
+}

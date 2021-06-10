@@ -1,0 +1,60 @@
+{
+  "rich-text#titleEvento": {
+    "props": {
+      "text": "# **Black Friday** Pilatos",
+      "blockClass": "event-title"
+    }
+  },
+  "rich-text#descriptionEvento": {
+    "props": {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+      "blockClass": "event-message"
+    }
+  },
+
+  "responsive-layout.desktop#banner-principal": {
+    "children": [
+      "image#bannerIntroEvento-desktop"
+    ]
+  },
+  
+  "responsive-layout.tablet#banner-principal": {
+    "children": [
+      "image#bannerIntroEvento-tablet-landscape",
+      "image#bannerIntroEvento-tablet-portrait"
+    ]
+  },
+  
+  "responsive-layout.phone#banner-principal": {
+    "children": [
+      "image#bannerIntroEvento-mobile"
+    ]
+  },
+
+  "image#bannerIntroEvento-desktop": {
+    "props": {
+      "src": "/arquivos/Sale_Banner_principal_Desktop.jpg",
+      "link": "/"
+    }
+  },
+  "image#bannerIntroEvento-tablet-landscape": {
+    "props": {
+      "blockClass": "banner-image-sale-landscape",
+      "src": "/arquivos/Sale_Banner_principal_Desktop.jpg",
+      "link": "/"
+    }
+  },
+  "image#bannerIntroEvento-tablet-portrait": {
+    "props": {
+      "blockClass": "banner-image-sale-portrait",
+      "src": "/arquivos/Sale_Banner_principal_Tablet.jpg",
+      "link": "/"
+    }
+  },
+  "image#bannerIntroEvento-mobile": {
+    "props": {
+      "src": "/arquivos/Sale_Banner_principal_Mobile.jpg",
+      "link": "/"
+    }
+  }
+}
