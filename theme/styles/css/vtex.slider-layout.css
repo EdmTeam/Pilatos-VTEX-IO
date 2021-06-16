@@ -272,3 +272,26 @@
         right: -35px;
     }
 }
+
+
+@media screen and (max-width: 768px) {
+  .sliderTrack--vitrine-sale {
+    flex-wrap: wrap;
+  }
+
+  .slide--vitrine-sale {
+    width: 50% !important;
+  }
+}
+
+.sliderTrackContainer--sub-banners-sale {
+  padding: 0 10% 0 5%;
+}
+
+.slide--sub-banners-sale {
+  padding-right: 15px;
+}
+
+.paginationDotsContainer--sub-banners-sale {
+  bottom: -1.5rem;
+}

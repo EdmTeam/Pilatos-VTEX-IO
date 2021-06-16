@@ -1,0 +1,128 @@
+{
+  "store.custom#evento-template": {
+    "blocks": [
+      "flex-layout.row#title-event",
+      "flex-layout.row#banner-event",
+      "flex-layout.row#vitrines-event",
+      "flex-layout.row#grid-banners-event"
+    ]
+  },
+  "flex-layout.row#title-event":{
+    "children": [
+      "flex-layout.col#title-event"
+    ],
+    "props": {
+      "blockClass": ["title-event", "container-sale"]
+    }
+  },
+  "flex-layout.col#title-event":{
+    "children": [
+      "rich-text#titleEvento",
+      "rich-text#descriptionEvento"
+    ],
+    "props": {
+      "blockClass": ["title-event"]
+    }
+  },
+
+
+  "flex-layout.row#banner-event": {
+    "children": [
+      "flex-layout.col#banner-event"
+    ],
+    "props": {
+      "blockClass": ["banner-sale", "container-sale"]
+    }
+  },
+  "flex-layout.col#banner-event": {
+    "children": [
+      "responsive-layout.desktop#banner-principal",
+      "responsive-layout.tablet#banner-principal",
+      "responsive-layout.phone#banner-principal"
+    ],
+    "props": {
+      "blockClass": "banner-sale"
+    }
+  },
+
+
+  "flex-layout.row#vitrines-event": {
+    "children": [
+      "flex-layout.col#vitrines-event"
+    ],
+    "props": {
+      "blockClass": ["vitrine-sale", "container-sale"]
+    }
+  },
+  "flex-layout.col#vitrines-event": {
+    "children": [
+      "rich-text#title-vitrine-sale",
+      "tab-layout#menu-vitrines"
+    ],
+    "props": {
+      "blockClass": ["vitrine-sale", "container-sale"]
+    }
+  },
+
+
+  "flex-layout.row#grid-banners-event": {
+    "children": [
+      "flex-layout.col#grid-banners-event"
+    ],
+    "props": {
+      "blockClass": ["sub-banner-sale", "container-sale"]
+    }
+  },
+  "flex-layout.col#grid-banners-event": {
+    "children": [
+      "rich-text#title-banners-sale",
+      "responsive-layout.desktop#sub-banners-event",
+      "responsive-layout.tablet#sub-banners-event",
+      "responsive-layout.phone#sub-banners-event"
+    ],
+    "props": {
+      "blockClass": ["sub-banner-sale", "container-sale"]
+    }
+  },
+  "responsive-layout.desktop#sub-banners-event":{
+    "children": [
+      "flex-layout.row#sub-banners-event"
+    ]
+  },
+  "responsive-layout.tablet#sub-banners-event":{
+    "children": [
+      "flex-layout.row#sub-banners-event"
+    ]
+  },
+  "responsive-layout.phone#sub-banners-event":{
+    "children": [
+      "slider-layout#sub-banners-event"
+    ]
+  },
+  "flex-layout.row#sub-banners-event": {
+    "children": [
+      "flex-layout.col#sub-banner-event-1",
+      "flex-layout.col#sub-banner-event-2"
+    ],
+    "props": {
+      "blockClass": ["sub-banners-sale"],
+      "preventHorizontalStretch": true
+    }
+  },
+  "slider-layout#sub-banners-event": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": false,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "sub-banners-sale"
+    },
+    "children": [
+      "image#sub-banner-1-mobile",
+      "image#sub-banner-2-mobile"
+    ]
+  }
+}

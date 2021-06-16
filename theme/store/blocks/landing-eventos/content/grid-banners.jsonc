@@ -1,0 +1,119 @@
+{
+  "rich-text#title-banners-sale":{
+    "props": {
+      "text": "MEJORES PROMOCIONES",
+      "blockClass": ["section-title", "title-sub-banners"]
+    }
+  },
+
+  "flex-layout.col#sub-banner-event-1":{
+    "children": [
+      "responsive-layout.desktop#sub-banner-1",
+      "responsive-layout.tablet#sub-banner-1",
+      "responsive-layout.phone#sub-banner-1"
+    ]
+  },
+  "responsive-layout.desktop#sub-banner-1": {
+    "children": [
+      "image#sub-banner-1-desktop"
+    ]
+  },
+
+  "responsive-layout.tablet#sub-banner-1": {
+    "children": [
+      "image#sub-banner-1-tablet-landscape",
+      "image#sub-banner-1-tablet-portrait"
+    ]
+  },
+
+  "responsive-layout.phone#sub-banner-1": {
+    "children": [
+      "image#sub-banner-1-mobile"
+    ]
+  },
+
+  "image#sub-banner-1-desktop": {
+    "props": {
+      "blockClass": "sub-banner-image-sale-desk",
+      "src": "/arquivos/Sale_Banner_hombre_Desktop.jpg",
+      "link": "/"
+    }
+  },
+  "image#sub-banner-1-tablet-landscape": {
+    "props": {
+      "blockClass": "sub-banner-image-sale-landscape",
+      "src": "/arquivos/Sale_Banner_hombre_Desktop.jpg",
+      "link": "/"
+    }
+  },
+  "image#sub-banner-1-tablet-portrait": {
+    "props": {
+      "blockClass": "sub-banner-image-sale-portrait",
+      "src": "/arquivos/Sale_Banner_hombre_Tablet.jpg",
+      "link": "/"
+    }
+  },
+  "image#sub-banner-1-mobile": {
+    "props": {
+      "src": "/arquivos/Sale_Banner_hombre_Mobile.jpg",
+      "link": "/"
+    }
+  },
+
+
+
+  "flex-layout.col#sub-banner-event-2":{
+    "children": [
+      "responsive-layout.desktop#sub-banner-2",
+      "responsive-layout.tablet#sub-banner-2",
+      "responsive-layout.phone#sub-banner-2"
+    ]
+  },
+  "responsive-layout.desktop#sub-banner-2": {
+    "children": [
+      "image#sub-banner-2-desktop"
+    ]
+  },
+
+  "responsive-layout.tablet#sub-banner-2": {
+    "children": [
+      "image#sub-banner-2-tablet-landscape",
+      "image#sub-banner-2-tablet-portrait"
+    ]
+  },
+
+  "responsive-layout.phone#sub-banner-2": {
+    "children": [
+      "image#sub-banner-2-mobile"
+    ]
+  },
+
+  "image#sub-banner-2-desktop": {
+    "props": {
+      "blockClass": "sub-banner-image-sale-desk",
+      "src": "/arquivos/Sale_Banner_mujer_Desktop.jpg",
+      "link": "/"
+    }
+  },
+  "image#sub-banner-2-tablet-landscape": {
+    "props": {
+      "blockClass": "sub-banner-image-sale-landscape",
+      "src": "/arquivos/Sale_Banner_mujer_Desktop.jpg",
+      "link": "/"
+    }
+  },
+  "image#sub-banner-2-tablet-portrait": {
+    "props": {
+      "blockClass": "sub-banner-image-sale-portrait",
+      "src": "/arquivos/Sale_Banner_mujer_Tablet.jpg",
+      "link": "/"
+    }
+  },
+  "image#sub-banner-2-mobile": {
+    "props": {
+      "src": "/arquivos/Sale_Banner_mujer_Mobile.jpg",
+      "link": "/"
+    }
+  }
+
+}

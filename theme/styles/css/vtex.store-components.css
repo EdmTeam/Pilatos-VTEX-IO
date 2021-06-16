@@ -596,3 +596,32 @@
     margin: 2rem auto 1rem auto;
     width: 40%;
 }
+
+.imageElement--sub-banner-image-sale-desk {
+  max-width: 450px;
+}
+
+.imageElementLink--sub-banner-image-sale-landscape {
+  max-width: 390px;
+}
+
+.imageElementLink--sub-banner-image-sale-portrait {
+  max-width: 320px;
+}
+
+
+@media screen and (min-width: 769px) {
+
+  .imageElementLink--banner-image-sale-portrait,
+  .imageElementLink--sub-banner-image-sale-portrait {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .imageElementLink--banner-image-sale-landscape,
+  .imageElementLink--sub-banner-image-sale-landscape {
+    display: none;
+  }
+}
