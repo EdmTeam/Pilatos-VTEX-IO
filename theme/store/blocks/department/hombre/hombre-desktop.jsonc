@@ -52,7 +52,7 @@
 
     "rich-text#department-hombre-description":{
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "text": "Ropa para hombre desde camisetas, tenis, jeans y chaquetas hasta billeteras, pantalonetas y medias. Descubre en Pilatos tu ropa favorita de marcas como M+F Girbaud, Superdry, Diesel, New Balance y Replay, sólo en Pilatos",
             "blockClass": "departmentDescription"
         }
     },
@@ -85,7 +85,7 @@
 
     "image#department-hombre-banners-1-img-1": {
         "props": {
-            "src": "/arquivos/Dep-desk-1.png",
+            "src": "/arquivos/Banner_Principal_Desktop_Departamento_Hombre.jpg",
             "link": {
                 "url": "/hombre/camisetas",
                 "attributeTitle": ""
@@ -96,7 +96,7 @@
 
     "image#department-hombre-banners-1-img-2": {
         "props": {
-            "src": "/arquivos/Dep-desk-2.png",
+            "src": "/arquivos/Banner_Secundario_Desktop_Departamento_Hombre.jpg",
             "link": {
                 "url": "/hombre/ropa-interior",
                 "attributeTitle": ""
@@ -127,7 +127,7 @@
 
     "image#department-hombre-banners-2-img-1": {
         "props": {
-            "src": "/arquivos/Dep-desk-3.png",
+            "src": "/arquivos/Banner_Tercer_Desktop_Departamento_Hombre.jpg",
             "link": {
                 "url": "/hombre/zapatos/tenis",
                 "attributeTitle": ""
@@ -147,7 +147,7 @@
 
     "image#department-hombre-banners-2-img-2": {
         "props": {
-            "src": "/arquivos/Dep-desk-5.png",
+            "src": "/arquivos/Banner_Cuarto_Desktop_Departamento_Hombre.jpg",
             "link": {
                 "url": "/hombre/accesorios/tapabocas",
                 "attributeTitle": ""
@@ -167,7 +167,7 @@
 
     "image#department-hombre-banners-2-img-3": {
         "props": {
-            "src": "/arquivos/Dep-desk-4.png",
+            "src": "/arquivos/Banner_Quinto_Desktop_Departamento_Hombre.jpg",
             "link": {
                 "url": "/hombre/jeans",
                 "attributeTitle": ""

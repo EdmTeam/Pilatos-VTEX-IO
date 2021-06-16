@@ -1321,3 +1321,101 @@
 .container--linkBtnNew, .container--linkBtnOrder{
   justify-content: flex-end;
 }
+
+/* Modal de promociones */
+.container--promotionalBannerTitle{
+  width: 72%;
+  margin: 2.7rem auto 0 auto;
+}
+
+.wrapper--promotionalBannerTitle .paragraph{
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 100%;
+  color: #000000;
+  padding: 0 5rem 0 0;
+  margin: 0;
+}
+
+.wrapper--promotionalBannerTitle{
+  position: relative;
+  z-index: 2;
+}
+
+.wrapper--promotionalBannerTitle::before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 15px;
+  background: #FFD400;
+  left: -4rem;
+  bottom: .1rem;
+  z-index: -1;
+}
+
+.container--promotionalBannerSubtitle{
+  width: 72%;
+  margin: 0 auto 1rem auto;
+}
+
+.wrapper--promotionalBannerSubtitle .paragraph{
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 100%;
+  color: #000000;
+  padding: 0 1rem 0 0;
+  margin: 1.5rem 0;
+}
+
+.container--promotionalBannerTitleMobile{
+  width: 80%;
+  margin: 2rem auto 0 auto;
+}
+
+.wrapper--promotionalBannerTitleMobile .paragraph{
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 100%;
+  color: #000000;
+  text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  margin: .4rem 0 0 0;
+}
+
+.container--promotionalBannerSubtitleMobile{
+  width: 80%;
+  margin: 0 auto;
+  padding-right: 1rem;
+  position: relative;
+  z-index: 2;
+}
+
+.wrapper--promotionalBannerSubtitleMobile::before{
+  content: '';
+  width: 130px;
+  height: 10px;
+  position: absolute;
+  left: -3rem;
+  bottom: 1.1rem;
+  background: #FFD400;
+  z-index: -1;
+}
+
+.wrapper--promotionalBannerSubtitleMobile .paragraph{
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 100%;
+  color: #000000;
+  margin-bottom: 0;
+}
+
+.container--promotionalBannerSubtitleMobile-2{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.wrapper--promotionalBannerSubtitleMobile-2 .paragraph{
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 100%;
+  color: #000000;
+}

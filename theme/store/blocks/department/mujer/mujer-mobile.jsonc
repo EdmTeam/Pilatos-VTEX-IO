@@ -16,7 +16,7 @@
 
     "image#department-mujer-banners-1-img-1-mobile": {
         "props": {
-            "src": "/arquivos/Dep-mobile-1.png",
+            "src": "/arquivos/Banner_Principal_Mobile_Departamento_Mujer.jpg",
             "link": {
                 "url": "/mujer/ropa/camisetas",
                 "attributeTitle": ""
@@ -110,8 +110,7 @@
         "props": {
             "images": [
                 {
-                    "image": "/arquivos/Dep-mobile-2.png",
-                    "mobileImage": "/arquivos/Dep-mobile-2.png",
+                    "image": "/arquivos/Banner_Segundo_Mobile_Departamento_Mujer.jpg",
                     "description": "Promotional Banner",
                     "link": {
                         "url": "/mujer/ropa-interior",
@@ -121,8 +120,7 @@
                     "width": "235px"
                 },
                 {
-                    "image": "/arquivos/Dep-mobile-2.png",
-                    "mobileImage": "/arquivos/Dep-mobile-2.png",
+                    "image": "/arquivos/Banner_Tercero_Mobile_Departamento_Mujer.jpg",
                     "description": "Promotional Banner",
                     "link": {
                         "url": "/mujer/ropa-interior",
@@ -131,8 +129,16 @@
                     "title": ""
                 },
                 {
-                    "image": "/arquivos/Dep-mobile-2.png",
-                    "mobileImage": "/arquivos/Dep-mobile-2.png",
+                    "image": "/arquivos/Banner_Cuarto_Mobile_Departamento_Mujer.jpg",
+                    "description": "Promotional Banner",
+                    "link": {
+                        "url": "/mujer/ropa-interior",
+                        "attributeTitle": ""
+                    },
+                    "title": ""
+                },
+                {
+                    "image": "/arquivos/Banner_Quinto_Mobile_Departamento_Mujer.jpg",
                     "description": "Promotional Banner",
                     "link": {
                         "url": "/mujer/ropa-interior",
@@ -176,7 +182,7 @@
 
     "image#department-mujer-banners-1-img-1-tablet": {
         "props": {
-            "src": "/arquivos/Dep-tablet-1.png",
+            "src": "/arquivos/Banner_Secundario_Tablet_Departamento_Mujer.jpg",
             "link": {
                 "url": "/mujer/ropa/camisetas",
                 "attributeTitle": ""
@@ -213,7 +219,7 @@
 
     "image#department-mujer-banners-2-img-1-tablet": {
         "props": {
-            "src": "/arquivos/Dep-mobile-2.png",
+            "src": "/arquivos/Banner_Tercero_Mobile_Departamento_Mujer.jpg",
             "link": {
                 "url": "/mujer/zapatos/tenis",
                 "attributeTitle": ""
@@ -233,7 +239,7 @@
 
     "image#department-mujer-banners-2-img-2-tablet": {
         "props": {
-            "src": "/arquivos/Dep-mobile-3.png",
+            "src": "/arquivos/Banner_Cuarto_Mobile_Departamento_Mujer.jpg",
             "link": {
                 "url": "/mujer/accesorios/tapabocas",
                 "attributeTitle": ""
@@ -253,7 +259,7 @@
 
     "image#department-mujer-banners-2-img-3-tablet": {
         "props": {
-            "src": "/arquivos/Dep-mobile-4.png",
+            "src": "/arquivos/Banner_Quinto_Mobile_Departamento_Mujer.jpg",
             "link": {
                 "url": "/mujer/jeans",
                 "attributeTitle": ""

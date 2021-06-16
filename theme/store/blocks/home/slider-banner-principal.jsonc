@@ -25,7 +25,7 @@
             "height": 600,
             "images": [
                 {
-                    "image": "/arquivos/Pilatos-Camisetas3x2-768x720.jpg",
+                    "image": "/arquivos/Banner_Principal_Mobile_01.jpg",
                     "link": {
                         "url": "/",
                         "attributeTitle": ""
@@ -33,7 +33,7 @@
                     "title": ""
                 },
                 {
-                    "image": "/arquivos/banner-mobile.png",
+                    "image": "/arquivos/Banner_Principal_Mobile_02.jpg",
                     "link": {
                         "url": "/",
                         "attributeTitle": ""
@@ -52,7 +52,7 @@
             "height": 600,
             "images": [
                 {
-                    "image": "/arquivos/Pilatos-Camisetas3x2-1024x400.jpg",
+                    "image": "/arquivos/Banner_Principal_Tablet_01.jpg",
                     "link": {
                         "url": "/",
                         "attributeTitle": ""
@@ -60,7 +60,7 @@
                     "title": ""
                 },
                 {
-                    "image": "/arquivos/banner-tablet.png",
+                    "image": "/arquivos/Banner_Principal_Tablet_02.jpg",
                     "link": {
                         "url": "/",
                         "attributeTitle": ""
@@ -79,15 +79,7 @@
             "height": 600,
             "images": [
                 {
-                    "image": "/arquivos/Pilatos-Camisetas3x2-1920x600.jpg",
-                    "link": {
-                        "url": "/",
-                        "attributeTitle": ""
-                    },
-                    "title": ""
-                },
-                {
-                    "image": "/arquivos/banner-desk.png",
+                    "image": "/arquivos/Banner_Principal_Desktop_01.jpg",
                     "link": {
                         "url": "/",
                         "attributeTitle": ""

@@ -1,0 +1,160 @@
+{
+    "responsive-layout.phone#promotional-banner":{
+        "children":[
+            "modal-trigger#promotional-banner-mobile"
+        ]
+    },
+
+    "modal-trigger#promotional-banner-mobile":{
+        "children":[
+            "modal-layout#promotional-banner-mobile"
+        ],
+        "props":{
+            "blockClass": "promotionalBanner",
+            "trigger": "load",
+            "disableEscapeKeyDown": true
+        }
+    },
+
+    "modal-layout#promotional-banner-mobile":{
+        "children":[
+            "modal-header#promotional-banner-mobile",
+            "flex-layout.row#promotional-banner-mobile",
+            "flex-layout.row#promotional-banner-mobile-row-2",
+            "image#promotional-banner-logo-mobile"
+        ],
+        "props":{
+            "blockClass": "promotionalBannerModal"
+        }
+    },
+
+    "modal-header#promotional-banner-mobile":{
+        "props":{
+            "showCloseButton": true,
+            "blockClass": "promotionalBannerHeader",
+            "iconCloseSize": 29
+        }
+    },
+
+    "flex-layout.row#promotional-banner-mobile":{
+        "children":[
+            "flex-layout.col#promotional-banner-col-1-mobile",
+            "flex-layout.col#promotional-banner-col-2-mobile"
+        ],
+        "props":{
+            "preserveLayoutOnMobile": true
+        }
+    },
+
+    "flex-layout.col#promotional-banner-col-1-mobile":{
+        "children":[
+            "image#promotional-banner-mobile"        
+        ],
+        "props":{
+            "blockClass": "promotionalBannerImgMobile",
+            "width": "46%"
+        }
+    },
+
+    "image#promotional-banner-mobile":{
+        "props": {
+            "src": "/arquivos/promotional-banner-mobile.png",
+            "link": {
+                "url": "/"
+            }
+        }
+    },
+
+    "flex-layout.col#promotional-banner-col-2-mobile":{
+        "children":[
+            "rich-text#promotion-title-mobile",
+            "rich-text#promotion-subtitle-mobile",
+            "rich-text#promotion-subtitle-2-mobile"
+        ],
+        "props":{
+            "blockClass":"ContentPromotionalBanner  ",
+            "width": "54%"
+        }
+    },
+
+    "rich-text#promotion-title-mobile":{
+        "props":{
+            "text": "15% OFF",
+            "blockClass":"promotionalBannerTitleMobile"
+        }
+    },
+
+    "rich-text#promotion-subtitle-mobile":{
+        "props":{
+            "text": "En toda la tienda",
+            "blockClass":"promotionalBannerSubtitleMobile"
+        }
+    },
+
+    "rich-text#promotion-subtitle-2-mobile":{
+        "props":{
+            "text": "suscribiendote al newsletter",
+            "blockClass":"promotionalBannerSubtitleMobile-2"
+        }
+    },
+
+    "flex-layout.row#promotional-banner-mobile-row-2":{
+        "children":[
+            "flex-layout.col#news-letter-desk-banner-mobile"
+        ]
+    },
+
+    "flex-layout.col#news-letter-desk-banner-mobile":{
+        "children":[
+            "flex-layout.col#news-letter-banner-mobile"
+        ],
+        "props":{
+            "blockClass": [
+                "contentNewsletter", 
+                "contentNewsletterMobile",
+                "contentNewsletterBanner",
+                "contentNewsletterModal"
+            ]
+        }
+    },
+
+    "flex-layout.col#news-letter-banner-mobile":{
+        "children":[
+            "form#news-letter-banner"
+        ]
+    },
+
+    "form#news-letter-banner": {
+        "props": {
+          "entity": "NL",
+          "schema": "newsletter"
+        },
+        "children": [
+            "flex-layout.col#news-letter-input-modal"
+            ],
+        "blocks": [
+            "form-success#newsletter"
+        ]
+    },
+
+    "flex-layout.col#news-letter-input-modal":{
+        "children":[
+            "form-input.text#email",
+            "form-input.checkbox#check",
+            "form-submit#submit"
+        ],
+        "props":{
+            "blockClass": "contentInput"
+        }
+    },
+
+    "image#promotional-banner-logo-mobile":{
+        "props": {
+            "src": "/arquivos/pilatos_logo_BN.png",
+            "link": {
+                "url": "/"
+            },
+            "blockClass": "logoModalMobile"
+        }
+    }
+}

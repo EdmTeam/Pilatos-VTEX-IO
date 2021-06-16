@@ -29,7 +29,7 @@
 
     "image#promotional-banners-2-img-1": {
         "props": {
-            "src": "/arquivos/category-banner-mobile-2.png",
+            "src": "/arquivos/Banner_TercerNivel_Mobile_01.jpg",
             "link": {
                 "url": "/",
                 "attributeTitle": ""
@@ -65,7 +65,7 @@
 
     "image#promotional-banners-2-img-2": {
         "props": {
-            "src": "/arquivos/category-banner-mobile-1.png",
+            "src": "/arquivos/Banner_TercerNivel_Mobile_02.jpg",
             "link": {
                 "url": "/",
                 "attributeTitle": ""
@@ -101,7 +101,7 @@
 
     "image#promotional-banners-2-img-3": {
         "props": {
-            "src": "/arquivos/category-banner-mobile-2.png",
+            "src": "/arquivos/Banner_TercerNivel_Mobile_03.jpg",
             "link": {
                 "url": "/",
                 "attributeTitle": ""
@@ -182,9 +182,9 @@
     "flex-layout.col#desk-promotional-banners-2-col-1":{
         "children":[
             "image#desk-promotional-banners-2-img-1",
-            "rich-text#desk-des-promotional-banners-2-img-1",
-            "rich-text#desk-title-promotional-banners-2-img-1",
-            "rich-text#desk-link-promotional-banners-2-img-1"
+            "rich-text#desk-des-promotional-banners-2-img-1"
+            // "rich-text#desk-title-promotional-banners-2-img-1",
+            // "rich-text#desk-link-promotional-banners-2-img-1"
         ],
         "props":{
             "blockClass": "promBannerContentImg",
@@ -194,7 +194,7 @@
 
     "image#desk-promotional-banners-2-img-1": {
         "props": {
-            "src": "/arquivos/category-banner-desk-5.png",
+            "src": "/arquivos/Banner_TercerNivel_Desktop_01.jpg",
             "link": {
                 "url": "/",
                 "attributeTitle": ""
@@ -212,7 +212,7 @@
 
     "rich-text#desk-des-promotional-banners-2-img-1": {
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "text": "Desde buzos Superdry, New Balance y M+F Girbaud hasta chaquetas Diesel y Replay, disponibles en Pilatos..",
             "blockClass": "desBanners"
         }
     },
@@ -227,9 +227,9 @@
     "flex-layout.col#desk-promotional-banners-2-col-2":{
         "children":[
             "image#desk-promotional-banners-2-img-2",
-            "rich-text#desk-des-promotional-banners-2-img-2",
-            "rich-text#desk-title-promotional-banners-2-img-2",
-            "rich-text#desk-link-promotional-banners-2-img-2"
+            "rich-text#desk-des-promotional-banners-2-img-2"
+            // "rich-text#desk-title-promotional-banners-2-img-2",
+            // "rich-text#desk-link-promotional-banners-2-img-2"
         ],
         "props":{
             "blockClass": "promBannerContentImg",
@@ -239,7 +239,7 @@
 
     "image#desk-promotional-banners-2-img-2": {
         "props": {
-            "src": "/arquivos/category-banner-desk-4.png",
+            "src": "/arquivos/Banner_TercerNivel_Desktop_02.jpg",
             "link": {
                 "url": "/",
                 "attributeTitle": ""
@@ -257,7 +257,7 @@
 
     "rich-text#desk-des-promotional-banners-2-img-2": {
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            "text": "Tenemos morrales Diesel, Kipling, New Balance, Superdry, Diesel y muchos más en Pilatos, donde encuentras la mejor calidad de productos de las mejores marcas.",
             "blockClass": "desBannersCenter"
         }
     },
@@ -272,9 +272,9 @@
     "flex-layout.col#desk-promotional-banners-2-col-3":{
         "children":[
             "image#desk-promotional-banners-2-img-3",
-            "rich-text#desk-des-promotional-banners-2-img-3",
-            "rich-text#desk-title-promotional-banners-2-img-3",
-            "rich-text#desk-link-promotional-banners-2-img-3"
+            "rich-text#desk-des-promotional-banners-2-img-3"
+            // "rich-text#desk-title-promotional-banners-2-img-3",
+            // "rich-text#desk-link-promotional-banners-2-img-3"
         ],
         "props":{
             "blockClass": "promBannerContentImg",
@@ -284,7 +284,7 @@
 
     "image#desk-promotional-banners-2-img-3": {
         "props": {
-            "src": "/arquivos/category-banner-desk-5.png",
+            "src": "/arquivos/Banner_TercerNivel_Desktop_01.jpg",
             "link": {
                 "url": "/",
                 "attributeTitle": ""
@@ -302,7 +302,7 @@
 
     "rich-text#desk-des-promotional-banners-2-img-3": {
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "text": "Desde buzos Superdry, New Balance y M+F Girbaud hasta chaquetas Diesel y Replay, disponibles en Pilatos.",
             "blockClass": "desBanners"
         }
     },
@@ -316,10 +316,10 @@
 
     "flex-layout.col#desk-promotional-banners-2-col-4":{
         "children":[
-            "image#desk-promotional-banners-2-img-2",
-            "rich-text#desk-des-promotional-banners-2-img-2",
-            "rich-text#desk-title-promotional-banners-2-img-2",
-            "rich-text#desk-link-promotional-banners-2-img-2"
+            "image#desk-promotional-banners-2-img-4",
+            "rich-text#desk-des-promotional-banners-2-img-4"
+            // "rich-text#desk-title-promotional-banners-2-img-4",
+            // "rich-text#desk-link-promotional-banners-2-img-4"
         ],
         "props":{
             "blockClass": "promBannerContentImg",
@@ -329,7 +329,7 @@
 
     "image#desk-promotional-banners-2-img-4": {
         "props": {
-            "src": "/arquivos/category-banner-desk-4.png",
+            "src": "/arquivos/Banner_TercerNivel_Desktop_03.jpg",
             "link": {
                 "url": "/",
                 "attributeTitle": ""
@@ -347,7 +347,7 @@
 
     "rich-text#desk-des-promotional-banners-2-img-4": {
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            "text": "Ve a la playa o piscina con el estilo más cool. Trajes de baño Superdry, Diesel, Dzone y muchos más para que compres todo lo que necesitas en un solo lugar.",
             "blockClass": "desBannersCenter"
         }
     },

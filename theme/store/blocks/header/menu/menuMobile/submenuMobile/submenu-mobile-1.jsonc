@@ -69,7 +69,7 @@
 
     "image#submenu-level-2-image-row-1":{
         "props": {
-            "src": "/arquivos/banner-menu-mobile-1.png",
+            "src": "/arquivos/Banner_Mobile_Menu_Hombre.jpg",
             "link": {
                 "url": "/hombre"
             },

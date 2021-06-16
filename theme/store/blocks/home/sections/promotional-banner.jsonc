@@ -1,0 +1,121 @@
+{
+    "responsive-layout.desktop#promotional-banner":{
+        "children":[
+            "modal-trigger#promotional-banner"
+        ]
+    },
+
+    "responsive-layout.tablet#promotional-banner":{
+        "children":[
+            "modal-trigger#promotional-banner"
+        ]
+    },
+
+    "modal-trigger#promotional-banner":{
+        "children":[
+            "modal-layout#promotional-banner"
+        ],
+        "props":{
+            "blockClass": "promotionalBanner",
+            "trigger": "load",
+            "disableEscapeKeyDown": true
+        }
+    },
+
+    "modal-layout#promotional-banner":{
+        "children":[
+            "modal-header#promotional-banner",
+            "flex-layout.row#promotional-banner"
+        ],
+        "props":{
+            "blockClass": "promotionalBannerModal"
+        }
+    },
+
+    "modal-header#promotional-banner":{
+        "props":{
+            "showCloseButton": true,
+            "blockClass": "promotionalBannerHeader"
+        }
+    },
+
+    "flex-layout.row#promotional-banner":{
+        "children":[
+            "flex-layout.col#promotional-banner-col-1",
+            "flex-layout.col#promotional-banner-col-2"
+        ]
+    },
+
+    "flex-layout.col#promotional-banner-col-1":{
+        "children":[
+            "image#promotional-banner"        
+        ],
+        "props":{
+            "blockClass": "promotionalBannerImg"
+        }
+    },
+
+    "image#promotional-banner":{
+        "props": {
+            "src": "/arquivos/promotional-banner.png",
+            "link": {
+                "url": "/"
+            }
+        }
+    },
+
+    "flex-layout.col#promotional-banner-col-2":{
+        "children":[
+            "rich-text#promotion-title",
+            "rich-text#promotion-subtitle",
+            "flex-layout.col#news-letter-desk-banner",
+            "image#promotional-banner-logo"
+        ],
+        "props":{
+            "blockClass":"ContentPromotionalBanner"
+        }
+    },
+
+    "rich-text#promotion-title":{
+        "props":{
+            "text": "15% OFF",
+            "blockClass":"promotionalBannerTitle"
+        }
+    },
+
+    "rich-text#promotion-subtitle":{
+        "props":{
+            "text": "en toda la tienda suscribiendote al newsletter",
+            "blockClass":"promotionalBannerSubtitle"
+        }
+    },
+
+    "flex-layout.col#news-letter-desk-banner":{
+        "children":[
+            "flex-layout.col#news-letter-banner"
+        ],
+        "props":{
+            "blockClass": [
+                "contentNewsletter", 
+                "contentNewsletterMobile",
+                "contentNewsletterBanner"
+            ]
+        }
+    },
+
+    "image#promotional-banner-logo":{
+        "props": {
+            "src": "/arquivos/pilatos_logo_BN.png",
+            "link": {
+                "url": "/"
+            },
+            "blockClass": "logoModal"
+        }
+    },
+
+    "flex-layout.col#news-letter-banner":{
+        "children":[
+            "form#news-letter"
+        ]
+    }
+}

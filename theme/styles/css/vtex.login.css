@@ -140,7 +140,7 @@
 }
 
 .sendButton :global(.vtex-button)::before{
-    content: 'Enviar';
+    content: 'Ingresar';
     font-weight: bold;
     font-size: 12px;
     line-height: 11%;
@@ -419,5 +419,16 @@
         letter-spacing: 0.02em;
         text-decoration-line: underline;
         color: #000000;
+    }
+}
+
+@media only screen and (min-width: 1180px){
+    .content--emailAndPassword .contentFormVisible{
+        padding-left: 2rem;
+        border-left: 1px solid #AAA9A9;   
+    }
+
+    .contentAlwaysWithOptions{
+        max-width: 41.7rem;
     }
 }

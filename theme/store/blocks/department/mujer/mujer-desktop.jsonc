@@ -52,7 +52,7 @@
 
     "rich-text#department-mujer-description":{
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "text": "Encuentra en Pilatos la mejor ropa para mujer con jeans, camisetas, tenis, buzos, chaquetas y mucho más, que se adaptan a tu estilo. Encuentra acá las mejores marcas como New Balance, Pilatos Concept, Replay y Diesel, entre otras. ",
             "blockClass": "departmentDescription"
         }
     },
@@ -86,7 +86,7 @@
 
     "image#department-mujer-banners-1-img-1": {
         "props": {
-            "src": "/arquivos/Dep-desk-1.png",
+            "src": "/arquivos/Banner_Principal_Desktop_Departamento_Mujer.jpg",
             "link": {
                 "url": "/mujer/ropa/camisetas",
                 "attributeTitle": ""
@@ -97,7 +97,7 @@
 
     "image#department-mujer-banners-1-img-2": {
         "props": {
-            "src": "/arquivos/Dep-desk-2.png",
+            "src": "/arquivos/Banner_Secundario_Desktop_Departamento_Mujer.jpg",
             "link": {
                 "url": "/mujer/ropa-interior",
                 "attributeTitle": ""
@@ -128,7 +128,7 @@
 
     "image#department-mujer-banners-2-img-1": {
         "props": {
-            "src": "/arquivos/Dep-desk-3.png",
+            "src": "/arquivos/Banner_Tercero_Desktop_Departamento_Mujer.jpg",
             "link": {
                 "url": "/mujer/zapatos/tenis",
                 "attributeTitle": ""
@@ -148,7 +148,7 @@
 
     "image#department-mujer-banners-2-img-2": {
         "props": {
-            "src": "/arquivos/Dep-desk-5.png",
+            "src": "/arquivos/Banner_Cuarto_Desktop_Departamento_Mujer.jpg",
             "link": {
                 "url": "/mujer/accesorios/tapabocas",
                 "attributeTitle": ""
@@ -168,7 +168,7 @@
 
     "image#department-mujer-banners-2-img-3": {
         "props": {
-            "src": "/arquivos/Dep-desk-4.png",
+            "src": "/arquivos/Banner_Quinto_Desktop_Departamento_Mujer.jpg",
             "link": {
                 "url": "/mujer/jeans",
                 "attributeTitle": ""

@@ -60,8 +60,7 @@
         "props": {
             "images": [
                 {
-                    "image": "/arquivos/category-banner-mobile-4.png",
-                    "mobileImage": "/arquivos/category-banner-mobile-4.png",
+                    "image": "/arquivos/Banner_Categorías_Mobile_01.jpg",
                     "description": "Promotional Banner",
                     "link": {
                         "url": "/",
@@ -70,8 +69,7 @@
                     "title": ""
                 },
                 {
-                    "image": "/arquivos/category-banner-mobile-3.png",
-                    "mobileImage": "/arquivos/category-banner-mobile-3.png",
+                    "image": "/arquivos/Banner_Categorias_Mobile_02.jpg",
                     "description": "Promotional Banner",
                     "link": {
                         "url": "/",
@@ -80,8 +78,7 @@
                     "title": ""
                 },
                 {
-                    "image": "/arquivos/category-banner-mobile-4.png",
-                    "mobileImage": "/arquivos/category-banner-mobile-4.png",
+                    "image": "/arquivos/Banner_Categorias_Mobile_03.jpg",
                     "description": "Promotional Banner",
                     "link": {
                         "url": "/",
@@ -153,7 +150,7 @@
 
     "image#desk-category-banners-img-1": {
         "props": {
-            "src": "/arquivos/category-banner-desk-3.png",
+            "src": "/arquivos/Banner_Categorias_Desktop_01.jpg",
             "link": {
                 "url": "/",
                 "attributeTitle": ""
@@ -173,7 +170,7 @@
 
     "image#desk-category-banners-img-2": {
         "props": {
-            "src": "/arquivos/category-banner-desk-2.png",
+            "src": "/arquivos/Banner_Categorias_Desktop_02.jpg",
             "link": {
                 "url": "/",
                 "attributeTitle": ""
@@ -193,7 +190,7 @@
 
     "image#desk-category-banners-img-3": {
         "props": {
-            "src": "/arquivos/category-banner-desk-1.png",
+            "src": "/arquivos/Banner_Categorias_Desktop_03.jpg",
             "link": {
                 "url": "/",
                 "attributeTitle": ""

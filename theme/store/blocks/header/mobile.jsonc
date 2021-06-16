@@ -135,7 +135,8 @@
     "flex-layout.row#submenu-level-1-footer":{
         "children": [
             "link#submenu-level-1-footer-row-1",
-            "link#submenu-level-1-footer-row-2"
+            // "link#submenu-level-1-footer-row-2"
+            "flex-layout.row#submenu-level-1-footer-row-2"
         ],
         "props":{
             "blockClass": "contentFooterMenu"

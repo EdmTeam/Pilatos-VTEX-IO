@@ -87,7 +87,7 @@
 
     "image#image-department-1":{
         "props": {
-            "src": "/arquivos/banner-menu-destop-1.png",
+            "src": "/arquivos/Banner_Desktop_Menu_Hombre.jpg",
             "link": {
                 "url": "/hombre"
             }

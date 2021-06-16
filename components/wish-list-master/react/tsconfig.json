@@ -1,8 +1,0 @@
-{
-  "extends": "@vtex/tsconfig",
-  "compilerOptions": {
-    "esModuleInterop": true,
-    "lib": ["es2017", "dom", "es2018.promise"]
-  },
-  "include": ["./typings/*.d.ts", "./**/*.tsx", "./**/*.ts"]
-}

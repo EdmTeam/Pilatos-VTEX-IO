@@ -87,7 +87,7 @@
 
     "image#image-department-1-row-2":{
         "props": {
-            "src": "/arquivos/banner-menu-destop-1.png",
+            "src": "/arquivos/Banner_Desktop_Menu_Mujer.jpg",
             "link": {
                 "url": "/mujer"
             }

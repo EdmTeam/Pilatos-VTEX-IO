@@ -1316,3 +1316,75 @@ span{
 .boxContainerBody :global(.vtex-input__label){
     display: block;
 }
+
+.profileBoxContainer :global(.vtex-profile-form-3-x-profileSummary) label::after{
+    content: ':';
+}
+
+.profileBoxContainer :global(.vtex-profile-form-3-x-profileSummary) .documentsSubContainer .dataEntryLabel{
+    color: transparent;
+    position: relative;
+}
+
+.profileBoxContainer :global(.vtex-profile-form-3-x-profileSummary) .documentsSubContainer .dataEntryLabel::before{
+    content: 'Documento de identidad:';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 12px;
+    letter-spacing: 0.02em;
+    color: #979899;
+}
+
+.profileBoxContainer :global(.vtex-profile-form-3-x-profileSummary) .dateOfBirthSubContainer{
+    display: none;
+}
+
+:global(.vtex-profile-form-3-x-profileContainer) :global(.vtex-profile-form-3-x-genderInput) :global(.vtex-dropdown__label){
+    display: block;
+}
+
+.addressList .addressBox > div{
+    width: 33.3%;
+    padding: 0 .5rem 1rem .5rem;
+}
+
+.addressList .addressBox{
+    width: 92%;
+    margin: 0 auto;
+
+}
+
+.addressList .addressBox span{
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+.addressList .addressBox .boxContainerBody > div{
+    height: auto;
+}
+
+.addressList .addressBox .boxContainerBody :global(.postalCode){
+    display: none;
+}
+
+.addressEdit .boxContainer .boxContainerBody :global(.vtex-dropdown__label){
+    display: block;
+}
+
+.addressCreate .boxContainer .boxContainerBody :global(.vtex-dropdown__label){
+    display: block;
+}
+
+.addressCreate .boxContainer .boxContainerBody :global(.vtex-address-form__postalCode){
+    padding-bottom: 1.5rem;
+}

@@ -130,3 +130,8 @@
         text-transform: uppercase;
     }
 }
+
+.clearLink--shelfSlide{
+    padding: 0 .5rem;
+    background: #ffffff;
+}

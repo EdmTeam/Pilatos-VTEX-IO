@@ -9,7 +9,10 @@
     },
     "slider-layout#brands": {
       "props": {
-        "blockClass": ["contentSlide", "contentSlideBrand"],
+        "blockClass": [
+          "contentSlide", 
+          "contentSlideBrand"
+        ],
         "itemsPerPage": {
           "desktop": 8,
           "tablet": 6,

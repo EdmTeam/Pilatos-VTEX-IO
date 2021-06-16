@@ -28,7 +28,7 @@
 
     "image#mobile-banner-1": {
         "props": {
-            "src": "/arquivos/prom-banner-mob-3.png",
+            "src": "/arquivos/Banner_CuartoNivel_Mobile_01.jpg",
             "link": {
                 "url": "/",
                 "attributeTitle": ""
@@ -44,8 +44,7 @@
         "props": {
             "images": [
                 {
-                    "image": "/arquivos/prom-banner-mob-2.png",
-                    "mobileImage": "/arquivos/prom-banner-mob-2.png",
+                    "image": "/arquivos/Banner_CuartoNivel_Mobile_02.jpg",
                     "description": "Promotional Banner",
                     "link": {
                         "url": "/",
@@ -53,8 +52,7 @@
                     }
                 },
                 {
-                    "image": "/arquivos/prom-banner-mob-1.png",
-                    "mobileImage": "/arquivos/prom-banner-mob-1.png",
+                    "image": "/arquivos/Banner_CuartoNivel_Mobile_03.jpg",
                     "description": "Promotional Banner",
                     "link": {
                         "url": "/",
@@ -62,8 +60,7 @@
                     }
                 },
                 {
-                    "image": "/arquivos/prom-banner-mob-1.png",
-                    "mobileImage": "/arquivos/prom-banner-mob-1.png",
+                    "image": "/arquivos/Banner_CuartoNivel_Mobile_04.jpg",
                     "description": "Promotional Banner",
                     "link": {
                         "url": "/",
@@ -131,7 +128,7 @@
 
     "image#desk-promotional-banners-col-1-img-1": {
         "props": {
-            "src": "/arquivos/prom-banner-desk-5.png",
+            "src": "/arquivos/Banner_CuartoNivel_Desktop_01.jpg",
             "link": {
                 "url": "/",
                 "attributeTitle": ""
@@ -159,7 +156,7 @@
 
     "image#desk-promotional-banners-col-2-img-1": {
         "props": {
-            "src": "/arquivos/prom-banner-desk-4.png",
+            "src": "/arquivos/Banner_CuartoNivel_Desktop_02.jpg",
             "link": {
                 "url": "/",
                 "attributeTitle": ""
@@ -176,7 +173,7 @@
 
     "image#desk-promotional-banners-col-2-img-2": {
         "props": {
-            "src": "/arquivos/prom-banner-desk-2.png",
+            "src": "/arquivos/Banner_CuartoNivel_Desktop_03.jpg",
             "link": {
                 "url": "/",
                 "attributeTitle": ""
@@ -205,7 +202,7 @@
 
     "image#desk-promotional-banners-col-3-img-1": {
         "props": {
-            "src": "/arquivos/prom-banner-desk-3.png",
+            "src": "/arquivos/Banner_CuartoNivel_Desktop_04.jpg",
             "link": {
                 "url": "/",
                 "attributeTitle": ""
@@ -222,7 +219,7 @@
 
     "image#desk-promotional-banners-col-3-img-2": {
         "props": {
-            "src": "/arquivos/prom-banner-desk-1.png",
+            "src": "/arquivos/Banner_CuartoNivel_Desktop_02.jpg",
             "link": {
                 "url": "/",
                 "attributeTitle": ""

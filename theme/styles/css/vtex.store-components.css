@@ -579,10 +579,6 @@
         width: 93% !important;
         max-width: none;
     }
-
-    .productDescriptionContainer .content{
-
-    }
 }
 
 @media only screen and (max-width: 760px){
@@ -593,4 +589,10 @@
     .price_className--productPrice{
         margin-top: 1rem;
     }
+}
+
+.imageElementLink--logoModalMobile{
+    display: flex;
+    margin: 2rem auto 1rem auto;
+    width: 40%;
 }

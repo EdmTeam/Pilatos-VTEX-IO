@@ -1,0 +1,15 @@
+.paper--promotionalBannerModal{
+    position: relative;
+}
+
+.headerContainer--promotionalBannerHeader{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    right: 0;
+    border: none;
+}
+
+.backdrop--promotionalBannerModal{
+    background: #000000;
+}
