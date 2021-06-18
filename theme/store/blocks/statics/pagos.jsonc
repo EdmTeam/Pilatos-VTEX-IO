@@ -1,0 +1,168 @@
+{
+    "store.custom#pagos": {
+        "blocks": [
+            "flex-layout.row#static-accordion-pagos"
+        ]
+    },
+    "flex-layout.row#static-accordion-pagos": {
+        "props": {
+            "blockClass": [
+                "static-accordion",
+                "static-center"
+            ]
+        },
+        "children": [
+            "flex-layout.col#static-accordion-menu-pagos"
+        ]
+    },
+    "flex-layout.col#static-accordion-menu-pagos": {
+        "children": [
+            "rich-text#title-pagos",
+            "menu#static-accordion-menu-pagos"
+        ]
+    },
+    "rich-text#title-pagos": {
+        "props": {
+            "text": " ## PAGOS"
+        }
+    },
+    "menu#static-accordion-menu-pagos": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#pago",
+            "menu-item#credito",
+            "menu-item#compra",
+            "menu-item#devolucion"
+        ]
+    },
+    "menu-item#pago": {
+        "props": {
+            "id": "menu-item-pago",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "accordion-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "¿Puedo usar múltiples medios de pago?"
+            }
+        },
+        "blocks": [
+            "submenu.accordion#static-accordion-content-pago"
+        ]
+    },
+    "menu-item#credito": {
+        "props": {
+            "id": "menu-item-credito",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "accordion-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "¿Qué facilidades de crédito ofrece Pilatos?"
+            }
+        },
+        "blocks": [
+            "submenu.accordion#static-accordion-content-credito"
+        ]
+    },
+    "menu-item#compra": {
+        "props": {
+            "id": "menu-item-compra",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "accordion-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "¿Me puedo retractar de mi compra?"
+            }
+        },
+        "blocks": [
+            "submenu.accordion#static-accordion-content-compra"
+        ]
+    },
+    "menu-item#devolucion": {
+        "props": {
+            "id": "menu-item-devolucion",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "accordion-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "¿Puedo cancelar mi pedido y solicitar la devolución de mi dinero?"
+            }
+        },
+        "blocks": [
+            "submenu.accordion#static-accordion-content-devolucion"
+        ]
+    },
+    "submenu.accordion#static-accordion-content-pago": {
+        "props": {
+            "blockClass": "static-accordion-content"
+        },
+        "children": [
+            "rich-text#static-accordion-content-pago"
+        ]
+    },
+    "submenu.accordion#static-accordion-content-credito": {
+        "props": {
+            "blockClass": "static-accordion-content"
+        },
+        "children": [
+            "rich-text#static-accordion-content-credito"
+        ]
+    },
+    "submenu.accordion#static-accordion-content-compra": {
+        "props": {
+            "blockClass": "static-accordion-content"
+        },
+        "children": [
+            "rich-text#static-accordion-content-compra"
+        ]
+    },
+    "submenu.accordion#static-accordion-content-devolucion": {
+        "props": {
+            "blockClass": "static-accordion-content"
+        },
+        "children": [
+            "rich-text#static-accordion-content-devolucion"
+        ]
+    },
+    "rich-text#static-accordion-content-pago": {
+        "props": {
+            "text": "Si, puedes utilizar diferentes métodos de pago: Tarjetas crédito: American Express, VISA Diners, MasterCard, Tarjetas débito y PSE.",
+            "blockClass": "static-accordion-content"
+        }
+    },
+    "rich-text#static-accordion-content-credito": {
+        "props": {
+            "text": "Ofrecemos crédito solo en nuestras tiendas físicas. Para obtenerlo debes acercarte a nuestras tiendas con tu documento de identidad y allí realizaremos un estudio crediticio para conocer tu capacidad de endeudamiento y según este resultado te otorgaremos un cupo de crédito para pagar a cuotas. *No aplica en la tienda virtual, ni para la ciudad de Cúcuta.",
+            "blockClass": "static-accordion-content"
+        }
+    },
+    "rich-text#static-accordion-content-compra": {
+        "props": {
+            "text": "Si deseas hacer el cambio de alguno de nuestros productos, debes tener en cuenta que: De acuerdo con el derecho de retracto consagrado por la ley 1480 art. 47 del Estatuto del consumidor, el término máximo para ejercer este derecho es de 5 días hábiles contados a partir de la entrega del producto. \n [Más información aquí](https://www.pilatos.com/politicas)",
+            "blockClass": "static-accordion-content"
+        }
+    },
+    "rich-text#static-accordion-content-devolucion": {
+        "props": {
+            "text": "En caso de que cumplas con todas las condiciones mencionadas en LAS POLÍTICAS DE CAMBIOS Y DEVOLUCIONES, te devolveremos la suma total abonada, sin que se procedan a hacer descuentos o retenciones, y no podrás exceder el término de 30 días calendarios.",
+            "blockClass": "static-accordion-content"
+        }
+    }
+}

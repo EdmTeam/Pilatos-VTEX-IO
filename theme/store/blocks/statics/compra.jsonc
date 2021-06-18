@@ -1,0 +1,168 @@
+{
+    "store.custom#compra": {
+        "blocks": [
+            "flex-layout.row#static-accordion-compra"
+        ]
+    },
+    "flex-layout.row#static-accordion-compra": {
+        "props": {
+            "blockClass": [
+                "static-accordion",
+                "static-center"
+            ]
+        },
+        "children": [
+            "flex-layout.col#static-accordion-menu-compra"
+        ]
+    },
+    "flex-layout.col#static-accordion-menu-compra": {
+        "children": [
+            "rich-text#title-compra",
+            "menu#static-accordion-menu-compra"
+        ]
+    },
+    "rich-text#title-compra": {
+        "props": {
+            "text": " ## COMPRA EN LÍNEA"
+        }
+    },
+    "menu#static-accordion-menu-compra": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#como",
+            "menu-item#seguridad",
+            "menu-item#IVA",
+            "menu-item#bonos"
+        ]
+    },
+    "menu-item#como": {
+        "props": {
+            "id": "menu-item-como",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "accordion-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "¿Cómo comprar en línea?"
+            }
+        },
+        "blocks": [
+            "submenu.accordion#static-accordion-content-como"
+        ]
+    },
+    "menu-item#seguridad": {
+        "props": {
+            "id": "menu-item-seguridad",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "accordion-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "¿Es seguro comprar en Pilatos.com?"
+            }
+        },
+        "blocks": [
+            "submenu.accordion#static-accordion-content-seguridad"
+        ]
+    },
+    "menu-item#IVA": {
+        "props": {
+            "id": "menu-item-IVA",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "accordion-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "¿Los precios incluyen IVA?"
+            }
+        },
+        "blocks": [
+            "submenu.accordion#static-accordion-content-IVA"
+        ]
+    },
+    "menu-item#bonos": {
+        "props": {
+            "id": "menu-item-bonos",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "accordion-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "¿Tienen bonos de regalo en sus tiendas? ¿Cómo puedo usarlos?"
+            }
+        },
+        "blocks": [
+            "submenu.accordion#static-accordion-content-bonos"
+        ]
+    },
+    "submenu.accordion#static-accordion-content-como": {
+        "props": {
+            "blockClass": "static-accordion-content"
+        },
+        "children": [
+            "rich-text#static-accordion-content-como"
+        ]
+    },
+    "submenu.accordion#static-accordion-content-seguridad": {
+        "props": {
+            "blockClass": "static-accordion-content"
+        },
+        "children": [
+            "rich-text#static-accordion-content-seguridad"
+        ]
+    },
+    "submenu.accordion#static-accordion-content-IVA": {
+        "props": {
+            "blockClass": "static-accordion-content"
+        },
+        "children": [
+            "rich-text#static-accordion-content-IVA"
+        ]
+    },
+    "submenu.accordion#static-accordion-content-bonos": {
+        "props": {
+            "blockClass": "static-accordion-content"
+        },
+        "children": [
+            "rich-text#static-accordion-content-bonos"
+        ]
+    },
+    "rich-text#static-accordion-content-como": {
+        "props": {
+            "text": " · Ingresa a www.pilatos.co \n · Selecciona el producto que desees \n · Elige el color, la talla y la cantidad. \n · Da click en añadir a la bolsa. \n · Cuando el producto haya sido agregado con éxito, podrás continuar comprando o dar click en pagar.",
+            "blockClass": "static-accordion-content"
+        }
+    },
+    "rich-text#static-accordion-content-seguridad": {
+        "props": {
+            "text": "Comprar en Pilatos.com es seguro. Nuestra plataforma tecnológica de comercio electrónico VTEX y nuestro aliado de pagos MERCADOPAGO cuentan con la certificación PCI DSS para el manejo seguro de la información de tarjetas de crédito. Adicionalmente en nuestra política de privacidad puedes consultar el manejo de tus datos personales, para consultarla haz clic aquí.",
+            "blockClass": "static-accordion-content"
+        }
+    },
+    "rich-text#static-accordion-content-IVA": {
+        "props": {
+            "text": "Sí, el IVA está incluido en los precios de nuestros productos.",
+            "blockClass": "static-accordion-content"
+        }
+    },
+    "rich-text#static-accordion-content-bonos": {
+        "props": {
+            "text": "En Pilatos.com no tenemos bonos de regalo, pero en las tiendas Físicas Pilatos a nivel nacional puedes encontrar tarjetas regalo de 50.000, 100.000, 200.000, 300.000 y 500.000 pesos. No aplica en franquicias. Nuestros bonos tienen una vigencia de 1 año y funcionan como efectivo al pasarse por el datáfono al momento de efectuar el pago. Además, puedes dar excedente al momento de utilizar este beneficio.",
+            "blockClass": "static-accordion-content"
+        }
+    }
+}

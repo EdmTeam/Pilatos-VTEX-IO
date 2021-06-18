@@ -1,0 +1,135 @@
+{
+    "store.custom#cambios-devoluciones": {
+        "blocks": [
+            "flex-layout.row#static-accordion-1"
+        ]
+    },
+    "flex-layout.row#static-accordion-1": {
+        "props": {
+            "blockClass": [
+                "static-accordion",
+                "static-center"
+            ]
+        },
+        "children": [
+            "flex-layout.col#static-accordion-menu-1"
+        ]
+    },
+    "flex-layout.col#static-accordion-menu-1": {
+        "children": [
+            "rich-text#static-top-title-cambios",
+            "menu#static-accordion-menu-1"
+        ]
+    },
+    "rich-text#static-top-title-cambios": {
+        "props": {
+            "text": " # CAMBIOS Y DEVOLUCIONES"
+        }
+    },
+    "menu#static-accordion-menu-1": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#devoluciones",
+            "menu-item#reembolsos",
+            "menu-item#garantia"
+        ]
+    },
+    "menu-item#devoluciones": {
+        "props": {
+            "id": "menu-item-devoluciones",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "accordion-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "¿Cuál es el plazo para realizar una devolución?"
+            }
+        },
+        "blocks": [
+            "submenu.accordion#static-accordion-content-dev-1"
+        ]
+    },
+    "menu-item#reembolsos": {
+        "props": {
+            "id": "menu-item-reembolsos",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "accordion-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "¿Cuáles productos no tienen cambios?"
+            }
+        },
+        "blocks": [
+            "submenu.accordion#static-accordion-content-dev"
+        ]
+    },
+    "menu-item#garantia": {
+        "props": {
+            "id": "menu-item-garantia",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "accordion-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "¿Cuál es el tiempo de garantía de los productos?"
+            }
+        },
+        "blocks": [
+            "submenu.accordion#static-accordion-content-garanty"
+        ]
+    },
+    "submenu.accordion#static-accordion-content-dev-1": {
+        "props": {
+            "blockClass": "static-accordion-content"
+        },
+        "children": [
+            "rich-text#static-accordion-content-29"
+        ]
+    },
+    "submenu.accordion#static-accordion-content-dev": {
+        "props": {
+            "blockClass": "static-accordion-content"
+        },
+        "children": [
+            "rich-text#static-accordion-content-dev"
+        ]
+    },
+    "submenu.accordion#static-accordion-content-garanty": {
+        "props": {
+            "blockClass": "static-accordion-content"
+        },
+        "children": [
+            "rich-text#static-accordion-content-garanty"
+        ]
+    },
+    "rich-text#static-accordion-content-29": {
+        "props": {
+            "text": "Tienes hasta 30 días hábiles a partir de la entrega del producto para realizar una devolución (No aplica para productos en promoción. Recuerda que debes devolver el producto en las mismas condiciones en que lo recibiste. El transporte y demás gastos que conlleve a la devolución serán asumidos por Estudio de Moda S.A.S. Aplica únicamente para el primer cambio. \n Para realizar tu petición de devoluciones envía la solicitud de cambio dentro de los 30 primeros días hábiles después de haber recibido el pedido al correo tiendavirtual@estudiodemoda.com.co o ingresa al siguiente link",
+            "blockClass": "static-accordion-content"
+        }
+    },
+    "rich-text#static-accordion-content-dev": {
+        "props": {
+            "text": "Prendas en promoción y ropa interior (pantis, sostenes, bóxeres, pantaloncillos, calcetines) no tienen cambio.",
+            "blockClass": "static-accordion-content"
+        }
+    },
+    "rich-text#static-accordion-content-garanty": {
+        "props": {
+            "text": "Para prendas de vestir, billeteras, bolsos y/o zapatos: 90 días calendario después de la compra. \n Para fragancias y/o gafas: 30 días calendario después de la compra. \n Para maquinaria de relojes: 2 años después de la compra, para el resto de sus partes o elementos: 30 días calendario después de la compra. \n Para gafas Oakley la garantía es un año (1) a partir de la fecha de compra. \n Para accesorios marca Kipling la garantía son 90 días a partir de la compra. \n Bolsos y Maletas Kipling la garantía es un año (1) a partir de la fecha de compra. \n Los relojes que se abiertos por servicio técnico no autorizado pierden su garantía.",
+            "blockClass": "static-accordion-content"
+        }
+    }
+}

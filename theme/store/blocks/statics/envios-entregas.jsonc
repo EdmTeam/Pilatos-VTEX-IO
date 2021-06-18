@@ -1,0 +1,201 @@
+{
+    "store.custom#envios-entregas": {
+        "blocks": [
+            "flex-layout.row#static-accordion-envios"
+        ]
+    },
+    "flex-layout.row#static-accordion-envios": {
+        "props": {
+            "blockClass": [
+                "static-accordion",
+                "static-center"
+            ]
+        },
+        "children": [
+            "flex-layout.col#static-accordion-menu-envios"
+        ]
+    },
+    "flex-layout.col#static-accordion-menu-envios": {
+        "children": [
+            "rich-text#title-envios",
+            "menu#static-accordion-menu-envios"
+        ]
+    },
+    "rich-text#title-envios": {
+        "props": {
+            "text": " ## ENVÍOS Y ENTREGAS"
+        }
+    },
+    "menu#static-accordion-menu-envios": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#costo",
+            "menu-item#producto",
+            "menu-item#seguimiento",
+            "menu-item#cobertura",
+            "menu-item#pagos"
+        ]
+    },
+    "menu-item#costo": {
+        "props": {
+            "id": "menu-item-costo",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "accordion-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "¿Cuál es el tiempo y el costo del envío?"
+            }
+        },
+        "blocks": [
+            "submenu.accordion#static-accordion-content-costo"
+        ]
+    },
+    "menu-item#producto": {
+        "props": {
+            "id": "menu-item-producto",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "accordion-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "¿Qué pasa si el producto no está disponible?"
+            }
+        },
+        "blocks": [
+            "submenu.accordion#static-accordion-content-producto"
+        ]
+    },
+    "menu-item#seguimiento": {
+        "props": {
+            "id": "menu-item-seguimiento",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "accordion-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "¿Cómo hago seguimiento de mi pedido?"
+            }
+        },
+        "blocks": [
+            "submenu.accordion#static-accordion-content-seguimiento"
+        ]
+    },
+    "menu-item#cobertura": {
+        "props": {
+            "id": "menu-item-cobertura",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "accordion-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "¿Dónde tinen cobertura?"
+            }
+        },
+        "blocks": [
+            "submenu.accordion#static-accordion-content-cobertura"
+        ]
+    },
+    "menu-item#pagos": {
+        "props": {
+            "id": "menu-item-pagos",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "accordion-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "Pagos"
+            }
+        },
+        "blocks": [
+            "submenu.accordion#static-accordion-content-pagos"
+        ]
+    },
+    "submenu.accordion#static-accordion-content-costo": {
+        "props": {
+            "blockClass": "static-accordion-content"
+        },
+        "children": [
+            "rich-text#static-accordion-content-costo"
+        ]
+    },
+    "submenu.accordion#static-accordion-content-producto": {
+        "props": {
+            "blockClass": "static-accordion-content"
+        },
+        "children": [
+            "rich-text#static-accordion-content-producto"
+        ]
+    },
+    "submenu.accordion#static-accordion-content-seguimiento": {
+        "props": {
+            "blockClass": "static-accordion-content"
+        },
+        "children": [
+            "rich-text#static-accordion-content-seguimiento"
+        ]
+    },
+    "submenu.accordion#static-accordion-content-cobertura": {
+        "props": {
+            "blockClass": "static-accordion-content"
+        },
+        "children": [
+            "rich-text#static-accordion-content-cobertura"
+        ]
+    },
+    "submenu.accordion#static-accordion-content-pagos": {
+        "props": {
+            "blockClass": "static-accordion-content"
+        },
+        "children": [
+            "rich-text#static-accordion-content-pagos"
+        ]
+    },
+    "rich-text#static-accordion-content-costo": {
+        "props": {
+            "text": "El valor del envío y transporte de los productos te lo informaremos al momento de generar la orden de compra y puede variar según la ciudad en la que desees recibirlo. El tiempo de entrega será de 5 a 15 días hábiles y empieza a partir de que el pedido fue aprobado. \n Un pedido es aprobado cuando la entidad bancaria acepta el pago.",
+            "blockClass": "static-accordion-content"
+        }
+    },
+    "rich-text#static-accordion-content-producto": {
+        "props": {
+            "text": "La venta estará sujeta al inventario del producto. Si al momento de realizar la orden no se cuenta con tu producto, te contactaremos para hacerte entrega de un bono cargado por el valor de la compra o la devolución del dinero.",
+            "blockClass": "static-accordion-content"
+        }
+    },
+    "rich-text#static-accordion-content-seguimiento": {
+        "props": {
+            "text": "Podrás validar el estado de entrega de tu pedido a través del sitio www.coordinadora.com con el número de guía que se te envía en el correo de envío del pedido.",
+            "blockClass": "static-accordion-content"
+        }
+    },
+    "rich-text#static-accordion-content-cobertura": {
+        "props": {
+            "text": "Tenemos cobertura en la mayor parte de ciudades de Colombia, las cuales puedes seleccionar en el momento de la compra. Recuerda que las entregas solo se realizan en las zonas de cobertura habilitadas en el sitio.",
+            "blockClass": "static-accordion-content"
+        }
+    },
+    "rich-text#static-accordion-content-pagos": {
+        "props": {
+            "text": "¿Cuáles son los medios de pago que puedo usar en www.pilatos.com? \n En www.pilatos.com puedes pagar con tarjetas de crédito Visa, MasterCard y American Express (expedidas en Colombia), PSE (Cuenta de ahorros o cuenta corriente).",
+            "blockClass": "static-accordion-content"
+        }
+    }
+}

@@ -8,7 +8,7 @@
     },
 
     "store.custom#faq": {
-        "path": "/preguntas-frecuentes"
+        "path": "/faq"
     },
     "store.custom#less-price": {
         "path": "/menos-49"
@@ -16,5 +16,33 @@
 
     "store.custom#tiendas-oficiales": {
         "path": "/tiendas-oficiales"
+    },
+
+    "store.custom#promociones-vigentes": {
+        "path": "/promociones-vigentes"
+    },
+    "store.custom#terminos-condiciones": {
+        "path": "/terminos-condiciones"
+    },
+    "store.custom#politicas": {
+        "path": "/politicas"
+    },
+    "store.custom#preguntas-frecuentes": {
+        "path": "/preguntas-frecuentes"
+    },
+    "store.custom#cambios-devoluciones": {
+        "path": "/cambios-devoluciones"
+    },
+    "store.custom#envios-entregas": {
+        "path": "/envios-entregas"
+    },
+    "store.custom#pagos": {
+        "path": "/pagos"
+    },
+    "store.custom#cuenta": {
+        "path": "/cuenta"
+    },
+    "store.custom#compra": {
+        "path": "/compra"
     }
 }
