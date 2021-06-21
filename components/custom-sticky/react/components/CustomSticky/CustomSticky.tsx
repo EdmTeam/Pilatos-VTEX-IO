@@ -11,7 +11,8 @@ import './CustomSticky.css';
 const CSS_HANDLES = [
     'containerSticky',
     'stickyActive',
-    'noStickyActive'
+    'noStickyActive',
+    'filterSticky'
 ] as const;
 
 /**
@@ -25,7 +26,8 @@ const CustomSticky: FC<props> = ({
     const {
         containerSticky, 
         stickyActive,
-        noStickyActive
+        noStickyActive,
+        filterSticky
     } = handles
 
     //Efecto sticky
@@ -60,6 +62,29 @@ const CustomSticky: FC<props> = ({
         
         return () => window.removeEventListener('scroll', headerSticky);
     }, []);
+
+    //FilterSticky
+    window.addEventListener('scroll', FilterSticky);
+    const heightHeader = 100;
+
+    function FilterSticky(){
+        let topBanners = document.querySelector('.vtex-flex-layout-0-x-flexRow--contentSearch');
+        let contentResult = document.querySelector('.vtex-search-result-3-x-container--layout--contentStoreCustom');
+        let heightTopBanner = (topBanners as HTMLElement).offsetHeight - heightHeader;
+        let bodyResult = (contentResult as HTMLElement).offsetHeight + 310;
+        let scrollsticky = window.scrollY;
+        let filterCol = document.querySelector('.vtex-flex-layout-0-x-flexCol--filterCol');
+        console.log(scrollsticky, bodyResult);
+        if((topBanners as HTMLElement)){
+            if(scrollsticky >= heightTopBanner && scrollsticky <= bodyResult){
+                (filterCol as HTMLElement).classList.add(filterSticky);
+                (filterCol as HTMLElement).style.marginTop = `${heightHeader}px`;
+            }else {
+                (filterCol as HTMLElement).classList.remove(filterSticky);
+                (filterCol as HTMLElement).style.marginTop = '0';
+            }
+        }
+    }
 
     const displayNone = {
         display: 'none'

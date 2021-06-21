@@ -1,8 +1,8 @@
 {
     "flex-layout.row#submenu-level-1-row-4": {
         "children": [
-            "flex-layout.row#submenu-level-1-texto-row-4",
-            "drawer#submenu-level-1-row-4"
+            "flex-layout.row#submenu-level-1-texto-row-4"
+            // "drawer#submenu-level-1-row-4"
         ],
         "props": {
             "blockClass": "contenItemsLevel1"
@@ -12,8 +12,8 @@
     //Texto del menu
     "flex-layout.row#submenu-level-1-texto-row-4": {
         "children": [
-            "rich-text#submenu-level-1-texto-row-4",
-            "rich-text#submenu-level-1-icono-row-4"
+            "rich-text#submenu-level-1-texto-row-4"
+            // "rich-text#submenu-level-1-icono-row-4"
         ],
         "props":{
             "preserveLayoutOnMobile":true
@@ -22,7 +22,7 @@
 
     "rich-text#submenu-level-1-texto-row-4": {
         "props": {
-            "text": "Marcas",
+            "text": "[Marcas](/)",
             "blockClass": "itemMenuLevel1",
             "width": "90%"
         }

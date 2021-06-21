@@ -957,6 +957,29 @@
   position: relative;
 }
 
+@media only screen and (min-width: 1180px){
+  .flexCol--filterCol::-webkit-scrollbar{
+    width: 10px;
+  }
+  
+  .flexCol--filterCol::-webkit-scrollbar-thumb {
+    display: block;
+    background: #FFD400;
+    border-radius: 10px;
+  }
+
+  .flexCol--filterCol{
+    min-width: 266px;
+    max-height: 500px;
+    overflow-y: auto;
+    padding-right: .5rem;
+  }
+
+  .flexCol--filterOrderBy{
+    padding-right: 1rem;
+  }
+}
+
 .flexCol--contentResult{
   min-width: 65%;
 }

@@ -36,9 +36,9 @@
   },
   "flex-layout.col#banner-event": {
     "children": [
-      "responsive-layout.desktop#banner-principal",
-      "responsive-layout.tablet#banner-principal",
-      "responsive-layout.phone#banner-principal"
+      "responsive-layout.desktop#banner-principal-event",
+      "responsive-layout.tablet#banner-principal-event",
+      "responsive-layout.phone#banner-principal-event"
     ],
     "props": {
       "blockClass": "banner-sale"

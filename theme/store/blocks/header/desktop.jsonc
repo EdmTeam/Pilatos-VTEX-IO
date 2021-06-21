@@ -296,8 +296,8 @@
     "children": [
       "flex-layout.col#menu-desk-col-1",
       "flex-layout.col#menu-desk-col-2",
-      "flex-layout.col#menu-desk-col-3",
-      "flex-layout.col#menu-desk-col-4",
+      // "flex-layout.col#menu-desk-col-3",
+      // "flex-layout.col#menu-desk-col-4",
       "flex-layout.col#menu-desk-col-5",
       "flex-layout.col#menu-desk-col-6",
       "flex-layout.col#menu-desk-col-7"
@@ -311,8 +311,8 @@
     "children": [
       "flex-layout.col#menu-desk-col-1",
       "flex-layout.col#menu-desk-col-2",
-      "flex-layout.col#menu-desk-col-3",
-      "flex-layout.col#menu-desk-col-4",
+      // "flex-layout.col#menu-desk-col-3",
+      // "flex-layout.col#menu-desk-col-4",
       "flex-layout.col#menu-desk-col-5",
       "flex-layout.col#menu-desk-col-6",
       "flex-layout.col#menu-desk-col-7"

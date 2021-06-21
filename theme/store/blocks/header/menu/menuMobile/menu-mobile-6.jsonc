@@ -1,8 +1,8 @@
 {
     "flex-layout.row#submenu-level-1-row-6": {
         "children": [
-            "flex-layout.row#submenu-level-1-texto-row-6",
-            "drawer#submenu-level-1-row-6"
+            "flex-layout.row#submenu-level-1-texto-row-6"
+            // "drawer#submenu-level-1-row-6"
         ],
         "props": {
             "blockClass": "contenItemsLevel1"
@@ -12,8 +12,8 @@
     //Texto del menu
     "flex-layout.row#submenu-level-1-texto-row-6": {
         "children": [
-            "rich-text#submenu-level-1-texto-row-6",
-            "rich-text#submenu-level-1-icono-row-6"
+            "rich-text#submenu-level-1-texto-row-6"
+            // "rich-text#submenu-level-1-icono-row-6"
         ],
         "props":{
             "preserveLayoutOnMobile":true
@@ -22,7 +22,7 @@
 
     "rich-text#submenu-level-1-texto-row-6": {
         "props": {
-            "text": "PILATOS CONCEPT",
+            "text": "[PILATOS CONCEPT](/)",
             "blockClass": "itemMenuLevel1",
             "width": "90%"
         }

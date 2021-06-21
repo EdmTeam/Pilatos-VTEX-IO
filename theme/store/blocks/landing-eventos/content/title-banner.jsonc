@@ -12,20 +12,20 @@
     }
   },
 
-  "responsive-layout.desktop#banner-principal": {
+  "responsive-layout.desktop#banner-principal-event": {
     "children": [
       "image#bannerIntroEvento-desktop"
     ]
   },
   
-  "responsive-layout.tablet#banner-principal": {
+  "responsive-layout.tablet#banner-principal-event": {
     "children": [
       "image#bannerIntroEvento-tablet-landscape",
       "image#bannerIntroEvento-tablet-portrait"
     ]
   },
   
-  "responsive-layout.phone#banner-principal": {
+  "responsive-layout.phone#banner-principal-event": {
     "children": [
       "image#bannerIntroEvento-mobile"
     ]

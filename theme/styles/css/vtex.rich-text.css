@@ -342,6 +342,12 @@
   background: #000000;
 }
 
+@media only screen and (max-width: 740px){
+  .container--textTopHeader{
+    display: none;
+  }
+}
+
 .container--paddingActive{
   padding: .5rem 0;
 }
@@ -534,7 +540,7 @@
 }
 
 /* Estilos al menu mobile */
-.paragraph--itemMenuLevel1{
+.paragraph--itemMenuLevel1, .link--itemMenuLevel1{
   font-weight: 700;
   font-size: 12px;
   line-height: 11px;
@@ -542,9 +548,10 @@
   text-transform: uppercase;
   color: #000000;
   margin: 1.4rem 0;
+  text-decoration: none;
 }
 
-.wrapper--itemMenuLevel1Sale .paragraph--itemMenuLevel1{
+.wrapper--itemMenuLevel1Sale .link--itemMenuLevel1{
   color: #BF6E0B;
 }
 

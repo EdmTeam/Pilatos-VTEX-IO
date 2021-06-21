@@ -270,3 +270,17 @@
 :global(.vtex-flex-layout-0-x-flexColChild--businessDayInformation) br{
     display: none;
 }
+
+
+@media only screen and (min-width: 740px){
+    :global(.vtex-flex-layout-0-x-flexRowContent--contentResultFilter) > div:first-child{
+        width: 20% !important;
+        position: relative;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--contentResultFilter) > div:last-child{
+        width: 80% !important;
+        flex-grow: initial;
+        margin-left: auto;
+    }
+}

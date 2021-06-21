@@ -23,7 +23,7 @@
         "checkJs": true
     },
     "exclude": ["node_modules"],
-    "include": ["./typings/*.d.ts", "./**/*.tsx", "./**/*.ts"],
+    "include": ["./typings/*.d.ts", "./**/*.tsx", "./**/*.ts", "components/FilterSticky"],
     "typeAcquisition": {
         "enable": false
     }

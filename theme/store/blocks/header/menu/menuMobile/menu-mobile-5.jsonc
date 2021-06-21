@@ -1,8 +1,8 @@
 {
     "flex-layout.row#submenu-level-1-row-5": {
         "children": [
-            "flex-layout.row#submenu-level-1-texto-row-5",
-            "drawer#submenu-level-1-row-5"
+            "flex-layout.row#submenu-level-1-texto-row-5"
+            // "drawer#submenu-level-1-row-5"
         ],
         "props": {
             "blockClass": "contenItemsLevel1"
@@ -12,8 +12,8 @@
     //Texto del menu
     "flex-layout.row#submenu-level-1-texto-row-5": {
         "children": [
-            "rich-text#submenu-level-1-texto-row-5",
-            "rich-text#submenu-level-1-icono-row-5"
+            "rich-text#submenu-level-1-texto-row-5"
+            // "rich-text#submenu-level-1-icono-row-5"
         ],
         "props":{
             "preserveLayoutOnMobile":true
@@ -22,7 +22,7 @@
 
     "rich-text#submenu-level-1-texto-row-5": {
         "props": {
-            "text": "Sale",
+            "text": "[Sale](/evento)",
             "blockClass": [
                 "itemMenuLevel1",
                 "itemMenuLevel1Sale"

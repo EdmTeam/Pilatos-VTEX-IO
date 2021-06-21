@@ -4,7 +4,8 @@
       "vtex.menu@2.x:menu#menu-desktop-1"
     ],
     "props":{
-      "width": "13%"
+      // "width": "13%"
+      "width": "18%"
     }
   },
 

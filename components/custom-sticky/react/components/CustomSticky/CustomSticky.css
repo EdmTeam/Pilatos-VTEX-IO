@@ -17,3 +17,9 @@
 .noStickyActive{
     display: block !important;
 }
+
+.filterSticky{
+    position: fixed !important;
+    width: 20%;
+    top: 0;
+}
