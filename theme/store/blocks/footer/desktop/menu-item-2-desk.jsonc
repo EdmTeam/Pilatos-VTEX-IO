@@ -13,7 +13,7 @@
     "flex-layout.col#desk-menu-item-2-contentlink": {
         "children": [
             "rich-text#desk-menu-item-2-link-1",
-            "rich-text#desk-menu-item-2-link-2",
+            // "rich-text#desk-menu-item-2-link-2",
             "rich-text#desk-menu-item-2-link-3",
             "rich-text#desk-menu-item-2-link-4"
         ]
@@ -28,7 +28,7 @@
 
     "rich-text#desk-menu-item-2-link-1": {
         "props": {
-            "text": "[Preguntas frecuentes](#!)",
+            "text": "[Preguntas frecuentes](/preguntas-frecuentes)",
             "blockClass": "linkFooter"
         }
     },
@@ -42,14 +42,14 @@
 
     "rich-text#desk-menu-item-2-link-3": {
         "props": {
-            "text": "[Garantía de productos](#!)",
+            "text": "[Garantía de productos](/politicas)",
             "blockClass": "linkFooter"
         }
     },
 
     "rich-text#desk-menu-item-2-link-4": {
         "props": {
-            "text": "[Cambios y devoluciones](#!)",
+            "text": "[Cambios y devoluciones](/cambios-devoluciones)",
             "blockClass": "linkFooter"
         }
     }

@@ -1,0 +1,119 @@
+{
+    "store.custom#category-superslim-ninos":{
+        "blocks":[
+            "flex-layout.row#banner-category-superslim-ninos",
+            "search-result-layout.customQuery#category-superslim-ninos"
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
+    },
+
+    "flex-layout.row#banner-category-superslim-ninos":{
+        "children":[
+            "flex-layout.col#banner-category-superslim-ninos"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#banner-category-superslim-ninos":{
+        "children":[
+            "rich-text#category-superslim-ninos-bread-crumb",
+            "rich-text#category-superslim-ninos-title",
+            "rich-text#category-superslim-ninos-description",
+            "responsive-layout.desktop#category-superslim-ninos-banners",
+            "responsive-layout.phone#category-superslim-ninos-banners",
+            "responsive-layout.tablet#category-superslim-ninos-banners"
+        ]
+    },
+
+    "responsive-layout.desktop#category-superslim-ninos-banners":{
+        "children":[
+            "flex-layout.row#category-superslim-ninos-banners-1"
+        ]
+    },
+
+    "rich-text#category-superslim-ninos-bread-crumb":{
+        "props":{
+            "text": "[Home](/) / [**Niños**](/niños) / [**Jeans**](/niños/jeans) / [**Superslim**](/niños/jeans/superslim)",
+            "blockClass": "departmentBreadCrumb"
+        }
+    },
+
+    "rich-text#category-superslim-ninos-title":{
+        "props":{
+            "text": "Superslim para niños",
+            "blockClass": "departmentTitle"
+        }
+    },
+
+    "rich-text#category-superslim-ninos-description":{
+        "props":{
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "blockClass": "departmentDescription"
+        }
+    },
+
+    "search-result-layout.customQuery#category-superslim-ninos": {
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile#category-superslim-ninos"
+        ],
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceASC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 12,
+                "queryField": "niños/jeans/superslim",
+                "skusFilter": "ALL",
+                "mapField": "category-1"
+            }
+        }
+    },
+
+    "flex-layout.row#category-superslim-ninos-banners-1":{
+        "children":[
+            "image#category-superslim-ninos-banners-1-img-1",
+            "image#category-superslim-ninos-banners-1-img-2",
+            "image#category-superslim-ninos-banners-1-img-3"
+        ],
+        "props":{
+            "blockClass":"contentCategoryBannersDesk"
+        }
+    },
+
+    "image#category-superslim-ninos-banners-1-img-1": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-3.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+    "image#category-superslim-ninos-banners-1-img-2": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-2.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-2"
+        }
+    },
+
+    "image#category-superslim-ninos-banners-1-img-3": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-1.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-3"
+        }
+    }
+}

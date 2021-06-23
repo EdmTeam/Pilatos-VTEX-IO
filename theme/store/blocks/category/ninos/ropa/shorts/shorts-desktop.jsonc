@@ -1,0 +1,119 @@
+{
+    "store.custom#category-shorts-ninos":{
+        "blocks":[
+            "flex-layout.row#banner-category-shorts-ninos",
+            "search-result-layout.customQuery#category-shorts-ninos"
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
+    },
+
+    "flex-layout.row#banner-category-shorts-ninos":{
+        "children":[
+            "flex-layout.col#banner-category-shorts-ninos"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#banner-category-shorts-ninos":{
+        "children":[
+            "rich-text#category-shorts-ninos-bread-crumb",
+            "rich-text#category-shorts-ninos-title",
+            "rich-text#category-shorts-ninos-description",
+            "responsive-layout.desktop#category-shorts-ninos-banners",
+            "responsive-layout.phone#category-shorts-ninos-banners",
+            "responsive-layout.tablet#category-shorts-ninos-banners"
+        ]
+    },
+
+    "responsive-layout.desktop#category-shorts-ninos-banners":{
+        "children":[
+            "flex-layout.row#category-shorts-ninos-banners-1"
+        ]
+    },
+
+    "rich-text#category-shorts-ninos-bread-crumb":{
+        "props":{
+            "text": "[Home](/) / [**Niños**](/ninos) / [**Ropa**](/niños/ropa) / [**Shorts**](/niños/ropa/shorts)",
+            "blockClass": "departmentBreadCrumb"
+        }
+    },
+
+    "rich-text#category-shorts-ninos-title":{
+        "props":{
+            "text": "Shorts para niños",
+            "blockClass": "departmentTitle"
+        }
+    },
+
+    "rich-text#category-shorts-ninos-description":{
+        "props":{
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "blockClass": "departmentDescription"
+        }
+    },
+
+    "search-result-layout.customQuery#category-shorts-ninos": {
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile#category-shorts-ninos"
+        ],
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceASC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 12,
+                "queryField": "niños/ropa/shorts",
+                "skusFilter": "ALL",
+                "mapField": "category-1"
+            }
+        }
+    },
+
+    "flex-layout.row#category-shorts-ninos-banners-1":{
+        "children":[
+            "image#category-shorts-ninos-banners-1-img-1",
+            "image#category-shorts-ninos-banners-1-img-2",
+            "image#category-shorts-ninos-banners-1-img-3"
+        ],
+        "props":{
+            "blockClass":"contentCategoryBannersDesk"
+        }
+    },
+
+    "image#category-shorts-ninos-banners-1-img-1": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-3.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+    "image#category-shorts-ninos-banners-1-img-2": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-2.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-2"
+        }
+    },
+
+    "image#category-shorts-ninos-banners-1-img-3": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-1.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-3"
+        }
+    }
+}

@@ -1,0 +1,96 @@
+{
+    "store.custom#preguntas-frecuentes": {
+        "blocks": [
+            "flex-layout.row#static-top-title-preguntas",
+            "flex-layout.row#static-one-column-cambio",
+            "flex-layout.row#static-one-column-envio",
+            "flex-layout.row#static-one-column-pagos",
+            "flex-layout.row#static-one-column-cuenta",
+            "flex-layout.row#static-one-column-compra"
+        ]
+    },
+    "flex-layout.row#static-top-title-preguntas": {
+        "props": {
+            "blockClass": "static-top-title-preguntas"
+        },
+        "children": [
+            "rich-text#static-top-title-preguntas"
+        ]
+    },
+    "rich-text#static-top-title-preguntas": {
+        "props": {
+            "text": "# PREGUNTAS FRECUENTES",
+            "blockClass": "static-top-title-preguntas"
+        }
+    },
+    "flex-layout.row#static-one-column-cambio": {
+        "props": {
+            "blockClass": "static-one-column-cambio"
+        },
+        "children": [
+            "rich-text#static-one-column-cambio"
+        ]
+    },
+    "rich-text#static-one-column-cambio": {
+        "props": {
+            "text": "[CAMBIOS Y DEVOLUCIONES](/cambios-devoluciones)",
+            "blockClass": "one-box-link"
+        }
+    },
+    "flex-layout.row#static-one-column-envio": {
+        "props": {
+            "blockClass": "static-one-column-envio"
+        },
+        "children": [
+            "rich-text#static-one-column-envio"
+        ]
+    },
+    "rich-text#static-one-column-envio": {
+        "props": {
+            "text": "[ENVÍOS Y ENTREGAS](/envios-entregas)",
+            "blockClass": "one-box-link"
+        }
+    },
+    "flex-layout.row#static-one-column-pagos": {
+        "props": {
+            "blockClass": "static-one-column-pagos"
+        },
+        "children": [
+            "rich-text#static-one-column-pagos"
+        ]
+    },
+    "rich-text#static-one-column-pagos": {
+        "props": {
+            "text": "[PAGOS](/pagos)",
+            "blockClass": "one-box-link"
+        }
+    },
+    "flex-layout.row#static-one-column-cuenta": {
+        "props": {
+            "blockClass": "static-one-column-cuenta"
+        },
+        "children": [
+            "rich-text#static-one-column-cuenta"
+        ]
+    },
+    "rich-text#static-one-column-cuenta": {
+        "props": {
+            "text": "[MI CUENTA](/cuenta)",
+            "blockClass": "one-box-link"
+        }
+    },
+    "flex-layout.row#static-one-column-compra": {
+        "props": {
+            "blockClass": "static-one-column-compra"
+        },
+        "children": [
+            "rich-text#static-one-column-compra"
+        ]
+    },
+    "rich-text#static-one-column-compra": {
+        "props": {
+            "text": "[COMPRA EN LÍNEA](/compra)",
+            "blockClass": "one-box-link"
+        }
+    }
+}

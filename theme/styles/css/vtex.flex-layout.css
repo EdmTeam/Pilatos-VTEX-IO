@@ -2055,3 +2055,166 @@
     width: 100%;
   }
 }
+/* Estáticos */
+
+.flexRow--static-top-title-promo :global(.vtex-rich-text-0-x-container),
+.flexRow--static-top-title-terms :global(.vtex-rich-text-0-x-container),
+.flexRow--static-top-title-politics :global(.vtex-rich-text-0-x-container),
+.flexRow--static-top-title-preguntas :global(.vtex-rich-text-0-x-container),
+.flexRow--static-accordion :global(.vtex-rich-text-0-x-container)
+{
+  text-align: center;
+  justify-content: center;
+  background: #e0e0e0;
+  padding: 40px 0;
+  margin: 10px auto 33px;
+  width: 98%;
+}
+
+.flexRow--static-accordion :global(.vtex-rich-text-0-x-link){
+  color: #F2A922;
+  text-decoration: none;
+}
+
+.flexRow--static-top-title-promo :global(.vtex-rich-text-0-x-heading-level-1),
+.flexRow--static-top-title-terms :global(.vtex-rich-text-0-x-heading-level-1),
+.flexRow--static-top-title-politics :global(.vtex-rich-text-0-x-heading-level-1),
+.flexRow--static-top-title-preguntas :global(.vtex-rich-text-0-x-heading-level-1),
+.flexRow--static-accordion :global(.vtex-rich-text-0-x-heading-level-1)
+{
+  font-size: 1.6rem;
+  font-weight: 900;
+}
+.flexRow--static-one-column-terms :global(.vtex-rich-text-0-x-heading-level-2){
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 20px auto 10px  0;
+}
+
+.flexRow--static-accordion{
+  width: 90%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.flexRowContent--static-one-column-promo :global(.vtex-rich-text-0-x-heading-level-3),
+.flexRowContent--static-one-column-promo-a :global(.vtex-rich-text-0-x-heading-level-3),
+.flexRowContent--static-one-column-promo-b :global(.vtex-rich-text-0-x-heading-level-3),
+.flexRowContent--static-one-column-promo-c :global(.vtex-rich-text-0-x-heading-level-3),
+.flexRowContent--static-one-column-promo-d :global(.vtex-rich-text-0-x-heading-level-3),
+.flexRowContent--static-one-column-promo-e :global(.vtex-rich-text-0-x-heading-level-3),
+.flexRowContent--static-one-column-promo-f :global(.vtex-rich-text-0-x-heading-level-3),
+.flexRowContent--static-one-column-promo-g :global(.vtex-rich-text-0-x-heading-level-3),
+.flexRowContent--static-one-column-promo-h :global(.vtex-rich-text-0-x-heading-level-3),
+.flexRowContent--static-one-column-terms :global(.vtex-rich-text-0-x-heading-level-3){
+  font-size: 1.2rem;
+}
+
+.flexRowContent--static-one-column-promo :global(.vtex-rich-text-0-x-link),
+.flexRowContent--static-one-column-promo-a :global(.vtex-rich-text-0-x-link),
+.flexRowContent--static-one-column-promo-b :global(.vtex-rich-text-0-x-link),
+.flexRowContent--static-one-column-promo-c :global(.vtex-rich-text-0-x-link),
+.flexRowContent--static-one-column-promo-d :global(.vtex-rich-text-0-x-link),
+.flexRowContent--static-one-column-promo-e :global(.vtex-rich-text-0-x-link),
+.flexRowContent--static-one-column-promo-f :global(.vtex-rich-text-0-x-link),
+.flexRowContent--static-one-column-promo-g :global(.vtex-rich-text-0-x-link),
+.flexRowContent--static-one-column-promo-h :global(.vtex-rich-text-0-x-link),
+.flexRowContent--static-one-column-terms :global(.vtex-rich-text-0-x-link){
+  color: #F2A922;
+  text-decoration: none;
+}
+
+.flexRow--static-one-column-promo,
+  .flexRow--static-one-column-promo-a,
+  .flexRow--static-one-column-promo-b,
+  .flexRow--static-one-column-promo-c,
+  .flexRow--static-one-column-promo-d,
+  .flexRow--static-one-column-promo-e,
+  .flexRow--static-one-column-promo-f,
+  .flexRow--static-one-column-promo-g,
+  .flexRow--static-one-column-promo-h,
+  .flexRow--static-one-column-terms{
+    padding: 0 25px;
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+
+  .flexRow--static-one-column-cambio,
+  .flexRow--static-one-column-envio,
+  .flexRow--static-one-column-pagos,
+  .flexRow--static-one-column-cuenta,
+  .flexRow--static-one-column-compra
+  {
+    background-color: #d3d6d7;
+    width: 33%;
+    margin: 20px auto;
+  }
+
+  .flexRow--static-one-column-cambio :global(.vtex-rich-text-0-x-link--one-box-link),
+  .flexRow--static-one-column-envio :global(.vtex-rich-text-0-x-link--one-box-link),
+  .flexRow--static-one-column-pagos :global(.vtex-rich-text-0-x-link--one-box-link),
+  .flexRow--static-one-column-cuenta :global(.vtex-rich-text-0-x-link--one-box-link),
+  .flexRow--static-one-column-compra :global(.vtex-rich-text-0-x-link--one-box-link)
+  {
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  .flexRow--static-one-column-cambio :global(.vtex-rich-text-0-x-wrapper--one-box-link),
+  .flexRow--static-one-column-envio :global(.vtex-rich-text-0-x-wrapper--one-box-link),
+  .flexRow--static-one-column-pagos :global(.vtex-rich-text-0-x-wrapper--one-box-link),
+  .flexRow--static-one-column-cuenta :global(.vtex-rich-text-0-x-wrapper--one-box-link),
+  .flexRow--static-one-column-compra :global(.vtex-rich-text-0-x-wrapper--one-box-link){
+    width: 100%;
+    text-align: center;
+  }
+
+
+  .flexRow--static-accordion :global(.vtex-menu-2-x-styledLinkContent) {
+    background-color: #d3d6d7;
+    padding: 12px 10px;
+    margin-top: 10px;
+    white-space: break-spaces;
+    line-height: 1.3rem;
+  }
+  .flexRow--static-accordion :global(.vtex-rich-text-0-x-container--static-accordion-content) {
+    background-color: #eeeeee;
+    padding: 10px;
+  }
+  .flexRow--static-accordion :global(.vtex-rich-text-0-x-paragraph) {
+    text-align: left;
+    margin: 0 10px;
+  }
+
+@media screen and (max-width: 768px){
+  .flexRow--static-top-title-promo,
+  .flexRow--static-top-title-terms,
+  .flexRow--static-top-title-politics,
+  .flexRow--static-top-title-preguntas,
+  .flexRow--static-top-title-cambios{
+    padding: 0;
+  }
+  .flexRow--static-top-title-promo :global(.vtex-rich-text-0-x-heading-level-1),
+  .flexRow--static-top-title-terms :global(.vtex-rich-text-0-x-heading-level-1),
+  .flexRow--static-top-title-politics :global(.vtex-rich-text-0-x-heading-level-1),
+  .flexRow--static-top-title-preguntas :global(.vtex-rich-text-0-x-heading-level-1),
+  .flexRow--static-top-title-cambios :global(.vtex-rich-text-0-x-heading-level-1),
+  .flexRow--static-accordion :global(.vtex-rich-text-0-x-heading-level-1)
+  {
+    font-size: 1.2rem;
+  }
+
+  .flexRow--static-one-column-cambio,
+  .flexRow--static-one-column-envio,
+  .flexRow--static-one-column-pagos,
+  .flexRow--static-one-column-cuenta,
+  .flexRow--static-one-column-compra
+  {
+    width: 94%;
+    margin: 0 auto 16px;
+  }
+  .flexRow--static-accordion{
+    width: 100%;
+
+  }
+}

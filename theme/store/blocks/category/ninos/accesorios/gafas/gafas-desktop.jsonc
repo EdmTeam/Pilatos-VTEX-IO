@@ -1,0 +1,119 @@
+{
+    "store.custom#category-gafas-ninos":{
+        "blocks":[
+            "flex-layout.row#banner-category-gafas-ninos",
+            "search-result-layout.customQuery#category-gafas-ninos"
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
+    },
+
+    "flex-layout.row#banner-category-gafas-ninos":{
+        "children":[
+            "flex-layout.col#banner-category-gafas-ninos"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#banner-category-gafas-ninos":{
+        "children":[
+            "rich-text#category-gafas-ninos-bread-crumb",
+            "rich-text#category-gafas-ninos-title",
+            "rich-text#category-gafas-ninos-description",
+            "responsive-layout.desktop#category-gafas-ninos-banners",
+            "responsive-layout.phone#category-gafas-ninos-banners",
+            "responsive-layout.tablet#category-gafas-ninos-banners"
+        ]
+    },
+
+    "responsive-layout.desktop#category-gafas-ninos-banners":{
+        "children":[
+            "flex-layout.row#category-gafas-ninos-banners-1"
+        ]
+    },
+
+    "rich-text#category-gafas-ninos-bread-crumb":{
+        "props":{
+            "text": "[Home](/) / [**Niños**](/niños) / [**Accesorios**](/niños/accesorios) / [**Gafas**](/niños/accesorios/gafas)",
+            "blockClass": "departmentBreadCrumb"
+        }
+    },
+
+    "rich-text#category-gafas-ninos-title":{
+        "props":{
+            "text": "Gafas para niños",
+            "blockClass": "departmentTitle"
+        }
+    },
+
+    "rich-text#category-gafas-ninos-description":{
+        "props":{
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "blockClass": "departmentDescription"
+        }
+    },
+
+    "search-result-layout.customQuery#category-gafas-ninos": {
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile#category-gafas-ninos"
+        ],
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceASC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 12,
+                "queryField": "niños/accesorios/gafas",
+                "skusFilter": "ALL",
+                "mapField": "category-1"
+            }
+        }
+    },
+
+    "flex-layout.row#category-gafas-ninos-banners-1":{
+        "children":[
+            "image#category-gafas-ninos-banners-1-img-1",
+            "image#category-gafas-ninos-banners-1-img-2",
+            "image#category-gafas-ninos-banners-1-img-3"
+        ],
+        "props":{
+            "blockClass":"contentCategoryBannersDesk"
+        }
+    },
+
+    "image#category-gafas-ninos-banners-1-img-1": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-3.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+    "image#category-gafas-ninos-banners-1-img-2": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-2.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-2"
+        }
+    },
+
+    "image#category-gafas-ninos-banners-1-img-3": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-1.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-3"
+        }
+    }
+}

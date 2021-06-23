@@ -1,0 +1,119 @@
+{
+    "store.custom#category-morrales-ninos":{
+        "blocks":[
+            "flex-layout.row#banner-category-morrales-ninos",
+            "search-result-layout.customQuery#category-morrales-ninos"
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
+    },
+
+    "flex-layout.row#banner-category-morrales-ninos":{
+        "children":[
+            "flex-layout.col#banner-category-morrales-ninos"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#banner-category-morrales-ninos":{
+        "children":[
+            "rich-text#category-morrales-ninos-bread-crumb",
+            "rich-text#category-morrales-ninos-title",
+            "rich-text#category-morrales-ninos-description",
+            "responsive-layout.desktop#category-morrales-ninos-banners",
+            "responsive-layout.phone#category-morrales-ninos-banners",
+            "responsive-layout.tablet#category-morrales-ninos-banners"
+        ]
+    },
+
+    "responsive-layout.desktop#category-morrales-ninos-banners":{
+        "children":[
+            "flex-layout.row#category-morrales-ninos-banners-1"
+        ]
+    },
+
+    "rich-text#category-morrales-ninos-bread-crumb":{
+        "props":{
+            "text": "[Home](/) / [**Niños**](/ninos) / [**Accesorios**](/niños/accesorios) / [**Morrales**](/niños/accesorios/morrales)",
+            "blockClass": "departmentBreadCrumb"
+        }
+    },
+
+    "rich-text#category-morrales-ninos-title":{
+        "props":{
+            "text": "Morrales para niños",
+            "blockClass": "departmentTitle"
+        }
+    },
+
+    "rich-text#category-morrales-ninos-description":{
+        "props":{
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "blockClass": "departmentDescription"
+        }
+    },
+
+    "search-result-layout.customQuery#category-morrales-ninos": {
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile#category-morrales-ninos"
+        ],
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceASC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 12,
+                "queryField": "niños/accesorios/morrales",
+                "skusFilter": "ALL",
+                "mapField": "category-1"
+            }
+        }
+    },
+
+    "flex-layout.row#category-morrales-ninos-banners-1":{
+        "children":[
+            "image#category-morrales-ninos-banners-1-img-1",
+            "image#category-morrales-ninos-banners-1-img-2",
+            "image#category-morrales-ninos-banners-1-img-3"
+        ],
+        "props":{
+            "blockClass":"contentCategoryBannersDesk"
+        }
+    },
+
+    "image#category-morrales-ninos-banners-1-img-1": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-3.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+    "image#category-morrales-ninos-banners-1-img-2": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-2.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-2"
+        }
+    },
+
+    "image#category-morrales-ninos-banners-1-img-3": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-1.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-3"
+        }
+    }
+}

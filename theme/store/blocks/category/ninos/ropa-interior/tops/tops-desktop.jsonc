@@ -1,0 +1,119 @@
+{
+    "store.custom#category-tops-ninos":{
+        "blocks":[
+            "flex-layout.row#banner-category-tops-ninos",
+            "search-result-layout.customQuery#category-tops-ninos"
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
+    },
+
+    "flex-layout.row#banner-category-tops-ninos":{
+        "children":[
+            "flex-layout.col#banner-category-tops-ninos"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#banner-category-tops-ninos":{
+        "children":[
+            "rich-text#category-tops-ninos-bread-crumb",
+            "rich-text#category-tops-ninos-title",
+            "rich-text#category-tops-ninos-description",
+            "responsive-layout.desktop#category-tops-ninos-banners",
+            "responsive-layout.phone#category-tops-ninos-banners",
+            "responsive-layout.tablet#category-tops-ninos-banners"
+        ]
+    },
+
+    "responsive-layout.desktop#category-tops-ninos-banners":{
+        "children":[
+            "flex-layout.row#category-tops-ninos-banners-1"
+        ]
+    },
+
+    "rich-text#category-tops-ninos-bread-crumb":{
+        "props":{
+            "text": "[Home](/) / [**Niños**](/niños) / [**Ropa Interior**](/niños/ropa-interior) / [**Tops**](/niños/ropa-interior/tops)",
+            "blockClass": "departmentBreadCrumb"
+        }
+    },
+
+    "rich-text#category-tops-ninos-title":{
+        "props":{
+            "text": "Tops para niños",
+            "blockClass": "departmentTitle"
+        }
+    },
+
+    "rich-text#category-tops-ninos-description":{
+        "props":{
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "blockClass": "departmentDescription"
+        }
+    },
+
+    "search-result-layout.customQuery#category-tops-ninos": {
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile#category-tops-ninos"
+        ],
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceASC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 12,
+                "queryField": "niños/ropa-interior/tops",
+                "skusFilter": "ALL",
+                "mapField": "category-1"
+            }
+        }
+    },
+
+    "flex-layout.row#category-tops-ninos-banners-1":{
+        "children":[
+            "image#category-tops-ninos-banners-1-img-1",
+            "image#category-tops-ninos-banners-1-img-2",
+            "image#category-tops-ninos-banners-1-img-3"
+        ],
+        "props":{
+            "blockClass":"contentCategoryBannersDesk"
+        }
+    },
+
+    "image#category-tops-ninos-banners-1-img-1": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-3.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+    "image#category-tops-ninos-banners-1-img-2": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-2.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-2"
+        }
+    },
+
+    "image#category-tops-ninos-banners-1-img-3": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-1.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-3"
+        }
+    }
+}

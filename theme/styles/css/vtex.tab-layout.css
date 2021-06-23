@@ -79,3 +79,27 @@
         padding: 0 5%;
     }
 }
+
+.listItem--tabs-politics{
+    background-color: #d3d6d7 ;
+    min-width: 220px;
+}
+
+.listItemActive{
+    background-color: #FFD400;
+}
+
+.listItem--tabs-politics :global(.vtex-button){
+    color: #000000;
+    text-align: center;
+    width: 100%;
+}
+
+.listItemActive :global(.vtex-button){
+    color: #000000;
+    text-align: center;
+    width: 100%;
+    background-color: transparent;
+    border: 0;
+    font-weight: 700;
+}

@@ -29,10 +29,10 @@
         "children": [
             "rich-text#submenu-2-text-1",
             "rich-text#submenu-2-text-2",
-            "rich-text#submenu-2-text-3",
-            "rich-text#submenu-2-text-4",
-            "rich-text#submenu-2-text-5",
-            "rich-text#submenu-2-text-6"
+            "rich-text#submenu-2-text-3"
+            // "rich-text#submenu-2-text-4",
+            // "rich-text#submenu-2-text-5",
+            // "rich-text#submenu-2-text-6"
         ],
         "props": {
             "blockClass": "contentSubMenu"
@@ -41,21 +41,21 @@
 
     "rich-text#submenu-2-text-1": {
         "props": {
-            "text": "[Términos y condiciones](#!)",
+            "text": "[Términos y condiciones](/terminos-condiciones)",
             "blockClass": "textSubmenu"
         }
     },
 
     "rich-text#submenu-2-text-2": {
         "props": {
-            "text": "[Politícas de privacidad](#!)",
+            "text": "[Politícas de privacidad](/politicas)",
             "blockClass": "textSubmenu"
         }
     },
 
     "rich-text#submenu-2-text-3": {
         "props": {
-            "text": "[Promociones vigentes](#!)",
+            "text": "[Promociones vigentes](/promociones-vigentes)",
             "blockClass": "textSubmenu"
         }
     },

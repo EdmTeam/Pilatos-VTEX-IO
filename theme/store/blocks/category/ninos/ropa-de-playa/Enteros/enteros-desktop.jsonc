@@ -1,0 +1,119 @@
+{
+    "store.custom#category-enteros-ninos":{
+        "blocks":[
+            "flex-layout.row#banner-category-enteros-ninos",
+            "search-result-layout.customQuery#category-enteros-ninos"
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
+    },
+
+    "flex-layout.row#banner-category-enteros-ninos":{
+        "children":[
+            "flex-layout.col#banner-category-enteros-ninos"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#banner-category-enteros-ninos":{
+        "children":[
+            "rich-text#category-enteros-ninos-bread-crumb",
+            "rich-text#category-enteros-ninos-title",
+            "rich-text#category-enteros-ninos-description",
+            "responsive-layout.desktop#category-enteros-ninos-banners",
+            "responsive-layout.phone#category-enteros-ninos-banners",
+            "responsive-layout.tablet#category-enteros-ninos-banners"
+        ]
+    },
+
+    "responsive-layout.desktop#category-enteros-ninos-banners":{
+        "children":[
+            "flex-layout.row#category-enteros-ninos-banners-1"
+        ]
+    },
+
+    "rich-text#category-enteros-ninos-bread-crumb":{
+        "props":{
+            "text": "[Home](/) / [**Niños**](/niños) / [**Ropa de Playa**](/niños/ropa-de-playa) / [**Enteros**](/niños/ropa-de-playa/enteros)",
+            "blockClass": "departmentBreadCrumb"
+        }
+    },
+
+    "rich-text#category-enteros-ninos-title":{
+        "props":{
+            "text": "Enteros para niños",
+            "blockClass": "departmentTitle"
+        }
+    },
+
+    "rich-text#category-enteros-ninos-description":{
+        "props":{
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "blockClass": "departmentDescription"
+        }
+    },
+
+    "search-result-layout.customQuery#category-enteros-ninos": {
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile#category-enteros-ninos"
+        ],
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceASC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 12,
+                "queryField": "niños/ropa-de-playa/enteros",
+                "skusFilter": "ALL",
+                "mapField": "category-1"
+            }
+        }
+    },
+
+    "flex-layout.row#category-enteros-ninos-banners-1":{
+        "children":[
+            "image#category-enteros-ninos-banners-1-img-1",
+            "image#category-enteros-ninos-banners-1-img-2",
+            "image#category-enteros-ninos-banners-1-img-3"
+        ],
+        "props":{
+            "blockClass":"contentCategoryBannersDesk"
+        }
+    },
+
+    "image#category-enteros-ninos-banners-1-img-1": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-3.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+    "image#category-enteros-ninos-banners-1-img-2": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-2.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-2"
+        }
+    },
+
+    "image#category-enteros-ninos-banners-1-img-3": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-1.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-3"
+        }
+    }
+}

@@ -1,0 +1,119 @@
+{
+    "store.custom#category-bufandas-ninos":{
+        "blocks":[
+            "flex-layout.row#banner-category-bufandas-ninos",
+            "search-result-layout.customQuery#category-bufandas-ninos"
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
+    },
+
+    "flex-layout.row#banner-category-bufandas-ninos":{
+        "children":[
+            "flex-layout.col#banner-category-bufandas-ninos"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#banner-category-bufandas-ninos":{
+        "children":[
+            "rich-text#category-bufandas-ninos-bread-crumb",
+            "rich-text#category-bufandas-ninos-title",
+            "rich-text#category-bufandas-ninos-description",
+            "responsive-layout.desktop#category-bufandas-ninos-banners",
+            "responsive-layout.phone#category-bufandas-ninos-banners",
+            "responsive-layout.tablet#category-bufandas-ninos-banners"
+        ]
+    },
+
+    "responsive-layout.desktop#category-bufandas-ninos-banners":{
+        "children":[
+            "flex-layout.row#category-bufandas-ninos-banners-1"
+        ]
+    },
+
+    "rich-text#category-bufandas-ninos-bread-crumb":{
+        "props":{
+            "text": "[Home](/) / [**Niños**](/ninos) / [**Accesorios**](/niños/accesorios) / [**Bufandas**](/niños/accesorios/bufandas)",
+            "blockClass": "departmentBreadCrumb"
+        }
+    },
+
+    "rich-text#category-bufandas-ninos-title":{
+        "props":{
+            "text": "Bufandas para ninos",
+            "blockClass": "departmentTitle"
+        }
+    },
+
+    "rich-text#category-bufandas-ninos-description":{
+        "props":{
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "blockClass": "departmentDescription"
+        }
+    },
+
+    "search-result-layout.customQuery#category-bufandas-ninos": {
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile#category-bufandas-ninos"
+        ],
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceASC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 12,
+                "queryField": "niños/accesorios/bufandas",
+                "skusFilter": "ALL",
+                "mapField": "category-1"
+            }
+        }
+    },
+
+    "flex-layout.row#category-bufandas-ninos-banners-1":{
+        "children":[
+            "image#category-bufandas-ninos-banners-1-img-1",
+            "image#category-bufandas-ninos-banners-1-img-2",
+            "image#category-bufandas-ninos-banners-1-img-3"
+        ],
+        "props":{
+            "blockClass":"contentCategoryBannersDesk"
+        }
+    },
+
+    "image#category-bufandas-ninos-banners-1-img-1": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-3.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+    "image#category-bufandas-ninos-banners-1-img-2": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-2.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-2"
+        }
+    },
+
+    "image#category-bufandas-ninos-banners-1-img-3": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-1.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-3"
+        }
+    }
+}

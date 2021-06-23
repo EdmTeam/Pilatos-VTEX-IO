@@ -37,14 +37,14 @@
 
     "rich-text#submenu-3-text-1": {
         "props": {
-            "text": "[Iniciar sesión](#!)",
+            "text": "[Iniciar sesión](/account)",
             "blockClass": "textSubmenu"
         }
     },
 
     "rich-text#submenu-3-text-2": {
         "props": {
-            "text": "[Rastrea tu pedido](#!)",
+            "text": "[Rastrea tu pedido](/account#/orders)",
             "blockClass": "textSubmenu"
         }
     }

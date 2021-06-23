@@ -15,7 +15,9 @@
             "vtex.menu@2.x:menu#submenu-level-3-row-1",
             "vtex.menu@2.x:menu#submenu-level-3-row-2",
             "vtex.menu@2.x:menu#submenu-level-3-row-3",
-            "vtex.menu@2.x:menu#submenu-level-3-row-4"
+            "vtex.menu@2.x:menu#submenu-level-3-row-4",
+            "vtex.menu@2.x:menu#submenu-level-3-row-5",
+            "vtex.menu@2.x:menu#submenu-level-3-row-6"
         ],
         "props": {
             "blockClass": "subContenItems1"

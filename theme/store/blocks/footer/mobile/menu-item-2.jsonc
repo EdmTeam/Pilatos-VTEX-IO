@@ -28,7 +28,7 @@
     "vtex.menu@2.x:submenu.accordion#footer-mobile-1-row-1": {
         "children": [
             "rich-text#submenu-1-text-1",
-            "rich-text#submenu-1-text-2",
+            // "rich-text#submenu-1-text-2",
             "rich-text#submenu-1-text-3",
             "rich-text#submenu-1-text-4"
         ],
@@ -39,7 +39,7 @@
 
     "rich-text#submenu-1-text-1": {
         "props": {
-            "text": "[Preguntas frecuentes](#!)",
+            "text": "[Preguntas frecuentes](/preguntas-frecuentes)",
             "blockClass": "textSubmenu"
         }
     },
@@ -53,14 +53,14 @@
 
     "rich-text#submenu-1-text-3": {
         "props": {
-            "text": "[Garantias de productos](#!)",
+            "text": "[Garantias de productos](/politicas)",
             "blockClass": "textSubmenu"
         }
     },
 
     "rich-text#submenu-1-text-4": {
         "props": {
-            "text": "[Cambios y devoluciones](#!)",
+            "text": "[Cambios y devoluciones](/cambios-devoluciones)",
             "blockClass": "textSubmenu"
         }
     }

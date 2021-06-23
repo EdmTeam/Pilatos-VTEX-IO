@@ -9,7 +9,9 @@
         "children":[
             "rich-text#submenu-desk-department-2-category-6",
             "rich-text#submenu-desk-department-2-category-6-subcategory-1",
-            "rich-text#submenu-desk-department-2-category-6-subcategory-2"
+            "rich-text#submenu-desk-department-2-category-6-subcategory-2",
+            "rich-text#submenu-desk-department-2-category-6-subcategory-3",
+            "rich-text#submenu-desk-department-2-category-6-subcategory-4"
         ],
         "props":{
             "blockClass": "contentBlockSubmenu"
@@ -25,7 +27,7 @@
 
     "rich-text#submenu-desk-department-2-category-6-subcategory-1":{
         "props":{
-            "text": "[Boxer](/mujer/ropa-interior/boxer)",
+            "text": "[Bodys](/mujer/ropa-interior/bodys)",
             "blockClass": "textSubcategory"
         }
     },
@@ -33,6 +35,20 @@
     "rich-text#submenu-desk-department-2-category-6-subcategory-2":{
         "props":{
             "text": "[Medias](/mujer/ropa-interior/medias)",
+            "blockClass": "textSubcategory"
+        }
+    },
+
+    "rich-text#submenu-desk-department-2-category-6-subcategory-3":{
+        "props":{
+            "text": "[Panties](/mujer/ropa-interior/panties)",
+            "blockClass": "textSubcategory"
+        }
+    },
+
+    "rich-text#submenu-desk-department-2-category-6-subcategory-4":{
+        "props":{
+            "text": "[Tops](/mujer/ropa-interior/tops)",
             "blockClass": "textSubcategory"
         }
     }

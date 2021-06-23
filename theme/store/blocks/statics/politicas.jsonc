@@ -1,0 +1,138 @@
+{
+    "store.custom#politicas": {
+        "blocks": [
+            "flex-layout.row#static-top-title-politics",
+            "tab-layout#politics"
+        ]
+    },
+    "flex-layout.row#static-top-title-politics": {
+        "props": {
+            "blockClass": "static-top-title-politics"
+        },
+        "children": [
+            "rich-text#static-top-title-politics"
+        ]
+    },
+    "rich-text#static-top-title-politics": {
+        "props": {
+            "text": "# POLÍTICAS DE MANEJO DE DATOS",
+            "blockClass": "static-top-title-politics"
+        }
+    },
+
+    "rich-text#cambio": {
+        "props": {
+            "text": "### Políticas de cancelación \n Si quieres hacer la cancelación de tu pedido, puedes gestionarlo siguiendo estos pasos: \n \n 1. En la parte superior de la página, ingresa a MI CUENTA (En el ícono de una persona). \n 2. Ingresa tu correo electrónico y clave e ingresa. \n 3. Ve a PEDIDOS y elige el pedido que quieres cancelar. \n 4. Finalmente da click en SOLICITAR CANCELACIÓN. \n \n \n Esta cancelación se puede hacer únicamente antes de que el pedido sea facturado, de lo contrario debes esperar que llegue el pedido y ejercer el DERECHO AL RETRACTO. \n \n ### Derecho de retracto \n Si deseas hacer el cambio de alguno de nuestros productos, debes tener en cuenta que: De acuerdo con el derecho de retracto consagrado por la ley 1480 art. 47 del Estatuto del consumidor, el término máximo para ejercer este derecho es de 5 días hábiles contados a partir de la entrega del producto. \n El derecho al retracto tiene esta excepción para que sea válido: \n En los contratos de adquisición de bienes de uso personal (ropa interior, medias, pantalonetas de baño u otros). \n El transporte y demás gastos que conlleve a la devolución serán asumidos por Estudio de Moda S.A.S. Aplica únicamente para el primer cambio. \n En caso de que se cumplan todas las condiciones mencionadas, PILATOS devolverá la suma total pagada, sin descuentos o retenciones, y el término para la devolución del dinero no podrá exceder de 30 días calendario. \n Proceso para acceder al derecho de retracto: \n 1. Cumplir con todas las condiciones antes mencionadas. \n 2. Enviar la solicitud dentro de los 5 primeros días hábiles después de haber recibido el pedido al correo tiendavirtual@estudiodemoda.com.co (este correo se responde de lunes a viernes de 8am a 5pm), la cual debe ser enviada por el titular de la compra. \n 3. O diligenciar completamente el siguiente formulario aquí igualmente dentro de los 5 primeros días hábiles después de haber recibido el pedido. \n 4. Devolver el producto en las mismas condiciones en que lo recibiste y el proveedor de transporte lo recogerá en el mismo lugar que lo entregó. El transporte y demás gastos que conlleve a la devolución serán asumidos por Estudio de Moda S.A.S. Aplica únicamente para el primer cambio. \n 5. Es importante aclarar que los productos no deben haber sido usados, tienen que tener las etiquetas y material de embalaje completos y originales. \n IMPORTANTE: \n - Los productos pasan por un proceso de calidad y en caso de no cumplir las condiciones puede no ser aceptado el derecho al retracto \n - Los cambios y devoluciones están sujetos a disponibilidad de inventario. \n - Los cambios y devoluciones de www.pilatos.com pueden realizarse en las tiendas físicas, pero los cambios pertenecientes a compras hechas en tiendas físicas no pueden hacerse en las líneas de tienda online. \n Si realizas un cambio por medio de la tienda online, debes tener en cuenta que a partir del momento que recibamos el paquete en nuestra bodega, por motivo de bioseguridad, debe mantenerse 3 días aislado. \n \n \n ### Políticas de Cambios \n 1. Debes identificar el producto y la fecha de compra. \n 2. El producto debe estar nuevo, sin abrir y/o usar. Si el producto ha sido abierto, debe estar sin uso, con todos sus empaques originales, marquillas, piezas, accesorios, manuales completos y etiquetas adheridas. \n 3. La ropa interior (pantis, sostenes, bóxeres, pantaloncillos, calcetines) no tienen cambio. \n 4. Si existe algún error un tu pedido, puedes solicitar el cambio de acuerdo a estos tiempos: \n - Plazo máximo para cambio (Hasta 30 días). \n - Prendas en promoción no tienen cambio, excepto que sea por uso del derecho de retracto. \n - Para prendas de vestir, billeteras, bolsos y/o zapatos: 90 días calendario después de la compra. \n -Plazo máximo para cambio de relojes, fragancias y/o gafas: 8 días calendario después de la compra.- Por políticas de cambio no se hace devolución de dinero en efectivo, se genera un código o bono virtual para ser redimido dentro del sitio, excepto que sea por uso del derecho de retracto. \n \n \n  5. Los cambios de las prendas se hacen por el valor efectivamente cancelado. \n \n \n Formas de solicitar un cambio de una prenda de línea (producto en promoción solo puede hacerse cambio por derecho al retracto) \n 1. Enviar la solicitud de cambio dentro de los 30 primeros días hábiles después de haber recibido el pedido al correo tiendavirtual@estudiodemoda.com.co \n 2. Ir a la tienda física más cercana excepto franquicias presentando la cédula del cliente o la factura \n 3. O diligenciar completamente el siguiente formulario aquí igualmente dentro de los 30 primeros días hábiles después de haber recibido el pedido. \n \n \n En cualquiera de estos casos se te informará sobre el proceso. * Estudio de moda S.A.S tiene hasta 15 días hábiles para responder el correo indicando el proceso que debes seguir. \n El transporte y demás gastos que conlleve a la devolución serán asumidos por Estudio de Moda S.A.S. Aplica únicamente para el primer cambio. \n Después de solicitar el cambio, tenemos estas opciones: \n 1. Cambio por talla o color de producto. \n 2. Bono cargado por el valor de la compra para ser redimido online. \n 3. Devolución del dinero. (Si aplica el Derecho al retracto)",
+            "blockClass": "static-text-politics"
+        }
+    },
+    "rich-text#manejo": {
+        "props": {
+            "text": "ESTUDIO DE MODA S.A.S informa que el contenido de la Política de Privacidad (en adelante “la Política”), que se presenta a continuación, es aplicable al tratamiento de tus datos personales recolectados a partir del acceso, el uso y la navegación del Sitio Web www.pilatos.com (en adelante, el Sitio). Por su interacción, uso y navegación, así como entrega voluntaria de datos personales en aquellos casos donde este aspecto esté habilitado en el Sitio (“Usuario”), entenderemos tu consentimiento y aceptación al contenido de la presente Política, razón por la cual te invitamos a leer con detenimiento el contenido de la misma. \n Para todos los efectos de tratamiento de datos personales descritos en este documento el Responsable por el mismo, de acuerdo con la definición establecida en la Ley 1581 de 2012, será ESTUDIO DE MODA S.A.S, domiciliada en Cr 35 N 15B – 143 Av Las Palmas Km 2, edificio 35 Palms, piso 9, Medellín, Colombia, teléfono (4) 265 31 11 ext: 4100, correo electrónico de contacto habeasdata@estudiodemoda.com.co. Este documento fue elaborado teniendo en cuenta lo establecido en la Ley 1581 de 2012 “Por la cual se dictan disposiciones generales para la protección de datos personales y en el Decreto 1377 de 2013 “Por el cual se reglamenta parcialmente la Ley 1581 de 2012” las cuales tienen por objeto “Desarrollar el derecho constitucional que tienen todas las personas a conocer, actualizar y rectificar las informaciones que se hayan recogido sobre ellas en bases de datos o archivos, y los demás derechos, libertades y garantías constitucionales a que se refiere el artículo 15 de la Constitución Política; así como el derecho a la información consagrado en el artículo 20 de la misma..” \n En cumplimiento a la norma vigente colombiana, a continuación, te presentamos información relevante relacionada con el tratamiento legítimo de los datos personales recolectados: \n ### 1. Recolección de datos personales del Usuario \n Los datos personales del Usuario podrán ser recolectados a través del Sitio a través del registro y apertura de cuenta en el mismo, con el fin de participar en promociones, concursos o proceder con la compra de productos haciendo uso de las herramientas de comercio electrónico puestas a disposición. Para tal fin al momento del registro el Usuario otorga su autorización expresa al tratamiento de sus datos personales de acuerdo con el texto de autorización puesto a disposición y cuya aceptación es un paso necesario para la creación de la cuenta en el Sitio. \n Los datos personales pueden consistir en nombre, número de identificación, correo electrónico, teléfono, ciudad, fecha de nacimiento, entre otros como hábitos de consumo. Los datos personales objeto de tratamiento serán de naturaleza privada o semiprivada según corresponda, excluyendo expresamente de la recolección, datos personales de naturaleza sensible, así como datos personales de menores de edad. Aquellos datos personales recolectados serán incluidos en las bases de datos propiedad de ESTUDIO DE MODA S.A.S y serán usados para las finalidades previstas en la presente Política. \n \n  ### 2. Finalidad del tratamiento de los datos personales \n El tratamiento de los datos personales se adelantará con finalidad de realizar, a través de cualquier medio actividades de mercadeo, promoción, publicidad propia o de terceros, soporte técnico, mercadeo, mejoramiento del servicio, consultas, control, habilitación de medios de pago, asistencia comercial y del consumidor, servicio y soporte técnico de productos y servicios, así como cualquier otra relacionada con los productos y servicios, actuales y futuros de ESTUDIO DE MODA S.A.S. No obstante, lo anterior, el Usuario siempre podrá solicitar el cese de envío de los correos electrónicos. Asimismo, los datos personales suministrados u obtenidos por ESTUDIO DE MODA S.A.S, podrán ser procesados, recolectados, almacenados, usados, actualizados, principalmente para hacer posible la prestación de sus servicios, para los registros contables que sean requeridos y para reportes a autoridades de control y vigilancia. Igualmente, los datos personales serán utilizados para fines administrativos, comerciales y de publicidad y contacto frente a los titulares de los mismos. \n Así mismo, el Usuario otorga autorización para el traspaso, comunicación, transferencia y/o transmisión nacional o internacional o cesión de los datos personales y bases de datos a terceros sean Responsables y/o Encargados de acuerdo con la necesidad empresarial de ESTUDIO DE MODA S.A.S. Para tal fin el Usuario otorga autorización expresa para la transferencia internacional de sus datos personales. \n ESTUDIO DE MODA S.A.S, se compromete a que la información que obtenga de los usuarios no va a ser compartida con empresas o terceras personas que no tengan vínculo alguno directo con ESTUDIO DE MODA S.A.S. \n \n  ### 3. Medidas de seguridad \n ESTUDIO DE MODA S.A.S tiene adoptadas medidas técnicas, humanas y administrativas que otorgan seguridad a los datos personales evitando su adulteración, pérdida, consulta, uso o acceso no autorizado o fraudulento. ESTUDIO DE MODA S.A.S mantiene protocolos de seguridad de obligatorio cumplimiento para el personal con acceso a los datos de carácter personal y a los sistemas de información, con el fin de garantizar la seguridad y confidencialidad el tratamiento. \n \n ### 4. Derechos de los Titulares \n De acuerdo con la ley 1581 de 2012, los Usuarios como titulares de los datos personales cuentan con los siguientes derechos: \n a) Conocer, actualizar y rectificar sus datos personales frente a los Responsables del tratamiento o Encargados del tratamiento. Este derecho se podrá ejercer, entre otros frente a datos parciales, inexactos, incompletos, fraccionados, que induzcan a error, o aquellos cuyo tratamiento esté expresamente prohibido o no haya sido autorizado \n b) Solicitar prueba de la autorización otorgada al Responsable del tratamiento salvo cuando expresamente se exceptúe como requisito para el tratamiento, de conformidad con lo previsto en el artículo 10 de la Ley 1581 de 2012. \n c) Ser informado por el Responsable del tratamiento o el Encargado del tratamiento, previa solicitud, respecto del uso que le ha dado a sus datos personales. \n d) Presentar ante la Superintendencia de Industria y Comercio quejas por infracciones a lo dispuesto en la ley 1581 de 2012 y las demás normas que la modifiquen, adicionen o complementen. \n e) Revocar la autorización y/o solicitar la supresión del dato en cualquier momento a su voluntad \n f) Acceder en forma gratuita a sus datos personales que hayan sido objeto de tratamiento, todo en observación al procedimiento legal vigente. \n ### 5. Ejercicio de derechos y reclamos \n El ejercicio de derechos, peticiones, consultas y reclamos pueden ser realizadas a ESTUDIO DE MODA S.A.S por medio de una carta escrita y radicada en la sede principal de ESTUDIO DE MODA S.A.S o a través de correo electrónico habeasdata@estudiodemoda.com.co. La ubicación de la sede principal es Cr 35 N 15B – 143 Av Las Palmas Km2, edificio 35 Palms, piso 9, en la ciudad de Medellín, Colombia, teléfono (4) 265 31 11 ext: 4297 - 4300. \n Esta Política se encuentra vigente desde noviembre de 2015, los cambios sustanciales serán informados debidamente por Estudio de Moda S.A.S",
+            "blockClass": "static-text-politics"
+        }
+    },
+    "rich-text#envio": {
+        "props": {
+            "text": "Estudio de Moda S.A.S desde su página www.pilatos.com, realiza despachos a gran parte del territorio colombiano a través de Coordinadora, quien garantiza la seguridad, cobertura y calidad en el servicio, para que tu compra llegue a donde estés. \n ### Tiempo de entrega \n Nuestros envíos son realizados por medio de la empresa transportadora Coordinadora Mercantil S.A., El tiempo de entrega de los productos es aproximadamente de 5 a 7 días hábiles y empieza a contar a partir de que el pedido fue aprobado. Un pedido es aprobado cuando la entidad bancaria acepta el pago. \n *Las entregas solo se realizan en las zonas de cobertura habilitadas en el sitio y podrán ser seleccionas al momento de la compra. \n ### ¿Cómo puedo hacer un seguimiento de mi pedido? \n Podrás validar el estado de entrega de tu pedido a través del sitio www.coordinadora.com con el número de guía que se te comunica en el correo de envío del pedido \n ### ¿Qué pasa si mi producto no está disponible? \n La venta estará sujeta al inventario del producto. Si al momento de realizar la orden no se cuenta con tu producto, te contactaremos para hacerte entrega de un bono cargado por el valor de la compra o la devolución del dinero. \n ### Costos de envío \n El valor del envío y transporte de los productos será informado al momento de generar la orden de compra, el cual puede variar conforme a la ciudad donde deseas recibir el envío. Este costo te será informado vía correo electrónico cuando la orden de compra sea aprobada y el pago exitoso.",
+            "blockClass": "static-text-politics"
+        }
+    },
+    "rich-text#garantia": {
+        "props": {
+            "text": "### Políticas de garantía \n 1. Los requisitos para hacerla efectiva serán los establecidos por el fabricante o proveedor en la factura, o en el cuerpo del producto, calcomanía adherida, manual de instrucciones, empaque o similar. \n 2. Se procederá al cambio del producto o a la devolución de lo pagado por este, a elección del consumidor, siempre que en vigencia de la garantía, el producto presente reincidencia en la misma falla o no se cuente con el repuesto requerido para el correcto funcionamiento del producto. \n La garantía legal será la definida en la etiqueta del producto, si esta no lo determina corresponderá a la señalada en la factura de venta. \n \n \n Nuestros productos tienen diferentes tiempos de garantías, te compartimos los tiempos por tipo de producto para que tengas claro hasta cuando puedes gestionar tus casos: \n Para prendas de vestir, billeteras, bolsos y/o zapatos: 90 días calendario después de la compra. \n Para fragancias y/o gafas: 30 días calendario después de la compra. \n Para gafas Oakley la garantía es un año (1) a partir de la fecha de compra. \n Para accesorios marca Kipling la garantía son 90 días a partir de la compra. \n Bolsos y Maletas Kipling la garantía es un año (1) a partir de la fecha de compra. \n Los relojes que se abiertos por servicio técnico no autorizado pierden su garantía. \n Para hacer efectiva la garantía: enviar la solicitud a tiendavirtual@estudiodemoda.com.co, o ir a la tienda física más cercana. En cualquiera de estos casos se te informará sobre el proceso. * Estudio de moda SAS tiene hasta 15 hábiles para responder el correo indicando el proceso que debes seguir.",
+            "blockClass": "static-text-politics"
+        }
+    },
+
+    "tab-layout#politics":{
+        "children": [
+            "tab-list#politics",
+            "tab-content#politics"
+        ],
+        "props": {
+            "blockClass": "politics",
+            "defaultActiveTabId": "politics1"
+        }
+    },
+
+    "tab-list#politics": {
+        "children":[
+            "tab-list.item#politics1",
+            "tab-list.item#politics2",
+            "tab-list.item#politics3",
+            "tab-list.item#politics4"
+        ]
+    },
+    "tab-list.item#politics1": {
+        "props": {
+            "tabId": "politics1",
+            "label": "CAMBIO Y RETRACTO",
+            "defaultActiveTabId": true,
+            "blockClass": "tabs-politics"
+        }
+    },
+
+    "tab-list.item#politics2":{
+        "props":{
+            "tabId": "politics2",
+            "label": "MANEJO DE DATOS",
+            "blockClass": "tabs-politics"
+        }
+    },
+    "tab-list.item#politics3":{
+        "props":{
+            "tabId": "politics3",
+            "label": "ENVÍO",
+            "blockClass": "tabs-politics"
+        }
+    },
+    "tab-list.item#politics4":{
+        "props":{
+            "tabId": "politics4",
+            "label": "GARANTÍA",
+            "blockClass": "tabs-politics"
+        }
+    },
+    
+    "tab-content#politics":{
+        "children": [
+            "tab-content.item#politics1",
+            "tab-content.item#politics2",
+            "tab-content.item#politics3",
+            "tab-content.item#politics4"
+        ]
+    },
+    "tab-content.item#politics1":{
+        "children":[
+            "rich-text#cambio"
+        ],
+        "props":{
+            "tabId": "politics1"
+        }
+    },
+    "tab-content.item#politics2":{
+        "children":[
+            "rich-text#manejo"
+        ],
+        "props":{
+            "tabId": "politics2"
+        }
+    },
+    "tab-content.item#politics3":{
+        "children":[
+            "rich-text#envio"
+        ],
+        "props":{
+            "tabId": "politics3"
+        }
+    },
+    "tab-content.item#politics4":{
+        "children":[
+            "rich-text#garantia"
+        ],
+        "props":{
+            "tabId": "politics4"
+        }
+    }
+}

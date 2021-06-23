@@ -1,0 +1,139 @@
+{
+    "vtex.menu@2.x:menu#submenu-level-3-row-5": {
+        "children": [
+            "menu-item#submenu-level-3-row-5"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+
+    "menu-item#submenu-level-3-row-5": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "Accesorios"
+            },
+            "blockClass": "menuAccordionLevel1"
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#submenu-level-3-row-5"
+        ]
+    },
+
+    "vtex.menu@2.x:submenu.accordion#submenu-level-3-row-5": {
+        "children": [
+            "rich-text#submenu-level-3-text-1-row-5",
+            "rich-text#submenu-level-3-text-2-row-5",
+            "rich-text#submenu-level-3-text-3-row-5",
+            "rich-text#submenu-level-3-text-4-row-5",
+            "rich-text#submenu-level-3-text-5-row-5",
+            "rich-text#submenu-level-3-text-6-row-5",
+            "rich-text#submenu-level-3-text-7-row-5",
+            "rich-text#submenu-level-3-text-8-row-5",
+            "rich-text#submenu-level-3-text-9-row-5",
+            "rich-text#submenu-level-3-text-10-row-5",
+            "rich-text#submenu-level-3-text-11-row-5",
+            "rich-text#submenu-level-3-text-12-row-5",
+            "rich-text#submenu-level-3-text-13-row-5"
+        ],
+        "props": {
+            "blockClass": "contentSubMenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-3-text-1-row-5": {
+        "props": {
+            "text": "[Billeteras](/hombre/accesorios/billeteras)",
+            "blockClass": "textSubmenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-3-text-2-row-5": {
+        "props": {
+            "text": "[Bolsos](/hombre/accesorios/bolsos)",
+            "blockClass": "textSubmenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-3-text-3-row-5": {
+        "props": {
+            "text": "[Bufandas](/hombre/accesorios/bufandas)",
+            "blockClass": "textSubmenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-3-text-4-row-5": {
+        "props": {
+            "text": "[Correas](/hombre/accesorios/correas)",
+            "blockClass": "textSubmenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-3-text-5-row-5": {
+        "props": {
+            "text": "[Estuches](/hombre/accesorios/estuches)",
+            "blockClass": "textSubmenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-3-text-6-row-5": {
+        "props": {
+            "text": "[Gafas](/hombre/accesorios/gafas)",
+            "blockClass": "textSubmenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-3-text-7-row-5": {
+        "props": {
+            "text": "[Gorras](/hombre/accesorios/gorras)",
+            "blockClass": "textSubmenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-3-text-8-row-5": {
+        "props": {
+            "text": "[Maletas](/hombre/accesorios/maletas)",
+            "blockClass": "textSubmenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-3-text-9-row-5": {
+        "props": {
+            "text": "[Morrales](/hombre/accesorios/morrales)",
+            "blockClass": "textSubmenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-3-text-10-row-5": {
+        "props": {
+            "text": "[Otros Accesorios](/hombre/accesorios/otros-accesorios)",
+            "blockClass": "textSubmenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-3-text-11-row-5": {
+        "props": {
+            "text": "[Perfumes](/hombre/accesorios/perfumes)",
+            "blockClass": "textSubmenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-3-text-12-row-5": {
+        "props": {
+            "text": "[Relojes](/hombre/accesorios/relojes)",
+            "blockClass": "textSubmenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-3-text-13-row-5": {
+        "props": {
+            "text": "[Tapabocas](/hombre/accesorios/tapabocas)",
+            "blockClass": "textSubmenuAcordeon"
+        }
+    }
+}

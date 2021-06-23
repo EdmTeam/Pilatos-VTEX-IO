@@ -1,0 +1,119 @@
+{
+    "store.custom#category-sub-zapatos-ninos":{
+        "blocks":[
+            "flex-layout.row#banner-category-sub-zapatos-ninos",
+            "search-result-layout.customQuery#category-sub-zapatos-ninos"
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
+    },
+
+    "flex-layout.row#banner-category-sub-zapatos-ninos":{
+        "children":[
+            "flex-layout.col#banner-category-sub-zapatos-ninos"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#banner-category-sub-zapatos-ninos":{
+        "children":[
+            "rich-text#category-sub-zapatos-ninos-bread-crumb",
+            "rich-text#category-sub-zapatos-ninos-title",
+            "rich-text#category-sub-zapatos-ninos-description",
+            "responsive-layout.desktop#category-sub-zapatos-ninos-banners",
+            "responsive-layout.phone#category-sub-zapatos-ninos-banners",
+            "responsive-layout.tablet#category-sub-zapatos-ninos-banners"
+        ]
+    },
+
+    "responsive-layout.desktop#category-sub-zapatos-ninos-banners":{
+        "children":[
+            "flex-layout.row#category-sub-zapatos-ninos-banners-1"
+        ]
+    },
+
+    "rich-text#category-sub-zapatos-ninos-bread-crumb":{
+        "props":{
+            "text": "[Home](/) / [**Niños**](/niños) / [**Zapatos**](/niños/zapatos) / [**Zapatos**](/niños/zapatos/zapatos)",
+            "blockClass": "departmentBreadCrumb"
+        }
+    },
+
+    "rich-text#category-sub-zapatos-ninos-title":{
+        "props":{
+            "text": "Zapatos para niños",
+            "blockClass": "departmentTitle"
+        }
+    },
+
+    "rich-text#category-sub-zapatos-ninos-description":{
+        "props":{
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "blockClass": "departmentDescription"
+        }
+    },
+
+    "search-result-layout.customQuery#category-sub-zapatos-ninos": {
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile#category-sub-zapatos-ninos"
+        ],
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceASC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 12,
+                "queryField": "niños/zapatos/zapatos",
+                "skusFilter": "ALL",
+                "mapField": "category-1"
+            }
+        }
+    },
+
+    "flex-layout.row#category-sub-zapatos-ninos-banners-1":{
+        "children":[
+            "image#category-sub-zapatos-ninos-banners-1-img-1",
+            "image#category-sub-zapatos-ninos-banners-1-img-2",
+            "image#category-sub-zapatos-ninos-banners-1-img-3"
+        ],
+        "props":{
+            "blockClass":"contentCategoryBannersDesk"
+        }
+    },
+
+    "image#category-sub-zapatos-ninos-banners-1-img-1": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-3.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+    "image#category-sub-zapatos-ninos-banners-1-img-2": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-2.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-2"
+        }
+    },
+
+    "image#category-sub-zapatos-ninos-banners-1-img-3": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-1.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-3"
+        }
+    }
+}

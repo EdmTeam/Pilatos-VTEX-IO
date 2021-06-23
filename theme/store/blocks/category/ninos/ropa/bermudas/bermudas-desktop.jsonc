@@ -1,0 +1,119 @@
+{
+    "store.custom#category-bermudas-ninos":{
+        "blocks":[
+            "flex-layout.row#banner-category-bermudas-ninos",
+            "search-result-layout.customQuery#category-bermudas-ninos"
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
+    },
+
+    "flex-layout.row#banner-category-bermudas-ninos":{
+        "children":[
+            "flex-layout.col#banner-category-bermudas-ninos"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#banner-category-bermudas-ninos":{
+        "children":[
+            "rich-text#category-bermudas-ninos-bread-crumb",
+            "rich-text#category-bermudas-ninos-title",
+            "rich-text#category-bermudas-ninos-description",
+            "responsive-layout.desktop#category-bermudas-ninos-banners",
+            "responsive-layout.phone#category-bermudas-ninos-banners",
+            "responsive-layout.tablet#category-bermudas-ninos-banners"
+        ]
+    },
+
+    "responsive-layout.desktop#category-bermudas-ninos-banners":{
+        "children":[
+            "flex-layout.row#category-bermudas-ninos-banners-1"
+        ]
+    },
+
+    "rich-text#category-bermudas-ninos-bread-crumb":{
+        "props":{
+            "text": "[Home](/) / [**Niños**](/niños) / [**Ropa**](/niños/ropa) / [**Bermudas**](/niños/ropa/bermudas)",
+            "blockClass": "departmentBreadCrumb"
+        }
+    },
+
+    "rich-text#category-bermudas-ninos-title":{
+        "props":{
+            "text": "Bermudas para niños",
+            "blockClass": "departmentTitle"
+        }
+    },
+
+    "rich-text#category-bermudas-ninos-description":{
+        "props":{
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "blockClass": "departmentDescription"
+        }
+    },
+
+    "search-result-layout.customQuery#category-bermudas-ninos": {
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile#category-bermudas-ninos"
+        ],
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceASC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 12,
+                "queryField": "niños/ropa/bermudas",
+                "skusFilter": "ALL",
+                "mapField": "category-1"
+            }
+        }
+    },
+
+    "flex-layout.row#category-bermudas-ninos-banners-1":{
+        "children":[
+            "image#category-bermudas-ninos-banners-1-img-1",
+            "image#category-bermudas-ninos-banners-1-img-2",
+            "image#category-bermudas-ninos-banners-1-img-3"
+        ],
+        "props":{
+            "blockClass":"contentCategoryBannersDesk"
+        }
+    },
+
+    "image#category-bermudas-ninos-banners-1-img-1": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-3.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+    "image#category-bermudas-ninos-banners-1-img-2": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-2.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-2"
+        }
+    },
+
+    "image#category-bermudas-ninos-banners-1-img-3": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-1.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-3"
+        }
+    }
+}

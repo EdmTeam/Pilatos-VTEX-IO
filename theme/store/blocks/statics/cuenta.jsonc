@@ -1,0 +1,102 @@
+{
+    "store.custom#cuenta": {
+        "blocks": [
+            "flex-layout.row#static-accordion-cuenta"
+        ]
+    },
+    "flex-layout.row#static-accordion-cuenta": {
+        "props": {
+            "blockClass": [
+                "static-accordion",
+                "static-center"
+            ]
+        },
+        "children": [
+            "flex-layout.col#static-accordion-menu-cuenta"
+        ]
+    },
+    "flex-layout.col#static-accordion-menu-cuenta": {
+        "children": [
+            "rich-text#title-cuenta",
+            "menu#static-accordion-menu-cuenta"
+        ]
+    },
+    "rich-text#title-cuenta": {
+        "props": {
+            "text": " ## CUENTA"
+        }
+    },
+    "menu#static-accordion-menu-cuenta": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#registro",
+            "menu-item#registrado"
+        ]
+    },
+    "menu-item#registro": {
+        "props": {
+            "id": "menu-item-registro",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "accordion-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "¿Cómo me registro?"
+            }
+        },
+        "blocks": [
+            "submenu.accordion#static-accordion-content-registro"
+        ]
+    },
+    "menu-item#registrado": {
+        "props": {
+            "id": "menu-item-registrado",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "accordion-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "¿Tengo que estar registrado para comprar?"
+            }
+        },
+        "blocks": [
+            "submenu.accordion#static-accordion-content-registrado"
+        ]
+    },
+    "submenu.accordion#static-accordion-content-registro": {
+        "props": {
+            "blockClass": "static-accordion-content"
+        },
+        "children": [
+            "rich-text#static-accordion-content-registro"
+        ]
+    },
+    "submenu.accordion#static-accordion-content-registrado": {
+        "props": {
+            "blockClass": "static-accordion-content"
+        },
+        "children": [
+            "rich-text#static-accordion-content-registrado"
+        ]
+    },
+    "rich-text#static-accordion-content-registro": {
+        "props": {
+            "text": "Ingresa a www.pilatos.com y da clic en el extremo superior derecho donde verás un ícono que dice REGISTRATE, allí debes dar clic y llegarás a un formulario que debes diligenciar con tus datos personales y ¡listo! Tendrás tu propia cuenta para que puedas tener acceso a tus datos, ver tu historial de pedidos y hacer seguimiento de tus órdenes.",
+            "blockClass": "static-accordion-content"
+        }
+    },
+    "rich-text#static-accordion-content-registrado": {
+        "props": {
+            "text": "No, en www.pilatos.com, puedes comprar sin registrarte y de manera fácil y rápida. Solo debes proveer tu e-mail, nombre, apellidos, teléfono, cédula, al momento de añadir tus productos al carrito de compras",
+            "blockClass": "static-accordion-content"
+        }
+    }
+}

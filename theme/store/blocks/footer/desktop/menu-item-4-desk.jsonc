@@ -26,14 +26,14 @@
 
     "rich-text#desk-menu-item-4-link-1": {
         "props": {
-            "text": "[Iniciar Sesión](#!)",
+            "text": "[Iniciar Sesión](/account)",
             "blockClass": "linkFooter"
         }
     },
 
     "rich-text#desk-menu-item-4-link-2": {
         "props": {
-            "text": "[Rastrea Pedido](#!)",
+            "text": "[Rastrea Pedido](/account#/orders)",
             "blockClass": "linkFooter"
         }
     }

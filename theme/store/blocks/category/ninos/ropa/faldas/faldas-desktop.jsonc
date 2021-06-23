@@ -1,0 +1,119 @@
+{
+    "store.custom#category-faldas-ninos":{
+        "blocks":[
+            "flex-layout.row#banner-category-faldas-ninos",
+            "search-result-layout.customQuery#category-faldas-ninos"
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
+    },
+
+    "flex-layout.row#banner-category-faldas-ninos":{
+        "children":[
+            "flex-layout.col#banner-category-faldas-ninos"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#banner-category-faldas-ninos":{
+        "children":[
+            "rich-text#category-faldas-ninos-bread-crumb",
+            "rich-text#category-faldas-ninos-title",
+            "rich-text#category-faldas-ninos-description",
+            "responsive-layout.desktop#category-faldas-ninos-banners",
+            "responsive-layout.phone#category-faldas-ninos-banners",
+            "responsive-layout.tablet#category-faldas-ninos-banners"
+        ]
+    },
+
+    "responsive-layout.desktop#category-faldas-ninos-banners":{
+        "children":[
+            "flex-layout.row#category-faldas-ninos-banners-1"
+        ]
+    },
+
+    "rich-text#category-faldas-ninos-bread-crumb":{
+        "props":{
+            "text": "[Home](/) / [**Niños**](/niños) / [**Ropa**](/niños/ropa) / [**Faldas**](/niños/ropa/faldas)",
+            "blockClass": "departmentBreadCrumb"
+        }
+    },
+
+    "rich-text#category-faldas-ninos-title":{
+        "props":{
+            "text": "Faldas para niños",
+            "blockClass": "departmentTitle"
+        }
+    },
+
+    "rich-text#category-faldas-ninos-description":{
+        "props":{
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "blockClass": "departmentDescription"
+        }
+    },
+
+    "search-result-layout.customQuery#category-faldas-ninos": {
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile#category-faldas-ninos"
+        ],
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceASC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 12,
+                "queryField": "niños/ropa/faldas",
+                "skusFilter": "ALL",
+                "mapField": "category-1"
+            }
+        }
+    },
+
+    "flex-layout.row#category-faldas-ninos-banners-1":{
+        "children":[
+            "image#category-faldas-ninos-banners-1-img-1",
+            "image#category-faldas-ninos-banners-1-img-2",
+            "image#category-faldas-ninos-banners-1-img-3"
+        ],
+        "props":{
+            "blockClass":"contentCategoryBannersDesk"
+        }
+    },
+
+    "image#category-faldas-ninos-banners-1-img-1": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-3.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+    "image#category-faldas-ninos-banners-1-img-2": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-2.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-2"
+        }
+    },
+
+    "image#category-faldas-ninos-banners-1-img-3": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-1.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-3"
+        }
+    }
+}

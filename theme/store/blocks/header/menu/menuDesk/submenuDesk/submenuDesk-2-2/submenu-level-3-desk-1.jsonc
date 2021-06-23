@@ -16,7 +16,9 @@
             "rich-text#submenu-desk-department-2-category-1-subcategory-5",
             "rich-text#submenu-desk-department-2-category-1-subcategory-6",
             "rich-text#submenu-desk-department-2-category-1-subcategory-7",
-            "rich-text#submenu-desk-department-2-category-1-subcategory-8"
+            "rich-text#submenu-desk-department-2-category-1-subcategory-8",
+            "rich-text#submenu-desk-department-2-category-1-subcategory-9",
+            "rich-text#submenu-desk-department-2-category-1-subcategory-10"
         ],
         "props":{
             "blockClass": "contentBlockSubmenu"
@@ -74,7 +76,7 @@
 
     "rich-text#submenu-desk-department-2-category-1-subcategory-7":{
         "props":{
-            "text": "[Bermudas](/mujer/ropa/bermudas)",
+            "text": "[Vestidos](/mujer/ropa/vestidos)",
             "blockClass": "textSubcategory"
         }
     },
@@ -82,6 +84,20 @@
     "rich-text#submenu-desk-department-2-category-1-subcategory-8":{
         "props":{
             "text": "[Sudaderas](/mujer/ropa/sudaderas)",
+            "blockClass": "textSubcategory"
+        }
+    },
+
+    "rich-text#submenu-desk-department-2-category-1-subcategory-9":{
+        "props":{
+            "text": "[Faldas](/mujer/ropa/faldas)",
+            "blockClass": "textSubcategory"
+        }
+    },
+
+    "rich-text#submenu-desk-department-2-category-1-subcategory-10":{
+        "props":{
+            "text": "[Shorts](/mujer/ropa/shorts)",
             "blockClass": "textSubcategory"
         }
     }

@@ -1,0 +1,119 @@
+{
+    "store.custom#category-slim-ninos":{
+        "blocks":[
+            "flex-layout.row#banner-category-slim-ninos",
+            "search-result-layout.customQuery#category-slim-ninos"
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
+    },
+
+    "flex-layout.row#banner-category-slim-ninos":{
+        "children":[
+            "flex-layout.col#banner-category-slim-ninos"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#banner-category-slim-ninos":{
+        "children":[
+            "rich-text#category-slim-ninos-bread-crumb",
+            "rich-text#category-slim-ninos-title",
+            "rich-text#category-slim-ninos-description",
+            "responsive-layout.desktop#category-slim-ninos-banners",
+            "responsive-layout.phone#category-slim-ninos-banners",
+            "responsive-layout.tablet#category-slim-ninos-banners"
+        ]
+    },
+
+    "responsive-layout.desktop#category-slim-ninos-banners":{
+        "children":[
+            "flex-layout.row#category-slim-ninos-banners-1"
+        ]
+    },
+
+    "rich-text#category-slim-ninos-bread-crumb":{
+        "props":{
+            "text": "[Home](/) / [**Niños**](/niños) / [**Jeans**](/niños/jeans) / [**Slim**](/niños/jeans/slim)",
+            "blockClass": "departmentBreadCrumb"
+        }
+    },
+
+    "rich-text#category-slim-ninos-title":{
+        "props":{
+            "text": "Slim para niños",
+            "blockClass": "departmentTitle"
+        }
+    },
+
+    "rich-text#category-slim-ninos-description":{
+        "props":{
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "blockClass": "departmentDescription"
+        }
+    },
+
+    "search-result-layout.customQuery#category-slim-ninos": {
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile#category-slim-ninos"
+        ],
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceASC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 12,
+                "queryField": "niños/jeans/slim",
+                "skusFilter": "ALL",
+                "mapField": "category-1"
+            }
+        }
+    },
+
+    "flex-layout.row#category-slim-ninos-banners-1":{
+        "children":[
+            "image#category-slim-ninos-banners-1-img-1",
+            "image#category-slim-ninos-banners-1-img-2",
+            "image#category-slim-ninos-banners-1-img-3"
+        ],
+        "props":{
+            "blockClass":"contentCategoryBannersDesk"
+        }
+    },
+
+    "image#category-slim-ninos-banners-1-img-1": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-3.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+    "image#category-slim-ninos-banners-1-img-2": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-2.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-2"
+        }
+    },
+
+    "image#category-slim-ninos-banners-1-img-3": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-1.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-3"
+        }
+    }
+}

@@ -1,0 +1,119 @@
+{
+    "store.custom#category-vestidos-ninos":{
+        "blocks":[
+            "flex-layout.row#banner-category-vestidos-ninos",
+            "search-result-layout.customQuery#category-vestidos-ninos"
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
+    },
+
+    "flex-layout.row#banner-category-vestidos-ninos":{
+        "children":[
+            "flex-layout.col#banner-category-vestidos-ninos"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#banner-category-vestidos-ninos":{
+        "children":[
+            "rich-text#category-vestidos-ninos-bread-crumb",
+            "rich-text#category-vestidos-ninos-title",
+            "rich-text#category-vestidos-ninos-description",
+            "responsive-layout.desktop#category-vestidos-ninos-banners",
+            "responsive-layout.phone#category-vestidos-ninos-banners",
+            "responsive-layout.tablet#category-vestidos-ninos-banners"
+        ]
+    },
+
+    "responsive-layout.desktop#category-vestidos-ninos-banners":{
+        "children":[
+            "flex-layout.row#category-vestidos-ninos-banners-1"
+        ]
+    },
+
+    "rich-text#category-vestidos-ninos-bread-crumb":{
+        "props":{
+            "text": "[Home](/) / [**Niños**](/niños) / [**Ropa**](/niños/ropa) / [**Vestidos**](/niños/ropa/vestidos)",
+            "blockClass": "departmentBreadCrumb"
+        }
+    },
+
+    "rich-text#category-vestidos-ninos-title":{
+        "props":{
+            "text": "Vestidos para niños",
+            "blockClass": "departmentTitle"
+        }
+    },
+
+    "rich-text#category-vestidos-ninos-description":{
+        "props":{
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "blockClass": "departmentDescription"
+        }
+    },
+
+    "search-result-layout.customQuery#category-vestidos-ninos": {
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile#category-vestidos-ninos"
+        ],
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceASC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 12,
+                "queryField": "niños/ropa/vestidos",
+                "skusFilter": "ALL",
+                "mapField": "category-1"
+            }
+        }
+    },
+
+    "flex-layout.row#category-vestidos-ninos-banners-1":{
+        "children":[
+            "image#category-vestidos-ninos-banners-1-img-1",
+            "image#category-vestidos-ninos-banners-1-img-2",
+            "image#category-vestidos-ninos-banners-1-img-3"
+        ],
+        "props":{
+            "blockClass":"contentCategoryBannersDesk"
+        }
+    },
+
+    "image#category-vestidos-ninos-banners-1-img-1": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-3.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+    "image#category-vestidos-ninos-banners-1-img-2": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-2.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-2"
+        }
+    },
+
+    "image#category-vestidos-ninos-banners-1-img-3": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-1.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-3"
+        }
+    }
+}

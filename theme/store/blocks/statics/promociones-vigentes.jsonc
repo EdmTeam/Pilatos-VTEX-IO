@@ -1,0 +1,156 @@
+{
+    "store.custom#promociones-vigentes": {
+        "blocks": [
+            "flex-layout.row#static-top-title-promo",
+            "flex-layout.row#static-one-column-promo",
+            "flex-layout.row#static-one-column-promo-a",
+            "flex-layout.row#static-one-column-promo-b",
+            "flex-layout.row#static-one-column-promo-c",
+            "flex-layout.row#static-one-column-promo-d",
+            "flex-layout.row#static-one-column-promo-e",
+            "flex-layout.row#static-one-column-promo-f",
+            "flex-layout.row#static-one-column-promo-g",
+            "flex-layout.row#static-one-column-promo-h"
+        ]
+    },
+    "flex-layout.row#static-top-title-promo": {
+        "props": {
+            "blockClass": "static-top-title-promo"
+        },
+        "children": [
+            "rich-text#static-top-title-promo"
+        ]
+    },
+    "rich-text#static-top-title-promo": {
+        "props": {
+            "text": "# PROMOCIONES VIGENTES",
+            "blockClass": "static-top-title-promo"
+        }
+    },
+    "flex-layout.row#static-one-column-promo": {
+        "props": {
+            "blockClass": "static-one-column-promo"
+        },
+        "children": [
+            "rich-text#static-one-column-promo"
+        ]
+    },
+    "flex-layout.row#static-one-column-promo-a": {
+        "props": {
+            "blockClass": "static-one-column-promo-a"
+        },
+        "children": [
+            "rich-text#static-one-column-promo-a"
+        ]
+    },
+    "flex-layout.row#static-one-column-promo-b": {
+        "props": {
+            "blockClass": "static-one-column-promo-b"
+        },
+        "children": [
+            "rich-text#static-one-column-promo-b"
+        ]
+    },
+    "flex-layout.row#static-one-column-promo-c": {
+        "props": {
+            "blockClass": "static-one-column-promo-c"
+        },
+        "children": [
+            "rich-text#static-one-column-promo-c"
+        ]
+    },
+    "flex-layout.row#static-one-column-promo-d": {
+        "props": {
+            "blockClass": "static-one-column-promo-d"
+        },
+        "children": [
+            "rich-text#static-one-column-promo-d"
+        ]
+    },
+    "flex-layout.row#static-one-column-promo-e": {
+        "props": {
+            "blockClass": "static-one-column-promo-e"
+        },
+        "children": [
+            "rich-text#static-one-column-promo-e"
+        ]
+    },
+    "flex-layout.row#static-one-column-promo-f": {
+        "props": {
+            "blockClass": "static-one-column-promo-f"
+        },
+        "children": [
+            "rich-text#static-one-column-promo-f"
+        ]
+    },
+    "flex-layout.row#static-one-column-promo-g": {
+        "props": {
+            "blockClass": "static-one-column-promo-g"
+        },
+        "children": [
+            "rich-text#static-one-column-promo-g"
+        ]
+    },
+    "flex-layout.row#static-one-column-promo-h": {
+        "props": {
+            "blockClass": "static-one-column-promo-h"
+        },
+        "children": [
+            "rich-text#static-one-column-promo-h"
+        ]
+    },
+    "rich-text#static-one-column-promo": {
+        "props": {
+            "text": "### TRASNOCHON 6 DE JUNIO DE 2021 \n \n PRIMERO. DURACIÓN. Oferta válida del seis (6) de junio a las seis de la tarde (6 p.m) hasta las doce del mediodía (12 p.m) del siete (7) de junio del 2021 en la página web http://pilatos.com/, y en las tiendas físicas PILATOS. Al ingresar al sitio web, se acepta la política de tratamiento de datos personales y los términos y condiciones allí indicados. \n SEGUNDO. DESCUENTO APLICABLE. La promoción que aplica es veinte por ciento (20%) de descuento en las referencias de línea y cincuenta por ciento (50%) de descuento en las referencias seleccionadas de la categoría SALE, esto incluye los valores de impuestos, en tienda online en números negros y tachados aparece el precio original y al lado aparece el precio con el descuento vigente. Las referencias de línea son las que se encuentran con el 20% de descuento por este evento. Aplica para las personas que paguen con tarjetas débito (PSE), crédito, o sistecrédito. No es acumulable entre sí ni con otras promociones o descuentos. El descuento aplica sobre el precio de etiqueta del producto (precio de línea). \n TERCERO. INVENTARIO DISPONIBLE. Se encuentran doscientas treinta y tres mil setecientas ochenta y un (233.781) unidades disponibles. Los productos comprados en descuento no tienen cambio, excepto por garantía legal. Precios sujetos a cambio sin previo aviso. \n CUARTO. ACLARACIONES. •El precio final se verá reflejado al momento de ingresar el medio de pago. •Los precios pueden variar de acuerdo a la talla y el color del producto. •El descuento no es canjeable por dinero en efectivo. •No es válido para la compra pagos por efecty, baloto, Bonos o Vales electrónicos. •En caso de cambio solo se tendrá en cuenta el valor efectivamente cancelado. Si el cambio es por la misma referencia se sostiene el descuento aplicado. •El valor del envío y transporte de los productos será informado al momento de generar la orden de compra, el cual puede variar conforme a la ciudad donde deseas recibir el envío. •Nuestros envíos son realizados por medio de la empresa transportadora Coordinadora Mercantil S.A. •El tiempo de entrega de los productos es aproximadamente de 5 a 15 días hábiles, término que está sujeto a cambios y ampliaciones por las contingencias actuales. •*Las entregas solo se realizan en las zonas de cobertura habilitadas en el sitio y podrán ser seleccionadas al momento de la compra. •Los artículos de tu pedido pueden llegar por separado, ya que en algunos casos son enviados desde diferentes tiendas. \n QUINTO. PROTECCIÓN AL CONSUMIDOR. Los consumidores son conscientes que cuentan con una serie de derechos, consagrados en el Estatuto del Consumidor, tales como el Derecho a la información, Derecho de Retracto, el Derecho de Reversión del pago y demás. Cualquier duda respecto al pedido y/o los artículos adquiridos pueden realizarla al correo electrónico tiendavirtual@estudiodemoda.com.co o en nuestras tiendas física, los requerimientos serán contestados en los términos legales. \n PARÁGRAFO. Los procesos para realizar el derecho de retracto y el derecho de reversión del pago y/o devoluciones, están claramente determinados en nuestra página web.",
+            "blockClass": "body-one-column"
+        }
+    },
+    "rich-text#static-one-column-promo-a": {
+        "props": {
+            "text": "### PILATOS OUTLET: SALE – 2 AL 30 DE JUNIO DE 2021 \n \n Términos y condiciones: Oferta válida del 2 al 30 de junio de 2021 en tiendas Pilatos Outlet. Aplica en producto estado Outlet. El descuento final de los productos dependerá del número de unidades de outlet que incluya la factura. El descuento aplica sobre el precio de etiqueta de los productos (precio de línea). No es acumulable entre sí ni con otras promociones o descuentos. No aplica en la compra de tarjetas regalo. El descuento no es canjeable por dinero en efectivo. Los productos comprados en descuento tienen cambio por talla y garantía legal. Si el cambio es por otra(s) referencias(s), solo se tendrá en cuenta el valor efectivamente cancelado. Si el cambio es por la misma referencia se sostiene el descuento. 55.000 unidades disponibles a nivel nacional",
+            "blockClass": "body-one-column"
+        }
+    },
+    "rich-text#static-one-column-promo-b": {
+        "props": {
+            "text": "### ENVÍO GRATIS 28-30 MAYO 2021 \n \n PRIMERO. DURACIÓN. Oferta válida del veintiocho (28) al treinta (30) de mayo del 2021 en la página web http://pilatos.com/. Al ingresar al sitio web, se acepta la política de tratamiento de datos personales y los términos y condiciones allí indicados. \n SEGUNDO. DESCUENTO APLICABLE. La promoción que aplica es envío gratis en todas las compras realizadas por la página web www.pilatos.com. Aplica para las personas que paguen con tarjetas débito (PSE), crédito, o sistecrédito. No es acumulable entre sí ni con otras promociones o descuentos. El envío gratis se verá reflejado a la hora de realizar el pago. \n TERCERO. Los productos comprados en descuento no tienen cambio, excepto por garantía legal. Precios sujetos a cambio sin previo aviso. \n CUARTO. ACLARACIONES. •El precio final se verá reflejado al momento de ingresar el medio de pago. •Los precios pueden variar de acuerdo a la talla y el color del producto. •El descuento no es canjeable por dinero en efectivo. •No es válido para la compra pagos por efecty, baloto, Bonos o Vales electrónicos. •En caso de cambio solo se tendrá en cuenta el valor efectivamente cancelado. Si el cambio es por la misma referencia se sostiene el descuento aplicado. •El valor del envío y transporte de los productos será informado al momento de generar la orden de compra, el cual puede variar conforme a la ciudad donde deseas recibir el envío. •Nuestros envíos son realizados por medio de la empresa transportadora Coordinadora Mercantil S.A. •El tiempo de entrega de los productos es aproximadamente de 5 a 15 días hábiles, término que está sujeto a cambios y ampliaciones por las contingencias actuales. •*Las entregas solo se realizan en las zonas de cobertura habilitadas en el sitio y podrán ser seleccionadas al momento de la compra. •Los artículos de tu pedido pueden llegar por separado, ya que en algunos casos son enviados desde diferentes tiendas. \n QUINTO. PROTECCIÓN AL CONSUMIDOR. Los consumidores son conscientes que cuentan con una serie de derechos, consagrados en el Estatuto del Consumidor, tales como el Derecho a la información, Derecho de Retracto, el Derecho de Reversión del pago y demás. Cualquier duda respecto al pedido y/o los artículos adquiridos pueden realizarla al correo electrónico tiendavirtual@estudiodemoda.com.co o en nuestras tiendas física, los requerimientos serán contestados en los términos legales. \n PARÁGRAFO. Los procesos para realizar el derecho de retracto y el derecho de reversión del pago y/o devoluciones, están claramente determinados en nuestra página web.",
+            "blockClass": "body-one-column"
+        }
+    },
+    "rich-text#static-one-column-promo-c": {
+        "props": {
+            "text": "### SALE ONLINE \n \n PRIMERO. DURACIÓN. Oferta válida del veintidos (22) al veintiseis (26) de mayo del 2021 en la página web http://pilatos.com/. Al ingresar al sitio web, se acepta la política de tratamiento de datos personales y los términos y condiciones allí indicados. \n SEGUNDO. DESCUENTO APLICABLE. La promoción que aplica es hasta setenta por ciento(70%) de descuento en las referencias seleccionadas de la categoría SALE, esto incluye los valores de impuestos, en tienda online en números negros y tachados aparece el precio original y al lado aparece el precio con el descuento vigente. Las referencias en sale son las que tienen descuento por este evento. Aplica para las personas que paguen con tarjetas débito (PSE) o crédito o sistecrédito. No es acumulable entre sí ni con otras promociones o descuentos. El descuento aplica sobre el precio de etiqueta del producto (precio de línea). \n TERCERO. INVENTARIO DISPONIBLE. Se encuentran doce mil ciento veintiún (12.121) unidades disponibles. Los productos comprados en descuento no tienen cambio, excepto por garantía legal. Precios sujetos a cambio sin previo aviso. \n CUARTO. ACLARACIONES. •El precio final se verá reflejado al momento de ingresar el medio de pago. •Los precios pueden variar de acuerdo a la talla y el color del producto. •El descuento no es canjeable por dinero en efectivo. •No es válido para la compra pagos por efecty, baloto, Bonos o Vales electrónicos. •En caso de cambio solo se tendrá en cuenta el valor efectivamente cancelado. Si el cambio es por la misma referencia se sostiene el descuento aplicado. •El valor del envío y transporte de los productos será informado al momento de generar la orden de compra, el cual puede variar conforme a la ciudad donde deseas recibir el envío. •Nuestros envíos son realizados por medio de la empresa transportadora Coordinadora Mercantil S.A. •El tiempo de entrega de los productos es aproximadamente de 5 a 15 días hábiles, término que está sujeto a cambios y ampliaciones por las contingencias actuales. •*Las entregas solo se realizan en las zonas de cobertura habilitadas en el sitio y podrán ser seleccionadas al momento de la compra. •Los artículos de tu pedido pueden llegar por separado, ya que en algunos casos son enviados desde diferentes tiendas. \n QUINTO. PROTECCIÓN AL CONSUMIDOR. Los consumidores son conscientes que cuentan con una serie de derechos, consagrados en el Estatuto del Consumidor, tales como el Derecho a la información, Derecho de Retracto, el Derecho de Reversión del pago y demás. Cualquier duda respecto al pedido y/o los artículos adquiridos pueden realizarla al correo electrónico tiendavirtual@estudiodemoda.com.co o en nuestras tiendas física, los requerimientos serán contestados en los términos legales. \n PARÁGRAFO. Los procesos para realizar el derecho de retracto y el derecho de reversión del pago y/o devoluciones, están claramente determinados en nuestra página web.",
+            "blockClass": "body-one-column"
+        }
+    },
+    "rich-text#static-one-column-promo-d": {
+        "props": {
+            "text": "### TRASNOCHÓN 20 MAYO \n \n PRIMERO. DURACIÓN. Oferta válida del veinte (20) a las seis de la tarde (6 p.m) hasta las doce del mediodía (12 p.m) del veintiuno (21) de mayo del 2021 en la página web http://pilatos.com/, y en las tiendas físicas PILATOS. Al ingresar al sitio web, se acepta la política de tratamiento de datos personales y los términos y condiciones allí indicados. \n SEGUNDO. DESCUENTO APLICABLE. La promoción que aplica es veinti cinco por ciento (25%) de descuento en las referencias de línea y cincuenta por ciento (50%) de descuento en las referencias seleccionadas de la categoría SALE, esto incluye los valores de impuestos, en tienda online en números negros y tachados aparece el precio original y al lado aparece el precio con el descuento vigente. Las referencias de línea son las que se encuentran con el 25% de descuento por este evento. Aplica para las personas que paguen con tarjetas débito (PSE) o crédito. No es acumulable entre sí ni con otras promociones o descuentos. El descuento aplica sobre el precio de etiqueta del producto (precio de línea). \n TERCERO. INVENTARIO DISPONIBLE. Se encuentran setenta y ocho mil setecientas cuarenta y ocho (78.748) unidades disponibles. Los productos comprados en descuento no tienen cambio, excepto por garantía legal. Precios sujetos a cambio sin previo aviso. \n CUARTO. ACLARACIONES. •El precio final se verá reflejado al momento de ingresar el medio de pago. •Los precios pueden variar de acuerdo a la talla y el color del producto. •El descuento no es canjeable por dinero en efectivo. •No es válido para la compra pagos por efecty, baloto, Bonos o Vales electrónicos. •En caso de cambio solo se tendrá en cuenta el valor efectivamente cancelado. Si el cambio es por la misma referencia se sostiene el descuento aplicado. •El valor del envío y transporte de los productos será informado al momento de generar la orden de compra, el cual puede variar conforme a la ciudad donde deseas recibir el envío. •Nuestros envíos son realizados por medio de la empresa transportadora Coordinadora Mercantil S.A. •El tiempo de entrega de los productos es aproximadamente de 5 a 15 días hábiles, término que está sujeto a cambios y ampliaciones por las contingencias actuales. •*Las entregas solo se realizan en las zonas de cobertura habilitadas en el sitio y podrán ser seleccionadas al momento de la compra. •Los artículos de tu pedido pueden llegar por separado, ya que en algunos casos son enviados desde diferentes tiendas. \n QUINTO. PROTECCIÓN AL CONSUMIDOR. Los consumidores son conscientes que cuentan con una serie de derechos, consagrados en el Estatuto del Consumidor, tales como el Derecho a la información, Derecho de Retracto, el Derecho de Reversión del pago y demás. Cualquier duda respecto al pedido y/o los artículos adquiridos pueden realizarla al correo electrónico tiendavirtual@estudiodemoda.com.co o en nuestras tiendas física, los requerimientos serán contestados en los términos legales. \n PARÁGRAFO. Los procesos para realizar el derecho de retracto y el derecho de reversión del pago y/o devoluciones, están claramente determinados en nuestra página web.",
+            "blockClass": "body-one-column"
+        }
+    },
+    "rich-text#static-one-column-promo-e": {
+        "props": {
+            "text": "### SISTECREDITO \n \n El método de pago sistecrédito puede ser utilizado desde el sitio web por cualquier persona que tenga cupo aprobado y disponible en Sistecrédito. Para realizar la compra con este medio de pago se debe: \n Seleccionar la opción de pago Sistecrédito La página lo llevará a la pasarela de pagos donde se le pedirá el número de cédula y cómo desea pagar, si quincenal o mensual. Por motivos de seguridad, se le solicitará un código o token, deberá presionar el botón Continuar. Al finalizar la compra, el pagaré electrónico le llegará a su correo y podrá evidenciar el monto del crédito, la cuota a pagar y el plazo. \n Es importante aclarar que si el cliente es nuevo y desea solicitar un cupo con Sistecrédito, primero debe registrarse en la página web o en la App Sistecrédito Personas y luego solicitar el cupo. \n App Personas: https://play.google.com/store/apps/details?id=com.sistecredito.credinet.personas&hl=es_CO&gl=US Página Web: https://personas.credinet.co/login?register=true (para llegar a esta URL también lo pueden hacer desde www.sistecredito.com/personas/Registrate) \n QUINTO. PROTECCIÓN AL CONSUMIDOR. Los consumidores son conscientes que cuentan con una serie de derechos, consagrados en el Estatuto del Consumidor, tales como el Derecho a la información, Derecho de Retracto, el Derecho de Reversión del pago y demás. Cualquier duda respecto al pedido y/o los artículos adquiridos pueden realizarla al correo electrónico tiendavirtual@estudiodemoda.com.co o en nuestras tiendas física, los requerimientos serán contestados en los términos legalesEstudio de Moda no se hace responsable ni es el encargado de la aprobación de los créditos, es importante aclarar que de este proceso se encarga la empresa SISTECÉDITO.",
+            "blockClass": "body-one-column"
+        }
+    },
+    "rich-text#static-one-column-promo-f": {
+        "props": {
+            "text": "### SALE 3X2 \n \n Los presentes términos y condiciones regulan la promoción denominada SALE 3X2 CAMISETAS Y POLOS, la presente promoción es únicamente aplicable para la página indicada en el cláusulado, la cual es propiedad de ESTUDIO DE MODA S.A.S., identificada con el NIT 890.926.803 – 1, en adelante “La Empresa”. La promoción en mención se rige por las siguientes cláusulas. \n PRIMERO. DURACIÓN. Oferta válida del diez (10) al diecisiete (17) de mayo del 2021 en las tiendas físicas PILATOS del país y en la página web www.pilatos.com. Al ingresar al sitio web, se acepta la política de tratamiento de datos personales y los términos y condiciones allí indicados. \n SEGUNDO. DESCUENTO APLICABLE. La promoción únicamente aplica en camisetas y polos disponibles en PILATOS (online o tiendas físicas), válido sólo en referencias de línea, por la compra de dos (2) productos de referencias de línea (camisetas o camisas polo), se lleva el tercer producto gratis(camiseta o camisa polo), es decir, el cliente paga dos (2) productos y lleva tres (3) productos. El producto de regalo siempre será el de menor valor. En la tienda online únicamente aplica para las personas que paguen con tarjetas débito (PSE) o crédito. No es acumulable entre sí ni con otras promociones o descuentos. El descuento aplica sobre el precio de etiqueta del producto (precio de línea). ÚNICAMENTE APLICA PARA PRODUCTOS DE LÍNEA. Para que la promoción aplique el cliente debe agregar los 3 productos al carrito de compras y todos los productos deben ser de línea.El descuento se aplicará a la prenda de menor valor. \n TERCERO. INVENTARIO DISPONIBLE. Se encuentran noventa y un mil setecientos cuarenta y ocho (91.748) unidades disponibles en la tienda online. Productos comprados en descuento no tienen cambio, excepto por talla y garantía legal. Precios sujetos a cambio sin previo aviso. \n CUARTO. ACLARACIONES. •El precio final se verá reflejado al momento de ingresar el medio de pago. •Los precios pueden variar de acuerdo a la talla y el color del producto. •El descuento no es canjeable por dinero en efectivo. •No es válido para la compra pagos por efecty, baloto, Bonos o Vales electrónicos. •En caso de cambio solo se tendrá en cuenta el valor efectivamente cancelado. Si el cambio es por la misma referencia se sostiene el descuento aplicado. •El valor del envío y transporte de los productos será informado al momento de generar la orden de compra, el cual puede variar conforme a la ciudad donde deseas recibir el envío. •Nuestros envíos son realizados por medio de la empresa transportadora Coordinadora Mercantil S.A. •El tiempo de entrega de los productos es aproximadamente de 5 a 15 días hábiles, término que está sujeto a cambios y ampliaciones por las contingencias actuales. •*Las entregas solo se realizan en las zonas de cobertura habilitadas en el sitio y podrán ser seleccionadas al momento de la compra. •Los artículos de tu pedido pueden llegar por separado, ya que en algunos casos son enviados desde diferentes tiendas. \n QUINTO. PROTECCIÓN AL CONSUMIDOR. Los consumidores son conscientes que cuentan con una serie de derechos, consagrados en el Estatuto del Consumidor, tales como el Derecho a la información, Derecho de Retracto, el Derecho de Reversión del pago y demás. Cualquier duda respecto al pedido y/o los artículos adquiridos pueden realizarla al correo electrónico tiendavirtual@estudiodemoda.com.co o en nuestras tiendas física, los requerimientos serán contestados en los términos legales. \n PARÁGRAFO. Los procesos para realizar el derecho de retracto y el derecho de reversión del pago y/o devoluciones, están claramente determinados en nuestra página web.",
+            "blockClass": "body-one-column"
+        }
+    },
+    "rich-text#static-one-column-promo-g": {
+        "props": {
+            "text": "### SUPER SALE 7-9 MAYO 2021 \n \n PRIMERO. DURACIÓN. Oferta válida del siete (07) al nueve (09) de mayo del 2021 en la página web http://pilatos.com/, y en las tiendas físicas PILATOS. Al ingresar al sitio web, se acepta la política de tratamiento de datos personales y los términos y condiciones allí indicados. \n SEGUNDO. DESCUENTO APLICABLE. La promoción que aplica es veinte por ciento (20%) de descuento en las referencias de línea y cincuenta por ciento (50%) de descuento en las referencias seleccionadas de la categoría SALE, esto incluye los valores de impuestos, en tienda online en números negros y tachados aparece el precio original y al lado aparece el precio con el descuento vigente. Las referencias de línea son las que se encuentran con el 25% de descuento por este evento. Aplica para las personas que paguen con tarjetas débito (PSE) o crédito. No es acumulable entre sí ni con otras promociones o descuentos. El descuento aplica sobre el precio de etiqueta del producto (precio de línea). \n TERCERO. INVENTARIO DISPONIBLE. Se encuentran noventa y ocho mil ochocientas catorce (98.814) unidades disponibles. Los productos comprados en descuento no tienen cambio, excepto por garantía legal. Precios sujetos a cambio sin previo aviso. \n CUARTO. ACLARACIONES. •El precio final se verá reflejado al momento de ingresar el medio de pago. •Los precios pueden variar de acuerdo a la talla y el color del producto. •El descuento no es canjeable por dinero en efectivo. •No es válido para la compra pagos por efecty, baloto, Bonos o Vales electrónicos. •En caso de cambio solo se tendrá en cuenta el valor efectivamente cancelado. Si el cambio es por la misma referencia se sostiene el descuento aplicado. •El valor del envío y transporte de los productos será informado al momento de generar la orden de compra, el cual puede variar conforme a la ciudad donde deseas recibir el envío. •Nuestros envíos son realizados por medio de la empresa transportadora Coordinadora Mercantil S.A. •El tiempo de entrega de los productos es aproximadamente de 5 a 15 días hábiles, término que está sujeto a cambios y ampliaciones por las contingencias actuales. •*Las entregas solo se realizan en las zonas de cobertura habilitadas en el sitio y podrán ser seleccionadas al momento de la compra. •Los artículos de tu pedido pueden llegar por separado, ya que en algunos casos son enviados desde diferentes tiendas. \n QUINTO. PROTECCIÓN AL CONSUMIDOR. Los consumidores son conscientes que cuentan con una serie de derechos, consagrados en el Estatuto del Consumidor, tales como el Derecho a la información, Derecho de Retracto, el Derecho de Reversión del pago y demás. Cualquier duda respecto al pedido y/o los artículos adquiridos pueden realizarla al correo electrónico tiendavirtual@estudiodemoda.com.co o en nuestras tiendas física, los requerimientos serán contestados en los términos legales. \n PARÁGRAFO. Los procesos para realizar el derecho de retracto y el derecho de reversión del pago y/o devoluciones, están claramente determinados en nuestra página web.",
+            "blockClass": "body-one-column"
+        }
+    },
+    "rich-text#static-one-column-promo-h": {
+        "props": {
+            "text": "### SALE FDS 28- ABRIL AL 2-MAYO 2021 \n \n PRIMERO. DURACIÓN.Oferta válida del veintiocho (28) de abril al dos (2) de mayo del 2021 en la página web http://pilatos.com/, y en las tiendas físicas PILATOS. Al ingresar al sitio web, se acepta la política de tratamiento de datos personales y los términos y condiciones allí indicados. \n SEGUNDO. DESCUENTO APLICABLE. La promoción que aplica es veinte por ciento (20%) de descuento en las referencias de línea y cincuenta por ciento (50%) de descuento en las referencias seleccionadas de la categoría SALE, esto incluye los valores de impuestos, en tienda online en números negros y tachados aparece el precio original y al lado aparece el precio con el descuento vigente. Las referencias de línea son las que se encuentran con el 25% de descuento por este evento. Aplica para las personas que paguen con tarjetas débito (PSE) o crédito. No es acumulable entre sí ni con otras promociones o descuentos. El descuento aplica sobre el precio de etiqueta del producto (precio de línea). \n TERCERO. INVENTARIO DISPONIBLE. Se encuentran noventa y ocho mil ochocientas catorce (98.814) unidades disponibles. Los productos comprados en descuento no tienen cambio, excepto por garantía legal. Precios sujetos a cambio sin previo aviso. \n CUARTO. ACLARACIONES. •El precio final se verá reflejado al momento de ingresar el medio de pago. •Los precios pueden variar de acuerdo a la talla y el color del producto. •El descuento no es canjeable por dinero en efectivo. •No es válido para la compra pagos por efecty, baloto, Bonos o Vales electrónicos. •En caso de cambio solo se tendrá en cuenta el valor efectivamente cancelado. Si el cambio es por la misma referencia se sostiene el descuento aplicado. •El valor del envío y transporte de los productos será informado al momento de generar la orden de compra, el cual puede variar conforme a la ciudad donde deseas recibir el envío. •Nuestros envíos son realizados por medio de la empresa transportadora Coordinadora Mercantil S.A. •El tiempo de entrega de los productos es aproximadamente de 5 a 15 días hábiles, término que está sujeto a cambios y ampliaciones por las contingencias actuales. •*Las entregas solo se realizan en las zonas de cobertura habilitadas en el sitio y podrán ser seleccionadas al momento de la compra. •Los artículos de tu pedido pueden llegar por separado, ya que en algunos casos son enviados desde diferentes tiendas. \n QUINTO. PROTECCIÓN AL CONSUMIDOR. Los consumidores son conscientes que cuentan con una serie de derechos, consagrados en el Estatuto del Consumidor, tales como el Derecho a la información, Derecho de Retracto, el Derecho de Reversión del pago y demás. Cualquier duda respecto al pedido y/o los artículos adquiridos pueden realizarla al correo electrónico tiendavirtual@estudiodemoda.com.co o en nuestras tiendas física, los requerimientos serán contestados en los términos legales. \n PARÁGRAFO. Los procesos para realizar el derecho de retracto y el derecho de reversión del pago y/o devoluciones, están claramente determinados en nuestra página web.",
+            "blockClass": "body-one-column"
+        }
+    }
+}

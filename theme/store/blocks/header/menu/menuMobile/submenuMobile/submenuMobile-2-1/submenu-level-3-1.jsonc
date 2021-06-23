@@ -71,7 +71,7 @@
 
     "rich-text#submenu-level-3-text-5-row-1": {
         "props": {
-            "text": "[Chaquetas](/hombre/ropa/Chaquetas)",
+            "text": "[Chaquetas](/hombre/ropa/chaquetas)",
             "blockClass": "textSubmenuAcordeon"
         }
     },

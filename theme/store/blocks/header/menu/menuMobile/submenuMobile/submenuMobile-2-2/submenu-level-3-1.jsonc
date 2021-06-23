@@ -34,7 +34,9 @@
             "rich-text#submenu-level-3-text-5-row-1-row-2",
             "rich-text#submenu-level-3-text-6-row-1-row-2",
             "rich-text#submenu-level-3-text-7-row-1-row-2",
-            "rich-text#submenu-level-3-text-8-row-1-row-2"
+            "rich-text#submenu-level-3-text-8-row-1-row-2",
+            "rich-text#submenu-level-3-text-9-row-1-row-2",
+            "rich-text#submenu-level-3-text-10-row-1-row-2"
         ],
         "props": {
             "blockClass": "contentSubMenuAcordeon"
@@ -85,7 +87,7 @@
 
     "rich-text#submenu-level-3-text-7-row-1-row-2": {
         "props": {
-            "text": "[Bermudas](/mujer/ropa/bermudas)",
+            "text": "[Faldas](/mujer/ropa/faldas)",
             "blockClass": "textSubmenuAcordeon"
         }
     },
@@ -93,6 +95,20 @@
     "rich-text#submenu-level-3-text-8-row-1-row-2": {
         "props": {
             "text": "[Sudaderas](/mujer/ropa/sudaderas)",
+            "blockClass": "textSubmenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-3-text-9-row-1-row-2": {
+        "props": {
+            "text": "[Shorts](/mujer/ropa/shorts)",
+            "blockClass": "textSubmenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-3-text-10-row-1-row-2": {
+        "props": {
+            "text": "[Vestidos](/mujer/ropa/vestidos)",
             "blockClass": "textSubmenuAcordeon"
         }
     }

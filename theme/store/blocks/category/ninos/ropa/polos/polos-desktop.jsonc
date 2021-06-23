@@ -1,0 +1,119 @@
+{
+    "store.custom#category-polos-ninos":{
+        "blocks":[
+            "flex-layout.row#banner-category-polos-ninos",
+            "search-result-layout.customQuery#category-polos-ninos"
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
+    },
+
+    "flex-layout.row#banner-category-polos-ninos":{
+        "children":[
+            "flex-layout.col#banner-category-polos-ninos"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#banner-category-polos-ninos":{
+        "children":[
+            "rich-text#category-polos-ninos-bread-crumb",
+            "rich-text#category-polos-ninos-title",
+            "rich-text#category-polos-ninos-description",
+            "responsive-layout.desktop#category-polos-ninos-banners",
+            "responsive-layout.phone#category-polos-ninos-banners",
+            "responsive-layout.tablet#category-polos-ninos-banners"
+        ]
+    },
+
+    "responsive-layout.desktop#category-polos-ninos-banners":{
+        "children":[
+            "flex-layout.row#category-polos-ninos-banners-1"
+        ]
+    },
+
+    "rich-text#category-polos-ninos-bread-crumb":{
+        "props":{
+            "text": "[Home](/) / [**Niños**](/niños) / [**Ropa**](/niños/ropa) / [**Polos**](/niños/ropa/polos)",
+            "blockClass": "departmentBreadCrumb"
+        }
+    },
+
+    "rich-text#category-polos-ninos-title":{
+        "props":{
+            "text": "Polos para niños",
+            "blockClass": "departmentTitle"
+        }
+    },
+
+    "rich-text#category-polos-ninos-description":{
+        "props":{
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "blockClass": "departmentDescription"
+        }
+    },
+
+    "search-result-layout.customQuery#category-polos-ninos": {
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile#category-polos-ninos"
+        ],
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByPriceASC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 12,
+                "queryField": "niños/ropa/polos",
+                "skusFilter": "ALL",
+                "mapField": "category-1"
+            }
+        }
+    },
+
+    "flex-layout.row#category-polos-ninos-banners-1":{
+        "children":[
+            "image#category-polos-ninos-banners-1-img-1",
+            "image#category-polos-ninos-banners-1-img-2",
+            "image#category-polos-ninos-banners-1-img-3"
+        ],
+        "props":{
+            "blockClass":"contentCategoryBannersDesk"
+        }
+    },
+
+    "image#category-polos-ninos-banners-1-img-1": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-3.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+    "image#category-polos-ninos-banners-1-img-2": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-2.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-2"
+        }
+    },
+
+    "image#category-polos-ninos-banners-1-img-3": {
+        "props": {
+            "src": "/arquivos/category-bn-desk-1.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-3"
+        }
+    }
+}

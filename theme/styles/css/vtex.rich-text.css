@@ -1484,3 +1484,15 @@
     font-size: 13px;
   }
 }
+
+/* Estilos estáticos */
+.wrapper--static-text-politics{
+    width: 90%;
+    max-width: 1300px;
+    margin: 10px auto;
+}
+
+.link--static-text-politics{
+  text-decoration: none;
+  color: #F2A922;
+}
