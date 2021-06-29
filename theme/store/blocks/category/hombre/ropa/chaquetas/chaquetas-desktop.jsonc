@@ -86,9 +86,9 @@
 
     "image#category-chaquetas-hombre-banners-1-img-1": {
         "props": {
-            "src": "/arquivos/category-bn-desk-3.png",
+            "src": "/arquivos/Categorias_hombre_Banner_camisetas_Desktop.jpg",
             "link": {
-                "url": "/",
+                "url": "/hombre/ropa/camisetas",
                 "attributeTitle": ""
             },
             "blockClass": "departmentBannerImg-1"
@@ -97,9 +97,9 @@
 
     "image#category-chaquetas-hombre-banners-1-img-2": {
         "props": {
-            "src": "/arquivos/category-bn-desk-2.png",
+            "src": "/arquivos/Categorias_hombre_Banner_jeans_Desktop.jpg",
             "link": {
-                "url": "/",
+                "url": "/hombre/jeans",
                 "attributeTitle": ""
             },
             "blockClass": "departmentBannerImg-2"
@@ -108,9 +108,9 @@
 
     "image#category-chaquetas-hombre-banners-1-img-3": {
         "props": {
-            "src": "/arquivos/category-bn-desk-1.png",
+            "src": "/arquivos/Categorias_hombre_Banner_morrales_Desktop.jpg",
             "link": {
-                "url": "/",
+                "url": "/hombre/accesorios/morrales",
                 "attributeTitle": ""
             },
             "blockClass": "departmentBannerImg-3"

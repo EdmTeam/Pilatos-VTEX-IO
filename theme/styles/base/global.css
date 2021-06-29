@@ -284,3 +284,9 @@
         margin-left: auto;
     }
 }
+
+@media only screen and (max-width: 1080px){
+    :global(.vtex-flex-layout-0-x-flexRowContent--contentItem1) > :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child{
+      width: 100% !important;
+    }
+}

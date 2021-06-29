@@ -1,0 +1,7 @@
+.borderFocusClass{
+    border: 1px solid #000000 !important;
+}
+
+.borderFocusClass :global(.vtex-dropdown__container) :global(.vtex-dropdown__caption){
+    color: #000000 !important;
+}

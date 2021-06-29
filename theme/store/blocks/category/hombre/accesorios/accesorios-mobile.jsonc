@@ -90,32 +90,29 @@
         "props": {
             "images": [
                 {
-                    "image": "/arquivos/category-bn-mobile-1.png",
-                    "mobileImage": "/arquivos/category-bn-mobile-1.png",
+                    "image": "/arquivos/Categorias_hombre_Banner_camisetas_Mobile.jpg",
                     "description": "Promotional Banner",
                     "link": {
-                        "url": "/",
+                        "url": "/hombre/ropa/camisetas",
                         "attributeTitle": ""
                     },
                     "title": "",
                     "width": "235px"
                 },
                 {
-                    "image": "/arquivos/category-bn-mobile-1.png",
-                    "mobileImage": "/arquivos/category-bn-mobile-1.png",
+                    "image": "/arquivos/Categorias_hombre_Banner_interior_Mobile.jpg",
                     "description": "Promotional Banner",
                     "link": {
-                        "url": "/",
+                        "url": "/hombre/ropa-interior",
                         "attributeTitle": ""
                     },
                     "title": ""
                 },
                 {
-                    "image": "/arquivos/category-bn-mobile-1.png",
-                    "mobileImage": "/arquivos/Dep-mobile-2.png",
+                    "image": "/arquivos/Categorias_hombre_Banner_morrales_Mobile.jpg",
                     "description": "Promotional Banner",
                     "link": {
-                        "url": "/",
+                        "url": "/hombre/accesorios/morrales",
                         "attributeTitle": ""
                     },
                     "title": ""
@@ -167,9 +164,9 @@
 
     "image#category-accesorios-hombre-banners-2-img-1-tablet": {
         "props": {
-            "src": "/arquivos/category-banner-tab-1.png",
+            "src": "/arquivos/Categorias_hombre_Banner_camisetas_Mobile.jpg",
             "link": {
-                "url": "/hombre/zapatos/tenis",
+                "url": "/hombre/ropa/camisetas",
                 "attributeTitle": ""
             },
             "blockClass": "departmentBannerImg-3"
@@ -187,9 +184,9 @@
 
     "image#category-accesorios-hombre-banners-2-img-2-tablet": {
         "props": {
-            "src": "/arquivos/category-banner-tab-2.png",
+            "src": "/arquivos/Categorias_hombre_Banner_interior_Mobile.jpg",
             "link": {
-                "url": "/hombre/accesorios/tapabocas",
+                "url": "/hombre/ropa-interior",
                 "attributeTitle": ""
             },
             "blockClass": "departmentBannerImg-4"
@@ -207,9 +204,9 @@
 
     "image#category-accesorios-hombre-banners-2-img-3-tablet": {
         "props": {
-            "src": "/arquivos/category-banner-tab-3.png",
+            "src": "/arquivos/Categorias_hombre_Banner_morrales_Mobile.jpg",
             "link": {
-                "url": "/hombre/jeans",
+                "url": "/hombre/accesorios/morrales",
                 "attributeTitle": ""
             },
             "blockClass": "departmentBannerImg-5"

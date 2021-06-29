@@ -790,9 +790,13 @@
   text-decoration: none;
 }
 
+.wrapper--desPromotionalBanners{
+  display: none;
+}
+
 @media only screen and (min-width: 740px){
   .container--titleItemsfooter{
-    margin-top: 9.7rem;
+    margin-top: 12.7rem;
   }
 
   .paragraph--titleNewsletter{

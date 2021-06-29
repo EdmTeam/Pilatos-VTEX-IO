@@ -1,6 +1,7 @@
 import React, { FC } from 'react';
 import type { props } from '../../typings/CustomSticky';
 import { useCssHandles } from 'vtex.css-handles';
+import './CloseMenu.css'
 
 /**
  * declare todos los modificadores de clases que necesite su proyecto recuerde
@@ -8,7 +9,8 @@ import { useCssHandles } from 'vtex.css-handles';
  */
 
 const CSS_HANDLES = [
-    'containerCloseMenu'
+    'containerCloseMenu',
+    'borderFocusClass'
 ] as const;
 
 /**
@@ -19,7 +21,8 @@ const CloseMenu: FC<props> = ({
 }) => {
     const handles = useCssHandles(CSS_HANDLES);
     const {
-        containerCloseMenu 
+        containerCloseMenu,
+        borderFocusClass
     } = handles
 
     const closeMenu = ()=>{
@@ -29,6 +32,33 @@ const CloseMenu: FC<props> = ({
         btnClose.forEach(btn =>{
             (btn as HTMLElement).click();
         });
+    }
+
+    const selects = document.querySelectorAll('.pilatos21-store-locator-1-x-containerInfo .vtex-dropdown');
+    const selectsV = document.querySelectorAll('.pilatos21-store-locator-0-x-containerInfo .vtex-dropdown');
+
+    if(selects){
+        selects.forEach(selectItem => {
+            selectItem.addEventListener('click', borderFocus);
+
+            function borderFocus(){
+                selectItem.classList.add(borderFocusClass);
+            }
+        });
+    }else{
+        console.log('No encontrado')
+    }
+
+    if(selectsV){
+        selectsV.forEach(selectItem => {
+            selectItem.addEventListener('click', borderFocus);
+
+            function borderFocus(){
+                selectItem.classList.add(borderFocusClass);
+            }
+        });
+    }else{
+        console.log('No encontrado')
     }
 
     return (

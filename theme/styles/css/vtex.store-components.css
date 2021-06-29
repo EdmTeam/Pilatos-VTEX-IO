@@ -217,6 +217,7 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+    
 }
 
 :global(.vtex-minicart-2-x-minicartIconContainer)::before{

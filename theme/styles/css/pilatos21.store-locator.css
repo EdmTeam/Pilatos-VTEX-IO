@@ -53,6 +53,38 @@
     width: 100%;
 }
 
+.containerInfo :global(.vtex-dropdown__container){
+    border: none;
+}
+
+.containerInfo :global(.vtex-dropdown){
+    border: 1px solid #AAA9A9;
+}
+
+.containerLevel1 :global(.vtex-dropdown__container) :global(.vtex-dropdown__caption){
+    color: #000000;
+}
+
+.containerLevel1 :global(.vtex-dropdown){
+    border: 1px solid #000000;
+}
+
+.containerLevel1 :global(.vtex-dropdown__container) :global(.vtex-dropdown__caption){
+    color: #000000;
+}
+
+.containerLevel1 :global(.vtex-dropdown__container), 
+.containerLevel2 :global(.vtex-dropdown__container), 
+.containerLevel3 :global(.vtex-dropdown__container){
+    border-radius: 0;
+}
+
+.containerLevel1 :global(.vtex-dropdown__container), 
+.containerLevel2 :global(.vtex-dropdown__container), 
+.containerLevel3 :global(.vtex-dropdown__container){
+    border-radius: 0;
+}
+
 .containerStoreInfo{
     width: calc(100% - 1rem);
     border-left: 3px solid #FFD400;

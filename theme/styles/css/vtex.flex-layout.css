@@ -124,7 +124,7 @@
 }
 
 .flexRow--legalFooter2{
-  width: 53% !important;
+  width: 60% !important;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -146,11 +146,21 @@
   padding-bottom: .5rem;
 }
 
+.flexRowContent--imgMediosPago{
+  width: 90%;
+  margin: 0 auto;
+}
+
 @media only screen and (min-width: 740px){
   .flexRowContent--contentStorelocator{
     min-width: 180px;
     width: 47%;
     padding: .8rem 1rem;
+  }
+
+  .flexRow--contentLogoFooter{
+    width: 45%!important;
+    margin: 2rem auto 1rem auto;
   }
 
   .flexRowContent--rowContactFull .stretchChildrenWidth:first-child{
@@ -159,6 +169,11 @@
 
   .flexRowContent--rowContactFull .stretchChildrenWidth:last-child{
     width: 34% !important;
+  }
+
+  .flexRowContent--imgMediosPago{
+    width: 79%;
+    margin: 0 auto;
   }
 }
 
