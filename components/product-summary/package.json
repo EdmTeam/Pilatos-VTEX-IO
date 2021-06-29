@@ -1,0 +1,41 @@
+{
+  "name": "product-summary",
+  "private": true,
+  "license": "UNLICENSED",
+  "scripts": {
+    "lint": "eslint --ext js,jsx,ts,tsx .",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json}\""
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{ts,js,tsx,jsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.{json,graphql,gql}": [
+      "prettier --write"
+    ]
+  },
+  "devDependencies": {
+    "@vtex/prettier-config": "^0.3.1",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.4.0",
+    "eslint-config-vtex": "^12.7.0",
+    "eslint-config-vtex-react": "^6.7.0",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.0.2",
+    "prettier": "^2.0.5",
+    "typescript": "^3.7.5",
+    "@types/classnames": "^2.2.9",
+    "@types/node": "^12.7.12",
+    "@types/ramda": "^0.26.18",
+    "@types/react": "^16.8.23",
+    "@vtex/intl-equalizer": "^2.2.1",
+    "@vtex/tsconfig": "^0.2.0"
+  },
+  "dependencies": {}
+}

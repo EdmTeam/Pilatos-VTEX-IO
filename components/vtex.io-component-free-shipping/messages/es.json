@@ -1,0 +1,9 @@
+{
+  "admin/editor.free-shipping.title": "Free Shipping Component",
+  "admin/editor.free-shipping.description": "Free Shipping Component",
+  "admin/editor.free-shipping.valueOfFreeShipping.title": "999",
+  "admin/editor.free-shipping.infoLabel.labelInitial.title": "Valor actual:",
+  "admin/editor.free-shipping.infoLabel.labelBetween.title": "¡Faltan ",
+  "admin/editor.free-shipping.infoLabel.labelFinal.title": "para que su envío sea totalmente gratis!",
+  "admin/editor.free-shipping.infoLabel.labelFreeShippingComplete.title": "¡Su envio es totalmente gratis!"
+}

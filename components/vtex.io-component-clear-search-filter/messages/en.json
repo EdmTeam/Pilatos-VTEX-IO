@@ -1,0 +1,7 @@
+{
+    "admin/editor.clear-search-filter.title": "Clear filters",
+    "admin/editor.clear-search-filter.description": "Clear all search filters",
+    "admin/editor.clear-search-filter.label.title": "Button label",
+    "admin/editor.clear-search-filter.mode.title": "Mode in which the component will be presented mode1 = button with text; mode2 = button with icon",
+    "admin/editor.clear-search-filter.mode.icon": "Icon to display on the button for mode2"
+}

@@ -1,0 +1,267 @@
+import React, { useCallback } from 'react'
+import type { ComponentType, PropsWithChildren } from 'react'
+import { useQuery } from 'react-apollo'
+import { QueryProducts } from 'vtex.store-resources'
+import type { QueryProductsTypes } from 'vtex.store-resources'
+import { usePixel } from 'vtex.pixel-manager'
+import { ProductList as ProductListStructuredData } from 'vtex.structured-data'
+
+import ProductSummaryListWithoutQuery from './ProductSummaryListWithoutQuery'
+
+const ORDER_BY_OPTIONS = {
+  RELEVANCE: {
+    name: 'admin/editor.productSummaryList.orderType.relevance',
+    value: '',
+  },
+  TOP_SALE_DESC: {
+    name: 'admin/editor.productSummaryList.orderType.sales',
+    value: 'OrderByTopSaleDESC',
+  },
+  PRICE_DESC: {
+    name: 'admin/editor.productSummaryList.orderType.priceDesc',
+    value: 'OrderByPriceDESC',
+  },
+  PRICE_ASC: {
+    name: 'admin/editor.productSummaryList.orderType.priceAsc',
+    value: 'OrderByPriceASC',
+  },
+  NAME_ASC: {
+    name: 'admin/editor.productSummaryList.orderType.nameAsc',
+    value: 'OrderByNameASC',
+  },
+  NAME_DESC: {
+    name: 'admin/editor.productSummaryList.orderType.nameDesc',
+    value: 'OrderByNameDESC',
+  },
+  RELEASE_DATE_DESC: {
+    name: 'admin/editor.productSummaryList.orderType.releaseDate',
+    value: 'OrderByReleaseDateDESC',
+  },
+  BEST_DISCOUNT_DESC: {
+    name: 'admin/editor.productSummaryList.orderType.discount',
+    value: 'OrderByBestDiscountDESC',
+  },
+}
+
+const parseFilters = ({ id, value }: { id: string; value: string }) =>
+  `specificationFilter_${id}:${value}`
+
+function getOrdinationProp(attribute: 'name' | 'value') {
+  return Object.keys(ORDER_BY_OPTIONS).map(
+    (key) => ORDER_BY_OPTIONS[key as keyof typeof ORDER_BY_OPTIONS][attribute]
+  )
+}
+
+interface SpecificationFilter {
+  id: string
+  value: string
+}
+
+interface Props {
+  /** Category ID of the listed items. For sub-categories, use "/" (e.g. "1/2/3") */
+  category?: string
+  /** Specification Filters of the listed items. */
+  specificationFilters?: SpecificationFilter[]
+  /** Filter by collection. */
+  collection?: string
+  /**
+   * Ordination type of the items. Possible values: `''`, `OrderByTopSaleDESC`, `OrderByReleaseDateDESC`, `OrderByBestDiscountDESC`, `OrderByPriceDESC`, `OrderByPriceASC`, `OrderByNameASC`, `OrderByNameDESC`
+   * @default ""
+   */
+  orderBy?:
+    | ''
+    | 'OrderByTopSaleDESC'
+    | 'OrderByPriceDESC'
+    | 'OrderByPriceASC'
+    | 'OrderByNameASC'
+    | 'OrderByNameDESC'
+    | 'OrderByReleaseDateDESC'
+    | 'OrderByBestDiscountDESC'
+  /** Hides items that are unavailable. */
+  hideUnavailableItems?: boolean
+  /**
+   * Maximum items to be fetched.
+   * @default 10
+   */
+  maxItems?: number
+  /**
+   * Control SKUs returned for each product in the query. The less SKUs needed to be returned, the more performant your shelf query will be.
+   * @default "ALL_AVAILABLE"
+   */
+  skusFilter?: 'ALL_AVAILABLE' | 'ALL' | 'FIRST_AVAILABLE'
+  /**
+   * Control what price to be shown when price has different installments options.
+   * @default "MAX_WITHOUT_INTEREST"
+   */
+  installmentCriteria?: 'MAX_WITHOUT_INTEREST' | 'MAX_WITH_INTEREST'
+  /**
+   * Name of the list property on Google Analytics events.
+   */
+  listName?: string
+  /** Slot of a product summary. */
+  ProductSummary: ComponentType<{ product: any }>
+  /** Callback on product click. */
+  actionOnProductClick?: (product: any) => void
+}
+
+function ProductSummaryList(props: PropsWithChildren<Props>) {
+  const {
+    category = '',
+    collection,
+    hideUnavailableItems = false,
+    orderBy = ORDER_BY_OPTIONS.RELEVANCE.value,
+    specificationFilters = [],
+    maxItems = 10,
+    skusFilter,
+    installmentCriteria,
+    children,
+    listName,
+    ProductSummary,
+    actionOnProductClick,
+  } = props
+
+  const { push } = usePixel()
+  const { data, loading, error } = useQuery<
+    QueryProductsTypes.Data,
+    QueryProductsTypes.Variables
+  >(QueryProducts, {
+    variables: {
+      category,
+      ...(collection != null
+        ? {
+            collection,
+          }
+        : {}),
+      specificationFilters: specificationFilters.map(parseFilters),
+      orderBy,
+      from: 0,
+      to: maxItems - 1,
+      hideUnavailableItems,
+      skusFilter,
+      installmentCriteria,
+    },
+  })
+
+  const { products } = data ?? {}
+
+  const productClick = useCallback(
+    (product: any) => {
+      actionOnProductClick?.(product)
+
+      push({
+        event: 'productClick',
+        // Not using ?? operator because listName can be ''
+        // eslint-disable-next-line no-unneeded-ternary
+        list: listName ? listName : 'List of products',
+        product,
+      })
+    },
+    [push, actionOnProductClick, listName]
+  )
+
+  if (loading || error) {
+    return null
+  }
+
+  return (
+    <ProductSummaryListWithoutQuery
+      products={products}
+      listName={listName}
+      ProductSummary={ProductSummary}
+      actionOnProductClick={productClick}
+    >
+      <ProductListStructuredData products={products} />
+      {children}
+    </ProductSummaryListWithoutQuery>
+  )
+}
+
+ProductSummaryList.schema = {
+  title: 'admin/editor.productSummaryList.title',
+  description: 'admin/editor.productSummaryList.description',
+  type: 'object',
+  properties: {
+    category: {
+      title: 'admin/editor.productSummaryList.category.title',
+      description: 'admin/editor.productSummaryList.category.description',
+      type: 'string',
+      isLayout: false,
+    },
+    specificationFilters: {
+      title: 'admin/editor.productSummaryList.specificationFilters.title',
+      type: 'array',
+      items: {
+        title:
+          'admin/editor.productSummaryList.specificationFilters.item.title',
+        type: 'object',
+        properties: {
+          id: {
+            type: 'string',
+            title:
+              'admin/editor.productSummaryList.specificationFilters.item.id.title',
+          },
+          value: {
+            type: 'string',
+            title:
+              'admin/editor.productSummaryList.specificationFilters.item.value.title',
+          },
+        },
+      },
+    },
+    collection: {
+      title: 'admin/editor.productSummaryList.collection.title',
+      type: 'string',
+      isLayout: false,
+    },
+    orderBy: {
+      title: 'admin/editor.productSummaryList.orderBy.title',
+      type: 'string',
+      enum: getOrdinationProp('value'),
+      enumNames: getOrdinationProp('name'),
+      default: ORDER_BY_OPTIONS.RELEVANCE.value,
+      isLayout: false,
+    },
+    hideUnavailableItems: {
+      title: 'admin/editor.productSummaryList.hideUnavailableItems',
+      type: 'boolean',
+      default: false,
+      isLayout: false,
+    },
+    maxItems: {
+      title: 'admin/editor.productSummaryList.maxItems.title',
+      type: 'number',
+      isLayout: false,
+      default: 10,
+    },
+    skusFilter: {
+      title: 'admin/editor.productSummaryList.skusFilter.title',
+      description: 'admin/editor.productSummaryList.skusFilter.description',
+      type: 'string',
+      default: 'ALL_AVAILABLE',
+      enum: ['ALL_AVAILABLE', 'ALL', 'FIRST_AVAILABLE'],
+      enumNames: [
+        'admin/editor.productSummaryList.skusFilter.all-available',
+        'admin/editor.productSummaryList.skusFilter.none',
+        'admin/editor.productSummaryList.skusFilter.first-available',
+      ],
+    },
+    installmentCriteria: {
+      title: 'admin/editor.productSummaryList.installmentCriteria.title',
+      description:
+        'admin/editor.productSummaryList.installmentCriteria.description',
+      type: 'string',
+      default: 'MAX_WITHOUT_INTEREST',
+      enum: ['MAX_WITHOUT_INTEREST', 'MAX_WITH_INTEREST'],
+      enumNames: [
+        'admin/editor.productSummaryList.installmentCriteria.max-without-interest',
+        'admin/editor.productSummaryList.installmentCriteria.max-with-interest',
+      ],
+    },
+    listName: {
+      title: 'admin/editor.productSummaryList.analyticsListName.title',
+      type: 'string',
+    },
+  },
+}
+
+export default ProductSummaryList

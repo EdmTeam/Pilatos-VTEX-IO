@@ -1,0 +1,7 @@
+{
+    "admin/editor.clear-search-filter.title": "Limpiar filtros",
+    "admin/editor.clear-search-filter.description": "Limpia todos los filtros de busqueda",
+    "admin/editor.clear-search-filter.label.title": "Label del boton",
+    "admin/editor.clear-search-filter.mode.title": "Modo en el que se presentara el componente mode1 = boton con texto; mode2 = boton con icono",
+    "admin/editor.clear-search-filter.mode.icon": "Icono a mostrar en el boton para el mode2"
+}

@@ -1,0 +1,22 @@
+.globalContainerInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.containerMap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (min-width: 1024px) {
+    .globalContainer {
+        display: flex;
+    }
+    .globalContainerInfo {
+        width: 40%;
+    }
+    .containerMap {
+        width: 60%;
+    }
+}

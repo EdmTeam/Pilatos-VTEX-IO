@@ -1,0 +1,9 @@
+{
+  "admin/editor.free-shipping.title": "admin/editor.free-shipping.title",
+  "admin/editor.free-shipping.description": "admin/editor.free-shipping.description",
+  "admin/editor.free-shipping.valueOfFreeShipping.title": "admin/editor.free-shipping.valueOfFreeShipping.title",
+  "admin/editor.free-shipping.infoLabel.labelInitial.title": "admin/editor.free-shipping.infoLabel.labelInitial.title",
+  "admin/editor.free-shipping.infoLabel.labelBetween.title": "admin/editor.free-shipping.infoLabel.labelBetween.title",
+  "admin/editor.free-shipping.infoLabel.labelFinal.title": "admin/editor.free-shipping.infoLabel.labelFinal.title",
+  "admin/editor.free-shipping.infoLabel.labelFreeShippingComplete.title": "admin/editor.free-shipping.infoLabel.labelFreeShippingComplete.title"
+}

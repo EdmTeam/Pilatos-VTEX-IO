@@ -1,0 +1,73 @@
+@import url('/arquivos/font-icommon.css');
+
+.contentSlide{
+    width: 100%;
+}
+
+.contentSlide > div{
+    width: 98%;
+    margin-left: auto;
+}
+
+.contentSlide .skuSelectorItem{
+    margin: 4px 2px;
+}
+
+.contentSlide :global(.slick-disabled)::before{
+    opacity: 0;
+}
+
+.contentSlide :global(.slick-prev){
+    left: -14px;
+    height: 100%;
+    z-index: 3;
+    opacity: 1;
+}
+
+.contentSlide :global(.slick-next){
+    right: 4px;
+    height: 100%;
+    background: #FFFFFF;
+    display: none !important;
+}
+
+.contentSlide :global(.slick-arrow):global(.slick-disabled):global(.slick-next),
+.contentSlide :global(.slick-arrow):global(.slick-disabled):global(.slick-prev)
+{
+    display: none !important;
+}
+
+.skuSelectorOptionsListMore .contentSlide :global(.slick-next){
+    display: block !important;
+}
+
+.contentSlide :global(.slick-next),
+.contentSlide :global(.slick-prev)
+{
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+.contentSlide :global(.slick-next)::before{
+    font-family: 'icomoon' !important;
+    content: '\e917';
+    font-size: 1rem;
+    color: #000000;
+}
+
+.contentSlide :global(.slick-prev)::before{
+    font-family: 'icomoon' !important;
+    content: '\e90d';
+    font-size: 1rem;
+    color: #000000;
+}
+
+.skuSelectorSubcontainer--color{
+    margin-bottom: .5rem;
+}
