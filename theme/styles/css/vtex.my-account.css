@@ -573,6 +573,26 @@ time{
     margin-left: 0.4rem;
 }
 
+:global(.vtex-account__order-details) ul li:last-child{
+    display: none;
+}
+
+:global(.vtex-account__order-details) ul li:first-child{
+    position: relative;
+}
+
+:global(.vtex-account__order-details) ul li:first-child::before{
+    content: '';
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: .8rem;
+    background-image: url("data:image/svg+xml,%3Csvg width='12' height='12' viewBox='0 0 12 12' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23clip0)'%3E%3Cpath d='M6.86717 0H1.08882C0.588875 0 0.183594 0.405281 0.183594 0.905227C0.183594 1.40517 0.588875 1.81045 1.08882 1.81045H6.86717C8.5982 1.81045 10.0065 3.21874 10.0065 4.94977C10.0065 6.68079 8.5982 8.08908 6.86717 8.08908H6.4235V6.81846C6.4235 6.1808 5.7332 5.78227 5.18096 6.10113L1.41266 8.277C0.860492 8.59582 0.860469 9.39281 1.41263 9.71166L5.18094 11.8878C5.73315 12.2066 6.4235 11.8081 6.4235 11.1704V9.89953H6.86717C9.59649 9.89953 11.8169 7.67909 11.8169 4.94977C11.8169 2.22045 9.59649 0 6.86717 0V0Z' fill='black'/%3E%3Cpath d='M6.86717 1.81069C8.4549 1.81069 9.77091 2.99553 9.97796 4.52743C9.99664 4.38917 10.0065 4.24814 10.0065 4.10485C10.0065 2.37382 8.59822 0.965535 6.8672 0.965535H1.08882C0.741547 0.965535 0.440117 0.769902 0.288289 0.48291C0.221539 0.609074 0.183594 0.752816 0.183594 0.905488C0.183594 1.40543 0.588875 1.81071 1.08882 1.81071H6.86717V1.81069Z' fill='black'/%3E%3Cpath d='M6.8675 9.05451H6.42383V9.89969H6.8675C9.59682 9.89969 11.8173 7.67924 11.8173 4.94992C11.8173 4.80756 11.8109 4.66668 11.799 4.52734C11.5839 7.05955 9.45444 9.05451 6.8675 9.05451Z' fill='black'/%3E%3Cpath d='M5.18115 11.0426L1.41285 8.8665C1.28197 8.79094 1.18253 8.68833 1.11369 8.57178C0.892116 8.94699 0.991561 9.4684 1.41285 9.71169L5.18115 11.8878C5.73337 12.2067 6.42372 11.8082 6.42372 11.1705V10.3253C6.42372 10.963 5.73337 11.3615 5.18115 11.0426Z' fill='black'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0'%3E%3Crect width='12' height='12' fill='white'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A");
+}
+
 :global(.vtex-pageHeader__container)
 :global(.vtex-pageHeader__children)
 :global(.vtex-button){
@@ -632,7 +652,7 @@ time{
 :global(.vtex-my-orders-app-3-x-orderHeader){
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
-    padding: 0.8rem 1.5rem;
+    padding: 0.8rem 1rem;
 }
 
 :global(.vtex-account__page)
@@ -1227,6 +1247,10 @@ span{
     letter-spacing: 0.02em;
 }
 
+.addressList .addressBox > div{
+    width: 100% !important;
+    padding: 0 .5rem 1rem .5rem;
+}
 
 @media only screen and (max-width: 1000px) {
     :global(.vtex-pageHeader__container){
@@ -1313,6 +1337,13 @@ span{
     }
 }
 
+@media only screen and (min-width: 1000px) {
+    .addressList .addressBox > div{
+        width: 33.3% !important;
+        padding: 0 .5rem 1rem .5rem;
+    }
+}
+
 .boxContainerBody :global(.vtex-input__label){
     display: block;
 }
@@ -1350,11 +1381,6 @@ span{
     display: block;
 }
 
-.addressList .addressBox > div{
-    width: 33.3%;
-    padding: 0 .5rem 1rem .5rem;
-}
-
 .addressList .addressBox{
     width: 92%;
     margin: 0 auto;
@@ -1387,4 +1413,57 @@ span{
 
 .addressCreate .boxContainer .boxContainerBody :global(.vtex-address-form__postalCode){
     padding-bottom: 1.5rem;
+}
+
+:global(.vtex-account__order-details) article section{
+    overflow: visible;
+}
+
+:global(.myo-progress-bar) :global(.myo-progress-bar__text){
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+}
+
+:global(.myo-progress-bar) :global(.myo-progress-bar__text):global(.c-on-base){
+    color: #000000;
+}
+
+:global(.myo-progress-bar) :global(.myo-progress-bar__text):global(.c-muted-3){
+    color: #606060;
+}
+
+:global(.myo-progress-bar__highlighted-circle) :global(.myo-progress-bar__text){
+    color: transparent !important;
+    position: relative;
+}
+
+:global(.myo-progress-bar__highlighted-circle) :global(.myo-progress-bar__text):global(.c-on-base)::before{
+    content: 'Pedido Preparado';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #000000;
+}
+
+:global(.myo-progress-bar__highlighted-circle) :global(.myo-progress-bar__text):global(.c-muted-3)::before{
+    content: 'Pedido Preparado';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #606060;
+}
+
+:global(.address-summary-COL) span:global(.complement),
+:global(.address-summary-COL) span:global(.country){
+    display: block;
+}
+
+:global(.address-summary-COL) br{
+    display: none;
 }

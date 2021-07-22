@@ -1,0 +1,78 @@
+{
+    "store.custom#page-pilatos-concept":{
+        "blocks":[
+            "flex-layout.row#banner-page-pilatos-concept",
+            "flex-layout.row#shelf-pilatos-concept"
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
+    },
+
+    "flex-layout.row#banner-page-pilatos-concept":{
+        "children":[
+            "flex-layout.col#banner-page-pilatos-concept"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#banner-page-pilatos-concept":{
+        "children":[
+            "rich-text#page-pilatos-concept-bread-crumb",
+            "rich-text#page-pilatos-concept-title",
+            "rich-text#page-pilatos-concept-description",
+            "responsive-layout.desktop#page-pilatos-concept-banners",
+            "responsive-layout.tablet#page-pilatos-concept-banners",
+            "responsive-layout.phone#page-pilatos-concept-banners"
+        ]
+    },
+
+    "responsive-layout.desktop#page-pilatos-concept-banners":{
+        "children":[
+            "flex-layout.col#page-pilatos-concept-banners-1"
+        ]
+    },
+
+    "rich-text#page-pilatos-concept-bread-crumb":{
+        "props":{
+            "text": "[Home](/) / [**Pilatos concept**](/pilatos-concept)",
+            "blockClass": "departmentBreadCrumb"
+        }
+    },
+
+    "rich-text#page-pilatos-concept-title":{
+        "props":{
+            "text": "Pilatos concept",
+            "blockClass": "departmentTitle"
+        }
+    },
+
+    "rich-text#page-pilatos-concept-description":{
+        "props":{
+            "text": "Ropa para hombre desde camisetas, tenis, jeans y chaquetas hasta billeteras, pantalonetas y medias. Descubre en Pilatos tu ropa favorita de marcas como M+F Girbaud, Superdry, Diesel, New Balance y Replay, sólo en Pilatos",
+            "blockClass": "departmentDescription"
+        }
+    },
+
+    "flex-layout.col#page-pilatos-concept-banners-1":{
+        "children":[
+            "image#page-pilatos-concept-banners-1-img-1"
+        ],
+        "props":{
+            "blockClass":"contentBannersDesk"
+        }
+    },
+
+    "image#page-pilatos-concept-banners-1-img-1": {
+        "props": {
+            "src": "/arquivos/PilatosConcept_Banner_principal_Desktop.jpg",
+            "link": {
+                "url": "/pilatos-concept",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    }
+}

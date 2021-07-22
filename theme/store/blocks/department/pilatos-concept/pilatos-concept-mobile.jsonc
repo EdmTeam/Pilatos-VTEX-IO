@@ -1,0 +1,54 @@
+{
+    "responsive-layout.phone#page-pilatos-concept-banners":{
+        "children":[
+            "flex-layout.col#page-pilatos-concept-banners-1-mobile"
+        ]
+    },
+
+    "flex-layout.col#page-pilatos-concept-banners-1-mobile":{
+        "children":[
+            "image#page-pilatos-concept-banners-1-img-1-mobile"
+        ],
+        "props":{
+            "blockClass":"contentBannersDesk"
+        }
+    },
+
+    "image#page-pilatos-concept-banners-1-img-1-mobile": {
+        "props": {
+            "src": "/arquivos/PilatosConcept_Banner_principal_Mobile.jpg",
+            "link": {
+                "url": "/pilatos-concept",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+    //Tablet
+    "responsive-layout.tablet#page-pilatos-concept-banners":{
+        "children":[
+            "flex-layout.col#page-pilatos-concept-banners-1-tablet"
+        ]
+    },
+
+    "flex-layout.col#page-pilatos-concept-banners-1-tablet":{
+        "children":[
+            "image#page-pilatos-concept-banners-1-img-1-tablet"
+        ],
+        "props":{
+            "blockClass":"contentBannersDesk"
+        }
+    },
+
+    "image#page-pilatos-concept-banners-1-img-1-tablet": {
+        "props": {
+            "src": "/arquivos/PilatosConcept_Banner_principal_Tablet.jpg",
+            "link": {
+                "url": "/pilatos-concept",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    }
+}

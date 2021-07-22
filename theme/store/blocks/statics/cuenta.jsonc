@@ -23,7 +23,8 @@
     },
     "rich-text#title-cuenta": {
         "props": {
-            "text": " ## CUENTA"
+            "text": " ## CUENTA",
+            "blockClass": "title-statict"
         }
     },
     "menu#static-accordion-menu-cuenta": {

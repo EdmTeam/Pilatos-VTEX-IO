@@ -1,0 +1,359 @@
+{
+    "store.custom#work-with-us":{
+        "children":[
+            "flex-layout.row#content-work-with"
+        ]
+    },
+
+    "flex-layout.row#content-work-with":{
+        "children":[
+            "flex-layout.col#content-work-with"
+        ]
+    },
+
+    "flex-layout.col#content-work-with":{
+        "children":[
+            "responsive-layout.phone#work-with",
+            "responsive-layout.tablet#work-with",
+            "responsive-layout.desktop#work-with"
+        ]
+    },
+
+    "responsive-layout.desktop#work-with":{
+        "children":[
+            "flex-layout.row#content-work-with-desktop"
+        ]
+    },
+
+    "responsive-layout.tablet#work-with":{
+        "children":[
+            "flex-layout.row#content-work-with-desktop",
+            "responsive-layout.tablet#brands-promise"
+        ]
+    },
+
+    "flex-layout.row#content-work-with-desktop":{
+        "children":[
+            "flex-layout.col#content-work-with-desktop"
+        ]
+    },
+
+    "flex-layout.col#content-work-with-desktop":{
+        "children":[
+            "flex-layout.col#content-work-with-desktop-col-1",
+            "flex-layout.col#content-work-with-desktop-col-2",
+            "flex-layout.col#content-work-with-desktop-col-3",
+            "flex-layout.col#content-work-with-desktop-col-4",
+            "responsive-layout.desktop#brands-promise"
+        ],
+        "props":{
+            "blockClass": "contentWorkWithDesktop"
+        }
+    },
+
+
+    "responsive-layout.phone#work-with":{
+        "children":[
+            "flex-layout.row#content-work-with-mobile"
+        ]
+    },
+
+    "flex-layout.row#content-work-with-mobile":{
+        "children":[
+            "flex-layout.col#content-work-with-mobile-col-1",
+            "flex-layout.col#content-work-with-mobile-col-2",
+            "flex-layout.col#content-work-with-mobile-col-3",
+            "flex-layout.col#content-work-with-mobile-col-4",
+            "responsive-layout.phone#brands-promise"
+        ]
+    },
+
+    "flex-layout.col#content-work-with-mobile-col-1":{
+        "children":[
+            "image#work-with"
+        ],
+        "props":{
+            "width": "100%",
+            "blockClass": "workWithContentBanner"
+        }
+    },
+
+    "flex-layout.col#content-work-with-desktop-col-1":{
+        "children":[
+            "image#work-with-desktop"
+        ],
+        "props":{
+            "width": "100%",
+            "blockClass": "workWithContentBanner"
+        }
+    },
+
+    "flex-layout.col#content-work-with-mobile-col-2":{
+        "children":[
+            "iframe#work-with"
+        ],
+        "props":{
+            "width": "100%",
+            "blockClass": "workWithContentIframe"
+        }
+    },
+
+    "flex-layout.col#content-work-with-desktop-col-2":{
+        "children":[
+            "iframe#work-with"
+        ],
+        "props":{
+            "width": "100%",
+            "blockClass": "workWithContentIframe"
+        }
+    },
+
+    "image#work-with-desktop":{
+        "props": {
+            "src": "/arquivos/vacantes-edm-banner.jpg",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "width": "100%"
+        }
+    },
+
+    "image#work-with":{
+        "props": {
+            "src": "/arquivos/vacantes-edm-banner-m.jpg",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "width": "100%"
+        }
+    },
+
+    "iframe#work-with": {
+        "props": {
+          "src": "https://www.youtube-nocookie.com/embed/Ylf15fPwu5U?autoplay=1&loop=1&playlist=Ylf15fPwu5U&controls=0&mute=0",
+          "blockClass":"contentWorkWithIframe"
+        }
+    },
+
+    "flex-layout.col#content-work-with-mobile-col-3":{
+        "children":[
+            "image#work-with-banner-2",
+            "image#work-with-banner-3"     
+        ],
+        "props":{
+            "width": "100%",
+            "blockClass": "workWithContentBanner-2"
+        }
+    },
+
+    "flex-layout.col#content-work-with-desktop-col-3":{
+        "children":[
+            "image#work-with-banner-2",
+            "image#work-with-banner-3"     
+        ],
+        "props":{
+            "width": "100%",
+            "blockClass": "workWithContentBanner-2"
+        }
+    },
+
+    "image#work-with-banner-2":{
+        "props": {
+            "src": "/arquivos/vacantes-equipo-2-2020.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "width": "100%",
+            "blockClass": "workWithContentBannerImg"
+        }
+    },
+
+    "image#work-with-banner-3":{
+        "props": {
+            "src": "/arquivos/vacantes-equipo-2020.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "width": "100%",
+            "blockClass": "workWithContentBannerImg"
+        }
+    },
+
+    "flex-layout.col#content-work-with-mobile-col-4":{
+        "children":[
+            "flex-layout.row#content-work-with-mobile-col-4"
+        ],
+        "props":{
+            "width": "100%",
+            "blockClass": "workWithContentBanner-3"
+        }
+    },
+
+    "flex-layout.col#content-work-with-desktop-col-4":{
+        "children":[
+            "flex-layout.row#content-work-with-desktop-col-4"
+        ],
+        "props":{
+            "width": "100%",
+            "blockClass": "workWithContentBanner-3"
+        }
+    },
+
+    "flex-layout.row#content-work-with-mobile-col-4":{
+        "children":[
+            "flex-layout.col#content-work-with-mobile-banner-3-col-1",
+            "flex-layout.col#content-work-with-mobile-banner-3-col-2",
+            "flex-layout.col#content-work-with-mobile-banner-3-col-3",
+            "flex-layout.col#content-work-with-mobile-banner-3-col-4"
+        ],
+        "props":{
+            "preserveLayoutOnMobile": true,
+            "blockClass": "workWithContentPromsSectionRow"
+        }
+    },
+
+    "flex-layout.row#content-work-with-desktop-col-4":{
+        "children":[
+            "flex-layout.col#content-work-with-desktop-banner-3-col-1",
+            "flex-layout.col#content-work-with-desktop-banner-3-col-2",
+            "flex-layout.col#content-work-with-desktop-banner-3-col-3",
+            "flex-layout.col#content-work-with-desktop-banner-3-col-4"
+        ],
+        "props":{
+            "preserveLayoutOnMobile": true,
+            "blockClass": "workWithContentPromsSectionRow"
+        }
+    },
+
+    "flex-layout.col#content-work-with-mobile-banner-3-col-1":{
+        "children":[
+            "image#work-with-banner-promsSection-1"
+        ],
+        "props":{
+            "width": "50%",
+            "blockClass": "workWithImgPromsSectionLeft"
+        }
+    },
+
+    "flex-layout.col#content-work-with-desktop-banner-3-col-1":{
+        "children":[
+            "image#work-with-banner-promsSection-1"
+        ],
+        "props":{
+            "width": "25%",
+            "blockClass": "workWithImgPromsSection"
+        }
+    },
+
+    "flex-layout.col#content-work-with-mobile-banner-3-col-2":{
+        "children":[
+            "image#work-with-banner-promsSection-2"
+        ],
+        "props":{
+            "width": "50%",
+            "blockClass": "workWithImgPromsSectionRight"
+        }
+    },
+
+    "flex-layout.col#content-work-with-desktop-banner-3-col-2":{
+        "children":[
+            "image#work-with-banner-promsSection-2"
+        ],
+        "props":{
+            "width": "25%",
+            "blockClass": "workWithImgPromsSection"
+        }
+    },
+
+    "flex-layout.col#content-work-with-mobile-banner-3-col-3":{
+        "children":[
+            "image#work-with-banner-promsSection-3"
+        ],
+        "props":{
+            "width": "50%",
+            "blockClass": "workWithImgPromsSectionLeft"
+        }
+    },
+
+    "flex-layout.col#content-work-with-desktop-banner-3-col-3":{
+        "children":[
+            "image#work-with-banner-promsSection-3"
+        ],
+        "props":{
+            "width": "25%",
+            "blockClass": "workWithImgPromsSection"
+        }
+    },
+
+    "flex-layout.col#content-work-with-mobile-banner-3-col-4":{
+        "children":[
+            "image#work-with-banner-promsSection-4"
+        ],
+        "props":{
+            "width": "50%",
+            "blockClass": "workWithImgPromsSectionRight"
+        }
+    },
+
+    "flex-layout.col#content-work-with-desktop-banner-3-col-4":{
+        "children":[
+            "image#work-with-banner-promsSection-4"
+        ],
+        "props":{
+            "width": "25%",
+            "blockClass": "workWithImgPromsSection"
+        }
+    },
+
+    "image#work-with-banner-promsSection-1":{
+        "props": {
+            "src": "/arquivos/vacantes-edm-comisiones.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "width": "100%",
+            "blockClass": "workWithContentPromsSection"
+        }
+    },
+
+    "image#work-with-banner-promsSection-2":{
+        "props": {
+            "src": "/arquivos/vacantes-edm-mejoresmarcas.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "width": "100%",
+            "blockClass": "workWithContentPromsSection"
+        }
+    },
+
+    "image#work-with-banner-promsSection-3":{
+        "props": {
+            "src": "/arquivos/vacantes-edm-moda.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "width": "100%",
+            "blockClass": "workWithContentPromsSection"
+        }
+    },
+
+    "image#work-with-banner-promsSection-4":{
+        "props": {
+            "src": "/arquivos/vacantes-edm-soy.png",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "width": "100%",
+            "blockClass": "workWithContentPromsSection"
+        }
+    }
+}

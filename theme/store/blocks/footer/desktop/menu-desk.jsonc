@@ -53,7 +53,8 @@
         "children":[
             "flex-layout.col#legal-rights",
             "flex-layout.col#legal-ico-blacksip",
-            "flex-layout.col#legal-ico-vtex"
+            "flex-layout.col#legal-ico-vtex",
+            "flex-layout.col#legal-ico-ssl"
         ],
         "props":{
             "blockClass": "legalRights"
@@ -105,6 +106,23 @@
         "props": {
             "text": "",
             "blockClass": "icoVtex"
+        }
+    },
+
+    "flex-layout.col#legal-ico-ssl":{
+        "children":[
+            "rich-text#legal-ico-ssl"
+        ],
+        "props":{
+            "width": "11%",
+            "blockClass": "icoSsl"
+        }
+    },
+
+    "rich-text#legal-ico-ssl":{
+        "props": {
+            "text": "",
+            "blockClass": "icoSsl"
         }
     },
 

@@ -23,7 +23,8 @@
     },
     "rich-text#static-top-title-cambios": {
         "props": {
-            "text": " # CAMBIOS Y DEVOLUCIONES"
+            "text": " # CAMBIOS Y DEVOLUCIONES",
+            "blockClass": "title-statict"
         }
     },
     "menu#static-accordion-menu-1": {

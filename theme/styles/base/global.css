@@ -290,3 +290,45 @@
       width: 100% !important;
     }
 }
+
+@media screen and (min-width: 750px){
+    :global(.vtex-iframe-0-x-container--contentWorkWithIframe) iframe{
+        width: 100%;
+        height: 370px;
+    }
+}
+
+@media screen and (min-width: 1080px){
+    :global(.vtex-iframe-0-x-container--contentWorkWithIframe) iframe{
+        height: 650px;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    :global(.vtex-my-orders-app-3-x-orderCard)
+    :global(.vtex-my-orders-app-3-x-orderBody) > div:last-child{
+        align-items: center;
+    }
+
+    :global(.vtex-my-orders-app-3-x-collapsedOrder) > div:last-child{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    :global(.vtex-my-orders-app-3-x-orderHeader) > div:last-child{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+:global(.vtex-my-orders-app-3-x-orderHeader) > div:last-child > div:last-child span{
+    font-size: .75rem;
+    color: #FFFFFF;
+    line-height: 1.5;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--deliveryCityInformation) :global(.vtex-order-placed-2-x-addressContainer) :global(.complement){
+    display: none;
+}

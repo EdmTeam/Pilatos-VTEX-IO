@@ -1,7 +1,7 @@
 {
   "vendor": "pilatos21",
   "name": "theme",
-  "version": "0.0.2",
+  "version": "0.0.8",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
@@ -69,7 +69,8 @@
     "pilatos21.add-to-cart-button": "0.x",
     "pilatos21.custom-sticky": "0.x",
     "pilatos21.free-shipping": "0.x",
-    "pilatos21.store-locator": "1.x"
+    "pilatos21.store-locator": "1.x",
+    "pilatos21.size-guide": "0.x"
   },
   "peerDependencies": {
     "pilatos21.wishlist": "0.x"

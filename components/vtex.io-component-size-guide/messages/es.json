@@ -1,0 +1,11 @@
+{
+    "store/sizeGuide.label":"¿Cuál es mi talla?",
+    "admin/editor.size-guide.title":"Guía de tallas",
+    "admin/editor.size-guide.description":"Propiedades del modal",
+    "admin/editor.size-guide.conditionals.title":"Condiciones",
+    "admin/editor.size-guide.brands.title":"Marcas",
+    "admin/editor.size-guide.categories.title":"Categorias",
+    "admin/editor.size-guide.imageDesktop.title":"Imagen de escritorio",
+    "admin/editor.size-guide.imageTablet.title":"Imagen de Tablet",
+    "admin/editor.size-guide.imagePhone.title":"Imagen de teléfono"
+}

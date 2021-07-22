@@ -23,7 +23,8 @@
     },
     "rich-text#title-pagos": {
         "props": {
-            "text": " ## PAGOS"
+            "text": " ## PAGOS",
+            "blockClass": "title-statict"
         }
     },
     "menu#static-accordion-menu-pagos": {

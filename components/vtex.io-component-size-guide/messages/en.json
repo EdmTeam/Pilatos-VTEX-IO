@@ -1,0 +1,11 @@
+{
+    "store/sizeGuide.label":"Size Guide",
+    "admin/editor.size-guide.title":"Size Guide",
+    "admin/editor.size-guide.description":"Size guide modal props",
+    "admin/editor.size-guide.conditionals.title":"Conditionals",
+    "admin/editor.size-guide.brands.title":"Brands",
+    "admin/editor.size-guide.categories.title":"Categories",
+    "admin/editor.size-guide.imageDesktop.title":"Desktop Image",
+    "admin/editor.size-guide.imageTablet.title":"Tablet Image",
+    "admin/editor.size-guide.imagePhone.title":"Phone Image"
+}

@@ -1,9 +1,9 @@
 {
   "store.home": {
     "blocks": [
-      "responsive-layout.phone#promotional-banner",
-      "responsive-layout.desktop#promotional-banner",
-      "responsive-layout.tablet#promotional-banner",
+      // "responsive-layout.phone#promotional-banner",
+      // "responsive-layout.desktop#promotional-banner",
+      // "responsive-layout.tablet#promotional-banner",
       "responsive-layout.phone#banner-principal",
       "responsive-layout.tablet#banner-principal",
       "responsive-layout.desktop#banner-principal",

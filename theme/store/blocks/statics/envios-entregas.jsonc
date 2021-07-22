@@ -23,7 +23,8 @@
     },
     "rich-text#title-envios": {
         "props": {
-            "text": " ## ENVÍOS Y ENTREGAS"
+            "text": " ## ENVÍOS Y ENTREGAS",
+            "blockClass": "title-statict"
         }
     },
     "menu#static-accordion-menu-envios": {

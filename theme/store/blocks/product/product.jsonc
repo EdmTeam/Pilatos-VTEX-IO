@@ -98,6 +98,8 @@
       "stack-layout#product",
       "product-price#product",
       "sku-selector",
+      "size-guide#zapatos-hombre",
+      "size-guide#zapatos-mujer",
       "product-quantity",
       "flex-layout.row#product-button",
       "link#scrollLink",
@@ -108,6 +110,34 @@
       "width": "60%",
       "rowGap": 0,
       "blockClass": "stack-product"
+    }
+  },
+
+  "size-guide#zapatos-hombre":{
+    "props": {
+      "conditionals": [
+          {
+              //"brands": ["121", "2000001"],
+              "categories": ["3"],
+              "image": "/arquivos/Adisas--Hombre-zapato.jpg",
+              "imageTablet": "/arquivos/Adidas-hombre-zapato-largo.jpg",
+              "imagePhone": "/arquivos/Adidas-hombre-zapato-largo.jpg"
+          }
+      ]
+    }
+  },
+
+  "size-guide#zapatos-mujer":{
+    "props": {
+      "conditionals": [
+          {
+              //"brands": ["121", "2000001"],
+              "categories": ["44"],
+              "image": "/arquivos/Adidas---mujer-zapato.jpg",
+              "imageTablet": "/arquivos/Adidas---mujer-zapato.jpg",
+              "imagePhone": "/arquivos/Adidas-mujer-zapato-largo.jpg"
+          }
+      ]
     }
   },
 

@@ -3,11 +3,5 @@
         "blocks":[
             "pilatos21.store-locator:store-locator"
         ]
-    },
-
-    "rich-text#test":{
-        "props":{
-            "text": "texto desde store locator"
-        }
     }
 }

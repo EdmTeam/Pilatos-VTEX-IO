@@ -1,13 +1,13 @@
 {
     //paginas 404
-    "store.not-found#product": {
+    "vtex.store:store.not-found#product": {
         "blocks": [
             "flex-layout.row#error404",
             "rich-text#btnHome"
         ]
     },
 
-    "store.not-found#search": {
+    "vtex.store:store.not-found#search": {
         "blocks": [
             "flex-layout.row#error404",
             "rich-text#btnHome"

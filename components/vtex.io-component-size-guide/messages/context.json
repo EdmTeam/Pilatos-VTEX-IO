@@ -1,0 +1,11 @@
+{
+    "store/sizeGuide.label":"store/sizeGuide.label",
+    "admin/editor.size-guide.title":"admin/editor.size-guide.title",
+    "admin/editor.size-guide.description":"admin/editor.size-guide.description",
+    "admin/editor.size-guide.conditionals.title":"admin/editor.size-guide.conditionals.title",
+    "admin/editor.size-guide.brands.title":"admin/editor.size-guide.brands.title",
+    "admin/editor.size-guide.categories.title":"admin/editor.size-guide.categories.title",
+    "admin/editor.size-guide.imageDesktop.title":"admin/editor.size-guide.imageDesktop.title",
+    "admin/editor.size-guide.imageTablet.title":"admin/editor.size-guide.imageTablet.title",
+    "admin/editor.size-guide.imagePhone.title":"admin/editor.size-guide.imagePhone.title"
+}

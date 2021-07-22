@@ -37,6 +37,8 @@
             "flex-layout.row#product-identifier-rating",
             "product-price#product",
             "sku-selector",
+            "size-guide#zapatos-hombre",
+            "size-guide#zapatos-mujer",
             "flex-layout.row#product-button-quantity",
             "link#scrollLink",
             "share#default",

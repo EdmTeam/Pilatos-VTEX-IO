@@ -66,6 +66,14 @@
                         "url": "/",
                         "attributeTitle": ""
                     }
+                },
+                {
+                    "image": "/arquivos/Banner_CuartoNivel_Mobile_05.jpg",
+                    "description": "Promotional Banner",
+                    "link": {
+                        "url": "/",
+                        "attributeTitle": ""
+                    }
                 }
             ]
         }

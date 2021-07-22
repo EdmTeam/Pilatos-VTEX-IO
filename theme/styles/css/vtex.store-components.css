@@ -626,3 +626,7 @@
     display: none;
   }
 }
+
+.imageElementLink--workWithContentBannerImg{
+    margin-bottom: 1rem;
+}

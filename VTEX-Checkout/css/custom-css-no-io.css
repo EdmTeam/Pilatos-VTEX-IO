@@ -1,0 +1,3 @@
+.vtex-account__order-details > div > div > ul > li:nth-child(2n) {
+    display: none !important;
+}

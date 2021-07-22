@@ -1,0 +1,33 @@
+{
+    "flex-layout.row#shelf-pilatos-concept": {
+        "children": [
+            "flex-layout.col#shelf-pilatos-concept"
+        ],
+        "props": {
+            "blockClass": "sliderContentShelf"
+        }
+    },
+
+    "flex-layout.col#shelf-pilatos-concept": {
+        "children": [
+            "vtex.product-summary:list-context.product-list#shelf-pilatos-concept"
+        ],
+        "props":{
+            "blockClass": "sliderContentShelfSelf"
+        }
+    },
+
+    "vtex.product-summary:list-context.product-list#shelf-pilatos-concept": {
+        "blocks": [
+            "vtex.product-summary:product-summary.shelf#most-viewed"
+        ],
+        "children": [
+            "list-context-renderer"
+        ],
+        "props": {
+            "orderBy": "OrderByTopSaleDESC",
+            "collection": "137",
+            "maxItems": 100
+        }
+    }
+}

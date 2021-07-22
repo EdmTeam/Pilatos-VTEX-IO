@@ -1,0 +1,78 @@
+{
+    "store.custom#page-nuevo":{
+        "blocks":[
+            "flex-layout.row#banner-page-nuevo",
+            "flex-layout.row#shelf-nuevo"
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
+    },
+
+    "flex-layout.row#banner-page-nuevo":{
+        "children":[
+            "flex-layout.col#banner-page-nuevo"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#banner-page-nuevo":{
+        "children":[
+            "rich-text#page-nuevo-bread-crumb",
+            "rich-text#page-nuevo-title",
+            "rich-text#page-nuevo-description",
+            "responsive-layout.desktop#page-nuevo-banners",
+            "responsive-layout.tablet#page-nuevo-banners",
+            "responsive-layout.phone#page-nuevo-banners"
+        ]
+    },
+
+    "responsive-layout.desktop#page-nuevo-banners":{
+        "children":[
+            "flex-layout.col#page-nuevo-banners-1"
+        ]
+    },
+
+    "rich-text#page-nuevo-bread-crumb":{
+        "props":{
+            "text": "[Home](/) / [**Nuevo**](/nuevo)",
+            "blockClass": "departmentBreadCrumb"
+        }
+    },
+
+    "rich-text#page-nuevo-title":{
+        "props":{
+            "text": "Nuevo",
+            "blockClass": "departmentTitle"
+        }
+    },
+
+    "rich-text#page-nuevo-description":{
+        "props":{
+            "text": "Ropa para hombre desde camisetas, tenis, jeans y chaquetas hasta billeteras, pantalonetas y medias. Descubre en Pilatos tu ropa favorita de marcas como M+F Girbaud, Superdry, Diesel, New Balance y Replay, sólo en Pilatos",
+            "blockClass": "departmentDescription"
+        }
+    },
+
+    "flex-layout.col#page-nuevo-banners-1":{
+        "children":[
+            "image#page-nuevo-banners-1-img-1"
+        ],
+        "props":{
+            "blockClass":"contentBannersDesk"
+        }
+    },
+
+    "image#page-nuevo-banners-1-img-1": {
+        "props": {
+            "src": "/arquivos/Nuevos_Banner_principal_Desktop.jpg",
+            "link": {
+                "url": "/nuevo",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    }
+}

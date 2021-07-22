@@ -27,9 +27,9 @@
 
     "vtex.menu@2.x:submenu.accordion#footer-mobile-4-row-1": {
         "children": [
-            "rich-text#submenu-4-text-1",
-            "rich-text#submenu-4-text-2",
-            "rich-text#submenu-4-text-3"
+            // "rich-text#submenu-4-text-1",
+            "rich-text#submenu-4-text-2"
+            // "rich-text#submenu-4-text-3"
         ],
         "props": {
             "blockClass": "contentSubMenu"
@@ -45,7 +45,7 @@
 
     "rich-text#submenu-4-text-2": {
         "props": {
-            "text": "[Trabaja con nosotros](#!)",
+            "text": "[Trabaja con nosotros](/trabaja-con-nosotros)",
             "blockClass": "textSubmenu"
         }
     },

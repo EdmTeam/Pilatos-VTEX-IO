@@ -1,0 +1,1 @@
+Allow customers to create and manage a wishlist of products.

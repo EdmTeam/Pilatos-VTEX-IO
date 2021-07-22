@@ -23,7 +23,8 @@
     },
     "rich-text#title-compra": {
         "props": {
-            "text": " ## COMPRA EN LÍNEA"
+            "text": " ## COMPRA EN LÍNEA",
+            "blockClass": "title-statict"
         }
     },
     "menu#static-accordion-menu-compra": {

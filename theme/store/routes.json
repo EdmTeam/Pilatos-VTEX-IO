@@ -581,5 +581,14 @@
     },
     "store.custom#compra": {
         "path": "/compra"
+    },
+    "store.custom#page-nuevo": {
+        "path": "/nuevo"
+    },
+    "store.custom#page-pilatos-concept":{
+        "path": "/pilatos-concept"
+    },
+    "store.custom#work-with-us":{
+        "path": "/trabaja-con-nosotros"
     }
 }

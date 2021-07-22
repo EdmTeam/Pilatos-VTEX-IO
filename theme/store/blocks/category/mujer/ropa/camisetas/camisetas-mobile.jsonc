@@ -90,8 +90,7 @@
         "props": {
             "images": [
                 {
-                    "image": "/arquivos/category-bn-mobile-1.png",
-                    "mobileImage": "/arquivos/category-bn-mobile-1.png",
+                    "image": "/arquivos/BANNER_categoria_mujer_ropadebano_mobile.jpg",
                     "description": "Promotional Banner",
                     "link": {
                         "url": "/",
@@ -101,8 +100,7 @@
                     "width": "235px"
                 },
                 {
-                    "image": "/arquivos/category-bn-mobile-1.png",
-                    "mobileImage": "/arquivos/category-bn-mobile-1.png",
+                    "image": "/arquivos/BANNER_categoria_mujer_ropadeportiva_mobile.jpg",
                     "description": "Promotional Banner",
                     "link": {
                         "url": "/",
@@ -111,8 +109,7 @@
                     "title": ""
                 },
                 {
-                    "image": "/arquivos/category-bn-mobile-1.png",
-                    "mobileImage": "/arquivos/Dep-mobile-2.png",
+                    "image": "/arquivos/BANNER_categoria_mujer_vestidosyfaldas_mobile.jpg",
                     "description": "Promotional Banner",
                     "link": {
                         "url": "/",

@@ -1,0 +1,1 @@
+Permitir que os clientes criem e gerenciem uma lista de desejos de produtos.

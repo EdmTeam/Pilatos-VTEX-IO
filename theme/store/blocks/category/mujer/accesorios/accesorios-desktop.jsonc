@@ -86,7 +86,7 @@
 
     "image#category-accesorios-mujer-banners-1-img-1": {
         "props": {
-            "src": "/arquivos/category-bn-desk-3.png",
+            "src": "/arquivos/BANNER_categoria_mujer_bolsosymorrales_dektop.jpg",
             "link": {
                 "url": "/",
                 "attributeTitle": ""
@@ -97,7 +97,7 @@
 
     "image#category-accesorios-mujer-banners-1-img-2": {
         "props": {
-            "src": "/arquivos/category-bn-desk-2.png",
+            "src": "/arquivos/BANNER_categoria_mujer_camisetas_dektop.jpg",
             "link": {
                 "url": "/",
                 "attributeTitle": ""
@@ -108,7 +108,7 @@
 
     "image#category-accesorios-mujer-banners-1-img-3": {
         "props": {
-            "src": "/arquivos/category-bn-desk-1.png",
+            "src": "/arquivos/BANNER_categoria_mujer_ropadebano_desktop.jpg",
             "link": {
                 "url": "/",
                 "attributeTitle": ""
