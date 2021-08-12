@@ -15,35 +15,61 @@
   },
   "responsive-layout.desktop#sub-banner-1": {
     "children": [
-      "image#sub-banner-1-desktop"
+      "link#sub-banner-1-desktop"
     ]
   },
 
   "responsive-layout.tablet#sub-banner-1": {
     "children": [
-      "image#sub-banner-1-tablet-landscape",
-      "image#sub-banner-1-tablet-portrait"
+      "link#sub-banner-1-tablet-landscape",
+      "link#sub-banner-1-tablet-portrait"
     ]
   },
 
   "responsive-layout.phone#sub-banner-1": {
     "children": [
-      "image#sub-banner-1-mobile"
+      "link#sub-banner-1-mobile"
     ]
+  },
+
+  "link#sub-banner-1-desktop":{
+    "children":[
+      "image#sub-banner-1-desktop"
+    ],
+    "props":{
+      "href": "/1147?map=productClusterIds"
+    }
   },
 
   "image#sub-banner-1-desktop": {
     "props": {
       "blockClass": "sub-banner-image-sale-desk",
-      "src": "/arquivos/Sale_Banner_hombre_Desktop.jpg",
-      "link": "/"
+      "src": "/arquivos/Sale_Banner_hombre_Desktop.jpg"
     }
   },
+
+  "link#sub-banner-1-tablet-landscape":{
+    "children":[
+      "image#sub-banner-1-tablet-landscape"
+    ],
+    "props":{
+      "href": "/1147?map=productClusterIds"
+    }
+  },
+
   "image#sub-banner-1-tablet-landscape": {
     "props": {
       "blockClass": "sub-banner-image-sale-landscape",
       "src": "/arquivos/Sale_Banner_hombre_Desktop.jpg",
-      "link": "/"
+      "link": "/1147?map=productClusterIds"
+    }
+  },
+  "link#sub-banner-1-tablet-portrait":{
+    "children":[
+      "image#sub-banner-1-tablet-portrait"
+    ],
+    "props":{
+      "href": "/1147?map=productClusterIds"
     }
   },
   "image#sub-banner-1-tablet-portrait": {
@@ -53,10 +79,18 @@
       "link": "/"
     }
   },
+  "link#sub-banner-1-mobile":{
+    "children":[
+      "image#sub-banner-1-mobile"
+    ],
+    "props":{
+      "href": "/1147?map=productClusterIds"
+    }
+  },
   "image#sub-banner-1-mobile": {
     "props": {
       "src": "/arquivos/Sale_Banner_hombre_Mobile.jpg",
-      "link": "/"
+      "link": "/1147?map=productClusterIds"
     }
   },
 
@@ -71,14 +105,14 @@
   },
   "responsive-layout.desktop#sub-banner-2": {
     "children": [
-      "image#sub-banner-2-desktop"
+      "link#sub-banner-2-desktop"
     ]
   },
 
   "responsive-layout.tablet#sub-banner-2": {
     "children": [
-      "image#sub-banner-2-tablet-landscape",
-      "image#sub-banner-2-tablet-portrait"
+      "link#sub-banner-2-tablet-landscape",
+      "link#sub-banner-2-tablet-portrait"
     ]
   },
 
@@ -87,12 +121,27 @@
       "image#sub-banner-2-mobile"
     ]
   },
-
+  "link#sub-banner-2-desktop": {
+    "children":[
+      "image#sub-banner-2-desktop"
+    ],
+    "props": {
+      "href": "/1146?map=productClusterIds"
+    }
+  },
   "image#sub-banner-2-desktop": {
     "props": {
       "blockClass": "sub-banner-image-sale-desk",
       "src": "/arquivos/Sale_Banner_mujer_Desktop.jpg",
       "link": "/"
+    }
+  },
+  "link#sub-banner-2-tablet-landscape": {
+    "children":[
+      "image#sub-banner-2-tablet-landscape"
+    ],
+    "props": {
+      "href": "/1146?map=productClusterIds"
     }
   },
   "image#sub-banner-2-tablet-landscape": {
@@ -102,11 +151,27 @@
       "link": "/"
     }
   },
+  "link#sub-banner-2-tablet-portrait": {
+    "children":[
+      "image#sub-banner-2-tablet-portrait"
+    ],
+    "props": {
+      "href": "/1146?map=productClusterIds"
+    }
+  },
   "image#sub-banner-2-tablet-portrait": {
     "props": {
       "blockClass": "sub-banner-image-sale-portrait",
       "src": "/arquivos/Sale_Banner_mujer_Tablet.jpg",
       "link": "/"
+    }
+  },
+  "link#sub-banner-2-mobile": {
+    "children":[
+      "image#sub-banner-2-mobile"    
+    ],
+    "props": {
+      "href": "/1146?map=productClusterIds"
     }
   },
   "image#sub-banner-2-mobile": {

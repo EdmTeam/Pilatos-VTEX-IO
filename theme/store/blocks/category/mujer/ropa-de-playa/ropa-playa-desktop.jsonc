@@ -22,10 +22,10 @@
         "children":[
             "rich-text#category-ropa-de-playa-mujer-bread-crumb",
             "rich-text#category-ropa-de-playa-mujer-title",
-            "rich-text#category-ropa-de-playa-mujer-description",
-            "responsive-layout.desktop#category-ropa-de-playa-mujer-banners",
-            "responsive-layout.phone#category-ropa-de-playa-mujer-banners",
-            "responsive-layout.tablet#category-ropa-de-playa-mujer-banners"
+            "rich-text#category-ropa-de-playa-mujer-description"
+            // "responsive-layout.desktop#category-ropa-de-playa-mujer-banners",
+            // "responsive-layout.phone#category-ropa-de-playa-mujer-banners",
+            // "responsive-layout.tablet#category-ropa-de-playa-mujer-banners"
         ]
     },
 
@@ -63,7 +63,7 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
                 "maxItemsPerPage": 12,
                 "queryField": "mujer/ropa-de-playa",

@@ -44,14 +44,14 @@
 
     "rich-text#category-chaquetas-hombre-title":{
         "props":{
-            "text": "Chaquetas para hombre",
+            "text": "# Chaquetas para hombre",
             "blockClass": "departmentTitle"
         }
     },
 
     "rich-text#category-chaquetas-hombre-description":{
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "text": "Descubre diferentes chaquetas para hombre de las mejores marcas como: Superdry, Diesel, Pilatos Concept, Replay, Celio, M+F Girbaud, New Balance y New Project. Contamos con múltiples diseños, estilos y colores para que escojas el que más te guste. Chaquetas en algodón, cuero, jean, rompevientos, acolchadas, casuales, elegantes y más opciones en un solo lugar. ¡Mantén siempre el estilo cool que te identifica comprando **chaquetas de moda** en Pilatos!",
             "blockClass": "departmentDescription"
         }
     },
@@ -63,7 +63,7 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
                 "maxItemsPerPage": 12,
                 "queryField": "hombre/ropa/chaquetas",

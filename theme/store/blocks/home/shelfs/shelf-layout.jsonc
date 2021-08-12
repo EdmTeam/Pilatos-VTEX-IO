@@ -32,7 +32,7 @@
         "props": {
             "orderBy": "OrderByTopSaleDESC",
             "collection": "137",
-            "maxItems": 100
+            "maxItems": 30
         }
     },
     "slider-layout#home-shelf-most-viewed": {

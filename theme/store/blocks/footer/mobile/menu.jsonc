@@ -109,8 +109,8 @@
     "flex-layout.row#content-social-media":{
         "children":[
             "rich-text#facebook",
-            "rich-text#instagram"
-            // "rich-text#whatsapp"
+            "rich-text#instagram",
+            "rich-text#whatsapp"
         ],
         "props":{
             "blockClass":"contentSocialMedia"
@@ -131,12 +131,12 @@
         }
     },
 
-    // "rich-text#whatsapp":{
-    //     "props":{
-    //         "text": "[](/)",
-    //         "blockClass": "icoWhatsapp"
-    //     }
-    // },
+    "rich-text#whatsapp":{
+        "props":{
+            "text": "[](https://api.whatsapp.com/send/?phone=573215282745&text&app_absent=0)",
+            "blockClass": "icoWhatsapp"
+        }
+    },
 
     "flex-layout.col#content-footer-mobile": {
         "children": [

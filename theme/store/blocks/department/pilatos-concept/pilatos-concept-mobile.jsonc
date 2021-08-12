@@ -1,51 +1,121 @@
 {
-    "responsive-layout.phone#page-pilatos-concept-banners":{
+    "responsive-layout.phone#department-pilatos-banners":{
         "children":[
-            "flex-layout.col#page-pilatos-concept-banners-1-mobile"
+            "flex-layout.col#department-pilatos-banners-1-mobile"
         ]
     },
 
-    "flex-layout.col#page-pilatos-concept-banners-1-mobile":{
+    "flex-layout.col#department-pilatos-banners-1-mobile":{
         "children":[
-            "image#page-pilatos-concept-banners-1-img-1-mobile"
+            "image#department-pilatos-banners-1-img-1-mobile"
         ],
         "props":{
             "blockClass":"contentBannersDesk"
         }
     },
 
-    "image#page-pilatos-concept-banners-1-img-1-mobile": {
+    "image#department-pilatos-banners-1-img-1-mobile": {
         "props": {
             "src": "/arquivos/PilatosConcept_Banner_principal_Mobile.jpg",
             "link": {
-                "url": "/pilatos-concept",
+                "url": "/nuevo",
                 "attributeTitle": ""
             },
             "blockClass": "departmentBannerImg-1"
         }
     },
 
+    "search-result-layout.mobile#pilatos": {
+        "children": [
+          "flex-layout.row#banner-search-mobile",
+          "flex-layout.row#bread-crumb",
+          "flex-layout.row#suggestion",
+          "flex-layout.row#search-info-mobile-pilatos",
+          "flex-layout.row#fetch-previous",
+          "flex-layout.row#content-mobile",
+          "flex-layout.row#fetch-more"
+        ],
+        "props": {
+            "blockClass": "searchResultMobile",
+            "preventRouteChange": true,
+            "hiddenFacets": {
+                "specificationFilters": {
+                    "hiddenFilters": [
+                        {
+                        "name": "Brand"
+                        },
+                        {
+                        "name": "Department"
+                        },
+                        {
+                        "name": "Category"
+                        },
+                        {
+                        "name": "Subcategory"
+                        },
+                        {
+                        "name": "Material"
+                        },
+                        {
+                        "name": "Alto (Cm)"
+                        },
+                        {
+                        "name": "Ancho (Cm)"
+                        },
+                        {
+                        "name": "Breve Descripción"
+                        },
+                        {
+                        "name": "Descripción"
+                        },
+                        {
+                        "name": "Material"
+                        }
+                    ]
+                }
+            },
+            "__unstableProductOriginVtex": true,
+            "mobileLayout": {
+                "mode1": "small",
+                "mode2": "normal"
+            }
+        }
+    },
+
+    "flex-layout.row#search-info-mobile-pilatos": {
+        "children": [
+          "flex-layout.col#filterMobile",
+          "flex-layout.col#order-by-mobile"
+        ],
+        "props": {
+          "preserveLayoutOnMobile": true,
+          "colSizing": "auto",
+          "colJustify": "around",
+          "blockClass": "search-in-mobile"
+        }
+    },
+
     //Tablet
-    "responsive-layout.tablet#page-pilatos-concept-banners":{
+    "responsive-layout.tablet#department-pilatos-banners":{
         "children":[
-            "flex-layout.col#page-pilatos-concept-banners-1-tablet"
+            "flex-layout.col#department-pilatos-banners-1-tablet"
         ]
     },
 
-    "flex-layout.col#page-pilatos-concept-banners-1-tablet":{
+    "flex-layout.col#department-pilatos-banners-1-tablet":{
         "children":[
-            "image#page-pilatos-concept-banners-1-img-1-tablet"
+            "image#department-pilatos-banners-1-img-1-tablet"
         ],
         "props":{
             "blockClass":"contentBannersDesk"
         }
     },
 
-    "image#page-pilatos-concept-banners-1-img-1-tablet": {
+    "image#department-pilatos-banners-1-img-1-tablet": {
         "props": {
             "src": "/arquivos/PilatosConcept_Banner_principal_Tablet.jpg",
             "link": {
-                "url": "/pilatos-concept",
+                "url": "/pilatos",
                 "attributeTitle": ""
             },
             "blockClass": "departmentBannerImg-1"

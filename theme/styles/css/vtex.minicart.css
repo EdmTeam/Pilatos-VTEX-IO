@@ -97,7 +97,7 @@
 }
 
 .minicartProductListContainer{
-    max-height: 185px;
+    max-height: 180px;
 }
 
 .minicartTitle{
@@ -106,8 +106,14 @@
     position: relative;
 }
 
+@media only screen and (min-width: 1180px){
+    .minicartTitle{
+        height: 22px;
+    }
+}
+
 .minicartTitle::before{
-    content: 'Resumen de su pedido';
+    content: 'Resumen de tu pedido';
     font-family: Mulish;
     font-weight: 800;
     font-size: 16px;

@@ -22,10 +22,10 @@
         "children":[
             "rich-text#category-tops-mujer-bread-crumb",
             "rich-text#category-tops-mujer-title",
-            "rich-text#category-tops-mujer-description",
-            "responsive-layout.desktop#category-tops-mujer-banners",
-            "responsive-layout.phone#category-tops-mujer-banners",
-            "responsive-layout.tablet#category-tops-mujer-banners"
+            "rich-text#category-tops-mujer-description"
+            // "responsive-layout.desktop#category-tops-mujer-banners",
+            // "responsive-layout.phone#category-tops-mujer-banners",
+            // "responsive-layout.tablet#category-tops-mujer-banners"
         ]
     },
 
@@ -63,7 +63,7 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
                 "maxItemsPerPage": 12,
                 "queryField": "mujer/ropa-interior/tops",

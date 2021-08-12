@@ -44,14 +44,14 @@
 
     "rich-text#category-jeans-hombre-title":{
         "props":{
-            "text": "Jeans para hombre",
+            "text": "# Jeans para hombre",
             "blockClass": "departmentTitle"
         }
     },
 
     "rich-text#category-jeans-hombre-description":{
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "text": "Encuentra diferentes marcas de jeans para hombre en un solo lugar, nos acompañan jeans Diesel, Replay, Superdry, Celio, M+F Girbaud, New Project y nuestra marca propia Pilatos Concept. Descubre todas las opciones que tenemos disponibles y arma tus outfits, casuales, informales, versátiles y muy llamativos. Tenemos una amplia variedad en **jeans de moda para hombre**: Superslim, Regular, Wide y Slim; ¡No te quedes sin el tuyo!",
             "blockClass": "departmentDescription"
         }
     },
@@ -63,7 +63,7 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
                 "maxItemsPerPage": 12,
                 "queryField": "hombre/jeans",

@@ -70,11 +70,16 @@ const CustomSticky: FC<props> = ({
     function FilterSticky(){
         let topBanners = document.querySelector('.vtex-flex-layout-0-x-flexRow--contentSearch');
         let contentResult = document.querySelector('body');
-        let heightTopBanner = (topBanners as HTMLElement).offsetHeight - heightHeader;
+        let heightTopBanner;
+        if((topBanners as HTMLElement).offsetHeight < 300){
+            heightTopBanner = (topBanners as HTMLElement).offsetHeight - 50
+        }else{
+            heightTopBanner = (topBanners as HTMLElement).offsetHeight - heightHeader;
+        }
         let bodyResult = (contentResult as HTMLElement).offsetHeight - 1150;
         let scrollsticky = window.scrollY;
         let filterCol = document.querySelector('.vtex-flex-layout-0-x-flexCol--filterCol');
-        console.log(scrollsticky, bodyResult);
+        
         if((topBanners as HTMLElement)){
             if(scrollsticky >= heightTopBanner && scrollsticky <= bodyResult){
                 (filterCol as HTMLElement).classList.add(filterSticky);

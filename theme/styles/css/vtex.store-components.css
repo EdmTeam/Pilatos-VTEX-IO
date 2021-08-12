@@ -113,7 +113,8 @@
 :global(.vtex-flex-layout-0-x-flexColChild--contentNewsletter) :global(.vtex-button),
 :global(.vtex-rich-text-0-x-wrapper--icoFacebook) :global(.vtex-rich-text-0-x-link),
 :global(.vtex-rich-text-0-x-wrapper--icoInstagram) :global(.vtex-rich-text-0-x-link),
-:global(.vtex-rich-text-0-x-wrapper--icoWhatsapp) :global(.vtex-rich-text-0-x-link)
+:global(.vtex-rich-text-0-x-wrapper--icoWhatsapp) :global(.vtex-rich-text-0-x-link),
+:global(.vtex-rich-text-0-x-wrapper--contentIcoWhatsApp)
 {
     font-family: 'icomoon' !important;
     speak: never;
@@ -629,4 +630,9 @@
 
 .imageElementLink--workWithContentBannerImg{
     margin-bottom: 1rem;
+}
+
+.imageElement--departmentBannerImg{
+    height: 100%;
+    width: 100%;
 }

@@ -22,10 +22,10 @@
         "children":[
             "rich-text#category-sandalias-mujer-bread-crumb",
             "rich-text#category-sandalias-mujer-title",
-            "rich-text#category-sandalias-mujer-description",
-            "responsive-layout.desktop#category-sandalias-mujer-banners",
-            "responsive-layout.phone#category-sandalias-mujer-banners",
-            "responsive-layout.tablet#category-sandalias-mujer-banners"
+            "rich-text#category-sandalias-mujer-description"
+            // "responsive-layout.desktop#category-sandalias-mujer-banners",
+            // "responsive-layout.phone#category-sandalias-mujer-banners",
+            // "responsive-layout.tablet#category-sandalias-mujer-banners"
         ]
     },
 
@@ -63,7 +63,7 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
                 "maxItemsPerPage": 12,
                 "queryField": "mujer/ropa-de-playa/sandalias",

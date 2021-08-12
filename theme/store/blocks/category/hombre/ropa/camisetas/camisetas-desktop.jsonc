@@ -44,14 +44,14 @@
 
     "rich-text#category-camisetas-hombre-title":{
         "props":{
-            "text": "Camisetas para hombre",
+            "text": "# Camisetas para hombre",
             "blockClass": "departmentTitle"
         }
     },
 
     "rich-text#category-camisetas-hombre-description":{
         "props":{
-            "text": "Camisetas, camisas y polos para hombres que siempre quieren lucir al mejor estilo. Encuentra aquí camisas camisetas y polos de marcas como Diesel, Celio, Replay, Superdry y muchas más. ",
+            "text": "Encuentra aquí camisetas para hombre en una amplia gama de colores, diseños, texturas y marcas como: Diesel, Celio, Replay, Superdry, Girbaud, New Project, New Balance y nuestra marca propia Pilatos Concept. Descubre diferentes estilos y diseños en nuestras **camisetas de moda** de talla internacional en un solo lugar.",
             "blockClass": "departmentDescription"
         }
     },
@@ -63,7 +63,7 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
                 "maxItemsPerPage": 12,
                 "queryField": "hombre/ropa/camisetas",

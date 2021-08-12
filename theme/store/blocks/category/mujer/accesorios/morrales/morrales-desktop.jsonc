@@ -22,10 +22,10 @@
         "children":[
             "rich-text#category-morrales-mujer-bread-crumb",
             "rich-text#category-morrales-mujer-title",
-            "rich-text#category-morrales-mujer-description",
-            "responsive-layout.desktop#category-morrales-mujer-banners",
-            "responsive-layout.phone#category-morrales-mujer-banners",
-            "responsive-layout.tablet#category-morrales-mujer-banners"
+            "rich-text#category-morrales-mujer-description"
+            // "responsive-layout.desktop#category-morrales-mujer-banners",
+            // "responsive-layout.phone#category-morrales-mujer-banners",
+            // "responsive-layout.tablet#category-morrales-mujer-banners"
         ]
     },
 
@@ -44,14 +44,14 @@
 
     "rich-text#category-morrales-mujer-title":{
         "props":{
-            "text": "Morrales para mujer",
+            "text": "# Morrales para mujer",
             "blockClass": "departmentTitle"
         }
     },
 
     "rich-text#category-morrales-mujer-description":{
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "text": "Complementa tu look con los morrales para mujer que tenemos disponibles de las mejores marcas como **Kipling, Superdry, Replay, Roxy**. Morrales funcionales para mujer en diferentes colores, estilos y diseños, ideales para cualquier momento o situación, desde ir a clase hasta ir de viaje. ¡Elige entre los múltiples estilos que solo Pilatos puede ofrecerte!",
             "blockClass": "departmentDescription"
         }
     },
@@ -63,7 +63,7 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
                 "maxItemsPerPage": 12,
                 "queryField": "mujer/accesorios/morrales",

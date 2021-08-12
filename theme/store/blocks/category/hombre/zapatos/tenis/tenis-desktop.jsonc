@@ -44,14 +44,14 @@
 
     "rich-text#category-tenis-hombre-title":{
         "props":{
-            "text": "Tenis para hombre",
+            "text": "# Tenis para hombre",
             "blockClass": "departmentTitle"
         }
     },
 
     "rich-text#category-tenis-hombre-description":{
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "text": "Encuentra zapatillas y tenis para hombre de las mejores marcas como: Adidas, Reebok, Diesel, New Balance, Le Coq Sportif, Replay, Superdry, Nike y muchas más. Contamos con los últimos estilos de **tenis deportivos, casuales y formales** que complementan tu look para que nunca pierdas el estilo. ¡En Pilatos tenemos las marcas de tenis más cool, elige los tuyos!",
             "blockClass": "departmentDescription"
         }
     },
@@ -63,7 +63,7 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
                 "maxItemsPerPage": 12,
                 "queryField": "hombre/zapatos/tenis",

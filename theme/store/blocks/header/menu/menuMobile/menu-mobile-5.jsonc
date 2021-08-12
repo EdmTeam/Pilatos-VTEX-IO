@@ -22,7 +22,7 @@
 
     "rich-text#submenu-level-1-texto-row-5": {
         "props": {
-            "text": "[Sale](/evento)",
+            "text": "[Sale](/sale)",
             "blockClass": [
                 "itemMenuLevel1",
                 "itemMenuLevel1Sale"

@@ -22,10 +22,10 @@
         "children":[
             "rich-text#category-jean-ancho-mujer-bread-crumb",
             "rich-text#category-jean-ancho-mujer-title",
-            "rich-text#category-jean-ancho-mujer-description",
-            "responsive-layout.desktop#category-jean-ancho-mujer-banners",
-            "responsive-layout.phone#category-jean-ancho-mujer-banners",
-            "responsive-layout.tablet#category-jean-ancho-mujer-banners"
+            "rich-text#category-jean-ancho-mujer-description"
+            // "responsive-layout.desktop#category-jean-ancho-mujer-banners",
+            // "responsive-layout.phone#category-jean-ancho-mujer-banners",
+            // "responsive-layout.tablet#category-jean-ancho-mujer-banners"
         ]
     },
 
@@ -44,14 +44,14 @@
 
     "rich-text#category-jean-ancho-mujer-title":{
         "props":{
-            "text": "Jean ancho para mujer",
+            "text": "# Jean ancho para mujer",
             "blockClass": "departmentTitle"
         }
     },
 
     "rich-text#category-jean-ancho-mujer-description":{
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "text": "En Pilatos puedes comprar jeans anchos para mujer, perfectos para sentirte **libre, cómoda y a la moda** al mismo tiempo, contamos con diferentes diseños y tonos únicos para que crees múltiples outfits con esta prenda. ¡Descubre todas las referencias de jeans anchos para mujer y renueva tu estilo!",
             "blockClass": "departmentDescription"
         }
     },
@@ -63,7 +63,7 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
                 "maxItemsPerPage": 12,
                 "queryField": "mujer/jeans/jean-ancho",

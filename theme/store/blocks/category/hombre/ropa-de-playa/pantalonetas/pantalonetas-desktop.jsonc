@@ -22,10 +22,10 @@
         "children":[
             "rich-text#category-pantalonetas-hombre-bread-crumb",
             "rich-text#category-pantalonetas-hombre-title",
-            "rich-text#category-pantalonetas-hombre-description",
-            "responsive-layout.desktop#category-pantalonetas-hombre-banners",
-            "responsive-layout.phone#category-pantalonetas-hombre-banners",
-            "responsive-layout.tablet#category-pantalonetas-hombre-banners"
+            "rich-text#category-pantalonetas-hombre-description"
+            // "responsive-layout.desktop#category-pantalonetas-hombre-banners",
+            // "responsive-layout.phone#category-pantalonetas-hombre-banners",
+            // "responsive-layout.tablet#category-pantalonetas-hombre-banners"
         ]
     },
 
@@ -63,7 +63,7 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
                 "maxItemsPerPage": 12,
                 "queryField": "hombre/ropa-de-playa/pantalonetas",

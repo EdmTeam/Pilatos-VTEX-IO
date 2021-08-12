@@ -31,7 +31,7 @@
         "props": {
             "src": "/arquivos/Banner_TercerNivel_Mobile_01.jpg",
             "link": {
-                "url": "/",
+                "url": "/chaquetas",
                 "attributeTitle": ""
             },
             "blockClass": "PromotionalBannerImg"
@@ -67,7 +67,7 @@
         "props": {
             "src": "/arquivos/Banner_TercerNivel_Mobile_02.jpg",
             "link": {
-                "url": "/",
+                "url": "/morrales",
                 "attributeTitle": ""
             },
             "blockClass": "PromotionalBannerImg"
@@ -103,7 +103,7 @@
         "props": {
             "src": "/arquivos/Banner_TercerNivel_Mobile_03.jpg",
             "link": {
-                "url": "/",
+                "url": "/hombre/ropa-de-playa",
                 "attributeTitle": ""
             },
             "blockClass": "PromotionalBannerImg"
@@ -196,7 +196,7 @@
         "props": {
             "src": "/arquivos/Banner_TercerNivel_Desktop_01.jpg",
             "link": {
-                "url": "/",
+                "url": "/chaquetas",
                 "attributeTitle": ""
             },
             "blockClass": "PromotionalBannerImg"
@@ -241,7 +241,7 @@
         "props": {
             "src": "/arquivos/Banner_TercerNivel_Desktop_02.jpg",
             "link": {
-                "url": "/",
+                "url": "/morrales",
                 "attributeTitle": ""
             },
             "blockClass": "PromotionalBannerImg"
@@ -257,7 +257,7 @@
 
     "rich-text#desk-des-promotional-banners-2-img-2": {
         "props":{
-            "text": "Tenemos morrales Diesel, Kipling, New Balance, Superdry, Diesel y muchos más en Pilatos, donde encuentras la mejor calidad de productos de las mejores marcas.",
+            "text": "Tenemos morrales Diesel, Kipling, New Balance, Superdry y muchos más en Pilatos, donde encuentras la mejor calidad de productos de las mejores marcas.",
             "blockClass": "desBannersCenter"
         }
     },
@@ -284,9 +284,9 @@
 
     "image#desk-promotional-banners-2-img-3": {
         "props": {
-            "src": "/arquivos/Banner_TercerNivel_Desktop_01.jpg",
+            "src": "/arquivos/Banner_TercerNivel_Desktop__04.png",
             "link": {
-                "url": "/",
+                "url": "/hombre/ropa/polos",
                 "attributeTitle": ""
             },
             "blockClass": "PromotionalBannerImg"
@@ -331,7 +331,7 @@
         "props": {
             "src": "/arquivos/Banner_TercerNivel_Desktop_03.jpg",
             "link": {
-                "url": "/",
+                "url": "/hombre/ropa-de-playa",
                 "attributeTitle": ""
             },
             "blockClass": "PromotionalBannerImg"

@@ -22,10 +22,10 @@
         "children":[
             "rich-text#category-wide-hombre-bread-crumb",
             "rich-text#category-wide-hombre-title",
-            "rich-text#category-wide-hombre-description",
-            "responsive-layout.desktop#category-wide-hombre-banners",
-            "responsive-layout.phone#category-wide-hombre-banners",
-            "responsive-layout.tablet#category-wide-hombre-banners"
+            "rich-text#category-wide-hombre-description"
+            // "responsive-layout.desktop#category-wide-hombre-banners",
+            // "responsive-layout.phone#category-wide-hombre-banners",
+            // "responsive-layout.tablet#category-wide-hombre-banners"
         ]
     },
 
@@ -44,14 +44,14 @@
 
     "rich-text#category-wide-hombre-title":{
         "props":{
-            "text": "Wide para hombre",
+            "text": "# Jeans Wide para hombre",
             "blockClass": "departmentTitle"
         }
     },
 
     "rich-text#category-wide-hombre-description":{
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "text": "Encuentra diferentes opciones de jeans Wide para hombre. Pantalón de moda ligeramente ajustado en la parte de la cintura, donde su tamaño va creciendo hasta llegar al suelo, esta prenda es cómoda, resalta tu silueta fácilmente, además es muy versátil a la hora de combinarlo ya que permite que se creen múltiples outfits. ¡Descubre todas las referencias de **jeans anchos** para hombre y renueva tu estilo con Pilatos!",
             "blockClass": "departmentDescription"
         }
     },
@@ -63,7 +63,7 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
                 "maxItemsPerPage": 12,
                 "queryField": "hombre/jeans/wide",

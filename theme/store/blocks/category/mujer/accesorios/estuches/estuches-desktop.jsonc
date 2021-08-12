@@ -22,10 +22,10 @@
         "children":[
             "rich-text#category-estuches-mujer-bread-crumb",
             "rich-text#category-estuches-mujer-title",
-            "rich-text#category-estuches-mujer-description",
-            "responsive-layout.desktop#category-estuches-mujer-banners",
-            "responsive-layout.phone#category-estuches-mujer-banners",
-            "responsive-layout.tablet#category-estuches-mujer-banners"
+            "rich-text#category-estuches-mujer-description"
+            // "responsive-layout.desktop#category-estuches-mujer-banners",
+            // "responsive-layout.phone#category-estuches-mujer-banners",
+            // "responsive-layout.tablet#category-estuches-mujer-banners"
         ]
     },
 
@@ -44,14 +44,14 @@
 
     "rich-text#category-estuches-mujer-title":{
         "props":{
-            "text": "Estuches para mujer",
+            "text": "# Estuches para mujer",
             "blockClass": "departmentTitle"
         }
     },
 
     "rich-text#category-estuches-mujer-description":{
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "text": "Encuentra lo mejor de la calidad y el diseño en los estuches para mujer de marcas como Kipling y Superdry en un solo lugar. Cartucheras, neceseres, cosmetiqueras, monederos y más opciones para que lleves siempre contigo todo lo que necesitas a la mano. ¡Complementa tu look con estos esenciales!",
             "blockClass": "departmentDescription"
         }
     },
@@ -63,7 +63,7 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
                 "maxItemsPerPage": 12,
                 "queryField": "mujer/accesorios/estuches",

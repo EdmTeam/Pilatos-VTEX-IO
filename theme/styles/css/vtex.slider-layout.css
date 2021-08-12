@@ -224,7 +224,7 @@
 
 .sliderLayoutContainer--contentSlideBrand{
     width: 90% !important;
-    margin: 3rem auto;
+    margin: 0 auto 3rem auto;
 }
 
 .sliderLeftArrow--contentSlideBrand{

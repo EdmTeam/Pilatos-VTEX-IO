@@ -22,10 +22,10 @@
         "children":[
             "rich-text#category-zapatos-sandalias-mujer-bread-crumb",
             "rich-text#category-zapatos-sandalias-mujer-title",
-            "rich-text#category-zapatos-sandalias-mujer-description",
-            "responsive-layout.desktop#category-zapatos-sandalias-mujer-banners",
-            "responsive-layout.phone#category-zapatos-sandalias-mujer-banners",
-            "responsive-layout.tablet#category-zapatos-sandalias-mujer-banners"
+            "rich-text#category-zapatos-sandalias-mujer-description"
+            // "responsive-layout.desktop#category-zapatos-sandalias-mujer-banners",
+            // "responsive-layout.phone#category-zapatos-sandalias-mujer-banners",
+            // "responsive-layout.tablet#category-zapatos-sandalias-mujer-banners"
         ]
     },
 
@@ -44,14 +44,14 @@
 
     "rich-text#category-zapatos-sandalias-mujer-title":{
         "props":{
-            "text": "Sandalias para mujer",
+            "text": "# Sandalias para mujer",
             "blockClass": "departmentTitle"
         }
     },
 
     "rich-text#category-zapatos-sandalias-mujer-description":{
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "text": "Las mejores sandalias para mujer las encuentras en Pilatos, variedad de colores, materiales, diseños y estilos para que elijas la que más te guste. Desde días soleados y relajados hasta formales y profesionales, tenemos las sandalias para dama que necesitas de marcas como Roxy y Replay.",
             "blockClass": "departmentDescription"
         }
     },
@@ -63,7 +63,7 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
                 "maxItemsPerPage": 12,
                 "queryField": "mujer/zapatos/sandalias",

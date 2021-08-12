@@ -22,10 +22,10 @@
         "children":[
             "rich-text#category-pantalones-mujer-bread-crumb",
             "rich-text#category-pantalones-mujer-title",
-            "rich-text#category-pantalones-mujer-description",
-            "responsive-layout.desktop#category-pantalones-mujer-banners",
-            "responsive-layout.phone#category-pantalones-mujer-banners",
-            "responsive-layout.tablet#category-pantalones-mujer-banners"
+            "rich-text#category-pantalones-mujer-description"
+            // "responsive-layout.desktop#category-pantalones-mujer-banners",
+            // "responsive-layout.phone#category-pantalones-mujer-banners",
+            // "responsive-layout.tablet#category-pantalones-mujer-banners"
         ]
     },
 
@@ -63,7 +63,7 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
                 "maxItemsPerPage": 12,
                 "queryField": "mujer/ropa/pantalones",

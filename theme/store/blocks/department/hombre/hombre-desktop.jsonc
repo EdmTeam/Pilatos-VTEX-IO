@@ -45,14 +45,14 @@
 
     "rich-text#department-hombre-title":{
         "props":{
-            "text": "Hombre",
+            "text": "# Ropa, zapatos y accesorios para hombre",
             "blockClass": "departmentTitle"
         }
     },
 
     "rich-text#department-hombre-description":{
         "props":{
-            "text": "Ropa para hombre desde camisetas, tenis, jeans y chaquetas hasta billeteras, pantalonetas y medias. Descubre en Pilatos tu ropa favorita de marcas como M+F Girbaud, Superdry, Diesel, New Balance y Replay, sólo en Pilatos",
+            "text": "Encuentra todo en zapatos, accesorios y ropa para hombre desde camisetas, polos, jeans y chaquetas hasta billeteras, morrales, medias y ropa de playa en un solo lugar. Descubre prendas exclusivas de las mejores marcas internacionales como Celio, Diesel, Girbaud, Superdry, Adidas, New Balance, Replay, Oakley y muchas más.",
             "blockClass": "departmentDescription"
         }
     },
@@ -64,7 +64,7 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
                 "maxItemsPerPage": 12,
                 "queryField": "hombre",

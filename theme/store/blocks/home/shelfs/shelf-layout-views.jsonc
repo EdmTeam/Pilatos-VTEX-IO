@@ -22,7 +22,7 @@
 
     "rich-text#title-viewed":{
         "props":{
-            "text": "Últimos vistos",
+            "text": "Recomendados",
             "blockClass": "titleShelfProduct"
         }
     },
@@ -50,6 +50,7 @@
             "vtex.product-summary:product-summary.shelf#most-viewed"
         ],
         "props": {
+            // "recommendation": "suggestions",
             "recommendation": "view",
             "productList": {
                 "arrows": true,
@@ -66,6 +67,7 @@
             "vtex.product-summary:product-summary.shelf#most-viewed"
         ],
         "props": {
+            // "recommendation": "suggestions",
             "recommendation": "view",
             "productList": {
                 "arrows": true,
@@ -82,6 +84,7 @@
             "vtex.product-summary:product-summary.shelf#most-viewed"
         ],
         "props": {
+            // "recommendation": "suggestions",
             "recommendation": "view",
             "productList": {
                 "arrows": true,

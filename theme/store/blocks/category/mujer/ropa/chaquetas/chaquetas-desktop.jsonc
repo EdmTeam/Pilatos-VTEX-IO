@@ -44,14 +44,14 @@
 
     "rich-text#category-chaquetas-mujer-title":{
         "props":{
-            "text": "Chaquetas para mujer",
+            "text": "# Chaquetas para mujer",
             "blockClass": "departmentTitle"
         }
     },
 
     "rich-text#category-chaquetas-mujer-description":{
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "text": "Descubre diferentes chaquetas para mujer de las mejores marcas como: Diesel, Superdry, Replay,  M+F Girbaud, New Balance y Pilatos Concept. Contamos con múltiples diseños, estilos y colores en chaquetas en jean, cuero, rompe vientos, acolchadas, casuales, elegantes y más opciones en un solo lugar. ¡Mantén siempre el estilo cool que te identifica comprando **chaquetas de moda**!",
             "blockClass": "departmentDescription"
         }
     },
@@ -63,7 +63,7 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
                 "maxItemsPerPage": 12,
                 "queryField": "mujer/ropa/chaquetas",

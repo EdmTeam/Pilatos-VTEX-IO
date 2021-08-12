@@ -22,10 +22,10 @@
         "children":[
             "rich-text#category-estuches-hombre-bread-crumb",
             "rich-text#category-estuches-hombre-title",
-            "rich-text#category-estuches-hombre-description",
-            "responsive-layout.desktop#category-estuches-hombre-banners",
-            "responsive-layout.phone#category-estuches-hombre-banners",
-            "responsive-layout.tablet#category-estuches-hombre-banners"
+            "rich-text#category-estuches-hombre-description"
+            // "responsive-layout.desktop#category-estuches-hombre-banners",
+            // "responsive-layout.phone#category-estuches-hombre-banners",
+            // "responsive-layout.tablet#category-estuches-hombre-banners"
         ]
     },
 
@@ -44,14 +44,14 @@
 
     "rich-text#category-estuches-hombre-title":{
         "props":{
-            "text": "Estuches para hombre",
+            "text": "# Estuches para hombre",
             "blockClass": "departmentTitle"
         }
     },
 
     "rich-text#category-estuches-hombre-description":{
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "text": "Encuentra lo mejor de la calidad y el diseño en los estuches para hombre de marcas como Superdry, Quiksilver y Oakley en un solo lugar. **Cartucheras, riñoneras y más estuches** para que lleves siempre a la mano contigo todo lo que necesitas. ¡Complementa tu look con estos esenciales para hombre!",
             "blockClass": "departmentDescription"
         }
     },
@@ -63,7 +63,7 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
                 "maxItemsPerPage": 12,
                 "queryField": "hombre/accesorios/estuches",

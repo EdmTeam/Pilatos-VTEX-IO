@@ -25,7 +25,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        // "href": "/hombre",
+        "href": "/hombre",
         "noFollow": false,
         "tagTitle": "HOMBRE",
         "text": "HOMBRE"

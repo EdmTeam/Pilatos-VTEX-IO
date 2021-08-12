@@ -22,10 +22,10 @@
         "children":[
             "rich-text#category-sudaderas-mujer-bread-crumb",
             "rich-text#category-sudaderas-mujer-title",
-            "rich-text#category-sudaderas-mujer-description",
-            "responsive-layout.desktop#category-sudaderas-mujer-banners",
-            "responsive-layout.phone#category-sudaderas-mujer-banners",
-            "responsive-layout.tablet#category-sudaderas-mujer-banners"
+            "rich-text#category-sudaderas-mujer-description"
+            // "responsive-layout.desktop#category-sudaderas-mujer-banners",
+            // "responsive-layout.phone#category-sudaderas-mujer-banners",
+            // "responsive-layout.tablet#category-sudaderas-mujer-banners"
         ]
     },
 
@@ -63,7 +63,7 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
                 "maxItemsPerPage": 12,
                 "queryField": "mujer/ropa/sudaderas",

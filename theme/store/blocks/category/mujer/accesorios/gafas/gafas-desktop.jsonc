@@ -22,10 +22,10 @@
         "children":[
             "rich-text#category-gafas-mujer-bread-crumb",
             "rich-text#category-gafas-mujer-title",
-            "rich-text#category-gafas-mujer-description",
-            "responsive-layout.desktop#category-gafas-mujer-banners",
-            "responsive-layout.phone#category-gafas-mujer-banners",
-            "responsive-layout.tablet#category-gafas-mujer-banners"
+            "rich-text#category-gafas-mujer-description"
+            // "responsive-layout.desktop#category-gafas-mujer-banners",
+            // "responsive-layout.phone#category-gafas-mujer-banners",
+            // "responsive-layout.tablet#category-gafas-mujer-banners"
         ]
     },
 
@@ -44,14 +44,14 @@
 
     "rich-text#category-gafas-mujer-title":{
         "props":{
-            "text": "Gafas para mujer",
+            "text": "# Gafas de sol para mujer",
             "blockClass": "departmentTitle"
         }
     },
 
     "rich-text#category-gafas-mujer-description":{
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "text": "Encuentra los mejores estilos en gafas de sol para mujer y añade estilo a tu look, además de proteger tus ojos. Contamos con gafas para mujer de marcas como **Oakley** que se destacan por su alto rendimiento ofreciendo resistencia y estilo; **Ray-Ban las gafas de sol** más legendarias, donde puedes elegir entre modelos, colores, monturas y tipos de lentes disponibles.",
             "blockClass": "departmentDescription"
         }
     },
@@ -63,7 +63,7 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
                 "maxItemsPerPage": 12,
                 "queryField": "mujer/accesorios/gafas",

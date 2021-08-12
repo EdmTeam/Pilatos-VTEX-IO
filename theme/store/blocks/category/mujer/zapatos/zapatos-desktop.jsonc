@@ -22,10 +22,10 @@
         "children":[
             "rich-text#category-zapatos-mujer-bread-crumb",
             "rich-text#category-zapatos-mujer-title",
-            "rich-text#category-zapatos-mujer-description",
-            "responsive-layout.desktop#category-zapatos-mujer-banners",
-            "responsive-layout.phone#category-zapatos-mujer-banners",
-            "responsive-layout.tablet#category-zapatos-mujer-banners"
+            "rich-text#category-zapatos-mujer-description"
+            // "responsive-layout.desktop#category-zapatos-mujer-banners",
+            // "responsive-layout.phone#category-zapatos-mujer-banners",
+            // "responsive-layout.tablet#category-zapatos-mujer-banners"
         ]
     },
 
@@ -44,14 +44,14 @@
 
     "rich-text#category-zapatos-mujer-title":{
         "props":{
-            "text": "Zapatos para mujer",
+            "text": "# Zapatos, tenis y sandalias para mujer",
             "blockClass": "departmentTitle"
         }
     },
 
     "rich-text#category-zapatos-mujer-description":{
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "text": "Zapatos para mujer que te brindan confort y estilo. Todo en **calzado para mujer**, variedad de diseños, colores y estilos para que vayas a donde quieras dejando huella. En Pilatos encuentras botas para mujer, sandalias, zapatos tipo baletas o mocasín y tenis deportivos, casuales y formales de las mejores marcas en un solo lugar. New Balance, Replay, Diesel, Adidas, Sanuk y muchas marcas más.",
             "blockClass": "departmentDescription"
         }
     },
@@ -63,7 +63,7 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
                 "maxItemsPerPage": 12,
                 "queryField": "mujer/zapatos",

@@ -44,14 +44,14 @@
 
     "rich-text#category-tenis-mujer-title":{
         "props":{
-            "text": "Tenis para mujer",
+            "text": "# Tenis para mujer",
             "blockClass": "departmentTitle"
         }
     },
 
     "rich-text#category-tenis-mujer-description":{
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "text": "Encuentra zapatillas y tenis para mujer que resaltan tu individualidad y estilo único, acompañado de las mejores marcas como: Adidas, Reebok, Diesel, New Balance, Le Coq Sportif, Replay, entre otras de excelente calidad. Contamos con los últimos estilos de **tenis deportivos, casuales y formales** que complementan tu look para que nunca pierdas el estilo. ¡Descubre aquí las últimas colecciones de tenis de la moda internacional!",
             "blockClass": "departmentDescription"
         }
     },
@@ -63,7 +63,7 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
                 "maxItemsPerPage": 12,
                 "queryField": "mujer/zapatos/tenis",

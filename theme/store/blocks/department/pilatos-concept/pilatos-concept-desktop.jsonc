@@ -1,75 +1,91 @@
 {
     "store.custom#page-pilatos-concept":{
         "blocks":[
-            "flex-layout.row#banner-page-pilatos-concept",
-            "flex-layout.row#shelf-pilatos-concept"
+            "flex-layout.row#banner-department-pilatos",
+            "search-result-layout.customQuery#department-pilatos"
         ],
         "props":{
             "blockClass": "contentStoreCustom"
         }
     },
 
-    "flex-layout.row#banner-page-pilatos-concept":{
+    "flex-layout.row#banner-department-pilatos":{
         "children":[
-            "flex-layout.col#banner-page-pilatos-concept"
+            "flex-layout.col#banner-department-pilatos"
         ],
         "props":{
             "blockClass": "contentSearch"
         }
     },
 
-    "flex-layout.col#banner-page-pilatos-concept":{
+    "flex-layout.col#banner-department-pilatos":{
         "children":[
-            "rich-text#page-pilatos-concept-bread-crumb",
-            "rich-text#page-pilatos-concept-title",
-            "rich-text#page-pilatos-concept-description",
-            "responsive-layout.desktop#page-pilatos-concept-banners",
-            "responsive-layout.tablet#page-pilatos-concept-banners",
-            "responsive-layout.phone#page-pilatos-concept-banners"
+            "rich-text#departmen-pilatos-bread-crumb",
+            "rich-text#department-pilatos-title",
+            "rich-text#department-pilatos-description",
+            "responsive-layout.desktop#department-pilatos-banners",
+            "responsive-layout.tablet#department-pilatos-banners",
+            "responsive-layout.phone#department-pilatos-banners"
         ]
     },
 
-    "responsive-layout.desktop#page-pilatos-concept-banners":{
+    "responsive-layout.desktop#department-pilatos-banners":{
         "children":[
-            "flex-layout.col#page-pilatos-concept-banners-1"
+            "flex-layout.col#department-pilatos-banners-1"
         ]
     },
 
-    "rich-text#page-pilatos-concept-bread-crumb":{
+    "rich-text#departmen-pilatos-bread-crumb":{
         "props":{
             "text": "[Home](/) / [**Pilatos concept**](/pilatos-concept)",
             "blockClass": "departmentBreadCrumb"
         }
     },
 
-    "rich-text#page-pilatos-concept-title":{
+    "rich-text#department-pilatos-title":{
         "props":{
             "text": "Pilatos concept",
             "blockClass": "departmentTitle"
         }
     },
 
-    "rich-text#page-pilatos-concept-description":{
+    "rich-text#department-pilatos-description":{
         "props":{
-            "text": "Ropa para hombre desde camisetas, tenis, jeans y chaquetas hasta billeteras, pantalonetas y medias. Descubre en Pilatos tu ropa favorita de marcas como M+F Girbaud, Superdry, Diesel, New Balance y Replay, sólo en Pilatos",
+            "text": "Encuentra las nuevas colecciones de tus marcas favoritas de ropa para mujer y hombre, en un solo lugar. Diseños exclusivos en tenis, camisas, chaquetas, jeans y accesorios, perfectos para innovar y renovar tu clóset. ¡No te quedes atrás!",
             "blockClass": "departmentDescription"
         }
     },
 
-    "flex-layout.col#page-pilatos-concept-banners-1":{
+    "search-result-layout.customQuery#department-pilatos": {
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile#pilatos"
+        ],
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByReleaseDateDESC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 12,
+                "queryField": "pilatos",
+                "mapField": "b"
+            }
+        }
+    },
+
+    "flex-layout.col#department-pilatos-banners-1":{
         "children":[
-            "image#page-pilatos-concept-banners-1-img-1"
+            "image#department-pilatos-banners-1-img-1"
         ],
         "props":{
             "blockClass":"contentBannersDesk"
         }
     },
 
-    "image#page-pilatos-concept-banners-1-img-1": {
+    "image#department-pilatos-banners-1-img-1": {
         "props": {
             "src": "/arquivos/PilatosConcept_Banner_principal_Desktop.jpg",
             "link": {
-                "url": "/pilatos-concept",
+                "url": "/pilatos",
                 "attributeTitle": ""
             },
             "blockClass": "departmentBannerImg-1"

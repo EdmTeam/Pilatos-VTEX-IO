@@ -22,10 +22,10 @@
         "children":[
             "rich-text#category-relojes-hombre-bread-crumb",
             "rich-text#category-relojes-hombre-title",
-            "rich-text#category-relojes-hombre-description",
-            "responsive-layout.desktop#category-relojes-hombre-banners",
-            "responsive-layout.phone#category-relojes-hombre-banners",
-            "responsive-layout.tablet#category-relojes-hombre-banners"
+            "rich-text#category-relojes-hombre-description"
+            // "responsive-layout.desktop#category-relojes-hombre-banners",
+            // "responsive-layout.phone#category-relojes-hombre-banners",
+            // "responsive-layout.tablet#category-relojes-hombre-banners"
         ]
     },
 
@@ -44,14 +44,14 @@
 
     "rich-text#category-relojes-hombre-title":{
         "props":{
-            "text": "Relojes para hombre",
+            "text": "# Relojes para hombre",
             "blockClass": "departmentTitle"
         }
     },
 
     "rich-text#category-relojes-hombre-description":{
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "text": "Encuentra relojes para hombre de marcas como **Diesel y Fossil** en un solo lugar, múltiples diseños y colores perfectos para cualquier ocasión. Descubre diversos estilos de relojes para hombre y acompaña tu look con este complemento de Pilatos. ¿ya tienes el tuyo?",
             "blockClass": "departmentDescription"
         }
     },
@@ -63,7 +63,7 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
                 "maxItemsPerPage": 12,
                 "queryField": "hombre/accesorios/relojes",

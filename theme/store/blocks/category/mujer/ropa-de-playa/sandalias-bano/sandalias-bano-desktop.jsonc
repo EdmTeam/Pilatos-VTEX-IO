@@ -22,10 +22,10 @@
         "children":[
             "rich-text#category-sandalias-bano-mujer-bread-crumb",
             "rich-text#category-sandalias-bano-mujer-title",
-            "rich-text#category-sandalias-bano-mujer-description",
-            "responsive-layout.desktop#category-sandalias-bano-mujer-banners",
-            "responsive-layout.phone#category-sandalias-bano-mujer-banners",
-            "responsive-layout.tablet#category-sandalias-bano-mujer-banners"
+            "rich-text#category-sandalias-bano-mujer-description"
+            // "responsive-layout.desktop#category-sandalias-bano-mujer-banners",
+            // "responsive-layout.phone#category-sandalias-bano-mujer-banners",
+            // "responsive-layout.tablet#category-sandalias-bano-mujer-banners"
         ]
     },
 
@@ -37,14 +37,14 @@
 
     "rich-text#category-sandalias-bano-mujer-bread-crumb":{
         "props":{
-            "text": "[Home](/) / [**Mujer**](/mujer) / [**Ropa de Playa**](/mujer/ropa-de-playa) / [**Sandalias de Baño**](/mujer/ropa-de-playa/sandalias-de-baño)",
+            "text": "[Home](/) / [**Mujer**](/mujer) / [**Ropa de Playa**](/mujer/ropa-de-playa) / [**Salida de Baño**](/mujer/ropa-de-playa/salida-de-baño)",
             "blockClass": "departmentBreadCrumb"
         }
     },
 
     "rich-text#category-sandalias-bano-mujer-title":{
         "props":{
-            "text": "sandalias-bano para mujer",
+            "text": "Salida de baño para mujer",
             "blockClass": "departmentTitle"
         }
     },
@@ -63,10 +63,10 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
                 "maxItemsPerPage": 12,
-                "queryField": "mujer/ropa-de-playa/sandalias-de-baño",
+                "queryField": "mujer/ropa-de-playa/salida-de-baño",
                 "skusFilter": "ALL",
                 "mapField": "category-1"
             }

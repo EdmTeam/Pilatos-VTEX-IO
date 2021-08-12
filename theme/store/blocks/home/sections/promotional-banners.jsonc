@@ -30,7 +30,7 @@
         "props": {
             "src": "/arquivos/Banner_CuartoNivel_Mobile_01.jpg",
             "link": {
-                "url": "/",
+                "url": "/quiksilver",
                 "attributeTitle": ""
             },
             "width": "94%"
@@ -47,7 +47,7 @@
                     "image": "/arquivos/Banner_CuartoNivel_Mobile_02.jpg",
                     "description": "Promotional Banner",
                     "link": {
-                        "url": "/",
+                        "url": "/oakley",
                         "attributeTitle": ""
                     }
                 },
@@ -63,7 +63,7 @@
                     "image": "/arquivos/Banner_CuartoNivel_Mobile_04.jpg",
                     "description": "Promotional Banner",
                     "link": {
-                        "url": "/",
+                        "url": "/stance",
                         "attributeTitle": ""
                     }
                 },
@@ -138,7 +138,7 @@
         "props": {
             "src": "/arquivos/Banner_CuartoNivel_Desktop_01.jpg",
             "link": {
-                "url": "/",
+                "url": "/quiksilver",
                 "attributeTitle": ""
             },
             "blockClass": "PromotionalBannerImg"
@@ -166,7 +166,7 @@
         "props": {
             "src": "/arquivos/Banner_CuartoNivel_Desktop_02.jpg",
             "link": {
-                "url": "/",
+                "url": "/oakley",
                 "attributeTitle": ""
             },
             "blockClass": "PromotionalBannerImg"
@@ -212,7 +212,7 @@
         "props": {
             "src": "/arquivos/Banner_CuartoNivel_Desktop_04.jpg",
             "link": {
-                "url": "/",
+                "url": "/stance",
                 "attributeTitle": ""
             },
             "blockClass": "PromotionalBannerImg"
@@ -227,7 +227,7 @@
 
     "image#desk-promotional-banners-col-3-img-2": {
         "props": {
-            "src": "/arquivos/Banner_CuartoNivel_Desktop_02.jpg",
+            "src": "/arquivos/Banner_CuartoNivel_Desktop_05.jpg",
             "link": {
                 "url": "/",
                 "attributeTitle": ""

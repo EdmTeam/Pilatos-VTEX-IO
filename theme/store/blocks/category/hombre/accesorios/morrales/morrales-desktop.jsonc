@@ -22,10 +22,10 @@
         "children":[
             "rich-text#category-morrales-hombre-bread-crumb",
             "rich-text#category-morrales-hombre-title",
-            "rich-text#category-morrales-hombre-description",
-            "responsive-layout.desktop#category-morrales-hombre-banners",
-            "responsive-layout.phone#category-morrales-hombre-banners",
-            "responsive-layout.tablet#category-morrales-hombre-banners"
+            "rich-text#category-morrales-hombre-description"
+            // "responsive-layout.desktop#category-morrales-hombre-banners",
+            // "responsive-layout.phone#category-morrales-hombre-banners",
+            // "responsive-layout.tablet#category-morrales-hombre-banners"
         ]
     },
 
@@ -44,14 +44,14 @@
 
     "rich-text#category-morrales-hombre-title":{
         "props":{
-            "text": "Morrales para hombre",
+            "text": "# Morrales para hombre",
             "blockClass": "departmentTitle"
         }
     },
 
     "rich-text#category-morrales-hombre-description":{
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "text": "Complementa tu look con los morrales para hombre que tenemos disponibles de las mejores marcas, Superdry, Diesel, Oakley, Pilatos, Replay, Quiksilver, entre otras en un solo lugar. **Morrales funcionales para hombre** en diferentes colores, estilos y diseños, ideales para cualquier momento o situación, desde ir a clase hasta ir de viaje. ¿Qué esperas para comprar tu morral?",
             "blockClass": "departmentDescription"
         }
     },
@@ -63,7 +63,7 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
                 "maxItemsPerPage": 12,
                 "queryField": "hombre/accesorios/morrales",

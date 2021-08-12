@@ -193,7 +193,8 @@
 
   "vtex.add-to-cart-button:add-to-cart-button#product":{
     "props":{
-      "text": "Agregar Ahora"
+      "text": "Agregar Ahora",
+      "unavailableText": "No Disponible"
     }
   },
 

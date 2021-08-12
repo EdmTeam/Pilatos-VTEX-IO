@@ -1,7 +1,7 @@
 {
   "vendor": "pilatos21",
   "name": "custom-sticky",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "title": "BlackSip store components custom",
   "defaultLocale": "es-CO",
   "description": "The BlackSip store components for that render apps can use",

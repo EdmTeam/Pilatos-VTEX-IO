@@ -22,10 +22,10 @@
         "children":[
             "rich-text#category-tapabocas-mujer-bread-crumb",
             "rich-text#category-tapabocas-mujer-title",
-            "rich-text#category-tapabocas-mujer-description",
-            "responsive-layout.desktop#category-tapabocas-mujer-banners",
-            "responsive-layout.phone#category-tapabocas-mujer-banners",
-            "responsive-layout.tablet#category-tapabocas-mujer-banners"
+            "rich-text#category-tapabocas-mujer-description"
+            // "responsive-layout.desktop#category-tapabocas-mujer-banners",
+            // "responsive-layout.phone#category-tapabocas-mujer-banners",
+            // "responsive-layout.tablet#category-tapabocas-mujer-banners"
         ]
     },
 
@@ -44,14 +44,14 @@
 
     "rich-text#category-tapabocas-mujer-title":{
         "props":{
-            "text": "Tapabocas para mujer",
+            "text": "# Tapabocas para mujer",
             "blockClass": "departmentTitle"
         }
     },
 
     "rich-text#category-tapabocas-mujer-description":{
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "text": "Encuentra diferentes opciones de tapabocas para mujer en las marcas M+F Girbaud y Pilatos Concept, este esencial está elaborado en **tela antifluidos**, garantiza una barrera efectiva contra micropartículas y minimiza el riesgo de acumular agentes contaminantes, son de fácil cuidado, lavables y reutilizables. Lo encuentras en diferentes materiales como denim, velcro y con **opciones multipropósito** que ofrecen capucha + tapabocas. ¡Es momento de protegerte y en Pilatos te ofrecemos la posibilidad de hacerlo sin dejar de lado tu estilo!",
             "blockClass": "departmentDescription"
         }
     },
@@ -63,7 +63,7 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
                 "maxItemsPerPage": 12,
                 "queryField": "mujer/accesorios/tapabocas",

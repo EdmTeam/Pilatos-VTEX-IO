@@ -22,10 +22,10 @@
         "children":[
             "rich-text#category-bolsos-mujer-bread-crumb",
             "rich-text#category-bolsos-mujer-title",
-            "rich-text#category-bolsos-mujer-description",
-            "responsive-layout.desktop#category-bolsos-mujer-banners",
-            "responsive-layout.phone#category-bolsos-mujer-banners",
-            "responsive-layout.tablet#category-bolsos-mujer-banners"
+            "rich-text#category-bolsos-mujer-description"
+            // "responsive-layout.desktop#category-bolsos-mujer-banners",
+            // "responsive-layout.phone#category-bolsos-mujer-banners",
+            // "responsive-layout.tablet#category-bolsos-mujer-banners"
         ]
     },
 
@@ -44,14 +44,14 @@
 
     "rich-text#category-bolsos-mujer-title":{
         "props":{
-            "text": "Bolsos para mujer",
+            "text": "# Bolsos para mujer",
             "blockClass": "departmentTitle"
         }
     },
 
     "rich-text#category-bolsos-mujer-description":{
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "text": "Encuentra bolsos para mujer en diferentes colores, materiales y múltiples diseños llenos de estilo para que lleves siempre contigo todo lo que necesitas. **Bolsos de hombro, de mano, de viaje** y más opciones elegantes, casuales y con diferentes funcionalidades para que le des un toque diferente a tu look con marcas como Kipling, Diesel y Replay.",
             "blockClass": "departmentDescription"
         }
     },
@@ -63,7 +63,7 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
                 "maxItemsPerPage": 12,
                 "queryField": "mujer/accesorios/bolsos",

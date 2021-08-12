@@ -65,12 +65,12 @@
 
   "free-shipping":{
     "props": {
-      "valueOfFreeShipping": 300000,
+      "valueOfFreeShipping": 250000,
       "infoLabel": {
         "labelInitial": "",
         "labelBetween": "¡Faltan ",
         "labelFinal": " para que tu envío sea ",
-        "labelFreeShippingComplete": "¡Su envio es totalmente gratis!",
+        "labelFreeShippingComplete": "¡Tu envío es totalmente gratis!",
         "labelAdditional": "totalmente gratis!"
       },
       "show": {
@@ -268,7 +268,7 @@
   },
   "rich-text#minicart-default-empty-state": {
     "props": {
-      "text": "**Tu carrito esta vacio**"
+      "text": "**Tu carrito esta vacío**"
     }
   }
 }

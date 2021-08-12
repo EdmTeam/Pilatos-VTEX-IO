@@ -1,71 +1,87 @@
 {
     "store.custom#page-nuevo":{
         "blocks":[
-            "flex-layout.row#banner-page-nuevo",
-            "flex-layout.row#shelf-nuevo"
+            "flex-layout.row#banner-department-nuevo",
+            "search-result-layout.customQuery#department-nuevo"
         ],
         "props":{
             "blockClass": "contentStoreCustom"
         }
     },
 
-    "flex-layout.row#banner-page-nuevo":{
+    "flex-layout.row#banner-department-nuevo":{
         "children":[
-            "flex-layout.col#banner-page-nuevo"
+            "flex-layout.col#banner-department-nuevo"
         ],
         "props":{
             "blockClass": "contentSearch"
         }
     },
 
-    "flex-layout.col#banner-page-nuevo":{
+    "flex-layout.col#banner-department-nuevo":{
         "children":[
-            "rich-text#page-nuevo-bread-crumb",
-            "rich-text#page-nuevo-title",
-            "rich-text#page-nuevo-description",
-            "responsive-layout.desktop#page-nuevo-banners",
-            "responsive-layout.tablet#page-nuevo-banners",
-            "responsive-layout.phone#page-nuevo-banners"
+            "rich-text#departmen-nuevo-bread-crumb",
+            "rich-text#department-nuevo-title",
+            "rich-text#department-nuevo-description",
+            "responsive-layout.desktop#department-nuevo-banners",
+            "responsive-layout.tablet#department-nuevo-banners",
+            "responsive-layout.phone#department-nuevo-banners"
         ]
     },
 
-    "responsive-layout.desktop#page-nuevo-banners":{
+    "responsive-layout.desktop#department-nuevo-banners":{
         "children":[
-            "flex-layout.col#page-nuevo-banners-1"
+            "flex-layout.col#department-nuevo-banners-1"
         ]
     },
 
-    "rich-text#page-nuevo-bread-crumb":{
+    "rich-text#departmen-nuevo-bread-crumb":{
         "props":{
             "text": "[Home](/) / [**Nuevo**](/nuevo)",
             "blockClass": "departmentBreadCrumb"
         }
     },
 
-    "rich-text#page-nuevo-title":{
+    "rich-text#department-nuevo-title":{
         "props":{
             "text": "Nuevo",
             "blockClass": "departmentTitle"
         }
     },
 
-    "rich-text#page-nuevo-description":{
+    "rich-text#department-nuevo-description":{
         "props":{
-            "text": "Ropa para hombre desde camisetas, tenis, jeans y chaquetas hasta billeteras, pantalonetas y medias. Descubre en Pilatos tu ropa favorita de marcas como M+F Girbaud, Superdry, Diesel, New Balance y Replay, sólo en Pilatos",
+            "text": "¡Encuentra en Pilatos tus marcas favoritas! Adidas, Reebok, New balance, Diesel, Le coq sportif, Oakley, Ray Ban y ¡muchas más!. Miles de referencias y diseños, con la mejor calidad y al mejor precio.",
             "blockClass": "departmentDescription"
         }
     },
 
-    "flex-layout.col#page-nuevo-banners-1":{
+    "search-result-layout.customQuery#department-nuevo": {
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile#nuevo"
+        ],
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByReleaseDateDESC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 12,
+                "queryField": "1144",
+                "mapField": "productClusterIds"
+            }
+        }
+    },
+
+    "flex-layout.col#department-nuevo-banners-1":{
         "children":[
-            "image#page-nuevo-banners-1-img-1"
+            "image#department-nuevo-banners-1-img-1"
         ],
         "props":{
             "blockClass":"contentBannersDesk"
         }
     },
 
-    "image#page-nuevo-banners-1-img-1": {
+    "image#department-nuevo-banners-1-img-1": {
         "props": {
             "src": "/arquivos/Nuevos_Banner_principal_Desktop.jpg",
             "link": {

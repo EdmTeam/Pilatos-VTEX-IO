@@ -2,10 +2,6 @@
     display: none;
 }
 
-.summaryItemContainer{
-    margin: .5rem 0;
-}
-
 .summaryItemContainer:nth-child(odd) .summaryItemLabel{
     font-weight: normal;
     font-size: 12px;
@@ -39,6 +35,11 @@
     font-size: 17px;
     line-height: 20px;
     color: #FFFFFF;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--contentFooterCart) .summaryItemContainer:nth-child(n + 3){
+    margin: .5rem 0;
+    margin-bottom: 1rem !important;
 }
 
 .summaryItemLabel::after{

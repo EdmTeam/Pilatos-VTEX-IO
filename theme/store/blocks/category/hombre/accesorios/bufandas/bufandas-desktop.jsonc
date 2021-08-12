@@ -22,10 +22,10 @@
         "children":[
             "rich-text#category-bufandas-hombre-bread-crumb",
             "rich-text#category-bufandas-hombre-title",
-            "rich-text#category-bufandas-hombre-description",
-            "responsive-layout.desktop#category-bufandas-hombre-banners",
-            "responsive-layout.tablet#category-bufandas-hombre-banners",
-            "responsive-layout.phone#category-bufandas-hombre-banners"
+            "rich-text#category-bufandas-hombre-description"
+            // "responsive-layout.desktop#category-bufandas-hombre-banners",
+            // "responsive-layout.tablet#category-bufandas-hombre-banners",
+            // "responsive-layout.phone#category-bufandas-hombre-banners"
         ]
     },
 
@@ -44,14 +44,14 @@
 
     "rich-text#category-bufandas-hombre-title":{
         "props":{
-            "text": "Bufandas para hombre",
+            "text": "# Bufandas para hombre",
             "blockClass": "departmentTitle"
         }
     },
 
     "rich-text#category-bufandas-hombre-description":{
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "text": "Encuentra diferentes estilos de **cuellos y bufandas para hombre**, perfectas para un día frío o para destacar y lucir tu outfit con este complemento. ¡Elige tu bufanda favorita y compra ahora!",
             "blockClass": "departmentDescription"
         }
     },
@@ -63,7 +63,7 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
                 "maxItemsPerPage": 12,
                 "queryField": "hombre/accesorios/bufandas",

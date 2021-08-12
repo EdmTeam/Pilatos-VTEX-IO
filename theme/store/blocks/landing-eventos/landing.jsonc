@@ -121,8 +121,8 @@
       "blockClass": "sub-banners-sale"
     },
     "children": [
-      "image#sub-banner-1-mobile",
-      "image#sub-banner-2-mobile"
+      "link#sub-banner-1-mobile",
+      "link#sub-banner-2-mobile"
     ]
   }
 }

@@ -22,10 +22,10 @@
         "children":[
             "rich-text#category-slim-mujer-bread-crumb",
             "rich-text#category-slim-mujer-title",
-            "rich-text#category-slim-mujer-description",
-            "responsive-layout.desktop#category-slim-mujer-banners",
-            "responsive-layout.phone#category-slim-mujer-banners",
-            "responsive-layout.tablet#category-slim-mujer-banners"
+            "rich-text#category-slim-mujer-description"
+            // "responsive-layout.desktop#category-slim-mujer-banners",
+            // "responsive-layout.phone#category-slim-mujer-banners",
+            // "responsive-layout.tablet#category-slim-mujer-banners"
         ]
     },
 
@@ -44,14 +44,14 @@
 
     "rich-text#category-slim-mujer-title":{
         "props":{
-            "text": "Slim para mujer",
+            "text": "# Jeans Slim para mujer",
             "blockClass": "departmentTitle"
         }
     },
 
     "rich-text#category-slim-mujer-description":{
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "text": "Encuentra diferentes opciones de jeans Slim para mujer que resaltan tu figura, pantalones ajustados y delicados que se ciñen perfectamente a tu cuerpo, perfectos para combinar con las prendas que más te gusten, contamos con variedad de tonos y diseños que se adaptan a tu estilo. ¡Descubre todas las **referencias y marcas de jeans Slim** para mujer y renueva tu estilo con Pilatos!",
             "blockClass": "departmentDescription"
         }
     },
@@ -63,7 +63,7 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
                 "maxItemsPerPage": 12,
                 "queryField": "mujer/jeans/slim",

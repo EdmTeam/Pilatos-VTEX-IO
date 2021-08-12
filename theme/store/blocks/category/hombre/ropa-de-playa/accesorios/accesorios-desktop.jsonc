@@ -22,10 +22,10 @@
         "children":[
             "rich-text#category-ropa-playa-accesorios-hombre-bread-crumb",
             "rich-text#category-ropa-playa-accesorios-hombre-title",
-            "rich-text#category-ropa-playa-accesorios-hombre-description",
-            "responsive-layout.desktop#category-ropa-playa-accesorios-hombre-banners",
-            "responsive-layout.phone#category-ropa-playa-accesorios-hombre-banners",
-            "responsive-layout.tablet#category-ropa-playa-accesorios-hombre-banners"
+            "rich-text#category-ropa-playa-accesorios-hombre-description"
+            // "responsive-layout.desktop#category-ropa-playa-accesorios-hombre-banners",
+            // "responsive-layout.phone#category-ropa-playa-accesorios-hombre-banners",
+            // "responsive-layout.tablet#category-ropa-playa-accesorios-hombre-banners"
         ]
     },
 
@@ -63,7 +63,7 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
                 "maxItemsPerPage": 12,
                 "queryField": "hombre/ropa-de-playa/accesorios",

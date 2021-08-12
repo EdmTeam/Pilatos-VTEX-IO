@@ -22,10 +22,10 @@
         "children":[
             "rich-text#category-otros-accesorios-hombre-bread-crumb",
             "rich-text#category-otros-accesorios-hombre-title",
-            "rich-text#category-otros-accesorios-hombre-description",
-            "responsive-layout.desktop#category-otros-accesorios-hombre-banners",
-            "responsive-layout.phone#category-otros-accesorios-hombre-banners",
-            "responsive-layout.tablet#category-otros-accesorios-hombre-banners"
+            "rich-text#category-otros-accesorios-hombre-description"
+            // "responsive-layout.desktop#category-otros-accesorios-hombre-banners",
+            // "responsive-layout.phone#category-otros-accesorios-hombre-banners",
+            // "responsive-layout.tablet#category-otros-accesorios-hombre-banners"
         ]
     },
 
@@ -44,14 +44,14 @@
 
     "rich-text#category-otros-accesorios-hombre-title":{
         "props":{
-            "text": "Otros accesorios para hombre",
+            "text": "# Otros accesorios para hombre",
             "blockClass": "departmentTitle"
         }
     },
 
     "rich-text#category-otros-accesorios-hombre-description":{
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "text": "Pensando en ti contamos con **más complementos y accesorios para hombre** de las mejores marcas, como EcoVessel, Superdry, Diesel, Replay, Celio, New balance, entre otras, donde puedes encontrar guantes, canguros, termos, sandalias y más productos ideales para tu día a día.  ¡Complementa tu look con estos esenciales para hombre!",
             "blockClass": "departmentDescription"
         }
     },
@@ -63,7 +63,7 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
                 "maxItemsPerPage": 12,
                 "queryField": "hombre/accesorios/otros-accesorios",

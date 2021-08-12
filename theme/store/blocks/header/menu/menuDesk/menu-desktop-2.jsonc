@@ -24,7 +24,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        // "href": "/mujer",
+        "href": "/mujer",
         "noFollow": false,
         "tagTitle": "MUJER",
         "text": "MUJER"

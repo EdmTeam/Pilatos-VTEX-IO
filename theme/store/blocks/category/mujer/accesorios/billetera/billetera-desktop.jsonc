@@ -22,10 +22,10 @@
         "children":[
             "rich-text#category-billetera-mujer-bread-crumb",
             "rich-text#category-billetera-mujer-title",
-            "rich-text#category-billetera-mujer-description",
-            "responsive-layout.desktop#category-billetera-mujer-banners",
-            "responsive-layout.phone#category-billetera-mujer-banners",
-            "responsive-layout.tablet#category-billetera-mujer-banners"
+            "rich-text#category-billetera-mujer-description"
+            // "responsive-layout.desktop#category-billetera-mujer-banners",
+            // "responsive-layout.phone#category-billetera-mujer-banners",
+            // "responsive-layout.tablet#category-billetera-mujer-banners"
         ]
     },
 
@@ -44,14 +44,14 @@
 
     "rich-text#category-billetera-mujer-title":{
         "props":{
-            "text": "Billetera para mujer",
+            "text": "# Billeteras",
             "blockClass": "departmentTitle"
         }
     },
 
     "rich-text#category-billetera-mujer-description":{
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "text": "Encuentra diferentes billeteras para mujer que tenemos disponibles en varios colores, diseños, materiales y marcas como Kipling. Escoge la que mejor se adapte a tu estilo y conoce la **calidad y diseño** de nuestras billeteras para mujer. ¡No te quedes sin la tuya!",
             "blockClass": "departmentDescription"
         }
     },
@@ -63,7 +63,7 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
                 "maxItemsPerPage": 12,
                 "queryField": "mujer/accesorios/billetera",

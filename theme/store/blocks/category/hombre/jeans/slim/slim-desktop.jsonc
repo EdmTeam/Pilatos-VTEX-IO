@@ -22,10 +22,10 @@
         "children":[
             "rich-text#category-slim-hombre-bread-crumb",
             "rich-text#category-slim-hombre-title",
-            "rich-text#category-slim-hombre-description",
-            "responsive-layout.desktop#category-slim-hombre-banners",
-            "responsive-layout.phone#category-slim-hombre-banners",
-            "responsive-layout.tablet#category-slim-hombre-banners"
+            "rich-text#category-slim-hombre-description"
+            // "responsive-layout.desktop#category-slim-hombre-banners",
+            // "responsive-layout.phone#category-slim-hombre-banners",
+            // "responsive-layout.tablet#category-slim-hombre-banners"
         ]
     },
 
@@ -44,14 +44,14 @@
 
     "rich-text#category-slim-hombre-title":{
         "props":{
-            "text": "Slim para hombre",
+            "text": "# Jeans Slim para hombre",
             "blockClass": "departmentTitle"
         }
     },
 
     "rich-text#category-slim-hombre-description":{
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "text": "Encuentra diferentes opciones de jeans Slim para hombre en nuestras marcas Superdry, Celio, Replay. Jeans de moda que se ciñen perfectamente a tu cuerpo, ajustándose bien en toda la pierna con la finalidad de **resaltar tu silueta**. ¡Conoce todas las referencias de jeans Slim para hombre y renueva tu estilo con Pilatos!",
             "blockClass": "departmentDescription"
         }
     },
@@ -63,7 +63,7 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
                 "maxItemsPerPage": 12,
                 "queryField": "hombre/jeans/slim",

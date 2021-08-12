@@ -209,6 +209,10 @@
     margin-left: 2rem;
   }
 
+  .flexCol--contentRichtextWhatsApp{
+    align-items: flex-start !important;
+  }
+
   .flexCol--contenteItem1{
     margin: 0 .7rem 0 0;
   }
@@ -235,7 +239,7 @@
 
   .flexRowContent--contentStorelocator{
     padding: .4rem .6rem;
-    margin: 2.6rem auto 23px;
+    margin: 1.2rem auto 23px;
     width: 100%;
     text-align: center;
   }
@@ -889,7 +893,7 @@
 }
 
 .flexRowContent--contentSocialMedia .stretchChildrenWidth{
-  width: 50% !important;
+  width: 33.3% !important;
 }
 
 @media only screen and (min-width: 740px){
@@ -926,7 +930,7 @@
   }
 
   .flexRowContent--contentSocialMedia{
-    width: 15%;
+    width: 20%;
   }
 }
 
@@ -2314,4 +2318,144 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.flexRowContent--contentBrandsSlide{
+  margin-top: 1rem;
+}
+
+/* Estilos sobre nosotros */
+.flexCol--InfoAboutUs{
+  width: 90% !important;
+  margin: 0 auto;
+}
+
+.flexCol--contentBannerAboutUs{
+  width: 90% !important;
+  margin: 0 auto;
+}
+
+.flexColChild--contentImgAboutUsBanner{
+  height: 100% !important;
+}
+
+.flexRow--contentAboutUsBannerRow-2{
+  margin-top: .5rem;
+}
+
+.flexCol--pilatosLoversContentInput{
+  padding: 1rem 1.5rem;
+  border: 1px solid #AAA9A9;
+  border-radius: 1rem;
+}
+
+.flexColChild--pilatosLoversContentInput{
+  padding-right: 1rem;
+  width: 100%;
+}
+
+.flexColChild--pilatosLoversContentInput:first-child{
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.flexColChild--pilatosLoversContentInput .flexColChild{
+  margin-bottom: .5rem;
+}
+
+.flexColChild--pilatosLoversContentInput :global(.vtex-input-prefix__group){
+  height: 1.8rem;
+}
+
+.flexColChild--pilatosLoversContentInput :global(.vtex-styleguide-9-x-input){
+  font-size: 10px;
+}
+
+.flexColChild--pilatosLoversContentInput :global(.vtex-store-form-0-x-formSubmitContainer){
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-bottom: 1rem;
+}
+
+.flexColChild--pilatosLoversContentInput :global(.vtex-button){
+  font-family: 'icomoon'!important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  min-height: 1.8rem;
+  font-size: 10px;
+  background: #FFD400;
+  outline: none;
+  color: #000000;
+  min-height: 1.7rem;
+  font-size: 1rem;
+  padding: 0 1rem;
+}
+
+.flexColChild--pilatosLoversContentInput :global(.vtex-button)::before{
+  content: '\e91a';
+}
+
+.flexColChild--pilatosLoversContentInput :global(.vtex-button__label){
+  display: none;
+}
+
+.flexColChild--pilatosLoversContentInput :global(.vtex-checkbox__label){
+  font-size: 11px;
+}
+
+@media screen and (min-width: 740px){
+  .flexCol--InfoAboutUs{
+    width: 80% !important;
+  }
+
+  .flexCol--contentBannerAboutUs{
+    margin: 0 .5rem 0 auto;
+    width: 95% !important;
+  }
+
+  .flexRow--contentInfoAboutUs::-webkit-scrollbar{
+    width: 6px;
+  }
+
+  .flexRow--contentInfoAboutUs{
+    height: 40vh;
+    overflow-y: scroll;
+    margin-top: 1.5rem;
+  }
+
+  .flexCol--pilatosLoversContentInput{
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 1080px){
+  .flexRow--contentInfoAboutUs{
+    height: 75vh;
+  }
+}
+
+.flexRow--contentIcoWhatsApp{
+  height: 2.3rem;
+  width: 2.3rem;
+  background: #ffc600;
+  border-radius: 50%;
+}
+
+@media screen and (min-width: 1080px){
+  .flexRow--contentInfoAboutUs{
+    height: 75vh;
+  }
+
+  .flexRow--contentIcoWhatsApp{
+    height: 3rem;
+    width: 3rem;
+    background: #ffc600;
+    border-radius: 50%;
+  }
 }

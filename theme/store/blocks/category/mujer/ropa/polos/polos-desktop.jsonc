@@ -22,10 +22,10 @@
         "children":[
             "rich-text#category-polos-mujer-bread-crumb",
             "rich-text#category-polos-mujer-title",
-            "rich-text#category-polos-mujer-description",
-            "responsive-layout.desktop#category-polos-mujer-banners",
-            "responsive-layout.phone#category-polos-mujer-banners",
-            "responsive-layout.tablet#category-polos-mujer-banners"
+            "rich-text#category-polos-mujer-description"
+            // "responsive-layout.desktop#category-polos-mujer-banners",
+            // "responsive-layout.phone#category-polos-mujer-banners",
+            // "responsive-layout.tablet#category-polos-mujer-banners"
         ]
     },
 
@@ -44,14 +44,14 @@
 
     "rich-text#category-polos-mujer-title":{
         "props":{
-            "text": "Polos para mujer",
+            "text": "# Polos para mujer",
             "blockClass": "departmentTitle"
         }
     },
 
     "rich-text#category-polos-mujer-description":{
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "text": "Encuentra diferentes polos para mujer de marcas como Marithe Francois Girbaud, Pilatos y viste cómoda y a la moda. Descubre diferentes **camisetas polo** cortas o largas en variedad de diseños, colores y estampados que se ajustan a cada ocasión ya que son fáciles de combinar. ",
             "blockClass": "departmentDescription"
         }
     },
@@ -63,7 +63,7 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
                 "maxItemsPerPage": 12,
                 "queryField": "mujer/ropa/polos",

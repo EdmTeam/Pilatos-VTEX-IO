@@ -22,7 +22,7 @@
 
     "rich-text#submenu-level-1-texto-row-4": {
         "props": {
-            "text": "[Marcas](/)",
+            "text": "[Nuevo](/nuevo)",
             "blockClass": "itemMenuLevel1",
             "width": "90%"
         }

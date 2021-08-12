@@ -22,10 +22,10 @@
         "children":[
             "rich-text#category-correas-hombre-bread-crumb",
             "rich-text#category-correas-hombre-title",
-            "rich-text#category-correas-hombre-description",
-            "responsive-layout.desktop#category-correas-hombre-banners",
-            "responsive-layout.phone#category-correas-hombre-banners",
-            "responsive-layout.tablet#category-correas-hombre-banners"
+            "rich-text#category-correas-hombre-description"
+            // "responsive-layout.desktop#category-correas-hombre-banners",
+            // "responsive-layout.phone#category-correas-hombre-banners",
+            // "responsive-layout.tablet#category-correas-hombre-banners"
         ]
     },
 
@@ -44,14 +44,14 @@
 
     "rich-text#category-correas-hombre-title":{
         "props":{
-            "text": "Correas para hombre",
+            "text": "# Correas para hombre",
             "blockClass": "departmentTitle"
         }
     },
 
     "rich-text#category-correas-hombre-description":{
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "text": "Contamos con diferentes **cinturones y correas para hombre**, con lo mejor del estilo Pilatos. Conoce la calidad y el estilo de marcas como Diesel, Alpinestars, Superdry, Oakley y Replay en un solo lugar. Este esencial flexible fabricado en diferentes materiales elegantes o casuales te permiten estar cómodo y lucir prendas como jeans, pantalones, bermudas, entre otras.",
             "blockClass": "departmentDescription"
         }
     },
@@ -63,7 +63,7 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
                 "maxItemsPerPage": 12,
                 "queryField": "hombre/accesorios/correas",

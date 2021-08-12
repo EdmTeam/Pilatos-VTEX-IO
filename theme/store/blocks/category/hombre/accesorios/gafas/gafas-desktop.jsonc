@@ -22,10 +22,10 @@
         "children":[
             "rich-text#category-gafas-hombre-bread-crumb",
             "rich-text#category-gafas-hombre-title",
-            "rich-text#category-gafas-hombre-description",
-            "responsive-layout.desktop#category-gafas-hombre-banners",
-            "responsive-layout.phone#category-gafas-hombre-banners",
-            "responsive-layout.tablet#category-gafas-hombre-banners"
+            "rich-text#category-gafas-hombre-description"
+            // "responsive-layout.desktop#category-gafas-hombre-banners",
+            // "responsive-layout.phone#category-gafas-hombre-banners",
+            // "responsive-layout.tablet#category-gafas-hombre-banners"
         ]
     },
 
@@ -44,14 +44,14 @@
 
     "rich-text#category-gafas-hombre-title":{
         "props":{
-            "text": "Gafas para hombre",
+            "text": "# Gafas de sol para hombre",
             "blockClass": "departmentTitle"
         }
     },
 
     "rich-text#category-gafas-hombre-description":{
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "text": "Encuentra gafas para hombre de marcas como **Oakley** que se destacan por su alto rendimiento ofreciendo resistencia y estilo; **Ray-Ban las gafas de sol** más legendarias, donde puedes elegir entre modelos, colores, monturas y tipos de lentes disponibles. Descubre los mejores estilos en gafas de sol para hombre, protege tus ojos y añade estilo a tu look.",
             "blockClass": "departmentDescription"
         }
     },
@@ -63,7 +63,7 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
                 "maxItemsPerPage": 12,
                 "queryField": "hombre/accesorios/gafas",

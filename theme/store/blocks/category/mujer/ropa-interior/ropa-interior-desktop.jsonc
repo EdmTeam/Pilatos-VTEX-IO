@@ -22,10 +22,10 @@
         "children":[
             "rich-text#category-ropa-interior-mujer-bread-crumb",
             "rich-text#category-ropa-interior-mujer-title",
-            "rich-text#category-ropa-interior-mujer-description",
-            "responsive-layout.desktop#category-ropa-interior-mujer-banners",
-            "responsive-layout.phone#category-ropa-interior-mujer-banners",
-            "responsive-layout.tablet#category-ropa-interior-mujer-banners"
+            "rich-text#category-ropa-interior-mujer-description"
+            // "responsive-layout.desktop#category-ropa-interior-mujer-banners",
+            // "responsive-layout.phone#category-ropa-interior-mujer-banners",
+            // "responsive-layout.tablet#category-ropa-interior-mujer-banners"
         ]
     },
 
@@ -63,7 +63,7 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
                 "maxItemsPerPage": 12,
                 "queryField": "mujer/ropa-interior",
