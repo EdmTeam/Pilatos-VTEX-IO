@@ -51,7 +51,7 @@
 
     "rich-text#category-estuches-mujer-description":{
         "props":{
-            "text": "Encuentra lo mejor de la calidad y el diseño en los estuches para mujer de marcas como Kipling y Superdry en un solo lugar. Cartucheras, neceseres, cosmetiqueras, monederos y más opciones para que lleves siempre contigo todo lo que necesitas a la mano. ¡Complementa tu look con estos esenciales!",
+            "text": "Encuentra lo mejor de la calidad y el diseño en los estuches para mujer de marcas como Kipling y Superdry en un solo lugar. **Cartucheras, neceseres, cosmetiqueras, monederos** y más opciones para que lleves siempre contigo todo lo que necesitas a la mano. ¡Complementa tu look con estos esenciales!",
             "blockClass": "departmentDescription"
         }
     },

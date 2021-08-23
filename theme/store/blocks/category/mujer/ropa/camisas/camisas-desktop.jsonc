@@ -51,7 +51,7 @@
 
     "rich-text#category-camisas-mujer-description":{
         "props":{
-            "text": "Contamos con diferentes camisas para mujer con **estilos casuales, frescos o formales** para que renueves tus looks. Descubre camisas originales de tus marcas favoritas: Replay, Superdry, Diesel, Girbaud, Agua Bendita y Pilatos Concept. ¡Encuentra aquí las mejores marcas y camisas que combinan con tu actitud y moderniza tu closet!",
+            "text": "Contamos con diferentes camisas para mujer con **estilos casuales, frescos o formales** para que renueves tus looks. Descubre camisas originales de tus marcas favoritas: Replay, Superdry, Diesel, Girbaud, Agua Bendita y Pilatos. ¡Encuentra aquí las mejores marcas y camisas que combinan con tu actitud y moderniza tu closet!",
             "blockClass": "departmentDescription"
         }
     },
@@ -88,7 +88,7 @@
         "props": {
             "src": "/arquivos/category-bn-desk-3.png",
             "link": {
-                "url": "/",
+                "url": "/mujer/ropa-de-playa",
                 "attributeTitle": ""
             },
             "blockClass": "departmentBannerImg-1"
@@ -99,7 +99,7 @@
         "props": {
             "src": "/arquivos/category-bn-desk-2.png",
             "link": {
-                "url": "/",
+                "url": "/mujer/ropa/sudaderas",
                 "attributeTitle": ""
             },
             "blockClass": "departmentBannerImg-2"
@@ -110,7 +110,7 @@
         "props": {
             "src": "/arquivos/category-bn-desk-1.png",
             "link": {
-                "url": "/",
+                "url": "/mujer/ropa/vestidos",
                 "attributeTitle": ""
             },
             "blockClass": "departmentBannerImg-3"

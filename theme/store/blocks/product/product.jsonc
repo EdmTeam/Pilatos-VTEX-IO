@@ -98,8 +98,28 @@
       "stack-layout#product",
       "product-price#product",
       "sku-selector",
-      "size-guide#zapatos-hombre",
-      "size-guide#zapatos-mujer",
+      "size-guide#zapatos-hombre-adidas",
+      "size-guide#zapatos-mujer-adidas",
+      "size-guide#mujer-diesel",
+      "size-guide#zapatos-mujer-diesel",
+      "size-guide#zapatos-mujer-LeCoqSportif",
+      "size-guide#mujer-MaritheFrancoisGirbaud",
+      "size-guide#zapatos-mujer-newbalance",
+      "size-guide#zapatos-mujer-reebok",
+      "size-guide#mujer-Replay",
+      "size-guide#zapatos-mujer-Replay",
+      "size-guide#zapatos-mujer-superdry",
+      "size-guide#mujer-superdry",
+      "size-guide#zapatos-hombre-diesel",
+      "size-guide#hombre-diesel",
+      "size-guide#zapatos-hombre-LeCoqSportif",
+      "size-guide#hombre-MaritheFrancoisGirbaud",
+      "size-guide#zapatos-hombre-newbalance",
+      "size-guide#zapatos-hombre-reebok",
+      "size-guide#hombre-Replay",
+      "size-guide#zapatos-hombre-Replay",
+      "size-guide#hombre-Superdry",
+      "size-guide#zapatos-hombre-Superdry",
       "product-quantity",
       "flex-layout.row#product-button",
       "link#scrollLink",
@@ -110,34 +130,6 @@
       "width": "60%",
       "rowGap": 0,
       "blockClass": "stack-product"
-    }
-  },
-
-  "size-guide#zapatos-hombre":{
-    "props": {
-      "conditionals": [
-          {
-              //"brands": ["121", "2000001"],
-              "categories": ["3"],
-              "image": "/arquivos/Adisas--Hombre-zapato.jpg",
-              "imageTablet": "/arquivos/Adidas-hombre-zapato-largo.jpg",
-              "imagePhone": "/arquivos/Adidas-hombre-zapato-largo.jpg"
-          }
-      ]
-    }
-  },
-
-  "size-guide#zapatos-mujer":{
-    "props": {
-      "conditionals": [
-          {
-              //"brands": ["121", "2000001"],
-              "categories": ["44"],
-              "image": "/arquivos/Adidas---mujer-zapato.jpg",
-              "imageTablet": "/arquivos/Adidas---mujer-zapato.jpg",
-              "imagePhone": "/arquivos/Adidas-mujer-zapato-largo.jpg"
-          }
-      ]
     }
   },
 

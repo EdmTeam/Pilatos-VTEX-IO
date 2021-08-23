@@ -51,7 +51,7 @@
 
     "rich-text#category-ropa-hombre-description":{
         "props":{
-            "text": "Encuentra todo en ropa para hombre: camisetas, camisas, polos, buzos, chaquetas, pantalones, bermudas, sudaderas, en una amplia gama de colores, diseños y texturas; **prendas exclusivas de las mejores marcas internacionales** como: Celio, Diesel, Girbaud, Superdry, New Project, New Balance, Replay, Dzone y nuestra marca propia Pilatos Concept. ¡Arma tu outfit completo con las mejores marcas de ropa!",
+            "text": "Encuentra todo en ropa para hombre: camisetas, camisas, polos, buzos, chaquetas, pantalones, bermudas, sudaderas, en una amplia gama de colores, diseños y texturas; **prendas exclusivas de las mejores marcas internacionales** como: Celio, Diesel, Girbaud, Superdry, New Project, New Balance, Replay, Dzone y nuestra marca propia Pilatos. ¡Arma tu outfit completo con las mejores marcas de ropa!",
             "blockClass": "departmentDescription"
         }
     },

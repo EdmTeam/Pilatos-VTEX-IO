@@ -62,7 +62,9 @@
         "image#brand-20",
         "image#brand-21",
         "image#brand-22",
-        "image#brand-23"
+        "image#brand-23",
+        "image#brand-24",
+        "image#brand-25"
       ]
     },
 
@@ -203,7 +205,7 @@
 
     "image#brand-16": {
       "props": {
-          "src": "/arquivos/Logo_Pilatos_Concept.png",
+          "src": "/arquivos/PilatosLogo.png",
           "link": {
               "url": "/pilatos"
           }
@@ -269,6 +271,24 @@
           "src": "/arquivos/Logo_Superdy.png",
           "link": {
               "url": "/superdry"
+          }
+      }
+    },
+
+    "image#brand-24": {
+      "props": {
+          "src": "/arquivos/logo_unico.png",
+          "link": {
+              "url": "/mundo-unico"
+          }
+      }
+    },
+
+    "image#brand-25": {
+      "props": {
+          "src": "/arquivos/Logo_AB.png",
+          "link": {
+              "url": "/agua-bendita"
           }
       }
     }

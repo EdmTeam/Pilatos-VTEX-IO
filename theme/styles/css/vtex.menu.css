@@ -210,6 +210,10 @@
     transform: translateX(-50%);
 }
 
+.submenuWrapper--contentSubmenuDesk2{
+    width: 500px !important;
+}
+
 @media only screen and (min-width: 1280px){
     .submenuWrapper--contentSubmenuDesk-1{
         left: -30px;
@@ -289,4 +293,9 @@
     border-top: 11px solid transparent;
     border-left: 11px solid transparent;
     border-bottom: 10px solid #FFD400;
+}
+
+.submenuWrapper--contentSubmenuDesk{
+    height: 470px;
+    overflow-y: auto;
 }

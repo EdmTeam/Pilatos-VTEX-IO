@@ -1,0 +1,189 @@
+{
+    "flex-layout.col#submenu-desk-department-4-category-1":{
+        "children":[
+            "flex-layout.col#submenu-desk-department-4-category-1-row-1"
+        ]
+    },
+
+    "flex-layout.col#submenu-desk-department-4-category-1-row-1":{
+        "children":[
+            "rich-text#submenu-desk-department-4-category-1",
+            "rich-text#submenu-desk-department-4-category-21",
+            "rich-text#submenu-desk-department-4-category-2",
+            "rich-text#submenu-desk-department-4-category-3",
+            "rich-text#submenu-desk-department-4-category-4",
+            "rich-text#submenu-desk-department-4-category-5",
+            "rich-text#submenu-desk-department-4-category-6",
+            "rich-text#submenu-desk-department-4-category-7",
+            "rich-text#submenu-desk-department-4-category-8",
+            "rich-text#submenu-desk-department-4-category-9",
+            "rich-text#submenu-desk-department-4-category-10",
+            "rich-text#submenu-desk-department-4-category-11",
+            "rich-text#submenu-desk-department-4-category-12",
+            "rich-text#submenu-desk-department-4-category-13",
+            "rich-text#submenu-desk-department-4-category-14",
+            "rich-text#submenu-desk-department-4-category-15",
+            "rich-text#submenu-desk-department-4-category-16",
+            "rich-text#submenu-desk-department-4-category-17",
+            "rich-text#submenu-desk-department-4-category-18",
+            "rich-text#submenu-desk-department-4-category-19",
+            "rich-text#submenu-desk-department-4-category-20"
+        ],
+        "props":{
+            "blockClass": [
+                "contentBlockSubmenu",
+                "contentBlockSubmenu2"
+            ]
+        }
+    },
+
+    "rich-text#submenu-desk-department-4-category-1":{
+        "props":{
+            "text": "[Pilatos](/pilatos)",
+            "blockClass": [
+                "textCategory",
+                "textSubcategoryPilatos"
+            ]
+        }
+    },
+
+    "rich-text#submenu-desk-department-4-category-2":{
+        "props":{
+            "text": "[Adidas](/adidas)",
+            "blockClass": "textCategory"
+        }
+    },
+
+    "rich-text#submenu-desk-department-4-category-3":{
+        "props":{
+            "text": "[Celio](/celio)",
+            "blockClass": "textCategory"
+        }
+    },
+
+    "rich-text#submenu-desk-department-4-category-4":{
+        "props":{
+            "text": "[Cole Haan](/cole-haan)",
+            "blockClass": "textCategory"
+        }
+    },
+
+    "rich-text#submenu-desk-department-4-category-5":{
+        "props":{
+            "text": "[Diesel](/diesel)",
+            "blockClass": "textCategory"
+        }
+    },
+
+    "rich-text#submenu-desk-department-4-category-6":{
+        "props":{
+            "text": "[Dzone](/dzone)",
+            "blockClass": "textCategory"
+        }
+    },
+
+    "rich-text#submenu-desk-department-4-category-7":{
+        "props":{
+            "text": "[Fossil](/fossil)",
+            "blockClass": "textCategory"
+        }
+    },
+
+    "rich-text#submenu-desk-department-4-category-8":{
+        "props":{
+            "text": "[Goorin Bros](/goorin-bros)",
+            "blockClass": "textCategory"
+        }
+    },
+
+    "rich-text#submenu-desk-department-4-category-9":{
+        "props":{
+            "text": "[Kipling](/kipling)",
+            "blockClass": "textCategory"
+        }
+    },
+
+    "rich-text#submenu-desk-department-4-category-10":{
+        "props":{
+            "text": "[Le Coq Sportif](/le-coq-sportif)",
+            "blockClass": "textCategory"
+        }
+    },
+
+    "rich-text#submenu-desk-department-4-category-11":{
+        "props":{
+            "text": "[Marithe Francois Girbaud](/Marithe-francois-girbaud)",
+            "blockClass": "textCategory"
+        }
+    },
+
+    "rich-text#submenu-desk-department-4-category-12":{
+        "props":{
+            "text": "[Mundo Único](/mundo-unico)",
+            "blockClass": "textCategory"
+        }
+    },
+
+    "rich-text#submenu-desk-department-4-category-13":{
+        "props":{
+            "text": "[New Balance](/new-balance)",
+            "blockClass": "textCategory"
+        }
+    },
+
+    "rich-text#submenu-desk-department-4-category-14":{
+        "props":{
+            "text": "[New Project](/new-project)",
+            "blockClass": "textCategory"
+        }
+    },
+
+    "rich-text#submenu-desk-department-4-category-15":{
+        "props":{
+            "text": "[Oakley](/oakley)",
+            "blockClass": "textCategory"
+        }
+    },
+
+    "rich-text#submenu-desk-department-4-category-16":{
+        "props":{
+            "text": "[Quiksilver](/quiksilver)",
+            "blockClass": "textCategory"
+        }
+    },
+
+    "rich-text#submenu-desk-department-4-category-17":{
+        "props":{
+            "text": "[Ray Ban](/ray-ban)",
+            "blockClass": "textCategory"
+        }
+    },
+
+    "rich-text#submenu-desk-department-4-category-18":{
+        "props":{
+            "text": "[Roxy](/roxy)",
+            "blockClass": "textCategory"
+        }
+    },
+
+    "rich-text#submenu-desk-department-4-category-19":{
+        "props":{
+            "text": "[Stance](/stance)",
+            "blockClass": "textCategory"
+        }
+    },
+
+    "rich-text#submenu-desk-department-4-category-20":{
+        "props":{
+            "text": "[Superdry](/superdry)",
+            "blockClass": "textCategory"
+        }
+    },
+
+    "rich-text#submenu-desk-department-4-category-21":{
+        "props":{
+            "text": "[Agua Bendita](/agua-bendita)",
+            "blockClass": "textCategory"
+        }
+    }
+}

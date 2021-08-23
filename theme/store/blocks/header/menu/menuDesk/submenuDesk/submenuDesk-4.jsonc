@@ -1,0 +1,87 @@
+{
+    "vtex.menu@2.x:submenu#submenu-level-2-desk-row-4": {
+        "children": [
+            "flex-layout.row#submenu-desk-row-4"
+        ],
+        "props":{
+            "blockClass": [
+                "contentSubmenuDesk",
+                "contentSubmenuDesk2"
+            ]
+        }
+    },
+
+    "flex-layout.row#submenu-desk-row-4":{
+        "children":[
+            "flex-layout.col#submenu-desk-col-1-row-4"
+        ],
+        "props":{
+            "blockClass": "boxSubmenu"
+        }
+    },
+
+    "flex-layout.col#submenu-desk-col-1-row-4": {
+        "children":[
+            "flex-layout.row#submenu-desk-vertodo-row-4",
+            "flex-layout.row#submenu-desk-department-options-row-4"
+        ]
+    },
+
+    "flex-layout.row#submenu-desk-vertodo-row-4":{
+        "children":[
+            "rich-text#submenu-desk-vertodo-row-4",
+            "rich-text#submenu-desk-ico-row-4"
+        ]
+    },
+
+    "rich-text#submenu-desk-vertodo-row-4":{
+        "props":{
+            "text": "MARCAS",
+            "blockClass": "submenulink",
+            "width": "21%"
+        }
+    },
+
+    "rich-text#submenu-desk-ico-row-4":{
+        "props":{
+            "text": "",
+            "blockClass": "submenuIco",
+            "width": "4%"
+        }
+    },
+
+    "flex-layout.row#submenu-desk-department-options-row-4":{
+        "children":[
+            "flex-layout.row#submenu-desk-category-options-col-1-row-4"
+            // "flex-layout.col#submenu-desk-category-options-col-2-row-4"
+        ]
+    },
+
+    "flex-layout.row#submenu-desk-category-options-col-1-row-4":{
+        "children":[
+            "flex-layout.col#submenu-desk-department-4-category-1"
+        ],
+        "props":{
+            "width": "100%"
+        }
+    },
+
+    "flex-layout.col#submenu-desk-category-options-col-2-row-4":{
+        "children":[
+            "image#image-department-1-row-4"
+        ],
+        "props":{
+            "width": "30%",
+            "blockClass": "contentdepartmentImg"     
+        }
+    },
+
+    "image#image-department-1-row-4":{
+        "props": {
+            "src": "/arquivos/Banner_Desktop_Menu_Mujer.jpg",
+            "link": {
+                "url": "/mujer"
+            }
+        }
+    }
+}

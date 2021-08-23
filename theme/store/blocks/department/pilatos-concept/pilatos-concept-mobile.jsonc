@@ -16,7 +16,7 @@
 
     "image#department-pilatos-banners-1-img-1-mobile": {
         "props": {
-            "src": "/arquivos/PilatosConcept_Banner_principal_Mobile.jpg",
+            "src": "/arquivos/Pilatos_Banner_principal_Mobile.jpg",
             "link": {
                 "url": "/nuevo",
                 "attributeTitle": ""

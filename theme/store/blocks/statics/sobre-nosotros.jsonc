@@ -140,7 +140,7 @@
     "image#banners-about-us-row-3-img-1": {
         "props": {
             "src": "/arquivos/pilatos-concept-marca-propia.png",
-            "alt": "Pilatos Concept marca propia para hombre y mujer.",
+            "alt": "Pilatos marca propia para hombre y mujer.",
             "blockClass": "departmentBannerImg"
         }
     },
@@ -234,7 +234,7 @@
 
     "rich-text#info-what-can-we-find-1":{
         "props":{
-            "text": "Desde jeans, chaquetas, camisas, camisetas, vestidos, bermudas y ropa interior hasta lentes de sol, relojería de lujo, bolsos, calzado y marroquinería podrás encontrar en este espacio que es sinónimo de moda, exclusividad y últimas tendencias. Contamos con nuestra propia línea de ropa [Pilatos Concept](/pilatos-concept), que trae nuevas cápsulas mes a mes, como **Olímpicos**, inspirada en los elementos típicos de los Juegos Olímpicos y Tokio como ciudad anfitriona y **Euphoria** que llega a retarte a vivir tu vida al máximo y a disfrutar la adrenalina de cada día.",
+            "text": "Desde jeans, chaquetas, camisas, camisetas, vestidos, bermudas y ropa interior hasta lentes de sol, relojería de lujo, bolsos, calzado y marroquinería podrás encontrar en este espacio que es sinónimo de moda, exclusividad y últimas tendencias. Contamos con nuestra propia línea de ropa [Pilatos](/pilatos), que trae nuevas cápsulas mes a mes, como **Olímpicos**, inspirada en los elementos típicos de los Juegos Olímpicos y Tokio como ciudad anfitriona y **Euphoria** que llega a retarte a vivir tu vida al máximo y a disfrutar la adrenalina de cada día.",
             "blockClass": [
                 "descriptionWhatCanWeFind",
                 "descriptionAboutUs"
@@ -293,7 +293,7 @@
 
     "rich-text#info-brand-pilatos-2-brand":{
         "props":{
-            "text": "- Celio\n- Diesel\n- Kipling\n- Marithé François Girbaud\n- Pilatos Concept\n- Superdry\n- Replay\n- New Balance\n- New Project\n- Adidas\n- Reebok\n- Crep protect\n- Fossil\n- Le Coq Sportif\n- Ray Ban\n- Stance\n- Roxy\n- Quiksilver\n- Dzone\n- Oakley\n- Cole Haan\n- Mundo Unico\n- Goorin Bros\n- Nike\n- The Frenchie Co",
+            "text": "- Celio\n- Diesel\n- Kipling\n- Marithé François Girbaud\n- Pilatos\n- Superdry\n- Replay\n- New Balance\n- New Project\n- Adidas\n- Reebok\n- Crep protect\n- Fossil\n- Le Coq Sportif\n- Ray Ban\n- Stance\n- Roxy\n- Quiksilver\n- Dzone\n- Oakley\n- Cole Haan\n- Mundo Unico\n- Goorin Bros\n- Nike\n- The Frenchie Co",
             "blockClass": [
                 "brandsPilatosItem"
             ]
@@ -320,14 +320,14 @@
 
     "rich-text#title-pilatos-lovers":{
         "props":{
-            "text": "Haz parte de #HastagQueDefinan",
+            "text": "Haz parte de #LoMejorDeLasMejoresMarcas",
             "blockClass": "subTitleAboutUs"
         }
     },
 
     "rich-text#des-pilatos-lovers":{
         "props":{
-            "text": "Obtén grandes beneficios siendo parte de #HastagQueDefinan ¡Suscríbete ahora!",
+            "text": "Obtén grandes beneficios siendo parte de #LoMejorDeLasMejoresMarcas ¡Suscríbete ahora!",
             "blockClass": "descriptionAboutUs"
         }
     },

@@ -51,7 +51,7 @@
 
     "rich-text#category-vestidos-mujer-description":{
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "text": "Encuentra diferentes opciones de vestidos para mujer que siempre te harán lucir bien. Contamos con variedad de colores, diseños, materiales y estilos para que luzcas cómoda y ligera en cualquier ocasión. **Vestidos largos, cortos, casuales** hasta vestidos de fiesta y playeros en un solo lugar. Elige tu marca favorita Girbaud, Diesel, Superdry, entre otras. ¡No te quedes sin el tuyo!",
             "blockClass": "departmentDescription"
         }
     },

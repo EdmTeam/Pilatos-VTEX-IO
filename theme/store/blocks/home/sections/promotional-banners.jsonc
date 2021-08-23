@@ -28,7 +28,7 @@
 
     "image#mobile-banner-1": {
         "props": {
-            "src": "/arquivos/Banner_CuartoNivel_Mobile_01.jpg",
+            "src": "/arquivos/Banner_CuartoNivel_Mobile_06.jpg",
             "link": {
                 "url": "/quiksilver",
                 "attributeTitle": ""
@@ -136,7 +136,7 @@
 
     "image#desk-promotional-banners-col-1-img-1": {
         "props": {
-            "src": "/arquivos/Banner_CuartoNivel_Desktop_01.jpg",
+            "src": "/arquivos/Banner_CuartoNivel_Desktop_06.jpg",
             "link": {
                 "url": "/quiksilver",
                 "attributeTitle": ""

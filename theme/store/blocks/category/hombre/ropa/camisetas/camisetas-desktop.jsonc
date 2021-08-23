@@ -51,7 +51,7 @@
 
     "rich-text#category-camisetas-hombre-description":{
         "props":{
-            "text": "Encuentra aquí camisetas para hombre en una amplia gama de colores, diseños, texturas y marcas como: Diesel, Celio, Replay, Superdry, Girbaud, New Project, New Balance y nuestra marca propia Pilatos Concept. Descubre diferentes estilos y diseños en nuestras **camisetas de moda** de talla internacional en un solo lugar.",
+            "text": "Encuentra aquí camisetas para hombre en una amplia gama de colores, diseños, texturas y marcas como: Diesel, Celio, Replay, Superdry, Girbaud, New Project, New Balance y nuestra marca propia Pilatos. Descubre diferentes estilos y diseños en nuestras **camisetas de moda** de talla internacional en un solo lugar.",
             "blockClass": "departmentDescription"
         }
     },
@@ -88,7 +88,7 @@
         "props": {
             "src": "/arquivos/Categorias_hombre_Banner_gorras_Desktop.jpg",
             "link": {
-                "url": "/",
+                "url": "/hombre/accesorios/gorras",
                 "attributeTitle": ""
             },
             "blockClass": "departmentBannerImg-1"
@@ -99,7 +99,7 @@
         "props": {
             "src": "/arquivos/Categorias_hombre_Banner_jeans_Desktop.jpg",
             "link": {
-                "url": "/",
+                "url": "/hombre/jeans",
                 "attributeTitle": ""
             },
             "blockClass": "departmentBannerImg-2"
@@ -110,7 +110,7 @@
         "props": {
             "src": "/arquivos/Categorias_hombre_Banner_tenis_Desktop.jpg",
             "link": {
-                "url": "/",
+                "url": "/hombre/zapatos/tenis",
                 "attributeTitle": ""
             },
             "blockClass": "departmentBannerImg-3"

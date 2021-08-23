@@ -24,7 +24,10 @@ const CloseMenu: FC<props> = ({
 
     const closeCart = ()=>{
 
-        const btnClose = document.querySelectorAll('.vtex-minicart-2-x-portalWrapper .fixed');
+        const btnClose = document.querySelectorAll('.pilatos21-custom-minicart-0-x-portalWrapper .fixed');
+        
+        const bodyScroll = document.querySelector('body');
+        (bodyScroll as HTMLElement).classList.remove('vtex-hiden');
 
         btnClose.forEach(btn =>{
             (btn as HTMLElement).click();

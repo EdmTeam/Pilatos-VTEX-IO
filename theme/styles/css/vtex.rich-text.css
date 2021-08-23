@@ -704,6 +704,7 @@
   font-size: 12px;
   line-height: 15px;
   letter-spacing: 0.03em;
+  color: #000000;
 }
 
 .wrapper--textCategory .link{
@@ -1641,4 +1642,26 @@
   .wrapper--contentIcoWhatsApp::before{
     font-size: 2rem;
   } 
+}
+
+.wrapper--contentSubMenuAcordeon .paragraph{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 13px;
+  letter-spacing: .02em;
+  color: #000;
+  margin: .65rem 0;
+}
+
+.wrapper--contentSubMenuAcordeon .link{
+  text-decoration: none;
+  color: #000;
+}
+
+.wrapper--contentSubMenuAcordeon .link:hover{
+  color: #000;
+}
+
+.wrapper--textSubcategoryPilatos .link{
+  border-bottom: 2px solid #FFD400;
 }

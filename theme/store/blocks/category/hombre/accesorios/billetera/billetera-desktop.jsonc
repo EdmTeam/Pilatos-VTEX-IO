@@ -21,8 +21,8 @@
     "flex-layout.col#banner-category-billetera-hombre":{
         "children":[
             "rich-text#category-billetera-hombre-bread-crumb",
-            "rich-text#category-billetera-hombre-title"
-            // "rich-text#category-billetera-hombre-description",
+            "rich-text#category-billetera-hombre-title",
+            "rich-text#category-billetera-hombre-description"
             // "responsive-layout.desktop#category-billetera-hombre-banners",
             // "responsive-layout.tablet#category-billetera-hombre-banners",
             // "responsive-layout.phone#category-billetera-hombre-banners"
@@ -51,7 +51,7 @@
 
     "rich-text#category-billetera-hombre-description":{
         "props":{
-            "text": "Encuentra calidad y estilo en las **diferentes billeteras para hombre** que tenemos disponibles en varios colores, diseños, materiales y marcas como Superdry, Quicksilver, Diesel, Replay y nuestra marca propia Pilatos Concept. ¡No te quedes sin tu billetera!",
+            "text": "Encuentra calidad y estilo en las **diferentes billeteras para hombre** que tenemos disponibles en varios colores, diseños, materiales y marcas como Superdry, Quicksilver, Diesel, Replay y nuestra marca propia Pilatos. ¡No te quedes sin tu billetera!",
             "blockClass": "departmentDescription"
         }
     },

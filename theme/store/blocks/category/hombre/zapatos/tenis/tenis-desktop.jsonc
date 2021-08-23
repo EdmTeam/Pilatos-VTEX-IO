@@ -88,7 +88,7 @@
         "props": {
             "src": "/arquivos/Categorias_hombre_Banner_buzos_Desktop.jpg",
             "link": {
-                "url": "/hombre/ropa/buzos",
+                "url": "/hombre/ropa/chaquetas",
                 "attributeTitle": ""
             },
             "blockClass": "departmentBannerImg-1"
@@ -110,7 +110,7 @@
         "props": {
             "src": "/arquivos/Categorias_hombre_Banner_deportiva_Desktop.jpg",
             "link": {
-                "url": "/",
+                "url": "/hombre/ropa/sudaderas",
                 "attributeTitle": ""
             },
             "blockClass": "departmentBannerImg-3"

@@ -51,7 +51,7 @@
 
     "rich-text#category-medias-mujer-description":{
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "text": "¿Coloridas, estampadas, unicolor o de rayas? Descubre **diferentes diseños de medias para mujer**, acompañado de las mejores marcas como Stance y Superdry, perfectas para todos los estilos y ocasiones. ¡Elige tus favoritas y siente su comodidad!",
             "blockClass": "departmentDescription"
         }
     },

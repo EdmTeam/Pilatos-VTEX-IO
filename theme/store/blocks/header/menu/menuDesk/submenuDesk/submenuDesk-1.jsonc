@@ -68,10 +68,11 @@
         "children":[
             "flex-layout.col#submenu-desk-department-1-category-1",
             "flex-layout.col#submenu-desk-department-1-category-2",
-            "flex-layout.col#submenu-desk-department-1-category-3"
+            "flex-layout.col#submenu-desk-department-1-category-3",
+            "flex-layout.col#submenu-desk-department-1-category-7"
         ],
         "props":{
-            "width": "70%"
+            "width": "75%"
         }
     },
 
@@ -80,7 +81,7 @@
             "image#image-department-1"
         ],
         "props":{
-            "width": "30%",
+            "width": "25%",
             "blockClass": "contentdepartmentImg"     
         }
     },

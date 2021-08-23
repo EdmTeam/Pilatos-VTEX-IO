@@ -119,14 +119,14 @@
 
     "rich-text#facebook":{
         "props":{
-            "text": "[](/)",
+            "text": "[](https://www.facebook.com/almacenespilatos)",
             "blockClass": "icoFacebook"
         }
     },
 
     "rich-text#instagram":{
         "props":{
-            "text": "[](/)",
+            "text": "[](https://www.instagram.com/PilatosStore)",
             "blockClass": "icoInstagram"
         }
     },

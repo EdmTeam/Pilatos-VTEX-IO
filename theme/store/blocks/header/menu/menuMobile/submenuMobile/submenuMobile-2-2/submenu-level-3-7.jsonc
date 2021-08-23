@@ -1,0 +1,158 @@
+{
+    "vtex.menu@2.x:menu#submenu-level-3-row-7-row-2": {
+        "children": [
+            "menu-item#submenu-level-3-row-7-row-2"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+
+    "menu-item#submenu-level-3-row-7-row-2": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "Marcas"
+            },
+            "blockClass": "menuAccordionLevel1"
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#submenu-level-3-row-7-row-2"
+        ]
+    },
+
+    "vtex.menu@2.x:submenu.accordion#submenu-level-3-row-7-row-2": {
+        "children": [
+            "rich-text#submenu-level-3-text-1-row-7-row-2",
+            "rich-text#submenu-level-3-text-2-row-7-row-2",
+            "rich-text#submenu-level-3-text-15-row-7-row-2",
+            "rich-text#submenu-level-3-text-3-row-7-row-2",
+            "rich-text#submenu-level-3-text-4-row-7-row-2",
+            "rich-text#submenu-level-3-text-5-row-7-row-2",
+            "rich-text#submenu-level-3-text-6-row-7-row-2",
+            "rich-text#submenu-level-3-text-7-row-7-row-2",
+            "rich-text#submenu-level-3-text-8-row-7-row-2",
+            "rich-text#submenu-level-3-text-9-row-7-row-2",
+            "rich-text#submenu-level-3-text-10-row-7-row-2",
+            "rich-text#submenu-level-3-text-11-row-7-row-2",
+            "rich-text#submenu-level-3-text-12-row-7-row-2",
+            "rich-text#submenu-level-3-text-13-row-7-row-2",
+            "rich-text#submenu-level-3-text-14-row-7-row-2"
+        ],
+        "props": {
+            "blockClass": "contentSubMenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-3-text-1-row-7-row-2": {
+        "props": {
+            "text": "[Pilatos](/mujer/pilatos?map=category-1,marca)",
+            "blockClass": [
+                "textSubmenuAcordeon",
+                "textSubcategoryPilatos"
+            ]
+        }
+    },
+
+    "rich-text#submenu-level-3-text-2-row-7-row-2": {
+        "props": {
+            "text": "[Adidas](/mujer/adidas?map=category-1,marca)",
+            "blockClass": "textSubmenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-3-text-3-row-7-row-2": {
+        "props": {
+            "text": "[Diesel](/mujer/diesel?map=category-1,marca)",
+            "blockClass": "textSubmenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-3-text-4-row-7-row-2": {
+        "props": {
+            "text": "[Kipling](/mujer/kipling?map=category-1,marca)",
+            "blockClass": "textSubmenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-3-text-5-row-7-row-2": {
+        "props": {
+            "text": "[Le Coq Sportif](/mujer/le-coq-sportif?map=category-1,marca)",
+            "blockClass": "textSubmenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-3-text-6-row-7-row-2": {
+        "props": {
+            "text": "[Marithe Francois Girbaud](/mujer/marithe-francois-girbaud?map=category-1,marca)",
+            "blockClass": "textSubmenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-3-text-7-row-7-row-2": {
+        "props": {
+            "text": "[New Balance](/mujer/new-balance?map=category-1,marca)",
+            "blockClass": "textSubmenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-3-text-8-row-7-row-2": {
+        "props": {
+            "text": "[Oakley](/mujer/oakley?map=category-1,marca)",
+            "blockClass": "textSubmenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-3-text-9-row-7-row-2": {
+        "props": {
+            "text": "[Ray Ban](/mujer/ray-ban?map=category-1,marca)",
+            "blockClass": "textSubmenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-3-text-10-row-7-row-2": {
+        "props": {
+            "text": "[Reebok](/mujer/reebok?map=category-1,marca)",
+            "blockClass": "textSubmenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-3-text-11-row-7-row-2": {
+        "props": {
+            "text": "[Replay](/mujer/replay?map=category-1,marca)",
+            "blockClass": "textSubmenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-3-text-12-row-7-row-2": {
+        "props": {
+            "text": "[Roxy](/mujer/roxy?map=category-1,marca)",
+            "blockClass": "textSubmenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-3-text-13-row-7-row-2": {
+        "props": {
+            "text": "[Stance](/mujer/stance?map=category-1,marca)",
+            "blockClass": "textSubmenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-3-text-14-row-7-row-2": {
+        "props": {
+            "text": "[Superdry](/mujer/superdry?map=category-1,marca)",
+            "blockClass": "textSubmenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-3-text-15-row-7-row-2": {
+        "props": {
+            "text": "[Agua Bendita](/mujer/agua-bendita?map=category-1,marca)",
+            "blockClass": "textSubmenuAcordeon"
+        }
+    }
+}

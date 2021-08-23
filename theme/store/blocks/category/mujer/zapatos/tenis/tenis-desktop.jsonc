@@ -88,7 +88,7 @@
         "props": {
             "src": "/arquivos/BANNER_categoria_mujer_camisetas_desktop.jpg",
             "link": {
-                "url": "/",
+                "url": "/mujer/ropa/camisetas",
                 "attributeTitle": ""
             },
             "blockClass": "departmentBannerImg-1"
@@ -99,7 +99,7 @@
         "props": {
             "src": "/arquivos/BANNER_categoria_mujer_ropadeportiva_desktop.jpg",
             "link": {
-                "url": "/",
+                "url": "/mujer/ropa/sudaderas",
                 "attributeTitle": ""
             },
             "blockClass": "departmentBannerImg-2"
@@ -110,7 +110,7 @@
         "props": {
             "src": "/arquivos/BANNER_categoria_mujer_vestidosyfaldas_desktop.jpg",
             "link": {
-                "url": "/",
+                "url": "/mujer/ropa/faldas",
                 "attributeTitle": ""
             },
             "blockClass": "departmentBannerImg-3"

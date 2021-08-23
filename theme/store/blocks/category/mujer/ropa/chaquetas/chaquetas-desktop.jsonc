@@ -51,7 +51,7 @@
 
     "rich-text#category-chaquetas-mujer-description":{
         "props":{
-            "text": "Descubre diferentes chaquetas para mujer de las mejores marcas como: Diesel, Superdry, Replay,  M+F Girbaud, New Balance y Pilatos Concept. Contamos con múltiples diseños, estilos y colores en chaquetas en jean, cuero, rompe vientos, acolchadas, casuales, elegantes y más opciones en un solo lugar. ¡Mantén siempre el estilo cool que te identifica comprando **chaquetas de moda**!",
+            "text": "Descubre diferentes chaquetas para mujer de las mejores marcas como: Diesel, Superdry, Replay,  M+F Girbaud, New Balance y Pilatos. Contamos con múltiples diseños, estilos y colores en chaquetas en jean, cuero, rompe vientos, acolchadas, casuales, elegantes y más opciones en un solo lugar. ¡Mantén siempre el estilo cool que te identifica comprando **chaquetas de moda**!",
             "blockClass": "departmentDescription"
         }
     },
@@ -88,7 +88,7 @@
         "props": {
             "src": "/arquivos/BANNER_categoria_mujer_bolsosymorrales_dektop.jpg",
             "link": {
-                "url": "/",
+                "url": "/mujer/accesorios/morrales",
                 "attributeTitle": ""
             },
             "blockClass": "departmentBannerImg-1"
@@ -99,7 +99,7 @@
         "props": {
             "src": "/arquivos/BANNER_categoria_mujer_camisetas_desktop.jpg",
             "link": {
-                "url": "/",
+                "url": "/mujer/ropa/camisetas",
                 "attributeTitle": ""
             },
             "blockClass": "departmentBannerImg-2"
@@ -110,7 +110,7 @@
         "props": {
             "src": "/arquivos/BANNER_categoria_mujer_jeans_desktop.jpg",
             "link": {
-                "url": "/",
+                "url": "/mujer/jeans",
                 "attributeTitle": ""
             },
             "blockClass": "departmentBannerImg-3"

@@ -131,7 +131,7 @@
 
   "image#logo-pilatos": {
     "props": {
-        "src": "/arquivos/pilatos_logo_BN.png",
+        "src": "/arquivos/Pilatos-GIF.gif",
         "link": {
             "url": "/"
         }
@@ -258,7 +258,10 @@
           "cssClass": "profile-link"
         }
       ],
-      "oAuthRedirect": "Google"
+      "oAuthRedirect": [
+        "Google",
+        "facebook"
+      ]
     }
   },
 
@@ -296,6 +299,7 @@
     "children": [
       "flex-layout.col#menu-desk-col-1",
       "flex-layout.col#menu-desk-col-2",
+      "flex-layout.col#menu-desk-col-8",
       // "flex-layout.col#menu-desk-col-3",
       // "flex-layout.col#menu-desk-col-4",
       "flex-layout.col#menu-desk-col-5",
@@ -311,6 +315,7 @@
     "children": [
       "flex-layout.col#menu-desk-col-1",
       "flex-layout.col#menu-desk-col-2",
+      "flex-layout.col#menu-desk-col-8",
       // "flex-layout.col#menu-desk-col-3",
       // "flex-layout.col#menu-desk-col-4",
       "flex-layout.col#menu-desk-col-5",

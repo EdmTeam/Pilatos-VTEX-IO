@@ -37,14 +37,14 @@
 
     "rich-text#departmen-pilatos-bread-crumb":{
         "props":{
-            "text": "[Home](/) / [**Pilatos concept**](/pilatos-concept)",
+            "text": "[Home](/) / [**Pilatos**](/pilatos)",
             "blockClass": "departmentBreadCrumb"
         }
     },
 
     "rich-text#department-pilatos-title":{
         "props":{
-            "text": "Pilatos concept",
+            "text": "Pilatos",
             "blockClass": "departmentTitle"
         }
     },
@@ -83,7 +83,7 @@
 
     "image#department-pilatos-banners-1-img-1": {
         "props": {
-            "src": "/arquivos/PilatosConcept_Banner_principal_Desktop.jpg",
+            "src": "/arquivos/Pilatos_Banner_principal_Desktop.jpg",
             "link": {
                 "url": "/pilatos",
                 "attributeTitle": ""

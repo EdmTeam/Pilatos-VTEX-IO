@@ -29,28 +29,28 @@
 
     "rich-text#submenu-desk-department-2-category-2-subcategory-1":{
         "props":{
-            "text": "[Superslim](/mujer/ropa/jeans/superslim)",
+            "text": "[Superslim](/mujer/jeans/superslim)",
             "blockClass": "textSubcategory"
         }
     },
 
     "rich-text#submenu-desk-department-2-category-2-subcategory-2":{
         "props":{
-            "text": "[Regular](/mujer/ropa/regular)",
+            "text": "[Regular](/mujer/jeans/regular)",
             "blockClass": "textSubcategory"
         }
     },
 
     "rich-text#submenu-desk-department-2-category-2-subcategory-3":{
         "props":{
-            "text": "[Jean ancho](/mujer/ropa/jean-ancho)",
+            "text": "[Jean ancho](/mujer/jeans/jean-ancho)",
             "blockClass": "textSubcategory"
         }
     },
 
     "rich-text#submenu-desk-department-2-category-2-subcategory-4":{
         "props":{
-            "text": "[Slim](/mujer/ropa/slim)",
+            "text": "[Slim](/mujer/jeans/slim)",
             "blockClass": "textSubcategory"
         }
     }
