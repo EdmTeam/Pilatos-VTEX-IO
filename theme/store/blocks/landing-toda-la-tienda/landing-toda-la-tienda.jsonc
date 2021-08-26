@@ -6,7 +6,8 @@
     },
     "search-result-layout.customQuery#landing-toda-la-tienda": {
         "blocks": [
-            "search-result-layout.desktop#landing-toda-la-tienda"
+            "search-result-layout.desktop#landing-toda-la-tienda",
+            "search-result-layout.mobile#landing-toda-la-tienda"
         ],
         "props": {
             "querySchema": {
@@ -52,6 +53,62 @@
                         }
                     ]
                 }
+            }
+        }
+    },
+    "search-result-layout.mobile#landing-toda-la-tienda": {
+        "children": [
+            "flex-layout.row#bread-crumb",
+            "search-title.v2",
+            "flex-layout.row#search-info-mobile",
+            "flex-layout.row#fetch-previous",
+            "flex-layout.row#content-mobile",
+            // "flex-layout.row#count-per-page",
+            // "flex-layout.row#products-progress-bar",
+            "flex-layout.row#fetch-more",
+            "flex-layout.row#spacer"
+        ],
+        "props": {
+            "hiddenFacets": {
+                "specificationFilters": {
+                    "hiddenFilters": [
+                        {
+                            "name": "Brand"
+                        },
+                        {
+                            "name": "Department"
+                        },
+                        {
+                            "name": "Category"
+                        },
+                        {
+                            "name": "Subcategory"
+                        },
+                        {
+                            "name": "Material"
+                        },
+                        {
+                            "name": "Alto (Cm)"
+                        },
+                        {
+                            "name": "Ancho (Cm)"
+                        },
+                        {
+                            "name": "Breve Descripción"
+                        },
+                        {
+                            "name": "Descripción"
+                        },
+                        {
+                            "name": "Material"
+                        }
+                    ]
+                }
+            },
+            "__unstableProductOriginVtex": true,
+            "mobileLayout": {
+                "mode1": "small",
+                "mode2": "normal"
             }
         }
     }
