@@ -590,5 +590,8 @@
     },
     "store.custom#work-with-us":{
         "path": "/trabaja-con-nosotros"
+    },
+    "store.custom#landing-toda-la-tienda":{
+        "path": "/toda-la-tienda"
     }
 }

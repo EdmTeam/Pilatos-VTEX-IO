@@ -1,0 +1,58 @@
+{
+    "store.custom#landing-toda-la-tienda": {
+        "children": [
+            "search-result-layout.customQuery#landing-toda-la-tienda"
+        ]
+    },
+    "search-result-layout.customQuery#landing-toda-la-tienda": {
+        "blocks": [
+            "search-result-layout.desktop#landing-toda-la-tienda"
+        ],
+        "props": {
+            "querySchema": {
+                "queryField": "1139",
+                "mapField": "productClusterIds"
+            }
+        }
+    },
+    "search-result-layout.desktop#landing-toda-la-tienda": {
+        "children": [
+            "flex-layout.row#banner-search",
+            "flex-layout.row#bread-crumb",
+            "flex-layout.row#search-info",
+            "flex-layout.row#result",
+            "flex-layout.row#spacer"
+        ],
+        "props": {
+            "preventRouteChange": true,
+            "hideUnavailableItems": true,
+            "showFacetQuantity": true,
+            "mobileLayout": {
+                "mode1": "small",
+                "mode2": "normal"
+            },
+            "__unstableProductOriginVtex": true,
+            "hiddenFacets": {
+                "specificationFilters": {
+                    "hiddenFilters": [
+                        {
+                            "name": "Material"
+                        },
+                        {
+                            "name": "Alto (Cm)"
+                        },
+                        {
+                            "name": "Ancho (Cm)"
+                        },
+                        {
+                            "name": "Breve Descripción"
+                        },
+                        {
+                            "name": "Descripción"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
