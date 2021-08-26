@@ -22,10 +22,10 @@
         "children":[
             "rich-text#category-regular-mujer-bread-crumb",
             "rich-text#category-regular-mujer-title",
-            "rich-text#category-regular-mujer-description",
-            "responsive-layout.desktop#category-regular-mujer-banners",
-            "responsive-layout.phone#category-regular-mujer-banners",
-            "responsive-layout.tablet#category-regular-mujer-banners"
+            "rich-text#category-regular-mujer-description"
+            // "responsive-layout.desktop#category-regular-mujer-banners",
+            // "responsive-layout.phone#category-regular-mujer-banners",
+            // "responsive-layout.tablet#category-regular-mujer-banners"
         ]
     },
 
@@ -44,14 +44,14 @@
 
     "rich-text#category-regular-mujer-title":{
         "props":{
-            "text": "Regular para mujer",
+            "text": "# Jeans clásicos para mujer",
             "blockClass": "departmentTitle"
         }
     },
 
     "rich-text#category-regular-mujer-description":{
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "text": "Los mejores **jeans clásicos para mujer** están aquí. Un clásico que se adapta a todas las edades y situaciones, perfectos tanto para los días de relax, como para los días más formales, úsalos cuando quieras y combínalos con tus prendas favoritas. ¡En Pilatos puedes comprar tu jean Regular para mujer!",
             "blockClass": "departmentDescription"
         }
     },
@@ -63,9 +63,9 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
-                "maxItemsPerPage": 12,
+                "maxItemsPerPage": 48,
                 "queryField": "mujer/jeans/regular",
                 "skusFilter": "ALL",
                 "mapField": "category-1"

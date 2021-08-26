@@ -8,7 +8,7 @@
         "__unstableProductOriginVtex": true,
         "skusFilter": "FIRST_AVAILABLE",
         "simulationBehavior": "skip",
-        "maxItemsPerPage": 12,
+        "maxItemsPerPage": 48,
         "hideUnavailableItems": true
       }
     }
@@ -295,6 +295,14 @@
     ],
     "props": {
       "blockClass": "orderByMobileCol"
+    }
+  },
+  "order-by.v2":{
+    "props":{
+      "hiddenOptions":[
+        "OrderByNameASC",
+        "OrderByNameDESC"
+      ]
     }
   },
   "flex-layout.row#product-count-mobile": {

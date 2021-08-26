@@ -22,10 +22,10 @@
         "children":[
             "rich-text#category-superslim-mujer-bread-crumb",
             "rich-text#category-superslim-mujer-title",
-            "rich-text#category-superslim-mujer-description",
-            "responsive-layout.desktop#category-superslim-mujer-banners",
-            "responsive-layout.phone#category-superslim-mujer-banners",
-            "responsive-layout.tablet#category-superslim-mujer-banners"
+            "rich-text#category-superslim-mujer-description"
+            // "responsive-layout.desktop#category-superslim-mujer-banners",
+            // "responsive-layout.phone#category-superslim-mujer-banners",
+            // "responsive-layout.tablet#category-superslim-mujer-banners"
         ]
     },
 
@@ -44,14 +44,14 @@
 
     "rich-text#category-superslim-mujer-title":{
         "props":{
-            "text": "Superslim para mujer",
+            "text": "# Jeans Super Slim para mujer",
             "blockClass": "departmentTitle"
         }
     },
 
     "rich-text#category-superslim-mujer-description":{
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "text": "Jeans super slim para mujer ideales para resaltar tu figura y combinar con tus prendas favoritas para que crees un look fantástico, este jean de moda se ciñe perfectamente a tu cuerpo, ajustándose bien en toda la pierna y estrechándose hacia el tobillo. Gracias a su tejido elástico, moldea tu figura y se estiran bien con cada movimiento, lo que proporciona una comodidad adicional. En Pilatos puedes comprar los mejores **jeans super slim para mujer con tonos y diseños únicos**.",
             "blockClass": "departmentDescription"
         }
     },
@@ -63,9 +63,9 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
-                "maxItemsPerPage": 12,
+                "maxItemsPerPage": 48,
                 "queryField": "mujer/jeans/superslim",
                 "skusFilter": "ALL",
                 "mapField": "category-1"

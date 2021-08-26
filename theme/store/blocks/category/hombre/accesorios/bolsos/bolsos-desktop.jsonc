@@ -22,10 +22,10 @@
         "children":[
             "rich-text#category-bolsos-hombre-bread-crumb",
             "rich-text#category-bolsos-hombre-title",
-            "rich-text#category-bolsos-hombre-description",
-            "responsive-layout.desktop#category-bolsos-hombre-banners",
-            "responsive-layout.tablet#category-bolsos-hombre-banners",
-            "responsive-layout.phone#category-bolsos-hombre-banners"
+            "rich-text#category-bolsos-hombre-description"
+            // "responsive-layout.desktop#category-bolsos-hombre-banners",
+            // "responsive-layout.tablet#category-bolsos-hombre-banners",
+            // "responsive-layout.phone#category-bolsos-hombre-banners"
         ]
     },
 
@@ -44,14 +44,14 @@
 
     "rich-text#category-bolsos-hombre-title":{
         "props":{
-            "text": "Bolsos para hombre",
+            "text": "# Bolsos para hombre",
             "blockClass": "departmentTitle"
         }
     },
 
     "rich-text#category-bolsos-hombre-description":{
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "text": "Encuentra **bolsos para hombre prácticos y funcionales** en diferentes colores, materiales y múltiples diseños llenos de estilo para que lleves siempre contigo todo lo que necesitas. Bolsos de hombro, de mano, de viaje y más opciones elegantes y casuales para que le des un toque diferente a tu look con marcas como Superdry, Diesel y New Balance.",
             "blockClass": "departmentDescription"
         }
     },
@@ -63,9 +63,9 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
-                "maxItemsPerPage": 12,
+                "maxItemsPerPage": 48,
                 "queryField": "hombre/accesorios/bolsos",
                 "skusFilter": "ALL",
                 "mapField": "category-1"

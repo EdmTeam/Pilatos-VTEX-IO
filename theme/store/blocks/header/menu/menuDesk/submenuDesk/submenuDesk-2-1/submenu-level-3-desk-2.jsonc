@@ -29,28 +29,28 @@
 
     "rich-text#submenu-desk-department-1-category-2-subcategory-1":{
         "props":{
-            "text": "[Superslin](/hombre/ropa/Superslin)",
+            "text": "[Superslim](/hombre/jeans/superslim)",
             "blockClass": "textSubcategory"
         }
     },
 
     "rich-text#submenu-desk-department-1-category-2-subcategory-2":{
         "props":{
-            "text": "[Regular](/hombre/ropa/regular)",
+            "text": "[Regular](/hombre/jeans/regular)",
             "blockClass": "textSubcategory"
         }
     },
 
     "rich-text#submenu-desk-department-1-category-2-subcategory-3":{
         "props":{
-            "text": "[Wide](/hombre/ropa/wide)",
+            "text": "[Wide](/hombre/jeans/wide)",
             "blockClass": "textSubcategory"
         }
     },
 
     "rich-text#submenu-desk-department-1-category-2-subcategory-4":{
         "props":{
-            "text": "[Slim](/hombre/ropa/slim)",
+            "text": "[Slim](/hombre/jeans/slim)",
             "blockClass": "textSubcategory"
         }
     }

@@ -22,10 +22,10 @@
         "children":[
             "rich-text#category-ropa-hombre-bread-crumb",
             "rich-text#category-ropa-hombre-title",
-            "rich-text#category-ropa-hombre-description",
-            "responsive-layout.desktop#category-ropa-hombre-banners",
-            "responsive-layout.phone#category-ropa-hombre-banners",
-            "responsive-layout.tablet#category-ropa-hombre-banners"
+            "rich-text#category-ropa-hombre-description"
+            // "responsive-layout.desktop#category-ropa-hombre-banners",
+            // "responsive-layout.phone#category-ropa-hombre-banners",
+            // "responsive-layout.tablet#category-ropa-hombre-banners"
         ]
     },
 
@@ -44,14 +44,14 @@
 
     "rich-text#category-ropa-hombre-title":{
         "props":{
-            "text": "Ropa para hombre",
+            "text": "# Ropa para hombre",
             "blockClass": "departmentTitle"
         }
     },
 
     "rich-text#category-ropa-hombre-description":{
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "text": "Encuentra todo en ropa para hombre: camisetas, camisas, polos, buzos, chaquetas, pantalones, bermudas, sudaderas, en una amplia gama de colores, diseños y texturas; **prendas exclusivas de las mejores marcas internacionales** como: Celio, Diesel, Girbaud, Superdry, New Project, New Balance, Replay, Dzone y nuestra marca propia Pilatos. ¡Arma tu outfit completo con las mejores marcas de ropa!",
             "blockClass": "departmentDescription"
         }
     },
@@ -63,9 +63,9 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
-                "maxItemsPerPage": 12,
+                "maxItemsPerPage": 48,
                 "queryField": "hombre/ropa",
                 "mapField": "category-1",
                 "simulationBehavior": "skip",

@@ -93,7 +93,7 @@
                     "image": "/arquivos/Categorias_hombre_Banner_gorras_Mobile.jpg",
                     "description": "Promotional Banner",
                     "link": {
-                        "url": "/",
+                        "url": "/hombre/accesorios/gorras",
                         "attributeTitle": ""
                     },
                     "title": "",
@@ -103,26 +103,16 @@
                     "image": "/arquivos/Categorias_hombre_Banner_jeans_Mobile.jpg",
                     "description": "Promotional Banner",
                     "link": {
-                        "url": "/",
+                        "url": "/hombre/jeans",
                         "attributeTitle": ""
                     },
                     "title": ""
                 },
                 {
-                    "image": "/arquivos/Categorias_hombre_Banner_gorras_Mobile.jpg",
-                    "description": "Promotional Banner",
-                    "link": {
-                        "url": "/",
-                        "attributeTitle": ""
-                    },
-                    "title": "",
-                    "width": "235px"
-                },
-                {
                     "image": "/arquivos/Categorias_hombre_Banner_tenis_Mobile.jpg",
                     "description": "Promotional Banner",
                     "link": {
-                        "url": "/",
+                        "url": "/hombre/zapatos/tenis",
                         "attributeTitle": ""
                     },
                     "title": ""

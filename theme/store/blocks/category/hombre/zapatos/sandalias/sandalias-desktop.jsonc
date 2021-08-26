@@ -22,10 +22,10 @@
         "children":[
             "rich-text#category-zapatos-sandalias-hombre-bread-crumb",
             "rich-text#category-zapatos-sandalias-hombre-title",
-            "rich-text#category-zapatos-sandalias-hombre-description",
-            "responsive-layout.desktop#category-zapatos-sandalias-hombre-banners",
-            "responsive-layout.phone#category-zapatos-sandalias-hombre-banners",
-            "responsive-layout.tablet#category-zapatos-sandalias-hombre-banners"
+            "rich-text#category-zapatos-sandalias-hombre-description"
+            // "responsive-layout.desktop#category-zapatos-sandalias-hombre-banners",
+            // "responsive-layout.phone#category-zapatos-sandalias-hombre-banners",
+            // "responsive-layout.tablet#category-zapatos-sandalias-hombre-banners"
         ]
     },
 
@@ -44,14 +44,14 @@
 
     "rich-text#category-zapatos-sandalias-hombre-title":{
         "props":{
-            "text": "Sandalias para hombre",
+            "text": "# Sandalias para hombre",
             "blockClass": "departmentTitle"
         }
     },
 
     "rich-text#category-zapatos-sandalias-hombre-description":{
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "text": "Encuentra sandalias para hombre **cómodas y prácticas**, ideales para planes relajados, en Pilatos tenemos sandalias de marcas como Superdry. ",
             "blockClass": "departmentDescription"
         }
     },
@@ -63,9 +63,9 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
-                "maxItemsPerPage": 12,
+                "maxItemsPerPage": 48,
                 "queryField": "hombre/zapatos/sandalias",
                 "skusFilter": "ALL",
                 "mapField": "category-1"

@@ -22,10 +22,10 @@
         "children":[
             "rich-text#category-ropa-mujer-bread-crumb",
             "rich-text#category-ropa-mujer-title",
-            "rich-text#category-ropa-mujer-description",
-            "responsive-layout.desktop#category-ropa-mujer-banners",
-            "responsive-layout.phone#category-ropa-mujer-banners",
-            "responsive-layout.tablet#category-ropa-mujer-banners"
+            "rich-text#category-ropa-mujer-description"
+            // "responsive-layout.desktop#category-ropa-mujer-banners",
+            // "responsive-layout.phone#category-ropa-mujer-banners",
+            // "responsive-layout.tablet#category-ropa-mujer-banners"
         ]
     },
 
@@ -44,14 +44,14 @@
 
     "rich-text#category-ropa-mujer-title":{
         "props":{
-            "text": "Ropa para mujer",
+            "text": "# Ropa para mujer",
             "blockClass": "departmentTitle"
         }
     },
 
     "rich-text#category-ropa-mujer-description":{
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "text": "**Todo en ropa para mujer**: camisetas, camisas, polos, buzos, chaquetas, pantalones, vestidos, faldas, shorts, tops y todo en ropa de playa en una amplia gama de colores, diseños, estilos y texturas; Aquí encuentras prendas exclusivas de las mejores marcas internacionales como: Agua Bendita, Diesel, Girbaud, Superdry, New Balance, Replay y nuestra marca propia Pilatos. ¡Arma tu outfit completo con las mejores marcas de ropa!",
             "blockClass": "departmentDescription"
         }
     },
@@ -63,9 +63,9 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
-                "maxItemsPerPage": 12,
+                "maxItemsPerPage": 48,
                 "queryField": "mujer/ropa",
                 "skusFilter": "ALL",
                 "mapField": "category-1"

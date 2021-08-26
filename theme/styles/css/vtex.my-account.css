@@ -1337,10 +1337,56 @@ span{
     }
 }
 
+:global(.vtex-pageHeader-link__container) :global(.vtex-button){
+    color: #000000;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+}
+
+:global(.vtex-pageHeader-link__container) :global(.vtex-button) span{
+    text-transform: capitalize;
+}
+
+:global(.vtex-pageHeader__container) :global(.vtex-pageHeader__title){
+    margin-top: 1rem;
+    margin-bottom: 1.3rem;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 38px;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+:global(.vtex-pageHeader__container) :global(.vtex-pageHeader__children){
+    display: block;
+    margin: 0 auto 1.4rem auto;
+}
+
+@media only screen and (max-width: 750px) {
+    .addressBox .boxContainer :global(.vtex-button){
+        width: 35% !important;
+    }
+}
 @media only screen and (min-width: 1000px) {
     .addressList .addressBox > div{
         width: 33.3% !important;
         padding: 0 .5rem 1rem .5rem;
+    }
+
+    :global(.vtex-pageHeader__container){
+        width: 92%;
+        margin: 0 auto;
+        padding: 2rem 1.4rem .5rem 1.4rem;
+    }
+
+    :global(.vtex-pageHeader__container) :global(.vtex-pageHeader-link__container){
+        display: none;
+    }
+
+    :global(.vtex-pageHeader__container) :global(.vtex-pageHeader__title){
+        opacity: 0;
     }
 }
 

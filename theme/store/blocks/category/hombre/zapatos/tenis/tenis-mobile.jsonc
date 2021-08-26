@@ -93,7 +93,7 @@
                     "image": "/arquivos/Categorias_hombre_Banner_buzos_Mobile.jpg",
                     "description": "Promotional Banner",
                     "link": {
-                        "url": "/hombre/ropa/buzos",
+                        "url": "/hombre/ropa/chaquetas",
                         "attributeTitle": ""
                     },
                     "title": "",
@@ -112,7 +112,7 @@
                     "image": "/arquivos/Categorias_hombre_Banner_deportiva_Mobile.jpg",
                     "description": "Promotional Banner",
                     "link": {
-                        "url": "/",
+                        "url": "/hombre/ropa/sudaderas",
                         "attributeTitle": ""
                     },
                     "title": ""

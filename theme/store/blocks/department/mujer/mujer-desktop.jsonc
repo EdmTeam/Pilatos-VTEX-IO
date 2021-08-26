@@ -45,14 +45,14 @@
 
     "rich-text#department-mujer-title":{
         "props":{
-            "text": "Mujer",
+            "text": "# Ropa, zapatos y accesorios para mujer",
             "blockClass": "departmentTitle"
         }
     },
 
     "rich-text#department-mujer-description":{
         "props":{
-            "text": "Encuentra en Pilatos la mejor ropa para mujer con jeans, camisetas, tenis, buzos, chaquetas y mucho más, que se adaptan a tu estilo. Encuentra acá las mejores marcas como New Balance, Pilatos Concept, Replay y Diesel, entre otras. ",
+            "text": "Encuentra lo mejor en **zapatos, accesorios y ropa para mujer**, prendas que resaltan tu estilo, ideales para crear un outfit perfecto con combinaciones fantásticas, compra en Pilatos ropa para mujer de moda, camisetas, tops, shorts, jeans, faldas, chaquetas, buzos, ropa de playa, bolsos y muchos complementos más, acompañado de las mejores marcas: Agua Bendita, Diesel, Replay, Kipling, Girbaud, New Balance, entre otras.",
             "blockClass": "departmentDescription"
         }
     },
@@ -64,9 +64,9 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
-                "maxItemsPerPage": 12,
+                "maxItemsPerPage": 48,
                 "queryField": "mujer",
                 "skusFilter": "ALL",
                 "mapField": "category-1"

@@ -23,12 +23,15 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/pilatos-concept",
+        "href": "/pilatos",
         "noFollow": false,
-        "tagTitle": "PILATOS CONCEPT",
-        "text": "PILATOS CONCEPT"
+        "tagTitle": "PILATOS",
+        "text": "PILATOS"
       },
-      "blockClass": "menuLinkHeader"
+      "blockClass": [
+        "menuLinkHeader",
+        "menuLinkHeaderPilatos"
+      ]
     }
   }
 }

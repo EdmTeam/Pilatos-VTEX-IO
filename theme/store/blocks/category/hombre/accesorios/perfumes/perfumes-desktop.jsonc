@@ -22,10 +22,10 @@
         "children":[
             "rich-text#category-perfumes-hombre-bread-crumb",
             "rich-text#category-perfumes-hombre-title",
-            "rich-text#category-perfumes-hombre-description",
-            "responsive-layout.desktop#category-perfumes-hombre-banners",
-            "responsive-layout.phone#category-perfumes-hombre-banners",
-            "responsive-layout.tablet#category-perfumes-hombre-banners"
+            "rich-text#category-perfumes-hombre-description"
+            // "responsive-layout.desktop#category-perfumes-hombre-banners",
+            // "responsive-layout.phone#category-perfumes-hombre-banners",
+            // "responsive-layout.tablet#category-perfumes-hombre-banners"
         ]
     },
 
@@ -44,14 +44,14 @@
 
     "rich-text#category-perfumes-hombre-title":{
         "props":{
-            "text": "Perfumes para hombre",
+            "text": "# Fragancias y perfumes para hombre ",
             "blockClass": "departmentTitle"
         }
     },
 
     "rich-text#category-perfumes-hombre-description":{
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "text": "Encuentra fragancias para hombre que te brindarán un aroma sofisticado y autentico, contamos con diferentes opciones elegantes de **fragancias y perfumes Diesel para hombre**. ¡Conócelos y elige uno para cada ocasión!",
             "blockClass": "departmentDescription"
         }
     },
@@ -63,9 +63,9 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
-                "maxItemsPerPage": 12,
+                "maxItemsPerPage": 48,
                 "queryField": "hombre/accesorios/perfumes",
                 "skusFilter": "ALL",
                 "mapField": "category-1"

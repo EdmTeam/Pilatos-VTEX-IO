@@ -1,0 +1,228 @@
+{
+    "flex-layout.row#submenu-level-2-row-7": {
+        "children": [
+            "flex-layout.row#submenu-level-2-header-row-7",
+            "flex-layout.row#submenu-level-2-items-7"
+        ],
+        "props": {
+            "blockClass": "subContenItemsLevel2"
+        }
+    },
+
+    "flex-layout.row#submenu-level-2-items-7":{
+        "children": [
+            "rich-text#submenu-level-2-item-1-row-7",
+            "rich-text#submenu-level-2-item-21-row-7",
+            "rich-text#submenu-level-2-item-2-row-7",
+            "rich-text#submenu-level-2-item-3-row-7",
+            "rich-text#submenu-level-2-item-4-row-7",
+            "rich-text#submenu-level-2-item-5-row-7",
+            "rich-text#submenu-level-2-item-6-row-7",
+            "rich-text#submenu-level-2-item-7-row-7",
+            "rich-text#submenu-level-2-item-8-row-7",
+            "rich-text#submenu-level-2-item-9-row-7",
+            "rich-text#submenu-level-2-item-10-row-7",
+            "rich-text#submenu-level-2-item-11-row-7",
+            "rich-text#submenu-level-2-item-12-row-7",
+            "rich-text#submenu-level-2-item-13-row-7",
+            "rich-text#submenu-level-2-item-14-row-7",
+            "rich-text#submenu-level-2-item-15-row-7",
+            "rich-text#submenu-level-2-item-16-row-7",
+            "rich-text#submenu-level-2-item-17-row-7"
+        ],
+        "props": {
+            "blockClass": [
+                "subContenItems1",
+                "subContenItems1-2"
+            ]
+        }
+    },
+
+    "flex-layout.row#submenu-level-2-header-row-7":{
+        "children":[
+            "flex-layout.col#submenu-level-2-close-drawer-row-7",
+            "flex-layout.col#submenu-level-2-title-row-7"
+        ],
+        "props":{
+            "preserveLayoutOnMobile":true
+        }
+    },
+
+    "flex-layout.col#submenu-level-2-close-drawer-row-7": {
+        "children": [
+            "drawer-close-button"
+        ],
+        "props":{
+            "blockClass": "contentBack",
+            "width": "20%"
+        }
+    },
+
+    "flex-layout.col#submenu-level-2-title-row-7":{
+        "children":[
+            "rich-text#submenu-level-2-title-row-7"
+        ],
+        "props":{
+            "blockClass": "contentSubmenuTitle",
+            "width": "80%"
+        }
+    },
+
+    "rich-text#submenu-level-2-title-row-7":{
+        "props":{
+            "text": "MARCAS",
+            "blockClass": "contentSubmenuTitle"
+        }
+    },
+
+    //Marcas
+    "rich-text#submenu-level-2-item-1-row-7":{
+        "props":{
+            "text": "[Pilatos](/pilatos)",
+            "blockClass": [
+                "contentSubMenuAcordeon",
+                "textSubcategoryPilatos"
+            ]
+        }
+    },
+
+    "rich-text#submenu-level-2-item-2-row-7":{
+        "props":{
+            "text": "[Adidas](/adidas)",
+            "blockClass": "contentSubMenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-2-item-3-row-7":{
+        "props":{
+            "text": "[Celio](/celio)",
+            "blockClass": "contentSubMenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-2-item-4-row-7":{
+        "props":{
+            "text": "[Cole Haan](/cole-haan)",
+            "blockClass": "contentSubMenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-2-item-5-row-7":{
+        "props":{
+            "text": "[Diesel](/diesel)",
+            "blockClass": "contentSubMenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-2-item-6-row-7":{
+        "props":{
+            "text": "[Dzone](/dzone)",
+            "blockClass": "contentSubMenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-2-item-7-row-7":{
+        "props":{
+            "text": "[Fossil](/fossil)",
+            "blockClass": "contentSubMenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-2-item-8-row-7":{
+        "props":{
+            "text": "[Goorin Bros](/goorin-bros)",
+            "blockClass": "contentSubMenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-2-item-9-row-7":{
+        "props":{
+            "text": "[Kipling](/kipling)",
+            "blockClass": "contentSubMenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-2-item-10-row-7":{
+        "props":{
+            "text": "[Le Coq Sportif](/le-coq-sportif)",
+            "blockClass": "contentSubMenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-2-item-11-row-7":{
+        "props":{
+            "text": "[Marithe Francois Girbaud](/Marithe-francois-girbaud)",
+            "blockClass": "contentSubMenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-2-item-12-row-7":{
+        "props":{
+            "text": "[Mundo Único](/mundo-unico)",
+            "blockClass": "contentSubMenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-2-item-13-row-7":{
+        "props":{
+            "text": "[New Balance](/new-balance)",
+            "blockClass": "contentSubMenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-2-item-14-row-7":{
+        "props":{
+            "text": "[New Project](/new-project)",
+            "blockClass": "contentSubMenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-2-item-15-row-7":{
+        "props":{
+            "text": "[Oakley](/oakley)",
+            "blockClass": "contentSubMenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-2-item-16-row-7":{
+        "props":{
+            "text": "[Quiksilver](/quiksilver)",
+            "blockClass": "contentSubMenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-2-item-17-row-7":{
+        "props":{
+            "text": "[Ray Ban](/ray-ban)",
+            "blockClass": "contentSubMenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-2-item-18-row-7":{
+        "props":{
+            "text": "[Roxy](/roxy)",
+            "blockClass": "contentSubMenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-2-item-19-row-7":{
+        "props":{
+            "text": "[Stance](/stance)",
+            "blockClass": "contentSubMenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-2-item-20-row-7":{
+        "props":{
+            "text": "[Superdry](/superdry)",
+            "blockClass": "contentSubMenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-2-item-21-row-7":{
+        "props":{
+            "text": "[Agua Bendita](/agua-bendita)",
+            "blockClass": "contentSubMenuAcordeon"
+        }
+    }
+}

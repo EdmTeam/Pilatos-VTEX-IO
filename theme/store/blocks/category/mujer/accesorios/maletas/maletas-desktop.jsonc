@@ -22,10 +22,10 @@
         "children":[
             "rich-text#category-maletas-mujer-bread-crumb",
             "rich-text#category-maletas-mujer-title",
-            "rich-text#category-maletas-mujer-description",
-            "responsive-layout.desktop#category-maletas-mujer-banners",
-            "responsive-layout.phone#category-maletas-mujer-banners",
-            "responsive-layout.tablet#category-maletas-mujer-banners"
+            "rich-text#category-maletas-mujer-description"
+            // "responsive-layout.desktop#category-maletas-mujer-banners",
+            // "responsive-layout.phone#category-maletas-mujer-banners",
+            // "responsive-layout.tablet#category-maletas-mujer-banners"
         ]
     },
 
@@ -44,14 +44,14 @@
 
     "rich-text#category-maletas-mujer-title":{
         "props":{
-            "text": "Maletas para mujer",
+            "text": "# Maletas para mujer",
             "blockClass": "departmentTitle"
         }
     },
 
     "rich-text#category-maletas-mujer-description":{
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "text": "Encuentra la maleta perfecta para tus viajes y disfruta al máximo tus vacaciones, puedes elegir entre diferentes tamaños espaciosos y ligeros, **diseños y estilos de maletas para mujer**, ideales para que puedas organizar sin problema todo lo que necesitas. ¡No te quedes sin tu maleta Kipling!",
             "blockClass": "departmentDescription"
         }
     },
@@ -63,9 +63,9 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
-                "maxItemsPerPage": 12,
+                "maxItemsPerPage": 48,
                 "queryField": "mujer/accesorios/maletas",
                 "skusFilter": "ALL",
                 "mapField": "category-1"

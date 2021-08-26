@@ -22,10 +22,10 @@
         "children":[
             "rich-text#category-maletas-hombre-bread-crumb",
             "rich-text#category-maletas-hombre-title",
-            "rich-text#category-maletas-hombre-description",
-            "responsive-layout.desktop#category-maletas-hombre-banners",
-            "responsive-layout.phone#category-maletas-hombre-banners",
-            "responsive-layout.tablet#category-maletas-hombre-banners"
+            "rich-text#category-maletas-hombre-description"
+            // "responsive-layout.desktop#category-maletas-hombre-banners",
+            // "responsive-layout.phone#category-maletas-hombre-banners",
+            // "responsive-layout.tablet#category-maletas-hombre-banners"
         ]
     },
 
@@ -44,14 +44,14 @@
 
     "rich-text#category-maletas-hombre-title":{
         "props":{
-            "text": "Maletas para hombre",
+            "text": "# Maletas para hombre",
             "blockClass": "departmentTitle"
         }
     },
 
     "rich-text#category-maletas-hombre-description":{
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "text": "Encuentra la maleta perfecta para tus viajes y disfruta al máximo tus vacaciones, puedes elegir entre diferentes tamaños espaciosos y ligeros, **diseños y estilos de maletas para hombre**, ideales para que puedas organizar sin problema todo lo que necesitas.",
             "blockClass": "departmentDescription"
         }
     },
@@ -63,9 +63,9 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
-                "maxItemsPerPage": 12,
+                "maxItemsPerPage": 48,
                 "queryField": "hombre/accesorios/maletas",
                 "skusFilter": "ALL",
                 "mapField": "category-1"

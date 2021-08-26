@@ -44,14 +44,14 @@
 
     "rich-text#category-buzos-mujer-title":{
         "props":{
-            "text": "Buzos para mujer",
+            "text": "# Buzos para mujer",
             "blockClass": "departmentTitle"
         }
     },
 
     "rich-text#category-buzos-mujer-description":{
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "text": "Descubre aquí buzos para mujer de las mejores marcas como: Superdry, Diesel, Pilatos, Replay, M+F Girbaud y New Balance. Contamos con múltiples diseños, estilos y colores para que escojas el que más te gusta. Sacos y **buzos deportivos, clásicos, estampados, formales, versátiles y hoodies** abiertos o cerrados. ¡Elige el tuyo ahora!",
             "blockClass": "departmentDescription"
         }
     },
@@ -63,9 +63,9 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
-                "maxItemsPerPage": 12,
+                "maxItemsPerPage": 48,
                 "queryField": "mujer/ropa/buzos",
                 "skusFilter": "ALL",
                 "mapField": "category-1"
@@ -88,7 +88,7 @@
         "props": {
             "src": "/arquivos/BANNER_categoria_mujer_bolsosymorrales_dektop.jpg",
             "link": {
-                "url": "/",
+                "url": "/mujer/accesorios/morrales",
                 "attributeTitle": ""
             },
             "blockClass": "departmentBannerImg-1"
@@ -99,7 +99,7 @@
         "props": {
             "src": "/arquivos/BANNER_categoria_mujer_camisetas_desktop.jpg",
             "link": {
-                "url": "/",
+                "url": "/mujer/ropa/camisetas",
                 "attributeTitle": ""
             },
             "blockClass": "departmentBannerImg-2"
@@ -110,7 +110,7 @@
         "props": {
             "src": "/arquivos/BANNER_categoria_mujer_jeans_desktop.jpg",
             "link": {
-                "url": "/",
+                "url": "/mujer/jeans",
                 "attributeTitle": ""
             },
             "blockClass": "departmentBannerImg-3"

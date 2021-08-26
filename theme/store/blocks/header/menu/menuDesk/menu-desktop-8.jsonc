@@ -1,0 +1,38 @@
+{
+  "flex-layout.col#menu-desk-col-8": {
+    "children": [
+      "vtex.menu@2.x:menu#menu-desktop-8"
+    ],
+    "props":{
+      // "width": "13%"
+      "width": "18%"
+    }
+  },
+
+  "vtex.menu@2.x:menu#menu-desktop-8": {
+    "children": [
+      "menu-item#menu-item-8-desk-1"
+    ],
+    "props":{
+      "blockClass": "menucontainerDesk"
+    }
+  },
+  
+  "menu-item#menu-item-8-desk-1": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "MARCAS",
+        "text": "MARCAS"
+      },
+      "blockClass": "menuLinkHeaderHover"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#submenu-level-2-desk-row-4"
+    ]
+  }
+}

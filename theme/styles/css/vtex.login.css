@@ -432,3 +432,11 @@
         max-width: 41.7rem;
     }
 }
+
+.oauthLabel{
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #000000;
+}

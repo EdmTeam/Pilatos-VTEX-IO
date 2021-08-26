@@ -22,10 +22,10 @@
         "children":[
             "rich-text#category-ropa-de-playa-hombre-bread-crumb",
             "rich-text#category-ropa-de-playa-hombre-title",
-            "rich-text#category-ropa-de-playa-hombre-description",
-            "responsive-layout.desktop#category-ropa-de-playa-hombre-banners",
-            "responsive-layout.phone#category-ropa-de-playa-hombre-banners",
-            "responsive-layout.tablet#category-ropa-de-playa-hombre-banners"
+            "rich-text#category-ropa-de-playa-hombre-description"
+            // "responsive-layout.desktop#category-ropa-de-playa-hombre-banners",
+            // "responsive-layout.phone#category-ropa-de-playa-hombre-banners",
+            // "responsive-layout.tablet#category-ropa-de-playa-hombre-banners"
         ]
     },
 
@@ -51,7 +51,7 @@
 
     "rich-text#category-ropa-de-playa-hombre-description":{
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "text": "Descubre la comodidad y estilo en la ropa de playa para hombre, diferentes opciones en sandalias, accesorios, bermudas y pantalonetas estampadas, de jean, camufladas y más diseños, acompañadas de las mejores marcas Agua Bendita, Superdry, Celio, New Balance, Pilatos, entre otras. ¡Compra **ropa de baño para hombre** en un solo lugar!",
             "blockClass": "departmentDescription"
         }
     },
@@ -63,9 +63,9 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
-                "maxItemsPerPage": 12,
+                "maxItemsPerPage": 48,
                 "queryField": "hombre/ropa-de-playa",
                 "skusFilter": "ALL",
                 "mapField": "category-1"

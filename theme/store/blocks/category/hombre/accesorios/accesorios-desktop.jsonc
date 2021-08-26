@@ -44,14 +44,14 @@
 
     "rich-text#category-accesorios-hombre-title":{
         "props":{
-            "text": "Accesorios para hombre",
+            "text": "# Accesorios para hombre",
             "blockClass": "departmentTitle"
         }
     },
 
     "rich-text#category-accesorios-hombre-description":{
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "text": "Encuentra diferentes **accesorios y complementos para hombre**. Desde billeteras, riñoneras, morrales y gorras hasta gafas, correas, termos de acero inoxidable y otros esenciales de marcas como The Frenchie Co, Crep Protect, Oakley, Ray ban, Alpinestars, EcoVessel, Goorin Bros, Quiksilver, Fossil, entre otras, que le dan todo el estilo a tu look.",
             "blockClass": "departmentDescription"
         }
     },
@@ -63,9 +63,9 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
-                "maxItemsPerPage": 12,
+                "maxItemsPerPage": 48,
                 "queryField": "hombre/accesorios",
                 "skusFilter": "ALL",
                 "mapField": "category-1"

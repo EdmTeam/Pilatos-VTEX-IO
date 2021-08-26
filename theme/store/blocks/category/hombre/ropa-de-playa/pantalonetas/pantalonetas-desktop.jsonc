@@ -22,10 +22,10 @@
         "children":[
             "rich-text#category-pantalonetas-hombre-bread-crumb",
             "rich-text#category-pantalonetas-hombre-title",
-            "rich-text#category-pantalonetas-hombre-description",
-            "responsive-layout.desktop#category-pantalonetas-hombre-banners",
-            "responsive-layout.phone#category-pantalonetas-hombre-banners",
-            "responsive-layout.tablet#category-pantalonetas-hombre-banners"
+            "rich-text#category-pantalonetas-hombre-description"
+            // "responsive-layout.desktop#category-pantalonetas-hombre-banners",
+            // "responsive-layout.phone#category-pantalonetas-hombre-banners",
+            // "responsive-layout.tablet#category-pantalonetas-hombre-banners"
         ]
     },
 
@@ -51,7 +51,7 @@
 
     "rich-text#category-pantalonetas-hombre-description":{
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "text": "Luce un estilo único, cómodo y a la moda con nuestras **pantalonetas de hombre para playa**. Descubre todas las opciones que tenemos disponibles en bermudas y pantalonetas estampadas, de jean, camufladas y más diseños de las marcas Agua Bendita, Superdry, Celio, New Balance, Pilatos, entre otras. ¡No te quedes sin la tuya!",
             "blockClass": "departmentDescription"
         }
     },
@@ -63,9 +63,9 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
-                "maxItemsPerPage": 12,
+                "maxItemsPerPage": 48,
                 "queryField": "hombre/ropa-de-playa/pantalonetas",
                 "skusFilter": "ALL",
                 "mapField": "category-1"

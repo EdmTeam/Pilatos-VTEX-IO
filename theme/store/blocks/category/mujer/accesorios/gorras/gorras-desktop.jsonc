@@ -22,10 +22,10 @@
         "children":[
             "rich-text#category-gorras-mujer-bread-crumb",
             "rich-text#category-gorras-mujer-title",
-            "rich-text#category-gorras-mujer-description",
-            "responsive-layout.desktop#category-gorras-mujer-banners",
-            "responsive-layout.phone#category-gorras-mujer-banners",
-            "responsive-layout.tablet#category-gorras-mujer-banners"
+            "rich-text#category-gorras-mujer-description"
+            // "responsive-layout.desktop#category-gorras-mujer-banners",
+            // "responsive-layout.phone#category-gorras-mujer-banners",
+            // "responsive-layout.tablet#category-gorras-mujer-banners"
         ]
     },
 
@@ -44,14 +44,14 @@
 
     "rich-text#category-gorras-mujer-title":{
         "props":{
-            "text": "Gorras para mujer",
+            "text": "# Gorras para mujer",
             "blockClass": "departmentTitle"
         }
     },
 
     "rich-text#category-gorras-mujer-description":{
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "text": "Encuentra gorras para mujer con diseños y colores para cada ocasión y clima. Diferentes estampados, colores y estilos en **gorras para mujer de las mejores marcas**: Superdry, Roxy, New Balance, entre otras. ¡Dale a tu look ese toque urbano entrando escogiendo la gorra que más te guste!",
             "blockClass": "departmentDescription"
         }
     },
@@ -63,9 +63,9 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
-                "maxItemsPerPage": 12,
+                "maxItemsPerPage": 48,
                 "queryField": "mujer/accesorios/gorras",
                 "skusFilter": "ALL",
                 "mapField": "category-1"

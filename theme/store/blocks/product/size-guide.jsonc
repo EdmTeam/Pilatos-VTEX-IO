@@ -1,0 +1,310 @@
+{
+    
+    "size-guide#zapatos-mujer-adidas":{
+        "props": {
+          "conditionals": [
+              {
+                  "brands": ["2000075"],
+                  "categories": ["44"],
+                  "imageDesktop": "/arquivos/Adidas---mujer-zapato.jpg",
+                  "imageTablet": "/arquivos/Adidas-mujer-zapato-largo.jpg",
+                  "imagePhone": "/arquivos/Adidas-mujer-zapato-largo.jpg"
+              }
+          ]
+        }
+    },
+
+    "size-guide#mujer-diesel":{
+        "props": {
+          "conditionals": [
+              {
+                  "brands": ["2000083"],
+                  "categories": ["48", "53", "84", "79"],
+                  "imageDesktop": "/arquivos/Diesel---mujer.jpg",
+                  "imageTablet": "/arquivos/Diesel---mujer-largo.jpg",
+                  "imagePhone": "/arquivos/Diesel---mujer-largo.jpg"
+              }
+          ]
+        }
+    },
+
+    "size-guide#zapatos-mujer-diesel":{
+        "props": {
+          "conditionals": [
+              {
+                  "brands": ["2000083"],
+                  "categories": ["44"],
+                  "imageDesktop": "/arquivos/Diesel---mujer-zapato.jpg",
+                  "imageTablet": "/arquivos/dIESEL-mujer-zapato-largo.jpg",
+                  "imagePhone": "/arquivos/dIESEL-mujer-zapato-largo.jpg"
+              }
+          ]
+        }
+    },
+
+    "size-guide#zapatos-mujer-LeCoqSportif":{
+        "props": {
+          "conditionals": [
+              {
+                  "brands": ["2000092"],
+                  "categories": ["44"],
+                  "imageDesktop": "/arquivos/Le-coq---mujer-zapato.jpg",
+                  "imageTablet": "/arquivos/Lecoq-mujer-zapato-largo.jpg",
+                  "imagePhone": "/arquivos/Lecoq-mujer-zapato-largo.jpg"
+              }
+          ]
+        }
+    },
+
+    "size-guide#mujer-MaritheFrancoisGirbaud":{
+        "props": {
+          "conditionals": [
+              {
+                  "brands": ["2000093"],
+                  "categories": ["48", "53", "84", "79"],
+                  "imageDesktop": "/arquivos/MFG---mujer.jpg",
+                  "imageTablet": "/arquivos/MFG-mujer-largo.jpg",
+                  "imagePhone": "/arquivos/MFG-mujer-largo.jpg"
+              }
+          ]
+        }
+    },
+
+    "size-guide#zapatos-mujer-newbalance":{
+        "props": {
+          "conditionals": [
+              {
+                  "brands": ["2000095"],
+                  "categories": ["44"],
+                  "imageDesktop": "/arquivos/Newbalance---mujer-zapato.jpg",
+                  "imageTablet": "/arquivos/Newbalance-mujer-zapato-largo.jpg",
+                  "imagePhone": "/arquivos/Newbalance-mujer-zapato-largo.jpg"
+              }
+          ]
+        }
+    },
+
+    "size-guide#zapatos-mujer-reebok":{
+        "props": {
+          "conditionals": [
+              {
+                  "brands": ["2000101"],
+                  "categories": ["44"],
+                  "imageDesktop": "/arquivos/Reebok---mujer-zapato.jpg",
+                  "imageTablet": "/arquivos/Reebok-mujer-zapato-largo.jpg",
+                  "imagePhone": "/arquivos/Reebok-mujer-zapato-largo.jpg"
+              }
+          ]
+        }
+    },
+
+    "size-guide#mujer-Replay":{
+        "props": {
+          "conditionals": [
+              {
+                  "brands": ["2000102"],
+                  "categories": ["48", "53", "84", "79"],
+                  "imageDesktop": "/arquivos/Replay---mujer.jpg",
+                  "imageTablet": "/arquivos/Replay---mujer-largo.jpg",
+                  "imagePhone": "/arquivos/Replay---mujer-largo.jpg"
+              }
+          ]
+        }
+    },
+
+    "size-guide#zapatos-mujer-Replay":{
+        "props": {
+          "conditionals": [
+              {
+                  "brands": ["2000102"],
+                  "categories": ["44"],
+                  "imageDesktop": "/arquivos/Replay--mujer-zapato.jpg",
+                  "imageTablet": "/arquivos/Replay--mujer-zapato.jpg",
+                  "imagePhone": "/arquivos/Replay--mujer-zapato.jpg"
+              }
+          ]
+        }
+    },
+
+    "size-guide#zapatos-mujer-superdry":{
+        "props": {
+          "conditionals": [
+              {
+                  "brands": ["2000106"],
+                  "categories": ["44"],
+                  "imageDesktop": "/arquivos/Superdry---mujer-zapato.jpg",
+                  "imageTablet": "/arquivos/Superdry-mujer-zapato-largo.jpg",
+                  "imagePhone": "/arquivos/Superdry-mujer-zapato-largo.jpg"
+              }
+          ]
+        }
+    },
+
+    "size-guide#mujer-superdry":{
+        "props": {
+          "conditionals": [
+              {
+                  "brands": ["2000106"],
+                  "categories": ["48", "53", "84", "79"],
+                  "imageDesktop": "/arquivos/Superdry---mujer.jpg",
+                  "imageTablet": "/arquivos/Superdry-mujer-largo.jpg",
+                  "imagePhone": "/arquivos/Superdry-mujer-largo.jpg"
+              }
+          ]
+        }
+    },
+
+    "size-guide#zapatos-hombre-adidas":{
+        "props": {
+          "conditionals": [
+              {
+                  "brands": ["2000075"],
+                  "categories": ["3"],
+                  "imageDesktop": "/arquivos/Adisas--Hombre-zapato.jpg",
+                  "imageTablet": "/arquivos/Adidas-hombre-zapato-largo.jpg",
+                  "imagePhone": "/arquivos/Adidas-hombre-zapato-largo.jpg"
+              }
+          ]
+        }
+    },
+
+    "size-guide#zapatos-hombre-diesel":{
+        "props": {
+          "conditionals": [
+              {
+                  "brands": ["2000083"],
+                  "categories": ["3"],
+                  "imageDesktop": "/arquivos/Diesel--Hombre-zapato.jpg",
+                  "imageTablet": "/arquivos/Diesel-hombre-zapato-largo.jpg",
+                  "imagePhone": "/arquivos/Diesel-hombre-zapato-largo.jpg"
+              }
+          ]
+        }
+    },
+
+    "size-guide#hombre-diesel":{
+        "props": {
+          "conditionals": [
+              {
+                  "brands": ["2000083"],
+                  "categories": ["5", "4", "39", "36"],
+                  "imageDesktop": "/arquivos/Diesel-Hombre.jpg",
+                  "imageTablet": "/arquivos/Diesel-hombre-largo.jpg",
+                  "imagePhone": "/arquivos/Diesel-hombre-largo.jpg"
+              }
+          ]
+        }
+    },
+
+    "size-guide#zapatos-hombre-LeCoqSportif":{
+        "props": {
+          "conditionals": [
+              {
+                  "brands": ["2000092"],
+                  "categories": ["3"],
+                  "imageDesktop": "/arquivos/Lecoq--Hombre-zapato.jpg",
+                  "imageTablet": "/arquivos/Lecoq-hombre-zapato-largo.jpg",
+                  "imagePhone": "/arquivos/Lecoq-hombre-zapato-largo.jpg"
+              }
+          ]
+        }
+    },
+
+    "size-guide#hombre-MaritheFrancoisGirbaud":{
+        "props": {
+          "conditionals": [
+              {
+                  "brands": ["2000093"],
+                  "categories": ["5", "4", "39", "36"],
+                  "imageDesktop": "/arquivos/MFG-Hombre.jpg",
+                  "imageTablet": "/arquivos/MFG-hombre-largo.jpg",
+                  "imagePhone": "/arquivos/MFG-hombre-largo.jpg"
+              }
+          ]
+        }
+    },
+
+    "size-guide#zapatos-hombre-newbalance":{
+        "props": {
+          "conditionals": [
+              {
+                  "brands": ["2000095"],
+                  "categories": ["3"],
+                  "imageDesktop": "/arquivos/Newbalance--Hombre-zapato.jpg",
+                  "imageTablet": "/arquivos/Newbalance-hombre-zapato-largo.jpg",
+                  "imagePhone": "/arquivos/Newbalance-hombre-zapato-largo.jpg"
+              }
+          ]
+        }
+    },
+
+    "size-guide#zapatos-hombre-reebok":{
+        "props": {
+          "conditionals": [
+              {
+                  "brands": ["2000101"],
+                  "categories": ["3"],
+                  "imageDesktop": "/arquivos/Reebok--Hombre-zapato.jpg",
+                  "imageTablet": "/arquivos/Reebok-hombre-zapato-largo.jpg",
+                  "imagePhone": "/arquivos/Reebok-hombre-zapato-largo.jpg"
+              }
+          ]
+        }
+    },
+
+    "size-guide#hombre-Replay":{
+        "props": {
+          "conditionals": [
+              {
+                  "brands": ["2000102"],
+                  "categories": ["5", "4", "39", "36"],
+                  "imageDesktop": "/arquivos/Replay-Hombre.jpg",
+                  "imageTablet": "/arquivos/Replay-hombre-largo.jpg",
+                  "imagePhone": "/arquivos/Replay-hombre-largo.jpg"
+              }
+          ]
+        }
+    },
+
+    "size-guide#zapatos-hombre-Replay":{
+        "props": {
+          "conditionals": [
+              {
+                  "brands": ["2000102"],
+                  "categories": ["3"],
+                  "imageDesktop": "/arquivos/Replay--Hombre-zapato.jpg",
+                  "imageTablet": "/arquivos/Replay-hombre-zapato-largo.jpg",
+                  "imagePhone": "/arquivos/Replay-hombre-zapato-largo.jpg"
+              }
+          ]
+        }
+    },
+
+    "size-guide#hombre-Superdry":{
+        "props": {
+          "conditionals": [
+              {
+                  "brands": ["2000106"],
+                  "categories": ["5", "4", "39", "36"],
+                  "imageDesktop": "/arquivos/Superdry-Hombre.jpg",
+                  "imageTablet": "/arquivos/Superdry-hombre-largo.jpg",
+                  "imagePhone": "/arquivos/Superdry-hombre-largo.jpg"
+              }
+          ]
+        }
+    },
+
+    "size-guide#zapatos-hombre-Superdry":{
+        "props": {
+          "conditionals": [
+              {
+                  "brands": ["2000106"],
+                  "categories": ["3"],
+                  "imageDesktop": "/arquivos/Superdry-Hombre-zapato.jpg",
+                  "imageTablet": "/arquivos/Superdry-hombre-zapato-largo.jpg",
+                  "imagePhone": "/arquivos/Superdry-hombre-zapato-largo.jpg"
+              }
+          ]
+        }
+    }
+}

@@ -22,10 +22,10 @@
         "children":[
             "rich-text#category-gorras-hombre-bread-crumb",
             "rich-text#category-gorras-hombre-title",
-            "rich-text#category-gorras-hombre-description",
-            "responsive-layout.desktop#category-gorras-hombre-banners",
-            "responsive-layout.phone#category-gorras-hombre-banners",
-            "responsive-layout.tablet#category-gorras-hombre-banners"
+            "rich-text#category-gorras-hombre-description"
+            // "responsive-layout.desktop#category-gorras-hombre-banners",
+            // "responsive-layout.phone#category-gorras-hombre-banners",
+            // "responsive-layout.tablet#category-gorras-hombre-banners"
         ]
     },
 
@@ -44,14 +44,14 @@
 
     "rich-text#category-gorras-hombre-title":{
         "props":{
-            "text": "Gorras para hombre",
+            "text": "# Gorras para hombre",
             "blockClass": "departmentTitle"
         }
     },
 
     "rich-text#category-gorras-hombre-description":{
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "text": "Contamos con una amplia gama de gorras para hombre con diseños y colores para cada ocasión y clima. Diferentes estampados, colores y estilos en **pasamontañas, gorros y gorras para hombre** de las mejores marcas: Oakley, Alpinestars, Girbaud, Pilatos, Diesel, Superdry, Goorin Bros, Dzone, entre otras. ¡Dale a tu look ese toque urbano entrando escogiendo la gorra que más te guste!",
             "blockClass": "departmentDescription"
         }
     },
@@ -63,9 +63,9 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
-                "maxItemsPerPage": 12,
+                "maxItemsPerPage": 48,
                 "queryField": "hombre/accesorios/gorras",
                 "skusFilter": "ALL",
                 "mapField": "category-1"

@@ -22,10 +22,10 @@
         "children":[
             "rich-text#category-faldas-mujer-bread-crumb",
             "rich-text#category-faldas-mujer-title",
-            "rich-text#category-faldas-mujer-description",
-            "responsive-layout.desktop#category-faldas-mujer-banners",
-            "responsive-layout.phone#category-faldas-mujer-banners",
-            "responsive-layout.tablet#category-faldas-mujer-banners"
+            "rich-text#category-faldas-mujer-description"
+            // "responsive-layout.desktop#category-faldas-mujer-banners",
+            // "responsive-layout.phone#category-faldas-mujer-banners",
+            // "responsive-layout.tablet#category-faldas-mujer-banners"
         ]
     },
 
@@ -51,7 +51,7 @@
 
     "rich-text#category-faldas-mujer-description":{
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "text": "Conoce los **diseños y las texturas de las faldas para mujer** que tenemos disponibles en las mejores marcas Diesel, Girbaud, Replay, Pilatos. Contamos con variedad de colores, materiales y estilos para la ocasión que desees. Desde faldas cortas, largas, casuales y elegantes hasta faldas en jean, print y deportivas en un solo lugar. ¡No te quedes sin el tuya! ",
             "blockClass": "departmentDescription"
         }
     },
@@ -63,9 +63,9 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
-                "maxItemsPerPage": 12,
+                "maxItemsPerPage": 48,
                 "queryField": "mujer/ropa/faldas",
                 "skusFilter": "ALL",
                 "mapField": "category-1"

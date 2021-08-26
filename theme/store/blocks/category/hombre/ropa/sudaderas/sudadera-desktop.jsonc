@@ -22,10 +22,10 @@
         "children":[
             "rich-text#category-sudaderas-hombre-bread-crumb",
             "rich-text#category-sudaderas-hombre-title",
-            "rich-text#category-sudaderas-hombre-description",
-            "responsive-layout.desktop#category-sudaderas-hombre-banners",
-            "responsive-layout.phone#category-sudaderas-hombre-banners",
-            "responsive-layout.tablet#category-sudaderas-hombre-banners"
+            "rich-text#category-sudaderas-hombre-description"
+            // "responsive-layout.desktop#category-sudaderas-hombre-banners",
+            // "responsive-layout.phone#category-sudaderas-hombre-banners",
+            // "responsive-layout.tablet#category-sudaderas-hombre-banners"
         ]
     },
 
@@ -44,14 +44,14 @@
 
     "rich-text#category-sudaderas-hombre-title":{
         "props":{
-            "text": "Sudaderas para hombre",
+            "text": "# Sudaderas para hombre",
             "blockClass": "departmentTitle"
         }
     },
 
     "rich-text#category-sudaderas-hombre-description":{
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "text": "Encuentra tus estilos favoritos en sudaderas para hombre de nuestras marcas: Superdry, Pilatos, Replay, M+F Girbaud y New Balance. Contamos con diferentes colores, diseños y estilos de **sudaderas clásicas, tipo jogger, sport, camufladas** y más. ¡Elige tus sudaderas de moda internacional en un solo sitio!",
             "blockClass": "departmentDescription"
         }
     },
@@ -63,9 +63,9 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
-                "maxItemsPerPage": 12,
+                "maxItemsPerPage": 48,
                 "queryField": "hombre/ropa/sudaderas",
                 "skusFilter": "ALL",
                 "mapField": "category-1"

@@ -6,6 +6,15 @@
         ]
     },
 
+    "sandbox#footer": {
+        "props": {
+          "width": "200px",
+          "height": "60px",
+          "initialContent": "<script src='https://storage.googleapis.com/keybejs/4.7.2/keybe.js?version=4.7.2'></script><script> var configChat = { apiKey: '58a0b387630c43da91670cb9ea94fef1' }; window.keybe.webchatConversationsUiLoad(configChat) </script>",
+          "allowCookies": true
+        }
+    },
+
     "flex-layout.row#desk-menu-item": {
         "children": [
             "flex-layout.col#news-letter-desk",

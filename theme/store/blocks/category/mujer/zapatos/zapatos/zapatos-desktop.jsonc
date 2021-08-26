@@ -22,10 +22,10 @@
         "children":[
             "rich-text#category-sub-zapatos-mujer-bread-crumb",
             "rich-text#category-sub-zapatos-mujer-title",
-            "rich-text#category-sub-zapatos-mujer-description",
-            "responsive-layout.desktop#category-sub-zapatos-mujer-banners",
-            "responsive-layout.phone#category-sub-zapatos-mujer-banners",
-            "responsive-layout.tablet#category-sub-zapatos-mujer-banners"
+            "rich-text#category-sub-zapatos-mujer-description"
+            // "responsive-layout.desktop#category-sub-zapatos-mujer-banners",
+            // "responsive-layout.phone#category-sub-zapatos-mujer-banners",
+            // "responsive-layout.tablet#category-sub-zapatos-mujer-banners"
         ]
     },
 
@@ -44,14 +44,14 @@
 
     "rich-text#category-sub-zapatos-mujer-title":{
         "props":{
-            "text": "Zapatos para mujer",
+            "text": "# Zapatos para mujer",
             "blockClass": "departmentTitle"
         }
     },
 
     "rich-text#category-sub-zapatos-mujer-description":{
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "text": "En Pilatos puedes comprar zapatos de mujer cómodos, elegantes, con estilos variados y detalles únicos para que dejes huella a donde vayas. Encuentra **botines para mujer**, tacones, zapatos y botas perfectas para combinar y crear tus mejores outfits, acompañado de diferentes marcas de zapatos de mujer como Replay y Diesel.",
             "blockClass": "departmentDescription"
         }
     },
@@ -63,9 +63,9 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
-                "maxItemsPerPage": 12,
+                "maxItemsPerPage": 48,
                 "queryField": "mujer/zapatos/zapatos",
                 "skusFilter": "ALL",
                 "mapField": "category-1"

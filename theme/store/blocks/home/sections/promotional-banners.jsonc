@@ -28,9 +28,9 @@
 
     "image#mobile-banner-1": {
         "props": {
-            "src": "/arquivos/Banner_CuartoNivel_Mobile_01.jpg",
+            "src": "/arquivos/Banner_CuartoNivel_Mobile_06.jpg",
             "link": {
-                "url": "/",
+                "url": "/agua-bendita",
                 "attributeTitle": ""
             },
             "width": "94%"
@@ -47,7 +47,7 @@
                     "image": "/arquivos/Banner_CuartoNivel_Mobile_02.jpg",
                     "description": "Promotional Banner",
                     "link": {
-                        "url": "/",
+                        "url": "/oakley",
                         "attributeTitle": ""
                     }
                 },
@@ -55,7 +55,7 @@
                     "image": "/arquivos/Banner_CuartoNivel_Mobile_03.jpg",
                     "description": "Promotional Banner",
                     "link": {
-                        "url": "/",
+                        "url": "/mundo-unico",
                         "attributeTitle": ""
                     }
                 },
@@ -63,15 +63,15 @@
                     "image": "/arquivos/Banner_CuartoNivel_Mobile_04.jpg",
                     "description": "Promotional Banner",
                     "link": {
-                        "url": "/",
+                        "url": "/stance",
                         "attributeTitle": ""
                     }
                 },
                 {
-                    "image": "/arquivos/Banner_CuartoNivel_Mobile_05.jpg",
+                    "image": "/arquivos/Banner_CuartoNivel_Mobile_07.jpg",
                     "description": "Promotional Banner",
                     "link": {
-                        "url": "/",
+                        "url": "/quiksilver",
                         "attributeTitle": ""
                     }
                 }
@@ -136,9 +136,9 @@
 
     "image#desk-promotional-banners-col-1-img-1": {
         "props": {
-            "src": "/arquivos/Banner_CuartoNivel_Desktop_01.jpg",
+            "src": "/arquivos/Banner_CuartoNivel_Desktop_06.jpg",
             "link": {
-                "url": "/",
+                "url": "/agua-bendita",
                 "attributeTitle": ""
             },
             "blockClass": "PromotionalBannerImg"
@@ -166,7 +166,7 @@
         "props": {
             "src": "/arquivos/Banner_CuartoNivel_Desktop_02.jpg",
             "link": {
-                "url": "/",
+                "url": "/oakley",
                 "attributeTitle": ""
             },
             "blockClass": "PromotionalBannerImg"
@@ -183,7 +183,7 @@
         "props": {
             "src": "/arquivos/Banner_CuartoNivel_Desktop_03.jpg",
             "link": {
-                "url": "/",
+                "url": "/mundo-unico",
                 "attributeTitle": ""
             },
             "blockClass": "PromotionalBannerImg3"
@@ -212,7 +212,7 @@
         "props": {
             "src": "/arquivos/Banner_CuartoNivel_Desktop_04.jpg",
             "link": {
-                "url": "/",
+                "url": "/stance",
                 "attributeTitle": ""
             },
             "blockClass": "PromotionalBannerImg"
@@ -227,9 +227,9 @@
 
     "image#desk-promotional-banners-col-3-img-2": {
         "props": {
-            "src": "/arquivos/Banner_CuartoNivel_Desktop_02.jpg",
+            "src": "/arquivos/Banner_CuartoNivel_Desktop_07.jpg",
             "link": {
-                "url": "/",
+                "url": "/quiksilver",
                 "attributeTitle": ""
             },
             "blockClass": "PromotionalBannerImg"

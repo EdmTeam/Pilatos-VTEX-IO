@@ -16,7 +16,7 @@
     },
 
     "store.custom#evento-template": {
-        "path": "/evento"
+        "path": "/sale"
     },
 
     "store.custom#department-hombre": {
@@ -56,7 +56,7 @@
     },
 
     "store.custom#category-billetera-hombre": {
-        "path": "/hombre/accesorios/billetera"
+        "path": "/hombre/accesorios/billeteras"
     },
 
     "store.custom#category-bolsos-hombre": {
@@ -188,7 +188,7 @@
     },
 
     "store.custom#category-billetera-mujer": {
-        "path": "/mujer/accesorios/billetera"
+        "path": "/mujer/accesorios/billeteras"
     },
 
     "store.custom#category-bolsos-mujer": {
@@ -324,7 +324,7 @@
     },
 
     "store.custom#category-sandalias-bano-mujer": {
-        "path": "/mujer/ropa-de-playa/sandalias-de-baño"
+        "path": "/mujer/ropa-de-playa/salida-de-bano"
     },
 
     "store.custom#category-ropa-de-playa-mujer": {
@@ -586,12 +586,15 @@
         "path": "/nuevo"
     },
     "store.custom#page-pilatos-concept":{
-        "path": "/pilatos-concept"
+        "path": "/pilatos"
     },
     "store.custom#work-with-us":{
         "path": "/trabaja-con-nosotros"
     },
     "store.custom#landing-toda-la-tienda":{
         "path": "/toda-la-tienda"
+    },
+    "store.custom#sobre-nosotros":{
+        "path": "/sobre-pilatos"
     }
 }

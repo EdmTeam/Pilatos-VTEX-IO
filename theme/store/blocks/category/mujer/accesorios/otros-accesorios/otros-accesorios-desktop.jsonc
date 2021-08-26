@@ -22,10 +22,10 @@
         "children":[
             "rich-text#category-otros-accesorios-mujer-bread-crumb",
             "rich-text#category-otros-accesorios-mujer-title",
-            "rich-text#category-otros-accesorios-mujer-description",
-            "responsive-layout.desktop#category-otros-accesorios-mujer-banners",
-            "responsive-layout.phone#category-otros-accesorios-mujer-banners",
-            "responsive-layout.tablet#category-otros-accesorios-mujer-banners"
+            "rich-text#category-otros-accesorios-mujer-description"
+            // "responsive-layout.desktop#category-otros-accesorios-mujer-banners",
+            // "responsive-layout.phone#category-otros-accesorios-mujer-banners",
+            // "responsive-layout.tablet#category-otros-accesorios-mujer-banners"
         ]
     },
 
@@ -44,14 +44,14 @@
 
     "rich-text#category-otros-accesorios-mujer-title":{
         "props":{
-            "text": "Otros accesorios para mujer",
+            "text": "# Otros accesorios para mujer",
             "blockClass": "departmentTitle"
         }
     },
 
     "rich-text#category-otros-accesorios-mujer-description":{
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "text": "Un accesorio siempre será una buena opción, por eso contamos con más complementos y accesorios para mujer, donde puedes encontrar **llaveros, bolsos, gorros, riñoneras y más estuches** de marcas como Kipling, Superdry y Diesel, en un solo lugar. ¡Complementa tus outfits con estos esenciales para mujer y luce lo mejor de tu estilo!",
             "blockClass": "departmentDescription"
         }
     },
@@ -63,9 +63,9 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
-                "maxItemsPerPage": 12,
+                "maxItemsPerPage": 48,
                 "queryField": "mujer/accesorios/otros-accesorios",
                 "skusFilter": "ALL",
                 "mapField": "category-1"

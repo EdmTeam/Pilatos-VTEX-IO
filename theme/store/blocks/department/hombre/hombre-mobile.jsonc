@@ -113,7 +113,7 @@
                     "image": "/arquivos/Banner_Securdario_Mobile_Departamento_Hombre.jpg",
                     "description": "Promotional Banner",
                     "link": {
-                        "url": "/hombre/ropa-interior",
+                        "url": "/hombre/zapatos/tenis",
                         "attributeTitle": ""
                     },
                     "title": "",
@@ -123,7 +123,7 @@
                     "image": "/arquivos/Banner_Tercero_Mobile_Departamento_Hombre.jpg",
                     "description": "Promotional Banner",
                     "link": {
-                        "url": "/hombre/ropa-interior",
+                        "url": "/hombre/ropa/polos",
                         "attributeTitle": ""
                     },
                     "title": ""
@@ -132,7 +132,7 @@
                     "image": "/arquivos/Banner_Quarto_Mobile_Departamento_Hombre.jpg",
                     "description": "Promotional Banner",
                     "link": {
-                        "url": "/hombre/ropa-interior",
+                        "url": "/hombre/ropa/buzos",
                         "attributeTitle": ""
                     },
                     "title": ""
@@ -141,7 +141,7 @@
                     "image": "/arquivos/Banner_Quinto_Mobile_Departamento_Hombre.jpg",
                     "description": "Promotional Banner",
                     "link": {
-                        "url": "/hombre/ropa-interior",
+                        "url": "/hombre/jeans",
                         "attributeTitle": ""
                     },
                     "title": ""

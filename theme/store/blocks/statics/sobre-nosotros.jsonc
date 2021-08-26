@@ -1,0 +1,397 @@
+{
+    "store.custom#sobre-nosotros": {
+        "blocks": [
+            "responsive-layout.phone#about-us",
+            "responsive-layout.tablet#about-us",
+            "responsive-layout.desktop#about-us"
+        ]
+    },
+
+    "responsive-layout.phone#about-us":{
+        "children":[
+            "flex-layout.row#about-us"
+        ]
+    },
+
+    "responsive-layout.tablet#about-us":{
+        "children":[
+            "flex-layout.row#about-us-desk"
+        ]
+    },
+
+    "responsive-layout.desktop#about-us":{
+        "children":[
+            "flex-layout.row#about-us-desk"
+        ]
+    },
+
+    "flex-layout.row#about-us":{
+        "children":[
+            "flex-layout.col#about-us-col-1",
+            "flex-layout.col#about-us-col-2"
+        ]
+    },
+
+    "flex-layout.row#about-us-desk":{
+        "children":[
+            "flex-layout.col#about-us-col-2",
+            "flex-layout.col#about-us-col-1"
+        ]
+    },
+
+    "flex-layout.col#about-us-col-1":{
+        "children":[
+            "flex-layout.row#banners-about-us-row-1",
+            "flex-layout.row#banners-about-us-row-2",
+            "flex-layout.row#banners-about-us-row-3"
+        ],
+        "props":{
+            "blockClass": "contentBannerAboutUs"
+        }
+    },
+
+    "flex-layout.row#banners-about-us-row-1":{
+        "children":[
+            "image#banners-about-us-row-1"
+        ]
+    },
+
+    "image#banners-about-us-row-1": {
+        "props": {
+            "src": "/arquivos/pilatos-tus-marcas-favoritas-en-un-solo-lugar.png",
+            "alt": "Quiénes somos Pilatos tienda multimarca.",
+            "blockClass": "departmentBannerImg"
+        }
+    },
+
+    "flex-layout.row#banners-about-us-row-2":{
+        "children":[
+            "flex-layout.col#banners-about-us-row-2-img-1",
+            "flex-layout.col#banners-about-us-row-2-img-2"
+        ],
+        "props":{
+            "blockClass": "contentAboutUsBannerRow-2",
+            "preserveLayoutOnMobile": true
+        }
+    },
+
+    "flex-layout.col#banners-about-us-row-2-img-1":{
+        "children":[
+            "image#banners-about-us-row-2-img-1"        
+        ],
+        "props":{
+            "width": "38%",
+            "blockClass": "contentImgAboutUsBanner",
+            "marginRight": "1"
+        }
+    },
+
+    "image#banners-about-us-row-2-img-1": {
+        "props": {
+            "src": "/arquivos/jeans-diferentes-marcas-pilatos-store.png",
+            "alt": "Jeans de las mejores marcas para hombre y mujer Pilatos Store.",
+            "blockClass": "departmentBannerImg"
+        }
+    },
+
+    "flex-layout.col#banners-about-us-row-2-img-2":{
+        "children":[
+            "image#banners-about-us-row-2-img-2"
+        ],
+        "props":{
+            "width": "62%",
+            "blockClass": "contentImgAboutUsBanner",
+            "marginLeft": "1"
+        }
+    },
+
+    "image#banners-about-us-row-2-img-2": {
+        "props": {
+            "src": "/arquivos/tenis-marca-pilatos-store.png",
+            "alt": "Tenis de las mejores marcas para hombre y mujer Pilatos Store.",
+            "blockClass": "departmentBannerImg"
+        }
+    },
+
+
+
+    "flex-layout.row#banners-about-us-row-3":{
+        "children":[
+            "flex-layout.col#banners-about-us-row-3-img-1",
+            "flex-layout.col#banners-about-us-row-3-img-2"
+        ],
+        "props":{
+            "blockClass": "contentAboutUsBannerRow-2",
+            "preserveLayoutOnMobile": true
+        }
+    },
+
+    "flex-layout.col#banners-about-us-row-3-img-1":{
+        "children":[
+            "image#banners-about-us-row-3-img-1"        
+        ],
+        "props":{
+            "width": "62%",
+            "blockClass": "contentImgAboutUsBanner",
+            "marginRight": "1"
+        }
+    },
+
+    "image#banners-about-us-row-3-img-1": {
+        "props": {
+            "src": "/arquivos/pilatos-concept-marca-propia.png",
+            "alt": "Pilatos marca propia para hombre y mujer.",
+            "blockClass": "departmentBannerImg"
+        }
+    },
+
+    "flex-layout.col#banners-about-us-row-3-img-2":{
+        "children":[
+            "image#banners-about-us-row-3-img-2"
+        ],
+        "props":{
+            "width": "38%",
+            "blockClass": "contentImgAboutUsBanner",
+            "marginLeft": "1"
+        }
+    },
+
+    "image#banners-about-us-row-3-img-2": {
+        "props": {
+            "src": "/arquivos/camisetas-diferentes-marcas-pilatos-store.png",
+            "alt": "Camisetas de diferentes marcas para hombre y mujer Pilatos Store.",
+            "blockClass": "departmentBannerImg"
+        }
+    },
+
+
+
+    "flex-layout.col#about-us-col-2":{
+        "children":[
+            "flex-layout.row#about-us-section"
+        ]
+    },
+
+    "flex-layout.row#about-us-section":{
+        "children":[
+            "flex-layout.col#about-us-section"
+        ],
+        "props":{
+            "blockClass": "contentInfoAboutUs"
+        }
+    },
+
+    "flex-layout.col#about-us-section":{
+        "children":[
+            "flex-layout.col#about-us-section-1",
+            "flex-layout.col#about-us-section-2",
+            "flex-layout.col#about-us-section-3"
+        ]
+    },
+
+    "flex-layout.col#about-us-section-1":{
+        "children":[
+            "rich-text#title-about-us",
+            "rich-text#description-about-us",
+            "flex-layout.row#pilatos-lovers"
+        ],
+        "props":{
+            "blockClass": "InfoAboutUs"
+        }
+    },
+
+    "rich-text#title-about-us":{
+        "props":{
+            "text": "Sobre Pilatos",
+            "blockClass": "titleAboutUs"
+        }
+    },
+
+    "rich-text#description-about-us":{
+        "props":{
+            "text": "Somos la tienda multimarca, donde puedes encontrar las **mejores marcas internacionales de ropa** y accesorios en un solo lugar. Nos acompañan Diesel, Superdry, Marithé Francois Girbaud, Kipling, Replay, New Balance, New Project, Adidas, DZone, Fossil, Lecoq Sportif, Celio y muchas marcas más en un solo lugar.",
+            "blockClass": "descriptionAboutUs"
+        }
+    },
+
+    "flex-layout.col#about-us-section-2":{
+        "children":[
+            "rich-text#title-what-can-we-find",
+            "rich-text#info-what-can-we-find-1",
+            "rich-text#info-what-can-we-find-2"
+        ],
+        "props":{
+            "blockClass": "InfoAboutUs"
+        }
+    },
+
+    "rich-text#title-what-can-we-find":{
+        "props":{
+            "text": "¿Qué puedo encontrar en Pilatos?",
+            "blockClass": "subTitleAboutUs"
+        }
+    },
+
+    "rich-text#info-what-can-we-find-1":{
+        "props":{
+            "text": "Desde jeans, chaquetas, camisas, camisetas, vestidos, bermudas y ropa interior hasta lentes de sol, relojería de lujo, bolsos, calzado y marroquinería podrás encontrar en este espacio que es sinónimo de moda, exclusividad y últimas tendencias. Contamos con nuestra propia línea de ropa [Pilatos](/pilatos), que trae nuevas cápsulas mes a mes, como **Olímpicos**, inspirada en los elementos típicos de los Juegos Olímpicos y Tokio como ciudad anfitriona y **Euphoria** que llega a retarte a vivir tu vida al máximo y a disfrutar la adrenalina de cada día.",
+            "blockClass": [
+                "descriptionWhatCanWeFind",
+                "descriptionAboutUs"
+            ]
+        }
+    },
+
+    "rich-text#info-what-can-we-find-2":{
+        "props":{
+            "text": "Además, llegamos a gran parte de Colombia con envíos gratis a partir de COP 250.000, con plazos de entrega de 5 a 7 días hábiles a partir de la aprobación de tu compra. Aquí podrás comprar de manera segura, pagar con tu método de pago de preferencia y recibir en casa. Además de disfrutar de nuestros increíbles descuentos y promociones en nuestro [SALE](/sale) Online.",
+            "blockClass": [
+                "descriptionWhatCanWeFind",
+                "descriptionAboutUs"
+            ]
+        }
+    },
+
+    "flex-layout.col#about-us-section-3":{
+        "children":[
+            "rich-text#title-brand-pilatos",
+            "rich-text#info-brand-pilatos",
+            "flex-layout.col#info-brand-pilatos-2"
+        ],
+        "props":{
+            "blockClass": "InfoAboutUs"
+        }
+    },
+
+    "rich-text#title-brand-pilatos":{
+        "props":{
+            "text": "¿Qué marcas tiene Pilatos?",
+            "blockClass": "subTitleAboutUs"
+        }
+    },
+
+    "rich-text#info-brand-pilatos":{
+        "props":{
+            "text": "Contamos con una amplia gama de marcas internacionales con las cuales puedes armar tu outfit completo:",
+            "blockClass": [
+                "descriptionWhatCanWeFind",
+                "descriptionAboutUs"
+            ]
+        }
+    },
+
+    "flex-layout.col#info-brand-pilatos-2":{
+        "children":[
+            "rich-text#info-brand-pilatos-2-brand"
+        ],
+        "props":{
+            "blockClass": [
+                "brendsPilatosList"
+            ]
+        }    
+    },
+
+    "rich-text#info-brand-pilatos-2-brand":{
+        "props":{
+            "text": "- Celio\n- Diesel\n- Kipling\n- Marithé François Girbaud\n- Pilatos\n- Superdry\n- Replay\n- New Balance\n- New Project\n- Adidas\n- Reebok\n- Crep protect\n- Fossil\n- Le Coq Sportif\n- Ray Ban\n- Stance\n- Roxy\n- Quiksilver\n- Dzone\n- Oakley\n- Cole Haan\n- Mundo Unico\n- Goorin Bros\n- Nike\n- The Frenchie Co",
+            "blockClass": [
+                "brandsPilatosItem"
+            ]
+        }
+    },
+
+    //Formulario pilatos lovers
+    "flex-layout.row#pilatos-lovers":{
+        "children":[
+            "flex-layout.col#pilatos-lovers"
+        ]
+    },
+
+    "flex-layout.col#pilatos-lovers":{
+        "children":[
+            "rich-text#title-pilatos-lovers",
+            "rich-text#des-pilatos-lovers",
+            "form#pilatos-lovers"
+        ],
+        "props":{
+            "blockClass": "formPilatosLovers"
+        }
+    },
+
+    "rich-text#title-pilatos-lovers":{
+        "props":{
+            "text": "Haz parte de #LoMejorDeLasMejoresMarcas",
+            "blockClass": "subTitleAboutUs"
+        }
+    },
+
+    "rich-text#des-pilatos-lovers":{
+        "props":{
+            "text": "Obtén grandes beneficios siendo parte de #LoMejorDeLasMejoresMarcas ¡Suscríbete ahora!",
+            "blockClass": "descriptionAboutUs"
+        }
+    },
+
+    "form#pilatos-lovers": {
+        "props": {
+          "entity": "PL",
+          "schema": "pilatos-lovers"
+        },
+    "children": [
+        "flex-layout.col#pilatos-lovers-input-1"
+        ],
+    "blocks": ["form-success#newsletter"]
+    },
+
+    "flex-layout.col#pilatos-lovers-input-1":{
+        "children":[
+            "flex-layout.col#pilatos-lovers-input-2",
+            "form-input.checkbox#check"
+        ],
+        "props":{
+            "blockClass": "pilatosLoversContentInput"
+        }
+    },
+
+    "flex-layout.row#pilatos-lovers-input-2":{
+        "children":[
+            "flex-layout.col#pilatos-lovers-input-2"
+        ]
+    },
+
+    "flex-layout.col#pilatos-lovers-input-2":{
+        "children":[
+            "form-input.text#pilatos-lovers-name",
+            "form-input.text#pilatos-lovers-email",
+            "form-input.text#pilatos-lovers-phone",
+            "form-submit#pilatos-lovers-submit"
+        ]
+    },
+
+    "form-input.text#pilatos-lovers-name": {
+        "props": {
+          "pointer": "#/properties/name",
+          "placeholder": "Ingresa tu nombre"
+        }
+    },
+
+    "form-input.text#pilatos-lovers-email": {
+        "props": {
+          "pointer": "#/properties/email",
+          "placeholder": "Ingresa tu email"
+        }
+    },
+
+    "form-input.text#pilatos-lovers-phone": {
+        "props": {
+          "pointer": "#/properties/phone",
+          "placeholder": "Ingresa tu celular"
+        }
+    },
+
+    "form-submit#pilatos-lovers-submit": {
+        "props": {
+          "label": "Submit"
+        }
+    }
+}

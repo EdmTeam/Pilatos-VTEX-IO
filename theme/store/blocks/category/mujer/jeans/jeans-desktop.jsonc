@@ -44,14 +44,14 @@
 
     "rich-text#category-jeans-mujer-title":{
         "props":{
-            "text": "Jeans para mujer",
+            "text": "# Jeans para mujer",
             "blockClass": "departmentTitle"
         }
     },
 
     "rich-text#category-jeans-mujer-description":{
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "text": "Jeans para mujer de marcas que siempre te harán lucir bien, con el fit ideal y la mejor calidad del mercado. En Pilatos encuentra jeans de marcas como M+F Girbaud, Diesel, Replay, Superdry, entre otras. Descubre todas las opciones que tenemos disponibles y arma tus outfits, casuales, informales, versátiles y muy llamativos. Tenemos una amplia variedad en **jeans de moda para mujer**: Superslim, Regular, jean ancho y Slim; ¡No te quedes sin el tuyo!",
             "blockClass": "departmentDescription"
         }
     },
@@ -63,9 +63,9 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
-                "maxItemsPerPage": 12,
+                "maxItemsPerPage": 48,
                 "queryField": "mujer/jeans",
                 "skusFilter": "ALL",
                 "mapField": "category-1"
@@ -99,7 +99,7 @@
         "props": {
             "src": "/arquivos/BANNER_categoria_mujer_ropadebano_desktop.jpg",
             "link": {
-                "url": "/",
+                "url": "/mujer/ropa-de-playa",
                 "attributeTitle": ""
             },
             "blockClass": "departmentBannerImg-2"

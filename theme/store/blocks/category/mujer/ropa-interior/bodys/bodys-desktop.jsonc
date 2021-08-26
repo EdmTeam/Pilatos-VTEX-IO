@@ -22,10 +22,10 @@
         "children":[
             "rich-text#category-bodys-mujer-bread-crumb",
             "rich-text#category-bodys-mujer-title",
-            "rich-text#category-bodys-mujer-description",
-            "responsive-layout.desktop#category-bodys-mujer-banners",
-            "responsive-layout.phone#category-bodys-mujer-banners",
-            "responsive-layout.tablet#category-bodys-mujer-banners"
+            "rich-text#category-bodys-mujer-description"
+            // "responsive-layout.desktop#category-bodys-mujer-banners",
+            // "responsive-layout.phone#category-bodys-mujer-banners",
+            // "responsive-layout.tablet#category-bodys-mujer-banners"
         ]
     },
 
@@ -51,7 +51,7 @@
 
     "rich-text#category-bodys-mujer-description":{
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "text": "Descubre los diferentes estilos, colores y diseños disponibles en bodys para mujer, una prenda versátil que le da un toque moderno a tu look. **Bodys de marcas Diesel, Pilatos y Marithe Francois Girbaud** en un solo lugar. ¡Elige tu favorito y llévalo contigo!",
             "blockClass": "departmentDescription"
         }
     },
@@ -63,9 +63,9 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
-                "maxItemsPerPage": 12,
+                "maxItemsPerPage": 48,
                 "queryField": "mujer/ropa-interior/bodys",
                 "skusFilter": "ALL",
                 "mapField": "category-1"

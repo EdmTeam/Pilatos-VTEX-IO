@@ -65,7 +65,7 @@
             "querySchema": {
                 "orderByField": "OrderByPriceASC",
                 "hideUnavailableItems": true,
-                "maxItemsPerPage": 12,
+                "maxItemsPerPage": 48,
                 "queryField": "niños/jeans/superslim",
                 "skusFilter": "ALL",
                 "mapField": "category-1"

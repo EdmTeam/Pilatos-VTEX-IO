@@ -22,10 +22,10 @@
         "children":[
             "rich-text#category-polos-hombre-bread-crumb",
             "rich-text#category-polos-hombre-title",
-            "rich-text#category-polos-hombre-description",
-            "responsive-layout.desktop#category-polos-hombre-banners",
-            "responsive-layout.phone#category-polos-hombre-banners",
-            "responsive-layout.tablet#category-polos-hombre-banners"
+            "rich-text#category-polos-hombre-description"
+            // "responsive-layout.desktop#category-polos-hombre-banners",
+            // "responsive-layout.phone#category-polos-hombre-banners",
+            // "responsive-layout.tablet#category-polos-hombre-banners"
         ]
     },
 
@@ -44,14 +44,14 @@
 
     "rich-text#category-polos-hombre-title":{
         "props":{
-            "text": "Polos para hombre",
+            "text": "# Polos para hombre",
             "blockClass": "departmentTitle"
         }
     },
 
     "rich-text#category-polos-hombre-description":{
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "text": "Encuentra diferentes polos para hombre de las mejores marcas: Marithe Francois Girbaud, Celio, New Project, Pilatos, Superdry, Replay, Diesel y New Balance. Descubre todos los diseños, colores y estampados en las **camisetas polo de moda** para hombre que se ajustan a cada ocasión. ",
             "blockClass": "departmentDescription"
         }
     },
@@ -63,9 +63,9 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
-                "maxItemsPerPage": 12,
+                "maxItemsPerPage": 48,
                 "queryField": "hombre/ropa/polos",
                 "skusFilter": "ALL",
                 "mapField": "category-1"

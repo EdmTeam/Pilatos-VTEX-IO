@@ -22,10 +22,10 @@
         "children":[
             "rich-text#category-relojes-mujer-bread-crumb",
             "rich-text#category-relojes-mujer-title",
-            "rich-text#category-relojes-mujer-description",
-            "responsive-layout.desktop#category-relojes-mujer-banners",
-            "responsive-layout.phone#category-relojes-mujer-banners",
-            "responsive-layout.tablet#category-relojes-mujer-banners"
+            "rich-text#category-relojes-mujer-description"
+            // "responsive-layout.desktop#category-relojes-mujer-banners",
+            // "responsive-layout.phone#category-relojes-mujer-banners",
+            // "responsive-layout.tablet#category-relojes-mujer-banners"
         ]
     },
 
@@ -44,14 +44,14 @@
 
     "rich-text#category-relojes-mujer-title":{
         "props":{
-            "text": "Relojes para mujer",
+            "text": "# Relojes para mujer",
             "blockClass": "departmentTitle"
         }
     },
 
     "rich-text#category-relojes-mujer-description":{
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "text": "Encuentra **relojes para mujer de diferentes marcas** en un solo lugar, múltiples diseños y colores perfectos para cualquier ocasión. Descubre diversos estilos de relojes para mujer y acompaña tu look con este complemento de Pilatos. ¿ya tienes el tuyo?",
             "blockClass": "departmentDescription"
         }
     },
@@ -63,9 +63,9 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
-                "maxItemsPerPage": 12,
+                "maxItemsPerPage": 48,
                 "queryField": "mujer/accesorios/relojes",
                 "skusFilter": "ALL",
                 "mapField": "category-1"

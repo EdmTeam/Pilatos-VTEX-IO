@@ -1,12 +1,27 @@
 {
     "flex-layout.row#brands": {
       "children": [
-        "slider-layout#brands"
+        "flex-layout.col#brands"
       ],
       "props": {
         "blockClass": "contentBrandsSlide"
       }
     },
+
+    "flex-layout.col#brands":{
+      "children":[
+        "rich-text#brands-title",
+        "slider-layout#brands"
+      ]
+    },
+
+    "rich-text#brands-title": {
+      "props":{
+          "text": "**Comprar por marca**",
+          "blockClass": "titlePromotionalBanners"
+      }
+    },
+
     "slider-layout#brands": {
       "props": {
         "blockClass": [
@@ -47,7 +62,9 @@
         "image#brand-20",
         "image#brand-21",
         "image#brand-22",
-        "image#brand-23"
+        "image#brand-23",
+        "image#brand-24",
+        "image#brand-25"
       ]
     },
 
@@ -55,7 +72,7 @@
       "props": {
           "src": "/arquivos/Logo_Adidas.png",
           "link": {
-              "url": "/"
+              "url": "/adidas"
           }
       }
     },
@@ -64,7 +81,7 @@
       "props": {
           "src": "/arquivos/Logo_Celio.png",
           "link": {
-              "url": "/"
+              "url": "/celio"
           }
       }
     },
@@ -73,7 +90,7 @@
       "props": {
           "src": "/arquivos/Logo_Cole_Haan.png",
           "link": {
-              "url": "/"
+              "url": "/cole-haan"
           }
       }
     },
@@ -82,7 +99,7 @@
       "props": {
           "src": "/arquivos/Logo_Creep_Portect.png",
           "link": {
-              "url": "/"
+              "url": "/crep-protec"
           }
       }
     },
@@ -91,7 +108,7 @@
       "props": {
           "src": "/arquivos/Logo_Diesel.png",
           "link": {
-              "url": "/"
+              "url": "/diesel"
           }
       }
     },
@@ -100,7 +117,7 @@
       "props": {
           "src": "/arquivos/Logo_Dzone.png",
           "link": {
-              "url": "/"
+              "url": "/dzone"
           }
       }
     },
@@ -109,7 +126,7 @@
       "props": {
           "src": "/arquivos/Logo_Fossil.png",
           "link": {
-              "url": "/"
+              "url": "/fossil"
           }
       }
     },
@@ -127,7 +144,7 @@
       "props": {
           "src": "/arquivos/Logo_Goorin_Bros.png",
           "link": {
-              "url": "/"
+              "url": "/goorin-bros"
           }
       }
     },
@@ -136,7 +153,7 @@
       "props": {
           "src": "/arquivos/Logo_Kipling.png",
           "link": {
-              "url": "/"
+              "url": "/kipling"
           }
       }
     },
@@ -145,7 +162,7 @@
       "props": {
           "src": "/arquivos/Logo_Le Coq_Sportif.png",
           "link": {
-              "url": "/"
+              "url": "/le-coq-sportif"
           }
       }
     },
@@ -154,7 +171,7 @@
       "props": {
           "src": "/arquivos/Logo_MFG.png",
           "link": {
-              "url": "/"
+              "url": "/marithe-francois-girbaud"
           }
       }
     },
@@ -163,7 +180,7 @@
       "props": {
           "src": "/arquivos/Logo_New_Balance.png",
           "link": {
-              "url": "/"
+              "url": "/new-balance"
           }
       }
     },
@@ -172,7 +189,7 @@
       "props": {
           "src": "/arquivos/Logo_New_Project.png",
           "link": {
-              "url": "/"
+              "url": "/new-project"
           }
       }
     },
@@ -181,16 +198,16 @@
       "props": {
           "src": "/arquivos/Logo_Oakley.png",
           "link": {
-              "url": "/"
+              "url": "/oakley"
           }
       }
     },
 
     "image#brand-16": {
       "props": {
-          "src": "/arquivos/Logo_Pilatos_Concept.png",
+          "src": "/arquivos/PilatosLogo.png",
           "link": {
-              "url": "/"
+              "url": "/pilatos"
           }
       }
     },
@@ -199,7 +216,7 @@
       "props": {
           "src": "/arquivos/Logo_Quiksilver.png",
           "link": {
-              "url": "/"
+              "url": "/quiksilver"
           }
       }
     },
@@ -208,7 +225,7 @@
       "props": {
           "src": "/arquivos/Logo_Ray_Ban.png",
           "link": {
-              "url": "/"
+              "url": "/ray-ban"
           }
       }
     },
@@ -217,7 +234,7 @@
       "props": {
           "src": "/arquivos/Logo_Reebok.png",
           "link": {
-              "url": "/"
+              "url": "/reebok"
           }
       }
     },
@@ -226,7 +243,7 @@
       "props": {
           "src": "/arquivos/Logo_Replay.png",
           "link": {
-              "url": "/"
+              "url": "/replay"
           }
       }
     },
@@ -235,7 +252,7 @@
       "props": {
           "src": "/arquivos/Logo_Roxy.png",
           "link": {
-              "url": "/"
+              "url": "/roxy"
           }
       }
     },
@@ -244,7 +261,7 @@
       "props": {
           "src": "/arquivos/Logo_Stance.png",
           "link": {
-              "url": "/"
+              "url": "/stance"
           }
       }
     },
@@ -253,7 +270,25 @@
       "props": {
           "src": "/arquivos/Logo_Superdy.png",
           "link": {
-              "url": "/"
+              "url": "/superdry"
+          }
+      }
+    },
+
+    "image#brand-24": {
+      "props": {
+          "src": "/arquivos/logo_unico.png",
+          "link": {
+              "url": "/mundo-unico"
+          }
+      }
+    },
+
+    "image#brand-25": {
+      "props": {
+          "src": "/arquivos/Logo_AB.png",
+          "link": {
+              "url": "/agua-bendita"
           }
       }
     }

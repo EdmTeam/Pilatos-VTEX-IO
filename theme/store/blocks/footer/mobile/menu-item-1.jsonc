@@ -29,8 +29,9 @@
     "flex-layout.col#item-contact": {
         "children": [
             "flex-layout.col#item-contact-1",
-            "flex-layout.col#item-contact-2"
-            // "flex-layout.col#item-contact-3"
+            "flex-layout.col#item-contact-2",
+            "flex-layout.col#item-contact-3",
+            "flex-layout.col#item-contact-4"
         ],
         "props": {
             "blockClass": "contentContact",
@@ -181,8 +182,11 @@
             "rich-text#menu-item-contact-infocontact-3"
         ],
         "props": {
-            "width": "55%",
-            "blockClass": "contentRichtextFooter"
+            "width": "33%",
+            "blockClass": [
+                "contentRichtextFooter",
+                "contentRichtextWhatsApp"
+            ]
         }
     },
 
@@ -195,8 +199,22 @@
 
     "rich-text#menu-item-contact-infocontact-3": {
         "props": {
-            "text": "300 234 6789",
+            "text": "+57 3215282745",
             "blockClass": "infocontactItemsfooter"
+        }
+    },
+
+    //Horarios
+    "flex-layout.col#item-contact-4":{
+        "children":[
+            "rich-text#schedule"
+        ]
+    },
+
+    "rich-text#schedule":{
+        "props":{
+            "text": "Horarios: Lunes a viernes 8:00a.m. - 6:00p.m. y sábados 9:00a.m. - 12:00m",
+            "blockClass": "textSchedule"
         }
     },
 

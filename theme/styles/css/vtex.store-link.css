@@ -1,0 +1,13 @@
+.link--contentIcoWhatsApp{
+    position: fixed;
+    bottom: 6rem;
+    right: 2.7rem;
+    z-index: 1000;
+}
+
+@media screen and (min-width: 1080px){
+    .link--contentIcoWhatsApp{
+        bottom: 6.5rem;
+        right: 2.5rem;
+    }
+}

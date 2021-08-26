@@ -93,7 +93,7 @@
                     "image": "/arquivos/BANNER_categoria_mujer_camisetas_mobile.jpg",
                     "description": "Promotional Banner",
                     "link": {
-                        "url": "/",
+                        "url": "/mujer/ropa/camisetas",
                         "attributeTitle": ""
                     },
                     "title": "",
@@ -103,7 +103,7 @@
                     "image": "/arquivos/BANNER_categoria_mujer_ropadeportiva_mobile.jpg",
                     "description": "Promotional Banner",
                     "link": {
-                        "url": "/",
+                        "url": "/mujer/ropa/sudaderas",
                         "attributeTitle": ""
                     },
                     "title": ""
@@ -112,7 +112,7 @@
                     "image": "/arquivos/BANNER_categoria_mujer_vestidosyfaldas_mobile.jpg",
                     "description": "Promotional Banner",
                     "link": {
-                        "url": "/",
+                        "url": "/mujer/ropa/faldas",
                         "attributeTitle": ""
                     },
                     "title": ""

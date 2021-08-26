@@ -22,10 +22,10 @@
         "children":[
             "rich-text#category-tops-mujer-bread-crumb",
             "rich-text#category-tops-mujer-title",
-            "rich-text#category-tops-mujer-description",
-            "responsive-layout.desktop#category-tops-mujer-banners",
-            "responsive-layout.phone#category-tops-mujer-banners",
-            "responsive-layout.tablet#category-tops-mujer-banners"
+            "rich-text#category-tops-mujer-description"
+            // "responsive-layout.desktop#category-tops-mujer-banners",
+            // "responsive-layout.phone#category-tops-mujer-banners",
+            // "responsive-layout.tablet#category-tops-mujer-banners"
         ]
     },
 
@@ -51,7 +51,7 @@
 
     "rich-text#category-tops-mujer-description":{
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "text": "Encuentra diferentes estilos de tops para mujer que se adaptan fácilmente a tu figura, **tops deportivos y casuales** en un solo lugar. Descubre la comodidad y el diseño en tops para mujer de marcas como New Balance, Agua Bendita y Marithe Francois Girbaud.",
             "blockClass": "departmentDescription"
         }
     },
@@ -63,9 +63,9 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
-                "maxItemsPerPage": 12,
+                "maxItemsPerPage": 48,
                 "queryField": "mujer/ropa-interior/tops",
                 "skusFilter": "ALL",
                 "mapField": "category-1"

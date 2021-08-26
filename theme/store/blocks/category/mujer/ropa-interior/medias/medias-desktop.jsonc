@@ -22,10 +22,10 @@
         "children":[
             "rich-text#category-medias-mujer-bread-crumb",
             "rich-text#category-medias-mujer-title",
-            "rich-text#category-medias-mujer-description",
-            "responsive-layout.desktop#category-medias-mujer-banners",
-            "responsive-layout.phone#category-medias-mujer-banners",
-            "responsive-layout.tablet#category-medias-mujer-banners"
+            "rich-text#category-medias-mujer-description"
+            // "responsive-layout.desktop#category-medias-mujer-banners",
+            // "responsive-layout.phone#category-medias-mujer-banners",
+            // "responsive-layout.tablet#category-medias-mujer-banners"
         ]
     },
 
@@ -51,7 +51,7 @@
 
     "rich-text#category-medias-mujer-description":{
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "text": "¿Coloridas, estampadas, unicolor o de rayas? Descubre **diferentes diseños de medias para mujer**, acompañado de las mejores marcas como Stance y Superdry, perfectas para todos los estilos y ocasiones. ¡Elige tus favoritas y siente su comodidad!",
             "blockClass": "departmentDescription"
         }
     },
@@ -63,9 +63,9 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
-                "maxItemsPerPage": 12,
+                "maxItemsPerPage": 48,
                 "queryField": "mujer/ropa-interior/medias",
                 "skusFilter": "ALL",
                 "mapField": "category-1"

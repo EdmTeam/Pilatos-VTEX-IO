@@ -22,10 +22,10 @@
         "children":[
             "rich-text#category-billetera-hombre-bread-crumb",
             "rich-text#category-billetera-hombre-title",
-            "rich-text#category-billetera-hombre-description",
-            "responsive-layout.desktop#category-billetera-hombre-banners",
-            "responsive-layout.tablet#category-billetera-hombre-banners",
-            "responsive-layout.phone#category-billetera-hombre-banners"
+            "rich-text#category-billetera-hombre-description"
+            // "responsive-layout.desktop#category-billetera-hombre-banners",
+            // "responsive-layout.tablet#category-billetera-hombre-banners",
+            // "responsive-layout.phone#category-billetera-hombre-banners"
         ]
     },
 
@@ -44,14 +44,14 @@
 
     "rich-text#category-billetera-hombre-title":{
         "props":{
-            "text": "Billetera para hombre",
+            "text": "# Billeteras para hombre",
             "blockClass": "departmentTitle"
         }
     },
 
     "rich-text#category-billetera-hombre-description":{
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "text": "Encuentra calidad y estilo en las **diferentes billeteras para hombre** que tenemos disponibles en varios colores, diseños, materiales y marcas como Superdry, Quicksilver, Diesel, Replay y nuestra marca propia Pilatos. ¡No te quedes sin tu billetera!",
             "blockClass": "departmentDescription"
         }
     },
@@ -63,10 +63,10 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
-                "maxItemsPerPage": 12,
-                "queryField": "hombre/accesorios/billetera",
+                "maxItemsPerPage": 48,
+                "queryField": "hombre/accesorios/billeteras",
                 "skusFilter": "ALL",
                 "mapField": "category-1"
             }

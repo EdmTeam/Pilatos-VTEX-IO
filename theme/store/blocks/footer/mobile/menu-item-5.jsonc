@@ -27,7 +27,7 @@
 
     "vtex.menu@2.x:submenu.accordion#footer-mobile-4-row-1": {
         "children": [
-            // "rich-text#submenu-4-text-1",
+            "rich-text#submenu-4-text-1",
             "rich-text#submenu-4-text-2"
             // "rich-text#submenu-4-text-3"
         ],
@@ -38,7 +38,7 @@
 
     "rich-text#submenu-4-text-1": {
         "props": {
-            "text": "[Nosotros](#!)",
+            "text": "[Nosotros](/sobre-pilatos)",
             "blockClass": "textSubmenu"
         }
     },

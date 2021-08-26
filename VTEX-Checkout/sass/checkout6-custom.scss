@@ -3110,7 +3110,7 @@ div.checkoutFooter {
 
                                                                     &:checked ~ span.btnCheckbox {
                                                                         &:before {
-                                                                            color: $yellow;
+                                                                            color: black;
                                                                         }
                                                                     }
                                                                 }
@@ -3128,7 +3128,7 @@ div.checkoutFooter {
                                                                     position: relative;
 
                                                                     border-radius: 2px;
-                                                                    border: 1px solid $yellow;
+                                                                    border: 1px solid black;
                                                                     background-color: white;
                                                                     margin: 0px 5px 0 0;
 
@@ -4525,6 +4525,7 @@ div.checkoutFooter {
                                                             display: flex;
                                                             flex-direction: column;
                                                             flex-wrap: wrap;
+
                                                             a {
                                                                 background: transparent;
                                                                 border: none;
@@ -4539,7 +4540,7 @@ div.checkoutFooter {
                                                                     display: flex;
                                                                     align-items: center;
                                                                     justify-content: space-between;
-                                                                    background-image: none !important;
+                                                                    background-image: none;
                                                                     padding: 0px;
                                                                     margin: 0;
                                                                     @include popins(10, 400, 0.01);
@@ -5653,11 +5654,8 @@ body {
                         float: left;
                         width: 8px;
                         height: 6px;
-                        background-image: url('/arquivos/checkInput.png');
-                        background-position: center;
-                        background-repeat: no-repeat;
-                        background-size: contain;
-
+                        background: rgb(49, 49, 49);
+                        border-radius: 1px;
                         margin: 0px 0px 0 0;
                         position: absolute;
                         top: 50%;
@@ -5954,5 +5952,91 @@ body {
 .orderform-template-holder{
     .vtex-omnishipping-1-x-shippingDataDev{
         background-color: transparent;
+    }
+}
+
+.payment-group {
+    .payment-group-list-btn {
+        a:nth-child(1) {
+            span {
+                background-image: url('/arquivos/Pilatos-MediosDePago-TarjetaCredito.png') !important;
+                background-size: 35px;
+                padding-right: 2rem !important;
+
+                &:before {
+                    display: block !important;
+                }
+            }
+        }
+        a:nth-child(2) {
+            span {
+                background-image: url('/arquivos/Pilatos-MediosDePago-TarjetaDebito.png') !important;
+                background-size: 35px;
+                padding-right: 2rem !important;
+
+                &:before {
+                    display: block !important;
+                }
+            }
+        }
+        a:nth-child(3) {
+            span {
+                background-image: url('/arquivos/Pilatos-MediosDePago-SisteCredito.png') !important;
+                background-size: 35px;
+                padding-right: 2rem !important;
+
+                &:before {
+                    display: block !important;
+                }
+            }
+        }
+        a:nth-child(4) {
+            span {
+                background-image: url('/arquivos/Pilatos-MediosDePago-Codensa.png') !important;
+                background-size: 35px;
+                padding-right: 2rem !important;
+
+                &:before {
+                    display: block !important;
+                }
+            }
+        }
+        a:nth-child(5) {
+            span {
+                background-image: url('/arquivos/pse.png') !important;
+                background-size: 35px;
+                padding-right: 2rem !important;
+
+                &:before {
+                    display: block !important;
+                }
+            }
+        }
+    }
+}
+
+.bank-invoice-options{
+    label:first-child{
+        span{
+            span{
+                background-image: url('/arquivos/Baloto-logo.png') !important;
+                background-size: 80%;
+                background-repeat: no-repeat;
+                background-position-y: bottom;
+                background-position-x: center;
+            }
+        }
+    }
+
+    label:last-child{
+        span{
+            span{
+                background-image: url('/arquivos/efecty.png') !important;
+                background-size: 80%;
+                background-repeat: no-repeat;
+                background-position-y: bottom;
+                background-position-x: center;
+            }
+        }
     }
 }

@@ -22,10 +22,10 @@
         "children":[
             "rich-text#category-zapatos-hombre-bread-crumb",
             "rich-text#category-zapatos-hombre-title",
-            "rich-text#category-zapatos-hombre-description",
-            "responsive-layout.desktop#category-zapatos-hombre-banners",
-            "responsive-layout.phone#category-zapatos-hombre-banners",
-            "responsive-layout.tablet#category-zapatos-hombre-banners"
+            "rich-text#category-zapatos-hombre-description"
+            // "responsive-layout.desktop#category-zapatos-hombre-banners",
+            // "responsive-layout.phone#category-zapatos-hombre-banners",
+            // "responsive-layout.tablet#category-zapatos-hombre-banners"
         ]
     },
 
@@ -44,14 +44,14 @@
 
     "rich-text#category-zapatos-hombre-title":{
         "props":{
-            "text": "Zapatos para hombre",
+            "text": "# Zapatos, tenis y sandalias para hombre",
             "blockClass": "departmentTitle"
         }
     },
 
     "rich-text#category-zapatos-hombre-description":{
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "text": "Las últimas colecciones de zapatos de la moda internacional está en Pilatos. Encuentra todo para hombre, contamos con diferentes tenis, sandalias, estilos casuales, deportivos y formales de **zapatos de las mejores marcas** como: Celio, Replay, Superdry, Diesel, Oakley, Le Coq Sportif y más. ¡Elige los tuyos ahora!",
             "blockClass": "departmentDescription"
         }
     },
@@ -63,9 +63,9 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
-                "maxItemsPerPage": 12,
+                "maxItemsPerPage": 48,
                 "queryField": "hombre/zapatos",
                 "skusFilter": "ALL",
                 "mapField": "category-1"

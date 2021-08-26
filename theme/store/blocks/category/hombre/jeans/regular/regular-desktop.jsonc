@@ -22,10 +22,10 @@
         "children":[
             "rich-text#category-regular-hombre-bread-crumb",
             "rich-text#category-regular-hombre-title",
-            "rich-text#category-regular-hombre-description",
-            "responsive-layout.desktop#category-regular-hombre-banners",
-            "responsive-layout.phone#category-regular-hombre-banners",
-            "responsive-layout.tablet#category-regular-hombre-banners"
+            "rich-text#category-regular-hombre-description"
+            // "responsive-layout.desktop#category-regular-hombre-banners",
+            // "responsive-layout.phone#category-regular-hombre-banners",
+            // "responsive-layout.tablet#category-regular-hombre-banners"
         ]
     },
 
@@ -44,14 +44,14 @@
 
     "rich-text#category-regular-hombre-title":{
         "props":{
-            "text": "Regular para hombre",
+            "text": "# Jeans Regular para hombre",
             "blockClass": "departmentTitle"
         }
     },
 
     "rich-text#category-regular-hombre-description":{
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "text": "Encuentra diferentes opciones de jeans Regular para hombre, **jeans de moda clásicos** que se adaptan a todas las situaciones, este pantalón recto, de tiro alto y que no queda ajustado al tobillo es perfecto para todo tipo de ocasión. Elige el color que más te guste: negro, azul claro, azul oscuro o gris y entre nuestras marcas Celio, Replay...",
             "blockClass": "departmentDescription"
         }
     },
@@ -63,9 +63,9 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
-                "maxItemsPerPage": 12,
+                "maxItemsPerPage": 48,
                 "queryField": "hombre/jeans/regular",
                 "skusFilter": "ALL",
                 "mapField": "category-1"

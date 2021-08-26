@@ -22,10 +22,10 @@
         "children":[
             "rich-text#category-camisas-mujer-bread-crumb",
             "rich-text#category-camisas-mujer-title",
-            "rich-text#category-camisas-mujer-description",
-            "responsive-layout.desktop#category-camisas-mujer-banners",
-            "responsive-layout.phone#category-camisas-mujer-banners",
-            "responsive-layout.tablet#category-camisas-mujer-banners"
+            "rich-text#category-camisas-mujer-description"
+            // "responsive-layout.desktop#category-camisas-mujer-banners",
+            // "responsive-layout.phone#category-camisas-mujer-banners",
+            // "responsive-layout.tablet#category-camisas-mujer-banners"
         ]
     },
 
@@ -44,14 +44,14 @@
 
     "rich-text#category-camisas-mujer-title":{
         "props":{
-            "text": "Camisas para mujer",
+            "text": "# Camisas para mujer",
             "blockClass": "departmentTitle"
         }
     },
 
     "rich-text#category-camisas-mujer-description":{
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "text": "Contamos con diferentes camisas para mujer con **estilos casuales, frescos o formales** para que renueves tus looks. Descubre camisas originales de tus marcas favoritas: Replay, Superdry, Diesel, Girbaud, Agua Bendita y Pilatos. ¡Encuentra aquí las mejores marcas y camisas que combinan con tu actitud y moderniza tu closet!",
             "blockClass": "departmentDescription"
         }
     },
@@ -63,9 +63,9 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
-                "maxItemsPerPage": 12,
+                "maxItemsPerPage": 48,
                 "queryField": "mujer/ropa/camisas",
                 "skusFilter": "ALL",
                 "mapField": "category-1"
@@ -88,7 +88,7 @@
         "props": {
             "src": "/arquivos/category-bn-desk-3.png",
             "link": {
-                "url": "/",
+                "url": "/mujer/ropa-de-playa",
                 "attributeTitle": ""
             },
             "blockClass": "departmentBannerImg-1"
@@ -99,7 +99,7 @@
         "props": {
             "src": "/arquivos/category-bn-desk-2.png",
             "link": {
-                "url": "/",
+                "url": "/mujer/ropa/sudaderas",
                 "attributeTitle": ""
             },
             "blockClass": "departmentBannerImg-2"
@@ -110,7 +110,7 @@
         "props": {
             "src": "/arquivos/category-bn-desk-1.png",
             "link": {
-                "url": "/",
+                "url": "/mujer/ropa/vestidos",
                 "attributeTitle": ""
             },
             "blockClass": "departmentBannerImg-3"

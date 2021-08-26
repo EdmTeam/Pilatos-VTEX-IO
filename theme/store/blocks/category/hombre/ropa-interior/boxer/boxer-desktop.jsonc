@@ -22,10 +22,10 @@
         "children":[
             "rich-text#category-boxer-hombre-bread-crumb",
             "rich-text#category-boxer-hombre-title",
-            "rich-text#category-boxer-hombre-description",
-            "responsive-layout.desktop#category-boxer-hombre-banners",
-            "responsive-layout.phone#category-boxer-hombre-banners",
-            "responsive-layout.tablet#category-boxer-hombre-banners"
+            "rich-text#category-boxer-hombre-description"
+            // "responsive-layout.desktop#category-boxer-hombre-banners",
+            // "responsive-layout.phone#category-boxer-hombre-banners",
+            // "responsive-layout.tablet#category-boxer-hombre-banners"
         ]
     },
 
@@ -51,7 +51,7 @@
 
     "rich-text#category-boxer-hombre-description":{
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "text": "Descubre la comodidad y diseño en los bóxer para hombre de marcas como Diesel, Celio y Mundo Único que ofrece materiales premium, resistencia y un ajuste perfecto, ideales para tu día a día. Conoce nuestras referencias disponibles en **calzoncillos y bóxers para hombre** en diferentes diseños, colores, estilos y estampados. ¡Elige tus bóxers favoritos ahora!",
             "blockClass": "departmentDescription"
         }
     },
@@ -63,9 +63,9 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
-                "maxItemsPerPage": 12,
+                "maxItemsPerPage": 48,
                 "queryField": "hombre/ropa-interior/boxer",
                 "skusFilter": "ALL",
                 "mapField": "category-1"

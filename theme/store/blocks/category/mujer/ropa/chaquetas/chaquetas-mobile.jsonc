@@ -93,7 +93,7 @@
                     "image": "/arquivos/BANNER_categoria_mujer_bolsoymorrales_mobile.jpg",
                     "description": "Promotional Banner",
                     "link": {
-                        "url": "/",
+                        "url": "/mujer/accesorios/morrales",
                         "attributeTitle": ""
                     },
                     "title": "",
@@ -103,7 +103,7 @@
                     "image": "/arquivos/BANNER_categoria_mujer_camisetas_mobile.jpg",
                     "description": "Promotional Banner",
                     "link": {
-                        "url": "/",
+                        "url": "/mujer/ropa/camisetas",
                         "attributeTitle": ""
                     },
                     "title": ""
@@ -112,7 +112,7 @@
                     "image": "/arquivos/BANNER_categoria_mujer_jeans_mobile.jpg",
                     "description": "Promotional Banner",
                     "link": {
-                        "url": "/",
+                        "url": "/mujer/jeans",
                         "attributeTitle": ""
                     },
                     "title": ""

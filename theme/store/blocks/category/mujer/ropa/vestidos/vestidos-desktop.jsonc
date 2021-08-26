@@ -22,10 +22,10 @@
         "children":[
             "rich-text#category-vestidos-mujer-bread-crumb",
             "rich-text#category-vestidos-mujer-title",
-            "rich-text#category-vestidos-mujer-description",
-            "responsive-layout.desktop#category-vestidos-mujer-banners",
-            "responsive-layout.phone#category-vestidos-mujer-banners",
-            "responsive-layout.tablet#category-vestidos-mujer-banners"
+            "rich-text#category-vestidos-mujer-description"
+            // "responsive-layout.desktop#category-vestidos-mujer-banners",
+            // "responsive-layout.phone#category-vestidos-mujer-banners",
+            // "responsive-layout.tablet#category-vestidos-mujer-banners"
         ]
     },
 
@@ -51,7 +51,7 @@
 
     "rich-text#category-vestidos-mujer-description":{
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "text": "Encuentra diferentes opciones de vestidos para mujer que siempre te harán lucir bien. Contamos con variedad de colores, diseños, materiales y estilos para que luzcas cómoda y ligera en cualquier ocasión. **Vestidos largos, cortos, casuales** hasta vestidos de fiesta y playeros en un solo lugar. Elige tu marca favorita Girbaud, Diesel, Superdry, entre otras. ¡No te quedes sin el tuyo!",
             "blockClass": "departmentDescription"
         }
     },
@@ -63,9 +63,9 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
-                "maxItemsPerPage": 12,
+                "maxItemsPerPage": 48,
                 "queryField": "mujer/ropa/vestidos",
                 "skusFilter": "ALL",
                 "mapField": "category-1"

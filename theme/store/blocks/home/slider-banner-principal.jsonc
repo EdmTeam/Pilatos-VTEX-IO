@@ -1,104 +1,23 @@
 {
     "responsive-layout.phone#banner-principal": {
         "children":[
-            "list-context.image-list#banner-principal-phone"
+            "slider-layout#banner-principal-mobile"
         ]
     },
 
     "responsive-layout.tablet#banner-principal": {
         "children":[
-            "list-context.image-list#banner-principal-tablet"
+            "slider-layout#banner-principal-tablet"
         ]
     },
 
     "responsive-layout.desktop#banner-principal": {
         "children":[
-            "list-context.image-list#banner-principal-desktop"
+            "slider-layout#banner-principal-desktop"
         ]
     },
 
-    "list-context.image-list#banner-principal-phone": {
-        "children": [
-            "slider-layout#banner-principal"
-        ],
-        "props": {
-            "height": 600,
-            "images": [
-                {
-                    "image": "/arquivos/Banner_Principal_Mobile_01.jpg",
-                    "link": {
-                        "url": "/",
-                        "attributeTitle": ""
-                    },
-                    "title": ""
-                },
-                {
-                    "image": "/arquivos/Banner_Principal_Mobile_02.jpg",
-                    "link": {
-                        "url": "/",
-                        "attributeTitle": ""
-                    },
-                    "title": ""
-                }
-            ]
-        }
-    },
-
-    "list-context.image-list#banner-principal-tablet": {
-        "children": [
-            "slider-layout#banner-principal"
-        ],
-        "props": {
-            "height": 600,
-            "images": [
-                {
-                    "image": "/arquivos/Banner_Principal_Tablet_01.jpg",
-                    "link": {
-                        "url": "/",
-                        "attributeTitle": ""
-                    },
-                    "title": ""
-                },
-                {
-                    "image": "/arquivos/Banner_Principal_Tablet_02.jpg",
-                    "link": {
-                        "url": "/",
-                        "attributeTitle": ""
-                    },
-                    "title": ""
-                }
-            ]
-        }
-    },
-
-    "list-context.image-list#banner-principal-desktop": {
-        "children": [
-            "slider-layout#banner-principal"
-        ],
-        "props": {
-            "height": 600,
-            "images": [
-                {
-                    "image": "/arquivos/Banner_Principal_Desktop_01.jpg",
-                    "link": {
-                        "url": "/",
-                        "attributeTitle": ""
-                    },
-                    "title": ""
-                },
-                {
-                    "image": "/arquivos/Banner_Principal_Desktop_02.jpg",
-                    "link": {
-                        "url": "/",
-                        "attributeTitle": ""
-                    },
-                    "title": ""
-                }
-            ]
-        }
-    },
-
-    "slider-layout#banner-principal": {
+    "slider-layout#banner-principal-desktop": {
         "props": {
             "blockClass": "contentBanner",
             "itemsPerPage": {
@@ -107,12 +26,252 @@
                 "phone": 1
             },
             "infinite": true,
-            // "autoplay": {
-            //     "timeout": 5000,
-            //     "stopOnHover": false
-            // },
             "showNavigationArrows": "always",
             "showPaginationDots": "always"
+        },
+        "children":[
+            "flex-layout.row#banner-desktop-1"
+            // "flex-layout.row#banner-desktop-2"      
+        ]
+    },
+
+    "slider-layout#banner-principal-mobile": {
+        "props": {
+            "blockClass": "contentBanner",
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "showNavigationArrows": "always",
+            "showPaginationDots": "always"
+        },
+        "children":[
+            "flex-layout.row#banner-mobile-1"
+            // "flex-layout.row#banner-mobile-2"      
+        ]
+    },
+
+    "slider-layout#banner-principal-tablet": {
+        "props": {
+            "blockClass": "contentBanner",
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "showNavigationArrows": "always",
+            "showPaginationDots": "always"
+        },
+        "children":[
+            "flex-layout.row#banner-tablet-1"
+            // "flex-layout.row#banner-tablet-2"      
+        ]
+    },
+
+    //Banner 1 desktop
+    "flex-layout.row#banner-desktop-1":{
+        "children":[
+            "flex-layout.col#banner-desktop-1"
+        ]
+    },
+
+    "flex-layout.col#banner-desktop-1":{
+        "children":[
+            "image#banner-desktop-1-img-1",
+            "image#banner-desktop-1-img-2"
+        ]
+    },
+
+    "image#banner-desktop-1-img-1":{
+        "props":{
+            "src": "/arquivos/Pilatos-FranjaWhatsApp-DesktopNegro.jpg",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            }
+        }
+    },
+
+    "image#banner-desktop-1-img-2":{
+        "props":{
+            "src": "/arquivos/Banner_Principal_Desktop_01.jpg",
+            "link": {
+                "url": "/sobre-pilatos",
+                "attributeTitle": ""
+            }
+        }
+    },
+
+    //Banner 2 desktop
+    "flex-layout.row#banner-desktop-2":{
+        "children":[
+            "flex-layout.col#banner-desktop-2"
+        ]
+    },
+
+    "flex-layout.col#banner-desktop-2":{
+        "children":[
+            "image#banner-desktop-2-img-1",
+            "image#banner-desktop-2-img-2"
+        ]
+    },
+
+    "image#banner-desktop-2-img-1":{
+        "props":{
+            "src": "/arquivos/Pilatos-FranjaWhatsApp-DesktopAmarillo.jpg",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            }
+        }
+    },
+
+    "image#banner-desktop-2-img-2":{
+        "props":{
+            "src": "/arquivos/Banner_Principal_Desktop_02.jpg",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            }
+        }
+    },
+
+    //Banner 1 mobile
+    "flex-layout.row#banner-mobile-1":{
+        "children":[
+            "flex-layout.col#banner-mobile-1"
+        ]
+    },
+
+    "flex-layout.col#banner-mobile-1":{
+        "children":[
+            "image#banner-mobile-1-img-1",
+            "image#banner-mobile-1-img-2"
+        ]
+    },
+
+    "image#banner-mobile-1-img-1":{
+        "props":{
+            "src": "/arquivos/Pilatos-FranjaWhatsApp-MobileNegro.jpg",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            }
+        }
+    },
+
+    "image#banner-mobile-1-img-2":{
+        "props":{
+            "src": "/arquivos/Banner_Principal_Mobile_01.jpg",
+            "link": {
+                "url": "/sobre-pilatos",
+                "attributeTitle": ""
+            }
+        }
+    },
+
+    //Banner 2 mobile
+    "flex-layout.row#banner-mobile-2":{
+        "children":[
+            "flex-layout.col#banner-mobile-2"
+        ]
+    },
+
+    "flex-layout.col#banner-mobile-2":{
+        "children":[
+            "image#banner-mobile-2-img-1",
+            "image#banner-mobile-2-img-2"
+        ]
+    },
+
+    "image#banner-mobile-2-img-1":{
+        "props":{
+            "src": "/arquivos/Pilatos-FranjaWhatsApp-MobileAmarillo.jpg",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            }
+        }
+    },
+
+    "image#banner-mobile-2-img-2":{
+        "props":{
+            "src": "/arquivos/Banner_Principal_Mobile_02.jpg",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            }
+        }
+    },
+
+    //Banner 1 tablet
+    "flex-layout.row#banner-tablet-1":{
+        "children":[
+            "flex-layout.col#banner-tablet-1"
+        ]
+    },
+
+    "flex-layout.col#banner-tablet-1":{
+        "children":[
+            "image#banner-tablet-1-img-1",
+            "image#banner-tablet-1-img-2"
+        ]
+    },
+
+    "image#banner-tablet-1-img-1":{
+        "props":{
+            "src": "/arquivos/Pilatos-FranjaWhatsApp-MobileNegro.jpg",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            }
+        }
+    },
+
+    "image#banner-tablet-1-img-2":{
+        "props":{
+            "src": "/arquivos/Banner_Principal_Tablet_01.jpg",
+            "link": {
+                "url": "/sobre-pilatos",
+                "attributeTitle": ""
+            }
+        }
+    },
+
+    //Banner 2 tablet
+    "flex-layout.row#banner-tablet-2":{
+        "children":[
+            "flex-layout.col#banner-tablet-2"
+        ]
+    },
+
+    "flex-layout.col#banner-tablet-2":{
+        "children":[
+            "image#banner-tablet-2-img-1",
+            "image#banner-tablet-2-img-2"
+        ]
+    },
+
+    "image#banner-tablet-2-img-1":{
+        "props":{
+            "src": "/arquivos/Pilatos-FranjaWhatsApp-MobileAmarillo.jpg",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            }
+        }
+    },
+
+    "image#banner-tablet-2-img-2":{
+        "props":{
+            "src": "/arquivos/Banner_Principal_Tablet_02.jpg",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            }
         }
     }
 }

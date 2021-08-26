@@ -44,14 +44,14 @@
 
     "rich-text#category-accesorios-mujer-title":{
         "props":{
-            "text": "Accesorios para mujer",
+            "text": "# Accesorios para mujer",
             "blockClass": "departmentTitle"
         }
     },
 
     "rich-text#category-accesorios-mujer-description":{
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "text": "**Complementos y accesorios para mujer** que elevan tu look y le dan un toque extra de actitud. Encuentra aquí los mejores accesorios de marcas como Kipling, Replay, Diesel, Roxy, Ray Ban, Superdry y más para complementar tus outfits. Desde bolsos, llaveros y billeteras hasta riñoneras, morrales, gorras, gafas y otros esenciales.",
             "blockClass": "departmentDescription"
         }
     },
@@ -63,9 +63,9 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
-                "maxItemsPerPage": 12,
+                "maxItemsPerPage": 48,
                 "queryField": "mujer/accesorios",
                 "skusFilter": "ALL",
                 "mapField": "category-1"
@@ -110,7 +110,7 @@
         "props": {
             "src": "/arquivos/BANNER_categoria_mujer_ropadebano_desktop.jpg",
             "link": {
-                "url": "/",
+                "url": "/mujer/ropa-de-playa",
                 "attributeTitle": ""
             },
             "blockClass": "departmentBannerImg-3"

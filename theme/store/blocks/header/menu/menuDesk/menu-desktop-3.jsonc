@@ -23,7 +23,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        // "href": "/niños",
+        "href": "/niños",
         "noFollow": false,
         "tagTitle": "NIÑOS",
         "text": "NIÑOS"

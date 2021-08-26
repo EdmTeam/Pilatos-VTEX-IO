@@ -22,10 +22,10 @@
         "children":[
             "rich-text#category-superslim-hombre-bread-crumb",
             "rich-text#category-superslim-hombre-title",
-            "rich-text#category-superslim-hombre-description",
-            "responsive-layout.desktop#category-superslim-hombre-banners",
-            "responsive-layout.phone#category-superslim-hombre-banners",
-            "responsive-layout.tablet#category-superslim-hombre-banners"
+            "rich-text#category-superslim-hombre-description"
+            // "responsive-layout.desktop#category-superslim-hombre-banners",
+            // "responsive-layout.phone#category-superslim-hombre-banners",
+            // "responsive-layout.tablet#category-superslim-hombre-banners"
         ]
     },
 
@@ -44,14 +44,14 @@
 
     "rich-text#category-superslim-hombre-title":{
         "props":{
-            "text": "Superslim para hombre",
+            "text": "# Jeans Super Slim para hombre",
             "blockClass": "departmentTitle"
         }
     },
 
     "rich-text#category-superslim-hombre-description":{
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "text": "Encuentra diferentes opciones de jeans Super Slim para hombre, jeans de moda que se ciñen perfectamente a tu cuerpo, ajustándose bien en toda la pierna y estrechándose hacia el tobillo. Gracias a su tejido elástico, moldea tu figura y se estiran bien con cada movimiento, lo que proporciona una comodidad adicional. Además, puedes escoger entre diferentes **marcas de jeans**.",
             "blockClass": "departmentDescription"
         }
     },
@@ -63,9 +63,9 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
-                "maxItemsPerPage": 12,
+                "maxItemsPerPage": 48,
                 "queryField": "hombre/jeans/superslim",
                 "skusFilter": "ALL",
                 "mapField": "category-1"

@@ -22,10 +22,10 @@
         "children":[
             "rich-text#category-pantalones-hombre-bread-crumb",
             "rich-text#category-pantalones-hombre-title",
-            "rich-text#category-pantalones-hombre-description",
-            "responsive-layout.desktop#category-pantalones-hombre-banners",
-            "responsive-layout.phone#category-pantalones-hombre-banners",
-            "responsive-layout.tablet#category-pantalones-hombre-banners"
+            "rich-text#category-pantalones-hombre-description"
+            // "responsive-layout.desktop#category-pantalones-hombre-banners",
+            // "responsive-layout.phone#category-pantalones-hombre-banners",
+            // "responsive-layout.tablet#category-pantalones-hombre-banners"
         ]
     },
 
@@ -44,14 +44,14 @@
 
     "rich-text#category-pantalones-hombre-title":{
         "props":{
-            "text": "Pantalones para hombre",
+            "text": "# Pantalones para hombre",
             "blockClass": "departmentTitle"
         }
     },
 
     "rich-text#category-pantalones-hombre-description":{
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "text": "Encuentra tus estilos favoritos en pantalones para hombre de nuestras marcas: Celio, Superdry, Diesel, Replay, M+F Girbaud y más. Contamos con diferentes diseños y colores que combinan con tu actitud. **Pantalones camuflados, pantalones cargo** con múltiples bolsillos y funcionalidades que harán más fácil tu día a día y más pantalones clásicos, chinos, casuales y formales perfectos para cualquier ocasión. ¡Elige el tuyo ahora! ",
             "blockClass": "departmentDescription"
         }
     },
@@ -63,9 +63,9 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
-                "maxItemsPerPage": 12,
+                "maxItemsPerPage": 48,
                 "queryField": "hombre/ropa/pantalones",
                 "skusFilter": "ALL",
                 "mapField": "category-1"

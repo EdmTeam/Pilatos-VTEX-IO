@@ -63,7 +63,7 @@
                     "image": "/arquivos/Banner_Categorías_Mobile_01.jpg",
                     "description": "Promotional Banner",
                     "link": {
-                        "url": "/",
+                        "url": "/camisetas",
                         "attributeTitle": ""
                     },
                     "title": ""
@@ -72,7 +72,7 @@
                     "image": "/arquivos/Banner_Categorias_Mobile_02.jpg",
                     "description": "Promotional Banner",
                     "link": {
-                        "url": "/",
+                        "url": "/jeans",
                         "attributeTitle": ""
                     },
                     "title": ""
@@ -81,7 +81,7 @@
                     "image": "/arquivos/Banner_Categorias_Mobile_03.jpg",
                     "description": "Promotional Banner",
                     "link": {
-                        "url": "/",
+                        "url": "/zapatos",
                         "attributeTitle": ""
                     },
                     "title": ""
@@ -152,7 +152,7 @@
         "props": {
             "src": "/arquivos/Banner_Categorias_Desktop_01.jpg",
             "link": {
-                "url": "/",
+                "url": "/camisetas",
                 "attributeTitle": ""
             },
             "blockClass": "PromotionalBannerImg"
@@ -172,7 +172,7 @@
         "props": {
             "src": "/arquivos/Banner_Categorias_Desktop_02.jpg",
             "link": {
-                "url": "/",
+                "url": "/jeans",
                 "attributeTitle": ""
             },
             "blockClass": "PromotionalBannerImg"
@@ -192,7 +192,7 @@
         "props": {
             "src": "/arquivos/Banner_Categorias_Desktop_03.jpg",
             "link": {
-                "url": "/",
+                "url": "/zapatos",
                 "attributeTitle": ""
             },
             "blockClass": "PromotionalBannerImg"

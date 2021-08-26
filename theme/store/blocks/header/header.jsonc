@@ -14,9 +14,8 @@
   "header-layout.desktop": {
     "children": [
       "custom-sticky#header-sticky-inactive",
-      // "sticky-layout#header-sticky-inactive",
-      "custom-sticky#header-sticky-active"
-      // "sticky-layout#header-sticky-active"
+      "custom-sticky#header-sticky-active",
+      "link#content-chat-whatsapp"
     ]
   },
 
@@ -25,7 +24,8 @@
   "header-layout.mobile": {
     "children": [
       "responsive-layout.tablet#header-tablet",
-      "responsive-layout.phone#header-phone"
+      "responsive-layout.phone#header-phone",
+      "link#content-chat-whatsapp"
     ]
   },
 

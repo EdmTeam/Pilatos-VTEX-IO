@@ -45,14 +45,14 @@
 
     "rich-text#department-hombre-title":{
         "props":{
-            "text": "Hombre",
+            "text": "# Ropa, zapatos y accesorios para hombre",
             "blockClass": "departmentTitle"
         }
     },
 
     "rich-text#department-hombre-description":{
         "props":{
-            "text": "Ropa para hombre desde camisetas, tenis, jeans y chaquetas hasta billeteras, pantalonetas y medias. Descubre en Pilatos tu ropa favorita de marcas como M+F Girbaud, Superdry, Diesel, New Balance y Replay, sólo en Pilatos",
+            "text": "Encuentra todo en zapatos, accesorios y ropa para hombre desde camisetas, polos, jeans y chaquetas hasta billeteras, morrales, medias y ropa de playa en un solo lugar. Descubre prendas exclusivas de las **mejores marcas internacionales** como Celio, Diesel, Girbaud, Superdry, Adidas, New Balance, Replay, Oakley y muchas más.",
             "blockClass": "departmentDescription"
         }
     },
@@ -64,9 +64,9 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
-                "maxItemsPerPage": 12,
+                "maxItemsPerPage": 48,
                 "queryField": "hombre",
                 "mapField": "category-1"
             }
@@ -87,7 +87,7 @@
         "props": {
             "src": "/arquivos/Banner_Principal_Desktop_Departamento_Hombre.jpg",
             "link": {
-                "url": "/hombre/camisetas",
+                "url": "/hombre/ropa/camisetas",
                 "attributeTitle": ""
             },
             "blockClass": "departmentBannerImg-1"
@@ -98,7 +98,7 @@
         "props": {
             "src": "/arquivos/Banner_Secundario_Desktop_Departamento_Hombre.jpg",
             "link": {
-                "url": "/hombre/ropa-interior",
+                "url": "/hombre/zapatos/tenis",
                 "attributeTitle": ""
             },
             "blockClass": "departmentBannerImg-2"
@@ -129,7 +129,7 @@
         "props": {
             "src": "/arquivos/Banner_Tercer_Desktop_Departamento_Hombre.jpg",
             "link": {
-                "url": "/hombre/zapatos/tenis",
+                "url": "/hombre/ropa/polos",
                 "attributeTitle": ""
             },
             "blockClass": "departmentBannerImg-3"
@@ -149,7 +149,7 @@
         "props": {
             "src": "/arquivos/Banner_Cuarto_Desktop_Departamento_Hombre.jpg",
             "link": {
-                "url": "/hombre/accesorios/tapabocas",
+                "url": "/hombre/ropa/buzos",
                 "attributeTitle": ""
             },
             "blockClass": "departmentBannerImg-4"

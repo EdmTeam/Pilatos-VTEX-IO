@@ -22,10 +22,10 @@
         "children":[
             "rich-text#category-sudaderas-mujer-bread-crumb",
             "rich-text#category-sudaderas-mujer-title",
-            "rich-text#category-sudaderas-mujer-description",
-            "responsive-layout.desktop#category-sudaderas-mujer-banners",
-            "responsive-layout.phone#category-sudaderas-mujer-banners",
-            "responsive-layout.tablet#category-sudaderas-mujer-banners"
+            "rich-text#category-sudaderas-mujer-description"
+            // "responsive-layout.desktop#category-sudaderas-mujer-banners",
+            // "responsive-layout.phone#category-sudaderas-mujer-banners",
+            // "responsive-layout.tablet#category-sudaderas-mujer-banners"
         ]
     },
 
@@ -51,7 +51,7 @@
 
     "rich-text#category-sudaderas-mujer-description":{
         "props":{
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+            "text": "Encuentra tus estilos favoritos en sudaderas para mujer de nuestras marcas: M+F Girbaud, Superdry, Pilatos, Replay. Contamos con diferentes colores, diseños y estilos de **sudaderas clásicas, tipo jogger, sport, camufladas** y más opciones para que siempre estés cómoda. ¡Elige tus sudaderas de moda internacional en un solo sitio!",
             "blockClass": "departmentDescription"
         }
     },
@@ -63,9 +63,9 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByPriceASC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
-                "maxItemsPerPage": 12,
+                "maxItemsPerPage": 48,
                 "queryField": "mujer/ropa/sudaderas",
                 "skusFilter": "ALL",
                 "mapField": "category-1"
