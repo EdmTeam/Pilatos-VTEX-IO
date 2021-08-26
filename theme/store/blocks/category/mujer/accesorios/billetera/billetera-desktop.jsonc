@@ -65,8 +65,8 @@
             "querySchema": {
                 "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
-                "maxItemsPerPage": 12,
-                "queryField": "mujer/accesorios/billetera",
+                "maxItemsPerPage": 48,
+                "queryField": "mujer/accesorios/billeteras",
                 "skusFilter": "ALL",
                 "mapField": "category-1"
             }

@@ -30,8 +30,8 @@
             "showPaginationDots": "always"
         },
         "children":[
-            "flex-layout.row#banner-desktop-1",
-            "flex-layout.row#banner-desktop-2"      
+            "flex-layout.row#banner-desktop-1"
+            // "flex-layout.row#banner-desktop-2"      
         ]
     },
 
@@ -48,8 +48,8 @@
             "showPaginationDots": "always"
         },
         "children":[
-            "flex-layout.row#banner-mobile-1",
-            "flex-layout.row#banner-mobile-2"      
+            "flex-layout.row#banner-mobile-1"
+            // "flex-layout.row#banner-mobile-2"      
         ]
     },
 
@@ -66,8 +66,8 @@
             "showPaginationDots": "always"
         },
         "children":[
-            "flex-layout.row#banner-tablet-1",
-            "flex-layout.row#banner-tablet-2"      
+            "flex-layout.row#banner-tablet-1"
+            // "flex-layout.row#banner-tablet-2"      
         ]
     },
 

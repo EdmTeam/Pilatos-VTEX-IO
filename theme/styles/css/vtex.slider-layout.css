@@ -211,13 +211,13 @@
 @media only screen and (min-width: 1180px){
     .slide--promBannerContent:nth-child(odd){
         width: 26% !important;
-        margin-left: 1% !important;
+        margin-left: .8% !important;
         margin-right: 0 !important;
     }
 
     .slide--promBannerContent:nth-child(even){
         width: 16.5% !important;
-        margin-left: 1% !important;
+        margin-left: .8% !important;
         margin-right: 0 !important;
     }
 }

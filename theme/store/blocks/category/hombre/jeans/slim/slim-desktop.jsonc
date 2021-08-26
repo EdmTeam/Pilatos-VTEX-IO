@@ -65,7 +65,7 @@
             "querySchema": {
                 "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
-                "maxItemsPerPage": 12,
+                "maxItemsPerPage": 48,
                 "queryField": "hombre/jeans/slim",
                 "skusFilter": "ALL",
                 "mapField": "category-1"

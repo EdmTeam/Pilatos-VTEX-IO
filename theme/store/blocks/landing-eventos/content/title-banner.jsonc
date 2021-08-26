@@ -7,7 +7,7 @@
   },
   "rich-text#descriptionEvento": {
     "props": {
-      "text": "¿Ya conoces nuestros increíbles descuentos y promociones en SALE Online? Miles de referencias de tus marcas favoritas en tenis, camisas, chaquetas, jeans y accesorios para hombre y mujer las consigues aquí. ¡Pilatos es tu tienda ideal, encuentra tu outfit perfecto en un solo lugar!",
+      "text": "¿Ya conoces nuestros increíbles **descuentos y promociones** en SALE Online? Miles de referencias de tus marcas favoritas en tenis, camisas, chaquetas, jeans y accesorios para hombre y mujer las consigues aquí. ¡Pilatos es tu tienda ideal, encuentra tu outfit perfecto en un solo lugar!",
       "blockClass": "event-message"
     }
   },
@@ -33,27 +33,27 @@
 
   "image#bannerIntroEvento-desktop": {
     "props": {
-      "src": "/arquivos/Sale_Banner_principal_Desktop.jpg",
+      "src": "/arquivos/Sale_Banner_principal_Desktop_new.jpg",
       "link": "/"
     }
   },
   "image#bannerIntroEvento-tablet-landscape": {
     "props": {
       "blockClass": "banner-image-sale-landscape",
-      "src": "/arquivos/Sale_Banner_principal_Desktop.jpg",
+      "src": "/arquivos/Sale_Banner_principal_Desktop_new.jpg",
       "link": "/"
     }
   },
   "image#bannerIntroEvento-tablet-portrait": {
     "props": {
       "blockClass": "banner-image-sale-portrait",
-      "src": "/arquivos/Sale_Banner_principal_Desktop.jpg",
+      "src": "/arquivos/Sale_Banner_principal_Desktop_new.jpg",
       "link": "/"
     }
   },
   "image#bannerIntroEvento-mobile": {
     "props": {
-      "src": "/arquivos/Sale_Banner_principal_Mobile.jpg",
+      "src": "/arquivos/Sale_Banner_principal_Mobile_new.jpg",
       "link": "/"
     }
   }

@@ -18,6 +18,7 @@
     margin-bottom: 48px;
     justify-content: center;
     flex-wrap: nowrap;
+    display: none;
 }
 .listContainer--menuTabVitrine::-webkit-scrollbar,
 .listContainer--menuTabVitrine::-webkit-scrollbar-track,

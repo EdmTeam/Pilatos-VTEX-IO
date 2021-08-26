@@ -44,14 +44,14 @@
 
     "rich-text#department-nuevo-title":{
         "props":{
-            "text": "Nuevo",
+            "text": "# Nuevo",
             "blockClass": "departmentTitle"
         }
     },
 
     "rich-text#department-nuevo-description":{
         "props":{
-            "text": "¡Encuentra en Pilatos tus marcas favoritas! Adidas, Reebok, New balance, Diesel, Le coq sportif, Oakley, Ray Ban y ¡muchas más!. Miles de referencias y diseños, con la mejor calidad y al mejor precio.",
+            "text": "Descubre todos los productos nuevos que tenemos para ti, últimas colecciones y lanzamientos de las mejores marcas de ropa y accesorios. Superdry, New balance, Diesel, Le Coq Sportif, Oakley, Ray Ban y más. ¡Miles de referencias y diseños de **nuevas marcas con más productos** al alcance de un clic!",
             "blockClass": "departmentDescription"
         }
     },
@@ -65,7 +65,7 @@
             "querySchema": {
                 "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
-                "maxItemsPerPage": 12,
+                "maxItemsPerPage": 48,
                 "queryField": "1144",
                 "mapField": "productClusterIds"
             }

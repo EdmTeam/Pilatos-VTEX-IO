@@ -65,7 +65,7 @@
             "querySchema": {
                 "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
-                "maxItemsPerPage": 12,
+                "maxItemsPerPage": 48,
                 "queryField": "hombre/ropa-de-playa/pantalonetas",
                 "skusFilter": "ALL",
                 "mapField": "category-1"

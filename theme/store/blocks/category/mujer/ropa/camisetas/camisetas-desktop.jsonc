@@ -65,7 +65,7 @@
             "querySchema": {
                 "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
-                "maxItemsPerPage": 12,
+                "maxItemsPerPage": 48,
                 "queryField": "mujer/ropa/camisetas",
                 "skusFilter": "ALL",
                 "mapField": "category-1"
@@ -88,7 +88,7 @@
         "props": {
             "src": "/arquivos/BANNER_categoria_mujer_ropadebano_desktop.jpg",
             "link": {
-                "url": "/",
+                "url": "/mujer/ropa-de-playa",
                 "attributeTitle": ""
             },
             "blockClass": "departmentBannerImg-1"
@@ -99,7 +99,7 @@
         "props": {
             "src": "/arquivos/BANNER_categoria_mujer_ropadeportiva_desktop.jpg",
             "link": {
-                "url": "/",
+                "url": "/mujer/ropa/sudaderas",
                 "attributeTitle": ""
             },
             "blockClass": "departmentBannerImg-2"
@@ -110,7 +110,7 @@
         "props": {
             "src": "/arquivos/BANNER_categoria_mujer_vestidosyfaldas_desktop.jpg",
             "link": {
-                "url": "/",
+                "url": "/mujer/ropa/vestidos",
                 "attributeTitle": ""
             },
             "blockClass": "departmentBannerImg-3"

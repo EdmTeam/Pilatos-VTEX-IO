@@ -30,7 +30,7 @@
         "props": {
             "src": "/arquivos/Banner_CuartoNivel_Mobile_06.jpg",
             "link": {
-                "url": "/quiksilver",
+                "url": "/agua-bendita",
                 "attributeTitle": ""
             },
             "width": "94%"
@@ -55,7 +55,7 @@
                     "image": "/arquivos/Banner_CuartoNivel_Mobile_03.jpg",
                     "description": "Promotional Banner",
                     "link": {
-                        "url": "/",
+                        "url": "/mundo-unico",
                         "attributeTitle": ""
                     }
                 },
@@ -68,10 +68,10 @@
                     }
                 },
                 {
-                    "image": "/arquivos/Banner_CuartoNivel_Mobile_05.jpg",
+                    "image": "/arquivos/Banner_CuartoNivel_Mobile_07.jpg",
                     "description": "Promotional Banner",
                     "link": {
-                        "url": "/",
+                        "url": "/quiksilver",
                         "attributeTitle": ""
                     }
                 }
@@ -138,7 +138,7 @@
         "props": {
             "src": "/arquivos/Banner_CuartoNivel_Desktop_06.jpg",
             "link": {
-                "url": "/quiksilver",
+                "url": "/agua-bendita",
                 "attributeTitle": ""
             },
             "blockClass": "PromotionalBannerImg"
@@ -183,7 +183,7 @@
         "props": {
             "src": "/arquivos/Banner_CuartoNivel_Desktop_03.jpg",
             "link": {
-                "url": "/",
+                "url": "/mundo-unico",
                 "attributeTitle": ""
             },
             "blockClass": "PromotionalBannerImg3"
@@ -227,9 +227,9 @@
 
     "image#desk-promotional-banners-col-3-img-2": {
         "props": {
-            "src": "/arquivos/Banner_CuartoNivel_Desktop_05.jpg",
+            "src": "/arquivos/Banner_CuartoNivel_Desktop_07.jpg",
             "link": {
-                "url": "/",
+                "url": "/quiksilver",
                 "attributeTitle": ""
             },
             "blockClass": "PromotionalBannerImg"

@@ -80,7 +80,7 @@
       },
     "rich-text#successSubmit-newsletter": {
         "props": {
-          "text": "Registro Completo",
+          "text": "¡¡Disfruta de un 15% en tu primera compra ingresando el código  ILOVEPILATOS15  en tu carrito de compras!!",
           "textAlignment": "CENTER",
           "textPosition": "CENTER"
         }

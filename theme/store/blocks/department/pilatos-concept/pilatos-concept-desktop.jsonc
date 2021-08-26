@@ -44,14 +44,14 @@
 
     "rich-text#department-pilatos-title":{
         "props":{
-            "text": "Pilatos",
+            "text": "# Pilatos",
             "blockClass": "departmentTitle"
         }
     },
 
     "rich-text#department-pilatos-description":{
         "props":{
-            "text": "Encuentra las nuevas colecciones de tus marcas favoritas de ropa para mujer y hombre, en un solo lugar. Diseños exclusivos en tenis, camisas, chaquetas, jeans y accesorios, perfectos para innovar y renovar tu clóset. ¡No te quedes atrás!",
+            "text": "Contamos con nuestra **propia línea de ropa Pilatos** que trae nuevas cápsulas mes a mes, como Olímpicos, inspirada en los elementos típicos de los Juegos Olímpicos y Tokio como ciudad anfitriona. Encuentra diseños exclusivos de ropa para mujer y hombre en un solo lugar, camisetas, buzos y chaquetas, jeans y accesorios, perfectos para innovar y renovar tu clóset.",
             "blockClass": "departmentDescription"
         }
     },
@@ -65,7 +65,7 @@
             "querySchema": {
                 "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
-                "maxItemsPerPage": 12,
+                "maxItemsPerPage": 48,
                 "queryField": "pilatos",
                 "mapField": "b"
             }
