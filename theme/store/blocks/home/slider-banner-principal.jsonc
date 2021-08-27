@@ -30,8 +30,8 @@
             "showPaginationDots": "always"
         },
         "children":[
+            "flex-layout.row#banner-desktop-2",
             "flex-layout.row#banner-desktop-1"
-            // "flex-layout.row#banner-desktop-2"      
         ]
     },
 
@@ -48,8 +48,8 @@
             "showPaginationDots": "always"
         },
         "children":[
+            "flex-layout.row#banner-mobile-2",
             "flex-layout.row#banner-mobile-1"
-            // "flex-layout.row#banner-mobile-2"      
         ]
     },
 
@@ -66,8 +66,8 @@
             "showPaginationDots": "always"
         },
         "children":[
-            "flex-layout.row#banner-tablet-1"
-            // "flex-layout.row#banner-tablet-2"      
+            "flex-layout.row#banner-tablet-2",
+            "flex-layout.row#banner-tablet-1"   
         ]
     },
 
@@ -131,9 +131,9 @@
 
     "image#banner-desktop-2-img-2":{
         "props":{
-            "src": "/arquivos/Banner_Principal_Desktop_02.jpg",
+            "src": "/arquivos/Night Deals_Banner Home Dskt.jpg",
             "link": {
-                "url": "/",
+                "url": "/toda-la-tienda",
                 "attributeTitle": ""
             }
         }
@@ -199,9 +199,9 @@
 
     "image#banner-mobile-2-img-2":{
         "props":{
-            "src": "/arquivos/Banner_Principal_Mobile_02.jpg",
+            "src": "/arquivos/Night Deals_Banner Home Mob.jpg",
             "link": {
-                "url": "/",
+                "url": "/toda-la-tienda",
                 "attributeTitle": ""
             }
         }
@@ -267,9 +267,9 @@
 
     "image#banner-tablet-2-img-2":{
         "props":{
-            "src": "/arquivos/Banner_Principal_Tablet_02.jpg",
+            "src": "/arquivos/Night Deals_Banner Home Dskt.jpg",
             "link": {
-                "url": "/",
+                "url": "/toda-la-tienda",
                 "attributeTitle": ""
             }
         }
