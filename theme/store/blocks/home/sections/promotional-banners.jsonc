@@ -68,7 +68,7 @@
                     }
                 },
                 {
-                    "image": "/arquivos/Banner_CuartoNivel_Mobile_07.jpg",
+                    "image": "/arquivos/Banner_CuartoNivel_Mobile_08.jpg",
                     "description": "Promotional Banner",
                     "link": {
                         "url": "/quiksilver",
@@ -227,7 +227,7 @@
 
     "image#desk-promotional-banners-col-3-img-2": {
         "props": {
-            "src": "/arquivos/Banner_CuartoNivel_Desktop_07.jpg",
+            "src": "/arquivos/Banner_CuartoNivel_Desktop_08.jpg",
             "link": {
                 "url": "/quiksilver",
                 "attributeTitle": ""

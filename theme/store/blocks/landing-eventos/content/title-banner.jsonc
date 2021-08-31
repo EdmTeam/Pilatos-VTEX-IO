@@ -1,7 +1,7 @@
 {
   "rich-text#titleEvento": {
     "props": {
-      "text": "# **Black Friday** Pilatos",
+      "text": "# **Sale** Pilatos",
       "blockClass": "event-title"
     }
   },
