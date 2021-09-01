@@ -1,19 +1,49 @@
 {
+
+    "flex-layout.row#congtent-slider":{
+        "children":[
+            "flex-layout.col#congtent-slider"        
+        ]
+    },
+
+    "flex-layout.col#congtent-slider":{
+        "children":[
+            "responsive-layout.phone#banner-principal",
+            "responsive-layout.tablet#banner-principal",
+            "responsive-layout.desktop#banner-principal",
+            "list-context.image-list#banner-principal"        
+        ]
+    },
+
+    "list-context.image-list#banner-principal": {
+        "children": ["slider-layout#banner-principal-desktop"],
+        "props": {
+            "height": 600,
+            "images": [
+                {
+                    "image": "/arquivos/Banner_Principal_Desktop_01.jpg",
+                    "mobileImage": "/arquivos/Banner_Principal_Mobile_01.jpg",
+                    "description": "Banner principal"
+                }
+            ]
+        }
+    },
+
     "responsive-layout.phone#banner-principal": {
         "children":[
-            "slider-layout#banner-principal-mobile"
+            "image#banner-mobile-1-img-1"
         ]
     },
 
     "responsive-layout.tablet#banner-principal": {
         "children":[
-            "slider-layout#banner-principal-tablet"
+            "image#banner-tablet-1-img-1"
         ]
     },
 
     "responsive-layout.desktop#banner-principal": {
         "children":[
-            "slider-layout#banner-principal-desktop"
+            "image#banner-desktop-1-img-1"
         ]
     },
 
@@ -28,63 +58,10 @@
             "infinite": true,
             "showNavigationArrows": "always",
             "showPaginationDots": "always"
-        },
-        "children":[
-            //"flex-layout.row#banner-desktop-2",
-            "flex-layout.row#banner-desktop-1"
-        ]
-    },
-
-    "slider-layout#banner-principal-mobile": {
-        "props": {
-            "blockClass": "contentBanner",
-            "itemsPerPage": {
-                "desktop": 1,
-                "tablet": 1,
-                "phone": 1
-            },
-            "infinite": true,
-            "showNavigationArrows": "always",
-            "showPaginationDots": "always"
-        },
-        "children":[
-            //"flex-layout.row#banner-mobile-2",
-            "flex-layout.row#banner-mobile-1"
-        ]
-    },
-
-    "slider-layout#banner-principal-tablet": {
-        "props": {
-            "blockClass": "contentBanner",
-            "itemsPerPage": {
-                "desktop": 1,
-                "tablet": 1,
-                "phone": 1
-            },
-            "infinite": true,
-            "showNavigationArrows": "always",
-            "showPaginationDots": "always"
-        },
-        "children":[
-            //"flex-layout.row#banner-tablet-2",
-            "flex-layout.row#banner-tablet-1"   
-        ]
+        }
     },
 
     //Banner 1 desktop
-    "flex-layout.row#banner-desktop-1":{
-        "children":[
-            "flex-layout.col#banner-desktop-1"
-        ]
-    },
-
-    "flex-layout.col#banner-desktop-1":{
-        "children":[
-            "image#banner-desktop-1-img-1",
-            "image#banner-desktop-1-img-2"
-        ]
-    },
-
     "image#banner-desktop-1-img-1":{
         "props":{
             "src": "/arquivos/Pilatos-FranjaWhatsApp-DesktopNegro.jpg",
@@ -105,54 +82,7 @@
         }
     },
 
-    //Banner 2 desktop
-    "flex-layout.row#banner-desktop-2":{
-        "children":[
-            "flex-layout.col#banner-desktop-2"
-        ]
-    },
-
-    "flex-layout.col#banner-desktop-2":{
-        "children":[
-            "image#banner-desktop-2-img-1",
-            "image#banner-desktop-2-img-2"
-        ]
-    },
-
-    "image#banner-desktop-2-img-1":{
-        "props":{
-            "src": "/arquivos/Pilatos-FranjaWhatsApp-DesktopAmarillo.jpg",
-            "link": {
-                "url": "/",
-                "attributeTitle": ""
-            }
-        }
-    },
-
-    "image#banner-desktop-2-img-2":{
-        "props":{
-            "src": "/arquivos/Night Deals_Banner Home Dskt.jpg",
-            "link": {
-                "url": "/toda-la-tienda",
-                "attributeTitle": ""
-            }
-        }
-    },
-
     //Banner 1 mobile
-    "flex-layout.row#banner-mobile-1":{
-        "children":[
-            "flex-layout.col#banner-mobile-1"
-        ]
-    },
-
-    "flex-layout.col#banner-mobile-1":{
-        "children":[
-            "image#banner-mobile-1-img-1",
-            "image#banner-mobile-1-img-2"
-        ]
-    },
-
     "image#banner-mobile-1-img-1":{
         "props":{
             "src": "/arquivos/Pilatos-FranjaWhatsApp-MobileNegro.jpg",
@@ -173,54 +103,7 @@
         }
     },
 
-    //Banner 2 mobile
-    "flex-layout.row#banner-mobile-2":{
-        "children":[
-            "flex-layout.col#banner-mobile-2"
-        ]
-    },
-
-    "flex-layout.col#banner-mobile-2":{
-        "children":[
-            "image#banner-mobile-2-img-1",
-            "image#banner-mobile-2-img-2"
-        ]
-    },
-
-    "image#banner-mobile-2-img-1":{
-        "props":{
-            "src": "/arquivos/Pilatos-FranjaWhatsApp-MobileAmarillo.jpg",
-            "link": {
-                "url": "/",
-                "attributeTitle": ""
-            }
-        }
-    },
-
-    "image#banner-mobile-2-img-2":{
-        "props":{
-            "src": "/arquivos/Night Deals_Banner Home Mob.jpg",
-            "link": {
-                "url": "/toda-la-tienda",
-                "attributeTitle": ""
-            }
-        }
-    },
-
     //Banner 1 tablet
-    "flex-layout.row#banner-tablet-1":{
-        "children":[
-            "flex-layout.col#banner-tablet-1"
-        ]
-    },
-
-    "flex-layout.col#banner-tablet-1":{
-        "children":[
-            "image#banner-tablet-1-img-1",
-            "image#banner-tablet-1-img-2"
-        ]
-    },
-
     "image#banner-tablet-1-img-1":{
         "props":{
             "src": "/arquivos/Pilatos-FranjaWhatsApp-MobileNegro.jpg",
@@ -236,40 +119,6 @@
             "src": "/arquivos/Banner_Principal_Tablet_01.jpg",
             "link": {
                 "url": "/sobre-pilatos",
-                "attributeTitle": ""
-            }
-        }
-    },
-
-    //Banner 2 tablet
-    "flex-layout.row#banner-tablet-2":{
-        "children":[
-            "flex-layout.col#banner-tablet-2"
-        ]
-    },
-
-    "flex-layout.col#banner-tablet-2":{
-        "children":[
-            "image#banner-tablet-2-img-1",
-            "image#banner-tablet-2-img-2"
-        ]
-    },
-
-    "image#banner-tablet-2-img-1":{
-        "props":{
-            "src": "/arquivos/Pilatos-FranjaWhatsApp-MobileAmarillo.jpg",
-            "link": {
-                "url": "/",
-                "attributeTitle": ""
-            }
-        }
-    },
-
-    "image#banner-tablet-2-img-2":{
-        "props":{
-            "src": "/arquivos/Night Deals_Banner Home Dskt.jpg",
-            "link": {
-                "url": "/toda-la-tienda",
                 "attributeTitle": ""
             }
         }
