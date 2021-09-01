@@ -3,3 +3,9 @@
     height: auto;
     margin: 0 auto;
 }
+.container--orderFromChaosVideo {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+}

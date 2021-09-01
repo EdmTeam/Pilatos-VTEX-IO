@@ -31,7 +31,7 @@
 }
 
 .flexRow--copyright{
-    background-color:#000000;
+  background-color:#000000;
 }
 
 @media only screen and (min-width: 1180px){
@@ -2473,4 +2473,30 @@
 
 .flexColChild--contentBlockSubmenu2{
   width: 50%;
+}
+
+/*
+* LANDING ORDER FROM CHAOS
+*/
+
+.flexRow--rowLandingOrderFromChaosProducts {
+  padding: 0 5%;
+}
+
+.flexRowContent--rowLandingOrderFromChaosProducts .stretchChildrenWidth:last-child {
+  padding-right: 1rem;
+}
+
+@media screen and (max-width: 638px) {
+  .flexRowContent--rowLandingOrderFromChaosProductsMobile {
+    flex-wrap: nowrap;
+    display: flex;
+  }
+  .flexRowContent--rowLandingOrderFromChaosProductsMobile .stretchChildrenWidth:first-child {
+    flex: 0 50%;
+    padding-right: 1rem;
+  }
+  .flexRowContent--rowLandingOrderFromChaosProductsMobile .stretchChildrenWidth:last-child {
+    flex: 0 50%;
+  }
 }
