@@ -1,0 +1,262 @@
+{
+    "store.custom#order-from-chaos": {
+        "blocks": [
+            "flex-layout.row#order-from-chaos"
+        ]
+    },
+    "flex-layout.row#order-from-chaos": {
+        "children":[
+            "flex-layout.col#order-from-chaos"
+        ]
+    },
+    "flex-layout.col#order-from-chaos": {
+        "children":[
+            "responsive-layout.desktop#order-from-chaos",
+            "responsive-layout.mobile#order-from-chaos"
+        ]
+    },
+    "responsive-layout.desktop#order-from-chaos": {
+        "children":[
+            "image#order-from-chaos-banner-desktop",
+            "flex-layout.row#order-from-chaos-logo",
+            "flex-layout.row#order-from-chaos-products-row1-desktop",
+            "flex-layout.row#order-from-chaos-products-row2-desktop",
+            "flex-layout.row#order-from-chaos-products-row3-desktop",
+            "flex-layout.row#order-from-chaos-logo",
+            "flex-layout.row#order-from-chaos-text-video",
+            "flex-layout.row#order-from-chaos-video"
+        ]
+    },
+    "responsive-layout.mobile#order-from-chaos": {
+        "children":[
+            "image#order-from-chaos-banner-mobile",
+            "flex-layout.row#order-from-chaos-logo",
+            "flex-layout.row#order-from-chaos-products-row1-mobile",
+            "flex-layout.row#order-from-chaos-products-row2-mobile",
+            "flex-layout.row#order-from-chaos-products-row3-mobile",
+            "flex-layout.row#order-from-chaos-products-row4-mobile",
+            "flex-layout.row#order-from-chaos-logo",
+            "flex-layout.row#order-from-chaos-text-video",
+            "flex-layout.row#order-from-chaos-video"
+        ]
+    },
+    "image#order-from-chaos-banner-desktop": {
+        "props": {
+            "src": "/arquivos/Pilatos-MateoCarvajal-BannerDesktop-Landing.jpg"
+        }
+    },
+    "image#order-from-chaos-banner-mobile": {
+        "props": {
+            "src": "/arquivos/Pilatos-MateoCarvajal-BannerMobile-Landing.jpg"
+        }
+    },
+    "flex-layout.row#order-from-chaos-logo": {
+        "props": {
+            "horizontalAlign": "center",
+            "marginTop": 6,
+            "marginBottom": 6
+        },
+        "children":[
+            "image#order-from-chaos-logo"
+        ]
+    },
+    "image#order-from-chaos-logo": {
+        "props": {
+            "src": "/arquivos/Pilatos-MateoCarvajal-Logo.png",
+            "maxWidth": "300px"
+        }
+    },
+    "flex-layout.row#order-from-chaos-products-row1-desktop":{
+        "props": {
+            "horizontalAlign": "center",
+            "colGap": 5,
+            "blockClass": "rowLandingOrderFromChaosProducts"
+        },
+        "children":[
+            "image#order-order-from-chaos-products-1",
+            "image#order-order-from-chaos-products-2",
+            "image#order-order-from-chaos-products-3"
+        ]
+    },
+    "flex-layout.row#order-from-chaos-products-row2-desktop":{
+        "props": {
+            "horizontalAlign": "center",
+            "colGap": 5,
+            "marginTop": 5,
+            "blockClass": "rowLandingOrderFromChaosProducts"
+        },
+        "children":[
+            "image#order-order-from-chaos-products-4",
+            "image#order-order-from-chaos-products-5",
+            "image#order-order-from-chaos-products-6"
+        ]
+    },
+    "flex-layout.row#order-from-chaos-products-row3-desktop":{
+        "props": {
+            "horizontalAlign": "center",
+            "colGap": 5,
+            "marginTop": 5,
+            "blockClass": "rowLandingOrderFromChaosProducts"
+        },
+        "children":[
+            "image#order-order-from-chaos-products-7",
+            "image#order-order-from-chaos-products-8"
+        ]
+    },
+    "flex-layout.row#order-from-chaos-products-row1-mobile":{
+        "props": {
+            "horizontalAlign": "center",
+            "colGap": 5,
+            "marginTop": 5,
+            "blockClass": [
+                "rowLandingOrderFromChaosProducts",
+                "rowLandingOrderFromChaosProductsMobile"
+            ]
+        },
+        "children":[
+            "image#order-order-from-chaos-products-1",
+            "image#order-order-from-chaos-products-2"
+        ]
+    },
+    "flex-layout.row#order-from-chaos-products-row2-mobile":{
+        "props": {
+            "horizontalAlign": "center",
+            "colGap": 5,
+            "marginTop": 5,
+            "blockClass": [
+                "rowLandingOrderFromChaosProducts",
+                "rowLandingOrderFromChaosProductsMobile"
+            ]
+        },
+        "children":[
+            "image#order-order-from-chaos-products-3",
+            "image#order-order-from-chaos-products-4"
+        ]
+    },
+    "flex-layout.row#order-from-chaos-products-row3-mobile":{
+        "props": {
+            "horizontalAlign": "center",
+            "colGap": 5,
+            "marginTop": 5,
+            "blockClass":[
+                "rowLandingOrderFromChaosProducts",
+                "rowLandingOrderFromChaosProductsMobile"
+            ]
+        },
+        "children":[
+            "image#order-order-from-chaos-products-5",
+            "image#order-order-from-chaos-products-6"
+        ]
+    },
+    "flex-layout.row#order-from-chaos-products-row4-mobile":{
+        "props": {
+            "horizontalAlign": "center",
+            "colGap": 5,
+            "marginTop": 5,
+            "blockClass":[
+                "rowLandingOrderFromChaosProducts",
+                "rowLandingOrderFromChaosProductsMobile"
+            ]
+        },
+        "children":[
+            "image#order-order-from-chaos-products-7",
+            "image#order-order-from-chaos-products-8"
+        ]
+    },
+    "image#order-order-from-chaos-products-1": {
+        "props": {
+            "src": "/arquivos/1_IMG_4175.jpg?v=1",
+            "link": {
+                "url": "/"
+            }
+        }
+    },
+    "image#order-order-from-chaos-products-2": {
+        "props": {
+            "src": "/arquivos/2_IMG_4382.jpg?v=1",
+            "link": {
+                "url": "/"
+            }
+        }
+    },
+    "image#order-order-from-chaos-products-3": {
+        "props": {
+            "src": "/arquivos/3_IMG_4517.jpg?v=1",
+            "link": {
+                "url": "/camiseta-Para-Mujer-Pilatos-PF1100544N000"
+            }
+        }
+    },
+    "image#order-order-from-chaos-products-4": {
+        "props": {
+            "src": "/arquivos/4_IMG_4306.jpg?v=1",
+            "link": {
+                "url": "/body-Para-Mujer-Pilatos-PF1100543N000"
+            }
+        }
+    },
+    "image#order-order-from-chaos-products-5": {
+        "props": {
+            "src": "/arquivos/5_IMG_4782.jpg?v=1",
+            "link": {
+                "url": "/"
+            }
+        }
+    },
+    "image#order-order-from-chaos-products-6": {
+        "props": {
+            "src": "/arquivos/6_IMG_4818.jpg?v=1",
+            "link": {
+                "url": "/"
+            }
+        }
+    },
+    "image#order-order-from-chaos-products-7": {
+        "props": {
+            "src": "/arquivos/7_IMG_4670.jpg?v=1",
+            "link": {
+                "url": "/bermuda-Cargo-Para-Hombre-Pilatos-PM2400503N000"
+            }
+        }
+    },
+    "image#order-order-from-chaos-products-8": {
+        "props": {
+            "src": "/arquivos/8_IMG_4683.jpg?v=1",
+            "link": {
+                "url": "/buzo-Cerrado-Para-Mujer-Pilatos-PF3100211N000"
+            }
+        }
+    },
+    "flex-layout.row#order-from-chaos-text-video": {
+        "props": {
+            "horizontalAlign": "center",
+            "blockClass": "rowLandingOrderFromChaosProducts"
+        },
+        "children": [
+            "rich-text#order-from-chaos-video"
+        ]
+    },
+    "rich-text#order-from-chaos-video":{
+        "props":{
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Nos unimos con Mateo Carvajal para hacer una colaboración que rompe con los paradigmas de la moda. Durante seis meses trabajamos en conjunto, para salir de nuestra zona de confort y romper los esquemas en esta nueva colaboración."
+        }
+    },
+    "flex-layout.row#order-from-chaos-video": {
+        "props": {
+            "horizontalAlign": "center",
+            "blockClass": "rowLandingOrderFromChaosProducts"
+        },
+        "children": [
+            "iframe#order-from-chaos-video"
+        ]
+    },
+    "iframe#order-from-chaos-video": {
+        "props": {
+            "src": "https://www.youtube.com/embed/j6CpQ5kDC9w",
+            "allow": "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
+            "blockClass": "orderFromChaosVideo"
+        }
+    }
+}
