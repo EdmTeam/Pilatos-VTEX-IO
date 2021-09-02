@@ -33,7 +33,7 @@
 
     "rich-text#top-header-mobile": {
         "props": {
-            "text": "OBTÉN ENVÍO GRATUITO POR COMPRAS SUPERIORES A $300.00",
+            "text": "OBTÉN ENVÍO GRATUITO POR COMPRAS SUPERIORES A $250.000",
             "blockClass": "textTopHeader"
         }
     },
