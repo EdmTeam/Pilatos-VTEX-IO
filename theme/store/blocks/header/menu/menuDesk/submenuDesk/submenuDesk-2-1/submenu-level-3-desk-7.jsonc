@@ -14,6 +14,7 @@
             "rich-text#submenu-desk-department-1-category-7-subcategory-4",
             "rich-text#submenu-desk-department-1-category-7-subcategory-5",
             "rich-text#submenu-desk-department-1-category-7-subcategory-6",
+            "rich-text#submenu-desk-department-1-category-7-subcategory-22",
             "rich-text#submenu-desk-department-1-category-7-subcategory-7",
             "rich-text#submenu-desk-department-1-category-7-subcategory-8",
             "rich-text#submenu-desk-department-1-category-7-subcategory-9",
@@ -188,6 +189,13 @@
     "rich-text#submenu-desk-department-1-category-7-subcategory-21":{
         "props":{
             "text": "[New Project](/hombre/new-project?map=category-1,marca)",
+            "blockClass": "textSubcategory"
+        }
+    },
+
+    "rich-text#submenu-desk-department-1-category-7-subcategory-22":{
+        "props":{
+            "text": "[Nike](/hombre/nike?map=category-1,marca)",
             "blockClass": "textSubcategory"
         }
     }
