@@ -2489,6 +2489,10 @@
   padding-right: 1rem;
 }
 
+.flexRowContent--contentResultFilterOrderFromChaos :global(.vtex-search-result-3-x-gallery) {
+  padding-left: 0;
+}
+
 @media screen and (max-width: 638px) {
   .flexRowContent--rowLandingOrderFromChaosProductsMobile {
     flex-wrap: nowrap;
@@ -2502,3 +2506,4 @@
     flex: 0 50%;
   }
 }
+
