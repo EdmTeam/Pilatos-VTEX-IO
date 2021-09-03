@@ -19,6 +19,7 @@
         "children":[
             "image#order-from-chaos-banner-desktop",
             "flex-layout.row#order-from-chaos-logo",
+            "flex-layout.row#order-from-chaos-coleccion-cta",
             "flex-layout.row#order-from-chaos-products-row1-desktop",
             "flex-layout.row#order-from-chaos-products-row2-desktop",
             "flex-layout.row#order-from-chaos-products-row3-desktop",
@@ -31,6 +32,7 @@
         "children":[
             "image#order-from-chaos-banner-mobile",
             "flex-layout.row#order-from-chaos-logo",
+            "flex-layout.row#order-from-chaos-coleccion-cta",
             "flex-layout.row#order-from-chaos-products-row1-mobile",
             "flex-layout.row#order-from-chaos-products-row2-mobile",
             "flex-layout.row#order-from-chaos-products-row3-mobile",
@@ -65,6 +67,33 @@
             "src": "/arquivos/Pilatos-MateoCarvajal-Logo.png",
             "maxWidth": "300px"
         }
+    },
+    "flex-layout.row#order-from-chaos-coleccion-cta":{
+      "props":{
+        "width":"100%",
+        "blockClass":"order-from-chaos-coleccion-cta"
+      },
+      "children":[
+        "rich-text#order-from-chaos-coleccion-cta-description",
+        "rich-text#order-from-chaos-coleccion-cta-cta"
+      ]
+    },
+    "rich-text#order-from-chaos-coleccion-cta-description":{
+      "props":{
+        "text":"## *Conoce más de la colección aquí*",
+        "textAlignment":"CENTER",
+        "textPosition":"CENTER",
+        "width":"100%"
+      }
+    },
+    "rich-text#order-from-chaos-coleccion-cta-cta":{
+      "props":{
+        "text":"Ver Más",
+        "textAlignment":"CENTER",
+        "textPosition":"CENTER",
+        "width":"100%",
+        "blockClass":"order-from-chaos-coleccion-cta-cta"
+      }
     },
     "flex-layout.row#order-from-chaos-products-row1-desktop":{
         "props": {

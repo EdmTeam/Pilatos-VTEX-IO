@@ -325,9 +325,9 @@
   justify-content: center;
 }
 
-.flexColChild--icoLogin, 
-.flexCol--icoWishlist, 
-.flexColChild--icoCart, 
+.flexColChild--icoLogin,
+.flexCol--icoWishlist,
+.flexColChild--icoCart,
 .flexColChild--contentLogo,
 .flexCol--contentLogoActive,
 .flexCol--contentSearchMobile{
@@ -980,7 +980,7 @@
   .flexCol--filterCol::-webkit-scrollbar{
     width: 10px;
   }
-  
+
   .flexCol--filterCol::-webkit-scrollbar-thumb {
     display: block;
     background: #FFD400;
@@ -1613,7 +1613,7 @@
   .flexColChild--product-description :global(.vtex-reviews-and-ratings-1-x-stars){
     font-size: 1.2rem;
   }
-  
+
   .flexColChild--product-description :global(.vtex-reviews-and-ratings-1-x-star){
     margin: 0 .05rem;
   }
@@ -1863,7 +1863,7 @@
     background: transparent;
     padding: 0;
   }
-  
+
   .flexColChild--receiveInformation{
     background: #EFEFEF;
     padding: 1rem 1.5rem 1.3rem 1.5rem;
@@ -1897,7 +1897,7 @@
   .flexRowContent--oneToOneNavigationDesk{
     display: block;
   }
-  
+
   .flexRowContent--oneToOneNavigationDesk{
     width: 538px;
     height: 71px;
@@ -2478,7 +2478,9 @@
 /*
 * LANDING ORDER FROM CHAOS
 */
-
+.flexRowContent--order-from-chaos-coleccion-cta{
+  flex-wrap: wrap;
+}
 .flexRow--rowLandingOrderFromChaosProducts {
   padding: 0 5%;
 }
