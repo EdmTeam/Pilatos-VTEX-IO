@@ -1670,20 +1670,19 @@
   border-bottom: none;
 }
 
-.wrapper--order-from-chaos-coleccion-cta-cta{
+.paragraph--order-from-chaos-coleccion-cta-cta .link--order-from-chaos-coleccion-cta-cta{
   background-color: #FFD400;
+  width: 100%;
+  margin: 0;
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration:none;
+  color: #000;
   padding: 0.2rem 2rem;
   margin: 0.5rem;
 }
 
-.wrapper--order-from-chaos-coleccion-cta-cta:hover{
+.paragraph--order-from-chaos-coleccion-cta-cta .link--order-from-chaos-coleccion-cta-cta:hover{
   background-color: #000;
   color: white;
-}
-
-
-.paragraph--order-from-chaos-coleccion-cta-cta{
-  margin: 0;
-  font-size: 2rem;
-  font-weight: bold;
 }
