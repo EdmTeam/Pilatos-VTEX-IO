@@ -64,7 +64,8 @@
         "image#brand-22",
         "image#brand-23",
         "image#brand-24",
-        "image#brand-25"
+        "image#brand-25",
+        "image#brand-26"
       ]
     },
 
@@ -289,6 +290,14 @@
           "src": "/arquivos/Logo_AB.png",
           "link": {
               "url": "/agua-bendita"
+          }
+      }
+    },
+    "image#brand-26": {
+      "props": {
+          "src": "/arquivos/SWOOSH-negro_transp.png",
+          "link": {
+              "url": "/nike"
           }
       }
     }
