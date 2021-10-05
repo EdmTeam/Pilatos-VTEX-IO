@@ -5970,7 +5970,7 @@ body {
         }
         a:nth-child(2) {
             span {
-                background-image: url('/arquivos/Pilatos-MediosDePago-TarjetaDebito.png') !important;
+                background-image: url('/arquivos/Pilatos-MediosDePago-SisteCredito.png') !important;
                 background-size: 35px;
                 padding-right: 2rem !important;
 
@@ -5981,7 +5981,7 @@ body {
         }
         a:nth-child(3) {
             span {
-                background-image: url('/arquivos/Pilatos-MediosDePago-SisteCredito.png') !important;
+                background-image: url('/arquivos/codensa.png') !important;
                 background-size: 35px;
                 padding-right: 2rem !important;
 
@@ -6003,6 +6003,17 @@ body {
         }
         a:nth-child(5) {
             span {
+                background-image: url('/arquivos/wompi.png') !important;
+                background-size: 35px;
+                padding-right: 2rem !important;
+
+                &:before {
+                    display: block !important;
+                }
+            }
+        }
+        a:nth-child(8) {
+            span {
                 background-image: url('/arquivos/pse.png') !important;
                 background-size: 35px;
                 padding-right: 2rem !important;
@@ -6016,27 +6027,18 @@ body {
 }
 
 .bank-invoice-options{
-    label:first-child{
-        span{
-            span{
-                background-image: url('/arquivos/Baloto-logo.png') !important;
-                background-size: 80%;
-                background-repeat: no-repeat;
-                background-position-y: bottom;
-                background-position-x: center;
-            }
-        }
+    .bank-invoice-baloto{
+        background-image: url('/arquivos/Baloto-logo.png') !important;
+        background-size: 80%;
+        background-repeat: no-repeat;
+        background-position-y: bottom;
+        background-position-x: center;
     }
-
-    label:last-child{
-        span{
-            span{
-                background-image: url('/arquivos/efecty.png') !important;
-                background-size: 80%;
-                background-repeat: no-repeat;
-                background-position-y: bottom;
-                background-position-x: center;
-            }
-        }
+    .bank-invoice-efecty{
+        background-image: url('/arquivos/efecty.png') !important;
+        background-size: 80%;
+        background-repeat: no-repeat;
+        background-position-y: bottom;
+        background-position-x: center;
     }
 }

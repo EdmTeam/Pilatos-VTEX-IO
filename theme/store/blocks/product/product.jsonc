@@ -19,6 +19,8 @@
       "responsive-layout.tablet#product-view-product",
       "responsive-layout.desktop#product-view-product",
 
+      "__fold__",
+
       "responsive-layout.phone#brands-promise",
       "responsive-layout.tablet#brands-promise",
       "responsive-layout.desktop#brands-promise",

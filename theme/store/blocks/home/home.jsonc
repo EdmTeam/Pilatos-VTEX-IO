@@ -8,6 +8,7 @@
       // "responsive-layout.tablet#banner-principal",
       // "responsive-layout.desktop#banner-principal",
       "flex-layout.row#congtent-slider",
+      "__fold__",
       "responsive-layout.phone#brands-promise",
       "responsive-layout.tablet#brands-promise",
       "responsive-layout.desktop#brands-promise",
