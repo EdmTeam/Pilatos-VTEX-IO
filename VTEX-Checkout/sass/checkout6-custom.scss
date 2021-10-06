@@ -6001,17 +6001,19 @@ body {
                 }
             }
         }
-        a:nth-child(5) {
+        a:nth-child(6) {
             span {
-                background-image: url('/arquivos/wompi.png') !important;
+                background-image: url('/arquivos/wompi.jpg') !important;
                 background-size: 35px;
                 padding-right: 2rem !important;
+                color: #000000 !important;
 
                 &:before {
                     display: block !important;
                 }
             }
         }
+
         a:nth-child(8) {
             span {
                 background-image: url('/arquivos/pse.png') !important;

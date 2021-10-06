@@ -1,12 +1,6 @@
 {
   "store.home": {
     "blocks": [
-      // "responsive-layout.phone#promotional-banner",
-      // "responsive-layout.desktop#promotional-banner",
-      // "responsive-layout.tablet#promotional-banner",
-      // "responsive-layout.phone#banner-principal",
-      // "responsive-layout.tablet#banner-principal",
-      // "responsive-layout.desktop#banner-principal",
       "flex-layout.row#congtent-slider",
       "__fold__",
       "responsive-layout.phone#brands-promise",
@@ -24,38 +18,6 @@
       "responsive-layout.phone#promotional-banners",
       "responsive-layout.tablet#promotional-banners",
       "responsive-layout.desktop#promotional-banners"
-      // "responsive-layout.phone#promotional-banners",
-      // "responsive-layout.tablet#promotional-banners",
-      // "responsive-layout.desktop#promotional-banners",
-      // "flex-layout.row#brands"
-      // "responsive-layout.phone#promotional-banners-2",
-      // "responsive-layout.tablet#promotional-banners-2",
-      // "responsive-layout.desktop#promotional-banners-2",
-      //seccion te lo recomendamos
-      // "flex-layout.row#shelf-title-te-recomendamos",
-      // "flex-layout.row#shelf-te-recomendamos"
-      //seccion todo lo que necesitas 
-      // "flex-layout.row#shelf-title-todo-lo-que-necesitas",
-      // "responsive-layout.desktop#todo-lo-que-necesitas",
-      // "responsive-layout.mobile#todo-lo-que-necesitas",
-      // "flex-layout.row#shelf-todo-lo-que-necesitas"
-      //seccion tecnologia
-      // "responsive-layout.desktop#home-container-tecnologia",
-      // "responsive-layout.tablet#home-container-tecnologia",
-      // "responsive-layout.phone#home-container-tecnologia",
-      //seccion electro
-      // "responsive-layout.desktop#home-container-electro",
-      // "responsive-layout.tablet#home-container-electro",
-      // "responsive-layout.phone#home-container-electro",
-      //moda mujer
-      // "responsive-layout.desktop#home-container-moda-mujer",
-      // "responsive-layout.tablet#home-container-moda-mujer",
-      // "responsive-layout.phone#home-container-moda-mujer",
-      //categorias
-      // "responsive-layout.desktop#categories-section-home",
-      // "responsive-layout.mobile#categories-section-home",
-      // "flex-layout.row#newsletter",
-      // "back-to-top-button"
     ]
   }
 }
