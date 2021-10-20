@@ -2507,3 +2507,6 @@
   }
 }
 
+.flexCol--product-description{ 
+  height: auto;
+}
