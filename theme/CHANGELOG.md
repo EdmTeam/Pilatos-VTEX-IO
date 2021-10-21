@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Added
+
+- Added - 13900 - install addi app
+
 ## [0.0.36] - 2021-10-13
 
 ## [0.0.33] - 2021-09-03
