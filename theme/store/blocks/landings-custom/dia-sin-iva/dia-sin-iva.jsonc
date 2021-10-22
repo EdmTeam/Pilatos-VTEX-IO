@@ -1,0 +1,221 @@
+{
+    "store.custom#dsi-expectativa": {
+        "children": [
+            "responsive-layout.desktop#banner-dsi",
+            "responsive-layout.tablet#banner-dsi",
+            "responsive-layout.phone#banner-dsi",
+            "flex-layout.row#content-dsi"
+        ]
+    },
+    "flex-layout.row#content-dsi": {
+        "props": {
+            "blockClass": "content-dsi"
+        },
+        "children": [
+            "flex-layout.col#content-dsi"
+        ]
+    },
+    "flex-layout.col#content-dsi": {
+        "children": [
+            "rich-text#desc-dsi",
+            "flex-layout.row#title-and-form-dsi",
+            "flex-layout.row#questions-dsi"
+        ]
+    },
+    "responsive-layout.desktop#banner-dsi": {
+        "children": [
+            "image#banner-desktop-dsi"
+        ]
+    },
+    "responsive-layout.tablet#banner-dsi": {
+        "children": [
+            "image#banner-tablet-dsi"
+        ]
+    },
+    "responsive-layout.phone#banner-dsi": {
+        "children": [
+            "image#banner-phone-dsi"
+        ]
+    },
+    "image#banner-desktop-dsi": {
+        "props": {
+            "src": "/arquivos/Pilatos-DSI-Registro-BannerDekstop-min.jpg",
+            "alt": "En el día sin IVA en Pilatos, encuentra lo mejor de las mejores marcas, miles de referencias de tus marcas favoritas en tenis, camisas, chaquetas, jeans y accesorios para hombre y mujer las consigues aquí. ¡Pilatos es tu tienda ideal, encuentra tu outfit perfecto en un solo lugar!",
+            "title": "banner día sin IVA"
+        }
+    },
+    "image#banner-tablet-dsi": {
+        "props": {
+            "src": "/arquivos/Pilatos-DSI-Registro-BannerTablet-min.jpg",
+            "alt": "En el día sin IVA en Pilatos, encuentra lo mejor de las mejores marcas, miles de referencias de tus marcas favoritas en tenis, camisas, chaquetas, jeans y accesorios para hombre y mujer las consigues aquí. ¡Pilatos es tu tienda ideal, encuentra tu outfit perfecto en un solo lugar!",
+            "title": "banner día sin IVA"
+        }
+    },
+    "image#banner-phone-dsi": {
+        "props": {
+            "src": "/arquivos/Pilatos-DSI-Registro-BannerMobile-min.jpg",
+            "alt": "En el día sin IVA en Pilatos, encuentra lo mejor de las mejores marcas, miles de referencias de tus marcas favoritas en tenis, camisas, chaquetas, jeans y accesorios para hombre y mujer las consigues aquí. ¡Pilatos es tu tienda ideal, encuentra tu outfit perfecto en un solo lugar!",
+            "title": "banner día sin IVA"
+        }
+    },
+    "rich-text#desc-dsi": {
+        "props": {
+            "textAlignment": "CENTER",
+            "text": "## **En el día sin IVA en Pilatos, encuentra lo mejor de las mejores marcas, miles de referencias de tus marcas favoritas en tenis, camisas, chaquetas, jeans y accesorios para hombre y mujer las consigues aquí. ¡Pilatos es tu tienda ideal, encuentra tu outfit perfecto en un solo lugar!**",
+            "blockClass": "desc-dsi"
+        }
+    },
+    "flex-layout.row#title-and-form-dsi": {
+        "children": [
+            "flex-layout.col#title-dsi",
+            "flex-layout.col#form-dsi"
+        ]
+    },
+    "flex-layout.col#title-dsi": {
+        "children": [
+            "rich-text#title-dsi",
+            "rich-text#subtitle-dsi"
+        ]
+    },
+    "rich-text#title-dsi": {
+        "props": {
+            "textAlignment": "CENTER",
+            "text": "# DÍA SIN IVA:\nREGÍSTRATE",
+            "font": "t-heading-1",
+            "blockClass": "title-dsi"
+        }
+    },
+    "rich-text#subtitle-dsi": {
+        "props": {
+            "textAlignment": "RIGHT",
+            "text": "*Inscríbete aquí para ser el primero en enterarte de todos los detalles del Día sin IVA.*",
+            "font": "t-body",
+            "blockClass": "subtitle-dsi"
+        }
+    },
+    "flex-layout.col#form-dsi": {
+        "props": {
+            "blockClass": "formContainer-dsi"
+        },
+        "children": [
+            "form#dsi"
+        ]
+    },
+    "form#dsi": {
+        "props": {
+            "entity": "DS",
+            "schema": "dsi"
+        },
+        "children": [
+            "form-input.text#dsi-form-name",
+            "form-input.text#dsi-form-email",
+            "form-input.text#dsi-form-birthday",
+            "form-input.checkbox#dsi-form-terms",
+            "rich-text#dsi-read-politics",
+            "form-submit#dsi-form-submit"
+        ],
+        "blocks": [
+            "form-success#dsi"
+        ]
+    },
+    "form-input.text#dsi-form-name": {
+        "props": {
+            "pointer": "#/properties/name",
+            "label": "Nombre completo",
+            "placeholder": "Ingresa tu nombre completo"
+        }
+    },
+    "form-input.text#dsi-form-email": {
+        "props": {
+            "pointer": "#/properties/mail",
+            "label": "Correo Electrónico",
+            "placeholder": "Ingresa tu correo electrónico"
+        }
+    },
+    "form-input.text#dsi-form-birthday": {
+        "props": {
+            "pointer": "#/properties/birthday",
+            "label": "Selecciona tu fecha de nacimiento",
+            "blockClass": "form-dsi-birthday"
+        }
+    },
+    "form-input.checkbox#dsi-form-terms": {
+        "props": {
+            "pointer": "#/properties/terms",
+            "label": "Acepto política de datos y términos y condiciones"
+        }
+    },
+    "form-submit#dsi-form-submit": {
+        "props": {
+            "label": "Registrarme",
+            "blockClass": "submit-dsi"
+        }
+    },
+    "rich-text#dsi-read-politics": {
+        "props": {
+            "text": "Leer [política de datos](/politicas) y [términos y condiciones](/terminos-condiciones)",
+            "textAlignment": "LEFT",
+            "textPosition": "left",
+            "font": "t-mini",
+            "blockClass": "read-politics-dsi"
+        }
+    },
+    "form-success#dsi": {
+        "children": [
+            "rich-text#dsi-successSubmit"
+        ]
+    },
+    "rich-text#dsi-successSubmit": {
+        "props": {
+            "text": "Tus datos fueron registrados satisfactoriamente",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "dsi-successSubmit"
+        }
+    },
+    "flex-layout.row#questions-dsi": {
+        "children": [
+            "flex-layout.col#questions-dsi"
+        ]
+    },
+    "flex-layout.col#questions-dsi": {
+        "children": [
+            "rich-text#question-one-dsi",
+            "rich-text#question-two-dsi",
+            "rich-text#question-three-dsi",
+            "rich-text#question-four-dsi"
+        ]
+    },
+    "rich-text#question-one-dsi": {
+        "props": {
+            "textAlignment": "LEFT",
+            "text": "**¿Qué es el Día sin IVA en Colombia?**\nEl Día sin IVA es una iniciativa del Gobierno de Colombia, en la que les brinda a los ciudadanos la exención del impuesto sobre las ventas, con el fin de apoyar la reactivación de la economía. Durante 3 fechas determinadas en el año, los compradores podrán adquirir algunos productos con el descuento del IVA.",
+            "font": "t-body",
+            "blockClass": "question-dsi"
+        }
+    },
+    "rich-text#question-two-dsi": {
+        "props": {
+            "textAlignment": "LEFT",
+            "text": "**¿Cuándo es el Día sin IVA?**\nEl día sin IVA será el próximo 28 de octubre. Al registrarte en nuestra página podrás estar enterado sobre cuáles serán los descuentos que obtendrás en nuestra página web, antes de ser anunciados oficialmente.",
+            "font": "t-body",
+            "blockClass": "question-dsi"
+        }
+    },
+    "rich-text#question-three-dsi": {
+        "props": {
+            "textAlignment": "LEFT",
+            "text": "**¿Qué puede comprar en el Día sin IVA en la tienda online de Pilatos?**\nEncontrarás ofertas en productos Pilatos como:\n**Tenis:** Si te gusta siempre verte bien tenemos tenis de las mejores marcas para completar tu Outfit.\n**Buzos y chaquetas:** Completa tu pinta con uno de nuestros buzos y chaquetas, el complemento perfecto que siempre te hará ver más cool, puedes conocer el amplio catálogo de ropa de Pilatos con los descuentos del Día sin IVA. Podrás encontrar la tecnología en nuestras telas y diseños.\n**Jeans:** No pueden faltan en tu closet unos jeans de nuestras marcas,  para llevar contigo el estilo de Pilatos.\n\n Además encontrarás camisas, camisetas, bermudas, sudaderas, bolsos, morrales y muchas mas categorías para que completes tu Outfit favorito.\n\n* *En los descuentos del Día sin IVA no participan todos los productos de la tienda.*",
+            "font": "t-body",
+            "blockClass": "question-dsi"
+        }
+    },
+    "rich-text#question-four-dsi": {
+        "props": {
+            "textAlignment": "LEFT",
+            "text": "**¿Cuantas unidades puedo comprar el día sin IVA?**\nEn el dia sin IVA puedes comprar máximo 3 unidades de la misma categoría, por ejemplo máximo 3 jeans, 3 camisetas, 3 buzos.",
+            "font": "t-body",
+            "blockClass": "question-dsi"
+        }
+    }
+}

@@ -599,5 +599,8 @@
     },
     "store.custom#order-from-chaos":{
         "path": "/order-from-chaos"
+    },
+    "store.custom#dsi-expectativa":{
+        "path": "/dia-sin-iva"
     }
 }

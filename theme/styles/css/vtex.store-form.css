@@ -1,0 +1,4 @@
+.formSubmitButton--submit-dsi :global(.vtex-button) {
+    padding: 0 1rem !important;
+    margin-top: 1rem;
+}
