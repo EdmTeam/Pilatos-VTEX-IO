@@ -30,7 +30,9 @@
             "rich-text#submenu-desk-department-4-category-21",
             "rich-text#submenu-desk-department-4-category-22",
             "rich-text#submenu-desk-department-4-category-23",
-            "rich-text#submenu-desk-department-4-category-24"
+            "rich-text#submenu-desk-department-4-category-24",
+            "rich-text#submenu-desk-department-4-category-25",
+            "rich-text#submenu-desk-department-4-category-26"
         ],
         "props":{
             "blockClass": [
@@ -207,6 +209,20 @@
     "rich-text#submenu-desk-department-4-category-24":{
         "props":{
             "text": "[New Project](/new-project)",
+            "blockClass": "textCategory"
+        }
+    },
+
+    "rich-text#submenu-desk-department-4-category-25":{
+        "props":{
+            "text": "[Monastery](/monastery)",
+            "blockClass": "textCategory"
+        }
+    },
+
+    "rich-text#submenu-desk-department-4-category-26":{
+        "props":{
+            "text": "[The Frenchie Co](/the-frenchie-co)",
             "blockClass": "textCategory"
         }
     }
