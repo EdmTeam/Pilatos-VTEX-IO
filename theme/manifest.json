@@ -74,8 +74,7 @@
     "pilatos21.size-guide": "0.x"
   },
   "peerDependencies": {
-    "pilatos21.wishlist": "0.x",
-    "addi.addi-product-page-infos": "1.x"
+    "pilatos21.wishlist": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

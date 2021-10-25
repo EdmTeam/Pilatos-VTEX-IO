@@ -1686,3 +1686,35 @@
   background-color: #000;
   color: white;
 }
+
+
+/* LANDING DSI */
+.heading--desc-dsi {
+  font-size: 1.25rem;
+}
+.container--title-dsi {
+  justify-content: right;
+  padding-right: 1rem;
+}
+.heading--title-dsi {
+  margin-bottom: 0;
+}
+.paragraph--title-dsi {
+  margin: 0;
+}
+.paragraph--read-politics-dsi {
+  margin: 0;
+}
+.container--dsi-successSubmit{
+  background-color: #F2A922;
+  margin-top: 15%;
+}
+
+@media screen and (max-width: 640px) {
+  .container--title-dsi {
+    justify-content: center;
+  }
+  .container--subtitle-dsi {
+    text-align: center;
+  }
+}

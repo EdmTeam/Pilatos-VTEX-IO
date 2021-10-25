@@ -19,8 +19,6 @@
       "responsive-layout.tablet#product-view-product",
       "responsive-layout.desktop#product-view-product",
 
-      "__fold__",
-
       "responsive-layout.phone#brands-promise",
       "responsive-layout.tablet#brands-promise",
       "responsive-layout.desktop#brands-promise",
@@ -124,7 +122,6 @@
       "size-guide#zapatos-hombre-Superdry",
       "product-quantity",
       "flex-layout.row#product-button",
-      "addi-infos",
       "link#scrollLink",
       "share#default",
       "pilatos21.add-to-cart-button:add-to-cart-button"

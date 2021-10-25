@@ -2507,6 +2507,18 @@
   }
 }
 
-.flexCol--product-description{ 
-  height: auto;
+/*
+* LANDING DSI
+*/
+.flexRow--content-dsi {
+  padding: 0 10%;
+}
+.flexCol--formContainer-dsi {
+  padding: 1rem;
+}
+.flexCol--formContainer-dsi :global(.vtex-input__label) {
+  display: block;
+}
+.flexCol--formContainer-dsi :global(.vtex-input-prefix__group) {
+  margin: 1rem 0;
 }

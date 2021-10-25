@@ -342,3 +342,11 @@
     width: 100%;
     height: 100%;
 }
+
+/* Estilos para landing DSI */
+:global(.vtex-flex-layout-0-x-flexCol--formContainer-dsi) form label:first-child :global(.vtex-input__label) {
+    display: none !important;
+}
+:global(.vtex-flex-layout-0-x-flexCol--formContainer-dsi) form label:nth-child(2n) :global(.vtex-input__label) {
+    display: none !important;
+}
