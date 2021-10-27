@@ -18,7 +18,7 @@
     "flex-layout.col#content-dsi": {
         "children": [
             "rich-text#desc-dsi",
-            "flex-layout.row#title-and-form-dsi",
+            //"flex-layout.row#title-and-form-dsi",
             "flex-layout.row#questions-dsi"
         ]
     },
@@ -183,7 +183,31 @@
             "rich-text#question-one-dsi",
             "rich-text#question-two-dsi",
             "rich-text#question-three-dsi",
-            "rich-text#question-four-dsi"
+            "rich-text#question-four-dsi",
+            "rich-text#question-five-dsi",
+            "rich-text#question-six-dsi",
+            "rich-text#question-seven-dsi",
+            "rich-text#question-eight-dsi",
+            "rich-text#question-nine-dsi",
+            "rich-text#question-ten-dsi",
+            "rich-text#question-eleven-dsi",
+            "rich-text#question-twelve-dsi",
+            "rich-text#question-thirteen-dsi",
+            "rich-text#question-fourteen-dsi",
+            "rich-text#question-fiveteen-dsi",
+            "rich-text#question-sixteen-dsi",
+            "rich-text#question-seventeen-dsi",
+            "rich-text#question-eighteen-dsi",
+            "rich-text#question-nineteen-dsi",
+            "rich-text#question-twenty-dsi",
+            "rich-text#question-twentyOne-dsi",
+            "rich-text#question-twentyTwo-dsi",
+            "rich-text#question-twentyThree-dsi",
+            "rich-text#question-twentyFour-dsi",
+            "rich-text#question-twentyFive-dsi",
+            "rich-text#question-twentySix-dsi",
+            "rich-text#question-twentySeven-dsi",
+            "rich-text#question-twentyEight-dsi"
         ]
     },
     "rich-text#question-one-dsi": {
@@ -197,7 +221,7 @@
     "rich-text#question-two-dsi": {
         "props": {
             "textAlignment": "LEFT",
-            "text": "**¿Cuándo es el Día sin IVA?**\nEl día sin IVA será el próximo 28 de octubre. Al registrarte en nuestra página podrás estar enterado sobre cuáles serán los descuentos que obtendrás en nuestra página web, antes de ser anunciados oficialmente.",
+            "text": "**¿Cuándo es el Día sin IVA?**\n-28 de octubre de 2021\n-19 de noviembre de 2021\n-03 de diciembre de 2021\nEstas fechas se basan sólo por el horario oficial de la República de Colombia.",
             "font": "t-body",
             "blockClass": "question-dsi"
         }
@@ -205,7 +229,7 @@
     "rich-text#question-three-dsi": {
         "props": {
             "textAlignment": "LEFT",
-            "text": "**¿Qué puede comprar en el Día sin IVA en la tienda online de Pilatos?**\nEncontrarás ofertas en productos Pilatos como:\n**Tenis:** Si te gusta siempre verte bien tenemos tenis de las mejores marcas para completar tu Outfit.\n**Buzos y chaquetas:** Completa tu pinta con uno de nuestros buzos y chaquetas, el complemento perfecto que siempre te hará ver más cool, puedes conocer el amplio catálogo de ropa de Pilatos con los descuentos del Día sin IVA. Podrás encontrar la tecnología en nuestras telas y diseños.\n**Jeans:** No pueden faltan en tu closet unos jeans de nuestras marcas,  para llevar contigo el estilo de Pilatos.\n\n Además encontrarás camisas, camisetas, bermudas, sudaderas, bolsos, morrales y muchas mas categorías para que completes tu Outfit favorito.\n\n* *En los descuentos del Día sin IVA no participan todos los productos de la tienda.*",
+            "text": "**¿Dónde puedo comprar?**\nPuedes comprar en nuestras tiendas físicas y en línea [https://www.pilatos.com](https://www.pilatos.com)",
             "font": "t-body",
             "blockClass": "question-dsi"
         }
@@ -213,9 +237,210 @@
     "rich-text#question-four-dsi": {
         "props": {
             "textAlignment": "LEFT",
-            "text": "**¿Cuantas unidades puedo comprar el día sin IVA?**\nEn el dia sin IVA puedes comprar máximo 3 unidades de la misma categoría, por ejemplo máximo 3 jeans, 3 camisetas, 3 buzos.",
+            "text": "**¿Cómo identificas los productos exentos del IVA?**\nTodos los productos que cuenten con el beneficio tendrán un flag negro indicando día sin IVA que los identifique que están exentos del IVA.",
+            "font": "t-body",
+            "blockClass": "question-dsi"
+        }
+    },
+    "rich-text#question-five-dsi": {
+        "props": {
+            "textAlignment": "LEFT",
+            "text": "**¿Cómo identificas el precio sin IVA en cada producto?**\nRecuerda que el precio SIN IVA se reflejará una vez seleccionado el medio de pago.",
+            "font": "t-body",
+            "blockClass": "question-dsi"
+        }
+    },
+    "rich-text#question-six-dsi": {
+        "props": {
+            "textAlignment": "LEFT",
+            "text": "**Aspectos importantes a tener en cuenta:**",
+            "font": "t-heading-5",
+            "blockClass": "question-dsi"
+        }
+    },
+    "rich-text#question-seven-dsi": {
+        "props": {
+            "textAlignment": "LEFT",
+            "text": "**-Categoría de productos exentos:**\nLa exención del IVA solo aplica para los tipos de artículos correspondientes a las categorías definidas en los artículos 37, 38 y 39 de la ley 2155 del 14 de septiembre de 2021.",
+            "font": "t-body",
+            "blockClass": "question-dsi"
+        }
+    },
+    "rich-text#question-eight-dsi": {
+        "props": {
+            "textAlignment": "LEFT",
+            "text": "**-Máximo tres artículos por categoría:**\nCada persona podrá comprar máximo tres artículos de una misma categoría, por ejemplo, 1 jean, 1 camisa, 1 buzo en un mismo establecimiento comercial y su sitio de internet.",
+            "font": "t-body",
+            "blockClass": "question-dsi"
+        }
+    },
+    "rich-text#question-nine-dsi": {
+        "props": {
+            "textAlignment": "LEFT",
+            "text": "**-Se puede combinar diferentes categorías:**\nAsí mismo, cabe aclarar, que los consumidores podrán comprar productos de diferentes categorías durante el mismo día, es decir que pueden comprar 3 de la categoría vestuario y también 3 de la categoría de complemento de vestuario usando la exención tributaria.",
+            "font": "t-body",
+            "blockClass": "question-dsi"
+        }
+    },
+    "rich-text#question-ten-dsi": {
+        "props": {
+            "textAlignment": "LEFT",
+            "text": "**-La exención es solo para personas naturales:**\nSegún los artículos 37, 38 y 39 de la ley 2155 del 14 de septiembre de 2021, el beneficio de la exención de IVA es exclusivo para personas naturales con documento como: cédula de ciudadanía, cedula de extranjería pasaporte o tarjeta de identidad.",
+            "font": "t-body",
+            "blockClass": "question-dsi"
+        }
+    },
+    "rich-text#question-eleven-dsi": {
+        "props": {
+            "textAlignment": "LEFT",
+            "text": "**-Facturación electrónica:**\nEste año por disposición del gobierno tanto en tienda física como virtual se realizará facturación electrónica.",
+            "font": "t-body",
+            "blockClass": "question-dsi"
+        }
+    },
+    "rich-text#question-twelve-dsi": {
+        "props": {
+            "textAlignment": "LEFT",
+            "text": "**-Medios de pago aceptados:**",
+            "font": "t-body",
+            "blockClass": "question-dsi"
+        }
+    },
+    "rich-text#question-thirteen-dsi": {
+        "props": {
+            "textAlignment": "LEFT",
+            "text": "**Página web**\n- Tarjeta de crédito\n- Tarjeta debito (PSE)\n- Botón Bancolombia",
+            "font": "t-body",
+            "blockClass": "question-dsi"
+        }
+    },
+    "rich-text#question-fourteen-dsi": {
+        "props": {
+            "textAlignment": "LEFT",
+            "text": "En internet por el día sin IVA no aplican los siguientes medios de pago: Baloto, Efecty, consignación bancaria ni sistecredito.",
+            "font": "t-body",
+            "blockClass": "question-dsi"
+        }
+    },
+    "rich-text#question-fiveteen-dsi": {
+        "props": {
+            "textAlignment": "LEFT",
+            "text": "**Tiendas físicas**\n- Tarjeta de crédito\n- Tarjeta debito (PSE)\n- Pago en efectivo",
+            "font": "t-body",
+            "blockClass": "question-dsi"
+        }
+    },
+    "rich-text#question-sixteen-dsi": {
+        "props": {
+            "textAlignment": "LEFT",
+            "text": "Se permite el pago en efectivo, siempre y cuando el pago se vea reflejado antes de las 11:59 p.m. del 28 de octubre, 19 de noviembre o 3 de diciembre de 2021 según el caso.",
+            "font": "t-body",
+            "blockClass": "question-dsi"
+        }
+    },
+    "rich-text#question-seventeen-dsi": {
+        "props": {
+            "textAlignment": "LEFT",
+            "text": "**-Existen montos máximos por categoría:**\nEn la ley 2155 del 14 de septiembre de 2021 se establecieron los montos máximos para las diferentes categorías. Si el producto que quiere comprar supera estos límites NO será exento del IVA.\nVestuario= Max:  $ 726.160 (UVT:20) por unidad sin incluir IVA.\nComplementos de vestuario= Max: $ 726.160 (UVT:20) por unidad sin incluir IVA.",
+            "font": "t-body",
+            "blockClass": "question-dsi"
+        }
+    },
+    "rich-text#question-eighteen-dsi": {
+        "props": {
+            "textAlignment": "LEFT",
+            "text": "**¿Se puede hacer devolución o cambio de los productos adquiridos?**\nCuando se genere la devolución o cambio del valor del bien, el cambio no se encontrará cubierta con la exención en el impuesto sobre las ventas -IVA a menos que se realice en otro día que aplique este beneficio.",
+            "font": "t-body",
+            "blockClass": "question-dsi"
+        }
+    },
+    "rich-text#question-nineteen-dsi": {
+        "props": {
+            "textAlignment": "LEFT",
+            "text": "**¿Qué tipos de productos NO participan del día sin IVA en Pilatos.com?**\nCorrea, bufanda, protección, sudadera, billetera, morral, sandalias, llavero, reloj, fragancia, estuche, joyería y maleta.",
+            "font": "t-body",
+            "blockClass": "question-dsi"
+        }
+    },
+    "rich-text#question-twenty-dsi": {
+        "props": {
+            "textAlignment": "LEFT",
+            "text": "**¿Cómo funciona la exención del IVA comprando en Pilatos Online?**",
+            "font": "t-body",
+            "blockClass": "question-dsi"
+        }
+    },
+    "rich-text#question-twentyOne-dsi": {
+        "props": {
+            "textAlignment": "LEFT",
+            "text": "- La exención de IVA en la tienda internet será habilitada a partir de las 00:00 horas del 28 de octubre de 2021.",
+            "font": "t-body",
+            "blockClass": "question-dsi"
+        }
+    },
+    "rich-text#question-twentyTwo-dsi": {
+        "props": {
+            "textAlignment": "LEFT",
+            "text": "- Todos los precios en Replay son los precios de venta SIN descontar el IVA. La exención del IVA se ve reflejado una vez seleccionado el medio de pago.",
+            "font": "t-body",
+            "blockClass": "question-dsi"
+        }
+    },
+    "rich-text#question-twentyThree-dsi": {
+        "props": {
+            "textAlignment": "LEFT",
+            "text": "- Para comprar debes agregar los productos al carrito y seguir los pasos indicados para finalizar el pedido. La exención del IVA verás reflejada en el último paso antes de terminar el pedido (siempre y cuando los productos que quieres comprar cuenten con el beneficio y no superen los límites de unidades).",
+            "font": "t-body",
+            "blockClass": "question-dsi"
+        }
+    },
+    "rich-text#question-twentyFour-dsi": {
+        "props": {
+            "textAlignment": "LEFT",
+            "text": "- Solo puedes comprar tres unidades en total por cédula. Hacemos un control de unidades por cédula. Los pedidos que superan este límite serán anulados.",
+            "font": "t-body",
+            "blockClass": "question-dsi"
+        }
+    },
+    "rich-text#question-twentyFive-dsi": {
+        "props": {
+            "textAlignment": "LEFT",
+            "text": "- El límite de 3 unidades por categoría aplica para la suma de las ventas por cédula en todas las tiendas y su sitio de internet.",
+            "font": "t-body",
+            "blockClass": "question-dsi"
+        }
+    },
+    "rich-text#question-twentySix-dsi": {
+        "props": {
+            "textAlignment": "LEFT",
+            "text": "- Los únicos medios de pago que se ofrecen en Kipling son tarjetas de crédito y PSE. NO se aceptan ni medios de pago en efectivo (Baloto, Efecty, consignación bancaria).",
+            "font": "t-body",
+            "blockClass": "question-dsi"
+        }
+    },
+    "rich-text#question-twentySeven-dsi": {
+        "props": {
+            "textAlignment": "LEFT",
+            "text": "**¿Qué puede comprar en el Día sin IVA en la tienda online de Pilatos?**\nEncontrarás ofertas en productos Pilatos como:\n**Tenis:** Si te gusta siempre verte bien tenemos tenis de las mejores marcas para completar tu Outfit.\n**Buzos y chaquetas:** Completa tu pinta con uno de nuestros buzos y chaquetas, el complemento perfecto que siempre te hará ver más cool, puedes conocer el amplio catálogo de ropa de Pilatos con los descuentos del Día sin IVA. Podrás encontrar la tecnología en nuestras telas y diseños.\n**Jeans:** No pueden faltan en tu closet unos jeans de nuestras marcas,  para llevar contigo el estilo de Pilatos.\n\n Además encontrarás camisas, camisetas, bermudas, sudaderas, bolsos, morrales y muchas mas categorías para que completes tu Outfit favorito.\n\n* *En los descuentos del Día sin IVA no participan todos los productos de la tienda.*",
+            "font": "t-body",
+            "blockClass": "question-dsi"
+        }
+    },
+    "rich-text#question-twentyEight-dsi": {
+        "props": {
+            "textAlignment": "LEFT",
+            "text": "**¡Sigue nuestros consejos y lleva lo mejor de las mejores marcas!**\nConoce todo el catálogo para el Día sin IVA. Un gran abanico de posibilidades para una amplia gama de deportes, así como tenis, ropa y accesorios para completar un outfit con el diseño y tecnología de la marca.",
             "font": "t-body",
             "blockClass": "question-dsi"
         }
     }
+    /*
+    "rich-text#question-four-dsi": {
+        "props": {
+            "textAlignment": "LEFT",
+            "text": "**¿Cuantas unidades puedo comprar el día sin IVA?**\nEn el dia sin IVA puedes comprar máximo 3 unidades de la misma categoría, por ejemplo máximo 3 jeans, 3 camisetas, 3 buzos.",
+            "font": "t-body",
+            "blockClass": "question-dsi"
+        }
+    }*/
 }
