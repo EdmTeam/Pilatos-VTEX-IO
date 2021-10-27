@@ -181,7 +181,7 @@
     "flex-layout.col#questions-dsi": {
         "children": [
             "rich-text#question-one-dsi",
-            "rich-text#question-two-dsi",
+            "rich-text#question-two-dsi-m",
             "rich-text#question-three-dsi",
             "rich-text#question-four-dsi",
             "rich-text#question-five-dsi",
@@ -218,10 +218,10 @@
             "blockClass": "question-dsi"
         }
     },
-    "rich-text#question-two-dsi": {
+    "rich-text#question-two-dsi-m": {
         "props": {
             "textAlignment": "LEFT",
-            "text": "**¿Cuándo es el Día sin IVA?**\n-28 de octubre de 2021\n-19 de noviembre de 2021\n-03 de diciembre de 2021\nEstas fechas se basan sólo por el horario oficial de la República de Colombia.",
+            "text": "**¿Cuándo son los Días sin IVA?**\n- 28 de octubre de 2021\n- 19 de noviembre de 2021\n- 03 de diciembre de 2021\nEstas fechas se basan sólo por el horario oficial de la República de Colombia.",
             "font": "t-body",
             "blockClass": "question-dsi"
         }
@@ -381,7 +381,7 @@
     "rich-text#question-twentyTwo-dsi": {
         "props": {
             "textAlignment": "LEFT",
-            "text": "- Todos los precios en Replay son los precios de venta SIN descontar el IVA. La exención del IVA se ve reflejado una vez seleccionado el medio de pago.",
+            "text": "- Todos los precios en Pilatos son los precios de venta SIN descontar el IVA. La exención del IVA se ve reflejado una vez seleccionado el medio de pago.",
             "font": "t-body",
             "blockClass": "question-dsi"
         }
@@ -413,7 +413,7 @@
     "rich-text#question-twentySix-dsi": {
         "props": {
             "textAlignment": "LEFT",
-            "text": "- Los únicos medios de pago que se ofrecen en Kipling son tarjetas de crédito y PSE. NO se aceptan ni medios de pago en efectivo (Baloto, Efecty, consignación bancaria).",
+            "text": "- Los únicos medios de pago que se ofrecen en Pilatos son tarjetas de crédito y PSE. NO se aceptan ni medios de pago en efectivo (Baloto, Efecty, consignación bancaria).",
             "font": "t-body",
             "blockClass": "question-dsi"
         }
