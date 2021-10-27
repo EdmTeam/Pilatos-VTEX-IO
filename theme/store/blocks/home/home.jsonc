@@ -14,7 +14,7 @@
       "responsive-layout.phone#promotional-banners-2",
       "responsive-layout.desktop#promotional-banners-2",
       "responsive-layout.tablet#promotional-banners-2",
-      "flex-layout.row#Recently-viewed",
+      //"flex-layout.row#Recently-viewed",
       "responsive-layout.phone#promotional-banners",
       "responsive-layout.tablet#promotional-banners",
       "responsive-layout.desktop#promotional-banners"
