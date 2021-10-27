@@ -1,7 +1,7 @@
 {
   "vendor": "pilatos21",
   "name": "theme",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
@@ -74,7 +74,8 @@
     "pilatos21.size-guide": "0.x"
   },
   "peerDependencies": {
-    "pilatos21.wishlist": "0.x"
+    "pilatos21.wishlist": "0.x",
+    "addi.addi-product-page-infos": "1.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

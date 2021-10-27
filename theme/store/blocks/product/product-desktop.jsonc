@@ -60,6 +60,7 @@
             "size-guide#hombre-Superdry",
             "size-guide#zapatos-hombre-Superdry",
             "flex-layout.row#product-button-quantity",
+            "addi-infos",
             "link#scrollLink",
             "share#default",
             "pilatos21.add-to-cart-button:add-to-cart-button"
