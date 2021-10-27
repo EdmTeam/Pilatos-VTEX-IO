@@ -19,6 +19,9 @@
         "children": [
             "rich-text#desc-dsi",
             //"flex-layout.row#title-and-form-dsi",
+            "responsive-layout.desktop#banner-precios-dsi",
+            "responsive-layout.tablet#banner-precios-dsi",
+            "responsive-layout.phone#banner-precios-dsi",
             "flex-layout.row#questions-dsi"
         ]
     },
@@ -171,6 +174,30 @@
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
             "blockClass": "dsi-successSubmit"
+        }
+    },
+    "responsive-layout.desktop#banner-precios-dsi": {
+        "children": [
+            "image#banner-desktop-precios-dsi"
+        ]
+    },
+    "responsive-layout.mobile#banner-precios-dsi": {
+        "children": [
+            "image#banner-mobile-precios-dsi"
+        ]
+    },
+    "image#banner-desktop-precios-dsi": {
+        "props": {
+            "src": "/arquivos/DSI Banner Precios_DSKT.jpg",
+            "alt": "Explicación de Precios DÍA SIN IVA",
+            "title": "precios día sin IVA"
+        }
+    },
+    "image#banner-mobile-precios-dsi": {
+        "props": {
+            "src": "/arquivos/DSI Banner Precios_MOB.jpg",
+            "alt": "Explicación de Precios DÍA SIN IVA",
+            "title": "precios día sin IVA"
         }
     },
     "flex-layout.row#questions-dsi": {
