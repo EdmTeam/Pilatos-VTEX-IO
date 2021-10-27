@@ -20,8 +20,7 @@
             "rich-text#desc-dsi",
             //"flex-layout.row#title-and-form-dsi",
             "responsive-layout.desktop#banner-precios-dsi",
-            "responsive-layout.tablet#banner-precios-dsi",
-            "responsive-layout.phone#banner-precios-dsi",
+            "responsive-layout.mobile#banner-precios-dsi",
             "flex-layout.row#questions-dsi"
         ]
     },
