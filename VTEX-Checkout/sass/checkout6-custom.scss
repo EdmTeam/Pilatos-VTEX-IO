@@ -5957,7 +5957,7 @@ body {
 
 .payment-group {
     .payment-group-list-btn {
-        a:nth-child(1) {
+        a#payment-group-creditCardPaymentGroup {
             span {
                 background-image: url('/arquivos/Pilatos-MediosDePago-TarjetaCredito.png') !important;
                 background-size: 35px;
@@ -5968,7 +5968,19 @@ body {
                 }
             }
         }
-        a:nth-child(2) {
+        a#payment-group-debitCardPaymentGroup {
+            span {
+                background-image: url('https://io.vtex.com.br/checkout-ui/v6.43.3/img/ico-debit2.png') !important;
+                background-size: 35px;
+                padding-right: 2rem !important;
+                color: #000000 !important;
+
+                &:before {
+                    display: block !important;
+                }
+            }
+        }
+        /* a:nth-child(2) {
             span {
                 background-image: url('/arquivos/Pilatos-MediosDePago-SisteCredito.png') !important;
                 background-size: 35px;
@@ -6000,8 +6012,8 @@ body {
                     display: block !important;
                 }
             }
-        }
-        a:nth-child(6) {
+        } */
+        a#payment-group-WompiCoPaymentGroup {
             span {
                 background-image: url('/arquivos/wompi.jpg') !important;
                 background-size: 35px;
@@ -6013,8 +6025,7 @@ body {
                 }
             }
         }
-
-        a:nth-child(8) {
+        a#payment-group-debitPaymentGroup {
             span {
                 background-image: url('/arquivos/pse.png') !important;
                 background-size: 35px;
