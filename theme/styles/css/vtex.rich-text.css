@@ -1727,6 +1727,9 @@
   .container--subtitle-dsi {
     text-align: center;
   }
+  .link--button-to-event-dsi {
+    padding: 15px 10px;
+  }
 }
 
 /* TEXTO SEO HOME */
