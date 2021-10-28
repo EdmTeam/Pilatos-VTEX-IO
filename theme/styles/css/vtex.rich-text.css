@@ -1709,6 +1709,16 @@
   background-color: #F2A922;
   margin-top: 15%;
 }
+.paragraph--button-to-event-dsi {
+  margin-top: 2rem;
+}
+.link--button-to-event-dsi {
+  font-weight: 700;
+  background-color: #F5D400;
+  padding: 15px 25px;
+  text-decoration: none;
+  color: #292929;
+}
 
 @media screen and (max-width: 640px) {
   .container--title-dsi {
