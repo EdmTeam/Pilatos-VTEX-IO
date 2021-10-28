@@ -21,6 +21,7 @@
             //"flex-layout.row#title-and-form-dsi",
             "responsive-layout.desktop#banner-precios-dsi",
             "responsive-layout.mobile#banner-precios-dsi",
+            "rich-text#button-to-event",
             "flex-layout.row#questions-dsi"
         ]
     },
@@ -65,6 +66,14 @@
             "textAlignment": "CENTER",
             "text": "## **En el día sin IVA en Pilatos, encuentra lo mejor de las mejores marcas, miles de referencias de tus marcas favoritas en tenis, camisas, chaquetas, jeans y accesorios para hombre y mujer las consigues aquí. ¡Pilatos es tu tienda ideal, encuentra tu outfit perfecto en un solo lugar!**",
             "blockClass": "desc-dsi"
+        }
+    },
+    "rich-text#button-to-event": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "[Compra aquí tus productos sin IVA](/dia-sin-iva-pilatos)",
+            "blockClass": "button-to-event-dsi"
         }
     },
     "flex-layout.row#title-and-form-dsi": {
