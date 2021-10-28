@@ -1718,3 +1718,8 @@
     text-align: center;
   }
 }
+
+/* TEXTO SEO HOME */
+.paragraph--texto-seo-home {
+  margin: 1rem;
+}
