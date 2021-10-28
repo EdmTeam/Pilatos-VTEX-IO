@@ -1,0 +1,16 @@
+{
+    "flex-layout.row#texto-SEO": {
+        "children": [
+            "rich-text#texto-seo-home"
+        ]
+    },
+    "rich-text#texto-seo-home": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "**Aprovecha y compra tus favoritos en el día sin IVA, hasta el 50% Off este 28 de octubre de 2021**",
+            "font": "t-heading-5",
+            "blockClass": "texto-seo-home"
+        }
+    }
+}
