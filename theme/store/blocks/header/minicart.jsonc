@@ -65,7 +65,7 @@
 
   "free-shipping":{
     "props": {
-      "valueOfFreeShipping": 250000,
+      "valueOfFreeShipping": 300000,
       "infoLabel": {
         "labelInitial": "",
         "labelBetween": "¡Faltan ",
