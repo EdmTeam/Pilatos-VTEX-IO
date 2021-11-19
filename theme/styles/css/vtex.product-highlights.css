@@ -1,4 +1,4 @@
-.productHighlightWrapper [data-highlight-id="1171"]{
+/*.productHighlightWrapper [data-highlight-id="1171"]{
     font-size: 0;
     width: 40px;
     height: 40px;
@@ -6,8 +6,11 @@
     background-repeat: no-repeat;
     background-image: url(/arquivos/flag-dsi-Pilatos.png);
     display: block;
+}*/
+.productHighlightWrapper [data-highlight-id="1171"]{
+    font-size: 0;
 }
-.productHighlightWrapper [data-highlight-id="1189"]{
+.productHighlightWrapper [data-highlight-id="1189"] {
     font-size: 0;
     width: 55px;
     height: 55px;
@@ -17,7 +20,7 @@
     display: block;
     border-radius: 55px;
 }
-.productHighlightWrapper [data-highlight-id="1190"]{
+.productHighlightWrapper [data-highlight-id="1190"] {
     font-size: 0;
     width: 55px;
     height: 55px;
@@ -27,7 +30,7 @@
     display: block;
     border-radius: 55px;
 }
-.productHighlightWrapper [data-highlight-id="1191"]{
+.productHighlightWrapper [data-highlight-id="1191"] {
     font-size: 0;
     width: 55px;
     height: 55px;
@@ -37,7 +40,7 @@
     display: block;
     border-radius: 55px;
 }
-.productHighlightWrapper [data-highlight-id="1192"]{
+.productHighlightWrapper [data-highlight-id="1192"] {
     font-size: 0;
     width: 55px;
     height: 55px;
