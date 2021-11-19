@@ -4574,7 +4574,7 @@ div.checkoutFooter {
                         .cart-fixed {
                             height: auto !important;
                             &.affix {
-                                top: 85px;
+                                top: 5px;
                                 z-index: 4;
                                 @include screen-max-width($breakTabletVert) {
                                     top: 0px;
