@@ -1690,7 +1690,7 @@
 
 /* LANDING DSI */
 .heading--desc-dsi {
-  font-size: 1.25rem;
+  font-size: 2.25rem;
 }
 .container--title-dsi {
   justify-content: right;
@@ -1701,6 +1701,13 @@
 }
 .paragraph--title-dsi {
   margin: 0;
+}
+.container--subtitle-dsi {
+  justify-content: end;
+}
+.paragraph--subtitle-dsi {
+  max-width: 250px;
+  margin-right: 1rem;
 }
 .paragraph--read-politics-dsi {
   margin: 0;
@@ -1718,6 +1725,9 @@
   padding: 15px 25px;
   text-decoration: none;
   color: #292929;
+}
+.headingLevel3--question-dsi {
+  font-size: 1.5rem;
 }
 
 @media screen and (max-width: 640px) {

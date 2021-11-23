@@ -602,5 +602,8 @@
     },
     "store.custom#dsi-expectativa":{
         "path": "/dia-sin-iva"
+    },
+    "store.custom#blackfriday-expectativa":{
+        "path": "/blackfriday/expectativa"
     }
 }
