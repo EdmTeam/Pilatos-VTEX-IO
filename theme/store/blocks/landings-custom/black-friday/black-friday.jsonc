@@ -19,7 +19,7 @@
         "children": [
             "rich-text#desc-blackfriday-h1",
             "rich-text#desc-blackfriday",
-            "flex-layout.row#title-and-form-blackfriday",
+            //"flex-layout.row#title-and-form-blackfriday",
             //"rich-text#button-to-event-blackfriday",
             "flex-layout.row#questions-blackfriday"
         ]
