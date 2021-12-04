@@ -1,6 +1,6 @@
 .productHighlightWrapper [data-highlight-id="1171"]{
-    /*font-size: 0;
-    width: 40px;
+    font-size: 0;
+    /*width: 40px;
     height: 40px;
     background-size: contain;
     background-repeat: no-repeat;
@@ -9,41 +9,13 @@
 }
 .productHighlightWrapper [data-highlight-id="1189"]{
     font-size: 0;
-    width: 50px;
-    height: 50px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-image: url(/arquivos/PilatosFLAG-DSI-generico.png);
-    display: block;
-    border-radius: 55px;
 }
 .productHighlightWrapper [data-highlight-id="1190"]{
     font-size: 0;
-    width: 55px;
-    height: 55px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-image: url(/arquivos/dsi-flag-30-19nov.png);
-    display: block;
-    border-radius: 55px;
 }
 .productHighlightWrapper [data-highlight-id="1191"]{
     font-size: 0;
-    width: 55px;
-    height: 55px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-image: url(/arquivos/dsi-flag-55-19nov.png);
-    display: block;
-    border-radius: 55px;
 }
 .productHighlightWrapper [data-highlight-id="1192"]{
     font-size: 0;
-    width: 55px;
-    height: 55px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-image: url(/arquivos/dsi-flag-70-19nov.png);
-    display: block;
-    border-radius: 55px;
 }
