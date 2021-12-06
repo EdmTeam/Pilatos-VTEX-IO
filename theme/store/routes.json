@@ -605,5 +605,8 @@
     },
     "store.custom#blackfriday-expectativa":{
         "path": "/blackfriday/expectativa"
+    },
+    "store.custom#guia-regalos":{
+        "path": "/guia-de-regalos"
     }
 }
