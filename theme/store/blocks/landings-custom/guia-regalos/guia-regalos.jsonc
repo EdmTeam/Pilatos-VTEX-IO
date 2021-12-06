@@ -1,0 +1,126 @@
+{
+    "store.custom#guia-regalos": {
+        "children":[
+            "responsive-layout.desktop#guia-regalos-banner",
+            "responsive-layout.tablet#guia-regalos-banner",
+            "responsive-layout.phone#guia-regalos-banner",
+            "responsive-layout.mobile#guia-regalos-banner",
+            "flex-layout.row#guia-regalos"
+        ]
+    },
+    "responsive-layout.desktop#guia-regalos-banner": {
+        "children":[
+            "image#guia-regalos-banner-desktop",
+            "image#guia-regalos-bannerextra-desktop"
+        ]
+    },
+    "image#guia-regalos-banner-desktop": {
+        "props": {
+            "src": "/arquivos/Pilatos-GuiaRegalos-BannerDesktop-Landing-min.jpg",
+            "alt": "Pilatos, regala las mejores marcas esta navidad",
+            "title": "Pilatos Navidad"
+        }
+    },
+    "image#guia-regalos-bannerextra-desktop": {
+        "props": {
+            "src": "/arquivos/Pilatos-GuiaRegalos-BannerLanding-ExtraDesktop-min.jpg",
+            "alt": "Conoce aquí nuestra lista de regalos favoritos",
+            "title": "Pilatos Navidad Guía de Regalos"
+        }
+    },
+    "responsive-layout.tablet#guia-regalos-banner": {
+        "children":[
+            "image#guia-regalos-banner-tablet"
+        ]
+    },
+    "image#guia-regalos-banner-tablet": {
+        "props": {
+            "src": "/arquivos/Pilatos-GuiaRegalos-BannerTablet-Landing-min.jpg",
+            "alt": "Pilatos, regala las mejores marcas esta navidad",
+            "title": "Pilatos Navidad"
+        }
+    },
+    "responsive-layout.phone#guia-regalos-banner": {
+        "children":[
+            "image#guia-regalos-banner-phone"
+        ]
+    },
+    "image#guia-regalos-banner-phone": {
+        "props": {
+            "src": "/arquivos/Pilatos-GuiaRegalos-BannerMobile-Landing-min.jpg",
+            "alt": "Pilatos, regala las mejores marcas esta navidad",
+            "title": "Pilatos Navidad"
+        }
+    },
+    "responsive-layout.mobile#guia-regalos-banner": {
+        "children":[
+            "image#guia-regalos-bannerextra-mobile"
+        ]
+    },
+    "image#guia-regalos-bannerextra-mobile": {
+        "props": {
+            "src": "/arquivos/Pilatos-GuiaRegalos-BannerLanding-ExtraMobile-min.jpg",
+            "alt": "Conoce aquí nuestra lista de regalos favoritos",
+            "title": "Pilatos Navidad Guía de Regalos"
+        }
+    },
+    "flex-layout.row#guia-regalos": {
+        "children": [
+            "flex-layout.col#guia-regalos"
+        ]
+    },
+    "flex-layout.col#guia-regalos": {
+        "children":[
+            "flex-layout.row#guia-regalos-regalosparaelyella",
+            "flex-layout.row#guia-regalos-regaloscategorias"
+        ]
+    },
+    "flex-layout.row#guia-regalos-regalosparaelyella": {
+        "children":[
+            "image#guia-regalos-regalosparael",
+            "image#guia-regalos-regalosparaella"
+        ]
+    },
+    "image#guia-regalos-regalosparael": {
+        "props": {
+            "src": "/arquivos/Pilatos-GuiaRegalos-BannerLanding-El-min.jpg",
+            "alt": "Regalos para él",
+            "title": "Pilatos Navidad Guía de Regalos"
+        }
+    },
+    "image#guia-regalos-regalosparaella": {
+        "props": {
+            "src": "/arquivos/Pilatos-GuiaRegalos-BannerLanding-Ella-min.jpg",
+            "alt": "Regalos para ella",
+            "title": "Pilatos Navidad Guía de Regalos"
+        }
+    },
+    "flex-layout.row#guia-regalos-regaloscategorias":{
+        "children": [
+            "image#guia-regalos-regaloscategorias1",
+            "image#guia-regalos-regaloscategorias2",
+            "image#guia-regalos-regaloscategorias3"
+        ]
+    },
+    "image#guia-regalos-regaloscategorias1": {
+        "props": {
+            "src": "/arquivos/Pilatos-GuiaRegalos-BannerLanding-50-min.jpg",
+            "alt": "Regalos hasta $50.000",
+            "title": "Regalos hasta $50.000"
+        }
+    },
+    "image#guia-regalos-regaloscategorias2": {
+        "props": {
+            "src": "/arquivos/Pilatos-GuiaRegalos-BannerLanding-100-min.jpg",
+            "alt": "Regalos hasta $100.000",
+            "title": "Regalos hasta $100.000"
+        }
+    },
+    "image#guia-regalos-regaloscategorias3": {
+        "props": {
+            "src": "/arquivos/Pilatos-GuiaRegalos-BannerLanding-150-min.jpg",
+            "alt": "Regalos hasta $150.000",
+            "title": "Regalos hasta $150.000"
+        }
+    }
+}
