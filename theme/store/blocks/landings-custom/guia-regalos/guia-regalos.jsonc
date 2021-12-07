@@ -72,7 +72,9 @@
     "flex-layout.col#guia-regalos": {
         "children":[
             "flex-layout.row#guia-regalos-regalosparaelyella",
-            "flex-layout.row#guia-regalos-regaloscategorias"
+            "flex-layout.row#guia-regalos-regaloscategorias",
+            "flex-layout.row#guia-regalos-regalosprecios",
+            "flex-layout.row#shelf-landing-navidad"
         ]
     },
     "flex-layout.row#guia-regalos-regalosparaelyella": {
@@ -95,7 +97,7 @@
             "title": "Pilatos Navidad Guía de Regalos"
         }
     },
-    "flex-layout.row#guia-regalos-regaloscategorias":{
+    "flex-layout.row#guia-regalos-regaloscategorias": {
         "children": [
             "image#guia-regalos-regaloscategorias1",
             "image#guia-regalos-regaloscategorias2",
@@ -104,23 +106,103 @@
     },
     "image#guia-regalos-regaloscategorias1": {
         "props": {
+            "src": "/arquivos/Pilatos-GuiaRegalos-Banner-Camisas-min.jpg",
+            "alt": "Regala Camisas",
+            "title": "Regala Camisas"
+        }
+    },
+    "image#guia-regalos-regaloscategorias2": {
+        "props": {
+            "src": "/arquivos/Pilatos-GuiaRegalos-Banner-Jeans-min.jpg",
+            "alt": "Regala Camisas",
+            "title": "Regala Camisas"
+        }
+    },
+    "image#guia-regalos-regaloscategorias3": {
+        "props": {
+            "src": "/arquivos/Pilatos-GuiaRegalos-Banner-Tenis-min.jpg",
+            "alt": "Regala Camisas",
+            "title": "Regala Camisas"
+        }
+    },
+    "flex-layout.row#guia-regalos-regalosprecios":{
+        "children": [
+            //"image#guia-regalos-regalosprecios1",
+            "image#guia-regalos-regalosprecios2",
+            "image#guia-regalos-regalosprecios3"
+        ]
+    },
+    "image#guia-regalos-regalosprecios1": {
+        "props": {
             "src": "/arquivos/Pilatos-GuiaRegalos-BannerLanding-50-min.jpg",
             "alt": "Regalos hasta $50.000",
             "title": "Regalos hasta $50.000"
         }
     },
-    "image#guia-regalos-regaloscategorias2": {
+    "image#guia-regalos-regalosprecios2": {
         "props": {
             "src": "/arquivos/Pilatos-GuiaRegalos-BannerLanding-100-min.jpg",
             "alt": "Regalos hasta $100.000",
             "title": "Regalos hasta $100.000"
         }
     },
-    "image#guia-regalos-regaloscategorias3": {
+    "image#guia-regalos-regalosprecios3": {
         "props": {
             "src": "/arquivos/Pilatos-GuiaRegalos-BannerLanding-150-min.jpg",
             "alt": "Regalos hasta $150.000",
             "title": "Regalos hasta $150.000"
+        }
+    },
+    "flex-layout.row#shelf-landing-navidad": {
+        "children": [
+            "flex-layout.col#shelf-landing-navidad"
+        ],
+        "props": {
+            "blockClass": "sliderContentShelf"
+        }
+    },
+
+    "flex-layout.col#shelf-landing-navidad": {
+        "children": [
+            //"rich-text#title-shelf-landing-navidad",
+            "vtex.product-summary:list-context.product-list#shelf-landing-navidad"        
+        ]
+    },
+
+    "rich-text#title-shelf-landing-navidad":{
+        "props":{
+            "text": "Los más vistos",
+            "blockClass": "titleShelf"
+        }
+    },
+
+    "vtex.product-summary:list-context.product-list#shelf-landing-navidad": {
+        "blocks": [
+            "vtex.product-summary:product-summary.shelf#most-viewed"
+        ],
+        "children": [
+            "slider-layout#shelf-landing-navidad"
+        ],
+        "props": {
+            "orderBy": "OrderByTopSaleDESC",
+            "collection": "1202",
+            "maxItems": 100
+        }
+    },
+    "slider-layout#shelf-landing-navidad": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 4,
+            "tablet": 3,
+            "phone": 2
+          },
+          "infinite": true,
+          "showNavigationArrows": "desktopOnly",
+          "showPaginationDots": "always"
+        //   "centerMode": {
+        //     "mobile": "to-the-left",
+        //     "desktop": "disabled"
+        //   }
         }
     }
 }
