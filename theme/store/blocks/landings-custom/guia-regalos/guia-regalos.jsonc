@@ -1,6 +1,6 @@
 {
     "store.custom#guia-regalos": {
-        "children":[
+        "children": [
             "responsive-layout.desktop#guia-regalos-banner",
             "responsive-layout.tablet#guia-regalos-banner",
             "responsive-layout.phone#guia-regalos-banner",
@@ -9,8 +9,9 @@
         ]
     },
     "responsive-layout.desktop#guia-regalos-banner": {
-        "children":[
+        "children": [
             "image#guia-regalos-banner-desktop",
+            "rich-text#guia-regalos-text-seo-h1",
             "image#guia-regalos-bannerextra-desktop"
         ]
     },
@@ -28,8 +29,16 @@
             "title": "Pilatos Navidad Guía de Regalos"
         }
     },
+    "rich-text#guia-regalos-text-seo-h1": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "# Guía de regalos Pilatos",
+            "blockClass": "guia-regalos-textseo-h1"
+        }
+    },
     "responsive-layout.tablet#guia-regalos-banner": {
-        "children":[
+        "children": [
             "image#guia-regalos-banner-tablet"
         ]
     },
@@ -41,7 +50,7 @@
         }
     },
     "responsive-layout.phone#guia-regalos-banner": {
-        "children":[
+        "children": [
             "image#guia-regalos-banner-phone"
         ]
     },
@@ -53,7 +62,8 @@
         }
     },
     "responsive-layout.mobile#guia-regalos-banner": {
-        "children":[
+        "children": [
+            "rich-text#guia-regalos-text-seo-h1",
             "image#guia-regalos-bannerextra-mobile"
         ]
     },
@@ -70,15 +80,16 @@
         ]
     },
     "flex-layout.col#guia-regalos": {
-        "children":[
+        "children": [
             "flex-layout.row#guia-regalos-regalosparaelyella",
             "flex-layout.row#guia-regalos-regaloscategorias",
             "flex-layout.row#guia-regalos-regalosprecios",
-            "flex-layout.row#shelf-landing-navidad"
+            "flex-layout.row#shelf-landing-navidad",
+            "rich-text#guia-regalos-text-seo-p"
         ]
     },
     "flex-layout.row#guia-regalos-regalosparaelyella": {
-        "children":[
+        "children": [
             "image#guia-regalos-regalosparael",
             "image#guia-regalos-regalosparaella"
         ]
@@ -125,7 +136,7 @@
             "title": "Regala Camisas"
         }
     },
-    "flex-layout.row#guia-regalos-regalosprecios":{
+    "flex-layout.row#guia-regalos-regalosprecios": {
         "children": [
             //"image#guia-regalos-regalosprecios1",
             "image#guia-regalos-regalosprecios2",
@@ -161,21 +172,18 @@
             "blockClass": "sliderContentShelf"
         }
     },
-
     "flex-layout.col#shelf-landing-navidad": {
         "children": [
             //"rich-text#title-shelf-landing-navidad",
-            "vtex.product-summary:list-context.product-list#shelf-landing-navidad"        
+            "vtex.product-summary:list-context.product-list#shelf-landing-navidad"
         ]
     },
-
-    "rich-text#title-shelf-landing-navidad":{
-        "props":{
+    "rich-text#title-shelf-landing-navidad": {
+        "props": {
             "text": "Los más vistos",
             "blockClass": "titleShelf"
         }
     },
-
     "vtex.product-summary:list-context.product-list#shelf-landing-navidad": {
         "blocks": [
             "vtex.product-summary:product-summary.shelf#most-viewed"
@@ -191,18 +199,26 @@
     },
     "slider-layout#shelf-landing-navidad": {
         "props": {
-          "itemsPerPage": {
-            "desktop": 4,
-            "tablet": 3,
-            "phone": 2
-          },
-          "infinite": true,
-          "showNavigationArrows": "desktopOnly",
-          "showPaginationDots": "always"
-        //   "centerMode": {
-        //     "mobile": "to-the-left",
-        //     "desktop": "disabled"
-        //   }
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 3,
+                "phone": 2
+            },
+            "infinite": true,
+            "showNavigationArrows": "desktopOnly",
+            "showPaginationDots": "always"
+            //   "centerMode": {
+            //     "mobile": "to-the-left",
+            //     "desktop": "disabled"
+            //   }
+        }
+    },
+    "rich-text#guia-regalos-text-seo-p": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "¡It's christmas time! Sabemos lo difícil que es encontrar el regalo perfecto, por esta razón Pilatos te ofrece esta guía de regalos con las mejores marcas. ¡Te ayudamos a escoger! chaquetas para hombre, camisetas, accesorios, zapatos y mucho más para hombre y mujer. Válido del 6 al 24 de diciembre de 2021",
+            "blockClass": "guia-regalos-textseo-p"
         }
     }
 }
