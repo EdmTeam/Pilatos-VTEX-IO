@@ -608,5 +608,8 @@
     },
     "store.custom#guia-regalos":{
         "path": "/guia-de-regalos"
+    },
+    "store.custom#landingFormulario": {
+        "path": "/landing-formulario"
     }
 }
