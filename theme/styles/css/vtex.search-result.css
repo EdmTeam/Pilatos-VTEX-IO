@@ -176,3 +176,14 @@
         width: 100%;
     }
 }
+
+/* Cambio de texto Filtro */
+.filter__container--category-1 .filterTitle {
+    font-size: 0;
+}
+
+.filter__container--category-1 .filterTitle::before {
+    content: 'Género';
+    font-size: 12px;
+    display: inline-block;
+}
