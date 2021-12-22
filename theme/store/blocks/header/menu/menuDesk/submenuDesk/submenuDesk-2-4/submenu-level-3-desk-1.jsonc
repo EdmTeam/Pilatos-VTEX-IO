@@ -32,7 +32,8 @@
             "rich-text#submenu-desk-department-4-category-23",
             "rich-text#submenu-desk-department-4-category-24",
             "rich-text#submenu-desk-department-4-category-25",
-            "rich-text#submenu-desk-department-4-category-26"
+            "rich-text#submenu-desk-department-4-category-26",
+            "rich-text#submenu-desk-department-4-category-27"
         ],
         "props":{
             "blockClass": [
@@ -223,6 +224,13 @@
     "rich-text#submenu-desk-department-4-category-26":{
         "props":{
             "text": "[The Frenchie Co](/the-frenchie-co)",
+            "blockClass": "textCategory"
+        }
+    },
+
+    "rich-text#submenu-desk-department-4-category-27":{
+        "props":{
+            "text": "[Vans](/vans)",
             "blockClass": "textCategory"
         }
     }

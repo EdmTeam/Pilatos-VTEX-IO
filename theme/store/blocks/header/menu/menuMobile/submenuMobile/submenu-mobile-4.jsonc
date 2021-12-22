@@ -28,7 +28,17 @@
             "rich-text#submenu-level-2-item-14-row-7",
             "rich-text#submenu-level-2-item-15-row-7",
             "rich-text#submenu-level-2-item-16-row-7",
-            "rich-text#submenu-level-2-item-17-row-7"
+            "rich-text#submenu-level-2-item-17-row-7",
+            "rich-text#submenu-level-2-item-25-row-7",
+            "rich-text#submenu-level-2-item-26-row-7",
+            "rich-text#submenu-level-2-item-27-row-7",
+            "rich-text#submenu-level-2-item-18-row-7",
+            "rich-text#submenu-level-2-item-19-row-7",
+            "rich-text#submenu-level-2-item-20-row-7",
+            "rich-text#submenu-level-2-item-21-row-7",
+            "rich-text#submenu-level-2-item-22-row-7",
+            "rich-text#submenu-level-2-item-23-row-7",
+            "rich-text#submenu-level-2-item-24-row-7"
         ],
         "props": {
             "blockClass": [
@@ -243,6 +253,27 @@
     "rich-text#submenu-level-2-item-24-row-7":{
         "props":{
             "text": "[New Project](/new-project)",
+            "blockClass": "contentSubMenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-2-item-25-row-7":{
+        "props":{
+            "text": "[Vans](/vans)",
+            "blockClass": "contentSubMenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-2-item-26-row-7":{
+        "props":{
+            "text": "[Monastery](/monastery)",
+            "blockClass": "contentSubMenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-2-item-27-row-7":{
+        "props":{
+            "text": "[The Frenchie Co](/the-frenchie-co)",
             "blockClass": "contentSubMenuAcordeon"
         }
     }
