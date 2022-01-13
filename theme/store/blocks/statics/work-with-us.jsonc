@@ -44,13 +44,13 @@
             "flex-layout.col#content-work-with-desktop-col-2",
             "flex-layout.col#content-work-with-desktop-col-3",
             "flex-layout.col#content-work-with-desktop-col-4",
+            "form#work-with-us",
             "responsive-layout.desktop#brands-promise"
         ],
         "props":{
             "blockClass": "contentWorkWithDesktop"
         }
     },
-
 
     "responsive-layout.phone#work-with":{
         "children":[
@@ -354,6 +354,70 @@
             },
             "width": "100%",
             "blockClass": "workWithContentPromsSection"
+        }
+    },
+
+    "form#work-with-us": {
+        "props": {
+            "entity": "WU",
+            "schema": "workwithus"
+        },
+        "children": [
+            "form-input.text#workwithus-name",
+            "form-input.dropdown#workwithus-city",
+            "form-input.upload#workwithus-cv",
+            "form-input.checkbox#workwithus-terms",
+            "rich-text#landingFormulario-read-politics",
+            "form-submit#workwithus-submit"
+        ],
+        "blocks": [
+            "form-success#workwithus"
+        ]
+    },
+    "form-input.text#workwithus-name": {
+        "props": {
+            "pointer": "#/properties/name",
+            "label": "Nombre completo",
+            "placeholder": "Ingresa tu nombre completo"
+        }
+    },
+    "form-input.dropdown#workwithus-city": {
+        "props": {
+            "pointer": "#/properties/city",
+            "label": "Ciudad",
+            "placeholder": "Ingresa tu nombre completo"
+        }
+    },
+    "form-input.upload#workwithus-cv": {
+        "props": {
+            "pointer": "#/properties/file",
+            "label": "Nombre completo",
+            "placeholder": "Ingresa tu nombre completo"
+        }
+    },
+    "form-input.checkbox#workwithus-terms": {
+        "props": {
+            "pointer": "#/properties/terms",
+            "label": "Acepto política de datos y términos y condiciones"
+        }
+    },
+    "form-submit#workwithus-submit": {
+        "props": {
+            "label": "Registrarme",
+            "blockClass": "submit-workwithus"
+        }
+    },
+    "form-success#workwithus": {
+        "children": [
+            "rich-text#workwithus-successSubmit"
+        ]
+    },
+    "rich-text#workwithus-successSubmit": {
+        "props": {
+            "text": "Tus datos fueron registrados satisfactoriamente",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "dsi-successSubmit"
         }
     }
 }

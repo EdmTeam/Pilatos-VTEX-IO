@@ -1,0 +1,29 @@
+{
+    "title": "workwithus",
+    "type": "object",
+    "properties": {
+        "city": {
+            "type": "string",
+            "title": "Ciudad"
+        },
+        "name": {
+            "type": "string",
+            "title": "Nombre"
+        },
+        "terms": {
+            "type": "boolean",
+            "title": "Términos y Condiciones"
+        }
+    },
+    "required": [
+        "city",
+        "name",
+        "terms"
+    ],
+    "v-security": {
+        "publicWrite": [
+            "publicForWrite"
+        ],
+        "publicJsonSchema": true
+    }
+}
