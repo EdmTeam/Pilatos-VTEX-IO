@@ -6,3 +6,4 @@ Esta carpeta contiene los schemas utilizados para conectar los formularios a las
 | Nombre | Description |
 | ----------- | ----------- |
 | dsi | formulario landing de expectativa para el día sin IVA |
+| workwithis | formulario landing trabaja con nosotros |
