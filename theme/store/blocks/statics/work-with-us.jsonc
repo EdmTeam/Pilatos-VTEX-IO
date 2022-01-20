@@ -1,45 +1,39 @@
 {
-    "store.custom#work-with-us":{
-        "children":[
+    "store.custom#work-with-us": {
+        "children": [
             "flex-layout.row#content-work-with"
         ]
     },
-
-    "flex-layout.row#content-work-with":{
-        "children":[
+    "flex-layout.row#content-work-with": {
+        "children": [
             "flex-layout.col#content-work-with"
         ]
     },
-
-    "flex-layout.col#content-work-with":{
-        "children":[
+    "flex-layout.col#content-work-with": {
+        "children": [
             "responsive-layout.phone#work-with",
             "responsive-layout.tablet#work-with",
             "responsive-layout.desktop#work-with"
         ]
     },
-
-    "responsive-layout.desktop#work-with":{
-        "children":[
+    "responsive-layout.desktop#work-with": {
+        "children": [
             "flex-layout.row#content-work-with-desktop"
         ]
     },
-
-    "responsive-layout.tablet#work-with":{
-        "children":[
+    "responsive-layout.tablet#work-with": {
+        "children": [
             "flex-layout.row#content-work-with-desktop",
             "responsive-layout.tablet#brands-promise"
         ]
     },
-
-    "flex-layout.row#content-work-with-desktop":{
-        "children":[
+    "flex-layout.row#content-work-with-desktop": {
+        "children": [
             "flex-layout.col#content-work-with-desktop"
         ]
     },
-
-    "flex-layout.col#content-work-with-desktop":{
-        "children":[
+    "flex-layout.col#content-work-with-desktop": {
+        "children": [
             "flex-layout.col#content-work-with-desktop-col-1",
             "flex-layout.col#content-work-with-desktop-col-2",
             "flex-layout.col#content-work-with-desktop-col-3",
@@ -47,68 +41,62 @@
             "form#work-with-us",
             "responsive-layout.desktop#brands-promise"
         ],
-        "props":{
+        "props": {
             "blockClass": "contentWorkWithDesktop"
         }
     },
-
-    "responsive-layout.phone#work-with":{
-        "children":[
+    "responsive-layout.phone#work-with": {
+        "children": [
             "flex-layout.row#content-work-with-mobile"
         ]
     },
-
-    "flex-layout.row#content-work-with-mobile":{
-        "children":[
+    "flex-layout.row#content-work-with-mobile": {
+        "children": [
             "flex-layout.col#content-work-with-mobile-col-1",
             "flex-layout.col#content-work-with-mobile-col-2",
             "flex-layout.col#content-work-with-mobile-col-3",
             "flex-layout.col#content-work-with-mobile-col-4",
+            "form#work-with-us",
             "responsive-layout.phone#brands-promise"
         ]
     },
-
-    "flex-layout.col#content-work-with-mobile-col-1":{
-        "children":[
+    "flex-layout.col#content-work-with-mobile-col-1": {
+        "children": [
             "image#work-with"
         ],
-        "props":{
+        "props": {
             "width": "100%",
             "blockClass": "workWithContentBanner"
         }
     },
-
-    "flex-layout.col#content-work-with-desktop-col-1":{
-        "children":[
+    "flex-layout.col#content-work-with-desktop-col-1": {
+        "children": [
             "image#work-with-desktop"
         ],
-        "props":{
+        "props": {
             "width": "100%",
             "blockClass": "workWithContentBanner"
         }
     },
-
-    "flex-layout.col#content-work-with-mobile-col-2":{
-        "children":[
+    "flex-layout.col#content-work-with-mobile-col-2": {
+        "children": [
             "iframe#work-with"
         ],
-        "props":{
+        "props": {
             "width": "100%",
             "blockClass": "workWithContentIframe"
         }
     },
-
-    "flex-layout.col#content-work-with-desktop-col-2":{
-        "children":[
+    "flex-layout.col#content-work-with-desktop-col-2": {
+        "children": [
             "iframe#work-with"
         ],
-        "props":{
+        "props": {
             "width": "100%",
             "blockClass": "workWithContentIframe"
         }
     },
-
-    "image#work-with-desktop":{
+    "image#work-with-desktop": {
         "props": {
             "src": "/arquivos/vacantes-edm-banner.jpg",
             "link": {
@@ -118,8 +106,7 @@
             "width": "100%"
         }
     },
-
-    "image#work-with":{
+    "image#work-with": {
         "props": {
             "src": "/arquivos/vacantes-edm-banner-m.jpg",
             "link": {
@@ -129,37 +116,33 @@
             "width": "100%"
         }
     },
-
     "iframe#work-with": {
         "props": {
-          "src": "https://www.youtube-nocookie.com/embed/Ylf15fPwu5U?autoplay=1&loop=1&playlist=Ylf15fPwu5U&controls=0&mute=0",
-          "blockClass":"contentWorkWithIframe"
+            "src": "https://www.youtube-nocookie.com/embed/Ylf15fPwu5U?autoplay=1&loop=1&playlist=Ylf15fPwu5U&controls=0&mute=0",
+            "blockClass": "contentWorkWithIframe"
         }
     },
-
-    "flex-layout.col#content-work-with-mobile-col-3":{
-        "children":[
+    "flex-layout.col#content-work-with-mobile-col-3": {
+        "children": [
             "image#work-with-banner-2",
-            "image#work-with-banner-3"     
+            "image#work-with-banner-3"
         ],
-        "props":{
+        "props": {
             "width": "100%",
             "blockClass": "workWithContentBanner-2"
         }
     },
-
-    "flex-layout.col#content-work-with-desktop-col-3":{
-        "children":[
+    "flex-layout.col#content-work-with-desktop-col-3": {
+        "children": [
             "image#work-with-banner-2",
-            "image#work-with-banner-3"     
+            "image#work-with-banner-3"
         ],
-        "props":{
+        "props": {
             "width": "100%",
             "blockClass": "workWithContentBanner-2"
         }
     },
-
-    "image#work-with-banner-2":{
+    "image#work-with-banner-2": {
         "props": {
             "src": "/arquivos/vacantes-equipo-2-2020.png",
             "link": {
@@ -170,8 +153,7 @@
             "blockClass": "workWithContentBannerImg"
         }
     },
-
-    "image#work-with-banner-3":{
+    "image#work-with-banner-3": {
         "props": {
             "src": "/arquivos/vacantes-equipo-2020.png",
             "link": {
@@ -182,134 +164,121 @@
             "blockClass": "workWithContentBannerImg"
         }
     },
-
-    "flex-layout.col#content-work-with-mobile-col-4":{
-        "children":[
+    "flex-layout.col#content-work-with-mobile-col-4": {
+        "children": [
             "flex-layout.row#content-work-with-mobile-col-4"
         ],
-        "props":{
+        "props": {
             "width": "100%",
             "blockClass": "workWithContentBanner-3"
         }
     },
-
-    "flex-layout.col#content-work-with-desktop-col-4":{
-        "children":[
+    "flex-layout.col#content-work-with-desktop-col-4": {
+        "children": [
             "flex-layout.row#content-work-with-desktop-col-4"
         ],
-        "props":{
+        "props": {
             "width": "100%",
             "blockClass": "workWithContentBanner-3"
         }
     },
-
-    "flex-layout.row#content-work-with-mobile-col-4":{
-        "children":[
+    "flex-layout.row#content-work-with-mobile-col-4": {
+        "children": [
             "flex-layout.col#content-work-with-mobile-banner-3-col-1",
             "flex-layout.col#content-work-with-mobile-banner-3-col-2",
             "flex-layout.col#content-work-with-mobile-banner-3-col-3",
             "flex-layout.col#content-work-with-mobile-banner-3-col-4"
         ],
-        "props":{
+        "props": {
             "preserveLayoutOnMobile": true,
             "blockClass": "workWithContentPromsSectionRow"
         }
     },
-
-    "flex-layout.row#content-work-with-desktop-col-4":{
-        "children":[
+    "flex-layout.row#content-work-with-desktop-col-4": {
+        "children": [
             "flex-layout.col#content-work-with-desktop-banner-3-col-1",
             "flex-layout.col#content-work-with-desktop-banner-3-col-2",
             "flex-layout.col#content-work-with-desktop-banner-3-col-3",
             "flex-layout.col#content-work-with-desktop-banner-3-col-4"
         ],
-        "props":{
+        "props": {
             "preserveLayoutOnMobile": true,
             "blockClass": "workWithContentPromsSectionRow"
         }
     },
-
-    "flex-layout.col#content-work-with-mobile-banner-3-col-1":{
-        "children":[
+    "flex-layout.col#content-work-with-mobile-banner-3-col-1": {
+        "children": [
             "image#work-with-banner-promsSection-1"
         ],
-        "props":{
+        "props": {
             "width": "50%",
             "blockClass": "workWithImgPromsSectionLeft"
         }
     },
-
-    "flex-layout.col#content-work-with-desktop-banner-3-col-1":{
-        "children":[
+    "flex-layout.col#content-work-with-desktop-banner-3-col-1": {
+        "children": [
             "image#work-with-banner-promsSection-1"
         ],
-        "props":{
+        "props": {
             "width": "25%",
             "blockClass": "workWithImgPromsSection"
         }
     },
-
-    "flex-layout.col#content-work-with-mobile-banner-3-col-2":{
-        "children":[
+    "flex-layout.col#content-work-with-mobile-banner-3-col-2": {
+        "children": [
             "image#work-with-banner-promsSection-2"
         ],
-        "props":{
+        "props": {
             "width": "50%",
             "blockClass": "workWithImgPromsSectionRight"
         }
     },
-
-    "flex-layout.col#content-work-with-desktop-banner-3-col-2":{
-        "children":[
+    "flex-layout.col#content-work-with-desktop-banner-3-col-2": {
+        "children": [
             "image#work-with-banner-promsSection-2"
         ],
-        "props":{
+        "props": {
             "width": "25%",
             "blockClass": "workWithImgPromsSection"
         }
     },
-
-    "flex-layout.col#content-work-with-mobile-banner-3-col-3":{
-        "children":[
+    "flex-layout.col#content-work-with-mobile-banner-3-col-3": {
+        "children": [
             "image#work-with-banner-promsSection-3"
         ],
-        "props":{
+        "props": {
             "width": "50%",
             "blockClass": "workWithImgPromsSectionLeft"
         }
     },
-
-    "flex-layout.col#content-work-with-desktop-banner-3-col-3":{
-        "children":[
+    "flex-layout.col#content-work-with-desktop-banner-3-col-3": {
+        "children": [
             "image#work-with-banner-promsSection-3"
         ],
-        "props":{
+        "props": {
             "width": "25%",
             "blockClass": "workWithImgPromsSection"
         }
     },
-
-    "flex-layout.col#content-work-with-mobile-banner-3-col-4":{
-        "children":[
+    "flex-layout.col#content-work-with-mobile-banner-3-col-4": {
+        "children": [
             "image#work-with-banner-promsSection-4"
         ],
-        "props":{
+        "props": {
             "width": "50%",
             "blockClass": "workWithImgPromsSectionRight"
         }
     },
-
-    "flex-layout.col#content-work-with-desktop-banner-3-col-4":{
-        "children":[
+    "flex-layout.col#content-work-with-desktop-banner-3-col-4": {
+        "children": [
             "image#work-with-banner-promsSection-4"
         ],
-        "props":{
+        "props": {
             "width": "25%",
             "blockClass": "workWithImgPromsSection"
         }
     },
-
-    "image#work-with-banner-promsSection-1":{
+    "image#work-with-banner-promsSection-1": {
         "props": {
             "src": "/arquivos/vacantes-edm-comisiones.png",
             "link": {
@@ -320,8 +289,7 @@
             "blockClass": "workWithContentPromsSection"
         }
     },
-
-    "image#work-with-banner-promsSection-2":{
+    "image#work-with-banner-promsSection-2": {
         "props": {
             "src": "/arquivos/vacantes-edm-mejoresmarcas.png",
             "link": {
@@ -332,8 +300,7 @@
             "blockClass": "workWithContentPromsSection"
         }
     },
-
-    "image#work-with-banner-promsSection-3":{
+    "image#work-with-banner-promsSection-3": {
         "props": {
             "src": "/arquivos/vacantes-edm-moda.png",
             "link": {
@@ -344,8 +311,7 @@
             "blockClass": "workWithContentPromsSection"
         }
     },
-
-    "image#work-with-banner-promsSection-4":{
+    "image#work-with-banner-promsSection-4": {
         "props": {
             "src": "/arquivos/vacantes-edm-soy.png",
             "link": {
@@ -356,23 +322,51 @@
             "blockClass": "workWithContentPromsSection"
         }
     },
-
     "form#work-with-us": {
         "props": {
-            "entity": "WU",
+            "entity": "workwithus",
             "schema": "workwithus"
         },
         "children": [
-            "form-input.text#workwithus-name",
-            "form-input.dropdown#workwithus-city",
-            "form-input.upload#workwithus-cv",
-            "form-input.checkbox#workwithus-terms",
-            "rich-text#landingFormulario-read-politics",
-            "form-submit#workwithus-submit"
+            "flex-layout.row#container-form-work-with-us"
         ],
         "blocks": [
             "form-success#workwithus"
         ]
+    },
+    "flex-layout.row#container-form-work-with-us": {
+        "props": {
+            "paddingTop": 3,
+            "paddingBottom": 3
+        },
+        "children": [
+            "flex-layout.col#container-form-work-with-us"
+        ]
+    },
+    "flex-layout.col#container-form-work-with-us": {
+        "props": {
+            "paddingLeft": 8,
+            "paddingRight": 8,
+            "rowGap": 5,
+            "blockClass": "container-col-form-work-with-us"
+        },
+        "children": [
+            "rich-text#workwithus-title",
+            "form-input.text#workwithus-name",
+            "flex-layout.row#form-work-with-us-locate",
+            "form-input.upload#workwithus-cv",
+            "rich-text#landingFormulario-read-politics",
+            "form-input.checkbox#workwithus-terms",
+            "rich-text#workwithus-habeas-data",
+            "form-submit#workwithus-submit"
+        ]
+    },
+    "rich-text#workwithus-title": {
+        "props": {
+            "text": "# Registrate y trabaja con nosotros",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
     },
     "form-input.text#workwithus-name": {
         "props": {
@@ -381,18 +375,33 @@
             "placeholder": "Ingresa tu nombre completo"
         }
     },
-    "form-input.dropdown#workwithus-city": {
+    "flex-layout.row#form-work-with-us-locate": {
+        "props": {
+            "colGap": 5
+        },
+        "children": [
+            "form-input.dropdown#workwithus-department",
+            "form-input.text#workwithus-city"
+        ]
+    },
+    "form-input.dropdown#workwithus-department": {
+        "props": {
+            "pointer": "#/properties/department",
+            "label": "Departamento"
+        }
+    },
+    "form-input.text#workwithus-city": {
         "props": {
             "pointer": "#/properties/city",
             "label": "Ciudad",
-            "placeholder": "Ingresa tu nombre completo"
+            "placeholder": "Ingresa tu ciudad de residencia"
         }
     },
     "form-input.upload#workwithus-cv": {
         "props": {
-            "pointer": "#/properties/file",
-            "label": "Nombre completo",
-            "placeholder": "Ingresa tu nombre completo"
+            "pointer": "#/properties/upload",
+            "label": "Hoja de vida",
+            "blockClass": "file-workwithus-cv"
         }
     },
     "form-input.checkbox#workwithus-terms": {
@@ -409,8 +418,30 @@
     },
     "form-success#workwithus": {
         "children": [
+            "flex-layout.row#form-work-with-us-success"
+        ]
+    },
+    "flex-layout.row#form-work-with-us-success": {
+        "children": [
+            "flex-layout.col#form-work-with-us-success"
+        ]
+    },
+    "flex-layout.col#form-work-with-us-success": {
+        "props": {
+            "paddingLeft": 10,
+            "paddingRight": 10
+        },
+        "children": [
             "rich-text#workwithus-successSubmit"
         ]
+    },
+    "rich-text#workwithus-habeas-data": {
+        "props": {
+            "text": "Agradecemos el interés de compartir con nosotros su hoja de vida, lo contactaremos en caso de contar con una oportunidad laboral que se ajuste a su perfil profesional. Con el fin de dar cumplimiento a la Ley 1581 de 2012 y el Decreto 1377 de 2013 (“Ley 1581”), y demás normas complementarias, Estudio de Moda S.A.S (la “Compañía”) actúa como Responsable de los Datos Personales recolectados de conformidad con la definición incluida en la Ley 1581. El envío voluntario a través de este sitio web de su hoja de vida constituye para la Compañía una manifestación inequívoca, la cual no admite duda o equivocación, y que nos permite concluir de forma razonable que usted otorgó su AUTORIZACIÓN previa, expresa e informada y consentimiento explícito para el tratamiento de los Datos Personales allí contenidos por parte de la Compañía. Para mayor información en cuanto al tratamiento lo invitamos a consultar la Política de Tratamiento de Información aplicable disponible en www.pilatos.com enviando un correo electrónico a habeasdata@estudiodemoda.com.co. Sus Datos Personales serán tratados bajo principios de seguridad y confidencialidad aplicables, con el propósito de analizar.",
+            "textAlignment": "LEFT",
+            "textPosition": "CENTER",
+            "blockClass": "workwithus-habeasdata"
+        }
     },
     "rich-text#workwithus-successSubmit": {
         "props": {

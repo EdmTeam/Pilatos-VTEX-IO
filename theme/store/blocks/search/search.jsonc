@@ -9,7 +9,8 @@
         "skusFilter": "FIRST_AVAILABLE",
         "simulationBehavior": "skip",
         "maxItemsPerPage": 48,
-        "hideUnavailableItems": true
+        "hideUnavailableItems": true,
+        "orderByField": "OrderByScoreDESC"
       }
     }
   },  

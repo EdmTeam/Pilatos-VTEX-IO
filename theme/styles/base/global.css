@@ -350,3 +350,24 @@
 :global(.vtex-flex-layout-0-x-flexCol--formContainer-dsi) form label:nth-child(2n) :global(.vtex-input__label) {
     display: none !important;
 }
+
+/*
+* Estilos para FORMULARIO WORK WITH US
+*/
+:global(.vtex-flex-layout-0-x-flexColChild--container-col-form-work-with-us) :global(.vtex-styleguide-9-x-dropdown) span {
+    font-size: 0;
+}
+:global(.vtex-flex-layout-0-x-flexCol--container-col-form-work-with-us)
+:global(.vtex-flex-layout-0-x-flexColChild--container-col-form-work-with-us):nth-child(4)
+:global(.vtex-styleguide-9-x-dropdown)::before {
+  content: "Hoja de Vida";
+  display: inline-block;
+  font-size: 14px;
+}
+:global(.vtex-flex-layout-0-x-flexCol--container-col-form-work-with-us)
+:global(.vtex-flex-layout-0-x-flexColChild--container-col-form-work-with-us):nth-child(4)
+:global(.vtex-styleguide-9-x-dropdown)::after {
+  content: "*Subir solo archivos en formaro PDF de máximo 2MB de peso.";
+  display: inline-block;
+  font-size: 12px;
+}
