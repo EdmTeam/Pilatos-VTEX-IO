@@ -63,7 +63,7 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByReleaseDateDESC",
+                "orderByField": "OrderByScoreDESC",
                 "hideUnavailableItems": true,
                 "maxItemsPerPage": 61,
                 "queryField": "mujer/zapatos/tenis",

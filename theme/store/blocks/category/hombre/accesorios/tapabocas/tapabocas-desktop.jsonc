@@ -60,7 +60,7 @@
         ],
         "props": {
             "querySchema": {
-                "orderByField": "OrderByReleaseDateDESC",
+                "orderByField": "OrderByScoreDESC",
                 "hideUnavailableItems": true,
                 "maxItemsPerPage": 48,
                 "queryField": "hombre/accesorios/tapabocas",
