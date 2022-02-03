@@ -1,3 +1,7 @@
+.productHighlightWrapper {
+    font-size: 0;
+}
+
 .productHighlightWrapper [data-highlight-id="1171"]{
     font-size: 0;
     /*width: 40px;
@@ -7,6 +11,15 @@
     background-image: url(/arquivos/flag-dsi-Pilatos.png);
     display: block;*/
 }
+.productHighlightWrapper [data-highlight-id="1219"]{
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(/arquivos/BTS-FLAGS-VERD-KIPLING.png);
+    display: block;
+}
+
 .productHighlightWrapper [data-highlight-id="1189"]{
     font-size: 0;
 }
