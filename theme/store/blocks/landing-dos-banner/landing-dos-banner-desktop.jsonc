@@ -1,0 +1,116 @@
+{
+    "store.custom#landing-dos-banner":{
+        "blocks":[
+            "flex-layout.row#banner-department-dosbanner",
+            "search-result-layout.customQuery#department-dosbanner"
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
+    },
+
+    "flex-layout.row#banner-department-dosbanner":{
+        "children":[
+            "flex-layout.col#banner-department-dosbanner"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#banner-department-dosbanner":{
+        "children":[
+            "rich-text#departmen-dosbanner-bread-crumb",
+            "rich-text#department-dosbanner-title",
+            "rich-text#department-dosbanner-description",
+            "responsive-layout.desktop#department-dosbanner-banners",
+            "responsive-layout.tablet#department-dosbanner-banners",
+            "responsive-layout.phone#department-dosbanner-banners"
+        ]
+    },
+
+    "responsive-layout.desktop#department-dosbanner-banners":{
+        "children":[
+            "flex-layout.col#department-dosbanner-banners-1",
+            "flex-layout.col#department-dosbanner-banners-2"
+
+        ]
+    },
+
+    "rich-text#departmen-dosbanner-bread-crumb":{
+        "props":{
+            "text": "[Home](/) / [**Pilatos**](/pilatos)",
+            "blockClass": "departmentBreadCrumb"
+        }
+    },
+
+    "rich-text#department-dosbanner-title":{
+        "props":{
+            "text": "# Pilatos",
+            "blockClass": "departmentTitle"
+        }
+    },
+
+    "rich-text#department-dosbanner-description":{
+        "props":{
+            "text": "Contamos con nuestra **propia línea de ropa Pilatos** que trae nuevas cápsulas mes a mes, como Olímpicos, inspirada en los elementos típicos de los Juegos Olímpicos y Tokio como ciudad anfitriona. Encuentra diseños exclusivos de ropa para mujer y hombre en un solo lugar, camisetas, buzos y chaquetas, jeans y accesorios, perfectos para innovar y renovar tu clóset.",
+            "blockClass": "departmentDescription"
+        }
+    },
+
+    "search-result-layout.customQuery#department-dosbanner": {
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile#dosbanner"
+        ],
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByScoreDESC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 48,
+                "queryField": "pilatos",
+                "mapField": "b"
+            }
+        }
+    },
+
+    "flex-layout.col#department-dosbanner-banners-1":{
+        "children":[
+            "image#department-dosbanner-banners-1-img-1"
+        ],
+        "props":{
+            "blockClass":"contentBannersDesk"
+        }
+    },
+
+    "image#department-dosbanner-banners-1-img-1": {
+        "props": {
+            "src": "/arquivos/Pilatos_Banner_principal_Desktop.jpg",
+            "link": {
+                "url": "/pilatos",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+    "flex-layout.col#department-dosbanner-banners-2":{
+        "children":[
+            "image#department-dosbanner-banners-1-img-1"
+        ],
+        "props":{
+            "blockClass":"contentBannersDesk"
+        }
+    },
+
+    "image#department-dosbanner-banners-1-img-2": {
+        "props": {
+            "src": "/arquivos/Pilatos_Banner_principal_Desktop.jpg",
+            "link": {
+                "url": "/pilatos",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    }
+}
