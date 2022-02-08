@@ -34,22 +34,18 @@
             "rich-text#submenu-level-3-text-5-row-7",
             "rich-text#submenu-level-3-text-6-row-7",
             "rich-text#submenu-level-3-text-22-row-7",
-            "rich-text#submenu-level-3-text-7-row-7",
-            "rich-text#submenu-level-3-text-8-row-7",
             "rich-text#submenu-level-3-text-9-row-7",
             "rich-text#submenu-level-3-text-10-row-7",
             "rich-text#submenu-level-3-text-11-row-7",
             "rich-text#submenu-level-3-text-12-row-7",
-            "rich-text#submenu-level-3-text-13-row-7",
             "rich-text#submenu-level-3-text-14-row-7",
             "rich-text#submenu-level-3-text-15-row-7",
             "rich-text#submenu-level-3-text-16-row-7",
             "rich-text#submenu-level-3-text-17-row-7",
             "rich-text#submenu-level-3-text-18-row-7",
             "rich-text#submenu-level-3-text-19-row-7",
-            "rich-text#submenu-level-3-text-20-row-7",
-            "rich-text#submenu-level-3-text-21-row-7"
-        ],
+            "rich-text#submenu-level-3-text-20-row-7"
+                ],
         "props": {
             "blockClass": "contentSubMenuAcordeon"
         }
@@ -100,19 +96,8 @@
         }
     },
 
-    "rich-text#submenu-level-3-text-7-row-7": {
-        "props": {
-            "text": "[Reebok](/hombre/reebok?map=category-1,marca)",
-            "blockClass": "textSubmenuAcordeon"
-        }
-    },
+   
 
-    "rich-text#submenu-level-3-text-8-row-7": {
-        "props": {
-            "text": "[Adidas](/hombre/adidas?map=category-1,marca)",
-            "blockClass": "textSubmenuAcordeon"
-        }
-    },
 
     "rich-text#submenu-level-3-text-9-row-7": {
         "props": {
@@ -141,12 +126,7 @@
             "blockClass": "textSubmenuAcordeon"
         }
     },
-    "rich-text#submenu-level-3-text-13-row-7": {
-        "props": {
-            "text": "[Fossil](/hombre/fossil?map=category-1,marca)",
-            "blockClass": "textSubmenuAcordeon"
-        }
-    },
+   
 
     "rich-text#submenu-level-3-text-14-row-7": {
         "props": {
@@ -197,12 +177,7 @@
         }
     },
 
-    "rich-text#submenu-level-3-text-21-row-7": {
-        "props": {
-            "text": "[New Project](/hombre/new-project?map=category-1,marca)",
-            "blockClass": "textSubmenuAcordeon"
-        }
-    },
+
 
     "rich-text#submenu-level-3-text-22-row-7": {
         "props": {
