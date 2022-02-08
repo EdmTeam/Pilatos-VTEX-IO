@@ -27,9 +27,7 @@
 
     "vtex.menu@2.x:submenu.accordion#submenu-level-3-row-2": {
         "children": [
-            "rich-text#submenu-level-3-text-1-row-2",
             "rich-text#submenu-level-3-text-2-row-2",
-            "rich-text#submenu-level-3-text-3-row-2",
             "rich-text#submenu-level-3-text-4-row-2"
         ],
         "props": {
@@ -37,31 +35,22 @@
         }
     },
 
-    "rich-text#submenu-level-3-text-1-row-2": {
+  
+    "rich-text#submenu-level-3-text-4-row-2": {
         "props": {
-            "text": "[Regular](/hombre/jeans/regular)",
+            "text": "[Ver todos](/hombre/jeans)",
             "blockClass": "textSubmenuAcordeon"
         }
-    },
+    }, 
 
     "rich-text#submenu-level-3-text-2-row-2": {
         "props": {
             "text": "[Slim](/hombre/jeans/slim)",
             "blockClass": "textSubmenuAcordeon"
         }
-    },
-
-    "rich-text#submenu-level-3-text-3-row-2": {
-        "props": {
-            "text": "[Superslim](/hombre/jeans/superslim)",
-            "blockClass": "textSubmenuAcordeon"
-        }
-    },
-
-    "rich-text#submenu-level-3-text-4-row-2": {
-        "props": {
-            "text": "[Wide](/hombre/jeans/wide)",
-            "blockClass": "textSubmenuAcordeon"
-        }
     }
+
+ 
+
+   
 }

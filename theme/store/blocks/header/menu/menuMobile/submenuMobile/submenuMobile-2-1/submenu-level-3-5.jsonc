@@ -38,9 +38,7 @@
             "rich-text#submenu-level-3-text-9-row-5",
             "rich-text#submenu-level-3-text-10-row-5",
             "rich-text#submenu-level-3-text-11-row-5",
-            "rich-text#submenu-level-3-text-12-row-5",
-            "rich-text#submenu-level-3-text-13-row-5"
-        ],
+            "rich-text#submenu-level-3-text-12-row-5"        ],
         "props": {
             "blockClass": "contentSubMenuAcordeon"
         }
@@ -126,13 +124,6 @@
     "rich-text#submenu-level-3-text-12-row-5": {
         "props": {
             "text": "[Relojes](/hombre/accesorios/relojes)",
-            "blockClass": "textSubmenuAcordeon"
-        }
-    },
-
-    "rich-text#submenu-level-3-text-13-row-5": {
-        "props": {
-            "text": "[Tapabocas](/hombre/accesorios/tapabocas)",
             "blockClass": "textSubmenuAcordeon"
         }
     }

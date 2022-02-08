@@ -27,7 +27,6 @@
 
     "vtex.menu@2.x:submenu.accordion#submenu-level-3-row-3": {
         "children": [
-            "rich-text#submenu-level-3-text-1-row-3",
             "rich-text#submenu-level-3-text-2-row-3",
             "rich-text#submenu-level-3-text-3-row-3"
         ],
@@ -36,12 +35,7 @@
         }
     },
 
-    "rich-text#submenu-level-3-text-1-row-3": {
-        "props": {
-            "text": "[Accesorios](/hombre/ropa-de-playa/accesorios)",
-            "blockClass": "textSubmenuAcordeon"
-        }
-    },
+ 
 
     "rich-text#submenu-level-3-text-2-row-3": {
         "props": {
