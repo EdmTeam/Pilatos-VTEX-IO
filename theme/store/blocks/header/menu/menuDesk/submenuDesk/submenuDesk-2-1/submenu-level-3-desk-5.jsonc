@@ -9,7 +9,6 @@
         "children":[
             "rich-text#submenu-desk-department-1-category-5",
             "rich-text#submenu-desk-department-1-category-5-subcategory-1",
-            "rich-text#submenu-desk-department-1-category-5-subcategory-2",
             "rich-text#submenu-desk-department-1-category-5-subcategory-3"
         ],
         "props":{
@@ -27,13 +26,6 @@
     "rich-text#submenu-desk-department-1-category-5-subcategory-1":{
         "props":{
             "text": "[Pantalonetas](/hombre/ropa-de-playa/pantalonetas)",
-            "blockClass": "textSubcategory"
-        }
-    },
-
-    "rich-text#submenu-desk-department-1-category-5-subcategory-2":{
-        "props":{
-            "text": "[Accesorios](/hombre/ropa-de-playa/accesorios)",
             "blockClass": "textSubcategory"
         }
     },

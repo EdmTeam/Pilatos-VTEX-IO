@@ -15,22 +15,18 @@
             "rich-text#submenu-desk-department-1-category-7-subcategory-5",
             "rich-text#submenu-desk-department-1-category-7-subcategory-6",
             "rich-text#submenu-desk-department-1-category-7-subcategory-22",
-            "rich-text#submenu-desk-department-1-category-7-subcategory-7",
-            "rich-text#submenu-desk-department-1-category-7-subcategory-8",
             "rich-text#submenu-desk-department-1-category-7-subcategory-9",
             "rich-text#submenu-desk-department-1-category-7-subcategory-10",
             "rich-text#submenu-desk-department-1-category-7-subcategory-11",
             "rich-text#submenu-desk-department-1-category-7-subcategory-12",
-            "rich-text#submenu-desk-department-1-category-7-subcategory-13",
             "rich-text#submenu-desk-department-1-category-7-subcategory-14",
             "rich-text#submenu-desk-department-1-category-7-subcategory-15",
             "rich-text#submenu-desk-department-1-category-7-subcategory-16",
             "rich-text#submenu-desk-department-1-category-7-subcategory-17",
             "rich-text#submenu-desk-department-1-category-7-subcategory-18",
             "rich-text#submenu-desk-department-1-category-7-subcategory-19",
-            "rich-text#submenu-desk-department-1-category-7-subcategory-20",
-            "rich-text#submenu-desk-department-1-category-7-subcategory-21"
-        ],
+            "rich-text#submenu-desk-department-1-category-7-subcategory-20"
+                ],
         "props":{
             "blockClass": "contentBlockSubmenu"
         }
@@ -88,19 +84,7 @@
         }
     },
 
-    "rich-text#submenu-desk-department-1-category-7-subcategory-7":{
-        "props":{
-            "text": "[Reebok](/hombre/reebok?map=category-1,marca)",
-            "blockClass": "textSubcategory"
-        }
-    },
-
-    "rich-text#submenu-desk-department-1-category-7-subcategory-8":{
-        "props":{
-            "text": "[Adidas](/hombre/adidas?map=category-1,marca)",
-            "blockClass": "textSubcategory"
-        }
-    },
+  
 
     "rich-text#submenu-desk-department-1-category-7-subcategory-9":{
         "props":{
@@ -126,13 +110,6 @@
     "rich-text#submenu-desk-department-1-category-7-subcategory-12":{
         "props":{
             "text": "[Dzone](/hombre/dzone?map=category-1,marca)",
-            "blockClass": "textSubcategory"
-        }
-    },
-
-    "rich-text#submenu-desk-department-1-category-7-subcategory-13":{
-        "props":{
-            "text": "[Fossil](/hombre/fossil?map=category-1,marca)",
             "blockClass": "textSubcategory"
         }
     },
@@ -186,12 +163,6 @@
         }
     },
 
-    "rich-text#submenu-desk-department-1-category-7-subcategory-21":{
-        "props":{
-            "text": "[New Project](/hombre/new-project?map=category-1,marca)",
-            "blockClass": "textSubcategory"
-        }
-    },
 
     "rich-text#submenu-desk-department-1-category-7-subcategory-22":{
         "props":{
