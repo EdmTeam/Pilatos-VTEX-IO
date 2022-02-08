@@ -10,9 +10,6 @@
     "flex-layout.col#submenu-desk-department-1-category-2-row-1":{
         "children":[
             "rich-text#submenu-desk-department-1-category-2",
-            "rich-text#submenu-desk-department-1-category-2-subcategory-1",
-            "rich-text#submenu-desk-department-1-category-2-subcategory-2",
-            "rich-text#submenu-desk-department-1-category-2-subcategory-3",
             "rich-text#submenu-desk-department-1-category-2-subcategory-4"
         ],
         "props":{
@@ -25,28 +22,7 @@
             "text": "[JEANS](/hombre/jeans)",
             "blockClass": "textCategory"
         }
-    },
-
-    "rich-text#submenu-desk-department-1-category-2-subcategory-1":{
-        "props":{
-            "text": "[Superslim](/hombre/jeans/superslim)",
-            "blockClass": "textSubcategory"
-        }
-    },
-
-    "rich-text#submenu-desk-department-1-category-2-subcategory-2":{
-        "props":{
-            "text": "[Regular](/hombre/jeans/regular)",
-            "blockClass": "textSubcategory"
-        }
-    },
-
-    "rich-text#submenu-desk-department-1-category-2-subcategory-3":{
-        "props":{
-            "text": "[Wide](/hombre/jeans/wide)",
-            "blockClass": "textSubcategory"
-        }
-    },
+    },  
 
     "rich-text#submenu-desk-department-1-category-2-subcategory-4":{
         "props":{
