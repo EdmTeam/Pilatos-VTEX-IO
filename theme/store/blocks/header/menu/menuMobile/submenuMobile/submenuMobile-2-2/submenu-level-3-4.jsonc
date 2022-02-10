@@ -29,7 +29,6 @@
         "children": [
             "rich-text#submenu-level-3-text-1-row-4-row-2",
             "rich-text#submenu-level-3-text-2-row-4-row-2",
-            "rich-text#submenu-level-3-text-3-row-4-row-2",
             "rich-text#submenu-level-3-text-4-row-4-row-2"
         ],
         "props": {
@@ -51,12 +50,6 @@
         }
     },
 
-    "rich-text#submenu-level-3-text-3-row-4-row-2": {
-        "props": {
-            "text": "[Panties](/mujer/ropa-interior/panties)",
-            "blockClass": "textSubmenuAcordeon"
-        }
-    },
 
     "rich-text#submenu-level-3-text-4-row-4-row-2": {
         "props": {

@@ -27,41 +27,22 @@
 
     "vtex.menu@2.x:submenu.accordion#submenu-level-3-row-3-row-2": {
         "children": [
-            "rich-text#submenu-level-3-text-1-row-3-row-2",
-            "rich-text#submenu-level-3-text-2-row-3-row-2",
-            "rich-text#submenu-level-3-text-3-row-3-row-2",
-            "rich-text#submenu-level-3-text-4-row-3-row-2",
-            "rich-text#submenu-level-3-text-5-row-3-row-2"
+
+            "rich-text#submenu-level-3-text-5-row-3-row-2",
+            "rich-text#submenu-level-3-text-4-row-3-row-2"
+            
         ],
         "props": {
             "blockClass": "contentSubMenuAcordeon"
         }
     },
 
-    "rich-text#submenu-level-3-text-1-row-3-row-2": {
-        "props": {
-            "text": "[Accesorios](/mujer/ropa-de-playa/accesorios)",
-            "blockClass": "textSubmenuAcordeon"
-        }
-    },
+  
 
-    "rich-text#submenu-level-3-text-2-row-3-row-2": {
-        "props": {
-            "text": "[Bikinis](/mujer/ropa-de-playa/bikinis)",
-            "blockClass": "textSubmenuAcordeon"
-        }
-    },
-
-    "rich-text#submenu-level-3-text-3-row-3-row-2": {
-        "props": {
-            "text": "[Enteros](/mujer/ropa-de-playa/enteros)",
-            "blockClass": "textSubmenuAcordeon"
-        }
-    },
 
     "rich-text#submenu-level-3-text-4-row-3-row-2": {
         "props": {
-            "text": "[Salida de Baño](/mujer/ropa-de-playa/salida-de-baño)",
+            "text": "[Ver todo](/mujer/ropa-de-playa)",
             "blockClass": "textSubmenuAcordeon"
         }
     },

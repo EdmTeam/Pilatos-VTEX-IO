@@ -35,10 +35,8 @@
             "rich-text#submenu-level-3-text-6-row-7-row-2",
             "rich-text#submenu-level-3-text-7-row-7-row-2",
             "rich-text#submenu-level-3-text-8-row-7-row-2",
-            "rich-text#submenu-level-3-text-9-row-7-row-2",
             "rich-text#submenu-level-3-text-10-row-7-row-2",
             "rich-text#submenu-level-3-text-11-row-7-row-2",
-            "rich-text#submenu-level-3-text-12-row-7-row-2",
             "rich-text#submenu-level-3-text-13-row-7-row-2",
             "rich-text#submenu-level-3-text-14-row-7-row-2",
             "rich-text#submenu-level-3-text-15-row-7-row-2",
@@ -108,12 +106,6 @@
         }
     },
 
-    "rich-text#submenu-level-3-text-9-row-7-row-2": {
-        "props": {
-            "text": "[Reebok](/mujer/reebok?map=category-1,marca)",
-            "blockClass": "textSubmenuAcordeon"
-        }
-    },
 
     "rich-text#submenu-level-3-text-10-row-7-row-2": {
         "props": {
@@ -129,13 +121,7 @@
         }
     },
 
-    "rich-text#submenu-level-3-text-12-row-7-row-2": {
-        "props": {
-            "text": "[Agua Bendita](/mujer/agua-bendita?map=category-1,marca)",
-            "blockClass": "textSubmenuAcordeon"
-        }
-    },
-
+ 
     "rich-text#submenu-level-3-text-13-row-7-row-2": {
         "props": {
             "text": "[Roxy](/mujer/roxy?map=category-1,marca)",

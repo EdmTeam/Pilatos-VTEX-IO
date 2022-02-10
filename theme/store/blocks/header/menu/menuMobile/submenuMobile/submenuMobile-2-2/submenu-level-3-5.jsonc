@@ -29,17 +29,13 @@
         "children": [
             "rich-text#submenu-level-3-text-1-row-5-row-2",
             "rich-text#submenu-level-3-text-2-row-5-row-2",
-            "rich-text#submenu-level-3-text-3-row-5-row-2",
-            "rich-text#submenu-level-3-text-4-row-5-row-2",
             "rich-text#submenu-level-3-text-5-row-5-row-2",
             "rich-text#submenu-level-3-text-6-row-5-row-2",
             "rich-text#submenu-level-3-text-7-row-5-row-2",
             "rich-text#submenu-level-3-text-8-row-5-row-2",
             "rich-text#submenu-level-3-text-9-row-5-row-2",
             "rich-text#submenu-level-3-text-10-row-5-row-2",
-            "rich-text#submenu-level-3-text-11-row-5-row-2",
-            "rich-text#submenu-level-3-text-12-row-5-row-2",
-            "rich-text#submenu-level-3-text-13-row-5-row-2"
+            "rich-text#submenu-level-3-text-12-row-5-row-2"
         ],
         "props": {
             "blockClass": "contentSubMenuAcordeon"
@@ -56,20 +52,6 @@
     "rich-text#submenu-level-3-text-2-row-5-row-2": {
         "props": {
             "text": "[Bolsos](/mujer/accesorios/bolsos)",
-            "blockClass": "textSubmenuAcordeon"
-        }
-    },
-
-    "rich-text#submenu-level-3-text-3-row-5-row-2": {
-        "props": {
-            "text": "[Bufandas](/mujer/accesorios/bufandas)",
-            "blockClass": "textSubmenuAcordeon"
-        }
-    },
-
-    "rich-text#submenu-level-3-text-4-row-5-row-2": {
-        "props": {
-            "text": "[Correas](/mujer/accesorios/correas)",
             "blockClass": "textSubmenuAcordeon"
         }
     },
@@ -116,23 +98,11 @@
         }
     },
 
-    "rich-text#submenu-level-3-text-11-row-5-row-2": {
-        "props": {
-            "text": "[Perfumes](/mujer/accesorios/perfumes)",
-            "blockClass": "textSubmenuAcordeon"
-        }
-    },
+  
 
     "rich-text#submenu-level-3-text-12-row-5-row-2": {
         "props": {
             "text": "[Relojes](/mujer/accesorios/relojes)",
-            "blockClass": "textSubmenuAcordeon"
-        }
-    },
-
-    "rich-text#submenu-level-3-text-13-row-5-row-2": {
-        "props": {
-            "text": "[Tapabocas](/mujer/accesorios/tapabocas)",
             "blockClass": "textSubmenuAcordeon"
         }
     }
