@@ -16,10 +16,8 @@
             "rich-text#submenu-desk-department-2-category-7-subcategory-6",
             "rich-text#submenu-desk-department-2-category-7-subcategory-7",
             "rich-text#submenu-desk-department-2-category-7-subcategory-8",
-            "rich-text#submenu-desk-department-2-category-7-subcategory-9",
             "rich-text#submenu-desk-department-2-category-7-subcategory-10",
             "rich-text#submenu-desk-department-2-category-7-subcategory-11",
-            "rich-text#submenu-desk-department-2-category-7-subcategory-12",
             "rich-text#submenu-desk-department-2-category-7-subcategory-13",
             "rich-text#submenu-desk-department-2-category-7-subcategory-14",
             "rich-text#submenu-desk-department-2-category-7-subcategory-15",
@@ -96,12 +94,7 @@
         }
     },
 
-    "rich-text#submenu-desk-department-2-category-7-subcategory-9":{
-        "props":{
-            "text": "[Reebok](/mujer/reebok?map=category-1,marca)",
-            "blockClass": "textSubcategory"
-        }
-    },
+  
 
     "rich-text#submenu-desk-department-2-category-7-subcategory-10":{
         "props":{
@@ -117,12 +110,7 @@
         }
     },
 
-    "rich-text#submenu-desk-department-2-category-7-subcategory-12":{
-        "props":{
-            "text": "[Agua Bendita](/mujer/agua-bendita?map=category-1,marca)",
-            "blockClass": "textSubcategory"
-        }
-    },
+    
 
     "rich-text#submenu-desk-department-2-category-7-subcategory-13":{
         "props":{
