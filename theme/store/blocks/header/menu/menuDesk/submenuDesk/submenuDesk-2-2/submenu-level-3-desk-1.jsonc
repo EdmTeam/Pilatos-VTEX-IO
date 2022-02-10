@@ -11,7 +11,6 @@
             "rich-text#submenu-desk-department-2-category-1",
             "rich-text#submenu-desk-department-2-category-1-subcategory-1",
             "rich-text#submenu-desk-department-2-category-1-subcategory-2",
-            "rich-text#submenu-desk-department-2-category-1-subcategory-3",
             "rich-text#submenu-desk-department-2-category-1-subcategory-4",
             "rich-text#submenu-desk-department-2-category-1-subcategory-5",
             "rich-text#submenu-desk-department-2-category-1-subcategory-6",
@@ -46,12 +45,7 @@
         }
     },
 
-    "rich-text#submenu-desk-department-2-category-1-subcategory-3":{
-        "props":{
-            "text": "[Polos](/mujer/ropa/polos)",
-            "blockClass": "textSubcategory"
-        }
-    },
+ 
 
     "rich-text#submenu-desk-department-2-category-1-subcategory-4":{
         "props":{

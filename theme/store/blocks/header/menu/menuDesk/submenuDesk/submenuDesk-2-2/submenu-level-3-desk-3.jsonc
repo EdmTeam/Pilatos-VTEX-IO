@@ -8,14 +8,10 @@
     "flex-layout.col#submenu-desk-department-2-category-3-row-1":{
         "children":[
             "rich-text#submenu-desk-department-2-category-3",
-            "rich-text#submenu-desk-department-2-category-3-subcategory-1",
             "rich-text#submenu-desk-department-2-category-3-subcategory-2",
             "rich-text#submenu-desk-department-2-category-3-subcategory-3",
-            "rich-text#submenu-desk-department-2-category-3-subcategory-4",
-            "rich-text#submenu-desk-department-2-category-3-subcategory-5",
             "rich-text#submenu-desk-department-2-category-3-subcategory-6",
             "rich-text#submenu-desk-department-2-category-3-subcategory-7",
-            "rich-text#submenu-desk-department-2-category-3-subcategory-8",
             "rich-text#submenu-desk-department-2-category-3-subcategory-9",
             "rich-text#submenu-desk-department-2-category-3-subcategory-10",
             "rich-text#submenu-desk-department-2-category-3-subcategory-11",
@@ -34,12 +30,7 @@
         }
     },
 
-    "rich-text#submenu-desk-department-2-category-3-subcategory-1":{
-        "props":{
-            "text": "[Tapabocas](/mujer/accesorios/tapabocas)",
-            "blockClass": "textSubcategory"
-        }
-    },
+   
 
     "rich-text#submenu-desk-department-2-category-3-subcategory-2":{
         "props":{
@@ -55,19 +46,8 @@
         }
     },
 
-    "rich-text#submenu-desk-department-2-category-3-subcategory-4":{
-        "props":{
-            "text": "[Bufandas](/mujer/accesorios/bufandas)",
-            "blockClass": "textSubcategory"
-        }
-    },
+ 
 
-    "rich-text#submenu-desk-department-2-category-3-subcategory-5":{
-        "props":{
-            "text": "[Correas](/mujer/accesorios/correas)",
-            "blockClass": "textSubcategory"
-        }
-    },
 
     "rich-text#submenu-desk-department-2-category-3-subcategory-6":{
         "props":{
@@ -83,12 +63,6 @@
         }
     },
 
-    "rich-text#submenu-desk-department-2-category-3-subcategory-8":{
-        "props":{
-            "text": "[Perfumes](/mujer/accesorios/perfumes)",
-            "blockClass": "textSubcategory"
-        }
-    },
 
     "rich-text#submenu-desk-department-2-category-3-subcategory-9":{
         "props":{
