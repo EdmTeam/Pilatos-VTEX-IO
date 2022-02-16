@@ -1,0 +1,168 @@
+{
+    "store.custom#landing-marcas":{
+        "blocks":[
+            "flex-layout.row#banner-landing-marcas",
+            "search-result-layout.customQuery#landing-marcas"
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
+    },
+
+    "flex-layout.row#banner-landing-marcas":{
+        "children":[
+            "flex-layout.col#banner-landing-marcas"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#banner-landing-marcas":{
+        "children":[
+            "rich-text#landing-marcas-bread-crumb",
+            "rich-text#landing-marcas-title",
+            "rich-text#landing-marcas-description",
+            "responsive-layout.desktop#landing-marcas-banners",
+            "responsive-layout.tablet#landing-marcas-banners",
+            "responsive-layout.phone#landing-marcas-banners"
+        ]
+    },
+
+    "responsive-layout.desktop#landing-marcas-banners":{
+        "children":[
+            "flex-layout.col#landing-marcas-banners-1",
+            "flex-layout.row#landing-marcas-banners-2"
+        ]
+    },
+
+    "rich-text#landing-marcas-bread-crumb":{
+        "props":{
+            "text": "[Home](/) / [**Hombre**](/hombre)",
+            "blockClass": "departmentBreadCrumb"
+        }
+    },
+
+    "rich-text#landing-marcas-title":{
+        "props":{
+            "text": "# Ropa, zapatos y accesorios para hombre",
+            "blockClass": "departmentTitle"
+        }
+    },
+
+    "rich-text#landing-marcas-description":{
+        "props":{
+            "text": "Encuentra todo en zapatos, accesorios y ropa para hombre desde camisetas.",
+            "blockClass": "departmentDescription"
+        }
+    },
+
+    "search-result-layout.customQuery#landing-marcas": {
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile#landing-marcas"
+        ],
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByScoreDESC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 48,
+                "queryField": "replay",
+                "mapField": "b"
+            }
+        }
+    },
+
+    "flex-layout.col#landing-marcas-banners-1":{
+        "children":[
+            "image#landing-marcas-banners-1-img-1"
+        ],
+        "props":{
+            "blockClass":"contentBannersDesk"
+        }
+    },
+
+    "image#landing-marcas-banners-1-img-1": {
+        "props": {
+            "src": "/arquivos/Banner_Principal_Desktop_Departamento_Hombre.jpg",
+            "link": {
+                "url": "/hombre/ropa/camisetas",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+  
+
+    "flex-layout.row#landing-marcas-banners-2":{
+        "children":[
+            "flex-layout.col#landing-marcas-banners-2-img-1",
+            "flex-layout.col#landing-marcas-banners-2-img-2",
+            "flex-layout.col#landing-marcas-banners-2-img-3"
+        ],
+        "props":{
+            "blockClass":"contentBanners-2"
+        }
+    },
+
+    "flex-layout.col#landing-marcas-banners-2-img-1":{
+        "children":[
+            "image#landing-marcas-banners-2-img-1"
+        ],
+        "props":{
+            "width": "31%"
+        }
+    },
+
+    "image#landing-marcas-banners-2-img-1": {
+        "props": {
+            "src": "/arquivos/Banner_Tercer_Desktop_Departamento_Hombre.jpg",
+            "link": {
+                "url": "/hombre/ropa/polos",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-3"
+        }
+    },
+
+    "flex-layout.col#landing-marcas-banners-2-img-2":{
+        "children":[
+            "image#landing-marcas-banners-2-img-2"
+        ],
+        "props":{
+            "width": "31%"
+        }
+    },
+
+    "image#landing-marcas-banners-2-img-2": {
+        "props": {
+            "src": "/arquivos/Banner_Cuarto_Desktop_Departamento_Hombre.jpg",
+            "link": {
+                "url": "/hombre/ropa/buzos",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-4"
+        }
+    },
+
+    "flex-layout.col#landing-marcas-banners-2-img-3":{
+        "children":[
+            "image#landing-marcas-banners-2-img-3"
+        ],
+        "props":{
+            "width": "37%"
+        }
+    },
+
+    "image#landing-marcas-banners-2-img-3": {
+        "props": {
+            "src": "/arquivos/Banner_Quinto_Desktop_Departamento_Hombre.jpg",
+            "link": {
+                "url": "/hombre/jeans",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-5"
+        }
+    }
+}
