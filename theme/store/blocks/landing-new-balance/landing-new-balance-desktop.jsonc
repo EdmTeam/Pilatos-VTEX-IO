@@ -1,0 +1,191 @@
+{
+    "store.custom#landing-new-balance":{
+        "blocks":[
+            "flex-layout.row#banner-landing-new-balance",
+            "search-result-layout.customQuery#landing-new-balance"
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
+    },
+
+    "flex-layout.row#banner-landing-new-balance":{
+        "children":[
+            "flex-layout.col#banner-landing-new-balance"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#banner-landing-new-balance":{
+        "children":[
+            "rich-text#landing-new-balance-bread-crumb",
+            "rich-text#landing-new-balance-title",
+            "rich-text#landing-new-balance-description",
+            "responsive-layout.desktop#landing-new-balance-banners",
+            "responsive-layout.tablet#landing-new-balance-banners",
+            "responsive-layout.phone#landing-new-balance-banners"
+        ]
+    },
+
+    "responsive-layout.desktop#landing-new-balance-banners":{
+        "children":[
+            "flex-layout.col#landing-new-balance-banners-1",
+            "flex-layout.row#landing-new-balance-banners-2"
+        ]
+    },
+
+    "rich-text#landing-new-balance-bread-crumb":{
+        "props":{
+            "text": "[Home](/) / [**New Balance**](/new-balance)",
+            "blockClass": "departmentBreadCrumb"
+        }
+    },
+
+    "rich-text#landing-new-balance-title":{
+        "props":{
+            "text": "# Tenis New Balance, ropa y accesorios deportivos",
+            "blockClass": "departmentTitle"
+        }
+    },
+
+    "rich-text#landing-new-balance-description":{
+        "props":{
+            "text": "Encuentra los mejores diseños en New Balance Colombia, una marca estadounidense que llegó para quedarse. Encuentra los mejores **diseños en ropa, accesorios y tenis** para correr y combinar en tu día a día, su  versátilidad te hará sentir y lucir genial a donde quiera que vayas. ¡Elige ya tus favoritos en Pilatos!",
+            "blockClass": "departmentDescription"
+        }
+    },
+
+    "search-result-layout.customQuery#landing-new-balance": {
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile#landing-new-balance"
+        ],
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByScoreDESC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 48,
+                "queryField": "new-balance",
+                "mapField": "b"
+            }
+        }
+    },
+
+    "flex-layout.col#landing-new-balance-banners-1":{
+        "children":[
+            "image#landing-new-balance-banners-1-img-1"
+        ],
+        "props":{
+            "blockClass":"contentBannersDesk"
+        }
+    },
+
+    "image#landing-new-balance-banners-1-img-1": {
+        "props": {
+            "src": "/arquivos/Pilatos-BannersMarcas-NewbalanceDesktop.jpg",
+            "link": {
+                "url": "",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+  
+
+    "flex-layout.row#landing-new-balance-banners-2":{
+        "children":[
+            "flex-layout.col#landing-new-balance-banners-2-img-1",
+            "flex-layout.col#landing-new-balance-banners-2-img-2",
+            "flex-layout.col#landing-new-balance-banners-2-img-3",
+            "flex-layout.col#landing-new-balance-banners-2-img-4"
+
+        ],
+        "props":{
+            "blockClass":"contentBanners-new-balance"
+        }
+    },
+
+    "flex-layout.col#landing-new-balance-banners-2-img-1":{
+        "children":[
+            "image#landing-new-balance-banners-2-img-1"
+        ],
+        "props":{
+            "width": "30%"
+        }
+    },
+
+    "image#landing-new-balance-banners-2-img-1": {
+        "props": {
+            "src": "/arquivos/bPilatos-BannersCategorias-NewBalance-Mujer.jpg",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-3"
+        }
+    },
+
+    "flex-layout.col#landing-new-balance-banners-2-img-2":{
+        "children":[
+            "image#landing-new-balance-banners-2-img-2"
+        ],
+        "props":{
+            "width": "30%"
+        }
+    },
+
+    "image#landing-new-balance-banners-2-img-2": {
+        "props": {
+            "src": "/arquivos/bPilatos-BannersCategorias-NewBalance-Hombre.jpg",
+            "link": {
+                "url": "/hombre/ropa/buzos",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-4"
+        }
+    },
+
+   
+
+    "image#landing-new-balance-banners-2-img-3": {
+        "props": {
+            "src": "/arquivos/bPilatos-BannersCategorias-NewBalance-Ninos.jpg",
+            "link": {
+                "url": "/hombre/jeans",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-5"
+        }
+    },
+    "flex-layout.col#landing-new-balance-banners-2-img-3":{
+        "children":[
+            "image#landing-new-balance-banners-2-img-3"
+        ],
+        "props":{
+            "width": "30%"
+        }
+    },
+
+    "image#landing-new-balance-banners-2-img-4": {
+        "props": {
+            "src": "/arquivos/bPilatos-BannersCategorias-NewBalance-Accesorios.jpg",
+            "link": {
+                "url": "/hombre/jeans",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-6"
+        }
+    },
+    "flex-layout.col#landing-new-balance-banners-2-img-4":{
+        "children":[
+            "image#landing-new-balance-banners-2-img-4"
+        ],
+        "props":{
+            "width": "30%"
+        }
+    }
+    
+}
