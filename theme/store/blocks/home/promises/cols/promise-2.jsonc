@@ -71,14 +71,14 @@
 
     "rich-text#promise-2-text-1-mobile": {
         "props": {
-            "text": "**Envío gratis desde 250mil**",
+            "text": "**Envío gratis desde 300mil**",
             "blockClass": "colorPromise"
         }
     },
 
     "rich-text#promise-2-text-2": {
         "props": {
-            "text": "Envíos gratis a partir de $250.000",
+            "text": "Envíos gratis a partir de $300.000",
             "blockClass": "colorPromise2"
         }
     },
