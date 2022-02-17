@@ -81,7 +81,25 @@
     width: 100%;
     margin: .5rem auto !important;
   }
+
+  :global(.vtex-search-result-3-x-container--layout--searchResultMobile) .flexRowContent--contentBanners-new-balance{
+    margin: .5rem auto .8rem auto;
+    width: 95%;
+    background-color: #f0eced;
+  }
+  
+  :global(.vtex-search-result-3-x-container--layout--searchResultMobile) .flexRowContent--contentBanners-new-balance .stretchChildrenWidth{
+    width: 33.3% !important;
+  }
+  
+  .flexRowContent--contentBanners-new-balance{
+    width: 100%;
+    margin: .5rem auto !important;
+  }
 }
+
+
+
 
 .flexRow--contentContact{
   margin: 0;
@@ -965,6 +983,12 @@
 .flexRowContent--contentBanners-2{
   justify-content: space-between;
   margin-top: 2rem;
+}
+
+.flexRowContent--contentBanners-new-balance{
+  justify-content: space-between;
+  margin-top: 2rem;
+  background-color: #f0eced;
 }
 
 :global(.vtex-breadcrumb-1-x-container){

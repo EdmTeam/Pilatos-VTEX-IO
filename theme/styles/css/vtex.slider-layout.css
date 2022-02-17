@@ -155,6 +155,28 @@
 }
 
 
+.sliderLayoutContainer--slider-new-balance{
+    margin: .3rem 0 3rem 0;
+}
+
+.slide--slider-new-balance{
+    margin-right: 1% !important;
+    margin-left: 0 !important;
+    width: 9% !important;
+}
+
+.paginationDotsContainer--slider-new-balance{
+    bottom: -1.5rem;
+}
+
+.sliderTrack--slider-new-balance{
+    margin-top: .2rem;
+    margin-left: 1.5rem;
+    background-color: #f0eced;
+
+}
+
+
 .sliderLayoutContainer--departmenBannerSlide{
     margin: .3rem 0 3rem 0;
 }
@@ -177,6 +199,11 @@
 @media only screen and (min-width: 740px){
     .sliderLayoutContainer--departmenBannerSlide{
         margin: 1rem 0 2rem 0;
+    }
+
+    .sliderLayoutContainer--slider-new-balance{
+        margin: 1rem 0 2rem 0;
+        background-color: #f0eced;
     }
 
     .slide--promBannerContent:nth-child(odd){

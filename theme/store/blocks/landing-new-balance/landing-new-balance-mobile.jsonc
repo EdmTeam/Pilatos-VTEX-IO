@@ -1,0 +1,272 @@
+{
+    "responsive-layout.phone#landing-new-balance-banners":{
+        "children":[
+            "flex-layout.col#landing-new-balance-banners-1-mobile"
+        ]
+    },
+
+    "flex-layout.col#landing-new-balance-banners-1-mobile":{
+        "children":[
+            "image#landing-new-balance-banners-1-img-1-mobile"
+        ],
+        "props":{
+            "blockClass":"contentBannersDesk"
+        }
+    },
+
+    "image#landing-new-balance-banners-1-img-1-mobile": {
+        "props": {
+            "src": "/arquivos/Pilatos-BannersMarcas-NewbalanceMobile.jpg",
+            "link": {
+                "url": "",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+    "search-result-layout.mobile#landing-new-balance": {
+        "children": [
+          "flex-layout.row#banner-search-mobile",
+          "flex-layout.row#bread-crumb",
+          "flex-layout.row#suggestion",
+          "responsive-layout.phone#landing-new-balance-banners-2-phone",
+          "responsive-layout.tablet#landing-new-balance-banners-2-tablet",
+          "flex-layout.row#search-info-mobile-landing-new-balance",
+          "flex-layout.row#fetch-previous",
+          "flex-layout.row#content-mobile",
+          "flex-layout.row#fetch-more"
+        ],
+        "props": {
+            "blockClass": "searchResultMobile",
+            "preventRouteChange": true,
+            "hiddenFacets": {
+                "specificationFilters": {
+                    "hiddenFilters": [
+                        {
+                        "name": "Brand"
+                        },
+                        {
+                        "name": "Department"
+                        },
+                        {
+                        "name": "Category"
+                        },
+                        {
+                        "name": "Subcategory"
+                        },
+                        {
+                        "name": "Material"
+                        },
+                        {
+                        "name": "Alto (Cm)"
+                        },
+                        {
+                        "name": "Ancho (Cm)"
+                        },
+                        {
+                        "name": "Breve Descripción"
+                        },
+                        {
+                        "name": "Descripción"
+                        },
+                        {
+                        "name": "Material"
+                        }
+                    ]
+                }
+            },
+            "__unstableProductOriginVtex": true,
+            "mobileLayout": {
+                "mode1": "small",
+                "mode2": "normal"
+            }
+        }
+    },
+
+    "flex-layout.row#search-info-mobile-landing-new-balance": {
+        "children": [
+          "flex-layout.col#filterMobile",
+          "flex-layout.col#order-by-mobile"
+        ],
+        "props": {
+          "preserveLayoutOnMobile": true,
+          "colSizing": "auto",
+          "colJustify": "around",
+          "blockClass": "search-in-mobile"
+        }
+    },
+
+    "responsive-layout.phone#landing-new-balance-banners-2-phone":{
+        "children":[
+            "list-context.image-list#department-banner-mobile-landing-new-balance"
+        ]
+    },
+
+    "list-context.image-list#department-banner-mobile-landing-new-balance": {
+        "children": [
+            "slider-layout#department-banner-mobile-landing-new-balance"
+        ],
+        "props": {
+            "images": [
+             
+                {
+                    "image": "/arquivos/bPilatos-BannersCategorias-NewBalance-Mujer.jpg",
+                    "description": "Promotional Banner",
+                    "link": {
+                        "url": "",
+                        "attributeTitle": ""
+                    },
+                    "title": "",
+                    "width": "235px"
+
+                },
+                {
+                    "image": "/arquivos/bPilatos-BannersCategorias-NewBalance-Hombre.jpg",
+                    "description": "Promotional Banner",
+                    "link": {
+                        "url": "/hombre/ropa/buzos",
+                        "attributeTitle": ""
+                    },
+                    "title": ""
+                },
+                {
+                    "image": "/arquivos/bPilatos-BannersCategorias-NewBalance-Ninos.jpg",
+                    "description": "Promotional Banner",
+                    "link": {
+                        "url": "/hombre/ropa/buzos",
+                        "attributeTitle": ""
+                    },
+                    "title": ""
+                },
+                {
+                    "image": "/arquivos/bPilatos-BannersCategorias-NewBalance-Accesorios.jpg",
+                    "description": "Promotional Banner",
+                    "link": {
+                        "url": "/hombre/jeans",
+                        "attributeTitle": ""
+                    },
+                    "title": ""
+                }
+            ]
+        }
+    },
+
+    "slider-layout#department-banner-mobile-landing-new-balance": {
+        "props": {
+            "blockClass": "slider-new-balance",
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "centerMode": "to-the-left",
+            "showNavigationArrows": "desktopOnly",
+            "showPaginationDots": "mobileOnly"
+        }
+    },
+
+    //Tablet
+    "responsive-layout.tablet#landing-new-balance-banners":{
+        "children":[
+            "flex-layout.col#landing-new-balance-banners-1-tablet"
+        ]
+    },
+
+    "flex-layout.col#landing-new-balance-banners-1-tablet":{
+        "children":[
+            "image#landing-new-balance-banners-1-img-1-tablet"
+        ],
+        "props":{
+            "blockClass":"contentBannersDesk"
+        }
+    },
+
+    "image#landing-new-balance-banners-1-img-1-tablet": {
+        "props": {
+            "src": "/arquivos/Pilatos-BannersMarcas-NewbalanceDesktop.jpg",
+            "link": {
+                "url": "",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+    "responsive-layout.tablet#landing-new-balance-banners-2-tablet":{
+        "children":[
+            "flex-layout.row#landing-new-balance-banners-2-tablet"
+        ]
+    },
+
+    "flex-layout.row#landing-new-balance-banners-2-tablet":{
+        "children":[
+            "flex-layout.col#landing-new-balance-banners-2-img-1-tablet",
+            "flex-layout.col#landing-new-balance-banners-2-img-2-tablet",
+            "flex-layout.col#landing-new-balance-banners-2-img-3-tablet"
+        ],
+        "props":{
+            "blockClass":"contentBanners-new-balance"
+        }
+    },
+
+    "flex-layout.col#landing-new-balance-banners-2-img-1-tablet":{
+        "children":[
+            "image#landing-new-balance-banners-2-img-1-tablet"
+        ],
+        "props":{
+            "width": "33%"
+        }
+    },
+
+    "image#landing-new-balance-banners-2-img-1-tablet": {
+        "props": {
+            "src": "/arquivos/bPilatos-BannersCategorias-NewBalance-Mujer.jpg",
+            "link": {
+                "url": "/hombre/zapatos/tenis",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-3"
+        }
+    },
+
+    "flex-layout.col#landing-new-balance-banners-2-img-2-tablet":{
+        "children":[
+            "image#landing-new-balance-banners-2-img-2-tablet"
+        ],
+        "props":{
+            "width": "33%"
+        }
+    },
+
+    "image#landing-new-balance-banners-2-img-2-tablet": {
+        "props": {
+            "src": "/arquivos/bPilatos-BannersCategorias-NewBalance-Hombre.jpg",
+            "link": {
+                "url": "/hombre/accesorios/tapabocas",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-4"
+        }
+    },
+
+    "flex-layout.col#landing-new-balance-banners-2-img-3-tablet":{
+        "children":[
+            "image#landing-new-balance-banners-2-img-3-tablet"
+        ],
+        "props":{
+            "width": "33%"
+        }
+    },
+
+    "image#landing-new-balance-banners-2-img-3-tablet": {
+        "props": {
+            "src": "/arquivos/bPilatos-BannersCategorias-NewBalance-Ninos.jpg",
+            "link": {
+                "url": "/hombre/jeans",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-5"
+        }
+    }
+}
