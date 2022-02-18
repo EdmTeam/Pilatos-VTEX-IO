@@ -38,7 +38,8 @@
             "rich-text#submenu-level-2-item-21-row-7",
             "rich-text#submenu-level-2-item-22-row-7",
             "rich-text#submenu-level-2-item-23-row-7",
-            "rich-text#submenu-level-2-item-24-row-7"
+            "rich-text#submenu-level-2-item-24-row-7",
+            "rich-text#submenu-level-2-item-28-row-7"
         ],
         "props": {
             "blockClass": [
@@ -103,6 +104,13 @@
         }
     },
 
+    "rich-text#submenu-level-2-item-28-row-7":{
+        "props":{
+            "text": "[Alpinestars](/alpinestars)",
+            "blockClass": "contentSubMenuAcordeon"
+        }
+    },
+
     "rich-text#submenu-level-2-item-3-row-7":{
         "props":{
             "text": "[Superdry](/superdry)",
@@ -116,6 +124,8 @@
             "blockClass": "contentSubMenuAcordeon"
         }
     },
+
+
 
     "rich-text#submenu-level-2-item-5-row-7":{
         "props":{
