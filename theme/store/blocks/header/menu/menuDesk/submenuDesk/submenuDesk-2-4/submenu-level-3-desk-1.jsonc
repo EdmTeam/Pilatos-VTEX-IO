@@ -33,7 +33,9 @@
             "rich-text#submenu-desk-department-4-category-24",
             "rich-text#submenu-desk-department-4-category-25",
             "rich-text#submenu-desk-department-4-category-26",
-            "rich-text#submenu-desk-department-4-category-27"
+            "rich-text#submenu-desk-department-4-category-27",
+            "rich-text#submenu-desk-department-4-category-28"
+
         ],
         "props":{
             "blockClass": [
@@ -50,6 +52,13 @@
                 "textCategory",
                 "textSubcategoryPilatos"
             ]
+        }
+    },
+
+    "rich-text#submenu-desk-department-4-category-28":{
+        "props":{
+            "text": "[Alpinestars](/alpinestars)",
+            "blockClass": "textCategory"
         }
     },
 
