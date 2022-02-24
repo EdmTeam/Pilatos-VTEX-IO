@@ -34,7 +34,11 @@
             "rich-text#submenu-desk-department-4-category-25",
             "rich-text#submenu-desk-department-4-category-26",
             "rich-text#submenu-desk-department-4-category-27",
-            "rich-text#submenu-desk-department-4-category-28"
+            "rich-text#submenu-desk-department-4-category-28",
+            "rich-text#submenu-desk-department-4-category-29",
+            "rich-text#submenu-desk-department-4-category-30"
+
+
 
         ],
         "props":{
@@ -58,6 +62,19 @@
     "rich-text#submenu-desk-department-4-category-28":{
         "props":{
             "text": "[Alpinestars](/alpinestars)",
+            "blockClass": "textCategory"
+        }
+    },
+
+    "rich-text#submenu-desk-department-4-category-29":{
+        "props":{
+            "text": "[Lacoste](/lacoste)",
+            "blockClass": "textCategory"
+        }
+    },
+    "rich-text#submenu-desk-department-4-category-30":{
+        "props":{
+            "text": "[New Era](/new-era)",
             "blockClass": "textCategory"
         }
     },
