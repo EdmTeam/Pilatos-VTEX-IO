@@ -39,7 +39,9 @@
             "rich-text#submenu-level-2-item-22-row-7",
             "rich-text#submenu-level-2-item-23-row-7",
             "rich-text#submenu-level-2-item-24-row-7",
-            "rich-text#submenu-level-2-item-28-row-7"
+            "rich-text#submenu-level-2-item-28-row-7",
+            "rich-text#submenu-level-2-item-29-row-7",
+            "rich-text#submenu-level-2-item-30-row-7"
         ],
         "props": {
             "blockClass": [
@@ -107,6 +109,19 @@
     "rich-text#submenu-level-2-item-28-row-7":{
         "props":{
             "text": "[Alpinestars](/alpinestars)",
+            "blockClass": "contentSubMenuAcordeon"
+        }
+    },
+    "rich-text#submenu-level-2-item-29-row-7":{
+        "props":{
+            "text": "[Lacoste](/lacoste)",
+            "blockClass": "contentSubMenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-2-item-30-row-7":{
+        "props":{
+            "text": "[New Era](/new-era)",
             "blockClass": "contentSubMenuAcordeon"
         }
     },
