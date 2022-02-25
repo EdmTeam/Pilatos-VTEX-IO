@@ -2532,6 +2532,38 @@
 }
 
 /*
+* LANDING ORDER FROM VIDEO DIESEL
+*/
+.flexRowContent--order-from-chaos-coleccion-cta{
+  flex-wrap: wrap;
+}
+.flexRow--rowLandingOrderFromDiesel {
+  padding: 0 0;
+}
+
+.flexRowContent--rowLandingOrderFromDiesel .stretchChildrenWidth:last-child {
+  padding-right: 1rem;
+}
+
+.flexRowContent--contentResultFilterOrderFromChaos :global(.vtex-search-result-3-x-gallery) {
+  padding-left: 0;
+}
+
+@media screen and (max-width: 638px) {
+  .flexRowContent--rowLandingOrderFromDieselMobile {
+    flex-wrap: nowrap;
+    display: flex;
+  }
+  .flexRowContent--rowLandingOrderFromDieselMobile .stretchChildrenWidth:first-child {
+    flex: 0 50%;
+    padding-right: 1rem;
+  }
+  .flexRowContent--rowLandingOrderFromDieselMobile .stretchChildrenWidth:last-child {
+    flex: 0 50%;
+  }
+}
+
+/*
 * LANDING DSI
 */
 .flexRow--content-dsi {
