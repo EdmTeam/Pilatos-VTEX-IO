@@ -1,0 +1,127 @@
+{
+    "store.custom#landing-banner-video":{
+        "blocks":[
+            "flex-layout.row#banner-landing-banner-video",
+
+            "search-result-layout.customQuery#landing-banner-video"
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
+    },
+
+    "flex-layout.row#banner-landing-banner-video":{
+        "children":[
+            "flex-layout.col#banner-landing-banner-video"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#banner-landing-banner-video":{
+        "children":[
+            "rich-text#landing-banner-video-bread-crumb",
+            "rich-text#landing-banner-video-title",
+            "rich-text#landing-banner-video-description",
+            "responsive-layout.desktop#landing-banner-video-banners",
+            "responsive-layout.tablet#landing-banner-video-banners",
+            "responsive-layout.phone#landing-banner-video-banners"
+
+        ]
+    },
+
+    "responsive-layout.desktop#landing-banner-video-banners":{
+        "children":[
+            "flex-layout.row#videoFashion",
+            "flex-layout.row#landing-banner-video-banners-2"
+
+        ]
+    },
+
+    "rich-text#landing-banner-video-bread-crumb":{
+        "props":{
+            "text": "[Home](/) / [**Diesel**](/diesel)",
+            "blockClass": "departmentBreadCrumb"
+        }
+    },
+
+    "rich-text#landing-banner-video-title":{
+        "props":{
+            "text": "# Diesel Colombia",
+            "blockClass": "departmentTitle"
+        }
+    },
+
+    "rich-text#landing-banner-video-description":{
+        "props":{
+            "text": "Encuentra los productos originales Diesel más destacados en Pilatos Store. Desde denim, jeans, tenis, camisetas, accesorios hasta las últimas colecciones para hombre y mujer con productos elaborados bajo la sostenibilidad. Único y atrevido, así es el estilo Diesel. ¡Descúbrelo aquí!",
+            "blockClass": "departmentDescription"
+        }
+    },
+
+    "search-result-layout.customQuery#landing-banner-video": {
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile#landing-banner-video"
+        ],
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByScoreDESC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 48,
+                "queryField": "diesel",
+                "mapField": "b"
+            }
+        }
+    },
+
+  
+
+    "flex-layout.row#landing-banner-video-banners-2":{
+        "children":[
+            "flex-layout.col#landing-banner-video-banners-2-img-1"
+        ],
+        "props":{
+            "blockClass":"contentBanners-2"
+        }
+    },
+
+    "flex-layout.col#landing-banner-video-banners-2-img-1":{
+        "children":[
+            "image#landing-banner-video-banners-2-img-1"
+        ],
+        "props":{
+            "width": "100%"
+        }
+    },
+
+    "image#landing-banner-video-banners-2-img-1": {
+        "props": {
+            "src": "/arquivos/Banner_Tercer_Desktop_Departamento_Hombre.jpg",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-3"
+        }
+    },
+
+    "flex-layout.row#videoFashion": {
+        "props": {
+            "horizontalAlign": "center",
+            "blockClass": "rowLandingOrderFromDiesel"
+        },
+        "children": [
+            "iframe#videoFashion"
+        ]
+    },
+    "iframe#videoFashion": {
+        "props": {
+            "src": "https://www.youtube.com/embed/PpRDLOMPCFc",
+            "allow": "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
+            "blockClass": "orderFromChaosVideo"
+        }
+    }
+    
+}
