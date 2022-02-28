@@ -1,5 +1,5 @@
 {
-    "responsive-layout.phone#promotional-banners-2": {
+    "responsive-layout.phone#promotional-banners-2-abtest": {
         "children":[
             "flex-layout.row#promotional-banners-2"
         ]
@@ -9,7 +9,8 @@
         "children":[
             "flex-layout.col#promotional-banners-2-col-1",
             "flex-layout.col#promotional-banners-2-col-2",
-            "flex-layout.col#promotional-banners-2-col-3"
+            "flex-layout.col#promotional-banners-2-col-3",
+            "flex-layout.col#promotional-banners-2-col-4"
         ],
         "props":{
             "blockClass": "promBannerContent"
@@ -29,9 +30,9 @@
 
     "image#promotional-banners-2-img-1": {
         "props": {
-            "src": "/arquivos/Banner_TercerNivel_Mobile_01.jpg",
+            "src": "/arquivos/BannersHome-DieselMobile-min.jpg",
             "link": {
-                "url": "/chaquetas",
+                "url": "/diesel",
                 "attributeTitle": ""
             },
             "blockClass": "PromotionalBannerImg"
@@ -47,7 +48,7 @@
 
     "rich-text#link-promotional-banners-2-img-1": {
         "props":{
-            "text": "[VER MÁS](#!)",
+            "text": "[VER MÁS](/diesel)",
             "blockClass": "linkPromotionalBanners"
         }
     },
@@ -65,9 +66,9 @@
 
     "image#promotional-banners-2-img-2": {
         "props": {
-            "src": "/arquivos/Banner_TercerNivel_Mobile_02.jpg",
+            "src": "/arquivos/BannersHome-KiplingMobile-min.jpg",
             "link": {
-                "url": "/morrales",
+                "url": "/kipling",
                 "attributeTitle": ""
             },
             "blockClass": "PromotionalBannerImg"
@@ -83,7 +84,7 @@
 
     "rich-text#link-promotional-banners-2-img-2": {
         "props":{
-            "text": "[VER MÁS](#!)",
+            "text": "[VER MÁS](/kipling)",
             "blockClass": "linkPromotionalBanners"
         }
     },
@@ -101,9 +102,9 @@
 
     "image#promotional-banners-2-img-3": {
         "props": {
-            "src": "/arquivos/Banner_TercerNivel_Mobile_03.jpg",
+            "src": "/arquivos/BannersHome-SuperdryMobile-min.jpg",
             "link": {
-                "url": "/hombre/ropa-de-playa",
+                "url": "/superdry",
                 "attributeTitle": ""
             },
             "blockClass": "PromotionalBannerImg"
@@ -119,13 +120,49 @@
 
     "rich-text#link-promotional-banners-2-img-3": {
         "props":{
-            "text": "[VER MÁS](#!)",
+            "text": "[VER MÁS](/superdry)",
+            "blockClass": "linkPromotionalBanners"
+        }
+    },
+
+    "flex-layout.col#promotional-banners-2-col-4":{
+        "children":[
+            "image#promotional-banners-2-img-4",
+            "rich-text#des-promotional-banners-2-img-4",
+            "rich-text#link-promotional-banners-2-img-4"
+        ],
+        "props":{
+            "blockClass": "promBannerContentImg"
+        }
+    },
+
+    "image#promotional-banners-2-img-4": {
+        "props": {
+            "src": "/arquivos/BannersHome-MFGMobile-min.jpg",
+            "link": {
+                "url": "/girbaud",
+                "attributeTitle": ""
+            },
+            "blockClass": "PromotionalBannerImg"
+        }
+    },
+
+    "rich-text#des-promotional-banners-2-img-4": {
+        "props":{
+            "text": "LEGGINS PARA MUJER",
+            "blockClass": "desPromotionalBanners"
+        }
+    },
+
+    "rich-text#link-promotional-banners-2-img-4": {
+        "props":{
+            "text": "[VER MÁS](/girbaud)",
             "blockClass": "linkPromotionalBanners"
         }
     },
 
     //Baners secundarios Desktop
-    "responsive-layout.desktop#promotional-banners-2": {
+    "responsive-layout.desktop#promotional-banners-2-abtest": {
         "children":[
             "flex-layout.row#desk-promotional-banners-2"
             // "flex-layout.col#desk-promotional-banners-2-col-1",
@@ -135,13 +172,7 @@
         ]
     },
 
-    "responsive-layout.tablet#promotional-banners-2-tablet": {
-        "children":[
-            "flex-layout.row#desk-promotional-banners-2"
-        ]
-    },
-
-    "responsive-layout.tablet#promotional-banners-2": {
+    "responsive-layout.tablet#promotional-banners-2-abtest": {
         "children":[
             "flex-layout.row#desk-promotional-banners-2"
         ]
@@ -194,9 +225,9 @@
 
     "image#desk-promotional-banners-2-img-1": {
         "props": {
-            "src": "/arquivos/Banner_TercerNivel_Desktop_01.jpg",
+            "src": "/arquivos/BannersHome-DieselDesktop-min.jpg",
             "link": {
-                "url": "/chaquetas",
+                "url": "/diesel",
                 "attributeTitle": ""
             },
             "blockClass": "PromotionalBannerImg"
@@ -212,7 +243,7 @@
 
     "rich-text#desk-des-promotional-banners-2-img-1": {
         "props":{
-            "text": "Desde buzos Superdry, New Balance y M+F Girbaud hasta chaquetas Diesel y Replay, disponibles en Pilatos.",
+            "text": "Encuentra los productos originales Diesel más destacados en Pilatos Store.",
             "blockClass": "desBanners"
         }
     },
@@ -239,9 +270,9 @@
 
     "image#desk-promotional-banners-2-img-2": {
         "props": {
-            "src": "/arquivos/Banner_TercerNivel_Desktop_02.jpg",
+            "src": "/arquivos/BannersHome-KiplingDesktop-min.jpg",
             "link": {
-                "url": "/morrales",
+                "url": "/kipling",
                 "attributeTitle": ""
             },
             "blockClass": "PromotionalBannerImg"
@@ -257,7 +288,7 @@
 
     "rich-text#desk-des-promotional-banners-2-img-2": {
         "props":{
-            "text": "Tenemos morrales Diesel, Kipling, New Balance, Superdry y muchos más en Pilatos, donde encuentras la mejor calidad de productos de las mejores marcas.",
+            "text": "Conoce Kipling y los múltiples productos que tienen para ti.",
             "blockClass": "desBannersCenter"
         }
     },
@@ -284,9 +315,9 @@
 
     "image#desk-promotional-banners-2-img-3": {
         "props": {
-            "src": "/arquivos/Banner_TercerNivel_Desktop__04.png",
+            "src": "/arquivos/BannersHome-SuperdryDesktop-min.jpg",
             "link": {
-                "url": "/hombre/ropa/polos",
+                "url": "/superdry",
                 "attributeTitle": ""
             },
             "blockClass": "PromotionalBannerImg"
@@ -302,7 +333,7 @@
 
     "rich-text#desk-des-promotional-banners-2-img-3": {
         "props":{
-            "text": "Desde buzos Superdry, New Balance y M+F Girbaud hasta chaquetas Diesel y Replay, disponibles en Pilatos.",
+            "text": "Descubre lo mejor de Superdry, una marca británica con prendas inspiradas en Tokio.",
             "blockClass": "desBanners"
         }
     },
@@ -329,9 +360,9 @@
 
     "image#desk-promotional-banners-2-img-4": {
         "props": {
-            "src": "/arquivos/Banner_TercerNivel_Desktop_03.jpg",
+            "src": "/arquivos/BannersHome-MFGDesktop-min.jpg",
             "link": {
-                "url": "/hombre/ropa-de-playa",
+                "url": "/girbaud",
                 "attributeTitle": ""
             },
             "blockClass": "PromotionalBannerImg"
@@ -347,7 +378,7 @@
 
     "rich-text#desk-des-promotional-banners-2-img-4": {
         "props":{
-            "text": "Ve a la playa o piscina con el estilo más cool. Trajes de baño Superdry, Diesel, Dzone y muchos más para que compres todo lo que necesitas en un solo lugar.",
+            "text": "Renueva tu clóset con diseños únicos de prendas ligeras y suaves, cómodas de llevar, pero por encima de todo funcionales.",
             "blockClass": "desBannersCenter"
         }
     },

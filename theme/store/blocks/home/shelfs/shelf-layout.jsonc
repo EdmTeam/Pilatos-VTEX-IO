@@ -10,14 +10,14 @@
 
     "flex-layout.col#most-viewed": {
         "children": [
-            "rich-text#title-most-viewed",
+            "rich-text#title-best-sellers",
             "vtex.product-summary:list-context.product-list#most-viewed"        
         ]
     },
 
-    "rich-text#title-most-viewed":{
+    "rich-text#title-best-sellers":{
         "props":{
-            "text": "Los más vistos",
+            "text": "Los más vendidos",
             "blockClass": "titleShelf"
         }
     },
@@ -31,7 +31,7 @@
         ],
         "props": {
             "orderBy": "OrderByTopSaleDESC",
-            "collection": "1223",
+            "collection": "1222",
             "maxItems": 30
         }
     },
