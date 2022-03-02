@@ -36,7 +36,9 @@
             "rich-text#submenu-desk-department-4-category-27",
             "rich-text#submenu-desk-department-4-category-28",
             "rich-text#submenu-desk-department-4-category-29",
-            "rich-text#submenu-desk-department-4-category-30"
+            "rich-text#submenu-desk-department-4-category-30",
+            "rich-text#submenu-desk-department-4-category-31"
+
 
 
 
@@ -62,6 +64,13 @@
     "rich-text#submenu-desk-department-4-category-28":{
         "props":{
             "text": "[Alpinestars](/alpinestars)",
+            "blockClass": "textCategory"
+        }
+    },
+
+    "rich-text#submenu-desk-department-4-category-31":{
+        "props":{
+            "text": "[Fjall Raven](/fjall-raven)",
             "blockClass": "textCategory"
         }
     },
