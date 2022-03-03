@@ -1768,3 +1768,31 @@
 .wrapper--guia-regalos-textseo-p .paragraph {
   margin: 0;
 }
+
+/* TEXTO SEO LANDING ECO BAG */
+.container--ecobag-textseo-h1 {
+  background-color: #ffffff;
+  margin: 1rem 0;
+}
+.headingLevel1--ecobag-textseo-h1 {
+  color: #245c2c;
+  font-size: 2rem !important;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin: 0.35rem 0;
+}
+.wrapper--ecobag-textseo-p {
+  max-width: 80%;
+  margin: 1.5rem 0;
+  border: 2px dashed #d02928;
+  padding: 1.35rem;
+}
+.wrapper--ecobag-textseo-p .paragraph {
+  margin: 0;
+}
+
+@media screen and (max-width: 560px){
+  .headingLevel1--ecobag-textseo-h1{
+    font-size: 1.5rem !important;
+  }
+}
