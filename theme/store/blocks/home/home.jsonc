@@ -6,6 +6,9 @@
       "responsive-layout.phone#brands-promise",
       "responsive-layout.tablet#brands-promise",
       "responsive-layout.desktop#brands-promise",
+      //codigo banner debajo del home 
+      
+      //bann
       "responsive-layout.phone#category-banners",
       "responsive-layout.tablet#category-banners",
       "responsive-layout.desktop#category-banners",

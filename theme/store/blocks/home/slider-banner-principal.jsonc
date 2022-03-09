@@ -11,7 +11,11 @@
             "responsive-layout.phone#banner-principal",
             "responsive-layout.tablet#banner-principal",
             "responsive-layout.desktop#banner-principal",
-            "list-context.image-list#banner-principal"        
+            "list-context.image-list#banner-principal",
+            //codigo dsi
+            "responsive-layout.desktop#banner-principal-dsi",       
+            "responsive-layout.phone#banner-principal-dsi",
+            "responsive-layout.tablet#banner-principal-dsi"
         ]
     },
 
@@ -43,9 +47,29 @@
 
     "responsive-layout.desktop#banner-principal": {
         "children":[
-            "image#banner-desktop-1-img-1"
+            "image#banner-mobile-1-img-1"
         ]
     },
+
+    // inicio dsi
+    "responsive-layout.phone#banner-principal-dsi": {
+        "children":[
+            "image#banner-mobile-1-img-1-dsi"
+        ]
+    },
+
+    "responsive-layout.tablet#banner-principal-dsi": {
+        "children":[
+            "image#banner-tablet-1-img-1-dsi"
+        ]
+    },
+
+    "responsive-layout.desktop#banner-principal-dsi": {
+        "children":[
+            "image#banner-desktop-1-img-1-dsi"
+        ]
+    },
+    // fin dsi
 
     "slider-layout#banner-principal-desktop": {
         "props": {
@@ -63,6 +87,15 @@
 
     //Banner 1 desktop
     "image#banner-desktop-1-img-1":{
+        "props":{
+            "src": "/arquivos/Pilatos-FranjaWhatsApp-DesktopNegro.jpg",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            }
+        }
+    },
+    "image#banner-desktop-1-img-1-dsi":{
         "props":{
             "src": "/arquivos/Pilatos-FranjaWhatsApp-DesktopNegro.jpg",
             "link": {
@@ -93,6 +126,16 @@
         }
     },
 
+    "image#banner-mobile-1-img-1-dsi":{
+        "props":{
+            "src": "/arquivos/Pilatos-FranjaWhatsApp-MobileNegro.jpg",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            }
+        }
+    },
+
     "image#banner-mobile-1-img-2":{
         "props":{
             "src": "/arquivos/Banner_Principal_Mobile_01.jpg",
@@ -105,6 +148,16 @@
 
     //Banner 1 tablet
     "image#banner-tablet-1-img-1":{
+        "props":{
+            "src": "/arquivos/Pilatos-FranjaWhatsApp-MobileNegro.jpg",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            }
+        }
+    },
+
+    "image#banner-tablet-1-img-1-dsi":{
         "props":{
             "src": "/arquivos/Pilatos-FranjaWhatsApp-MobileNegro.jpg",
             "link": {
