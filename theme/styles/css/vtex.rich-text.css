@@ -1776,7 +1776,7 @@
 }
 .headingLevel1--ecobag-textseo-h1 {
   color: #245c2c;
-  font-size: 2rem !important;
+  font-size: 1.7rem !important;
   text-transform: uppercase;
   font-weight: 800;
   margin: 0.35rem 0;
@@ -1793,6 +1793,6 @@
 
 @media screen and (max-width: 560px){
   .headingLevel1--ecobag-textseo-h1{
-    font-size: 1.5rem !important;
+    font-size: 1.2rem !important;
   }
 }

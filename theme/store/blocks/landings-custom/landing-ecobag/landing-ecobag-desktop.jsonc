@@ -4,7 +4,11 @@
             "flex-layout.row#banner-landing-ecobag",
             "rich-text#landing-ecobag-text-seo-h1",
             "search-result-layout.customQuery#landing-ecobag",
-            "flex-layout.row#banner-landing-ecobag-piedepagina"
+            "flex-layout.row#banner-landing-ecobag-piedepagina",
+            "responsive-layout.phone#banner-landing-ecobag-piedepagina-phone",
+            "responsive-layout.tablet#banner-landing-ecobag-piedepagina-tablet"
+
+
 
         ],
         "props":{
@@ -130,7 +134,7 @@
             "rich-text#landing-ecobag-title",
             "rich-text#landing-ecobag-description",
             "responsive-layout.desktop#landing-ecobag-banners",
-           // "responsive-layout.tablet#landing-ecobag-banners",
+           "responsive-layout.tablet#landing-ecobag-banners",
             "responsive-layout.phone#landing-ecobag-banners"
         ]
     },
@@ -144,25 +148,83 @@
         ]
     },
 
-    "responsive-layout.phone#landing-ecobag-banners":{
+    "responsive-layout.tablet#landing-ecobag-banners":{
         "children":[
-            "flex-layout.col#landing-ecobag-banners-1-p",
-            "flex-layout.row#landing-ecobag-banners-2-p",
-            "flex-layout.col#landing-ecobag-banners-3-p"
+            "flex-layout.col#landing-ecobag-banners-1-tablet",
+            "flex-layout.row#landing-ecobag-banners-2-tablet",
+            "flex-layout.col#landing-ecobag-banners-3-tablet"
 
         ]
     },
 
+    "responsive-layout.phone#landing-ecobag-banners":{
+        "children":[
+            "flex-layout.col#landing-ecobag-banners-1-p",
+            "list-context.image-list#department-bannerlanding-ecobag-banners"
+        ]
+    },
+
+    // INICIO CODIGO DE SLIDER MOBILE 
+
+    "list-context.image-list#department-bannerlanding-ecobag-banners": {
+        "children": [
+            "slider-layout#department-banner-mobile-landing-marcas-eco"
+        ],
+        "props": {
+            "images": [
+             
+                {
+                    "image": "/arquivos/Pilatos-EcobagLanding-FotoEcobag.jpg",
+                    "description": "Promotional Banner",
+                    "link": {
+                        "url": "",
+                        "attributeTitle": ""
+                    },
+                    "title": ""
+
+                },
+                {
+                    "image": "/arquivos/Pilatos-EcobagLanding-Info.jpg",
+                    "description": "Promotional Banner",
+                    "link": {
+                        "url": "",
+                        "attributeTitle": ""
+                    },
+                    "title": ""
+
+                }
+            ]
+        }
+    },
+
+    "slider-layout#department-banner-mobile-landing-marcas-eco": {
+        "props": {
+            "blockClass": "departmenBannerSlide-ecobag",
+            "itemsPerPage": {   
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "centerMode": "to-the-left",
+            "showNavigationArrows": "desktopOnly",
+            "showPaginationDots": "mobileOnly"
+        }
+    },
+
+
+
+    // FIN DEL CODIGO SLIDER MOBILE 
+
     "rich-text#landing-ecobag-bread-crumb":{
         "props":{
-            "text": "[Home](/) / [**Hombre**](/hombre)",
+            "text": "[Home](/) / [**EcoBag**](/ecobag)",
             "blockClass": "departmentBreadCrumb"
         }
     },
 
     "rich-text#landing-ecobag-title":{
         "props":{
-            "text": "## Ropa, zapatos y accesorios para hombre",
+            "text": "## Ecobag Pilatos",
             "blockClass": "departmentTitle"
         }
     },
@@ -220,12 +282,12 @@
 
     "image#landing-ecobag-banners-2-img-1": {
         "props": {
-            "src": "/arquivos/Pilatos-EcobagLanding-FotoEcobag.jpg",
+            "src": "/arquivos/Pilatos-EcobagLanding-FotoEcobag2.jpg",
             "link": {
-                "url": "/",
+                "url": "",
                 "attributeTitle": ""
             },
-            "blockClass": "departmentBannerImg-3"
+            "blockClass": "departmentBannerImg-eco"
         }
     },
 
@@ -240,12 +302,12 @@
 
     "image#landing-ecobag-banners-2-img-2": {
         "props": {
-            "src": "/arquivos/Pilatos-EcobagLanding-Info.jpg",
+            "src": "/arquivos/Pilatos-EcobagLanding-Info2.jpg",
             "link": {
-                "url": "/",
+                "url": "",
                 "attributeTitle": ""
             },
-            "blockClass": "departmentBannerImg-4"
+            "blockClass": "departmentBannerImg-eco"
         }
     },
 
@@ -270,6 +332,101 @@
         }
     },
 
+    // tablet banner 
+
+    "flex-layout.col#landing-ecobag-banners-1-tablet":{
+        "children":[
+            "image#landing-ecobag-banners-1-img-1-tablet"
+        ],
+        "props":{
+            "blockClass":"contentBannersDesk"
+        }
+    },
+
+    "image#landing-ecobag-banners-1-img-1-tablet": {
+        "props": {
+            "src": "/arquivos/Pilatos-EcobagLanding-BannerInformacionDesktop.jpg",
+            "link": {
+                "url": "",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+  
+
+    "flex-layout.row#landing-ecobag-banners-2-tablet":{
+        "children":[
+            "flex-layout.col#landing-ecobag-banners-2-img-1-tablet",
+            "flex-layout.col#landing-ecobag-banners-2-img-2-tablet"
+           
+        ],
+        "props":{
+            "blockClass":"contentBanners-2"
+        }
+    },
+
+    "flex-layout.col#landing-ecobag-banners-2-img-1-tablet":{
+        "children":[
+            "image#landing-ecobag-banners-2-img-1"
+        ],
+        "props":{
+            "width": "50%"
+        }
+    },
+
+    "image#landing-ecobag-banners-2-img-1-tablet": {
+        "props": {
+            "src": "/arquivos/Pilatos-EcobagLanding-FotoEcobag.jpg",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-3"
+        }
+    },
+
+    "flex-layout.col#landing-ecobag-banners-2-img-2-tablet":{
+        "children":[
+            "image#landing-ecobag-banners-2-img-2"
+        ],
+        "props":{
+            "width": "50%"
+        }
+    },
+
+    "image#landing-ecobag-banners-2-img-2-tablet": {
+        "props": {
+            "src": "/arquivos/Pilatos-EcobagLanding-Info.jpg",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-4"
+        }
+    },
+
+    
+    "flex-layout.col#landing-ecobag-banners-3-tablet":{
+        "children":[
+            "image#landing-ecobag-banners-3-img-3"
+        ],
+        "props":{
+            "blockClass":"contentBannersDesk"
+        }
+    },
+
+    "image#landing-ecobag-banners-3-img-3-tablet": {
+        "props": {
+            "src": "/arquivos/Pilatos-EcobagLanding-BannerSecundarioDesktop.jpg",
+            "link": {
+                "url": "",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-5"
+        }
+    },
 
     //mobile 
 
@@ -284,7 +441,7 @@
 
     "image#landing-ecobag-banners-1-img-1-p": {
         "props": {
-            "src": "/arquivos/Pilatos-EcobagLanding-BannerInformacionMobile.jpg",
+            "src": "/arquivos/Pilatos-EcobagLanding-BannerSecundarioMobile.jpg",
             "link": {
                 "url": "",
                 "attributeTitle": ""
@@ -293,85 +450,13 @@
         }
     },
 
-  
-
-    "flex-layout.row#landing-ecobag-banners-2-p":{
-        "children":[
-            "flex-layout.col#landing-ecobag-banners-2-img-1-p",
-            "flex-layout.col#landing-ecobag-banners-2-img-2-p"
-           
-        ],
-        "props":{
-            "blockClass":"contentBanners-2"
-        }
-    },
-
-    "flex-layout.col#landing-ecobag-banners-2-img-1-p":{
-        "children":[
-            "image#landing-ecobag-banners-2-img-1-p"
-        ],
-        "props":{
-            "width": "50%"
-        }
-    },
-
-    "image#landing-ecobag-banners-2-img-1-p": {
-        "props": {
-            "src": "/arquivos/Pilatos-EcobagLanding-FotoEcobag.jpg",
-            "link": {
-                "url": "/",
-                "attributeTitle": ""
-            },
-            "blockClass": "departmentBannerImg-3"
-        }
-    },
-
-    "flex-layout.col#landing-ecobag-banners-2-img-2-p":{
-        "children":[
-            "image#landing-ecobag-banners-2-img-2-p"
-        ],
-        "props":{
-            "width": "50%"
-        }
-    },
-
-    "image#landing-ecobag-banners-2-img-2-p": {
-        "props": {
-            "src": "/arquivos/Pilatos-EcobagLanding-Info.jpg",
-            "link": {
-                "url": "/",
-                "attributeTitle": ""
-            },
-            "blockClass": "departmentBannerImg-4"
-        }
-    },
-
-    
-    "flex-layout.col#landing-ecobag-banners-3-p":{
-        "children":[
-            "image#landing-ecobag-banners-3-img-3-p"
-        ],
-        "props":{
-            "blockClass":"contentBannersDesk"
-        }
-    },
-
-    "image#landing-ecobag-banners-3-img-3-p": {
-        "props": {
-            "src": "/arquivos/Pilatos-EcobagLanding-BannerSecundarioMobile.jpg",
-            "link": {
-                "url": "",
-                "attributeTitle": ""
-            },
-            "blockClass": "departmentBannerImg-5"
-        }
-    },
 
 
 
     "flex-layout.row#banner-landing-ecobag-piedepagina":{
         "children":[
             "responsive-layout.desktop#banner-landing-ecobag-piedepagina-desk"
+
         ],
         "props":{
             "blockClass":"contentBannersDesk"
@@ -397,7 +482,50 @@
             "blockClass": "departmentBannerImg-1"
         }
     
-    }
+    },
 
+    // mobile 
+    "responsive-layout.phone#banner-landing-ecobag-piedepagina-phone":{
+        "children":[
+            "image#landing-ecobag-banners-1-img-1-pie-phone"
+        ],
+        "props":{
+            "blockClass":"contentBannersDesk"
+        }
+    },
+
+    "image#landing-ecobag-banners-1-img-1-pie-phone": {
+        "props": {
+            "src": "/arquivos/Pilatos-EcobagLanding-BannerPieMobile.jpg",
+            "link": {
+                "url": "",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-12"
+        }
+    
+    },
+
+    //pie de pagina tablet
+    "responsive-layout.tablet#banner-landing-ecobag-piedepagina-tablet":{
+        "children":[
+            "image#landing-ecobag-banners-1-img-1-pie-tablet"
+        ],
+        "props":{
+            "blockClass":"contentBannersDesk"
+        }
+    },
+
+    "image#landing-ecobag-banners-1-img-1-pie-tablet": {
+        "props": {
+            "src": "/arquivos/Pilatos-EcobagLanding-BannerPieDesktop.jpg",
+            "link": {
+                "url": "",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-12"
+        }
+    
+    }
     
 }
