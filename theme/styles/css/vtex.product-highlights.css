@@ -20,7 +20,16 @@
     display: block;
 }
 
+.productHighlightWrapper [data-highlight-id="1227"]{
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+   background-image: url(/arquivos/PILATOS-dsi.png); 
+    display: block;
+}
 
+/*
 .productHighlightWrapper [data-highlight-id="1140"]{
     width: 40px;
     height: 40px;
@@ -48,7 +57,7 @@
     display: block;
 }
 
-/*
+
 .productHighlightWrapper [data-highlight-id="1189"]{
     width: 40px;
     height: 40px;
