@@ -20,6 +20,7 @@
     display: block;
 }
 
+/*
 .productHighlightWrapper [data-highlight-id="1227"]{
     width: 50px;
     height: 50px;
@@ -27,51 +28,11 @@
     background-repeat: no-repeat;
    background-image: url(/arquivos/PILATOS-dsi.png); 
     display: block;
-}
-
-/*
-.productHighlightWrapper [data-highlight-id="1140"]{
-    width: 40px;
-    height: 40px;
-    background-size: contain;
-    background-repeat: no-repeat;
-   background-image: url(/arquivos/Pilatos-DSI-Flag30.png); 
-    display: block;
-}
-
-.productHighlightWrapper [data-highlight-id="1141"]{
-    width: 40px;
-    height: 40px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-image: url(/arquivos/Pilatos-DSI-Flag50.png);
-    display: block;
-}
-
-.productHighlightWrapper [data-highlight-id="1142"]{
-    width: 40px;
-    height: 40px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-image: url(/arquivos/Pilatos-DSI-Flag70.png);
-    display: block;
-}
-
-
-.productHighlightWrapper [data-highlight-id="1189"]{
-    width: 40px;
-    height: 40px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-image: url(/arquivos/Pilatos-DSI-Flag.png);
-    display: block;
 } */
 
-
-/*
 .productHighlightWrapper [data-highlight-id="1189"]{
     font-size: 0;
-} */
+} 
 .productHighlightWrapper [data-highlight-id="1190"]{
     font-size: 0;
 }
