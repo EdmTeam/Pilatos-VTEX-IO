@@ -4,6 +4,7 @@
             "flex-layout.row#banner-landing-ecobag",
             "rich-text#landing-ecobag-text-seo-h1",
             "search-result-layout.customQuery#landing-ecobag",
+            
             "flex-layout.row#banner-landing-ecobag-piedepagina",
             "responsive-layout.phone#banner-landing-ecobag-piedepagina-phone",
             "responsive-layout.tablet#banner-landing-ecobag-piedepagina-tablet"
@@ -142,8 +143,11 @@
     "responsive-layout.desktop#landing-ecobag-banners":{
         "children":[
             "flex-layout.col#landing-ecobag-banners-1",
+
             "flex-layout.row#landing-ecobag-banners-2",
-            "flex-layout.col#landing-ecobag-banners-3"
+            "flex-layout.col#landing-ecobag-banners-3",
+            "flex-layout.col#landing-ecobag-banners-golondrina"
+
 
         ]
     },
@@ -152,7 +156,9 @@
         "children":[
             "flex-layout.col#landing-ecobag-banners-1-tablet",
             "flex-layout.row#landing-ecobag-banners-2-tablet",
-            "flex-layout.col#landing-ecobag-banners-3-tablet"
+            "flex-layout.col#landing-ecobag-banners-3-tablet",
+            "flex-layout.col#landing-ecobag-banners-3-tablet-golondrina"
+
 
         ]
     },
@@ -160,7 +166,9 @@
     "responsive-layout.phone#landing-ecobag-banners":{
         "children":[
             "flex-layout.col#landing-ecobag-banners-1-p",
-            "list-context.image-list#department-bannerlanding-ecobag-banners"
+            "list-context.image-list#department-bannerlanding-ecobag-banners",
+            "flex-layout.col#landing-ecobag-banners-1-phone"
+
         ]
     },
 
@@ -258,16 +266,38 @@
         }
     },
 
+    "flex-layout.col#landing-ecobag-banners-golondrina":{
+        "children":[
+            "image#landing-ecobag-banners-1-img-1"
+        ],
+        "props":{
+            "blockClass":"contentBannersDesk"
+        }
+    },
+
+    "image#landing-ecobag-banners-1-img-golondrina": {
+        "props": {
+            "src": "/arquivos/Pilatos-EcobagLanding-BannerInformacionDesktop.jpg",
+            "link": {
+                "url": "",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+
   
 
     "flex-layout.row#landing-ecobag-banners-2":{
         "children":[
             "flex-layout.col#landing-ecobag-banners-2-img-1",
             "flex-layout.col#landing-ecobag-banners-2-img-2"
+
            
         ],
         "props":{
-            "blockClass":"contentBanners-2"
+            "blockClass":"contentBanners-ecobag"
         }
     },
 
@@ -282,7 +312,7 @@
 
     "image#landing-ecobag-banners-2-img-1": {
         "props": {
-            "src": "/arquivos/Pilatos-EcobagLanding-FotoEcobag2.jpg",
+            "src": "/arquivos/Pilatos-EcobagLanding-BannerInformacionNuevo.jpg",
             "link": {
                 "url": "",
                 "attributeTitle": ""
@@ -302,7 +332,7 @@
 
     "image#landing-ecobag-banners-2-img-2": {
         "props": {
-            "src": "/arquivos/Pilatos-EcobagLanding-Info2.jpg",
+            "src": "/arquivos/Pilatos-EcobagLanding-BannerInformacionNuevo.jpg",
             "link": {
                 "url": "",
                 "attributeTitle": ""
@@ -311,6 +341,7 @@
         }
     },
 
+   
     
     "flex-layout.col#landing-ecobag-banners-3":{
         "children":[
@@ -428,6 +459,27 @@
         }
     },
 
+    "flex-layout.col#landing-ecobag-banners-3-tablet-golondrina":{
+        "children":[
+            "image#landing-ecobag-banners-3-img-3"
+        ],
+        "props":{
+            "blockClass":"contentBannersDesk"
+        }
+    },
+
+    "image#landing-ecobag-banners-3-img-3-tablet-golondrina": {
+        "props": {
+            "src": "/arquivos/Pilatos-EcobagLanding-BannerSecundarioDesktop.jpg",
+            "link": {
+                "url": "",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-5"
+        }
+    },
+
+
     //mobile 
 
     "flex-layout.col#landing-ecobag-banners-1-p":{
@@ -450,8 +502,29 @@
         }
     },
 
+    "flex-layout.col#landing-ecobag-banners-1-phone":{
+        "children":[
+            "image#landing-ecobag-banners-1-img-1-phone"
+        ],
+        "props":{
+            "blockClass":"contentBannersDesk"
+        }
+    },
+
+    "image#landing-ecobag-banners-1-img-1-phone": {
+        "props": {
+            "src": "/arquivos/Pilatos-EcobagLanding-BannerSecundarioMobile.jpg",
+            "link": {
+                "url": "",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
 
 
+
+ 
 
     "flex-layout.row#banner-landing-ecobag-piedepagina":{
         "children":[
