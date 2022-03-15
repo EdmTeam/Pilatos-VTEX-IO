@@ -2592,6 +2592,39 @@
 }
 
 /*
+* LANDING ORDER FROM VIDEO ECO
+*/
+.flexRowContent--order-from-chaos-coleccion-cta{
+  flex-wrap: wrap;
+}
+.flexRow--rowLandingOrderFromEco {
+  padding: 0 0;
+}
+
+.flexRowContent--rowLandingOrderFromEco .stretchChildrenWidth:last-child {
+  padding-right: 0rem;
+}
+
+.flexRowContent--contentResultFilterOrderFromChaos :global(.vtex-search-result-3-x-gallery) {
+  padding-left: 0;
+}
+
+@media screen and (max-width: 638px) {
+  .flexRowContent--rowLandingOrderFromEcoMobile {
+    flex-wrap: nowrap;
+    display: flex;
+  }
+  .flexRowContent--rowLandingOrderFromEcoMobile .stretchChildrenWidth:first-child {
+    flex: 0 50%;
+    padding-right: 1rem;
+  }
+  .flexRowContent--rowLandingOrderFromEcoMobile .stretchChildrenWidth:last-child {
+    flex: 0 50%;
+  }
+}
+
+
+/*
 * LANDING DSI
 */
 .flexRow--content-dsi {
