@@ -4,7 +4,9 @@
             "flex-layout.row#banner-landing-ecobag",
             "rich-text#landing-ecobag-text-seo-h1",
             "search-result-layout.customQuery#landing-ecobag",
-            
+            "responsive-layout.desktop#landing-banner-video-banners-eco",
+            "responsive-layout.phone#landing-banner-video-banners-eco",
+            "responsive-layout.tablet#landing-banner-video-banners-eco",
             "flex-layout.row#banner-landing-ecobag-piedepagina",
             "responsive-layout.phone#banner-landing-ecobag-piedepagina-phone",
             "responsive-layout.tablet#banner-landing-ecobag-piedepagina-tablet"
@@ -599,6 +601,74 @@
             "blockClass": "departmentBannerImg-12"
         }
     
+    },
+// VIDEO ECOBAG
+
+"responsive-layout.phone#landing-banner-video-banners-eco":{
+    "children":[
+        "flex-layout.row#videoFashion-eco-phone"
+    ]
+},
+    "flex-layout.row#videoFashion-eco-phone": {
+        "props": {
+            "horizontalAlign": "center",
+            "blockClass": "rowLandingOrderFromEco"
+        },
+        "children": [
+            "iframe#eco-video-phone"
+        ]
+    },
+    "iframe#eco-video-phone": {
+        "props": {
+            "src": "https://www.youtube.com/embed/k-myua4KReA",
+            "allow": "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
+            "blockClass": "orderFromChaosVideo"
+        }
+    },
+
+    "responsive-layout.tablet#landing-banner-video-banners-eco":{
+        "children":[
+            "flex-layout.row#videoFashion-eco-tablet"
+        ]
+    },
+        "flex-layout.row#videoFashion-eco-tablet": {
+            "props": {
+                "horizontalAlign": "center",
+                "blockClass": "rowLandingOrderFromEco"
+            },
+            "children": [
+                "iframe#eco-video-tablet"
+            ]
+        },
+        "iframe#eco-video-tablet": {
+            "props": {
+                "src": "https://www.youtube.com/embed/k-myua4KReA",
+                "allow": "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
+                "blockClass": "orderFromChaosVideo"
+            }
+        },
+
+
+"responsive-layout.desktop#landing-banner-video-banners-eco":{
+    "children":[
+        "flex-layout.row#videoFashion-eco"
+    ]
+},
+    "flex-layout.row#videoFashion-eco": {
+        "props": {
+            "horizontalAlign": "center",
+            "blockClass": "rowLandingOrderFromEco"
+        },
+        "children": [
+            "iframe#eco-video"
+        ]
+    },
+    "iframe#eco-video": {
+        "props": {
+            "src": "https://www.youtube.com/embed/k-myua4KReA",
+            "allow": "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
+            "blockClass": "orderFromChaosVideo"
+        }
     }
     
 }
