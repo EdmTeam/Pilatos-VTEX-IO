@@ -646,3 +646,16 @@
     height: 100%;
     width: 100%;
 }
+
+/* LANDING FRAGANCIAS */
+.imageElement--image-fragancia {
+    position: absolute;
+    border-radius: 50px;
+    opacity: 0.9;
+    transition: 0.5s;
+    cursor: pointer;
+    width: 60%;
+    left: 23%;
+    top: 6%;
+
+}

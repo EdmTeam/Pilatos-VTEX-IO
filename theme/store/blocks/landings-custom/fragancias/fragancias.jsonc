@@ -1,0 +1,68 @@
+{
+    "store.custom#landingFragancias":{
+        "children":[
+            "flex-layout.row#contenedor-banner"
+        ]
+    },
+    "flex-layout.row#contenedor-banner": {
+        "children":[
+            "flex-layout.row#centeri"
+        ],
+        "props":{
+            "blockClass": "contenedor-banner"
+        }
+    },
+    "flex-layout.row#centeri": {
+        "children":[
+            "flex-layout.row#card"
+        ],
+        "props":{
+            "blockClass": "centeri"
+        }
+    },
+    "flex-layout.row#card": {
+        "children":[
+            "image#fragancia-principal",
+            "flex-layout.row#contenedor-fragancias-ocultas"
+        ],
+        "props":{
+            "blockClass": "card"
+        }
+    },
+    "flex-layout.row#contenedor-fragancias-ocultas": {
+        "children":[
+            "image#fragancia-secundaria-one",
+            "image#fragancia-secundaria-two"
+        ],
+        "props":{
+            "blockClass": "contenedorFraganciasOcultas"
+        }
+    },
+    "image#fragancia-principal": {
+        "props":{
+            "src": "https://www.freepnglogos.com/uploads/perfume-png/perfume-purple-peccadilloes-guerlain-shalimar-parfum-initial-25.png",
+            "blockClass": [
+                "fragancia-principal",
+                "image-fragancia"
+            ]
+        }
+    },
+    "image#fragancia-secundaria-one": {
+        "props":{
+            "src": "https://www.freepnglogos.com/uploads/perfume-png/perfume-purple-peccadilloes-guerlain-shalimar-parfum-initial-25.png",
+            "blockClass": [
+                "fragancia-secundaria-one",
+                "image-fragancia"
+            ]
+        }
+    },
+    "image#fragancia-secundaria-two": {
+        "props":{
+            "src": "https://www.freepnglogos.com/uploads/perfume-png/perfume-purple-peccadilloes-guerlain-shalimar-parfum-initial-25.png",
+            "blockClass": [
+                "fragancia-secundaria-two",
+                "image-fragancia"
+            ]
+        }
+    }
+}
