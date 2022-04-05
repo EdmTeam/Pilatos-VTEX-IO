@@ -2,6 +2,7 @@
     "store.custom#landing-ecobag":{
         "blocks":[
             "flex-layout.row#banner-landing-ecobag",
+            "memorygame",
             "rich-text#landing-ecobag-text-seo-h1",
             "search-result-layout.customQuery#landing-ecobag",
             "responsive-layout.desktop#landing-banner-video-banners-eco",
