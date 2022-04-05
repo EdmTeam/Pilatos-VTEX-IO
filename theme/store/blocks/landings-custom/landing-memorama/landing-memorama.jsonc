@@ -1,0 +1,19 @@
+{
+    "store.custom#landing-memorama":{
+        "blocks":[
+            "flex-layout.row#banner-landing-ecobag",
+            "memorygame",
+            "rich-text#landing-ecobag-text-seo-h1",
+            "search-result-layout.customQuery#landing-ecobag",
+            "responsive-layout.desktop#landing-banner-video-banners-eco",
+            "responsive-layout.phone#landing-banner-video-banners-eco",
+            "responsive-layout.tablet#landing-banner-video-banners-eco",
+            "flex-layout.row#banner-landing-ecobag-piedepagina",
+            "responsive-layout.phone#banner-landing-ecobag-piedepagina-phone",
+            "responsive-layout.tablet#banner-landing-ecobag-piedepagina-tablet"
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
+    }
+}
