@@ -71,7 +71,8 @@
     "pilatos21.custom-sticky": "0.x",
     "pilatos21.free-shipping": "0.x",
     "pilatos21.store-locator": "1.x",
-    "pilatos21.size-guide": "0.x"
+    "pilatos21.size-guide": "0.x",
+    "pilatos21.memory-game": "0.x"
   },
   "peerDependencies": {
     "pilatos21.wishlist": "0.x",

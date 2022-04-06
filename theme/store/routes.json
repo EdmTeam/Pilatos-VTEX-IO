@@ -611,5 +611,8 @@
     },
     "store.custom#landingFormulario": {
         "path": "/landing-formulario"
+    },
+    "store.custom#landing-memorama": {
+        "path": "/memorama"
     }
 }
