@@ -1796,3 +1796,43 @@
     font-size: 1.2rem !important;
   }
 }
+
+/* TEXTO SEO LANDING FRAGANCIA JUEGO */
+.container--texto-memorama-textseo-h1 {
+  /* background-color: #ffc600; */
+  margin: 1rem 0;
+}
+.headingLevel1--texto-memorama-textseo-h1 {
+  color: #ffc600;
+  font-size: 1.5rem !important;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin: 0.35rem 0;
+}
+
+.headingLevel3--texto-memorama-textseo-h1 {
+  color: #ffc600;
+  font-size: 1.1rem  !important;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin: 0.35rem 0;
+}
+
+@media screen and (max-width: 640px) {
+  
+  .headingLevel1--texto-memorama-textseo-h1 {
+    color: #ffc600;
+    font-size: 15px !important;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin: 0.35rem 0;
+  }
+
+  .headingLevel3--texto-memorama-textseo-h1 {
+    color: #ffc600;
+    font-size: 15px !important;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin: 0.35rem 0;
+  }
+}

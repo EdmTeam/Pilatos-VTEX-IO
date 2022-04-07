@@ -166,7 +166,7 @@ const MemoryGame = () => {
     return (
         <Fragment>
             <div className={styles.container}>
-                <h1>El juego de las parejas</h1>
+                {/* <h2>El juego de las parejas</h2> */}
                 <div className={styles.gridContainer}>
                     {(() => {
                         const options = [];
@@ -187,7 +187,7 @@ const MemoryGame = () => {
                         </p>
                         <div className={styles.popupContainerMessage}>
                             <h2>¡GANASTE!</h2>
-                            <p><strong>Tienes 15% EXTRA</strong> <br></br>
+                            <p><strong>Tienes 10% EXTRA</strong> <br></br>
                                 Ingresa el cupón MEMORYPILATOS en el carrito de compras. <br></br>
                                 <small>El código debe ser ingresado en el carrito de compras en la opción SUMAR CUPÓN DE DESCUENTO. Aplican TyC.</small>
                             </p>

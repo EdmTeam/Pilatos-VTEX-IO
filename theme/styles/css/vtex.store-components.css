@@ -429,6 +429,15 @@
     margin: 1%;
 }
 
+.imageElement--departmentBannerImg-memodesk{
+    margin: 2%;
+}
+.imageElementLink--departmentBannerImg-memodesk{
+    margin: 1%;
+}
+.imageElement--departmentBannerImg-memo{
+    margin-top: 2%;
+}
 .imageElementLink--departmentBannerImg-1{
     margin-bottom: .5rem;
 }
