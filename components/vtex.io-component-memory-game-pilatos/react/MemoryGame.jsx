@@ -188,7 +188,7 @@ const MemoryGame = () => {
                         const options = [];
 
                         for (let i = 1; i <= 12; i++) {
-                            options.push(<div className={`${styles.gridCell} ${i}`} style={{backgroundImage:`url(/arquivos/JuegoIncognita-${i}.png)`}}></div>);
+                            options.push(<div className={`${styles.gridCell} ${i}`} style={{backgroundImage:`url(https://pilatos21.vtexassets.com/arquivos/caritass-${i}.jpg)`}}></div>);
                         }
                         return options;
                     })()}       
@@ -204,7 +204,7 @@ const MemoryGame = () => {
                         <div>
                             <h2>¡GANASTE!</h2>
                             <p className={styles.textDcto}>
-                                <strong>Tienes 10% EXTRA en toda la tienda.</strong> <br></br>
+                                <strong>Tienes 10% OFF en toda la tienda.</strong> <br></br>
                                 Regístrate para obtener tu código de descuento.<br></br>
                                 <small>Aplican TyC.</small>
                             </p>
