@@ -70,6 +70,9 @@
                         },
                         {
                         "name": "Material"
+                        },
+                        {
+                          "name": "Color"
                         }
                     ]
                 }

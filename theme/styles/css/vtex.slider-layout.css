@@ -187,6 +187,22 @@
     width: 9% !important;
 }
 
+.slide--departmenBannerSlide-ecobag{
+    margin-right: 0.3625%!important;
+    margin-left: 0 !important;
+    width: 12% !important;
+}
+
+.sliderTrack--departmenBannerSlide-ecobag{
+    margin-top: .2rem;
+    margin-left: 3.6rem;
+}
+
+.paginationDotsContainer--departmenBannerSlide-ecobag{
+    bottom: -1.5rem;
+    display: none  !important;
+}
+
 .paginationDotsContainer--departmenBannerSlide{
     bottom: -1.5rem;
 }

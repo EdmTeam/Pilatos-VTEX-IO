@@ -1,0 +1,195 @@
+{
+    "store.custom#cybersale-expectativa": {
+        "children": [
+            "responsive-layout.desktop#banner-cybersale",
+            "responsive-layout.tablet#banner-cybersale",
+            "responsive-layout.phone#banner-cybersale",
+            "flex-layout.row#content-cybersale"
+        ]
+    },
+    "flex-layout.row#content-cybersale": {
+        "props": {
+            "blockClass": "content-dsi"
+        },
+        "children": [
+            "flex-layout.col#content-cybersale"
+        ]
+    },
+    "flex-layout.col#content-cybersale": {
+        "children": [
+            "rich-text#desc-cybersale-h1",
+            "rich-text#desc-cybersale",
+            "flex-layout.row#title-and-form-cybersale"
+            //"rich-text#button-to-event-cybersale",
+            
+        ]
+    },
+    "responsive-layout.desktop#banner-cybersale": {
+        "children": [
+            "image#banner-desktop-cybersale"
+        ]
+    },
+    "responsive-layout.tablet#banner-cybersale": {
+        "children": [
+            "image#banner-tablet-cybersale"
+        ]
+    },
+    "responsive-layout.phone#banner-cybersale": {
+        "children": [
+            "image#banner-phone-cybersale"
+        ]
+    },
+    "image#banner-desktop-cybersale": {
+        "props": {
+            "src": "/arquivos/Pilatos-BlackFriday-Expectativa-BannerDesktop.jpg",
+            "alt": "Black Friday Suscribete y obtén envío gratis durante el evento",
+            "title": "banner día sin IVA"
+        }
+    },
+    "image#banner-tablet-cybersale": {
+        "props": {
+            "src": "/arquivos/Pilatos-BlackFriday-Expectativa-BannerTablet.jpg",
+            "alt": "Black Friday Suscribete y obtén envío gratis durante el evento",
+            "title": "banner día sin IVA"
+        }
+    },
+    "image#banner-phone-cybersale": {
+        "props": {
+            "src": "/arquivos/Pilatos-BlackFriday-Expectativa-BannerMobile.jpg",
+            "alt": "Black Friday Suscribete y obtén envío gratis durante el evento",
+            "title": "banner día sin IVA"
+        }
+    },
+    "rich-text#desc-cybersale-h1": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "# Se aproxima Cyber Sale en Pilatos",
+            "blockClass": "desc-dsi"
+        }
+    },
+    "rich-text#desc-cybersale": {
+        "props": {
+            "textAlignment": "CENTER",
+            "text": "**Regístrate aquí y obtén envío gratis durante el evento.**",
+            "blockClass": "desc-dsi"
+        }
+    },
+  /*   "rich-text#button-to-event-cybersale": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "[Compra aquí tus productos](/dia-sin-iva-pilatos)",
+            "blockClass": "button-to-event-dsi"
+        }
+    }, */
+    "flex-layout.row#title-and-form-cybersale": {
+        "children": [
+            "flex-layout.col#title-cybersale",
+            "flex-layout.col#form-cybersale"
+        ]
+    },
+    "flex-layout.col#title-cybersale": {
+        "children": [
+            "rich-text#title-cybersale",
+            "rich-text#subtitle-cybersale"
+        ]
+    },
+    "rich-text#title-cybersale": {
+        "props": {
+            "textAlignment": "RIGHT",
+            "textPosition": "RIGHT",
+            "text": "## CYBER SALE:",
+            "font": "t-heading-1",
+            "blockClass": "title-dsi"
+        }
+    },
+    "rich-text#subtitle-cybersale": {
+        "props": {
+            "textAlignment": "RIGHT",
+            "text": "*Inscríbete aquí para ser el primero en enterarte de todos los detalles.*",
+            "font": "t-body",
+            "blockClass": "subtitle-dsi"
+        }
+    },
+    "flex-layout.col#form-cybersale": {
+        "props": {
+            "blockClass": "formContainer-dsi"
+        },
+        "children": [
+            "form#cybersale"
+        ]
+    },
+    "form#cybersale": {
+        "props": {
+            "entity": "FL",
+            "schema": "formularioslandings"
+        },
+        "children": [
+            "form-input.text#cybersale-form-name",
+            "form-input.text#cybersale-form-email",
+            "form-input.text#cybersale-form-birthday",
+            "form-input.checkbox#cybersale-form-terms",
+            "rich-text#cybersale-read-politics",
+            "form-submit#cybersale-form-submit"
+        ],
+        "blocks": [
+            "form-success#cybersale"
+        ]
+    },
+    "form-input.text#cybersale-form-name": {
+        "props": {
+            "pointer": "#/properties/name",
+            "label": "Nombre completo",
+            "placeholder": "Ingresa tu nombre completo"
+        }
+    },
+    "form-input.text#cybersale-form-email": {
+        "props": {
+            "pointer": "#/properties/mail",
+            "label": "Correo Electrónico",
+            "placeholder": "Ingresa tu correo electrónico"
+        }
+    },
+    "form-input.text#cybersale-form-birthday": {
+        "props": {
+            "pointer": "#/properties/birthday",
+            "label": "Selecciona tu fecha de nacimiento",
+            "blockClass": "form-cybersale-dsi"
+        }
+    },
+    "form-input.checkbox#cybersale-form-terms": {
+        "props": {
+            "pointer": "#/properties/terms",
+            "label": "Acepto política de datos y términos y condiciones"
+        }
+    },
+    "form-submit#cybersale-form-submit": {
+        "props": {
+            "label": "Registrarme",
+            "blockClass": "submit-dsi"
+        }
+    },
+    "rich-text#cybersale-read-politics": {
+        "props": {
+            "text": "Leer [política de datos](/politicas) y [términos y condiciones](/terminos-condiciones)",
+            "textAlignment": "LEFT",
+            "textPosition": "left",
+            "font": "t-mini",
+            "blockClass": "read-politics-dsi"
+        }
+    },
+    "form-success#cybersale": {
+        "children": [
+            "rich-text#cybersale-successSubmit"
+        ]
+    },
+    "rich-text#cybersale-successSubmit": {
+        "props": {
+            "text": "Tus datos fueron registrados satisfactoriamente",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "dsi-successSubmit"
+        }
+    }
+}

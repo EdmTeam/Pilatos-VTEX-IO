@@ -1,0 +1,758 @@
+{
+    "store.custom#landing-memorama":{
+        "blocks":[
+            "flex-layout.row#banner-landing-memorama",
+            // "memorygame",
+            "rich-text#landing-memorama-text-seo-h1",
+            "search-result-layout.customQuery#landing-memorama",
+            "responsive-layout.desktop#landing-banner-video-banners-memorama",
+            "responsive-layout.phone#landing-banner-video-banners-memorama",
+            "responsive-layout.tablet#landing-banner-video-banners-memorama"
+       /*      "flex-layout.row#banner-landing-memorama-piedepagina",
+            "responsive-layout.phone#banner-landing-memorama-piedepagina-phone",
+            "responsive-layout.tablet#banner-landing-memorama-piedepagina-tablet" */
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
+    },
+
+
+
+    "rich-text#landing-memorama-text-seo-h1": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "### Compra nuestra esencia",
+            "blockClass": "texto-memorama-textseo-h1"
+        }
+    },
+
+
+    "search-result-layout.customQuery#landing-memorama": {
+        "blocks": [
+            "search-result-layout.desktop#landing-memorama",
+            "search-result-layout.mobile#landing-memorama"
+        ],
+        "props": {
+            "querySchema": {
+                "queryField": "1228",
+                "mapField": "productClusterIds"
+            }
+        }
+    },
+    "search-result-layout.desktop#landing-memorama": {
+        "children": [
+            "flex-layout.row#result-landing-memorama",
+            "flex-layout.row#spacer"
+        ],
+        "props": {
+            "preventRouteChange": true,
+            "hideUnavailableItems": true,
+            "showFacetQuantity": true,
+            "mobileLayout": {
+                "mode1": "small",
+                "mode2": "normal"
+            },
+            "__unstableProductOriginVtex": true
+        }
+    },
+    "flex-layout.row#result-landing-memorama": {
+        "children": [
+          "flex-layout.col#content"
+        ],
+        "props": {
+          "preventHorizontalStretch": true,
+          "fullWidth": true,
+          "blockClass":"contentResultFilterOrderFromChaos"
+        }
+      },
+    "search-result-layout.mobile#landing-memorama": {
+        "children": [
+            "flex-layout.row#bread-crumb",
+            "search-title.v2",
+            "flex-layout.row#search-info-mobile",
+            "flex-layout.row#fetch-previous",
+            "flex-layout.row#content-mobile",
+            "flex-layout.row#fetch-more",
+            "flex-layout.row#spacer"
+        ],
+        "props": {
+            "hiddenFacets": {
+                "specificationFilters": {
+                    "hiddenFilters": [
+                        {
+                            "name": "Brand"
+                        },
+                        {
+                            "name": "Department"
+                        },
+                        {
+                            "name": "Category"
+                        },
+                        {
+                            "name": "Subcategory"
+                        },
+                        {
+                            "name": "Material"
+                        },
+                        {
+                            "name": "Alto (Cm)"
+                        },
+                        {
+                            "name": "Ancho (Cm)"
+                        },
+                        {
+                            "name": "Breve Descripción"
+                        },
+                        {
+                            "name": "Descripción"
+                        },
+                        {
+                            "name": "Material"
+                        }
+                    ]
+                }
+            },
+            "__unstableProductOriginVtex": true,
+            "mobileLayout": {
+                "mode1": "small",
+                "mode2": "normal"
+            }
+        }
+    },
+
+
+    "flex-layout.row#banner-landing-memorama":{
+        "children":[
+            "flex-layout.col#banner-landing-memorama"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#banner-landing-memorama":{
+        "children":[
+            "rich-text#landing-memorama-bread-crumb",
+            "rich-text#landing-memorama-title",
+            "rich-text#landing-memorama-description",
+            "responsive-layout.desktop#landing-memorama-banners",
+           "responsive-layout.tablet#landing-memorama-banners",
+            "responsive-layout.phone#landing-memorama-banners"
+
+        ]
+    },
+
+    "responsive-layout.desktop#landing-memorama-banners":{
+        "children":[
+            "flex-layout.col#landing-memorama-banners-1",
+            "flex-layout.row#form-memorama",
+            "rich-text#memorama-text-seo-h1",
+            "rich-text#memorama-parrafo-seo-h1",
+            "memorygame",
+            "flex-layout.row#landing-memorama-banners-2"
+            
+
+            //"memorygame"
+            //"flex-layout.col#landing-memorama-banners-3"
+            // "flex-layout.col#landing-memorama-banners-golondrina"
+
+
+        ]
+    },
+
+    "responsive-layout.tablet#landing-memorama-banners":{
+        "children":[
+            "flex-layout.col#landing-memorama-banners-1-tablet",
+            "flex-layout.row#landing-memorama-banners-2-tablet"
+
+
+        ]
+    },
+
+    "responsive-layout.phone#landing-memorama-banners":{
+        "children":[
+            "flex-layout.col#landing-memorama-banners-1-p"
+           // "list-context.image-list#department-bannerlanding-memorama-banners",
+
+        ]
+    },
+
+    "rich-text#memorama-text-seo-h1": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "# Únete a nuestro lanzamiento y recibe increíbles descuentos",
+            "blockClass": "texto-memorama-textseo-h1"
+        }
+    },
+    "rich-text#memorama-parrafo-seo-h1": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Encuentra el perfect match y gana 10% de descuento en nuestra tienda"
+        }
+    },
+    "flex-layout.row#form-memorama": {
+        "props": {
+            "blockClass": ["formContainer-dsi", "formContainer-memorama"]
+        },
+        "children": [
+            "flex-layout.col#form-memorama"
+        ]
+    },
+    "flex-layout.col#form-memorama": {
+        "props": {
+            "blockClass": ["formContainer-dsi", "formContainer-memorama"]
+        },
+        "children": [
+            "form#memorama"
+        ]
+    },
+    "form#memorama": {
+        "props": {
+            "entity": "FL",
+            "schema": "formularioslandings"
+        },
+        "children": [
+            "form-input.text#memorama-form-name",
+            "form-input.text#memorama-form-email",
+            "form-input.text#memorama-form-birthday",
+            "form-input.checkbox#memorama-form-terms",
+            "rich-text#memorama-read-politics",
+            "form-submit#memorama-form-submit"
+        ],
+        "blocks": [
+            "form-success#memorama"
+        ]
+    },
+    "form-input.text#memorama-form-name": {
+        "props": {
+            "pointer": "#/properties/name",
+            "label": "Nombre completo",
+            "placeholder": "Ingresa tu nombre completo"
+        }
+    },
+    "form-input.text#memorama-form-email": {
+        "props": {
+            "pointer": "#/properties/mail",
+            "label": "Correo Electrónico",
+            "placeholder": "Ingresa tu correo electrónico"
+        }
+    },
+    "form-input.text#memorama-form-birthday": {
+        "props": {
+            "pointer": "#/properties/birthday",
+            "label": "Selecciona tu fecha de nacimiento",
+            "blockClass": "form-cybersale-dsi"
+        }
+    },
+    "form-input.checkbox#memorama-form-terms": {
+        "props": {
+            "pointer": "#/properties/terms",
+            "label": "Acepto política de datos y términos y condiciones"
+        }
+    },
+    "rich-text#memorama-read-politics": {
+        "props": {
+            "text": "Leer [política de datos](/politicas) y [términos y condiciones](/terminos-condiciones)",
+            "textAlignment": "LEFT",
+            "textPosition": "left",
+            "font": "t-mini",
+            "blockClass": "read-politics-dsi"
+        }
+    },
+    "form-submit#memorama-form-submit": {
+        "props": {
+            "label": "Registrarme",
+            "blockClass": ["submit-dsi", "submit-memorama"]
+        }
+    },
+    "form-success#memorama": {
+        "children": [
+            "rich-text#memorama-successSubmit"
+        ]
+    },
+    "rich-text#memorama-successSubmit": {
+        "props": {
+            "text": "Ingresa el cupón **FRAGANCIAPLT** en el carrito de compras. \n ###### El código debe ser ingresado en el carrito de compras en la opción SUMAR CUPÓN DE DESCUENTO. Aplican TyC.",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "memorama-successSubmit"
+        }
+    },   
+
+    // INICIO CODIGO DE SLIDER MOBILE 
+/* 
+    "list-context.image-list#department-bannerlanding-memorama-banners": {
+        "children": [
+            "slider-layout#department-banner-mobile-landing-marcas-memorama"
+        ],
+        "props": {
+            "images": [
+             
+                {
+                    "image": "/arquivos/Pilatos-EcobagLanding-FotoEcobag.jpg",
+                    "description": "Promotional Banner",
+                    "link": {
+                        "url": "",
+                        "attributeTitle": ""
+                    },
+                    "title": ""
+
+                },
+                {
+                    "image": "/arquivos/Pilatos-EcobagLanding-Info.jpg",
+                    "description": "Promotional Banner",
+                    "link": {
+                        "url": "",
+                        "attributeTitle": ""
+                    },
+                    "title": ""
+
+                }
+            ]
+        }
+    },
+
+    "slider-layout#department-banner-mobile-landing-marcas-memorama": {
+        "props": {
+            "blockClass": "departmenBannerSlide-memorama",
+            "itemsPerPage": {   
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "centerMode": "to-the-left",
+            "showNavigationArrows": "desktopOnly",
+            "showPaginationDots": "mobileOnly"
+        }
+    },
+
+
+ */
+    // FIN DEL CODIGO SLIDER MOBILE 
+
+    "rich-text#landing-memorama-bread-crumb":{
+        "props":{
+            "text": "[Home](/) / [**memorama**](/memorama)",
+            "blockClass": "departmentBreadCrumb"
+        }
+    },
+
+    "rich-text#landing-memorama-title":{
+        "props":{
+            "text": "## memorama Pilatos",
+            "blockClass": "departmentTitle"
+        }
+    },
+
+    "rich-text#landing-memorama-description":{
+        "props":{
+            "text": "Encuentra todo en zapatos, accesorios y ropa para hombre desde camisetas.",
+            "blockClass": "departmentDescription"
+        }
+    },
+
+   
+
+    "flex-layout.col#landing-memorama-banners-1":{
+        "children":[
+            "image#landing-memorama-banners-1-img-1"
+        ],
+        "props":{
+            "blockClass":"contentBannersDesk"
+        }
+    },
+
+    "image#landing-memorama-banners-1-img-1": {
+        "props": {
+            "src": "/arquivos/Pilatos-EauDeToilette-Landing-Banner.jpg",
+            "link": {
+                "url": "",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+/* 
+    "flex-layout.col#landing-memorama-banners-golondrina":{
+        "children":[
+            "image#landing-memorama-banners-1-img-1"
+        ],
+        "props":{
+            "blockClass":"contentBannersDesk"
+        }
+    },
+
+    "image#landing-memorama-banners-1-img-golondrina": {
+        "props": {
+            "src": "/arquivos/Pilatos-EcobagLanding-BannerInformacionDesktop.jpg",
+            "link": {
+                "url": "",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+ */
+
+  
+
+    "flex-layout.row#landing-memorama-banners-2":{
+        "children":[
+            "flex-layout.col#landing-memorama-banners-2-img-1",
+            "flex-layout.col#landing-memorama-banners-2-img-2"
+            
+
+           
+        ],
+        "props":{
+/*             "blockClass":"contentBanners-ecobag"
+ */        }
+    },
+
+    "flex-layout.col#landing-memorama-banners-2-img-1":{
+        "children":[
+            "image#landing-memorama-banners-2-img-1"
+        ],
+        "props":{
+            "width": "50%"
+        }
+    },
+
+    "image#landing-memorama-banners-2-img-1": {
+        "props": {
+            "src": "/arquivos/Pilatos-EauDeToilette-Landing-BannerInfo-izq.jpg",
+            "link": {
+                "url": "",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-memodesk"
+        }
+    },
+
+    "flex-layout.col#landing-memorama-banners-2-img-2":{
+        "children":[
+            "image#landing-memorama-banners-2-img-2"
+        ],
+        "props":{
+            "width": "50%"
+        }
+    },
+
+    "image#landing-memorama-banners-2-img-2": {
+        "props": {
+            "src": "/arquivos/Pilatos-EauDeToilette-Landing-BannerGif-derecha.gif",
+            "link": {
+                "url": "",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-memodesk"
+        }
+    },
+
+   
+    
+    "flex-layout.col#landing-memorama-banners-3":{
+        "children":[
+            "image#landing-memorama-banners-3-img-3"
+        ],
+        "props":{
+            "blockClass":"contentBannersDesk"
+        }
+    },
+
+    "image#landing-memorama-banners-3-img-3": {
+        "props": {
+            "src": "/arquivos/Pilatos-EcobagLanding-BannerSecundarioDesktop.jpg",
+            "link": {
+                "url": "",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-5"
+        }
+    },
+
+    // tablet banner 
+
+    "flex-layout.col#landing-memorama-banners-1-tablet":{
+        "children":[
+            "image#landing-memorama-banners-1-img-1-tablet",
+            "flex-layout.row#form-memorama",
+            "rich-text#memorama-text-seo-h1",
+            "rich-text#memorama-parrafo-seo-h1",
+            "memorygame"
+        ],
+        "props":{
+            "blockClass":"contentBannersDesk"
+        }
+    },
+
+    "image#landing-memorama-banners-1-img-1-tablet": {
+        "props": {
+            "src": "/arquivos/Pilatos-EauDeToilette-Landing-Banner.jpg",
+            "link": {
+                "url": "",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+  
+
+    "flex-layout.row#landing-memorama-banners-2-tablet":{
+        "children":[
+            "flex-layout.col#landing-memorama-banners-2-img-1-tablet",
+            "flex-layout.col#landing-memorama-banners-2-img-2-tablet"
+           
+        ],
+        "props":{
+            "blockClass":"contentBanners-2"
+        }
+    },
+
+    "flex-layout.col#landing-memorama-banners-2-img-1-tablet":{
+        "children":[
+            "image#landing-memorama-banners-2-img-1"
+        ],
+        "props":{
+            "width": "50%"
+        }
+    },
+
+    "image#landing-memorama-banners-2-img-1-tablet": {
+        "props": {
+            "src": "/arquivos/Pilatos-EcobagLanding-FotoEcobag.jpg",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-3"
+        }
+    },
+
+    "flex-layout.col#landing-memorama-banners-2-img-2-tablet":{
+        "children":[
+            "image#landing-memorama-banners-2-img-2"
+        ],
+        "props":{
+            "width": "50%"
+        }
+    },
+
+    "image#landing-memorama-banners-2-img-2-tablet": {
+        "props": {
+            "src": "/arquivos/Pilatos-EcobagLanding-Info.jpg",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-4"
+        }
+    },
+
+  
+
+    // mobile banner
+
+    "flex-layout.col#landing-memorama-banners-1-p":{
+        "children":[
+            "image#landing-memorama-banners-1-img-1-p", 
+            "flex-layout.row#form-memorama",
+            "rich-text#memorama-text-seo-h1",
+            "rich-text#memorama-parrafo-seo-h1",
+            "memorygame", 
+            "image#landing-memorama-banners-1-img-1-ph1", 
+            "image#landing-memorama-banners-1-img-1-ph2"
+        ],
+        "props":{
+            "blockClass":"contentBannersDesk"
+        }
+    },
+
+    "image#landing-memorama-banners-1-img-1-p": {
+        "props": {
+            "src": "/arquivos/Pilatos-EauDeToilette-Landing-BannerPrincipalMobile.jpg",
+            "link": {
+                "url": "",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+
+    "image#landing-memorama-banners-1-img-1-ph2": {
+        "props": {
+            "src": "/arquivos/Pilatos-EauDeToilette-Landing-BannerGif-derecha.gif",
+            "link": {
+                "url": "",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-memo"
+        }
+    },
+
+    "image#landing-memorama-banners-1-img-1-ph1": {
+        "props": {
+            "src": "/arquivos/Pilatos-EauDeToilette-Landing-BannerInfoMobile.jpg",
+            "link": {
+                "url": "",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-memo"
+        }
+    },
+
+
+
+
+ 
+
+    "flex-layout.row#banner-landing-memorama-piedepagina":{
+        "children":[
+            "responsive-layout.desktop#banner-landing-memorama-piedepagina-desk"
+
+        ],
+        "props":{
+            "blockClass":"contentBannersDesk"
+        }
+    },
+
+    "responsive-layout.desktop#banner-landing-memorama-piedepagina-desk":{
+        "children":[
+            "image#landing-memorama-banners-1-img-1-pie"
+        ],
+        "props":{
+            "blockClass":"contentBannersDesk"
+        }
+    },
+
+    "image#landing-memorama-banners-1-img-1-pie": {
+        "props": {
+            "src": "/arquivos/Pilatos-EcobagLanding-BannerPieDesktop.jpg",
+            "link": {
+                "url": "",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    
+    },
+
+    // mobile 
+    "responsive-layout.phone#banner-landing-memorama-piedepagina-phone":{
+        "children":[
+            "image#landing-memorama-banners-1-img-1-pie-phone"
+        ],
+        "props":{
+            "blockClass":"contentBannersDesk"
+        }
+    },
+
+    "image#landing-memorama-banners-1-img-1-pie-phone": {
+        "props": {
+            "src": "/arquivos/Pilatos-EcobagLanding-BannerPieMobile.jpg",
+            "link": {
+                "url": "",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-12"
+        }
+    
+    },
+
+    //pie de pagina tablet
+    "responsive-layout.tablet#banner-landing-memorama-piedepagina-tablet":{
+        "children":[
+            "image#landing-memorama-banners-1-img-1-pie-tablet"
+        ],
+        "props":{
+            "blockClass":"contentBannersDesk"
+        }
+    },
+
+    "image#landing-memorama-banners-1-img-1-pie-tablet": {
+        "props": {
+            "src": "/arquivos/Pilatos-EcobagLanding-BannerPieDesktop.jpg",
+            "link": {
+                "url": "",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-12"
+        }
+    
+    },
+// VIDEO ECOBAG
+
+"responsive-layout.phone#landing-banner-video-banners-memorama":{
+    "children":[
+        "flex-layout.row#videoFashion-memorama-phone"
+    ]
+},
+    "flex-layout.row#videoFashion-memorama-phone": {
+        "props": {
+            "horizontalAlign": "center",
+            "blockClass": "rowLandingOrderFromEco"
+        },
+        "children": [
+            "iframe#memorama-video-phone"
+        ]
+    },
+    "iframe#memorama-video-phone": {
+        "props": {
+            "src": "https://www.youtube.com/embed/k-myua4KReA",
+            "allow": "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
+            "blockClass": "orderFromChaosVideo"
+        }
+    },
+
+    "responsive-layout.tablet#landing-banner-video-banners-memorama":{
+        "children":[
+            "flex-layout.row#videoFashion-memorama-tablet"
+        ]
+    },
+        "flex-layout.row#videoFashion-memorama-tablet": {
+            "props": {
+                "horizontalAlign": "center",
+                "blockClass": "rowLandingOrderFromEco"
+            },
+            "children": [
+                "iframe#memorama-video-tablet"
+            ]
+        },
+        "iframe#memorama-video-tablet": {
+            "props": {
+                "src": "https://www.youtube.com/embed/k-myua4KReA",
+                "allow": "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
+                "blockClass": "orderFromChaosVideo"
+            }
+        },
+
+
+"responsive-layout.desktop#landing-banner-video-banners-memorama":{
+    "children":[
+        "flex-layout.row#videoFashion-memorama"
+    ]
+},
+    "flex-layout.row#videoFashion-memorama": {
+        "props": {
+            "horizontalAlign": "center",
+            "blockClass": "rowLandingOrderFromEco"
+        },
+        "children": [
+            "iframe#memorama-video"
+        ]
+    },
+    "iframe#memorama-video": {
+        "props": {
+            "src": "https://www.youtube.com/embed/k-myua4KReA",
+            "allow": "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
+            "blockClass": "orderFromChaosVideo"
+        }
+    }
+    
+}

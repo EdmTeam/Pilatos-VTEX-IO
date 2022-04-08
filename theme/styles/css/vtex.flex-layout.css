@@ -58,6 +58,11 @@
   display: none;
 }
 
+.flexRowContent--contentBanners-ecobag{
+  width: 100%;
+  margin: .5rem auto !important;
+}
+
 @media only screen and (min-width: 740px){
   .flexRowContent--contentItem1{
     padding: 1rem 6rem;
@@ -73,11 +78,25 @@
     width: 95%;
   }
 
+  :global(.vtex-search-result-3-x-container--layout--searchResultMobile) .flexRowContent--contentBanners-ecobag{
+    margin: .5rem auto .8rem auto;
+    width: 95%;
+  }
+
   :global(.vtex-search-result-3-x-container--layout--searchResultMobile) .flexRowContent--contentBanners-2 .stretchChildrenWidth{
     width: 33.3% !important;
   }
 
+  :global(.vtex-search-result-3-x-container--layout--searchResultMobile) .flexRowContent--contentBanners-ecobag .stretchChildrenWidth{
+    width: 33.3% !important
+  }
+
   .flexRowContent--contentBanners-2{
+    width: 100%;
+    margin: .5rem auto !important;
+  }
+
+  .flexRowContent--contentBanners-ecobag{
     width: 100%;
     margin: .5rem auto !important;
   }
@@ -985,6 +1004,11 @@
   margin-top: 2rem;
 }
 
+.flexRowContent--contentBanners-ecobag{
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
 .flexRowContent--contentBanners-new-balance{
   justify-content: space-between;
   margin-top: 2rem;
@@ -1210,7 +1234,17 @@
     width: 33.3% !important;
   }
 
+  .flexRowContent--contentCategoryBannersDesk :global(.vtex-store-components-3-x-imageElementLink--departmentBannerImg-eco){
+    margin-right: 1.2rem;
+  }
+
+
+
   .flexRowContent--contentCategoryBannersDesk :global(.vtex-store-components-3-x-imageElementLink--departmentBannerImg-1){
+    margin-right: 1.2rem;
+  }
+
+  .flexRowContent--contentCategoryBannersDesk :global(.vtex-store-components-3-x-imageElementLink--departmentBannerImg-memo){
     margin-right: 1.2rem;
   }
 
@@ -2564,6 +2598,39 @@
 }
 
 /*
+* LANDING ORDER FROM VIDEO ECO
+*/
+.flexRowContent--order-from-chaos-coleccion-cta{
+  flex-wrap: wrap;
+}
+.flexRow--rowLandingOrderFromEco {
+  padding: 0 0;
+}
+
+.flexRowContent--rowLandingOrderFromEco .stretchChildrenWidth:last-child {
+  padding-right: 0rem;
+}
+
+.flexRowContent--contentResultFilterOrderFromChaos :global(.vtex-search-result-3-x-gallery) {
+  padding-left: 0;
+}
+
+@media screen and (max-width: 638px) {
+  .flexRowContent--rowLandingOrderFromEcoMobile {
+    flex-wrap: nowrap;
+    display: flex;
+  }
+  .flexRowContent--rowLandingOrderFromEcoMobile .stretchChildrenWidth:first-child {
+    flex: 0 50%;
+    padding-right: 1rem;
+  }
+  .flexRowContent--rowLandingOrderFromEcoMobile .stretchChildrenWidth:last-child {
+    flex: 0 50%;
+  }
+}
+
+
+/*
 * LANDING DSI
 */
 .flexRow--content-dsi {
@@ -2577,4 +2644,9 @@
 }
 .flexCol--formContainer-dsi :global(.vtex-input-prefix__group) {
   margin: 1rem 0;
+}
+
+/*Memorama*/
+.flexCol--formContainer-memorama {
+  display: none;
 }

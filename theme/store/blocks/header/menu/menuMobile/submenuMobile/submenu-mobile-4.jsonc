@@ -41,7 +41,9 @@
             "rich-text#submenu-level-2-item-24-row-7",
             "rich-text#submenu-level-2-item-28-row-7",
             "rich-text#submenu-level-2-item-29-row-7",
-            "rich-text#submenu-level-2-item-30-row-7"
+            "rich-text#submenu-level-2-item-30-row-7",
+            "rich-text#submenu-level-2-item-31-row-7"
+
         ],
         "props": {
             "blockClass": [
@@ -112,6 +114,14 @@
             "blockClass": "contentSubMenuAcordeon"
         }
     },
+
+    "rich-text#submenu-level-2-item-31-row-7":{
+        "props":{
+            "text": "[Fjall Raven](/fjall-raven)",
+            "blockClass": "contentSubMenuAcordeon"
+        }
+    },
+
     "rich-text#submenu-level-2-item-29-row-7":{
         "props":{
             "text": "[Lacoste](/lacoste)",
