@@ -2645,3 +2645,8 @@
 .flexCol--formContainer-dsi :global(.vtex-input-prefix__group) {
   margin: 1rem 0;
 }
+
+/*Memorama*/
+.flexCol--formContainer-memorama {
+  display: none;
+}

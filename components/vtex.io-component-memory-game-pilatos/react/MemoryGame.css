@@ -21,6 +21,7 @@ h1 {
   width: 23%;
   min-height: 100px;
   margin: 1%;
+  background-size: contain;
 }
 .gridCell {
   background-color: #ffc600;
@@ -58,6 +59,9 @@ h1 {
   font-weight: 300;
   font-size: 14px;
   color: #212529;
+}
+.popupContainerMessage {
+
 }
 .popupCloseIcon {
   text-align: right;
