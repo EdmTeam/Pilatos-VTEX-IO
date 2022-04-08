@@ -1,4 +1,4 @@
-import React, {useState, Fragment} from 'react';
+import React, {useState, useEffect, Fragment} from 'react';
 import styles from "./MemoryGame.css";
 
 const MemoryGame = () => {
@@ -7,6 +7,22 @@ const MemoryGame = () => {
     const closeModal = () => {
         setIsOpenModal(false)
     }
+
+    const formMemorama = () => {
+        setTimeout(() => {
+            var containerForm = document.querySelector(".vtex-flex-layout-0-x-flexCol--formContainer-memorama");
+            containerForm.style.display = "none";
+            if(isOpenModal) {
+                var containerPopup = document.querySelector(".pilatos21-memory-game-0-x-popupContainerMessage");
+                containerPopup.appendChild(containerForm);
+                containerForm.style.display = "block";
+            }
+        },500)
+        
+    }
+    useEffect(()=>{
+        formMemorama();
+      }, [isOpenModal])
 
     var config,
 
@@ -172,7 +188,7 @@ const MemoryGame = () => {
                         const options = [];
 
                         for (let i = 1; i <= 12; i++) {
-                            options.push(<div className={`${styles.gridCell} ${i}`}></div>);
+                            options.push(<div className={`${styles.gridCell} ${i}`} style={{backgroundImage:`url(/arquivos/JuegoIncognita-${i}.png)`}}></div>);
                         }
                         return options;
                     })()}       
@@ -185,16 +201,18 @@ const MemoryGame = () => {
                         <p className={styles.popupCloseIcon} onClick={closeModal}>
                            X
                         </p>
-                        <div className={styles.popupContainerMessage}>
+                        <div>
                             <h2>¡GANASTE!</h2>
-                            <p><strong>Tienes 10% EXTRA</strong> <br></br>
-                                Ingresa el cupón MEMORYPILATOS en el carrito de compras. <br></br>
-                                <small>El código debe ser ingresado en el carrito de compras en la opción SUMAR CUPÓN DE DESCUENTO. Aplican TyC.</small>
+                            <p className={styles.textDcto}>
+                                <strong>Tienes 10% EXTRA en toda la tienda.</strong> <br></br>
+                                Regístrate para obtener tu código de descuento.<br></br>
+                                <small>Aplican TyC.</small>
                             </p>
-                            <div className={styles.popupContainerButton}>
+                            <div className={styles.popupContainerMessage}></div>
+                            {/*<div className={styles.popupContainerButton}>
                                 <p onClick={closeModal}>Reiniciar juego</p>
                                 <p onClick={closeModal}>Cerrar</p>
-                            </div> 
+                            </div> */}
                         </div>
                     </div>
                 </div>

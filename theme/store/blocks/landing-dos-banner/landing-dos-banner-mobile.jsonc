@@ -83,6 +83,9 @@
                         },
                         {
                         "name": "Material"
+                        },
+                        {
+                          "name": "Color"
                         }
                     ]
                 }

@@ -59,6 +59,9 @@
             },
             {
               "name": "Descripción"
+            },
+            {
+              "name": "Color"
             }
           ]
         }
@@ -247,6 +250,9 @@
             },
             {
               "name": "Material"
+            },
+            {
+              "name": "Color"
             }
           ]
         }

@@ -147,6 +147,7 @@
     "responsive-layout.desktop#landing-memorama-banners":{
         "children":[
             "flex-layout.col#landing-memorama-banners-1",
+            "flex-layout.row#form-memorama",
             "rich-text#memorama-text-seo-h1",
             "rich-text#memorama-parrafo-seo-h1",
             "memorygame",
@@ -193,6 +194,94 @@
             "text": "Encuentra el perfect match y gana 10% de descuento en nuestra tienda"
         }
     },
+    "flex-layout.row#form-memorama": {
+        "props": {
+            "blockClass": ["formContainer-dsi", "formContainer-memorama"]
+        },
+        "children": [
+            "flex-layout.col#form-memorama"
+        ]
+    },
+    "flex-layout.col#form-memorama": {
+        "props": {
+            "blockClass": ["formContainer-dsi", "formContainer-memorama"]
+        },
+        "children": [
+            "form#memorama"
+        ]
+    },
+    "form#memorama": {
+        "props": {
+            "entity": "FL",
+            "schema": "formularioslandings"
+        },
+        "children": [
+            "form-input.text#memorama-form-name",
+            "form-input.text#memorama-form-email",
+            "form-input.text#memorama-form-birthday",
+            "form-input.checkbox#memorama-form-terms",
+            "rich-text#memorama-read-politics",
+            "form-submit#memorama-form-submit"
+        ],
+        "blocks": [
+            "form-success#memorama"
+        ]
+    },
+    "form-input.text#memorama-form-name": {
+        "props": {
+            "pointer": "#/properties/name",
+            "label": "Nombre completo",
+            "placeholder": "Ingresa tu nombre completo"
+        }
+    },
+    "form-input.text#memorama-form-email": {
+        "props": {
+            "pointer": "#/properties/mail",
+            "label": "Correo Electrónico",
+            "placeholder": "Ingresa tu correo electrónico"
+        }
+    },
+    "form-input.text#memorama-form-birthday": {
+        "props": {
+            "pointer": "#/properties/birthday",
+            "label": "Selecciona tu fecha de nacimiento",
+            "blockClass": "form-cybersale-dsi"
+        }
+    },
+    "form-input.checkbox#memorama-form-terms": {
+        "props": {
+            "pointer": "#/properties/terms",
+            "label": "Acepto política de datos y términos y condiciones"
+        }
+    },
+    "rich-text#memorama-read-politics": {
+        "props": {
+            "text": "Leer [política de datos](/politicas) y [términos y condiciones](/terminos-condiciones)",
+            "textAlignment": "LEFT",
+            "textPosition": "left",
+            "font": "t-mini",
+            "blockClass": "read-politics-dsi"
+        }
+    },
+    "form-submit#memorama-form-submit": {
+        "props": {
+            "label": "Registrarme",
+            "blockClass": ["submit-dsi", "submit-memorama"]
+        }
+    },
+    "form-success#memorama": {
+        "children": [
+            "rich-text#memorama-successSubmit"
+        ]
+    },
+    "rich-text#memorama-successSubmit": {
+        "props": {
+            "text": "Ingresa el cupón **FRAGANCIAPLT** en el carrito de compras. \n ###### El código debe ser ingresado en el carrito de compras en la opción SUMAR CUPÓN DE DESCUENTO. Aplican TyC.",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "memorama-successSubmit"
+        }
+    },   
 
     // INICIO CODIGO DE SLIDER MOBILE 
 /* 
@@ -391,6 +480,7 @@
     "flex-layout.col#landing-memorama-banners-1-tablet":{
         "children":[
             "image#landing-memorama-banners-1-img-1-tablet",
+            "flex-layout.row#form-memorama",
             "rich-text#memorama-text-seo-h1",
             "rich-text#memorama-parrafo-seo-h1",
             "memorygame"
@@ -471,12 +561,12 @@
     "flex-layout.col#landing-memorama-banners-1-p":{
         "children":[
             "image#landing-memorama-banners-1-img-1-p", 
+            "flex-layout.row#form-memorama",
             "rich-text#memorama-text-seo-h1",
             "rich-text#memorama-parrafo-seo-h1",
             "memorygame", 
             "image#landing-memorama-banners-1-img-1-ph1", 
             "image#landing-memorama-banners-1-img-1-ph2"
-
         ],
         "props":{
             "blockClass":"contentBannersDesk"

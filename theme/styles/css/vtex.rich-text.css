@@ -1836,3 +1836,13 @@
     margin: 0.35rem 0;
   }
 }
+
+/*Memorama*/
+.wrapper--memorama-successSubmit {
+  font-size: 14px;
+}
+.headingLevel6--memorama-successSubmit {
+  font-size: 11px;
+  line-height: 13px;
+  margin: 0;
+}
