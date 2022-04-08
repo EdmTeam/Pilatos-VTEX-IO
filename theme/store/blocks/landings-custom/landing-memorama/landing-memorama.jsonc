@@ -23,7 +23,7 @@
         "props": {
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
-            "text": "### Compra nuestra esencia",
+            "text": "### Compra nuestra fragancai",
             "blockClass": "texto-memorama-textseo-h1"
         }
     },
@@ -36,7 +36,7 @@
         ],
         "props": {
             "querySchema": {
-                "queryField": "1228",
+                "queryField": "1236",
                 "mapField": "productClusterIds"
             }
         }
@@ -151,8 +151,9 @@
             "rich-text#memorama-text-seo-h1",
             "rich-text#memorama-parrafo-seo-h1",
             "memorygame",
-            "flex-layout.row#landing-memorama-banners-2"
-            
+            "flex-layout.row#landing-memorama-banners-2",
+            "flex-layout.col#landing-memorama-banners-ingrediente"
+
 
             //"memorygame"
             //"flex-layout.col#landing-memorama-banners-3"
@@ -183,7 +184,7 @@
         "props": {
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
-            "text": "# Únete a nuestro lanzamiento y recibe increíbles descuentos",
+            "text": "# Encuentra el perfect match y gana 10% de descuento en nuestra tienda online",
             "blockClass": "texto-memorama-textseo-h1"
         }
     },
@@ -191,7 +192,17 @@
         "props": {
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
-            "text": "Encuentra el perfect match y gana 10% de descuento en nuestra tienda"
+            "text": "Anímate a descubrir las 6 parejas dando click a cada cuadro para completar el juego y ganar tu descuento."
+        }
+    },
+
+    "rich-text#memorama-parrafo-seo-h1-mobile": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Anímate a descubrir las 6 parejas dando click a cada cuadro para completar el juego y ganar tu descuento.",
+            "blockClass": "texto-memorama-textseo-seo-mobile"
+
         }
     },
     "flex-layout.row#form-memorama": {
@@ -336,21 +347,21 @@
 
     "rich-text#landing-memorama-bread-crumb":{
         "props":{
-            "text": "[Home](/) / [**memorama**](/memorama)",
+            "text": "[Home](/) / [**Fragancia Pilatos**](/fraganciapilatos)",
             "blockClass": "departmentBreadCrumb"
         }
     },
 
     "rich-text#landing-memorama-title":{
         "props":{
-            "text": "## memorama Pilatos",
+            "text": "## Pilatos Fragancia",
             "blockClass": "departmentTitle"
         }
     },
 
     "rich-text#landing-memorama-description":{
         "props":{
-            "text": "Encuentra todo en zapatos, accesorios y ropa para hombre desde camisetas.",
+            "text": ".",
             "blockClass": "departmentDescription"
         }
     },
@@ -369,6 +380,26 @@
     "image#landing-memorama-banners-1-img-1": {
         "props": {
             "src": "/arquivos/Pilatos-EauDeToilette-Landing-Banner.jpg",
+            "link": {
+                "url": "",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+    "flex-layout.col#landing-memorama-banners-ingrediente":{
+        "children":[
+            "image#landing-memorama-banners-1-img-1-ingrediente"
+        ],
+        "props":{
+            "blockClass":"contentBannersDesk"
+        }
+    },
+
+    "image#landing-memorama-banners-1-img-1-ingrediente": {
+        "props": {
+            "src": "/arquivos/BannerIngredientes2a.jpg",
             "link": {
                 "url": "",
                 "attributeTitle": ""
@@ -403,8 +434,7 @@
     "flex-layout.row#landing-memorama-banners-2":{
         "children":[
             "flex-layout.col#landing-memorama-banners-2-img-1",
-            "flex-layout.col#landing-memorama-banners-2-img-2"
-            
+            "flex-layout.col#landing-memorama-banners-2-img-2"            
 
            
         ],
@@ -412,6 +442,8 @@
 /*             "blockClass":"contentBanners-ecobag"
  */        }
     },
+
+    
 
     "flex-layout.col#landing-memorama-banners-2-img-1":{
         "children":[
@@ -506,7 +538,8 @@
     "flex-layout.row#landing-memorama-banners-2-tablet":{
         "children":[
             "flex-layout.col#landing-memorama-banners-2-img-1-tablet",
-            "flex-layout.col#landing-memorama-banners-2-img-2-tablet"
+            "flex-layout.col#landing-memorama-banners-2-img-2-tablet",
+            "flex-layout.col#landing-memorama-banners-ingrediente"
            
         ],
         "props":{
@@ -563,10 +596,12 @@
             "image#landing-memorama-banners-1-img-1-p", 
             "flex-layout.row#form-memorama",
             "rich-text#memorama-text-seo-h1",
-            "rich-text#memorama-parrafo-seo-h1",
+            "rich-text#memorama-parrafo-seo-h1-mobile",
             "memorygame", 
             "image#landing-memorama-banners-1-img-1-ph1", 
-            "image#landing-memorama-banners-1-img-1-ph2"
+            "image#landing-memorama-banners-1-img-1-ph2",
+            "image#landing-memorama-banners-1-img-1-phingrediente"
+
         ],
         "props":{
             "blockClass":"contentBannersDesk"
@@ -607,6 +642,16 @@
         }
     },
 
+    "image#landing-memorama-banners-1-img-1-phingrediente": {
+        "props": {
+            "src": "/arquivos/Pilatos-EauDeToilette-Landing-BannerIngredientesMobile.jpg",
+            "link": {
+                "url": "",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-memo"
+        }
+    },
 
 
 
@@ -704,7 +749,7 @@
     },
     "iframe#memorama-video-phone": {
         "props": {
-            "src": "https://www.youtube.com/embed/k-myua4KReA",
+            "src": "https://www.youtube.com/embed/FNJip3IUrc8",
             "allow": "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
             "blockClass": "orderFromChaosVideo"
         }
@@ -726,7 +771,7 @@
         },
         "iframe#memorama-video-tablet": {
             "props": {
-                "src": "https://www.youtube.com/embed/k-myua4KReA",
+                "src": "https://www.youtube.com/embed/FNJip3IUrc8",
                 "allow": "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
                 "blockClass": "orderFromChaosVideo"
             }
@@ -749,7 +794,7 @@
     },
     "iframe#memorama-video": {
         "props": {
-            "src": "https://www.youtube.com/embed/k-myua4KReA",
+            "src": "https://www.youtube.com/embed/FNJip3IUrc8",
             "allow": "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
             "blockClass": "orderFromChaosVideo"
         }
