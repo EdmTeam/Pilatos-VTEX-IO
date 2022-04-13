@@ -21,8 +21,8 @@
         "children": [
             "rich-text#desk-menu-item-3-link-1",
             "rich-text#desk-menu-item-3-link-2",
-            "rich-text#desk-menu-item-3-link-3"
-            // "rich-text#desk-menu-item-3-link-4",
+            "rich-text#desk-menu-item-3-link-3",
+            "rich-text#desk-menu-item-3-link-4"
             // "rich-text#desk-menu-item-3-link-5",
             // "rich-text#desk-menu-item-3-link-6"
         ]
@@ -51,7 +51,7 @@
 
     "rich-text#desk-menu-item-3-link-4": {
         "props": {
-            "text": "[Promociones PILATOS Outlet y Mixtas](#!)",
+            "text": "[Medios de pago](/medios-de-pago)",
             "blockClass": "linkFooter"
         }
     },

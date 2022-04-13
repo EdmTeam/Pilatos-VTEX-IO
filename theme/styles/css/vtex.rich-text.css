@@ -1392,6 +1392,23 @@
   justify-content: center;
   width: 100%;
   display: flex;
+  
+}
+
+.wrapper--title-statict-pagos{
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  background: #FFD400;
+  color: #000;
+}
+.wrapper--title-statict-parrafo{
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  color: #000;
+  padding: 2%;
+  text-align: justify;
 }
 
 /* Modal de promociones */

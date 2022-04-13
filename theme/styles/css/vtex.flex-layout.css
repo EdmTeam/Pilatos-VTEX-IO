@@ -2139,6 +2139,8 @@
 .flexRow--static-top-title-politics :global(.vtex-rich-text-0-x-container),
 .flexRow--static-top-title-preguntas :global(.vtex-rich-text-0-x-container),
 .flexRow--static-accordion :global(.vtex-rich-text-0-x-container)
+.flexRow--static-accordion-pagos :global(.vtex-rich-text-0-x-container)
+
 {
   background: #e0e0e0;
   padding: 40px 0;
@@ -2151,11 +2153,18 @@
   text-decoration: none;
 }
 
+.flexRow--static-accordion-pagos :global(.vtex-rich-text-0-x-link){
+  color: #F2A922;
+  text-decoration: none;
+}
+
 .flexRow--static-top-title-promo :global(.vtex-rich-text-0-x-heading-level-1),
 .flexRow--static-top-title-terms :global(.vtex-rich-text-0-x-heading-level-1),
 .flexRow--static-top-title-politics :global(.vtex-rich-text-0-x-heading-level-1),
 .flexRow--static-top-title-preguntas :global(.vtex-rich-text-0-x-heading-level-1),
 .flexRow--static-accordion :global(.vtex-rich-text-0-x-heading-level-1)
+.flexRow--static-accordion-pagos :global(.vtex-rich-text-0-x-heading-level-1)
+
 {
   font-size: 1.6rem;
   font-weight: 900;
@@ -2167,6 +2176,12 @@
 }
 
 .flexRow--static-accordion{
+  width: 90%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.flexRow--static-accordion-pagos{
   width: 90%;
   max-width: 1300px;
   margin: 0 auto;
@@ -2261,6 +2276,22 @@
     margin: 0 10px;
   }
 
+  .flexRow--static-accordion-pagos :global(.vtex-menu-2-x-styledLinkContent) {
+    background-color: #FFD400;
+    padding: 12px 10px;
+    margin-top: 10px;
+    white-space: break-spaces;
+    line-height: 1.3rem;
+  }
+  .flexRow--static-accordion-pagos :global(.vtex-rich-text-0-x-container--static-accordion-content-medios) {
+    background-color: #DBDBDB;
+    padding: 10px;
+  }
+  .flexRow--static-accordion-pagos :global(.vtex-rich-text-0-x-paragraph) {
+    text-align: left;
+    margin: 0 10px;
+  }
+
 @media screen and (max-width: 768px){
   .flexRow--static-top-title-promo,
   .flexRow--static-top-title-terms,
@@ -2289,6 +2320,10 @@
     margin: 0 auto 16px;
   }
   .flexRow--static-accordion{
+    width: 100%;
+
+  }
+  .flexRow--static-accordion-pagos{
     width: 100%;
 
   }

@@ -1,0 +1,367 @@
+{
+    "store.custom#medios-de-pago": {
+        "blocks": [
+            "flex-layout.row#static-accordion-medios-de-pago"
+        ]
+    },
+    "flex-layout.row#static-accordion-medios-de-pago": {
+        "props": {
+            "blockClass": [
+                "static-accordion-pagos",
+                "static-center"
+            ]
+        },
+        "children": [
+            "flex-layout.col#static-accordion-menu-medios-de-pago"
+        ]
+    },
+    "flex-layout.col#static-accordion-menu-medios-de-pago": {
+        "children": [
+            "rich-text#title-medios-de-pago",
+            "rich-text#descripcion-pagos",
+            "menu#static-accordion-menu-medios-de-pago"
+        ]
+    },
+    "rich-text#title-medios-de-pago": {
+        "props": {
+            "text": " ## MEDIOS DE PAGO",
+            "blockClass": "title-statict-pagos"
+        }
+    },
+    "rich-text#descripcion-pagos": {
+        "props": {
+            "text": " En Pilatos ofrecemos múltiples opciones de medios de pago, puedes comprar con una o más tarjetas de crédito, con tarjeta de débito, en efectivo, con Nequi o si prefieres realizar tus pagos a cuotas con ADDI o Sistecrédito. Compra de manera segura, paga con tu método de pago de preferencia y recibe en casa. ¡Aprovecha y estrena!",
+            "blockClass": "title-statict-parrafo"
+        }
+    },
+    "menu#static-accordion-menu-medios-de-pago": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#tarjeta-credito",
+            "menu-item#tarjeta-debito",
+            "menu-item#tarjeta-pse",
+            "menu-item#tarjeta-addi",
+            "menu-item#tarjeta-boton-bancolombia",
+            "menu-item#tarjeta-codensa",
+            "menu-item#tarjeta-contraentrega",
+            "menu-item#tarjeta-sistecredito",
+            "menu-item#tarjeta-boleto-banco"
+           
+           
+
+        ]
+    },
+    "menu-item#tarjeta-credito": {
+        "props": {
+            "id": "menu-item-tarjeta-credito",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "accordion-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "Tarjeta de crédito"
+            }
+        },
+        "blocks": [
+            "submenu.accordion#static-accordion-content-tarjeta-credito"
+        ]
+    },
+   
+    "menu-item#tarjeta-debito": {
+        "props": {
+            "id": "menu-item-tarjeta-debito",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "accordion-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "Tarjeta de débito"
+            }
+        },
+        "blocks": [
+            "submenu.accordion#static-accordion-content-tarjeta-debito"
+        ]
+    },
+
+    "menu-item#tarjeta-pse": {
+        "props": {
+            "id": "menu-item-tarjeta-pse",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "accordion-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "Débito o PSE"
+            }
+        },
+        "blocks": [
+            "submenu.accordion#static-accordion-content-tarjeta-pse"
+        ]
+    },
+
+    "menu-item#tarjeta-codensa": {
+        "props": {
+            "id": "menu-item-tarjeta-codensa",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "accordion-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "Codensa"
+            }
+        },
+        "blocks": [
+            "submenu.accordion#static-accordion-content-tarjeta-codensa"
+        ]
+    },
+
+    "menu-item#tarjeta-sistecredito": {
+        "props": {
+            "id": "menu-item-tarjeta-sistecredito",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "accordion-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "Sistecredito"
+            }
+        },
+        "blocks": [
+            "submenu.accordion#static-accordion-content-tarjeta-sistecredito"
+        ]
+    },
+
+    "menu-item#tarjeta-boleto-banco": {
+        "props": {
+            "id": "menu-item-tarjeta-boleto-banco",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "accordion-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "Pago en efectivo Boleto de Banco"
+            }
+        },
+        "blocks": [
+            "submenu.accordion#static-accordion-content-tarjeta-boleto-banco"
+        ]
+    },
+
+    "menu-item#tarjeta-contraentrega": {
+        "props": {
+            "id": "menu-item-tarjeta-contraentrega",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "accordion-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "Pago contra entrega"
+            }
+        },
+        "blocks": [
+            "submenu.accordion#static-accordion-content-tarjeta-contraentrega"
+        ]
+    },
+
+
+    "menu-item#tarjeta-addi": {
+        "props": {
+            "id": "menu-item-tarjeta-addi",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "accordion-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "ADDI"
+            }
+        },
+        "blocks": [
+            "submenu.accordion#static-accordion-content-tarjeta-addi"
+        ]
+    },
+
+
+    "menu-item#tarjeta-boton-bancolombia": {
+        "props": {
+            "id": "menu-item-tarjeta-boton-bancolombia",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "accordion-item",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "Botón Bancolombia"
+            }
+        },
+        "blocks": [
+            "submenu.accordion#static-accordion-content-tarjeta-boton-bancolombia"
+        ]
+    },
+    // SESION DE PARRAFOS TEXTOS 
+    "submenu.accordion#static-accordion-content-tarjeta-credito": {
+        "props": {
+            "blockClass": "static-accordion-content-medios"
+        },
+        "children": [
+            "rich-text#static-accordion-content-tarjeta-credito"
+        ]
+    },
+   
+    "rich-text#static-accordion-content-tarjeta-credito": {
+        "props": {
+            "text": "Aceptamos tus tarjetas de crédito para que puedas realizar tus compras. Aplica para VISA, Mastercard, American Express, Banco de Occidente y Diners Club.",
+            "blockClass": "static-accordion-content-medios"
+        }
+    },
+    "submenu.accordion#static-accordion-content-tarjeta-debito": {
+        "props": {
+            "blockClass": "static-accordion-content-medios"
+        },
+        "children": [
+            "rich-text#static-accordion-content-tarjeta-debito"
+        ]
+    },
+   
+    "rich-text#static-accordion-content-tarjeta-debito": {
+        "props": {
+            "text": "Para que realices tus compras aceptamos tarjera Debito VISA y Mastercard, éstas se utilizan para poder efectuar diferentes operaciones financieras y están ligadas a una clave o PIN que permite autorizar dichas transacciones. En este tipo de tarjeta, el dinero es aquel que dispone el titular en su cuenta bancaria y para realizar el pago se solicita un código de seguridad, fecha de vencimiento y número de cuotas.",
+            "blockClass": "static-accordion-content-medios"
+        }
+    },
+
+    "submenu.accordion#static-accordion-content-tarjeta-pse": {
+        "props": {
+            "blockClass": "static-accordion-content-medios"
+        },
+        "children": [
+            "rich-text#static-accordion-content-tarjeta-pse"
+        ]
+    },
+   
+    "rich-text#static-accordion-content-tarjeta-pse": {
+        "props": {
+            "text": "Este medio de pago aplica para tarjetas Débito pertenecientes al grupo PSE. Recuerda que debes tener la segunda clave de la misma o clave dinámica dependiendo del Banco en el cual realices tu transacción, sino tienes esta información debes comunicarte con la entidad financiera correspondiente para obtenerla",
+            "blockClass": "static-accordion-content-medios"
+        }
+    },
+    "submenu.accordion#static-accordion-content-tarjeta-codensa": {
+        "props": {
+            "blockClass": "static-accordion-content-medios"
+        },
+        "children": [
+            "rich-text#static-accordion-content-tarjeta-codensa"
+        ]
+    },
+   
+    "rich-text#static-accordion-content-tarjeta-codensa": {
+        "props": {
+            "text": "Este medio de pago funciona solo para la tarjeta de crédito CODENSA.",
+            "blockClass": "static-accordion-content-medios"
+        }
+    },
+    "submenu.accordion#static-accordion-content-tarjeta-sistecredito": {
+        "props": {
+            "blockClass": "static-accordion-content-medios"
+        },
+        "children": [
+            "rich-text#static-accordion-content-tarjeta-sistecredito"
+        ]
+    },
+   
+    "rich-text#static-accordion-content-tarjeta-sistecredito": {
+        "props": {
+            "text": "El botón de pago de Sistecrédito solo se utilizará para créditos de clientes con cupo disponible, quienes pueden realizar la compra de la siguiente manera: <br>  Debe seleccionar el producto que desea comprar y dar clic en la opción finalizar mi compra y lo llevará directamente al registro (el mismo del e-commerce).<br> • Luego el cliente debe seleccionar la opción de pago con Sistecrédito y la página lo llevará a la pasarela de pagos donde se le pedirá el número de cédula y cómo desea pagar, si quincenal o mensual.<br> • Por motivos de seguridad, se les solicitará un código o token, deberán presionar el botón Continuar.<br> • Cuando el cliente finalice la compra, el pagaré electrónico le llegará a su correo y el cliente podrá evidenciar el monto del crédito, la cuota a pagar y el plazo. <br>  Es importante aclarar que, si el cliente es nuevo y desea solicitar un cupo con Sistecrédito, primero debe registrarse en la página web o en la App Sistecrédito Personas y luego solicitar el cupo.",
+            "blockClass": "static-accordion-content-medios"
+        }
+    },
+    "submenu.accordion#static-accordion-content-tarjeta-boleto-banco": {
+        "props": {
+            "blockClass": "static-accordion-content-medios"
+        },
+        "children": [
+            "rich-text#static-accordion-content-tarjeta-boleto-banco"
+        ]
+    },
+   
+    "rich-text#static-accordion-content-tarjeta-boleto-banco": {
+        "props": {
+            "text": "Si no tienes tarjeta debido o crédito, puedes usar el medio de pago en efectivo Boleto de Banco con las opciones Efecty o Baloto. Cuando seleccionas este medio de pago y finalizas la compra, llegará a tu correo un ticket con un código para realizar el pago en un punto Efecty o Baloto (dependiendo del que hayas elegido para realizar el pago) y tendrás 5 días de vigencia para efectuar el pago.",
+            "blockClass": "static-accordion-content-medios"
+        }
+    },
+
+    "submenu.accordion#static-accordion-content-tarjeta-contraentrega": {
+        "props": {
+            "blockClass": "static-accordion-content-medios"
+        },
+        "children": [
+            "rich-text#static-accordion-content-tarjeta-contraentrega"
+        ]
+    },
+   
+    "rich-text#static-accordion-content-tarjeta-contraentrega": {
+        "props": {
+            "text": "Con este medio de pago podrás pagar tu pedido en el momento que llegue a la dirección de tu domicilio. Recuerda que debes tener el dinero de tu compra exacto, pues la persona encargada de entregar el producto no maneja efectivo para dar cambio.",
+            "blockClass": "static-accordion-content-medios"
+        }
+    },
+
+    "submenu.accordion#static-accordion-content-tarjeta-addi": {
+        "props": {
+            "blockClass": "static-accordion-content-medios"
+        },
+        "children": [
+            "rich-text#static-accordion-content-tarjeta-addi"
+        ]
+    },
+   
+    "rich-text#static-accordion-content-tarjeta-addi": {
+        "props": {
+            "text": "Es una compañía de tecnología que busca habilitar e impulsar el comercio digital en América Latina, comenzando por hacer que la financiación en el punto de venta sea accesible y ubicua. En ADDI se busca financiar tus sueños ofreciéndote créditos rápidos, transparentes y asequibles. Como debe ser. <br>Para tener una cuenta de usuario en el portal del cliente de ADDI, debes realizar tu primera compra a crédito con nosotros en cualquiera de nuestros comercios aliados, bien sea en sus puntos físicos o en sus tiendas en línea. Al finalizar la compra, recibirás un correo electrónico para realizar la activación de tu cuenta e ingresar a consultar el estado de tus créditos. <br>Para solicitar un crédito ADDI sólo necesitas: <br>• Ser mayor de edad.<br>• Ser mayor de edad.<br>• Ser mayor de edad.<br>• Una dirección de correo electrónico valida.<br>Sin papeleo, sin referencias. No solicitamos certificados de ingreso, pagarés, ni ninguna otra documentación.<br>ADDI ofrece créditos con plazos que alcanzan hasta 24 meses. Dependiendo del perfil del cliente y del monto que se esté solicitando, ADDI ofrece también alternativas de financiación con plazos hasta 3, 6, 9, 12, 18 y 24 meses; esta información será arrojada por el sistema después de validar tu identidad.<br>En todo caso, ADDI no exige el pago de un número mínimo de cuotas, y el cliente podrá realizar en cualquier momento pagos anticipados de su crédito, incluyendo la cancelación total del mismo, sin ninguna penalidad o costo adicional. <br>*Sólo se admiten devoluciones del pedido completo<br>La anulación del crédito con ADDI: Recuerda que, si en tu pedido tienes más de un artículo, para poder anular el crédito debes realizar la devolución de estos, los cuales deben estar en perfecto estado y con sus respectivas etiquetas, de lo contrario, solo se podría acceder al vale, ya que la anulación solo se puede realizar total. En caso de elegir esta opción, le solicitaremos una recogida, la cual es totalmente gratis.",
+            "blockClass": "static-accordion-content-medios"
+        }
+    },
+    "submenu.accordion#static-accordion-content-tarjeta-boton-bancolombia": {
+        "props": {
+            "blockClass": "static-accordion-content-medios"
+        },
+        "children": [
+            "rich-text#static-accordion-content-tarjeta-boton-bancolombia"
+        ]
+    },
+   
+    "rich-text#static-accordion-content-tarjeta-boton-bancolombia": {
+        "props": {
+            "text": "Selecciona el botón bancolombia como método de pago, verifica los datos de la transacción, digita tu usuario y clave Bancolombia, ingresa la clave dinámica, visualiza el resumen de la compra y da clic en transferir, ¡Y listo! solo en seis clics finaliza la compra. ",
+            "blockClass": "static-accordion-content-medios"
+        }
+    }
+}
