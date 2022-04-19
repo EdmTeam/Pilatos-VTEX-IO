@@ -62,6 +62,9 @@
             },
             {
               "name": "Color"
+            },
+            {
+              "name": "Tipo"
             }
           ]
         }
@@ -253,6 +256,9 @@
             },
             {
               "name": "Color"
+            },
+            {
+              "name": "Tipo"
             }
           ]
         }

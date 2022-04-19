@@ -1,0 +1,165 @@
+{
+    "store.custom#formularioprueba": {
+        "blocks": [
+            "flex-layout.row#static-top-title-politics-prueba",
+            "tab-layout#influencer"
+        ]
+    },
+    "flex-layout.row#static-top-title-politics-prueba": {
+        "props": {
+            "blockClass": "static-top-title-politics"
+        },
+        "children": [
+            "rich-text#static-top-title-politics-prueba"
+        ]
+    },
+    "rich-text#static-top-title-politics-prueba": {
+        "props": {
+            "text": "# POLÍTICAS DE MANEJO DE DATOS",
+            "blockClass": "static-top-title-politics"
+        }
+    },
+
+    "rich-text#cambio2": {
+        "props": {
+            "text": "### Políticas de cancelación \n Si quieres hacer la cancelación de tu pedido, puedes gestionarlo siguiendo estos pasos: \n \n 1. En la parte superior de la página, ingresa a MI CUENTA (En el ícono de una persona).",
+            "blockClass": "static-text-politics"
+        }
+    },
+
+    "rich-text#manejo2": {
+        "props": {
+            "text": "ESTUDIO DE MODA S.A.S \n Esta Política se encuentra vigente desde noviembre de 2015, los cambios sustanciales serán informados debidamente por Estudio de Moda S.A.S",
+            "blockClass": "static-text-politics"
+        }
+    },
+    "rich-text#envio2": {
+        "props": {
+            "text": "Estudio de Moda S.A.S desde su página www.pilatos.com, realiza despachos a gran parte del territorio colombiano a través de Coordinadora, quien garantiza la seguridad, cobertura y calidad en el servicio, para que tu compra llegue a donde estés. \n ### Tiempo de entrega",
+            "blockClass": "static-text-politics"
+        }
+    },
+    "rich-text#garantia2": {
+        "props": {
+            "text": "### Políticas de garantía \n 1. Los requisitos para hacerla efectiva serán los establecidos por ",
+            "blockClass": "static-text-politics"
+        }
+    },
+
+    "rich-text#garantia80": {
+        "props": {
+            "text": "### Políticas de garantía \n 1. Los requisitos para hacerla efectiva serán los establecidos por ",
+            "blockClass": "static-text-politics"
+        }
+    },
+
+
+    "tab-layout#influencer":{
+        "children": [
+            "tab-list#influencer",
+            "tab-content#influencer"
+        ],
+        "props": {
+            "blockClass": "politics",
+            "defaultActiveTabId": "politics1"
+        }
+    },
+
+    "tab-list#influencer": {
+        "children":[
+            "tab-list.item#politics12",
+            "tab-list.item#politics22",
+            "tab-list.item#politics32",
+            "tab-list.item#politics42",
+            "tab-list.item#politics52"
+        ]
+    },
+    "tab-list.item#politics12": {
+        "props": {
+            "tabId": "politics12",
+            "label": "CAMBIO Y RETRACTO",
+            "defaultActiveTabId": true,
+            "blockClass": "tabs-newbalanceform"
+        }
+    },
+
+    "tab-list.item#politics22":{
+        "props":{
+            "tabId": "politics22",
+            "label": "MANEJO DE DATOS",
+            "blockClass": "tabs-newbalanceform"
+        }
+    },
+    "tab-list.item#politics32":{
+        "props":{
+            "tabId": "politics32",
+            "label": "ENVÍO",
+            "blockClass": "tabs-newbalanceform"
+        }
+    },
+    "tab-list.item#politics42":{
+        "props":{
+            "tabId": "politics42",
+            "label": "GARANTÍA",
+            "blockClass": "tabs-newbalanceform"
+        }
+    },
+    "tab-list.item#politics52":{
+        "props":{
+            "tabId": "politics52",
+            "label": "IMAGEN NUEVA",
+            "blockClass": "tabs-newbalanceform"
+        }
+    },
+
+    "tab-content#influencer":{
+        "children": [
+            "tab-content.item#politics12",
+            "tab-content.item#politics22",
+            "tab-content.item#politics32",
+            "tab-content.item#politics42",
+            "tab-content.item#politics52"
+        ]
+    },
+    "tab-content.item#politics12":{
+        "children":[
+            "rich-text#cambio2",
+            "form#work-with-us"
+        ],
+        "props":{
+            "tabId": "politics12"
+        }
+    },
+    "tab-content.item#politics22":{
+        "children":[
+            "rich-text#manejo2"
+        ],
+        "props":{
+            "tabId": "politics22"
+        }
+    },
+    "tab-content.item#politics32":{
+        "children":[
+            "rich-text#envio2"
+        ],
+        "props":{
+            "tabId": "politics32"
+        }
+    },
+    "tab-content.item#politics42":{
+        "children":[
+            "rich-text#garantia2"
+        ],
+        "props":{
+            "tabId": "politics42"
+        }
+    },
+    "tab-content.item#politics52":{
+        "children":[
+            "rich-text#garantia80"
+        ],
+        "props":{
+            "tabId": "politics52"
+        }
+    }
+}

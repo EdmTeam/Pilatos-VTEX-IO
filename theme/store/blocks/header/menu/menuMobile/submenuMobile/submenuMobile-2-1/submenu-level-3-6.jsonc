@@ -28,8 +28,8 @@
     "vtex.menu@2.x:submenu.accordion#submenu-level-3-row-6": {
         "children": [
             "rich-text#submenu-level-3-text-1-row-6",
-            "rich-text#submenu-level-3-text-2-row-6",
-            "rich-text#submenu-level-3-text-3-row-6"
+            "rich-text#submenu-level-3-text-2-row-6"
+            //"rich-text#submenu-level-3-text-3-row-6"
         ],
         "props": {
             "blockClass": "contentSubMenuAcordeon"
