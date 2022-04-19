@@ -81,6 +81,24 @@
     }
 }
 
+/*INTERVIENE BILLY*/
+.listItem--tabs-newbalanceform{
+    background-color: #d3d6d7 ;
+    min-width: 300px;
+    /* min-width: 200PX; */
+   
+}
+
+.listItem--tabs-newbalanceform :global(.vtex-button){
+    color: #000000;
+    text-align: center;
+    width: 100%;
+    min-height: 400px;
+    background-image: url(/arquivos/vacantes-equipo-2-2020.png);
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
 .listItem--tabs-politics{
     background-color: #d3d6d7 ;
     min-width: 220px;
