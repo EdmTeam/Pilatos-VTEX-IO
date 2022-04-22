@@ -337,6 +337,13 @@
 
 /* Estilos Header */
 
+/* .flexRowContent--contenedorHeader, .flexColChild--contenedorHeader{
+  flex-direction: column;
+  background: #FFD400;
+} */
+
+/*  Header Amarillo */
+
 .flexRowContent--contenedorHeader, .flexColChild--contenedorHeader{
   flex-direction: column;
   background: #FFFFFF;

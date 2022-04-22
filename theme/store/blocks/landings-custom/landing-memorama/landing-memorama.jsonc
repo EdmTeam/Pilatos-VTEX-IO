@@ -3,8 +3,6 @@
         "blocks":[
             "flex-layout.row#banner-landing-memorama",
             // "memorygame",
-            "rich-text#landing-memorama-text-seo-h1",
-            "search-result-layout.customQuery#landing-memorama",
             "responsive-layout.desktop#landing-banner-video-banners-memorama",
             "responsive-layout.phone#landing-banner-video-banners-memorama",
             "responsive-layout.tablet#landing-banner-video-banners-memorama"
@@ -152,6 +150,8 @@
             "rich-text#memorama-parrafo-seo-h1",
             "memorygame",
             "flex-layout.row#landing-memorama-banners-2",
+            "rich-text#landing-memorama-text-seo-h1",
+            "search-result-layout.customQuery#landing-memorama",
             "flex-layout.col#landing-memorama-banners-ingrediente"
 
 
@@ -404,7 +404,7 @@
                 "url": "",
                 "attributeTitle": ""
             },
-            "blockClass": "departmentBannerImg-1"
+            "blockClass": "departmentBannerImg-ingre"
         }
     },
 /* 
@@ -515,7 +515,10 @@
             "flex-layout.row#form-memorama",
             "rich-text#memorama-text-seo-h1",
             "rich-text#memorama-parrafo-seo-h1",
-            "memorygame"
+            "memorygame",
+            "rich-text#landing-memorama-text-seo-h1",
+            "search-result-layout.customQuery#landing-memorama"
+
         ],
         "props":{
             "blockClass":"contentBannersDesk"
@@ -539,6 +542,7 @@
         "children":[
             "flex-layout.col#landing-memorama-banners-2-img-1-tablet",
             "flex-layout.col#landing-memorama-banners-2-img-2-tablet",
+        
             "flex-layout.col#landing-memorama-banners-ingrediente"
            
         ],
@@ -600,6 +604,9 @@
             "memorygame", 
             "image#landing-memorama-banners-1-img-1-ph1", 
             "image#landing-memorama-banners-1-img-1-ph2",
+            "rich-text#landing-memorama-text-seo-h1",
+            "search-result-layout.customQuery#landing-memorama",
+
             "image#landing-memorama-banners-1-img-1-phingrediente"
 
         ],
