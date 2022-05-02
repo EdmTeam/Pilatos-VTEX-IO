@@ -1,0 +1,11 @@
+{
+  "teamselected": {
+    "component": "TeamselectedNb"
+  },
+  "segmentify": {
+    "component": "SegmentifyObjects"
+  },
+  "productsegmentify": {
+    "component": "SegmentifyProductObject"
+  }
+}

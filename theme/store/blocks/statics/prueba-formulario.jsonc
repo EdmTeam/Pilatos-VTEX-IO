@@ -57,7 +57,8 @@
     "tab-layout#influencer":{
         "children": [
             "tab-list#influencer",
-            "tab-content#influencer"
+            "tab-content#influencer",
+            "teamselected"
         ],
         "props": {
             "blockClass": "politics",
@@ -79,7 +80,7 @@
             "tabId": "politics12",
             "label": "CAMBIO Y RETRACTO",
             "defaultActiveTabId": true,
-            "blockClass": "tabs-newbalanceform"
+            "blockClass": ["tabs-newbalanceform", "tabs-newbalanceform1"]
         }
     },
 
@@ -124,7 +125,7 @@
     "tab-content.item#politics12":{
         "children":[
             "rich-text#cambio2",
-            "form#work-with-us"
+            "flex-layout.row#form-nb"
         ],
         "props":{
             "tabId": "politics12"
@@ -132,7 +133,8 @@
     },
     "tab-content.item#politics22":{
         "children":[
-            "rich-text#manejo2"
+            "rich-text#manejo2",
+            "flex-layout.row#form-nb"
         ],
         "props":{
             "tabId": "politics22"
@@ -140,7 +142,8 @@
     },
     "tab-content.item#politics32":{
         "children":[
-            "rich-text#envio2"
+            "rich-text#envio2",
+            "flex-layout.row#form-nb"
         ],
         "props":{
             "tabId": "politics32"
@@ -148,7 +151,8 @@
     },
     "tab-content.item#politics42":{
         "children":[
-            "rich-text#garantia2"
+            "rich-text#garantia2",
+            "flex-layout.row#form-nb"
         ],
         "props":{
             "tabId": "politics42"
@@ -156,7 +160,8 @@
     },
     "tab-content.item#politics52":{
         "children":[
-            "rich-text#garantia80"
+            "rich-text#garantia80",
+            "flex-layout.row#form-nb"
         ],
         "props":{
             "tabId": "politics52"
