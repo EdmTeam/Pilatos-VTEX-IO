@@ -125,7 +125,8 @@
       "addi-infos",
       "link#scrollLink",
       "share#default",
-      "pilatos21.add-to-cart-button:add-to-cart-button"
+      "pilatos21.add-to-cart-button:add-to-cart-button",
+      "productsegmentify"
     ],
     "props": {
       "width": "60%",

@@ -1,0 +1,130 @@
+{  
+    "flex-layout.row#form-nb": {
+      "props": {
+        "blockClass": "form-nb-container"
+      },
+      "children": [
+        "flex-layout.col#form-nb-col"
+      ]
+    },
+    "flex-layout.col#form-nb-col": {
+        "children": [
+            "form#form-nb-form"
+        ]
+    },
+    "form#form-nb-form": {
+      "props": {
+        "entity": "FN",
+        "schema": "formnb"
+      },
+      "blocks": [
+        "form-success#form-nb-form"
+      ],
+      "children": [
+        "form-input.text#name-form-nb",
+        "form-input.text#lastname-form-nb",
+        "form-input.text#phone-form-nb",
+        "form-input.text#email-form-nb",
+        "form-input.dropdown#gender-form-nb",
+        "form-input.text#height-form-nb",
+        "form-input.text#weight-form-nb",
+        "form-input.upload#foto1-form-nb",
+        "form-input.upload#foto2-form-nb",
+        "flex-layout.row#influencer-container-nb",
+        "form-submit#submit-form-nb"
+      ]
+    },
+    "form-success#form-nb-form": {
+      "children": [
+        "rich-text#success-submit-formnb"
+      ]
+    },
+    "rich-text#success-submit-formnb": {
+      "props": {
+        "text": "Gracias por escribirnos.",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "blockClass":"formulario-exitoso"
+      }
+    },
+    "form-input.text#name-form-nb": {
+        "props": {
+          "pointer": "#/properties/name",
+          "placeholder": "Nombre",
+          "label": "Nombre"
+        }
+    },
+    "form-input.text#lastname-form-nb": {
+      "props": {
+        "pointer": "#/properties/lastname",
+        "placeholder": "Apellido",
+        "label": "Apellido"
+      }
+    },
+    "form-input.upload#foto1-form-nb": {
+      "props": {
+        "pointer": "#/properties/photo1",
+        "label": "Foto 1 (.JPG ó .PDF MAX 2MB)"
+      }
+    },
+    "form-input.upload#foto2-form-nb": {
+      "props": {
+        "pointer": "#/properties/photo2",
+        "label": "Foto 2 (.JPG ó .PDF MAX 2MB)"
+      }
+    },
+    "form-input.dropdown#gender-form-nb": {
+        "props": {
+          "pointer": "#/properties/gender",
+          "blockClass": "gender-form-nb"
+        }
+    },
+    "form-input.text#height-form-nb": {
+      "props": {
+        "pointer": "#/properties/height",
+        "placeholder": "Estatura",
+        "label": "Estatura"
+      }
+    },
+    "form-input.text#phone-form-nb": {
+        "props": {
+          "pointer": "#/properties/phone",
+          "placeholder": "Celular",
+          "label": "Celular"
+        }
+    },
+    "form-input.text#weight-form-nb": {
+      "props": {
+        "pointer": "#/properties/weight",
+        "placeholder": "Peso",
+        "label": "Peso"
+      }
+    },
+    "form-input.text#email-form-nb": {
+        "props": {
+            "pointer": "#/properties/email",
+            "placeholder": "Email",
+            "label": "Email"
+        }
+    },
+    "flex-layout.row#influencer-container-nb": {
+      "children": [
+        "form-input.text#influencer-form-nb"
+      ],
+      "props": {
+        "blockClass": "influencer-input"
+      }
+    },
+    "form-input.text#influencer-form-nb": {
+      "props": {
+          "pointer": "#/properties/influencer",
+          "placeholder": "Influencer"
+      }
+    },
+    "form-submit#submit-form-nb": {
+      "props": {
+        "label": "ENVIAR",
+        "blockClass": "submit-form-nb"
+      }
+    }
+}

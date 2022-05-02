@@ -2692,3 +2692,8 @@
 .flexCol--formContainer-memorama {
   display: none;
 }
+
+/*Form New Balance*/
+.flexRowContent--form-nb-container :global(.vtex-input__label){
+  display: block !important;
+}
