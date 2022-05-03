@@ -65,6 +65,12 @@
             },
             {
               "name": "Tipo"
+            },
+            {
+              "name": "Categoría"
+            },
+            {
+              "name": "Colores"
             }
           ]
         }
@@ -259,6 +265,9 @@
             },
             {
               "name": "Tipo"
+            },
+            {
+              "name": "Categoría"
             }
           ]
         }
