@@ -187,3 +187,13 @@
     font-size: 12px;
     display: inline-block;
 }
+
+.filter__container--category-3 .filterTitle {
+    font-size: 0;
+}
+
+.filter__container--category-3 .filterTitle::before {
+    content: 'Categoría';
+    font-size: 12px;
+    display: inline-block;
+}
