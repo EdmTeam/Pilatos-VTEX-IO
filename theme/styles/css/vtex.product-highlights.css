@@ -20,6 +20,16 @@
     display: block;
 }
 
+.productHighlightWrapper [data-highlight-id="1240"]{
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(/arquivos/Pilatos-Camuflaje-Flag.png);
+    display: block;
+}
+
+
 /*
 .productHighlightWrapper [data-highlight-id="1227"]{
     width: 50px;
