@@ -14,8 +14,7 @@
       "flex-layout.row#product-view-product-tablet":{
         "children":[
             "flex-layout.col#stack-product-tablet",
-            "flex-layout.col#product-description-tablet"
-        ],
+            "flex-layout.col#product-description-tablet"        ],
         "props":{
             "blockClass": "contentProductInfo"
         }
@@ -71,7 +70,6 @@
             "width": "40%"
         }
     },
-
     "flex-layout.row#product-button-quantity":{
         "children":[
             "flex-layout.col#product-quantity",
