@@ -2,16 +2,118 @@
 {
   "store.product": {
     "children": [
-      "flex-layout.row#product-view"
+      "flex-layout.row#product-view" 
     ]
   },
-
-  "flex-layout.row#product-view":{
-    "children":[
-      "flex-layout.col#product-view"
-    ]
+//condicionales de producto
+    "condition-layout.product#cond1-diesel": {
+     "props": {
+       "conditions": [
+         {
+           "subject": "brandId",
+           "arguments": {
+             "id": "2000083"
+           }
+         }
+       ],
+       "Then": "flex-layout.row#texto-importadoEDM"
+      
+     }
+   },
+   "condition-layout.product#cond2-superdry": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "brandId",
+          "arguments": {
+            "id": "2000106"
+          }
+        }
+      ],
+      "Then": "flex-layout.row#texto-importadoEDM"
+     
+    }
+  },
+  "condition-layout.product#cond3-kipling": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "brandId",
+          "arguments": {
+            "id": "2000091"
+          }
+        }
+      ],
+      "Then": "flex-layout.row#texto-importadoEDM" 
+    }
+  },
+  "condition-layout.product#cond4-pilatos": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "brandId",
+          "arguments": {
+            "id": "2000000"
+          }
+        }
+      ],
+      "Then": "flex-layout.row#texto-produccionColombiana" 
+    }
   },
 
+  "condition-layout.product#cond5-girbaud": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "brandId",
+          "arguments": {
+            "id": "2000093"
+          }
+        }
+      ],
+      "Then": "flex-layout.row#texto-produccionColombiana" 
+    }
+  },
+   
+   
+// texto condicional producto  
+"flex-layout.row#texto-importadoEDM":{
+  "children":[
+    "rich-text#produccionTexto"
+  ]
+},
+
+"rich-text#produccionTexto":{
+  "props":{
+    "text": "Importado por Estudio de Moda SAS",
+    "blockClass": "texto-importado",
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER"
+    }
+},
+
+"flex-layout.row#texto-produccionColombiana":{
+  "children":[
+    "rich-text#produccionTextoColombiana"
+  ]
+},
+
+"rich-text#produccionTextoColombiana":{
+  "props":{
+    "text": "Producción Colombiana",
+    "blockClass": "texto-importado",
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER"
+    }
+},
+
+
+
+"flex-layout.row#product-view":{
+  "children":[
+    "flex-layout.col#product-view"
+  ]
+},
   "flex-layout.col#product-view":{
     "children":[
       "flex-layout.col#breadcrumb",
@@ -121,7 +223,12 @@
       "product-quantity",
       "flex-layout.row#product-button",
       "addi-infos",
-      "link#scrollLink",
+      "condition-layout.product#cond1-diesel",
+      "condition-layout.product#cond2-superdry",
+      "condition-layout.product#cond3-kipling",
+      "condition-layout.product#cond4-pilatos",
+      "condition-layout.product#cond5-girbaud",
+            "link#scrollLink",
       "share#default",
       "pilatos21.add-to-cart-button:add-to-cart-button",
       "productsegmentify"
@@ -213,7 +320,6 @@
   "flex-layout.row#scrollLink":{
     "children":[
         "rich-text#scrollLink",
-      
         "rich-text#icoFlecha"
     ],
     "props":{
@@ -223,7 +329,10 @@
 
   "rich-text#nitysic":{
     "props":{
-      "text": "NIT: 890926803\nSIC: 890.926.803"
+      "text": "NIT: 890926803 - SIC: 890.926.803",
+      "blockClass": "texto-nitysic",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
 
     }
 
