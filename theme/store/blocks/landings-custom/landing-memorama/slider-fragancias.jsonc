@@ -1,0 +1,49 @@
+{ 
+    "slider-layout#landing-fragancia": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 3,
+        "phone": 1
+          },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "blockClass": "carrouselFragancias"
+    },
+    "children": ["image#1", "image#2", "image#3", "image#4", "image#5"]
+  },
+
+  "image#1": {
+    "props": {
+      "src": "/arquivos/Pilatos-CarruselFragancia1.jpg",
+      "maxHeight": "500px"
+    }
+  },
+  "image#2": {
+    "props": {
+        "src": "/arquivos/Pilatos-CarruselFragancia2.jpg",
+        "maxHeight": "500px"
+    }
+  },
+  "image#3": {
+    "props": {
+        "src": "/arquivos/Pilatos-CarruselFragancia3.jpg",
+        "maxHeight": "500px"
+    }
+  },
+  "image#4": {
+    "props": {
+        "src": "/arquivos/Pilatos-CarruselFragancia4.jpg",
+        "maxHeight": "500px"
+    }
+  },
+  "image#5": {
+    "props": {
+        "src": "/arquivos/Pilatos-CarruselFragancia5.jpg",
+        "maxHeight": "500px",
+        "link":{
+            "url": "/fragancia-100-ml-para-unisex-pil0001m/p?skuId=242467"
+        } 
+    }
+  }
+}

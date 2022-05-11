@@ -672,6 +672,10 @@
   width: 95% !important;
   margin: 2rem 0 4rem auto;
 }
+.flexRowContent--carrousel-fragancia{
+  width: 95% !important;
+  margin-bottom: 100px;
+}
 
 @media only screen and (max-width: 740px){
   .flexRowContent--promBannerContent{

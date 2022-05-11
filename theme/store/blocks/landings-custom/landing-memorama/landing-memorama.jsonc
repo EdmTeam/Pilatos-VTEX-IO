@@ -152,14 +152,7 @@
             "flex-layout.row#landing-memorama-banners-2",
             "rich-text#landing-memorama-text-seo-h1",
             "search-result-layout.customQuery#landing-memorama",
-            "flex-layout.col#landing-memorama-banners-ingrediente"
-
-
-            //"memorygame"
-            //"flex-layout.col#landing-memorama-banners-3"
-            // "flex-layout.col#landing-memorama-banners-golondrina"
-
-
+            "slider-layout#landing-fragancia"
         ]
     },
 
@@ -542,8 +535,7 @@
         "children":[
             "flex-layout.col#landing-memorama-banners-2-img-1-tablet",
             "flex-layout.col#landing-memorama-banners-2-img-2-tablet",
-        
-            "flex-layout.col#landing-memorama-banners-ingrediente"
+            "slider-layout#landing-fragancia"
            
         ],
         "props":{
@@ -607,7 +599,7 @@
             "rich-text#landing-memorama-text-seo-h1",
             "search-result-layout.customQuery#landing-memorama",
 
-            "image#landing-memorama-banners-1-img-1-phingrediente"
+            "slider-layout#landing-fragancia"
 
         ],
         "props":{
