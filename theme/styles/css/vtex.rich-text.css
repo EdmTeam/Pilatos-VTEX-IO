@@ -12,7 +12,22 @@
   font-size: 11px;
   font-style: normal;
 }
+.paragraph--texto-importado{
+  margin-bottom: 0;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+} 
 
+.paragraph--texto-nitysic{
+  margin-bottom: 0;
+  margin-top: 0;
+  font-size: 13px;
+  line-height: 20px;
+  color: #000000;
+} 
 .paragraph--colorBrandSection2{
   margin: 1px 0 8px .6rem;
   font-size: 9px;
