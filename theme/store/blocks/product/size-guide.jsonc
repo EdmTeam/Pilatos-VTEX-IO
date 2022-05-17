@@ -20,9 +20,9 @@
               {
                   "brands": ["2000083"],
                   "categories": ["48", "53", "84", "79"],
-                  "imageDesktop": "/arquivos/Diesel---mujer.jpg",
-                  "imageTablet": "/arquivos/Diesel---mujer-largo.jpg",
-                  "imagePhone": "/arquivos/Diesel---mujer-largo.jpg"
+                  "imageDesktop": "/arquivos/MUJER-GT-Diesel-camisa-Desk.jpg",
+                  "imageTablet": "/arquivos/MUJER-GT-Diesel-camisa-mobi.jpg",
+                  "imagePhone": "/arquivos/MUJER-GT-Diesel-camisa-mobi.jpg"
               }
           ]
         }
@@ -34,9 +34,9 @@
               {
                   "brands": ["2000083"],
                   "categories": ["44"],
-                  "imageDesktop": "/arquivos/Diesel---mujer-zapato.jpg",
-                  "imageTablet": "/arquivos/dIESEL-mujer-zapato-largo.jpg",
-                  "imagePhone": "/arquivos/dIESEL-mujer-zapato-largo.jpg"
+                  "imageDesktop": "/arquivos/MUJER-GT-Diesel-TENIS-Desk.jpg",
+                  "imageTablet": "/arquivos/MUJER-GT-Diesel-TENIS-MOBI.jpg",
+                  "imagePhone": "/arquivos/MUJER-GT-Diesel-TENIS-MOBI.jpg"
               }
           ]
         }
@@ -62,9 +62,9 @@
               {
                   "brands": ["2000093"],
                   "categories": ["48", "53", "84", "79"],
-                  "imageDesktop": "/arquivos/MFG---mujer.jpg",
-                  "imageTablet": "/arquivos/MFG-mujer-largo.jpg",
-                  "imagePhone": "/arquivos/MFG-mujer-largo.jpg"
+                  "imageDesktop": "/arquivos/Pilatos-GuiaTallas-MFG1-mujer.jpg",
+                  "imageTablet": "/arquivos/Pilatos-GuiaTallas-Mobile-MFG1-mujer.jpg",
+                  "imagePhone": "/arquivos/Pilatos-GuiaTallas-Mobile-MFG1-mujer.jpg"
               }
           ]
         }
@@ -104,9 +104,9 @@
               {
                   "brands": ["2000102"],
                   "categories": ["48", "53", "84", "79"],
-                  "imageDesktop": "/arquivos/Replay---mujer.jpg",
-                  "imageTablet": "/arquivos/Replay---mujer-largo.jpg",
-                  "imagePhone": "/arquivos/Replay---mujer-largo.jpg"
+                  "imageDesktop": "/arquivos/desk-Replay-mujerCamisa.jpg",
+                  "imageTablet": "/arquivos/mobile-Replay-mujerCamisa.jpg",
+                  "imagePhone": "/arquivos/mobile-Replay-mujerCamisa.jpg"
               }
           ]
         }
@@ -118,7 +118,7 @@
               {
                   "brands": ["2000102"],
                   "categories": ["44"],
-                  "imageDesktop": "/arquivos/Replay--mujer-zapato.jpg",
+                  "imageDesktop": "/arquivos/desk-Replay-mujer-tenis.jpg",
                   "imageTablet": "/arquivos/Replay--mujer-zapato.jpg",
                   "imagePhone": "/arquivos/Replay--mujer-zapato.jpg"
               }
@@ -132,9 +132,9 @@
               {
                   "brands": ["2000106"],
                   "categories": ["44"],
-                  "imageDesktop": "/arquivos/Superdry---mujer-zapato.jpg",
-                  "imageTablet": "/arquivos/Superdry-mujer-zapato-largo.jpg",
-                  "imagePhone": "/arquivos/Superdry-mujer-zapato-largo.jpg"
+                  "imageDesktop": "/arquivos/Pilatos-GuiaTallas-Superdry1-mujer.jpg",
+                  "imageTablet": "/arquivos/Pilatos-GuiaTallas-Mobile-Superdry4-mujer.jpg",
+                  "imagePhone": "/arquivos/Pilatos-GuiaTallas-Mobile-Superdry4-mujer.jpg"
               }
           ]
         }
@@ -146,9 +146,9 @@
               {
                   "brands": ["2000106"],
                   "categories": ["48", "53", "84", "79"],
-                  "imageDesktop": "/arquivos/Superdry---mujer.jpg",
-                  "imageTablet": "/arquivos/Superdry-mujer-largo.jpg",
-                  "imagePhone": "/arquivos/Superdry-mujer-largo.jpg"
+                  "imageDesktop": "/arquivos/Pilatos-GuiaTallas-Superdry4-camisa-mujer.jpg",
+                  "imageTablet": "/arquivos/Pilatos-GuiaTallas-Mobile-Superdry-camisamujer.jpg",
+                  "imagePhone": "/arquivos/Pilatos-GuiaTallas-Mobile-Superdry-camisamujer.jpg"
               }
           ]
         }
@@ -174,9 +174,9 @@
               {
                   "brands": ["2000083"],
                   "categories": ["3"],
-                  "imageDesktop": "/arquivos/Diesel--Hombre-zapato.jpg",
-                  "imageTablet": "/arquivos/Diesel-hombre-zapato-largo.jpg",
-                  "imagePhone": "/arquivos/Diesel-hombre-zapato-largo.jpg"
+                  "imageDesktop": "/arquivos/HOMBRE-GT-Diesel-tenis-Desk.jpg",
+                  "imageTablet": "/arquivos/HOMBRE-GT-Diesel-TENIS-MOBI.jpg",
+                  "imagePhone": "/arquivos/HOMBRE-GT-Diesel-TENIS-MOBI.jpg"
               }
           ]
         }
@@ -188,9 +188,9 @@
               {
                   "brands": ["2000083"],
                   "categories": ["5", "4", "39", "36"],
-                  "imageDesktop": "/arquivos/Diesel-Hombre.jpg",
-                  "imageTablet": "/arquivos/Diesel-hombre-largo.jpg",
-                  "imagePhone": "/arquivos/Diesel-hombre-largo.jpg"
+                  "imageDesktop": "/arquivos/HOMBRE-GT-Diesel-camisa-Desk.jpg",
+                  "imageTablet": "/arquivos/HOMBRE-GT-Diesel-camisa-mobi.jpg",
+                  "imagePhone": "/arquivos/HOMBRE-GT-Diesel-camisa-mobi.jpg"
               }
           ]
         }
@@ -216,9 +216,9 @@
               {
                   "brands": ["2000093"],
                   "categories": ["5", "4", "39", "36"],
-                  "imageDesktop": "/arquivos/MFG-Hombre.jpg",
-                  "imageTablet": "/arquivos/MFG-hombre-largo.jpg",
-                  "imagePhone": "/arquivos/MFG-hombre-largo.jpg"
+                  "imageDesktop": "/arquivos/Pilatos-GuiaTallas-MFG2-hombre.jpg",
+                  "imageTablet": "/arquivos/Pilatos-GuiaTallas-Mobile-MFG2-hombre.jpg",
+                  "imagePhone": "/arquivos/Pilatos-GuiaTallas-Mobile-MFG2-hombre.jpg"
               }
           ]
         }
@@ -258,9 +258,9 @@
               {
                   "brands": ["2000102"],
                   "categories": ["5", "4", "39", "36"],
-                  "imageDesktop": "/arquivos/Replay-Hombre.jpg",
-                  "imageTablet": "/arquivos/Replay-hombre-largo.jpg",
-                  "imagePhone": "/arquivos/Replay-hombre-largo.jpg"
+                  "imageDesktop": "/arquivos/desk-Replay-hombreCamisa.jpg",
+                  "imageTablet": "/arquivos/mobile-Replay-hombreCamisa.jpg",
+                  "imagePhone": "/arquivos/mobile-Replay-hombreCamisa.jpg"
               }
           ]
         }
@@ -272,9 +272,9 @@
               {
                   "brands": ["2000102"],
                   "categories": ["3"],
-                  "imageDesktop": "/arquivos/Replay--Hombre-zapato.jpg",
-                  "imageTablet": "/arquivos/Replay-hombre-zapato-largo.jpg",
-                  "imagePhone": "/arquivos/Replay-hombre-zapato-largo.jpg"
+                  "imageDesktop": "/arquivos/desk-Replay-hombre-tenis.jpg",
+                  "imageTablet": "/arquivos/mobile-Replay-hombre-tenis.jpg",
+                  "imagePhone": "/arquivos/mobile-Replay-hombre-tenis.jpg"
               }
           ]
         }
@@ -286,9 +286,9 @@
               {
                   "brands": ["2000106"],
                   "categories": ["5", "4", "39", "36"],
-                  "imageDesktop": "/arquivos/Superdry-Hombre.jpg",
-                  "imageTablet": "/arquivos/Superdry-hombre-largo.jpg",
-                  "imagePhone": "/arquivos/Superdry-hombre-largo.jpg"
+                  "imageDesktop": "/arquivos/Pilatos-GuiaTallas-Superdry2-camisa-hombre.jpg",
+                  "imageTablet": "/arquivos/Pilatos-GuiaTallas-Mobile-Superdry2-camisa-hombre.jpg",
+                  "imagePhone": "/arquivos/Pilatos-GuiaTallas-Mobile-Superdry2-camisa-hombre.jpg"
               }
           ]
         }
@@ -300,9 +300,9 @@
               {
                   "brands": ["2000106"],
                   "categories": ["3"],
-                  "imageDesktop": "/arquivos/Superdry-Hombre-zapato.jpg",
-                  "imageTablet": "/arquivos/Superdry-hombre-zapato-largo.jpg",
-                  "imagePhone": "/arquivos/Superdry-hombre-zapato-largo.jpg"
+                  "imageDesktop": "/arquivos/Pilatos-GuiaTallas-Superdry3-hombre.jpg",
+                  "imageTablet": "/arquivos/Pilatos-GuiaTallas-Mobile-Superdry3-hombre.jpg",
+                  "imagePhone": "/arquivos/Pilatos-GuiaTallas-Mobile-Superdry3-hombre.jpg"
               }
           ]
         }
