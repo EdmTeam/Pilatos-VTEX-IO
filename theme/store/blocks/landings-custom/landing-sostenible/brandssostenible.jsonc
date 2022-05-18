@@ -1,0 +1,121 @@
+
+    {
+        "flex-layout.row#brands-sostenible": {
+          "children": [
+            "flex-layout.col#brands-sostenible"
+          ],
+          "props": {
+            "blockClass": "contentBrandsSlide"
+          }
+        },
+    
+        "flex-layout.col#brands-sostenible":{
+          "children":[
+            "rich-text#brands-title-sostenible",
+            "slider-layout#brands-sostenible"
+          ]
+        },
+    
+        "rich-text#brands-title-sostenible": {
+          "props":{
+              "text": "**Nuestras marcas sostenibles**",
+              "blockClass": "tittleBannersMarcas",
+              "textAlignment": "CENTER",
+              "textPosition": "CENTER"
+          }
+        },
+    
+        "slider-layout#brands-sostenible": {
+          "props": {
+            "blockClass": [
+              "contentSlide", 
+              "contentSlideBrand"
+            ],
+            "itemsPerPage": {
+              "desktop": 7,
+              "tablet": 6,
+              "phone": 7
+            },
+            "showPaginationDots":"never"
+            // "autoplay": {
+            //   "timeout": 5000,
+            //   "stopOnHover": false
+            // }
+          }, 
+          "children": [
+            "image#brand-sosten1",
+            "image#brand-sosten2",
+            "image#brand-sosten3",
+            "image#brand-sosten4",
+            "image#brand-sosten5",
+            "image#brand-sosten6",
+            "image#brand-sosten7"
+
+        ]
+    },
+
+    "image#brand-sosten1": {
+        "props": {
+            "src": "/arquivos/Pilatos-Sostenible-Pilatos.png",
+            "link": {
+                "url": "/pilatos"
+            }
+        }
+      },
+
+      "image#brand-sosten2": {
+        "props": {
+            "src": "/arquivos/Pilatos-Sostenible-Kipling.png",
+            "link": {
+                "url": "/kipling"
+            }
+        }
+      },
+
+      "image#brand-sosten3": {
+        "props": {
+            "src": "/arquivos/Pilatos-Sostenible-MFG.png",
+            "link": {
+                "url": "/girbaud"
+            }
+        }
+      },
+
+      "image#brand-sosten4": {
+        "props": {
+            "src": "/arquivos/Pilatos-Sostenible-Diesel.png",
+            "link": {
+                "url": "/diesel"
+            }
+        }
+      },
+
+      "image#brand-sosten5": {
+        "props": {
+            "src": "/arquivos/Pilatos-Sostenible-Superdry.png",
+            "link": {
+                "url": "/superdry"
+            }
+        }
+      },
+
+      "image#brand-sosten6": {
+        "props": {
+            "src": "/arquivos/Pilatos-Sostenible-NewBalance.png",
+            "link": {
+                "url": "/New-Balance"
+            }
+        }
+      },
+
+      "image#brand-sosten7": {
+        "props": {
+            "src": "/arquivos/Pilatos-Sostenible-Vans.png",
+            "link": {
+                "url": "/vans"
+            }
+        }
+      }
+
+
+}

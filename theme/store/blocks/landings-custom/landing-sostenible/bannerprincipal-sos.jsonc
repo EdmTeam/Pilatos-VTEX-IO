@@ -1,0 +1,280 @@
+{
+
+    //banner desktop
+"responsive-layout.desktop#principalsostenible-banners":{
+    "children":[
+        "flex-layout.col#principalsostenible-banners"
+    ]
+},
+
+"flex-layout.col#principalsostenible-banners":{
+    "children":[
+        "image#principalsostenible-banners-img-1"
+    ],
+    "props":{
+        "blockClass":"contentBannersDesk"
+    }
+},
+
+"image#principalsostenible-banners-img-1": {
+    "props": {
+        "src": "/arquivos/pilatos-sostenible-desk-landing.jpg",
+        "link": {
+            "url": "/pilatos",
+            "attributeTitle": ""
+        },
+        "blockClass": "principal-sostenible"
+    }
+}, 
+
+//banner desktop marcas 
+"responsive-layout.desktop#sostenibleMarcas-banners":{
+    "children":[
+        "flex-layout.col#sostenibleMarcas-banners"
+    ]
+},
+
+"flex-layout.col#sostenibleMarcas-banners":{
+    "children":[
+        "image#principalsostenible-banners-img-bran1",
+        "image#principalsostenible-banners-img-bran2",
+        "image#principalsostenible-banners-img-bran3",
+        "image#principalsostenible-banners-img-bran4",
+        "image#principalsostenible-banners-img-bran5",
+        "image#principalsostenible-banners-img-bran6",
+        "image#principalsostenible-banners-img-bran7"
+
+    ],
+    "props":{
+        "blockClass":"contentBannersDesk"
+    }
+},
+
+"image#principalsostenible-banners-img-bran1": {
+    "props": {
+        "src": "/arquivos/Sostenible-Diesel-Subanner-Desk.jpg",
+        "link": {
+            "url": "/diesel",
+            "attributeTitle": ""
+        },
+        "blockClass": "principal-sostenible"
+    }
+}, 
+
+"image#principalsostenible-banners-img-bran2": {
+    "props": {
+        "src": "/arquivos/Sostenible-Subanner-kipling-desk.jpg",
+        "link": {
+            "url": "/kipling",
+            "attributeTitle": ""
+        },
+        "blockClass": "principal-sostenible"
+    }
+}, 
+
+
+"image#principalsostenible-banners-img-bran3": {
+    "props": {
+        "src": "/arquivos/Sostenible-Subanner-superdry-desk.jpg",
+        "link": {
+            "url": "/superdry",
+            "attributeTitle": ""
+        },
+        "blockClass": "principal-sostenible"
+    }
+}, 
+
+"image#principalsostenible-banners-img-bran4": {
+    "props": {
+        "src": "/arquivos/Sostenible-Subanner-mfg-desk.jpg",
+        "link": {
+            "url": "/girbaud",
+            "attributeTitle": ""
+        },
+        "blockClass": "principal-sostenible"
+    }
+}, 
+"image#principalsostenible-banners-img-bran5": {
+    "props": {
+        "src": "/arquivos/Sostenible-newbalance-Subanner-desk.jpg",
+        "link": {
+            "url": "/new-balance",
+            "attributeTitle": ""
+        },
+        "blockClass": "principal-sostenible"
+    }
+}, 
+"image#principalsostenible-banners-img-bran6": {
+    "props": {
+        "src": "/arquivos/Sostenible-vans-kipling-desk.jpg",
+        "link": {
+            "url": "/vans",
+            "attributeTitle": ""
+        },
+        "blockClass": "principal-sostenible"
+    }
+}, 
+"image#principalsostenible-banners-img-bran7": {
+    "props": {
+        "src": "/arquivos/Sostenible-Diesel-Subanner-Desk.jpg",
+        "link": {
+            "url": "/pilatos",
+            "attributeTitle": ""
+        },
+        "blockClass": "principal-sostenible"
+    }
+}, 
+
+    //banner tablet
+"responsive-layout.tablet#principalsostenible-banners":{
+    "children":[
+        "flex-layout.col#principalsostenible-banners-tablet"
+    ]
+},
+
+"flex-layout.col#principalsostenible-banners-tablet":{
+    "children":[
+        "image#principalsostenible-banners-img-1-tablet"
+    ],
+    "props":{
+        "blockClass":"contentBannersDesk"
+    }
+},
+
+"image#principalsostenible-banners-img-1-tablet": {
+    "props": {
+        "src": "/arquivos/Sostenible-LandingDESKa.jpg",
+        "link": {
+            "url": "/pilatos",
+            "attributeTitle": ""
+        },
+        "blockClass": "principal-sostenible"
+    }
+}, 
+
+//banner mobile
+
+"responsive-layout.phone#principalsostenible-banners":{
+    "children":[
+        "flex-layout.col#principalsostenible-banners-phone"
+
+    ]
+},
+
+"flex-layout.col#principalsostenible-banners-phone":{
+    "children":[
+        "image#principalsostenible-banners-img-1-phone"
+    ],
+    "props":{
+        "blockClass":"contentBannersDesk"
+    }
+},
+
+"image#principalsostenible-banners-img-1-phone": {
+    "props": {
+        "src": "/arquivos/Sostenible-Landingmobia.jpg",
+        "link": {
+            "url": "",
+            "attributeTitle": ""
+        },
+        "blockClass": "departmentBannerImg-1"
+    }
+},
+
+//banner mobile marcas 
+"responsive-layout.phone#sostenibleMarcas-banners-mobi":{
+    "children":[
+        "flex-layout.col#sostenibleMarcas-banners-mobi"
+    ]
+},
+
+"flex-layout.col#sostenibleMarcas-banners-mobi":{
+    "children":[
+        "image#phone-principalsostenible-banners-img-bran1-mobi",
+        "image#phone-principalsostenible-banners-img-bran2-mobi",
+        "image#phone-principalsostenible-banners-img-bran3-mobi",
+        "image#phone-principalsostenible-banners-img-bran4-mobi",
+        "image#phone-principalsostenible-banners-img-bran5-mobi",
+        "image#phone-principalsostenible-banners-img-bran6-mobi",
+        "image#phone-principalsostenible-banners-img-bran7-mobi"
+
+    ],
+    "props":{
+        "blockClass":"contentBannersDesk"
+    }
+},
+"image#phone-principalsostenible-banners-img-bran1-mobi": {
+    "props": {
+        "src": "/arquivos/Sostenible-Diesel-Subanner-Subanner-Mob.jpg",
+        "link": {
+            "url": "/diesel",
+            "attributeTitle": ""
+        },
+        "blockClass": "principal-sostenible"
+    }
+}, 
+
+"image#phone-principalsostenible-banners-img-bran2-mobi": {
+    "props": {
+        "src": "/arquivos/Sostenible-Subanner-kipling-mobi.jpg",
+        "link": {
+            "url": "/kipling",
+            "attributeTitle": ""
+        },
+        "blockClass": "principal-sostenible"
+    }
+}, 
+
+
+"image#phone-principalsostenible-banners-img-bran3-mobi": {
+    "props": {
+        "src": "/arquivos/Sostenible-Subanner-superdry-mobi.jpg",
+        "link": {
+            "url": "/superdry",
+            "attributeTitle": ""
+        },
+        "blockClass": "principal-sostenible"
+    }
+}, 
+
+"image#phone-principalsostenible-banners-img-bran4-mobi": {
+    "props": {
+        "src": "/arquivos/Sostenible-Subanner-mfg-mobi.jpg",
+        "link": {
+            "url": "/girbaud",
+            "attributeTitle": ""
+        },
+        "blockClass": "principal-sostenible"
+    }
+}, 
+"image#phone-principalsostenible-banners-img-bran5-mobi": {
+    "props": {
+        "src": "/arquivos/Sostenible-newbalance-Subanner-mobi.jpg",
+        "link": {
+            "url": "/new-balance",
+            "attributeTitle": ""
+        },
+        "blockClass": "principal-sostenible"
+    }
+}, 
+"image#phone-principalsostenible-banners-img-bran6-mobi": {
+    "props": {
+        "src": "/arquivos/Sostenible-vans-kipling-mobi.jpg",
+        "link": {
+            "url": "/vans",
+            "attributeTitle": ""
+        },
+        "blockClass": "principal-sostenible"
+    }
+}, 
+"image#phone-principalsostenible-banners-img-bran7-mobi": {
+    "props": {
+        "src": "/arquivos/Sostenible-Diesel-Subanner-Subanner-Mob.jpg",
+        "link": {
+            "url": "/pilatos",
+            "attributeTitle": ""
+        },
+        "blockClass": "principal-sostenible"
+    }
+}
+}
