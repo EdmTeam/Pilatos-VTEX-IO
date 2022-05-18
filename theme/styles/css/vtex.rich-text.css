@@ -481,6 +481,23 @@
   text-transform: uppercase;
 }
 
+/* Estilos titulo banner marcas */
+.container--tittleBannersMarcas{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.strong--tittleBannersMarcas{
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 31px;
+  color: #2f6319;
+  text-transform: uppercase;
+}
+
+
 .container--titleCategoryBanners{
   justify-content: center;
   align-items: center;

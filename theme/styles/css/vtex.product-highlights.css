@@ -29,6 +29,14 @@
     display: block;
 }
 
+.productHighlightWrapper [data-highlight-id="1242"]{
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(/arquivos/Pilatos-Sostenible-Flag2.png);
+    display: block;
+}
 
 /*
 .productHighlightWrapper [data-highlight-id="1227"]{

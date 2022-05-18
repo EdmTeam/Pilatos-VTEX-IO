@@ -1,0 +1,232 @@
+{
+
+    "flex-layout.row#banner-landing-sostenible":{
+        "children":[
+            "flex-layout.col#banner-landing-sostenible"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#banner-landing-sostenible":{
+        "children":[
+            "rich-text#landing-ecobag-bread-crumb",
+            "rich-text#landing-ecobag-title",
+            "responsive-layout.desktop#landing-sostenible-banners",
+          "responsive-layout.tablet#landing-sostenible-banners",
+            "responsive-layout.phone#landing-sostenible-banners"
+        ]
+    },
+        //banner desk
+
+    "responsive-layout.desktop#landing-sostenible-banners":{
+        "children":[
+            "flex-layout.col#landing-sostenible-principal",
+            "flex-layout.row#landing-sostenible-principal-2"
+        ]
+    },
+
+    "flex-layout.col#landing-sostenible-principal":{
+        "children":[
+            "image#landing-sostenible-banners-1-img-1"
+        ],
+        "props":{
+            "blockClass":"contentBannersDesk"
+        }
+    },
+
+    "image#landing-sostenible-banners-1-img-1": {
+        "props": {
+            "src": "/arquivos/aPilatos-Sostenible-Banner-Landing-Diesel-Desk.jpg",
+            "link": {
+                "url": "",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+    "flex-layout.row#landing-sostenible-principal-2":{
+        "children":[
+            "flex-layout.col#landing-sostenible-banners-2-img-izq",
+            "flex-layout.col#landing-sostenible-banners-2-img-der"
+
+           
+        ],
+        "props":{
+            "blockClass":"contentBanners-ecobag"
+        }
+    },
+
+    "flex-layout.col#landing-sostenible-banners-2-img-izq":{
+        "children":[
+            "image#landing-sostenible-banners-2-img-1"
+        ],
+        "props":{
+            "width": "50%"
+        }
+    },
+
+    "image#landing-sostenible-banners-2-img-1": {
+        "props": {
+            "src": "/arquivos/aPilatos-Sostenible-Banner-Landing-Diesel-Subanner-1.jpg",
+            "link": {
+                "url": "",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-eco"
+        }
+    },
+
+    "flex-layout.col#landing-sostenible-banners-2-img-der":{
+        "children":[
+            "image#landing-sostenible-banners-2-img-2"
+        ],
+        "props":{
+            "width": "50%"
+        }
+    },
+
+    "image#landing-sostenible-banners-2-img-2": {
+        "props": {
+            "src": "/arquivos/aPilatos-Sostenible-Banner-Landing-Diesel-Subanner-2.jpg",
+            "link": {
+                "url": "",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-eco"
+        }
+    },
+
+    //banner tablet
+
+"responsive-layout.tablet#landing-sostenible-banners":{
+    "children":[
+        "flex-layout.col#landing-sostenible-principal-tablet",
+        "flex-layout.row#landing-sostenible-principal-tablet-2"
+    ]
+},
+
+"flex-layout.col#landing-sostenible-principal-tablet":{
+    "children":[
+        "image#landing-sostenible-banners-1-img-1-tablet"
+    ],
+    "props":{
+        "blockClass":"contentBannersDesk"
+    }
+},
+
+"image#landing-sostenible-banners-1-img-1-tablet": {
+    "props": {
+        "src": "/arquivos/aPilatos-Sostenible-Banner-Landing-Diesel-Desk.jpg",
+        "link": {
+            "url": "",
+            "attributeTitle": ""
+        },
+        "blockClass": "departmentBannerImg-1"
+    }
+},
+"flex-layout.row#landing-sostenible-principal-tablet-2":{
+    "children":[
+        "flex-layout.col#landing-sostenible-banners-2-img-izq-tablet",
+        "flex-layout.col#landing-sostenible-banners-2-img-der-tablet"
+
+       
+    ],
+    "props":{
+        "blockClass":"contentBanners-ecobag"
+    }
+},
+
+"flex-layout.col#landing-sostenible-banners-2-img-izq-tablet":{
+    "children":[
+        "image#landing-sostenible-banners-2-img-1-tablet"
+    ],
+    "props":{
+        "width": "50%"
+    }
+},
+
+"image#landing-sostenible-banners-2-img-1-tablet": {
+    "props": {
+        "src": "/arquivos/aPilatos-Sostenible-Banner-Landing-Diesel-Subanner-1.jpg",
+        "link": {
+            "url": "",
+            "attributeTitle": ""
+        },
+        "blockClass": "departmentBannerImg-eco"
+    }
+},
+
+"flex-layout.col#landing-sostenible-banners-2-img-der-tablet":{
+    "children":[
+        "image#landing-sostenible-banners-2-img-2-tablet"
+    ],
+    "props":{
+        "width": "50%"
+    }
+},
+
+"image#landing-sostenible-banners-2-img-2-tablet": {
+    "props": {
+        "src": "/arquivos/aPilatos-Sostenible-Banner-Landing-Diesel-Subanner-2.jpg",
+        "link": {
+            "url": "",
+            "attributeTitle": ""
+        },
+        "blockClass": "departmentBannerImg-eco"
+    }
+},
+ //banner mobile
+
+ "responsive-layout.phone#landing-sostenible-banners":{
+    "children":[
+        "flex-layout.col#landing-sostenible-principal-phone"
+        ]
+},
+
+"flex-layout.col#landing-sostenible-principal-phone":{
+    "children":[
+        "image#landing-sostenible-banners-1-img-1-phone",
+        "image#landing-sostenible-banners-1-img-2-phone",
+        "image#landing-sostenible-banners-1-img-3-phone"
+
+    ],
+    "props":{
+        "blockClass":"contentBannersDesk"
+    }
+},
+
+"image#landing-sostenible-banners-1-img-1-phone": {
+    "props": {
+        "src": "/arquivos/aPilatos-Sostenible-Banner-Landing-Diesel-Mob.jpg",
+        "link": {
+            "url": "",
+            "attributeTitle": ""
+        },
+        "blockClass": "departmentBannerImg-1"
+    }
+},
+
+"image#landing-sostenible-banners-1-img-2-phone": {
+    "props": {
+        "src": "/arquivos/aPilatos-Sostenible-Banner-Landing-Diesel-Subanner-1.jpg",
+        "link": {
+            "url": "",
+            "attributeTitle": ""
+        },
+        "blockClass": "departmentBannerImg-1"
+    }
+},
+
+"image#landing-sostenible-banners-1-img-3-phone": {
+    "props": {
+        "src": "/arquivos/aPilatos-Sostenible-Banner-Landing-Diesel-Subanner-2.jpg",
+        "link": {
+            "url": "",
+            "attributeTitle": ""
+        },
+        "blockClass": "departmentBannerImg-1"
+    }
+}
+}
