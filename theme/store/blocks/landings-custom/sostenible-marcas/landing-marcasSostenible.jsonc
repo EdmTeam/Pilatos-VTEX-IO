@@ -3,7 +3,6 @@
         "blocks":[
             "flex-layout.row#banner-landing-sostenible",
             "flex-layout.row#most-viewed",
-            "__fold__",
             "search-result-layout.customQuery#department-nuevo"
                 ],
         "props":{

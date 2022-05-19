@@ -426,8 +426,9 @@
 
     "flex-layout.row#landing-memorama-banners-2":{
         "children":[
-            "flex-layout.col#landing-memorama-banners-2-img-1",
-            "flex-layout.col#landing-memorama-banners-2-img-2"            
+            "flex-layout.col#landing-memorama-banners-2-img-1a",
+            "flex-layout.col#landing-memorama-banners-2-img-2a",
+            "flex-layout.col#landing-memorama-banners-2-img-3"            
 
            
         ],
@@ -438,46 +439,65 @@
 
     
 
-    "flex-layout.col#landing-memorama-banners-2-img-1":{
+    "flex-layout.col#landing-memorama-banners-2-img-1a":{
         "children":[
-            "image#landing-memorama-banners-2-img-1"
+            "image#landing-memorama-banners-2-img-1a"
         ],
         "props":{
             "width": "50%"
         }
     },
 
-    "image#landing-memorama-banners-2-img-1": {
+    "image#landing-memorama-banners-2-img-1a": {
         "props": {
-            "src": "/arquivos/Pilatos-EauDeToilette-Landing-BannerInfo-izq.jpg",
+            "src": "/arquivos/Pilatos-BannerFragancia-Info1-nuevo.jpg",
             "link": {
-                "url": "",
+                "url": "/fragancia-100-ml-para-unisex-pil0001m/p?skuId=242467",
                 "attributeTitle": ""
             },
             "blockClass": "departmentBannerImg-memodesk"
         }
     },
 
-    "flex-layout.col#landing-memorama-banners-2-img-2":{
+    "flex-layout.col#landing-memorama-banners-2-img-2a":{
         "children":[
-            "image#landing-memorama-banners-2-img-2"
+            "image#landing-memorama-banners-2-img-2a"
         ],
         "props":{
             "width": "50%"
         }
     },
 
-    "image#landing-memorama-banners-2-img-2": {
+    "image#landing-memorama-banners-2-img-2a": {
         "props": {
-            "src": "/arquivos/Pilatos-EauDeToilette-Landing-BannerGif-derecha.gif",
+            "src": "/arquivos/Pilatos-BannerFragancia-Gif.gif",
             "link": {
-                "url": "",
+                "url": "/fragancia-100-ml-para-unisex-pil0001m/p?skuId=242467",
                 "attributeTitle": ""
             },
             "blockClass": "departmentBannerImg-memodesk"
         }
     },
 
+    "flex-layout.col#landing-memorama-banners-2-img-3":{
+        "children":[
+            "image#landing-memorama-banners-2-img-23"
+        ],
+        "props":{
+            "width": "50%"
+        }
+    },
+
+    "image#landing-memorama-banners-2-img-23": {
+        "props": {
+            "src": "/arquivos/Pilatos-BannerFragancia-Info2-nuevo.jpg",
+            "link": {
+                "url": "/fragancia-100-ml-para-unisex-pil0001m/p?skuId=242467",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-memodesk"
+        }
+    },
    
     
     "flex-layout.col#landing-memorama-banners-3":{
@@ -533,8 +553,8 @@
 
     "flex-layout.row#landing-memorama-banners-2-tablet":{
         "children":[
-            "flex-layout.col#landing-memorama-banners-2-img-1-tablet",
-            "flex-layout.col#landing-memorama-banners-2-img-2-tablet",
+            "flex-layout.col#landing-memorama-banners-2-img-1-tableta",
+            "flex-layout.col#landing-memorama-banners-2-img-2-tableta",
             "slider-layout#landing-fragancia"
            
         ],
@@ -543,40 +563,40 @@
         }
     },
 
-    "flex-layout.col#landing-memorama-banners-2-img-1-tablet":{
+    "flex-layout.col#landing-memorama-banners-2-img-1-tableta":{
         "children":[
-            "image#landing-memorama-banners-2-img-1"
+            "image#landing-memorama-banners-2-img-1-tableta"
         ],
         "props":{
             "width": "50%"
         }
     },
 
-    "image#landing-memorama-banners-2-img-1-tablet": {
+    "image#landing-memorama-banners-2-img-1-tableta": {
         "props": {
-            "src": "/arquivos/Pilatos-EcobagLanding-FotoEcobag.jpg",
+            "src": "/arquivos/Pilatos-BannerFragancia-Info1-nuevo.jpg",
             "link": {
-                "url": "/",
+                "url": "/fragancia-100-ml-para-unisex-pil0001m/p?skuId=242467",
                 "attributeTitle": ""
             },
             "blockClass": "departmentBannerImg-3"
         }
     },
 
-    "flex-layout.col#landing-memorama-banners-2-img-2-tablet":{
+    "flex-layout.col#landing-memorama-banners-2-img-2-tableta":{
         "children":[
-            "image#landing-memorama-banners-2-img-2"
+            "image#landing-memorama-banners-2-img-2-tableta"
         ],
         "props":{
             "width": "50%"
         }
     },
 
-    "image#landing-memorama-banners-2-img-2-tablet": {
+    "image#landing-memorama-banners-2-img-2-tableta": {
         "props": {
-            "src": "/arquivos/Pilatos-EcobagLanding-Info.jpg",
+            "src": "/arquivos/Pilatos-BannerFragancia-Info2-nuevo.jpg",
             "link": {
-                "url": "/",
+                "url": "/fragancia-100-ml-para-unisex-pil0001m/p?skuId=242467",
                 "attributeTitle": ""
             },
             "blockClass": "departmentBannerImg-4"
@@ -594,11 +614,11 @@
             "rich-text#memorama-text-seo-h1",
             "rich-text#memorama-parrafo-seo-h1-mobile",
             "memorygame", 
-            "image#landing-memorama-banners-1-img-1-ph1", 
-            "image#landing-memorama-banners-1-img-1-ph2",
+            "image#landing-memorama-banners-1-img-1-ph1a", 
+            "image#landing-memorama-banners-1-img-1-ph2a",
+            "image#landing-memorama-banners-1-img-1-ph3a",
             "rich-text#landing-memorama-text-seo-h1",
             "search-result-layout.customQuery#landing-memorama",
-
             "slider-layout#landing-fragancia"
 
         ],
@@ -619,27 +639,40 @@
     },
 
 
-    "image#landing-memorama-banners-1-img-1-ph2": {
+    "image#landing-memorama-banners-1-img-1-ph1a": {
         "props": {
-            "src": "/arquivos/Pilatos-EauDeToilette-Landing-BannerGif-derecha.gif",
+            "src": "/arquivos/Pilatos-BannerFragancia-Info1-nuevo.jpg",
             "link": {
-                "url": "",
+                "url": "/fragancia-100-ml-para-unisex-pil0001m/p?skuId=242467",
                 "attributeTitle": ""
             },
             "blockClass": "departmentBannerImg-memo"
         }
     },
 
-    "image#landing-memorama-banners-1-img-1-ph1": {
+    "image#landing-memorama-banners-1-img-1-ph2a": {
         "props": {
-            "src": "/arquivos/Pilatos-EauDeToilette-Landing-BannerInfoMobile.jpg",
+            "src": "/arquivos/Pilatos-BannerFragancia-Info2-nuevo.jpg",
             "link": {
-                "url": "",
+                "url": "/fragancia-100-ml-para-unisex-pil0001m/p?skuId=242467",
                 "attributeTitle": ""
             },
             "blockClass": "departmentBannerImg-memo"
         }
     },
+
+    "image#landing-memorama-banners-1-img-1-ph3a": {
+        "props": {
+            "src": "/arquivos/Pilatos-BannerFragancia-Gif.gif",
+            "link": {
+                "url": "/fragancia-100-ml-para-unisex-pil0001m/p?skuId=242467",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-memo"
+        }
+    },
+
+   
 
     "image#landing-memorama-banners-1-img-1-phingrediente": {
         "props": {
