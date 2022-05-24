@@ -74,7 +74,8 @@
       "Then": "flex-layout.row#texto-produccionColombiana" 
     }
   },
-   
+
+ 
    
 // texto condicional producto  
 "flex-layout.row#texto-importadoEDM":{
