@@ -111,27 +111,27 @@
 
   "flex-layout.col#header-desk-col-2": {
     "children": [
-      "image#logo-pilatos"
+      "image#logo-pilatoss"
     ],
     "props": {
-      "width": "28%",
+      "width": "50%",
       "blockClass": "contentLogo"
     }
   },
 
   "flex-layout.col#header-active-desk-col-2": {
     "children": [
-      "image#logo-pilatos"
+      "image#logo-pilatoss"
     ],
     "props": {
-      "width": "14%",
+      "width": "40%",
       "blockClass": "contentLogoActive"
     }
   },
 
-  "image#logo-pilatos": {
+  "image#logo-pilatoss": {
     "props": {
-        "src": "/arquivos/Pilatos-GIF.gif",
+        "src": "/arquivos/Pilatos-EauDeToilette-EyesMobile-nuevo.gif",
         "link": {
             "url": "/"
         }

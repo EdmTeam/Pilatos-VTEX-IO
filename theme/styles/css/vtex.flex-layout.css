@@ -353,6 +353,11 @@
   height: 100% !important;
 }
 
+.flexColChild--contentIcoMenu-mobi{
+  height: 100% !important;
+  margin-left: 20px;
+}
+
 .flexCol--contenicos{
   padding-right: 0;
   padding-left: 1rem;
@@ -367,6 +372,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.flexColChild--icoCart-mobi{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 3;
 }
 
 .flexColChild--icoLogin,
@@ -388,8 +399,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 0;
+  margin-left: -7%;
 }
+.flexCol--contentLogo-mobile{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
 
 .flexRow--contentHeaderMenu{
   width: 50%;
