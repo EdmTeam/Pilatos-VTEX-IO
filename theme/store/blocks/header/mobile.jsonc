@@ -87,7 +87,7 @@
         ],
         "props": {
             "width": "20%",
-            "blockClass": "contentIcoMenu"
+            "blockClass": "contentIcoMenu-mobi"
         }
     },
 
@@ -259,17 +259,17 @@
     //Logo mobile
     "flex-layout.col#header-mobile-col-2": {
         "children": [
-            "image#logo-pilatos"
+            "image#logo-pilatoss"
         ],
         "props": {
-            "width": "26%",
-            "blockClass": "contentLogo"
+            "width": "180%",
+            "blockClass": "contentLogo-mobile"
         }
     },
 
     "flex-layout.col#header-mobile-col-2-tablet": {
         "children": [
-            "image#logo-pilatos"
+            "image#logo-pilatoss"
         ],
         "props": {
             "width": "15%",
@@ -330,7 +330,7 @@
         ],
         "props": {
         "width": "11%",
-        "blockClass": "icoCart"
+        "blockClass": "icoCart-mobi"
         }
     },
 
