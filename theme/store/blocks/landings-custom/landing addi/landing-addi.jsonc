@@ -1,0 +1,188 @@
+{
+    "store.custom#landing-addi": {
+      "blocks": [
+        "flex-layout.row#bannersAddi",
+        "responsive-layout.phone#bannerprincipal-Addi",
+        "flex-layout.row#bannersAddiSecundarios",
+        "flex-layout.row#bannersAddiTercero",
+        "flex-layout.row#bannersAddiCuarto",
+        "flex-layout.row#most-viewed"
+
+
+       
+      ]
+    },
+
+    "flex-layout.row#bannersAddi" :{
+"children": ["responsive-layout.desktop#bannerprincipal-Addi"]
+    },
+
+    "flex-layout.row#bannersAddiSecundarios" :{
+        "children": [
+            "responsive-layout.desktop#banner-Addi2"]
+            },
+"flex-layout.row#bannersAddiTercero" :{
+            "children": [
+            "responsive-layout.desktop#banner-Addi3"]
+                        },
+"flex-layout.row#bannersAddiCuarto" :{
+            "children": [
+            "responsive-layout.desktop#banner-Addi4"]
+                        },
+
+    "responsive-layout.tablet#bannerprincipal-Addi":{
+        "children":["image#imagen1desk"
+        ]
+    },
+
+    "responsive-layout.phone#bannerprincipal-Addi":{
+        "children":["image#imagen1mobi", 
+            "image#imagen2mobi",
+            "image#imagen3mobi",
+            "image#imagen4mobi"
+        ]
+    },
+
+    "flex-layout.row#textAddi":{
+        "children":["flex-layout.col#texto",
+            "rich-text#descripcion2",
+            "rich-text#descripcion3"
+        ], 
+        "props":{
+            "borderColor": "#ff0087",
+            "horizontalAlign": "center"
+        }
+    },
+    "flex-layout.col#texto":{
+        "children":["rich-text#descripcion1"],
+    "props":{
+        "blockclass": "textColumn"    }  
+},
+
+
+  // archivos
+    "responsive-layout.desktop#bannerprincipal-Addi":{
+        "children": ["image#imagen1desk"],
+        "props":{
+            "blockClass":"contentBannersDesk",
+            "maxWidth":"100%"
+        }
+    },
+
+    "responsive-layout.desktop#banner-Addi2":{
+        "children": ["image#imagen2desko"],
+        "props":{
+            "blockClass":"contentBannersDesk"
+        }
+    },
+
+    "responsive-layout.desktop#banner-Addi3":{
+        "children": ["image#imagen3desko"],
+        "props":{
+            "blockClass":"contentBannersDesk"
+        }
+    },
+
+    "responsive-layout.desktop#banner-Addi4":{
+        "children": ["image#imagen4desko"],
+        "props":{
+            "blockClass":"contentBannersDesk"
+        }
+    },
+
+    
+   
+    "image#imagen1desk": {
+      "props": {
+        "src": "/arquivos/Pilatos-ADDI-LANDING-DESKTOP.jpg",
+        "blockClass": "departmentBannerImg-1"
+      }
+    },
+
+    "image#imagen2desko": {
+        "props": {
+          "src": "/arquivos/Pilatos-ADDI-PASO1-copy-0.jpg",
+          "blockClass": "departmentBannerImg-2"
+        }
+      },
+
+      "image#imagen3desko": {
+        "props": {
+          "src": "/arquivos/Pilatos-ADDI-PASO2-copy-0.jpg",
+          "blockClass": "departmentBannerImg-2"
+        }
+      },
+
+      "image#imagen4desko": {
+        "props": {
+          "src": "/arquivos/Pilatos-ADDI-PASO3-copy-0.jpg",
+          "blockClass": "departmentBannerImg-2"
+        }
+      },
+
+
+    "image#imagen1mobi": {
+        "props": {
+          "src": "/arquivos/Pilatos-ADDI-LANDING-MOBILE.jpg",
+          "maxHeight": "",
+          "maxWidth": "",
+          "blockClass": "storePrint"
+        }
+      },
+
+      "image#imagen2mobi": {
+        "props": {
+          "src": "/arquivos/Pilatos-ADDI-PASO1.jpg",
+          "maxHeight": "",
+          "maxWidth": "",
+          "blockClass": "storePrint"
+        }
+      },
+
+      "image#imagen3mobi": {
+        "props": {
+          "src": "/arquivos/Pilatos-ADDI-PASO2.jpg",
+          "maxHeight": "",
+          "maxWidth": "",
+          "blockClass": "storePrint"
+        }
+      },
+
+      "image#imagen4mobi": {
+        "props": {
+          "src": "/arquivos/Pilatos-ADDI-PASO3.jpg",
+          "maxHeight": "",
+          "maxWidth": "",
+          "blockClass": "storePrint"
+        }
+      },
+
+      //texto 
+      "rich-text#descripcion1": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "**ADDI** ofrece créditos con plazos que alcanzan hasta 24 meses. Dependiendo del perfil del cliente y del monto que se esté solicitando, ADDI ofrece también alternativas de financiación con plazos hasta 3, 6, 9, 12, 18 y 24 meses; esta información será arrojada por el sistema después de validar tu identidad.",
+          "font": "t-heading-5",
+          "blockClass": "help-message"
+        }
+      },
+      "rich-text#descripcion2": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "En todo caso, ADDI no exige el pago de un número mínimo de cuotas, y el cliente podrá realizar en cualquier momento pagos anticipados de su crédito, incluyendo la cancelación total del mismo, sin ninguna penalidad o costo adicional.",
+          "font": "t-heading-5",
+          "blockClass": "help-message"
+        }
+      }, 
+      "rich-text#descripcion3": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "La anulación del crédito con ADDI: Recuerda que, si en tu pedido tienes más de un artículo, para poder anular el crédito debes realizar la devolución de estos, los cuales deben estar en perfecto estado y con sus respectivas etiquetas, de lo contrario, solo se podría acceder al vale, ya que la anulación solo se puede realizar total. En caso de elegir esta opción, le solicitaremos una recogida, la cual es totalmente gratis.",
+          "font": "t-heading-5",
+          "blockClass": "help-message"
+        }
+      }
+  }
