@@ -37,7 +37,8 @@
             "rich-text#submenu-desk-department-4-category-28",
             "rich-text#submenu-desk-department-4-category-29",
             "rich-text#submenu-desk-department-4-category-30",
-            "rich-text#submenu-desk-department-4-category-31"
+            "rich-text#submenu-desk-department-4-category-31",
+            "rich-text#submenu-desk-department-4-category-32"
 
 
 
@@ -268,5 +269,13 @@
             "text": "[Vans](/vans)",
             "blockClass": "textCategory"
         }
+    },
+
+    "rich-text#submenu-desk-department-4-category-32":{
+        "props":{
+            "text": "[Ecovessel](/ecovessel)",
+            "blockClass": "textCategory"
+        }
     }
+
 }
