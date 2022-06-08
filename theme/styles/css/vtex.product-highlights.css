@@ -38,6 +38,16 @@
     display: block;
 }
 
+.productHighlightWrapper [data-highlight-id="1260"]{
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(/arquivos/flag-pride.png);
+    display: block;
+    border-radius: 50%;
+}
+
 /*
 .productHighlightWrapper [data-highlight-id="1227"]{
     width: 50px;

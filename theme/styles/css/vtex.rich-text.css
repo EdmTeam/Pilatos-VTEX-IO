@@ -1860,6 +1860,21 @@
   font-weight: 800;
   margin: 0.35rem 0;
 }
+
+/* TEXTO SEO LANDING pride */
+.container--guia-regalos-pride-h1 {
+  background-color: white;
+  margin: 1rem;
+  padding: 1%;
+
+}
+.headingLevel1--guia-regalos-pride-h1 {
+  color: #000000;
+  font-size: 2rem !important;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin: 0.35rem 0;
+}
 .wrapper--guia-regalos-textseo-p {
   max-width: 80%;
   margin: 1.5rem 0;

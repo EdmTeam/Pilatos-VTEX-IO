@@ -1,0 +1,54 @@
+{
+    "flex-layout.row#most-viewede": {
+        "children": [
+            "flex-layout.col#most-viewede"
+        ],
+        "props": {
+            "blockClass": "sliderContentShelf"
+        }
+    },
+
+    "flex-layout.col#most-viewede": {
+        "children": [
+            "rich-text#title-best-sellerse",
+            "vtex.product-summary:list-context.product-list#most-viewede"        
+        ]
+    },
+
+    "rich-text#title-best-sellerse":{
+        "props":{
+            "text": "Pilatos PRIDE",
+            "blockClass": "titleShelf"
+        }
+    },
+
+    "vtex.product-summary:list-context.product-list#most-viewede": {
+        "blocks": [
+            "vtex.product-summary:product-summary.shelf#most-viewed"
+        ],
+        "children": [
+            "slider-layout#home-shelf-most-viewedeee"
+        ],
+        "props": {
+            "orderBy": "OrderByTopSaleDESC",
+            "collection": "1257",
+            "maxItems": 30
+        }
+    },
+    "slider-layout#home-shelf-most-viewedeee": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 4,
+            "tablet": 3,
+            "phone": 2
+          },
+          "infinite": true,
+          "showNavigationArrows": "desktopOnly",
+          "showPaginationDots": "always"
+        //   "centerMode": {
+        //     "mobile": "to-the-left",
+        //     "desktop": "disabled"
+        //   }
+        }
+    }
+}
