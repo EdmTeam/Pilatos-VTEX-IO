@@ -1,0 +1,254 @@
+{
+    "store.custom#landing-pride": {
+      "blocks": [
+        "rich-text#landing-marcas-bread-crumb",
+        "responsive-layout.desktop#bannerprincipal-pride",
+        "responsive-layout.mobile#bannerprincipal-pride"
+        //"rich-text#desc-cybersale-h1",
+
+      /*   "rich-text#guia-regalos-text-seo-h1p",
+        "flex-layout.row#bannersprideSecundarios",
+        "flex-layout.row#most-viewed",
+        "flex-layout.row#bannersprideTercero",
+        "flex-layout.row#most-viewede",
+        "flex-layout.row#bannersprideCuarto",
+        "flex-layout.row#most-viewedos" */
+        
+      ]
+    },
+
+    //text
+    "rich-text#guia-regalos-text-seo-h1p": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "# Pilatos Pride 2022 \n Celebra con nosotros la diversidad, descubre PRIDE y vive tu propio estilo",
+            "blockClass": "guia-regalos-pride-h1"
+        }
+    },
+
+    "rich-text#landing-marcas-description-pride":{
+        "props":{
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Celebra con nosotros la diversidad, descubre PRIDE y vive tu propio estilo ",
+            "blockClass": "departmentDescription"
+        }
+    },
+
+ 
+
+    "flex-layout.row#bannersprideSecundarios" :{
+        "children": [
+            "responsive-layout.desktop#banner-pride2"        ]
+            },
+"flex-layout.row#bannersprideTercero" :{
+            "children": [
+            "responsive-layout.desktop#banner-pride3"]
+                        },
+"flex-layout.row#bannersprideCuarto" :{
+            "children": [
+            "responsive-layout.desktop#banner-pride4"]
+                        },
+
+    "responsive-layout.tablet#bannerprincipal-pride":{
+        "children":["image#imagen1desk"
+        ]
+    },
+
+    "responsive-layout.desktop#bannerprincipal-pride":{
+        "children":["responsive-layout.desktop#banner-pride1", 
+            "rich-text#guia-regalos-text-seo-h1p",
+            "responsive-layout.desktop#banner-pride2", 
+            "flex-layout.row#most-viewed",
+            "responsive-layout.desktop#banner-pride3",
+            "flex-layout.row#most-viewede",
+            "responsive-layout.desktop#banner-pride4",
+            "flex-layout.row#most-viewedos"
+
+        ]
+    },
+
+
+    "responsive-layout.mobile#bannerprincipal-pride":{
+        "children":[  "flex-layout.row#bannersprideSecundarios",
+            "image#imagen1amobia", 
+            "rich-text#guia-regalos-text-seo-h1p",
+            "image#imagen2amobi",
+            "flex-layout.row#most-viewed",
+            "image#imagen3amobi",
+            "flex-layout.row#most-viewede",
+            "image#imagen4amobi",
+            "flex-layout.row#most-viewedos"
+        ]
+    },
+
+    "flex-layout.row#textpride":{
+        "children":["flex-layout.col#textoa",
+            "rich-text#descripcion2",
+            "rich-text#descripcion3"
+        ], 
+        "props":{
+            "borderColor": "#ff0087",
+            "horizontalAlign": "center"
+        }
+    },
+    "flex-layout.col#textoa":{
+        "children":["rich-text#descripcion1"],
+    "props":{
+        "blockclass": "textColumn"    }  
+},
+    
+    "responsive-layout.desktop#banner-pride1":{
+        "children": ["image#imagen1adesko"],
+        "props":{
+            "blockClass":"contentBannersDesk"
+        }
+    },
+
+    "responsive-layout.desktop#banner-pride2":{
+        "children": ["image#imagen2adesko"],
+        "props":{
+            "blockClass":"contentBannersDesk"
+        }
+    },
+
+    "responsive-layout.desktop#banner-pride3":{
+        "children": ["image#imagen3adesko"],
+        "props":{
+            "blockClass":"contentBannersDesk"
+        }
+    },
+
+    "responsive-layout.desktop#banner-pride4":{
+        "children": ["image#imagen4adesko"],
+        "props":{
+            "blockClass":"contentBannersDesk"
+        }
+    },
+
+    
+    "responsive-layout.phone#banner-pride2":{
+        "children": ["image#imagen2adesko"],
+        "props":{
+            "blockClass":"contentBannersDesk"
+        }
+    },
+
+    // archivos asset
+    "image#imagen1adesk": {
+      "props": {
+        "src": "/arquivos/Banner-Ppal-pride-desk-min.gif",
+        "blockClass": "departmentBannerImg-1"
+      }
+    },
+
+    "image#imagen1adesko": {
+        "props": {
+          "src": "/arquivos/Banner-Ppal-pride-desk-min.gif",
+          "blockClass": "departmentBannerImg-1"
+        }
+      },
+
+    "image#imagen2adesko": {
+        "props": {
+          "src": "/arquivos/pridekipling-desk.jpg",
+          "blockClass": "departmentBannerImg-2"
+        }
+      },
+
+      "image#imagen3adesko": {
+        "props": {
+          "src": "/arquivos/pridepilatos-desk.jpg",
+          "blockClass": "departmentBannerImg-2"
+        }
+      },
+
+      "image#imagen4adesko": {
+        "props": {
+          "src": "/arquivos/pridegirbaud-desk.jpg",
+          "blockClass": "departmentBannerImg-2"
+        }
+      },
+
+// version mobile 
+    "image#imagen1amobia": {
+        "props": {
+          "src": "/arquivos/Banner-Ppal-pride-mobi-min.gif",
+          "maxHeight": "",
+          "maxWidth": "",
+          "blockClass": "storePrint"
+        }
+      },
+
+      "image#imagen2amobi": {
+        "props": {
+          "src": "/arquivos/pridekipling-mobi.jpg",
+          "maxHeight": "",
+          "maxWidth": "",
+          "blockClass": "storePrint"
+        }
+      },
+
+      "image#imagen3amobi": {
+        "props": {
+          "src": "/arquivos/pridepilatos-mobi.jpg",
+          "maxHeight": "",
+          "maxWidth": "",
+          "blockClass": "storePrint"
+        }
+      },
+
+      "image#imagen4amobi": {
+        "props": {
+          "src": "/arquivos/pridegirbaud-mobi.jpg",
+          "maxHeight": "",
+          "maxWidth": "",
+          "blockClass": "storePrint"
+        }
+      },
+
+      //texto 
+      "rich-text#descripcion1a": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "**pride** ofrece créditos con plazos que alcanzan hasta 24 meses. Dependiendo del perfil del cliente y del monto que se esté solicitando, pride ofrece también alternativas de financiación con plazos hasta 3, 6, 9, 12, 18 y 24 meses; esta información será arrojada por el sistema después de validar tu identidad.",
+          "font": "t-heading-5",
+          "blockClass": "help-message"
+        }
+      },
+
+      "flex-layout.row#home-row-carrousel-electro-pride": {
+        "children": [
+          "vtex.product-summary:list-context.product-list#home-products-carrousel-electro-pride"
+        ]
+      },
+      "vtex.product-summary:list-context.product-list#home-products-carrousel-electro-pride": {
+        "blocks": [
+          "vtex.product-summary:product-summary.shelf"
+        ],
+        "children": [
+          "slider-layout#home-shelf-most-viewede"
+        ],
+        "props": {
+            "orderBy": "OrderByTopSaleDESC",
+            "collection": "1252",
+            "maxItems": 30
+        }
+      },
+      "slider-layout#home-shelf-most-viewede": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 4,
+            "tablet": 3,
+            "phone": 2
+          },
+          "infinite": true,
+          "showNavigationArrows": "desktopOnly",
+          "showPaginationDots": "always"
+       
+        }
+    }
+
+  }
