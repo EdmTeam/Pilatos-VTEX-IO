@@ -620,16 +620,30 @@
   text-decoration: none;
 }
 
+
 .wrapper--itemMenuLevel1Sale .link--itemMenuLevel1{
   color: #BF6E0B;
 }
 
+/*DIA SIN IVA MENU*/
+.paragraph--itemMenuLevelDSI, .link--itemMenuLevelDSI{
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 11px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #000000;
+  margin: 1.4rem 0;
+  text-decoration: none;
+  background: #FFD400;
+  padding: 5px;
+  border-radius: 5px;
+}
 .container--icoMenuLevel1{
   display: flex;
   align-items: center;
   justify-content: flex-end;
 }
-
 .wrapper--icoMenuLevel1{
   font-size: .6rem;
   background: #FFD400;
@@ -638,7 +652,6 @@
   border-radius: 50%;
   position: relative;
 }
-
 .wrapper--icoMenuLevel1::before{
   position: absolute;
   top: 50%;
