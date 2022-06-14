@@ -1,0 +1,37 @@
+{
+  "flex-layout.col#menu-desk-col-9": {
+    "children": [
+      "vtex.menu@2.x:menu#menu-desktop-9"
+    ],
+    "props":{
+      "width": "22%"
+    }
+  },
+
+  "vtex.menu@2.x:menu#menu-desktop-9": {
+    "children": [
+      "menu-item#menu-item-9-desk-1"
+    ],
+    "props":{
+      "blockClass": "menucontainerDesk"
+    }
+  },
+  
+  "menu-item#menu-item-9-desk-1": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/dia-sin-iva/expectativa",
+        "noFollow": false,
+        "tagTitle": "DIA SIN IVA",
+        "text": "DIA SIN IVA"
+      },
+      "blockClass": [
+        "menuLinkHeader",
+        "menuLinkHeaderPilatosIVA"
+      ]
+    }
+  }
+}
