@@ -12,13 +12,39 @@
     display: none;
 } 
 
+.productHighlightWrapper [data-highlight-id="1266"]{
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+   background-image: url(/arquivos/Pilatos-DSI-Flag-bancolombia.png); 
+    display: block;
+} 
+
+.productHighlightWrapper [data-highlight-id="1268"]{
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+   background-image: url(/arquivos/Pilatos-DSI-Flag-10.png); 
+    display: block;
+} 
+.productHighlightWrapper [data-highlight-id="1267"]{
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+   background-image: url(/arquivos/Pilatos-DSI-Flag25.png); 
+    display: block;
+} 
+
 .productHighlightWrapper [data-highlight-id="1140"]{
     width: 40px;
     height: 40px;
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url(/arquivos/Pilatos-DSI-Flag20.png);
-    display: none;
+    display: block;
 }
 
 .productHighlightWrapper [data-highlight-id="1141"]{
@@ -27,7 +53,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url(/arquivos/Pilatos-DSI-Flag40.png);
-    display: none;
+    display: block;
 }
 .productHighlightWrapper [data-highlight-id="1142"]{
     width: 40px;
@@ -35,7 +61,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url(/arquivos/Pilatos-DSI-Flag70-22.png);
-    display: none;
+    display: block;
 }
 
 .productHighlightWrapper [data-highlight-id="1171"]{
@@ -53,7 +79,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url(/arquivos/BTS-FLAGS-VERD-KIPLING.png);
-    display: block;
+    display: none;
 }
 
 .productHighlightWrapper [data-highlight-id="1240"]{
@@ -62,7 +88,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url(/arquivos/Pilatos-Camuflaje-Flag.png);
-    display: block;
+    display: none;
 }
 
 .productHighlightWrapper [data-highlight-id="1242"]{
@@ -71,7 +97,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url(/arquivos/Pilatos-Sostenible-Flag2.png);
-    display: block;
+    display: none;
 }
 
 .productHighlightWrapper [data-highlight-id="1260"]{
@@ -80,7 +106,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url(/arquivos/flag-pride.png);
-    display: block;
+    display: none;
     border-radius: 50%;
 }
 
