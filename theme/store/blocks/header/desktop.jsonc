@@ -304,8 +304,8 @@
       // "flex-layout.col#menu-desk-col-4",
       "flex-layout.col#menu-desk-col-5",
       "flex-layout.col#menu-desk-col-6",
-      "flex-layout.col#menu-desk-col-7",
-      "flex-layout.col#menu-desk-col-9"
+      "flex-layout.col#menu-desk-col-7"
+      //"flex-layout.col#menu-desk-col-9"
 
     ],
     "props": {
@@ -322,8 +322,8 @@
       // "flex-layout.col#menu-desk-col-4",
       "flex-layout.col#menu-desk-col-5",
       "flex-layout.col#menu-desk-col-6",
-      "flex-layout.col#menu-desk-col-7",
-      "flex-layout.col#menu-desk-col-9"
+      "flex-layout.col#menu-desk-col-7"
+     // "flex-layout.col#menu-desk-col-9"
 
     ],
     "props": {
