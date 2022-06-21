@@ -13,7 +13,8 @@
         "orderByField": "OrderByScoreDESC"
       }
     }
-  },  
+  }, 
+
   "search-result-layout#search": {
     "blocks": [
       "search-result-layout.desktop",
@@ -48,6 +49,7 @@
             {
               "name": "Material"
             },
+           
             {
               "name": "Alto (Cm)"
             },

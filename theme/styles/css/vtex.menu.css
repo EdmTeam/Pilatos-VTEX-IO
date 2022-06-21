@@ -150,6 +150,14 @@
 .styledLinkContent--menuLinkHeaderColor{
     color: #DD0B3D;
 }
+/*stylo boton dsi*/
+.styledLinkContent--menuLinkHeaderPilatosIVA{
+    background: #FFD400;
+    color: black;
+    border-radius: 8px;
+    padding: 5px;
+    margin-top: -5px;
+}
 
 /* Estilos al menu */
 .menuItem--menuAccordionLevel1{

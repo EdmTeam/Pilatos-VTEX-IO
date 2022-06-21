@@ -2,6 +2,8 @@
     font-size: 0;
 }
 
+/*flag dia sin iva*/
+
 .productHighlightWrapper [data-highlight-id="1171"]{
     font-size: 0;
     /*width: 40px;
@@ -36,6 +38,25 @@
     background-repeat: no-repeat;
     background-image: url(/arquivos/Pilatos-Sostenible-Flag2.png);
     display: block;
+}
+
+.productHighlightWrapper [data-highlight-id="1263"]{
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(/arquivos/Pilatos-AnimalPrint-Flag.png);
+    display: block;
+}
+
+.productHighlightWrapper [data-highlight-id="1260"]{
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(/arquivos/flag-pride.png);
+    display: block;
+    border-radius: 50%;
 }
 
 /*
