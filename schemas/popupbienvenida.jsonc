@@ -1,0 +1,47 @@
+{
+    "title": "popupbienvenida",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "string",
+            "maxLength": 100,
+            "title": "Id do documento"
+        },
+        "terms": {
+            "type": "boolean",
+            "title": "Términos y condiciones"
+        },
+        "name": {
+            "type": "string",
+            "title": "Nombre"
+        },
+        "mail": {
+            "type": "string",
+            "format": "email",
+            "title": "Correo Electrónico"
+        },
+        "phone": {
+            "type": "string",
+            "maxLength": 10,
+            "title": "Celular"
+        },
+        "birthday": {
+            "type": "string",
+            "format": "date",
+            "title": "Fecha de cumpleaños"
+        }
+    },
+    "required": [
+        "birthday",
+        "mail",
+        "name",
+        "phone",
+        "terms"
+    ],
+    "v-security": {
+        "publicWrite": [
+            "publicForWrite"
+        ],
+        "publicJsonSchema": true
+    }
+}

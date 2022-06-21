@@ -1,0 +1,118 @@
+{
+    "modal-trigger#welcome": {
+        "props":{
+            "trigger":"load-session"
+        },
+        "children": [
+            "modal-layout#welcome"
+        ]
+    },
+    "modal-layout#welcome":{
+        "props":{
+            "blockClass":["popup-welcome"]
+        },
+        "children":[
+            "modal-header",
+            "modal-content#welcome"
+        ]
+    },
+    "modal-content#welcome":{
+        "children":[
+            "rich-text#welcome-title",
+            "form#welcome"
+        ]
+    }, 
+    "rich-text#welcome-title":{
+        "props":{
+            "text": "**¡INSCRÍBETE Y HAZ PARTE DE LA FAMILIA PILATOS!** \n (OBTÉN 15% DE DCTO EN TU PRIMERA COMPRA)",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "popup-welcome-title"
+        }
+    },
+    "form#welcome": {
+        "props": {
+            "entity": "WE",
+            "schema": "popupbienvenida"
+        },
+        "children": [
+            "form-input.text#welcome-form-name",
+            "form-input.text#welcome-form-email",
+            "form-input.text#welcome-form-birthday",
+            "form-input.text#welcome-form-phone",
+            "rich-text#welcome-read-politics",
+            "form-input.checkbox#welcome-form-terms",
+            "form-submit#welcome-form-submit"
+        ],
+        "blocks": [
+            "form-success#welcome"
+        ]
+    },
+    "form-input.text#welcome-form-name":{
+        "props": {
+            "pointer": "#/properties/name",
+            "label": "Nombre completo",
+            "placeholder": "Ingresa tu nombre completo"
+        }
+    },
+    "form-input.text#welcome-form-email":{
+        "props": {
+            "pointer": "#/properties/mail",
+            "label": "Email",
+            "placeholder": "Ingresa tu email"
+        }
+    },
+    "form-input.text#welcome-form-birthday":{
+        "props": {
+            "pointer": "#/properties/birthday",
+            "label": "Tu fecha de cumpleaños",
+            "placeholder": "Ingresa tu fecha de cumpleaños"
+        }
+    },
+    "form-input.text#welcome-form-phone":{
+        "props": {
+            "pointer": "#/properties/phone",
+            "label": "Celular",
+            "placeholder": "Ingresa tu número de celular"
+        }
+    },
+    "rich-text#welcome-read-politics": {
+        "props": {
+            "text": "Leer [política de datos](/politicas) y [términos y condiciones](/terminos-condiciones)",
+            "textAlignment": "LEFT",
+            "textPosition": "left",
+            "font": "t-mini",
+            "blockClass": "read-politics-dsi"
+        }
+    },"form-input.checkbox#welcome-form-terms": {
+        "props": {
+            "pointer": "#/properties/terms",
+            "label": "Acepto política de datos y términos y condiciones"
+        }
+    },"form-submit#welcome-form-submit": {
+        "props": {
+            "label": "INSCRIBIRME",
+            "blockClass": "submit-dsi"
+        }
+    },
+    "form-success#welcome": {
+        "children": [
+            "rich-text#welcome-successSubmit",
+            "modal-actions.close#welcome"
+        ]
+    },
+    "rich-text#welcome-successSubmit": {
+        "props": {
+            "text": "Tus datos fueron registrados satisfactoriamente \n con este código puedes redimir tu descuento: \n **ilovepilatos15**",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "welcome-successSubmit"
+        }
+    },
+    "modal-actions.close#welcome":{
+        "props":{
+            "label": "CERRAR",
+            "blockClass": "popup-close-welcome"
+        }
+    }
+}

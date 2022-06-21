@@ -13,3 +13,50 @@
 .backdrop--promotionalBannerModal{
     background: #000000;
 }
+
+.paper--popup-welcome {
+    padding: 2rem;
+    background-image: url("https://pilatos21.vtexassets.com/arquivos/Pilatos-PopUp1-min.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.paper--popup-welcome .headerContainer {
+    border: none;
+    background-color: #fffffffa;
+}
+
+.paper--popup-welcome .contentContainer {
+    padding-top: 0;
+    background-color: #fffffffa;
+}
+
+.paper--popup-welcome :global(.vtex-input) {
+    display: block;
+    margin-bottom: 10px;
+}
+    
+.paper--popup-welcome :global(.vtex-input__label) {
+    display: block;
+    margin-bottom: 0;
+}
+
+.closeButton--popup-close-welcome {
+    background-color: #000000;
+    margin: 1rem auto;   
+    display: block;
+}
+
+.closeButton--popup-close-welcome:hover {
+    background-color: #ffc600;
+}
+
+.closeButton--popup-close-welcome:hover
+.closeButtonLabel--popup-close-welcome {
+    color: #000000;
+}
+
+.closeButtonLabel--popup-close-welcome {
+    color: #ffffff;
+}

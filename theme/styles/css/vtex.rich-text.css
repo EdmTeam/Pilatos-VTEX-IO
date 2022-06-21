@@ -1952,3 +1952,17 @@
   line-height: 13px;
   margin: 0;
 }
+
+/* Popup bienvenida */
+.paragraph--popup-welcome-title {
+  margin-top: 0;
+  font-size: 0.8rem;
+}
+
+.strong--popup-welcome-title {
+  font-size: 1rem;
+}
+
+.strong--welcome-successSubmit {
+  font-size: 2rem;
+}
