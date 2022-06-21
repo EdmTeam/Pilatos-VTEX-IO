@@ -42,7 +42,10 @@
         "image#principalsostenible-banners-img-bran4",
         "image#principalsostenible-banners-img-bran5",
         "image#principalsostenible-banners-img-bran6",
-        "image#principalsostenible-banners-img-bran7"
+        "image#principalsostenible-banners-img-bran7",
+        "image#principalsostenible-banners-img-bran8",
+        "image#principalsostenible-banners-img-bran9"
+
 
     ],
     "props":{
@@ -125,6 +128,28 @@
     }
 }, 
 
+"image#principalsostenible-banners-img-bran8": {
+    "props": {
+        "src": "/arquivos/Sostenible-Diesel-Subanner-Desk.jpg",
+        "link": {
+            "url": "/pilatos",
+            "attributeTitle": ""
+        },
+        "blockClass": "principal-sostenible"
+    }
+}, 
+
+"image#principalsostenible-banners-img-bran9": {
+    "props": {
+        "src": "/arquivos/Sostenible-Diesel-Subanner-Desk.jpg",
+        "link": {
+            "url": "/pilatos",
+            "attributeTitle": ""
+        },
+        "blockClass": "principal-sostenible"
+    }
+}, 
+
     //banner tablet
 "responsive-layout.tablet#principalsostenible-banners":{
     "children":[
@@ -196,7 +221,10 @@
         "image#phone-principalsostenible-banners-img-bran4-mobi",
         "image#phone-principalsostenible-banners-img-bran5-mobi",
         "image#phone-principalsostenible-banners-img-bran6-mobi",
-        "image#phone-principalsostenible-banners-img-bran7-mobi"
+        "image#phone-principalsostenible-banners-img-bran7-mobi",
+        "image#phone-principalsostenible-banners-img-bran8-mobi",
+        "image#phone-principalsostenible-banners-img-bran9-mobi"
+
 
     ],
     "props":{
@@ -268,6 +296,26 @@
     }
 }, 
 "image#phone-principalsostenible-banners-img-bran7-mobi": {
+    "props": {
+        "src": "/arquivos/Sostenible-Diesel-Subanner-Subanner-Mob.jpg",
+        "link": {
+            "url": "/pilatos",
+            "attributeTitle": ""
+        },
+        "blockClass": "principal-sostenible"
+    }
+},
+"image#phone-principalsostenible-banners-img-bran8-mobi": {
+    "props": {
+        "src": "/arquivos/Sostenible-Diesel-Subanner-Subanner-Mob.jpg",
+        "link": {
+            "url": "/pilatos",
+            "attributeTitle": ""
+        },
+        "blockClass": "principal-sostenible"
+    }
+},
+"image#phone-principalsostenible-banners-img-bran9-mobi": {
     "props": {
         "src": "/arquivos/Sostenible-Diesel-Subanner-Subanner-Mob.jpg",
         "link": {
