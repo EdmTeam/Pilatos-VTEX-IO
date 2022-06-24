@@ -9,8 +9,8 @@
 
     "flex-layout.col#submenu-desk-department-1-category-2-row-1":{
         "children":[
-            "rich-text#submenu-desk-department-1-category-2",
-            "rich-text#submenu-desk-department-1-category-2-subcategory-4"
+            "rich-text#submenu-desk-department-1-category-2"
+          //  "rich-text#submenu-desk-department-1-category-2-subcategory-4"
         ],
         "props":{
             "blockClass": "contentBlockSubmenu"

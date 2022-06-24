@@ -135,7 +135,7 @@
 
 :global(.vtex-flex-layout-0-x-flexRow--contentBarHeaderInactive) :global(.vtex-menu-2-x-submenuWrapper--contentSubmenuDesk)
 {
-    top: 18%;
+    top: 250px;
     width: 750px;
 }
 
@@ -148,7 +148,7 @@
 
     :global(.vtex-flex-layout-0-x-flexRow--contentBarHeaderInactive) :global(.vtex-menu-2-x-submenuWrapper--contentSubmenuDesk)
     {
-        top: 24%;
+        top: 300px;
         width: 950px;
     }
 }
