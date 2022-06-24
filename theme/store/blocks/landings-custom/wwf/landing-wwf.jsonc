@@ -1,0 +1,205 @@
+{
+    "store.custom#landing-wwf":{
+        "blocks":[
+            "flex-layout.row#banner-landing-wwf",
+            "rich-text#landing-ecobag-text-seo-h1",
+            "search-result-layout.customQuery#landing-ecobag"
+
+
+
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
+    },
+    "flex-layout.row#banner-landing-wwf":{
+        "children":[
+            "flex-layout.col#banner-landing-wwf"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+    "flex-layout.col#banner-landing-wwf":{
+        "children":[
+            "rich-text#landing-ecobag-bread-crumb",
+            "rich-text#landing-ecobag-title",
+            "rich-text#landing-ecobag-description",
+            "responsive-layout.desktop#landing-wwf-banners",
+           "responsive-layout.tablet#landing-ecobag-banners",
+            "responsive-layout.phone#landing-wwf-banners"
+                ]
+    },
+
+    "responsive-layout.desktop#landing-wwf-banners":{
+        "children":[
+            "flex-layout.col#landing-wwf-banners-1",
+            "flex-layout.row#most-viewed",
+            "flex-layout.row#landing-wwf-banners-2",
+
+            "flex-layout.row#landing-wwf-banners-3"
+            //"flex-layout.col#landing-wwf-banners-3",
+
+
+        ]
+    },
+
+
+    "flex-layout.col#landing-wwf-banners-1":{
+        "children":[
+            "image#landing-wwf-1-img-1"
+        ],
+        "props":{
+            "blockClass":"contentBannersDesk"
+        }
+    },
+
+    "image#landing-wwf-1-img-1": {
+        "props": {
+            "src": "/arquivos/Pilatos-WWF-Landing-Banner-PPL-Desk.jpg",
+            "link": {
+                "url": "",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+    "responsive-layout.phone#landing-wwf-banners":{
+        "children":[
+            "flex-layout.col#landing-wwf-banners-1-p",
+            "list-context.image-list#department-bannerlanding-ecobag-banners",
+            "flex-layout.col#landing-ecobag-banners-1-phone"
+
+        ]
+    },
+
+
+    "flex-layout.row#landing-wwf-banners-2":{
+        "children":[
+            "flex-layout.col#landing-wwf-banners-2-img-1",
+            "flex-layout.col#landing-wwf-banners-2-img-2"
+
+           
+        ],
+        "props":{
+            "blockClass":"contentBanners-ecobag"
+        }
+    },
+
+
+    "flex-layout.row#landing-wwf-banners-3":{
+        "children":[
+            "flex-layout.col#landing-wwf-banners-3-img-1",
+            "flex-layout.col#landing-wwf-banners-3-img-2"
+
+           
+        ],
+        "props":{
+            "blockClass":"contentBanners-ecobag"
+        }
+    },
+
+    "flex-layout.col#landing-wwf-banners-2-img-1":{
+        "children":[
+            "image#landing-wwf-banners-2-img-1"
+        ],
+        "props":{
+            "width": "30%"
+        }
+    },
+
+    "image#landing-wwf-banners-2-img-1": {
+        "props": {
+            "src": "/arquivos/WWF-Landing-Hombre-Desk.jpg",
+            "link": {
+                "url": "/wwf",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-eco"
+        }
+    },
+
+    "flex-layout.col#landing-wwf-banners-2-img-2":{
+        "children":[
+            "image#landing-wwf-banners-2-img-2"
+        ],
+        "props":{
+            "width": "80%"
+        }
+    },
+
+    "image#landing-wwf-banners-2-img-2": {
+        "props": {
+            "src": "/arquivos/WWF-Landing-Banner-2-Desks.jpg",
+            "link": {
+                "url": "",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-eco"
+        }
+    },
+
+    //banner dos 
+    "flex-layout.col#landing-wwf-banners-3-img-1":{
+        "children":[
+            "image#landing-wwf-banners-3-img-1"
+        ],
+        "props":{
+            "width": "30%"
+        }
+    },
+
+    "image#landing-wwf-banners-3-img-1": {
+        "props": {
+            "src": "/arquivos/WWF-Landing-Hombre-Desk.jpg",
+            "link": {
+                "url": "/wwf",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-eco"
+        }
+    },
+
+    "flex-layout.col#landing-wwf-banners-3-img-2":{
+        "children":[
+            "image#landing-wwf-banners-2-img-2"
+        ],
+        "props":{
+            "width": "80%"
+        }
+    },
+
+    "image#landing-wwf-banners-3-img-2": {
+        "props": {
+            "src": "/arquivos/WWF-Landing-Banner-2-Desks.jpg",
+            "link": {
+                "url": "",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-eco"
+        }
+    },
+
+// VERSION MOBILE 
+"flex-layout.col#landing-wwf-banners-1-p":{
+    "children":[
+        "image#landing-wwf-banners-1-img-1-p"
+    ],
+    "props":{
+        "blockClass":"contentBannersDesk"
+    }
+},
+
+"image#landing-wwf-banners-1-img-1-p": {
+    "props": {
+        "src": "/arquivos/Pilatos-WWF-Landing-Banner-PPL-Mob.jpg",
+        "link": {
+            "url": "",
+            "attributeTitle": ""
+        },
+        "blockClass": "departmentBannerImg-1"
+    }
+}
+
+}
