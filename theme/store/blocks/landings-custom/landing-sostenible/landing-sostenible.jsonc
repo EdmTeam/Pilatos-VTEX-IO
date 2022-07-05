@@ -32,7 +32,7 @@
 
 "flex-layout.col#banner-principalsostenible":{
     "children":[
-     
+
         "responsive-layout.desktop#principalsostenible-banners",
         "responsive-layout.tablet#principalsostenible-banners",
         "responsive-layout.phone#principalsostenible-banners"
@@ -41,12 +41,30 @@
 
 "flex-layout.col#banner-sostenibleMarcas":{
     "children":[
-     
+        "flex-layout.row#videoSostenible",
+
         "responsive-layout.desktop#sostenibleMarcas-banners",
         //"responsive-layout.tablet#sostenibleMarcas-banners",
         "responsive-layout.phone#sostenibleMarcas-banners-mobi"
     ]
-} 
+},
+"flex-layout.row#videoSostenible": {
+    "props": {
+        "horizontalAlign": "center",
+        "blockClass": "rowLandingOrderFromSostenible",
+        "width": "50%"
+    },
+    "children": [
+        "iframe#videoSostenible"
+    ]
+},
+"iframe#videoSostenible": {
+    "props": {
+        "src": "https://www.youtube.com/embed/qhh_VfEUO94",
+        "allow": "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
+        "blockClass": "orderFromChaosVideo"
+    }
+}
 
 
 

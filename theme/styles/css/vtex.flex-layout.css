@@ -2319,6 +2319,17 @@
     background-color: #DBDBDB;
     padding: 10px;
   }
+
+  .flexRow--static-accordion-pagos :global(.vtex-rich-text-0-x-strong--static-accordion-content-medios) {
+    padding: 10px;
+    color: #000;
+    background: #FFD400;
+    border-radius: 10%;
+  }
+
+
+
+
   .flexRow--static-accordion-pagos :global(.vtex-rich-text-0-x-paragraph) {
     text-align: left;
     margin: 0 10px;
@@ -2661,6 +2672,42 @@
   }
   .flexRowContent--rowLandingOrderFromDieselMobile .stretchChildrenWidth:last-child {
     flex: 0 50%;
+  }
+}
+
+/*
+* LANDING ORDER FROM VIDEO sostenible
+*/
+.flexRowContent--order-from-chaos-coleccion-cta{
+  flex-wrap: wrap;
+}
+.flexRow--rowLandingOrderFromSostenible {
+  padding: 0 12% 2% 12%;;
+}
+
+.flexRowContent--rowLandingOrderFromSostenible .stretchChildrenWidth:last-child {
+  padding-bottom: 1rem;
+}
+
+.flexRowContent--contentResultFilterOrderFromChaos :global(.vtex-search-result-3-x-gallery) {
+  padding-left: 0;
+}
+
+@media screen and (max-width: 638px) {
+  .flexRowContent--rowLandingOrderFromSostenibleMobile {
+    flex-wrap: nowrap;
+    display: flex;
+  }
+  .flexRowContent--rowLandingOrderFromSostenibleMobile .stretchChildrenWidth:first-child {
+    flex: 0 50%;
+    padding-right: 1rem;
+  }
+  .flexRowContent--rowLandingOrderFromSostenibleMobile .stretchChildrenWidth:last-child {
+    flex: 0 50%;
+  }
+  .flexRow--rowLandingOrderFromSostenible {
+    width: 100%;
+    padding: 0;
   }
 }
 
