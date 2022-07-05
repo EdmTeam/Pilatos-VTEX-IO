@@ -206,8 +206,6 @@
             "submenu.accordion#static-accordion-content-tarjeta-addi"
         ]
     },
-
-
     "menu-item#tarjeta-boton-bancolombia": {
         "props": {
             "id": "menu-item-tarjeta-boton-bancolombia",
@@ -340,15 +338,34 @@
             "blockClass": "static-accordion-content-medios"
         },
         "children": [
-            "rich-text#static-accordion-content-tarjeta-addi"
+            "flex-layout.col#addiMedios"
         ]
     },
+
+    "flex-layout.col#addiMedios": {
+        "children":[
+            "rich-text#static-accordion-content-tarjeta-addi",
+            "rich-text#static-accordion-content-tarjeta-addi-mas"
+        ]
+    },
+
    
     "rich-text#static-accordion-content-tarjeta-addi": {
         "props": {
             "text": "Es una compañía de tecnología que busca habilitar e impulsar el comercio digital en América Latina, comenzando por hacer que la financiación en el punto de venta sea accesible y ubicua. En ADDI se busca financiar tus sueños ofreciéndote créditos rápidos, transparentes y asequibles. Como debe ser. <br>Para tener una cuenta de usuario en el portal del cliente de ADDI, debes realizar tu primera compra a crédito con nosotros en cualquiera de nuestros comercios aliados, bien sea en sus puntos físicos o en sus tiendas en línea. Al finalizar la compra, recibirás un correo electrónico para realizar la activación de tu cuenta e ingresar a consultar el estado de tus créditos. <br>Para solicitar un crédito ADDI sólo necesitas: <br>• Ser mayor de edad<br>• Una dirección de correo electrónico valida.<br>Sin papeleo, sin referencias. No solicitamos certificados de ingreso, pagarés, ni ninguna otra documentación.<br>ADDI ofrece créditos con plazos que alcanzan hasta 24 meses. Dependiendo del perfil del cliente y del monto que se esté solicitando, ADDI ofrece también alternativas de financiación con plazos hasta 3, 6, 9, 12, 18 y 24 meses; esta información será arrojada por el sistema después de validar tu identidad.<br>En todo caso, ADDI no exige el pago de un número mínimo de cuotas, y el cliente podrá realizar en cualquier momento pagos anticipados de su crédito, incluyendo la cancelación total del mismo, sin ninguna penalidad o costo adicional. <br>*Sólo se admiten devoluciones del pedido completo<br>La anulación del crédito con ADDI: Recuerda que, si en tu pedido tienes más de un artículo, para poder anular el crédito debes realizar la devolución de estos, los cuales deben estar en perfecto estado y con sus respectivas etiquetas, de lo contrario, solo se podría acceder al vale, ya que la anulación solo se puede realizar total. En caso de elegir esta opción, le solicitaremos una recogida, la cual es totalmente gratis.",
             "blockClass": "static-accordion-content-medios"
         }
+    },
+    "rich-text#static-accordion-content-tarjeta-addi-mas": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": " [**Conoce más de ADDI**](/addi)",
+            "textColor": "red",
+            "font": "t-heading-5",
+            "blockClass": "static-accordion-content-medios"
+          }
+
     },
     "submenu.accordion#static-accordion-content-tarjeta-boton-bancolombia": {
         "props": {
