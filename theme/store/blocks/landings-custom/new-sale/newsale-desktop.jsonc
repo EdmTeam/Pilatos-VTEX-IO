@@ -1,0 +1,167 @@
+{
+    "store.custom#newsale":{
+        "blocks":[
+            "flex-layout.row#banner-newsale"
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
+    },
+
+    "flex-layout.row#banner-newsale":{
+        "children":[
+            "flex-layout.col#banner-newsale"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#banner-newsale":{
+        "children":[
+            "rich-text#departmen-newsale-bread-crumb",
+            "rich-text#newsale-title",
+            "responsive-layout.desktop#newsale-banners",
+            "responsive-layout.tablet#newsale-banners",
+            "responsive-layout.phone#newsale-banners"
+        ]
+    },
+
+    "responsive-layout.desktop#newsale-banners":{
+        "children":[
+            "flex-layout.col#newsale-banners-1",
+            "flex-layout.row#newsale-banners-2",
+            "flex-layout.col#newsale-banners-footer"
+
+        ]
+    },
+
+    "rich-text#departmen-newsale-bread-crumb":{
+        "props":{
+            "text": "[Home](/) / [**newsale**](/newsale)",
+            "blockClass": "departmentBreadCrumb"
+        }
+    },
+
+    "rich-text#newsale-title":{
+        "props":{
+            "text": "# Ropa, zapatos y accesorios para newsale",
+            "blockClass": "departmentTitle"
+        }
+    },
+
+  
+
+    "flex-layout.col#newsale-banners-1":{
+        "children":[
+            "image#newsale-banners-1-img-1"
+        ],
+        "props":{
+            "blockClass":"contentBannersDesk"
+        }
+    },
+
+    "image#newsale-banners-1-img-1": {
+        "props": {
+            "src": "/arquivos/Pilatos-Sale-BannerDesktopLanding.jpg",
+            "link": {
+                "url": "/newsale/ropa/camisetas",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+
+    "flex-layout.row#newsale-banners-2":{
+        "children":[
+            "flex-layout.col#newsale-banners-2-img-1",
+            "flex-layout.col#newsale-banners-2-img-2",
+            "flex-layout.col#newsale-banners-2-img-3"
+        ],
+        "props":{
+            "blockClass":"contentBanners-2"
+        }
+    },
+
+    "flex-layout.col#newsale-banners-2-img-1":{
+        "children":[
+            "image#newsale-banners-2-img-1"
+        ],
+        "props":{
+            "width": "33%"
+        }
+    },
+
+    "image#newsale-banners-2-img-1": {
+        "props": {
+            "src": "/arquivos/Pilatos-Sale-Banner20.jpg",
+            "link": {
+                "url": "/1140?map=productClusterIds&order=OrderByTopSaleDESC",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-3"
+        }
+    },
+
+    "flex-layout.col#newsale-banners-2-img-2":{
+        "children":[
+            "image#newsale-banners-2-img-2"
+        ],
+        "props":{
+            "width": "33%"
+        }
+    },
+
+    "image#newsale-banners-2-img-2": {
+        "props": {
+            "src": "/arquivos/Pilatos-Sale-Banner30.jpg",
+            "link": {
+                "url": "/1277?map=productClusterIds&order=OrderByTopSaleDESC",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-4"
+        }
+    },
+
+    "flex-layout.col#newsale-banners-2-img-3":{
+        "children":[
+            "image#newsale-banners-2-img-3"
+        ],
+        "props":{
+            "width": "33%"
+        }
+    },
+
+    "image#newsale-banners-2-img-3": {
+        "props": {
+            "src": "/arquivos/Pilatos-Sale-Banner40.jpg",
+            "link": {
+                "url": "/1276?map=productClusterIds&order=OrderByTopSaleDESC",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-5"
+        }
+    },
+
+    "flex-layout.col#newsale-banners-footer":{
+        "children":[
+            "image#newsale-banners-1-img-footer"
+        ],
+        "props":{
+            "blockClass":"contentBannersDesk"
+        }
+    },
+
+    "image#newsale-banners-1-img-footer": {
+        "props": {
+            "src": "/arquivos/Pilatos-Sale-vertodos-desk.jpg",
+            "link": {
+                "url": "/1206?map=productClusterIds&order=OrderByTopSaleDESC",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    }
+
+}

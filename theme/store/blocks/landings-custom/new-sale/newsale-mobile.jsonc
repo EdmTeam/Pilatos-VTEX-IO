@@ -1,0 +1,86 @@
+{
+    "responsive-layout.phone#newsale-banners":{
+        "children":[
+            "flex-layout.col#newsale-banners-1-mobile"
+
+        ]
+    },
+    "responsive-layout.tablet#newsale-banners":{
+        "children":[
+            "flex-layout.col#newsale-banners-1",
+            "flex-layout.row#newsale-banners-2",
+            "flex-layout.col#newsale-banners-footer"
+
+        ]
+    },
+
+    "flex-layout.col#newsale-banners-1-mobile":{
+        "children":[
+            "image#newsale-banners-1-img-1-mobile",
+            "image#newsale-banners-1-img-2-mobile",
+            "image#newsale-banners-1-img-3-mobile",
+            "image#newsale-banners-1-img-4-mobile",
+            "image#newsale-banners-1-img-footer-mobi"
+
+        ],
+        "props":{
+            "blockClass":"contentBannersDesk"
+        }
+    },
+
+    "image#newsale-banners-1-img-1-mobile": {
+        "props": {
+            "src": "/arquivos/Pilatos-Sale-BannerMobileLanding.jpg",
+            "link": {
+                "url": "",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+    "image#newsale-banners-1-img-2-mobile": {
+        "props": {
+            "src": "/arquivos/Pilatos-Sale-Banner20.jpg",
+            "link": {
+                "url": "1140?map=productClusterIds&order=OrderByTopSaleDESC",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+    "image#newsale-banners-1-img-3-mobile": {
+        "props": {
+            "src": "/arquivos/Pilatos-Sale-Banner30.jpg",
+            "link": {
+                "url": "1277?map=productClusterIds&order=OrderByTopSaleDESC",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+    "image#newsale-banners-1-img-4-mobile": {
+        "props": {
+            "src": "/arquivos/Pilatos-Sale-Banner40.jpg",
+            "link": {
+                "url": "1276?map=productClusterIds&order=OrderByTopSaleDESC",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+ 
+        "image#newsale-banners-1-img-footer-mobi": {
+            "props": {
+                "src": "/arquivos/Pilatos-Sale-vertodos-mobi.jpg",
+                "link": {
+                    "url": "1206?map=productClusterIds&order=OrderByTopSaleDESC",
+                    "attributeTitle": ""
+                },
+                "blockClass": "departmentBannerImg-1"
+            }
+    }
+
+  
+}
+
+    
