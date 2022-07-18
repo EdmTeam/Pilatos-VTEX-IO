@@ -1,0 +1,59 @@
+{
+    "flex-layout.row#most-vieweSummer-diesel": {
+        "children": [
+            "flex-layout.col#most-vieweSummer"
+        ],
+        "props": {
+            "blockClass": "sliderContentShelf",
+            "width": "65%"
+
+        }
+    },
+
+    "flex-layout.col#most-vieweSummer": {
+        "children": [
+            "vtex.product-summary:list-context.product-list#most-vieweSummer" ,
+            "rich-text#title-best-sellerse-s"
+       
+        ]
+    },
+
+    "rich-text#title-best-sellerse-s":{
+        "props":{
+            "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's ", 
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "textoSummer"
+        }
+    },
+
+    "vtex.product-summary:list-context.product-list#most-vieweSummer": {
+        "blocks": [
+            "vtex.product-summary:product-summary.shelf#most-viewed"
+        ],
+        "children": [
+            "slider-layout#home-shelf-most-viewed-summer"
+        ],
+        "props": {
+            "orderBy": "OrderByTopSaleDESC",
+            "collection": "1240",
+            "maxItems": 30
+        }
+    },
+    "slider-layout#home-shelf-most-viewed-summer": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 4,
+            "tablet": 3,
+            "phone": 2
+          },
+          "infinite": true,
+          "showNavigationArrows": "desktopOnly",
+          "showPaginationDots": "always"
+        //   "centerMode": {
+        //     "mobile": "to-the-left",
+        //     "desktop": "disabled"
+        //   }
+        }
+    }
+}

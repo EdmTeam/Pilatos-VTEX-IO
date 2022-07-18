@@ -1,0 +1,263 @@
+
+    {
+     
+
+        "flex-layout.row#fits-summer-mujer": {
+          "children": [
+            "flex-layout.col#fits-summer"
+                    ],
+          "props": {
+            "blockClass": "contentBrandsSlide"
+          }
+        },
+
+        "flex-layout.row#fits-summer-hombre": {
+          "children": [
+            "flex-layout.col#fits-summer-hombre"
+          ],
+          "props": {
+            "blockClass": "contentBrandsSlide"
+          }
+        },
+    
+        "flex-layout.col#fits-summer":{
+          "children":[
+            "rich-text#fits-title-sostenible",
+            "slider-layout#fits-summer"
+          ]
+        },
+    
+        "rich-text#fits-title-sostenible": {
+          "props":{
+              "text": "**Fit para Mujer**",
+              "blockClass": "tittleBannersMarcas",
+              "textAlignment": "CENTER",
+              "textPosition": "CENTER"
+          }
+        },
+    
+        "slider-layout#fits-summer": {
+          "props": {
+            "blockClass": [
+              "contentSlide", 
+              "contentSlideBrand"
+            ],
+            "itemsPerPage": {
+              "desktop": 4,
+              "tablet": 4,
+              "phone": 2
+            },
+            "showPaginationDots":"never"
+            // "autoplay": {
+            //   "timeout": 5000,
+            //   "stopOnHover": false
+            // }
+          }, 
+          "children": [
+            "image#fits-sosten1",
+            "image#fits-sosten2",
+            "image#fits-sosten3",
+            "image#fits-sosten4",
+            "image#fits-sosten5",
+            "image#fits-sosten6",
+            "image#fits-sosten7",
+            "image#fits-sosten8"
+
+        ]
+    },
+
+    "image#fits-sosten1": {
+        "props": {
+            "src": "/arquivos/Pilatos-SummerDenim-FitMujerDesktop-superskinny.jpg",
+            "link": {
+                "url": "/pilatos"
+            }
+        }
+      },
+
+      "image#fits-sosten2": {
+        "props": {
+            "src": "/arquivos/Pilatos-SummerDenim-FitMujerDesktop-superskinny.jpg",
+            "link": {
+                "url": "/kipling"
+            }
+        }
+      },
+
+      "image#fits-sosten3": {
+        "props": {
+            "src": "/arquivos/Pilatos-SummerDenim-FitMujerDesktop-slim.jpg",
+            "link": {
+                "url": "/girbaud"
+            }
+        }
+      },
+
+      "image#fits-sosten4": {
+        "props": {
+            "src": "/arquivos/Pilatos-SummerDenim-FitMujerDesktop-tapared.jpg",
+            "link": {
+                "url": "/diesel"
+            }
+        }
+      },
+
+      "image#fits-sosten5": {
+        "props": {
+            "src": "/arquivos/Pilatos-SummerDenim-FitMujerDesktop-straight.jpg",
+            "link": {
+                "url": "/superdry"
+            }
+        }
+      },
+
+      "image#fits-sosten6": {
+        "props": {
+            "src": "/arquivos/Pilatos-SummerDenim-FitMujerDesktop-boyfriend.jpg",
+            "link": {
+                "url": "/New-Balance"
+            }
+        }
+      },
+
+      "image#fits-sosten7": {
+        "props": {
+            "src": "/arquivos/Pilatos-SummerDenim-FitMujerDesktop-bootcut.jpg",
+            "link": {
+                "url": "/vans"
+            }
+        }
+      },
+      "image#fits-sosten8": {
+        "props": {
+            "src": "/arquivos/Pilatos-SummerDenim-FitMujerDesktop-flare.jpg",
+            "link": {
+                "url": "/vans"
+            }
+        }
+      },
+
+//fit para hombre 
+
+  "flex-layout.col#fits-summer-hombre":{
+    "children":[
+      "rich-text#fits-title-sostenible-hombre",
+      "slider-layout#fits-summer-hombre"
+    ]
+  },
+
+  "rich-text#fits-title-sostenible-hombre": {
+    "props":{
+        "text": "**Fit para hombre**",
+        "blockClass": "tittleBannersMarcas",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER"
+    }
+  },
+
+  "slider-layout#fits-summer-hombre": {
+    "props": {
+      "blockClass": [
+        "contentSlide", 
+        "contentSlideBrand"
+      ],
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 4,
+        "phone": 2
+      },
+      "showPaginationDots":"never"
+      // "autoplay": {
+      //   "timeout": 5000,
+      //   "stopOnHover": false
+      // }
+    }, 
+    "children": [
+      "image#fits-sosten1-hombre",
+      "image#fits-sosten2-hombre",
+      "image#fits-sosten3-hombre",
+      "image#fits-sosten4-hombre",
+      "image#fits-sosten5-hombre"
+
+  ]
+},
+
+"image#fits-sosten1-hombre": {
+  "props": {
+      "src": "/arquivos/Pilatos-SummerDenim-FitHombreDesktop-1skinny.jpg",
+      "link": {
+          "url": "/pilatos"
+      }
+  }
+},
+
+"image#fits-sosten2-hombre": {
+  "props": {
+      "src": "/arquivos/Pilatos-SummerDenim-FitHombreDesktop2-slim.jpg",
+      "link": {
+          "url": "/diesel"
+      }
+  }
+},
+
+"image#fits-sosten3-hombre": {
+  "props": {
+      "src": "/arquivos/Pilatos-SummerDenim-FitHombreDesktop3-tapared.jpg",
+      "link": {
+          "url": "/kipling"
+      }
+  }
+},
+
+"image#fits-sosten4-hombre": {
+  "props": {
+      "src": "/arquivos/Pilatos-SummerDenim-FitHombreDesktop4-straight.jpg",
+      "link": {
+          "url": "/girbaud"
+      }
+  }
+},
+
+"image#fits-sosten5-hombre": {
+  "props": {
+      "src": "/arquivos/Pilatos-SummerDenim-FitHombreDesktop5-bootcut.jpg",
+      "link": {
+          "url": "/girbaud"
+      }
+  }
+},
+// recomendador diesel summer
+
+"flex-layout.row#fits-summer-recomendador": {
+  "children": [
+    
+    "flex-layout.col#recomendadorSummerDiesel",
+    "flex-layout.row#most-vieweSummer-diesel"
+            ],
+  "props": {
+    "blockClass": "contentBrandsSlide"
+  }
+},
+
+"flex-layout.col#recomendadorSummerDiesel":{
+  "children":[
+      "image#recomendadorSummerDiesel"
+  ],
+  "props":{
+      "width": "30%"
+  }
+},
+
+"image#recomendadorSummerDiesel": {
+  "props": {
+      "src": "/arquivos/Pilatos-SummerDenim-BannerInfoDiesel.jpg",
+      "link": {
+          "url": "/1240?map=productClusterIds&order=OrderByTopSaleDESC",
+          "attributeTitle": ""
+      },
+      "blockClass": "departmentBannerImg-4"
+  }
+}
+
+}
+

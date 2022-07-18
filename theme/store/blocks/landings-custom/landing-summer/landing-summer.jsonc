@@ -1,0 +1,98 @@
+{
+    "store.custom#landingSummer":{
+    "blocks":[
+        "flex-layout.row#banner-principalSummer",
+        "flex-layout.row#fits-summer-mujer",
+        "flex-layout.row#fits-summer-hombre",
+        "flex-layout.row#fits-summer-recomendador"
+
+
+
+    ],
+    "props":{
+        "blockClass": "contentStoreCustom"
+    }
+},
+
+//banner principal
+"flex-layout.row#banner-principalSummer":{
+    "children":[
+        "flex-layout.col#banner-principalSummer"
+    ],
+    "props":{
+        "blockClass": "contentSearch"
+    }
+},
+
+"flex-layout.col#banner-principalSummer":{
+    "children":[
+
+        "responsive-layout.desktop#principalSummer-banners",
+        "responsive-layout.tablet#principalSummer-banners",
+        "responsive-layout.phone#principalSummer-banners"
+    ]
+}, 
+
+//banner desktop
+"responsive-layout.desktop#principalSummer-banners":{
+    "children":[
+        "flex-layout.col#principalSummer-banners"
+    ]
+},
+
+"flex-layout.col#principalSummer-banners":{
+    "children":[
+        "image#principalSummer-banners-img-1"
+    ],
+    "props":{
+        "blockClass":"contentBannersDesk"
+    }
+},
+
+"image#principalSummer-banners-img-1": {
+    "props": {
+        "src": "/arquivos/Pilatos-SummerDenim-BannerDesktopLanding.jpg",
+        "link": {
+            "url": "/pilatos",
+            "attributeTitle": ""
+        },
+        "blockClass": "principal-Summer"
+    }
+}, 
+
+"responsive-layout.tablet#principalSummer-banners":{
+    "children":[
+        "flex-layout.col#principalSummer-banners"
+    ]
+},
+
+//banner mobile
+
+"responsive-layout.phone#principalSummer-banners":{
+    "children":[
+        "flex-layout.col#principalSummer-banners-phone"
+
+    ]
+},
+
+"flex-layout.col#principalSummer-banners-phone":{
+    "children":[
+        "image#principalSummer-banners-img-1-phone"
+    ],
+    "props":{
+        "blockClass":"contentBannersDesk"
+    }
+},
+
+"image#principalSummer-banners-img-1-phone": {
+    "props": {
+        "src": "/arquivos/Pilatos-SummerDenim-BannerMobileLanding.jpg",
+        "link": {
+            "url": "",
+            "attributeTitle": ""
+        },
+        "blockClass": "departmentBannerImg-1"
+    }
+}
+
+}
