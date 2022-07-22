@@ -2,7 +2,7 @@
     "store.custom#landing-marcasSostenibles":{
         "blocks":[
             "flex-layout.row#banner-landing-sostenible",
-            "flex-layout.row#most-viewed",
+           // "flex-layout.row#most-viewed",
             "search-result-layout.customQuery#department-nuevo"
                 ],
         "props":{
