@@ -2,7 +2,9 @@
 {
   "store.product": {
     "children": [
-      "flex-layout.row#product-view" 
+      "flex-layout.row#product-view"
+      //"kuikpay-wrapper" 
+
     ]
   },
 //condicionales de producto
@@ -223,6 +225,7 @@
       "size-guide#zapatos-hombre-Superdry",
       "product-quantity",
       "flex-layout.row#product-button",
+      //"flex-layout.row#kuikpay",
       "addi-infos",
       "condition-layout.product#cond1-diesel",
       "condition-layout.product#cond2-superdry",
@@ -351,4 +354,15 @@
           "blockClass": "icoFlechaMore"
       }
   }
+
+  // codigo myCheckout 
+
+/*   "flex-layout.row#kuikpay": {
+  "props": {
+      "marginTop": 4,  
+    "marginBottom": 4
+      },
+    
+    "children": ["kuikpay-button"]
+    } */
 }

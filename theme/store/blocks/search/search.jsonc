@@ -30,7 +30,8 @@
     "children": [
       "flex-layout.row#banner-search",
       "flex-layout.row#bread-crumb",
-      "flex-layout.row#search-info",
+     // "flex-layout.row#search-info-mobile",
+     "flex-layout.row#search-info",
       "flex-layout.row#result",
       "flex-layout.row#spacer"
         ],
@@ -127,7 +128,7 @@
   },
   "flex-layout.row#result": {
     "children": [
-      "flex-layout.col#filter",
+     "flex-layout.col#filter",
       "flex-layout.col#content"
     ],
     "props": {

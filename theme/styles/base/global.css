@@ -279,7 +279,7 @@
     }
 
     :global(.vtex-flex-layout-0-x-flexRowContent--contentResultFilter) > div:last-child{
-        width: 80% !important;
+        width: 100% !important;
         flex-grow: initial;
         margin-left: auto;
     }

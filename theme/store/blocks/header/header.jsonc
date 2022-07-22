@@ -17,6 +17,7 @@
       "custom-sticky#header-sticky-active",
       "link#content-chat-whatsapp",
       "segmentify"
+      //"kuikpay-wrapper"
     ]
   },
 
@@ -28,6 +29,7 @@
       "responsive-layout.phone#header-phone",
       "link#content-chat-whatsapp",
       "segmentify"
+      //"kuikpay-wrapper"
     ]
   },
 

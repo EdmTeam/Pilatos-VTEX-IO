@@ -116,6 +116,7 @@
       "vtex.product-highlights@2.x:product-highlights#collection",
       // "modal-trigger#quickview",
       "flex-layout.row#add-to-list-btn"
+      //"flex-layout.row#kuikpay"
     ],
     "props": {
       "blockClass": "imageShelf"
