@@ -20,7 +20,7 @@
 
     "rich-text#title-best-sellerse-s":{
         "props":{
-            "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's ", 
+            "text": "Maestría en la manipulación del denim desde 1978. Apostando por lo impercedero, con prendas esenciales que han llegado para quedarse. Prendas creadas con métodos responsables y con diseños que trascienden las tendencias. ", 
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
             "blockClass": "textoSummer"
@@ -41,6 +41,186 @@
         }
     },
     "slider-layout#home-shelf-most-viewed-summer": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 4,
+            "tablet": 3,
+            "phone": 2
+          },
+          "infinite": true,
+          "showNavigationArrows": "desktopOnly",
+          "showPaginationDots": "always"
+        //   "centerMode": {
+        //     "mobile": "to-the-left",
+        //     "desktop": "disabled"
+        //   }
+        }
+    },
+
+    // RECOMENDADOR REPLAY 
+
+    "flex-layout.row#most-vieweSummer-replay": {
+        "children": [
+            "flex-layout.col#most-vieweSummer-Replay"
+        ],
+        "props": {
+            "blockClass": "sliderContentShelf",
+            "width": "65%"
+
+        }
+    },
+
+    "flex-layout.col#most-vieweSummer-Replay": {
+        "children": [
+            "vtex.product-summary:list-context.product-list#most-vieweSummer-replay" ,
+            "rich-text#title-best-sellerse-replay"
+       
+        ]
+    },
+
+    "rich-text#title-best-sellerse-replay":{
+        "props":{
+            "text": "Marca especializada en moda italiana, moda de vanguardia y estilos únicos. Nuestra esencia Denim nos permite entregar lo mejor en ropa para hombres y mujeres que se caracterizan por vivir la vida de manera fresca, sencilla y siguiendo las tendencias del día a día ", 
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "textoSummer"
+        }
+    },
+
+    "vtex.product-summary:list-context.product-list#most-vieweSummer-replay": {
+        "blocks": [
+            "vtex.product-summary:product-summary.shelf#most-viewed"
+        ],
+        "children": [
+            "slider-layout#home-shelf-most-viewed-summer-replay"
+        ],
+        "props": {
+            "orderBy": "OrderByTopSaleDESC",
+            "collection": "1251",
+            "maxItems": 30
+        }
+    },
+    "slider-layout#home-shelf-most-viewed-summer-replay": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 4,
+            "tablet": 3,
+            "phone": 2
+          },
+          "infinite": true,
+          "showNavigationArrows": "desktopOnly",
+          "showPaginationDots": "always"
+        //   "centerMode": {
+        //     "mobile": "to-the-left",
+        //     "desktop": "disabled"
+        //   }
+        }
+    },
+    
+    //RECOMENDADOR GIRBAUD 
+
+    "flex-layout.row#most-vieweSummer-girbaud": {
+        "children": [
+            "flex-layout.col#most-vieweSummer-girbaud"
+        ],
+        "props": {
+            "blockClass": "sliderContentShelf",
+            "width": "65%"
+
+        }
+    },
+
+    "flex-layout.col#most-vieweSummer-girbaud": {
+        "children": [
+            "vtex.product-summary:list-context.product-list#most-vieweSummer-girbaud" ,
+            "rich-text#title-best-sellerse-girbaud"
+       
+        ]
+    },
+
+    "rich-text#title-best-sellerse-girbaud":{
+        "props":{
+            "text": "Marca que revolucionó el denim tradicional con diseños exclusivos, innovadores y vanguardistas. Lleva como bandera el cuidado por el medio ambiente y alta tecnología en el desarrollo de sus prendas ahorrando hasta el 97.5% incorporando procesos y técnicas, convirtiéndose así en la marca número uno de ingeniería del denim.", 
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "textoSummer"
+        }
+    },
+
+    "vtex.product-summary:list-context.product-list#most-vieweSummer-girbaud": {
+        "blocks": [
+            "vtex.product-summary:product-summary.shelf#most-viewed"
+        ],
+        "children": [
+            "slider-layout#home-shelf-most-viewed-summer-replay"
+        ],
+        "props": {
+            "orderBy": "OrderByTopSaleDESC",
+            "collection": "1250",
+            "maxItems": 30
+        }
+    },
+    "slider-layout#home-shelf-most-viewed-summer-girbaud": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 4,
+            "tablet": 3,
+            "phone": 2
+          },
+          "infinite": true,
+          "showNavigationArrows": "desktopOnly",
+          "showPaginationDots": "always"
+        //   "centerMode": {
+        //     "mobile": "to-the-left",
+        //     "desktop": "disabled"
+        //   }
+        }
+    },
+    
+    // RECOMENDADOR PILATOS
+
+    "flex-layout.row#most-vieweSummer-pilatos": {
+        "children": [
+            "flex-layout.col#most-vieweSummer-pilatos"
+        ],
+        "props": {
+            "blockClass": "sliderContentShelf",
+            "width": "65%"
+
+        }
+    },
+
+    "flex-layout.col#most-vieweSummer-pilatos": {
+        "children": [
+            "vtex.product-summary:list-context.product-list#most-vieweSummer-pilatos" ,
+            "rich-text#title-best-sellerse-pilatos"
+       
+        ]
+    },
+
+    "rich-text#title-best-sellerse-pilatos":{
+        "props":{
+            "text": "Apuesta por el estilo urbano y trendy reafirmando en sus prendas de denim versatilidad, diversión y exclusividad.", 
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "textoSummer"
+        }
+    },
+
+    "vtex.product-summary:list-context.product-list#most-vieweSummer-pilatos": {
+        "blocks": [
+            "vtex.product-summary:product-summary.shelf#most-viewed"
+        ],
+        "children": [
+            "slider-layout#home-shelf-most-viewed-summer-pilatos"
+        ],
+        "props": {
+            "orderBy": "OrderByTopSaleDESC",
+            "collection": "1266",
+            "maxItems": 30
+        }
+    },
+    "slider-layout#home-shelf-most-viewed-summer-pilatos": {
         "props": {
           "itemsPerPage": {
             "desktop": 4,
