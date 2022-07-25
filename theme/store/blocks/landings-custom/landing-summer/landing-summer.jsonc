@@ -4,9 +4,10 @@
         "flex-layout.row#banner-principalSummer",
         "flex-layout.row#fits-summer-mujer",
         "flex-layout.row#fits-summer-hombre",
-        "flex-layout.row#fits-summer-recomendador"
-
-
+        "flex-layout.row#fits-summer-recomendador",
+        "flex-layout.row#fits-summer-recomendadorReplay",
+        "flex-layout.row#fits-summer-recomendadorGirbaud",
+        "flex-layout.row#fits-summer-recomendadorPilatos"
 
     ],
     "props":{

@@ -257,7 +257,108 @@
       },
       "blockClass": "departmentBannerImg-4"
   }
+},
+
+// RECOMENDADOR REPLAY
+
+"flex-layout.row#fits-summer-recomendadorReplay": {
+  "children": [
+    
+    "flex-layout.col#recomendadorSummerReplay",
+    "flex-layout.row#most-vieweSummer-replay"
+            ],
+  "props": {
+    "blockClass": "contentBrandsSlide"
+  }
+},
+
+"flex-layout.col#recomendadorSummerReplay":{
+  "children":[
+      "image#recomendadorSummerReplay"
+  ],
+  "props":{
+      "width": "30%"
+  }
+},
+
+"image#recomendadorSummerReplay": {
+  "props": {
+      "src": "/arquivos/Pilatos-SummerDenim-BannerInfoReplaya.jpg",
+      "link": {
+          "url": "/1240?map=productClusterIds&order=OrderByTopSaleDESC",
+          "attributeTitle": ""
+      },
+      "blockClass": "departmentBannerImg-4"
+  }
+},
+
+
+// RECOMENDADOR GIRBAUD
+
+"flex-layout.row#fits-summer-recomendadorGirbaud": {
+  "children": [
+    
+    "flex-layout.col#recomendadorSummerGirbaud",
+    "flex-layout.row#most-vieweSummer-girbaud"
+            ],
+  "props": {
+    "blockClass": "contentBrandsSlide"
+  }
+},
+
+"flex-layout.col#recomendadorSummerGirbaud":{
+  "children":[
+      "image#recomendadorSummerGirbaud"
+  ],
+  "props":{
+      "width": "30%"
+  }
+},
+
+"image#recomendadorSummerGirbaud": {
+  "props": {
+      "src": "/arquivos/Pilatos-SummerDenim-BannerInfoMFGa.jpg",
+      "link": {
+          "url": "/1240?map=productClusterIds&order=OrderByTopSaleDESC",
+          "attributeTitle": ""
+      },
+      "blockClass": "departmentBannerImg-4"
+  }
+},
+
+// RECOMENDADOR PILATOS
+
+"flex-layout.row#fits-summer-recomendadorPilatos": {
+  "children": [
+    
+    "flex-layout.col#recomendadorSummerPilatos",
+    "flex-layout.row#most-vieweSummer-pilatos"
+            ],
+  "props": {
+    "blockClass": "contentBrandsSlide"
+  }
+},
+
+"flex-layout.col#recomendadorSummerPilatos":{
+  "children":[
+      "image#recomendadorSummerPilatos"
+  ],
+  "props":{
+      "width": "30%"
+  }
+},
+
+"image#recomendadorSummerPilatos": {
+  "props": {
+      "src": "/arquivos/Pilatos-SummerDenim-BannerInfoPilatosa.jpg",
+      "link": {
+          "url": "/1240?map=productClusterIds&order=OrderByTopSaleDESC",
+          "attributeTitle": ""
+      },
+      "blockClass": "departmentBannerImg-4"
+  }
 }
+
 
 }
 
