@@ -255,6 +255,17 @@
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.02em;
+  color: white;
+  cursor: pointer;
+}
+
+.paragraph--linkFooterEtica{
+  margin: 0 0 1rem 0;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.02em;
+  color: white;
+  cursor: pointer;
 }
 
 @media only screen and (min-width: 740px) {
@@ -310,6 +321,9 @@
   }
 
   .paragraph--linkFooter{
+    margin: 0 0 .6rem 0;
+  }
+  .paragraph--linkFooterEtica{
     margin: 0 0 .6rem 0;
   }
 
@@ -562,6 +576,27 @@
   margin: 1.5rem auto 0 auto;
   width: 90%;
 }
+.paragraph--textModalLineaEtica{
+  width: 50ch;
+  padding: 4%;
+  text-align: justify;
+}
+@media screen and (max-width: 767px){
+  .paragraph--textModalLineaEticaMobil{
+    padding: 4%;
+    text-align: justify;
+    }
+    .paragraph--textSubmenuEtica{
+      color: #FFFFFF;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    margin: 0;
+    }
+}
+
 
 @media only screen and (min-width: 740px){
   .wrapper--titleCategoryBanners .paragraph{
