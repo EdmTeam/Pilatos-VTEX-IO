@@ -19,6 +19,7 @@
 
     "flex-layout.col#desk-menu-item-3-contentlink": {
         "children": [
+            "modal-trigger#lineaEtica",
             "rich-text#desk-menu-item-3-link-1",
             "rich-text#desk-menu-item-3-link-2",
             "rich-text#desk-menu-item-3-link-3",
@@ -26,6 +27,34 @@
             // "rich-text#desk-menu-item-3-link-5",
             // "rich-text#desk-menu-item-3-link-6"
         ]
+    },
+
+    //modal linea etica 
+    "modal-trigger#lineaEtica": {
+        "children": [
+          "rich-text#lineaEtica",
+          "modal-layout#lineaEtica"
+        ]
+      },
+      "rich-text#lineaEtica": {
+        "props": {
+          "text": "Linea Ética",
+          "blockClass": "linkFooterEtica"
+
+        }
+      },
+      "modal-layout#lineaEtica": {
+        "children": [
+          "rich-text#modal-content"
+        ]
+      },
+      "rich-text#modal-content": {
+        "props": {
+          "text": " “La Línea Ética de **ESTUDIO DE MODA (EDM)** es un medio por el cual puedes presentar denuncias de comportamientos o situaciones que vayan en contra de la **ética y la transparencia** en el actuar de las personas que hacen parte de nuestra compañía, colaboradores, proveedores y todo aquel relacionado con **EDM**. \n Para reportar o denunciar puedes enviar un correo electrónico a lineaetica@estudiodemoda.com.co sobre el cual garantizamos su anonimato.”",
+          "blockClass": "textModalLineaEtica"
+
+        }
+
     },
 
     "rich-text#desk-menu-item-3-link-1": {
@@ -52,6 +81,13 @@
     "rich-text#desk-menu-item-3-link-4": {
         "props": {
             "text": "[Medios de pago](/medios-de-pago)",
+            "blockClass": "linkFooter"
+        }
+    },
+
+    "rich-text#desk-menu-item-3-link-lineaEtica": {
+        "props": {
+            "text": "[Linea Etica](/medios-de-pago)",
             "blockClass": "linkFooter"
         }
     },
