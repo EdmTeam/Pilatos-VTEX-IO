@@ -500,7 +500,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 1rem;
+  margin-top: 0;
 }
 
 .strong--tittleBannersMarcas{
@@ -1914,6 +1914,8 @@
   background-color: white;
   margin: 1rem;
   padding: 1%;
+  padding-bottom: 0;
+  margin-bottom: 0;
 
 }
 .headingLevel1--guia-regalos-pride-h1 {

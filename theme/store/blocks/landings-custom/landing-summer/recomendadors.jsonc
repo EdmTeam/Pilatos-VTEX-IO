@@ -36,7 +36,7 @@
         ],
         "props": {
             "orderBy": "OrderByTopSaleDESC",
-            "collection": "1240",
+            "collection": "1279",
             "maxItems": 30
         }
     },
@@ -96,7 +96,7 @@
         ],
         "props": {
             "orderBy": "OrderByTopSaleDESC",
-            "collection": "1251",
+            "collection": "1274",
             "maxItems": 30
         }
     },
@@ -156,7 +156,7 @@
         ],
         "props": {
             "orderBy": "OrderByTopSaleDESC",
-            "collection": "1250",
+            "collection": "1278",
             "maxItems": 30
         }
     },
@@ -216,7 +216,7 @@
         ],
         "props": {
             "orderBy": "OrderByTopSaleDESC",
-            "collection": "1266",
+            "collection": "1275",
             "maxItems": 30
         }
     },

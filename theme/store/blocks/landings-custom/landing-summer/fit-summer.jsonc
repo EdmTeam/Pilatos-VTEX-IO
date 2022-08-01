@@ -14,12 +14,13 @@
         "flex-layout.row#fits-summer-hombre": {
           "children": [
             "flex-layout.col#fits-summer-hombre"
-          ],
+                    ],
           "props": {
             "blockClass": "contentBrandsSlide"
           }
         },
-    
+   
+
         "flex-layout.col#fits-summer":{
           "children":[
             "rich-text#fits-title-sostenible",
@@ -35,12 +36,13 @@
               "textPosition": "CENTER"
           }
         },
+
     
         "slider-layout#fits-summer": {
           "props": {
             "blockClass": [
-              "contentSlide", 
-              "contentSlideBrand"
+              "contentSlideMujer", 
+              "contentSlideBrandMujer"
             ],
             "itemsPerPage": {
               "desktop": 4,
@@ -68,71 +70,71 @@
 
     "image#fits-sosten1": {
         "props": {
-            "src": "/arquivos/Pilatos-SummerDenim-FitMujerDesktop-superskinny.jpg",
+            "src": "/arquivos/Pilatos-SummerDenim-FitMujerDesktop1.jpg",
             "link": {
-                "url": "/pilatos"
+                "url": ""
             }
         }
       },
 
       "image#fits-sosten2": {
         "props": {
-            "src": "/arquivos/Pilatos-SummerDenim-FitMujerDesktop-superskinny.jpg",
+            "src": "/arquivos/Pilatos-SummerDenim-FitMujerDesktop2.jpg",
             "link": {
-                "url": "/kipling"
+                "url": ""
             }
         }
       },
 
       "image#fits-sosten3": {
         "props": {
-            "src": "/arquivos/Pilatos-SummerDenim-FitMujerDesktop-slim.jpg",
+            "src": "/arquivos/Pilatos-SummerDenim-FitMujerDesktop3.jpg",
             "link": {
-                "url": "/girbaud"
+                "url": ""
             }
         }
       },
 
       "image#fits-sosten4": {
         "props": {
-            "src": "/arquivos/Pilatos-SummerDenim-FitMujerDesktop-tapared.jpg",
+            "src": "/arquivos/Pilatos-SummerDenim-FitMujerDesktop4.jpg",
             "link": {
-                "url": "/diesel"
+                "url": ""
             }
         }
       },
 
       "image#fits-sosten5": {
         "props": {
-            "src": "/arquivos/Pilatos-SummerDenim-FitMujerDesktop-straight.jpg",
+            "src": "/arquivos/Pilatos-SummerDenim-FitMujerDesktop5.jpg",
             "link": {
-                "url": "/superdry"
+                "url": ""
             }
         }
       },
 
       "image#fits-sosten6": {
         "props": {
-            "src": "/arquivos/Pilatos-SummerDenim-FitMujerDesktop-boyfriend.jpg",
+            "src": "/arquivos/Pilatos-SummerDenim-FitMujerDesktop6.jpg",
             "link": {
-                "url": "/New-Balance"
+                "url": ""
             }
         }
       },
 
       "image#fits-sosten7": {
         "props": {
-            "src": "/arquivos/Pilatos-SummerDenim-FitMujerDesktop-bootcut.jpg",
+            "src": "/arquivos/Pilatos-SummerDenim-FitMujerDesktop7.jpg",
             "link": {
-                "url": "/vans"
+                "url": ""
             }
         }
       },
       "image#fits-sosten8": {
         "props": {
-            "src": "/arquivos/Pilatos-SummerDenim-FitMujerDesktop-flare.jpg",
+            "src": "/arquivos/Pilatos-SummerDenim-FitMujerDesktop8.jpg",
             "link": {
-                "url": "/vans"
+                "url": ""
             }
         }
       },
@@ -155,11 +157,12 @@
     }
   },
 
+   
   "slider-layout#fits-summer-hombre": {
     "props": {
       "blockClass": [
-        "contentSlide", 
-        "contentSlideBrand"
+        "contentSlideHombre", 
+    "contentSlideBrandHombre"
       ],
       "itemsPerPage": {
         "desktop": 4,
@@ -184,45 +187,45 @@
 
 "image#fits-sosten1-hombre": {
   "props": {
-      "src": "/arquivos/Pilatos-SummerDenim-FitHombreDesktop-1skinny.jpg",
+      "src": "/arquivos/Pilatos-SummerDenim-FitHombreDesktop1a.jpg",
       "link": {
-          "url": "/pilatos"
-      }
+        "url": ""
+    }
   }
 },
 
 "image#fits-sosten2-hombre": {
   "props": {
-      "src": "/arquivos/Pilatos-SummerDenim-FitHombreDesktop2-slim.jpg",
+      "src": "/arquivos/Pilatos-SummerDenim-FitHombreDesktop2a.jpg",
       "link": {
-          "url": "/diesel"
+          "url": ""
       }
   }
 },
 
 "image#fits-sosten3-hombre": {
   "props": {
-      "src": "/arquivos/Pilatos-SummerDenim-FitHombreDesktop3-tapared.jpg",
+      "src": "/arquivos/Pilatos-SummerDenim-FitHombreDesktop3a.jpg",
       "link": {
-          "url": "/kipling"
+        "url": ""
       }
   }
 },
 
 "image#fits-sosten4-hombre": {
   "props": {
-      "src": "/arquivos/Pilatos-SummerDenim-FitHombreDesktop4-straight.jpg",
+      "src": "/arquivos/Pilatos-SummerDenim-FitHombreDesktop4a.jpg",
       "link": {
-          "url": "/girbaud"
+        "url": ""
       }
   }
 },
 
 "image#fits-sosten5-hombre": {
   "props": {
-      "src": "/arquivos/Pilatos-SummerDenim-FitHombreDesktop5-bootcut.jpg",
+      "src": "/arquivos/Pilatos-SummerDenim-FitHombreDesktop5a.jpg",
       "link": {
-          "url": "/girbaud"
+        "url": ""
       }
   }
 },
