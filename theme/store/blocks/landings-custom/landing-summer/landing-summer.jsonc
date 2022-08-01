@@ -2,6 +2,7 @@
     "store.custom#landingSummer":{
     "blocks":[
         "flex-layout.row#banner-principalSummer",
+        "rich-text#guia-regalos-text-seo-h1p",
         "flex-layout.row#fits-summer-mujer",
         "flex-layout.row#fits-summer-hombre",
         "flex-layout.row#fits-summer-recomendador",
