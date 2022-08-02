@@ -325,6 +325,11 @@
   }
   .paragraph--linkFooterEtica{
     margin: 0 0 .6rem 0;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 10px;
+    letter-spacing: 0.02em;
+    color: #ffffff;
   }
 
   .link--linkFooter{
