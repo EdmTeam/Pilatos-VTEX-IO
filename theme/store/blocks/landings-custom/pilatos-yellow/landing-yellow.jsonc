@@ -35,7 +35,7 @@
             "flex-layout.row#most-viewede",
             "responsive-layout.desktop#banner-mujer",
             "flex-layout.row#most-viewedos",
-            "rich-text#guia-regalos-text-seo-h1p"
+            "rich-text#seo-footer-yellow"
 
 
         ]
@@ -53,7 +53,7 @@
             "flex-layout.row#most-viewede",
             "image#imagen4amobi",
             "flex-layout.row#most-viewedos",
-            "rich-text#guia-regalos-text-seo-h1p"
+            "rich-text#seo-footer-yellow"
         ]
     },
 
@@ -101,7 +101,15 @@
           },
           "blockClass": "departmentBannerImg-1"
       }
-  }
+  },
+  "rich-text#seo-footer-yellow":{
+    "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": " Celebra con nosotros la diversidad, descubre PRIDE y vive tu propio estilo",
+        "blockClass": "guia-regalos-pride-h1"
+    }
+}
 
 
   }
