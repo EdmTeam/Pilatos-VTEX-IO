@@ -1,0 +1,107 @@
+{
+    "store.custom#landing-yellow": {
+      "blocks": [
+        "responsive-layout.desktop#bannerprincipal-yellow",
+        "responsive-layout.mobile#bannerprincipal-yellow"
+        //"rich-text#desc-cybersale-h1",
+
+      /*   "rich-text#guia-regalos-text-seo-h1p",
+        "flex-layout.row#bannersprideSecundarios",
+        "flex-layout.row#most-viewed",
+        "flex-layout.row#bannersprideTercero",
+        "flex-layout.row#most-viewede",
+        "flex-layout.row#bannersprideCuarto",
+        "flex-layout.row#most-viewedos" */
+        
+      ]
+    },
+
+
+ 
+
+    "responsive-layout.tablet#bannerprincipal-yellow":{
+        "children":["image#imagen1desk"
+        ]
+    },
+
+    "responsive-layout.desktop#bannerprincipal-yellow":{
+        "children":[
+          "rich-text#landing-marcas-bread-crumb",
+          "image#newsale-banners-1-img-1", 
+            "rich-text#guia-regalos-text-seo-h1p",
+            "flex-layout.row#most-viewed",
+         "responsive-layout.desktop#banner-completo", 
+            "responsive-layout.desktop#banner-hombre",
+            "flex-layout.row#most-viewede",
+            "responsive-layout.desktop#banner-mujer",
+            "flex-layout.row#most-viewedos",
+            "rich-text#guia-regalos-text-seo-h1p"
+
+
+        ]
+    },
+
+
+    "responsive-layout.mobile#bannerprincipal-yellow":{
+        "children":[  "flex-layout.row#bannersprideSecundarios",
+            "image#imagen1amobia", 
+            "rich-text#guia-regalos-text-seo-h1p",
+            "flex-layout.row#most-viewed",
+            "image#imagen2amobi",
+            
+            "image#imagen3amobi",
+            "flex-layout.row#most-viewede",
+            "image#imagen4amobi",
+            "flex-layout.row#most-viewedos",
+            "rich-text#guia-regalos-text-seo-h1p"
+        ]
+    },
+
+
+  
+
+    "responsive-layout.desktop#banner-completo":{
+        "children": ["image#imagen2adesko"],
+        "props":{
+            "blockClass":"contentBannersDesk"
+        }
+    },
+
+    "responsive-layout.desktop#banner-hombre":{
+        "children": ["image#imagen3adesko"],
+        "props":{
+            "blockClass":"contentBannersDesk"
+        }
+    },
+
+    "responsive-layout.desktop#banner-mujer":{
+        "children": ["image#imagen4adesko"],
+        "props":{
+            "blockClass":"contentBannersDesk"
+        }
+    },
+    //imagenes
+
+
+    "flex-layout.col#banners-yellow-principal":{
+      "children":[
+          "image#banners-yellow-principal"
+      ],
+      "props":{
+          "blockClass":"contentBannersDesk"
+      }
+  },
+
+  "image#banners-yellow-principal": {
+      "props": {
+          "src": "/arquivos/Pilatos-Yellow-BannerHombreDesktop.jpg",
+          "link": {
+              "url": "",
+              "attributeTitle": ""
+          },
+          "blockClass": "departmentBannerImg-1"
+      }
+  }
+
+
+  }
