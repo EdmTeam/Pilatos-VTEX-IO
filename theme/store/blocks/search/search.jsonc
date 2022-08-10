@@ -127,7 +127,8 @@
   },
   "flex-layout.row#result": {
     "children": [
-      "flex-layout.col#filter",
+    //  "flex-layout.row#search-info-mobile",
+     "flex-layout.col#filter",
       "flex-layout.col#content"
     ],
     "props": {
@@ -209,8 +210,10 @@
   "flex-layout.row#products": {
     "children": [
       "search-content"
+      
     ]
   },
+  //nuevo codigo billy 
   "search-content": {
     "blocks": [
       "gallery",
@@ -410,11 +413,25 @@
       "showOnMobile": true
     }
   },
-  "gallery": {
+ "gallery": {
+    "props": {
+      "layouts": [
+        {
+          "name": "whole",
+          "component": "OneOrTwoLineSummary",
+          "itemsPerRow": {
+            "(min-width:1008px)":4,
+            "(min-width:623px) and (max-width:1007px)":3,
+            "(max-width:622px)":2
+          }
+        }
+      ],
+      "OneOrTwoLineSummary": "vtex.product-summary:product-summary.shelf#most-viewed"
+    },
     "blocks": [
       "vtex.product-summary:product-summary.shelf#most-viewed"
     ]
-  },
+  }, 
   "vtex.product-summary:product-summary.shelf#search": {
     "children": [
       "product-price-savings#summary",
