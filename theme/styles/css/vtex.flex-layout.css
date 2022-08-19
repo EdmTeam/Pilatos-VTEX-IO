@@ -115,6 +115,21 @@
     width: 100%;
     margin: .5rem auto !important;
   }
+
+  :global(.vtex-search-result-3-x-container--layout--searchResultMobile) .flexRowContent--contentBanners-new-balance-secundario{
+    margin: .5rem auto .8rem auto;
+    width: 95%;
+    background-color: #f0eced;
+  }
+  
+  :global(.vtex-search-result-3-x-container--layout--searchResultMobile) .flexRowContent--contentBanners-new-balance-secundario .stretchChildrenWidth{
+    width: 33.3% !important;
+  }
+  
+  .flexRowContent--contentBanners-new-balance-secundario{
+    width: 100%;
+    margin: .5rem auto !important;
+  }
 }
 
 
@@ -1042,8 +1057,14 @@
 
 .flexRowContent--contentBanners-new-balance{
   justify-content: space-between;
-  margin-top: 2rem;
-  background-color: #f0eced;
+  margin-top: 2rem !important;
+  width: 80%;
+}
+
+.flexRowContent--contentBanners-new-balance-secundario{
+  justify-content: space-between;
+  margin-top: 2rem !important;
+  width: 100%;
 }
 
 :global(.vtex-breadcrumb-1-x-container){
@@ -1287,6 +1308,7 @@
   .flexRowContent--contentCategoryBannersDesk :global(.vtex-store-components-3-x-imageElementLink--departmentBannerImg-3){
     margin: 0 0 .5rem 1.2rem;
   }
+ 
 }
 
 

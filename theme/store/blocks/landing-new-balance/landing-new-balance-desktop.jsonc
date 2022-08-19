@@ -1,9 +1,8 @@
 {
     "store.custom#landing-new-balance":{
         "blocks":[
-            "flex-layout.row#banner-landing-new-balance",
-            "search-result-layout.customQuery#landing-new-balance"
-        ],
+            "flex-layout.row#banner-landing-new-balance"
+                ],
         "props":{
             "blockClass": "contentStoreCustom"
         }
@@ -22,17 +21,25 @@
         "children":[
             "rich-text#landing-new-balance-bread-crumb",
             "rich-text#landing-new-balance-title",
-            "rich-text#landing-new-balance-description",
             "responsive-layout.desktop#landing-new-balance-banners",
             "responsive-layout.tablet#landing-new-balance-banners",
-            "responsive-layout.phone#landing-new-balance-banners"
+            "responsive-layout.phone#landing-new-balance-banners",
+            "rich-text#landing-new-balance-description"
+
         ]
     },
 
     "responsive-layout.desktop#landing-new-balance-banners":{
         "children":[
             "flex-layout.col#landing-new-balance-banners-1",
-            "flex-layout.row#landing-new-balance-banners-2"
+            "flex-layout.row#landing-new-balance-banners-2",
+            "flex-layout.row#landing-new-balance-banners-3",
+            "flex-layout.row#recomendadorNewBalanceOne", 
+            "flex-layout.col#landing-new-balance-banners-nuevo",
+            "flex-layout.col#landing-new-balance-banners-top",
+            "flex-layout.row#recomendadorNewBalanceTwo"
+
+
         ]
     },
 
@@ -57,22 +64,6 @@
         }
     },
 
-    "search-result-layout.customQuery#landing-new-balance": {
-        "blocks": [
-            "search-result-layout.desktop",
-            "search-result-layout.mobile#landing-new-balance"
-        ],
-        "props": {
-            "querySchema": {
-                "orderByField": "OrderByScoreDESC",
-                "hideUnavailableItems": true,
-                "maxItemsPerPage": 48,
-                "queryField": "new-balance",
-                "mapField": "b"
-            }
-        }
-    },
-
     "flex-layout.col#landing-new-balance-banners-1":{
         "children":[
             "image#landing-new-balance-banners-1-img-1"
@@ -84,7 +75,7 @@
 
     "image#landing-new-balance-banners-1-img-1": {
         "props": {
-            "src": "/arquivos/Pilatos-BannersMarcas-NewbalanceDesktop.jpg",
+            "src": "/arquivos/BANNER-LANDING-DEKTOP-newbalance.jpg",
             "link": {
                 "url": "",
                 "attributeTitle": ""
@@ -97,10 +88,10 @@
 
     "flex-layout.row#landing-new-balance-banners-2":{
         "children":[
-            "flex-layout.col#landing-new-balance-banners-2-img-1",
-            "flex-layout.col#landing-new-balance-banners-2-img-2",
-            "flex-layout.col#landing-new-balance-banners-2-img-3",
-            "flex-layout.col#landing-new-balance-banners-2-img-4"
+            "flex-layout.col#landing-new-balance-banners-2-img-1a",
+            "flex-layout.col#landing-new-balance-banners-2-img-2a",
+            "flex-layout.col#landing-new-balance-banners-2-img-3a",
+            "flex-layout.col#landing-new-balance-banners-2-img-4a"
 
         ],
         "props":{
@@ -108,84 +99,184 @@
         }
     },
 
-    "flex-layout.col#landing-new-balance-banners-2-img-1":{
+  
+
+    "flex-layout.col#landing-new-balance-banners-2-img-1a":{
         "children":[
             "image#landing-new-balance-banners-2-img-1"
         ],
         "props":{
-            "width": "30%"
+            "width": "20%"
         }
     },
 
     "image#landing-new-balance-banners-2-img-1": {
         "props": {
-            "src": "/arquivos/bPilatos-BannersCategorias-NewBalance-Mujer.jpg",
+            "src": "/arquivos/BANNER-HOMBRE-newbalance.png",
             "link": {
-                "url": "/",
+                "url": "/1282?map=productClusterIds",
                 "attributeTitle": ""
             },
             "blockClass": "departmentBannerImg-3"
         }
     },
 
-    "flex-layout.col#landing-new-balance-banners-2-img-2":{
+    "flex-layout.col#landing-new-balance-banners-2-img-2a":{
         "children":[
             "image#landing-new-balance-banners-2-img-2"
         ],
         "props":{
-            "width": "30%"
+            "width": "20%"
         }
     },
 
     "image#landing-new-balance-banners-2-img-2": {
         "props": {
-            "src": "/arquivos/bPilatos-BannersCategorias-NewBalance-Hombre.jpg",
+            "src": "/arquivos/BANNER-MUJER-newbalance.png",
             "link": {
-                "url": "/hombre/ropa/buzos",
+                "url": "/1283?map=productClusterIds",
                 "attributeTitle": ""
             },
-            "blockClass": "departmentBannerImg-4"
+            "blockClass": "departmentBannerImg-3"
         }
     },
 
-   
-
-    "image#landing-new-balance-banners-2-img-3": {
-        "props": {
-            "src": "/arquivos/bPilatos-BannersCategorias-NewBalance-Ninos.jpg",
-            "link": {
-                "url": "/hombre/jeans",
-                "attributeTitle": ""
-            },
-            "blockClass": "departmentBannerImg-5"
-        }
-    },
-    "flex-layout.col#landing-new-balance-banners-2-img-3":{
+    "flex-layout.col#landing-new-balance-banners-2-img-3a":{
         "children":[
             "image#landing-new-balance-banners-2-img-3"
         ],
         "props":{
-            "width": "30%"
+            "width": "20%"
+        }
+    },
+
+    "image#landing-new-balance-banners-2-img-3": {
+        "props": {
+            "src": "/arquivos/BANNER-NInOS-newbalance.png",
+            "link": {
+                "url": "/1284?map=productClusterIds",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-3"
+        }
+    },
+
+    "flex-layout.col#landing-new-balance-banners-2-img-4a":{
+        "children":[
+            "image#landing-new-balance-banners-2-img-4"
+        ],
+        "props":{
+            "width": "20%"
         }
     },
 
     "image#landing-new-balance-banners-2-img-4": {
         "props": {
-            "src": "/arquivos/bPilatos-BannersCategorias-NewBalance-Accesorios.jpg",
+            "src": "/arquivos/BANNER-ESTILO-DE-VIDA-newbalance.png",
             "link": {
-                "url": "/hombre/jeans",
+                "url": "/1306?map=productClusterIds",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-3"
+        }
+    },
+
+      // sesion 3 HOMBRE Y MUJER
+
+      "flex-layout.row#landing-new-balance-banners-3":{
+        "children":[
+            "flex-layout.col#landing-new-balance-banners-2-img-hombre",
+            "flex-layout.col#landing-new-balance-banners-2-img-mujer"
+
+        ],
+        "props":{
+            "blockClass":"contentBanners-new-balance-secundario"
+        }
+    },
+
+
+    "flex-layout.col#landing-new-balance-banners-2-img-hombre":{
+        "children":[
+            "image#landing-new-balance-banners-2-img-hombre"
+        ],
+        "props":{
+            "width": "49%"
+        }
+    },
+
+    "image#landing-new-balance-banners-2-img-hombre": {
+        "props": {
+            "src": "/arquivos/BANNER-LANDING-NEW-BALANCE-HOMBRE.jpg",
+            "link": {
+                "url": "/1282?map=productClusterIds",
                 "attributeTitle": ""
             },
             "blockClass": "departmentBannerImg-6"
         }
     },
-    "flex-layout.col#landing-new-balance-banners-2-img-4":{
+
+
+    "flex-layout.col#landing-new-balance-banners-2-img-mujer":{
         "children":[
-            "image#landing-new-balance-banners-2-img-4"
+            "image#landing-new-balance-banners-2-img-mujer"
         ],
         "props":{
-            "width": "30%"
+            "width": "49%"
+        }
+    },
+
+    "image#landing-new-balance-banners-2-img-mujer": {
+        "props": {
+            "src": "/arquivos/BANNER-LANDING-NEW-BALANCE-MUJER.jpg",
+            "link": {
+                "url": "/1283?map=productClusterIds",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-6"
+        }
+    },
+
+    // banner nuevas llegadas
+
+    "flex-layout.col#landing-new-balance-banners-nuevo":{
+        "children":[
+            "image#landing-new-balance-banners-1-img-nuevo"
+        ],
+        "props":{
+            "blockClass":"contentBannersDesk"
+        }
+    },
+
+    "image#landing-new-balance-banners-1-img-nuevo": {
+        "props": {
+            "src": "/arquivos/BANNER-LANDING-NEW-BALANCE-NUEVAS-LLEGADAS.jpg",
+            "link": {
+                "url": "/1303?map=productClusterIds",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-top"
+        }
+    },
+
+    "flex-layout.col#landing-new-balance-banners-top":{
+        "children":[
+            "image#landing-new-balance-banners-1-img-top"
+        ],
+        "props":{
+            "blockClass":"contentBannersDesk"
+        }
+    },
+
+    "image#landing-new-balance-banners-1-img-top": {
+        "props": {
+            "src": "/arquivos/BANNER-LANDING-NEW-BALANCE-PRODUCTOS-TOP.jpg",
+            "link": {
+                "url": "/1304?map=productClusterIds",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-top"
         }
     }
+  
     
 }

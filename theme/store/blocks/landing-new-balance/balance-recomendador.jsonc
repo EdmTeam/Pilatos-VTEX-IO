@@ -1,0 +1,78 @@
+{
+    "flex-layout.row#recomendadorNewBalanceOne": {
+        "children": [
+            "flex-layout.col#recomendadorNewBalanceOne"
+        ],
+        "props": {
+            "blockClass": "sliderContentShelf"
+        }
+    },
+
+    "flex-layout.col#recomendadorNewBalanceOne": {
+        "children": [
+            "rich-text#title-newBalance",
+            "vtex.product-summary:list-context.product-list#recomendadorNewBalanceOne"        
+        ]
+    },
+
+    "rich-text#title-newBalance":{
+        "props":{
+            "text": "LOS MÁS VENDIDOS",
+            "blockClass": "titleShelf"
+        }
+    },
+
+    "vtex.product-summary:list-context.product-list#recomendadorNewBalanceOne": {
+        "blocks": [
+            "vtex.product-summary:product-summary.shelf#most-viewed"
+        ],
+        "children": [
+            "slider-layout#home-shelf-most-viewedeee"
+        ],
+        "props": {
+            "orderBy": "OrderByTopSaleDESC",
+            "collection": "1281",
+            "maxItems": 30
+        }
+    }, 
+
+    ////dsdsfdser
+    "flex-layout.row#recomendadorNewBalanceTwo": {
+        "children": [
+            "flex-layout.col#recomendadorNewBalanceTwo"
+        ],
+        "props": {
+            "blockClass": "sliderContentShelf"
+        }
+    },
+
+    "flex-layout.col#recomendadorNewBalanceTwo": {
+        "children": [
+            "rich-text#title-newBalanceTwo",
+            "vtex.product-summary:list-context.product-list#recomendadorNewBalanceTwo"        
+        ]
+    },
+
+    "rich-text#title-newBalanceTwo":{
+        "props":{
+            "text": "Productos mujer",
+            "blockClass": "titleShelf"
+        }
+    },
+
+    "vtex.product-summary:list-context.product-list#recomendadorNewBalanceTwo": {
+        "blocks": [
+            "vtex.product-summary:product-summary.shelf#most-viewed"
+        ],
+        "children": [
+            "slider-layout#home-shelf-most-viewedeee"
+        ],
+        "props": {
+            "orderBy": "OrderByTopSaleDESC",
+            "collection": "1302",
+            "maxItems": 30
+        }
+    }
+
+
+}

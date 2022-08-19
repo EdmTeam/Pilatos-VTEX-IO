@@ -456,6 +456,23 @@
 .imageElementLink--departmentBannerImg-3{
     margin-right: .6rem;
 }
+/*prueba hover billy fondo*/
+.imageElementLink--departmentBannerImg-3:hover{
+    -webkit-filter: saturate(250%);
+filter: saturate(250%);
+}
+
+.imageElementLink--departmentBannerImg-6:hover{
+    -webkit-filter: brightness(50%);
+filter: brightness(50%);
+}
+
+.imageElementLink--departmentBannerImg-top:hover{
+    -webkit-filter: brightness(50%);
+filter: brightness(50%);
+margin-bottom: 1%;
+margin-top: 1%;
+}
 
 .imageElementLink--departmentBannerImg-4{
     margin: 0 .3rem;
@@ -464,7 +481,6 @@
 
 .imageElementLink--departmentBannerImg-5{
     margin-left: .6rem;
-    background: #f4f3f6;
 }
 
 @media only screen and (min-width: 1180px){
