@@ -16,7 +16,8 @@
       "flex-layout.row#most-viewed",
       "responsive-layout.phone#promotional-banners-2-abtest",
       "responsive-layout.desktop#promotional-banners-2-abtest",
-      "responsive-layout.tablet#promotional-banners-2-abtest"
+      "responsive-layout.tablet#promotional-banners-2-abtest",
+      "flex-layout.row#cambio-devolucionesHome"
       //"flex-layout.row#Recently-viewed",
       /*"responsive-layout.phone#promotional-banners",
       "responsive-layout.tablet#promotional-banners",

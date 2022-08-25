@@ -16,6 +16,8 @@
     background: red;
 }
 
+
+
 /* Imagenes banners promocionales */
 .imageElement--imageBanner{
     object-fit: cover;
@@ -411,6 +413,10 @@
     width: 100%;
 }
 
+.imageElement--departmentBannerImg-devolucion, .imageElement--departmentBannerImg-devolucion{
+    width: 50%  !important;
+}
+
 /* Estilos a el menu */
 .imageElement--contentBannerMenu{
     width: 100%;
@@ -473,6 +479,8 @@ filter: brightness(50%);
 margin-bottom: 1%;
 margin-top: 1%;
 }
+
+
 
 .imageElementLink--departmentBannerImg-4{
     margin: 0 .3rem;
@@ -602,6 +610,7 @@ margin-top: 1%;
     .price_className--productPrice{
         margin: 1.5rem 0 1rem auto;
     }
+  
 }
 
 @media only screen and (min-width: 1180px){
@@ -637,6 +646,9 @@ margin-top: 1%;
 
     .price_className--productPrice{
         margin-top: 1rem;
+    }
+    .imageElement--departmentBannerImg-devolucion, .imageElement--departmentBannerImg-devolucion{
+        width: 100%  !important;
     }
 }
 
