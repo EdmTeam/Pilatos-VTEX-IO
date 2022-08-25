@@ -1045,6 +1045,11 @@
   height: auto;
 }
 
+.flexCol--contentBannersDeskDevoluciones{
+  height: auto;
+  background: red;
+}
+
 .flexRowContent--contentBanners-2{
   justify-content: space-between;
   margin-top: 2rem;

@@ -175,5 +175,84 @@
                 "attributeTitle": ""
             }
         }
+    }, 
+
+    // BANNER CAMBIO Y DEVOLUCIONES HOME
+
+    "flex-layout.row#cambio-devolucionesHome":{
+        "children":[
+            "flex-layout.col#cambio-devolucionesHome"        
+        ]
+    },
+
+    "flex-layout.col#cambio-devolucionesHome":{
+        "children":[
+            "responsive-layout.desktop#banner-devolucionesHome",       
+            "responsive-layout.phone#banner-devolucionesHome",
+            "responsive-layout.tablet#banner-devolucionesHome"
+        ]
+    }, 
+
+    "responsive-layout.phone#banner-devolucionesHome": {
+        "children":[
+            "image#banner-mobile-1-img-1-devolucionesHome"
+        ],
+        "props":{
+            "blockClass":"contentBannersDeskDevoluciones"
+        }
+    },
+
+    "responsive-layout.tablet#banner-devolucionesHome": {
+        "children":[
+            "image#banner-tablet-1-img-1-devolucionesHome"
+        ],
+        "props":{
+            "blockClass":"contentBannersDeskDevoluciones"
+        }
+    },
+
+    "responsive-layout.desktop#banner-devolucionesHome": {
+        "children":[
+            "image#banner-desktop-1-img-1-devolucionesHome"
+        ],
+        "props":{
+            "blockClass":"contentBannersDeskDevoluciones"
+        }
+    },
+
+    "image#banner-mobile-1-img-1-devolucionesHome":{
+        "props":{
+            "src": "/arquivos/Pilatos-BannerCambiosYdevoluciones.jpg",
+            "link": {
+                "url": "/cambios-devoluciones",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-devolucion"
+
+        }
+    },
+
+    "image#banner-tablet-1-img-1-devolucionesHome":{
+        "props":{
+            "src": "/arquivos/Pilatos-BannerCambiosYdevoluciones.jpg",
+            "link": {
+                "url": "/cambios-devoluciones",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-devolucion"
+
+        }
+    },
+
+    "image#banner-desktop-1-img-1-devolucionesHome":{
+        "props":{
+            "src": "/arquivos/Pilatos-BannerCambiosYdevoluciones.jpg",
+            "link": {
+                "url": "/cambios-devoluciones",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-devolucion"
+
+        }
     }
 }
