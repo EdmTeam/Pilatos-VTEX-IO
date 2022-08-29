@@ -306,5 +306,22 @@
               }
           ]
         }
+    },
+
+  
+
+    //guia de tallas correa
+    "size-guide#correa":{
+        "props": {
+          "conditionals": [
+              {
+                  
+                  "categories": ["27"],
+                  "imageDesktop": "/arquivos/Pilatos-GuiaCorreas-Desktop.jpg",
+                  "imageTablet": "/arquivos/Pilatos-GuiaCorreas-Desktop.jpg",
+                  "imagePhone": "/arquivos/Pilatos-GuiaCorreas-Mobile.jpg"
+              }
+          ]
+        }
     }
 }
