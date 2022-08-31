@@ -8,7 +8,12 @@
     "flex-layout.col#submenu-desk-department-2-category-5-row-1":{
         "children":[
             "rich-text#submenu-desk-department-2-category-5",
-            "rich-text#submenu-desk-department-2-category-5-subcategory-3"
+            "rich-text#submenu-desk-department-2-category-5-subcategory-3",
+            "rich-text#submenu-desk-department-2-category-5-subcategory-4",
+            "rich-text#submenu-desk-department-2-category-5-subcategory-5",
+            "rich-text#submenu-desk-department-2-category-5-subcategory-6",
+            "rich-text#submenu-desk-department-2-category-5-subcategory-7"
+
         ],
         "props":{
             "blockClass": "contentBlockSubmenu"
@@ -26,6 +31,34 @@
     "rich-text#submenu-desk-department-2-category-5-subcategory-3":{
         "props":{
             "text": "[Sandalias](/mujer/ropa-de-playa/sandalias)",
+            "blockClass": "textSubcategory"
+        }
+    },
+
+    "rich-text#submenu-desk-department-2-category-5-subcategory-4":{
+        "props":{
+            "text": "[Bikinis](/mujer/ropa-de-playa/bikinis)",
+            "blockClass": "textSubcategory"
+        }
+    },
+
+    "rich-text#submenu-desk-department-2-category-5-subcategory-5":{
+        "props":{
+            "text": "[Enteros](/mujer/ropa-de-playa/enteros)",
+            "blockClass": "textSubcategory"
+        }
+    },
+
+    "rich-text#submenu-desk-department-2-category-5-subcategory-6":{
+        "props":{
+            "text": "[Accesorios](/mujer/ropa-de-playa/accesorios)",
+            "blockClass": "textSubcategory"
+        }
+    },
+
+    "rich-text#submenu-desk-department-2-category-5-subcategory-7":{
+        "props":{
+            "text": "[Salida de Baño](/mujer/ropa-de-playa/salida-de-bano)",
             "blockClass": "textSubcategory"
         }
     }

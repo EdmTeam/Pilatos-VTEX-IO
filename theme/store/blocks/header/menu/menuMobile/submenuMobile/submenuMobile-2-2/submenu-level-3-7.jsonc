@@ -40,7 +40,9 @@
             "rich-text#submenu-level-3-text-13-row-7-row-2",
             "rich-text#submenu-level-3-text-14-row-7-row-2",
             "rich-text#submenu-level-3-text-15-row-7-row-2",
-            "rich-text#submenu-level-3-text-16-row-7-row-2"
+            "rich-text#submenu-level-3-text-16-row-7-row-2",
+            "rich-text#submenu-level-3-text-20-row-7-row-2"
+
         ],
         "props": {
             "blockClass": "contentSubMenuAcordeon"
@@ -146,6 +148,13 @@
     "rich-text#submenu-level-3-text-16-row-7-row-2": {
         "props": {
             "text": "[Ray Ban](/mujer/ray-ban?map=category-1,marca)",
+            "blockClass": "textSubmenuAcordeon"
+        }
+    }, 
+
+    "rich-text#submenu-level-3-text-20-row-7-row-2": {
+        "props": {
+            "text": "[Agua Bendita](/mujer/agua-bendita?map=category-1,marca)",
             "blockClass": "textSubmenuAcordeon"
         }
     }

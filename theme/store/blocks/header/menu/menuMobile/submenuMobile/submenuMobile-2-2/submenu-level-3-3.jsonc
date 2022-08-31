@@ -29,7 +29,11 @@
         "children": [
 
             "rich-text#submenu-level-3-text-5-row-3-row-2",
-            "rich-text#submenu-level-3-text-4-row-3-row-2"
+            "rich-text#submenu-level-3-text-4-row-3-row-2",
+            "rich-text#submenu-level-3-text-6-row-3-row-2",
+            "rich-text#submenu-level-3-text-7-row-3-row-2",
+            "rich-text#submenu-level-3-text-8-row-3-row-2",
+            "rich-text#submenu-level-3-text-9-row-3-row-2"
             
         ],
         "props": {
@@ -50,6 +54,34 @@
     "rich-text#submenu-level-3-text-5-row-3-row-2": {
         "props": {
             "text": "[Sandalias](/mujer/ropa-de-playa/sandalias)",
+            "blockClass": "textSubmenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-3-text-6-row-3-row-2":{
+        "props":{
+            "text": "[Bikinis](/mujer/ropa-de-playa/bikinis)",
+            "blockClass": "textSubmenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-3-text-7-row-3-row-2":{
+        "props":{
+            "text": "[Enteros](/mujer/ropa-de-playa/enteros)",
+            "blockClass": "textSubmenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-3-text-8-row-3-row-2":{
+        "props":{
+            "text": "[Accesorios](/mujer/ropa-de-playa/accesorios)",
+            "blockClass": "textSubmenuAcordeon"
+        }
+    },
+
+    "rich-text#submenu-level-3-text-9-row-3-row-2":{
+        "props":{
+            "text": "[Salida de Baño](/mujer/ropa-de-playa/salida-de-bano)",
             "blockClass": "textSubmenuAcordeon"
         }
     }
