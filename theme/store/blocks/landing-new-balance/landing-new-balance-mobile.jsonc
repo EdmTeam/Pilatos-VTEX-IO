@@ -48,8 +48,8 @@
             "flex-layout.row#landing-new-balance-banners-3",
             "flex-layout.row#recomendadorNewBalanceOne",
             "flex-layout.col#landing-new-balance-banners-nuevo-mobi",
-            "flex-layout.col#landing-new-balance-banners-top-mobi",
-            "flex-layout.row#recomendadorNewBalanceTwo"
+            "flex-layout.col#landing-new-balance-banners-top-mobi"
+           // "flex-layout.row#recomendadorNewBalanceTwo"
 
         ]
     },
@@ -108,7 +108,7 @@
             "itemsPerPage": {
                 "desktop": 1,
                 "tablet": 1,
-                "phone": 1
+                "phone": 3
             },
             "centerMode": "to-the-left",
             "showNavigationArrows": "desktopOnly",
@@ -125,8 +125,8 @@
             "flex-layout.row#landing-new-balance-banners-3",
             "flex-layout.row#recomendadorNewBalanceOne", 
             "flex-layout.col#landing-new-balance-banners-nuevo",
-            "flex-layout.col#landing-new-balance-banners-top",
-            "flex-layout.row#recomendadorNewBalanceTwo"
+            "flex-layout.col#landing-new-balance-banners-top"
+           // "flex-layout.row#recomendadorNewBalanceTwo"
         ]
     },
 
@@ -136,8 +136,8 @@
             "flex-layout.row#landing-new-balance-banners-3",
             "flex-layout.row#recomendadorNewBalanceOne",
             "flex-layout.col#landing-new-balance-banners-nuevo-mobi",
-            "flex-layout.col#landing-new-balance-banners-top-mobi",
-            "flex-layout.row#recomendadorNewBalanceTwo"
+            "flex-layout.col#landing-new-balance-banners-top-mobi"
+            //"flex-layout.row#recomendadorNewBalanceTwo"
         ]
     },
 

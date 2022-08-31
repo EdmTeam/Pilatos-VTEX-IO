@@ -24,6 +24,8 @@
             "responsive-layout.desktop#landing-new-balance-banners",
             "responsive-layout.tablet#landing-new-balance-banners",
             "responsive-layout.phone#landing-new-balance-banners",
+          
+            "search-result-layout.customQuery#landing-marcas",
             "rich-text#landing-new-balance-description"
 
         ]
@@ -36,8 +38,10 @@
             "flex-layout.row#landing-new-balance-banners-3",
             "flex-layout.row#recomendadorNewBalanceOne", 
             "flex-layout.col#landing-new-balance-banners-nuevo",
-            "flex-layout.col#landing-new-balance-banners-top",
-            "flex-layout.row#recomendadorNewBalanceTwo"
+            "flex-layout.col#landing-new-balance-banners-top"
+           // "flex-layout.row#recomendadorNewBalanceTwo"
+//           "search-result-layout.customQuery#landing-marcas"
+
 
 
         ]

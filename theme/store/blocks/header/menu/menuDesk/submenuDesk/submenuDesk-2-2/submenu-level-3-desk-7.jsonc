@@ -21,7 +21,8 @@
             "rich-text#submenu-desk-department-2-category-7-subcategory-13",
             "rich-text#submenu-desk-department-2-category-7-subcategory-14",
             "rich-text#submenu-desk-department-2-category-7-subcategory-15",
-            "rich-text#submenu-desk-department-2-category-7-subcategory-16"
+            "rich-text#submenu-desk-department-2-category-7-subcategory-16",
+            "rich-text#submenu-desk-department-2-category-7-subcategory-20"
         ],
         "props":{
             "blockClass": "contentBlockSubmenu"
@@ -136,6 +137,12 @@
     "rich-text#submenu-desk-department-2-category-7-subcategory-16":{
         "props":{
             "text": "[Ray Ban](/mujer/ray-ban?map=category-1,marca)",
+            "blockClass": "textSubcategory"
+        }
+    }, 
+    "rich-text#submenu-desk-department-2-category-7-subcategory-20":{
+        "props":{
+            "text": "[Agua Bendita](/mujer/agua-bendita?map=category-1,marca)",
             "blockClass": "textSubcategory"
         }
     }
