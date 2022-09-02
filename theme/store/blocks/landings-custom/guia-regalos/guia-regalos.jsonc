@@ -84,7 +84,9 @@
             "flex-layout.row#guia-regalos-regalosparaelyella",
             "flex-layout.row#guia-regalos-regaloscategorias",
             "flex-layout.row#guia-regalos-regalosprecios",
-            "flex-layout.row#shelf-landing-navidad",
+            // "flex-layout.row#shelf-landing-navidad",
+            "search-result-layout.customQuery#landing-marcas",
+
             "rich-text#guia-regalos-text-seo-p"
         ]
     },
