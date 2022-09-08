@@ -1045,6 +1045,11 @@
   height: auto;
 }
 
+.flexCol--contentBannersDeskSneaker{
+  height: auto;
+}
+
+
 .flexCol--contentBannersDeskDevoluciones{
   height: auto;
   background: red;
@@ -2797,4 +2802,9 @@
 /*Form New Balance*/
 .flexRowContent--form-nb-container :global(.vtex-input__label){
   display: block !important;
+}
+
+.flexRowContent--contentBannersDeskSneaker{
+  margin: 0 auto;
+  width: 85%;
 }
