@@ -32,6 +32,23 @@
 
       }, 
 
+      // banner stance promo 
+      "responsive-layout.mobile#bannerStanceSneaker-mobi": {
+        "children": [
+            "flex-layout.col#bannerStanceSneaker-mobi"
+        ]
+      },
+
+      "flex-layout.col#bannerStanceSneaker-mobi": {
+        "children":[
+            "image#bannerStanceSneaker-mobi"
+        ], 
+        "props":{
+            "blockClass":"contentBannersDesk"
+        }
+
+      }, 
+
       // banner tenis 
       "responsive-layout.mobile#sneaker-todasLasTenis": {
         "children": [
@@ -48,6 +65,55 @@
         }
 
       },
+
+      // banner genero mobile 
+
+      "flex-layout.row#bannerSneaker-regalosGeneroMobileElla":{
+        "children":[
+            "responsive-layout.mobile#bannerSneaker-regalosGeneroMobile"
+        ]
+
+      },
+
+      "flex-layout.row#bannerSneaker-ElMobi":{
+        "children":[
+            "responsive-layout.mobile#bannerSneaker-ElMobi"
+        ]
+    },
+      
+      "responsive-layout.mobile#bannerSneaker-ElMobi":{
+        "children":[
+            "flex-layout.col#bannerSneakerElMobi"
+        ]
+    },
+
+
+
+      "responsive-layout.mobile#bannerSneaker-regalosGeneroMobile":{
+        "children":[
+            "flex-layout.col#bannerSneakerEllaMobi"
+        ]
+    },
+
+      "flex-layout.col#bannerSneakerEllaMobi":{
+        "children":[
+            "image#bannerSneakerEllaMobi"
+        ],
+         "props":{
+            "blockClass":"contentBannersDesk"
+        }
+    },
+
+    "flex-layout.col#bannerSneakerElMobi":{
+        "children":[
+            "image#bannerSneakerElMobi"
+        ],
+         "props":{
+            "blockClass":"contentBannersDesk"
+        }
+    },
+
+    
 
       //banner new estilo
       "flex-layout.row#bannerSneakerEstilo-mobi": {
@@ -99,13 +165,38 @@
     },
 
     
+//banner categorias
 
+"flex-layout.row#bannerSneakerCategoria-mobi":{
+    "children":[
+        "responsive-layout.mobile#bannerSneakerCategoria"
+
+    ]
+},
+
+  "responsive-layout.mobile#bannerSneakerCategoria": {
+    "children": [
+        "flex-layout.col#bannerSneaker-camisetas-mobi"
+        
+       
+    ]
+},
+
+"flex-layout.col#bannerSneaker-camisetas-mobi":{
+    "children":[
+        "image#bannerSneaker-camisetas-mobi",
+        "image#bannerSneaker-jeans-mobi"
+    ],
+     "props":{
+        "blockClass":"contentBannersDesk"
+    }
+},
      
     //ruta de imagenes
 
     "image#bannerSneakerMobile":{
         "props": {
-            "src": "/arquivos/Pilatos-SP-BannerMobileLanding.jpg",
+            "src": "/arquivos/aPilatos-SP-BannerMobileLanding.jpg",
             "link": {
                 "url": "/hombre/ropa/camisetas",
                 "attributeTitle": ""
@@ -153,5 +244,59 @@
             },
             "blockClass": "departmentBannerImg-1"
         }
+    },
+
+    "image#bannerSneakerElMobi":{
+        "props": {
+            "src": "/arquivos/aPilatos-SP-HombreMobile.jpg",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+    "image#bannerSneakerEllaMobi":{
+        "props": {
+            "src": "/arquivos/aPilatos-SP-MujerMobile.jpg",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+    "image#bannerSneaker-camisetas-mobi":{
+        "props": {
+            "src": "/arquivos/Pilatos-SP-CamisetasMobile.jpg",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+    "image#bannerSneaker-jeans-mobi":{
+        "props": {
+            "src": "/arquivos/Pilatos-SP-JeansMobile.jpg",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+    "image#bannerStanceSneaker-mobi":{
+        "props": {
+            "src": "/arquivos/aPilatos-SP-StanceMobile.jpg",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
     }
-}
+
+}  

@@ -2675,6 +2675,10 @@
   .flexRowContent--rowLandingOrderFromChaosProductsMobile .stretchChildrenWidth:last-child {
     flex: 0 50%;
   }
+
+  .flexRow--rowLandingOrderFromDiesel {
+    width: 100% !important;
+  }
 }
 
 /*
@@ -2685,6 +2689,8 @@
 }
 .flexRow--rowLandingOrderFromDiesel {
   padding: 0 0;
+  width: 70%;
+  margin: 0 auto;
 }
 
 .flexRowContent--rowLandingOrderFromDiesel .stretchChildrenWidth:last-child {
@@ -2807,4 +2813,9 @@
 .flexRowContent--contentBannersDeskSneaker{
   margin: 0 auto;
   width: 85%;
+}
+
+.flexRowContent--contentBannersDeskSneakerCategoria{
+  margin: 0 auto;
+  width: 50%;
 }

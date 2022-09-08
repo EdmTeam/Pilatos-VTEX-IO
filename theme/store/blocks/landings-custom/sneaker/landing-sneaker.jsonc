@@ -4,11 +4,17 @@
         "flex-layout.row#bannerSneaker",
         "flex-layout.row#sneaker-recomendador",
         "flex-layout.row#bannerSneaker-regalosparaelyella",
+        "flex-layout.row#bannerSneaker-ElMobi",
+        "flex-layout.row#bannerSneaker-regalosGeneroMobileElla",
         "flex-layout.row#brandsSneaker",
         "flex-layout.row#bannerSneaker-todasLasTenis",
         "flex-layout.row#bannerSneakerEstilo",
         "flex-layout.row#bannerSneakerEstilo-mobi",
-        "flex-layout.row#bannerSneakerCategoria"
+        "flex-layout.row#title-brandsSneakerCategorias",
+     //   "flex-layout.row#title-brandsSneakerCategorias",
+        "flex-layout.row#bannerSneakerCategoria",
+        "flex-layout.row#bannerSneakerCategoria-mobi",
+        "flex-layout.row#videoSneaker"
 
 
 
@@ -34,8 +40,11 @@
         "children":[
             "responsive-layout.desktop#bannerPrincipalSneaker",
             "responsive-layout.desktop#bannerInformativoSneaker",
+            "responsive-layout.desktop#bannerStanceSneaker",
             "responsive-layout.mobile#bannerPrincipalSneaker",
-            "responsive-layout.mobile#bannerInformativoSneaker"
+            "responsive-layout.mobile#bannerInformativoSneaker",
+            "responsive-layout.mobile#bannerStanceSneaker-mobi"
+
 
         ]
     },
@@ -72,9 +81,35 @@
         }
 
       }, 
-     
+    
+      // banner stance media promo 
+
+      "responsive-layout.desktop#bannerStanceSneaker": {
+        "children": [
+            "flex-layout.col#bannerStanceSneaker"
+        ]
+      },
+
+      "flex-layout.col#bannerStanceSneaker": {
+        "children":[
+            "image#bannerStanceSneaker"
+        ], 
+        "props":{
+            "blockClass":"contentBannersDesk"
+        }
+
+      }, 
+    
 // banner de genero 
 "flex-layout.row#bannerSneaker-regalosparaelyella": {
+    "children": [
+        "responsive-layout.desktop#bannerSneaker-regalosparaelyella"
+        
+       
+    ]
+  },
+
+"responsive-layout.desktop#bannerSneaker-regalosparaelyella": {
     "children": [
         "image#bannerSneaker-regalosparael",
         "image#bannerSneaker-regalosparaella"
@@ -85,7 +120,7 @@
 },
 "image#bannerSneaker-regalosparael": {
     "props": {
-        "src": "/arquivos/Pilatos-SP-HombreDesktop.jpg",
+        "src": "/arquivos/aPilatos-SP-HombreDesktop.jpg",
         "link":{
             "alt": "Regalos para él",
             "url":"/"
@@ -98,7 +133,7 @@
 },
 "image#bannerSneaker-regalosparaella": {
     "props": {
-        "src": "/arquivos/Pilatos-SP-MujerDesktop.jpg",
+        "src": "/arquivos/aPilatos-SP-MujerDesktop.jpg",
         "link":{
             "alt": "Regalos para ella",
             "url":"/"
@@ -172,7 +207,7 @@
 
     ],
     "props":{
-        "blockClass":"contentBannersDeskSneaker"
+        "blockClass":"contentBannersDeskSneakerCategoria"
     }
 },
 
@@ -182,15 +217,59 @@
         "image#bannerSneaker-jeans"
     ],
     "props":{
-        "blockClass":"contentBannersDeskSneaker"
+        "blockClass":"contentBannersDeskSneakerCategoria"
     }
 },
 
+// rich text categorias
+/* 
+"flex-layout.row#title-brandsSneakerCategorias":{
+    "children":[
+        "flex-layout.col#title-brandsSneakerCategorias"
+    ],
+    "props":{
+        "blockClass": "contentBrandsSlide"
+    }
+}, 
+ */
+"flex-layout.row#title-brandsSneakerCategorias":{
+    "children":[
+        "rich-text#title-brandsSneakerCategorias"
+    ]
+},
+
+
+
+"rich-text#title-brandsSneakerCategorias": {
+    "props":{
+        "text": "**Combina tus sneakers con un look muy cool**",
+        "blockClass": "titlePromotionalBanners-sneaker"
+    }
+  },
+
+  //video sneaker
+
+  "flex-layout.row#videoSneaker": {
+    "props": {
+        "horizontalAlign": "center",
+        "blockClass": "rowLandingOrderFromDiesel"
+    },
+    "children": [
+        "iframe#videoSneaker"
+    ]
+},
+"iframe#videoSneaker": {
+    "props": {
+        "src": "https://www.youtube.com/embed/PpRDLOMPCFc",
+        "allow": "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
+        "blockClass": "orderFromChaosVideo"
+    }
+}, 
 
       //ruta de imagenes 
      "image#bannerSneaker":{
         "props": {
-            "src": "/arquivos/Pilatos-SP-BannerDesktopLanding.jpg",
+            "src": "/arquivos/aPilatos-SP-BannerDesktopLanding.jpg",
             "link": {
                 "url": "/hombre/ropa/camisetas",
                 "attributeTitle": ""
@@ -210,11 +289,14 @@
         }
     },
 
-    "image#bannerSneakerTenis":{
+    
+    
+
+    "image#bannerStanceSneaker":{
         "props": {
-            "src": "/arquivos/Pilatos-SP-TodosTenisDesktop.jpg",
+            "src": "/arquivos/aPilatos-SP-StanceDesktop.jpg",
             "link": {
-                "url": "/hombre/ropa/camisetas",
+                "url": "/aPilatos-SP-StanceDesktop.jpg",
                 "attributeTitle": ""
             },
             "blockClass": "departmentBannerImg-1"
@@ -273,7 +355,24 @@
         "blockClass":"departmentBannerImg-sneaker"
 
     }
+},
+
+
+"image#bannerSneakerTenis": {
+    "props": {
+        "src": "/arquivos/Pilatos-SP-TodosTenisDesktop.jpg",
+        "link":{
+            "alt": "sneaker classic",
+            "url":"/"
+        },
+        "title": "sneaker classic",
+        "width": "100%",
+        "blockClass":"departmentBannerImg-sneaker"
+
+    }
 }
+
+
     
     
 
