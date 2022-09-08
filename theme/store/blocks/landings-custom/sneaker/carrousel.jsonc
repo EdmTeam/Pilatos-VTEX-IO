@@ -1,0 +1,179 @@
+{
+    "flex-layout.row#sneaker-recomendador": {
+        "children": [
+            "flex-layout.col#sneaker-recomendador"
+        ],
+        "props": {
+            "blockClass": "sliderContentShelf"
+        }
+    },
+
+    "flex-layout.col#sneaker-recomendador": {
+        "children": [
+            "rich-text#title-best-sneaker",
+            "vtex.product-summary:list-context.product-list#sneaker-recomendador"        
+        ]
+    },
+
+    "rich-text#title-best-sneaker":{
+        "props":{
+            "text": "Productos",
+            "blockClass": "titleShelf"
+        }
+    },
+
+    "vtex.product-summary:list-context.product-list#sneaker-recomendador": {
+        "blocks": [
+            "vtex.product-summary:product-summary.shelf#most-viewed"
+        ],
+        "children": [
+            "slider-layout#home-shelf-sneaker-recomendadoree"
+        ],
+        "props": {
+            "orderBy": "OrderByTopSaleDESC",
+            "collection": "1319",
+            "maxItems": 30
+        }
+    },
+    "slider-layout#home-shelf-sneaker-recomendadoree": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 4,
+            "tablet": 3,
+            "phone": 2
+          },
+          "infinite": true,
+          "showNavigationArrows": "desktopOnly",
+          "showPaginationDots": "always"
+        //   "centerMode": {
+        //     "mobile": "to-the-left",
+        //     "desktop": "disabled"
+        //   }
+        }
+    },
+
+    // marcas sneaker campana
+
+    "flex-layout.row#brandsSneaker":{
+        "children":[
+            "flex-layout.col#brandsSneaker"
+        ],
+        "props":{
+            "blockClass": "contentBrandsSlide"
+        }
+    }, 
+    "flex-layout.col#brandsSneaker":{
+        "children":[
+            "rich-text#title-brandsSneaker",
+            "slider-layout#brandsSneaker"
+        ]
+    },
+    "rich-text#title-brandsSneaker": {
+        "props":{
+            "text": "**Comprar por marca**",
+            "blockClass": "titlePromotionalBanners"
+        }
+      },
+    "slider-layout#brandsSneaker":{
+        "props":{
+        "blockClass":[
+            "contentSlideSneaker",
+            "contentSlideBrandSneaker"
+        ],
+        "itemsPerPage":{
+            "desktop": 7,
+            "tablet": 6,
+            "phone": 4
+        }, 
+        "showPaginationDots":"never"
+        },
+    "children":[
+        "image#brandSneaker-1",
+        "image#brandSneaker-2",
+        "image#brandSneaker-3",
+        "image#brandSneaker-4",
+        "image#brandSneaker-5",
+        "image#brandSneaker-6",
+        "image#brandSneaker-7"
+    ]
+    },
+    // imagenes marcas
+
+    "image#brandSneaker-1": {
+        "props": {
+            "src": "/arquivos/Pilatos-SP-Diesel.png",
+            "link": {
+                "url": "/diesel?initialMap=b&initialQuery=Diesel&map=category-3,brand&query=/tenis/diesel&searchState"
+            },
+            "blockClass":"departmentBannerImg-sneakerBrands"
+
+        }
+      },
+
+      "image#brandSneaker-2": {
+        "props": {
+            "src": "/arquivos/Pilatos-SP-Replay.png",
+            "link": {
+                "url": "/replay?initialMap=b&initialQuery=replay&map=category-3,brand,marca&query=/tenis/replay/replay&searchState"
+            },
+            "blockClass":"departmentBannerImg-sneakerBrands"
+
+        }
+      },
+    
+      "image#brandSneaker-3": {
+        "props": {
+            "src": "/arquivos/Pilatos-SP-NB.png",
+            "link": {
+                "url": "/new-balance?initialMap=b&initialQuery=new-balance&map=category-3,brand&query=/tenis/new-balance&searchState"
+            },
+            "blockClass":"departmentBannerImg-sneakerBrands"
+
+        }
+      },
+
+      "image#brandSneaker-4": {
+        "props": {
+            "src": "/arquivos/Pilatos-SP-Nike.png",
+            "link": {
+                "url": "/nike?initialMap=b&initialQuery=nike&map=category-3,brand&query=/tenis/nike&searchState"
+            },
+            "blockClass":"departmentBannerImg-sneakerBrands"
+
+        }
+      },
+
+      "image#brandSneaker-5": {
+        "props": {
+            "src": "/arquivos/Pilatos-SP-Lacoste.png",
+            "link": {
+                "url": "/lacoste"
+            },
+            "blockClass":"departmentBannerImg-sneakerBrands"
+
+        }
+      },
+
+      "image#brandSneaker-6": {
+        "props": {
+            "src": "/arquivos/Pilatos-SP-LeCoq.png",
+            "link": {
+                "url": "/le-coq-sportif?initialMap=b&initialQuery=Le-Coq-Sportif&map=category-3,brand&query=/tenis/le-coq-sportif&searchState"
+            },
+            "blockClass":"departmentBannerImg-sneakerBrands"
+
+        }
+      },
+
+      "image#brandSneaker-7": {
+        "props": {
+            "src": "/arquivos/Pilatos-SP-Vans.png",
+            "link": {
+                "url": "/vans"
+            },
+            "blockClass":"departmentBannerImg-sneakerBrands"
+
+        }
+      }
+
+}

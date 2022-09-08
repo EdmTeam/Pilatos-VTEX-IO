@@ -473,6 +473,19 @@ filter: saturate(250%);
 filter: brightness(50%);
 }
 
+.imageElementLink--departmentBannerImg-sneaker{
+    margin: 1%;
+}
+
+.imageElementLink--departmentBannerImg-sneaker:hover{
+    -webkit-filter: brightness(50%);
+filter: brightness(50%);
+}
+.imageElementLink--departmentBannerImg-sneakerBrands:hover{
+    -webkit-filter: brightness(50%);
+    filter: drop-shadow(2px 4px 6px #ccfb04);
+}
+
 .imageElementLink--departmentBannerImg-top:hover{
     -webkit-filter: brightness(50%);
 filter: brightness(50%);

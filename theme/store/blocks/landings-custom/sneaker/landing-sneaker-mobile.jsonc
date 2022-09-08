@@ -1,0 +1,157 @@
+{
+    "responsive-layout.mobile#bannerPrincipalSneaker": {
+        "children": [
+            "flex-layout.col#bannerSneakerImg-mobile"
+        ]
+      },
+
+      "flex-layout.col#bannerSneakerImg-mobile": {
+        "children":[
+            "image#bannerSneakerMobile"
+        ], 
+        "props":{
+            "blockClass":"contentBannersDesk"
+        }
+
+      }, 
+
+      //banner informativo 
+      "responsive-layout.mobile#bannerInformativoSneaker": {
+        "children": [
+            "flex-layout.col#bannerInformativoSneaker-mobile"
+        ]
+      },
+
+      "flex-layout.col#bannerInformativoSneaker-mobile": {
+        "children":[
+            "image#bannerSneakerMobile-info"
+        ], 
+        "props":{
+            "blockClass":"contentBannersDesk"
+        }
+
+      }, 
+
+      // banner tenis 
+      "responsive-layout.mobile#sneaker-todasLasTenis": {
+        "children": [
+            "flex-layout.col#sneaker-todasLasTenis-mobile"
+        ]
+      },
+
+      "flex-layout.col#sneaker-todasLasTenis-mobile": {
+        "children":[
+            "image#sneaker-todasLasTenisImg"
+        ], 
+        "props":{
+            "blockClass":"contentBannersDesk"
+        }
+
+      },
+
+      //banner new estilo
+      "flex-layout.row#bannerSneakerEstilo-mobi": {
+        "children":[
+            "flex-layout.col#bannerSneakerEstilo-mobi"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+    
+    
+      "flex-layout.col#bannerSneakerEstilo-mobi":{
+        "children":[
+            "responsive-layout.mobile#bannerSneakerEstiloClassic",
+            "responsive-layout.mobile#bannerSneakerEstiloLife"
+            
+    
+        ]
+    },
+        "responsive-layout.mobile#bannerSneakerEstiloClassic": {
+            "children": [
+                "flex-layout.col#bannerSneakerEstiloClassic"
+            ]
+          },
+    
+      "responsive-layout.mobile#bannerSneakerEstiloLife": {
+        "children": [
+            "flex-layout.row#bannerSneakerEstiloLife"
+        ]
+      },
+
+      "flex-layout.row#bannerSneakerEstiloLife":{
+        "children":[
+            "image#bannerSneaker-live-mobi"
+        ],
+         "props":{
+            "blockClass":"contentBannersDesk"
+        }
+    },
+
+    "flex-layout.col#bannerSneakerEstiloClassic":{
+        "children":[
+            "image#bannerSneaker-classic-mobi"
+        ],
+         "props":{
+            "blockClass":"contentBannersDesk"
+        }
+    },
+
+    
+
+     
+    //ruta de imagenes
+
+    "image#bannerSneakerMobile":{
+        "props": {
+            "src": "/arquivos/Pilatos-SP-BannerMobileLanding.jpg",
+            "link": {
+                "url": "/hombre/ropa/camisetas",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+    "image#bannerSneakerMobile-info":{
+        "props": {
+            "src": "/arquivos/Pilatos-SP-InfoMobile.jpg",
+            "link": {
+                "url": "/hombre/ropa/camisetas",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+    "image#sneaker-todasLasTenisImg":{
+        "props": {
+            "src": "/arquivos/Pilatos-SP-TodosTenisMobile.jpg",
+            "link": {
+                "url": "/hombre/ropa/camisetas",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+    "image#bannerSneaker-live-mobi":{
+        "props": {
+            "src": "/arquivos/Pilatos-SP-LifestyleMobile.jpg",
+            "link": {
+                "url": "/hombre/ropa/camisetas",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+    "image#bannerSneaker-classic-mobi":{
+        "props": {
+            "src": "/arquivos/Pilatos-SP-ClassicsMobile.jpg",
+            "link": {
+                "url": "/hombre/ropa/camisetas",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    }
+}
