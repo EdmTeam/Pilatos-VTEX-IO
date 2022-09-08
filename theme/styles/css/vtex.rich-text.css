@@ -499,6 +499,33 @@
   color: #000000;
   text-transform: uppercase;
 }
+/*Estilo titulo sneaker */
+.container--titlePromotionalBanners-sneaker{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.strong--titlePromotionalBanners-sneaker{
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 31px;
+  color: #000000;
+}
+@media screen and (max-width: 767px){
+  .wrapper--titlePromotionalBanners-sneaker{
+   background: #000;
+   text-align: center;
+  }
+  .strong--titlePromotionalBanners-sneaker{
+    color: #fff;
+
+  }
+
+
+
+}
 
 /* Estilos titulo banner marcas */
 .container--tittleBannersMarcas{
