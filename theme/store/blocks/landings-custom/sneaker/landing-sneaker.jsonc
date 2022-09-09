@@ -1,6 +1,7 @@
 {
     "store.custom#landing-sneaker": {
       "blocks": [
+        "rich-text#departmen-newsale-bread-crumb",
         "flex-layout.row#bannerSneaker",
         "flex-layout.row#sneaker-recomendador",
         "flex-layout.row#bannerSneaker-regalosparaelyella",
@@ -14,7 +15,8 @@
      //   "flex-layout.row#title-brandsSneakerCategorias",
         "flex-layout.row#bannerSneakerCategoria",
         "flex-layout.row#bannerSneakerCategoria-mobi",
-        "flex-layout.row#videoSneaker"
+       // "flex-layout.row#videoSneaker"
+       "rich-text#guia-regalos-text-seo-h1p"
 
 
 
