@@ -51,14 +51,14 @@
                         "attributeTitle": ""
                     }
                 },
-                {
+              /*   {
                     "image": "/arquivos/Banner_CuartoNivel_Mobile_03.jpg",
                     "description": "Promotional Banner",
                     "link": {
                         "url": "/mundo-unico",
                         "attributeTitle": ""
                     }
-                },
+                }, */
                 {
                     "image": "/arquivos/Banner_CuartoNivel_Mobile_04.jpg",
                     "description": "Promotional Banner",
@@ -147,8 +147,8 @@
 
     "flex-layout.col#desk-promotional-banners-col-2": {
         "children":[
-            "flex-layout.row#desk-promotional-banners-col-2-row-1",
-            "flex-layout.row#desk-promotional-banners-col-2-row-2"
+            "flex-layout.row#desk-promotional-banners-col-2-row-1"
+          //  "flex-layout.row#desk-promotional-banners-col-2-row-2"
         ],
         "props":{
             "blockClass": "PromotionalBannerConterImg",
