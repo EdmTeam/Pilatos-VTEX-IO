@@ -15,7 +15,7 @@
      //   "flex-layout.row#title-brandsSneakerCategorias",
         "flex-layout.row#bannerSneakerCategoria",
         "flex-layout.row#bannerSneakerCategoria-mobi",
-       // "flex-layout.row#videoSneaker"
+       "flex-layout.row#videoSneake",
        "rich-text#guia-regalos-text-seo-h1p"
 
 
@@ -251,18 +251,18 @@
 
   //video sneaker
 
-  "flex-layout.row#videoSneaker": {
+  "flex-layout.row#videoSneake": {
     "props": {
         "horizontalAlign": "center",
         "blockClass": "rowLandingOrderFromDiesel"
     },
     "children": [
-        "iframe#videoSneaker"
+        "iframe#videoSneake"
     ]
 },
-"iframe#videoSneaker": {
+"iframe#videoSneake": {
     "props": {
-        "src": "https://www.youtube.com/embed/PpRDLOMPCFc",
+        "src": "https://www.youtube.com/embed/dimfXVlGATI",
         "allow": "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
         "blockClass": "orderFromChaosVideo"
     }
