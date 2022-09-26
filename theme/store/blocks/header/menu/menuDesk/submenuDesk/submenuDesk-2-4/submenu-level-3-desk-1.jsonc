@@ -16,8 +16,6 @@
             "rich-text#submenu-desk-department-4-category-7",
             "rich-text#submenu-desk-department-4-category-8",
             "rich-text#submenu-desk-department-4-category-9",
-            "rich-text#submenu-desk-department-4-category-10",
-            "rich-text#submenu-desk-department-4-category-11",
             "rich-text#submenu-desk-department-4-category-12",
             //"rich-text#submenu-desk-department-4-category-13",
             "rich-text#submenu-desk-department-4-category-14",
@@ -141,20 +139,6 @@
     "rich-text#submenu-desk-department-4-category-9":{
         "props":{
             "text": "[Reebok](/reebok)",
-            "blockClass": "textCategory"
-        }
-    },
-
-    "rich-text#submenu-desk-department-4-category-10":{
-        "props":{
-            "text": "[Adidas](/adidas)",
-            "blockClass": "textCategory"
-        }
-    },
-
-    "rich-text#submenu-desk-department-4-category-11":{
-        "props":{
-            "text": "[Cole Haan](/cole-haan)",
             "blockClass": "textCategory"
         }
     },
