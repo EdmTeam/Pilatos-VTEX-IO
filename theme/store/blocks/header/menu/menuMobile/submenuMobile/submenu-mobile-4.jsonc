@@ -21,8 +21,6 @@
             "rich-text#submenu-level-2-item-7-row-7",
             "rich-text#submenu-level-2-item-8-row-7",
             "rich-text#submenu-level-2-item-9-row-7",
-            "rich-text#submenu-level-2-item-10-row-7",
-            "rich-text#submenu-level-2-item-11-row-7",
             "rich-text#submenu-level-2-item-12-row-7",
            // "rich-text#submenu-level-2-item-13-row-7",
             "rich-text#submenu-level-2-item-14-row-7",
@@ -185,20 +183,6 @@
     "rich-text#submenu-level-2-item-9-row-7":{
         "props":{
             "text": "[Reebok](/reebok)",
-            "blockClass": "contentSubMenuAcordeon"
-        }
-    },
-
-    "rich-text#submenu-level-2-item-10-row-7":{
-        "props":{
-            "text": "[Adidas](/adidas)",
-            "blockClass": "contentSubMenuAcordeon"
-        }
-    },
-
-    "rich-text#submenu-level-2-item-11-row-7":{
-        "props":{
-            "text": "[Cole Haan](/cole-haan)",
             "blockClass": "contentSubMenuAcordeon"
         }
     },

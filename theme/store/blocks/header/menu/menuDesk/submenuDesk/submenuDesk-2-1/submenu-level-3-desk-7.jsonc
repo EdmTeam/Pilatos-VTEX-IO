@@ -15,7 +15,6 @@
             "rich-text#submenu-desk-department-1-category-7-subcategory-5",
             "rich-text#submenu-desk-department-1-category-7-subcategory-6",
             "rich-text#submenu-desk-department-1-category-7-subcategory-22",
-            "rich-text#submenu-desk-department-1-category-7-subcategory-9",
             "rich-text#submenu-desk-department-1-category-7-subcategory-10",
           //  "rich-text#submenu-desk-department-1-category-7-subcategory-11",
             "rich-text#submenu-desk-department-1-category-7-subcategory-12",
@@ -84,14 +83,6 @@
         }
     },
 
-  
-
-    "rich-text#submenu-desk-department-1-category-7-subcategory-9":{
-        "props":{
-            "text": "[Cole Haan](/hombre/cole-haan?map=category-1,marca)",
-            "blockClass": "textSubcategory"
-        }
-    },
 
     "rich-text#submenu-desk-department-1-category-7-subcategory-10":{
         "props":{

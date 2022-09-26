@@ -34,7 +34,6 @@
             "rich-text#submenu-level-3-text-5-row-7",
             "rich-text#submenu-level-3-text-6-row-7",
             "rich-text#submenu-level-3-text-22-row-7",
-            "rich-text#submenu-level-3-text-9-row-7",
             "rich-text#submenu-level-3-text-10-row-7",
             //"rich-text#submenu-level-3-text-11-row-7",
             "rich-text#submenu-level-3-text-12-row-7",
@@ -96,15 +95,6 @@
         }
     },
 
-   
-
-
-    "rich-text#submenu-level-3-text-9-row-7": {
-        "props": {
-            "text": "[Cole Haan](/hombre/cole-haan?map=category-1,marca)",
-            "blockClass": "textSubmenuAcordeon"
-        }
-    },
 
     "rich-text#submenu-level-3-text-10-row-7": {
         "props": {

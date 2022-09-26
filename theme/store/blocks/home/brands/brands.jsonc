@@ -54,13 +54,10 @@
         "image#brand-17",
         "image#brand-15",
         "image#brand-1",
-        "image#brand-3",
-        "image#brand-4",
         "image#brand-6",
         "image#brand-7",
         "image#brand-8",
         "image#brand-9",
-        "image#brand-14",
         "image#brand-16",
         "image#brand-21",
         "image#brand-22"
@@ -71,9 +68,9 @@
 
     "image#brand-1": {
       "props": {
-          "src": "/arquivos/Logo_Adidas.png",
+          "src": "/arquivos/LogoLacoste.png",
           "link": {
-              "url": "/adidas"
+              "url": "/lacoste"
           }
       }
     },
@@ -83,24 +80,6 @@
           "src": "/arquivos/Logo_Celio.png",
           "link": {
               "url": "/celio"
-          }
-      }
-    },
-
-    "image#brand-3": {
-      "props": {
-          "src": "/arquivos/Logo_Cole_Haan.png",
-          "link": {
-              "url": "/cole-haan"
-          }
-      }
-    },
-
-    "image#brand-4": {
-      "props": {
-          "src": "/arquivos/Logo_Creep_Portect.png",
-          "link": {
-              "url": "/crep-protec"
           }
       }
     },
@@ -186,15 +165,6 @@
       }
     },
 
-    "image#brand-14": {
-      "props": {
-          "src": "/arquivos/Logo_New_Project.png",
-          "link": {
-              "url": "/new-project"
-          }
-      }
-    },
-
     "image#brand-15": {
       "props": {
           "src": "/arquivos/Logo_Oakley.png",
@@ -233,9 +203,9 @@
 
     "image#brand-19": {
       "props": {
-          "src": "/arquivos/LogoLacoste.png",
+          "src": "/arquivos/VANS_log new-01-nuevo.png",
           "link": {
-              "url": "/lacoste"
+              "url": "/vans"
           }
       }
     },
