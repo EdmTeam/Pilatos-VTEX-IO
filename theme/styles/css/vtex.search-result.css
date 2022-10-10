@@ -30,7 +30,9 @@
 
 .filter__container--selectedFilters .productCount{
     display: none;
+    background: red;
 }
+
 
 .filter__container--selectedFilters :global(.vtex-checkbox__container){
     opacity: 0;
@@ -99,7 +101,10 @@
 }
 
 .searchResultContainer .totalProducts--layout{
-    display: none;
+    display: inline;
+    color: #828282;
+    text-transform: capitalize;
+    font-size: 12px;
 }
 
 .searchResultContainer :global(.vtex-breadcrumb-1-x-homeLink){

@@ -274,7 +274,7 @@
 
 @media only screen and (min-width: 740px){
     :global(.vtex-flex-layout-0-x-flexRowContent--contentResultFilter) > div:first-child{
-        width: 20% !important;
+        width: 23% !important;
         position: relative;
     }
 

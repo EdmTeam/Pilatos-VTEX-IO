@@ -1,0 +1,167 @@
+{
+    "store.custom#landingTop":{
+        "blocks":[
+            "flex-layout.row#bannerLandingTop",
+            "flex-layout.row#landingTop-recomendador",
+            "search-result-layout.customQuery#landing-marcas",
+            "rich-text#landing-new-balance-description"
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
+    },
+    "flex-layout.row#bannerLandingTop":{
+        "children":[
+            "flex-layout.col#banner-landingTop"
+        ]
+    },
+
+    "flex-layout.col#banner-landingTop":{
+        "children":[
+            "responsive-layout.desktop#banner-landingTop"
+            // "responsive-layout.mobile#banner-landingTop"      
+          ]
+    },
+
+    "responsive-layout.desktop#banner-landingTop":{
+        "children":[
+            "flex-layout.col#banner-landingTop-principal",
+            "flex-layout.row#banner-landingTop-imgList"
+        ]
+    },
+
+    "flex-layout.col#banner-landingTop-principal":{
+        "children":[
+            "image#banner-landingTop-principal"
+        ],
+        "props":{
+            "blockClass":"contentBannersDesk"
+        }
+    },
+
+    "image#banner-landingTop-principal": {
+        "props": {
+            "src": "/arquivos/Pilatos-Landing-linea-LANDING-pc.jpg",
+            "link": {
+                "url": "",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+    "flex-layout.row#banner-landingTop-imgList":{
+        "children":[
+            "flex-layout.col#landingTop-cat-1",
+            "flex-layout.col#landingTop-cat-2",
+            "flex-layout.col#landingTop-cat-3",
+            "flex-layout.col#landingTop-cat-4",
+            "flex-layout.col#landingTop-cat-5"
+        ],
+        "props":{
+            "blockClass":"contentBanners-2"
+        }
+    },
+
+    "flex-layout.col#landingTop-cat-1":{
+        "children":[
+            "image#landingTop-cat-1"
+        ],
+        "props":{
+            "width": "33%"
+        }
+    },
+
+    "image#landingTop-cat-1": {
+        "props": {
+            "src": "/arquivos/linea-jeans-pc.jpg",
+            "link": {
+                "url": "/1292?map=productClusterIds&order=OrderByTopSaleDESC",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-top"
+        }
+    },
+
+    "flex-layout.col#landingTop-cat-2":{
+        "children":[
+            "image#landingTop-cat-2"
+        ],
+        "props":{
+            "width": "33%"
+        }
+    },
+
+    "image#landingTop-cat-2": {
+        "props": {
+            "src": "/arquivos/linea-tenis-pc.jpg",
+            "link": {
+                "url": "/1293?map=productClusterIds&order=OrderByTopSaleDESC",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-top"
+        }
+    },
+
+    "flex-layout.col#landingTop-cat-3":{
+        "children":[
+            "image#landingTop-cat-3"
+        ],
+        "props":{
+            "width": "33%"
+        }
+    },
+
+    "image#landingTop-cat-3": {
+        "props": {
+            "src": "/arquivos/linea-camisetas-pc.jpg",
+            "link": {
+                "url": "/1294?map=productClusterIds&order=OrderByTopSaleDESC",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-top"
+        }
+    },
+
+    "flex-layout.col#landingTop-cat-4":{
+        "children":[
+            "image#landingTop-cat-4"
+        ],
+        "props":{
+            "width": "33%"
+        }
+    },
+
+    "image#landingTop-cat-4": {
+        "props": {
+            "src": "/arquivos/linea-buzosychaquetas-pc.jpg",
+            "link": {
+                "url": "/1296?map=productClusterIds&order=OrderByTopSaleDESC",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-top"
+        }
+    },
+
+    "flex-layout.col#landingTop-cat-5":{
+        "children":[
+            "image#landingTop-cat-5"
+        ],
+        "props":{
+            "width": "33%"
+        }
+    },
+
+    "image#landingTop-cat-5": {
+        "props": {
+            "src": "/arquivos/linea-accesorio-pc.jpg",
+            "link": {
+                "url": "/1295?map=productClusterIds&order=OrderByTopSaleDESC",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-top"
+        }
+    }
+
+
+}

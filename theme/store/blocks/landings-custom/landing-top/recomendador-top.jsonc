@@ -1,0 +1,54 @@
+{
+    "flex-layout.row#landingTop-recomendador": {
+        "children": [
+            "flex-layout.col#landingTop-recomendador"
+        ],
+        "props": {
+            "blockClass": "sliderContentShelf"
+        }
+    },
+
+    "flex-layout.col#landingTop-recomendador": {
+        "children": [
+            "rich-text#title-best-landingTop",
+            "vtex.product-summary:list-context.product-list#landingTop-recomendador"        
+        ]
+    },
+
+    "rich-text#title-best-landingTop":{
+        "props":{
+            "text": "Productos",
+            "blockClass": "titleShelf"
+        }
+    },
+
+    "vtex.product-summary:list-context.product-list#landingTop-recomendador": {
+        "blocks": [
+            "vtex.product-summary:product-summary.shelf#most-viewed"
+        ],
+        "children": [
+            "slider-layout#home-shelf-landing-top"
+        ],
+        "props": {
+            "orderBy": "OrderByTopSaleDESC",
+            "collection": "1291",
+            "maxItems": 30
+        }
+    },
+    "slider-layout#home-shelf-landing-top": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 4,
+            "tablet": 3,
+            "phone": 2
+          },
+          "infinite": true,
+          "showNavigationArrows": "desktopOnly",
+          "showPaginationDots": "always"
+        //   "centerMode": {
+        //     "mobile": "to-the-left",
+        //     "desktop": "disabled"
+        //   }
+        }
+    }
+}
