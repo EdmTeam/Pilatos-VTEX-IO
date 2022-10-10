@@ -38,6 +38,7 @@
       "preventRouteChange": true,
       "hideUnavailableItems": true,
       "showFacetQuantity": true,
+     "showProductsCount": true,
       "mobileLayout": {
         "mode1": "small",
         "mode2": "normal"
@@ -111,8 +112,9 @@
   },
   "flex-layout.row#search-info": {
     "children": [
-      "flex-layout.col#search-title"
-      // "flex-layout.col#product-count",
+      "flex-layout.col#search-title" ,
+    // contador de productos
+     "flex-layout.col#product-count"
       // "flex-layout.col#order-by"
     ],
     "props": {
@@ -127,8 +129,9 @@
   },
   "flex-layout.row#result": {
     "children": [
-    //  "flex-layout.row#search-info-mobile",
-     "flex-layout.col#filter",
+    // "flex-layout.row#search-info-mobile",
+    
+    "flex-layout.col#filter",
       "flex-layout.col#content"
     ],
     "props": {
@@ -141,7 +144,7 @@
     "children": [
       "flex-layout.col#order-by",
       "filter-navigator.v3",
-      "rich-text#filtro-seo"
+      "rich-text#filtro-seo"      
     ],
     "props": {
       "blockClass": "filterCol"
@@ -151,7 +154,7 @@
     "children": [
       "flex-layout.row#fetch-previous",
       "flex-layout.row#products",
-      // "flex-layout.row#count-per-page",
+     // "flex-layout.row#count-per-page",
       // "flex-layout.row#products-progress-bar",
       "flex-layout.row#fetch-more"
     ],
@@ -224,15 +227,17 @@
     "children": [
       "flex-layout.row#bread-crumb",
       "search-title.v2",
+      "flex-layout.row#product-count-mobile",
       "flex-layout.row#search-info-mobile",
       "flex-layout.row#fetch-previous",
       "flex-layout.row#content-mobile",
-      // "flex-layout.row#count-per-page",
+      "flex-layout.row#count-per-page",
       // "flex-layout.row#products-progress-bar",
       "flex-layout.row#fetch-more",
       "flex-layout.row#spacer"
     ],
     "props": {
+     // "showProductsCount": true,
       "hiddenFacets": {
         "specificationFilters": {
           "hiddenFilters": [
@@ -306,6 +311,7 @@
   },
   "flex-layout.row#search-info-mobile": {
     "children": [
+      
       "flex-layout.col#order-by-mobile",
       "flex-layout.col#filterMobile"
       // "flex-layout.col#switcher-view-mobile"
@@ -441,8 +447,7 @@
       "vtex.product-summary:product-summary-space",
       "product-list-price",
       "product-selling-price#summary"
-
-      // "flex-layout.row#add-to-cart"
+      //"flex-layout.row#add-to-cart"
     ]
   }
 }

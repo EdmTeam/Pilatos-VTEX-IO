@@ -68,7 +68,8 @@
                 "hideUnavailableItems": true,
                 "maxItemsPerPage": 48,
                 "queryField": "hombre",
-                "mapField": "category-1"
+                "mapField": "category-1",
+                "productCount": true
             }
         }
     },
