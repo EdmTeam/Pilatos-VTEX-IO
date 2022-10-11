@@ -228,6 +228,7 @@
       "flex-layout.row#bread-crumb",
       "search-title.v2",
       "flex-layout.row#product-count-mobile",
+     //"flex-layout.col#product-count",
       "flex-layout.row#search-info-mobile",
       "flex-layout.row#fetch-previous",
       "flex-layout.row#content-mobile",
@@ -237,7 +238,7 @@
       "flex-layout.row#spacer"
     ],
     "props": {
-     // "showProductsCount": true,
+      "showProductsCount": true,
       "hiddenFacets": {
         "specificationFilters": {
           "hiddenFilters": [
@@ -311,7 +312,8 @@
   },
   "flex-layout.row#search-info-mobile": {
     "children": [
-      
+     // "flex-layout.row#product-count-mobile",
+    //  "flex-layout.col#product-count",
       "flex-layout.col#order-by-mobile",
       "flex-layout.col#filterMobile"
       // "flex-layout.col#switcher-view-mobile"

@@ -32,12 +32,15 @@
           "flex-layout.row#suggestion",
           "responsive-layout.phone#department-mujer-banners-2-phone",
           "responsive-layout.tablet#department-mujer-banners-2-tablet",
+          "flex-layout.row#product-count-mobile",
+
           "flex-layout.row#search-info-mobile-mujer",
           "flex-layout.row#fetch-previous",
           "flex-layout.row#content-mobile",
           "flex-layout.row#fetch-more"
         ],
         "props": {
+            "showProductsCount": true,
             "blockClass": "searchResultMobile",
             "preventRouteChange": true,
             "hiddenFacets": {
