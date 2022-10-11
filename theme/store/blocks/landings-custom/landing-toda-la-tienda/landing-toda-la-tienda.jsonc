@@ -60,6 +60,7 @@
         "children": [
             "flex-layout.row#bread-crumb",
             "search-title.v2",
+            "flex-layout.row#product-count-mobile",
             "flex-layout.row#search-info-mobile",
             "flex-layout.row#fetch-previous",
             "flex-layout.row#content-mobile",
@@ -69,6 +70,7 @@
             "flex-layout.row#spacer"
         ],
         "props": {
+            "showProductsCount": true,
             "hiddenFacets": {
                 "specificationFilters": {
                     "hiddenFilters": [

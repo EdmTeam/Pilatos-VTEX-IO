@@ -107,6 +107,18 @@
     font-size: 12px;
 }
 
+@media (max-width: 700px){
+    .vtex-search-result-3-x-totalProducts--layout {
+        justify-content: normal;
+        display: flex;
+        padding: 0 3%;
+        background: red;
+        width: 800px;
+    }
+
+}
+
+
 .searchResultContainer :global(.vtex-breadcrumb-1-x-homeLink){
     padding: .125rem 0;
 }
