@@ -1307,6 +1307,11 @@
     margin-right: 1.2rem;
   }
 
+  .flexRowContent--contentCategoryBannersDesk :global(.vtex-store-components-3-x-imageElementLink--departmentBannerImg-top){
+    width: 100%;
+    margin-right: 1.2rem;
+  }
+
   .flexRowContent--contentCategoryBannersDesk :global(.vtex-store-components-3-x-imageElementLink--departmentBannerImg-memo){
     margin-right: 1.2rem;
   }
@@ -2819,3 +2824,4 @@
   margin: 0 auto;
   width: 50%;
 }
+
