@@ -1,10 +1,12 @@
 {
     "store.custom#landingTop":{
         "blocks":[
-            "flex-layout.row#bannerLandingTop",
-            "flex-layout.row#landingTop-recomendador",
-            "search-result-layout.customQuery#landing-marcas",
-            "rich-text#landing-new-balance-description"
+            "rich-text#landing-marcas-bread-crumb",
+           "flex-layout.row#bannerLandingTop",
+           
+            //"flex-layout.row#landingTop-recomendador",
+            "search-result-layout.customQuery#landing-productosTop",
+            "flex-layout.row#banner-landingTop-footer"
         ],
         "props":{
             "blockClass": "contentStoreCustom"
@@ -18,16 +20,27 @@
 
     "flex-layout.col#banner-landingTop":{
         "children":[
-            "responsive-layout.desktop#banner-landingTop"
-            // "responsive-layout.mobile#banner-landingTop"      
+           "responsive-layout.desktop#banner-landingTop",
+            "responsive-layout.mobile#banner-landingTop"
+             
           ]
     },
 
     "responsive-layout.desktop#banner-landingTop":{
         "children":[
             "flex-layout.col#banner-landingTop-principal",
+            "rich-text#landing-marcas-premium",
             "flex-layout.row#banner-landingTop-imgList"
         ]
+    },
+
+    "rich-text#landing-marcas-premium":{
+        "props":{
+            "text": "**Productos Top en Pilatos 2022**",
+            "blockClass": "tittleBannersMarcasTop",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
     },
 
     "flex-layout.col#banner-landingTop-principal":{
@@ -46,7 +59,7 @@
                 "url": "",
                 "attributeTitle": ""
             },
-            "blockClass": "departmentBannerImg-1"
+            "blockClass": "imageBanner"
         }
     },
 
@@ -68,7 +81,7 @@
             "image#landingTop-cat-1"
         ],
         "props":{
-            "width": "33%"
+            "width": "50%"
         }
     },
 
@@ -88,7 +101,7 @@
             "image#landingTop-cat-2"
         ],
         "props":{
-            "width": "33%"
+            "width": "50%"
         }
     },
 
@@ -108,7 +121,7 @@
             "image#landingTop-cat-3"
         ],
         "props":{
-            "width": "33%"
+            "width": "50%"
         }
     },
 
@@ -128,7 +141,7 @@
             "image#landingTop-cat-4"
         ],
         "props":{
-            "width": "33%"
+            "width": "50%"
         }
     },
 
@@ -148,7 +161,7 @@
             "image#landingTop-cat-5"
         ],
         "props":{
-            "width": "33%"
+            "width": "50%"
         }
     },
 
@@ -161,7 +174,77 @@
             },
             "blockClass": "departmentBannerImg-top"
         }
+    },
+
+    "search-result-layout.customQuery#landing-productosTop": {
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile#dosbanner"
+        ],
+        "props": {
+            "showProductsCount": true,
+            "querySchema": {
+                "orderByField": "OrderByScoreDESC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 48,
+                "queryField": "1291",
+                "mapField": "productClusterIds"
+            }
+        }
+    },
+
+    // bloque inferior con cambios y devoluciones
+
+    "flex-layout.row#banner-landingTop-footer":{
+        "children":[
+            "flex-layout.col#landingTop-cambiosydevoluciones",
+            "flex-layout.col#landingTop-envios"
+        ],
+        "props":{
+            "blockClass":"contentBanners-2"
+        }
+    },
+
+    "flex-layout.col#landingTop-cambiosydevoluciones":{
+        "children":[
+            "image#landingTop-cambiosydevoluciones"
+        ],
+        "props":{
+            "width": "50%"
+        }
+    },
+
+    "image#landingTop-cambiosydevoluciones": {
+        "props": {
+            "src": "/arquivos/Pilatos-Landing-Banner-Cambios-y-devol-pc.jpg",
+            "link": {
+                "url": "/cambios-devoluciones",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-top"
+        }
+    },
+
+    "flex-layout.col#landingTop-envios":{
+        "children":[
+            "image#landingTop-envios"
+        ],
+        "props":{
+            "width": "50%"
+        }
+    },
+
+    "image#landingTop-envios": {
+        "props": {
+            "src": "/arquivos/Pilatos-Landing-Banner-info-envio-pc.jpg",
+            "link": {
+                "url": "/envios-entregas",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-top"
+        }
     }
+
 
 
 }

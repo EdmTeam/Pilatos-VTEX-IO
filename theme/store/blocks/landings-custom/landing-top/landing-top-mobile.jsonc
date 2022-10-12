@@ -1,0 +1,28 @@
+{
+    "responsive-layout.mobile#banner-landingTop":{
+        "children":[
+            "flex-layout.col#banner-landingTop-principal-mobile",
+            "rich-text#landing-marcas-premium",
+            "flex-layout.row#banner-landingTop-imgList"
+        ]
+    },
+
+    "flex-layout.col#banner-landingTop-principal-mobile":{
+        "children":[
+            "image#banner-landingTop-principal-mobile"
+        ],
+        "props":{
+            "blockClass":"contentBannersDesk"
+        }
+    },
+    "image#banner-landingTop-principal-mobile":{
+        "props": {
+            "src": "/arquivos/Pilatos-Landing-linea-Banner-LANDING-MOBILE.jpg",
+            "link": {
+                "url": "",
+                "attributeTitle": ""
+            },
+            "blockClass": ""
+        }
+    }
+}
