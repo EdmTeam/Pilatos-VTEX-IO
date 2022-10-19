@@ -2,7 +2,7 @@
   "store.home": {
     "blocks": [
       "modal-trigger#welcome",
-      "flex-layout.row#congtent-slider",
+     "flex-layout.row#congtent-slider",
       "flex-layout.row#texto-SEO",
       "responsive-layout.phone#brands-promise",
       "responsive-layout.tablet#brands-promise",

@@ -414,7 +414,11 @@
 
 @media only screen and (max-width: 740px){
   .container--textTopHeader{
-    display: none;
+    display: block;
+  }
+  .paragraph--textTopHeader{
+    padding: 4px 2rem !important;
+    margin-top: 0!important;
   }
 }
 
@@ -432,6 +436,13 @@
   text-transform: uppercase;
   margin: .5rem 0;
   padding: 0 4rem;
+}
+
+.link--textTopHeader{
+  color: white;
+  text-decoration: none;
+
+
 }
 
 @media only screen and (min-width: 740px) {

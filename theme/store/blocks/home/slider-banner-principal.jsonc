@@ -122,8 +122,11 @@
             "link": {
                 "url": "/",
                 "attributeTitle": ""
-            }
+            },
+            "blockClass": "departmentBannerImg-topHome"
         }
+        
+    
     },
 
     "image#banner-mobile-1-img-1-dsi":{
