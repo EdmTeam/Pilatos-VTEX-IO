@@ -20,7 +20,7 @@
             "rich-text#desc-cybersale-h1",
             "rich-text#desc-cybersale",
             "flex-layout.row#title-and-form-cybersale"
-            //"rich-text#button-to-event-cybersale",
+           // "rich-text#button-to-event-cybersale"
             
         ]
     },
@@ -75,14 +75,14 @@
             "blockClass": "desc-dsi"
         }
     },
-  /*   "rich-text#button-to-event-cybersale": {
+    "rich-text#button-to-event-cybersale": {
         "props": {
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
             "text": "[Compra aquí tus productos](/dia-sin-iva-pilatos)",
             "blockClass": "button-to-event-dsi"
         }
-    }, */
+    }, 
     "flex-layout.row#title-and-form-cybersale": {
         "children": [
             "flex-layout.col#title-cybersale",

@@ -1,0 +1,289 @@
+{
+    "store.custom#landingCyberSale":{
+        "blocks":[
+            "flex-layout.row#banner-landing-cybersale",
+            "search-result-layout.customQuery#department-nuevo"               
+         ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
+    },
+
+
+    "flex-layout.row#banner-landing-cybersale":{
+        "children":[
+            "flex-layout.col#banner-landing-cybersale"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#banner-landing-cybersale":{
+        "children":[
+            "rich-text#landing-ecobag-bread-crumb",
+            "rich-text#landing-ecobag-title",
+            "responsive-layout.desktop#landing-cybersale-banners",
+          "responsive-layout.tablet#landing-cybersale-banners",
+            "responsive-layout.phone#landing-cybersale-banners"
+        ]
+    },
+        //banner desk
+
+    "responsive-layout.desktop#landing-cybersale-banners":{
+        "children":[
+            "flex-layout.col#landing-cybersale-principal",
+            "flex-layout.row#landing-cybersale-principal-2",
+            "flex-layout.row#landing-cybersale-principal-cat"
+        ]
+    },
+
+    "flex-layout.col#landing-cybersale-principal":{
+        "children":[
+            "image#landing-cybersale-banners-1-img-1"
+        ],
+        "props":{
+            "blockClass":"contentBannersDesk"
+        }
+    },
+
+    "image#landing-cybersale-banners-1-img-1": {
+        "props": {
+            "src": "/arquivos/Pilatos-CyberDays-BannerDesktopLanding.jpg",
+            "link": {
+                "url": "",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+    //banner categorias hombre y mujer 
+    "flex-layout.row#landing-cybersale-principal-2":{
+        "children":[
+            "flex-layout.col#landing-cybersale-banners-2-img-hombre",
+            "flex-layout.col#landing-cybersale-banners-2-img-mujer"
+
+           
+        ],
+        "props":{
+            "blockClass":"contentBanners-2"
+
+        }
+    },
+
+    "flex-layout.col#landing-cybersale-banners-2-img-hombre":{
+        "children":[
+            "image#landing-cybersale-banners-2-img-1"
+        ],
+        "props":{
+            "width": "49%"
+        }
+    },
+
+    "image#landing-cybersale-banners-2-img-1": {
+        "props": {
+            "src": "/arquivos/Pilatos-CyberDays-LandingHombreMobile.jpg",
+            "link": {
+                "url": "/hombre",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-top"
+        }
+    },
+
+    "flex-layout.col#landing-cybersale-banners-2-img-mujer":{
+        "children":[
+            "image#landing-cybersale-banners-2-img-2"
+        ],
+        "props":{
+            "width": "49%"
+        }
+    },
+
+    "image#landing-cybersale-banners-2-img-2": {
+        "props": {
+            "src": "/arquivos/Pilatos-CyberDays-LandingMujerMobile.jpg",
+            "link": {
+                "url": "/mujer",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-top"
+        }
+    },
+
+    //banner categoria jeans, tenis, camisetas
+    "flex-layout.row#landing-cybersale-principal-cat":{
+        "children":[
+            "flex-layout.col#landing-cybersale-banners-2-img-jeans",
+            "flex-layout.col#landing-cybersale-banners-2-img-camisetas",
+            "flex-layout.col#landing-cybersale-banners-2-img-tenis"
+
+           
+        ],
+        "props":{
+            "blockClass":"contentBanners-2"
+
+        }
+    },
+
+    "flex-layout.col#landing-cybersale-banners-2-img-jeans":{
+        "children":[
+            "image#landing-cybersale-banners-2-img-jeans"
+        ],
+        "props":{
+            "width": "33%"
+        }
+    },
+
+    "image#landing-cybersale-banners-2-img-jeans": {
+        "props": {
+            "src": "/arquivos/Pilatos-CyberDays-LandingJeansMobile.jpg",
+            "link": {
+                "url": "/hombre",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-top"
+        }
+    },
+
+    "flex-layout.col#landing-cybersale-banners-2-img-camisetas":{
+        "children":[
+            "image#landing-cybersale-banners-2-img-camisetas"
+        ],
+        "props":{
+            "width": "33%"
+        }
+    },
+
+    "image#landing-cybersale-banners-2-img-camisetas": {
+        "props": {
+            "src": "/arquivos/Pilatos-CyberDays-LandingCamisetasMobile.jpg",
+            "link": {
+                "url": "/mujer",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-top"
+        }
+    },
+
+    "flex-layout.col#landing-cybersale-banners-2-img-tenis":{
+        "children":[
+            "image#landing-cybersale-banners-2-img-tenis"
+        ],
+        "props":{
+            "width": "33%"
+        }
+    },
+
+    "image#landing-cybersale-banners-2-img-tenis": {
+        "props": {
+            "src": "/arquivos/Pilatos-CyberDays-LandingTenisMobile.jpg",
+            "link": {
+                "url": "/mujer",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-top"
+        }
+    },
+
+    //banner tablet
+
+"responsive-layout.tablet#landing-cybersale-banners":{
+    "children":[
+        "flex-layout.col#landing-cybersale-principal",
+        "flex-layout.row#landing-cybersale-principal-2",
+        "flex-layout.row#landing-cybersale-principal-cat"
+    ]
+},
+
+ //banner mobile
+
+ "responsive-layout.phone#landing-cybersale-banners":{
+    "children":[
+        "flex-layout.col#landing-cybersale-principal-phone"
+        ]
+},
+
+"flex-layout.col#landing-cybersale-principal-phone":{
+    "children":[
+        "image#landing-cybersale-banners-1-img-1-phone",
+        "image#landing-cybersale-banners-1-img-2-phone",
+        "image#landing-cybersale-banners-1-img-3-phone",
+        "list-context.image-list#demo"
+        
+
+    ],
+    "props":{
+        "blockClass":"contentBannersDesk"
+    }
+},
+// example imagen list 
+
+"list-context.image-list#demo": {
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "height": 650,
+      "images": [
+        {
+          "image": "/arquivos/Pilatos-CyberDays-LandingJeansMobile.jpg",
+          "description": "something something",
+          "link": {
+            "url": "/mujer",
+            "attributeTitle": ""
+        }
+        },
+        {
+          "image": "/arquivos/Pilatos-CyberDays-LandingCamisetasMobile.jpg",
+          "description": "something something"
+        },
+        {
+            "image": "/arquivos/Pilatos-CyberDays-LandingTenisMobile.jpg",
+            "description": "something something"
+          }
+      ]
+    }
+  },
+  "slider-layout#demo-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true
+    }
+  },
+
+"image#landing-cybersale-banners-1-img-1-phone": {
+    "props": {
+        "src": "/arquivos/Pilatos-CyberDays-BannerMobileLanding.jpg",
+        "link": {
+            "url": "/",
+            "attributeTitle": ""
+        },
+        "blockClass": "departmentBannerImg-1"
+    }
+},
+
+"image#landing-cybersale-banners-1-img-2-phone": {
+    "props": {
+        "src": "/arquivos/Pilatos-CyberDays-LandingHombreMobile.jpg",
+        "link": {
+            "url": "/",
+            "attributeTitle": ""
+        },
+        "blockClass": "departmentBannerImg-1"
+    }
+},
+
+"image#landing-cybersale-banners-1-img-3-phone": {
+    "props": {
+        "src": "/arquivos/Pilatos-CyberDays-LandingMujerMobile.jpg",
+        "link": {
+            "url": "/",
+            "attributeTitle": ""
+        },
+        "blockClass": "departmentBannerImg-1"
+    }
+}
+}
