@@ -13,6 +13,15 @@
     background-image: url(/arquivos/flag-dsi-Pilatos.png);
     display: block;*/
 }
+
+.productHighlightWrapper [data-highlight-id="1341"]{
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+   background-image: url(/arquivos/Pilatos-CyberDays-Flag.jpg); 
+    display: block;
+}
 .productHighlightWrapper [data-highlight-id="1219"]{
     width: 40px;
     height: 40px;
@@ -74,6 +83,7 @@
     padding: 5px 5px;
     font-weight: 800;
 } */
+
 
 
 
