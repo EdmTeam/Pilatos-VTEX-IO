@@ -47,6 +47,7 @@
         "image#brand-13",
         "image#brand-20",
         "image#brand-11",
+        "image#brand-24",
         "image#brand-19",
         "image#brand-18",
         "image#brand-2",
@@ -61,7 +62,8 @@
         "image#brand-16",
         "image#brand-21",
         "image#brand-22"
-       // "image#brand-24"
+        
+       
         //"image#brand-25"
       ]
     },
@@ -83,6 +85,10 @@
           }
       }
     },
+
+
+ 
+
 
     "image#brand-5": {
       "props": {
@@ -248,9 +254,9 @@
 
     "image#brand-24": {
       "props": {
-          "src": "/arquivos/logo_unico.png",
+          "src": "/arquivos/AguaBendita-Logo.jpg",
           "link": {
-              "url": "/mundo-unico"
+              "url": "/agua-bendita"
           }
       }
     },
