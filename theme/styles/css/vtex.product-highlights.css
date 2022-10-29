@@ -31,6 +31,15 @@
     display: block;
 }
 
+.productHighlightWrapper [data-highlight-id="1341"]{
+    width: 40px;
+    height: 70px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(/arquivos/Pilatos-Bancolombia-Flag.jpg);
+    display: block;
+} 
+
 .productHighlightWrapper [data-highlight-id="1240"]{
     width: 40px;
     height: 40px;
