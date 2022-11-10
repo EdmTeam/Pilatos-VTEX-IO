@@ -370,7 +370,7 @@
     "store.custom#category-billetera-ninos": {
         "path": "/ninos/accesorios/billeteras"
     },
-    
+
     "store.custom#category-bolsos-ninos": {
         "path": "/ninos/accesorios/bolsos"
     },
@@ -554,7 +554,7 @@
     "store.custom#store-locator":{
         "path": "/localizador-tiendas"
     },
-    
+
     "store.custom#promociones-vigentes": {
         "path": "/promociones-vigentes"
     },
@@ -614,5 +614,8 @@
     },
     "store.custom#landing-memorama": {
         "path": "/memorama"
+    },
+    "store.custom#landing-memorama-mundial": {
+        "path": "/memorama-mundial"
     }
 }
