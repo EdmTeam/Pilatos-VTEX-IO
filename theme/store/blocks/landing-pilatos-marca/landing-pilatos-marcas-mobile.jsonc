@@ -33,7 +33,7 @@
           "responsive-layout.phone#landing-pilatos-marca-banners-2-phone",
           "responsive-layout.tablet#landing-pilatos-marca-banners-2-tablet",
           "flex-layout.row#most-viewed",
-          "flex-layout.row#brands",
+          //"flex-layout.row#brands",
           "flex-layout.row#product-count-mobile",
 
           "flex-layout.row#search-info-mobile-landing-pilatos-marca",

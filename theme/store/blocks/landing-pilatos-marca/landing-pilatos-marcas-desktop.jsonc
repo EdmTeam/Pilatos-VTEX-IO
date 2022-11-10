@@ -32,8 +32,8 @@
         "children":[
             "flex-layout.col#landing-pilatos-marca-banners-1",
             "flex-layout.row#most-viewed",
-            "flex-layout.row#landing-pilatos-marca-banners-2",
-            "flex-layout.row#brands"
+            "flex-layout.row#landing-pilatos-marca-banners-2"
+          //  "flex-layout.row#brands"
         ]
     },
 

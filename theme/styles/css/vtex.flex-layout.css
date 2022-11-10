@@ -96,6 +96,11 @@
     margin: .5rem auto !important;
   }
 
+  .flexRowContent--contentBanners-mundial{
+    width: 80%;
+    margin: .5rem auto !important;
+  }
+
   .flexRowContent--contentBanners-ecobag{
     width: 100%;
     margin: .5rem auto !important;
@@ -1308,6 +1313,11 @@
   }
 
   .flexRowContent--contentCategoryBannersDesk :global(.vtex-store-components-3-x-imageElementLink--departmentBannerImg-top){
+    width: 100%;
+    margin-right: 1.2rem;
+  }
+
+  .flexRowContent--contentCategoryBannersDesk :global(.vtex-store-components-3-x-imageElementLink--departmentBannerImg-mundial){
     width: 100%;
     margin-right: 1.2rem;
   }
