@@ -1,0 +1,134 @@
+{
+  "store.custom#landing-memorama-mundial":{
+    "blocks":[
+      "flex-layout.row#banner-landing-memorama-mundial",
+      "responsive-layout.desktop#landing-banner-video-banners-memorama",
+      "responsive-layout.phone#landing-banner-video-banners-memorama",
+      "responsive-layout.tablet#landing-banner-video-banners-memorama"
+    ],
+    "props":{
+      "blockClass": "contentStoreCustom"
+    }
+  },
+
+  "flex-layout.row#banner-landing-memorama-mundial":{
+    "children":[
+      "flex-layout.col#banner-landing-memorama-mundial"
+    ],
+    "props":{
+        "blockClass": "contentSearch"
+    }
+  },
+
+  "flex-layout.col#banner-landing-memorama-mundial":{
+    "children":[
+      "rich-text#landing-memorama-bread-crumb",
+      "rich-text#landing-memorama-title",
+      "rich-text#landing-memorama-description",
+      "responsive-layout.desktop#landing-memorama-banners-mundial",
+      "responsive-layout.tablet#landing-memorama-banners-mundial",
+      "responsive-layout.phone#landing-memorama-banners-mundial"
+    ]
+  },
+
+  "responsive-layout.desktop#landing-memorama-banners-mundial":{
+      "children":[
+          "flex-layout.col#landing-memorama-banners-1",
+          "rich-text#memorama-text-seo-h1",
+          "rich-text#memorama-parrafo-seo-h1",
+          "flex-layout.row#form-memorama-mundial",
+          "flex-layout.row#landing-memorama-banners-2",
+          "rich-text#landing-memorama-text-seo-h1",
+          "search-result-layout.customQuery#landing-memorama",
+          "slider-layout#landing-fragancia"
+      ]
+  },
+
+  "responsive-layout.tablet#landing-memorama-banners-mundial":{
+      "children":[
+          "flex-layout.col#landing-memorama-banners-1-tablet-mundial",
+          "flex-layout.row#landing-memorama-banners-2-tablet"
+      ]
+  },
+
+  // tablet banner
+  "flex-layout.col#landing-memorama-banners-1-tablet-mundial":{
+    "children":[
+        "image#landing-memorama-banners-1-img-1-tablet",
+        "flex-layout.row#form-memorama-mundial",
+        "rich-text#memorama-text-seo-h1",
+        "rich-text#memorama-parrafo-seo-h1",
+        "rich-text#landing-memorama-text-seo-h1",
+        "search-result-layout.customQuery#landing-memorama"
+    ],
+    "props":{
+        "blockClass":"contentBannersDesk"
+    }
+  },
+
+  "responsive-layout.phone#landing-memorama-banners-mundial":{
+      "children":[
+        "flex-layout.col#landing-memorama-banners-1-p-mundial"
+      ]
+  },
+
+  // mobile banner
+  "flex-layout.col#landing-memorama-banners-1-p-mundial":{
+    "children":[
+        "image#landing-memorama-banners-1-img-1-p",
+        "flex-layout.row#form-memorama-mundial",
+        "rich-text#memorama-text-seo-h1",
+        "rich-text#memorama-parrafo-seo-h1-mobile",
+        "image#landing-memorama-banners-1-img-1-ph1a",
+        "image#landing-memorama-banners-1-img-1-ph2a",
+        "image#landing-memorama-banners-1-img-1-ph3a",
+        "rich-text#landing-memorama-text-seo-h1",
+        "search-result-layout.customQuery#landing-memorama",
+        "slider-layout#landing-fragancia"
+
+    ],
+    "props":{
+        "blockClass":"contentBannersDesk"
+    }
+  },
+
+  "flex-layout.row#form-memorama-mundial": {
+      "props": {
+          "blockClass": ["formContainer-dsi", "formContainer-memorama-mundial"]
+      },
+      "children": [
+          "flex-layout.col#form-memorama-mundial"
+      ]
+  },
+  "flex-layout.col#form-memorama-mundial": {
+      "props": {
+          "blockClass": ["formContainer-dsi", "formContainer-memorama-mundial"]
+      },
+      "children": [
+          "form#memorama-mundial"
+      ]
+  },
+  "form#memorama-mundial": {
+      "props": {
+          "entity": "FL",
+          "schema": "formularioslandings"
+      },
+      "children": [
+          "form-input.text#memorama-form-name",
+          "form-input.text#memorama-form-email",
+          "form-input.text#memorama-form-birthday",
+          "form-input.checkbox#memorama-form-terms",
+          "rich-text#memorama-read-politics",
+          "form-submit#memorama-form-submit"
+      ],
+      "blocks": [
+          "form-success#memorama-mundial"
+      ]
+  },
+  "form-success#memorama-mundial": {
+      "children": [
+          "memorygamemundial"
+          //"rich-text#memorama-successSubmit"
+      ]
+  }
+}
