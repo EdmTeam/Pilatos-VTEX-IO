@@ -31,6 +31,16 @@
     display: block;
 }
 
+.productHighlightWrapper [data-highlight-id="1343"]{
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+   background-image: url(/arquivos/Flagmundial.jpg); 
+    display: block;
+    border-radius: 50%;
+
+}
 
 
 .productHighlightWrapper [data-highlight-id="1240"]{

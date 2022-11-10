@@ -1,0 +1,44 @@
+{
+    "responsive-layout.phone#bannerLanding-mundial-productos":{
+        "children":[
+            "image#landing-pilatos-mundialMobi",
+            "flex-layout.row#landing-pilatos-mundial-banners-2-mobi",
+            "flex-layout.row#landing-pilatos-mundial-banners-3-mobi"
+        ]  
+    },
+    "image#landing-pilatos-mundialMobi": {
+      "props": {
+        "src": "/arquivos/banner-landing-mundial-mobile.jpg"
+        
+      }
+    },
+
+    // productos 
+
+    "flex-layout.row#landing-pilatos-mundial-banners-2-mobi":{
+        "children":[
+            "flex-layout.col#landing-pilatos-mundial-banners-2-img-1",
+            "flex-layout.col#landing-pilatos-mundial-banners-2-img-2",
+            "flex-layout.col#landing-pilatos-mundial-banners-2-img-3"
+            ],
+        "props":{
+            "blockClass":"contentBanners-mundial"
+        }
+    },
+    
+    "flex-layout.row#landing-pilatos-mundial-banners-3-mobi":{
+        "children":[
+            "flex-layout.col#landing-pilatos-mundial-banners-2-img-4",
+            "flex-layout.col#landing-pilatos-mundial-banners-2-img-5",
+            "flex-layout.col#landing-pilatos-mundial-banners-2-img-6"
+            ],
+        "props":{
+            "blockClass":"contentBanners-mundial"
+        }
+    }
+
+
+
+
+      
+}
