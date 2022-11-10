@@ -503,6 +503,16 @@ margin-bottom: 1%;
 margin-top: 1%;
 }
 
+.imageElementLink--departmentBannerImg-mundial{
+    margin: 1%;
+}
+                   
+.imageElementLink--departmentBannerImg-mundial:hover{
+    -webkit-filter: brightness(50%);
+filter: brightness(50%);
+margin-bottom: 1%;
+margin-top: 1%;
+}
 
 
 .imageElementLink--departmentBannerImg-4{

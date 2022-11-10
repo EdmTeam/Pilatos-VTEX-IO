@@ -1,0 +1,300 @@
+{
+    "store.custom#landing-mundial": {
+        "blocks": [
+            "rich-text#Landing-mundial-marca-bread-crumb",
+            "rich-text#Landing-mundial-marca-title",
+            "flex-layout.row#bannerLanding-mundial",
+            "flex-layout.row#most-viewed",
+            "rich-text#department-dosbanner-description"
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
+    },
+
+    // Bread-crumb y Title
+"rich-text#Landing-mundial-marca-bread-crumb": {
+    "props": {
+        "text": "[Home](/) / [**PilatosMundial**](/PilatosMundial)",
+        "blockClass": "departmentBreadCrumb"
+
+    }
+},
+"rich-text#Landing-mundial-marca-title": {
+    "props": {
+        "text": "# Pilatos Mundial",
+        "blockClass": "departmentTitle"
+    }
+
+},
+
+    "flex-layout.row#bannerLanding-mundial": {
+        "children": [
+            "flex-layout.col#bannerLanding-mundial"
+        ]
+
+    },
+
+    "flex-layout.col#bannerLanding-mundial":{
+        "children": [
+            "responsive-layout.desktop#bannerLanding-mundial",
+            "responsive-layout.tablet#bannerLanding-mundial",
+            "responsive-layout.desktop#bannerLanding-mundial-productos",
+            "responsive-layout.tablet#landing-pilatos-mundial-banners",
+            "responsive-layout.phone#bannerLanding-mundial-productos",
+            "responsive-layout.desktop#bannerLanding-mundialManifiesto",
+            "responsive-layout.tablet#bannerLanding-mundialManifiesto",
+            "responsive-layout.phone#bannerLanding-mundialManifiesto"
+
+
+        ]
+   
+    }, 
+
+     "responsive-layout.tablet#landing-pilatos-mundial-banners":{
+        "children":[
+            "flex-layout.row#landing-pilatos-mundial-banners-2-tablet",
+            "flex-layout.row#landing-pilatos-mundial-banners-3-tablet"
+        ]
+    }, 
+
+    //banner productos
+    "responsive-layout.desktop#bannerLanding-mundial-productos":{
+        "children": [
+            "flex-layout.row#landing-pilatos-mundial-banners-2",
+            "flex-layout.row#landing-pilatos-mundial-banners-3"
+
+        ]
+    },
+
+
+
+"responsive-layout.desktop#bannerLanding-mundial":{
+    "children":[
+        "image#bannerLanding-mundial"
+    ]
+},
+"responsive-layout.tablet#bannerLanding-mundial":{
+    "children":[
+        "image#bannerLanding-mundial"
+    ]
+},
+
+"image#bannerLanding-mundial": {
+  "props": {
+    "src": "/arquivos/banner-landing-mundial-escritorio.jpg",
+    "blockClass": "departmentBannerImg"
+}    
+  
+},
+
+"responsive-layout.desktop#bannerLanding-mundialManifiesto":{
+    "children":[
+        "image#bannerLanding-mundialManifiesto"
+    ]
+},
+"responsive-layout.tablet#bannerLanding-mundialManifiesto":{
+    "children":[
+        "image#bannerLanding-mundialManifiesto"
+    ]
+},
+
+"responsive-layout.phone#bannerLanding-mundialManifiesto":{
+    "children":[
+        "image#bannerLanding-mundialManifiesto-mobi"
+    ]
+},
+
+"image#bannerLanding-mundialManifiesto": {
+  "props": {
+    "src": "/arquivos/manifiesto-mundial-escritorio.jpg",
+    "blockClass": "departmentBannerImg"
+}    
+  
+},
+
+"image#bannerLanding-mundialManifiesto-mobi": {
+    "props": {
+      "src": "/arquivos/manifiesto-mundial-mobile.jpg",
+      "blockClass": "departmentBannerImg"
+  }    
+    
+  },
+
+  // productos 
+
+
+  "flex-layout.row#landing-pilatos-mundial-banners-2":{
+    "children":[
+        "flex-layout.col#landing-pilatos-mundial-banners-2-img-1",
+        "flex-layout.col#landing-pilatos-mundial-banners-2-img-2",
+        "flex-layout.col#landing-pilatos-mundial-banners-2-img-3"
+        ],
+    "props":{
+        "blockClass":"contentBanners-mundial"
+    }
+},
+
+"flex-layout.row#landing-pilatos-mundial-banners-3":{
+    "children":[
+        "flex-layout.col#landing-pilatos-mundial-banners-2-img-4",
+        "flex-layout.col#landing-pilatos-mundial-banners-2-img-5",
+        "flex-layout.col#landing-pilatos-mundial-banners-2-img-6"
+        ],
+    "props":{
+        "blockClass":"contentBanners-mundial"
+    }
+},
+
+"flex-layout.row#landing-pilatos-mundial-banners-2-tablet":{
+    "children":[
+        "flex-layout.col#landing-pilatos-mundial-banners-2-img-1",
+        "flex-layout.col#landing-pilatos-mundial-banners-2-img-2",
+        "flex-layout.col#landing-pilatos-mundial-banners-2-img-3"
+        ],
+    "props":{
+        "blockClass":"contentBanners-mundial"
+    }
+},
+
+"flex-layout.row#landing-pilatos-mundial-banners-3-tablet":{
+    "children":[
+        "flex-layout.col#landing-pilatos-mundial-banners-2-img-4",
+        "flex-layout.col#landing-pilatos-mundial-banners-2-img-5",
+        "flex-layout.col#landing-pilatos-mundial-banners-2-img-6"
+        ],
+    "props":{
+        "blockClass":"contentBanners-mundial"
+    }
+},
+
+
+"flex-layout.col#landing-pilatos-mundial-banners-2-img-1":{
+    "children":[
+        "image#landing-pilatos-mundial-banners-2-img-1"
+    ],
+    "props":{
+        "width": "31%"
+    }
+},
+
+"image#landing-pilatos-mundial-banners-2-img-1": {
+    "props": {
+        "src": "/arquivos/mundial-BRAsIL.jpg",
+        "link": {
+            "url": "/camiseta-para-hombre-mundial-2022-pm1101641n000/p?skuId=270105",
+            "attributeTitle": ""
+        },
+        "blockClass": "departmentBannerImg-mundial"
+    }
+},
+
+"flex-layout.col#landing-pilatos-mundial-banners-2-img-2":{
+    "children":[
+        "image#landing-pilatos-mundial-banners-2-img-2"
+    ],
+    "props":{
+        "width": "31%"
+    }
+},
+
+"image#landing-pilatos-mundial-banners-2-img-2": {
+    "props": {
+        "src": "/arquivos/mundial-ARGENTINA.jpg",
+        "link": {
+            "url": "/camiseta-para-hombre-mundial-2022-pm1101637n000/p?skuId=270085",
+            "attributeTitle": ""
+        },
+        "blockClass": "departmentBannerImg-mundial"
+    }
+},
+
+
+"flex-layout.col#landing-pilatos-mundial-banners-2-img-3":{
+    "children":[
+        "image#landing-pilatos-mundial-banners-2-img-3"
+    ],
+    "props":{
+        "width": "31%"
+    }
+},
+"image#landing-pilatos-mundial-banners-2-img-3": {
+    "props": {
+        "src": "/arquivos/mundial-ENGLAND.jpg",
+        "link": {
+            "url": "/camiseta-para-hombre-camiseta-mundial-2022-pm1101636n000/p?skuId=270080",
+            "attributeTitle": ""
+        },
+        "blockClass": "departmentBannerImg-mundial"
+    }
+
+},
+
+//segundo bloque 
+
+"flex-layout.col#landing-pilatos-mundial-banners-2-img-4":{
+    "children":[
+        "image#landing-pilatos-mundial-banners-2-img-4"
+    ],
+    "props":{
+        "width": "31%"
+    }
+},
+
+"image#landing-pilatos-mundial-banners-2-img-4": {
+    "props": {
+        "src": "/arquivos/mundial-FRANCE.jpg",
+        "link": {
+            "url": "/camiseta-para-hombre-mundial-2022-pm1101638n000/p?skuId=270090",
+            "attributeTitle": ""
+        },
+        "blockClass": "departmentBannerImg-mundial"
+    }
+},
+
+"flex-layout.col#landing-pilatos-mundial-banners-2-img-5":{
+    "children":[
+        "image#landing-pilatos-mundial-banners-2-img-5"
+    ],
+    "props":{
+        "width": "31%"
+    }
+},
+
+"image#landing-pilatos-mundial-banners-2-img-5": {
+    "props": {
+        "src": "/arquivos/mundial-GERMANY.jpg",
+        "link": {
+            "url": "/camiseta-para-hombre-mundial-2022-pm1101640n000/p?skuId=270100",
+            "attributeTitle": ""
+        },
+        "blockClass": "departmentBannerImg-mundial"
+    }
+},
+
+
+"flex-layout.col#landing-pilatos-mundial-banners-2-img-6":{
+    "children":[
+        "image#landing-pilatos-mundial-banners-2-img-6"
+    ],
+    "props":{
+        "width": "31%"
+    }
+},
+"image#landing-pilatos-mundial-banners-2-img-6": {
+    "props": {
+        "src": "/arquivos/mundial-SPAIN.jpg",
+        "link": {
+            "url": "/camiseta-para-hombre-mundial-2022-pm1101639n000/p?skuId=270095",
+            "attributeTitle": ""
+        },
+        "blockClass": "departmentBannerImg-mundial"
+    }
+
+}
+
+
+}
+
+
+    
