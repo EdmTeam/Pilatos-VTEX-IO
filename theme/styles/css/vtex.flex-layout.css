@@ -2821,6 +2821,14 @@
   display: none;
 }
 
+@media (min-width: 900px) {
+  .flexCol--formContainer-memorama-mundial{
+    width: 50% !important;
+  }
+  
+}
+
+
 /*Form New Balance*/
 .flexRowContent--form-nb-container :global(.vtex-input__label){
   display: block !important;

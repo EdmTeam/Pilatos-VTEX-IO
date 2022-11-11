@@ -39,6 +39,9 @@
         "children": [
             "responsive-layout.desktop#bannerLanding-mundial",
             "responsive-layout.tablet#bannerLanding-mundial",
+            "responsive-layout.desktop#juegoMundial",
+           
+
             "responsive-layout.desktop#bannerLanding-mundial-productos",
             "responsive-layout.tablet#landing-pilatos-mundial-banners",
             "responsive-layout.phone#bannerLanding-mundial-productos",
@@ -50,6 +53,13 @@
         ]
    
     }, 
+    "responsive-layout.desktop#juegoMundial":{
+        "children":[
+            "rich-text#memorama-text-seo-h1",
+            "rich-text#memorama-parrafo-seo-h1-mobile",
+            "flex-layout.row#form-juego-mundial"
+        ]
+    },
 
      "responsive-layout.tablet#landing-pilatos-mundial-banners":{
         "children":[
@@ -72,6 +82,7 @@
 "responsive-layout.desktop#bannerLanding-mundial":{
     "children":[
         "image#bannerLanding-mundial"
+
     ]
 },
 "responsive-layout.tablet#bannerLanding-mundial":{

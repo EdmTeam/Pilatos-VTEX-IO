@@ -2,6 +2,7 @@
     "responsive-layout.phone#bannerLanding-mundial-productos":{
         "children":[
             "image#landing-pilatos-mundialMobi",
+            "flex-layout.row#juegoMundialMobi",
             "flex-layout.row#landing-pilatos-mundial-banners-2-mobi",
             "flex-layout.row#landing-pilatos-mundial-banners-3-mobi"
         ]  
@@ -11,6 +12,15 @@
         "src": "/arquivos/banner-landing-mundial-mobile.jpg"
         
       }
+    },
+
+    "flex-layout.row#juegoMundialMobi": {
+        "children": [
+            "rich-text#memorama-text-seo-h1",
+            "rich-text#memorama-parrafo-seo-h1-mobile",
+            "flex-layout.row#form-juego-mundial"
+
+        ]
     },
 
     // productos 
