@@ -41,7 +41,7 @@
 
 "flex-layout.col#banner-sostenibleMarcas":{
     "children":[
-        "flex-layout.row#videoSostenible",
+      //  "flex-layout.row#videoSostenible",
 
         "responsive-layout.desktop#sostenibleMarcas-banners",
         //"responsive-layout.tablet#sostenibleMarcas-banners",

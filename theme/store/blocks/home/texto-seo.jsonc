@@ -12,5 +12,15 @@
             "font": "t-heading-5",
             "blockClass": "texto-seo-home"
         }
+    },
+
+    "rich-text#h1-pilatoshome": {
+        "props": {
+            "text": "# PILATOS",
+            "blockClass": "departmentTitle-Home",
+            "textPosition": "CENTER",
+            "textAlignment": "CENTER"
+        }
+    
     }
 }

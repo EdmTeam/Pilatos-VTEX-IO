@@ -1086,6 +1086,14 @@
   margin: .3rem 0 0 0;
 }
 
+.headingLevel1--departmentTitle-Home{
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 28px;
+  color: rgba(0, 0, 0, .2);
+  margin: .3rem 0 0 0;
+}
+
 .container--departmentDescription{
   width: 88%;
   margin: 0 auto;
