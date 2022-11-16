@@ -1,0 +1,256 @@
+{
+    "store.custom#landing-tuCuota": {
+      "blocks": [
+        "rich-text#Landing-tuCuota-marca-bread-crumb",
+        "rich-text#Landing-tuCuota-marca-title",
+        "responsive-layout.desktop#bannerstuCuota",
+        "responsive-layout.tablet#bannerstuCuota",
+        "responsive-layout.phone#bannerstuCuota",
+        "flex-layout.row#most-viewed",
+        "rich-text#seoTuCuota"      
+      ]
+    },
+
+    // Bread-crumb y Title
+    "rich-text#Landing-tuCuota-marca-bread-crumb": {
+      "props": {
+          "text": "[Home](/) / [**Tu Cuota**](/tu-cuota)",
+          "blockClass": "departmentBreadCrumb"
+  
+      }
+  },
+  "rich-text#Landing-tuCuota-marca-title": {
+      "props": {
+          "text": "# Landing Tu Cuota",
+          "blockClass": "departmentTitle"
+      }
+  
+  },
+    
+// banner desk
+    "responsive-layout.desktop#bannerstuCuota":{
+      "children":[
+        "flex-layout.row#bannerTuCuotaLanding"
+      ]
+
+    },
+
+    "responsive-layout.tablet#bannerstuCuota":{
+      "children":[
+        "flex-layout.row#bannerTuCuotaLanding"
+      ]
+
+    },
+
+    "flex-layout.row#bannerTuCuotaLanding":{
+      "children": [
+        "flex-layout.col#bannerTuCuotaLanding"
+
+      ]     
+
+    },
+
+    "flex-layout.col#bannerTuCuotaLanding":{
+      "children": [
+        "image#TuCuotaBannerDesk",
+        "image#TuCuotaPaso1-Desk",
+        "image#TuCuotaPaso2-Desk",
+        "image#TuCuotaPaso3-Desk",
+        "image#TuCuotaPaso4-Desk",
+        "image#TuCuotaPaso5-Desk",
+        "image#TuCuotaPaso6-Desk",
+        "image#TuCuotaPaso7-Desk",
+        "image#TuCuotaPaso8-Desk",
+        "image#TuCuotaPaso9-Desk"
+      ]
+    },
+
+// banner tu cuota desk 
+
+"image#TuCuotaBannerDesk": {
+  "props": {
+    "src": "/arquivos/Pilatos-TuCuota-BannerDesktopLanding.jpg"
+    
+  }
+},
+
+"image#TuCuotaPaso1-Desk": {
+  "props": {
+    "src": "/arquivos/Pilatos-TuCuota-BannerDesktopLanding1.jpg"
+    
+  }
+},
+
+"image#TuCuotaPaso2-Desk": {
+  "props": {
+    "src": "/arquivos/Pilatos-TuCuota-BannerDesktopLanding2.jpg"
+    
+  }
+},
+
+"image#TuCuotaPaso3-Desk": {
+  "props": {
+    "src": "/arquivos/Pilatos-TuCuota-BannerDesktopLanding3.jpg"
+    
+  }
+},
+
+"image#TuCuotaPaso4-Desk": {
+  "props": {
+    "src": "/arquivos/Pilatos-TuCuota-BannerDesktopLanding4.jpg"
+    
+  }
+},
+
+"image#TuCuotaPaso5-Desk": {
+  "props": {
+    "src": "/arquivos/Pilatos-TuCuota-BannerDesktopLanding5.jpg"
+    
+  }
+},
+
+"image#TuCuotaPaso6-Desk": {
+  "props": {
+    "src": "/arquivos/Pilatos-TuCuota-BannerDesktopLanding6.jpg"
+    
+  }
+},
+
+"image#TuCuotaPaso7-Desk": {
+  "props": {
+    "src": "/arquivos/Pilatos-TuCuota-BannerDesktopLanding7.jpg"
+    
+  }
+},
+
+"image#TuCuotaPaso8-Desk": {
+  "props": {
+    "src": "/arquivos/Pilatos-TuCuota-BannerDesktopLanding8.jpg"
+    
+  }
+},
+
+"image#TuCuotaPaso9-Desk": {
+  "props": {
+    "src": "/arquivos/Pilatos-TuCuota-BannerDesktopLanding9.jpg"
+    
+  }
+},
+
+// MOBILE BANNER 
+
+"responsive-layout.phone#bannerstuCuota":{
+  "children":[
+    "flex-layout.row#bannerTuCuotaLanding-mobi"
+  ]
+
+},
+
+"flex-layout.row#bannerTuCuotaLanding-mobi":{
+  "children": [
+    "flex-layout.col#bannerTuCuotaLanding-mobi"
+
+  ]     
+
+},
+
+"flex-layout.col#bannerTuCuotaLanding-mobi":{
+  "children": [
+    "image#TuCuotaBannerDesk-mobi",
+    "image#TuCuotaPaso1-mobi",
+    "image#TuCuotaPaso2-mobi",
+    "image#TuCuotaPaso3-mobi",
+    "image#TuCuotaPaso4-mobi",
+    "image#TuCuotaPaso5-mobi",
+    "image#TuCuotaPaso6-mobi",
+    "image#TuCuotaPaso7-mobi",
+    "image#TuCuotaPaso8-mobi",
+    "image#TuCuotaPaso9-mobi"
+  ]
+},
+
+// banner tu cuota mobi 
+
+"image#TuCuotaBannerDesk-mobi": {
+"props": {
+"src": "/arquivos/Pilatos-TuCuota-BannerMobileLanding.jpg"
+
+}
+},
+
+"image#TuCuotaPaso1-mobi": {
+"props": {
+"src": "/arquivos/Pilatos-TuCuota-BannerMobileLanding1.jpg"
+
+}
+},
+
+"image#TuCuotaPaso2-mobi": {
+"props": {
+"src": "/arquivos/Pilatos-TuCuota-BannerMobileLanding2.jpg"
+
+}
+},
+
+"image#TuCuotaPaso3-mobi": {
+"props": {
+"src": "/arquivos/Pilatos-TuCuota-BannerMobileLanding3.jpg"
+
+}
+},
+
+"image#TuCuotaPaso4-mobi": {
+"props": {
+"src": "/arquivos/Pilatos-TuCuota-BannerMobileLanding4.jpg"
+
+}
+},
+
+"image#TuCuotaPaso5-mobi": {
+"props": {
+"src": "/arquivos/Pilatos-TuCuota-BannerMobileLanding5.jpg"
+
+}
+},
+
+"image#TuCuotaPaso6-mobi": {
+"props": {
+"src": "/arquivos/Pilatos-TuCuota-BannerMobileLanding6.jpg"
+
+}
+},
+
+"image#TuCuotaPaso7-mobi": {
+"props": {
+"src": "/arquivos/Pilatos-TuCuota-BannerMobileLanding7.jpg"
+
+}
+},
+
+"image#TuCuotaPaso8-mobi": {
+"props": {
+"src": "/arquivos/Pilatos-TuCuota-BannerMobileLanding8.jpg"
+
+}
+},
+
+"image#TuCuotaPaso9-mobi": {
+"props": {
+"src": "/arquivos/Pilatos-TuCuota-BannerMobileLanding9.jpg"
+
+}
+},
+
+    // SEO TU CUOTA
+    "rich-text#seoTuCuota": {
+      "props": {
+        "text": " Aquí va el texto SEO para Tu Cuota Aquí va el texto SEO para Tu Cuota ",
+        "textPosition": "CENTER",
+        "textAlignment": "CENTER",
+        "blockClass": "departmentDescription"
+      }
+
+
+    }
+
+  }
