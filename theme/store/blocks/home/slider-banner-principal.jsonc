@@ -22,6 +22,7 @@
     "list-context.image-list#banner-principal": {
         "children": ["slider-layout#banner-principal-desktop"],
         "props": {
+         
             "height": 600,
             "images": [
                 {
@@ -30,9 +31,9 @@
                     "description": "Banner principal"
                 }
             ]
+            
         }
     },
-
     "responsive-layout.phone#banner-principal": {
         "children":[
             "image#banner-mobile-1-img-1"
@@ -74,10 +75,16 @@
     "slider-layout#banner-principal-desktop": {
         "props": {
             "blockClass": "contentBanner",
+          
             "itemsPerPage": {
                 "desktop": 1,
                 "tablet": 1,
                 "phone": 1
+            },
+            "autoplay": {
+                    "timeout": 6000,
+                    "stopOnHover": true
+
             },
             "infinite": true,
             "showNavigationArrows": "always",

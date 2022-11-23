@@ -5,7 +5,7 @@
       "stack-layout#prodsum",
       "vtex.product-summary:product-summary-brand",
       "vtex.product-summary:product-summary-name",
-      "flex-layout.row#price",
+            "flex-layout.row#price",
       "vtex.product-summary:product-summary-space",
       "flex-layout.row#sku-btn"
     ],
@@ -13,6 +13,7 @@
       "blockClass": "shelfSlide"
     }
   },
+
 
   "flex-layout.row#price": {
     "children": [
@@ -72,6 +73,7 @@
   //   }
   // },
 
+
   "pilatos21.product-summary:product-summary-sku-selector#color": {
     "props": {
       "showValueForVariation ": "image",
@@ -94,6 +96,8 @@
       "initialSelection": "complete"
     }
   },
+
+
 
   "flex-layout.col#add-to-cart": {
     "children": [
