@@ -364,6 +364,16 @@
     order: 1;
 }
 
+ /*
+ link variation linio integracion 
+ .skuSelectorSubcontainer--lin_variation-required {
+    background: red;
+    display: none;
+}
+*/
+
+
+
 .skuSelectorSubcontainer--talla{
     order: 2;
 }

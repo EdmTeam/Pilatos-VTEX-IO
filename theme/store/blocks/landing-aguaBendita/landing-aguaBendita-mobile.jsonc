@@ -1,0 +1,142 @@
+{
+    "responsive-layout.phone#bannerAguaBendita":{
+        "children":[
+            "flex-layout.row#bannerAguaBenditaMobi"
+          //  "search-result-layout.mobile#aguabendita"
+
+        ]
+    },
+
+    "flex-layout.row#bannerAguaBenditaMobi":{
+        "children": [
+            "flex-layout.col#bannerAguaBenditaMobi"
+        ]
+    },
+
+    "flex-layout.col#bannerAguaBenditaMobi":{
+        "children": [
+            "image#bannerAguaBenditaMobi",
+            "image#bannerAguaBenditaMobi-cat1",
+            "image#bannerAguaBenditaMobi-cat2",
+            "image#bannerAguaBenditaMobi-cat3",
+            "flex-layout.row#most-viewed",
+            "image#bannerAguaBenditaMobi-cat4",
+            "image#bannerAguaBenditaMobi-cat5"
+        ]
+    }, 
+
+// vitrina de producto
+
+"search-result-layout.mobile#aguabendita": {
+    "children": [
+        "search-title.v2",
+        "flex-layout.row#product-count-mobile",
+        "flex-layout.row#search-info-mobile",
+        "flex-layout.row#fetch-previous",
+        "flex-layout.row#content-mobile",
+        "flex-layout.row#fetch-more",
+        "flex-layout.row#spacer"
+    ],
+    "props": {
+        "showProductsCount": true,
+        "hiddenFacets": {
+            "specificationFilters": {
+                "hiddenFilters": [
+                    {
+                        "name": "Brand"
+                    },
+                    {
+                        "name": "Department"
+                    },
+                    {
+                        "name": "Category"
+                    },
+                    {
+                        "name": "Subcategory"
+                    },
+                    {
+                        "name": "Material"
+                    },
+                    {
+                        "name": "Alto (Cm)"
+                    },
+                    {
+                        "name": "Ancho (Cm)"
+                    },
+                    {
+                        "name": "Breve Descripción"
+                    },
+                    {
+                        "name": "Descripción"
+                    },
+                    {
+                        "name": "Material"
+                    }
+                ]
+            }
+        },
+        "__unstableProductOriginVtex": true,
+        "mobileLayout": {
+            "mode1": "small",
+            "mode2": "normal"
+        }
+    }
+},
+
+    // archivos mobile
+
+    "image#bannerAguaBenditaMobi": {
+      "props": {
+        "src": "/arquivos/Mobile_AB.jpg",
+        "link": {
+            "url": ""
+        }
+      }
+    },
+
+    "image#bannerAguaBenditaMobi-cat1": {
+        "props": {
+          "src": "/arquivos/Mobile_Readytowear.jpg",
+          "link": {
+              "url": ""
+          }
+        }
+      },
+
+      "image#bannerAguaBenditaMobi-cat2": {
+        "props": {
+          "src": "/arquivos/Mobile_Swimwear.jpg",
+          "link": {
+              "url": ""
+          }
+        }
+      },
+
+      "image#bannerAguaBenditaMobi-cat3": {
+        "props": {
+          "src": "/arquivos/Mobile_Accesorios.jpg",
+          "link": {
+              "url": ""
+          }
+        }
+      },
+
+      "image#bannerAguaBenditaMobi-cat4": {
+        "props": {
+          "src": "/arquivos/Mobile_Kids.jpg",
+          "link": {
+              "url": ""
+          }
+        }
+      },
+
+      "image#bannerAguaBenditaMobi-cat5": {
+        "props": {
+          "src": "/arquivos/Mobile_Men.jpg",
+          "link": {
+              "url": ""
+          }
+        }
+      }
+
+}
