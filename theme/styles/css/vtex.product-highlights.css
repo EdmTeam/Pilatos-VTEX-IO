@@ -19,25 +19,37 @@
     height: 40px;
     background-size: contain;
     background-repeat: no-repeat;
-   background-image: url(/arquivos/Pilatos-CyberDays-Flag.jpg); 
+   background-image: url(/arquivos/Pilatos-BlackFriday-Flag.jpg); 
     display: block;
 } */
+
+.productHighlightWrapper [data-highlight-id="1341"]{
+    width: 26px;
+    height: 70px;
+    background-size: contain;
+    background-repeat: no-repeat;
+   background-image: url(/arquivos/Pilatos-BlackFriday-Flag.jpg); 
+    display: block;
+}
+
+
+
+/* FLAG DESACTIVADOS POR EL BLACK BANCOLOMBIA*/
 .productHighlightWrapper [data-highlight-id="1219"]{
     width: 40px;
     height: 40px;
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url(/arquivos/BTS-FLAGS-VERD-KIPLING.png);
-    display: block;
+    display: none;
 }
-
 .productHighlightWrapper [data-highlight-id="1343"]{
     width: 40px;
     height: 40px;
     background-size: contain;
     background-repeat: no-repeat;
    background-image: url(/arquivos/Flagmundial.jpg); 
-    display: block;
+    display: none;
     border-radius: 50%;
 
 }
@@ -49,7 +61,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url(/arquivos/Pilatos-Camuflaje-Flag.png);
-    display: block;
+    display: none;
 }
 
 .productHighlightWrapper [data-highlight-id="1242"]{
@@ -58,7 +70,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url(/arquivos/Pilatos-Sostenible-Flag2.png);
-    display: block;
+    display: none;
 }
 
 .productHighlightWrapper [data-highlight-id="1263"]{
@@ -67,7 +79,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url(/arquivos/Pilatos-AnimalPrint-Flag.png);
-    display: block;
+    display: none;
 }
 
 .productHighlightWrapper [data-highlight-id="1260"]{
@@ -76,7 +88,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url(/arquivos/flag-pride.png);
-    display: block;
+    display: none;
     border-radius: 50%;
 }
 
