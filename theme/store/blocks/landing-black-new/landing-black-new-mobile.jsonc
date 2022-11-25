@@ -1,0 +1,37 @@
+{
+    "responsive-layout.phone#bannerblackNew":{
+        "children":[
+            "flex-layout.row#bannerblackNewMobi"
+
+        ]
+    },
+
+    "flex-layout.row#bannerblackNewMobi":{
+        "children": [
+            "flex-layout.col#bannerblackNewMobi"
+        ]
+    },
+
+    "flex-layout.col#bannerblackNewMobi":{
+        "children": [
+          "image#bannerMobbiBlack",
+          "image#bannerblackNewHombre",
+          "image#bannerblackNewMujer",
+          "image#blackNewSecunAgua",
+          "image#blackNewSecunDisa"
+
+        ]
+    }, 
+
+    // archivos mobile
+
+    "image#bannerMobbiBlack": {
+      "props": {
+        "src": "/arquivos/Pilatos-BlackDays-BannerMobileLandingT.jpg",
+        "link": {
+            "url": ""
+        }
+      }
+    }
+
+}
