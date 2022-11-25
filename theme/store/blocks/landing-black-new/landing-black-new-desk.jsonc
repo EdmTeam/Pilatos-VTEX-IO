@@ -1,0 +1,180 @@
+
+        {
+            "store.custom#landing-blackNew": {
+                "blocks":[
+                    
+                    "flex-layout.row#bannerblackNew"
+                ],
+                "props":{
+                    "blockClass": "contentStoreCustom"
+                }
+
+            },
+
+            "flex-layout.row#bannerblackNew":{
+                "children":[
+                    "flex-layout.col#bannerblackNew"
+                ],
+                "props":{
+                    "blockClass": "contentSearch"
+                }
+            
+            },
+
+            "flex-layout.col#bannerblackNew":{
+                "children": [
+                    "rich-text#landing-blackNew",
+                    "rich-text#landing-blackNew-title",
+                    "responsive-layout.desktop#bannerblackNew",
+                    "responsive-layout.desktop#bannerblackNewSecundario",
+                    "responsive-layout.tablet#bannerblackNew",
+                    "responsive-layout.tablet#bannerblackNewSecundario",
+                  "responsive-layout.phone#bannerblackNew",
+                    "search-result-layout.customQuery#landing-toda-la-tienda"
+    
+                ]
+            },
+
+     // Bread-crumb y Title
+        "rich-text#landing-blackNew": {
+            "props": {
+                "text": "[Home](/) / [**Blackfriday**](/blackfriday)",
+                "blockClass": "departmentBreadCrumb"
+                        }
+                            },
+        "rich-text#landing-blackNew-title": {
+            "props": {
+                "text": "# Black Friday Pilatos ",
+                "blockClass": "departmentTitle"
+                        }
+        },
+
+    // BANNER PRINCIPAL DESK Y TABLET
+    "responsive-layout.desktop#bannerblackNew":{
+       "children":[
+        "image#bannerblackNew-desk"
+       ]
+    },
+
+    "responsive-layout.tablet#bannerblackNew":{
+        "children":[
+         "image#bannerblackNew-desk"
+        ]
+     },
+
+     // BANNER SECUNDARIOS 
+
+     "responsive-layout.desktop#bannerblackNewSecundario":{
+        "children":[
+          "flex-layout.row#bannerblackNewFooter",
+            "flex-layout.row#bannerblackAguaDi"
+        ]
+     },
+
+     "responsive-layout.tablet#bannerblackNewSecundario":{
+        "children":[
+          "flex-layout.row#bannerblackNewFooter",
+          "flex-layout.row#bannerblackAguaDi"
+
+        ]
+
+     },
+
+  
+     "flex-layout.row#bannerblackNewFooter":{
+        "children": [
+            "flex-layout.col#bannerblackNewHombre",
+            "flex-layout.col#bannerblackNewMujer"
+        ],
+        "props":{
+            "blockClass":"contentBanners-black"
+        }
+     },
+
+     "flex-layout.row#bannerblackAguaDi":{
+      "children": [
+          "flex-layout.col#blackNewSecunAgua",
+          "flex-layout.col#blackNewSecunDisa"
+      ],
+      "props":{
+          "blockClass":"contentBanners-black"
+      }
+   },
+
+
+     "flex-layout.col#bannerblackNewHombre":{
+        "children": [
+            "image#bannerblackNewHombre"
+        ]
+     },
+     "flex-layout.col#bannerblackNewMujer":{
+        "children": [
+            "image#bannerblackNewMujer"
+        ]
+     },
+
+     "flex-layout.col#blackNewSecunAgua":{
+      "children": [
+          "image#blackNewSecunAgua"
+      ]
+   },
+   "flex-layout.col#blackNewSecunDisa":{
+      "children": [
+          "image#blackNewSecunDisa"
+      ]
+   },
+
+    // ARCHIVOS DE IMAGENES 
+    "image#bannerblackNew-desk": {
+      "props": {
+        "src": "/arquivos/Pilatos-BlackDays-BannerDesktopLandingT.jpg"
+          }
+    },
+
+    "image#blackNewSecunAgua": {
+        "props": {
+          "src": "/arquivos/Pilatos-BlackDays-BannerMobileLandingAguaBendita2.jpg",
+          "link": {
+            "url": "/agua-bendita"
+          },
+          "blockClass": "departmentBannerImg-mundial"
+        }
+      },
+
+    "image#blackNewSecunDisa": {
+          "props": {
+            "src": "/arquivos/Pilatos-BlackDays-BannerDisandinaMobileT.jpg",
+            "link": {
+              "url": "/disandina"
+            },
+            "blockClass": "departmentBannerImg-mundial"
+          }
+        },
+
+   
+          "image#bannerblackNewHombre": {
+                "props": {
+                  "src": "/arquivos/Pilatos-BlackDays-BannerHombreMobile.jpg",
+                  "link": {
+                    "url": "/hombre"
+                  },
+                  "blockClass": "departmentBannerImg-mundial"
+                }
+              },
+      
+          "image#bannerblackNewMujer": {
+                  "props": {
+                    "src": "/arquivos/Pilatos-BlackDays-BannerMujerMobile.jpg",
+                    "link": {
+                      "url": "/mujer"
+                    },
+                    "blockClass": "departmentBannerImg-mundial"
+            
+                    
+                  }
+                }
+
+          
+
+          
+        }
