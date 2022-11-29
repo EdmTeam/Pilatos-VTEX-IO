@@ -1,0 +1,232 @@
+{
+    "store.custom#landingBeawear": {
+        "blocks": [
+            "flex-layout.row#bannerBeawear"
+        ],
+        "props": {
+            "blockClass": "contentStoreCustom"
+        }
+    },
+    "flex-layout.row#bannerBeawear": {
+        "children": [
+            "flex-layout.col#bannerBeawear"
+        ],
+        "props": {
+            "blockClass": "contentSearch"
+        }
+    },
+    "flex-layout.col#bannerBeawear": {
+        "children": [
+            "rich-text#landing-Beawear",
+            "rich-text#landing-Beawear-title",
+            "responsive-layout.desktop#bannerBeachwear",
+            "responsive-layout.desktop#generoBeachwear",
+            "responsive-layout.tablet#bannerBeachwear",
+            "responsive-layout.tablet#generoBeachwear",
+            "responsive-layout.phone#BeachWearMobile",
+            "flex-layout.row#brandsBeachwear",
+            "responsive-layout.phone#BeachWearMobile-secundario",
+            "responsive-layout.desktop#categoriaBeachwear",
+            "responsive-layout.desktop#gafasBeachwear",
+            "responsive-layout.desktop#playaBeachwear",
+            "responsive-layout.tablet#categoriaBeachwear",
+            "responsive-layout.tablet#gafasBeachwear",
+            "responsive-layout.tablet#playaBeachwear",
+            "search-result-layout.customQuery#landing-toda-la-tienda"
+ 
+        ]
+    },
+    // Bread-crumb y Title
+    "rich-text#landing-Beawear": {
+        "props": {
+            "text": "[Home](/) / [**Beachwear**](/beachwear)",
+            "blockClass": "departmentBreadCrumb"
+        }
+    },
+    "rich-text#landing-Beawear-title": {
+        "props": {
+            "text": "# Beachwear Pilatos",
+            "blockClass": "departmentTitle"
+        }
+    },
+    // banner escritorio estructura
+    "responsive-layout.desktop#bannerBeachwear": {
+        "children": [
+            "image#bannerBeachwear"
+        ]
+    },
+    "responsive-layout.tablet#bannerBeachwear": {
+        "children": [
+            "image#bannerBeachwear"
+        ]
+    },
+    // banner genero y categorias 
+    "responsive-layout.desktop#generoBeachwear": {
+        "children": [
+            "flex-layout.row#generoBeachwear"
+        ]
+    },
+
+    "responsive-layout.tablet#generoBeachwear": {
+        "children": [
+            "flex-layout.row#generoBeachwear"
+        ]
+    },
+    "flex-layout.row#generoBeachwear": {
+        "children": [
+            "image#bannerBeachwearHombre",
+            "image#bannerBeachwearMujer"
+        ]
+    },
+ 
+    "responsive-layout.desktop#categoriaBeachwear": {
+        "children": [
+            "flex-layout.row#categoriaBeachwear"
+        ]
+    },
+
+    "responsive-layout.tablet#categoriaBeachwear": {
+        "children": [
+            "flex-layout.row#categoriaBeachwear"
+        ]
+    },
+    "flex-layout.row#categoriaBeachwear": {
+        "children": [
+            "image#bannerBeachwearcat-1",
+            "image#bannerBeachwearcat-2",
+            "image#bannerBeachwearcat-3",
+            "image#bannerBeachwearcat-4"
+        ]
+    },
+
+    "responsive-layout.desktop#gafasBeachwear": {
+        "children": [
+            "flex-layout.row#gafasBeachwear"
+        ]
+    },
+
+    "responsive-layout.tablet#gafasBeachwear": {
+        "children": [
+            "flex-layout.row#gafasBeachwear"
+        ]
+    },
+
+    "flex-layout.row#gafasBeachwear": {
+        "children": [
+            "image#gafasBeachwear"
+        ]
+    },
+
+    "responsive-layout.desktop#playaBeachwear": {
+        "children": [
+            "flex-layout.row#playaBeachwear"
+        ]
+    },
+    "responsive-layout.tablet#playaBeachwear": {
+        "children": [
+            "flex-layout.row#playaBeachwear"
+        ]
+    },
+    "flex-layout.row#playaBeachwear": {
+        "children": [
+            "image#playaBeachwear",
+            "image#gorrasSombreros"
+        ]
+    },
+
+    // imagen 
+    "image#bannerBeachwear": {
+        "props": {
+            "src": "/arquivos/00-escritorio-beachwear.jpg"
+        }
+    },
+    "image#bannerBeachwearHombre": {
+        "props": {
+            "src": "/arquivos/01-hombre-beachwear.jpg",
+            "link": {
+                "url": "/"
+            },
+        "blockClass": "departmentBannerImg-mundial"
+      }
+    },
+    "image#bannerBeachwearMujer": {
+        "props": {
+            "src": "/arquivos/02-mujer-beachwear.jpg",
+            "link": {
+                "url": "/"
+            },
+        "blockClass": "departmentBannerImg-mundial"
+      }
+    },
+
+    "image#bannerBeachwearcat-1": {
+        "props": {
+            "src": "/arquivos/03-vestido-de-bano.jpg",
+            "link": {
+                "url": "/"
+            },
+        "blockClass": "departmentBannerImg-mundial"
+      }
+    },
+
+    "image#bannerBeachwearcat-2": {
+        "props": {
+            "src": "/arquivos/03-pantaloneta.jpg",
+            "link": {
+                "url": "/"
+            },
+        "blockClass": "departmentBannerImg-mundial"
+      }
+    },
+
+    "image#bannerBeachwearcat-3": {
+        "props": {
+            "src": "/arquivos/03-accesorios.jpg",
+            "link": {
+                "url": "/"
+            },
+        "blockClass": "departmentBannerImg-mundial"
+      }
+    },
+
+    "image#bannerBeachwearcat-4": {
+        "props": {
+            "src": "/arquivos/03-Sandalias.jpg",
+            "link": {
+                "url": "/"
+            },
+        "blockClass": "departmentBannerImg-mundial"
+      }
+    },
+
+    "image#gafasBeachwear": {
+        "props": {
+            "src": "/arquivos/04-gafas-escritorio-beachwear.jpg",
+            "link": {
+                "url": "/"
+            },
+        "blockClass": "departmentBannerImg-mundial"
+      }
+    },
+
+    "image#playaBeachwear": {
+        "props": {
+            "src": "/arquivos/05-ropa-de-playa.jpg",
+            "link": {
+                "url": "/"
+            },
+        "blockClass": "departmentBannerImg-mundial"
+      }
+    },
+
+    "image#gorrasSombreros": {
+        "props": {
+            "src": "/arquivos/06-gorras-sombreros.jpg",
+            "link": {
+                "url": "/"
+            },
+        "blockClass": "departmentBannerImg-mundial"
+      }
+    }
+    
+}

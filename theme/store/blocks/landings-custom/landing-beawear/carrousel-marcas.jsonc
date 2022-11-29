@@ -1,0 +1,135 @@
+{
+    "flex-layout.row#brandsBeachwear": {
+      "children": [
+        "flex-layout.col#brandsBeachwear"
+      ],
+      "props": {
+        "blockClass": "contentBrandsSlide"
+      }
+    },
+
+    "flex-layout.col#brandsBeachwear":{
+      "children":[
+        "rich-text#brandsBeachwear-title",
+        "slider-layout#brandsBeachwear"
+      ]
+    },
+
+    "rich-text#brandsBeachwear-title": {
+      "props":{
+          "text": "**Comprar por marca**",
+          "blockClass": "titlePromotionalBanners"
+      }
+    },
+
+    "slider-layout#brandsBeachwear": {
+      "props": {
+        "blockClass": [
+          "contentSlide", 
+          "contentSlideBrand"
+        ],
+        "itemsPerPage": {
+          "desktop": 9,
+          "tablet": 6,
+          "phone": 3
+        },
+        "showPaginationDots":"never"
+        // "autoplay": {
+        //   "timeout": 5000,
+        //   "stopOnHover": false
+        // }
+      }, 
+      "children": [
+        "image#brandsBeachwear-1",
+        "image#brandsBeachwear-2",
+        "image#brandsBeachwear-3",
+        "image#brandsBeachwear-4",
+        "image#brandsBeachwear-5",
+        "image#brandsBeachwear-6",
+        "image#brandsBeachwear-7",
+        "image#brandsBeachwear-8",
+        "image#brandsBeachwear-9"
+      ]
+    },
+
+    "image#brandsBeachwear-1": {
+        "props": {
+            "src": "/arquivos/PilatosLogo.png",
+            "link": {
+                "url": "/pilatos"
+            }
+        }
+    },
+
+    "image#brandsBeachwear-2": {
+      "props": {
+          "src": "/arquivos/AguaBendita-Logo.jpg",
+          "link": {
+              "url": "/agua-bendita"
+          }
+      }
+    },
+
+    "image#brandsBeachwear-3": {
+      "props": {
+        "src": "/arquivos/Logo_Ray_Ban.png",
+        "link": {
+            "url": "/ray-ban"
+        }
+    }
+    },
+
+    "image#brandsBeachwear-4": {
+        "props": {
+            "src": "/arquivos/Logo_Quiksilver.png",
+            "link": {
+                "url": "/quiksilver"
+            }
+        }
+    },
+
+    "image#brandsBeachwear-5": {
+        "props": {
+            "src": "/arquivos/Logo_Superdy.png",
+            "link": {
+                "url": "/superdry"
+            }
+          }
+    },
+
+    "image#brandsBeachwear-6": {
+        "props": {
+            "src": "/arquivos/Logo_Dzone.png",
+            "link": {
+                "url": "/dzone"
+            }
+        }
+    },
+
+    "image#brandsBeachwear-7": {
+        "props": {
+            "src": "/arquivos/Logo_New_Balance.png",
+            "link": {
+                "url": "/new-balance"
+            }
+        }
+    },
+
+    "image#brandsBeachwear-8": {
+        "props": {
+            "src": "/arquivos/Logo_Oakley.png",
+            "link": {
+                "url": "/oakley"
+            }
+        }
+    },
+
+    "image#brandsBeachwear-9": {
+      "props": {
+          "src": "/arquivos/Logo_Le Coq_Sportif.png",
+          "link": {
+              "url": "/le-coq-sportif"
+          }
+      }
+    }
+  }

@@ -1,0 +1,50 @@
+{
+    "responsive-layout.phone#BeachWearMobile":{
+        "children":[
+            "flex-layout.row#bannerBeachWear"
+        ]
+    },
+
+    "responsive-layout.phone#BeachWearMobile-secundario":{
+        "children":[
+            "image#bannerBeachwearcat-1",
+            "image#bannerBeachwearcat-2",
+            "image#bannerBeachwearcat-3",
+            "image#bannerBeachwearcat-4",
+            "image#bannerGafasMobile",
+            "image#playaBeachwear",
+            "image#gorrasSombreros"
+
+        ]
+    },
+
+    "flex-layout.row#bannerBeachWear":{
+        "children": [
+            "image#bannerBeachWear-mobile",
+            "image#bannerBeachwearHombre",
+            "image#bannerBeachwearMujer"
+            
+        ]
+    },
+
+    // imagenes
+
+    "image#bannerBeachWear-mobile": {
+      "props": {
+        "src": "/arquivos/00-mobile-beachwear.jpg"
+        
+      }
+    },
+
+    "image#bannerGafasMobile": {
+      "props": {
+        "src": "/arquivos/04-gafas-mobile-beachwear.jpg",
+                "link": {
+            "url": "/"
+        },
+        "blockClass": "departmentBannerImg-mundial"
+
+    }
+    
+}
+}
