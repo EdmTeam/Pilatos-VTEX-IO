@@ -516,6 +516,11 @@ margin-top: 1%;
 .imageElementLink--departmentBannerImg-mundial{
     margin: 1%;
 }
+
+.imageElementLink--departmentBannerImg-Frenchie{
+    margin: 0 auto;
+    width: 50%;
+}
                    
 .imageElementLink--departmentBannerImg-mundial:hover{
     -webkit-filter: brightness(50%);

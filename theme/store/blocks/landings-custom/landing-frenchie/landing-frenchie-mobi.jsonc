@@ -1,0 +1,27 @@
+{
+    "responsive-layout.phone#bannerFrenchie": {
+        "children": [
+            "image#BannerFrenchie-mobile",
+            "image#bannerManifiesto-mobile",
+            "image#FrenchieMini",
+            "image#FrenchiePequena",
+            "image#footer-frenchidesk-mobile"
+        ]
+    },
+    //imagenes
+    "image#BannerFrenchie-mobile": {
+        "props": {
+            "src": "/arquivos/frenchie-landing-mobi.jpg"
+        }
+    },
+    "image#bannerManifiesto-mobile": {
+        "props": {
+            "src": "/arquivos/frenchie-manifiesto-mobi.jpg"
+        }
+    },
+    "image#footer-frenchidesk-mobile": {
+        "props": {
+            "src": "/arquivos/footer-frenchidesk.jpg"
+        }
+    }
+}
