@@ -1,0 +1,121 @@
+{
+    "store.custom#landing-frenchie": {
+        "blocks": [
+            "flex-layout.row#bannerFrenchie"
+        ],
+        "props": {
+            "blockClass": "contentStoreCustom"
+        }
+    },
+    "flex-layout.row#bannerFrenchie": {
+        "children": [
+            "flex-layout.col#bannerFrenchie"
+        ],
+        "props": {
+            "blockClass": "contentSearch"
+        }
+    },
+    "flex-layout.col#bannerFrenchie": {
+        "children": [
+            "rich-text#bannerFrenchie",
+            "rich-text#landing-Frenchie-title",
+            "responsive-layout.desktop#bannerFrenchie",
+            "responsive-layout.desktop#bannerFrenchieSecundario",
+            "responsive-layout.tablet#bannerFrenchie",
+            "responsive-layout.tablet#bannerFrenchieSecundario",
+            "responsive-layout.phone#bannerFrenchie",
+            "search-result-layout.customQuery#landing-toda-la-tienda"
+
+        ]
+    },
+    // Bread-crumb y Title
+    "rich-text#bannerFrenchie": {
+        "props": {
+            "text": "[Home](/) / [**Frenchie**](/frenchie)",
+            "blockClass": "departmentBreadCrumb"
+        }
+    },
+    "rich-text#landing-Frenchie-title": {
+        "props": {
+            "text": "# Frenchie Pilatos",
+            "blockClass": "departmentTitle"
+        }
+    },
+    // banner Frenchie
+    "responsive-layout.desktop#bannerFrenchie": {
+        "children": [
+            "image#bannerFrenchie",
+            "image#bannerManifiesto"
+        ]
+    },
+    "responsive-layout.tablet#bannerFrenchie": {
+        "children": [
+            "image#bannerFrenchie",
+            "image#bannerManifiesto"
+        ]
+    },
+    "flex-layout.col#footerFrenchie": {
+        "children": [
+            "image#footerFrenchie"
+        ],
+        "props": {
+            "blockClass": "departmentBannerImg-Frenchie"
+        }
+    },
+    "responsive-layout.desktop#bannerFrenchieSecundario": {
+        "children": [
+            "flex-layout.row#bannerFrenchieSecundario",
+            "flex-layout.col#footerFrenchie"
+        ]
+    },
+    "responsive-layout.tablet#bannerFrenchieSecundario": {
+        "children": [
+            "flex-layout.row#bannerFrenchieSecundario",
+            "flex-layout.col#footerFrenchie"
+        ]
+    },
+    "flex-layout.row#bannerFrenchieSecundario": {
+        "children": [
+            "image#FrenchieMini",
+            "image#FrenchiePequena"
+        ]
+    },
+    // imagen 
+    "image#bannerFrenchie": {
+        "props": {
+            "src": "/arquivos/frenchie-landing-desk.jpg"
+        }
+    },
+    "image#bannerManifiesto": {
+        "props": {
+            "src": "/arquivos/frenchie-manifiesto-desk.jpg"
+        }
+    },
+    "image#FrenchieMini": {
+        "props": {
+            "src": "/arquivos/billetera-mini-desk.jpg",
+            "link": {
+                "url": "/"
+            },
+            "blockClass": "departmentBannerImg-mundial"
+        }
+    },
+    "image#FrenchiePequena": {
+        "props": {
+            "src": "/arquivos/billetera-pequena-desk.jpg",
+            "link": {
+                "url": "/"
+            },
+            "blockClass": "departmentBannerImg-mundial"
+        }
+    },
+    "image#footerFrenchie": {
+        "props": {
+            "src": "/arquivos/footer-frenchidesk.jpg",
+            "link": {
+                "url": "/the-frenchie-co"
+            },
+            "blockClass": "departmentBannerImg-Frenchie"
+        }
+    }
+}
