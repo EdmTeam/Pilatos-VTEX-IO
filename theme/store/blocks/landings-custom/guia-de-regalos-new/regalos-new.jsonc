@@ -1,0 +1,105 @@
+{
+    "store.custom#regalos-new": {
+        "blocks": [
+            "flex-layout.row#bannerRegalosNew",
+            "search-result-layout.customQuery#landing-toda-la-tienda"
+
+        ],
+        "props": {
+            "blockClass": "contentStoreCustom"
+        }
+    },
+    "flex-layout.row#bannerRegalosNew": {
+        "children": [
+            "flex-layout.col#bannerRegalosNew"
+        ],
+        "props": {
+            "blockClass": "contentSearch"
+        }
+    },
+    "flex-layout.col#bannerRegalosNew": {
+        "children": [
+            "rich-text#landing-Beawear",
+            "rich-text#landing-Beawear-title",
+            "responsive-layout.desktop#bannerBeachwear",
+            "responsive-layout.mobile#bannerMobileRegalos",
+            "responsive-layout.desktop#generoBeachwear",
+            "responsive-layout.desktop#botonesRegalo",
+            "responsive-layout.mobile#botonesRegalo",
+            "flex-layout.row#lookGenero"
+        ]
+    },
+
+
+    "responsive-layout.desktop#botonesRegalo": {
+        "children": [
+            "flex-layout.row#botonesRegalosNew"
+            
+        ]
+        
+    },
+    "flex-layout.row#botonesRegalosNew": {
+        "children": [
+            "rich-text#botonesRegalo1",
+            "rich-text#botonesRegalo2",
+            "rich-text#botonesRegalo3",
+            "rich-text#botonesRegalo4"
+        ],
+        "props": {
+            "blockClass": "contentBotones"
+        }
+    },
+    "flex-layout.row#lookGenero": {
+        "children": [
+            "image#LookRegaloHombre",
+            "image#LookRegaloMujer"
+        ],
+        "props": {
+            "blockClass": "contentSearchLook"
+        }
+    },
+
+    "image#LookRegaloHombre": {
+        "props": {
+            "src": "/arquivos/Pilatos-GuiaRegalos-BannerLooksHombre.jpg",
+            "link": {
+                "url": "/"
+            },
+        "blockClass": "departmentBannerImg-mundial"
+      }
+    },
+    "image#LookRegaloMujer": {
+        "props": {
+            "src": "/arquivos/Pilatos-GuiaRegalos-BannerLooksMujer.jpg",
+            "link": {
+                "url": "/"
+            },
+        "blockClass": "departmentBannerImg-mundial"
+      }
+    },
+    // botones regalo 
+    "rich-text#botonesRegalo1": {
+        "props": {
+            "text": "[**Regalo Vestido**](/beachwear)",
+            "blockClass": "botonesGeneros"
+        }
+    },
+    "rich-text#botonesRegalo2": {
+        "props": {
+            "text": "[**Regalo Chaquetas**](/beachwear)",
+            "blockClass": "botonesGeneros"
+        }
+    },
+    "rich-text#botonesRegalo3": {
+        "props": {
+            "text": "[**Regalo Jeans**](/beachwear)",
+            "blockClass": "botonesGeneros"
+        }
+    },
+    "rich-text#botonesRegalo4": {
+        "props": {
+            "text": "[**Regalo Camisetas**](/beachwear)",
+            "blockClass": "botonesGeneros"
+        }
+    }
+}
