@@ -1,0 +1,52 @@
+{
+    "responsive-layout.mobile#bannerMobileRegalos": {
+        "children": [
+            "image#bannerMobileRegalos",
+            "image#bannerMobileRegalosHombre",
+            "image#bannerMobileRegalosMujer"
+          
+        ]
+    },
+    "image#bannerMobileRegalos": {
+        "props": {
+            "src": "/arquivos/Pilatos-GuiaRegalos-BannerMobileLanding.jpg"
+        }
+    },
+    "image#bannerMobileRegalosHombre": {
+        "props": {
+            "src": "/arquivos/Pilatos-GuiaRegalos-BannerRegalosHombreMobile.jpg",
+            "link": {
+                "url": "/hombre"
+            },
+            "blockClass": "departmentBannerImg-mundial"
+        }
+    },
+    "image#bannerMobileRegalosMujer": {
+        "props": {
+            "src": "/arquivos/Pilatos-GuiaRegalos-BannerRegalosMujerMobile.jpg",
+            "link": {
+                "url": "/mujer"
+            },
+            "blockClass": "departmentBannerImg-mundial"
+        }
+    },
+    "responsive-layout.mobile#botonesRegalo": {
+        "children": [
+            "flex-layout.row#botonesRegalosNewMobile"
+        ]
+    },
+
+    "flex-layout.row#botonesRegalosNewMobile": {
+        "children": [
+            "rich-text#botonesRegalo1",
+            "rich-text#botonesRegalo2",
+            "rich-text#botonesRegalo3",
+            "rich-text#botonesRegalo4"
+        ],
+        "props": {
+            "blockClass": "containerBotones"
+        }
+    }
+
+
+}
