@@ -681,7 +681,7 @@
 
 @media (max-width: 600px) {
   .wrapper--botonesGeneros {
-    margin: 5%;
+    margin: 5% !important;
     text-align: center;
   }
 }

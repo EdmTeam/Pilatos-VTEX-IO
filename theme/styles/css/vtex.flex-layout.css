@@ -2759,7 +2759,10 @@
   flex-wrap: wrap;
 }
 .flexRow--rowLandingOrderFromSostenible {
-  padding: 0 12% 2% 12%;;
+  /*padding: 0 12% 2% 12%;*/ 
+  width: 60%;
+  margin: 0 auto;
+
 }
 
 .flexRowContent--rowLandingOrderFromSostenible .stretchChildrenWidth:last-child {

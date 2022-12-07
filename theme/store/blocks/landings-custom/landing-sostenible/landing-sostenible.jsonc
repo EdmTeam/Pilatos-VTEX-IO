@@ -1,6 +1,9 @@
 {
     "store.custom#landingSostenible-aterrizaje":{
     "blocks":[
+        "rich-text#landing-Beawear",
+        "rich-text#landing-Beawear-title",
+        "flex-layout.row#videoSostenible",
         "flex-layout.row#banner-principalsostenible",
         "flex-layout.row#brands-sostenible",
         "__fold__",
@@ -41,7 +44,6 @@
 
 "flex-layout.col#banner-sostenibleMarcas":{
     "children":[
-      //  "flex-layout.row#videoSostenible",
 
         "responsive-layout.desktop#sostenibleMarcas-banners",
         //"responsive-layout.tablet#sostenibleMarcas-banners",
@@ -60,7 +62,7 @@
 },
 "iframe#videoSostenible": {
     "props": {
-        "src": "https://www.youtube.com/embed/qhh_VfEUO94",
+        "src": "https://www.youtube.com/embed/_56vAqJ3OAw",
         "allow": "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
         "blockClass": "orderFromChaosVideo"
     }
