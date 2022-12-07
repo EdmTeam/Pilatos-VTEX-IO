@@ -22,10 +22,12 @@
 
     "responsive-layout.desktop#landing-sostenible-banners":{
         "children":[
+           
             "flex-layout.col#landing-sostenible-principal",
             "flex-layout.row#landing-sostenible-principal-2"
         ]
     },
+
 
     "flex-layout.col#landing-sostenible-principal":{
         "children":[
