@@ -61,6 +61,7 @@
 
     .container--shelfSlide{
         margin: 0 1rem;
+        max-width: 100% !important;
     }
 }
 
@@ -135,3 +136,9 @@
     padding: 0 .5rem;
     background: #ffffff;
 }
+
+.imageNormal {
+    height: auto !important;
+  }
+
+

@@ -129,7 +129,12 @@
     "props": {
       "showBadge": false,
       "aspectRatio": "1:1",
-      "maxHeight": 300
+      "maxHeight": 500,
+      "height": 400,
+      "hoverImage":{
+        "criteria": "index",
+        "index": "2"
+      } 
     }
   },
   "flex-layout.row#add-to-list-btn":{
