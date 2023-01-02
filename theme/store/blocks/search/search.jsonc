@@ -31,8 +31,11 @@
       "flex-layout.row#banner-search",
       "flex-layout.row#bread-crumb",
       "flex-layout.row#search-info",
+      "flex-layout.row#search-info-desk-new",
+      //"flex-layout.row#fetch-previous",
       "flex-layout.row#result",
-      "flex-layout.row#spacer"
+      "flex-layout.row#spacer",
+      "rich-text#filtro-seo" 
         ],
     "props": {
       "preventRouteChange": true,
@@ -131,7 +134,7 @@
     "children": [
     // "flex-layout.row#search-info-mobile",
     
-    "flex-layout.col#filter",
+    // "flex-layout.col#filter",
       "flex-layout.col#content"
     ],
     "props": {
@@ -223,6 +226,8 @@
       "not-found"
     ]
   },
+
+
   "search-result-layout.mobile": {
     "children": [
       "flex-layout.row#bread-crumb",
@@ -310,6 +315,74 @@
       "preserveLayoutOnMobile": true
     }
   },
+
+  // FILTRO NEW / DIC 09 2022 DESKTOP 
+
+   "flex-layout.row#search-info-desk-new": {
+    "children": [
+     // "rich-text#order-by-desk",
+      "flex-layout.col#order-by-desk",
+      "flex-layout.col#filterMobile-desk"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "colSizing": "auto",
+      "colJustify": "around",
+      "blockClass": "search-in-deskNew"
+    }
+  },
+
+  "flex-layout.col#order-by-desk": {
+    "children": [
+      "order-by.v2"
+    ],
+    "props": {
+      "blockClass": "orderByMobileCol"
+    }
+  },
+
+  "rich-text#order-by-desk": {
+    "props": {
+      "text": "Ordenar por:",
+      "blockClass": "textOrderBy"
+
+    }
+  },
+
+  "flex-layout.col#filterMobile-desk": {
+    "children": [
+      // "filter-navigator.v3#filterMobile"
+      "drawer#filter-mobile-desk"
+   
+        ],
+    "props": {
+      "blockClass": "filterMobileCol"
+    }
+  },
+  
+  "drawer#filter-mobile-desk":{
+    "props": {
+      "blockClass": "filterDrawerDeskNew",
+      "slideDirection": "rightToLeft",
+      "maxWidth": 315,
+      "width": "90%"
+  },
+  "blocks": [
+    "drawer-header#filter-level-1-row-1"
+  ],
+  "children": [
+      "filter-navigator.v3#filterMobile"
+      
+     
+
+  ]
+  },
+
+
+
+  // fin filtro desk billy
+ 
+
   "flex-layout.row#search-info-mobile": {
     "children": [
      // "flex-layout.row#product-count-mobile",

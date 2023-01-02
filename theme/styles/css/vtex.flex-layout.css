@@ -63,6 +63,21 @@
   margin: .5rem auto !important;
 }
 
+@media only screen and (min-width: 2100px) {
+  .flexRow--search-in-deskNew{
+    top: 160px !important;
+  }
+  
+}
+
+@media only screen and (min-width: 1700px) and (max-width: 2000px) {
+  .flexRow--search-in-deskNew{
+    top: 5% !important;
+  }
+  
+}
+
+
 @media only screen and (min-width: 740px){
   .flexRowContent--contentItem1{
     padding: 1rem 6rem;
@@ -72,6 +87,15 @@
     width: 50%;
     margin: 0 auto;
   }
+
+  .flexRow--search-in-deskNew{
+    width: 30%;
+    margin: 0 auto;
+    position: sticky;
+    top: 4%;
+    z-index: 1;
+  }
+
 
   :global(.vtex-search-result-3-x-container--layout--searchResultMobile) .flexRowContent--contentBanners-2{
     margin: .5rem auto .8rem auto;
@@ -1250,6 +1274,18 @@
   width: 50% !important;
 }
 
+.flexRowContent--search-in-deskNew{
+  border: 1px solid #000000;
+  width: 88%;
+  margin: .8rem auto;
+  background: #ffffffeb;
+
+}
+
+.flexRowContent--search-in-deskNew .stretchChildrenWidth{
+  width: 50% !important;
+}
+
 .flexCol--filterMobileCol{
   border-right: 1px solid #000000;
 }
@@ -1306,6 +1342,11 @@
 
   .flexRowContent--search-in-mobile{
     width: 100%;
+  }
+
+  .flexRowContent--search-in-deskNew{
+    width: 100%;
+    background: #ffffffeb;
   }
 
   :global(.vtex-search-result-3-x-filterMessage){
