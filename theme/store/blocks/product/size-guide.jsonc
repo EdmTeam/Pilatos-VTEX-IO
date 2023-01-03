@@ -14,6 +14,22 @@
         }
     },
 
+    "size-guide#kids-newbalance":{
+        "props": {
+          "conditionals": [
+              {
+                  "brands": ["2000095"],
+                  "categories": ["91"],
+                  "imageDesktop": "/arquivos/Pilatos-GuiaKids-Desktop.jpg",
+                  "imageTablet": "/arquivos/Pilatos-GuiaKids-Desktop.jpg",
+                  "imagePhone": "/arquivos/Pilatos-GuiaKids-Mobile.jpg"
+              }
+          ]
+        }
+    },
+
+
+
     "size-guide#mujer-diesel":{
         "props": {
           "conditionals": [
