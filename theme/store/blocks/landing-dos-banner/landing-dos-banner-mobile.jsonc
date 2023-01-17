@@ -56,7 +56,7 @@
             "hiddenFacets": {
                 "specificationFilters": {
                     "hiddenFilters": [
-                        {
+                       {
                         "name": "Brand"
                         },
                         {
@@ -88,7 +88,10 @@
                         },
                         {
                           "name": "Color"
-                        }
+                        }, 
+                        {
+                            "name": "Categoría"
+                      }
                     ]
                 }
             },
