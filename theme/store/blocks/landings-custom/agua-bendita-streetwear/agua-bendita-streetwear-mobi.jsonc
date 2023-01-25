@@ -1,0 +1,34 @@
+{
+    "responsive-layout.phone#bannerAguaBenditaStreetNew":{
+        "children":[
+            "flex-layout.row#mobile-streetwear"
+        ]
+    }, 
+    "flex-layout.row#mobile-streetwear": {
+        "children": [
+        
+            "image#bannerlanding-streetwear-mobile",
+            "image#superiorAguaBendita",
+            "image#inferiorAguaBendita",
+            "image#bannerAguaBenditaStreetAccesorios-mobile",
+            "flex-layout.row#most-viewed"
+        ]
+    },
+
+    "image#bannerlanding-streetwear-mobile":{
+        "props": {
+            "src": "/arquivos/Banner-landing-Streetwear-mobile-EDM.jpg"
+        }
+    },
+    "image#bannerAguaBenditaStreetAccesorios-mobile":{
+        "props": {
+            "src": "/arquivos/Banner-categoria-3-mobile-EDM.jpg",
+            "link": {
+                "url": "/"
+            }
+        }
+    }   
+
+
+
+}

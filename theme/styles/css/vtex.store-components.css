@@ -1,3 +1,5 @@
+
+
 .productDescriptionContainer{
     max-width: 80%;
     margin: 0 auto;
@@ -500,12 +502,7 @@ filter: brightness(50%);
 .imageElementLink--departmentBannerImg-topHome{
 margin-bottom: 1%;
 }
-.imageElementLink--departmentBannerImg-topHome:hover{
-    -webkit-filter: brightness(50%);
-filter: brightness(50%);
-margin-bottom: 1%;
-margin-top: 1%;
-}
+
 .imageElementLink--departmentBannerImg-top:hover{
     -webkit-filter: brightness(50%);
 filter: brightness(50%);
