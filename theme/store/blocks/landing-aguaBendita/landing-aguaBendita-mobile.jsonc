@@ -16,6 +16,7 @@
     "flex-layout.col#bannerAguaBenditaMobi":{
         "children": [
             "image#bannerAguaBenditaMobi",
+            "image#bannerAguaBenditaMobiStreet-mobi",
             "image#bannerAguaBenditaMobi-cat1",
             "image#bannerAguaBenditaMobi-cat2",
             "image#bannerAguaBenditaMobi-cat3",
@@ -92,6 +93,16 @@
             "url": ""
         }
       }
+    },
+
+    "image#bannerAguaBenditaMobiStreet-mobi": {
+        "props": {
+            "src": "/arquivos/Banner-landing-Streetwear-mobile-EDM.jpg",
+            "link": {
+                "url": "/agua-bendita-street"
+            }
+        }
+
     },
 
     "image#bannerAguaBenditaMobi-cat1": {

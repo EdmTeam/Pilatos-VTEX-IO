@@ -1,0 +1,143 @@
+{
+    "store.custom#agua-bendita-streetwear":{
+        "blocks": [
+            "flex-layout.row#bannerLandingABstreetwear"
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
+    },
+
+    "flex-layout.row#bannerLandingABstreetwear":{
+        "children":[
+    
+            "flex-layout.col#bannerLandingABstreetwear"
+           
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    
+    },
+
+
+    "flex-layout.col#bannerLandingABstreetwear":{
+        "children": [
+            "rich-text#landing-aguaBendita",
+            "rich-text#landing-aguaBendita-title",
+            "responsive-layout.desktop#bannerAguaBenditaStreetNew",
+            "responsive-layout.desktop#super-infe-aguaBendita",
+            "responsive-layout.desktop#bannerAguaBenditaStreetAccesorios",
+            "responsive-layout.tablet#bannerAguaBenditaStreetNew",
+            "responsive-layout.tablet#super-infe-aguaBendita",
+            "responsive-layout.tablet#bannerAguaBenditaStreetAccesorios",
+            "responsive-layout.phone#bannerAguaBenditaStreetNew"
+
+        
+        ]
+    },
+    
+    "responsive-layout.desktop#bannerAguaBenditaStreetNew":{
+        "children":[
+            "image#aguaBenditaStreetNew"
+        ]
+    },
+
+    "responsive-layout.tablet#bannerAguaBenditaStreetNew":{
+        "children":[
+            "image#aguaBenditaStreetNew"
+        ]
+    },
+
+
+    "responsive-layout.desktop#bannerAguaBenditaStreetAccesorios":{
+        "children":[
+            "image#bannerAguaBenditaStreetAccesorios",
+            "flex-layout.row#most-viewed"
+            
+        ]
+    },
+
+    "responsive-layout.desktop#super-infe-aguaBendita":{
+        "children":[
+            "flex-layout.row#super-infe-aguaBendita"
+        ]
+    },
+    "responsive-layout.tablet#bannerAguaBenditaStreetAccesorios":{
+        "children":[
+            "image#bannerAguaBenditaStreetAccesorios",
+            "flex-layout.row#most-viewed"
+            
+        ]
+    },
+
+    "responsive-layout.tablet#super-infe-aguaBendita":{
+        "children":[
+            "flex-layout.row#super-infe-aguaBendita"
+        ]
+    },
+
+    "flex-layout.row#super-infe-aguaBendita":{
+        "children": [
+            "flex-layout.col#superiorAguaBendita",
+            "flex-layout.col#inferiorAguaBendita"
+        ],
+        "props":{
+            "blockClass":"contentBanners-2"
+        }
+    },
+
+    "flex-layout.col#superiorAguaBendita":{
+        "children": [
+            "image#superiorAguaBendita"
+        ]
+    },
+
+    "flex-layout.col#inferiorAguaBendita": {
+        "children": [
+            "image#inferiorAguaBendita"
+        ]
+    },
+
+    "image#aguaBenditaStreetNew":{
+        "props": {
+            "src": "/arquivos/Banner-landing-Streetwear-EDM.jpg"
+        }
+    },
+
+    "image#superiorAguaBendita":{
+        "props": {
+            "src": "/arquivos/Banner-categoria-1-mobile-EDM.jpg",
+            "link": {
+                "url": "/"
+            },
+            "blockClass": "departmentBannerImg-mundial"
+      
+        }
+    },
+    "image#inferiorAguaBendita":{
+        "props": {
+            "src": "/arquivos/Banner-categoria-2-mobile-EDM.jpg",
+            "link": {
+                "url": "/"
+            },
+            "blockClass": "departmentBannerImg-mundial"
+        }
+    },
+
+    "image#bannerAguaBenditaStreetAccesorios":{
+        "props": {
+            "src": "/arquivos/Banner-categoria-3-EDM.jpg",
+            "link": {
+                "url": "/"
+            },
+            "blockClass": "departmentBannerImg-mundial"
+        }
+    }
+
+
+
+    
+
+    
+}
