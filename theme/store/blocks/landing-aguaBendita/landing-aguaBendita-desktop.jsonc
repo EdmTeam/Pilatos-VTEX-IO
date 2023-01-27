@@ -26,6 +26,7 @@
                     "rich-text#landing-aguaBendita",
                     "rich-text#landing-aguaBendita-title",
                     "responsive-layout.desktop#bannerAguaBendita",
+                    
                     "responsive-layout.desktop#bannerAguaBenditaStreet",
                     "responsive-layout.desktop#bannerAguaBenditaSecundario",
                     "responsive-layout.tablet#bannerAguaBendita",
@@ -50,6 +51,8 @@
                 "blockClass": "departmentTitle"
                         }
         },
+
+       
 
     // BANNER PRINCIPAL DESK Y TABLET
     "responsive-layout.desktop#bannerAguaBendita":{

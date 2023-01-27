@@ -1,4 +1,5 @@
 /*Personalización de estilos*/
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@300&display=swap');
 
 .container--colorBrand {
   color: #00A2DC;
@@ -2186,4 +2187,8 @@
 
 .strong--welcome-successSubmit {
   font-size: 2rem;
+}
+
+.paragraph--textStreetAgua {
+  font-family: 'Unbounded', cursive;
 }

@@ -8,6 +8,7 @@
         "children": [
         
             "image#bannerlanding-streetwear-mobile",
+            "rich-text#manifiestoAguaBendita",
             "image#superiorAguaBendita",
             "image#inferiorAguaBendita",
             "image#bannerAguaBenditaStreetAccesorios-mobile",

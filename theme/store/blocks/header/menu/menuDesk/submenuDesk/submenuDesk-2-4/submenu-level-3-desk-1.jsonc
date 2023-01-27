@@ -28,7 +28,6 @@
             "rich-text#submenu-desk-department-4-category-21",
             "rich-text#submenu-desk-department-4-category-22",
             "rich-text#submenu-desk-department-4-category-23",
-            "rich-text#submenu-desk-department-4-category-24",
             "rich-text#submenu-desk-department-4-category-25",
             "rich-text#submenu-desk-department-4-category-26",
             "rich-text#submenu-desk-department-4-category-27",
@@ -110,7 +109,7 @@
 
     "rich-text#submenu-desk-department-4-category-5":{
         "props":{
-            "text": "[Marithe Francois Girbaud](/Marithe-francois-girbaud)",
+            "text": "[Marithe Francois Girbaud](/girbaud)",
             "blockClass": "textCategory"
         }
     },
@@ -227,12 +226,6 @@
         }
     },
 
-    "rich-text#submenu-desk-department-4-category-24":{
-        "props":{
-            "text": "[New Project](/new-project)",
-            "blockClass": "textCategory"
-        }
-    },
 
     "rich-text#submenu-desk-department-4-category-25":{
         "props":{

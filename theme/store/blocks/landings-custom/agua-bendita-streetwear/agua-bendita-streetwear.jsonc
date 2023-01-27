@@ -37,15 +37,30 @@
         ]
     },
     
+
+
     "responsive-layout.desktop#bannerAguaBenditaStreetNew":{
         "children":[
-            "image#aguaBenditaStreetNew"
+            "image#aguaBenditaStreetNew",
+            "rich-text#manifiestoAguaBendita"
+
         ]
     },
 
+    "rich-text#manifiestoAguaBendita": {
+        "props": {
+          "text": " Esta es una historia de amor, una declaración, una celebración de la individualidad. Love Affair anima a las personas a abrazar su estilo y hacer uno para sí mismos.",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "blockClass": "textStreetAgua"
+        }
+
+      },
+
     "responsive-layout.tablet#bannerAguaBenditaStreetNew":{
         "children":[
-            "image#aguaBenditaStreetNew"
+            "image#aguaBenditaStreetNew",
+            "rich-text#manifiestoAguaBendita"
         ]
     },
 
