@@ -36,7 +36,6 @@
             "rich-text#submenu-level-2-item-21-row-7",
             "rich-text#submenu-level-2-item-22-row-7",
             "rich-text#submenu-level-2-item-23-row-7",
-            "rich-text#submenu-level-2-item-24-row-7",
             "rich-text#submenu-level-2-item-28-row-7",
             "rich-text#submenu-level-2-item-29-row-7",
             "rich-text#submenu-level-2-item-30-row-7",
@@ -154,7 +153,7 @@
 
     "rich-text#submenu-level-2-item-5-row-7":{
         "props":{
-            "text": "[Marithe Francois Girbaud](/Marithe-francois-girbaud)",
+            "text": "[Marithe Francois Girbaud](/girbaud)",
             "blockClass": "contentSubMenuAcordeon"
         }
     },
@@ -271,12 +270,6 @@
         }
     },
 
-    "rich-text#submenu-level-2-item-24-row-7":{
-        "props":{
-            "text": "[New Project](/new-project)",
-            "blockClass": "contentSubMenuAcordeon"
-        }
-    },
 
     "rich-text#submenu-level-2-item-25-row-7":{
         "props":{
