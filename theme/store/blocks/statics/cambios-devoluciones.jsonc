@@ -20,9 +20,271 @@
         "children": [
             "rich-text#static-top-title-cambios",
             "rich-text#descripcion-cambios",
+            "flex-layout.row#modalCambioyDevoluciones",       
+            "flex-layout.row#modalCambioyDevolucionesSecundario", 
             "menu#static-accordion-menu-1"
         ]
     },
+    // modal ejemplo 
+
+"flex-layout.row#modalCambioyDevoluciones": {
+    "children": [
+        "flex-layout.col#cambiarPedido",
+        "flex-layout.col#compraFisica",
+        "flex-layout.col#productoEnPromocion",
+        "flex-layout.col#productosNoTienen"
+    ]    
+},
+"flex-layout.row#modalCambioyDevolucionesSecundario": {
+    "children": [
+        "flex-layout.col#tiempoDeGarantia",
+        "flex-layout.col#cambiosQueopcionesTengo",
+        "flex-layout.col#DevolucionDinero",
+        "flex-layout.col#cancelarPedido"
+    ]    
+},
+
+"flex-layout.col#cambiarPedido": {
+    "children": [
+        "modal-trigger#cambiarPedido"
+    ]
+},
+"flex-layout.col#compraFisica": {
+    "children": [
+        "modal-trigger#compraFisica"
+    ]
+},
+
+"flex-layout.col#productoEnPromocion": {
+    "children": [
+        "modal-trigger#productoEnPromocion"
+    ]
+},
+
+"flex-layout.col#productosNoTienen": {
+    "children": [
+        "modal-trigger#productosNoTienen"
+    ]
+},
+
+"flex-layout.col#tiempoDeGarantia": {
+    "children": [
+        "modal-trigger#tiempoDeGarantia"
+    ]
+},
+"flex-layout.col#cambiosQueopcionesTengo": {
+    "children": [
+        "modal-trigger#cambiosQueopcionesTengo"
+    ]
+},
+
+"flex-layout.col#DevolucionDinero": {
+    "children": [
+        "modal-trigger#DevolucionDinero"
+    ]
+},
+
+"flex-layout.col#cancelarPedido": {
+    "children": [
+        "modal-trigger#cancelarPedido"
+    ]
+},
+
+
+
+"modal-trigger#cambiarPedido": {
+    "children": [
+        "image#cambiarPedido",
+      "modal-layout#cambiarPedido"
+    ]
+  },
+
+
+  "modal-trigger#compraFisica": {
+    "children": [
+        "image#compraFisica",
+      "modal-layout#compraFisica"
+    ]
+  },
+
+  "modal-trigger#productoEnPromocion": {
+    "children": [
+        "image#productoEnPromocion",
+      "modal-layout#productoEnPromocion"
+    ]
+  },
+
+  "modal-trigger#productosNoTienen": {
+    "children": [
+        "image#productosNoTienen",
+      "modal-layout#productosNoTienen"
+    ]
+  },
+
+  
+  "modal-trigger#tiempoDeGarantia": {
+    "children": [
+        "image#tiempoDeGarantia",
+      "modal-layout#tiempoDeGarantia"
+    ]
+  },
+
+  "modal-trigger#cambiosQueopcionesTengo": {
+    "children": [
+        "image#cambiosQueopcionesTengo",
+      "modal-layout#cambiosQueopcionesTengo"
+    ]
+  },
+
+  "modal-trigger#DevolucionDinero": {
+    "children": [
+        "image#DevolucionDinero",
+      "modal-layout#DevolucionDinero"
+    ]
+  },
+
+  "modal-trigger#cancelarPedido": {
+    "children": [
+        "image#cancelarPedido",
+      "modal-layout#cancelarPedido"
+    ]
+  },
+
+  // TEXTOS 
+  
+      "modal-layout#cambiarPedido": {
+        "children": [
+          "rich-text#cambiarPedido"
+        ],
+        "props": {
+            "blockClass": "cambiosyDevolucionesModal" 
+            
+        }
+      },
+      "rich-text#cambiarPedido": {
+        "props": {
+          "text": "1- Para las compras de tienda online, envía la solicitud del cambio al correo tiendavirtual@estudiodemoda.com.co. <br> <br>2- También puedes ir a la tienda física más cercana, presentar tu CC o la factura de compra y hacer tu respectivo cambio.<br> <br> **Ten en cuenta que lo cambios deben ser dentro de los 30 primeros días después de recibir el correo del pedido** Estudio de moda S.A.S debe responderte en los siguientes 15 días hábiles, allí te indicaran el proceso que debes seguir.",
+          "textAlignment": "CENTER"
+          
+          
+        }
+    },
+
+    "modal-layout#compraFisica": {
+        "children": [
+          "rich-text#compraFisica"
+        ],
+        "props": {
+            "blockClass": "cambiosyDevolucionesModal" 
+            
+        }
+      },
+      "rich-text#compraFisica": {
+        "props": {
+          "text": "No, los cambios pertenecientes a compras hechas en tiendas físicas no pueden hacerse en las líneas de tienda online.",
+          "textAlignment": "CENTER"
+        }
+    },
+
+    "modal-layout#productoEnPromocion": {
+        "children": [
+          "rich-text#productoEnPromocion"
+        ],
+        "props": {
+            "blockClass": "cambiosyDevolucionesModal" 
+            
+        }
+      },
+      "rich-text#productoEnPromocion": {
+        "props": {
+          "text": " Si, solo puedes hacer el cambio por talla, por derecho de retracto o por garantía legal.",
+          "textAlignment": "CENTER"
+        }
+    },
+
+    "modal-layout#productosNoTienen": {
+        "children": [
+          "rich-text#productosNoTienen"
+        ],
+        "props": {
+            "blockClass": "cambiosyDevolucionesModal" 
+            
+        }
+      },
+      "rich-text#productosNoTienen": {
+        "props": {
+          "text": " La ropa interior (pantis, sostenes, bóxeres, pantaloncillos, calcetines). ",
+          "textAlignment": "CENTER"
+        }
+    },
+
+
+"modal-layout#tiempoDeGarantia": {
+    "children": [
+      "rich-text#tiempoDeGarantia"
+    ],
+    "props": {
+        "blockClass": "cambiosyDevolucionesModal" 
+        
+    }
+  },
+  "rich-text#tiempoDeGarantia": {
+    "props": {
+      "text": "**Para ropa, billeteras, bolsos y zapatos:** 90 días calendario después de la compra.  <br><br>**Para fragancias y gafas:** 30 días calendario después de la compra. <br><br>**Para maquinaria de relojes:** 2 años después de la compra y para el resto de sus partes o elementos: 30 días calendario después de la compra.",
+      "textAlignment": "CENTER"
+    }
+},
+
+"modal-layout#cambiosQueopcionesTengo": {
+    "children": [
+      "rich-text#cambiosQueopcionesTengo"
+    ],
+    "props": {
+        "blockClass": "cambiosyDevolucionesModal" 
+        
+    }
+  },
+  "rich-text#cambiosQueopcionesTengo": {
+    "props": {
+      "text": "1- Cambio por talla o color de tu producto.<br>2- Bono cargado por el valor de la compra para ser redimido en la tienda online. ",
+      "textAlignment": "CENTER"
+    }
+},
+
+"modal-layout#DevolucionDinero": {
+    "children": [
+      "rich-text#DevolucionDinero"
+    ],
+    "props": {
+        "blockClass": "cambiosyDevolucionesModal" 
+        
+    }
+  },
+  "rich-text#DevolucionDinero": {
+    "props": {
+      "text": " No se puede hacer devolución de dinero en efectivo, pero lo que puedes hacer es:<br><br>1- Solicitar un bono virtual para ser redimido dentro del sitio web, excepto que sea por ejercicio del derecho de retracto o por garantía legal.<br>2- Solicitar el cambio del producto en la tienda física por otro producto que te guste.",
+      "textAlignment": "CENTER"
+    }
+},
+
+"modal-layout#cancelarPedido": {
+    "children": [
+      "rich-text#cancelarPedido"
+    ],
+    "props": {
+        "blockClass": "cambiosyDevolucionesModal" 
+        
+    }
+  },
+  "rich-text#cancelarPedido": {
+    "props": {
+      "text": "**PASOS PARA CANCELAR PEDIDO** <br>1- Ingresa a MI CUENTA (En el ícono de una persona).<br>2- Ingresa tu correo electrónico y clave e ingresa.<br>3- Ve a PEDIDOS y elige el pedido que quieres cancelar. <br>4-Finalmente da clic en SOLICITAR CANCELACIÓN.<br>5- Esta cancelación se puede hacer únicamente antes de que el pedido sea facturado. <br>6- Si ya está facturado, debes esperar que llegue el pedido y ejercer el DERECHO AL RETRACTO.",
+      "textAlignment": "CENTER"
+    }
+},
+
+    
+
     "rich-text#static-top-title-cambios": {
         "props": {
             "text": " # CAMBIOS Y DEVOLUCIONES",
@@ -61,8 +323,10 @@
                 "noFollow": false,
                 "text": "Políticas de cambios"
             }
+            
         },
         "blocks": [
+          
             "submenu.accordion#static-accordion-content-dev-cambio"
         ]
     },
@@ -145,6 +409,7 @@
             "blockClass": "static-accordion-content"
         },
         "children": [
+            
             "rich-text#static-accordion-content-cambio"
         ]
     },
@@ -211,5 +476,58 @@
             "text": "Para prendas de vestir, billeteras, bolsos y/o zapatos: 90 días calendario después de la compra. \n Para fragancias y/o gafas: 30 días calendario después de la compra. \n Para maquinaria de relojes: 2 años después de la compra, para el resto de sus partes o elementos: 30 días calendario después de la compra. \n Para gafas Oakley la garantía es un año (1) a partir de la fecha de compra. \n Para accesorios marca Kipling la garantía son 90 días a partir de la compra. \n Bolsos y Maletas Kipling la garantía es un año (1) a partir de la fecha de compra. \n Los relojes que se abiertos por servicio técnico no autorizado pierden su garantía.",
             "blockClass": "static-accordion-content"
         }
-    }
+    },
+
+    // IMAGENES MODAL 
+
+    "image#cambiarPedido": {
+      "props": {
+        "src": "/arquivos/Pilatos-CambiosDevoluciones-1-dondePuedoCambiarMiPedido.jpg"
+        
+      }
+    },
+    "image#compraFisica": {
+      "props": {
+        "src": "/arquivos/Pilatos-CambiosDevoluciones-2-realiceUnaCompraFisica.jpg"
+        
+      }
+    },
+    "image#productoEnPromocion": {
+      "props": {
+        "src": "/arquivos/Pilatos-CambiosDevoluciones-3-cambiarProductoEnPromocion.jpg"
+        
+      }
+    },
+    "image#productosNoTienen": {
+      "props": {
+        "src": "/arquivos/Pilatos-CambiosDevoluciones-4-cualesProductosNoTienen.jpg"
+        
+      }
+    },
+
+    
+    "image#tiempoDeGarantia": {
+        "props": {
+          "src": "/arquivos/Pilatos-CambiosDevoluciones-5-tiempoDeGarantia.jpg"
+          
+        }
+      },
+      "image#cambiosQueopcionesTengo": {
+        "props": {
+          "src": "/arquivos/Pilatos-CambiosDevoluciones-6-cambiosQueopcionesTengo.jpg"
+          
+        }
+      },
+      "image#DevolucionDinero": {
+        "props": {
+          "src": "/arquivos/Pilatos-CambiosDevoluciones-7-DevolucionDinero.jpg"
+          
+        }
+      },
+      "image#cancelarPedido": {
+        "props": {
+          "src": "/arquivos/Pilatos-CambiosDevoluciones-8-cancelarPedido.jpg"
+          
+        }
+      }
 }
