@@ -60,3 +60,8 @@
 .closeButtonLabel--popup-close-welcome {
     color: #ffffff;
 }
+
+.paper--cambiosyDevolucionesModal{
+    width: 500px;
+    padding: 1%;
+}
