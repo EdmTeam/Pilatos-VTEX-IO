@@ -1,0 +1,343 @@
+{
+    "store.custom#landingSanValentin": {
+        "blocks": [
+            "flex-layout.row#textoInicioSanValentin",
+            "responsive-layout.desktop#BannerLandingSanValentin",
+            "responsive-layout.tablet#BannerLandingSanValentin",
+            "responsive-layout.phone#BannerLandingSanValentin"
+        ],
+        "props": {
+            "blockClass": "contentStoreCustom"
+        }
+    },
+    "responsive-layout.desktop#BannerLandingSanValentin": {
+        "children": [
+            
+            "flex-layout.row#BannerLandingSanValentin",
+            "flex-layout.row#SanValentinPrincipal",
+            "flex-layout.row#textoSanValentin",
+            "flex-layout.row#botonSanValentin",
+            "flex-layout.row#regaloPerfectoHombre",
+            "flex-layout.row#regaloPerfectoHombreCat",
+            "flex-layout.row#regaloPerfectoMujer",
+            "flex-layout.row#regaloPerfectoMujerCat",
+            "flex-layout.row#most-viewed",
+            "flex-layout.row#textoSeoValentin"
+
+        ],
+        "props": {
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "responsive-layout.tablet#BannerLandingSanValentin": {
+        "children": [
+            
+            "flex-layout.row#BannerLandingSanValentin",
+            "flex-layout.row#SanValentinPrincipal",
+            "flex-layout.row#textoSanValentin",
+            "flex-layout.row#botonSanValentin",
+            "flex-layout.row#regaloPerfectoHombre",
+            "flex-layout.row#regaloPerfectoHombreCat",
+            "flex-layout.row#regaloPerfectoMujer",
+            "flex-layout.row#regaloPerfectoMujerCat",
+            "flex-layout.row#most-viewed",
+            "flex-layout.row#textoSeoValentin"
+
+        ],
+        "props": {
+            "blockClass": "contentSearch"
+        }
+    },
+    // textos 
+"flex-layout.row#textoInicioSanValentin": {
+    "children": [
+        "flex-layout.col#sanValentinTitle"
+        
+    ],
+    "props": {
+        "blockClass": "contentSearch"
+    }
+},
+
+"flex-layout.col#sanValentinTitle": {
+    "children": [
+        "rich-text#landing-aguaBendita",
+        "rich-text#sanValentinTitle"
+
+    ]
+},
+  
+"rich-text#sanValentinTitle": {
+    "props": {
+        "text": "# Pilatos San Valentin",
+        "textAlignment": "LEFT",
+        "blockClass": "departmentTitle"
+
+    }
+
+},
+
+    "flex-layout.row#textoSanValentin": {
+        "children": [
+            "rich-text#sanValentin-texto"
+           
+        ] 
+    },
+
+    "flex-layout.row#botonSanValentin": {
+        "children": [
+            "rich-text#botonSanValentin"
+        ],
+        "props": {
+            "blockClass": "contentBotones"
+        }
+    },
+
+
+    "rich-text#sanValentin-texto": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "### ¿Buscas el regalo perfecto? \n Encuéntralo en nuestra **#GuíaPilatos** y sorprende en San Valentín",
+            "blockClass": "sanValentin-texto"
+        }
+    },
+
+    "rich-text#botonSanValentin": {
+        "props": {
+            "text": "[**VER TODO**](/beachwear)",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "botonSanValentin"
+                }
+    },
+
+    "flex-layout.row#textoSeoValentin": {
+        "children": [
+            "rich-text#textoSeoValentin"
+        ]
+
+    },
+
+    "rich-text#textoSeoValentin": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Espacio para el SEO **#GuíaPilatos** ",
+            "blockClass": "sanValentin-texto"
+        }
+    },
+
+    "flex-layout.row#BannerLandingSanValentin": {
+        "children": [
+            "image#BannerLandingSanValentin"
+        ],
+        "props": {
+            "blockClass": "contentSearch"
+        }
+    },
+    "flex-layout.row#SanValentinPrincipal": {
+        "children": [
+            "flex-layout.col#SanValentinParaEl",
+            "flex-layout.col#SanValentinParaElla",
+            "flex-layout.col#SanValentinRegalable"
+        ],
+        "props": {
+            "blockClass": "contentSearch"
+        }
+    },
+    "flex-layout.row#regaloPerfectoHombre": {
+        "children": [
+            "image#regaloPerfectoHombre"
+        ],
+        "props": {
+            "blockClass": "contentSearch"
+        }
+    },
+    "flex-layout.row#regaloPerfectoHombreCat": {
+        "children": [
+            "flex-layout.col#regaloPerfectoHombreDivertido",
+            "flex-layout.col#regaloPerfectoHombreRelajado",
+            "flex-layout.col#regaloPerfectoHombreCasual"
+        ],
+        "props": {
+            "blockClass": "contentSearch"
+        }
+    },
+  
+    "flex-layout.row#regaloPerfectoMujer": {
+        "children": [
+            "image#regaloPerfectoMujer"
+        ],
+        "props": {
+            "blockClass": "contentSearch"
+        }
+    },
+    "flex-layout.row#regaloPerfectoMujerCat": {
+        "children": [
+            "flex-layout.col#regaloPerfectoMujer-tranquila",
+            "flex-layout.col#regaloPerfectoMujer-trendy",
+            "flex-layout.col#regaloPerfectoMujer-arriesgadas"
+        ],
+        "props": {
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#SanValentinParaEl": {
+        "children": [
+            "image#SanValentinParaEl"
+        ]
+    },
+    "flex-layout.col#SanValentinParaElla": {
+        "children": [
+            "image#SanValentinParaElla"
+        ]
+    },
+    "flex-layout.col#SanValentinRegalable": {
+        "children": [
+            "image#SanValentinRegalable"
+        ]
+    },
+
+    "flex-layout.col#regaloPerfectoHombreDivertido":{
+        "children": [
+            "image#regaloPerfectoHombreDivertido"
+        ]
+    },
+    "flex-layout.col#regaloPerfectoHombreRelajado":{
+        "children": [
+            "image#regaloPerfectoHombreRelajado"
+        ]
+    },
+    "flex-layout.col#regaloPerfectoHombreCasual":{
+        "children": [
+            "image#regaloPerfectoHombreCasual"
+        ]
+    },
+    "flex-layout.col#regaloPerfectoMujer-tranquila":{
+        "children": [
+            "image#regaloPerfectoMujer-tranquila"
+        ]
+    },
+    "flex-layout.col#regaloPerfectoMujer-trendy":{
+        "children": [
+            "image#regaloPerfectoMujer-trendy"
+
+        ]
+    },
+    "flex-layout.col#regaloPerfectoMujer-arriesgadas":{
+        "children": [
+            "image#regaloPerfectoMujer-arriesgadas"
+
+        ]
+    },
+    // imagenes
+    "image#BannerLandingSanValentin": {
+        "props": {
+            "src": "/arquivos/Pilatos-SanValentinBannerDesktopLanding.jpg"
+        }
+    },
+    "image#SanValentinParaEl": {
+        "props": {
+            "src": "/arquivos/Pilatos-SanValentinBannerElDesktop.jpg",
+            "link": {
+                "url": "/"
+            },
+            "blockClass": "sanValentinImagen"
+        }
+    },
+    "image#SanValentinParaElla": {
+        "props": {
+            "src": "/arquivos/Pilatos-SanValentinBannerEllaDesktop.jpg",
+            "link": {
+                "url": "/"
+            },
+            "blockClass": "sanValentinImagen"
+        }
+    },
+    "image#SanValentinRegalable": {
+        "props": {
+            "src": "/arquivos/Pilatos-SanValentinBannerRegalablesDesktop.jpg",
+            "link": {
+                "url": "/"
+            },
+            "blockClass": "sanValentinImagen"
+        }
+    },
+    "image#regaloPerfectoHombre": {
+        "props": {
+            "src": "/arquivos/Pilatos-SanValentinBannerPilatosHombreDesktop.jpg",
+            "link": {
+                "url": "/"
+            },
+            "blockClass": "sanValentinImagen"
+        }
+    },
+    "image#regaloPerfectoHombreDivertido": {
+        "props": {
+            "src": "/arquivos/Pilatos-SanValentinBannerHDivertidosMobile.jpg",
+            "link": {
+                "url": "/"
+            },
+            "blockClass": "sanValentinImagen" 
+        }
+    },
+    "image#regaloPerfectoHombreRelajado": {
+        "props": {
+            "src": "/arquivos/Pilatos-SanValentinBannerHRelajadosMobile.jpg",
+            "link": {
+                "url": "/"
+            },
+            "blockClass": "sanValentinImagen"
+        }
+    },
+    "image#regaloPerfectoHombreCasual": {
+        "props": {
+            "src": "/arquivos/Pilatos-SanValentinBannerHCasualesMobile.jpg",
+            "link": {
+                "url": "/"
+            },
+            "blockClass": "sanValentinImagen"
+        }
+    },
+    "image#regaloPerfectoMujer": {
+        "props": {
+            "src": "/arquivos/Pilatos-SanValentinBannerPilatosMujerDesktop.jpg",
+            "link": {
+                "url": "/"
+            },
+            "blockClass": "sanValentinImagen" 
+        }
+    },
+
+"image#regaloPerfectoMujer-tranquila": {
+    "props": {
+        "src": "/arquivos/Pilatos-SanValentinBannerMTranquilasMobile.jpg",
+        "link": {
+            "url": "/"
+        },
+        "blockClass": "sanValentinImagen" 
+    }
+},
+"image#regaloPerfectoMujer-trendy": {
+    "props": {
+        "src": "/arquivos/Pilatos-SanValentinBannerMTrendyMobile.jpg",
+        "link": {
+            "url": "/"
+        },
+        "blockClass": "sanValentinImagen" 
+    }
+},
+"image#regaloPerfectoMujer-arriesgadas": {
+    "props": {
+        "src": "/arquivos/Pilatos-SanValentinBannerMArriesgadasMobile.jpg",
+        "link": {
+            "url": "/"
+        },
+        "blockClass": "sanValentinImagen" 
+    }
+}
+
+}

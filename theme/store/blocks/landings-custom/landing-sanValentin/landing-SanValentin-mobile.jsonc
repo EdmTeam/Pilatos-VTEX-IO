@@ -1,0 +1,81 @@
+{
+    "responsive-layout.phone#BannerLandingSanValentin":{
+        "children":[
+            "image#bannerSanValentinMobile",
+            "flex-layout.row#textoSanValentin",
+            "flex-layout.row#botonSanValentin",
+            "image#SanValentinParaElMobile",
+            "image#SanValentinParaEllaMobile",
+            "image#SanValentinRegalableMobile",
+            "image#regaloPerfectoHombreMobile",
+            "image#regaloPerfectoHombreDivertido",
+            "image#regaloPerfectoHombreRelajado",
+            "image#regaloPerfectoHombreCasual",
+            "image#regaloPerfectoMujerMobile",
+            "image#regaloPerfectoMujer-tranquila",
+            "image#regaloPerfectoMujer-trendy",
+            "image#regaloPerfectoMujer-arriesgadas",
+            "flex-layout.row#most-viewed",
+            "flex-layout.row#textoSeoValentin"
+
+           
+
+        ]
+    },
+
+        // imagenes 
+    "image#bannerSanValentinMobile": {
+      "props": {
+        "src": "/arquivos/Pilatos-SanValentinBannerMobileLanding.jpg"
+      }
+    },
+   "image#SanValentinParaElMobile": {
+        "props": {
+            "src": "/arquivos/Pilatos-SanValentinBannerElMobile.jpg",
+            "link": {
+                "url": "/"
+            },
+            "blockClass": "sanValentinImagen"
+        }
+    },
+    "image#SanValentinParaEllaMobile": {
+         "props": {
+             "src": "/arquivos/Pilatos-SanValentinBannerEllaMobile.jpg",
+             "link": {
+                 "url": "/"
+             },
+             "blockClass": "sanValentinImagen"
+         }
+     },
+     "image#SanValentinRegalableMobile": {
+          "props": {
+              "src": "/arquivos/Pilatos-SanValentinBannerRegalablesMobile.jpg",
+              "link": {
+                  "url": "/"
+              },
+              "blockClass": "sanValentinImagen"
+          }
+      },
+
+      "image#regaloPerfectoHombreMobile":{
+        "props": {
+            "src": "/arquivos/Pilatos-SanValentinBannerPilatosHombreMobile.jpg",
+            "link": {
+            },
+            "blockClass": "sanValentinImagen"
+        }
+      },
+      "image#regaloPerfectoMujerMobile":{
+        "props": {
+            "src": "/arquivos/Pilatos-SanValentinBannerPilatosMujerMobile.jpg",
+            "link": {
+            },
+            "blockClass": "sanValentinImagen"
+        }
+      }
+
+
+
+      
+
+}

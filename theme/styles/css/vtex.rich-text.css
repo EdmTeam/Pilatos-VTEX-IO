@@ -1105,6 +1105,39 @@
   transition: all .35s;
 }
 
+
+/* Estilos botones para San Valentin */
+
+.wrapper--botonSanValentin {
+  transition: width 2s;
+  background: #0f70c1;
+  color: #fff;
+}
+
+.wrapper--botonSanValentin .paragraph {
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 28px;
+  margin: 0.3rem 0 0 0;
+  background: #f690af;
+  padding: 7px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition-timing-function: linear;
+}
+
+.wrapper--botonSanValentin .paragraph:hover {
+  background: #0f70c1;
+  color: white;
+  transition: all .35s;
+}
+
+.wrapper--botonSanValentin .link--botonSanValentin {
+  color: white;
+  text-decoration: none;
+  transition: all .35s;
+}
+
 /* Estilos pagina de departamento */
 .wrapper--departmentBreadCrumb {
   width: 88%;
@@ -2086,6 +2119,19 @@
   margin: 0;
 }
 
+.wrapper--sanValentin-texto {
+  max-width: 80%;
+  margin: 1.5rem 0;
+  border: 2px dashed #f690af;
+  padding: 1.35rem;
+}
+
+.heading--sanValentin-texto {
+  margin: 0;
+}
+.wrapper--sanValentin-texto .paragraph {
+  margin: 0;
+}
 /* TEXTO SEO LANDING ECO BAG */
 .container--ecobag-textseo-h1 {
   background-color: #ffffff;
