@@ -8,13 +8,9 @@
             "image#SanValentinParaEllaMobile",
             "image#SanValentinRegalableMobile",
             "image#regaloPerfectoHombreMobile",
-            "image#regaloPerfectoHombreDivertido",
-            "image#regaloPerfectoHombreRelajado",
-            "image#regaloPerfectoHombreCasual",
+            "list-context.image-list#regaloPerfectoHombreMobile",
             "image#regaloPerfectoMujerMobile",
-            "image#regaloPerfectoMujer-tranquila",
-            "image#regaloPerfectoMujer-trendy",
-            "image#regaloPerfectoMujer-arriesgadas",
+            "list-context.image-list#regaloPerfectoMujerMobile",
             "flex-layout.row#most-viewed",
             "flex-layout.row#textoSeoValentin"
 
@@ -56,6 +52,118 @@
               "blockClass": "sanValentinImagen"
           }
       },
+
+
+      // slider hombre y mujer 
+
+      "list-context.image-list#regaloPerfectoHombreMobile": {
+        "children": [
+            "slider-layout#regaloPerfectoHombreMobile"
+        ],
+        "props": {
+            "images": [
+             
+                {
+                    "image": "/arquivos/Pilatos-SanValentinBannerHDivertidosDesktop.jpg",
+                    "description": "Promotional Banner",
+                    "link": {
+                        "url": "/regalos-hombres-divertidos",
+                        "attributeTitle": ""
+                    },
+                    "title": "",
+                    "width": "235px"
+
+                },
+                {
+                    "image": "/arquivos/Pilatos-SanValentinBannerHRelajadosDesktop.jpg",
+                    "description": "Promotional Banner",
+                    "link": {
+                        "url": "/regalos-hombres-relajados",
+                        "attributeTitle": ""
+                    },
+                    "title": ""
+                },
+                {
+                    "image": "/arquivos/Pilatos-SanValentinBannerHCasualesDesktop.jpg",
+                    "description": "Promotional Banner",
+                    "link": {
+                        "url": "/regalos-hombres-casuales",
+                        "attributeTitle": ""
+                    },
+                    "title": ""
+                }
+            ]
+        }
+    },
+
+    "slider-layout#regaloPerfectoHombreMobile": {
+        "props": {
+            "blockClass": "departmenBannerSlide",
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "centerMode": "to-the-left",
+            "showNavigationArrows": "desktopOnly",
+            "showPaginationDots": "mobileOnly"
+        }
+    },
+
+    "list-context.image-list#regaloPerfectoMujerMobile": {
+        "children": [
+            "slider-layout#regaloPerfectoMujerMobile"
+        ],
+        "props": {
+            "images": [
+             
+                {
+                    "image": "/arquivos/Pilatos-SanValentinBannerMArriesgadasDesktop.jpg",
+                    "description": "Promotional Banner",
+                    "link": {
+                        "url": "/regalos-mujer-arriesgadas",
+                        "attributeTitle": ""
+                    },
+                    "title": "",
+                    "width": "235px"
+
+                },
+                {
+                    "image": "/arquivos/Pilatos-SanValentinBannerMTranquilasDesktop.jpg",
+                    "description": "Promotional Banner",
+                    "link": {
+                        "url": "/regalos-mujer-tranquila",
+                        "attributeTitle": ""
+                    },
+                    "title": ""
+                },
+                {
+                    "image": "/arquivos/Pilatos-SanValentinBannerMTrendyDesktop.jpg",
+                    "description": "Promotional Banner",
+                    "link": {
+                        "url": "/regalos-mujer-trendy",
+                        "attributeTitle": ""
+                    },
+                    "title": ""
+                }
+            ]
+        }
+    },
+
+    "slider-layout#regaloPerfectoMujerMobile": {
+        "props": {
+            "blockClass": "departmenBannerSlide",
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "centerMode": "to-the-left",
+            "showNavigationArrows": "desktopOnly",
+            "showPaginationDots": "mobileOnly"
+        }
+    },
+
 
       "image#regaloPerfectoHombreMobile":{
         "props": {
