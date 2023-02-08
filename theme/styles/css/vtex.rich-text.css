@@ -2126,6 +2126,24 @@
   padding: 1.35rem;
 }
 
+@media (max-width: 750px){
+  .wrapper--sanValentin-texto {
+    max-width: 80%;
+    margin: 5px;
+    border: 2px dashed #f690af;
+    padding: 5px;
+  }
+
+  .heading--sanValentin-texto {
+    font-size: 16px;
+  }
+  .paragraph--sanValentin-texto {
+    font-size: 14px;
+
+  }
+  
+}
+
 .heading--sanValentin-texto {
   margin: 0;
 }
