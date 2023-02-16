@@ -2111,6 +2111,7 @@
 .wrapper--guia-regalos-textseo-p {
   max-width: 80%;
   margin: 1.5rem 0;
+  margin-bottom: 15px;
   border: 2px dashed #d02928;
   padding: 1.35rem;
 }
@@ -2124,6 +2125,22 @@
   margin: 1.5rem 0;
   border: 2px dashed #f690af;
   padding: 1.35rem;
+}
+
+.wrapper--producto-lucky {
+  max-width: 80%;
+  margin: 0.6rem 0;
+  border: double #c00b0b;
+  border-width: 0 4px 1px 1px;
+  padding: 0.5rem;
+  
+}
+.paragraph--producto-lucky {
+  font-size: 12px;
+}
+
+.container--producto-lucky {
+  margin-bottom: 20px;
 }
 
 @media (max-width: 750px){
