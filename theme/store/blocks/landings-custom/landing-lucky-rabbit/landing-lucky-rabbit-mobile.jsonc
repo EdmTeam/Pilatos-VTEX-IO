@@ -1,0 +1,151 @@
+{
+    "responsive-layout.phone#landing-lucky-rabbit":{
+        "children":[
+            "image#bannerMobile-lucky-rabbit",
+            "image#bannerSecundarioMobile-lucky-rabbit",
+            "flex-layout.row#productos-lucky-mobile",
+            "flex-layout.row#productos3-lucky-mobile",
+            "list-context.image-list#colores-lucky",
+            "flex-layout.row#most-viewed",
+            "image#footer-lucky-rabbit-mobile"
+
+
+        ]
+    },
+    "flex-layout.row#productos-lucky-mobile": {
+        "children": [
+            "flex-layout.col#producto1-lucky-mobile",
+            "flex-layout.col#producto2-lucky-mobile"
+
+        ] 
+    },
+
+    "flex-layout.row#productos3-lucky-mobile": {
+        "children": [
+            "flex-layout.col#producto3-lucky-mobile"
+        ], "props": {
+            "preserveLayoutOnMobile": true
+        }
+    },
+
+    "flex-layout.col#producto3-lucky-mobile":{
+        "children": [
+            "image#producto3-lucky-mobile"
+        ] 
+    },
+
+    "flex-layout.col#producto1-lucky-mobile": {
+        "children": [
+            "image#producto1-lucky-mobile"
+
+        ]
+    },
+    "flex-layout.col#producto2-lucky-mobile": {
+        "children": [
+            "image#producto2-lucky-mobile"
+
+        ]
+    },
+
+    // SLIDER COLORES
+
+    "list-context.image-list#colores-lucky": {
+        "children": [
+            "slider-layout#colores-lucky"
+        ],
+        "props": {
+            "images": [
+             
+                {
+                    "image": "/arquivos/Lanzamiento-ano-chino-Banner-Color-rojo.jpg",
+                    "description": "colores año chino lucky rabbit",
+                    "title": "colores año chino lucky rabbit",
+                    "width": "400px"
+
+                },
+                {
+                    "image": "/arquivos/Lanzamiento-ano-chino-Banner-Color-amarillo.jpg",
+                    "description": "colores año chino lucky rabbit",
+                    "title": "colores año chino lucky rabbit"
+                },
+                {
+                    "image": "/arquivos/Lanzamiento-ano-chino-Banner-Color-blanco.jpg",
+                    "description": "colores año chino lucky rabbit",
+                    "title": "colores año chino lucky rabbit"
+                },
+                {
+                    "image": "/arquivos/Lanzamiento-ano-chino-Banner-Color-negro.jpg",
+                    "description": "colores año chino lucky rabbit",
+                    "title": "colores año chino lucky rabbit"
+                }
+            ]
+        }
+    },
+
+    "slider-layout#colores-lucky": {
+        "props": {
+            "blockClass": "departmenBannerSlide",
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "centerMode": "to-the-left",
+            "showNavigationArrows": "desktopOnly",
+            "showPaginationDots": "mobileOnly"
+        }
+    },
+
+
+
+    // IMAGENES
+
+    "image#bannerMobile-lucky-rabbit": {
+      "props": {
+        "src": "/arquivos/Lanzamiento-ano-chino-Banner-Landing-mobile.jpg"
+        
+      }
+    },
+
+    "image#bannerSecundarioMobile-lucky-rabbit": {
+        "props": {
+          "src": "/arquivos/Lanzamiento-ano-chino-Banner-Seo-Mobile-new.jpg"
+          
+        }
+      },
+
+      "image#producto1-lucky-mobile": {
+        "props": {
+          "src": "/arquivos/Lanzamiento-ano-chino-Ref1-Home.jpg",
+          "link": {
+            "url": "/"
+          }
+          
+        }
+      },
+      "image#producto2-lucky-mobile": {
+        "props": {
+          "src": "/arquivos/Lanzamiento-ano-chino-Ref2-Home.jpg",
+          "link": {
+            "url": "/"
+          }
+          
+        }
+      },
+      "image#producto3-lucky-mobile": {
+        "props": {
+          "src": "/arquivos/Lanzamiento-ano-chino-Ref3-Home.jpg",
+          "link": {
+            "url": "/"
+          }
+          
+        }
+      },
+      "image#footer-lucky-rabbit-mobile": {
+        "props": {
+          "src": "/arquivos/Lanzamiento-ano-chino-mobile.jpg"
+          
+        }
+      }
+
+}

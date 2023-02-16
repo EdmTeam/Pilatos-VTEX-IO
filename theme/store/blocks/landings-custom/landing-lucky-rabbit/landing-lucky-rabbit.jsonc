@@ -1,0 +1,278 @@
+{
+    "store.custom#landing-lucky-rabbit": {
+        "blocks": [
+            "flex-layout.row#textoInicioSanValentin",
+            "responsive-layout.desktop#landing-lucky-rabbit",
+            "responsive-layout.tablet#landing-lucky-rabbit",
+            "responsive-layout.phone#landing-lucky-rabbit"
+
+
+        ],
+        "props": {
+            "blockClass": "contentStoreCustom"
+        }
+    },
+    "responsive-layout.desktop#landing-lucky-rabbit": {
+        "children": [
+            "flex-layout.row#banner-lucky-rabbit",
+            "flex-layout.row#bannerSecundario-lucky-rabbit",
+            "flex-layout.row#productos-lucky-rabbit",
+            "flex-layout.row#inspiracion-lucky-rabbit",
+            "flex-layout.row#most-viewed",
+          "flex-layout.row#footer-lucky-rabbit"
+
+        ]
+    },
+
+    "responsive-layout.tablet#landing-lucky-rabbit": {
+        "children": [
+            "flex-layout.row#banner-lucky-rabbit",
+            "flex-layout.row#bannerSecundario-lucky-rabbit",
+            "flex-layout.row#productos-lucky-rabbit",
+            "flex-layout.row#inspiracion-lucky-rabbit",
+            "flex-layout.row#most-viewed",
+          "flex-layout.row#footer-lucky-rabbit"
+
+        ]
+    },
+    "flex-layout.row#banner-lucky-rabbit": {
+        "children": [
+            "flex-layout.col#banner-lucky-rabbit"
+        ],
+        "props": {
+            "blockClass": "contentSearch"
+                }
+    },
+    "flex-layout.col#banner-lucky-rabbit": {
+        "children": [
+            "image#banner-lucky-rabbit"
+        ]
+    },
+    // BANNER SECUNDARIO 
+    "flex-layout.row#bannerSecundario-lucky-rabbit": {
+        "children": [
+            "flex-layout.col#bannerSecundario-lucky-rabbit"
+        ],
+        "props": {
+            "blockClass": "contentSearch"
+        }
+    },
+    "flex-layout.col#bannerSecundario-lucky-rabbit": {
+        "children": [
+            "image#bannerSecundario-lucky-rabbit"
+        ]
+    },
+    // BANNER PRODUCTOS RABBY
+    "flex-layout.row#productos-lucky-rabbit": {
+        "children": [
+            "flex-layout.col#producto2-lucky-rabbit",
+            "flex-layout.col#producto3-lucky-rabbit",
+            "flex-layout.col#producto1-lucky-rabbit"
+
+        ],
+        "props": {
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#producto1-lucky-rabbit":{
+        "children": [
+            "image#producto1-lucky-rabbit",
+            "flex-layout.row#texto-producto1-lucky"
+        ]
+    },
+
+    "flex-layout.col#producto2-lucky-rabbit":{
+        "children": [
+            "image#producto2-lucky-rabbit",
+            "flex-layout.row#texto-producto2-lucky"
+
+        ]
+    },
+
+    "flex-layout.col#producto3-lucky-rabbit":{
+        "children": [
+            "image#producto3-lucky-rabbit",
+            "flex-layout.row#texto-producto3-lucky"
+
+        ]
+    },
+
+    // INSPIRACION 
+    "flex-layout.row#inspiracion-lucky-rabbit":{
+        "children": [
+            "flex-layout.col#inspiracion-lucky-rabbit"
+        ],
+        "props": {
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#inspiracion-lucky-rabbit":{
+        "children": [
+            "image#inspiracion-lucky-rabbit"
+        ]
+    },
+
+       // FOOTER LUCKY RABBIT 
+       "flex-layout.row#footer-lucky-rabbit":{
+        "children": [
+            "flex-layout.col#footer-lucky-rabbit",
+            "flex-layout.col#footerSecundario-lucky-rabbit"
+        ],
+        "props": {
+            "blockClass": "content-footer-lucky",
+            "horizontalAlign": "center", 
+            "preventHorizontalStretch": true,
+            "colJustify": "between" 
+             
+        }
+    },
+
+    "flex-layout.col#footer-lucky-rabbit":{
+        "children": [
+            "image#footer-lucky-rabbit"
+        ], 
+        "props": {
+            "blockClass": "img-footer-lucky-rabbit",
+            "preventVerticalStretch": true
+
+          
+    }
+},
+
+    "flex-layout.col#footerSecundario-lucky-rabbit":{
+        "children": [
+            "image#footer2-lucky-rabbit",
+            "image#footer3-lucky-rabbit"
+        ],
+        "props": {
+            "preventVerticalStretch": true,
+            "width": "90%",
+            "rowGap": 1 
+            
+            
+        }
+    },
+
+
+
+    // TEXTOS PRODUCTOS 
+    "flex-layout.row#texto-producto1-lucky": {
+        "children": [
+            "rich-text#texto-producto1-lucky"
+           
+        ] 
+    },
+    "flex-layout.row#texto-producto2-lucky": {
+        "children": [
+            "rich-text#texto-producto2-lucky"
+           
+        ] 
+    },
+    "flex-layout.row#texto-producto3-lucky": {
+        "children": [
+            "rich-text#texto-producto3-lucky"
+           
+        ] 
+    },
+
+    "rich-text#texto-producto1-lucky": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Elaborada en 100% algodón, con detalles de estampación que resaltan las letras chinas y a EYES representando al conejo.",
+            "blockClass": "producto-lucky"
+        }
+    },
+
+    "rich-text#texto-producto2-lucky": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Con un regular fit y una estampación que simula la dualidad del ying y el yang, seguro vas a querer portar esta camiseta.",
+            "blockClass": "producto-lucky"
+        }
+    },
+
+    "rich-text#texto-producto3-lucky": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": " El color dorado representa la buena fortuna y lo encontraras en esta camiseta con un increíble estampado de alta calidad.",
+            "blockClass": "producto-lucky"
+        }
+    },
+
+
+    // IMAGEN 
+    "image#banner-lucky-rabbit": {
+        "props": {
+            "src": "/arquivos/Lanzamiento-ano-chino-Banner-Landing-escritorio.jpg"
+        }
+    },
+    "image#bannerSecundario-lucky-rabbit": {
+        "props": {
+            "src": "/arquivos/Lanzamiento-ano-chino-Banner-Seo-Escritorio.jpg"
+        }
+    },
+
+    "image#producto1-lucky-rabbit": {
+      "props": {
+        "src": "/arquivos/Lanzamiento-ano-chino-Ref1-Home.jpg",
+        "link": {
+            "url": "/"
+        }
+      }
+    },
+
+    "image#producto2-lucky-rabbit": {
+        "props": {
+          "src": "/arquivos/Lanzamiento-ano-chino-Ref2-Home.jpg",
+          "link": {
+              "url": "/"
+          }
+        }
+      },
+
+      "image#producto3-lucky-rabbit": {
+        "props": {
+          "src": "/arquivos/Lanzamiento-ano-chino-Ref3-Home.jpg",
+          "link": {
+              "url": "/"
+          }
+        }
+      },
+      "image#inspiracion-lucky-rabbit": {
+        "props": {
+          "src": "/arquivos/Lanzamiento-ano-chino-Banner-escritorio-Completo.jpg"
+        }
+      },
+      "image#footer-lucky-rabbit": {
+        "props": {
+          "src": "/arquivos/git-rabbit-1.gif",
+          "link": {
+              "url": "/"
+          }
+        }
+      },
+
+      "image#footer2-lucky-rabbit": {
+        "props": {
+          "src": "/arquivos/footer-uno-lucky.jpg",
+          "link": {
+              "url": "/"
+          }
+
+        }
+      },
+      "image#footer3-lucky-rabbit": {
+        "props": {
+          "src": "/arquivos/footer-dos-lucky.jpg",
+          "link": {
+              "url": "/"
+          }
+
+        }
+      }
+}

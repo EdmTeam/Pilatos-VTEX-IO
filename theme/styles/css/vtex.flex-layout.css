@@ -1,3 +1,11 @@
+.flexCol--img-footer-lucky-rabbit{
+  margin-right: 5px;
+}
+
+.flexRowContent--content-footer-lucky{
+  width: 50%;
+  margin: 0 auto;
+}
 .bannerAguaBendita {
   border: red;
   width: 200px;
