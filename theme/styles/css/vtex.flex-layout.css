@@ -2417,8 +2417,7 @@
     width: 100%;
     text-align: center;
   }
-
-
+  
   .flexRow--static-accordion :global(.vtex-menu-2-x-styledLinkContent) {
     background-color: #d3d6d7;
     padding: 12px 10px;
@@ -2426,6 +2425,7 @@
     white-space: break-spaces;
     line-height: 1.3rem;
   }
+
   .flexRow--static-accordion :global(.vtex-rich-text-0-x-container--static-accordion-content) {
     background-color: #eeeeee;
     padding: 10px;
