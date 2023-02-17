@@ -13,6 +13,17 @@
     color: white;
 }
 
+.styledLinkContent--itemMenuLevelIconMobile {
+    font-weight: 700;
+    font-size: 12px !important;
+    line-height: 17px !important;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #000000;
+    margin: 0.5rem 0.5rem;
+    text-decoration: none;
+  }
+
 .menuItem--item-departmentos {
     background-color: black;
     width: 205px;
@@ -157,6 +168,10 @@
     border-radius: 8px;
     padding: 5px;
     margin-top: -5px;
+}
+
+.styledLinkContent--menuLinkHeaderPilatos{
+    line-height: 133% !important;
 }
 
 /* Estilos al menu */

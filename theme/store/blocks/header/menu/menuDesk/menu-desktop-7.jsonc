@@ -28,6 +28,15 @@
         "tagTitle": "PILATOS",
         "text": "PILATOS"
       },
+      "iconProps": {
+        "id": "hpa-eyes",
+        "size": 16,
+        "viewBox": "0 0 16 16",
+        "activeClassName": "rebel-pink",
+        "mutedClassName": "c-action-primary",
+        "iconToTheRight": true
+      },
+
       "blockClass": [
         "menuLinkHeader",
         "menuLinkHeaderPilatos"

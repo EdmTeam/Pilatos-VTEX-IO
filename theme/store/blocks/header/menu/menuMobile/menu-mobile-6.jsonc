@@ -5,18 +5,20 @@
             // "drawer#submenu-level-1-row-6"
         ],
         "props": {
-            "blockClass": "contenItemsLevel1"
+            "blockClass": "iconPilatosMobileNew"
         }
     },
 
     //Texto del menu
     "flex-layout.row#submenu-level-1-texto-row-6": {
         "children": [
-            "rich-text#submenu-level-1-texto-row-6"
+          //  "rich-text#submenu-level-1-texto-row-6",
+            "menu-item#iconpilatos"
             // "rich-text#submenu-level-1-icono-row-6"
         ],
         "props":{
-            "preserveLayoutOnMobile":true
+            "preserveLayoutOnMobile":true,
+            "preventHorizontalStretch":true
         }
     },
 
@@ -27,6 +29,35 @@
             "width": "90%"
         }
     },
+// inicio billy
+"menu-item#iconpilatos": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/pilatos",
+        "noFollow": false,
+        "tagTitle": "PILATOS",
+        "text": "PILATOS"
+      },
+      "iconProps": {
+        "id": "hpa-eyes",
+        "size": 16,
+        "viewBox": "0 0 16 16",
+        "activeClassName": "rebel-pink",
+        "mutedClassName": "c-action-primary",
+        "iconToTheRight": true
+      },
+      "preserveLayoutOnMobile":true,
+
+      "blockClass": [
+        "itemMenuLevelIconMobile"
+              ]
+    }
+  },
+
+// fin billy
 
     "rich-text#submenu-level-1-icono-row-6": {
         "props": {
@@ -97,7 +128,15 @@
         ],
         "props": {
             "orientation": "vertical",
-            "blockClass": "menu-drawer"
+            "blockClass": "menu-drawer",
+            "iconProps": {
+                "id": "hpa-eyes",
+                "size": 16,
+                "viewBox": "0 0 16 16",
+                "activeClassName": "rebel-pink",
+                "mutedClassName": "c-action-primary",
+                "iconToTheRight": true
+              }
         }
     }
 }
