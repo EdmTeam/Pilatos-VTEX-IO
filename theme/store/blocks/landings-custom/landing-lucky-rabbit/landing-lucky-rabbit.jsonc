@@ -19,7 +19,9 @@
             "flex-layout.row#productos-lucky-rabbit",
             "flex-layout.row#inspiracion-lucky-rabbit",
             "flex-layout.row#most-viewed",
-          "flex-layout.row#footer-lucky-rabbit"
+          "flex-layout.row#footer-lucky-rabbit",
+          "rich-text#filtro-seo" 
+
 
         ]
     },
@@ -31,7 +33,9 @@
             "flex-layout.row#productos-lucky-rabbit",
             "flex-layout.row#inspiracion-lucky-rabbit",
             "flex-layout.row#most-viewed",
-          "flex-layout.row#footer-lucky-rabbit"
+          "flex-layout.row#footer-lucky-rabbit",
+          "rich-text#filtro-seo" 
+
 
         ]
     },

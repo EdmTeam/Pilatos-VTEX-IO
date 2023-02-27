@@ -1,0 +1,120 @@
+{
+    "store.custom#video-carrousel": {
+        "blocks": [
+            "flex-layout.row#banner-landing-banner-video-fashion",
+            "flex-layout.row#most-viewed",
+            "rich-text#landing-banner-video-fashion-description"
+        ],
+        "props": {
+            "blockClass": "contentStoreCustom"
+        }
+    },
+    "flex-layout.row#banner-landing-banner-video-fashion": {
+        "children": [
+            "flex-layout.col#banner-landing-banner-video-fashion"
+        ],
+        "props": {
+            "blockClass": "contentSearch"
+        }
+    },
+    "flex-layout.col#banner-landing-banner-video-fashion": {
+        "children": [
+            "rich-text#landing-banner-video-fashion-bread-crumb",
+            "rich-text#landing-banner-video-fashion-title",
+         
+            "responsive-layout.desktop#videoFashionShow",
+            "responsive-layout.tablet#videoFashionShow",
+
+            "responsive-layout.phone#videoFashionShow"
+        ]
+    },
+    // TEXTO 
+    "rich-text#landing-banner-video-fashion-bread-crumb": {
+        "props": {
+            "text": "[Home](/) / [**Diesel Fashion Show**](/diesel-fashion-show)",
+            "blockClass": "departmentBreadCrumb"
+        }
+    },
+    "rich-text#landing-banner-video-fashion-title": {
+        "props": {
+            "text": "# Diesel Fashion Show",
+            "blockClass": "departmentTitle"
+        }
+    },
+    "rich-text#landing-banner-video-fashion-description": {
+        "props": {
+            "text": "Encuentra los productos originales Diesel más destacados en Pilatos Store. Desde denim, jeans, tenis, camisetas, accesorios hasta las últimas colecciones para hombre y mujer con productos elaborados bajo la sostenibilidad. Único y atrevido, así es el estilo Diesel. ¡Descúbrelo aquí!",
+            "blockClass": "departmentDescription",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+   
+    // video escritorio
+
+        "responsive-layout.desktop#videoFashionShow": {
+            "children": [
+                "flex-layout.row#videoFashionShow"
+            ]
+        },
+
+        "responsive-layout.tablet#videoFashionShow": {
+            "children": [
+                "flex-layout.row#videoFashionShow"
+            ],
+            "props": {
+                "blockClass": "contentSearch"
+            }
+        },
+
+        "flex-layout.row#videoFashionShow": {
+            "props": {
+                "horizontalAlign": "center",
+                "blockClass": "rowLandingOrderFromDiesel"
+            },
+            "children": [
+                "video#videoFashionShow"
+            ]
+        },
+        "video#videoFashionShow": {
+            "props": {
+                "width": "100%",
+                "height": "600px",
+                "loop": false,
+                "autoPlay": true,
+                "muted": false,
+                "src": "https://www.youtube.com/watch?v=udhzojoFvuI",
+                "blockClass": "videoEl"
+            }
+        },
+      
+
+    // video mobile
+    "responsive-layout.phone#videoFashionShow": {
+        "children": [
+            "flex-layout.row#videoFashionShowMobile"
+        ],
+        "props": {
+            "blockClass": "contentSearch"
+        }
+    },
+    "flex-layout.row#videoFashionShowMobile": {
+        "props": {
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "video#videoFashionShowMobile"
+        ]
+    },
+    "video#videoFashionShowMobile": {
+        "props": {
+            "width": "100%",
+            "height": "300px",
+            "loop": false,
+            "autoPlay": true,
+            "muted": false,
+            "src": "https://www.youtube.com/watch?v=udhzojoFvuI",
+            "blockClass": "videoEl"
+        }
+    }
+}

@@ -7,7 +7,9 @@
             "flex-layout.row#productos3-lucky-mobile",
             "list-context.image-list#colores-lucky",
             "flex-layout.row#most-viewed",
-            "image#footer-lucky-rabbit-mobile"
+            "image#footer-lucky-rabbit-mobile",
+            "rich-text#filtro-seo" 
+
 
 
         ]

@@ -36,7 +36,9 @@
             "rich-text#submenu-desk-department-4-category-30",
             "rich-text#submenu-desk-department-4-category-31",
             "rich-text#submenu-desk-department-4-category-32",
-            "rich-text#submenu-desk-department-4-category-33"
+            "rich-text#submenu-desk-department-4-category-33",
+            "rich-text#submenu-desk-department-4-category-34"
+
 
 
 
@@ -259,6 +261,12 @@
     "rich-text#submenu-desk-department-4-category-33":{
         "props":{
             "text": "[Champions](/champions)",
+            "blockClass": "textCategory"
+        }
+    },
+    "rich-text#submenu-desk-department-4-category-34":{
+        "props":{
+            "text": "[O Neil](/o-neil)",
             "blockClass": "textCategory"
         }
     }
