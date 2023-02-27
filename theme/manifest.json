@@ -1,7 +1,7 @@
 {
   "vendor": "pilatos21",
   "name": "theme",
-  "version": "3.0.175",
+  "version": "3.0.176",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
@@ -75,7 +75,6 @@
     "pilatos21.memory-game": "0.x",
     "pilatos21.smallcomponents": "0.x",
     "vtex.store-video": "1.x"
-
   },
   "peerDependencies": {
     "pilatos21.wishlist": "0.x",
