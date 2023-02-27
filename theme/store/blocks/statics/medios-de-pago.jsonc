@@ -46,7 +46,7 @@
             "menu-item#tarjeta-addi",
             "menu-item#tarjeta-boton-bancolombia",
             "menu-item#tarjeta-codensa",
-            //"menu-item#tarjeta-contraentrega",
+            "menu-item#tarjeta-contraentrega",
             "menu-item#tarjeta-sistecredito",
             "menu-item#tarjeta-boleto-banco"
            

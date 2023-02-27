@@ -73,7 +73,9 @@
     "pilatos21.store-locator": "1.x",
     "pilatos21.size-guide": "0.x",
     "pilatos21.memory-game": "0.x",
-    "pilatos21.smallcomponents": "0.x"
+    "pilatos21.smallcomponents": "0.x",
+    "vtex.store-video": "1.x"
+
   },
   "peerDependencies": {
     "pilatos21.wishlist": "0.x",

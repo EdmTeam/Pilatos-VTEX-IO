@@ -32,7 +32,9 @@
             "responsive-layout.tablet#categoriaBeachwear",
             "responsive-layout.tablet#gafasBeachwear",
             "responsive-layout.tablet#playaBeachwear",
-            "search-result-layout.customQuery#landing-toda-la-tienda"
+            "search-result-layout.customQuery#landing-toda-la-tienda",
+            "rich-text#filtro-seo" 
+
  
         ]
     },

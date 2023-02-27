@@ -33,7 +33,9 @@
                     "responsive-layout.tablet#bannerAguaBenditaSecundario",
                     "responsive-layout.tablet#bannerAguaBenditaStreet",
                     "responsive-layout.phone#bannerAguaBendita",
-                    "search-result-layout.customQuery#landing-toda-la-tienda"
+                    "search-result-layout.customQuery#landing-toda-la-tienda",
+                    "rich-text#filtro-seo" 
+
     
                 ] 
             },

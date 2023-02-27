@@ -31,7 +31,9 @@
             "responsive-layout.tablet#bannerAguaBenditaStreetNew",
             "responsive-layout.tablet#super-infe-aguaBendita",
             "responsive-layout.tablet#bannerAguaBenditaStreetAccesorios",
-            "responsive-layout.phone#bannerAguaBenditaStreetNew"
+            "responsive-layout.phone#bannerAguaBenditaStreetNew",
+            "rich-text#filtro-seo" 
+
 
         
         ]
