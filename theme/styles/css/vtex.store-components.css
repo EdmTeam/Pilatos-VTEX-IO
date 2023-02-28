@@ -1,5 +1,12 @@
 
 
+.hideDecorators{
+    background: yellow;
+}
+.vtex-styleguide-9-x-input::placeholder {
+    text-align: right; /* o la alineación deseada */
+  }
+  
 .productDescriptionContainer{
     max-width: 80%;
     margin: 0 auto;
@@ -63,6 +70,7 @@
 
 :global(.vtex-styleguide-9-x-input)::placeholder{
     color: #260C11;
+    text-align: right;
 }
 
 :global(.vtex-input__suffix){
