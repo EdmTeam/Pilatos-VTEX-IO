@@ -122,8 +122,8 @@
     },
     "form#cybersale": {
         "props": {
-            "entity": "FL",
-            "schema": "formularioslandings"
+            "entity": "DC",
+            "schema": "cyber"
         },
         "children": [
             "form-input.text#cybersale-form-name",
