@@ -18,7 +18,7 @@
     "flex-layout.col#content-dsi": {
         "children": [
             "rich-text#desc-dsi",
-           // "flex-layout.row#title-and-form-dsi",
+          // "flex-layout.row#title-and-form-dsi",
             "responsive-layout.desktop#banner-precios-dsi",
             "responsive-layout.mobile#banner-precios-dsi",
             "rich-text#button-to-event",
@@ -114,8 +114,8 @@
     },
     "form#dsi": {
         "props": {
-            "entity": "DS",
-            "schema": "dsi"
+            "entity": "DC",
+            "schema": "cyber"
         },
         "children": [
             "form-input.text#dsi-form-name",
