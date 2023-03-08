@@ -1,0 +1,262 @@
+{
+    "store.custom#pillar-tenis": {
+        "blocks": [
+            "flex-layout.row#pillar-tenis",
+            "search-result-layout.customQuery#pillar-tenis-pilatos",
+            "rich-text#pillar-tenis-seo-hombre",
+            "rich-text#pillar-tenis-seo-hombre-p",
+            "rich-text#pillar-tenis-seo-perfecto",
+            "rich-text#pillar-tenis-seo-perfecto-p",
+            "rich-text#pillar-tenis-seo-moda",
+            "rich-text#pillar-tenis-seo-moda-p"
+            
+        ],
+        "props": {
+            "blockClass": "contentStoreCustom"
+        }
+    },
+    "flex-layout.row#pillar-tenis": {
+        "children": [
+            "flex-layout.col#pillar-tenis"
+        ],
+        "props": {
+            "blockClass": "contentSearch"
+        }
+    },
+    "flex-layout.col#pillar-tenis": {
+        "children": [
+            "rich-text#pillar-tenis-bread-crumb",
+            "rich-text#pillar-tenis-title",
+            "responsive-layout.desktop#pillar-tenis-banners",
+            "responsive-layout.phone#pillar-tenis-banners",
+            "responsive-layout.tablet#pillar-tenis-banners"
+        ]
+    },
+    "responsive-layout.desktop#pillar-tenis-banners": {
+        "children": [
+            "flex-layout.col#department-pilatos-banners-1a",
+            "list-context.image-list#demo-pillar"
+            
+        ]
+    },
+
+    // mobile 
+    "responsive-layout.phone#pillar-tenis-banners": {
+        "children": [
+            "flex-layout.col#department-pilatos-banners-1b",
+            "list-context.image-list#demo-pillar"
+            
+        ]
+    },
+
+    "responsive-layout.tablet#pillar-tenis-banners": {
+        "children": [
+            "flex-layout.col#department-pilatos-banners-1a",
+            "list-context.image-list#demo-pillar"
+            
+        ]
+    },
+    "rich-text#pillar-tenis-bread-crumb": {
+        "props": {
+            "text": "[Home](/) / [**Tenis**](/tenis)",
+            "blockClass": "departmentBreadCrumb"
+        }
+    },
+    "rich-text#pillar-tenis-title": {
+        "props": {
+            "text": "# Tenis ",
+            "blockClass": "departmentTitle"
+        }
+    },
+    "search-result-layout.customQuery#pillar-tenis-pilatos": {
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile#pilatos"
+        ],
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByScoreDESC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 48,
+                "queryField": "1321",
+                "mapField": "productClusterIds"
+            }
+        }
+    },
+    "flex-layout.col#department-pilatos-banners-1a": {
+        "children": [
+            "image#department-pilatos-banners-1-img-1a"
+        ],
+        "props": {
+            "blockClass": "contentBannersDesk"
+        }
+    },
+    "image#department-pilatos-banners-1-img-1a": {
+        "props": {
+            "src": "/arquivos/Pilatos_Banner_principal_Desktop.jpg",
+            "link": {
+                "url": "/pilatos",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+    "flex-layout.col#department-pilatos-banners-1b": {
+        "children": [
+            "image#department-pilatos-banners-1-img-1b"
+        ],
+        "props": {
+            "blockClass": "contentBannersDesk"
+        }
+    },
+    "image#department-pilatos-banners-1-img-1b": {
+        "props": {
+            "src": "/arquivos/Pilatos_Banner_principal_Desktop.jpg",
+            "link": {
+                "url": "/pilatos",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+    // Marca imagenes 
+    "list-context.image-list#demo-pillar": {
+        "children": [
+            "rich-text#pillar-tenis-title-marca",
+            "slider-layout#demo-images-pillar"
+        ],
+        "props": {
+            "preload": true,
+            "height": 100,
+            "images": [
+                {
+                    "image": "/arquivos/Pilatos-PilarPageTenis-NB.png",
+                    "link": {
+                        "url": "/"
+                    }
+                },
+                {
+                    "image": "/arquivos/Pilatos-PilarPageTenis-Diesel.png",
+                    "link": {
+                        "url": "/"
+                    }
+                },
+                {
+                    "image": "/arquivos/Pilatos-PilarPageTenis-Nike.png",
+                    "link": {
+                        "url": "/"
+                    }
+                },
+                {
+                    "image": "/arquivos/Pilatos-PilarPageTenis-LeCoq.png",
+                    "link": {
+                        "url": "/"
+                    }
+                },
+                {
+                    "image": "/arquivos/Pilatos-PilarPageTenis-Lacoste.png",
+                    "link": {
+                        "url": "/"
+                    }
+                },
+                {
+                    "image": "/arquivos/Pilatos-PilarPageTenis-Vans.png",
+                    "link": {
+                        "url": "/"
+                    }
+                },
+                {
+                    "image": "/arquivos/Pilatos-PilarPageTenis-Replay.png",
+                    "link": {
+                        "url": "/"
+                    }
+                },
+                {
+                    "image": "/arquivos/Pilatos-PilarPageTenis-Superdry.png",
+                    "link": {
+                        "url": "/"
+                    }
+                },
+                {
+                    "image": "/arquivos/Pilatos-PilarPageTenis-Oakley.png",
+                    "link": {
+                        "url": "/"
+                    }
+                }
+               
+            ]
+        }
+    },
+    "slider-layout#demo-images-pillar": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 9,
+                "tablet": 4,
+                "phone": 3
+            },
+            "infinite": true
+        }
+    },
+
+    // seo información 
+
+    "rich-text#pillar-tenis-title-marca": {
+        "props": {
+            "text": "## Compra las tenis de tu marca favorita",
+            "blockClass": "departmentTitle",
+            "textPosition": "CENTER"
+        }
+    },
+
+    "rich-text#pillar-tenis-seo-hombre": {
+        "props": {
+            "text": "## Tenis de hombre para todos los estilos",
+            "blockClass": "departmentTitle",
+            "textPosition": "CENTER"
+        }
+    },
+
+    "rich-text#pillar-tenis-seo-hombre-p": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Queremos que siempre tengas a tu alcance una amplia variedad de tenis, con estilos que se adaptan a cualquier look y personalidad. \n Escoge entre reconocidas marcas como New Balance, Diesel, Nike, Le Coq Sportif, Lacoste, Vans, Replay, Superdry y Oakley la que mejor se ajuste a ti.",
+            "blockClass": "seo-pillar"
+        }
+    },
+
+    "rich-text#pillar-tenis-seo-perfecto": {
+        "props": {
+            "text": "## Para cualquier momento del día, tenemos el par perfecto",
+            "blockClass": "departmentTitle",
+            "textPosition": "CENTER"
+        }
+    },
+
+    "rich-text#pillar-tenis-seo-perfecto-p": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Ya sea que vayas al gym o salgas a un parche con tus amigos, tenemos los tenis perfectos para combinar con ese look deportivo o con esa chaqueta que tanto te gusta.  \n Sabemos que tus dias son bastante ocupados, por eso queremos ofrecerte comodidad y estilo en cada paso que des.",
+            "blockClass": "seo-pillar"
+        }
+    },
+    "rich-text#pillar-tenis-seo-moda": {
+        "props": {
+            "text": "## Avanzando a la par de la moda",
+            "blockClass": "departmentTitle",
+            "textPosition": "CENTER"
+        }
+    },
+
+    "rich-text#pillar-tenis-seo-moda-p": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Somos conscientes que no solo quieres sentirte cómodo, si no que tambien quieres estar siempre a la moda, por eso encontrarás dentro de nuestro catalogó de marcas, cientos de estilos, desde los tenis más clásicos hasta lo más actual en tendencias. \n No importa cual escojas, puedes estar seguro de que avanzas con la moda.",
+            "blockClass": "seo-pillar"
+        }
+    }
+  
+}

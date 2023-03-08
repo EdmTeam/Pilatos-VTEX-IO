@@ -303,7 +303,7 @@
     },
     "rich-text#submenu-level-2-item-33-row-7":{
         "props":{
-            "text": "[Champions](/champions)",
+            "text": "[Champion](/champion)",
             "blockClass": "contentSubMenuAcordeon"
         }
     },

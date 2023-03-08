@@ -260,7 +260,7 @@
     },
     "rich-text#submenu-desk-department-4-category-33":{
         "props":{
-            "text": "[Champions](/champions)",
+            "text": "[Champion](/champion)",
             "blockClass": "textCategory"
         }
     },
