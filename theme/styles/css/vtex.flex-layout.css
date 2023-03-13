@@ -1087,6 +1087,12 @@
 .flexRow--contentSearch{
   width: 100%;
 }
+.flexRow--contentPillar{
+  margin: 0 auto;
+  width: 70%;
+  margin-bottom: 5px;
+}
+
 
 .flexCol--contentBannersDesk{
   height: auto;

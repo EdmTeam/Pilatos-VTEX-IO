@@ -19,6 +19,9 @@
     .sliderArrows--contentBanner{
         display: none;
     }
+
+
+  
 }
 
 @media only screen and (min-width: 740px) {
@@ -26,6 +29,7 @@
         width: 85% !important;
     }
 }
+
 
 .sliderLayoutContainer--contentBanner{
     margin-bottom: 2rem;
