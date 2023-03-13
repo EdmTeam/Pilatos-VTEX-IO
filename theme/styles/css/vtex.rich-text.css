@@ -423,6 +423,17 @@
   .container--textTopHeader {
     display: block;
   }
+/* billy pillar tenis mobile*/
+  .wrapper--departmentTitle .heading {
+    font-size: 22px;
+    margin: 1.5rem 0 .5rem 0 !important;
+  }
+
+  .wrapper--seo-pillar {
+    margin: 0.1rem 0;
+    padding: 0 !important;
+    
+  }
 
   .paragraph--textTopHeader {
     padding: 4px 2rem !important;
