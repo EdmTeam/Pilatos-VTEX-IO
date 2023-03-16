@@ -4,6 +4,7 @@
             "flex-layout.row#pillar-tenis",
             "search-result-layout.customQuery#pillar-tenis-pilatos",
             "responsive-layout.desktop#categoriasPillar",
+            "responsive-layout.tablet#categoriasPillar",
             "responsive-layout.phone#category-pillar",
             "rich-text#pillar-tenis-seo-hombre",
             "rich-text#pillar-tenis-seo-hombre-p",
@@ -31,6 +32,12 @@
     },
 
     "responsive-layout.desktop#categoriasPillar": {
+        "children": [
+            "flex-layout.row#categoriasPillar"
+        ]
+    },
+
+    "responsive-layout.tablet#categoriasPillar": {
         "children": [
             "flex-layout.row#categoriasPillar"
         ]
@@ -101,7 +108,7 @@
       "props": {
         "src": "/arquivos/Pilatos-PilarPageTenis-Camisetas1000x1000.jpg",
         "link": {
-            "url": "/"
+            "url": "/camisetas"
         },
         "blockClass": "departmentBannerImg-mundial"
 
@@ -113,7 +120,7 @@
         "props": {
           "src": "/arquivos/Pilatos-PilarPageTenis-Jeans1000x1000.jpg",
           "link": {
-              "url": "/"
+              "url": "/jeans"
           },
           "blockClass": "departmentBannerImg-mundial"
 
@@ -125,7 +132,7 @@
         "props": {
           "src": "/arquivos/Pilatos-PilarPageTenis-Ropa1000x1000.jpg",
           "link": {
-              "url": "/"
+              "url": "/ropa%20deportiva?_q=ropa%20deportiva&map=ft"
           },
           "blockClass": "departmentBannerImg-mundial"
 
@@ -219,55 +226,55 @@
                 {
                     "image": "/arquivos/Pilatos-PilarPageTenis-NB.png",
                     "link": {
-                        "url": "/"
+                        "url": "/new%20balance%20tenis?_q=new%20balance%20tenis&map=ft"
                     }
                 },
                 {
                     "image": "/arquivos/Pilatos-PilarPageTenis-Diesel.png",
                     "link": {
-                        "url": "/"
+                        "url": "/diesel%20tenis?_q=diesel%20tenis&map=ft"
                     }
                 },
                 {
                     "image": "/arquivos/Pilatos-PilarPageTenis-Nike.png",
                     "link": {
-                        "url": "/"
+                        "url": "/nike%20tenis?_q=nike%20tenis&map=ft"
                     }
                 },
                 {
                     "image": "/arquivos/Pilatos-PilarPageTenis-LeCoq.png",
                     "link": {
-                        "url": "/"
+                        "url": "/le-coq-sportif?initialMap=b&initialQuery=Le-Coq-Sportif&map=category-3,brand&query=/tenis/le-coq-sportif&searchState"
                     }
                 },
                 {
                     "image": "/arquivos/Pilatos-PilarPageTenis-Lacoste.png",
                     "link": {
-                        "url": "/"
+                        "url": "/lacoste?initialMap=b&initialQuery=lacoste&map=category-3,brand&query=/tenis/lacoste&searchState"
                     }
                 },
                 {
                     "image": "/arquivos/Pilatos-PilarPageTenis-Vans.png",
                     "link": {
-                        "url": "/"
+                        "url": "/vans%20tenis?_q=vans%20tenis&map=ft"
                     }
                 },
                 {
                     "image": "/arquivos/Pilatos-PilarPageTenis-Replay.png",
                     "link": {
-                        "url": "/"
+                        "url": "/replay%20tenis?_q=replay%20tenis&map=ft"
                     }
                 },
                 {
                     "image": "/arquivos/Pilatos-PilarPageTenis-Superdry.png",
                     "link": {
-                        "url": "/"
+                        "url": "/superdry%20tenis?_q=superdry%20tenis&map=ft"
                     }
                 },
                 {
                     "image": "/arquivos/Pilatos-PilarPageTenis-Oakley.png",
                     "link": {
-                        "url": "/"
+                        "url": "/oakley%20tenis?_q=oakley%20tenis&map=ft"
                     }
                 }
                
@@ -360,19 +367,19 @@
                 {
                     "image": "/arquivos/Pilatos-PilarPageTenis-Camisetas1000x1000.jpg",
                     "link": {
-                        "url": "/"
+                        "url": "/camisetas"
                     }
                 },
                 {
                     "image": "/arquivos/Pilatos-PilarPageTenis-Jeans1000x1000.jpg",
                     "link": {
-                        "url": "/"
+                        "url": "/jeans"
                     }
                 },
                 {
                     "image": "/arquivos/Pilatos-PilarPageTenis-Ropa1000x1000.jpg",
                     "link": {
-                        "url": "/"
+                        "url": "https://www.pilatos.com/ropa%20deportiva?_q=ropa%20deportiva&map=ft"
                     }
                 }
                
@@ -384,6 +391,7 @@
         "props": {
             "itemsPerPage": {
                 "desktop": 3,
+                "tablet": 3,
                 "phone": 2
             },
             "infinite": true

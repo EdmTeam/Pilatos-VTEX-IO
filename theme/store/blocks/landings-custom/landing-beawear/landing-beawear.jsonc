@@ -24,7 +24,7 @@
             "responsive-layout.tablet#bannerBeachwear",
             "responsive-layout.tablet#generoBeachwear",
             "responsive-layout.phone#BeachWearMobile",
-            "flex-layout.row#brandsBeachwear",
+           // "flex-layout.row#brandsBeachwear",
             "responsive-layout.phone#BeachWearMobile-secundario",
             "responsive-layout.desktop#categoriaBeachwear",
             "responsive-layout.desktop#gafasBeachwear",
