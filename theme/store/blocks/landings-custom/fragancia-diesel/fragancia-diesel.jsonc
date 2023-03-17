@@ -1,0 +1,93 @@
+{
+    "store.custom#fragancia-diesel":{
+        "blocks":[
+            "flex-layout.row#banner-department-fragancia-diesel",
+            "flex-layout.row#most-viewed",
+            "search-result-layout.customQuery#department-fragancia-diesel"
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
+    },
+
+    "flex-layout.row#banner-department-fragancia-diesel":{
+        "children":[
+            "flex-layout.col#banner-department-fragancia-diesel"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#banner-department-fragancia-diesel":{
+        "children":[
+            "rich-text#departmen-fragancia-diesel-bread-crumb",
+            "rich-text#department-fragancia-diesel-title",
+            "responsive-layout.desktop#department-fragancia-diesel-banners",
+            "responsive-layout.tablet#department-fragancia-diesel-banners",
+            "responsive-layout.phone#department-fragancia-diesel-banners"
+        ]
+    },
+
+    "responsive-layout.desktop#department-fragancia-diesel-banners":{
+        "children":[
+            "flex-layout.col#department-fragancia-diesel-banners-1"
+        ]
+    },
+
+    "rich-text#departmen-fragancia-diesel-bread-crumb":{
+        "props":{
+            "text": "[Home](/) / [**Pilatos**](/pilatos)",
+            "blockClass": "departmentBreadCrumb"
+        }
+    },
+
+    "rich-text#department-fragancia-diesel-title":{
+        "props":{
+            "text": "# Fragancia Diesel",
+            "blockClass": "departmentTitle"
+        }
+    },
+
+
+    "search-result-layout.customQuery#department-fragancia-diesel": {
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile#fragancia-diesel"
+        ],
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByScoreDESC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 48,
+                "queryField": "pilatos",
+                "mapField": "b"
+            }
+        }
+    },
+
+    "flex-layout.col#department-fragancia-diesel-banners-1":{
+        "children":[
+            "image#department-fragancia-diesel-banners-1-img-1"
+        ],
+        "props":{
+            "blockClass":"contentBannersDesk"
+        }
+    },
+
+    "image#department-fragancia-diesel-banners-1-img-1": {
+        "props": {
+            "src": "/arquivos/Pilatos-DieselFEP-Act-Banner-Landing-Desk.jpg",
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+    "flex-layout.col#department-fragancia-diesel-banners-2":{
+        "children":[
+            "image#department-fragancia-diesel-banners-1-img-1"
+        ],
+        "props":{
+            "blockClass":"contentBannersDesk"
+        }
+    }
+}
