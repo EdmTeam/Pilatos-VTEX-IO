@@ -1,0 +1,116 @@
+{
+    "responsive-layout.phone#fraganciaMobile":{
+        "children": [
+            "image#fraganciaBannerMobile",
+            "image#comprarFraganciaMobile",
+            "image#descripcionFraganciaMobile",
+            "flex-layout.row#videoFraganciaMobile",
+           "list-context.image-list#ingredienteFragancia",
+            "list-context.image-list#franganciaFooter"
+
+        ]
+    },
+    // imagen list final 
+"list-context.image-list#ingredienteFragancia": {
+    "children": [
+        "slider-layout#ingredienteFragancia"
+    ],
+    "props": {
+        "preload": true,
+        "height": 650,
+        "images": [
+            {
+                "image": "/arquivos/Fragancia-Pilatos-Ingredientes-1.jpg",
+                "description": "something something"
+            },
+            {
+                "image": "/arquivos/Fragancia-Pilatos-Ingredientes-2.jpg",
+                "description": "something something"
+            },
+            {
+                "image": "/arquivos/Fragancia-Pilatos-Ingredientes-3.jpg",
+                "description": "something something"
+            }
+        ]
+    }
+},
+"slider-layout#ingredienteFragancia": {
+    "props": {
+        "itemsPerPage": {
+            "desktop": 6,
+            "tablet": 4,
+            "phone": 2
+        },
+        "infinite": true,
+        "blockClass": "ingredienteFragancia"
+    }
+},
+
+// imagen list final 
+"list-context.image-list#franganciaFooter": {
+    "children": [
+        "slider-layout#franganciaFooter"
+    ],
+    "props": {
+        "preload": true,
+        "height": 650,
+        "images": [
+            {
+                "image": "/arquivos/Fragancia-Pilatos-Carrusel-1-mobile.jpg",
+                "description": "something something"
+            },
+            {
+                "image": "/arquivos/Fragancia-Pilatos-Carrusel-2-mobile.jpg",
+                "description": "something something"
+            },
+            {
+                "image": "/arquivos/Fragancia-Pilatos-Carrusel-3-mobile.jpg",
+                "description": "something something"
+            },
+            {
+                "image": "/arquivos/Fragancia-Pilatos-Carrusel-4-mobile.jpg",
+                "description": "something something"
+            },
+            {
+                "image": "/arquivos/Fragancia-Pilatos-Carrusel-5-mobile.jpg",
+                "description": "something something"
+            },
+            {
+                "image": "/arquivos/Fragancia-Pilatos-Carrusel-6-mobile.jpg",
+                "description": "something something"
+            }
+        ]
+    }
+},
+"slider-layout#franganciaFooter": {
+    "props": {
+        "itemsPerPage": {
+            "desktop": 6,
+            "tablet": 4,
+            "phone": 1
+        },
+        "infinite": true,
+        "showNavigationArrows": "never"
+    }
+},
+    // imagenes mobile
+
+    "image#fraganciaBannerMobile": {
+      "props": {
+        "src": "/arquivos/Pilatos-Fragancia-Banner-Landing-Mobile.jpg"
+      }
+    },
+    "image#comprarFraganciaMobile": {
+        "props": {
+          "src": "/arquivos/Gif-fragancia.gif",
+          "link": {
+            "url": "/fragancia"
+          }
+        }
+      },
+      "image#descripcionFraganciaMobile": {
+        "props": {
+          "src": "/arquivos/Pilatos-Fragancia-Banner-descripcion.jpg"
+        }
+      }
+}

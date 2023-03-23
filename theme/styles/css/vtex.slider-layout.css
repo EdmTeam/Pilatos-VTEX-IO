@@ -4,7 +4,9 @@
         margin-right: 0.6% !important;
     }
 } */
-
+.imageElement--ingredienteFragancia{
+    margin-bottom: 2%;
+}
 .sliderLayoutContainer--contentSlide{
     width: 100% !important;
 }

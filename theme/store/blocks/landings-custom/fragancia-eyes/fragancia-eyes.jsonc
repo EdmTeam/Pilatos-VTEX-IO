@@ -1,0 +1,296 @@
+{
+    "store.custom#fragancia-eyes": {
+        "blocks": [
+            "flex-layout.row#fragancia-eyes-seo",
+            "flex-layout.row#layout-fragancia"
+        ],
+        "props": {
+            "blockClass": "contentStoreCustom"
+        }
+    },
+    "flex-layout.row#fragancia-eyes-seo": {
+        "children": [
+            "flex-layout.col#fragancia-eyes-seo"
+        ],
+        "props": {
+            "blockClass": "contentSearch"
+        }
+    },
+    "flex-layout.row#layout-fragancia": {
+        "children": [
+            "flex-layout.col#layout-fragancia"
+        ],
+        "props": {
+            "blockClass": "contentSearch"
+        }
+    },
+    "flex-layout.col#layout-fragancia": {
+        "children": [
+            "responsive-layout.desktop#bannerFraganciaEyes",
+            "responsive-layout.desktop#fraganciayUso",
+            "responsive-layout.desktop#videoFragancia",
+            "responsive-layout.desktop#ingredienteFragancia",
+            "responsive-layout.desktop#imagenListFragancia",
+            "responsive-layout.tablet#bannerFraganciaEyes",
+            "responsive-layout.tablet#fraganciayUso",
+            "responsive-layout.tablet#videoFragancia",
+            "responsive-layout.tablet#ingredienteFragancia",
+            "responsive-layout.tablet#imagenListFragancia",
+            "responsive-layout.phone#fraganciaMobile"
+
+        ]
+    },
+    "flex-layout.col#fragancia-eyes-seo": {
+        "children": [
+            "rich-text#fragancia-eyes-Bread-crumb",
+            "rich-text#fragancia-eyes-title"
+        ]
+    },
+    // Bread-crumb y Title
+    "rich-text#fragancia-eyes-Bread-crumb": {
+        "props": {
+            "text": "[Home](/) / [**PilatosEyes**](/Pilatos-Eyes)",
+            "blockClass": "departmentBreadCrumb"
+        }
+    },
+    "rich-text#fragancia-eyes-title": {
+        "props": {
+            "text": "# Pilatos Eyes",
+            "blockClass": "departmentTitle"
+        }
+    },
+
+    
+    // estructura desk
+    "responsive-layout.desktop#bannerFraganciaEyes": {
+        "children": [
+            "image#bannerFraganciaEyes"
+        ]
+    },
+    "responsive-layout.desktop#fraganciayUso": {
+        "children": [
+            "flex-layout.row#fraganciayUso"
+        ]
+    },
+    "flex-layout.row#fraganciayUso": {
+        "children": [
+            "flex-layout.col#fraganciayUso-fragancia",
+            "flex-layout.col#fraganciayUso-uso"
+        ]
+    },
+    "responsive-layout.desktop#imagenListFragancia": {
+        "children": [
+            "list-context.image-list#frangancia"
+        ]
+    },
+    "flex-layout.col#fraganciayUso-fragancia": {
+        "children": [
+            "image#fraganciayUso-fragancia"
+        ]
+    },
+    "flex-layout.col#fraganciayUso-uso": {
+        "children": [
+            "image#fraganciayUso-uso"
+        ]
+    },
+    "responsive-layout.desktop#ingredienteFragancia": {
+        "children": [
+            "flex-layout.row#ingredienteFragancia"
+        ]
+    },
+    "flex-layout.row#ingredienteFragancia": {
+        "children": [
+            "flex-layout.col#ingredienteFragancia-1",
+            "flex-layout.col#ingredienteFragancia-2",
+            "flex-layout.col#ingredienteFragancia-3"
+        ]
+    },
+    "flex-layout.col#ingredienteFragancia-1": {
+        "children": [
+            "image#ingredienteFragancia-1"
+        ]
+    },
+    "flex-layout.col#ingredienteFragancia-2": {
+        "children": [
+            "image#ingredienteFragancia-2"
+        ]
+    },
+    "flex-layout.col#ingredienteFragancia-3": {
+        "children": [
+            "image#ingredienteFragancia-3"
+        ]
+    },
+
+    // estructura tablet
+    "responsive-layout.tablet#bannerFraganciaEyes": {
+        "children": [
+            "image#bannerFraganciaEyes"
+        ]
+    },
+    "responsive-layout.tablet#fraganciayUso": {
+        "children": [
+            "flex-layout.row#fraganciayUso"
+        ]
+    },
+
+    "responsive-layout.tablet#imagenListFragancia": {
+        "children": [
+            "list-context.image-list#frangancia"
+        ]
+    },
+
+    "responsive-layout.tablet#ingredienteFragancia": {
+        "children": [
+            "flex-layout.row#ingredienteFragancia"
+        ]
+    },
+    "responsive-layout.tablet#videoFragancia": {
+        "children": [
+            "flex-layout.row#videoFraganciaMobile"
+        ],
+        "props": {
+            "blockClass": "contentSearch"
+        }
+    },
+    // video escritorio
+    "responsive-layout.desktop#videoFragancia": {
+        "children": [
+            "flex-layout.row#videoFragancia"
+        ]
+    },
+
+    "flex-layout.row#videoFragancia": {
+        "props": {
+            "horizontalAlign": "center",
+            "blockClass": "rowLandingOrderFromDiesel"
+        },
+        "children": [
+            "video#videoFragancia"
+        ]
+    },
+    "video#videoFragancia": {
+        "props": {
+            "width": "100%",
+            "height": "600px",
+            "loop": false,
+            "autoPlay": false,
+            "muted": false,
+            "src": "https://www.youtube.com/embed/LERxo6nw0dQ",
+            "blockClass": "videoEl"
+        }
+    },
+    // video mobile
+    "responsive-layout.phone#videoFraganciaMobile": {
+        "children": [
+            "flex-layout.row#videoFraganciaMobile"
+        ],
+        "props": {
+            "blockClass": "contentSearch"
+        }
+    },
+    "flex-layout.row#videoFraganciaMobile": {
+        "props": {
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "video#videoFraganciaMobile"
+        ]
+    },
+    "video#videoFraganciaMobile": {
+        "props": {
+            "width": "100%",
+            "height": "300px",
+            "loop": false,
+            "autoPlay": true,
+            "muted": false,
+            "src": "https://www.youtube.com/embed/LERxo6nw0dQ",
+            "blockClass": "videoEl"
+        }
+    },
+    // imagen list final 
+    "list-context.image-list#frangancia": {
+        "children": [
+            "slider-layout#frangancia"
+        ],
+        "props": {
+            "preload": true,
+            "height": 650,
+            "images": [
+                {
+                    "image": "/arquivos/Fragancia-Pilatos-Carrusel-1.jpg",
+                    "description": "something something"
+                },
+                {
+                    "image": "/arquivos/Fragancia-Pilatos-Carrusel-2.jpg",
+                    "description": "something something"
+                },
+                {
+                    "image": "/arquivos/Fragancia-Pilatos-Carrusel-3.jpg",
+                    "description": "something something"
+                },
+                {
+                    "image": "/arquivos/Fragancia-Pilatos-Carrusel-4.jpg",
+                    "description": "something something"
+                },
+                {
+                    "image": "/arquivos/Fragancia-Pilatos-Carrusel-5.jpg",
+                    "description": "something something"
+                },
+                {
+                    "image": "/arquivos/Fragancia-Pilatos-Carrusel-6.jpg",
+                    "description": "something something"
+                }
+            ]
+        }
+    },
+    "slider-layout#frangancia": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 6,
+                "tablet": 4,
+                "phone": 1
+            },
+            "infinite": true
+        }
+    },
+    // archivos landing
+    "image#bannerFraganciaEyes": {
+        "props": {
+            "src": "/arquivos/Pilatos-Fragancia-Banner-Landing1-Escritorio.jpg",
+            "blockClass": "departmentBannerImg-mundial"
+        }
+    },
+    "image#fraganciayUso-fragancia": {
+        "props": {
+            "src": "/arquivos/Gif-fragancia.gif",
+            "link": {
+                "url": "/fragancia-100-ml-para-unisex-pil0001m/p?skuId=242467"
+            },
+            "blockClass": "fraganciayUso-uso"
+        }
+    },
+    "image#fraganciayUso-uso": {
+        "props": {
+            "src": "/arquivos/Pilatos-Fragancia-Banner-descripcion.jpg",
+            "blockClass": "fraganciayUso-usoSinLin"
+        }
+    },
+    "image#ingredienteFragancia-1": {
+        "props": {
+            "src": "/arquivos/Fragancia-Pilatos-Ingredientes-1.jpg",
+            "blockClass": "fraganciayUso-usoSinLin"
+        }
+    },
+    "image#ingredienteFragancia-2": {
+        "props": {
+            "src": "/arquivos/Fragancia-Pilatos-Ingredientes-2.jpg",
+            "blockClass": "fraganciayUso-usoSinLin"
+        }
+    },
+    "image#ingredienteFragancia-3": {
+        "props": {
+            "src": "/arquivos/Fragancia-Pilatos-Ingredientes-3.jpg",
+            "blockClass": "fraganciayUso-usoSinLin"
+        }
+    }
+}
