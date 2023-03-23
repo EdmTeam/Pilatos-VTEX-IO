@@ -40,95 +40,147 @@
         // }
       }, 
       "children": [
-        "image#brandsBeachwear-1",
-        "image#brandsBeachwear-2",
-        "image#brandsBeachwear-3",
-        "image#brandsBeachwear-4",
-        "image#brandsBeachwear-5",
-        "image#brandsBeachwear-6",
-        "image#brandsBeachwear-7",
-        "image#brandsBeachwear-8",
-        "image#brandsBeachwear-9"
+        "image#brandsBeachwear-pilatos",
+        "image#brandsBeachwear-rayban",
+        "image#brandsBeachwear-quiksilver",
+        "image#brandsBeachwear-superdry",
+        "image#brandsBeachwear-dzone",
+        "image#brandsBeachwear-agua",
+
+        "image#brandsBeachwear-balance",
+        "image#brandsBeachwear-oakley",
+        "image#brandsBeachwear-diesel",
+        "image#brandsBeachwear-kipling",
+        "image#brandsBeachwear-replay",
+        "image#brandsBeachwear-girbaud",
+        "image#brandsBeachwear-oneill",
+        "image#brandsBeachwear-monastery"
       ]
     },
 
-    "image#brandsBeachwear-1": {
+    "image#brandsBeachwear-pilatos": {
         "props": {
             "src": "/arquivos/PilatosLogo.png",
             "link": {
-                "url": "/pilatos"
+                "url": "/beachwear-pilatos"
             }
         }
     },
 
-    "image#brandsBeachwear-2": {
+    "image#brandsBeachwear-agua": {
       "props": {
           "src": "/arquivos/AguaBendita-Logo.jpg",
           "link": {
-              "url": "/agua-bendita"
+              "url": "/beachwear-aguabendita"
           }
       }
     },
 
-    "image#brandsBeachwear-3": {
+    "image#brandsBeachwear-rayban": {
       "props": {
         "src": "/arquivos/Logo_Ray_Ban.png",
         "link": {
-            "url": "/ray-ban"
+            "url": "/beachwear-rayban"
         }
     }
     },
 
-    "image#brandsBeachwear-4": {
+    "image#brandsBeachwear-quiksilver": {
         "props": {
             "src": "/arquivos/Logo_Quiksilver.png",
             "link": {
-                "url": "/quiksilver"
+                "url": "/beachwear-quicksilver"
             }
         }
     },
 
-    "image#brandsBeachwear-5": {
+    "image#brandsBeachwear-superdry": {
         "props": {
             "src": "/arquivos/Logo_Superdy.png",
             "link": {
-                "url": "/superdry"
+                "url": "/Beachwear-superdry"
             }
           }
     },
 
-    "image#brandsBeachwear-6": {
+    "image#brandsBeachwear-dzone": {
         "props": {
             "src": "/arquivos/Logo_Dzone.png",
             "link": {
-                "url": "/dzone"
+                "url": "/Beachwear-dzone"
             }
         }
     },
 
-    "image#brandsBeachwear-7": {
+    "image#brandsBeachwear-balance": {
         "props": {
             "src": "/arquivos/Logo_New_Balance.png",
             "link": {
-                "url": "/new-balance"
+                "url": "/beachwear-newbalance"
             }
         }
     },
 
-    "image#brandsBeachwear-8": {
+    "image#brandsBeachwear-oakley": {
         "props": {
             "src": "/arquivos/Logo_Oakley.png",
             "link": {
-                "url": "/oakley"
+                "url": "/beachwear-oakley"
             }
         }
     },
 
-    "image#brandsBeachwear-9": {
+    "image#brandsBeachwear-kipling": {
       "props": {
-          "src": "/arquivos/Logo_Le Coq_Sportif.png",
+          "src": "/arquivos/Logo_Kipling.png",
           "link": {
-              "url": "/le-coq-sportif"
+              "url": "/beachwear-kipling"
+          }
+      }
+  },
+
+  "image#brandsBeachwear-girbaud": {
+    "props": {
+        "src": "/arquivos/Logo_MFG.png",
+        "link": {
+            "url": "/beachwear-girbaud"
+        }
+    }
+},
+
+"image#brandsBeachwear-replay": {
+  "props": {
+      "src": "/arquivos/Logo_Replay.png",
+      "link": {
+          "url": "/beachwear-replay"
+      }
+  }
+},
+
+"image#brandsBeachwear-monastery": {
+  "props": {
+      "src": "/arquivos/Logo-Monastery.png",
+      "link": {
+          "url": "/beachwear-monastery"
+      }
+  }
+},
+
+"image#brandsBeachwear-oneill": {
+  "props": {
+      "src": "/arquivos/Logo_Oakley.png",
+      "link": {
+          "url": "/beachwear-oneill"
+      }
+  }
+},
+
+
+    "image#brandsBeachwear-diesel": {
+      "props": {
+          "src": "/arquivos/Logo_Diesel.png",
+          "link": {
+              "url": "/beachwear-diesel"
           }
       }
     }
