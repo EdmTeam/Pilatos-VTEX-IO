@@ -1,5 +1,8 @@
 {
     
+       
+ 
+
     "size-guide#zapatos-mujer-adidas":{
         "props": {
           "conditionals": [
@@ -142,6 +145,21 @@
         }
     },
 
+    "size-guide#mujer-nike":{
+        "props": {
+          "conditionals": [
+              {
+                  "brands": ["2000111"],
+                  "categories": ["44", "45", "46"],
+                  "imageDesktop": "/arquivos/aPilatos-GuiaTallas-Nike1.jpg",
+                  "imageTablet": "/arquivos/aPilatos-GuiaTallas-Nike1.jpg",
+                  "imagePhone": "/arquivos/aPilatos-GuiaTallas-Nike1.jpg"
+              }
+          ]
+        }
+    },
+
+
     "size-guide#zapatos-mujer-superdry":{
         "props": {
           "conditionals": [
@@ -193,6 +211,20 @@
                   "imageDesktop": "/arquivos/HOMBRE-GT-Diesel-tenis-Desk.jpg",
                   "imageTablet": "/arquivos/HOMBRE-GT-Diesel-TENIS-MOBI.jpg",
                   "imagePhone": "/arquivos/HOMBRE-GT-Diesel-TENIS-MOBI.jpg"
+              }
+          ]
+        }
+    },
+
+    "size-guide#zapatos-hombre-nike":{
+        "props": {
+          "conditionals": [
+              {
+                  "brands": ["2000111"],
+                  "categories": ["3"],
+                  "imageDesktop": "/arquivos/aPilatos-GuiaTallas-Nike2.jpg",
+                  "imageTablet": "/arquivos/aPilatos-GuiaTallas-Nike2.jpg",
+                  "imagePhone": "/arquivos/aPilatos-GuiaTallas-Nike2.jpg"
               }
           ]
         }
