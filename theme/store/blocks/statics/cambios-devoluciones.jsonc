@@ -304,6 +304,7 @@
         },
         "children": [
             "menu-item#politicasCambios",
+            "menu-item#reverso",
             "menu-item#derecho-de-retracto",
             "menu-item#cancelacion",
             "menu-item#garantia",
@@ -330,6 +331,25 @@
             "submenu.accordion#static-accordion-content-dev-cambio"
         ]
     },
+    "menu-item#reverso": {
+      "props": {
+          "id": "menu-item-reverso",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "accordion-item",
+          "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "text": "Devolución desde tu casa"
+          }
+      },
+      "blocks": [
+          "submenu.accordion#static-accordion-content-reverso"
+      ]
+  },
+
     "menu-item#derecho-de-retracto": {
         "props": {
             "id": "menu-item-derecho-de-retracto",
@@ -430,6 +450,14 @@
             "rich-text#static-accordion-content-retracto"
         ]
     },
+    "submenu.accordion#static-accordion-content-reverso": {
+      "props": {
+          "blockClass": "static-accordion-content"
+      },
+      "children": [
+          "rich-text#static-accordion-content-reverso"
+      ]
+  },
     "submenu.accordion#static-accordion-content-garanty": {
         "props": {
             "blockClass": "static-accordion-content"
@@ -465,6 +493,13 @@
             "blockClass": "static-accordion-content"
         }
     },
+
+    "rich-text#static-accordion-content-reverso": {
+      "props": {
+          "text": "Prendas en promoción y ropa interior (pantis, sostenes, bóxeres, pantaloncillos, calcetines) no tienen cambio.",
+          "blockClass": "static-accordion-content"
+      }
+  },
     "rich-text#static-accordion-content-garanty": {
         "props": {
             "text": "Para prendas de vestir, billeteras, bolsos y/o zapatos: 90 días calendario después de la compra. \n Para fragancias y/o gafas: 30 días calendario después de la compra. \n Para maquinaria de relojes: 2 años después de la compra, para el resto de sus partes o elementos: 30 días calendario después de la compra. \n Para gafas Oakley la garantía es un año (1) a partir de la fecha de compra. \n Para accesorios marca Kipling la garantía son 90 días a partir de la compra. \n Bolsos y Maletas Kipling la garantía es un año (1) a partir de la fecha de compra. \n Los relojes que se abiertos por servicio técnico no autorizado pierden su garantía.",
