@@ -32,6 +32,28 @@
     display: none;
 }
 
+@media (max-width:670px){
+    .productHighlightWrapper [data-highlight-id="1144"]{
+        width: 33px;
+        height: 33px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url(/arquivos/Pilatos-FlagNuevo-Circular.png);
+        display: block;
+        position: relative;
+        right: 122px;
+        bottom: -37px;
+    }
+}
+
+.productHighlightWrapper [data-highlight-id="1144"]{
+    width: 35px;
+    height: 35px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(/arquivos/Pilatos-FlagNuevo-Circular.png);
+    display: block;   
+}
 
 
 /* FLAG DESACTIVADOS POR EL BLACK BANCOLOMBIA*/
