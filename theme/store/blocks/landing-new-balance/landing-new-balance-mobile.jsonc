@@ -46,9 +46,10 @@
         "children":[
             "list-context.image-list#department-banner-mobile-landing-new-balance",
             "flex-layout.row#landing-new-balance-banners-3",
+            "flex-layout.col#landing-new-balance-banners-top-mobi",
             "flex-layout.row#recomendadorNewBalanceOne",
-            "flex-layout.col#landing-new-balance-banners-nuevo-mobi",
-            "flex-layout.col#landing-new-balance-banners-top-mobi"
+            "flex-layout.col#landing-new-balance-banners-nuevo-mobi"
+            
            // "flex-layout.row#recomendadorNewBalanceTwo"
 
         ]

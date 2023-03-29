@@ -36,9 +36,10 @@
             "flex-layout.col#landing-new-balance-banners-1",
             "flex-layout.row#landing-new-balance-banners-2",
             "flex-layout.row#landing-new-balance-banners-3",
+            "flex-layout.col#landing-new-balance-banners-top",
             "flex-layout.row#recomendadorNewBalanceOne", 
-            "flex-layout.col#landing-new-balance-banners-nuevo",
-            "flex-layout.col#landing-new-balance-banners-top"
+            "flex-layout.col#landing-new-balance-banners-nuevo"
+           
            // "flex-layout.row#recomendadorNewBalanceTwo"
 //           "search-result-layout.customQuery#landing-marcas"
 
@@ -79,7 +80,7 @@
 
     "image#landing-new-balance-banners-1-img-1": {
         "props": {
-            "src": "/arquivos/BANNER-LANDING-DEKTOP-newbalance.jpg",
+            "src": "/arquivos/__banner_landing_desktop.png",
             "link": {
                 "url": "",
                 "attributeTitle": ""
