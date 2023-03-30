@@ -213,10 +213,7 @@
     "flex-layout.col#landing-marcas-banners-2-img-1-tablet":{
         "children":[
             "image#landing-marcas-banners-2-img-1-tablet"
-        ],
-        "props":{
-            "width": "33%"
-        }
+        ]
     },
 
     "image#landing-marcas-banners-2-img-1-tablet": {
@@ -226,17 +223,14 @@
                 "url": "/hombre/zapatos/tenis",
                 "attributeTitle": ""
             },
-            "blockClass": "departmentBannerImg-3"
+            "blockClass": "departmentBannerImg-4"
         }
     },
 
     "flex-layout.col#landing-marcas-banners-2-img-2-tablet":{
         "children":[
             "image#landing-marcas-banners-2-img-2-tablet"
-        ],
-        "props":{
-            "width": "33%"
-        }
+        ]
     },
 
     "image#landing-marcas-banners-2-img-2-tablet": {
@@ -253,10 +247,7 @@
     "flex-layout.col#landing-marcas-banners-2-img-3-tablet":{
         "children":[
             "image#landing-marcas-banners-2-img-3-tablet"
-        ],
-        "props":{
-            "width": "33%"
-        }
+        ]
     },
 
     "image#landing-marcas-banners-2-img-3-tablet": {
@@ -266,7 +257,7 @@
                 "url": "/hombre/jeans",
                 "attributeTitle": ""
             },
-            "blockClass": "departmentBannerImg-5"
+            "blockClass": "departmentBannerImg-4"
         }
     }
 }
