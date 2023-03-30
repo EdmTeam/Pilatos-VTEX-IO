@@ -109,10 +109,7 @@
     "flex-layout.col#landing-marcas-banners-2-img-1":{
         "children":[
             "image#landing-marcas-banners-2-img-1"
-        ],
-        "props":{
-            "width": "31%"
-        }
+        ]
     },
 
     "image#landing-marcas-banners-2-img-1": {
@@ -122,17 +119,14 @@
                 "url": "/",
                 "attributeTitle": ""
             },
-            "blockClass": "departmentBannerImg-3"
+            "blockClass": "departmentBannerImg-4"
         }
     },
 
     "flex-layout.col#landing-marcas-banners-2-img-2":{
         "children":[
             "image#landing-marcas-banners-2-img-2"
-        ],
-        "props":{
-            "width": "31%"
-        }
+        ]
     },
 
     "image#landing-marcas-banners-2-img-2": {
@@ -155,16 +149,13 @@
                 "url": "/hombre/jeans",
                 "attributeTitle": ""
             },
-            "blockClass": "departmentBannerImg-5"
+            "blockClass": "departmentBannerImg-4"
         }
     },
     "flex-layout.col#landing-marcas-banners-2-img-3":{
         "children":[
             "image#landing-marcas-banners-2-img-3"
-        ],
-        "props":{
-            "width": "37%"
-        }
+        ]
     }
     
 }
