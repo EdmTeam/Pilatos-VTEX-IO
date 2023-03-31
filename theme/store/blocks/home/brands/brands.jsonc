@@ -61,7 +61,8 @@
         "image#brand-9",
         "image#brand-16",
         "image#brand-21",
-        "image#brand-22"
+        "image#brand-22",
+        "image#brand-28"
         
        
         //"image#brand-25"
@@ -269,6 +270,16 @@
           }
       }
     },
+
+    "image#brand-28": {
+      "props": {
+          "src": "/arquivos/Logo_Quiksilver.png",
+          "link": {
+              "url": "/quiksilver"
+          }
+      }
+    },
+
     "image#brand-26": {
       "props": {
           "src": "/arquivos/SWOOSH-negro_transp.png",
