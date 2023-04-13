@@ -1084,6 +1084,30 @@
   font-size: 1.2rem;
 }
 
+/* boton reverso */
+
+.wrapper--botonReverso {
+  background-color: #000;
+  border: none; 
+  color: white; 
+  padding: 1px 20px; 
+  text-align: center; 
+  display: inline-block; 
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer; 
+  border-radius: 25px; 
+  text-decoration: none;
+
+}
+
+.wrapper--botonReverso .link--botonReverso {
+  color: white;
+  text-decoration: none;
+  transition: all .35s;
+}
+
+
 /* Estilos botones de guia de regalo */
 
 .wrapper--botonesGeneros {
@@ -1115,6 +1139,9 @@
   text-decoration: none;
   transition: all .35s;
 }
+
+
+
 
 
 /* Estilos botones para San Valentin */
@@ -1705,6 +1732,17 @@
 
 }
 
+.wrapper--title-statict-reverso {
+  justify-content: center;
+  width: 100%;
+  display: flex;
+
+}
+.headingLevel1--title-statict-reverso
+{
+  color: #000;
+}
+
 .wrapper--title-statict-pagos {
   justify-content: center;
   width: 100%;
@@ -1721,6 +1759,34 @@
   padding: 2%;
   text-align: justify;
 }
+
+.wrapper--title-statict-parrafoReverso {
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  color: #000;
+  padding: 1px;
+  text-align: justify;
+}
+@media (max-width: 1064px) {
+  .wrapper--title-statict-parrafoReverso {
+  justify-content: center;
+  width: 100%;
+  padding: 0 3% 3% 3%;
+  margin-top: -13px;
+
+}
+.headingLevel1--title-statict-reverso
+{
+  color: #000;
+  font-size: 20px;
+}
+.paragraph--title--static-parrafoReverso {
+  background: red;
+}
+
+}
+
 
 /* Modal de promociones */
 .container--promotionalBannerTitle {

@@ -1,0 +1,75 @@
+{
+    "responsive-layout.phone#reversoMobile": {
+        "children": [
+            "image#reversoPaso1-mobi",
+            "image#reversoPaso2-mobi",
+            "image#reversoPaso3-mobi",
+            "image#reversoPaso4-mobi",
+            "image#reversoPaso5-mobi",
+            "image#reversoPaso6-mobi",
+            "image#reversoPaso7-mobi",
+            "image#reversoPaso8-mobi"
+        ]
+    },
+    "responsive-layout.tablet#reversoTable": {
+        "children": [
+            "image#reversoPaso1",
+            "image#reversoPaso2",
+            "image#reversoPaso3",
+            "image#reversoPaso4",
+            "image#reversoPaso5",
+            "image#reversoPaso6",
+            "image#reversoPaso7",
+            "image#reversoPaso8"
+        ]
+    },
+    // archivos 
+    "image#reversoPaso1-mobi": {
+        "props": {
+            "src": "/arquivos/Pilatos-LandingReversso1a.jpg",
+            "blockClass": "fraganciayUso-usoSinLin"
+        }
+    },
+    "image#reversoPaso2-mobi": {
+        "props": {
+            "src": "/arquivos/Pilatos-LandingReversso2a.jpg",
+            "blockClass": "fraganciayUso-usoSinLin"
+        }
+    },
+    "image#reversoPaso3-mobi": {
+        "props": {
+            "src": "/arquivos/Pilatos-LandingReversso3a.jpg",
+            "blockClass": "fraganciayUso-usoSinLin"
+        }
+    },
+    "image#reversoPaso4-mobi": {
+        "props": {
+            "src": "/arquivos/Pilatos-LandingReversso4a.jpg",
+            "blockClass": "fraganciayUso-usoSinLin"
+        }
+    },
+    "image#reversoPaso5-mobi": {
+        "props": {
+            "src": "/arquivos/Pilatos-LandingReversso5a.jpg",
+            "blockClass": "fraganciayUso-usoSinLin"
+        }
+    },
+    "image#reversoPaso6-mobi": {
+        "props": {
+            "src": "/arquivos/Pilatos-LandingReversso6a.jpg",
+            "blockClass": "fraganciayUso-usoSinLin"
+        }
+    },
+    "image#reversoPaso7-mobi": {
+        "props": {
+            "src": "/arquivos/Pilatos-LandingReversso7a.jpg",
+            "blockClass": "fraganciayUso-usoSinLin"
+        }
+    },
+    "image#reversoPaso8-mobi": {
+        "props": {
+            "src": "/arquivos/Pilatos-LandingReversso8a.jpg",
+            "blockClass": "fraganciayUso-usoSinLin"
+        }
+    }
+}
