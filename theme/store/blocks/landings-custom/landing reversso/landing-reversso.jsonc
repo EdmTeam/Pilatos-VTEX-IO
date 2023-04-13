@@ -1,0 +1,219 @@
+{
+  "store.custom#landing-reversso": {
+    "blocks": [
+      "flex-layout.row#titleReverso",
+      "flex-layout.row#descripcionReverso",
+      "flex-layout.row#botonesReverso",
+      "responsive-layout.phone#reversoMobile",
+      "responsive-layout.tablet#reversoTable",
+      "responsive-layout.desktop#reversoSession1",
+      "responsive-layout.desktop#reversoSession2",
+      "responsive-layout.desktop#reversoSession3",
+      "responsive-layout.desktop#reversoSession4",
+      // "responsive-layout.phone#bannerprincipal-Reversso",
+      "flex-layout.row#most-viewed"
+    ],
+    "props": {
+      "blockClass": "contentStoreCustom"
+    }
+  },
+  // texto inicial 
+
+  "flex-layout.row#titleReverso": {
+    "children": [
+      "rich-text#titleReverso"
+    ],
+    "props": {
+      "blockClass": "contentSearch"
+    }
+
+  },
+
+  "flex-layout.row#descripcionReverso": {
+    "children": [
+      "rich-text#descripcionReverso"
+    ],
+    "props": {
+      "blockClass": "contentSearch"
+    }
+
+  },
+
+  "flex-layout.row#botonesReverso": {
+    "children": [
+      "rich-text#botonesReverso"
+    ],
+    "props": {
+      "blockClass": "contentSearch"
+    }
+
+  },
+
+  "rich-text#titleReverso": {
+    "props": {
+        "text": " # CAMBIOS Y DEVOLUCIONES",
+        "blockClass": "title-statict-reverso"
+    }
+},
+
+
+  "rich-text#descripcionReverso": {
+    "props": {
+        "text": " ¿Necesitas realizar una devolución y prefieres hacerlo desde la comodidad de tu hogar? ¡Reverso te lo pone fácil! Aprende a realizar tus devoluciones en línea.",
+        "blockClass": "title-statict-parrafoReverso"
+    }
+},
+
+  "rich-text#botonesReverso": {
+    "props": {
+        "text": "[**Iniciar una devolución sin costo**](https://pilatos.reversso.com/)",
+        "blockClass": "botonReverso"
+    }
+},
+  // sesion uno - reverso 
+  "responsive-layout.desktop#reversoSession1": {
+    "children": [
+      "flex-layout.row#reversoSession1"
+    ]
+  },
+  "responsive-layout.desktop#reversoSession2": {
+    "children": [
+      "flex-layout.row#reversoSession2"
+    ]
+  },
+  "responsive-layout.desktop#reversoSession3": {
+    "children": [
+      "flex-layout.row#reversoSession3"
+    ]
+  },
+  "responsive-layout.desktop#reversoSession4": {
+    "children": [
+      "flex-layout.row#reversoSession4"
+    ]
+  },
+  "flex-layout.row#reversoSession1": {
+    "children": [
+      "flex-layout.col#reversoPaso1",
+      "flex-layout.col#reversoPaso2"
+    ],
+    "props": {
+      "blockClass": "contentSearch"
+    }
+  },
+  "flex-layout.row#reversoSession2": {
+    "children": [
+      "flex-layout.col#reversoPaso3",
+      "flex-layout.col#reversoPaso4"
+    ],
+    "props": {
+      "blockClass": "contentSearch"
+    }
+  },
+  "flex-layout.row#reversoSession3": {
+    "children": [
+      "flex-layout.col#reversoPaso5",
+      "flex-layout.col#reversoPaso6"
+    ],
+    "props": {
+      "blockClass": "contentSearch"
+    }
+  },
+  "flex-layout.row#reversoSession4": {
+    "children": [
+      "flex-layout.col#reversoPaso7",
+      "flex-layout.col#reversoPaso8"
+    ],
+    "props": {
+      "blockClass": "contentSearch"
+    }
+  },
+  "flex-layout.col#reversoPaso1": {
+    "children": [
+      "image#reversoPaso1"
+    ]
+  },
+  "flex-layout.col#reversoPaso2": {
+    "children": [
+      "image#reversoPaso2"
+    ]
+  },
+  "flex-layout.col#reversoPaso3": {
+    "children": [
+      "image#reversoPaso3"
+    ]
+  },
+  "flex-layout.col#reversoPaso4": {
+    "children": [
+      "image#reversoPaso4"
+    ]
+  },
+  "flex-layout.col#reversoPaso5": {
+    "children": [
+      "image#reversoPaso5"
+    ]
+  },
+  "flex-layout.col#reversoPaso6": {
+    "children": [
+      "image#reversoPaso6"
+    ]
+  },
+  "flex-layout.col#reversoPaso7": {
+    "children": [
+      "image#reversoPaso7"
+    ]
+  },
+  "flex-layout.col#reversoPaso8": {
+    "children": [
+      "image#reversoPaso8"
+    ]
+  },
+  // archivos
+  "image#reversoPaso1": {
+    "props": {
+      "src": "/arquivos/Pilatos-LandingReversso1a.jpg",
+      "blockClass": "fraganciayUso-usoSinLin"
+    }
+  },
+  "image#reversoPaso2": {
+    "props": {
+      "src": "/arquivos/Pilatos-LandingReversso2a.jpg",
+      "blockClass": "fraganciayUso-usoSinLin"
+    }
+  },
+  "image#reversoPaso3": {
+    "props": {
+      "src": "/arquivos/Pilatos-LandingReversso3a.jpg",
+      "blockClass": "fraganciayUso-usoSinLin"
+    }
+  },
+  "image#reversoPaso4": {
+    "props": {
+      "src": "/arquivos/Pilatos-LandingReversso4a.jpg",
+      "blockClass": "fraganciayUso-usoSinLin"
+    }
+  },
+  "image#reversoPaso5": {
+    "props": {
+      "src": "/arquivos/Pilatos-LandingReversso5a.jpg",
+      "blockClass": "fraganciayUso-usoSinLin"
+    }
+  },
+  "image#reversoPaso6": {
+    "props": {
+      "src": "/arquivos/Pilatos-LandingReversso6a.jpg",
+      "blockClass": "fraganciayUso-usoSinLin"
+    }
+  },
+  "image#reversoPaso7": {
+    "props": {
+      "src": "/arquivos/Pilatos-LandingReversso7a.jpg",
+      "blockClass": "fraganciayUso-usoSinLin"
+    }
+  },
+  "image#reversoPaso8": {
+    "props": {
+      "src": "/arquivos/Pilatos-LandingReversso8a.jpg",
+      "blockClass": "fraganciayUso-usoSinLin"
+    }
+  }
+}

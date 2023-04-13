@@ -36,7 +36,7 @@
           "flex-layout.col#landing-memorama-banners-1",
           "rich-text#memorama-text-seo-h1",
           "rich-text#memorama-parrafo-seo-h1",
-          "flex-layout.row#form-memorama-mundial",
+        //  "flex-layout.row#form-memorama-mundial",
           "flex-layout.row#landing-memorama-banners-2",
           "rich-text#landing-memorama-text-seo-h1",
           "search-result-layout.customQuery#landing-memorama",
@@ -55,7 +55,7 @@
   "flex-layout.col#landing-memorama-banners-1-tablet-mundial":{
     "children":[
         "image#landing-memorama-banners-1-img-1-tablet",
-        "flex-layout.row#form-memorama-mundial",
+       // "flex-layout.row#form-memorama-mundial",
         "rich-text#memorama-text-seo-h1",
         "rich-text#memorama-parrafo-seo-h1",
         "rich-text#landing-memorama-text-seo-h1",
@@ -76,7 +76,7 @@
   "flex-layout.col#landing-memorama-banners-1-p-mundial":{
     "children":[
         "image#landing-memorama-banners-1-img-1-p",
-        "flex-layout.row#form-memorama-mundial",
+       // "flex-layout.row#form-memorama-mundial",
         "rich-text#memorama-text-seo-h1",
         "rich-text#memorama-parrafo-seo-h1-mobile",
         "image#landing-memorama-banners-1-img-1-ph1a",
@@ -97,7 +97,7 @@
           "blockClass": ["formContainer-dsi", "formContainer-memorama-mundial"]
       },
       "children": [
-          "flex-layout.col#form-memorama-mundial"
+         // "flex-layout.col#form-memorama-mundial"
       ]
   },
   "flex-layout.col#form-memorama-mundial": {

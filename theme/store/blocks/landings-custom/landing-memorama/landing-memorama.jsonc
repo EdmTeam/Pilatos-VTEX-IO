@@ -146,9 +146,9 @@
         "children":[
             "flex-layout.col#landing-memorama-banners-1",
             "flex-layout.row#form-memorama",
-            "rich-text#memorama-text-seo-h1",
-            "rich-text#memorama-parrafo-seo-h1",
-            "memorygame",
+           // "rich-text#memorama-text-seo-h1",
+           // "rich-text#memorama-parrafo-seo-h1",
+           // "memorygame",
             "flex-layout.row#landing-memorama-banners-2",
             "rich-text#landing-memorama-text-seo-h1",
             "search-result-layout.customQuery#landing-memorama",
@@ -526,9 +526,9 @@
         "children":[
             "image#landing-memorama-banners-1-img-1-tablet",
             "flex-layout.row#form-memorama",
-            "rich-text#memorama-text-seo-h1",
-            "rich-text#memorama-parrafo-seo-h1",
-            "memorygame",
+          //  "rich-text#memorama-text-seo-h1",
+          //  "rich-text#memorama-parrafo-seo-h1",
+           // "memorygame",
             "rich-text#landing-memorama-text-seo-h1",
             "search-result-layout.customQuery#landing-memorama"
 
@@ -611,9 +611,9 @@
         "children":[
             "image#landing-memorama-banners-1-img-1-p", 
             "flex-layout.row#form-memorama",
-            "rich-text#memorama-text-seo-h1",
-            "rich-text#memorama-parrafo-seo-h1-mobile",
-            "memorygame", 
+         //   "rich-text#memorama-text-seo-h1",
+          //  "rich-text#memorama-parrafo-seo-h1-mobile",
+          //  "memorygame", 
             "image#landing-memorama-banners-1-img-1-ph1a", 
             "image#landing-memorama-banners-1-img-1-ph2a",
             "image#landing-memorama-banners-1-img-1-ph3a",
