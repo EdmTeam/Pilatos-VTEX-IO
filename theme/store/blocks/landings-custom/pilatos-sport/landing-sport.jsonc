@@ -1,0 +1,100 @@
+{
+  "store.custom#landing-pilatos-sport": {
+    "blocks": [
+      "rich-text#landing-marcas-bread-crumb",
+      "responsive-layout.desktop#bannerprincipal-sport-pilatos",
+      "responsive-layout.phone#bannerprincipal-sport-pilatos",
+      "responsive-layout.tablet#bannerprincipal-sport-pilatos",
+      "search-result-layout.customQuery#landing-productosTop"
+    ],
+    "props": {
+      "blockClass": "contentStoreCustom"
+    }
+  },
+  "responsive-layout.desktop#bannerprincipal-sport-pilatos": {
+    "children": [
+      "responsive-layout.desktop#banner-sport-pilatos",
+      "rich-text#guia-regalos-text-seo-h1p",
+      "responsive-layout.desktop#banner-sport-girbaud",
+      "flex-layout.row#most-viewed",
+      "responsive-layout.desktop#banner-sport-tres",
+      "flex-layout.row#most-viewede"
+    ]
+  },
+
+  "responsive-layout.tablet#bannerprincipal-sport-pilatos": {
+    "children": [
+      "flex-layout.row#bannerLanding-sport-pilatos-tablet",
+      "rich-text#guia-regalos-text-seo-h1p",
+      "flex-layout.row#banner-sport-girbaud",
+      "flex-layout.row#most-viewed",
+      "flex-layout.row#banner-sport-tres",
+      "flex-layout.row#most-viewede"
+    ]
+  },
+  "responsive-layout.desktop#banner-sport-pilatos": {
+    "children": [
+      "flex-layout.row#bannerLanding-sport-pilatos"
+    ],
+    "props": {
+      "blockClass": "contentBannersDesk"
+    }
+  },
+  "responsive-layout.desktop#banner-sport-girbaud": {
+    "children": [
+      "flex-layout.row#banner-sport-girbaud"
+    ],
+    "props": {
+      "blockClass": "contentBannersDesk"
+    }
+  },
+  "responsive-layout.desktop#banner-sport-tres":{
+    "children": [
+      "flex-layout.row#banner-sport-tres"
+    ],
+    "props": {
+      "blockClass": "contentBannersDesk"
+    }
+  },
+  "flex-layout.row#bannerLanding-sport-pilatos": {
+    "children": [
+      "image#banner-sport-pilatos"
+    ]
+  },
+  "flex-layout.row#bannerLanding-sport-pilatos-tablet": {
+    "children": [
+      "image#banner-sport-pilatos"
+    ]
+  },
+  "flex-layout.row#banner-sport-girbaud": {
+    "children": [
+      "image#banner-sport-girbaud"
+    ]
+  },
+
+  "flex-layout.row#banner-sport-tres": {
+    "children": [
+      "image#banner-sport-tres"
+    ]
+  },
+
+  // archivos 
+  "image#banner-sport-pilatos": {
+    "props": {
+      "src": "/arquivos/Pilatos-Landing-Desk-sport.jpg",
+      "blockClass": "departmentBannerImg-1"
+    }
+  },
+  "image#banner-sport-girbaud": {
+    "props": {
+      "src": "/arquivos/Pilatos-Sport-Banner-Landing-Desk.jpg",
+      "blockClass": "departmentBannerImg-1"
+    }
+  },
+  "image#banner-sport-tres": {
+    "props": {
+      "src": "/arquivos/Pilatos-Sport-BannerMFG-Landing-Desk.jpg",
+      "blockClass": "departmentBannerImg-1"
+    }
+  }
+}
