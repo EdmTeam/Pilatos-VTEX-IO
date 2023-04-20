@@ -1,0 +1,31 @@
+{
+    "responsive-layout.phone#bannerprincipal-sport-pilatos": {
+        "children": [
+            "flex-layout.row#bannersprideSecundarios",
+            "image#bannerTenisPilatosGirbaud-mobi",
+            "rich-text#guia-regalos-text-seo-h1p",
+            "image#bannerTenisPilatosGirbaud",
+            "flex-layout.row#most-viewed",
+            "image#bannerTenisPilatos",
+            "flex-layout.row#most-viewede"
+        ]
+    },
+    // archivos 
+
+    "image#bannerTenisPilatosGirbaud-mobi": {
+        "props": {
+            "src": "/arquivos/Pilatos-Sport-BannerSport-Landing-Mob.jpg"
+        }
+    },
+
+    "image#bannerTenisPilatosGirbaud": {
+        "props": {
+            "src": "/arquivos/Pilatos-Sport-Banner-Landing-Mob.jpg"
+        }
+    },
+    "image#bannerTenisPilatos": {
+        "props": {
+            "src": "/arquivos/Pilatos-Sport-BannerMFG-Landing-Mob.jpg"
+        }
+    }
+}
