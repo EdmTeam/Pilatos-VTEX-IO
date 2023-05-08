@@ -225,10 +225,16 @@
             "submenu.accordion#static-accordion-content-tarjeta-boton-bancolombia"
         ]
     },
+<<<<<<< HEAD
 
     "menu-item#tarjeta-nequi": {
         "props": {
             "id": "menu-item-tarjeta-boton-bancolombia",
+=======
+    "menu-item#tarjeta-nequi": {
+        "props": {
+            "id": "menu-item-tarjeta-nequi",
+>>>>>>> 45e1c828ee205458c0fcb1de1e8579fd58606f10
             "type": "custom",
             "iconId": null,
             "highlight": false,
