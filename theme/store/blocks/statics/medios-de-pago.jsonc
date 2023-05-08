@@ -405,7 +405,7 @@
     },
     "rich-text#static-accordion-content-tarjeta-nequi": {
         "props": {
-            "text": "Selecciona Nequi como método de pago",
+            "text": "Selecciona Nequi como método de pago.",
             "blockClass": "static-accordion-content-medios"
         }
     },
