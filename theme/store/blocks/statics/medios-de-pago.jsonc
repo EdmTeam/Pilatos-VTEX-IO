@@ -225,9 +225,10 @@
             "submenu.accordion#static-accordion-content-tarjeta-boton-bancolombia"
         ]
     },
+
     "menu-item#tarjeta-nequi": {
         "props": {
-            "id": "menu-item-tarjeta-nequi",
+            "id": "menu-item-tarjeta-boton-bancolombia",
             "type": "custom",
             "iconId": null,
             "highlight": false,
@@ -394,13 +395,6 @@
             "rich-text#static-accordion-content-tarjeta-boton-bancolombia"
         ]
     },
-   
-    "rich-text#static-accordion-content-tarjeta-boton-bancolombia": {
-        "props": {
-            "text": "Selecciona el botón bancolombia como método de pago, verifica los datos de la transacción, digita tu usuario y clave Bancolombia, ingresa la clave dinámica, visualiza el resumen de la compra y da clic en transferir, ¡Y listo! solo en seis clics finaliza la compra. ",
-            "blockClass": "static-accordion-content-medios"
-        }
-    },
     "submenu.accordion#static-accordion-content-tarjeta-nequi": {
         "props": {
             "blockClass": "static-accordion-content-medios"
@@ -409,10 +403,15 @@
             "rich-text#static-accordion-content-tarjeta-nequi"
         ]
     },
-   
     "rich-text#static-accordion-content-tarjeta-nequi": {
         "props": {
-            "text": "Selecciona Nequi como método de pago",
+            "text": "Selecciona Nequi como método de pago.",
+            "blockClass": "static-accordion-content-medios"
+        }
+    },
+    "rich-text#static-accordion-content-tarjeta-boton-bancolombia": {
+        "props": {
+            "text": "Selecciona el botón bancolombia como método de pago, verifica los datos de la transacción, digita tu usuario y clave Bancolombia, ingresa la clave dinámica, visualiza el resumen de la compra y da clic en transferir, ¡Y listo! solo en seis clics finaliza la compra. ",
             "blockClass": "static-accordion-content-medios"
         }
     }
