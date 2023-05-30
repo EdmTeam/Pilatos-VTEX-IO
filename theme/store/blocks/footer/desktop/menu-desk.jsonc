@@ -81,7 +81,7 @@
 
     "rich-text#legal-rights":{
         "props": {
-            "text": "Pilatos 2021 © Todos los derechos reservados  |  Empowered By",
+            "text": "Pilatos 2023 © Todos los derechos reservados  |  Empowered By",
             "blockClass": "legalRights"
         }
     },
