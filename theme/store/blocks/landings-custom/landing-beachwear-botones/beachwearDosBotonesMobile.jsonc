@@ -1,0 +1,53 @@
+{
+    //version mobile
+    "responsive-layout.phone#beachwear-banner-desktop-botones":{
+        "children":[
+         "image#beachwear-banner-mobile-botones"
+        ]
+     },
+     "responsive-layout.phone#beachwear-dos-botones":{
+        "children":[
+            "flex-layout.row#botones-beachwear-mobile"
+        ]
+    },
+    "image#beachwear-banner-mobile-botones":{
+        "props":{
+            "src":"/arquivos/pilatos-beachweare-landing-mobile-junio-2023.jpg"
+        }
+    },
+        //botones beachwear
+        "flex-layout.row#botones-beachwear-mobile":{
+          "children":[
+            "rich-text#beachweare-boton1-mobile",
+            "rich-text#beachweare-boton2-mobile"
+          ],
+          "props":{
+            "horizontalAlign": "center",
+            "preventHorizontalStretch": false,
+            "preserveLayoutOnMobile": true
+          }
+        },
+        "rich-text#beachweare-boton1-mobile":{
+            "props":{
+                "text":"CAMISETAS",
+                "blockClass":"botonBeachwear"
+            }
+        },
+        "rich-text#beachweare-boton2-mobile":{
+            "props":{
+                "text":"PANTALONETAS",
+                "blockClass":"botonBeachwear"
+            }
+        },
+    //Version tablet 
+    "responsive-layout.tablet#beachwear-banner-desktop-botones":{
+        "children":[
+         "image#beachwear-banner-desktop-botones"
+        ]
+     },
+     "responsive-layout.tablet#beachwear-dos-botones":{
+        "children":[
+            "flex-layout.row#botones-beachwear"
+        ]
+    }
+}
