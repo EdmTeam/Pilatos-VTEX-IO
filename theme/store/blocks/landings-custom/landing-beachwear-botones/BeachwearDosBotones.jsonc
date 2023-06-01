@@ -1,0 +1,72 @@
+{
+    "store.custom#beachwear-dos-botones":{
+        "blocks":[
+            "flex-layout.row#banner-landing-beachwear-new",
+            "responsive-layout.desktop#beachwear-banner-desktop-botones",
+            "responsive-layout.desktop#beachwear-dos-botones",
+            "responsive-layout.tablet#beachwear-banner-desktop-botones",
+            "responsive-layout.tablet#beachwear-dos-botones",
+            "responsive-layout.phone#beachwear-banner-desktop-botones",
+            "responsive-layout.phone#beachwear-dos-botones",
+            "search-result-layout.customQuery#department-nuevo" 
+        ],
+        "props":{
+            "blockClass":"contentStoreCustom"
+        }
+    },
+    "flex-layout.row#banner-landing-beachwear-new":{
+       "children":[
+        "rich-text#beachweare-bread-crumb"
+       ],
+       "props":{
+           "blockClass":"contentSearch"
+       }
+    },
+    //Bread crumb
+    "rich-text#beachweare-bread-crumb":{
+        "props":{
+            "text":"[Home](/) / [**Beachwear Pilatos**](/beachwear-pilatos)",
+            "blockClass":"departmentBreadCrumb"
+        }
+    },
+    //Declaracion de banner beachwear
+    "responsive-layout.desktop#beachwear-banner-desktop-botones":{
+       "children":[
+        "image#beachwear-banner-desktop-botones"
+       ]
+    },
+    
+    "image#beachwear-banner-desktop-botones":{
+        "props":{
+            "src":"/arquivos/pilatos-beachweare-landing-desk-junio-2023.jpg"
+        }
+    },
+    //botones beachwear
+    "responsive-layout.desktop#beachwear-dos-botones":{
+        "children":[
+            "flex-layout.row#botones-beachwear"
+        ]
+    },
+    "flex-layout.row#botones-beachwear":{
+      "children":[
+        "rich-text#beachweare-boton1",
+        "rich-text#beachweare-boton2"
+      ],
+      "props":{
+        "horizontalAlign": "center",
+        "preventHorizontalStretch": true
+      }
+    },
+    "rich-text#beachweare-boton1":{
+        "props":{
+            "text":"CAMISETAS",
+            "blockClass":"botonBeachwear"
+        }
+    },
+    "rich-text#beachweare-boton2":{
+        "props":{
+            "text":"PANTALONETAS",
+            "blockClass":"botonBeachwear"
+        }
+    }
+}
