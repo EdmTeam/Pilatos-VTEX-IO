@@ -1,0 +1,301 @@
+{
+    "store.custom#landingRegalosPadres": {
+        "blocks": [
+            "flex-layout.row#textoInicioRegalosPadres",
+            "responsive-layout.desktop#BannerRegalosPadres",
+          "responsive-layout.tablet#BannerRegalosPadres",
+           "responsive-layout.phone#BannerRegalosPadres"
+        ],
+        "props": {
+            "blockClass": "contentStoreCustom"
+        }
+    },
+    "responsive-layout.desktop#BannerRegalosPadres": {
+        "children": [
+            "flex-layout.row#BannerRegalosPadres",
+            "flex-layout.row#padresEstilos",
+            "flex-layout.row#most-viewed",
+            "flex-layout.row#padresCategorias",
+            "flex-layout.row#textoSeoPadres"        ],
+        "props": {
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "responsive-layout.tablet#BannerRegalosPadres": {
+        "children": [
+            "flex-layout.row#BannerRegalosPadres",
+            "flex-layout.row#padresEstilos",
+            "flex-layout.row#most-viewed",
+            "flex-layout.row#padresCategorias",
+            "flex-layout.row#textoSeoPadres"        ],
+        "props": {
+            "blockClass": "contentSearch"
+        }
+    },
+
+    // textos 
+    "flex-layout.row#textoInicioRegalosPadres": {
+        "children": [
+            "flex-layout.col#RegalosPadresTitle"
+        ],
+        "props": {
+            "blockClass": "contentSearch"
+        }
+    },
+    "flex-layout.col#RegalosPadresTitle": {
+        "children": [
+            "rich-text#landing-aguaBendita",
+            "rich-text#RegalosPadresTitle"
+        ]
+    },
+    "rich-text#RegalosPadresTitle": {
+        "props": {
+            "text": "# Regalos Padres ",
+            "textAlignment": "LEFT",
+            "blockClass": "departmentTitle"
+        }
+    },
+
+    // Banner Principal 
+    "flex-layout.row#BannerRegalosPadres": {
+        "children": [
+            "image#BannerRegalosPadres"
+        ],
+        "props": {
+            "blockClass": "contentSearch"
+        }
+    },
+
+    // SECCIÓN PADRES STYLOS 1
+
+    "flex-layout.row#padresEstilos": {
+        "children": [
+            "flex-layout.col#padresCool",
+            "flex-layout.col#padresCasual",
+            "flex-layout.col#padresAventurero"
+        ],
+        "props": {
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#padresCool": {
+        "children": [
+            "image#padresCool",
+            "rich-text#RegalosPadresCool",
+            "rich-text#botonRegalosPadresCool"
+
+        ]
+    },
+    "flex-layout.col#padresCasual": {
+        "children": [
+            "image#padresCasual",
+            "rich-text#padresCasual",
+            "rich-text#botonRegalosPadresCasual"
+        ]
+    },
+    "flex-layout.col#padresAventurero": {
+        "children": [
+            "image#padresAventurero",
+            "rich-text#padresAventurero",
+            "rich-text#botonRegalosPadresAventurero"
+        ]
+    },
+    // texto debajo de imagen y botón 
+
+    "rich-text#RegalosPadresCool": {
+        "props": {
+            "text": "El papá que siempre quiere verse bien y estar al tanto de las ultimas tendencias. Su armario esta lleno de ropa moderna y elegante que combina de manera única y creativa.",
+            "blockClass": "texto-regalos-padres",
+            "textAlignment": "CENTER",
+
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#botonRegalosPadresCool": {
+        "props": {
+            "text": "[Ver más](/)",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "enlace-texto-regalos-padres"
+        }
+    },
+
+    "rich-text#padresCasual": {
+        "props": {
+            "text": "El papá que combina comodidad y elegancia de una manera despreocupada. Su look es la mezcla perfecta de prendas informales y sofisticadas.",
+            "blockClass": "texto-regalos-padres",
+            "textAlignment": "CENTER",
+
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#botonRegalosPadresCasual": {
+        "props": {
+            "text": "[Ver más](/)",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "enlace-texto-regalos-padres"
+        }
+    },
+
+    "rich-text#padresAventurero": {
+        "props": {
+            "text": "El papá que refleja con su estilo su actitud relajada y sin complicaciones. Prefiere usar ropa cómoda como camisetas sueltas, jeans desgastados y tenis.",
+            "blockClass": "texto-regalos-padres",
+            "textAlignment": "CENTER",
+
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#botonRegalosPadresAventurero": {
+        "props": {
+            "text": "[Ver más](/)",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "enlace-texto-regalos-padres"
+        }
+    },
+
+ // SECCIÓN PADRES CATEGORIA 
+
+    "flex-layout.row#padresCategorias": {
+        "children": [
+            "flex-layout.col#regaloPadres-polo",
+            "flex-layout.col#regaloPadres-camisetas",
+            "flex-layout.col#regaloPadres-camisas",
+            "flex-layout.col#regaloPadres-accesorios"
+        ],
+        "props": {
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#regaloPadres-polo":{
+        "children": [
+            "image#regaloPadres-polo"
+        ]
+    },
+    "flex-layout.col#regaloPadres-camisetas":{
+        "children": [
+            "image#regaloPadres-camisetas"
+        ]
+    },
+    "flex-layout.col#regaloPadres-camisas":{
+        "children": [
+            "image#regaloPadres-camisas"
+        ]
+    },
+    "flex-layout.col#regaloPadres-accesorios":{
+        "children": [
+            "image#regaloPadres-accesorios"
+        ]
+    },
+
+    // SEO SAN VALENTIN + boton
+    "flex-layout.row#textoSeoPadres": {
+        "children": [
+            "rich-text#textoSeoPadres-texto"
+           
+        ] 
+    },
+
+    "rich-text#textoSeoPadres-texto": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "### ¿Buscas el regalo perfecto? \n Encuéntralo en nuestra **#GuíaPilatos** y sorprende a Papá ",
+            "blockClass": "botonPadresRegalos-texto"
+        }
+    },
+
+    "flex-layout.row#botonPadresRegalos":{
+        "children": [
+            "rich-text#botonPadresRegalos"
+        ],
+        "props": {
+            "blockClass": "contentBotones"
+        }
+    },
+
+    "rich-text#botonPadresRegalos": {
+        "props": {
+            "text": "[**VER MÁS**](/beachwear)",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "botonPadresRegalos"
+                }
+    },
+
+    
+    // IMAGENES ARCHIVOS 
+    "image#BannerRegalosPadres": {
+        "props": {
+            "src": "/arquivos/aPilatos-guia-de-padres-Banner-Landing-Desk.jpg"
+        }
+    },
+    "image#padresCool": {
+        "props": {
+            "src": "/arquivos/Pilatos-guia-de-padres-Banner-papacool-Desk.jpg",
+            "link": {
+                "url": "/"
+            },
+            "blockClass": "sanValentinImagen"
+        }
+    },
+    "image#padresCasual": {
+        "props": {
+            "src": "/arquivos/Pilatos-guia-de-padres-Banner-papacasual-Desk.jpg",
+            "link": {
+                "url": "/"
+            },
+            "blockClass": "sanValentinImagen"
+        }
+    },
+    "image#padresAventurero": {
+        "props": {
+            "src": "/arquivos/Pilatos-guia-de-padres-Banner-paparelajado-Desk.jpg",
+            "link": {
+                "url": "/"
+            },
+            "blockClass": "sanValentinImagen"
+        }
+    },
+    "image#regaloPadres-polo": {
+        "props": {
+            "src": "/arquivos/Pilatos-guia-de-padres-Banner-polos-Desk.jpg",
+            "link": {
+                "url": "/"
+            },
+            "blockClass": "sanValentinImagen"
+        }
+    },
+    "image#regaloPadres-camisetas": {
+        "props": {
+            "src": "/arquivos/Pilatos-guia-de-padres-Banner-camisetas-Desk.jpg",
+            "link": {
+                "url": "/"
+            },
+            "blockClass": "sanValentinImagen"
+        }
+    },
+    "image#regaloPadres-camisas": {
+        "props": {
+            "src": "/arquivos/Pilatos-guia-de-padres-Banner-camisas-Desk.jpg",
+            "link": {
+                "url": "/"
+            },
+            "blockClass": "sanValentinImagen"
+        }
+    },
+    "image#regaloPadres-accesorios": {
+        "props": {
+            "src": "/arquivos/Pilatos-guia-de-padres-Banner-accesorios-Desk.jpg",
+            "link": {
+                "url": "/"
+            },
+            "blockClass": "sanValentinImagen"
+        }
+    }
+}

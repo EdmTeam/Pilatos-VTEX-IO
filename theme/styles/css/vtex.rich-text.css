@@ -1222,6 +1222,40 @@
   transition: all .35s;
 }
 
+/* Estilos botones para Guia de Padres Regalo */
+
+.wrapper--botonPadresRegalos {
+  transition: width 2s;
+  background: #FFD400;
+  color: #fff;
+}
+
+.wrapper--botonPadresRegalos .paragraph {
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 28px;
+  margin: 0.3rem 0 0 0;
+  background: #5a585d;
+  padding: 0 17px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition-timing-function: linear;
+  text-decoration: none;
+  color: white;
+}
+
+.wrapper--botonPadresRegalos .paragraph:hover {
+  background: #FFD400;
+  color: white;
+  transition: all .35s;
+}
+
+.wrapper--botonPadresRegalos .link--botonPadresRegalos {
+  color: white;
+  text-decoration: none;
+  transition: all .35s;
+}
+
 /* Estilos pagina de departamento */
 .wrapper--departmentBreadCrumb {
   width: 88%;
@@ -2250,6 +2284,12 @@
   padding: 1.35rem;
 }
 
+.wrapper--botonPadresRegalos-texto {
+  max-width: 80%;
+  margin: 1.5rem 0;
+  padding: 1.35rem;
+}
+
 .wrapper--producto-lucky {
   max-width: 80%;
   margin: 0.6rem 0;
@@ -2264,6 +2304,22 @@
 
 .container--producto-lucky {
   margin-bottom: 20px;
+}
+
+.paragraph--texto-regalos-padres{
+  padding: 0 6%;
+  font-size: 13px;
+}
+
+.paragraph--enlace-texto-regalos-padres{
+  font-size: 14px;
+  margin: 0;
+}
+@media (max-width: 750px) {
+  .paragraph--enlace-texto-regalos-padres{
+    font-size: 17px;
+    margin-bottom: 5px;
+  }
 }
 /* seo pillar page*/
 .wrapper--seo-pillar {
