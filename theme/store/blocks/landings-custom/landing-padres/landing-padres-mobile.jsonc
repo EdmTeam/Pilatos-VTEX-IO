@@ -1,0 +1,107 @@
+{
+    "responsive-layout.phone#BannerRegalosPadres":{
+        "children": [
+            "flex-layout.row#BannerRegalosPadres-mobi",
+            "flex-layout.row#padresEstilos-mobi",
+            "flex-layout.row#padresAventurero-mobi",
+            "flex-layout.row#most-viewed",
+            "slider-layout#padresCategorias",
+            "flex-layout.row#textoSeoPadres"           
+        ],
+        "props": {
+            "blockClass": "contentSearch"
+        }
+    },
+    // BANNER PADRES ESTILOS 
+    "flex-layout.row#BannerRegalosPadres-mobi":{
+        "children": [
+            "image#BannerRegalosPadres-mobi"
+        ]
+    },
+
+    "flex-layout.row#padresEstilos-mobi":{
+        "children": [
+            "flex-layout.col#padresCool-mobi",
+            "flex-layout.col#padresCasual-mobi"
+
+        ],
+        "props": {
+            "preventHorizontalStretch": true,
+            "preserveLayoutOnMobile": true
+        }
+    }, 
+   
+    "flex-layout.row#padresAventurero-mobi":{
+        "children": [
+            "flex-layout.col#padresAventurero"
+        ]
+    },
+
+
+    "flex-layout.col#padresCool-mobi": {
+        "children": [
+            "image#padresCool",
+            "rich-text#RegalosPadresCool-mobi",
+            "rich-text#botonRegalosPadresCool-mobi"
+
+        ]
+    },
+    "flex-layout.col#padresCasual-mobi": {
+        "children": [
+            "image#padresCasual",
+            "rich-text#padresCasual-mobi",
+            "rich-text#botonRegalosPadresCool-mobi"
+
+        ]
+    },
+    "rich-text#RegalosPadresCool-mobi": {
+        "props": {
+            "text": "El papá que siempre quiere verse bien y estar al tanto de las ultimas tendencias.",
+            "blockClass": "texto-regalos-padres",
+            "textAlignment": "CENTER",
+
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#padresCasual-mobi": {
+        "props": {
+            "text": "El papá que combina comodidad y elegancia de  manera despreocupada.",
+            "blockClass": "texto-regalos-padres",
+            "textAlignment": "CENTER",
+
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#botonRegalosPadresCool-mobi": {
+        "props": {
+            "text": "[Ver más](/)",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "enlace-texto-regalos-padres"
+        }
+    },
+
+    // slider
+    "slider-layout#padresCategorias": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 3,
+            "tablet": 3,
+            "phone": 1
+              },
+          "infinite": true,
+          "showNavigationArrows": "always",
+          "blockClass": "carrouselFragancias"
+        },
+        "children": ["image#regaloPadres-polo", "image#regaloPadres-camisetas", "image#regaloPadres-camisas", "image#regaloPadres-accesorios" ]
+      },
+
+    // ARCHIVOS 
+
+    "image#BannerRegalosPadres-mobi":{
+        "props": {
+            "src": "/arquivos/Pilatos-guia-de-padres-Banner-Landing-Mobile.jpg"
+        }
+    }
+
+}

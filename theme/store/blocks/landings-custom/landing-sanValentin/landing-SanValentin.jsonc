@@ -100,7 +100,7 @@
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
             "text": "### ¿Buscas el regalo perfecto? \n Encuéntralo en nuestra **#GuíaPilatos** y sorprende en San Valentín",
-            "blockClass": "sanValentin-texto"
+            "blockClass": "botonSanValentin-texto"
         }
     },
 
