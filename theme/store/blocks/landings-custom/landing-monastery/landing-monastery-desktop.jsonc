@@ -1,0 +1,306 @@
+{
+    "store.custom#landing-monastery":{
+        "blocks":[
+            "responsive-layout.desktop#bannerMonastery",
+            "responsive-layout.tablet#bannerMonastery",
+            "responsive-layout.phone#bannersMonastery"
+          
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }         
+    },
+    "flex-layout.row#bannerMonastery":{
+        "children":[
+            "flex-layout.col#bannerMonastery"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+    "flex-layout.col#bannerMonastery":{
+        "children":[
+            "rich-text#landing-monastery",
+            "rich-text#landing-monastery-title"
+        ]
+    },
+    /*Bread crumb & Title*/
+    "rich-text#landing-monastery": {
+        "props": {
+            "text": "[Home](/) / [*Monastery*](/monastery)",
+            "blockClass": "departmentBreadCrumb"
+                    }
+                },
+     "rich-text#landing-monastery-title": {
+           "props": {
+              "text": "# Monastery",
+                 "blockClass": "departmentTitle"
+                }
+           },
+      /*Banner landing*/     
+      /*Desktop*/
+        "responsive-layout.desktop#bannerMonastery":{
+             "children": [
+                "flex-layout.row#bannerMonastery",
+                "image#bannerMonastery",
+                "flex-layout.row#monasteryGenero",
+                "flex-layout.row#monasteryCategorias",
+                "flex-layout.row#monasteryBannerTexto",
+                "search-result-layout.customQuery#department-nuevo" 
+                
+                
+             ],
+             "props": {
+                "blockClass": "contentSearch"
+            }
+        },
+        /*Tablet*/
+        "responsive-layout.tablet#bannerMonastery":{
+            "children": [
+               "flex-layout.row#bannerMonastery",
+               "image#bannerMonastery",
+               "flex-layout.row#monasteryGenero-tablet",
+               "flex-layout.row#monasteryCategorias-tablet",
+               "flex-layout.row#monasteryBannerTexto",
+               "search-result-layout.customQuery#department-nuevo" 
+               
+               
+            ],
+            "props": {
+               "blockClass": "contentSearch"
+           }
+       },
+        "image#bannerMonastery":{
+            "props": {
+                "src": "/arquivos/banner-landing-desk-monastery-pilatos-junio.jpg"
+            }
+        },
+        /*seccion banner genero monastery*/
+        "flex-layout.row#monasteryGenero": {
+            "children": [
+                "flex-layout.col#monasteryGenero-masculino",
+                "flex-layout.col#monasteryGenero-femenino"
+            ],
+            "props": {
+                "blockClass": "contentSearch-monastery"
+            }
+        },
+        "flex-layout.col#monasteryGenero-masculino": {
+            "children": [
+                "image#monasteryGenero-masculino"
+            ]
+        },
+        "flex-layout.col#monasteryGenero-femenino": {
+            "children": [
+                "image#monasteryGenero-femenino"
+            ]
+        },
+        /*tablet*/
+        "flex-layout.row#monasteryGenero-tablet": {
+            "children": [
+                "flex-layout.col#monasteryGenero-masculino-tablet",
+                "flex-layout.col#monasteryGenero-femenino-tablet"
+            ],
+            "props": {
+                "blockClass": "contentSearch-monastery"
+            }
+        },
+        "flex-layout.col#monasteryGenero-masculino-tablet": {
+            "children": [
+                "image#monasteryGenero-masculino-tablet"
+            ]
+        },
+        "flex-layout.col#monasteryGenero-femenino-tablet": {
+            "children": [
+                "image#monasteryGenero-femenino-tablet"
+            ]
+        },
+        /*Archivos de imagenes*/
+        "image#monasteryGenero-masculino":{
+            "props":{
+                "src": "/arquivos/banner-monastery-hombre-junio-2023.jpg",
+                "link": {
+                    "url": "/monastery-hombre"
+                },
+                "blockClass": "sanValentinImagen"
+            }
+        },
+        "image#monasteryGenero-femenino":{
+            "props":{
+                "src": "/arquivos/banner-monastery-mujer-junio-2023.jpg",
+                "link": {
+                    "url": "/monastery-mujer"
+                },
+                "blockClass": "sanValentinImagen"
+            }
+ },
+ /*tablet*/
+ "image#monasteryGenero-masculino-tablet":{
+    "props":{
+        "src": "/arquivos/banner-monastery-hombre-junio-2023.jpg",
+        "link": {
+            "url": "/monastery-hombre"
+        },
+        "blockClass": "sanValentinImagen"
+    }
+},
+"image#monasteryGenero-femenino-tablet":{
+    "props":{
+        "src": "/arquivos/banner-monastery-mujer-junio-2023.jpg",
+        "link": {
+            "url": "/monastery-mujer"
+        },
+        "blockClass": "sanValentinImagen"
+    }
+},
+/*categorias*/
+ "flex-layout.row#monasteryCategorias": {
+    "children": [
+        "flex-layout.col#categoriaCamisetas",
+        "flex-layout.col#categoriaGorras",
+        "flex-layout.col#categoriaPantalonetas"
+    ],
+    "props": {
+        "blockClass": "contentSearch"
+    }
+},
+"flex-layout.col#categoriaCamisetas": {
+    "children": [
+        "image#categoriaCamisetas"
+    ]
+},
+"flex-layout.col#categoriaGorras": {
+    "children": [
+        "image#categoriaGorras"
+    ]
+},
+"flex-layout.col#categoriaPantalonetas": {
+    "children": [
+        "image#categoriaPantalonetas"
+    ]
+},
+/*categorias tablet*/
+"flex-layout.row#monasteryCategorias-tablet": {
+    "children": [
+        "flex-layout.col#categoriaCamisetas-tablet",
+        "flex-layout.col#categoriaGorras-tablet",
+        "flex-layout.col#categoriaPantalonetas-tablet"
+    ],
+    "props": {
+        "blockClass": "estilosCategoriasMonastery"
+    }
+},
+"flex-layout.col#categoriaCamisetas-tablet": {
+    "children": [
+        "image#categoriaCamisetas-tablet"
+    ]
+},
+"flex-layout.col#categoriaGorras-tablet": {
+    "children": [
+        "image#categoriaGorras-tablet"
+    ]
+},
+"flex-layout.col#categoriaPantalonetas-tablet": {
+    "children": [
+        "image#categoriaPantalonetas-tablet"
+    ]
+},
+/*imaganes desktop*/
+"image#categoriaCamisetas":{
+    "props":{
+        "src": "/arquivos/monastery-camisetas-desk-junio-2023.jpg",
+        "link": {
+            "url": "/monastery-camisetas"
+        },
+        "blockClass":"sanValentinImagen"
+        
+    }
+},
+"image#categoriaGorras":{
+    "props":{
+        "src": "/arquivos/monastery-gorras-desk-junio-2023.jpg",
+        "link": {
+            "url": "/monastery-gorras"
+        },
+        "blockClass":"sanValentinImagen"
+        
+    }
+},
+"image#categoriaPantalonetas":{
+    "props":{
+        "src": "/arquivos/monastery-pantalonetas-desk-junio-2023.jpg",
+        "link": {
+            "url": "/monastery-pantalonetas"
+        },
+        "blockClass":"sanValentinImagen"
+        
+    }
+},
+/*imagenes tablet*/
+"image#categoriaCamisetas-tablet":{
+    "props":{
+        "src": "/arquivos/monastery-camisetas-desk-junio-2023.jpg",
+        "blockClass":"estilosCategoriasMonastery",
+        "link": {
+            "url": "/monastery-camisetas"
+        },
+        "maxWidth":"300px"
+       
+    }
+},
+"image#categoriaGorras-tablet":{
+    "props":{
+        "src": "/arquivos/monastery-gorras-desk-junio-2023.jpg",
+        "blockClass":"estilosCategoriasMonastery",
+        "link": {
+            "url": "/monastery-gorras"
+        },
+        "maxWidth":"300px"   
+    }
+},
+"image#categoriaPantalonetas-tablet":{
+    "props":{
+        "src": "/arquivos/monastery-pantalonetas-desk-junio-2023.jpg",
+        "blockClass":"estilosCategoriasMonastery",
+        "link": {
+            "url": "/monastery-pantalonetas"
+        },
+        "maxWidth":"300px"
+    }
+},
+/*Ultimos banners con texto*/
+"flex-layout.row#monasteryBannerTexto": {
+    "children": [
+        "flex-layout.col#monasteryCoutareBanner",
+        "flex-layout.col#monasteryIconicBanner"
+    ],
+    "props": {
+        "blockClass": "contentSearch-monastery"
+    }
+},
+"flex-layout.col#monasteryCoutareBanner": {
+    "children": [
+        "image#monasteryCoutareBanner"
+
+    ]
+}, "flex-layout.col#monasteryIconicBanner": {
+    "children": [
+        "image#monasteryIconicBanner"
+    ]
+},
+"image#monasteryCoutareBanner":{
+    "props":{
+        "src": "/arquivos/monastery-coutare-desk-junio-2023.jpg",
+        "blockClass":"estilosCategoriasMonastery",
+        "maxWidth":"550px"
+    }
+},
+"image#monasteryIconicBanner":{
+    "props":{
+        "src": "/arquivos/monastery-iconic-desk-junio-2023.jpg",
+        "blockClass":"estilosCategoriasMonastery",
+        "maxWidth":"550px"
+    }
+}
+/*Banners ultimos con texto*/
+}

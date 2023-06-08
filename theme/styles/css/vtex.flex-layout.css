@@ -1323,7 +1323,11 @@
     width: 88%;
     margin: 0 auto;
   }
-
+  .flexRow--contentSearch-monastery{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 6px;
+  }
   .flexRow--contentSearchLook{
     width: 60%;
     margin: 0 auto;
@@ -1416,7 +1420,16 @@
   }
  
 }
-
+@media screen and (max-width:768px) {
+  .flexRow--contentSearch-monastery{
+    margin: 20px;
+  }
+  .flexRow--estilosCategoriasMonastery{
+    margin-bottom: 5px;
+    position: relative;
+    left: 0px !important;
+  }
+}
 .flexRowContent--containerBotones {
   display: flex;
 }
@@ -2932,3 +2945,19 @@
   width: 50%;
 }
 
+@media screen and (min-width:1200px) and (max-width:1400px) {
+  .flexRow--estilosCategoriasMonastery{
+  margin: 20px;
+}
+}
+.flexRow--estilosCategoriasMonastery{
+  width: 100%;
+  position: relative;
+  left: -20px;
+}
+
+@media screen and (min-width:600px) and (max-width:1000px) {
+  .flexRow--estilosCategoriasMonastery{
+  margin: 20px;
+}
+}

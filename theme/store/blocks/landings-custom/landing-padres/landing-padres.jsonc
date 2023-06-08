@@ -4,7 +4,7 @@
             "flex-layout.row#textoInicioRegalosPadres",
             "responsive-layout.desktop#BannerRegalosPadres",
           "responsive-layout.tablet#BannerRegalosPadres",
-           "responsive-layout.phone#BannerRegalosPadres"
+          "responsive-layout.phone#BannerRegalosPadres"
         ],
         "props": {
             "blockClass": "contentStoreCustom"

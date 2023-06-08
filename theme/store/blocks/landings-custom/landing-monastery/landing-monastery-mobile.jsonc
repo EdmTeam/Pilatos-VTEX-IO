@@ -1,0 +1,104 @@
+{
+    "responsive-layout.phone#bannersMonastery":{
+        "children":[
+            "flex-layout.row#bannerLandingMonastery",
+            "flex-layout.row#bannersGeneros-mobi",
+            "slider-layout#imagenesCategorias",
+            "flex-layout.row#bannersTexto-mobi",
+            "search-result-layout.customQuery#department-nuevo" 
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+    /*banner landing mobile*/
+    "flex-layout.row#bannerLandingMonastery":{
+       "children":[
+        "rich-text#landing-monastery",
+        "rich-text#landing-monastery-title",
+        "image#banner-landing-monastery-mobile"
+       ]
+    },
+    "image#banner-landing-monastery-mobile":{
+        "props":{
+            "src":"/arquivos/monastery-banner-landing-mobile-junio-2023.jpg"
+        }
+    },
+    /*banners categorias hombre y mujer mobile*/
+    "flex-layout.row#bannersGeneros-mobi":{
+        "children": [
+            "flex-layout.col#bannerHombre-mobi",
+            "flex-layout.col#bannerMujer-mobi"
+
+        ],
+        "props": {
+            "preventHorizontalStretch": true,
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "flex-layout.col#bannerHombre-mobi":{
+        "children":[
+            "image#monasteryGenero-masculino"
+        ]
+    },
+    "flex-layout.col#bannerMujer-mobi":{
+        "children":[
+            "image#monasteryGenero-femenino"
+        ]
+    },
+    /*Carrusel*/
+    "slider-layout#imagenesCategorias": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 3,
+            "tablet": 3,
+            "phone": 1
+              },
+          "infinite": true,
+          "showNavigationArrows": "always",
+          "blockClass": "carrouselFragancias"
+        },
+        "children": ["image#categoriaCamisetas", "image#categoriaGorras", "image#categoriaPantalonetas"]
+      },
+      /*ultimos banners*/
+      "flex-layout.row#bannersTexto-mobi":{
+        "children": [
+            "flex-layout.row#bannerCouatre-mobi",
+            "flex-layout.row#bannerIconic-mobi"
+
+        ],
+        "props":{
+            "blockClass": "contentSearch-monastery"
+        }
+    },
+    "flex-layout.row#bannerCouatre-mobi":{
+        "children":[
+            "image#monasteryCoutareBanner-mob"
+        ],
+        "props":{
+            "blockClass":"estilosCategoriasMonastery"
+        }
+    },
+    "flex-layout.row#bannerIconic-mobi":{
+        "children":[
+            "image#monasteryIconicBanner-mob"       
+         ]
+    },
+    "image#monasteryCoutareBanner-mob":{
+        "props":{
+            "src": "/arquivos/monastery-coutare-desk-junio-2023.jpg",
+            "blockClass":"estilosCategoriasMonastery",
+            "maxWidth":"420px",
+            "marginTop":"200px"
+            
+        }
+    },
+    "image#monasteryIconicBanner-mob":{
+        "props":{
+            "src": "/arquivos/monastery-iconic-desk-junio-2023.jpg",
+            "blockClass":"estilosCategoriasMonastery2",
+            "maxWidth":"400px",
+            "marginTop":"200px"
+        }
+    }
+}
