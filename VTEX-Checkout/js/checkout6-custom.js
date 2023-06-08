@@ -157,6 +157,23 @@ const CustomCheckout = function () {
                 // setCookie('tratamientoDatos', true, endCookies)
                 // console.log(e.target)
                 // console.log(e.target.id)
+
+                const dataClient = {
+                    documentNumber: document.getElementById("client-document").value,
+                    documentType: "Cédula de Ciudadanía",
+                    firstName: document.getElementById("client-first-name").value,
+                    isCorporate: (document.getElementById("client-company-ie") && document.getElementById("client-company-ie").value != "") ? true : false,
+                    lastName: document.getElementById("client-last-name").value,
+                    phone: document.getElementById("client-phone").value,
+                    email: document.getElementById("client-email").value,
+                    acceptTerms: true,
+                }
+                const validateEmpty = Object.values(dataClient).some(obj => obj === "");
+                
+                if (!validateEmpty) {
+                    guardarDatosMasterData(dataClient, "CC");
+                }
+
                 switch (e.target.id) {
                     case 'go-to-shipping':
                         window.location.hash = 'shipping'
@@ -315,6 +332,29 @@ const CustomCheckout = function () {
         }
     }
 
+    const guardarDatosMasterData = (datosInputs, entidadMasterData) => {
+        console.log("Estoy en guardarDatosMasterData");
+        var contentPost = {
+            url: "/api/ds/pub/documents/" + entidadMasterData,
+            contentType: 'application/json; charset=utf-8',
+            data: JSON.stringify(datosInputs),
+            type: "POST",
+            beforeSend: function () {
+
+            },
+            success: function (data) {
+                console.log("Successfully Registered Customer")
+            },
+            error: function (data) {
+                console.log("Client Registration Error")
+            },
+            complete: function () {
+
+            },
+        }
+        $.ajax(contentPost);
+    };
+
     return {
         init: init,
         pasosCheckout: pasosCheckout,
@@ -337,3 +377,30 @@ $(window).on('hashchange', function () {
 $(window).on('load', function () {
     CustomCheckout.changeResolutionImage();
 })
+
+addiAllySlug='pilatos-ecommerce';
+$.getScript('https://s3.amazonaws.com/statics.addi.com/vtex/js/vtex-checkout-co.bundle.min.js');
+
+$(".product-item-attachment-offerings-select option:contains('prices')").remove();
+
+// inicio codigo
+$(document).ready(function() {
+  // Obtener el elemento .newsletter-text
+  const containerForm = $(".terms-conditions.dataCheck");
+
+  // Crear el mensaje
+  const containerInfo = $("<div>Mediante la aceptación de la Política de Habeas Data y Tratamiento de Datos personales se certifica que el usuario o cliente es una persona mayor de edad (18 años) y podrá ser tratada de acuerdo con la política de tratamiento de datos.</div>");
+
+  // Agregar estilos al mensaje
+  containerInfo.css({
+    marginTop: "10px",
+    fontSize: "12px",
+    color: "grey"
+  });
+
+  // Agregar el mensaje después del elemento .newsletter-text
+  containerForm.after(containerInfo);
+});
+
+ // Nequi como medio de pago oculto de PSE
+$( window ).on( "load", function() {$(".btn.debit-list-selector").find('option:contains("NEQUI")').hide()})
