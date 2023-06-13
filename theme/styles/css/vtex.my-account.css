@@ -802,6 +802,7 @@ time{
     order: 3;
     margin-top: 0.8rem;
     position: relative;
+    display: none !important;
 }
 
 :global(.vtex-account__page)
