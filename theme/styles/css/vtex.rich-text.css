@@ -1153,7 +1153,72 @@
   text-decoration: none;
   transition: all .35s;
 }
+/*botones champion*/
+.wrapper--botonChampion:hover{
+  background: #321aae
+}
+.wrapper--botonChampion:active{
+  transform: translate(0em, 0.2em);
+}
 
+@media screen and (min-width:620px) {
+  .wrapper--botonChampion {
+    background-color:  black;
+    border: none;
+    font-weight: 700; 
+    color: white; 
+    padding: 1px 20px; 
+    text-align: center; 
+    display: inline-block; 
+    font-size: 16px;
+    margin: 10px 80px;
+    cursor: pointer; 
+    border-radius: 25px; 
+    text-decoration: none;
+  
+  }  
+}
+@media screen and  (max-width:600px){
+  .wrapper--botonChampion {
+    background-color:black;
+    border: none;
+    font-weight: 700;
+    color: white;
+    padding: 1px 33px;
+    text-align: center;
+    position: relative;
+    left: -36px;
+    display: grid;
+    font-size: 16px;
+    margin: 6px 51px;
+    cursor: pointer;
+    border-radius: 25px;
+    text-decoration: none
+  
+  }  
+  .wrapper--botonChampion2 {
+    background-color:  black;
+    border: none;
+    font-weight: 700; 
+    color: white; 
+    padding: 1px 20px; 
+    text-align: center; 
+    position:relative;
+    left: 36px;
+    display: grid; 
+    font-size: 16px;
+    margin: 10px 80px;
+    cursor: pointer; 
+    border-radius: 25px; 
+    text-decoration: none;
+  
+  }  
+}
+.wrapper--botonChampion .link--botonChampion {
+  color: white;
+  text-decoration: none;
+  transition: all .35s;
+}
 /* Estilos botones de guia de regalo */
 
 .wrapper--botonesGeneros {

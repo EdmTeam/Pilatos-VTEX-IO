@@ -1,0 +1,91 @@
+{
+    "responsive-layout.phone#landingChampions":{
+        "children":[
+            "flex-layout.row#tituloChampionLanding",
+            "flex-layout.row#bannersGenerosChampions-mobi",
+             "flex-layout.row#botonesChampions-mobi2",
+            "flex-layout.row#botonesChampions-mobi"
+           
+        ] ,
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+    /*Migaja de pan y titulo*/
+    "flex-layout.row#tituloChampionLanding":{
+        "children":[
+            "rich-text#landing-champions",
+            "rich-text#landing-champions-title",
+         "image#bannerLandingMobileChampion"
+        ]
+     },
+    /*Banner landing*/
+    "image#bannerLandingMobileChampion":{
+        "props":{
+            "src":"/arquivos/banner-champion-mobile-landing-junio-2023.jpg"
+        }
+    },
+    /*banner generos*/
+    "flex-layout.row#bannersGenerosChampions-mobi":{
+        "children": [
+            "flex-layout.col#bannerHombreChampion-mobi",
+            "flex-layout.col#bannerMujerChampion-mobi"
+
+        ],
+        "props": {
+            "preventHorizontalStretch": true,
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "flex-layout.col#bannerHombreChampion-mobi":{
+        "children":[
+            "image#championsBannerGeneroLanding-masculino"
+        ]
+    },
+    "flex-layout.col#bannerMujerChampion-mobi":{
+        "children":[
+            "image#championsBannerGeneroLanding-femenino"
+        ]
+    },
+    /*botones*/
+    "flex-layout.row#botonesChampions-mobi":{
+        "children":[
+          "rich-text#champion-boton1",
+          "rich-text#champion-boton2"
+        ],
+        "props":{
+          "horizontalAlign": "center",
+          "preventHorizontalStretch": false,
+          "preserveLayoutOnMobile": true
+        }
+      },
+      "rich-text#champion-boton1":{
+        "props":{
+            "text":"CAMISETAS",
+            "blockClass":"botonChampion"
+        }
+    },
+    "rich-text#champion-boton2":{
+        "props":{
+            "text":"CHAQUETAS",
+            "blockClass":"botonChampion"
+        }
+    },
+ /*boton solo*/
+ "flex-layout.row#botonesChampions-mobi2":{
+    "children":[
+        "rich-text#champion-boton4"
+      ],
+      "props":{
+        "horizontalAlign": "center",
+        "preventHorizontalStretch": false,
+        "preserveLayoutOnMobile": true
+      }
+ },
+ "rich-text#champion-boton4":{
+    "props":{
+        "text":"SUDADERAS",
+        "blockClass":"botonChampion2"
+    }
+}
+}
