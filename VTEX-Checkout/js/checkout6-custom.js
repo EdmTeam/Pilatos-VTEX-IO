@@ -1,5 +1,11 @@
 // WARNING: THE USAGE OF CUSTOM SCRIPTS IS NOT SUPPORTED. VTEX IS NOT LIABLE FOR ANY DAMAGES THIS MAY CAUSE. THIS MAY BREAK YOUR STORE AND STOP SALES. IN CASE OF ERRORS, PLEASE DELETE THE CONTENT OF THIS SCRIPT.
 
+//SCRIPT DIA SIN IVA //
+
+$(document).ready(function () { $(window).on("orderFormUpdated.vtex", function (t, e) { calculatePromotions(e) }) }); var calculatePromotions = t => { var e = "", o = "", r = "", n = 0, a = (r = 0, t.storePreferencesData.currencySymbol); if (null != t.ratesAndBenefitsData) { var i = t.ratesAndBenefitsData.rateAndBenefitsIdentifiers, s = t.items; for (let t = 0; t < i.length; t++) { n = 0, r = 0; for (let e = 0; e < s.length; e++)for (let o = 0; o < s[e].priceTags.length; o++)s[e].priceTags[o].identifier == i[t].id && (n += s[e].priceTags[o].value); e = n.toString().substr(0, n.toString().length - 2), r = n.toString().slice("-2"), n = new Intl.NumberFormat("es-CO").format(e), o += `\n                <tr class="promotion-row promotion-row-${i[t].id}">\n                    <td class="info">${i[t].name}</td>\n                    <td class="space"></td>\n                    <td class="monetary">${a} ${n},${r}</td>\n                    <td class="empty"></td>\n                </tr>` } $(".promotion-row").remove(), setTimeout(function () { $(".promotion-row").remove(), $(".totalizers-list").append(o) }, 1e3) } };
+
+//FINALIZA EL SCRIPT //
+
 const CustomCheckout = function () {
 
     let init = function () {
@@ -157,6 +163,23 @@ const CustomCheckout = function () {
                 // setCookie('tratamientoDatos', true, endCookies)
                 // console.log(e.target)
                 // console.log(e.target.id)
+
+                const dataClient = {
+                    documentNumber: document.getElementById("client-document").value,
+                    documentType: "Cédula de Ciudadanía",
+                    firstName: document.getElementById("client-first-name").value,
+                    isCorporate: (document.getElementById("client-company-ie") && document.getElementById("client-company-ie").value != "") ? true : false,
+                    lastName: document.getElementById("client-last-name").value,
+                    phone: document.getElementById("client-phone").value,
+                    email: document.getElementById("client-email").value,
+                    acceptTerms: true,
+                }
+                const validateEmpty = Object.values(dataClient).some(obj => obj === "");
+
+                if (!validateEmpty) {
+                    guardarDatosMasterData(dataClient, "CC");
+                }
+
                 switch (e.target.id) {
                     case 'go-to-shipping':
                         window.location.hash = 'shipping'
@@ -315,6 +338,29 @@ const CustomCheckout = function () {
         }
     }
 
+    const guardarDatosMasterData = (datosInputs, entidadMasterData) => {
+        console.log("Estoy en guardarDatosMasterData");
+        var contentPost = {
+            url: "/api/ds/pub/documents/" + entidadMasterData,
+            contentType: 'application/json; charset=utf-8',
+            data: JSON.stringify(datosInputs),
+            type: "POST",
+            beforeSend: function () {
+
+            },
+            success: function (data) {
+                console.log("Successfully Registered Customer")
+            },
+            error: function (data) {
+                console.log("Client Registration Error")
+            },
+            complete: function () {
+
+            },
+        }
+        $.ajax(contentPost);
+    };
+
     return {
         init: init,
         pasosCheckout: pasosCheckout,
@@ -337,3 +383,30 @@ $(window).on('hashchange', function () {
 $(window).on('load', function () {
     CustomCheckout.changeResolutionImage();
 })
+
+addiAllySlug = 'pilatos-ecommerce';
+$.getScript('https://s3.amazonaws.com/statics.addi.com/vtex/js/vtex-checkout-co.bundle.min.js');
+
+$(".product-item-attachment-offerings-select option:contains('prices')").remove();
+
+// inicio codigo
+$(document).ready(function () {
+    // Obtener el elemento .newsletter-text
+    const containerForm = $(".terms-conditions.dataCheck");
+
+    // Crear el mensaje
+    const containerInfo = $("<div>Mediante la aceptación de la Política de Habeas Data y Tratamiento de Datos personales se certifica que el usuario o cliente es una persona mayor de edad (18 años) y podrá ser tratada de acuerdo con la política de tratamiento de datos.</div>");
+
+    // Agregar estilos al mensaje
+    containerInfo.css({
+        marginTop: "10px",
+        fontSize: "12px",
+        color: "grey"
+    });
+
+    // Agregar el mensaje después del elemento .newsletter-text
+    containerForm.after(containerInfo);
+});
+
+// Nequi como medio de pago oculto de PSE
+$(window).on("load", function () { $(".btn.debit-list-selector").find('option:contains("NEQUI")').hide() })

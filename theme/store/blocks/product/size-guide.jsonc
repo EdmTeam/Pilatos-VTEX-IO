@@ -203,7 +203,178 @@
         }
     },
 
+    "size-guide#superior-mujer-hombre-medias-stance":{
+        "props": {
+          "conditionals": [
+              {
+                  "brands": ["2000107", "2000006"],
+                  "categories": ["38", "82"],
+                  "imageDesktop": "/arquivos/Pilatos-GuiaTallas-Stance-medias-hombre-mujer.jpg",
+                  "imageTablet": "/arquivos/Pilatos-GuiaTallas-Stance-medias-hombre-mujer.jpg",
+                  "imagePhone": "/arquivos/Pilatos-GuiaTallas-Stance-medias-hombre-mujer.jpg"
+              }
+          ]
+        }
+    },
+    // GUIA DE TALLA MARCAS DISANDINA 
+    "size-guide#mujer-hombre-gorras-Alpinestars":{
+        "props": {
+          "conditionals": [
+              {
+                  "brands": ["2000004"],
+                  "categories": ["24", "67"],
+                  "imageDesktop": "/arquivos/Pilatos-GuiaTallas-Alpinestars-gorras.jpg",
+                  "imageTablet": "/arquivos/Pilatos-GuiaTallas-Alpinestars-gorras.jpg",
+                  "imagePhone": "/arquivos/Pilatos-GuiaTallas-Alpinestars-gorras.jpg"
+              }
+          ]
+        }
+    },
+    "size-guide#hombre-pantalones-Alpinestars":{
+        "props": {
+          "conditionals": [
+              {
+                  "brands": ["2000004"],
+                  "categories": ["18", "20"],
+                  "imageDesktop": "/arquivos/Pilatos-GuiaTallas-Alpinestars-pantalones-hombrejpg",
+                  "imageTablet": "/arquivos/Pilatos-GuiaTallas-Alpinestars-pantalones-hombre.jpg",
+                  "imagePhone": "/arquivos/Pilatos-GuiaTallas-Alpinestars-pantalones-hombre.jpg"
+              }
+          ]
+        }
+    },
+    "size-guide#superior-hombre-Alpinestars":{
+        "props": {
+          "conditionals": [
+              {
+                  "brands": ["2000004"],
+                  "categories": ["14", "13", "17", "16"],
+                  "imageDesktop": "/arquivos/Pilatos-GuiaTallas-Alpinestars-superior-hombre.jpg",
+                  "imageTablet": "/arquivos/Pilatos-GuiaTallas-Alpinestars-superior-hombre.jpg",
+                  "imagePhone": "/arquivos/Pilatos-GuiaTallas-Alpinestars-superior-hombre.jpg"
+              }
+          ]
+        }
+    },
+    "size-guide#hombre-cascos-gorras-Oakley":{
+        "props": {
+          "conditionals": [
+              {
+                  "brands": ["2000097", "2000002"],
+                  "categories": ["24", "35"],
+                  "imageDesktop": "/arquivos/Pilatos-GuiaTallas-Oakley-cascos-gorras.jpg",
+                  "imageTablet": "/arquivos/Pilatos-GuiaTallas-Oakley-cascos-gorras.jpg",
+                  "imagePhone": "/arquivos/Pilatos-GuiaTallas-Oakley-cascos-gorras.jpg"
+              }
+          ]
+        }
+    },
+    "size-guide#hombre-superior-inferior-Oakley":{
+        "props": {
+          "conditionals": [
+              {
+                "brands": ["2000097", "2000002"],
+                "categories": ["4", "39"],
+                  "imageDesktop": "/arquivos/Pilatos-GuiaTallas-Oakley-superior-inferior-hombre.jpg",
+                  "imageTablet": "/arquivos/Pilatos-GuiaTallas-Oakley-superior-inferior-hombre.jpg",
+                  "imagePhone": "/arquivos/Pilatos-GuiaTallas-Oakley-superior-inferior-hombre.jpg"
+              }
+          ]
+        }
+    },
+    "size-guide#hombre-tenis-Oakley":{
+        "props": {
+          "conditionals": [
+              {
+                "brands": ["2000097", "2000002"],
+                  "categories": ["3"],
+                  "imageDesktop": "/arquivos/Pilatos-GuiaTallas-Oakley-tenis.jpg",
+                  "imageTablet": "/arquivos/Pilatos-GuiaTallas-Oakley-tenis.jpg",
+                  "imagePhone": "/arquivos/Pilatos-GuiaTallas-Oakley-tenis.jpg"
+              }
+          ]
+        }
+    },
+    "size-guide#mujer-calzado-gorra-sombrero-Roxy":{
+        "props": {
+          "conditionals": [
+              {
+                  "brands": ["2000007"],
+                  "categories": ["44", "67", "78"],
+                  "imageDesktop": "/arquivos/Pilatos-GuiaTallas-Roxy-mujer-calzado-gorra-sombrero.jpg",
+                  "imageTablet": "/arquivos/Pilatos-GuiaTallas-Roxy-mujer-calzado-gorra-sombrero.jpg",
+                  "imagePhone": "/arquivos/Pilatos-GuiaTallas-Roxy-mujer-calzado-gorra-sombrero.jpg"
+              }
+          ]
+        }
+    },
+    "size-guide#mujer-superior-inferior-Roxy":{
+        "props": {
+          "conditionals": [
+              {
+                  "brands": ["2000007"],
+                  "categories": ["55", "56", "54", "58", "57", "60", "59", "61"],
+                  "imageDesktop": "/arquivos/Pilatos-GuiaTallas-Roxy-mujer-superior-inferior.jpg",
+                  "imageTablet": "/arquivos/Pilatos-GuiaTallas-Roxy-mujer-superior-inferior.jpg",
+                  "imagePhone": "/arquivos/Pilatos-GuiaTallas-Roxy-mujer-superior-inferior.jpg"
+              }
+          ]
+        }
+    },
+    "size-guide#mujer-vestidos-Roxy":{
+        "props": {
+          "conditionals": [
+              {
+                  "brands": ["2000007"],
+                  "categories": ["64"],
+                  "imageDesktop": "/arquivos/Pilatos-GuiaTallas-Roxy-mujer-vestidos.jpg",
+                  "imageTablet": "/arquivos/Pilatos-GuiaTallas-Roxy-mujer-vestidos.jpg",
+                  "imagePhone": "/arquivos/Pilatos-GuiaTallas-Roxy-mujer-vestidos.jpg"
+              }
+          ]
+        }
+    },
+    "size-guide#hombre-calzado-Quiksilver":{
+        "props": {
+          "conditionals": [
+              {
+                  "brands": ["2000003"],
+                  "categories": ["3"],
+                  "imageDesktop": "/arquivos/Pilatos-GuiaTallas-Quicksilver-calzado-hombre.jpg",
+                  "imageTablet": "/arquivos/Pilatos-GuiaTallas-Quicksilver-calzado-hombre.jpg",
+                  "imagePhone": "/arquivos/Pilatos-GuiaTallas-Quicksilver-calzado-hombre.jpg"
+              }
+          ]
+        }
+    },
+    "size-guide#hombre-gorra-Quiksilver":{
+        "props": {
+          "conditionals": [
+              {
+                  "brands": ["2000003"],
+                  "categories": ["24", "35"],
+                  "imageDesktop": "/arquivos/Pilatos-GuiaTallas-Quicksilver-gorra-hombre.jpg",
+                  "imageTablet": "/arquivos/Pilatos-GuiaTallas-Quicksilver-gorra-hombre.jpg",
+                  "imagePhone": "/arquivos/Pilatos-GuiaTallas-Quicksilver-gorra-hombre.jpg"
+              }
+          ]
+        }
+    },
+    "size-guide#hombre-superior-short-Quiksilver":{
+        "props": {
+          "conditionals": [
+              {
+                  "brands": ["2000003"],
+                  "categories": ["4", "40"],
+                  "imageDesktop": "/arquivos/Pilatos-GuiaTallas-Quicksilver-hombre-superior-short.jpg",
+                  "imageTablet": "/arquivos/Pilatos-GuiaTallas-Quicksilver-hombre-superior-short.jpg",
+                  "imagePhone": "/arquivos/Pilatos-GuiaTallas-Quicksilver-hombre-superior-short.jpg"
+              }
+          ]
+        }
+    },
 
+// fin DISANDINA 
     "size-guide#zapatos-mujer-superdry":{
         "props": {
           "conditionals": [

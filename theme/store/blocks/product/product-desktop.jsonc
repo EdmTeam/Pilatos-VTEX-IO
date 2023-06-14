@@ -39,6 +39,19 @@
 
             "product-price#product",
             "sku-selector",
+            "size-guide#superior-mujer-hombre-medias-stance",
+            "size-guide#mujer-hombre-gorras-Alpinestars",
+            "size-guide#hombre-pantalones-Alpinestars",
+            "size-guide#superior-hombre-Alpinestars",
+            "size-guide#hombre-cascos-gorras-Oakley",
+            "size-guide#hombre-superior-inferior-Oakley",
+            "size-guide#hombre-tenis-Oakley",
+            "size-guide#mujer-calzado-gorra-sombrero-Roxy",
+            "size-guide#mujer-superior-inferior-Roxy",
+            "size-guide#mujer-vestidos-Roxy",
+            "size-guide#hombre-calzado-Quiksilver",
+            "size-guide#hombre-gorra-Quiksilver",
+            "size-guide#hombre-superior-short-Quiksilver",
             "size-guide#superior-mujer-champion",
             "size-guide#inferior-mujer-champion",
             "size-guide#superior-hombre-champion",
@@ -91,7 +104,7 @@
             "link#scrollLink",
             "share#default",
             "pilatos21.add-to-cart-button:add-to-cart-button",
-            "productsegmentify"
+            "productsegmentify" 
         ],
         "props":{
             "blockClass": ["product-description", "stack-product"],
