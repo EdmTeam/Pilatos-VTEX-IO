@@ -115,8 +115,8 @@
     },
     "flex-layout.row#botones-champion":{
         "children":[
-            "rich-text#champion-boton1",
-            "rich-text#champion-boton2",
+            "rich-text#champion-boton1a",
+            "rich-text#champion-boton2a",
             "rich-text#champion-boton3"
           ],
           "props":{
@@ -124,13 +124,13 @@
             "preventHorizontalStretch": true
           }
     },
-    "rich-text#champion-boton1":{
+    "rich-text#champion-boton1a":{
         "props":{
             "text":"CAMISETAS",
             "blockClass":"botonChampion"
         }
     },
-    "rich-text#champion-boton2":{
+    "rich-text#champion-boton2a":{
         "props":{
             "text":"CHAQUETAS",
             "blockClass":"botonChampion"
