@@ -103,6 +103,7 @@
             "condition-layout.product#cond5-girbaud",
             "link#scrollLink",
             "share#default",
+            "flex-layout.row#add-to-list-btn",
             "pilatos21.add-to-cart-button:add-to-cart-button",
             "productsegmentify" 
         ],
