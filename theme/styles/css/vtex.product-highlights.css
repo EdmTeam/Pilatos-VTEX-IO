@@ -42,6 +42,24 @@
     display: block;   
 }
 
+.productHighlightWrapper [data-highlight-id="1447"]{
+    width: 35px;
+    height: 35px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(/arquivos/FlagBancolombia-Negro.png); 
+    display: none;   
+}
+
+.productHighlightWrapper [data-highlight-id="1471"]{
+    width: 35px;
+    height: 35px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(/arquivos/FlagBancolombia-Negro.png); 
+    display: none;   
+}
+
 
 /* FLAG DESACTIVADOS POR EL BLACK BANCOLOMBIA*/
 .productHighlightWrapper [data-highlight-id="1219"]{
@@ -52,17 +70,6 @@
     background-image: url(/arquivos/BTS-FLAGS-VERD-KIPLING.png);
     display: none;
 }
-.productHighlightWrapper [data-highlight-id="1343"]{
-    width: 40px;
-    height: 40px;
-    background-size: contain;
-    background-repeat: no-repeat;
-   background-image: url(/arquivos/Flagmundial.jpg); 
-    display: none;
-    border-radius: 50%;
-
-}
-
 
 .productHighlightWrapper [data-highlight-id="1240"]{
     width: 40px;
