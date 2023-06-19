@@ -48,7 +48,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url(/arquivos/FlagBancolombia-Negro.png); 
-    display: block;   
+    display: none;   
 }
 
 .productHighlightWrapper [data-highlight-id="1471"]{
@@ -57,7 +57,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url(/arquivos/FlagBancolombia-Negro.png); 
-    display: block;   
+    display: none;   
 }
 
 
