@@ -60,9 +60,11 @@
         "children":["responsive-layout.desktop#banner-pride1", 
             "rich-text#guia-regalos-text-seo-h1p",
             "responsive-layout.desktop#banner-pride2", 
-            "flex-layout.row#most-viewed",
+            "flex-layout.row#most-viewedos",
             "responsive-layout.desktop#banner-pride3",
-            "flex-layout.row#most-viewede",
+            "flex-layout.row#most-viewedos",
+            "responsive-layout.desktop#banner-pride4",
+            "flex-layout.row#most-viewedos",
             "responsive-layout.desktop#banner-pride4",
             "flex-layout.row#most-viewedos"
 
@@ -75,9 +77,11 @@
             "image#imagen1amobia", 
             "rich-text#guia-regalos-text-seo-h1p",
             "image#imagen2amobi",
-            "flex-layout.row#most-viewed",
+            "flex-layout.row#most-viewedos",
             "image#imagen3amobi",
-            "flex-layout.row#most-viewede",
+            "flex-layout.row#most-viewedos",
+            "image#imagen4amobi",
+            "flex-layout.row#most-viewedos",
             "image#imagen4amobi",
             "flex-layout.row#most-viewedos"
         ]
