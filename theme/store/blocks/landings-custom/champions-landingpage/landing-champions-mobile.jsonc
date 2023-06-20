@@ -50,8 +50,8 @@
     /*botones*/
     "flex-layout.row#botonesChampions-mobi":{
         "children":[
-          "rich-text#champion-boton1",
-          "rich-text#champion-boton2"
+          "rich-text#champion-boton1m",
+          "rich-text#champion-boton2m"
         ],
         "props":{
           "horizontalAlign": "center",
@@ -59,13 +59,13 @@
           "preserveLayoutOnMobile": true
         }
       },
-      "rich-text#champion-boton1":{
+      "rich-text#champion-boton1m":{
         "props":{
             "text":"CAMISETAS",
             "blockClass":"botonChampion"
         }
     },
-    "rich-text#champion-boton2":{
+    "rich-text#champion-boton2m":{
         "props":{
             "text":"CHAQUETAS",
             "blockClass":"botonChampion"

@@ -1,41 +1,41 @@
 {
-    "flex-layout.row#most-viewede": {
+    "flex-layout.row#most-viewedcuatro": {
         "children": [
-            "flex-layout.col#most-viewede"
+            "flex-layout.col#most-viewedoscuatro"
         ],
         "props": {
             "blockClass": "sliderContentShelf"
         }
     },
 
-    "flex-layout.col#most-viewede": {
+    "flex-layout.col#most-viewedoscuatro": {
         "children": [
-            "rich-text#title-best-sellerse",
-            "vtex.product-summary:list-context.product-list#most-viewede"        
+            "rich-text#title-best-sellersescuatro",
+            "vtex.product-summary:list-context.product-list#most-viewedoshcuatro"        
         ]
     },
 
-    "rich-text#title-best-sellerse":{
+    "rich-text#title-best-sellersescuatro":{
         "props":{
-            "text": "Pilatos PRIDE",
+            "text": "Girbaud PRIDE",
             "blockClass": "titleShelf"
         }
     },
 
-    "vtex.product-summary:list-context.product-list#most-viewede": {
+    "vtex.product-summary:list-context.product-list#most-viewedoshcuatro": {
         "blocks": [
             "vtex.product-summary:product-summary.shelf#most-viewed"
         ],
         "children": [
-            "slider-layout#home-shelf-most-viewedeee"
+            "slider-layout#home-shelf-most-viewedoscuatroo"
         ],
         "props": {
             "orderBy": "OrderByTopSaleDESC",
-            "collection": "1478",
+            "collection": "1480",
             "maxItems": 30
         }
     },
-    "slider-layout#home-shelf-most-viewedeee": {
+    "slider-layout#home-shelf-most-viewedoscuatroo": {
         "props": {
           "itemsPerPage": {
             "desktop": 4,
