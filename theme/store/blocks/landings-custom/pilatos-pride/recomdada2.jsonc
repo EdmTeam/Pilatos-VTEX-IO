@@ -1,0 +1,54 @@
+{
+     "flex-layout.row#most-viewedtres": {
+            "children": [
+                "flex-layout.col#most-viewedd"
+            ],
+            "props": {
+                "blockClass": "sliderContentShelf"
+            }
+        },
+    
+        "flex-layout.col#most-viewedd": {
+            "children": [
+                "rich-text#title-best-sellersess",
+                "vtex.product-summary:list-context.product-list#most-viewedlist"        
+            ]
+        },
+    
+        "rich-text#title-best-sellersess":{
+            "props":{
+                "text": "Girbaud PRIDE",
+                "blockClass": "titleShelf"
+            }
+        },
+    
+        "vtex.product-summary:list-context.product-list#most-viewedlist": {
+            "blocks": [
+                "vtex.product-summary:product-summary.shelf#most-viewed"
+            ],
+            "children": [
+                "slider-layout#home-shelf-most-viewedh"
+            ],
+            "props": {
+                "orderBy": "OrderByTopSaleDESC",
+                "collection": "1479",
+                "maxItems": 30
+            }
+        },
+        "slider-layout#home-shelf-most-viewedh": {
+            "props": {
+              "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 3,
+                "phone": 2
+              },
+              "infinite": true,
+              "showNavigationArrows": "desktopOnly",
+              "showPaginationDots": "always"
+            //   "centerMode": {
+            //     "mobile": "to-the-left",
+            //     "desktop": "disabled"
+            //   }
+            }
+        }
+    }

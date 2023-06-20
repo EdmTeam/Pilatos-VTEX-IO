@@ -31,7 +31,7 @@
         ],
         "props": {
             "orderBy": "OrderByTopSaleDESC",
-            "collection": "1252",
+            "collection": "1479",
             "maxItems": 30
         }
     },

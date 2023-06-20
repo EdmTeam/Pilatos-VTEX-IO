@@ -60,14 +60,13 @@
         "children":["responsive-layout.desktop#banner-pride1", 
             "rich-text#guia-regalos-text-seo-h1p",
             "responsive-layout.desktop#banner-pride2", 
-            "flex-layout.row#most-viewedos",
+            "flex-layout.row#most-viewedtres",
             "responsive-layout.desktop#banner-pride3",
-            "flex-layout.row#most-viewedos",
+            "flex-layout.row#most-viewede",
             "responsive-layout.desktop#banner-pride4",
             "flex-layout.row#most-viewedos",
-            "responsive-layout.desktop#banner-pride4",
-            "flex-layout.row#most-viewedos"
-
+            "responsive-layout.desktop#banner-pride5",
+            "flex-layout.row#most-viewedcuatro"
         ]
     },
 
@@ -77,13 +76,13 @@
             "image#imagen1amobia", 
             "rich-text#guia-regalos-text-seo-h1p",
             "image#imagen2amobi",
-            "flex-layout.row#most-viewedos",
+            "flex-layout.row#most-viewedtres",
             "image#imagen3amobi",
-            "flex-layout.row#most-viewedos",
+            "flex-layout.row#most-viewede",
             "image#imagen4amobi",
             "flex-layout.row#most-viewedos",
-            "image#imagen4amobi",
-            "flex-layout.row#most-viewedos"
+            "image#imagen5amobi",
+            "flex-layout.row#most-viewedcuatro"
         ]
     },
 
@@ -130,7 +129,12 @@
             "blockClass":"contentBannersDesk"
         }
     },
-
+    "responsive-layout.desktop#banner-pride5":{
+      "children": ["image#imagen5adesko"],
+      "props":{
+          "blockClass":"contentBannersDesk"
+      }
+  },
     
     "responsive-layout.phone#banner-pride2":{
         "children": ["image#imagen2adesko"],
@@ -175,6 +179,12 @@
         }
       },
 
+      "image#imagen5adesko": {
+        "props": {
+          "src": "/arquivos/pridegirbaud-desk.jpg",
+          "blockClass": "departmentBannerImg-2"
+        }
+      },
 // version mobile 
     "image#imagen1amobia": {
         "props": {
@@ -211,7 +221,14 @@
           "blockClass": "storePrint"
         }
       },
-
+  "image#imagen5amobi": {
+        "props": {
+          "src": "/arquivos/pridegirbaud-mobi.jpg",
+          "maxHeight": "",
+          "maxWidth": "",
+          "blockClass": "storePrint"
+        }
+      },
       //texto 
       "rich-text#descripcion1a": {
         "props": {
