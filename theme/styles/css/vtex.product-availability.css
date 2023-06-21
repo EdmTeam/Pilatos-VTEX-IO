@@ -1,0 +1,17 @@
+.lowStockText {
+    color: #DD0B3D;
+    font-weight: 700;
+}
+
+
+@media (max-width: 750px){
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+.lowStockHighlight {
+    color: #DD0B3D;
+    /* font-size: 25px;
+    line-height: 20px; */
+}
