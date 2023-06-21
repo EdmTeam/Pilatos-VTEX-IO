@@ -252,8 +252,12 @@
       "size-guide#hombre-Superdry",
       "size-guide#zapatos-hombre-Superdry",
       "size-guide#correa",
+      
       "product-quantity",
+      "product-availability#uno",
       "flex-layout.row#product-button",
+      
+
       "addi-infos",
       "condition-layout.product#cond1-diesel",
       "condition-layout.product#cond2-superdry",
@@ -272,6 +276,14 @@
       "blockClass": "stack-product"
     }
   },
+  // producto disponibles 
+  "product-availability#uno": {
+    "props": {
+      "threshold": "10",
+      "lowStockMessage": "¡Últimas {quantity} unidades!"
+        }
+  },
+  
 
   "sku-selector":{
     "props": {  
