@@ -18,15 +18,15 @@
   },
   "tab-list#product-tab": {
     "children": [
-      "tab-list.item.children#product-tab-description",
-      "tab-list.item.children#product-tab-specification",
+     // "tab-list.item.children#product-tab-description",
+     // "tab-list.item.children#product-tab-specification",
       "tab-list.item.children#product-tab-comment"
     ]
   },
   "tab-list.item.children#product-tab-description": {
     "props": {
       "tabId": "product-tab-description",
-      "defaultActiveTab": true
+      "defaultActiveTab": false
     },
     "children": [
       "rich-text#product-tab-description"
@@ -54,9 +54,12 @@
   },
   "tab-list.item.children#product-tab-comment": {
     "props": {
-      "tabId": "product-tab-comment"
+      "tabId": "product-tab-comment",
+      "defaultActiveTab": true
+
     },
     "children": [
+
       "rich-text#product-tab-comment"
     ]
   },
@@ -68,8 +71,8 @@
   },
   "tab-content#product-tab": {
     "children": [
-      "tab-content.item#product-tab-description",
-      "tab-content.item#product-tab-specification",
+    //  "tab-content.item#product-tab-description",
+    //  "tab-content.item#product-tab-specification",
       "tab-content.item#product-tab-comment"
     ],
     "props":{
@@ -102,8 +105,9 @@
   },
   "tab-content.item#product-tab-comment": {
     "children": [
-      "rich-text#arrow",
-      "product-reviews"
+     "product-reviews",
+  "rich-text#arrow"
+    
     ],
     "props": {
       "tabId": "product-tab-comment",

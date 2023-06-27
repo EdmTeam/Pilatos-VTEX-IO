@@ -256,9 +256,10 @@
       "product-quantity",
       "product-availability#uno",
       "flex-layout.row#product-button",
-      
-
+    
       "addi-infos",
+      "rich-text#title-descripcionProducto",
+      "flex-layout.row#productDescripcion", 
       "condition-layout.product#cond1-diesel",
       "condition-layout.product#cond2-superdry",
       "condition-layout.product#cond3-kipling",
