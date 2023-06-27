@@ -83,6 +83,7 @@
     position: relative;
 }
 
+
 :global(.vtex-reviews-and-ratings-1-x-container) :global(.vtex-card) form div:last-child :global(.vtex-button)::before{
     content: 'Enviar';
     position: absolute;
