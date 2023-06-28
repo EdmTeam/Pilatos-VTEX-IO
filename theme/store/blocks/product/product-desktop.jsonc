@@ -35,6 +35,7 @@
             "vtex.store-components:product-name",
 
             "flex-layout.row#product-identifier-rating",
+            
             "vtex.product-highlights@2.x:product-highlights#collection",
 
             "product-price#product",
@@ -93,9 +94,13 @@
 
             "size-guide#zapatos-hombre-nike",
             "size-guide#mujer-nike",
-            
+            "product-availability#uno",
             "flex-layout.row#product-button-quantity",
             "addi-infos",
+            "rich-text#title-descripcionProducto",
+            "flex-layout.row#productDescripcion", 
+
+           // "disclosure-layout#descripcionProducto",
             "condition-layout.product#cond1-diesel",
             "condition-layout.product#cond2-superdry",
             "condition-layout.product#cond3-kipling",
@@ -103,6 +108,7 @@
             "condition-layout.product#cond5-girbaud",
             "link#scrollLink",
             "share#default",
+            
             "flex-layout.row#add-to-list-btn",
             "pilatos21.add-to-cart-button:add-to-cart-button",
             "productsegmentify" 
@@ -138,5 +144,30 @@
         "props":{
             "width": "73%"
         }
-    }
+    },    
+
+        // descripcion nueva
+        "flex-layout.row#productDescripcion": {
+            "children": [
+                "product-description"
+            ]
+        },
+        "product-description": {
+            "props": {
+                "collapseContent": true,
+                "showTitle": true,
+                "title": "Descripción de producto"
+
+            }
+        },
+        "rich-text#title-descripcionProducto": {
+            "props": {
+              "text": "Descripción del Producto",
+              "blockClass": "product-description-pdp"
+            }
+        }
+
+       
+      
+      
 }
