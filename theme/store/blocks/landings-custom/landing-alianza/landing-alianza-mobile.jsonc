@@ -1,0 +1,158 @@
+{
+    "responsive-layout.phone#landingAlianza":{
+        "children": [
+            "flex-layout.row#AlianzaTitulo",
+            "flex-layout.row#AlianzaBannerOu-mobi",
+            "rich-text#Texto-AlianzaOu",
+            "slider-layout#imagenesCategoriasOu",
+            "flex-layout.row#AlianzaBannerMateo-mobi",
+            "rich-text#Texto-AlianzaMateoCarvajal",
+            "slider-layout#imagenesCategoriasMateoCarvajal",
+            "flex-layout.row#bannerFinalesVideoAlianza-mobile",
+            "flex-layout.row#bannersAbajoVideoRituales-mobi",
+            "flex-layout.row#bannersAbajoVideoRitualesDos-mobi",
+            "rich-text#Texto-alianzaRitvales",
+            "flex-layout.row#carruselProductosFinalAlianza"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+    /*banner Landing Mobile Ou*/
+    "flex-layout.row#AlianzaBannerOu-mobi":{
+        "children": [
+            "image#AlianzaBannerOu-mobi"
+        ]
+    },
+    "image#AlianzaBannerOu-mobi":{
+        "props":{
+            "src":"/arquivos/banner-alianza-doOver-junio-2023-mobile.jpg"
+        }
+    },
+    /*Carrusel Mobile Ou*/
+    "slider-layout#imagenesCategoriasOu":{
+        "props": {
+            "itemsPerPage": {
+              "desktop": 3,
+              "tablet": 3,
+              "phone": 1
+                },
+            "infinite": true,
+            "showNavigationArrows": "always",
+            "blockClass": "carrouselFragancias"
+          },
+          "children": ["image#categoriaOu1", "image#categoriaOu2", "image#categoriaOu3"]
+    },
+    /*Banner Landing Mateo Mobile*/
+    "flex-layout.row#AlianzaBannerMateo-mobi":{
+        "children": [
+            "image#bannerAlianzaMateo-mobi"
+        ]
+    },
+    "image#bannerAlianzaMateo-mobi":{
+        "props":{
+            "src":"/arquivos/pilatos-banner-mateo-mobile-landing.jpg"
+        }
+    },
+    "slider-layout#imagenesCategoriasMateoCarvajal":{
+        "props": {
+            "itemsPerPage": {
+              "desktop": 3,
+              "tablet": 3,
+              "phone": 1
+                },
+            "infinite": true,
+            "showNavigationArrows": "always",
+            "blockClass": "carrouselFragancias"
+          },
+          "children": ["image#categoriaMateo1", "image#categoriaMateo2", "image#categoriaMateo3"]
+    },
+    /*video rituales*/
+    "flex-layout.row#bannerFinalesVideoAlianza-mobile":{
+        "children": [
+            "flex-layout.row#videoFinalAlianza-mobile"
+        ],
+        "props": {
+            "blockClass": "contentSearch"
+        }
+    },
+    "flex-layout.row#videoFinalAlianza-mobile":{
+        "props": {
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "video#videoAlianzaMobile"
+        ]
+    },
+    "video#videoAlianzaMobile":{
+        "props": {
+            "width": "100%",
+            "height": "300px",
+            "loop": false,
+            "autoPlay": true,
+            "muted": false,
+            "src": "https://www.youtube.com/watch?v=VzDzFX1gkLI"
+        }
+    },
+    "flex-layout.row#bannersAbajoVideoRituales-mobi":{
+        "children": [
+            "flex-layout.col#primerBannerAbajoVideoRituales-mobi",
+            "flex-layout.col#segundoBannerAbajoVideoRituales-mobi"
+        ],
+        "props": {
+            "preventHorizontalStretch": true,
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "flex-layout.col#primerBannerAbajoVideoRituales-mobi":{
+        "children": [
+            "image#primerBannerAbajoVideoRituales"
+        ]
+    },
+    "flex-layout.col#segundoBannerAbajoVideoRituales-mobi":{
+        "children": [
+            "image#segundoBannerAbajoVideoRituales"
+        ]
+    },
+    "image#primerBannerAbajoVideoRituales":{
+        "props": {
+            "src":"/arquivos/pilatos-alianza-desk-primer-banner-ultima-posicion.jpg"
+        }
+    },
+    "image#segundoBannerAbajoVideoRituales":{
+        "props": {
+            "src":"/arquivos/pilatos-alianza-desk-segundo-banner-ultima-posicion.jpg"
+        }
+    },
+    /*ultimos banners*/
+    "flex-layout.row#bannersAbajoVideoRitualesDos-mobi":{
+        "children": [
+            "flex-layout.col#tercoerBannerAbajoVideoRituales-mobi",
+            "flex-layout.col#CuartoBannerAbajoVideoRituales-mobi"
+        ],
+        "props": {
+            "preventHorizontalStretch": true,
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "flex-layout.col#tercoerBannerAbajoVideoRituales-mobi":{
+        "children": [
+            "image#tercerBannerAbajoVideoRituales-mobi"
+        ]
+    },
+    "flex-layout.col#CuartoBannerAbajoVideoRituales-mobi":{
+        "children": [
+            "image#CuartoBannerAbajoVideoRituales-mobi"
+        ]
+    },
+    "image#tercerBannerAbajoVideoRituales-mobi":{
+        "props": {
+            "src":"/arquivos/pilatos-alianza-desk-tercer-banner-ultima-posicion.jpg"
+        }
+    },
+    "image#CuartoBannerAbajoVideoRituales-mobi":{
+        "props": {
+            "src":"/arquivos/pilatos-alianza-desk-cuarto-banner-ultima-posicion.jpg"
+        }
+    }
+}

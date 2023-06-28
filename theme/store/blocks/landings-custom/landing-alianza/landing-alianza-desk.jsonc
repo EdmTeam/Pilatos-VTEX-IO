@@ -1,0 +1,358 @@
+{
+    "store.custom#landing-alianza-nueva":{
+        "blocks": [
+            "responsive-layout.desktop#landingAlianza",
+            "responsive-layout.tablet#landingAlianza",
+            "responsive-layout.phone#landingAlianza"
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        } 
+    },
+
+    /*Desktop*/
+    "responsive-layout.desktop#landingAlianza":{
+        "children": [
+            "flex-layout.row#AlianzaTitulo",
+            "flex-layout.row#bannerLandingOuPrincipal",
+            "rich-text#Texto-AlianzaOu",
+            "flex-layout.row#bannersOuCategorias",
+            "flex-layout.row#bannerLandingMateoPrincipal",
+            "rich-text#Texto-AlianzaMateoCarvajal",
+            "flex-layout.row#bannersMateoCarvajalCategorias",
+            "rich-text#Texto-alianzaRitvales",
+            "flex-layout.row#bannerFinalesVideoAlianza",
+            "flex-layout.row#bannersFinalesDividoAlianza",
+            "flex-layout.row#carruselProductosFinalAlianza"
+        ],
+        "props": {
+         "blockClass": "contentSearch"
+        }
+    },
+    /*Tablet*/
+    "responsive-layout.tablet#landingAlianza":{
+        "children": [
+            "flex-layout.row#AlianzaTitulo",
+            "flex-layout.row#bannerLandingOuPrincipal",
+            "rich-text#Texto-AlianzaOu",
+            "flex-layout.row#bannersOuCategorias",
+            "flex-layout.row#bannerLandingMateoPrincipal",
+            "rich-text#Texto-AlianzaMateoCarvajal",
+            "flex-layout.row#bannersMateoCarvajalCategorias",
+            "rich-text#Texto-alianzaRitvales",
+            "flex-layout.row#bannerFinalesVideoAlianza",
+          "flex-layout.row#bannersFinalesDividoAlianza",
+          "flex-layout.row#carruselProductosFinalAlianza"
+        ],
+        "props": {
+         "blockClass": "contentSearch"
+        }
+    },
+    /*Titulo y migaja de pan desktop*/
+    "flex-layout.row#AlianzaTitulo":{
+        "children":[
+            "flex-layout.col#AlianzaTitulo"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+    "flex-layout.col#AlianzaTitulo":{
+        "children":[
+            "rich-text#landing-Alianza",
+            "rich-text#landing-Alianza-title"
+        ]
+    },
+    "rich-text#landing-Alianza": {
+        "props": {
+            "text": "[Home](/) / [**Alianza**](/Alianza)",
+            "blockClass": "departmentBreadCrumb"
+                    }
+                },
+     "rich-text#landing-Alianza-title": {
+           "props": {
+              "text": "# Alianza",
+                 "blockClass": "departmentTitle"
+                }
+           },
+    /*Banner landing desktop*/
+    "flex-layout.row#bannerLandingOuPrincipal":{
+        "children": [
+            "image#landingAlianzaBannerOu"
+        ],
+        "props": {
+            "blockClass": "contentSearch"
+                }
+    },
+    "image#landingAlianzaBannerOu":{
+        "props": {
+            "src": "/arquivos/Pilatos-Alianzas-Banner-Home-Desk-1-do-over.png"
+       }
+    },
+    /*Texto abajo de primer banner landing desk*/
+    "rich-text#Texto-AlianzaOu":{
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "### PILATOS X DO OVER \n Pilatos y Do Over se unieron para crear una colección inspirada en personas auténticas y talentosas como tú, que no tienen miedo de expresarse y hacer del mundo un lugar mucho más divertido para vivir. Compuesta por prendas unisex, esta colección es un llamado a expresar nuestras ideas a través del color, la belleza y el entretenimiento",
+            "blockClass": "guia-regalos-pride-h1"
+        }
+    },
+    /*categorias Ou desk*/
+    "flex-layout.row#bannersOuCategorias":{
+        "children": [
+            "flex-layout.col#categoriaOu1",
+            "flex-layout.col#categoriaOu2",
+            "flex-layout.col#categoriaOu3"
+        ],
+        "props": {
+            "blockClass": "contentSearch"
+        }
+    },
+    "flex-layout.col#categoriaOu1":{
+        "children": [
+            "image#categoriaOu1"
+        ],
+        "props": {
+            "blockClass": "SeparacionImagenesAlianza"
+        }
+    },
+    "flex-layout.col#categoriaOu2":{
+        "children": [
+            "image#categoriaOu2"
+        ],
+        "props": {
+            "blockClass": "SeparacionImagenesAlianza"
+        }
+    },
+    "flex-layout.col#categoriaOu3":{
+        "children": [
+            "image#categoriaOu3"
+        ],
+        "props": {
+            "blockClass": "SeparacionImagenesAlianza"
+        }
+    },
+    "image#categoriaOu1":{
+        "props":{
+            "src": "/arquivos/Pilatos-Alianzas-Doover-Imagen1-Desk-do-over.jpg",
+            "blockClass":"sanValentinImagen"
+        }
+    },
+    "image#categoriaOu2":{
+        "props":{
+            "src": "/arquivos/Pilatos-Alianzas-Doover-Imagen2-Desk-do-over.jpg",
+            "blockClass":"sanValentinImagen"
+
+        }
+    },
+    "image#categoriaOu3":{
+        "props":{
+            "src": "/arquivos/Pilatos-Alianzas-Doover-Imagen3-Desk-do-over.jpg",
+            "blockClass":"sanValentinImagen"
+
+        }
+    },
+    /*Banner landing mateo carvajal desk*/
+    "flex-layout.row#bannerLandingMateoPrincipal":{
+        "children": [
+            "image#mateoCarvajalLanding"
+        ],
+        "props": {
+            "blockClass": "contentSearch"
+        }
+    },
+    "image#mateoCarvajalLanding":{
+        "props": {
+            "src": "/arquivos/Pilatos-Alianzas-Banner-Home-Desk-1-mateo-carvajal.jpg"
+       }
+    },
+    /*Texto mateo carvajal*/
+    "rich-text#Texto-AlianzaMateoCarvajal":{
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "### PILATOS X MATEO CARVAJAL \n Salir de la zona de confort, arriesgar e ir más allá de los propios límites, hace parte de la filosofía de Pilatos. Es ahí donde nos unimos con Mateo Carvajal, presentando una colección que fusiona el estilo autentico de Pilatos con la personalidad de Mateo y los mantras del Kabbalah. 8 prendas diseñadas pensando en un look extremadamente relajado pero cuidado hasta el más mínimo detalle.",
+            "blockClass": "guia-regalos-pride-h1"
+        }
+    },
+    /*Categorias mateo carvajal*/
+    "flex-layout.row#bannersMateoCarvajalCategorias":{
+        "children": [
+            "flex-layout.col#categoriaMateo1",
+            "flex-layout.col#categoriaMateo2",
+            "flex-layout.col#categoriaMateo3"
+        ],
+        "props": {
+            "blockClass": "contentSearch"
+        }
+    },
+    "flex-layout.col#categoriaMateo1":{
+        "children": [
+            "image#categoriaMateo1"
+        ],
+        "props": {
+            "blockClass": "SeparacionImagenesAlianza"
+        }
+    },
+    "flex-layout.col#categoriaMateo2":{
+        "children": [
+            "image#categoriaMateo2"
+        ],
+        "props": {
+            "blockClass": "SeparacionImagenesAlianza"
+        }
+    },
+    "flex-layout.col#categoriaMateo3":{
+        "children": [
+            "image#categoriaMateo3"
+        ],
+        "props": {
+            "blockClass": "SeparacionImagenesAlianza"
+        }
+    },
+    "image#categoriaMateo1":{
+        "props":{
+            "src": "/arquivos/Pilatos-Alianzas-MateoCarvajal-Imagen1-Desk-mateo-carvajal.jpg",
+            "blockClass":"sanValentinImagen"
+            
+        }
+    },
+    "image#categoriaMateo2":{
+        "props":{
+            "src": "/arquivos/Pilatos-Alianzas-MateoCarvajal-Imagen2-Desk-mateo-carvajal.jpg",
+            "blockClass":"sanValentinImagen"
+            
+        }
+    },
+    "image#categoriaMateo3":{
+        "props":{
+            "src": "/arquivos/Pilatos-Alianzas-MateoCarvajal-Imagen3-Desk-mateo-carvajal.jpg",
+            "blockClass":"sanValentinImagen"
+        }
+    },
+    /*texto rituales desk*/
+    "rich-text#Texto-alianzaRitvales":{
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "### PILATOS X RITVALES \n Durante dos días hicimos parte del BAILE INFINITO. Medellín fue testigo del evento de música electrónica más grande que se haya visto en la ciudad y nosotros hicimos de la pista de baile nuestra pasarela. Pilatos X Ritvales fue una experiencia única para los asistentes, quienes vivieron un rave fuera de todos los sentidos a través de nuestro Palco VIP, cargado de actividades, estilo, buena vibra y beats sin parar. Ver más ",
+            "blockClass": "guia-regalos-pride-h1"
+        }
+    },
+    /*ultimo banners incluyendo el video version desktop*/
+    "flex-layout.row#bannerFinalesVideoAlianza":{
+        "props": {
+            "horizontalAlign": "center",
+            "blockClass": "rowLandingOrderFromDiesel"
+        },
+        "children": [
+            "video#videoAlianzaLanding"
+        ]
+    },
+    "flex-layout.row#bannersFinalesDividoAlianza":{
+        "children": [
+            "flex-layout.col#lugarDelPrimerBannerAlianza",
+            "flex-layout.col#lugarDelSegundoBannerAlianza",
+            "flex-layout.col#lugarDelTercerBannerAlianza",
+            "flex-layout.col#lugarDelCuartoBannerAlianza"
+        ],
+        "props": {
+            "blockClass": "contentSearchAlianza"
+        }
+    },
+    "video#videoAlianzaLanding": {
+        "props": {
+            "width": "100%",
+            "height": "400px",
+            "loop": false,
+            "autoPlay": false,
+            "muted": false,
+            "src": "https://www.youtube.com/watch?v=VzDzFX1gkLI"
+        }
+    },
+    "flex-layout.col#lugarDelPrimerBannerAlianza":{
+        "children": [
+            "image#lugarDelPrimerBannerAlianza"
+        ]
+    },
+    "flex-layout.col#lugarDelSegundoBannerAlianza":{
+        "children": [
+            "image#lugarDelSegundoBannerAlianza"
+        ]
+    },
+    "flex-layout.col#lugarDelTercerBannerAlianza":{
+        "children": [
+            "image#lugarDelTercerBannerAlianza"
+        ]
+    },
+    "flex-layout.col#lugarDelCuartoBannerAlianza":{
+        "children": [
+            "image#lugarDelCuartoBannerAlianza"
+        ]
+    },
+
+    "image#lugarDelPrimerBannerAlianza":{
+        "props":{
+            "src": "/arquivos/pilatos-alianza-desk-primer-banner-ultima-posicion.jpg",
+            "blockClass":"sanValentinImagen" 
+        }
+    },
+    "image#lugarDelSegundoBannerAlianza":{
+        "props":{
+            "src": "/arquivos/pilatos-alianza-desk-segundo-banner-ultima-posicion.jpg",
+            "blockClass":"sanValentinImagen" 
+        }
+    },
+    "image#lugarDelTercerBannerAlianza":{
+        "props":{
+            "src": "/arquivos/pilatos-alianza-desk-tercer-banner-ultima-posicion.jpg",
+            "blockClass":"sanValentinImagen" 
+        }
+    },
+    "image#lugarDelCuartoBannerAlianza":{
+        "props":{
+            "src": "/arquivos/pilatos-alianza-desk-cuarto-banner-ultima-posicion.jpg",
+            "blockClass":"sanValentinImagen" 
+        }
+    },
+    "flex-layout.row#carruselProductosFinalAlianza":{
+        "children": [
+           "flex-layout.col#most-CarruselProductosFinalAlianza"
+          ],
+          "props": {
+              "blockClass": "sliderContentShelf"
+          }
+    },
+    "flex-layout.col#most-CarruselProductosFinalAlianza":{
+        "children": [
+            "vtex.product-summary:list-context.product-list#carruselProductosFinalAlianza"
+        ]
+    },
+    "vtex.product-summary:list-context.product-list#carruselProductosFinalAlianza":{
+        "blocks": [
+            "vtex.product-summary:product-summary.shelf#most-viewed"
+          ],
+          "children": [
+            "slider-layout#productosCarruselAlianzaFinal"
+          ],
+          "props": {
+              "orderBy": "OrderByTopSaleDESC",
+              "collection": "1291",
+              "maxItems": 30
+          }
+    },
+    "slider-layout#productosCarruselAlianzaFinal":{
+        "props": {
+            "itemsPerPage": {
+              "desktop": 4,
+              "tablet": 3,
+              "phone": 2
+            },
+            "infinite": true,
+            "showNavigationArrows": "desktopOnly",
+            "showPaginationDots": "always"
+         
+          }
+    }
+}

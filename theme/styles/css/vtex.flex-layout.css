@@ -1323,6 +1323,15 @@
     width: 88%;
     margin: 0 auto;
   }
+  .flexRow--contentSearchAlianza{
+    width: 68%;
+    margin: 0 auto;
+    gap: 10px;
+  }
+  .flexCol--SeparacionImagenesAlianza{
+    width: 98% !important;
+    margin: 0 auto;
+  }
   .flexRow--contentSearch-monastery{
     width: 70%;
     margin: 0 auto;
