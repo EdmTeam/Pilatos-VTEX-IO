@@ -82,7 +82,9 @@
     color: transparent;
     position: relative;
 }
-
+:global(.vtex-reviews-and-ratings-3-x-formSection) :global(.vtex-input__label) {
+    display: block !important;
+}
 
 :global(.vtex-reviews-and-ratings-1-x-container) :global(.vtex-card) form div:last-child :global(.vtex-button)::before{
     content: 'Enviar';
@@ -107,7 +109,7 @@
     position: relative;
 }
 
-:global(.vtex-reviews-and-ratings-1-x-container) :global(.vtex-card) form div:first-child label span::before{
+:global(.vtex-reviews-and-ratings-3-x-formContainer) :global(.vtex-card) form div:first-child label span::before{
     content: 'Escribe tu opinión en una frase corta:';
     width: 100%;
     height: 100%;

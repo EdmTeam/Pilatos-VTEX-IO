@@ -73,6 +73,7 @@
     "children": [
     //  "tab-content.item#product-tab-description",
     //  "tab-content.item#product-tab-specification",
+    "product-reviews",
       "tab-content.item#product-tab-comment"
     ],
     "props":{
@@ -105,7 +106,7 @@
   },
   "tab-content.item#product-tab-comment": {
     "children": [
-     "product-reviews",
+    // "product-reviews",
   "rich-text#arrow"
     
     ],
@@ -113,11 +114,11 @@
       "tabId": "product-tab-comment",
       "blockClass": "productTabComment"
     }
-  },
-
-  "product-reviews":{
-    "props":{
-      "Range": 5
-    }
   }
+
+  // "product-reviews":{
+  //   "props":{
+  //     "Range": 5
+  //   }
+  // }
 }
