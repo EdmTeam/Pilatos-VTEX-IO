@@ -166,6 +166,7 @@
     "children":[
       "vtex.store-components:product-brand",
       "vtex.store-components:product-name",
+      "product-rating-summary",
       "flex-layout.row#product-identifier-rating"
       
     ],
@@ -196,6 +197,7 @@
 
   "flex-layout.col#stack-product": {
     "children": [
+
       "stack-layout#product",
       "product-price#product",
       "sku-selector",
