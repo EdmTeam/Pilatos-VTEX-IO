@@ -20,7 +20,7 @@
             //"rich-text#submenu-desk-department-4-category-13",
             "rich-text#submenu-desk-department-4-category-14",
             "rich-text#submenu-desk-department-4-category-15",
-            "rich-text#submenu-desk-department-4-category-16",
+            //"rich-text#submenu-desk-department-4-category-16",
             "rich-text#submenu-desk-department-4-category-17",
             "rich-text#submenu-desk-department-4-category-18",
             "rich-text#submenu-desk-department-4-category-19",
@@ -174,12 +174,12 @@
         }
     },
 
-    "rich-text#submenu-desk-department-4-category-16":{
-        "props":{
-            "text": "[Fossil](/fossil)",
-            "blockClass": "textCategory"
-        }
-    },
+    // "rich-text#submenu-desk-department-4-category-16":{
+    //     "props":{
+    //         "text": "[Fossil](/fossil)",
+    //         "blockClass": "textCategory"
+    //     }
+    // },
 
     "rich-text#submenu-desk-department-4-category-17":{
         "props":{
