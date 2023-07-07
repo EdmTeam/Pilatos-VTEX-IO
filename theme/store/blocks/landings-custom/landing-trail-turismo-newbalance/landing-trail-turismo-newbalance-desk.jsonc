@@ -1,0 +1,77 @@
+{
+    "store.custom#landing-Trail-video":{
+       "blocks": [
+        "responsive-layout.desktop#landingTrail",
+        "responsive-layout.tablet#landingTrail",
+        "responsive-layout.phone#landingTrail"
+       ]
+    },
+    "responsive-layout.desktop#landingTrail":{
+        "children": [
+            "flex-layout.row#TrailTitulo",
+            "flex-layout.row#videoTrailLanding",
+            "search-result-layout.customQuery#department-nuevo" 
+        ],
+        "props": {
+         "blockClass": "contentSearch"
+        }
+    },
+    "responsive-layout.tablet#landingTrail":{
+        "children": [
+            "flex-layout.row#TrailTitulo",
+            "flex-layout.row#videoTrailLanding",
+            "search-result-layout.customQuery#department-nuevo" 
+        ],
+        "props": {
+         "blockClass": "contentSearch"
+        }
+    },
+    /*titulo y migaja de pan*/
+    "flex-layout.row#TrailTitulo":{
+        "children":[
+            "flex-layout.col#TrailTitulo"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+    "flex-layout.col#TrailTitulo":{
+        "children": [
+            "rich-text#landing-Trail",
+            "rich-text#landing-Trail-title"
+        ]
+    },
+    "rich-text#landing-Trail": {
+        "props": {
+            "text": "[Home](/) / [**Trail**](/Trail)",
+            "blockClass": "departmentBreadCrumb"
+                    }
+                },
+     "rich-text#landing-Trail-title": {
+           "props": {
+              "text": "# Trail Y Senderismo",
+                 "blockClass": "departmentTitle"
+                }
+           },
+
+           /*video de la landing*/
+           "flex-layout.row#videoTrailLanding":{
+            "props": {
+                "horizontalAlign": "center",
+                "blockClass": "rowLandingFromTrail"
+            },
+            "children": [
+                "video#videoTrailLanding"
+            ]
+           },
+           "video#videoTrailLanding": {
+               "props": {
+                   "width": "100%",
+                   "height": "300px",
+                   "loop": false,
+                   "autoPlay": false,
+                   "muted": false,
+                   "src": "https://www.youtube.com/watch?v=91ymYBSZ40I"
+               }
+           }
+}

@@ -2815,7 +2815,11 @@
   width: 70%;
   margin: 0 auto;
 }
-
+.flexRow--rowLandingFromRunning {
+  padding: 0 0;
+  width: 90%;
+  margin: 0 auto;
+}
 .flexRowContent--rowLandingOrderFromDiesel .stretchChildrenWidth:last-child {
   padding-right: 1rem;
 }
