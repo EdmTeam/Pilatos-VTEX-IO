@@ -1,0 +1,38 @@
+{
+    "responsive-layout.phone#landingRunning":{
+        "children": [
+            "flex-layout.row#runningTitulo",
+            "flex-layout.row#videoLandingRunning-mobile",
+            "search-result-layout.customQuery#department-nuevo" 
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+    "flex-layout.row#videoLandingRunning-mobile":{
+        "children": [
+            "flex-layout.row#videoLandingRunning-mobilee"
+        ],
+        "props": {
+            "blockClass": "contentSearch"
+        }
+    },
+    "flex-layout.row#videoLandingRunning-mobilee":{
+        "props": {
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "video#videoRunningMobile"
+        ]
+    },
+    "video#videoRunningMobile":{
+        "props": {
+            "width": "100%",
+            "height": "300px",
+            "loop": false,
+            "autoPlay": true,
+            "muted": false,
+            "src": "https://www.youtube.com/watch?v=itbrR3hqc98&feature=youtu.be"
+        }
+    }
+}
