@@ -1,0 +1,127 @@
+{
+    "responsive-layout.phone#como-comprar-online":{
+        "children": [
+            "flex-layout.row#titulo-comprar-online",  
+            "flex-layout.row#banner-comprar-online-primero-mobile",
+            "flex-layout.row#banner-comprar-online-segundo-mobile",
+            "flex-layout.row#banner-comprar-online-tercero-mobile",
+            "flex-layout.row#banner-comprar-online-cuarto-mobile",
+            "flex-layout.row#banner-comprar-online-cinco-mobile",
+            "flex-layout.row#banner-comprar-online-seis-mobile",
+            "flex-layout.row#banner-comprar-online-siete-mobile",
+            "flex-layout.row#banner-comprar-online-ocho-mobile",
+            "flex-layout.row#banner-comprar-online-nueve-mobile"
+        ],
+        "props": {
+         "blockClass": "contentSearch"
+        }
+    },
+    "flex-layout.row#banner-comprar-online-primero-mobile":{
+        "children": [
+            "image#primer-banner-como-comprar-online-mobi"
+        ]
+    },
+    "image#primer-banner-como-comprar-online-mobi":{
+        "props": {
+            "src": "/arquivos/pilatos-como-comprar-online-primera-imagen-mobile.jpg"
+        }
+    },
+    "flex-layout.row#banner-comprar-online-segundo-mobile":{
+        "children": [
+            "image#segundo-banner-como-comprar-online-mobi"
+        ]
+    },
+    "image#segundo-banner-como-comprar-online-mobi":{
+        "props": {
+            "src": "/arquivos/pilatos-como-comprar-online-segunda-imagen-mobile.jpg"
+        }
+    },
+    "flex-layout.row#banner-comprar-online-tercero-mobile":{
+        "children": [
+            "image#tercero-banner-como-comprar-online-mobi"
+        ]
+    },
+    "image#tercero-banner-como-comprar-online-mobi":{
+        "props": {
+            "src": "/arquivos/pilatos-como-comprar-online-tercera-imagen-mobile.gif"
+        }
+    },
+    "flex-layout.row#banner-comprar-online-cuarto-mobile":{
+        "children": [
+            "image#cuarto-banner-como-comprar-online-mobi"
+        ] ,
+        "props": {
+         "blockClass": "contentSearchComoComprar"
+        }
+    },
+    "image#cuarto-banner-como-comprar-online-mobi":{
+        "props": {
+            "src": "/arquivos/pilatos-como-comprar-online-cuarta-imagen-mobile.jpg"
+        }
+    },
+    "flex-layout.row#banner-comprar-online-cinco-mobile":{
+        "children": [
+            "image#quinto-banner-como-comprar-online-mobi"
+        ],
+        "props": {
+         "blockClass": "contentSearchComoComprar"
+        }
+    },
+    "image#quinto-banner-como-comprar-online-mobi":{
+        "props": {
+            "src": "/arquivos/pilatos-como-comprar-online-quinta-imagen-mobile.jpg"
+        }
+    },
+    "flex-layout.row#banner-comprar-online-seis-mobile":{
+        "children": [
+            "image#sexto-banner-como-comprar-online-mobi"
+        ],
+        "props": {
+         "blockClass": "contentSearchComoComprar"
+        }
+    },
+    "image#sexto-banner-como-comprar-online-mobi":{
+        "props": {
+            "src": "/arquivos/pilatos-como-comprar-online-sexta-imagen-mobile.jpg"
+        }
+    },
+    "flex-layout.row#banner-comprar-online-siete-mobile":{
+        "children": [
+            "image#septimo-banner-como-comprar-online-mobi"
+        ],
+        "props": {
+         "blockClass": "contentSearchComoComprar"
+        }
+    },
+    "image#septimo-banner-como-comprar-online-mobi":{
+        "props": {
+            "src": "/arquivos/pilatos-como-comprar-online-septima-imagen-mobile.jpg"
+        }
+    },
+    "flex-layout.row#banner-comprar-online-ocho-mobile":{
+        "children": [
+            "image#octavo-banner-como-comprar-online-mobi"
+        ],
+        "props": {
+         "blockClass": "contentSearchComoComprar"
+        }
+    },
+    "image#octavo-banner-como-comprar-online-mobi":{
+        "props": {
+            "src": "/arquivos/pilatos-como-comprar-online-octava-imagen-mobile.jpg"
+        }
+    },
+    "flex-layout.row#banner-comprar-online-nueve-mobile":{
+        "children": [
+            "image#noveno-banner-como-comprar-online-mobi"
+        ],
+        "props": {
+         "blockClass": "contentSearchComoComprar"
+        }
+    },
+    "image#noveno-banner-como-comprar-online-mobi":{
+        "props": {
+            "src": "/arquivos/pilatos-como-comprar-online-novena-imagen-mobile.jpg"
+        }
+    }
+}

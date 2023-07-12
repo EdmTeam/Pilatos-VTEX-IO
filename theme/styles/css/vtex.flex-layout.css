@@ -1317,11 +1317,26 @@
   margin: 0 auto;
   padding: .3rem 0 1rem 0;
 }
-
+@media screen  and (max-width:768px){
+  .flexRow--contentSearchComoComprar{
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 37px!important;
+    position: relative;
+    top: 0px;
+  }
+}
 @media only screen and (min-width: 1180px){
   .flexRow--contentSearch{
     width: 88%;
     margin: 0 auto;
+  }
+  .flexRow--contentSearchComoComprar{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 79px!important;
+    position: relative;
+    top: -50px;
   }
   .flexRow--contentSearchAlianza{
     width: 68%;

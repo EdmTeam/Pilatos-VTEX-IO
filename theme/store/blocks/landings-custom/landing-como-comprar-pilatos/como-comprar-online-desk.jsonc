@@ -1,0 +1,198 @@
+{
+    "store.custom#landing-como-comprar-online":{
+      "blocks": [
+        "responsive-layout.desktop#como-comprar-online",
+        "responsive-layout.tablet#como-comprar-online",
+        "responsive-layout.phone#como-comprar-online"
+      ]
+    },
+    "responsive-layout.desktop#como-comprar-online":{
+        "children": [
+            "flex-layout.row#titulo-comprar-online",
+            "flex-layout.row#banner-comprar-online-primero",
+            "flex-layout.row#banner-comprar-online-segundo",
+            "flex-layout.row#banner-comprar-online-tercero",
+            "flex-layout.row#banner-comprar-online-cuarto",
+            "flex-layout.row#banner-comprar-online-cinco",
+            "flex-layout.row#banner-comprar-online-seis",
+            "flex-layout.row#banner-comprar-online-siete",
+            "flex-layout.row#banner-comprar-online-ocho",
+            "flex-layout.row#banner-comprar-online-nueve"
+        ],
+        "props": {
+         "blockClass": "contentSearch"
+        }
+    },
+    "responsive-layout.tablet#como-comprar-online":{
+        "children": [
+            "flex-layout.row#titulo-comprar-online",
+            "flex-layout.row#banner-comprar-online-primero",
+            "flex-layout.row#banner-comprar-online-segundo",
+            "flex-layout.row#banner-comprar-online-tercero",
+            "flex-layout.row#banner-comprar-online-cuarto",
+            "flex-layout.row#banner-comprar-online-cinco",
+            "flex-layout.row#banner-comprar-online-seis",
+            "flex-layout.row#banner-comprar-online-siete",
+            "flex-layout.row#banner-comprar-online-ocho",
+            "flex-layout.row#banner-comprar-online-nueve"
+        ],
+        "props": {
+         "blockClass": "contentSearch"
+        }
+    },
+    /*titulo y migaja de pan*/
+    "flex-layout.row#titulo-comprar-online":{
+        "children":[
+            "flex-layout.col#titulo-comprar-online"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+    "flex-layout.col#titulo-comprar-online":{
+        "children": [
+            "rich-text#landing-como-comprar-online",
+            "rich-text#landing-como-comprar-online-title"
+        ]
+    },
+    "rich-text#landing-como-comprar-online": {
+        "props": {
+            "text": "[Home](/) / [**Como comprar online**](/)",
+            "blockClass": "departmentBreadCrumb"
+                    }
+                },
+                "rich-text#landing-como-comprar-online-title": {
+           "props": {
+              "text": "# Como comprar online",
+                 "blockClass": "departmentTitle"
+                }
+           },
+
+           /*comienzo de banners*/
+           /*Primero*/
+           "flex-layout.row#banner-comprar-online-primero":{
+            "children": [
+                "image#banner-como-comprar-online-primero"
+            ],
+            "props": {
+                "blockClass": "contentSearch"
+                    }
+           },
+           "image#banner-como-comprar-online-primero":{
+            "props": {
+                "src": "/arquivos/banner-primero-como-comprar-online-pilatos-desk-julio-2023.jpg"
+           }
+           },
+           /*Segundo*/
+           "flex-layout.row#banner-comprar-online-segundo":{
+            "children": [
+                "image#banner-como-comprar-online-segundo"
+            ],
+            "props": {
+                "blockClass": "contentSearch"
+                    }
+           },
+           "image#banner-como-comprar-online-segundo":{
+            "props": {
+                "src": "/arquivos/banner-segundo-como-comprar-online-pilatos-desk-julio-2023.jpg"
+           }
+        },
+        /*Tercero*/
+        "flex-layout.row#banner-comprar-online-tercero":{
+            "children": [
+                "image#banner-como-comprar-online-tercero"
+            ],
+            "props": {
+                "blockClass": "contentSearch"
+                    }
+           },
+           "image#banner-como-comprar-online-tercero":{
+            "props": {
+                "src": "/arquivos/banner-tercero-como-comprar-online-pilatos-desk-julio-2023.gif"
+           }
+        },
+        /*Cuarto*/
+        "flex-layout.row#banner-comprar-online-cuarto":{
+            "children": [
+                "image#banner-como-comprar-online-cuarto"
+            ],
+            "props": {
+                "blockClass": "contentSearchComoComprar"
+                    }
+           },
+           "image#banner-como-comprar-online-cuarto":{
+            "props": {
+                "src": "/arquivos/banner-cuarto-como-comprar-online-pilatos-desk-julio-2023.jpg"
+           }
+        },
+        /*cinco*/
+        "flex-layout.row#banner-comprar-online-cinco":{
+            "children": [
+                "image#banner-como-comprar-online-cinco"
+            ],
+            "props": {
+                "blockClass": "contentSearchComoComprar"
+                    }
+           },
+           "image#banner-como-comprar-online-cinco":{
+            "props": {
+                "src": "/arquivos/banner-quinto-como-comprar-online-pilatos-desk-julio-2023.jpg"
+           }
+        },
+        /*seis*/
+        "flex-layout.row#banner-comprar-online-seis":{
+            "children": [
+                "image#banner-como-comprar-online-seis"
+            ],
+            "props": {
+                "blockClass": "contentSearchComoComprar"
+                    }
+           },
+           "image#banner-como-comprar-online-seis":{
+            "props": {
+                "src": "/arquivos/banner-sexto-como-comprar-online-pilatos-desk-julio-2023.jpg"
+           }
+        },
+        /*siete*/
+        "flex-layout.row#banner-comprar-online-siete":{
+            "children": [
+                "image#banner-como-comprar-online-siete"
+            ],
+            "props": {
+                "blockClass": "contentSearchComoComprar"
+                    }
+           },
+           "image#banner-como-comprar-online-siete":{
+            "props": {
+                "src": "/arquivos/banner-septimo-como-comprar-online-pilatos-desk-julio-2023.jpg"
+           }
+        },
+        /*ocho*/
+        "flex-layout.row#banner-comprar-online-ocho":{
+            "children": [
+                "image#banner-como-comprar-online-ocho"
+            ],
+            "props": {
+                "blockClass": "contentSearchComoComprar"
+                    }
+           },
+           "image#banner-como-comprar-online-ocho":{
+            "props": {
+                "src": "/arquivos/banner-octavo-como-comprar-online-pilatos-desk-julio-2023.jpg "
+           }
+        },
+        /*noveno*/
+        "flex-layout.row#banner-comprar-online-nueve":{
+            "children": [
+                "image#banner-como-comprar-online-nueve"
+            ],
+            "props": {
+                "blockClass": "contentSearch"
+                    }
+           },
+           "image#banner-como-comprar-online-nueve":{
+            "props": {
+                "src": "/arquivos/banner-noveno-como-comprar-online-pilatos-desk-julio-2023.jpg"
+           }
+        }
+}
