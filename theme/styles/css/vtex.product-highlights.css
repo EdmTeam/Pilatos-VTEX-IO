@@ -50,6 +50,14 @@
     background-image: url(/arquivos/FlagBancolombia-Negro.png); 
     display: none;   
 }
+.productHighlightWrapper [data-highlight-id="1492"]{
+    width: 35px;
+    height: 35px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(/arquivos/flag-heritage-pilatos.png); 
+    display: block;   
+}
 .productHighlightWrapper [data-highlight-id="1482"]{
     width: 35px;
     height: 35px;
