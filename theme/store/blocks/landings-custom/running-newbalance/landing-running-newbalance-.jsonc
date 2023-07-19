@@ -10,7 +10,7 @@
         "children": [
             "flex-layout.row#runningTitulo",
             "flex-layout.row#videoRunningLanding",
-            "search-result-layout.customQuery#department-nuevo" 
+            "search-result-layout.customQuery#department-nuevo"
         ],
         "props": {
          "blockClass": "contentSearch"
@@ -20,7 +20,7 @@
         "children": [
             "flex-layout.row#runningTitulo",
             "flex-layout.row#videoRunningLanding",
-            "search-result-layout.customQuery#department-nuevo" 
+            "search-result-layout.customQuery#department-nuevo"
         ],
         "props": {
          "blockClass": "contentSearch"
@@ -61,7 +61,7 @@
                 "blockClass": "rowLandingFromRunning"
             },
             "children": [
-                "video#videoRunningLanding"
+             "video#videoRunningLanding"
             ]
            },
            "video#videoRunningLanding": {
@@ -69,9 +69,12 @@
                    "width": "100%",
                    "height": "300px",
                    "loop": false,
-                   "autoPlay": false,
+                   "autoPlay": true,
                    "muted": false,
                    "src": "https://www.youtube.com/watch?v=itbrR3hqc98&feature=youtu.be"
                }
            }
+
 }
+
+
