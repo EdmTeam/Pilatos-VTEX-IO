@@ -1,6 +1,7 @@
 {
     "store.custom#beachwear-dos-botones":{
         "blocks":[
+
             "flex-layout.row#banner-landing-beachwear-new",
             "responsive-layout.desktop#beachwear-banner-desktop-botones",
             "responsive-layout.desktop#beachwear-dos-botones",
@@ -8,12 +9,13 @@
             "responsive-layout.tablet#beachwear-dos-botones",
             "responsive-layout.phone#beachwear-banner-desktop-botones",
             "responsive-layout.phone#beachwear-dos-botones",
-            "search-result-layout.customQuery#department-nuevo" 
+            "search-result-layout.customQuery#department-nuevo"
         ],
         "props":{
             "blockClass":"contentStoreCustom"
         }
     },
+
     "flex-layout.row#banner-landing-beachwear-new":{
        "children":[
         "rich-text#beachweare-bread-crumb"
@@ -35,7 +37,7 @@
         "image#beachwear-banner-desktop-botones"
        ]
     },
-    
+
     "image#beachwear-banner-desktop-botones":{
         "props":{
             "src":"/arquivos/pilatos-beachweare-landing-desk-junio-2023.jpg"

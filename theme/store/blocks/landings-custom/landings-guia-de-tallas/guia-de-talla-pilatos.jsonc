@@ -1,0 +1,131 @@
+{
+  "store.custom#landing-guiaDeTallas":{
+    "blocks": [
+      "flex-layout.row#guiaDeTallas-bread-crumb",
+      "guia-talla-custom-pilatos",
+    //  "flex-layout.row#most-viewed",
+    "flex-layout.row#guiaDeTallas-titulo",
+      "flex-layout.row#textoSeoApoyo",
+          "responsive-layout.desktop#bannerGuiaDeTalla"
+    ],
+    "props":{
+        "blockClass": "contentStoreCustom"
+    }
+  },
+
+      //Bread crumb
+
+  "flex-layout.row#guiaDeTallas-bread-crumb":{
+    "children":[
+     "rich-text#guiaDeTallas-bread-crumb"
+    ],
+    "props":{
+        "blockClass":"contentSearch"
+    }
+ },
+
+    "rich-text#guiaDeTallas-bread-crumb":{
+      "props":{
+          "text":"[Home](/) / [**Guía de Tallas**](/guia-de-tallas)",
+          "blockClass":"departmentBreadCrumb"
+      }
+  },
+
+  // Banner guia de talla
+  "responsive-layout.desktop#bannerGuiaDeTalla":{
+    "children": [
+      "flex-layout.row#bannerGuiaDeTalla"
+    ],
+    "props":{
+      "blockClass": "bannerGuiaDeTalla"
+    }
+  },
+
+  "flex-layout.row#bannerGuiaDeTalla":{
+    "children": [
+      "image#bannerGuiaDeTalla"
+    ],
+    "props": {
+      "marginTop": 150,
+      "border":"all",
+      "paddingTop": 15
+
+    }
+  },
+
+  "image#bannerGuiaDeTalla": {
+    "props": {
+        "src": "/arquivos/00-escritorio-beachwear.jpg"
+    }
+},
+
+  // componente de guia de tallas
+  "guia-talla-custom-pilatos":{},
+
+  "flex-layout.row#textoSeoApoyo":{
+    "children": [
+
+      "rich-text#guiaDeTallas-paso1",
+      "rich-text#guiaDeTallas-paso2",
+      "rich-text#guiaDeTallas-paso3"
+    ],
+    "props":{
+        "blockClass":"container-guiadeTallas",
+        "colGap": 5
+    }
+  },
+
+  "flex-layout.row#textoSeoApoyo2":{
+    "children": [
+
+      "rich-text#guiaDeTallas-paso2"
+
+
+    ],
+    "props":{
+        "blockClass":"contentSearch"
+    }
+  },
+
+  "rich-text#guiaDeTallas-paso1":{
+    "props":{
+        "text":"## Aqui va el texto seo",
+        "blockClass":"guiaDeTallas-texto"
+    }
+},
+
+"rich-text#guiaDeTallas-paso2":{
+  "props":{
+      "text":"## Aqui va el texto seo",
+      "blockClass":"guiaDeTallas-texto"
+  }
+},
+
+"rich-text#guiaDeTallas-paso3":{
+  "props":{
+      "text":"## Aqui va el texto seo",
+      "blockClass":"guiaDeTallas-texto"
+  }
+},
+
+
+"flex-layout.row#guiaDeTallas-titulo":{
+  "children": [
+    "rich-text#guiaDeTallas-titulo"
+  ],
+  "props":{
+      "blockClass":"contentSearch",
+      "horizontalAlign": "center"
+  }
+},
+
+"rich-text#guiaDeTallas-titulo":{
+  "props":{
+      "text":"### Utilización de la Herramienta de Guía de Tallas",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+  }
+}
+
+
+}

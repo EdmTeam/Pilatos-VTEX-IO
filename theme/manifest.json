@@ -75,7 +75,8 @@
     "pilatos21.smallcomponents": "0.x",
     "vtex.store-video": "1.x",
     "vtex.product-availability": "0.x",
-    "vtex.disclosure-layout": "1.x"
+    "vtex.disclosure-layout": "1.x",
+    "pilatos21.talla-guia-custom": "0.x"
   },
   "peerDependencies": {
     "pilatos21.wishlist": "0.x",
