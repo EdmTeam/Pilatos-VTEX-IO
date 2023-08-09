@@ -1,0 +1,1060 @@
+{
+  "Replay": {
+    "logo": "https://pilatos21.vtexassets.com/arquivos/Logo_Replay.png",
+    "generos": {
+      "Hombre": {
+        "Prendas superiores": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-ReplayInferiorH1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-ReplayInferiorH1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/CM-Pilatos-GuiaTallas-ReplaySuperiorM2-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-hombre-superior-desk.jpg"
+          }
+        },
+        "Prendas inferiores": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-ReplayInferiorH1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-ReplayInferiorH1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-ReplayInferiorH2-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-ReplayInferiorH2-Desk.jpg"
+          }
+        },
+        "Zapatos": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-ReplayZapatosH1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-ReplayZapatosH1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-medida-pie-mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-medida-pie-desk.jpg"
+          }
+        }
+      },
+      "Mujer": {
+        "Prendas superiores": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Talla-ReplaySuperiorM1-Mob-r.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Talla-ReplaySuperiorM1-Desk-r.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/CM-Pilatos-GuiaTallas-ReplaySuperiorM2-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/CM-GuiaTallas-ReplaySuperiorM2-Desk.jpg"
+          }
+        },
+        "Prendas inferiores": {
+          "imagenTalla": {
+            "mobile": "https://peopleplays.vteximg.com.br/arquivos/talla-3-mobile.jpg?v=637323172133700000",
+            "desktop": "https://peopleplays.vteximg.com.br/arquivos/talla-3-desktop.jpg?v=637323172133700000"
+          }
+        }
+      }
+    }
+  },
+  "Diesel": {
+    "logo": "https://pilatos21.vtexassets.com/arquivos/diesel-logo-red.png",
+    "generos": {
+      "Hombre": {
+        "Tenis": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-DieselZapatosH1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-DieselZapatosH1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-DieselZapatos--comomedir-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-DieselZapatos--comomedir-desk.jpg"
+          }
+        },
+        "Jeans": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-DieselJeansH1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-DieselJeansH1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-Diesel-inferior--comomedir-h-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-Diesel-inferior--comomedir-h-desk.jpg"
+          }
+        },
+        "Camisas": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-DieselCamisasH1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-DieselCamisasH1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-Diesel--comomedir-mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-Diesel--comomedir-desk.jpg"
+          }
+        },
+        "Camisetas": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-DieselCamisetasH1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-DieselCamisetasH1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-Diesel--comomedir-mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-Diesel--comomedir-desk.jpg"
+          }
+        },
+        "Chaquetas": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-DieselChaquetasH1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-DieselChaquetasH1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-Diesel--comomedir-mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-Diesel--comomedir-desk.jpg"
+          }
+        },
+        "Buzos": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-DieselBuzosH1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-DieselBuzosH1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-Diesel--comomedir-mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-Diesel--comomedir-desk.jpg"
+          }
+        },
+        "Pantalones": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-DieselRopaBanoH1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-DieselRopaBanoH1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-Diesel-inferior--comomedir-h-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-Diesel-inferior--comomedir-h-desk.jpg"
+          }
+        },
+        "Ropa de baño": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-DieselRopaBanoH1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-DieselRopaBanoH1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-Diesel-inferior--comomedir-h-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-Diesel-inferior--comomedir-h-desk.jpg"
+          }
+        },
+        "Ropa interior": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/GuiaTallas-DieselRopaInteriorH-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/GuiaTallas-DieselRopaInteriorH-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-Diesel-inferior--comomedir-h-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-Diesel-inferior--comomedir-h-desk.jpg"
+          }
+        }
+      },
+      "Mujer": {
+        "Tenis": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-DieselZapatosM1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-DieselZapatosM1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/medidas-Diesel-zapatos-mob-m.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/medidas-Diesel-zapatos-desk-m.jpg"
+          }
+        },
+        "Jeans": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-DieselJeansM1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-DieselJeansM1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/medidas-Diesel-inferior-mob-m.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/medidas-Diesel-inferior-desk-m.jpg"
+          }
+        },
+        "Camisas": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-DieselCamisasM1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-DieselCamisasM1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/medidas-Diesel-superior-mob-m.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/medidas-Diesel-superior-desk-m.jpg"
+          }
+        },
+        "Camisetas": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-DieselCamisetasM1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-DieselCamisetasM1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/medidas-Diesel-superior-mob-m.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/medidas-Diesel-superior-desk-m.jpg"
+          }
+        },
+        "Chaquetas": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-DieselChaquetasM1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-DieselChaquetasM1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/medidas-Diesel-superior-mob-m.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/medidas-Diesel-superior-desk-m.jpg"
+          }
+        },
+        "Buzos": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-DieselBuzosM1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-DieselBuzosH1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/medidas-Diesel-superior-mob-m.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-DieselBuzosM1-Desk.jpg"
+          }
+        },
+        "Short": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-DieselShortsM1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-DieselShortsM1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/medidas-Diesel-inferior-mob-m.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/medidas-Diesel-inferior-desk-m.jpg"
+          }
+        },
+        "Ropa de baño": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-DieselRopaBanoM1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-DieselRopaBanoM1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/medidas-Diesel-ropabaño-mobi-m.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/medidas-Diesel-ropabaño-desk-m.jpg"
+          }
+        },
+        "Ropa interior": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-DieselRopaInteriorM1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-DieselRopaInteriorM1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/medidas-Diesel-ropabaño-mobi-m.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/medidas-Diesel-ropabaño-desk-m.jpg"
+          }
+        },
+        "Vestidos": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-DieselVestidosM1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-DieselVestidosM1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/medidas-Diesel-superior-mob-m.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/medidas-Diesel-superior-desk-m.jpg"
+          }
+        },
+        "Faldas": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-DieselFaldasM1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-DieselFaldasM1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/medidas-Diesel-inferior-mob-m.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/medidas-Diesel-inferior-desk-m.jpg"
+          }
+        },
+        "Gorras": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-DieselGorras1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-DieselGorras1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/medidas-DieselGorras-mob-m.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/medidas-DieselGorras-Desk-m.jpg"
+          }
+        }
+      }
+    }
+  },
+  "Marithe Francois Girbaud": {
+    "logo": "https://girbaud.vteximg.com.br/arquivos/Logo-M+FG-negativo-menor.png",
+    "generos": {
+      "Hombre": {
+        "Prendas superiores": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-MFGSuperiorH1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-MFGSuperiorH1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/medidas-GuiaTallas-MFGSuperiorH2-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/medidas-GuiaTallas-MFGSuperiorH2-Desk.jpg"
+          }
+        },
+        "Prendas inferiores": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-MFGInferiorH1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-MFGInferiorH1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/medidas-GuiaTallas-MFGInferiorH2-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/medidas-GuiaTallas-MFGInferiorH2-Desk.jpg"
+          }
+        },
+        "Tenis": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-MFGZapatosH1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-MFGZapatosH1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-medida-pie-mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-medida-pie-desk.jpg"
+          }
+        }
+      },
+      "Mujer": {
+        "Prendas superiores": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-MFGSuperiorM1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-MFGSuperiorM1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-MFGSuperiorM2-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-MFGSuperiorM2-Desk.jpg"
+          }
+        },
+        "Prendas inferiores": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-MFGInferiorM1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-MFGInferiorM1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-MFGInferiorM2-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-MFGInferiorM2-Desk.jpg"
+          }
+        },
+        "Tenis": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-MFGZapatosM1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-MFGZapatosM1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-MFGZapatosM2-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-MFGZapatosM2-Desk.jpg"
+          }
+        }
+      }
+    }
+  },
+  "Le Coq Sportif": {
+    "logo": "https://pilatos21.vtexassets.com/assets/vtex.file-manager-graphql/images/17846d7c-bf11-45f8-8f51-e06fa2ba2c7f___66f4a1302c5f76b52c3813bdfa869c29.png",
+    "generos": {
+      "Hombre": {
+        "Tenis": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-LeCoqSportifH1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-LeCoqSportifH1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-medida-pie-mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-medida-pie-desk.jpg"
+          }
+        }
+      },
+      "Mujer": {
+        "Tenis": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-LeCoqSportifM1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-LeCoqSportifM1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-medida-pie-mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-medida-pie-desk.jpg"
+          }
+        }
+      }
+    }
+  },
+  "Oakley": {
+    "logo": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-Logo-Oakley.png",
+    "generos": {
+      "Hombre": {
+        "Prendas superiores": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-OakleySuperior1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-OakleySuperior1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-OakleySuperior2-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-OakleySuperior2-Desk.jpg"
+          }
+        },
+        "Prendas inferiores": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-OakleyInferior1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-OakleyInferior1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-OakleyInferior2-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-OakleyInferior2-Desk.jpg"
+          }
+        },
+        "Cascos": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-OakleyCascos1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-OakleyCascos1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-OakleyCascos2-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-OakleyCascos2-Desk.jpg"
+          }
+        },
+
+        "Gorras": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-OakleyGorras1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-OakleyGorras1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-OakleyGorras2-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-OakleyGorras2-Desk.jpg"
+          }
+        },
+
+        "Zapatos": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-OakleyZapatos1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/GuiaTallas-OakleyZapatos1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-medida-pie-mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-medida-pie-desk.jpg"
+          }
+        }
+      }
+    }
+  },
+  "Quiksilver": {
+    "logo": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-Logo-Quiksilver.png",
+    "generos": {
+      "Hombre": {
+        "Prendas superiores": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-QuiksilverSuperior1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-QuiksilverSuperior1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-QuiksilverSuperior2-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-QuiksilverSuperior2-Desk.jpg"
+          }
+        },
+        "Prendas inferiores": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-QuiksilverInferior1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-QuiksilverInferior1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-QuiksilverInferior2-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-QuiksilverInferior2-Desk.jpg"
+          }
+        },
+        "Zapatos": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-QuiksilverZapatos1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-QuiksilverZapatos1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-medida-pie-mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-medida-pie-desk.jpg"
+          }
+        },
+
+        "Gorras": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-QuiksilverGorras1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-QuiksilverGorras1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-QuiksilverGorras2-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-QuiksilverGorras2-Desk.jpg"
+          }
+        }
+      }
+    }
+  },
+  "Vans": {
+    "logo": "https://pilatos21.vtexassets.com/arquivos/VANS_log%20new-01-nuevo.png",
+    "generos": {
+      "Hombre": {
+        "Tenis": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-VansZapatosH1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-VansZapatosH1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-medida-pie-mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-medida-pie-desk.jpg"
+          }
+        }
+      },
+      "Mujer": {
+        "Tenis": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-VansZapatosM1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-VansZapatosM1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-medida-pie-mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-medida-pie-desk.jpg"
+          }
+        }
+      }
+    }
+  },
+  "Stance": {
+    "logo": "https://pilatos21.vtexassets.com/arquivos/Logo_Stance.png",
+    "generos": {
+      "Hombre": {
+        "Medias": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-StanceMedias1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-StanceMedias1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-medida-pie-mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-medida-pie-desk.jpg"
+          }
+        }
+      },
+      "Mujer": {
+        "Medias": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-StanceMedias1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-StanceMedias1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-medida-pie-mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-medida-pie-desk.jpg"
+          }
+        }
+      }
+    }
+  },
+  "Alpinestars": {
+    "logo": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-Logo-Alpinestars.png",
+    "generos": {
+      "Hombre": {
+        "Prendas superiores": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-AlpinestarsSuperior1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-AlpinestarsSuperior1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-AlpinestarsSuperior2-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-AlpinestarsSuperior2-Desk.jpg"
+          }
+        },
+        "Prendas inferiores": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-AlpinestarsInferior1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-AlpinestarsInferior1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-AlpinestarsInferior2-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-AlpinestarsInferior2-Desk.jpg"
+          }
+        },
+        "Gorras": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-AlpinestarsGorras1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-AlpinestarsGorras1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-AlpinestarsGorras2-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-AlpinestarsGorras2-Desk.jpg"
+          }
+        }
+      },
+      "Mujer": {
+        "Prendas superiores": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-AlpinestarsSuperior1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-AlpinestarsSuperior1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-AlpinestarsSuperior2-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-AlpinestarsSuperior2-Desk.jpg"
+          }
+        },
+        "Prendas inferiores": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-AlpinestarsInferior1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-AlpinestarsInferior1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-AlpinestarsInferior2-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-AlpinestarsInferior2-Desk.jpg"
+          }
+        },
+        "Gorras": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-AlpinestarsGorras1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-AlpinestarsGorras1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-AlpinestarsGorras2-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-AlpinestarsGorras2-Desk.jpg"
+          }
+        }
+      }
+    }
+  },
+  "Roxy": {
+    "logo": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-Logo-Roxy.png",
+    "generos": {
+      "Mujer": {
+        "Prendas superiores": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-RoxySuperior1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-RoxySuperior1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-RoxySuperior2-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-RoxySuperior2-Desk.jpg"
+          }
+        },
+        "Prendas inferiores": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-RoxyInferior1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-RoxyInferior1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-RoxyInferior2-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-RoxyInferior2-Desk.jpg"
+          }
+        },
+        "Zapatos": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-RoxyZapatos1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-RoxyZapatos1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-medida-pie-mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-medida-pie-desk.jpg"
+          }
+        },
+        "Gorras": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-RoxyGorras1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-RoxyGorras1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-RoxyGorras2-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-RoxyGorras2-Desk.jpg"
+          }
+        },
+        "Vestidos": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-RoxyVestidos1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-RoxyVestidos1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivosPilatos-GuiaTallas-RoxyVestidos2-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-RoxyVestidos2-Desk.jpg"
+          }
+        }
+      }
+    }
+  },
+  "Nike": {
+    "logo": "https://pilatos21.vtexassets.com/arquivos/SWOOSH-negro_transp.png",
+    "generos": {
+      "Hombre": {
+        "Prendas superiores": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NikeSuperiorH1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NikeSuperiorH1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NikeSuperiorH2-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NikeSuperiorH2-Desk.jpg"
+          }
+        },
+        "Prendas inferiores": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NikeInferiorH1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NikeInferiorH1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NikeInferiorH2-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NikeInferiorH2-Desk.jpg"
+          }
+        },
+        "Tenis": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NikeZapatosH1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NikeZapatosH1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NikeZapatosH2-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NikeZapatosH2-Desk.jpg"
+          }
+        },
+        "Accesorios": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NikeAccesoriosH1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NikeAccesoriosH1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NikeAccesoriosH2-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NikeAccesoriosH2-Desk.jpg"
+          }
+        }
+      },
+      "Mujer": {
+        "Prendas superiores": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NikeSuperiorM1-Desk.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NikeSuperiorM1-Mob.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NikeSuperiorM2-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NikeSuperiorM2-Desk.jpg"
+          }
+        },
+        "Prendas inferiores": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NikeInferiorM1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NikeInferiorM1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NikeInferiorM2-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NikeInferiorM2-Desk.jpg"
+          }
+        },
+        "Tenis": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NikeZapatosM1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NikeZapatosM1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NikeZapatosM2-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NikeZapatosM2-Desk.jpg"
+          }
+        },
+        "Accesorios": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NikeAccesoriosM1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NikeAccesoriosM1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NikeAccesoriosM2-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NikeAccesoriosM2-Desk.jpg"
+          }
+        }
+      }
+    }
+  },
+  "New Balance": {
+    "logo": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-Logo-NB.png",
+    "generos": {
+      "Hombre": {
+        "Prendas superiores": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NBSuperiorH1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NBSuperiorH1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NBSuperiorH2-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NBSuperiorH2-Desk.jpg"
+          }
+        },
+
+        "Tenis": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NBZapatosH1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NBZapatosH1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-medida-pie-mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-medida-pie-desk.jpg"
+          }
+        }
+      },
+      "Mujer": {
+        "Prendas superiores": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NBSuperiorM1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NBSuperiorM1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NBSuperiorM2-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NBSuperiorM2-Desk.jpg"
+          }
+        },
+        "Prendas inferiores": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NBInferiorM1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NBInferiorM1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NBInferiorM2-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NBInferiorM2-Desk.jpg"
+          }
+        },
+        "Tenis": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NBZapatosM1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NBZapatosM1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-medida-pie-mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-medida-pie-desk.jpg"
+          }
+        }
+      },
+      "Kids": {
+        "Prendas superiores": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NBSuperiorK1Equivalencia-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NBSuperiorK1Equivalencia-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NBSuperiorK2-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NBSuperiorK2-Desk.jpg"
+          }
+        },
+        "Prendas inferiores": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NBInferiorK1Equivalencia-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NBInferiorK1Equivalencia-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NBInferiorK2Equivalencia-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NBInferiorK2Equivalencia-Desk.jpg"
+          }
+        },
+        "Tenis": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NBZapatosK1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NBZapatosK1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NBZapatosK2-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NBZapatosK2-Desk.jpg"
+          }
+        }
+      }
+    }
+  },
+  "Lacoste": {
+    "logo": "https://pilatos21.vtexassets.com/arquivos/LogoLacoste.png",
+    "generos": {
+      "Hombre": {
+        "Tenis": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-LacosteZapatosH1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-LacosteZapatosH1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-medida-pie-mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-medida-pie-desk.jpg"
+          }
+        }
+      },
+      "Mujer": {
+        "Tenis": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-LacosteZapatosM1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-LacosteZapatosM1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-medida-pie-mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-medida-pie-desk.jpg"
+          }
+        }
+      }
+    }
+  },
+  "New Era": {
+    "logo": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-Logo-NewEra.png",
+    "generos": {
+      "Hombre": {
+        "9 Fifty": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NewEra9Fifty-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NewEra9Fifty-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NewEra-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NewEra-Desk.jpg"
+          }
+        },
+        "9 Forty": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com//arquivos/Pilatos-GuiaTallas-NewEra9Forty-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NewEra9Forty-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NewEra-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NewEra-Desk.jpg"
+          }
+        },
+        "9 Twenty": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NewEra9Twenty-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NewEra9Twenty-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NewEra-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NewEra-Desk.jpg"
+          }
+        },
+        "39 Thirty": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com//arquivos/Pilatos-GuiaTallas-NewEra39Thirty-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NewEra39Thirty-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NewEra-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NewEra-Desk.jpg"
+          }
+        },
+        "59 Fifty": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com//arquivos/Pilatos-GuiaTallas-NewEra59Fifty-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NewEra59Fifty-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NewEra-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NewEra-Desk.jpg"
+          }
+        }
+      },
+      "Mujer": {
+        "9 Fifty": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NewEra9Fifty-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NewEra9Fifty-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NewEra-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NewEra-Desk.jpg"
+          }
+        },
+        "9 Forty": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com//arquivos/Pilatos-GuiaTallas-NewEra9Forty-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NewEra9Forty-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NewEra-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NewEra-Desk.jpg"
+          }
+        },
+        "9 Twenty": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NewEra9Twenty-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NewEra9Twenty-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NewEra-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NewEra-Desk.jpg"
+          }
+        },
+        "39 Thirty": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com//arquivos/Pilatos-GuiaTallas-NewEra39Thirty-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NewEra39Thirty-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NewEra-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NewEra-Desk.jpg"
+          }
+        },
+        "59 Fifty": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com//arquivos/Pilatos-GuiaTallas-NewEra59Fifty-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NewEra59Fifty-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NewEra-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-NewEra-Desk.jpg"
+          }
+        }
+      }
+    }
+  },
+  "Champion": {
+    "logo": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-Logo-Champion.png",
+    "generos": {
+      "Hombre": {
+        "Prendas superiores": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-ChampionSuperiorH1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-ChampionSuperiorH1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-ChampionSuperiorH2-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-ChampionSuperiorH2-Desk.jpg"
+          }
+        },
+        "Prendas inferiores": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com//arquivos/Pilatos-GuiaTallas-ChampionInferiorH1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-ChampionInferiorH1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-ChampionInferiorH2-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-ChampionInferiorH2-Desk.jpg"
+          }
+        }
+      },
+      "Mujer": {
+        "Prendas superiores": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-ChampionSuperiorM1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-ChampionSuperiorM1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-ChampionSuperiorM2-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-ChampionSuperiorM2-Desk.jpg"
+          }
+        },
+        "Prendas inferiores": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-ChampionInferiorM1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-ChampionInferiorM1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-ChampionInferiorM2-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-ChampionInferiorM2-Desk.jpg"
+          }
+        }
+      }
+    }
+  },
+  "O Neill": {
+    "logo": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-Logo-Roxy.png",
+    "generos": {
+      "Hombre": {
+        "Prendas inferiores": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-ONeillInferior1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-ONeillInferior1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-ONeillInferior2-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-ONeillInferior2-Desk.jpg"
+          }
+        },
+        "Zapatos": {
+          "imagenTalla": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-ONeillZapatos1-Mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-ONeillZapatos1-Desk.jpg"
+          },
+          "imagenMedidas": {
+            "mobile": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-medida-pie-mob.jpg",
+            "desktop": "https://pilatos21.vtexassets.com/arquivos/Pilatos-GuiaTallas-medida-pie-desk.jpg"
+          }
+        }
+      }
+    }
+  }
+}

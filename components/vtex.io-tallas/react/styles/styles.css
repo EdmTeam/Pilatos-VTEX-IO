@@ -1,0 +1,198 @@
+/* TallaComponent.css */
+
+/* TallaComponent.css */
+
+.talla-container {
+    width: 100%; /* Por defecto, ocupa el 80% del ancho de la pantalla */
+    /* max-width: 1400px; */
+
+
+  }
+
+  .talla-subcontainer{
+    background-color: #545454;
+    width: 100%; /* Por defecto, ocupa el 80% del ancho de la pantalla */
+    /* max-width: 1400px; */
+    margin: 0 auto;
+    padding: 20px;
+    color: #fff;
+  }
+
+  .talla-container form, .talla-container .talla-title h1 {
+    max-width: 1000px;
+    margin: 0 auto;
+
+  }
+
+  .talla-container .result-container {
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    /* Otros estilos para el bloque de "Talla seleccionada" */
+  }
+
+
+
+  @media (max-width: 767px) {
+    /* Dispositivos móviles con ancho máximo de 767px */
+    .talla-container {
+      width: 100%; /* En dispositivos móviles, ocupa el 100% del ancho de la pantalla */
+
+    }
+
+    .talla-container .result-container {
+      width: 95%;
+      margin: 0 auto;
+    }
+
+
+  }
+
+
+  .talla-title {
+    text-align: left;
+    font-size: 3rem;
+    color: #fff;
+    max-width: 1000px;
+    margin: 20px auto 5px;
+
+  }
+
+  .talla-subtitle {
+    text-align: left;
+    font-size: 16px;
+    max-width: 1000px;
+    margin: 20px auto 20px auto;
+    color: #fff;
+  }
+
+  .title-marca {
+    color: #ffc600;
+    font-weight: 800;
+
+  }
+
+
+  .form-group {
+    margin-bottom: 10px;
+  }
+
+  .form-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    max-width: 400px;
+  }
+
+  .form-select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .btn-submit {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #ffc600;
+    color: #000;
+    font-weight: 600;
+    border: none;
+    border-radius: 27px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+  }
+
+  .btn-submit:hover {
+    background-color: #FFE27A;
+  }
+
+  .result-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .result-title {
+    font-size: 25px;
+    margin-bottom: 10px;
+    background: #000;
+  }
+
+  .result-talla {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .result-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .form-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+  }
+
+
+
+  @media (max-width: 764px){
+    .form-row {
+      display: flex;
+     flex-direction: column;
+    }
+  }
+
+  .form-group {
+    flex: 1;
+    flex-basis: 0;
+
+  }
+
+  .black-to-white {
+    max-height: 50px;
+    margin-top: 5px;
+  }
+
+  .suggested-brands ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+/* Estilos para el contenido de cada marca */
+.suggested-content {
+  display: flex;
+  align-items: center; /* Alinea verticalmente el contenido */
+}
+
+/* Estilos para el nombre de la marca */
+.suggested-brand-name {
+  margin-right: 10px; /* Espacio entre el nombre de la marca y el logo */
+}
+
+.suggested-brand-name-link {
+  cursor: pointer;
+  color: #ffc600;
+}
+
+.form-input {
+  width: 100%;
+padding: 8px;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+
+.suggested-content {
+  cursor: pointer;
+}
+
+/* .form-group-btn-submit {
+  max-width: 1000px;
+  margin: 0 auto;
+} */
+
+

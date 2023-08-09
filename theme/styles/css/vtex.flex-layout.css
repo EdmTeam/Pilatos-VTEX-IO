@@ -80,14 +80,14 @@
   .flexRow--search-in-deskNew{
     top: 160px !important;
   }
-  
+
 }
 
 @media only screen and (min-width: 1700px) and (max-width: 2000px) {
   .flexRow--search-in-deskNew{
     top: 5% !important;
   }
-  
+
 }
 
 
@@ -153,11 +153,11 @@
     width: 95%;
     background-color: #f0eced;
   }
-  
+
   :global(.vtex-search-result-3-x-container--layout--searchResultMobile) .flexRowContent--contentBanners-new-balance .stretchChildrenWidth{
     width: 33.3% !important;
   }
-  
+
   .flexRowContent--contentBanners-new-balance{
     width: 100%;
     margin: .5rem auto !important;
@@ -168,11 +168,11 @@
     width: 95%;
     background-color: #f0eced;
   }
-  
+
   :global(.vtex-search-result-3-x-container--layout--searchResultMobile) .flexRowContent--contentBanners-new-balance-secundario .stretchChildrenWidth{
     width: 33.3% !important;
   }
-  
+
   .flexRowContent--contentBanners-new-balance-secundario{
     width: 100%;
     margin: .5rem auto !important;
@@ -1357,7 +1357,7 @@
     margin: 0 auto;
   }
 
-  
+
   .flexRow--contentBotones{
     width: 70%;
     margin: 0 auto;
@@ -1442,7 +1442,7 @@
   .flexRowContent--contentCategoryBannersDesk :global(.vtex-store-components-3-x-imageElementLink--departmentBannerImg-3){
     margin: 0 0 .5rem 1.2rem;
   }
- 
+
 }
 @media screen and (max-width:768px) {
   .flexRow--contentSearch-monastery{
@@ -2460,7 +2460,7 @@
     width: 100%;
     text-align: center;
   }
-  
+
   .flexRow--static-accordion :global(.vtex-menu-2-x-styledLinkContent) {
     background-color: #d3d6d7;
     padding: 12px 10px;
@@ -2629,7 +2629,7 @@
 .flexRowContent--contentBrandsSlide{
   margin-top: 0;
   margin-bottom: 2%;
-  
+
 }
 
 /* Estilos sobre nosotros */
@@ -2864,7 +2864,7 @@
   flex-wrap: wrap;
 }
 .flexRow--rowLandingOrderFromSostenible {
-  /*padding: 0 12% 2% 12%;*/ 
+  /*padding: 0 12% 2% 12%;*/
   width: 60%;
   margin: 0 auto;
 
@@ -2954,7 +2954,7 @@
   .flexCol--formContainer-memorama-mundial{
     width: 50% !important;
   }
-  
+
 }
 
 
@@ -2988,4 +2988,9 @@
   .flexRow--estilosCategoriasMonastery{
   margin: 20px;
 }
+}
+
+.flexRow--container-guiadeTallas {
+  margin: 0 auto;
+    width: 90%;
 }

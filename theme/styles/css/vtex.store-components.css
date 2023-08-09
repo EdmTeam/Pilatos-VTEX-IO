@@ -6,7 +6,7 @@
 .vtex-styleguide-9-x-input::placeholder {
     text-align: right; /* o la alineación deseada */
   }
-  
+
 .productDescriptionContainer{
     max-width: 80%;
     margin: 0 auto;
@@ -232,7 +232,7 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    
+
 }
 
 :global(.vtex-minicart-2-x-minicartIconContainer)::before{
@@ -375,7 +375,7 @@
 }
 
  /*
- link variation linio integracion 
+ link variation linio integracion
  .skuSelectorSubcontainer--lin_variation-required {
     background: red;
     display: none;
@@ -532,14 +532,14 @@ margin-top: 1%;
 }
 .imageElementLink--sanValentinImagen{
     margin: 1%;
-    
+
 }
 
 .imageElementLink--departmentBannerImg-Frenchie{
     margin: 0 auto;
     width: 50%;
 }
-                   
+
 .imageElementLink--departmentBannerImg-mundial:hover{
     -webkit-filter: brightness(50%);
 filter: brightness(50%);
@@ -681,7 +681,7 @@ margin-top: 1%;
     .price_className--productPrice{
         margin: 1.5rem 0 1rem auto;
     }
-  
+
 }
 
 @media only screen and (min-width: 1180px){
@@ -765,4 +765,8 @@ margin-top: 1%;
 .imageElement--departmentBannerImg{
     height: 100%;
     width: 100%;
+}
+
+.bannerGuiaDeTalla {
+  margin-top: 25px;
 }

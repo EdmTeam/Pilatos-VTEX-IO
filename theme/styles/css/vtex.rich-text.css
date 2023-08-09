@@ -432,7 +432,7 @@
   .wrapper--seo-pillar {
     margin: 0.1rem 0;
     padding: 0 !important;
-    
+
   }
 
   .paragraph--textTopHeader {
@@ -1088,15 +1088,15 @@
 
 .wrapper--botonReverso {
   background-color: #000;
-  border: none; 
-  color: white; 
-  padding: 1px 20px; 
-  text-align: center; 
-  display: inline-block; 
+  border: none;
+  color: white;
+  padding: 1px 20px;
+  text-align: center;
+  display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
-  cursor: pointer; 
-  border-radius: 25px; 
+  cursor: pointer;
+  border-radius: 25px;
   text-decoration: none;
 
 }
@@ -1111,15 +1111,15 @@
 .wrapper--botonBeachwear {
   background-color: #35bcd1;
   border: none;
-  font-weight: 700; 
-  color: black; 
-  padding: 1px 20px; 
-  text-align: center; 
-  display: inline-block; 
+  font-weight: 700;
+  color: black;
+  padding: 1px 20px;
+  text-align: center;
+  display: inline-block;
   font-size: 16px;
   margin: 10px 15px;
-  cursor: pointer; 
-  border-radius: 25px; 
+  cursor: pointer;
+  border-radius: 25px;
   text-decoration: none;
 
 }
@@ -1135,18 +1135,18 @@
   .wrapper--botonBeachwear {
     background-color: #35bcd1;
     border: none;
-    font-weight: 700; 
-    color: black; 
-    padding: 1px 20px; 
-    text-align: center; 
-    display: inline-block; 
+    font-weight: 700;
+    color: black;
+    padding: 1px 20px;
+    text-align: center;
+    display: inline-block;
     font-size: 16px;
     margin: 10px 80px;
-    cursor: pointer; 
-    border-radius: 25px; 
+    cursor: pointer;
+    border-radius: 25px;
     text-decoration: none;
-  
-  }  
+
+  }
 }
 .wrapper--botonBeachwear .link--botonBeachwear {
   color: black;
@@ -1165,18 +1165,18 @@
   .wrapper--botonChampion {
     background-color:  black;
     border: none;
-    font-weight: 700; 
-    color: white; 
-    padding: 1px 20px; 
-    text-align: center; 
-    display: inline-block; 
+    font-weight: 700;
+    color: white;
+    padding: 1px 20px;
+    text-align: center;
+    display: inline-block;
     font-size: 16px;
     margin: 10px 80px;
-    cursor: pointer; 
-    border-radius: 25px; 
+    cursor: pointer;
+    border-radius: 25px;
     text-decoration: none;
-  
-  }  
+
+  }
 }
 @media screen and  (max-width:600px){
   .wrapper--botonChampion {
@@ -1194,25 +1194,25 @@
     cursor: pointer;
     border-radius: 25px;
     text-decoration: none
-  
-  }  
+
+  }
   .wrapper--botonChampion2 {
     background-color:  black;
     border: none;
-    font-weight: 700; 
-    color: white; 
-    padding: 1px 20px; 
-    text-align: center; 
+    font-weight: 700;
+    color: white;
+    padding: 1px 20px;
+    text-align: center;
     position:relative;
     left: 36px;
-    display: grid; 
+    display: grid;
     font-size: 13px;
     margin: 10px 80px;
-    cursor: pointer; 
-    border-radius: 25px; 
+    cursor: pointer;
+    border-radius: 25px;
     text-decoration: none;
-  
-  }  
+
+  }
 }
 .wrapper--botonChampion .link--botonChampion {
   color: white;
@@ -1583,7 +1583,7 @@
   letter-spacing: 0.055em;
   color: transparent;
   position: relative;
- 
+
 }
 
 :global(.vtex-reviews-and-ratings-1-x-container) :global(.vtex-textarea__label)::before {
@@ -2362,7 +2362,7 @@
   border: double #c00b0b;
   border-width: 0 4px 1px 1px;
   padding: 0.5rem;
-  
+
 }
 .paragraph--producto-lucky {
   font-size: 12px;
@@ -2393,7 +2393,7 @@
   margin: 0.1rem 0;
   border-width: 0 4px 1px 1px;
   padding: 0.5rem;
-  
+
 }
 .paragraph--seo-pillar {
   font-size: 12px;
@@ -2418,7 +2418,7 @@
     font-size: 14px;
 
   }
-  
+
 }
 
 .heading--sanValentin-texto {
@@ -2550,5 +2550,19 @@
   .wrapper--product-description-pdp {
     margin-left: 30px;
   }
-  
+
+}
+
+.container--guiaDeTallas-texto{
+  border: 4px;
+  width: 50%;
+}
+
+.wrapper--guiaDeTallas-texto {
+  margin-bottom: 5%;
+  padding: 2%;
+  height: 300px;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+
 }
