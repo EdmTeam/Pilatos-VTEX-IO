@@ -19,7 +19,7 @@
     height: 40px;
     background-size: contain;
     background-repeat: no-repeat;
-   background-image: url(/arquivos/Pilatos-BlackFriday-Flag.jpg); 
+   background-image: url(/arquivos/Pilatos-BlackFriday-Flag.jpg);
     display: block;
 } */
 
@@ -28,7 +28,7 @@
     height: 70px;
     background-size: contain;
     background-repeat: no-repeat;
-   background-image: url(/arquivos/Pilatos-BlackFriday-Flag.jpg); 
+   background-image: url(/arquivos/Pilatos-BlackFriday-Flag.jpg);
     display: none;
 }
 
@@ -39,7 +39,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url(/arquivos/Pilatos-FlagNuevo-Circular.png);
-    display: block;   
+    display: block;
 }
 
 .productHighlightWrapper [data-highlight-id="1447"]{
@@ -47,32 +47,32 @@
     height: 35px;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url(/arquivos/FlagBancolombia-Negro.png); 
-    display: none;   
+    background-image: url(/arquivos/FlagBancolombia-Negro.png);
+    display: none;
 }
-.productHighlightWrapper [data-highlight-id="1492"]{
+.productHighlightWrapper [data-highlight-id="1490"]{
     width: 35px;
     height: 35px;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url(/arquivos/flag-heritage-pilatos.png); 
-    display: block;   
+    background-image: url(/arquivos/flag-heritage-pilatos.png);
+    display: block;
 }
 .productHighlightWrapper [data-highlight-id="1482"]{
     width: 35px;
     height: 35px;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url(/arquivos/pilatos-flag-sostenible-new-balance.png); 
-    display: block;   
+    background-image: url(/arquivos/pilatos-flag-sostenible-new-balance.png);
+    display: block;
 }
 .productHighlightWrapper [data-highlight-id="1471"]{
     width: 35px;
     height: 35px;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url(/arquivos/FlagBancolombia-Negro.png); 
-    display: none;   
+    background-image: url(/arquivos/FlagBancolombia-Negro.png);
+    display: none;
 }
 
 
@@ -129,7 +129,7 @@
     height: 50px;
     background-size: contain;
     background-repeat: no-repeat;
-   background-image: url(/arquivos/PILATOS-dsi.png); 
+   background-image: url(/arquivos/PILATOS-dsi.png);
     display: block;
 }
 .productHighlightWrapper [data-highlight-id="1151"]{
@@ -145,7 +145,7 @@
 
 .productHighlightWrapper [data-highlight-id="1189"]{
     font-size: 0;
-} 
+}
 .productHighlightWrapper [data-highlight-id="1190"]{
     font-size: 0;
 }
