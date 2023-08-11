@@ -1,0 +1,337 @@
+{
+    "store.custom#landing-nueva-disandina":{
+        "blocks": [
+            "responsive-layout.desktop#landingDisandinaNueva",
+            "responsive-layout.tablet#landingDisandinaNueva",
+            "responsive-layout.phone#landingDisandinaNueva"
+           ]
+    },
+    /*Version desk*/
+    "responsive-layout.desktop#landingDisandinaNueva":{
+        "children": [
+            "flex-layout.row#tituloLandingDisandina",
+            "flex-layout.row#banner-landing-disandina-nuevo-principal",
+            "flex-layout.row#Titulo-encima-de-categorias",
+            "flex-layout.row#categorias-landing-disandina",
+            "flex-layout.row#botones-categorias-landing-disandina",
+            "flex-layout.row#carruselProductosDisandina",
+            "flex-layout.row#landing-disandina-ultimo-principal",
+            "flex-layout.row#carruselProductosDisandinaDos"
+        ],
+        "props": {
+         "blockClass": "contentSearch"
+        }
+    },
+    /*Version Tablet*/
+    "responsive-layout.tablet#landingDisandinaNueva":{
+        "children": [
+            "flex-layout.row#tituloLandingDisandina",
+            "flex-layout.row#banner-landing-disandina-nuevo-primero",
+            "flex-layout.row#Titulo-encima-de-categorias",
+            "flex-layout.row#categorias-landing-disandina",
+            "flex-layout.row#carruselProductosDisandina",
+            "flex-layout.row#landing-disandina-ultimo-principal",
+            "flex-layout.row#carruselProductosDisandina"
+        ],
+        "props": {
+         "blockClass": "contentSearch"
+        }
+    },
+    /*titulo y migaja de pan*/
+    "flex-layout.row#tituloLandingDisandina":{
+        "children":[
+            "flex-layout.col#tituloLandingDisandina"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+    "flex-layout.col#tituloLandingDisandina":{
+        "children": [
+            "rich-text#landing-disandina-nueva"
+        ]
+    },
+    "rich-text#landing-disandina-nueva":{
+        "props": {
+            "text": "[Home](/) / [**Home Disandina**](/)",
+            "blockClass": "departmentBreadCrumb"
+                    }
+    },
+    "rich-text#landing-disandina-nueva-title":{
+        "props": {
+            "text": "# Home Disandina",
+               "blockClass": "departmentTitle"
+              }
+    },
+   
+    /*boton tablet*/
+    "responsive-layout.tablet#boton-landing-disandina-nueva":{
+        "children":[
+            "flex-layout.row#boton-landing-disandina-tablet",
+            "flex-layout.row#texto-boton-landing-disandina-tablet"
+        ]
+    },
+    "flex-layout.row#boton-landing-disandina-tablet":{
+        "children": [
+            "rich-text#boton-disandina-landing-tablet"
+        ],
+        "props":{
+          "preventHorizontalStretch": true,
+          "blockClass": "contentSearch"
+        }
+    },
+    "rich-text#boton-disandina-landing-tablet":{
+        "props":{
+            "text":"EXPLORAR AHORA",
+            "blockClass":"boton-landing-disandina"
+        }
+    },
+    "flex-layout.row#texto-boton-landing-disandina-tablet":{
+        "children": [
+            "rich-text#texto-boton-disandina-landing-tablet"
+        ],
+        "props":{
+          "preventHorizontalStretch": true,
+          "blockClass": "contentSearch"
+        }
+    },
+    "rich-text#texto-boton-disandina-landing-tablet":{
+        "props": {
+            "text": "Viste tu personalidad. Deja que tu estilo hable por ti",
+            "blockClass": "titulo-encuentra-productos-disandina2"
+          }
+    },
+    /*titulo encima de las categorias*/
+    "flex-layout.row#Titulo-encima-de-categorias":{
+        "children": [
+            "rich-text#landing-titulo-categorias-disandina"
+        ],
+        "props":{
+            "preventHorizontalStretch": true,
+            "blockClass": "contentSearch"
+          }
+    },    
+    "rich-text#landing-titulo-categorias-disandina":{
+        "props": {
+            "text": "Selecciona una marca para encontrar tu producto deseado.",
+            "blockClass": "titulo-categorias-disandina"
+          }
+    },
+    /*Banner de categorias*/
+    "flex-layout.row#categorias-landing-disandina":{
+        "children": [
+            "image#banner-disandina-landing-alpinestar",
+            "image#banner-disandina-landing-ockley",
+            "image#banner-disandina-landing-quicksilver",
+            "image#banner-disandina-landing-stance",
+            "image#banner-disandina-landing-roxy"
+        ],
+        "props": {
+            "blockClass":"contentSearch-categorias-disandina",
+            "horizontalAlign": "center",
+            "preventHorizontalStretch": true
+        }
+    },
+    "image#banner-disandina-landing-alpinestar":{
+        "props": {
+            "src": "/arquivos/pilatos-logos-disandina-alpinestars-desk-2.jpg",
+            "link": {
+                "url": "/"
+            },
+            "blockClass": "DisandinaImagenCategorias"
+       }
+    },
+    "image#banner-disandina-landing-ockley":{
+        "props": {
+            "src": "/arquivos/pilatos-logos-disandina-oakley-desk-2.jpg",
+            "link": {
+                "url": "/"
+            },
+            "blockClass": "DisandinaImagenCategorias"
+       }
+    },
+    "image#banner-disandina-landing-quicksilver":{
+        "props": {
+            "src": "/arquivos/pilatos-logos-disandina-quicksilver-desk-2.jpg",
+            "link": {
+                "url": "/"
+            },
+            "blockClass": "DisandinaImagenCategorias"
+       }
+    },
+    "image#banner-disandina-landing-stance":{
+        "props": {
+            "src": "/arquivos/pilatos-logos-disandina-stance-desk-2.jpg",
+            "link": {
+                "url": "/"
+            },
+            "blockClass": "DisandinaImagenCategorias"
+       }
+    },
+    "image#banner-disandina-landing-roxy":{
+        "props": {
+            "src": "/arquivos/pilatos-logos-disandina-roxy-desk-2.jpg",
+            "link": {
+                "url": "/"
+            },
+            "blockClass": "DisandinaImagenCategorias"
+       }
+    },
+    /*Botones de categorias*/
+    "flex-layout.row#botones-categorias-landing-disandina":{
+        "children": [
+            "rich-text#botones-disandina-ver-mas-primero",
+            "rich-text#botones-disandina-ver-mas-segundo",
+            "rich-text#botones-disandina-ver-mas-tercero",
+            "rich-text#botones-disandina-ver-mas-cuarto",
+            "rich-text#botones-disandina-ver-mas-quinto"
+        ],
+        "props": {
+            "blockClass":"categorias-disandina-botones",
+            "horizontalAlign": "center",
+            "preventHorizontalStretch": true
+        }
+    },
+    "rich-text#botones-disandina-ver-mas-primero":{
+        "props": {
+            "text": "Ver mas",
+            "link": {
+                "url": "/"
+            },
+            "blockClass":"categorias-disandina-botones-separacion"
+          }
+    },
+    "rich-text#botones-disandina-ver-mas-segundo":{
+        "props": {
+            "text": "Ver mas",
+            "link": {
+                "url": "/"
+            },
+            "blockClass":"categorias-disandina-botones-separacion"
+          }
+    },
+    "rich-text#botones-disandina-ver-mas-tercero":{
+        "props": {
+            "text": "Ver mas",
+            "link": {
+                "url": "/"
+            },
+            "blockClass":"categorias-disandina-botones-separacion"
+          }
+    }, 
+    "rich-text#botones-disandina-ver-mas-cuarto":{
+        "props": {
+            "text": "Ver mas",
+            "link": {
+                "url": "/"
+            },
+            "blockClass":"categorias-disandina-botones-separacion"
+          }
+    },
+    "rich-text#botones-disandina-ver-mas-quinto":{
+        "props": {
+            "text": "Ver mas",
+            "link": {
+                "url": "/"
+            },
+            "blockClass":"categorias-disandina-botones-separacion"
+          }
+    },
+    /*primer carrusel*/
+    "flex-layout.row#carruselProductosDisandina":{
+        "children": [
+            "flex-layout.col#most-carruselProductosDisandina"
+           ],
+           "props": {
+               "blockClass": "sliderContentShelf"
+           }
+    },
+    "flex-layout.col#most-carruselProductosDisandina":{
+        "children": [
+            "vtex.product-summary:list-context.product-list#carruselProductosDisandina"
+        ]
+    },
+    "vtex.product-summary:list-context.product-list#carruselProductosDisandina":{
+        "blocks": [
+            "vtex.product-summary:product-summary.shelf#most-viewed"
+          ],
+          "children": [
+            "slider-layout#productosCarruselDisandinaNuevo"
+          ],
+          "props": {
+              "orderBy": "OrderByTopSaleDESC",
+              "collection": "1291",
+              "maxItems": 30
+          }
+    },
+    "slider-layout#productosCarruselDisandinaNuevo":{
+        "props": {
+            "itemsPerPage": {
+              "desktop": 4,
+              "tablet": 3,
+              "phone": 2
+            },
+            "infinite": true,
+            "showNavigationArrows": "desktopOnly",
+            "showPaginationDots": "always"
+         
+          }
+    },
+    /*Banner sale disandina*/
+    "flex-layout.row#landing-disandina-ultimo-principal":{
+        "children": [
+            "image#banner-landing-disandina-ultimo-principal"
+        ],
+        "props": {
+            "blockClass": "contentSearch"
+                }
+       },
+       "image#banner-landing-disandina-ultimo-principal":{
+        "props": {
+            "src": "/arquivos/banner-final-disandina-sale-desk.jpg",
+            "link": {
+                "url": "/"
+            }
+        }
+       },
+   /*Ultimoc carrusel*/
+   "flex-layout.row#carruselProductosDisandinaDos":{
+    "children": [
+        "flex-layout.col#most-carruselProductosDisandinaDos"
+       ],
+       "props": {
+           "blockClass": "sliderContentShelf"
+       }
+},
+"flex-layout.col#most-carruselProductosDisandinaDos":{
+    "children": [
+        "vtex.product-summary:list-context.product-list#carruselProductosDisandinaDos"
+    ]
+},
+"vtex.product-summary:list-context.product-list#carruselProductosDisandinaDos":{
+    "blocks": [
+        "vtex.product-summary:product-summary.shelf#most-viewed"
+      ],
+      "children": [
+        "slider-layout#productosCarruselDisandinaNuevoDos"
+      ],
+      "props": {
+          "orderBy": "OrderByTopSaleDESC",
+          "collection": "1291",
+          "maxItems": 30
+      }
+},
+"slider-layout#productosCarruselDisandinaNuevoDos":{
+    "props": {
+        "itemsPerPage": {
+          "desktop": 4,
+          "tablet": 3,
+          "phone": 2
+        },
+        "infinite": true,
+        "showNavigationArrows": "desktopOnly",
+        "showPaginationDots": "always"
+     
+      }
+}
+}

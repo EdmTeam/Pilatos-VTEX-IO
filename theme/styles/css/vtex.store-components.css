@@ -534,7 +534,31 @@ margin-top: 1%;
     margin: 1%;
 
 }
-
+@media screen and (min-width:1000px){
+    .imageElementLink--estilosPilatosDenimCategorias{
+        margin: 1%;
+    }
+    }
+@media screen and (min-width:1200px){
+.imageElementLink--DisandinaImagenCategorias{
+    margin: 10%;
+}
+}
+@media screen and (max-width:500px){
+    .imageElementLink--DisandinaImagenCategorias{
+        width: 170px;
+        position: relative;
+        top: -80px;
+        margin: 10px;
+    }
+    .imageElementLink--DisandinaImagenCategoriasDos{
+        width: 170px;
+        position: relative;
+        top: -80px;
+        margin: 10px;
+        left: 100px;
+    }
+    }
 .imageElementLink--departmentBannerImg-Frenchie{
     margin: 0 auto;
     width: 50%;

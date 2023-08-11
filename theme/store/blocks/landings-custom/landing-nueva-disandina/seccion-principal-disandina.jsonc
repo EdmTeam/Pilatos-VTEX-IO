@@ -1,0 +1,107 @@
+{
+    "flex-layout.row#banner-landing-disandina-nuevo-principal":{
+        "children": [  
+        "flex-layout.col#titulo-encuentra-productos-disandina", 
+         "flex-layout.row#banner-landing-disandina-nuevo-primero"
+        ],    
+        "props": {
+            "blockClass": "contentSearch",
+            "preventHorizontalStretch": true,
+            "horizontalAlign": "center"
+         }
+    },
+     /*Banner*/
+     "flex-layout.row#banner-landing-disandina-nuevo-primero":{
+        "children": [
+            "image#banner-landing-disandina-nuevo-primero"
+        ],
+        "props": {
+           "blockClass":  "primer-banner-disandina"
+                }
+    },
+    "image#banner-landing-disandina-nuevo-primero":{
+        "props": {
+            "src": "/arquivos/banner-unificado-landing-disandina-nuevo.png"
+       }
+    },
+    /*Titulo disandina*/
+    "flex-layout.col#titulo-encuentra-productos-disandina":{
+        "children":[
+            "rich-text#landing-disandina-nueva-title",
+            "flex-layout.col#titulo-encuentra-productos-disandina-nuevo",
+            "responsive-layout.desktop#boton-landing-disandina-nueva"
+        ],
+        "props":{
+            "blockClass": "intento-prueba-titulo-disandina"
+        }
+    },
+    "flex-layout.col#titulo-encuentra-productos-disandina-nuevo":{
+        "children": [
+            "rich-text#landing-titulo-encuentra-productos-disandina",
+            "rich-text#landing-titulo-encuentra-productos-disandina2",
+            "rich-text#landing-titulo-encuentra-productos-disandina3",
+            "rich-text#landing-titulo-encuentra-productos-disandina4"
+        ]
+    },
+    "rich-text#landing-titulo-encuentra-productos-disandina":{
+        "props": {
+            "text": "Encuentra y compra",
+            "blockClass": "titulo-encuentra-productos-disandina"
+          }
+    },
+    "rich-text#landing-titulo-encuentra-productos-disandina2":{
+        "props": {
+            "text": "productos exclusivos",
+            "blockClass": "titulo-encuentra-productos-disandina"
+          }
+    },
+    "rich-text#landing-titulo-encuentra-productos-disandina3":{
+        "props": {
+            "text": "hechos a tu gusto",
+            "blockClass": "titulo-encuentra-productos-disandina"
+          }
+    },
+    "rich-text#landing-titulo-encuentra-productos-disandina4":{
+        "props": {
+            "text": "Encuentra aquí las mejores marcas para acompañar tu estilo de vida y tus aventuras.",
+            "blockClass": "titulo-encuentra-productos-disandina2"
+          }
+    },
+     /*Titulo disandina tablet*/
+    /*Boton*/
+    "responsive-layout.desktop#boton-landing-disandina-nueva":{
+        "children":[
+            "flex-layout.row#boton-landing-disandina"
+        ]
+    },
+    "flex-layout.row#boton-landing-disandina":{
+        "children": [
+            "rich-text#boton-disandina-landing"
+        ],
+        "props":{
+          "preventHorizontalStretch": true,
+          "blockClass": "contentSearch"
+        }
+    },
+    "rich-text#boton-disandina-landing":{
+        "props":{
+            "text":"EXPLORAR AHORA",
+            "blockClass":"boton-landing-disandina"
+        }
+    },
+    "flex-layout.col#texto-boton-landing-disandina":{
+        "children": [
+            "rich-text#texto-boton-disandina-landing"
+        ],
+        "props":{
+          "preventHorizontalStretch": true,
+          "blockClass": "contentSearch"
+        }
+    },
+    "rich-text#texto-boton-disandina-landing":{
+        "props": {
+            "text": "Viste tu personalidad. Deja que tu estilo hable por ti",
+            "blockClass": "titulo-encuentra-productos-disandina2"
+          }
+    }
+}

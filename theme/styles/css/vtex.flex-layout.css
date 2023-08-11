@@ -1083,9 +1083,91 @@
   }
 }
 
-/* Estilos pagina de departamento */
+
 .flexRow--contentSearch{
   width: 100%;
+}
+
+/*Landing pilatos denim*/
+.flexRow--contentSearch-pilatosDenimEstilos{
+  margin-top: 35px;
+}
+/*Landing disandina*/
+.flexRow--contentSearch-categorias-disandina{
+  width: 100%;
+  position: relative;
+  top: -437px;
+  margin: auto 0;
+  margin-bottom: -35px;
+}
+@media (min-width:600px) and (max-width:1000px) {
+  .flexRow--contentSearch-categorias-disandina {   
+    width: 100%;
+    position: relative;
+    top: -389px;
+    margin: auto 0;
+    margin-bottom: -353px;
+  }
+}
+.flexRow--primer-banner-disandina {
+  display: flex;
+  position: relative;
+  left: 30px;
+}
+.flexRow--categorias-disandina-botones{
+  width: 100%;
+  position: relative;
+  top: -524px;
+  margin: auto 0;
+  margin-bottom: -489px!important;
+}
+@media screen and (max-width:599px) {
+  .flexRow--categorias-disandina-botones{
+    width: 100%;
+    position: relative;
+    top: -524px;
+    margin: auto 0;
+    margin-bottom: -189px!important;
+  }
+}
+.flexCol--intento-prueba-titulo-disandina  {
+  display: flex !important;
+  justify-content: center !important;
+  position: relative;
+  top: -25%;
+}
+.flexRow--primer-banner-disandina {
+  width: 80%;
+  margin-bottom: 464px;
+}
+@media screen and (max-width:599px) {
+  .flexRow--primer-banner-disandina {
+    width:100%;
+    left: 0%;
+    top: -11px !important;
+    margin-bottom: 137px;
+  }
+}
+@media (min-width:600px) and (max-width:1100px) {
+  .flexRow--primer-banner-disandina {
+    width: 33%;
+    left: 60% !important;
+    top: -11px !important;
+    margin-bottom: 137px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .flexRow--segundo-banner-disandina {
+    width: 100%;
+  }
+
+  
+  .flexRow--segundo-banner-disandina {
+    top: -100px; 
+    left: 0; 
+  }
 }
 .flexRow--contentPillar{
   margin: 0 auto;
