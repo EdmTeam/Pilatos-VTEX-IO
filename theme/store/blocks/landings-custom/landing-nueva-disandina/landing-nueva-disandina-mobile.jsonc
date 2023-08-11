@@ -1,0 +1,130 @@
+{
+    "responsive-layout.phone#landingDisandinaNueva":{
+        "children": [
+            "flex-layout.row#tituloLandingDisandina",
+            "rich-text#landing-disandina-nueva-title",
+            "flex-layout.row#banner-landing-disandina-nuevo-primero",
+            "flex-layout.row#titulo-encuentra-productos-disandinaMobile",
+            "flex-layout.row#Titulo-encima-de-categorias",
+            "flex-layout.row#categorias-landing-disandinaMobile",
+            "flex-layout.row#categorias-landing-disandinaMobileDos",
+            "flex-layout.row#categorias-landing-disandinaMobileTres",
+            "flex-layout.row#carruselProductosDisandina",
+            "flex-layout.row#landing-disandina-ultimo-principalMobile",
+            "flex-layout.row#carruselProductosDisandinaDos"
+        ],
+        "props": {
+         "blockClass": "contentSearch"
+        }
+    },
+    /*Titulo mobile*/
+    "flex-layout.row#titulo-encuentra-productos-disandinaMobile":{
+        "children":[
+            "flex-layout.col#titulo-encuentra-productos-disandina-nuevo",
+            "responsive-layout.phone#boton-landing-disandina-nueva"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+    /*Boton mobile*/
+    "responsive-layout.phone#boton-landing-disandina-nueva":{
+        "children":[
+            "flex-layout.row#boton-landing-disandina"
+        ]
+    },
+    /*Primeros banners categorias*/
+    "flex-layout.row#categorias-landing-disandinaMobile":{
+        "children": [
+            "image#primer-categorias-landing-disandinaMobileUno",
+            "image#primer-categorias-landing-disandinaMobileDos"
+        ],
+        "props": {
+            "preventHorizontalStretch": true,
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "image#primer-categorias-landing-disandinaMobileUno":{
+        "props": {
+            "src": "/arquivos/pilatos-logos-disandina-alpinestars-desk.jpg",
+            "link": {
+                "url": "/"
+            },
+            "blockClass": "DisandinaImagenCategorias"
+       }
+    },
+    "image#primer-categorias-landing-disandinaMobileDos":{
+        "props": {
+            "src": "/arquivos/pilatos-logos-disandina-oakley-desk.jpg",
+            "link": {
+                "url": "/"
+            },
+            "blockClass": "DisandinaImagenCategorias"
+       }
+    },
+    /*Segundos banners categorias*/
+    "flex-layout.row#categorias-landing-disandinaMobileDos":{
+        "children": [
+            "image#primer-categorias-landing-disandinaMobileTres",
+            "image#primer-categorias-landing-disandinaMobileCuatro"
+        ],
+        "props": {
+            "preventHorizontalStretch": true,
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "image#primer-categorias-landing-disandinaMobileTres":{
+        "props": {
+            "src": "/arquivos/pilatos-logos-disandina-quicksilver-desk.jpg",
+            "link": {
+                "url": "/"
+            },
+            "blockClass": "DisandinaImagenCategorias"
+       }
+    },
+    "image#primer-categorias-landing-disandinaMobileCuatro":{
+        "props": {
+            "src": "/arquivos/pilatos-logos-disandina-stance-desk.jpg",
+            "link": {
+                "url": "/"
+            },
+            "blockClass": "DisandinaImagenCategorias"
+       }
+    },
+    /*Ultimo banner*/
+    "flex-layout.row#categorias-landing-disandinaMobileTres":{
+        "children": [
+            "image#primer-categorias-landing-disandinaMobileQuinto"
+        ],
+        "props": {
+        "preventHorizontalStretch": true,
+        "preserveLayoutOnMobile": true
+    }
+    },
+    "image#primer-categorias-landing-disandinaMobileQuinto":{
+        "props": {
+            "src": "/arquivos/pilatos-logos-disandina-roxy-desk.jpg",
+            "link": {
+                "url": "/"
+            },
+            "blockClass": "DisandinaImagenCategoriasDos"
+       }
+    },
+    /*Banner mobile final sale*/
+    "flex-layout.row#landing-disandina-ultimo-principalMobile":{
+        "children": [
+            "image#banner-landing-disandina-ultimo-principalMobile"
+        ],
+        "props": {
+            "blockClass": "contentSearch"
+                }
+    },
+    "image#banner-landing-disandina-ultimo-principalMobile":{
+        "props": {
+            "src": "/arquivos/banner-final-disandina-sale-mobile.jpg",
+            "link": {
+                "url": "/"
+            }
+        }
+    }
+}

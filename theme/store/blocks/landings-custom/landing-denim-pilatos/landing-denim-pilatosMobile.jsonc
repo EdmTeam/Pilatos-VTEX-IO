@@ -1,0 +1,137 @@
+{
+    "responsive-layout.phone#landingDenimPilatos":{
+        "children":[
+         "flex-layout.row#tituloLandingDenimPilatos",
+         "flex-layout.row#tituloTextoSeoDenimPilatos",
+         "flex-layout.row#tbotonesDenimPilatosMobile",
+         "flex-layout.row#banner-landing-DenimPilatosMobile",
+         "slider-layout#imagenesCategoriasPilatosDenimMobile",
+         "flex-layout.row#tituloLandingDenimPilatosPrimerCarrusel",
+         "flex-layout.row#primer-carrusel-PilatosDenim",
+         "flex-layout.row#banner-landing-DenimPilatos-mitadMobile",
+         "flex-layout.row#most-viewedos",
+         "flex-layout.row#banner-landing-DenimPilatos-ultima"
+        ],
+         "props":{
+        "blockClass": "contentStoreCustom"
+    }   
+},
+/*Botones mobile version*/
+"flex-layout.row#tbotonesDenimPilatosMobile":{
+    "children":[
+        "rich-text#pilatosDenim-boton1-mobile",
+        "rich-text#pilatosDenim-boton2-mobile"
+      ],
+      "props":{
+        "horizontalAlign": "center",
+        "preventHorizontalStretch": false,
+        "preserveLayoutOnMobile": true
+      }
+},
+"rich-text#pilatosDenim-boton1-mobile":{
+    "props":{
+        "text":"HOMBRE",
+        "blockClass":"botonPilatosDenim",
+        "link": {
+            "url": "/"
+        }
+    }
+},
+"rich-text#pilatosDenim-boton2-mobile":{
+    "props":{
+        "text":"MUJER",
+        "blockClass":"botonPilatosDenim",
+        "link": {
+            "url": "/"
+        }
+    }
+},
+/*Banner landing mobile*/
+"flex-layout.row#banner-landing-DenimPilatosMobile":{
+    "children": [
+        "image#banner-landing-pilatosDenimMobile"
+    ],
+    "props": {
+        "blockClass": "contentSearch"
+ }
+},
+"image#banner-landing-pilatosDenimMobile":{
+    "props": {
+        "src": "/arquivos/Pilatos-Denim-Banner-Landing-Ppal-Mob.jpg"
+   }
+},
+/*Carrusel de imagenes*/
+"slider-layout#imagenesCategoriasPilatosDenimMobile":{
+    "props": {
+        "itemsPerPage": {
+          "desktop": 3,
+          "tablet": 3,
+          "phone": 1
+            },
+        "infinite": true,
+        "showNavigationArrows": "always",
+        "blockClass": "carrouselFragancias"
+      },
+      "children": ["image#banner-dieselDenimMobile", "image#banner-girbaudDenimMobile", "image#banner-pilatosDenimMobile", "image#banner-replayDenimMobile",  "image#banner-superdryDenimMobile"]
+},
+"image#banner-dieselDenimMobile":{
+    "props": {
+        "src": "/arquivos/Pilatos-Denim-Banner-Landing-Logo-Diesel-Mob.jpg",
+        "link": {
+            "url": "/"
+        },
+        "blockClass": "estilosPilatosDenimCategorias"
+   }
+},
+"image#banner-girbaudDenimMobile":{
+    "props": {
+        "src": "/arquivos/Pilatos-Denim-Banner-Landing-Logo-MFG-Mob.jpg",
+        "link": {
+            "url": "/"
+        },
+        "blockClass": "estilosPilatosDenimCategorias"
+   }
+},
+"image#banner-pilatosDenimMobile":{
+    "props": {
+        "src": "/arquivos/Pilatos-Denim-Banner-Landing-Logo-Pilatos-Mob.jpg",
+        "link": {
+            "url": "/"
+        },
+        "blockClass": "estilosPilatosDenimCategorias"
+   }
+},
+"image#banner-replayDenimMobile":{
+    "props": {
+        "src": "/arquivos/Pilatos-Denim-Banner-Landing-Logo-Replay-Mob.jpg",
+        "link": {
+            "url": "/"
+        },
+        "blockClass": "estilosPilatosDenimCategorias"
+   }
+},
+"image#banner-superdryDenimMobile":{
+    "props": {
+        "src": "/arquivos/Pilatos-Denim-Banner-Landing-Logo-SD-Mob.jpg",
+        "link": {
+            "url": "/"
+        },
+        "blockClass": "estilosPilatosDenimCategorias"
+   } 
+},
+/*Banner mitad*/
+"flex-layout.row#banner-landing-DenimPilatos-mitadMobile":{
+    "children": [
+        "image#banner-landing-DenimPilatos-mitadMobile"
+    ],
+    "props": {
+        "blockClass": "contentSearch"
+ }
+},
+"image#banner-landing-DenimPilatos-mitadMobile":{
+    "props": {
+        "src": "/arquivos/Pilatos-Denim-Banner-Landing-Imagen-Mob.jpg"
+   }
+}
+}
+   

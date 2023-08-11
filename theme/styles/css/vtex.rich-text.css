@@ -1106,6 +1106,156 @@
   text-decoration: none;
   transition: all .35s;
 }
+/*Boton disandina*/
+.wrapper--boton-landing-disandina {
+  background-color: black;
+  border: none;
+  font-weight: 700; 
+  color: white; 
+  padding: 1px 20px; 
+  text-align: center; 
+  display: inline-block; 
+  font-size: 16px;
+  margin: 10px 15px;
+  cursor: pointer; 
+  border-radius: 25px; 
+  text-decoration: none;
+}
+@media screen and (max-width: 600px){
+  .wrapper--boton-landing-disandina {
+    background-color: black;
+    border: none;
+    font-weight: 700;
+    color: white;
+    padding: 0px 108px;
+    text-align: center;
+    display: inline-block;
+    font-size: 13px;
+    margin: 12px 14px;
+    cursor: pointer;
+    border-radius: 25px;
+    text-decoration: none;
+    position: relative;
+    top: -100px;
+  }  
+}
+@media screen and (min-width: 600px) and (max-width:1001px) {
+  .wrapper--boton-landing-disandina {
+    background-color: black;
+    border: none;
+    font-weight: 700; 
+    color: white; 
+    padding: 1px 90px; 
+    text-align: center; 
+    display: inline-block; 
+    font-size: 16px;
+    margin: 12px 90px;
+    cursor: pointer; 
+    border-radius: 25px; 
+    text-decoration: none;
+    position: relative;
+  
+  }  
+}
+.wrapper--boton-landing-disandina:hover{
+  background: #222221
+}
+.wrapper--boton-landing-disandina:active{
+  transform: translate(0em, 0.2em);
+}
+
+@media screen and (min-width:1800px) and (max-width:2000px) {
+  .wrapper--boton-landing-disandina {
+    background-color: black;
+    border: none;
+    font-weight: 700; 
+    color: white; 
+    padding: 1px 90px; 
+    text-align: center; 
+    display: inline-block; 
+    font-size: 16px;
+    margin: 12px 90px;
+    cursor: pointer; 
+    border-radius: 25px; 
+    text-decoration: none;
+    position: relative;
+
+  }  
+}
+@media screen and (min-width:1200px) and (max-width:1500px) {
+  .wrapper--boton-landing-disandina {
+    position: relative;
+
+    padding: 1px 90px; 
+  }  
+}
+@media screen and (min-width:1501px) and (max-width:1799px) {
+  .wrapper--boton-landing-disandina {
+    position: relative;
+
+    padding: 1px 90px; 
+  }  
+}
+@media screen and (min-width:2001px){
+  .wrapper--boton-landing-disandina {
+    position: relative;
+
+    padding: 1px 90px; 
+  }  
+}
+.wrapper--boton-landing-disandina .link--boton-landing-disandina {
+  color: black;
+  text-decoration: none;
+  transition: all .35s;
+}
+/*boton pilatos denim*/
+.wrapper--botonPilatosDenim {
+  background-color: black;
+  border: none;
+  font-weight: 700; 
+  color: white; 
+  padding: 1px 20px; 
+  text-align: center; 
+  display: inline-block; 
+  font-size: 16px;
+  margin: 10px 15px;
+  left: 30px;
+    position: relative;
+  cursor: pointer; 
+  border-radius: 25px; 
+  text-decoration: none;
+
+}
+
+.wrapper--botonPilatosDenim:hover{
+  background: #191c1d
+}
+.wrapper--botonPilatosDenim:active{
+  transform: translate(0em, 0.2em);
+}
+
+@media screen and (min-width:1080px) {
+  .wrapper--botonPilatosDenim {
+    background-color: black;
+    border: none;
+    font-weight: 700; 
+    color: white; 
+    padding: 1px 20px; 
+    text-align: center; 
+    display: inline-block; 
+    font-size: 16px;
+    margin: 10px 80px;
+    cursor: pointer; 
+    border-radius: 25px; 
+    text-decoration: none;
+  
+  }  
+}
+.wrapper--botonPilatosDenim .link--botonPilatosDenim {
+  color: black;
+  text-decoration: none;
+  transition: all .35s;
+}
 
 /*Boton beachwear*/
 .wrapper--botonBeachwear {
@@ -1332,17 +1482,105 @@
   font-size: 9px;
   margin-top: .2rem;
 }
-
+.flexCol--intento-prueba-titulo-disandina .paragraph {
+  display: flex !important;
+  justify-content: center !important;
+  position: relative;
+  top: 40%;
+}
 .wrapper--departmentBreadCrumb .paragraph .link {
   color: #000000;
   text-decoration: none;
 }
+.wrapper--titulo-encuentra-productos-disandina .paragraph {
+  line-height: 13px;
+  font-size: 40px;
+  margin-top: .2rem;
+  white-space:pre-line;
+  font-weight: 700;
+  position: relative;
+  top: 0px;
+}
+@media (max-width: 599px) {
+  .wrapper--titulo-encuentra-productos-disandina .paragraph {
+    line-height: 0px;
+    font-size: 34px;
+    margin-top: 0.2rem;
+    white-space: pre-line;
+    font-weight: 700;
+    position: relative;
+    top: -93px;
+    left: 16px;
+  }
 
+}
+.wrapper--titulo-encuentra-productos-disandina2 .paragraph {
+  line-height: 13px;
+  font-size: 19px;
+  margin-top: .2rem;
+  white-space:pre-line;
+  font-weight: 500;
+  position: relative;
+  top: 0px;
+}
+@media screen and (min-width: 768px) {
+  .wrapper--titulo-categorias-disandina .paragraph {
+    line-height: 13px;
+    font-size: 19px;
+    margin-top: .2rem;
+    white-space:pre-line;
+    font-weight: 500;
+    position: relative;
+    top: -417px;
+
+  }
+}
+@media screen and (max-width: 768px) {
+  .wrapper--titulo-categorias-disandina .paragraph {
+    line-height: 13px;
+    font-size: 19px;
+    margin-top: .2rem;
+    white-space:pre-line;
+    font-weight: 500;
+    position: relative;
+    top: -67px!important;
+    width: 80%;
+    left: 20px;
+
+  }
+}
+@media screen and (max-width: 768px) {
+  .wrapper--titulo-encuentra-productos-disandina2 .paragraph {
+    line-height: 13px;
+    font-size: 19px;
+    margin-top: .2rem;
+    white-space:pre-line;
+    font-weight: 500;
+    position: relative;
+    top: -92px;
+    left: 16px;
+  }
+}
+
+.wrapper--categorias-disandina-botones-separacion .paragraph{
+margin: 70px;
+}
 .container--departmentTitle {
   width: 88%;
   margin: 0 auto;
 }
 
+/*Titulo denim pilatos*/
+.wrapper--titulo-denimPilatos .paragraph{
+  font-size: 40px !important;
+  font-weight: 700;
+  }
+@media screen and (max-width:768px) {
+  .wrapper--titulo-denimPilatos .paragraph{
+    font-size: 24px !important;
+    font-weight: 700;
+    }
+}
 .wrapper--departmentTitle .paragraph {
   font-weight: bold;
   font-size: 13px;

@@ -1,0 +1,273 @@
+{
+    "store.custom#landing-denim-pilatos":{
+        "blocks":[
+            "responsive-layout.desktop#landingDenimPilatos",
+            "responsive-layout.tablet#landingDenimPilatos",
+            "responsive-layout.phone#landingDenimPilatos"
+          
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }        
+    },
+    "responsive-layout.desktop#landingDenimPilatos":{
+        "children": [
+            "flex-layout.row#tituloLandingDenimPilatos",
+            "flex-layout.row#tituloTextoSeoDenimPilatos",
+            "flex-layout.row#tbotonesDenimPilatos",
+            "flex-layout.row#banner-landing-DenimPilatos",
+            "flex-layout.row#banners-Categorias-marcasDenim",
+            "flex-layout.row#tituloLandingDenimPilatosPrimerCarrusel",
+            "flex-layout.row#primer-carrusel-PilatosDenim",
+            "flex-layout.row#banner-landing-DenimPilatos-mitad",
+            "flex-layout.row#most-viewedos",
+            "flex-layout.row#banner-landing-DenimPilatos-ultima"
+            
+         ],
+         "props": {
+            "blockClass": "contentSearch"
+        }
+    },
+    /*Tablet*/
+    "responsive-layout.tablet#landingDenimPilatos":{
+        "children": [
+            "flex-layout.row#tituloLandingDenimPilatos",
+            "flex-layout.row#tituloTextoSeoDenimPilatos",
+            "flex-layout.row#tbotonesDenimPilatos",
+            "flex-layout.row#banner-landing-DenimPilatos",
+            "flex-layout.row#banners-Categorias-marcasDenim",
+            "flex-layout.row#tituloLandingDenimPilatosPrimerCarrusel",
+            "flex-layout.row#primer-carrusel-PilatosDenim",
+            "flex-layout.row#banner-landing-DenimPilatos-mitad",
+            "flex-layout.row#most-viewedos",
+            "flex-layout.row#banner-landing-DenimPilatos-ultima"
+            
+         ],
+         "props": {
+            "blockClass": "contentSearch"
+        }
+    },
+    /*Titulo y migaja de pan*/
+    "flex-layout.row#tituloLandingDenimPilatos":{
+        "children":[
+            "flex-layout.col#tituloLandingDenimPilatos"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+    "flex-layout.col#tituloLandingDenimPilatos":{
+        "children":[
+            "rich-text#landing-DenimPilatos",
+            "rich-text#landing-DenimPilatos-title"
+        ]
+    },
+    "rich-text#landing-DenimPilatos":{
+        "props": {
+            "text": "[Home](/) / [**Pilatos Denim**](/)",
+            "blockClass": "departmentBreadCrumb"
+                    }
+    },
+    "rich-text#landing-DenimPilatos-title":{
+        "props": {
+            "text": "# Pilatos Denim",
+               "blockClass": "departmentTitle"
+              }
+    },
+    /*Titulo texto seo*/
+    "flex-layout.row#tituloTextoSeoDenimPilatos":{
+        "children": [
+            "flex-layout.col#tituloTextoSeoDenimPilatosNormal"
+        ]
+    },
+    "flex-layout.col#tituloTextoSeoDenimPilatosNormal":{
+        "children": [
+            "rich-text#titulo-seo-denimPilatos",
+            "rich-text#titulo-seo-denimPilatos-abajo"
+           
+        ],
+        "props":{
+            "horizontalAlign": "center",
+            "preventHorizontalStretch": true,
+            "blockClass": "contentSearch"
+          }
+    },
+    "rich-text#titulo-seo-denimPilatos":{
+        "props":{
+            "text":"TITULO DE DENIM PILATOS",
+            "blockClass": "titulo-denimPilatos"
+        }
+    },
+    "rich-text#titulo-seo-denimPilatos-abajo":{
+        "props":{
+            "text":"texto abajo"
+        }
+    },
+    /*Botones hombre y mujer*/
+    "flex-layout.row#tbotonesDenimPilatos":{
+     "children": [
+     "rich-text#pilatosDenim-boton1",
+       "rich-text#pilatosDenim-boton2"
+       ]    ,
+       "props":{
+           "horizontalAlign": "center",
+           "preventHorizontalStretch": true,
+           "blockClass": "contentSearch"
+         } 
+    },
+    "rich-text#pilatosDenim-boton1":{
+        "props":{
+            "text":"HOMBRE",
+            "blockClass":"botonPilatosDenim",
+            "link": {
+                "url": "/"
+            }
+        }
+    },
+    "rich-text#pilatosDenim-boton2":{
+        "props":{
+            "text":"MUJER",
+            "blockClass":"botonPilatosDenim",
+            "link": {
+                "url": "/"
+            }
+        }
+    },
+    /*Banner landing principal*/
+    "flex-layout.row#banner-landing-DenimPilatos":{
+        "children": [
+            "image#banner-landing-pilatosDenim"
+        ],
+        "props": {
+            "blockClass": "contentSearch"
+     }
+    },
+    "image#banner-landing-pilatosDenim":{
+        "props": {
+            "src": "/arquivos/Pilatos-Denim-Banner-Landing-Ppal.jpg"
+       }
+    },
+    /*banners categorias/logos marcas*/
+    "flex-layout.row#banners-Categorias-marcasDenim":{
+        "children": [
+            "image#banner-dieselDenim",
+            "image#banner-girbaudDenim",
+            "image#banner-pilatosDenim",
+            "image#banner-replayDenim",
+            "image#banner-superdryDenim"
+        ],
+        "props": {
+            "blockClass":"contentSearch-pilatosDenimEstilos",
+            "horizontalAlign": "center",
+            "preventHorizontalStretch": true
+        }
+    },
+    "image#banner-dieselDenim":{
+        "props": {
+            "src": "/arquivos/Pilatos-Denim-Banner-Landing-Logo-Diesel.jpg",
+            "link": {
+                "url": "/"
+            },
+            "blockClass": "estilosPilatosDenimCategorias"
+       }
+    },
+    "image#banner-girbaudDenim":{
+        "props": {
+            "src": "/arquivos/Pilatos-Denim-Banner-Landing-Logo-MFG.jpg",
+            "link": {
+                "url": "/"
+            },
+            "blockClass": "estilosPilatosDenimCategorias"
+       }
+    },
+    "image#banner-pilatosDenim":{
+        "props": {
+            "src": "/arquivos/Pilatos-Denim-Banner-Landing-Logo-Pilatos.jpg",
+            "link": {
+                "url": "/"
+            },
+            "blockClass": "estilosPilatosDenimCategorias"
+       }
+    },
+    "image#banner-replayDenim":{
+        "props": {
+            "src": "/arquivos/Pilatos-Denim-Banner-Landing-Logo-Replay.jpg",
+            "link": {
+                "url": "/"
+            },
+            "blockClass": "estilosPilatosDenimCategorias"
+       }
+    },
+    "image#banner-superdryDenim":{
+        "props": {
+            "src": "/arquivos/Pilatos-Denim-Banner-Landing-Logo-SD.jpg",
+            "link": {
+                "url": "/"
+            },
+            "blockClass": "estilosPilatosDenimCategorias"
+       }
+    },
+    /*Migaja de pan primer carrusel*/
+    "flex-layout.row#tituloLandingDenimPilatosPrimerCarrusel":{
+        "children":[
+            "flex-layout.col#tituloLandingDenimPilatosPrimerCarrusel"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+    "flex-layout.col#tituloLandingDenimPilatosPrimerCarrusel":{
+        "children":[
+            "rich-text#landing-DenimPilatos-primerCarrusel"
+        ]
+    },
+    "rich-text#landing-DenimPilatos-primerCarrusel":{
+        "props": {
+            "text": "[Mujer](/) / [**Productos para mujer**](/)",
+            "blockClass": "departmentBreadCrumb"
+                    }
+    },
+    /*Primer carrusel de productos mujer*/
+    "flex-layout.row#primer-carrusel-PilatosDenim":{
+        "children": [
+            "flex-layout.col#most-viewede"
+        ],
+        "props": {
+            "blockClass": "sliderContentShelf"
+        }
+    },
+    /*Primer banner abajo del carrusel*/
+    "flex-layout.row#banner-landing-DenimPilatos-mitad":{
+        "children": [
+            "image#banner-landing-DenimPilatos-mitad"
+        ],
+        "props": {
+            "blockClass": "contentSearch"
+     }
+    },
+    "image#banner-landing-DenimPilatos-mitad":{
+        "props": {
+            "src": "/arquivos/Pilatos-Denim-Banner-Landing-Imagen1.jpg"
+       }
+    },
+    /*Ultimo banner como lavar*/
+    "flex-layout.row#banner-landing-DenimPilatos-ultima":{
+        "children": [
+            "image#banner-landing-DenimPilatos-ultimo",
+            "rich-text#titulo-lavado-denimPilatos-abajo"
+        ],
+        "props": {
+            "blockClass": "contentSearch"
+     }
+    },
+    "image#banner-landing-DenimPilatos-ultimo":{
+        "props": {
+            "src": "/arquivos/Pilatos-Denim-Banner-Landing-Lavado.jpg"
+       }
+    },
+    "rich-text#titulo-lavado-denimPilatos-abajo":{
+        "props":{
+            "text":"texto lavado"
+        }
+    }
+}
