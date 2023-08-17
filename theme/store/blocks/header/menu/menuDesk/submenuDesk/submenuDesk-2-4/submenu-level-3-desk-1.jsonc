@@ -15,11 +15,8 @@
             "rich-text#submenu-desk-department-4-category-6",
             "rich-text#submenu-desk-department-4-category-7",
             "rich-text#submenu-desk-department-4-category-8",
-            //"rich-text#submenu-desk-department-4-category-9",
             "rich-text#submenu-desk-department-4-category-12",
-            //"rich-text#submenu-desk-department-4-category-13",
             "rich-text#submenu-desk-department-4-category-14",
-            "rich-text#submenu-desk-department-4-category-15",
             //"rich-text#submenu-desk-department-4-category-16",
             "rich-text#submenu-desk-department-4-category-17",
             "rich-text#submenu-desk-department-4-category-18",
@@ -29,15 +26,13 @@
             "rich-text#submenu-desk-department-4-category-22",
             "rich-text#submenu-desk-department-4-category-23",
             "rich-text#submenu-desk-department-4-category-25",
-            "rich-text#submenu-desk-department-4-category-26",
             "rich-text#submenu-desk-department-4-category-27",
             "rich-text#submenu-desk-department-4-category-28",
             "rich-text#submenu-desk-department-4-category-29",
             "rich-text#submenu-desk-department-4-category-30",
             "rich-text#submenu-desk-department-4-category-31",
             "rich-text#submenu-desk-department-4-category-32",
-            "rich-text#submenu-desk-department-4-category-33",
-            "rich-text#submenu-desk-department-4-category-34"
+            "rich-text#submenu-desk-department-4-category-33"
 
 
 
@@ -139,13 +134,6 @@
         }
     },
 
-    "rich-text#submenu-desk-department-4-category-9":{
-        "props":{
-            "text": "[Reebok](/reebok)",
-            "blockClass": "textCategory"
-        }
-    },
-
     "rich-text#submenu-desk-department-4-category-12":{
         "props":{
             "text": "[Agua Bendita](/agua-bendita)",
@@ -153,12 +141,6 @@
         }
     },
 
-    "rich-text#submenu-desk-department-4-category-13":{
-        "props":{
-            "text": "[Mundo Único](/mundo-unico)",
-            "blockClass": "textCategory"
-        }
-    },
 
     "rich-text#submenu-desk-department-4-category-14":{
         "props":{
@@ -166,20 +148,6 @@
             "blockClass": "textCategory"
         }
     },
-
-    "rich-text#submenu-desk-department-4-category-15":{
-        "props":{
-            "text": "[Dzone](/dzone)",
-            "blockClass": "textCategory"
-        }
-    },
-
-    // "rich-text#submenu-desk-department-4-category-16":{
-    //     "props":{
-    //         "text": "[Fossil](/fossil)",
-    //         "blockClass": "textCategory"
-    //     }
-    // },
 
     "rich-text#submenu-desk-department-4-category-17":{
         "props":{
@@ -238,12 +206,6 @@
         }
     },
 
-    "rich-text#submenu-desk-department-4-category-26":{
-        "props":{
-            "text": "[The Frenchie Co](/the-frenchie-co)",
-            "blockClass": "textCategory"
-        }
-    },
 
     "rich-text#submenu-desk-department-4-category-27":{
         "props":{
@@ -261,12 +223,6 @@
     "rich-text#submenu-desk-department-4-category-33":{
         "props":{
             "text": "[Champion](/champion)",
-            "blockClass": "textCategory"
-        }
-    },
-    "rich-text#submenu-desk-department-4-category-34":{
-        "props":{
-            "text": "[O Neil](/o-neill)",
             "blockClass": "textCategory"
         }
     }

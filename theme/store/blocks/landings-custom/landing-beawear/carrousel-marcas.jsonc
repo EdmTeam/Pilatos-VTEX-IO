@@ -25,7 +25,7 @@
     "slider-layout#brandsBeachwear": {
       "props": {
         "blockClass": [
-          "contentSlide", 
+          "contentSlide",
           "contentSlideBrand"
         ],
         "itemsPerPage": {
@@ -38,13 +38,13 @@
         //   "timeout": 5000,
         //   "stopOnHover": false
         // }
-      }, 
+      },
       "children": [
         "image#brandsBeachwear-pilatos",
         "image#brandsBeachwear-rayban",
         "image#brandsBeachwear-quiksilver",
         "image#brandsBeachwear-superdry",
-        "image#brandsBeachwear-dzone",
+       // "image#brandsBeachwear-dzone",
         "image#brandsBeachwear-agua",
 
         "image#brandsBeachwear-balance",
@@ -53,7 +53,7 @@
         "image#brandsBeachwear-kipling",
         "image#brandsBeachwear-replay",
         "image#brandsBeachwear-girbaud",
-        "image#brandsBeachwear-oneill",
+      //  "image#brandsBeachwear-oneill",
         "image#brandsBeachwear-monastery"
       ]
     },

@@ -35,8 +35,6 @@
             "rich-text#submenu-level-3-text-6-row-7",
             "rich-text#submenu-level-3-text-22-row-7",
             "rich-text#submenu-level-3-text-10-row-7",
-            //"rich-text#submenu-level-3-text-11-row-7",
-            "rich-text#submenu-level-3-text-12-row-7",
             "rich-text#submenu-level-3-text-14-row-7",
             "rich-text#submenu-level-3-text-15-row-7",
             "rich-text#submenu-level-3-text-16-row-7",
@@ -102,21 +100,6 @@
             "blockClass": "textSubmenuAcordeon"
         }
     },
-
-    "rich-text#submenu-level-3-text-11-row-7": {
-        "props": {
-            "text": "[Mundo Único](/hombre/mundo-unico?map=category-1,marca)",
-            "blockClass": "textSubmenuAcordeon"
-        }
-    },
-
-    "rich-text#submenu-level-3-text-12-row-7": {
-        "props": {
-            "text": "[Dzone](/hombre/dzone?map=category-1,marca)",
-            "blockClass": "textSubmenuAcordeon"
-        }
-    },
-   
 
     "rich-text#submenu-level-3-text-14-row-7": {
         "props": {

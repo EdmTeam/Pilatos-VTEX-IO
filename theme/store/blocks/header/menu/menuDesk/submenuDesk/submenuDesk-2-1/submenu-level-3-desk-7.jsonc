@@ -16,8 +16,6 @@
             "rich-text#submenu-desk-department-1-category-7-subcategory-6",
             "rich-text#submenu-desk-department-1-category-7-subcategory-22",
             "rich-text#submenu-desk-department-1-category-7-subcategory-10",
-          //  "rich-text#submenu-desk-department-1-category-7-subcategory-11",
-            "rich-text#submenu-desk-department-1-category-7-subcategory-12",
             "rich-text#submenu-desk-department-1-category-7-subcategory-14",
             "rich-text#submenu-desk-department-1-category-7-subcategory-15",
             "rich-text#submenu-desk-department-1-category-7-subcategory-16",
@@ -87,20 +85,6 @@
     "rich-text#submenu-desk-department-1-category-7-subcategory-10":{
         "props":{
             "text": "[Agua Bendita](/hombre/agua-bendita?map=category-1,marca)",
-            "blockClass": "textSubcategory"
-        }
-    },
-
-    "rich-text#submenu-desk-department-1-category-7-subcategory-11":{
-        "props":{
-            "text": "[Mundo Único](/hombre/mundo-unico?map=category-1,marca)",
-            "blockClass": "textSubcategory"
-        }
-    },
-
-    "rich-text#submenu-desk-department-1-category-7-subcategory-12":{
-        "props":{
-            "text": "[Dzone](/hombre/dzone?map=category-1,marca)",
             "blockClass": "textSubcategory"
         }
     },
