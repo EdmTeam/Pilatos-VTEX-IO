@@ -20,16 +20,12 @@
             "rich-text#submenu-level-2-item-6-row-7",
             "rich-text#submenu-level-2-item-7-row-7",
             "rich-text#submenu-level-2-item-8-row-7",
-           // "rich-text#submenu-level-2-item-9-row-7",
             "rich-text#submenu-level-2-item-12-row-7",
-           // "rich-text#submenu-level-2-item-13-row-7",
             "rich-text#submenu-level-2-item-14-row-7",
-            "rich-text#submenu-level-2-item-15-row-7",
             "rich-text#submenu-level-2-item-16-row-7",
             "rich-text#submenu-level-2-item-17-row-7",
             "rich-text#submenu-level-2-item-25-row-7",
             "rich-text#submenu-level-2-item-26-row-7",
-            "rich-text#submenu-level-2-item-27-row-7",
             "rich-text#submenu-level-2-item-18-row-7",
             "rich-text#submenu-level-2-item-19-row-7",
             "rich-text#submenu-level-2-item-20-row-7",
@@ -41,8 +37,7 @@
             "rich-text#submenu-level-2-item-30-row-7",
             "rich-text#submenu-level-2-item-31-row-7",
             "rich-text#submenu-level-2-item-32-row-7",
-            "rich-text#submenu-level-2-item-33-row-7",
-            "rich-text#submenu-level-2-item-34-row-7"
+            "rich-text#submenu-level-2-item-33-row-7"
 
 
 
@@ -183,13 +178,6 @@
         }
     },
 
-    "rich-text#submenu-level-2-item-9-row-7":{
-        "props":{
-            "text": "[Reebok](/reebok)",
-            "blockClass": "contentSubMenuAcordeon"
-        }
-    },
-
     "rich-text#submenu-level-2-item-12-row-7":{
         "props":{
             "text": "[Agua Bendita](/agua-bendita)",
@@ -197,23 +185,9 @@
         }
     },
 
-    "rich-text#submenu-level-2-item-13-row-7":{
-        "props":{
-            "text": "[Mundo Único](/mundo-unico)",
-            "blockClass": "contentSubMenuAcordeon"
-        }
-    },
-
     "rich-text#submenu-level-2-item-14-row-7":{
         "props":{
             "text": "[Roxy](/roxy)",
-            "blockClass": "contentSubMenuAcordeon"
-        }
-    },
-
-    "rich-text#submenu-level-2-item-15-row-7":{
-        "props":{
-            "text": "[Dzone](/dzone)",
             "blockClass": "contentSubMenuAcordeon"
         }
     },
@@ -289,12 +263,6 @@
         }
     },
 
-    "rich-text#submenu-level-2-item-27-row-7":{
-        "props":{
-            "text": "[The Frenchie Co](/the-frenchie-co)",
-            "blockClass": "contentSubMenuAcordeon"
-        }
-    },
     "rich-text#submenu-level-2-item-32-row-7":{
         "props":{
             "text": "[Ecovessel](/ecovessel)",
@@ -304,12 +272,6 @@
     "rich-text#submenu-level-2-item-33-row-7":{
         "props":{
             "text": "[Champion](/champion)",
-            "blockClass": "contentSubMenuAcordeon"
-        }
-    },
-    "rich-text#submenu-level-2-item-34-row-7":{
-        "props":{
-            "text": "[O Neil](/o-neill)",
             "blockClass": "contentSubMenuAcordeon"
         }
     }
