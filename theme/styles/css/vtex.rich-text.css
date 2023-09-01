@@ -1,5 +1,6 @@
 /*Personalización de estilos*/
 @import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,100;1,200;1,400&display=swap');
 
 .container--colorBrand {
   color: #00A2DC;
@@ -1110,15 +1111,15 @@
 .wrapper--boton-landing-disandina {
   background-color: black;
   border: none;
-  font-weight: 700; 
-  color: white; 
-  padding: 1px 20px; 
-  text-align: center; 
-  display: inline-block; 
+  font-weight: 700;
+  color: white;
+  padding: 1px 20px;
+  text-align: center;
+  display: inline-block;
   font-size: 16px;
   margin: 10px 15px;
-  cursor: pointer; 
-  border-radius: 25px; 
+  cursor: pointer;
+  border-radius: 25px;
   text-decoration: none;
 }
 @media screen and (max-width: 600px){
@@ -1137,25 +1138,25 @@
     text-decoration: none;
     position: relative;
     top: -100px;
-  }  
+  }
 }
 @media screen and (min-width: 600px) and (max-width:1001px) {
   .wrapper--boton-landing-disandina {
     background-color: black;
     border: none;
-    font-weight: 700; 
-    color: white; 
-    padding: 1px 90px; 
-    text-align: center; 
-    display: inline-block; 
+    font-weight: 700;
+    color: white;
+    padding: 1px 90px;
+    text-align: center;
+    display: inline-block;
     font-size: 16px;
     margin: 12px 90px;
-    cursor: pointer; 
-    border-radius: 25px; 
+    cursor: pointer;
+    border-radius: 25px;
     text-decoration: none;
     position: relative;
-  
-  }  
+
+  }
 }
 .wrapper--boton-landing-disandina:hover{
   background: #222221
@@ -1168,40 +1169,40 @@
   .wrapper--boton-landing-disandina {
     background-color: black;
     border: none;
-    font-weight: 700; 
-    color: white; 
-    padding: 1px 90px; 
-    text-align: center; 
-    display: inline-block; 
+    font-weight: 700;
+    color: white;
+    padding: 1px 90px;
+    text-align: center;
+    display: inline-block;
     font-size: 16px;
     margin: 12px 90px;
-    cursor: pointer; 
-    border-radius: 25px; 
+    cursor: pointer;
+    border-radius: 25px;
     text-decoration: none;
     position: relative;
 
-  }  
+  }
 }
 @media screen and (min-width:1200px) and (max-width:1500px) {
   .wrapper--boton-landing-disandina {
     position: relative;
 
-    padding: 1px 90px; 
-  }  
+    padding: 1px 90px;
+  }
 }
 @media screen and (min-width:1501px) and (max-width:1799px) {
   .wrapper--boton-landing-disandina {
     position: relative;
 
-    padding: 1px 90px; 
-  }  
+    padding: 1px 90px;
+  }
 }
 @media screen and (min-width:2001px){
   .wrapper--boton-landing-disandina {
     position: relative;
 
-    padding: 1px 90px; 
-  }  
+    padding: 1px 90px;
+  }
 }
 .wrapper--boton-landing-disandina .link--boton-landing-disandina {
   color: black;
@@ -1212,17 +1213,17 @@
 .wrapper--botonPilatosDenim {
   background-color: black;
   border: none;
-  font-weight: 700; 
-  color: white; 
-  padding: 1px 20px; 
-  text-align: center; 
-  display: inline-block; 
+  font-weight: 700;
+  color: white;
+  padding: 1px 20px;
+  text-align: center;
+  display: inline-block;
   font-size: 16px;
   margin: 10px 15px;
   left: 30px;
     position: relative;
-  cursor: pointer; 
-  border-radius: 25px; 
+  cursor: pointer;
+  border-radius: 25px;
   text-decoration: none;
 
 }
@@ -1238,18 +1239,18 @@
   .wrapper--botonPilatosDenim {
     background-color: black;
     border: none;
-    font-weight: 700; 
-    color: white; 
-    padding: 1px 20px; 
-    text-align: center; 
-    display: inline-block; 
+    font-weight: 700;
+    color: white;
+    padding: 1px 20px;
+    text-align: center;
+    display: inline-block;
     font-size: 16px;
     margin: 10px 80px;
-    cursor: pointer; 
-    border-radius: 25px; 
+    cursor: pointer;
+    border-radius: 25px;
     text-decoration: none;
-  
-  }  
+
+  }
 }
 .wrapper--botonPilatosDenim .link--botonPilatosDenim {
   color: black;
@@ -2802,5 +2803,169 @@ margin: 70px;
   height: 300px;
   border-top: 1px solid black;
   border-right: 1px solid black;
+
+}
+
+/* Sneaker City CSS*/
+
+
+.paragraph--sneaker-tittle {
+  font-family: Poppins;
+font-size: 48px;
+font-weight: 700;
+line-height: 72px;
+letter-spacing: 0em;
+text-align: left;
+color: #000;
+text-transform: uppercase;
+margin: 5px;
+}
+
+.wrapper--sneaker-buttom {
+  width: 270px;
+  border-radius: 80px;
+  background: #1d1d1d;
+  color: white;
+  margin: 5%;
+  cursor: pointer;
+
+}
+.wrapper--sneaker-buttom:hover{
+  background: #FFD400;
+  color: #1d1d1d;
+}
+
+.paragraph--sneaker-buttom{
+  font-weight: 700;
+}
+
+.paragraph--sneaker-linkBrands{
+color: black;
+font-size: 18px;
+font-weight: 600;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+
+.link--sneaker-linkBrands{
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: left;
+
+  }
+
+  .link--sneaker-linkBrands:hover{
+    color: #FFD400;
+  }
+.container--title-brandsSneaker {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.imageElement--sneaker-imagenBrand {
+  border: 1px solid #EAE7E7;
+}
+
+.paragraph--sneaker-title-vitrina{
+  color: #FFF;
+font-family: Poppins;
+font-size: 128px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+margin: 2px;
+}
+
+.paragraph--sneaker-title-vitrina-dos{
+  color: #FFF;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.headingLevel2--textejeDeEstilosSneakers{
+  color: #000;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.headingLevel3--textejeDeEstilosSneakers{
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.paragraph--textejeDeEstilosSneakers{
+  text-align: justify;
+  font-size: 14px;
+}
+
+.container--seoSneaker{
+  background-color: white;
+    margin: 0 auto;
+    padding: 1%;
+    width: 70%;
+    text-align: center;
+    align-items: center;
+    font-size: 10px;
+}
+
+/* Sneaker Mobile */
+
+
+@media (max-width: 768px) {
+  .paragraph--sneaker-tittle {
+    font-size: 28px;
+    line-height: 27px;
+    margin-top: 10px;
+  }
+
+  .wrapper--manifiestoSneakers {
+    width: 90%;
+    text-align: justify;
+    font-size: 14px;
+  }
+
+  .wrapper--sneaker-buttom {
+    width: 160px;
+
+  }
+  .paragraph--sneaker-buttom{
+    font-size: 13px;
+  }
+
+  .link--sneaker-linkBrands{
+    font-size: 14px;
+  }
+  .paragraph--sneaker-title-vitrina{
+    font-size: 32px;
+  }
+  .paragraph--sneaker-title-vitrina-dos{
+    font-size: 11px;
+  }
+
+  .paragraph--textejeDeEstilosSneakers{
+    width: 90%;
+    margin: 6px auto;
+  }
+
+  .container--seoSneaker{
+    width: 91%;
+    margin: 2rem auto 0 auto;
+    text-align: justify;
+  }
+
 
 }

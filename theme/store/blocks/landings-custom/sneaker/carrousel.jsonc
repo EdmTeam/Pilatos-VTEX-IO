@@ -4,23 +4,33 @@
             "flex-layout.col#sneaker-recomendador"
         ],
         "props": {
-            "blockClass": "sliderContentShelf"
+            "blockClass": "sneaker-recomendador",
+            // "blockClass": "sliderContentShelf",
+            "fullWidth": true
         }
     },
 
     "flex-layout.col#sneaker-recomendador": {
         "children": [
             "rich-text#title-best-sneaker",
-            "vtex.product-summary:list-context.product-list#sneaker-recomendador"        
+            "rich-text#title-best-sneaker-dos",
+            "vtex.product-summary:list-context.product-list#sneaker-recomendador"
         ]
     },
 
     "rich-text#title-best-sneaker":{
         "props":{
-            "text": "Productos",
-            "blockClass": "titleShelf"
+            "text": "Premium ",
+            "blockClass": "sneaker-title-vitrina"
         }
     },
+
+    "rich-text#title-best-sneaker-dos":{
+      "props":{
+          "text": "¡Destaca con estilo! camina la exclusividad en cada paso con nuestros tenis exclusivos ",
+          "blockClass": "sneaker-title-vitrina-dos"
+      }
+  },
 
     "vtex.product-summary:list-context.product-list#sneaker-recomendador": {
         "blocks": [
@@ -61,17 +71,26 @@
         "props":{
             "blockClass": "contentBrandsSlide"
         }
-    }, 
+    },
     "flex-layout.col#brandsSneaker":{
         "children":[
-            "rich-text#title-brandsSneaker",
+          "responsive-layout.desktop#title-brandsSneaker",
             "slider-layout#brandsSneaker"
         ]
     },
+
+    "responsive-layout.desktop#title-brandsSneaker": {
+      "children": [
+        "rich-text#title-brandsSneaker"
+      ]
+    },
+
     "rich-text#title-brandsSneaker": {
         "props":{
-            "text": "**Comprar por marca**",
-            "blockClass": "titlePromotionalBanners"
+            "text": "**Compra por tu marca favorita**",
+            "blockClass": "title-brandsSneaker",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT"
         }
       },
     "slider-layout#brandsSneaker":{
@@ -81,99 +100,293 @@
             "contentSlideBrand"
         ],
         "itemsPerPage":{
-            "desktop": 7,
-            "tablet": 6,
-            "phone": 3
-        }, 
+            "desktop": 4,
+            "tablet": 3,
+            "phone": 2
+        },
         "showPaginationDots":"never"
         },
     "children":[
-        "image#brandSneaker-1",
-        "image#brandSneaker-2",
-        "image#brandSneaker-3",
-        "image#brandSneaker-4",
-        "image#brandSneaker-5",
-        "image#brandSneaker-6",
-        "image#brandSneaker-7"
+      "flex-layout.row#Sneaker-Diesel",
+      "flex-layout.row#Sneaker-NewBalance",
+      "flex-layout.row#Sneaker-Nike",
+      "flex-layout.row#Sneaker-Girbaud",
+      "flex-layout.row#Sneaker-Lacoste",
+      "flex-layout.row#Sneaker-LeCoq",
+      "flex-layout.row#Sneaker-Vans",
+      "flex-layout.row#Sneaker-Replay"
     ]
+    },
+
+    "flex-layout.row#Sneaker-Diesel":{
+      "children": [
+      "flex-layout.col#Sneaker-Diesel"
+      ]
+    },
+    "flex-layout.row#Sneaker-NewBalance":{
+      "children": [
+        "flex-layout.col#Sneaker-NewBalance"
+        ]
+    },
+    "flex-layout.row#Sneaker-Nike":{
+      "children": [
+        "flex-layout.col#Sneaker-Nike"
+        ]
+    },
+    "flex-layout.row#Sneaker-Girbaud":{
+      "children": [
+        "flex-layout.col#Sneaker-Girbaud"
+        ]
+    },
+    "flex-layout.row#Sneaker-Lacoste":{
+      "children": [
+        "flex-layout.col#Sneaker-Lacoste"
+        ]
+    },
+    "flex-layout.row#Sneaker-LeCoq":{
+      "children": [
+        "flex-layout.col#Sneaker-LeCoq"
+        ]
+    },
+    "flex-layout.row#Sneaker-Vans":{
+      "children": [
+        "flex-layout.col#Sneaker-Vans"
+        ]
+    },
+    "flex-layout.row#Sneaker-Replay":{
+      "children": [
+        "flex-layout.col#Sneaker-Replay"
+        ]
+    },
+
+    "flex-layout.col#Sneaker-Diesel": {
+      "children": [
+        "image#Sneaker-Diesel",
+        "rich-text#Sneaker-Diesel"
+      ]
+    },
+
+    "flex-layout.col#Sneaker-NewBalance": {
+      "children": [
+        "image#Sneaker-NewBalance",
+        "rich-text#Sneaker-NewBalance"
+      ]
+    },
+
+    "flex-layout.col#Sneaker-Nike": {
+      "children": [
+        "image#Sneaker-Nike",
+        "rich-text#Sneaker-Nike"
+      ]
+    },
+
+    "flex-layout.col#Sneaker-Girbaud": {
+      "children": [
+        "image#Sneaker-Girbaud",
+        "rich-text#Sneaker-Girbaud"
+      ]
+    },
+
+    "flex-layout.col#Sneaker-Lacoste": {
+      "children": [
+        "image#Sneaker-Lacoste",
+        "rich-text#Sneaker-Lacoste"
+      ]
+    },
+
+    "flex-layout.col#Sneaker-LeCoq": {
+      "children": [
+        "image#Sneaker-LeCoq",
+        "rich-text#Sneaker-LeCoq"
+      ]
+    },
+
+    "flex-layout.col#Sneaker-Vans": {
+      "children": [
+        "image#Sneaker-Vans",
+        "rich-text#Sneaker-Vans"
+      ]
+    },
+
+    "flex-layout.col#Sneaker-Replay": {
+      "children": [
+        "image#Sneaker-Replay",
+        "rich-text#Sneaker-Replay"
+      ]
+    },
+
+    // texto link de marcas
+    "rich-text#Sneaker-Diesel": {
+      "props": {
+        "text": "[Ver tenis Diesel](/Sneaker-Diesel)",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "blockClass": "sneaker-linkBrands"
+        }
+    },
+
+    "rich-text#Sneaker-NewBalance": {
+      "props": {
+        "text": "[Ver tenis New Balance](/Sneaker-NewBalance)",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "blockClass": "sneaker-linkBrands"
+
+        }
+    },
+
+    "rich-text#Sneaker-Nike": {
+      "props": {
+        "text": "[Ver tenis Nike](/Sneaker-Nike)",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "blockClass": "sneaker-linkBrands"
+
+        }
+    },
+
+    "rich-text#Sneaker-Girbaud": {
+      "props": {
+        "text": "[Ver tenis Girbaud](/Sneaker-Girbaud)",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "blockClass": "sneaker-linkBrands"
+
+        }
+    },
+
+    "rich-text#Sneaker-Lacoste": {
+      "props": {
+        "text": "[Ver tenis Lacoste](/Sneaker-Lacoste)",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "blockClass": "sneaker-linkBrands"
+
+        }
+    },
+
+    "rich-text#Sneaker-LeCoq": {
+      "props": {
+        "text": "[Ver tenis LeCoq](/Sneaker-LeCoq)",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "blockClass": "sneaker-linkBrands"
+
+        }
+    },
+
+
+    "rich-text#Sneaker-Vans": {
+      "props": {
+        "text": "[Ver tenis Vans](/Sneaker-Vans)",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "blockClass": "sneaker-linkBrands"
+
+        }
+    },
+
+
+    "rich-text#Sneaker-Replay": {
+      "props": {
+        "text": "[Ver tenis Replay](/Sneaker-Replay)",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "blockClass": "sneaker-linkBrands"
+
+        }
     },
     // imagenes marcas
 
-    "image#brandSneaker-1": {
+    "image#Sneaker-Diesel": {
         "props": {
-            "src": "/arquivos/Pilatos-SP-Diesel.png",
+            "src": "/arquivos/Pilatos-SneakersCityLanding-LogoDiesel.png",
             "link": {
-                "url": "/diesel?initialMap=b&initialQuery=Diesel&map=category-3,brand&query=/tenis/diesel&searchState"
+                "url": ""
             },
-            "blockClass":"departmentBannerImg-sneakerBrands"
+            "blockClass": "sneaker-imagenBrand"
+        }
+      },
+
+      "image#Sneaker-NewBalance": {
+        "props": {
+            "src": "/arquivos/Pilatos-SneakersCityLanding-LogoNB.png",
+            "link": {
+                "url": ""
+            },
+            "blockClass": "sneaker-imagenBrand"
 
         }
       },
 
-      "image#brandSneaker-2": {
+      "image#Sneaker-Nike": {
         "props": {
-            "src": "/arquivos/Pilatos-SP-Replay.png",
+            "src": "/arquivos/Pilatos-SneakersCityLanding-LogoNike.png",
             "link": {
-                "url": "/replay?initialMap=b&initialQuery=replay&map=category-3,brand,marca&query=/tenis/replay/replay&searchState"
+                "url": ""
             },
-            "blockClass":"departmentBannerImg-sneakerBrands"
-
-        }
-      },
-    
-      "image#brandSneaker-3": {
-        "props": {
-            "src": "/arquivos/Pilatos-SP-NB.png",
-            "link": {
-                "url": "/new-balance?initialMap=b&initialQuery=new-balance&map=category-3,brand&query=/tenis/new-balance&searchState"
-            },
-            "blockClass":"departmentBannerImg-sneakerBrands"
+            "blockClass": "sneaker-imagenBrand"
 
         }
       },
 
-      "image#brandSneaker-4": {
+      "image#Sneaker-Girbaud": {
         "props": {
-            "src": "/arquivos/Pilatos-SP-Nike.png",
+            "src": "/arquivos/Pilatos-SneakersCityLanding-LogoMFG.png",
             "link": {
-                "url": "/nike?initialMap=b&initialQuery=nike&map=category-3,brand&query=/tenis/nike&searchState"
+                "url": ""
             },
-            "blockClass":"departmentBannerImg-sneakerBrands"
+            "blockClass": "sneaker-imagenBrand"
 
         }
       },
 
-      "image#brandSneaker-5": {
+      "image#Sneaker-Lacoste": {
         "props": {
-            "src": "/arquivos/Pilatos-SP-Lacoste.png",
+            "src": "/arquivos/Pilatos-SneakersCityLanding-LogoLacoste.png",
             "link": {
-                "url": "/lacoste"
+                "url": ""
             },
-            "blockClass":"departmentBannerImg-sneakerBrands"
+            "blockClass": "sneaker-imagenBrand"
 
         }
       },
 
-      "image#brandSneaker-6": {
+      "image#Sneaker-LeCoq": {
         "props": {
-            "src": "/arquivos/Pilatos-SP-LeCoq.png",
+            "src": "/arquivos/Pilatos-SneakersCityLanding-LogoLeCoqSportif.png",
             "link": {
-                "url": "/le-coq-sportif?initialMap=b&initialQuery=Le-Coq-Sportif&map=category-3,brand&query=/tenis/le-coq-sportif&searchState"
+                "url": ""
             },
-            "blockClass":"departmentBannerImg-sneakerBrands"
+            "blockClass": "sneaker-imagenBrand"
 
         }
       },
 
-      "image#brandSneaker-7": {
+      "image#Sneaker-Vans": {
         "props": {
-            "src": "/arquivos/Pilatos-SP-Vans.png",
+            "src": "/arquivos/Pilatos-SneakersCityLanding-LogoVans.png",
             "link": {
-                "url": "/vans"
+                "url": ""
             },
-            "blockClass":"departmentBannerImg-sneakerBrands"
+            "blockClass": "sneaker-imagenBrand"
+
+        }
+      },
+
+      "image#Sneaker-Replay": {
+        "props": {
+            "src": "/arquivos/Pilatos-SneakersCityLanding-LogoReplay.png",
+            "link": {
+                "url": ""
+            },
+            "blockClass": "sneaker-imagenBrand"
 
         }
       }
+
+
+
+
 
 }

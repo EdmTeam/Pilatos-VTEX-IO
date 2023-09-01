@@ -794,3 +794,17 @@ margin-top: 1%;
 .bannerGuiaDeTalla {
   margin-top: 25px;
 }
+
+.imageElement--sneaker-imagenBrand {
+  border-radius: 12px;
+border: 1px solid #EAE7E7;
+cursor: pointer;
+
+}
+
+
+.imageElement--sneaker-imagenBrand:hover{
+  cursor: pointer;
+  border: 2px solid #FFD400;
+
+}

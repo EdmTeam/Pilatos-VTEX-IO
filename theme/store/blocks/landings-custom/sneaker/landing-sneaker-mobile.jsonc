@@ -1,302 +1,155 @@
 {
-    "responsive-layout.mobile#bannerPrincipalSneaker": {
-        "children": [
-            "flex-layout.col#bannerSneakerImg-mobile"
-        ]
-      },
-
-      "flex-layout.col#bannerSneakerImg-mobile": {
-        "children":[
-            "image#bannerSneakerMobile"
-        ], 
-        "props":{
-            "blockClass":"contentBannersDesk"
-        }
-
-      }, 
-
-      //banner informativo 
-      "responsive-layout.mobile#bannerInformativoSneaker": {
-        "children": [
-            "flex-layout.col#bannerInformativoSneaker-mobile"
-        ]
-      },
-
-      "flex-layout.col#bannerInformativoSneaker-mobile": {
-        "children":[
-            "image#bannerSneakerMobile-info"
-        ], 
-        "props":{
-            "blockClass":"contentBannersDesk"
-        }
-
-      }, 
-
-      // banner stance promo 
-      "responsive-layout.mobile#bannerStanceSneaker-mobi": {
-        "children": [
-            "flex-layout.col#bannerStanceSneaker-mobi"
-        ]
-      },
-
-      "flex-layout.col#bannerStanceSneaker-mobi": {
-        "children":[
-            "image#bannerStanceSneaker-mobi"
-        ], 
-        "props":{
-            "blockClass":"contentBannersDesk"
-        }
-
-      }, 
-
-      // banner tenis 
-      "responsive-layout.mobile#sneaker-todasLasTenis": {
-        "children": [
-            "flex-layout.col#sneaker-todasLasTenis-mobile"
-        ]
-      },
-
-      "flex-layout.col#sneaker-todasLasTenis-mobile": {
-        "children":[
-            "image#sneaker-todasLasTenisImg"
-        ], 
-        "props":{
-            "blockClass":"contentBannersDesk"
-        }
-
-      },
-
-      // banner genero mobile 
-
-      "flex-layout.row#bannerSneaker-regalosGeneroMobileElla":{
-        "children":[
-            "responsive-layout.mobile#bannerSneaker-regalosGeneroMobile"
-        ]
-
-      },
-
-      "flex-layout.row#bannerSneaker-ElMobi":{
-        "children":[
-            "responsive-layout.mobile#bannerSneaker-ElMobi"
-        ]
-    },
-      
-      "responsive-layout.mobile#bannerSneaker-ElMobi":{
-        "children":[
-            "flex-layout.col#bannerSneakerElMobi"
-        ]
-    },
-
-
-
-      "responsive-layout.mobile#bannerSneaker-regalosGeneroMobile":{
-        "children":[
-            "flex-layout.col#bannerSneakerEllaMobi"
-        ]
-    },
-
-      "flex-layout.col#bannerSneakerEllaMobi":{
-        "children":[
-            "image#bannerSneakerEllaMobi"
-        ],
-         "props":{
-            "blockClass":"contentBannersDesk"
-        }
-    },
-
-    "flex-layout.col#bannerSneakerElMobi":{
-        "children":[
-            "image#bannerSneakerElMobi"
-        ],
-         "props":{
-            "blockClass":"contentBannersDesk"
-        }
-    },
-
-    
-
-      //banner new estilo
-      "flex-layout.row#bannerSneakerEstilo-mobi": {
-        "children":[
-            "flex-layout.col#bannerSneakerEstilo-mobi"
-        ],
-        "props":{
-            "blockClass": "contentSearch"
-        }
-    },
-    
-    
-      "flex-layout.col#bannerSneakerEstilo-mobi":{
-        "children":[
-            "responsive-layout.mobile#bannerSneakerEstiloClassic",
-            "responsive-layout.mobile#bannerSneakerEstiloLife"
-            
-    
-        ]
-    },
-        "responsive-layout.mobile#bannerSneakerEstiloClassic": {
-            "children": [
-                "flex-layout.col#bannerSneakerEstiloClassic"
-            ]
-          },
-    
-      "responsive-layout.mobile#bannerSneakerEstiloLife": {
-        "children": [
-            "flex-layout.row#bannerSneakerEstiloLife"
-        ]
-      },
-
-      "flex-layout.row#bannerSneakerEstiloLife":{
-        "children":[
-            "image#bannerSneaker-live-mobi"
-        ],
-         "props":{
-            "blockClass":"contentBannersDesk"
-        }
-    },
-
-    "flex-layout.col#bannerSneakerEstiloClassic":{
-        "children":[
-            "image#bannerSneaker-classic-mobi"
-        ],
-         "props":{
-            "blockClass":"contentBannersDesk"
-        }
-    },
-
-    
-//banner categorias
-
-"flex-layout.row#bannerSneakerCategoria-mobi":{
-    "children":[
-        "responsive-layout.mobile#bannerSneakerCategoria"
-
-    ]
-},
-
-  "responsive-layout.mobile#bannerSneakerCategoria": {
+  "responsive-layout.mobile#bannerPrincipalSneaker": {
     "children": [
-        "flex-layout.col#bannerSneaker-camisetas-mobi"
-        
-       
+      "flex-layout.col#bannerSneakerImg-mobile"
     ]
-},
-
-"flex-layout.col#bannerSneaker-camisetas-mobi":{
-    "children":[
-        "image#bannerSneaker-camisetas-mobi",
-        "image#bannerSneaker-jeans-mobi"
+  },
+  "flex-layout.col#bannerSneakerImg-mobile": {
+    "children": [
+      "image#bannerSneakerMobile"
     ],
-     "props":{
-        "blockClass":"contentBannersDesk"
+    "props": {
+      "blockClass": "contentBannersDesk"
     }
-},
-     
-    //ruta de imagenes
+  },
+  // Slider de stilos
+  "responsive-layout.mobile#landing-sneaker": {
+    "children": [
+      "image#bannerSneakerGamesMobile",
+      "slider-layout#stilosSneaker"
+    ]
+  },
+  "flex-layout.col#stilosSneaker": {
+    "children": [
+      "slider-layout#stilosSneaker"
+    ]
+  },
+  "slider-layout#stilosSneaker": {
+    "props": {
+      "blockClass": [
+        // "contentSlide",
+        //  "contentSlideBrand"
+      ],
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 1,
+        "phone": 1
+      },
+      "arrowSize": 5,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "mobileOnly"
+    },
+    "children": [
+      "flex-layout.row#ejeDeEstilosSneakersUno",
+      "flex-layout.row#ejeDeEstilosSneakersDos",
+      "flex-layout.row#ejeDeEstilosSneakersTres"
+    ]
+  },
+  // Texto de estilos
+  "flex-layout.row#ejeDeEstilosSneakersUno": {
+    "children": [
+      "flex-layout.col#ejeDeEstilosSneakersUno"
+    ]
+  },
+  "flex-layout.col#ejeDeEstilosSneakersUno": {
+    "children": [
+      "image#ejeDeEstilosSneakersUno",
+      "rich-text#ejeDeEstilosSneakersUno"
+    ]
+  },
+  "flex-layout.row#ejeDeEstilosSneakersDos": {
+    "children": [
+      "flex-layout.col#ejeDeEstilosSneakersDos"
+    ]
+  },
+  "flex-layout.col#ejeDeEstilosSneakersDos": {
+    "children": [
+      "image#ejeDeEstilosSneakersDos",
+      "rich-text#ejeDeEstilosSneakersDos"
+    ]
+  },
 
-    "image#bannerSneakerMobile":{
-        "props": {
-            "src": "/arquivos/aPilatos-SP-BannerMobileLanding.jpg",
-            "link": {
-                "url": "/hombre/ropa/camisetas",
-                "attributeTitle": ""
-            },
-            "blockClass": "departmentBannerImg-1"
-        }
-    },
-    "image#bannerSneakerMobile-info":{
-        "props": {
-            "src": "/arquivos/Pilatos-SP-InfoMobile.jpg",
-            "link": {
-                "url": "/hombre/ropa/camisetas",
-                "attributeTitle": ""
-            },
-            "blockClass": "departmentBannerImg-1"
-        }
-    },
-    "image#sneaker-todasLasTenisImg":{
-        "props": {
-            "src": "/arquivos/Pilatos-SP-TodosTenisMobile.jpg",
-            "link": {
-                "url": "/hombre/ropa/camisetas",
-                "attributeTitle": ""
-            },
-            "blockClass": "departmentBannerImg-1"
-        }
-    },
+  "flex-layout.row#ejeDeEstilosSneakersTres": {
+    "children": [
+      "flex-layout.col#ejeDeEstilosSneakersTres"
+    ]
+  },
+  "flex-layout.col#ejeDeEstilosSneakersTres": {
+    "children": [
+      "image#ejeDeEstilosSneakersTres",
+      "rich-text#ejeDeEstilosSneakersTres"
+    ]
+  },
 
-    "image#bannerSneaker-live-mobi":{
-        "props": {
-            "src": "/arquivos/Pilatos-SP-LifestyleMobile.jpg",
-            "link": {
-                "url": "/hombre/ropa/camisetas",
-                "attributeTitle": ""
-            },
-            "blockClass": "departmentBannerImg-1"
-        }
-    },
-    "image#bannerSneaker-classic-mobi":{
-        "props": {
-            "src": "/arquivos/Pilatos-SP-ClassicsMobile.jpg",
-            "link": {
-                "url": "/hombre/ropa/camisetas",
-                "attributeTitle": ""
-            },
-            "blockClass": "departmentBannerImg-1"
-        }
-    },
 
-    "image#bannerSneakerElMobi":{
-        "props": {
-            "src": "/arquivos/aPilatos-SP-HombreMobile.jpg",
-            "link": {
-                "url": "/",
-                "attributeTitle": ""
-            },
-            "blockClass": "departmentBannerImg-1"
-        }
-    },
-    "image#bannerSneakerEllaMobi":{
-        "props": {
-            "src": "/arquivos/aPilatos-SP-MujerMobile.jpg",
-            "link": {
-                "url": "/",
-                "attributeTitle": ""
-            },
-            "blockClass": "departmentBannerImg-1"
-        }
-    },
+  "rich-text#ejeDeEstilosSneakersUno": {
+    "props": {
+      "text": "**Easy Relaxed:** El estilo Easy Relaxed fusiona la comodidad con la frescura y la moda contemporánea. Combina prendas holgadas y fluidas con elementos juveniles e informales y detalles de alta calidad. Se caracteriza por su enfoque relajado y sin esfuerzo, perfecto para aquellos que buscan estar a la moda con un toque des complicado. \n\n **Ocasiones de Uso:** Para salir a la calle, a un brunch, ir al gym, viajes largos, ir a cine, parchar con los amigos, o simplemente descansar.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "textejeDeEstilosSneakers"
+    }
+  },
 
-    "image#bannerSneaker-camisetas-mobi":{
-        "props": {
-            "src": "/arquivos/Pilatos-SP-CamisetasMobile.jpg",
-            "link": {
-                "url": "/",
-                "attributeTitle": ""
-            },
-            "blockClass": "departmentBannerImg-1"
-        }
-    },
-    "image#bannerSneaker-jeans-mobi":{
-        "props": {
-            "src": "/arquivos/Pilatos-SP-JeansMobile.jpg",
-            "link": {
-                "url": "/",
-                "attributeTitle": ""
-            },
-            "blockClass": "departmentBannerImg-1"
-        }
-    },
+  "rich-text#ejeDeEstilosSneakersDos": {
+    "props": {
+      "text": "**Party Night:** El estilo Party Night es vibrante y lleno de energía, diseñado para destacar en fiestas, eventos nocturnos, y festivales de música. Se caracteriza por prendas atrevidas y llamativas, colores vibrantes, que crean un ambiente animado y audaz. \n\n  **Ocasiones de Uso:** Para salir de rumba, salir a comer, ir a festivales de música, eventos especiales, conciertos, cócteles con amigos.",
+      "textAlignment": "LEFT",
+      "textPosition": "CENTER",
+      "blockClass": "textejeDeEstilosSneakers"
 
-    "image#bannerStanceSneaker-mobi":{
-        "props": {
-            "src": "/arquivos/aPilatos-SP-StanceMobile.jpg",
-            "link": {
-                "url": "/",
-                "attributeTitle": ""
-            },
-            "blockClass": "departmentBannerImg-1"
-        }
+    }
+  },
+
+  "rich-text#ejeDeEstilosSneakersTres": {
+    "props": {
+      "text": "**Casual Cool:** El estilo Casual Cool redefine la moda al llevar la formalidad y sobriedad hacia una evolución más cool y moderna. Combina prendas clásicas con toques audaces y atrevidos, rompiendo con las convenciones establecidas de la ropa casual.\n  \n **Ocasiones de Uso:** \n Para ir al trabajo, a la universidad, reuniones casuales, salir a almorzar con familia.",
+      "textAlignment": "LEFT",
+      "textPosition": "CENTER",
+      "blockClass": "textejeDeEstilosSneakers"
+
+    }
+  },
+  //ruta de imagenes
+  "image#bannerSneakerMobile": {
+    "props": {
+      "src": "/arquivos/Pilatos-SneakersCity-Banner-Landing-Mob.jpg",
+      "link": {
+        "attributeTitle": ""
+      },
+      "blockClass": "departmentBannerImg-1"
+    }
+  },
+
+  "image#bannerSneakerGamesMobile":{
+    "props": {
+      "src": "/arquivos/Pilatos-SneakersCityLanding-Mob-Juego.jpg"
     }
 
-}  
+  },
+  // imagenes marcas
+  "image#ejeDeEstilosSneakersUno": {
+    "props": {
+      "src": "/arquivos/Pilatos-SneakersCityLanding-Mob-EjeEasyRelaxed.jpg",
+      "link": {
+        "url": ""
+      }
+    }
+  },
+  "image#ejeDeEstilosSneakersDos": {
+    "props": {
+      "src": "/arquivos/Pilatos-SneakersCityLanding-Mob-EjePartyNight.jpg",
+      "link": {
+        "url": ""
+      }
+    }
+  },
+  "image#ejeDeEstilosSneakersTres": {
+    "props": {
+      "src": "/arquivos/Pilatos-SneakersCityLanding-Mob-EjeCasualCool.jpg",
+      "link": {
+        "url": ""
+      }
+    }
+  }
+}
