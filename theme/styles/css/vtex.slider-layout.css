@@ -23,7 +23,7 @@
     }
 
 
-  
+
 }
 
 @media only screen and (min-width: 740px) {
@@ -272,8 +272,8 @@
 
 .sliderLayoutContainer--contentSlideBrand{
     width: 90% !important;
-    margin: 0 auto 3rem auto;
-}
+    margin: 1rem auto 1rem auto;
+  }
 
 .sliderLeftArrow--contentSlideBrand{
     left: -15px;
@@ -288,6 +288,7 @@
     background: transparent !important;
 }
 
+
 .sliderArrows--contentSlideBrand .caretIcon{
     height: 23px !important;
     width: 23px !important;
@@ -301,7 +302,7 @@
     .sliderLeftArrow--contentSlideBrand{
         left: -17px;
     }
-    
+
     .sliderRightArrow--contentSlideBrand{
         right: -17px;
     }
@@ -315,7 +316,7 @@
     .sliderLeftArrow--contentSlideBrand{
         left: -35px;
     }
-    
+
     .sliderRightArrow--contentSlideBrand{
         right: -35px;
     }
@@ -349,3 +350,6 @@
     margin-bottom: 1%;
 }
 
+.sneaker-recomendador {
+  background: red;
+}

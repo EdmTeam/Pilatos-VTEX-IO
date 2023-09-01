@@ -1,382 +1,360 @@
 {
-    "store.custom#landing-sneaker": {
-      "blocks": [
-        "rich-text#departmen-newsale-bread-crumb",
-        "flex-layout.row#bannerSneaker",
-        "flex-layout.row#sneaker-recomendador",
-        "flex-layout.row#bannerSneaker-regalosparaelyella",
-        "flex-layout.row#bannerSneaker-ElMobi",
-        "flex-layout.row#bannerSneaker-regalosGeneroMobileElla",
-        "flex-layout.row#brandsSneaker",
-        "flex-layout.row#bannerSneaker-todasLasTenis",
-        "flex-layout.row#bannerSneakerEstilo",
-        "flex-layout.row#bannerSneakerEstilo-mobi",
-        "flex-layout.row#title-brandsSneakerCategorias",
-     //   "flex-layout.row#title-brandsSneakerCategorias",
-        "flex-layout.row#bannerSneakerCategoria",
-        "flex-layout.row#bannerSneakerCategoria-mobi",
-       "flex-layout.row#videoSneake",
-       "rich-text#guia-regalos-text-seo-h1p"
+  "store.custom#landing-sneaker": {
+    "blocks": [
+      "flex-layout.row#migajaDePanSneaker",
+      "flex-layout.row#bloqueTextosHeaderSneakers",
+      // "responsive-layout.tablet#landingDenimPilatos",
+      "flex-layout.row#bannerSneaker",
+      "flex-layout.row#brandsSneaker",
+      "flex-layout.row#sneaker-recomendador",
+      "flex-layout.row#bannerGameSneaker",
+      "responsive-layout.desktop#landing-sneaker",
+      "responsive-layout.mobile#landing-sneaker",
 
-
-
-          ],
-
-          "props":{
-            "blockClass": "contentStoreCustom"
-        }
-    },
-
-    "flex-layout.row#bannerSneaker": {
-        "children":[
-            "flex-layout.col#bannerSneakerLanding"
-           // "flex-layout.col#bannerSneakerGenero"
-        ],
-        "props":{
-            "blockClass": "contentSearch"
-        }
-    },
-
-    // banner principal sneaker
-    "flex-layout.col#bannerSneakerLanding":{
-        "children":[
-            "responsive-layout.desktop#bannerPrincipalSneaker",
-            "responsive-layout.desktop#bannerInformativoSneaker",
-            "responsive-layout.desktop#bannerStanceSneaker",
-            "responsive-layout.mobile#bannerPrincipalSneaker",
-            "responsive-layout.mobile#bannerInformativoSneaker",
-            "responsive-layout.mobile#bannerStanceSneaker-mobi"
-
-
-        ]
-    },
-
-    "responsive-layout.desktop#bannerPrincipalSneaker": {
-        "children": [
-            "flex-layout.col#bannerSneakerImg"
-        ]
-      },
-
-      "flex-layout.col#bannerSneakerImg": {
-        "children":[
-            "image#bannerSneaker"
-        ], 
-        "props":{
-            "blockClass":"contentBannersDesk"
-        }
-
-      }, 
-    
-      // banner informativo sneaker
-      "responsive-layout.desktop#bannerInformativoSneaker": {
-        "children": [
-            "flex-layout.col#bannerSneakerImg-informativo"
-        ]
-      },
-
-      "flex-layout.col#bannerSneakerImg-informativo": {
-        "children":[
-            "image#bannerSneaker-info"
-        ], 
-        "props":{
-            "blockClass":"contentBannersDesk"
-        }
-
-      }, 
-    
-      // banner stance media promo 
-
-      "responsive-layout.desktop#bannerStanceSneaker": {
-        "children": [
-            "flex-layout.col#bannerStanceSneaker"
-        ]
-      },
-
-      "flex-layout.col#bannerStanceSneaker": {
-        "children":[
-            "image#bannerStanceSneaker"
-        ], 
-        "props":{
-            "blockClass":"contentBannersDesk"
-        }
-
-      }, 
-    
-// banner de genero 
-"flex-layout.row#bannerSneaker-regalosparaelyella": {
+      "rich-text#seoSneaker"
+    ],
+    "props": {
+      "blockClass": "contentStoreCustom"
+    }
+  },
+  "responsive-layout.desktop#landing-sneaker": {
     "children": [
-        "responsive-layout.desktop#bannerSneaker-regalosparaelyella"
-        
-       
+      "flex-layout.row#ejeDeEstilosSneakers"
+    ],
+    "props": {
+      "blockClass": "contentSearch"
+    }
+  },
+  // BreadCrumb Sneaker Party
+  "flex-layout.row#migajaDePanSneaker": {
+    "children": [
+      "rich-text#departmen-sneakerParty-bread"
+    ],
+    "props": {
+      "blockClass": "contentSearch"
+    }
+  },
+  "flex-layout.row#bloqueTextosHeaderSneakers": {
+    "children": [
+      "flex-layout.col#bloqueTextosHeaderSneakers"
     ]
   },
-
-"responsive-layout.desktop#bannerSneaker-regalosparaelyella": {
+  "flex-layout.col#bloqueTextosHeaderSneakers": {
     "children": [
-        "image#bannerSneaker-regalosparael",
-        "image#bannerSneaker-regalosparaella"
-    ],
-    "props":{
-        "blockClass":"contentBannersDeskSneaker"
-    }
-},
-"image#bannerSneaker-regalosparael": {
-    "props": {
-        "src": "/arquivos/aPilatos-SP-HombreDesktop.jpg",
-        "link":{
-            "alt": "Regalos para él",
-            "url":"/"
-        },
-        "title": "Pilatos Navidad Guía de Regalos",
-        "width": "100%",
-        "blockClass":"departmentBannerImg-sneaker"
-
-    }
-},
-"image#bannerSneaker-regalosparaella": {
-    "props": {
-        "src": "/arquivos/aPilatos-SP-MujerDesktop.jpg",
-        "link":{
-            "alt": "Regalos para ella",
-            "url":"/"
-        },
-        "title": "Pilatos Navidad Guía de Regalos",
-        "width": "100%",
-        "blockClass":"departmentBannerImg-sneaker"
-
-    }
-},
-
-//banner todas las tenis 
-"flex-layout.row#bannerSneaker-todasLasTenis": {
-    "children":[
-        "flex-layout.col#bannerSneaker-todasLasTenis"
-    ],
-    "props":{
-        "blockClass": "contentSearch"
-    }
-},
-
-"flex-layout.col#bannerSneaker-todasLasTenis":{
-    "children":[
-        "responsive-layout.desktop#sneaker-todasLasTenis",
-        "responsive-layout.mobile#sneaker-todasLasTenis"
-
-    ]
-},
-
-"responsive-layout.desktop#sneaker-todasLasTenis": {
-    "children": [
-        "flex-layout.col#sneaker-todasLasTenis"
+      "rich-text#h1SneakerParty",
+      "rich-text#manifiestoSneakers",
+      "flex-layout.row#botonesSneakersParty"
     ]
   },
-
-  "flex-layout.col#sneaker-todasLasTenis": {
-    "children":[
-        "image#bannerSneakerTenis"
-    ], 
-    "props":{
-        "blockClass":"contentBannersDesk"
+  "rich-text#departmen-sneakerParty-bread": {
+    "props": {
+      "text": "[Home](/) / [**Sneaker Party**](/sneakers)",
+      "blockClass": "departmentBreadCrumb"
     }
-
-  }, 
-
-  //banner new estilo 
-  
-
-  "flex-layout.row#bannerSneakerEstilo":{
-    "children":[
-        "responsive-layout.desktop#bannerSneakerEstilo"
-
-    ]
-},
-
-  "responsive-layout.desktop#bannerSneakerEstilo": {
+  },
+  "rich-text#h1SneakerParty": {
+    "props": {
+      "text": "Sneaker City",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "sneaker-tittle"
+    }
+  },
+  "rich-text#manifiestoSneakers": {
+    "props": {
+      "text": "Descubre la ciudad dando pasos cargados de estilo. Encuentra tu par ideal entre las mejores marcas de sneakers para que vivas la ciudad a tu manera.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-body",
+      "blockClass": "manifiestoSneakers"
+    }
+  },
+  // Botones Sneaker Party
+  "flex-layout.row#botonesSneakersParty": {
     "children": [
-        "image#bannerSneaker-live",
-        "image#bannerSneaker-classic"
+      "rich-text#botonHombreSneaker",
+      "rich-text#botonMujerSneaker"
     ],
-    "props":{
-        "blockClass":"contentBannersDeskSneaker"
+    "props": {
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "colGap": {
+        "desktop": 5
+      },
+      "preserveLayoutOnMobile": true,
+      "blockClass": "botonesSneakersParty"
     }
-},
-
-//banner categorias
-
-"flex-layout.row#bannerSneakerCategoria":{
-    "children":[
-        "responsive-layout.desktop#bannerSneakerCategoria"
-
-    ],
-    "props":{
-        "blockClass":"contentBannersDeskSneakerCategoria"
+  },
+  "rich-text#botonHombreSneaker": {
+    "props": {
+      "text": "Compra Hombre",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "sneaker-buttom"
     }
-},
+  },
+  "rich-text#botonMujerSneaker": {
+    "props": {
+      "text": "Compra Mujer",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "sneaker-buttom"
 
-  "responsive-layout.desktop#bannerSneakerCategoria": {
+    }
+  },
+  // Banner Principal
+  "flex-layout.row#bannerSneaker": {
     "children": [
-        "image#bannerSneaker-camisetas",
-        "image#bannerSneaker-jeans"
+      "flex-layout.col#bannerSneakerLanding"
     ],
-    "props":{
-        "blockClass":"contentBannersDeskSneakerCategoria"
+    "props": {
+      "blockClass": "contentSearch"
     }
-},
-
-// rich text categorias
-/* 
-"flex-layout.row#title-brandsSneakerCategorias":{
-    "children":[
-        "flex-layout.col#title-brandsSneakerCategorias"
-    ],
-    "props":{
-        "blockClass": "contentBrandsSlide"
-    }
-}, 
- */
-"flex-layout.row#title-brandsSneakerCategorias":{
-    "children":[
-        "rich-text#title-brandsSneakerCategorias"
+  },
+  // banner principal sneaker
+  "flex-layout.col#bannerSneakerLanding": {
+    "children": [
+      "responsive-layout.desktop#bannerPrincipalSneaker",
+      "responsive-layout.mobile#bannerPrincipalSneaker"
     ]
-},
-
-
-
-"rich-text#title-brandsSneakerCategorias": {
-    "props":{
-        "text": "**Combina tus sneakers con un look muy cool**",
-        "blockClass": "titlePromotionalBanners-sneaker"
+  },
+  "responsive-layout.desktop#bannerPrincipalSneaker": {
+    "children": [
+      "flex-layout.col#bannerSneakerImg"
+    ]
+  },
+  "flex-layout.col#bannerSneakerImg": {
+    "children": [
+      "image#bannerSneaker"
+    ],
+    "props": {
+      "blockClass": "contentBannersDesk"
     }
   },
 
-  //video sneaker
-
-  "flex-layout.row#videoSneake": {
-    "props": {
-        "horizontalAlign": "center",
-        "blockClass": "rowLandingOrderFromDiesel"
+    // banner Games Sneaker
+    "flex-layout.row#bannerGameSneaker":{
+      "children": [
+        "flex-layout.col#bannerGameSneaker"
+      ]
     },
+    "flex-layout.col#bannerGameSneaker": {
+      "children": [
+        "responsive-layout.desktop#bannerGameSneaker"
+      //  "responsive-layout.mobile#bannerGameSneaker"
+      ]
+    },
+    "responsive-layout.desktop#bannerGameSneaker": {
+      "children": [
+        "flex-layout.col#bannerGameSneakerDesk"
+      ]
+    },
+    "flex-layout.col#bannerGameSneakerDesk": {
+      "children": [
+        "image#bannerGameSneakerDesk"
+      ],
+      "props": {
+        "blockClass": "contentBannersDesk"
+      }
+    },
+  // TEXTO Ejes de Estilos Sneaker
+  "flex-layout.row#ejeDeEstilosSneakers": {
     "children": [
-        "iframe#videoSneake"
+      "flex-layout.col#ejeDeEstilosSneakers"
+    ],
+    "props": {
+      "blockClass": "contentSearchSneakers",
+      "marginTop":{
+        "desktop": 5
+      },
+      "colGap":{
+        "desktop": 5
+      },
+      "rowGap":{
+        "desktop": 5
+      },
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#ejeDeEstilosSneakers": {
+    "children": [
+      "flex-layout.row#ejeDeEstilosSneakers1",
+      "flex-layout.row#ejeDeEstilosSneakers2",
+      "flex-layout.row#ejeDeEstilosSneakers3"
     ]
-},
-"iframe#videoSneake": {
-    "props": {
-        "src": "https://www.youtube.com/embed/dimfXVlGATI",
-        "allow": "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
-        "blockClass": "orderFromChaosVideo"
-    }
-}, 
+  },
+  "flex-layout.row#ejeDeEstilosSneakers1": {
+    "children": [
+      "image#ejeDeEstilosSneakers1",
+      "rich-text#ejeDeEstilosSneakers1"
+    ]
+  },
 
-      //ruta de imagenes 
-     "image#bannerSneaker":{
-        "props": {
-            "src": "/arquivos/aPilatos-SP-BannerDesktopLanding.jpg",
-            "link": {
-                "url": "/hombre/ropa/camisetas",
-                "attributeTitle": ""
-            },
-            "blockClass": "departmentBannerImg-1"
+  "flex-layout.row#ejeDeEstilosSneakers2": {
+    "children": [
+      "rich-text#ejeDeEstilosSneakers2",
+      "image#ejeDeEstilosSneakers2"
+        ]
+  },
+
+  "flex-layout.row#ejeDeEstilosSneakers3": {
+    "children": [
+      "image#ejeDeEstilosSneakers3",
+      "rich-text#ejeDeEstilosSneakers3"
+    ]
+  },
+  "image#ejeDeEstilosSneakers1": {
+    "props": {
+      "src": "/arquivos/Pilatos-SneakersCityLanding-EjeEasyRelaxed.jpg",
+      "link": {
+        "url": "/hombre/ropa/camisetas",
+        "attributeTitle": ""
+      },
+      "blockClass": "departmentBannerImg-1"
+    }
+  },
+
+  "rich-text#ejeDeEstilosSneakers1": {
+    "props": {
+      "text": "## Easy Relaxed: \n El estilo Easy Relaxed fusiona la comodidad con la frescura y la moda contemporánea. Combina prendas holgadas y fluidas con elementos juveniles e informales y detalles de alta calidad. Se caracteriza por su enfoque relajado y sin esfuerzo, perfecto para aquellos que buscan estar a la moda con un toque des complicado. \n\n **Ocasiones de Uso:** Para salir a la calle, a un brunch, ir al gym, viajes largos, ir a cine, parchar con los amigos, o simplemente descansar.",
+      "textAlignment": "LEFT",
+      "textPosition": "CENTER",
+      "blockClass": "textejeDeEstilosSneakers"
+    }
+  },
+
+  "image#ejeDeEstilosSneakers2": {
+    "props": {
+      "src": "/arquivos/Pilatos-SneakersCityLanding-EjePartyNight.jpg",
+      "link": {
+        "url": "/hombre/ropa/camisetas",
+        "attributeTitle": ""
+      },
+      "blockClass": "departmentBannerImg-1"
+    }
+  },
+
+  "rich-text#ejeDeEstilosSneakers2": {
+    "props": {
+      "text": "## Party Night: \n El estilo Party Night es vibrante y lleno de energía, diseñado para destacar en fiestas, eventos nocturnos, y festivales de música. Se caracteriza por prendas atrevidas y llamativas, colores vibrantes, que crean un ambiente animado y audaz. \n\n  **Ocasiones de Uso:** Para salir de rumba, salir a comer, ir a festivales de música, eventos especiales, conciertos, cócteles con amigos.",
+      "textAlignment": "LEFT",
+      "textPosition": "CENTER",
+      "blockClass": "textejeDeEstilosSneakers"
+
+    }
+  },
+
+  "image#ejeDeEstilosSneakers3": {
+    "props": {
+      "src": "/arquivos/Pilatos-SneakersCityLanding-EjeCasualCool.jpg",
+      "link": {
+        "url": "/hombre/ropa/camisetas",
+        "attributeTitle": ""
+      },
+      "blockClass": "departmentBannerImg-1"
+    }
+  },
+  "rich-text#ejeDeEstilosSneakers3": {
+    "props": {
+      "text": "## Casual Cool: \n El estilo Casual Cool redefine la moda al llevar la formalidad y sobriedad hacia una evolución más cool y moderna. Combina prendas clásicas con toques audaces y atrevidos, rompiendo con las convenciones establecidas de la ropa casual.\n  \n **Ocasiones de Uso:** \n Para ir al trabajo, a la universidad, reuniones casuales, salir a almorzar con familia.",
+      "textAlignment": "LEFT",
+      "textPosition": "CENTER",
+      "blockClass": "textejeDeEstilosSneakers"
+
+    }
+  },
+
+  //SEO Sneakers
+  "rich-text#seoSneaker":{
+    "props": {
+      "text": "Estamos unidos bajo el mismo cielo, en una ciudad que esconde lugares que solo tú conoces, experiencias que solo tú has vivido e historias que solo tú puedes contar. Es momento de encontrar el compañero perfecto de tus aventuras y la búsqueda termina aquí. Reunimos las mejores marcas de sneakers: DIESEL, NEW BALANCE, REPLAY, GIRBAUD, NIKE, LACOSTE, VANS y LE COQ SPORTIF para que encuentres entre muchos estilos, colores y materiales, el par que se adapte mejor a ti.",
+      "textAlignment": "CENTER",
+      "blockClass": "seoSneaker"
         }
-    }, 
+  },
 
-  "image#bannerSneaker-info":{
-        "props": {
-            "src": "/arquivos/Pilatos-SP-InfoDesktop.jpg",
-            "link": {
-                "url": "/hombre/ropa/camisetas",
-                "attributeTitle": ""
-            },
-            "blockClass": "departmentBannerImg-1"
-        }
-    },
 
-    
-    
-
-    "image#bannerStanceSneaker":{
-        "props": {
-            "src": "/arquivos/aPilatos-SP-StanceDesktop.jpg",
-            "link": {
-                "url": "/aPilatos-SP-StanceDesktop.jpg",
-                "attributeTitle": ""
-            },
-            "blockClass": "departmentBannerImg-1"
-        }
-    },
-
-    "image#bannerSneaker-live": {
+  //ruta de imagenes
+  "image#bannerSneaker": {
     "props": {
-        "src": "/arquivos/Pilatos-SP-LifestyleDesktop.jpg",
-        "link":{
-            "alt": "sneaker Lifestyle",
-            "url":"/"
-        },
-        "title": "sneaker Lifestyle ",
-        "width": "100%",
-        "blockClass":"departmentBannerImg-sneaker"
-
+      "src": "/arquivos/Pilatos-SneakersCity-Banner-Landing-Desk.jpg",
+      "link": {
+        "url": "/hombre/ropa/camisetas",
+        "attributeTitle": ""
+      },
+      "blockClass": "departmentBannerImg-1"
     }
-},
-"image#bannerSneaker-classic": {
+  },
+  "image#bannerGameSneakerDesk": {
     "props": {
-        "src": "/arquivos/Pilatos-SP-ClassicsDesktop.jpg",
-        "link":{
-            "alt": "sneaker classic",
-            "url":"/"
-        },
-        "title": "sneaker classic",
-        "width": "100%",
-        "blockClass":"departmentBannerImg-sneaker"
-
+      "src": "/arquivos/Pilatos-SneakersCityLanding-Juego.jpg",
+      "link": {
+        "attributeTitle": ""
+      },
+      "blockClass": "departmentBannerImg-1"
     }
-},
+  },
 
-"image#bannerSneaker-camisetas": {
+
+
+  "image#bannerSneaker-live": {
     "props": {
-        "src": "/arquivos/Pilatos-SP-CamisetasDesktop.jpg",
-        "link":{
-            "alt": "sneaker Lifestyle",
-            "url":"/"
-        },
-        "title": "sneaker Lifestyle ",
-        "width": "100%",
-        "blockClass":"departmentBannerImg-sneaker"
-
+      "src": "/arquivos/Pilatos-SP-LifestyleDesktop.jpg",
+      "link": {
+        "alt": "sneaker Lifestyle",
+        "url": "/"
+      },
+      "title": "sneaker Lifestyle ",
+      "width": "100%",
+      "blockClass": "departmentBannerImg-sneaker"
     }
-},
-"image#bannerSneaker-jeans": {
+  },
+  "image#bannerSneaker-classic": {
     "props": {
-        "src": "/arquivos/Pilatos-SP-JeansDesktop.jpg",
-        "link":{
-            "alt": "sneaker classic",
-            "url":"/"
-        },
-        "title": "sneaker classic",
-        "width": "100%",
-        "blockClass":"departmentBannerImg-sneaker"
-
+      "src": "/arquivos/Pilatos-SP-ClassicsDesktop.jpg",
+      "link": {
+        "alt": "sneaker classic",
+        "url": "/"
+      },
+      "title": "sneaker classic",
+      "width": "100%",
+      "blockClass": "departmentBannerImg-sneaker"
     }
-},
-
-
-"image#bannerSneakerTenis": {
+  },
+  "image#bannerSneaker-camisetas": {
     "props": {
-        "src": "/arquivos/Pilatos-SP-TodosTenisDesktop.jpg",
-        "link":{
-            "alt": "sneaker classic",
-            "url":"/"
-        },
-        "title": "sneaker classic",
-        "width": "100%",
-        "blockClass":"departmentBannerImg-sneaker"
-
+      "src": "/arquivos/Pilatos-SP-CamisetasDesktop.jpg",
+      "link": {
+        "alt": "sneaker Lifestyle",
+        "url": "/"
+      },
+      "title": "sneaker Lifestyle ",
+      "width": "100%",
+      "blockClass": "departmentBannerImg-sneaker"
     }
+  },
+  "image#bannerSneaker-jeans": {
+    "props": {
+      "src": "/arquivos/Pilatos-SP-JeansDesktop.jpg",
+      "link": {
+        "alt": "sneaker classic",
+        "url": "/"
+      },
+      "title": "sneaker classic",
+      "width": "100%",
+      "blockClass": "departmentBannerImg-sneaker"
+    }
+  },
+  "image#bannerSneakerTenis": {
+    "props": {
+      "src": "/arquivos/Pilatos-SP-TodosTenisDesktop.jpg",
+      "link": {
+        "alt": "sneaker classic",
+        "url": "/"
+      },
+      "title": "sneaker classic",
+      "width": "100%",
+      "blockClass": "departmentBannerImg-sneaker"
+    }
+  }
 }
-
-
-    
-    
-
-
-   }

@@ -1101,7 +1101,7 @@
   margin-bottom: -35px;
 }
 @media (min-width:600px) and (max-width:1000px) {
-  .flexRow--contentSearch-categorias-disandina {   
+  .flexRow--contentSearch-categorias-disandina {
     width: 100%;
     position: relative;
     top: -389px;
@@ -1163,10 +1163,10 @@
     width: 100%;
   }
 
-  
+
   .flexRow--segundo-banner-disandina {
-    top: -100px; 
-    left: 0; 
+    top: -100px;
+    left: 0;
   }
 }
 .flexRow--contentPillar{
@@ -3075,4 +3075,31 @@
 .flexRow--container-guiadeTallas {
   margin: 0 auto;
     width: 90%;
+}
+
+.flexRowContent--sneaker-recomendador{
+  background: black;
+  margin-bottom: 1%;
+  padding: 3% 2% 5% 5%;
+  width: 100%;
+}
+
+.flexRow-contentSearchSneakers{
+  width: 60%;
+  margin: 0 auto;
+}
+
+.flexRowContent--contentSearchSneakers{
+   width: 80%;
+  margin: 10px auto;
+
+}
+
+@media (min-width: 1500px){
+  .flexRowContent--contentSearchSneakers{
+    width: 60%;
+   margin: 10px auto;
+ }
+
+
 }
