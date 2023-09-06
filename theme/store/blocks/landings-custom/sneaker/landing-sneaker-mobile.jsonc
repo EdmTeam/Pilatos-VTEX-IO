@@ -1,7 +1,8 @@
 {
   "responsive-layout.mobile#bannerPrincipalSneaker": {
     "children": [
-      "flex-layout.col#bannerSneakerImg-mobile"
+      "flex-layout.row#bannerSneakerVideo-mobilee"
+      //"flex-layout.col#bannerSneakerImg-mobile"
     ]
   },
   "flex-layout.col#bannerSneakerImg-mobile": {
@@ -113,7 +114,7 @@
   //ruta de imagenes
   "image#bannerSneakerMobile": {
     "props": {
-      "src": "/arquivos/Pilatos-SneakersCity-Banner-Landing-Mob.jpg",
+      "src": "/arquivos/Pilatos-SneakersCity-Banner-Landing-Mob-new-min.jpg",
       "link": {
         "attributeTitle": ""
       },
@@ -123,14 +124,14 @@
 
   "image#bannerSneakerGamesMobile":{
     "props": {
-      "src": "/arquivos/Pilatos-SneakersCityLanding-Mob-Juego.jpg"
+      "src": "/arquivos/Pilatos-SneakersCityLanding-Mob-Juego-new-min.jpg"
     }
 
   },
   // imagenes marcas
   "image#ejeDeEstilosSneakersUno": {
     "props": {
-      "src": "/arquivos/Pilatos-SneakersCityLanding-Mob-EjeEasyRelaxed.jpg",
+      "src": "/arquivos/Pilatos-SneakersCityLanding-Mob-EjeEasyRelaxed-new.jpg",
       "link": {
         "url": ""
       }
@@ -138,7 +139,7 @@
   },
   "image#ejeDeEstilosSneakersDos": {
     "props": {
-      "src": "/arquivos/Pilatos-SneakersCityLanding-Mob-EjePartyNight.jpg",
+      "src": "/arquivos/Pilatos-SneakersCityLanding-Mob-EjeEasyRelaxed-new.jpg",
       "link": {
         "url": ""
       }
@@ -146,10 +147,29 @@
   },
   "image#ejeDeEstilosSneakersTres": {
     "props": {
-      "src": "/arquivos/Pilatos-SneakersCityLanding-Mob-EjeCasualCool.jpg",
+      "src": "/arquivos/Pilatos-SneakersCityLanding-Mob-EjeCasualCool-new.jpg",
       "link": {
         "url": ""
       }
     }
-  }
+  },
+
+  "flex-layout.row#bannerSneakerVideo-mobilee":{
+    "props": {
+        "horizontalAlign": "center"
+    },
+    "children": [
+        "video#bannerSneakerVideo-mobilee"
+    ]
+},
+"video#bannerSneakerVideo-mobilee":{
+    "props": {
+        "width": "100%",
+        "height": "300px",
+        "loop": true,
+        "autoPlay": true,
+        "muted": false,
+        "src": "https://estudiodemoda.co/wp-content/uploads/2023/09/Snakers-City.mp4"
+      }
+}
 }

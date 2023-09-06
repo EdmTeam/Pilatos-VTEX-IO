@@ -1,0 +1,75 @@
+{
+  "store.custom#game-sneaker":{
+    "blocks": [
+
+      //"flex-layout.row#bannerSneaker",
+      "responsive-layout.desktop#bannerSneakerExplicacionDesk",
+      "responsive-layout.mobile#bannerSneakerExplicacionMobi",
+      "flex-layout.row#iframeGame"
+      // "rich-text#botonSneakerComprar"
+
+
+    ],
+    "props": {
+      "blockClass": "contentStoreCustom"
+    }
+  },
+
+  "flex-layout.row#iframeGame":{
+    "children": [
+      "iframe#gamesSneakersBilly"
+    ],
+    "props": {
+      "blockClass": "billyGame",
+      "preserveLayoutOnMobile": true
+
+    }
+  },
+
+"iframe#gamesSneakersBilly": {
+  "props": {
+      "src": "https://billyobregon.github.io/sneakers.github.io/index.html",
+      "blockClass": "billyGames"
+    }
+},
+
+// Banner explicación
+
+
+"responsive-layout.desktop#bannerSneakerExplicacionDesk": {
+  "children": [
+    "image#bannerSneakerExplicacionDesk"
+
+  ]
+},
+"responsive-layout.mobile#bannerSneakerExplicacionMobi": {
+  "children": [
+    "image#bannerSneakerExplicacionMobi"
+  ]
+},
+
+
+"image#bannerSneakerExplicacionDesk":{
+  "props": {
+    "src": "/arquivos/Pilatos-SneakersCityLanding-JuegoInstrucciones.jpg"
+  }
+},
+"image#bannerSneakerExplicacionMobi":{
+  "props": {
+    "src": "/arquivos/Pilatos-SneakersCityLanding-Mob-JuegoInstrucciones.jpg"
+  }
+},
+
+"rich-text#botonSneakerComprar": {
+  "props": {
+    "text": "[Ver productos](/toda-la-tienda)",
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "blockClass": "sneaker-buttom-billy"
+  }
+}
+
+
+
+
+}

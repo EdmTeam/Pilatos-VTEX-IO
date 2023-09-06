@@ -3103,3 +3103,15 @@
 
 
 }
+
+@media (min-width: 1200px){
+  .flexRowContent--billyGame {
+    height: 700px;
+  }
+}
+
+@media (max-width: 740px){
+  .flexRowContent--billyGame {
+    height: 550px;
+  }
+}

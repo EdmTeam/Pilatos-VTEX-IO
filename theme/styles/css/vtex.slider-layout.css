@@ -49,6 +49,11 @@
     padding: 0;
 }
 
+/*boton slider sneakers party */
+.paginationDot--isActive{
+  background: #FFD400;
+}
+
 .sliderArrows{
     height: 29px;
     width: 29px;
