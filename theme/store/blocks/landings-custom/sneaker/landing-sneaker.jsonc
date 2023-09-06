@@ -5,6 +5,7 @@
       "flex-layout.row#bloqueTextosHeaderSneakers",
       // "responsive-layout.tablet#landingDenimPilatos",
       "flex-layout.row#bannerSneaker",
+      //"flex-layout.row#bannerSneakerVideo",
       "flex-layout.row#brandsSneaker",
       "flex-layout.row#sneaker-recomendador",
       "flex-layout.row#bannerGameSneaker",
@@ -87,7 +88,7 @@
   },
   "rich-text#botonHombreSneaker": {
     "props": {
-      "text": "Compra Hombre",
+      "text": "[Compra Hombre](/sneakers-hombre)",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "blockClass": "sneaker-buttom"
@@ -95,7 +96,7 @@
   },
   "rich-text#botonMujerSneaker": {
     "props": {
-      "text": "Compra Mujer",
+      "text": "[Compra Mujer](/sneakers-Mujer)",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "blockClass": "sneaker-buttom"
@@ -120,7 +121,8 @@
   },
   "responsive-layout.desktop#bannerPrincipalSneaker": {
     "children": [
-      "flex-layout.col#bannerSneakerImg"
+      "flex-layout.row#bannerSneakerVideo"
+      //"flex-layout.col#bannerSneakerImg"
     ]
   },
   "flex-layout.col#bannerSneakerImg": {
@@ -205,7 +207,7 @@
   },
   "image#ejeDeEstilosSneakers1": {
     "props": {
-      "src": "/arquivos/Pilatos-SneakersCityLanding-EjeEasyRelaxed.jpg",
+      "src": "/arquivos/Pilatos-SneakersCityLanding-EjeEasyRelaxed-new.jpg",
       "link": {
         "url": "/hombre/ropa/camisetas",
         "attributeTitle": ""
@@ -225,7 +227,7 @@
 
   "image#ejeDeEstilosSneakers2": {
     "props": {
-      "src": "/arquivos/Pilatos-SneakersCityLanding-EjePartyNight.jpg",
+      "src": "/arquivos/Pilatos-SneakersCityLanding-EjePartyNight-new.jpg",
       "link": {
         "url": "/hombre/ropa/camisetas",
         "attributeTitle": ""
@@ -246,7 +248,7 @@
 
   "image#ejeDeEstilosSneakers3": {
     "props": {
-      "src": "/arquivos/Pilatos-SneakersCityLanding-EjeCasualCool.jpg",
+      "src": "/arquivos/Pilatos-SneakersCityLanding-EjeCasualCool-new.jpg",
       "link": {
         "url": "/hombre/ropa/camisetas",
         "attributeTitle": ""
@@ -277,7 +279,7 @@
   //ruta de imagenes
   "image#bannerSneaker": {
     "props": {
-      "src": "/arquivos/Pilatos-SneakersCity-Banner-Landing-Desk.jpg",
+      "src": "/arquivos/Pilatos-SneakersCity-Banner-Landing-Desk-new-min.jpg",
       "link": {
         "url": "/hombre/ropa/camisetas",
         "attributeTitle": ""
@@ -287,7 +289,7 @@
   },
   "image#bannerGameSneakerDesk": {
     "props": {
-      "src": "/arquivos/Pilatos-SneakersCityLanding-Juego.jpg",
+      "src": "/arquivos/Pilatos-SneakersCityLanding-Juego-new-min.jpg",
       "link": {
         "attributeTitle": ""
       },
@@ -295,66 +297,24 @@
     }
   },
 
-
-
-  "image#bannerSneaker-live": {
-    "props": {
-      "src": "/arquivos/Pilatos-SP-LifestyleDesktop.jpg",
-      "link": {
-        "alt": "sneaker Lifestyle",
-        "url": "/"
+    /*video de la landing*/
+    "flex-layout.row#bannerSneakerVideo":{
+      "props": {
+          "horizontalAlign": "center",
+          "blockClass": "rowLandingFromRunning"
       },
-      "title": "sneaker Lifestyle ",
-      "width": "100%",
-      "blockClass": "departmentBannerImg-sneaker"
-    }
-  },
-  "image#bannerSneaker-classic": {
-    "props": {
-      "src": "/arquivos/Pilatos-SP-ClassicsDesktop.jpg",
-      "link": {
-        "alt": "sneaker classic",
-        "url": "/"
-      },
-      "title": "sneaker classic",
-      "width": "100%",
-      "blockClass": "departmentBannerImg-sneaker"
-    }
-  },
-  "image#bannerSneaker-camisetas": {
-    "props": {
-      "src": "/arquivos/Pilatos-SP-CamisetasDesktop.jpg",
-      "link": {
-        "alt": "sneaker Lifestyle",
-        "url": "/"
-      },
-      "title": "sneaker Lifestyle ",
-      "width": "100%",
-      "blockClass": "departmentBannerImg-sneaker"
-    }
-  },
-  "image#bannerSneaker-jeans": {
-    "props": {
-      "src": "/arquivos/Pilatos-SP-JeansDesktop.jpg",
-      "link": {
-        "alt": "sneaker classic",
-        "url": "/"
-      },
-      "title": "sneaker classic",
-      "width": "100%",
-      "blockClass": "departmentBannerImg-sneaker"
-    }
-  },
-  "image#bannerSneakerTenis": {
-    "props": {
-      "src": "/arquivos/Pilatos-SP-TodosTenisDesktop.jpg",
-      "link": {
-        "alt": "sneaker classic",
-        "url": "/"
-      },
-      "title": "sneaker classic",
-      "width": "100%",
-      "blockClass": "departmentBannerImg-sneaker"
-    }
-  }
+      "children": [
+       "video#bannerSneakerVideo"
+      ]
+     },
+     "video#bannerSneakerVideo": {
+         "props": {
+             "width": "100%",
+             "height": "600px",
+             "loop": true,
+             "autoPlay": true,
+             "muted": false,
+             "src": "https://estudiodemoda.co/wp-content/uploads/2023/09/Snakers-City.mp4"
+         }
+     }
 }

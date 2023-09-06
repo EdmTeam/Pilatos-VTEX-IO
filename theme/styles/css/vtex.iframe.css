@@ -9,3 +9,19 @@
     width: 100%;
     padding-top: 56.25%;
 }
+
+.container--billyGames {
+  position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+    height: 500px;
+}
+
+@media(max-height: 740px){
+  .container--billyGames {
+    height: 700px;
+        overflow: hidden;
+
+  }
+}

@@ -41,7 +41,7 @@
         ],
         "props": {
             "orderBy": "OrderByTopSaleDESC",
-            "collection": "1319",
+            "collection": "1539",
             "maxItems": 30
         }
     },
@@ -218,7 +218,7 @@
     // texto link de marcas
     "rich-text#Sneaker-Diesel": {
       "props": {
-        "text": "[Ver tenis Diesel](/Sneaker-Diesel)",
+        "text": "[Ver tenis Diesel](/Sneakers-Diesel)",
         "textAlignment": "CENTER",
         "textPosition": "CENTER",
         "blockClass": "sneaker-linkBrands"
@@ -227,7 +227,7 @@
 
     "rich-text#Sneaker-NewBalance": {
       "props": {
-        "text": "[Ver tenis New Balance](/Sneaker-NewBalance)",
+        "text": "[Ver tenis New Balance](/Sneakers-NewBalance)",
         "textAlignment": "CENTER",
         "textPosition": "CENTER",
         "blockClass": "sneaker-linkBrands"
@@ -237,7 +237,7 @@
 
     "rich-text#Sneaker-Nike": {
       "props": {
-        "text": "[Ver tenis Nike](/Sneaker-Nike)",
+        "text": "[Ver tenis Nike](/Sneakers-Nike)",
         "textAlignment": "CENTER",
         "textPosition": "CENTER",
         "blockClass": "sneaker-linkBrands"
@@ -247,7 +247,7 @@
 
     "rich-text#Sneaker-Girbaud": {
       "props": {
-        "text": "[Ver tenis Girbaud](/Sneaker-Girbaud)",
+        "text": "[Ver tenis Girbaud](/Sneakers-Girbaud)",
         "textAlignment": "CENTER",
         "textPosition": "CENTER",
         "blockClass": "sneaker-linkBrands"
@@ -257,7 +257,7 @@
 
     "rich-text#Sneaker-Lacoste": {
       "props": {
-        "text": "[Ver tenis Lacoste](/Sneaker-Lacoste)",
+        "text": "[Ver tenis Lacoste](/Sneakers-Lacoste)",
         "textAlignment": "CENTER",
         "textPosition": "CENTER",
         "blockClass": "sneaker-linkBrands"
@@ -267,7 +267,7 @@
 
     "rich-text#Sneaker-LeCoq": {
       "props": {
-        "text": "[Ver tenis LeCoq](/Sneaker-LeCoq)",
+        "text": "[Ver tenis LeCoq](/Sneakers-LeCoq)",
         "textAlignment": "CENTER",
         "textPosition": "CENTER",
         "blockClass": "sneaker-linkBrands"
@@ -278,7 +278,7 @@
 
     "rich-text#Sneaker-Vans": {
       "props": {
-        "text": "[Ver tenis Vans](/Sneaker-Vans)",
+        "text": "[Ver tenis Vans](/Sneakers-Vans)",
         "textAlignment": "CENTER",
         "textPosition": "CENTER",
         "blockClass": "sneaker-linkBrands"
@@ -289,7 +289,7 @@
 
     "rich-text#Sneaker-Replay": {
       "props": {
-        "text": "[Ver tenis Replay](/Sneaker-Replay)",
+        "text": "[Ver tenis Replay](/Sneakers-Replay)",
         "textAlignment": "CENTER",
         "textPosition": "CENTER",
         "blockClass": "sneaker-linkBrands"
@@ -302,7 +302,7 @@
         "props": {
             "src": "/arquivos/Pilatos-SneakersCityLanding-LogoDiesel.png",
             "link": {
-                "url": ""
+                "url": "/Sneakers-Diesel"
             },
             "blockClass": "sneaker-imagenBrand"
         }
@@ -312,7 +312,7 @@
         "props": {
             "src": "/arquivos/Pilatos-SneakersCityLanding-LogoNB.png",
             "link": {
-                "url": ""
+                "url": "/Sneakers-NewBalance"
             },
             "blockClass": "sneaker-imagenBrand"
 
@@ -323,7 +323,7 @@
         "props": {
             "src": "/arquivos/Pilatos-SneakersCityLanding-LogoNike.png",
             "link": {
-                "url": ""
+                "url": "/Sneakers-Nike"
             },
             "blockClass": "sneaker-imagenBrand"
 
@@ -334,7 +334,7 @@
         "props": {
             "src": "/arquivos/Pilatos-SneakersCityLanding-LogoMFG.png",
             "link": {
-                "url": ""
+                "url": "/Sneakers-Girbaud"
             },
             "blockClass": "sneaker-imagenBrand"
 
@@ -345,7 +345,7 @@
         "props": {
             "src": "/arquivos/Pilatos-SneakersCityLanding-LogoLacoste.png",
             "link": {
-                "url": ""
+                "url": "/Sneakers-Lacoste"
             },
             "blockClass": "sneaker-imagenBrand"
 
@@ -356,7 +356,7 @@
         "props": {
             "src": "/arquivos/Pilatos-SneakersCityLanding-LogoLeCoqSportif.png",
             "link": {
-                "url": ""
+                "url": "/Sneakers-LeCoq"
             },
             "blockClass": "sneaker-imagenBrand"
 
@@ -367,7 +367,7 @@
         "props": {
             "src": "/arquivos/Pilatos-SneakersCityLanding-LogoVans.png",
             "link": {
-                "url": ""
+                "url": "/Sneakers-Vans"
             },
             "blockClass": "sneaker-imagenBrand"
 
@@ -378,7 +378,7 @@
         "props": {
             "src": "/arquivos/Pilatos-SneakersCityLanding-LogoReplay.png",
             "link": {
-                "url": ""
+                "url": "/Sneakers-Replay"
             },
             "blockClass": "sneaker-imagenBrand"
 
