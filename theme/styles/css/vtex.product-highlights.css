@@ -50,7 +50,8 @@
     background-image: url(/arquivos/FlagBancolombia-Negro.png);
     display: none;
 }
-.productHighlightWrapper [data-highlight-id="1510"]{
+/* Flag envio gratis */
+.productHighlightWrapper [data-highlight-id="1544"]{
     width: 35px;
     height: 35px;
     background-size: contain;
