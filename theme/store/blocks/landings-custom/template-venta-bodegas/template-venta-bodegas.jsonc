@@ -1,0 +1,85 @@
+{
+
+    "store.custom#template-ventas-bodega":{
+        "blocks":[
+            "flex-layout.row#banner-department-pilatos",
+            "flex-layout.row#most-viewede"
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
+    },
+
+    "flex-layout.row#banner-department-pilatos":{
+        "children":[
+            "flex-layout.col#banner-department-pilatos"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#banner-department-pilatos":{
+        "children":[
+            "rich-text#departmen-pilatos-bread-crumb",
+            "rich-text#department-pilatos-title",
+            "rich-text#department-pilatos-description",
+            "responsive-layout.desktop#department-pilatos-banners",
+            "responsive-layout.tablet#department-pilatos-banners",
+            "responsive-layout.phone#department-pilatos-banners"
+        ]
+    },
+
+    "responsive-layout.desktop#department-pilatos-banners":{
+        "children":[
+            "flex-layout.col#department-pilatos-banners-1"
+        ]
+    },
+
+    "rich-text#departmen-pilatos-bread-crumb":{
+        "props":{
+            "text": "[Home](/) / [**Pilatos**](/pilatos)",
+            "blockClass": "departmentBreadCrumb"
+        }
+    },
+
+    "rich-text#department-pilatos-title":{
+        "props":{
+            "text": "# Pilatos",
+            "blockClass": "departmentTitle"
+        }
+    },
+
+    "rich-text#department-pilatos-description":{
+        "props":{
+            "text": "Contamos con nuestra **propia línea de ropa Pilatos** que trae nuevas cápsulas mes a mes, como Olímpicos, inspirada en los elementos típicos de los Juegos Olímpicos y Tokio como ciudad anfitriona. Encuentra diseños exclusivos de ropa para mujer y hombre en un solo lugar, camisetas, buzos y chaquetas, jeans y accesorios, perfectos para innovar y renovar tu clóset.",
+            "blockClass": "departmentDescription"
+        }
+    },
+
+
+
+    "flex-layout.col#department-pilatos-banners-1":{
+        "children":[
+            "image#department-pilatos-banners-1-img-1"
+        ],
+        "props":{
+            "blockClass":"contentBannersDesk"
+        }
+    },
+
+    "image#department-pilatos-banners-1-img-1": {
+        "props": {
+            "src": "/arquivos/Pilatos_Banner_principal_Desktop.jpg",
+            "link": {
+                "url": "/pilatos",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    }
+}
+
+
+
+
