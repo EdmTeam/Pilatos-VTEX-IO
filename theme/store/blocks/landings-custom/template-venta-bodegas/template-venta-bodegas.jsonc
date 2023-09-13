@@ -2,7 +2,7 @@
 
     "store.custom#template-ventas-bodega":{
         "blocks":[
-            "flex-layout.row#banner-department-pilatos",
+            "flex-layout.row#banner-department-ventas",
             "flex-layout.row#most-viewede"
         ],
         "props":{
@@ -10,47 +10,46 @@
         }
     },
 
-    "flex-layout.row#banner-department-pilatos":{
+    "flex-layout.row#banner-department-ventas":{
         "children":[
-            "flex-layout.col#banner-department-pilatos"
+            "flex-layout.col#banner-department-ventas"
         ],
         "props":{
             "blockClass": "contentSearch"
         }
     },
 
-    "flex-layout.col#banner-department-pilatos":{
+    "flex-layout.col#banner-department-ventas":{
         "children":[
-            "rich-text#departmen-pilatos-bread-crumb",
-            "rich-text#department-pilatos-title",
-            "rich-text#department-pilatos-description",
-            "responsive-layout.desktop#department-pilatos-banners",
-            "responsive-layout.tablet#department-pilatos-banners",
-            "responsive-layout.phone#department-pilatos-banners"
+            "rich-text#departmen-ventas-bread-crumb",
+            "rich-text#department-ventas-title",
+            "rich-text#department-ventas-description",
+            "responsive-layout.desktop#department-ventas-banners",
+            "responsive-layout.mobile#department-ventas-banners"
         ]
     },
 
-    "responsive-layout.desktop#department-pilatos-banners":{
+    "responsive-layout.desktop#department-ventas-banners":{
         "children":[
-            "flex-layout.col#department-pilatos-banners-1"
+            "flex-layout.col#department-ventas-banners-1"
         ]
     },
 
-    "rich-text#departmen-pilatos-bread-crumb":{
+    "rich-text#departmen-ventas-bread-crumb":{
         "props":{
-            "text": "[Home](/) / [**Pilatos**](/pilatos)",
+            "text": "[Home](/) / [**Pilatos**](/ventas)",
             "blockClass": "departmentBreadCrumb"
         }
     },
 
-    "rich-text#department-pilatos-title":{
+    "rich-text#department-ventas-title":{
         "props":{
             "text": "# Pilatos",
             "blockClass": "departmentTitle"
         }
     },
 
-    "rich-text#department-pilatos-description":{
+    "rich-text#department-ventas-description":{
         "props":{
             "text": "Contamos con nuestra **propia línea de ropa Pilatos** que trae nuevas cápsulas mes a mes, como Olímpicos, inspirada en los elementos típicos de los Juegos Olímpicos y Tokio como ciudad anfitriona. Encuentra diseños exclusivos de ropa para mujer y hombre en un solo lugar, camisetas, buzos y chaquetas, jeans y accesorios, perfectos para innovar y renovar tu clóset.",
             "blockClass": "departmentDescription"
@@ -58,26 +57,43 @@
     },
 
 
+// Mobile
+"responsive-layout.mobile#department-ventas-banners":{
+  "children": [
+    "image#department-ventas-banners-1-img-1-mobi"
+  ]
+},
 
-    "flex-layout.col#department-pilatos-banners-1":{
+
+
+    "flex-layout.col#department-ventas-banners-1":{
         "children":[
-            "image#department-pilatos-banners-1-img-1"
+            "image#department-ventas-banners-1-img-1"
         ],
         "props":{
             "blockClass":"contentBannersDesk"
         }
     },
 
-    "image#department-pilatos-banners-1-img-1": {
+    "image#department-ventas-banners-1-img-1": {
         "props": {
             "src": "/arquivos/Pilatos_Banner_principal_Desktop.jpg",
             "link": {
-                "url": "/pilatos",
                 "attributeTitle": ""
             },
             "blockClass": "departmentBannerImg-1"
         }
-    }
+    },
+
+    "image#department-ventas-banners-1-img-1-mobi": {
+      "props": {
+          "src": "/arquivos/Pilatos_Banner_principal_Desktop.jpg",
+          "link": {
+              "attributeTitle": ""
+          },
+          "blockClass": "departmentBannerImg-1"
+      }
+  }
 }
 
 
