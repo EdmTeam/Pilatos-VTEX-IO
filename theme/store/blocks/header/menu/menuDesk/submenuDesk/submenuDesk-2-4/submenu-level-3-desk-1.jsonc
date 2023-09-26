@@ -32,7 +32,10 @@
             "rich-text#submenu-desk-department-4-category-30",
             "rich-text#submenu-desk-department-4-category-31",
             "rich-text#submenu-desk-department-4-category-32",
-            "rich-text#submenu-desk-department-4-category-33"
+            "rich-text#submenu-desk-department-4-category-33",
+            "rich-text#submenu-desk-department-4-category-37",
+            "rich-text#submenu-desk-department-4-category-35"
+
 
 
 
@@ -71,6 +74,21 @@
             "blockClass": "textCategory"
         }
     },
+
+  "rich-text#submenu-desk-department-4-category-35":{
+    "props":{
+        "text": "[Sprayground](/sprayground)",
+        "blockClass": "textCategory"
+    }
+},
+
+"rich-text#submenu-desk-department-4-category-37":{
+  "props":{
+      "text": "[Ap Crown](/ap-crown)",
+      "blockClass": "textCategory"
+  }
+},
+
 
     "rich-text#submenu-desk-department-4-category-29":{
         "props":{

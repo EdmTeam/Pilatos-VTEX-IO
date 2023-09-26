@@ -37,7 +37,9 @@
             "rich-text#submenu-level-2-item-30-row-7",
             "rich-text#submenu-level-2-item-31-row-7",
             "rich-text#submenu-level-2-item-32-row-7",
-            "rich-text#submenu-level-2-item-33-row-7"
+            "rich-text#submenu-level-2-item-33-row-7",
+            "rich-text#submenu-level-2-item-37-row-7",
+            "rich-text#submenu-level-2-item-35-row-7"
 
 
 
@@ -119,6 +121,21 @@
             "blockClass": "contentSubMenuAcordeon"
         }
     },
+
+
+  "rich-text#submenu-level-2-item-35-row-7":{
+    "props":{
+        "text": "[Sprayground](/sprayground)",
+        "blockClass": "contentSubMenuAcordeon"
+    }
+},
+
+"rich-text#submenu-level-2-item-37-row-7":{
+  "props":{
+      "text": "[Ap Crown](/ap-crown)",
+      "blockClass": "contentSubMenuAcordeon"
+  }
+},
 
     "rich-text#submenu-level-2-item-29-row-7":{
         "props":{
