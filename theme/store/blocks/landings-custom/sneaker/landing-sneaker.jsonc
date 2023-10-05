@@ -4,11 +4,12 @@
       "flex-layout.row#migajaDePanSneaker",
       "flex-layout.row#bloqueTextosHeaderSneakers",
       // "responsive-layout.tablet#landingDenimPilatos",
-      "flex-layout.row#bannerSneaker",
+      "flex-layout.row#bannerGameSneaker",
       //"flex-layout.row#bannerSneakerVideo",
       "flex-layout.row#brandsSneaker",
       "flex-layout.row#sneaker-recomendador",
-      "flex-layout.row#bannerGameSneaker",
+      "flex-layout.row#bannerSneaker",
+
       "responsive-layout.desktop#landing-sneaker",
       "responsive-layout.mobile#landing-sneaker",
 

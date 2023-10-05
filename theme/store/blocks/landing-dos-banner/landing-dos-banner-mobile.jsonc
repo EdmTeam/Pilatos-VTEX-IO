@@ -47,7 +47,8 @@
           "flex-layout.row#search-info-mobile-dosbanner",
           "flex-layout.row#fetch-previous",
           "flex-layout.row#content-mobile",
-          "flex-layout.row#fetch-more"
+          "flex-layout.row#fetch-more",
+          "rich-text#filtro-seo"
         ],
         "props": {
             "showProductsCount": true,
@@ -88,7 +89,7 @@
                         },
                         {
                           "name": "Color"
-                        }, 
+                        },
                         {
                             "name": "Categoría"
                       }

@@ -2,7 +2,10 @@
     "store.custom#category-buzos-mujer":{
         "blocks":[
             "flex-layout.row#banner-category-buzos-mujer",
-            "search-result-layout.customQuery#category-buzos-mujer"
+            "search-result-layout.customQuery#category-buzos-mujer",
+            "responsive-layout.desktop#category-buzos-mujer-banners",
+            "responsive-layout.phone#category-buzos-mujer-banners",
+            "responsive-layout.tablet#category-buzos-mujer-banners"
         ],
         "props":{
             "blockClass": "contentStoreCustom"
@@ -22,10 +25,8 @@
         "children":[
             "rich-text#category-buzos-mujer-bread-crumb",
             "rich-text#category-buzos-mujer-title",
-            "rich-text#category-buzos-mujer-description",
-            "responsive-layout.desktop#category-buzos-mujer-banners",
-            "responsive-layout.phone#category-buzos-mujer-banners",
-            "responsive-layout.tablet#category-buzos-mujer-banners"
+            "rich-text#category-buzos-mujer-description"
+
         ]
     },
 

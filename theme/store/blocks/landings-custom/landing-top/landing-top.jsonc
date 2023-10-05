@@ -3,7 +3,7 @@
         "blocks":[
             "rich-text#landing-marcas-bread-crumb",
            "flex-layout.row#bannerLandingTop",
-           
+
             //"flex-layout.row#landingTop-recomendador",
             "search-result-layout.customQuery#landing-productosTop",
             "flex-layout.row#banner-landingTop-footer"
@@ -22,7 +22,7 @@
         "children":[
            "responsive-layout.desktop#banner-landingTop",
             "responsive-layout.mobile#banner-landingTop"
-             
+
           ]
     },
 

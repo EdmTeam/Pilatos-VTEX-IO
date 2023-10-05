@@ -2,6 +2,7 @@
   "store.custom#landing-pilatos-sport": {
     "blocks": [
       "rich-text#landing-marcas-bread-crumb",
+      "flex-layout.row#seo-pilatos-sport",
       "responsive-layout.desktop#bannerprincipal-sport-pilatos",
       "responsive-layout.phone#bannerprincipal-sport-pilatos",
       "responsive-layout.tablet#bannerprincipal-sport-pilatos",
@@ -11,6 +12,31 @@
       "blockClass": "contentStoreCustom"
     }
   },
+
+  "flex-layout.row#seo-pilatos-sport":{
+    "children":[
+        "flex-layout.col#seo-pilatos-sport"
+    ],
+    "props":{
+        "blockClass": "contentSearch"
+    }
+},
+
+"flex-layout.col#seo-pilatos-sport":{
+  "children": [
+    "rich-text#seo-pilatos-sport"
+  ]
+},
+
+"rich-text#seo-pilatos-sport": {
+  "title": "SEO Sport",
+  "props": {
+    "text": "¿Quieres un look deportivo, casual y urbano a la vez? No te pierdas la nueva colección **Pilatos Sport**, que combina los mejores elementos",
+    "blockClass": "departmentDescription"
+  }
+
+},
+
   "responsive-layout.desktop#bannerprincipal-sport-pilatos": {
     "children": [
       "responsive-layout.desktop#banner-sport-pilatos",
@@ -78,7 +104,7 @@
     ]
   },
 
-  // archivos 
+  // archivos
   "image#banner-sport-pilatos": {
     "props": {
       "src": "/arquivos/Pilatos-Landing-Desk-sport.jpg",

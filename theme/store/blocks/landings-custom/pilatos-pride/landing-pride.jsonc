@@ -3,7 +3,8 @@
       "blocks": [
         "rich-text#landing-marcas-bread-crumb",
         "responsive-layout.desktop#bannerprincipal-pride",
-        "responsive-layout.mobile#bannerprincipal-pride"
+        "responsive-layout.mobile#bannerprincipal-pride",
+        "rich-text#filtro-seo"
         //"rich-text#desc-cybersale-h1",
 
       /*   "rich-text#guia-regalos-text-seo-h1p",
@@ -13,7 +14,7 @@
         "flex-layout.row#most-viewede",
         "flex-layout.row#bannersprideCuarto",
         "flex-layout.row#most-viewedos" */
-        
+
       ]
     },
 
@@ -36,7 +37,7 @@
         }
     },
 
- 
+
 
     "flex-layout.row#bannersprideSecundarios" :{
         "children": [
@@ -57,9 +58,9 @@
     },
 
     "responsive-layout.desktop#bannerprincipal-pride":{
-        "children":["responsive-layout.desktop#banner-pride1", 
+        "children":["responsive-layout.desktop#banner-pride1",
             "rich-text#guia-regalos-text-seo-h1p",
-            "responsive-layout.desktop#banner-pride2", 
+            "responsive-layout.desktop#banner-pride2",
             "flex-layout.row#most-viewedtres",
             "responsive-layout.desktop#banner-pride3",
             "flex-layout.row#most-viewede",
@@ -73,7 +74,7 @@
 
     "responsive-layout.mobile#bannerprincipal-pride":{
         "children":[  "flex-layout.row#bannersprideSecundarios",
-            "image#imagen1amobia", 
+            "image#imagen1amobia",
             "rich-text#guia-regalos-text-seo-h1p",
             "image#imagen2amobi",
             "flex-layout.row#most-viewedtres",
@@ -90,7 +91,7 @@
         "children":["flex-layout.col#textoa",
             "rich-text#descripcion2",
             "rich-text#descripcion3"
-        ], 
+        ],
         "props":{
             "borderColor": "#ff0087",
             "horizontalAlign": "center"
@@ -99,9 +100,9 @@
     "flex-layout.col#textoa":{
         "children":["rich-text#descripcion1"],
     "props":{
-        "blockclass": "textColumn"    }  
+        "blockclass": "textColumn"    }
 },
-    
+
     "responsive-layout.desktop#banner-pride1":{
         "children": ["image#imagen1adesko"],
         "props":{
@@ -135,7 +136,7 @@
           "blockClass":"contentBannersDesk"
       }
   },
-    
+
     "responsive-layout.phone#banner-pride2":{
         "children": ["image#imagen2adesko"],
         "props":{
@@ -185,7 +186,7 @@
           "blockClass": "departmentBannerImg-2"
         }
       },
-// version mobile 
+// version mobile
     "image#imagen1amobia": {
         "props": {
           "src": "/arquivos/Banner-Ppal-pride-mobi-min.gif",
@@ -229,7 +230,7 @@
           "blockClass": "storePrint"
         }
       },
-      //texto 
+      //texto
       "rich-text#descripcion1a": {
         "props": {
           "textAlignment": "CENTER",
@@ -268,7 +269,7 @@
           "infinite": true,
           "showNavigationArrows": "desktopOnly",
           "showPaginationDots": "always"
-       
+
         }
     }
 
