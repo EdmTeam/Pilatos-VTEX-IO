@@ -2,6 +2,7 @@
     "store.custom#landingRegalosPadres": {
         "blocks": [
             "flex-layout.row#textoInicioRegalosPadres",
+            "flex-layout.row#seo-pilatos-sport",
             "responsive-layout.desktop#BannerRegalosPadres",
           "responsive-layout.tablet#BannerRegalosPadres",
           "responsive-layout.phone#BannerRegalosPadres"
@@ -34,7 +35,7 @@
         }
     },
 
-    // textos 
+    // textos
     "flex-layout.row#textoInicioRegalosPadres": {
         "children": [
             "flex-layout.col#RegalosPadresTitle"
@@ -57,7 +58,7 @@
         }
     },
 
-    // Banner Principal 
+    // Banner Principal
     "flex-layout.row#BannerRegalosPadres": {
         "children": [
             "image#BannerRegalosPadres"
@@ -102,7 +103,7 @@
             "rich-text#botonRegalosPadresAventurero"
         ]
     },
-    // texto debajo de imagen y botón 
+    // texto debajo de imagen y botón
 
     "rich-text#RegalosPadresCool": {
         "props": {
@@ -158,7 +159,7 @@
         }
     },
 
- // SECCIÓN PADRES CATEGORIA 
+ // SECCIÓN PADRES CATEGORIA
 
     "flex-layout.row#padresCategorias": {
         "children": [
@@ -197,8 +198,8 @@
     "flex-layout.row#textoSeoPadres": {
         "children": [
             "rich-text#textoSeoPadres-texto"
-           
-        ] 
+
+        ]
     },
 
     "rich-text#textoSeoPadres-texto": {
@@ -228,8 +229,8 @@
                 }
     },
 
-    
-    // IMAGENES ARCHIVOS 
+
+    // IMAGENES ARCHIVOS
     "image#BannerRegalosPadres": {
         "props": {
             "src": "/arquivos/aPilatos-guia-de-padres-Banner-Landing-Desk.jpg"

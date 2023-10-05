@@ -2,7 +2,10 @@
     "store.custom#category-jeans-mujer":{
         "blocks":[
             "flex-layout.row#banner-category-jeans-mujer",
-            "search-result-layout.customQuery#category-jeans-mujer"
+            "search-result-layout.customQuery#category-jeans-mujer",
+            "responsive-layout.desktop#category-jeans-mujer-banners",
+            "responsive-layout.phone#category-jeans-mujer-banners",
+            "responsive-layout.tablet#category-jeans-mujer-banners"
         ],
         "props":{
             "blockClass": "contentStoreCustom"
@@ -22,10 +25,8 @@
         "children":[
             "rich-text#category-jeans-mujer-bread-crumb",
             "rich-text#category-jeans-mujer-title",
-            "rich-text#category-jeans-mujer-description",
-            "responsive-layout.desktop#category-jeans-mujer-banners",
-            "responsive-layout.phone#category-jeans-mujer-banners",
-            "responsive-layout.tablet#category-jeans-mujer-banners"
+            "rich-text#category-jeans-mujer-description"
+
         ]
     },
 

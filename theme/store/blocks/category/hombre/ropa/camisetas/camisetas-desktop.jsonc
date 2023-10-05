@@ -2,7 +2,10 @@
     "store.custom#category-camisetas-hombre":{
         "blocks":[
             "flex-layout.row#banner-category-camisetas-hombre",
-            "search-result-layout.customQuery#category-camisetas-hombre"
+            "search-result-layout.customQuery#category-camisetas-hombre",
+            "responsive-layout.desktop#category-camisetas-hombre-banners",
+            "responsive-layout.phone#category-camisetas-hombre-banners",
+            "responsive-layout.tablet#category-camisetas-hombre-banners"
         ],
         "props":{
             "blockClass": "contentStoreCustom"
@@ -22,10 +25,8 @@
         "children":[
             "rich-text#category-camisetas-hombre-bread-crumb",
             "rich-text#category-camisetas-hombre-title",
-            "rich-text#category-camisetas-hombre-description",
-            "responsive-layout.desktop#category-camisetas-hombre-banners",
-            "responsive-layout.phone#category-camisetas-hombre-banners",
-            "responsive-layout.tablet#category-camisetas-hombre-banners"
+            "rich-text#category-camisetas-hombre-description"
+
         ]
     },
 

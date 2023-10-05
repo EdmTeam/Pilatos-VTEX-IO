@@ -2,7 +2,10 @@
     "store.custom#category-chaquetas-hombre":{
         "blocks":[
             "flex-layout.row#banner-category-chaquetas-hombre",
-            "search-result-layout.customQuery#category-chaquetas-hombre"
+            "search-result-layout.customQuery#category-chaquetas-hombre",
+            "responsive-layout.desktop#category-chaquetas-hombre-banners",
+            "responsive-layout.phone#category-chaquetas-hombre-banners",
+            "responsive-layout.tablet#category-chaquetas-hombre-banners"
         ],
         "props":{
             "blockClass": "contentStoreCustom"
@@ -22,10 +25,8 @@
         "children":[
             "rich-text#category-chaquetas-hombre-bread-crumb",
             "rich-text#category-chaquetas-hombre-title",
-            "rich-text#category-chaquetas-hombre-description",
-            "responsive-layout.desktop#category-chaquetas-hombre-banners",
-            "responsive-layout.phone#category-chaquetas-hombre-banners",
-            "responsive-layout.tablet#category-chaquetas-hombre-banners"
+            "rich-text#category-chaquetas-hombre-description"
+
         ]
     },
 

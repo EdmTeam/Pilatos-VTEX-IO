@@ -2,7 +2,10 @@
     "store.custom#category-buzos-hombre":{
         "blocks":[
             "flex-layout.row#banner-category-buzos-hombre",
-            "search-result-layout.customQuery#category-buzos-hombre"
+            "search-result-layout.customQuery#category-buzos-hombre",
+            "responsive-layout.desktop#category-buzos-hombre-banners",
+            "responsive-layout.phone#category-buzos-hombre-banners",
+            "responsive-layout.tablet#category-buzos-hombre-banners"
         ],
         "props":{
             "blockClass": "contentStoreCustom"
@@ -22,10 +25,8 @@
         "children":[
             "rich-text#category-buzos-hombre-bread-crumb",
             "rich-text#category-buzos-hombre-title",
-            "rich-text#category-buzos-hombre-description",
-            "responsive-layout.desktop#category-buzos-hombre-banners",
-            "responsive-layout.phone#category-buzos-hombre-banners",
-            "responsive-layout.tablet#category-buzos-hombre-banners"
+            "rich-text#category-buzos-hombre-description"
+
         ]
     },
 

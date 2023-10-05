@@ -2,7 +2,10 @@
     "store.custom#category-chaquetas-mujer":{
         "blocks":[
             "flex-layout.row#banner-category-chaquetas-mujer",
-            "search-result-layout.customQuery#category-chaquetas-mujer"
+            "search-result-layout.customQuery#category-chaquetas-mujer",
+            "responsive-layout.desktop#category-chaquetas-mujer-banners",
+            "responsive-layout.phone#category-chaquetas-mujer-banners",
+            "responsive-layout.tablet#category-chaquetas-mujer-banners"
         ],
         "props":{
             "blockClass": "contentStoreCustom"
@@ -22,10 +25,7 @@
         "children":[
             "rich-text#category-chaquetas-mujer-bread-crumb",
             "rich-text#category-chaquetas-mujer-title",
-            "rich-text#category-chaquetas-mujer-description",
-            "responsive-layout.desktop#category-chaquetas-mujer-banners",
-            "responsive-layout.phone#category-chaquetas-mujer-banners",
-            "responsive-layout.tablet#category-chaquetas-mujer-banners"
+            "rich-text#category-chaquetas-mujer-description"
         ]
     },
 

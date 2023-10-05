@@ -2,7 +2,10 @@
     "store.custom#category-tenis-hombre":{
         "blocks":[
             "flex-layout.row#banner-category-tenis-hombre",
-            "search-result-layout.customQuery#category-tenis-hombre"
+            "search-result-layout.customQuery#category-tenis-hombre",
+            "responsive-layout.desktop#category-tenis-hombre-banners",
+            "responsive-layout.phone#category-tenis-hombre-banners",
+            "responsive-layout.tablet#category-tenis-hombre-banners"
         ],
         "props":{
             "blockClass": "contentStoreCustom"
@@ -22,10 +25,8 @@
         "children":[
             "rich-text#category-tenis-hombre-bread-crumb",
             "rich-text#category-tenis-hombre-title",
-            "rich-text#category-tenis-hombre-description",
-            "responsive-layout.desktop#category-tenis-hombre-banners",
-            "responsive-layout.phone#category-tenis-hombre-banners",
-            "responsive-layout.tablet#category-tenis-hombre-banners"
+            "rich-text#category-tenis-hombre-description"
+
         ]
     },
 
