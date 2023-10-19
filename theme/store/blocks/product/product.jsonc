@@ -125,6 +125,7 @@
       "responsive-layout.tablet#brands-promise",
       "responsive-layout.desktop#brands-promise",
       "tab-layout#product-tab",
+      "buy-with",
       "flex-layout.row#productViewed"
     ],
     "props":{

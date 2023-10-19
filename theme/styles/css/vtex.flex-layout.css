@@ -47,6 +47,12 @@
   background-color:#000000;
 }
 
+.flexRow--buy-with {
+  max-width: 70rem;
+  margin: 0 auto;
+}
+
+
 @media only screen and (min-width: 1180px){
   .flexRow--contentPromotionalDesk{
     width: 85%;

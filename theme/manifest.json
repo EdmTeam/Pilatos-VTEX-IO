@@ -1,7 +1,7 @@
 {
   "vendor": "pilatos21",
   "name": "theme",
-  "version": "3.0.228",
+  "version": "3.0.227",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
@@ -73,6 +73,7 @@
     "pilatos21.size-guide": "0.x",
     "pilatos21.memory-game": "0.x",
     "pilatos21.smallcomponents": "0.x",
+    "pilatos21.buy-with": "0.x",
     "vtex.store-video": "1.x",
     "vtex.product-availability": "0.x",
     "vtex.disclosure-layout": "1.x",

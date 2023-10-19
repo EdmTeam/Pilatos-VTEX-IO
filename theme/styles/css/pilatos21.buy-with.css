@@ -1,0 +1,27 @@
+.buyWithContainer {
+  padding: 1rem 3rem;
+}
+
+.plusIcon {
+  font-size: 1.5rem;
+  padding-right: 5px;
+}
+
+.totalMobileText,
+.productInfoMobile  {
+  font-size: 14px;
+}
+
+.addToCartButton :global(.vtex-button) {
+  width: 91%;
+  margin: 0 auto;
+  background: #000000;
+  border: 1px solid #000000;
+  border-radius: 100px;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+}
