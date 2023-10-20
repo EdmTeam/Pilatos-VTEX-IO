@@ -42,13 +42,13 @@
     display: block;
 }
 
-.productHighlightWrapper [data-highlight-id="1447"]{
+.productHighlightWrapper [data-highlight-id="1578"]{
     width: 35px;
     height: 35px;
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url(/arquivos/FlagBancolombia-Negro.png);
-    display: none;
+    display: block;
 }
 /* Flag envio gratis */
 .productHighlightWrapper [data-highlight-id="1544"]{
@@ -59,13 +59,15 @@
     background-image: url(/arquivos/flag-heritage-pilatos.png);
     display: block;
 }
+
+/* activar cuando se acabe bancolombia de octubre 2023 */
 .productHighlightWrapper [data-highlight-id="1482"]{
     width: 35px;
     height: 35px;
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url(/arquivos/pilatos-flag-sostenible-new-balance.png);
-    display: block;
+    display: none;
 }
 .productHighlightWrapper [data-highlight-id="1471"]{
     width: 35px;
