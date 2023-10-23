@@ -48,7 +48,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url(/arquivos/FlagBancolombia-Negro.png);
-    display: block;
+    display: none;
 }
 /* Flag envio gratis */
 .productHighlightWrapper [data-highlight-id="1544"]{
@@ -67,7 +67,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url(/arquivos/pilatos-flag-sostenible-new-balance.png);
-    display: none;
+    display: block;
 }
 .productHighlightWrapper [data-highlight-id="1471"]{
     width: 35px;
