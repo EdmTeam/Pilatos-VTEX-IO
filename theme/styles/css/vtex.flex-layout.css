@@ -971,6 +971,12 @@
   height: 2rem;
 }
 
+.flexColChild--contentNewsletter :global(.vtex-styleguide-9-x-input)::placeholder {
+  text-align: left;
+}
+
+
+
 .flexColChild--contentNewsletter :global(.vtex-styleguide-9-x-input)::placeholder{
   font-weight: normal;
   font-size: 11px;

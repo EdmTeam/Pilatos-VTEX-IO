@@ -1,7 +1,8 @@
 {
     "store.custom#landing-new-balance":{
         "blocks":[
-            "flex-layout.row#banner-landing-new-balance"
+            "flex-layout.row#banner-landing-new-balance",
+            "search-result-layout.customQuery#landing-marcas"
                 ],
         "props":{
             "blockClass": "contentStoreCustom"
@@ -24,8 +25,7 @@
             "responsive-layout.desktop#landing-new-balance-banners",
             "responsive-layout.tablet#landing-new-balance-banners",
             "responsive-layout.phone#landing-new-balance-banners",
-          
-            "search-result-layout.customQuery#landing-marcas",
+
             "rich-text#landing-new-balance-description"
 
         ]
@@ -37,9 +37,9 @@
             "flex-layout.row#landing-new-balance-banners-2",
             "flex-layout.row#landing-new-balance-banners-3",
             "flex-layout.col#landing-new-balance-banners-top",
-            "flex-layout.row#recomendadorNewBalanceOne", 
+            "flex-layout.row#recomendadorNewBalanceOne",
             "flex-layout.col#landing-new-balance-banners-nuevo"
-           
+
            // "flex-layout.row#recomendadorNewBalanceTwo"
 //           "search-result-layout.customQuery#landing-marcas"
 
@@ -89,7 +89,7 @@
         }
     },
 
-  
+
 
     "flex-layout.row#landing-new-balance-banners-2":{
         "children":[
@@ -104,7 +104,7 @@
         }
     },
 
-  
+
 
     "flex-layout.col#landing-new-balance-banners-2-img-1a":{
         "children":[
@@ -282,6 +282,6 @@
             "blockClass": "departmentBannerImg-top"
         }
     }
-  
-    
+
+
 }
