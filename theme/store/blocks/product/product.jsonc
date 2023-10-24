@@ -2,7 +2,7 @@
 {
   "store.product": {
     "children": [
-      "flex-layout.row#product-view" 
+      "flex-layout.row#product-view"
     ]
   },
 //condicionales de producto
@@ -17,7 +17,7 @@
          }
        ],
        "Then": "flex-layout.row#texto-importadoEDM"
-      
+
      }
    },
    "condition-layout.product#cond2-superdry": {
@@ -31,7 +31,7 @@
         }
       ],
       "Then": "flex-layout.row#texto-importadoEDM"
-     
+
     }
   },
   "condition-layout.product#cond3-kipling": {
@@ -44,7 +44,7 @@
           }
         }
       ],
-      "Then": "flex-layout.row#texto-importadoEDM" 
+      "Then": "flex-layout.row#texto-importadoEDM"
     }
   },
   "condition-layout.product#cond4-pilatos": {
@@ -57,7 +57,7 @@
           }
         }
       ],
-      "Then": "flex-layout.row#texto-produccionColombiana" 
+      "Then": "flex-layout.row#texto-produccionColombiana"
     }
   },
 
@@ -71,13 +71,13 @@
           }
         }
       ],
-      "Then": "flex-layout.row#texto-produccionColombiana" 
+      "Then": "flex-layout.row#texto-produccionColombiana"
     }
   },
 
- 
-   
-// texto condicional producto  
+
+
+// texto condicional producto
 "flex-layout.row#texto-importadoEDM":{
   "children":[
     "rich-text#produccionTexto"
@@ -167,13 +167,13 @@
       "vtex.store-components:product-brand",
       "vtex.store-components:product-name",
       "flex-layout.row#product-identifier-rating"
-      
+
     ],
     "props":{
       "blockClass": "product-description"
     }
   },
-  
+
   "flex-layout.row#product-identifier-rating":{
     "children":[
       "product-identifier.product",
@@ -253,14 +253,14 @@
       "size-guide#hombre-Superdry",
       "size-guide#zapatos-hombre-Superdry",
       "size-guide#correa",
-      
+
       "product-quantity",
       "product-availability#uno",
       "flex-layout.row#product-button",
-    
+
       "addi-infos",
       "rich-text#title-descripcionProducto",
-      "flex-layout.row#productDescripcion", 
+      "flex-layout.row#productDescripcion",
       "condition-layout.product#cond1-diesel",
       "condition-layout.product#cond2-superdry",
       "condition-layout.product#cond3-kipling",
@@ -278,18 +278,18 @@
       "blockClass": "stack-product"
     }
   },
-  // producto disponibles 
+  // producto disponibles
   "product-availability#uno": {
     "props": {
-      "threshold": "10",
+      "threshold": 5,
       "lowStockMessage": "¡Últimas {quantity} unidades!"
         }
   },
-  
+
 
   "sku-selector":{
-    "props": {  
-      "thumbnailImage": ["color"]  
+    "props": {
+      "thumbnailImage": ["color"]
     }
   },
 
@@ -300,7 +300,7 @@
       "product-specification-badges"
     ]
   },
-  
+
   "product-images": {
     "props": {
       "aspectRatio": {

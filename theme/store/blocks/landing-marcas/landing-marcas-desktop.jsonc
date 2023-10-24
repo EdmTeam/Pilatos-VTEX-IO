@@ -61,6 +61,7 @@
         "blocks": [
             "search-result-layout.desktop",
             "search-result-layout.mobile#landing-marcas"
+
         ],
         "props": {
             "querySchema": {
@@ -93,7 +94,7 @@
         }
     },
 
-  
+
 
     "flex-layout.row#landing-marcas-banners-2":{
         "children":[
@@ -140,7 +141,7 @@
         }
     },
 
-   
+
 
     "image#landing-marcas-banners-2-img-3": {
         "props": {
@@ -157,5 +158,5 @@
             "image#landing-marcas-banners-2-img-3"
         ]
     }
-    
+
 }

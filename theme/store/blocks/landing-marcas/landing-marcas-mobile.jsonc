@@ -37,7 +37,8 @@
           "flex-layout.row#search-info-mobile-landing-marcas",
           "flex-layout.row#fetch-previous",
           "flex-layout.row#content-mobile",
-          "flex-layout.row#fetch-more"
+          "flex-layout.row#fetch-more",
+          "rich-text#filtro-seo"
         ],
         "props": {
             "showProductsCount": true,
@@ -78,7 +79,7 @@
                         },
                         {
                           "name": "Color"
-                        }, 
+                        },
                         {
                             "name": "Categoría"
                       }
@@ -118,7 +119,7 @@
         ],
         "props": {
             "images": [
-             
+
                 {
                     "image": "/arquivos/Banner_Tercero_Mobile_Departamento_Hombre.jpg",
                     "description": "Promotional Banner",
