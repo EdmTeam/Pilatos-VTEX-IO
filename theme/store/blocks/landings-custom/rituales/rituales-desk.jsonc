@@ -1,0 +1,470 @@
+{
+  "store.custom#rituales":{
+    "children": [
+      "flex-layout.row#rituales"
+    ]
+  },
+
+"flex-layout.row#rituales": {
+  "children": [
+    "flex-layout.col#rituales"
+
+  ],
+  "props": {
+    "blockClass": "containerRituales"
+  }
+},
+
+"flex-layout.col#rituales": {
+  "children": [
+    "flex-layout.col#sesionUnoRituales",
+    "flex-layout.row#sesionCarrouselRituales",
+     "flex-layout.row#bannerLandingRituales",
+     "flex-layout.row#textoFitRituales",
+     "flex-layout.row#sesionFitRituales",
+     "flex-layout.row#textoSpotifyRituales",
+     "flex-layout.row#spotifyRituales",
+    "responsive-layout.desktop#rituales",
+    "responsive-layout.mobile#rituales",
+    "flex-layout.row#ritualesComponents",
+    "flex-layout.col#seoFinalRituales"
+
+  ]
+},
+
+
+
+/* sesion uno (h1, seo y boton)*/
+
+"flex-layout.col#sesionUnoRituales":{
+  "children": [
+    "rich-text#ritualesH1",
+    "rich-text#ritualesSEO",
+    "rich-text#btonRituales"
+  ]
+},
+
+
+  "rich-text#ritualesH1": {
+    "title": "texto H1",
+    "props": {
+      "text": "# PILATOS X RITVALES",
+      "textPosition": "CENTER",
+      "blockClass": "ritualesH1"
+    }
+  },
+
+  "rich-text#ritualesSEO": {
+    "title": "texto seo",
+    "props": {
+      "text": "Este año volvemos a Ritvales, no solamente a vibrar junto a la música, sino a enseñar nuestra nueva personalidad y esencia, porque queremos que todas las miradas estén sobre nosotros.",
+      "textPosition": "CENTER",
+      "blockClass": "ritualesSEO"
+    }
+  },
+  "rich-text#btonRituales":{
+    "props": {
+      "text": "[Ver colección](/rituales-productos)",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "btnPrincipal"
+    }
+  },
+
+  // sesión carrousel rituales
+  "flex-layout.row#sesionCarrouselRituales":{
+    "children": [
+      "flex-layout.col#sesionCarrouselRituales"
+
+    ],
+    "props": {
+        "blockClass": "sesionCarrouselRituales",
+        "fullWidth": true
+    }
+
+  },
+  "flex-layout.col#sesionCarrouselRituales":{
+    "children": [
+      "vtex.product-summary:list-context.product-list#sneaker-recomendador"
+  ]
+  },
+
+  // sesión banner landing
+  "flex-layout.row#bannerLandingRituales":{
+    "children": [
+      "list-context.image-list#bannerLandingRituales"
+    ],
+    "props": {
+      "blockClass": "banner-activaciones-imagen"
+
+    }
+  },
+
+  "list-context.image-list#bannerLandingRituales": {
+    "children": [
+        "slider-layout"
+    ],
+    "props": {
+        "height": 570,
+        "preload": true,
+        "images": [
+            {
+                "image": "/arquivos/Pilatos-Ritvales-Landing-Ppal-Desk22.jpg",
+                "mobileImage": "/arquivos/Pilatos-Ritvales-Landing-Ppal-Mob22.jpg"
+            }
+        ]
+    }
+},
+
+// Sesion pintas fit
+"flex-layout.row#sesionFitRituales":{
+  "children": [
+    "list-context.image-list#sesionFitRituales"
+  ],
+  "props": {
+    "blockClass": "contentSearch"
+
+  }
+
+},
+
+"list-context.image-list#sesionFitRituales": {
+  "children": [
+      "slider-layout#sesionFitRituales"
+  ],
+  "props": {
+      "height": 600,
+      "preload": true,
+
+      "images": [
+          {
+              "image": "/arquivos/Pilatos-Ritvales-Landing-Pinta1-Desk.jpg",
+              "mobileImage": "/arquivos/Pilatos-Ritvales-Landing-Pinta1-Desk.jpg",
+              "link": {
+                "url": "/"
+              }
+          },
+          {
+            "image": "/arquivos/Pilatos-Ritvales-Landing-Pinta2-Desk.jpg",
+            "mobileImage": "/arquivos/Pilatos-Ritvales-Landing-Pinta2-Desk.jpg",
+            "link": {
+              "url": "/"
+            }
+        },
+        {
+          "image": "/arquivos/Pilatos-Ritvales-Landing-Pinta3-Desk.jpg",
+          "mobileImage": "/arquivos/Pilatos-Ritvales-Landing-Pinta3-Desk.jpg",
+          "link": {
+            "url": "/"
+          }
+      },
+      {
+        "image": "/arquivos/Pilatos-Ritvales-Landing-Pinta4-Desk.jpg",
+        "mobileImage": "/arquivos/Pilatos-Ritvales-Landing-Pinta4-Desk.jpg",
+        "link": {
+          "url": "/"
+        }
+    }
+      ]
+  }
+},
+"slider-layout#sesionFitRituales": {
+  "props": {
+    "itemsPerPage": {
+      "desktop": 4,
+      "tablet": 3,
+      "phone": 1
+    },
+    "infinite": true,
+    "showNavigationArrows":"always",
+    "showPaginationDots": "always",
+    "centerModeSlidesGap": 5,
+    "blockClass": "slider-rituales"
+  }
+},
+
+"flex-layout.row#textoFitRituales": {
+  "children": [
+    "rich-text#textoFitRituales"
+  ],
+  "props": {
+    "blockClass": "contentSearch"  }
+
+},
+
+"rich-text#textoFitRituales":{
+  "title": "Texto pintas rituales ",
+  "props": {
+    "text": "Descubre tu pinta para Ritvales",
+    "blockClass": "textoFitRituales"
+  }
+},
+
+// spotify información evento desk y phone
+
+
+"responsive-layout.desktop#rituales":{
+  "children": [
+    "flex-layout.row#ritualesEventos"
+
+  ]
+},
+
+"flex-layout.row#ritualesEventos":{
+  "children": [
+    "flex-layout.col#spotifyEventUno",
+    "flex-layout.col#spotifyEventDos"
+  ],
+  "props": {
+    "blockClass": "ritualesEventos"
+  }
+},
+
+//***
+"responsive-layout.mobile#rituales":{
+  "children": [
+    "list-context.image-list#ritualesComponentsMobile"
+
+  ],
+  "props": {
+      "blockClass": "ritualesComponents",
+      "fullWidth": true
+  }
+
+},
+
+"list-context.image-list#ritualesComponentsMobile": {
+  "children": [
+      "slider-layout#ritualesComponentsMobile"
+  ],
+  "props": {
+      "height": 600,
+      "preload": true,
+
+      "images": [
+          {
+              "mobileImage": "/arquivos/Pilatos-Ritvales-Landing-LineUp-Mob.jpg"
+          },
+          {
+            "mobileImage": "/arquivos/Pilatos-Ritvales-Landing-Remotos-Mob.jpg"
+
+        },
+        {
+          "mobileImage": "/arquivos/Pilatos-Ritvales-Landing-Manilla-Mob.jpg"
+
+      },
+      {
+        "mobileImage": "/arquivos/Pilatos-Ritvales-Landing-Mapa-Mob.jpg"
+
+    }
+      ]
+  }
+},
+"slider-layout#ritualesComponentsMobile": {
+  "props": {
+    "itemsPerPage": {
+      "phone": 1
+    },
+    "infinite": true,
+    "showNavigationArrows": "always",
+    "showPaginationDots": "never",
+    "centerModeSlidesGap": 5,
+    "blockClass": "slider-rituales"
+  }
+},
+
+
+
+
+
+"flex-layout.row#spotifyRituales": {
+  "props": {
+      "blockClass": "contentSearchSpotify"
+  },
+  "children": [
+      "iframe#spotifyRituales"
+  ]
+},
+"iframe#spotifyRituales": {
+  "props": {
+      "src": "https://open.spotify.com/embed/playlist/7yA1FGV3T8m63aOc1pGltR?utm_source=generator",
+      "allow": "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
+      "blockClass": "spotifyRituales",
+       "width": 1000
+  }
+},
+
+"flex-layout.row#spotifyDeskImage":{
+  "children": [
+    "list-context.image-list#spotifyDeskImage"
+  ],
+  "props": {
+    "blockClass": "spotifyImage"
+
+  }
+},
+
+"list-context.image-list#spotifyDeskImage": {
+  "children": [
+      "slider-layout"
+  ],
+  "props": {
+      "preload": true,
+      "images": [
+          {
+              "image": "/arquivos/Pilatos-Ritvales-Landing-Spotify.jpg",
+              "mobileImage": "/arquivos/Pilatos-Ritvales-Landing-Spotify-Mob.jpg"
+          }
+      ]
+  }
+},
+
+"flex-layout.row#textoSpotifyRituales": {
+  "children": [
+    "rich-text#textoSpotifyRituales"
+  ],
+  "props": {
+    "blockClass": "contentSearchSpotify"  }
+
+},
+
+"rich-text#textoSpotifyRituales":{
+  "title": "Texto pintas rituales ",
+  "props": {
+    "text": "Disfruta de la playlist de Spotify Pilatos Ritvales que tenemos para ti ",
+    "blockClass": "textoFitRituales"
+  }
+},
+
+// sesión evento
+
+"flex-layout.col#spotifyEventUno":{
+
+"children": [
+  "image#ritualesLineUp",
+  "image#ritualesManilla"
+]
+
+},
+
+"flex-layout.col#spotifyEventDos":{
+
+  "children": [
+    "image#ritualesTicket",
+    "image#ritualesUbicacion"
+  ]
+  },
+
+  "image#ritualesLineUp": {
+    "props": {
+      "src": "/arquivos/Pilatos-Ritvales-Landing-LineUp-Desk.jpg",
+      "alt": "",
+      "blockClass": "imageRituales"
+    }
+  },
+
+  "image#ritualesManilla": {
+    "props": {
+      "src": "/arquivos/Pilatos-Ritvales-Landing-Manilla-Desk.jpg"
+    }
+  },
+
+  "image#ritualesTicket": {
+    "props": {
+      "src": "/arquivos/Pilatos-Ritvales-Landing-Remotos-Desk.jpg"
+    }
+  },
+  "image#ritualesUbicacion": {
+    "props": {
+      "src": "/arquivos/Pilatos-Ritvales-Landing-Mapa-Desk.jpg"
+    }
+  },
+// sesión Component Rituales
+
+  "flex-layout.row#ritualesComponents":{
+    "children": [
+      "list-context.image-list#ritualesComponents"
+
+    ],
+    "props": {
+        "blockClass": "ritualesComponents",
+        "fullWidth": true
+    }
+
+  },
+
+  "list-context.image-list#ritualesComponents": {
+    "children": [
+        "slider-layout#ritualesComponents"
+    ],
+    "props": {
+        "height": 600,
+        "preload": true,
+
+        "images": [
+            {
+                "image": "/arquivos/Pilatos-Ritvales-Landing-Elementos-Eyes-Desk.jpg",
+                "mobileImage": "/arquivos/Pilatos-Ritvales-Landing-Elementos-Eyes-Mob.jpg"
+
+            },
+            {
+              "image": "/arquivos/Pilatos-Ritvales-Landing-Elementos-Infinity-Desk.jpg",
+              "mobileImage": "/arquivos/Pilatos-Ritvales-Landing-Elementos-Infinity-Mob.jpg"
+          },
+          {
+            "image": "/arquivos/Pilatos-Ritvales-Landing-Elementos-Energy-Desk.jpg",
+            "mobileImage": "/arquivos/Pilatos-Ritvales-Landing-Elementos-Energy-Mob.jpg"
+        },
+        {
+          "image": "/arquivos/Pilatos-Ritvales-Landing-Elementos-Night-Desk.jpg",
+          "mobileImage": "/arquivos/Pilatos-Ritvales-Landing-Elementos-Night-Mob.jpg"
+      }
+        ]
+    }
+  },
+  "slider-layout#ritualesComponents": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "always",
+      "centerModeSlidesGap": 5,
+      "blockClass": "slider-rituales"
+    }
+  },
+
+  //  SEO FINAL RITUALES
+
+  /* sesion uno (h1, seo y boton)*/
+
+"flex-layout.col#seoFinalRituales":{
+  "children": [
+    "rich-text#ritualesSeoLargo",
+    "rich-text#btonRitualesFinal"
+  ]
+},
+
+
+  "rich-text#ritualesSeoLargo": {
+    "title": "texto seo largo",
+    "props": {
+      "text": "Somos PILATOS MARCA, creemos en el poder de la moda y en la energía transformadora de los beats. Este año, celebramos en el rincón del mundo donde se vive la fiesta más grande la ciudad. Somos creyentes de que ser cool y arriesgado no es suficiente, tienes que transmitirlo a través de tus prendas y para eso estamos nosotros.",
+      "textPosition": "LEFT",
+      "blockClass": "ritualesSeoLargo"
+    }
+  },
+  "rich-text#btonRitualesFinal":{
+    "props": {
+      "text": "[Ver colección](/rituales-productos)",
+      "textAlignment": "LEFT",
+      "textPosition": "CENTER",
+      "blockClass": "btnPrincipal"
+    }
+  }
+
+
+}

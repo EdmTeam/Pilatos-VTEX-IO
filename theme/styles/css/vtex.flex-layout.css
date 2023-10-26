@@ -1094,6 +1094,28 @@
   width: 100%;
 }
 
+.flexRow--contentSearchSpotify{
+  width: 80%;
+  margin: 0 auto;
+
+}
+
+.flexRow--ritualesEventos{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.flexRowContent--ritualesEventos{
+  gap: 5px;
+}
+
+/* .flexRow--spotifyImage{
+  max-width: 700px;
+  background: red;
+  margin: 0 auto;
+} */
+
+
 /*Landing pilatos denim*/
 .flexRow--contentSearch-pilatosDenimEstilos{
   margin-top: 35px;
@@ -3090,6 +3112,22 @@
   width: 100%;
 }
 
+.flexRowContent--sesionCarrouselRituales{
+  margin-bottom: 1%;
+  padding: 3% 2% 5% 5%;
+  width: 100%;
+}
+
+
+.flexRow--ritualesComponents{
+  background: #000;
+  margin-bottom: 1%;
+  padding: 3% 2% 5% 5%;
+  width: 100%;
+
+}
+
+
 .flexRow-contentSearchSneakers{
   width: 60%;
   margin: 0 auto;
@@ -3120,4 +3158,13 @@
   .flexRowContent--billyGame {
     height: 550px;
   }
+}
+
+/* LANDING RITUALES 2023 */
+
+
+.flexRow--containerRituales{
+  background: #f8f8f8;
+  font-family: 'Poppins', sans-serif;
+
 }
