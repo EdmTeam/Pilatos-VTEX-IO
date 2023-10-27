@@ -3009,7 +3009,7 @@ margin: 2px;
 
 .container--ritualesSeoLargo{
   max-width: 80%;
-  margin: 0 auto;
+  margin: 5px auto 0 auto;
   text-align: left;
 
 }
@@ -3040,7 +3040,7 @@ margin: 2px;
 }
 
 .paragraph--textoFitRituales{
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   font-family: 'Poppins', sans-serif;
 

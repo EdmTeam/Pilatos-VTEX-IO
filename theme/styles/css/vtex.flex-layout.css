@@ -1109,12 +1109,31 @@
   gap: 5px;
 }
 
+/* .flexRowContent--ritualesFit{
+  width: 450px;
+  margin: 0 auto;
+} */
+
+/*
+} */
+
+/* .flexCol--carrouselFit{
+  width: 50%;
+} */
+
 /* .flexRow--spotifyImage{
   max-width: 700px;
   background: red;
   margin: 0 auto;
 } */
 
+.flexRowContent--sliderFitRituales{
+  align-items: center;
+}
+
+.flexRow--bannerFit{
+  margin: 0 auto;
+}
 
 /*Landing pilatos denim*/
 .flexRow--contentSearch-pilatosDenimEstilos{
@@ -1438,6 +1457,10 @@
 }
 @media only screen and (min-width: 1180px){
   .flexRow--contentSearch{
+    width: 88%;
+    margin: 0 auto;
+  }
+  .flexRow--sliderFitRituales{
     width: 88%;
     margin: 0 auto;
   }

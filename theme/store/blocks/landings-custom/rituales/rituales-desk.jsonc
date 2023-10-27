@@ -1,11 +1,13 @@
 {
   "store.custom#rituales":{
+
     "children": [
       "flex-layout.row#rituales"
     ]
   },
 
 "flex-layout.row#rituales": {
+  "title": "RITUALES LANDING",
   "children": [
     "flex-layout.col#rituales"
 
@@ -18,8 +20,8 @@
 "flex-layout.col#rituales": {
   "children": [
     "flex-layout.col#sesionUnoRituales",
+    "flex-layout.row#bannerLandingRituales",
     "flex-layout.row#sesionCarrouselRituales",
-     "flex-layout.row#bannerLandingRituales",
      "flex-layout.row#textoFitRituales",
      "flex-layout.row#sesionFitRituales",
      "flex-layout.row#textoSpotifyRituales",
@@ -73,7 +75,9 @@
 
   // sesión carrousel rituales
   "flex-layout.row#sesionCarrouselRituales":{
+    "title": "carrousel producto",
     "children": [
+
       "flex-layout.col#sesionCarrouselRituales"
 
     ],
@@ -85,6 +89,7 @@
   },
   "flex-layout.col#sesionCarrouselRituales":{
     "children": [
+
       "vtex.product-summary:list-context.product-list#sneaker-recomendador"
   ]
   },
@@ -324,7 +329,8 @@
     "rich-text#textoSpotifyRituales"
   ],
   "props": {
-    "blockClass": "contentSearchSpotify"  }
+    "blockClass": "contentSearchSpotify"
+  }
 
 },
 
@@ -332,7 +338,9 @@
   "title": "Texto pintas rituales ",
   "props": {
     "text": "Disfruta de la playlist de Spotify Pilatos Ritvales que tenemos para ti ",
-    "blockClass": "textoFitRituales"
+    "blockClass": "textoFitRituales",
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER"
   }
 },
 
