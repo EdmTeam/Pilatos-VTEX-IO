@@ -1,0 +1,166 @@
+{
+  "store.custom#ritvales-fit":{
+    "children": [
+      "flex-layout.row#rituales-fit"
+    ]
+  },
+
+"flex-layout.row#rituales-fit": {
+  "children": [
+    "flex-layout.col#rituales-fit"
+
+  ],
+  "props": {
+    "blockClass": "containerRituales"
+  }
+},
+
+"flex-layout.col#rituales-fit": {
+  "children": [
+    "flex-layout.col#sesionUnoRituales-fit",
+    "flex-layout.row#textoFitRitualesPinta",
+    "flex-layout.row#sesionCarrouselRituales-fit",
+    "flex-layout.col#seoFinalRituales-fit"
+
+  ]
+},
+
+
+
+/* sesion uno (h1, seo y boton)*/
+
+"flex-layout.col#sesionUnoRituales-fit":{
+  "children": [
+    "rich-text#ritualesH1-fit",
+    "rich-text#ritualesSEO-fit"
+    // "rich-text#btonRituales-fit"
+  ]
+},
+  "rich-text#ritualesH1-fit": {
+    "title": "texto H1",
+    "props": {
+      "text": "# PILATOS X RITVALES",
+      "textPosition": "CENTER",
+      "blockClass": "ritualesH1"
+    }
+  },
+  "rich-text#ritualesSEO-fit": {
+    "title": "texto seo",
+    "props": {
+      "text": "Este año volvemos a Ritvales, no solamente a vibrar junto a la música, sino a enseñar nuestra nueva personalidad y esencia, porque queremos que todas las miradas estén sobre nosotros.",
+      "textPosition": "CENTER",
+      "blockClass": "ritualesSEO"
+    }
+  },
+
+  // sesión carrousel rituales
+  "flex-layout.row#sesionCarrouselRituales-fit":{
+    "children": [
+      "flex-layout.row#bannerLandingRituales-fit",
+      "flex-layout.col#sesionCarrouselRituales-fit"
+
+    ],
+    "props": {
+        "blockClass": "sliderFitRituales",
+        "fullWidth": false,
+        "preventHorizontalStretch": true
+
+    }
+
+  },
+  "flex-layout.col#sesionCarrouselRituales-fit":{
+    "title": "carrousel RITUALES",
+    "children": [
+      "vtex.product-summary:list-context.product-list#rituales-recomendador"
+  ],
+  "props": {
+    "blockClass": "carrouselFit",
+    "horizontalAlign": "left"
+  }
+
+  },
+
+// sesión banner landing fit
+"flex-layout.row#bannerLandingRituales-fit":{
+  "title": "BANNER FIT",
+  "children": [
+    "list-context.image-list#bannerLandingRituales-fit"
+  ],
+  "props": {
+    // "horizontalAlign": "right",
+    // "preventVerticalStretch": true,
+    "blockClass": "bannerFit"
+
+  }
+},
+
+"list-context.image-list#bannerLandingRituales-fit": {
+  "children": [
+      "slider-layout"
+  ],
+  "props": {
+      "preload": true,
+      "images": [
+          {
+              "image": "/arquivos/Pilatos-Ritvales-Landing-Pinta1-Desk.jpg",
+              "mobileImage": "/arquivos/Pilatos-Ritvales-Landing-Pinta1-Desk.jpg"
+          }
+      ]
+  }
+},
+
+  //  SEO FINAL RITUALES
+
+  /* sesion uno (h1, seo y boton)*/
+
+"flex-layout.col#seoFinalRituales-fit":{
+  "children": [
+    "rich-text#ritualesSeoLargo-fit",
+    "rich-text#btonRitualesFinal-fit"
+  ]
+},
+
+
+  "rich-text#ritualesSeoLargo-fit": {
+    "title": "texto seo largo",
+    "props": {
+      "text": "Somos PILATOS MARCA, creemos en el poder de la moda.",
+      "textPosition": "CENTER",
+      "blockClass": "ritualesSeoLargo"
+    }
+  },
+  "rich-text#btonRitualesFinal-fit":{
+    "props": {
+      "text": "[Ir hacia atrás 🔙](/rituales-productos)",
+      "textAlignment": "LEFT",
+      "textPosition": "CENTER",
+      "blockClass": "btnPrincipal"
+    }
+  },
+
+  //  pinta para rituales
+
+  "flex-layout.row#textoFitRitualesPinta": {
+    "children": [
+      "rich-text#textoFitRitualesPinta"
+    ],
+    "props": {
+      "blockClass": "contentSearch",
+      "horizontalAlign": "center"
+
+    }
+
+  },
+
+  "rich-text#textoFitRitualesPinta":{
+    "title": "Texto pintas rituales ",
+    "props": {
+      "text": "Descubre tu pinta para Ritvales",
+      "blockClass": "textoFitRituales",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  }
+
+
+}

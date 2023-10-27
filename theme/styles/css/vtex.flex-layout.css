@@ -1094,6 +1094,47 @@
   width: 100%;
 }
 
+.flexRow--contentSearchSpotify{
+  width: 80%;
+  margin: 0 auto;
+
+}
+
+.flexRow--ritualesEventos{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.flexRowContent--ritualesEventos{
+  gap: 5px;
+}
+
+/* .flexRowContent--ritualesFit{
+  width: 450px;
+  margin: 0 auto;
+} */
+
+/*
+} */
+
+/* .flexCol--carrouselFit{
+  width: 50%;
+} */
+
+/* .flexRow--spotifyImage{
+  max-width: 700px;
+  background: red;
+  margin: 0 auto;
+} */
+
+.flexRowContent--sliderFitRituales{
+  align-items: center;
+}
+
+.flexRow--bannerFit{
+  margin: 0 auto;
+}
+
 /*Landing pilatos denim*/
 .flexRow--contentSearch-pilatosDenimEstilos{
   margin-top: 35px;
@@ -1416,6 +1457,10 @@
 }
 @media only screen and (min-width: 1180px){
   .flexRow--contentSearch{
+    width: 88%;
+    margin: 0 auto;
+  }
+  .flexRow--sliderFitRituales{
     width: 88%;
     margin: 0 auto;
   }
@@ -3090,6 +3135,22 @@
   width: 100%;
 }
 
+.flexRowContent--sesionCarrouselRituales{
+  margin-bottom: 1%;
+  padding: 3% 2% 5% 5%;
+  width: 100%;
+}
+
+
+.flexRow--ritualesComponents{
+  background: #000;
+  margin-bottom: 1%;
+  padding: 3% 2% 5% 5%;
+  width: 100%;
+
+}
+
+
 .flexRow-contentSearchSneakers{
   width: 60%;
   margin: 0 auto;
@@ -3120,4 +3181,13 @@
   .flexRowContent--billyGame {
     height: 550px;
   }
+}
+
+/* LANDING RITUALES 2023 */
+
+
+.flexRow--containerRituales{
+  background: #f8f8f8;
+  font-family: 'Poppins', sans-serif;
+
 }

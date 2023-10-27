@@ -10,6 +10,12 @@
     padding-top: 56.25%;
 }
 
+.container--spotifyRituales {
+  width: 70%;
+  justify-content:center;
+  height: 90px;
+}
+
 .container--billyGames {
   position: relative;
     overflow: hidden;
