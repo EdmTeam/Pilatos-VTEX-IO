@@ -3098,6 +3098,11 @@ div.checkoutFooter {
                                                         }
                                                     }
                                                 }
+                                                p {
+                                                    &.newsletter {
+                                                        display: none;
+                                                    }
+                                                }
                                                 /* BOTON DE CONTINUAR */
                                                 p.btn-submit-wrapper {
                                                     button {
