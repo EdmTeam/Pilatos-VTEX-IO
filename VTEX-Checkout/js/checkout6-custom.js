@@ -9,17 +9,12 @@ $(document).ready(function () { $(window).on("orderFormUpdated.vtex", function (
 const CustomCheckout = function () {
 
     let init = function () {
-        general()
         editsOrderForm()
-        // validateDocument()
         checkTerms()
-        editsProfileForm()
+        validateTerms()
         editsSummaryCart()
     }
 
-    const general = () => {
-
-    }
     const editsOrderForm = () => {
         let changePlaceHolderEmail = setInterval(() => {
             if ($('#client-pre-email')) {
@@ -27,16 +22,6 @@ const CustomCheckout = function () {
                 clearInterval(changePlaceHolderEmail)
             }
         }, 500);
-    }
-
-    const setCookie = (name, value, days) => {
-        var expires = "";
-        if (days) {
-            var date = new Date();
-            date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
-            expires = "; expires=" + date.toUTCString();
-        }
-        document.cookie = name + "=" + (value || "") + expires + "; path=/";
     }
 
     const getCookie = (name) => {
@@ -50,41 +35,7 @@ const CustomCheckout = function () {
         return null;
     }
 
-    const eraseCookie = (name) => {
-        document.cookie = name + '=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
-    }
-
     const pasosCheckout = (location) => {
-
-        /* ESTRUCTURA PASOS CHECKOUT*/
-        /*
-        <ul class="checkoutPasos">
-            <li class="pasoActivo currentPaso" data-step="cart">
-                <div class="icon">
-                    <i class="icom-checkout-resumen-compra"></i>
-                </div>
-                <p class="nameStep">RESUMEN DE <br />COMPRA</p>
-            </li>
-            <li data-step="email">
-                <div class="icon">
-                    <i class="icom-checkout-ingreso-email"></i>
-                </div>
-                <p class="nameStep">INGRESA TU <br />EMAIL</p>
-            </li>
-            <li data-step="shipping">
-                <div class="icon">
-                    <i class="icom-checkout-envio-pago"></i>
-                </div>
-                <p class="nameStep">ENVÍO Y <br />PAGO</p>
-            </li>
-            <li data-step="orderPlaced">
-                <div class="icon">
-                    <i class="icom-checkout-pedido-confirmado"></i>
-                </div>
-                <p class="nameStep">PEDIDO <br />CONFIRMADO</p>
-            </li>
-        </ul>
-        */
 
         var statusCheckout = {
             "step1": "cart",
@@ -127,118 +78,31 @@ const CustomCheckout = function () {
 
     }
 
-    const editsProfileForm = () => {
-        var $docTypeSelect = $('<select>').attr("id", "client-doc-type");
-        var $originaldocTypSelect = $('#client-document-type');
-        var $clientNewdocument = $('#client-new-document');
-        var $checkTerms = $("#terms-conditions");
-        var $checkData = $("#authorize-data");
-
-        const endCookies = (24 * 2)
-
-        // docTypeSelector($docTypeSelect, $originaldocTypSelect, $clientNewdocument)
-
-        $('#go-to-shipping, #go-to-payment').click(function (e) {
-            // e.preventDefault();
-            // if ($docTypeSelect.val().lenght !== '') {
-            //   checkDocTypeExist($docTypeSelect.val(), $originaldocTypSelect, $docTypeSelect)
-            // }
-
-            $('.dataCheck input').each(function () {
-                let $checkProfile = $(this);
-                if ($checkProfile.prop("checked") === false) {
-                    $checkProfile.parent().next().show()
-                }
-            })
-            // if ($originaldocTypSelect.val().length > 0 && $clientNewdocument.val().length > 0 && $checkTerms.prop("checked") === true && $checkData.prop("checked") === true) {
-            if ($checkTerms.prop("checked") === true) {
-                // console.log('PUEDE AVANZAR');
-                // eraseCookie('numDocumento')
-                // eraseCookie('tipoDocumento')
-                eraseCookie('terminosCondiciones')
-                // eraseCookie('tratamientoDatos')
-                // setCookie('numDocumento', $clientNewdocument.val(), endCookies)
-                // setCookie('tipoDocumento', $originaldocTypSelect.val(), endCookies)
-                setCookie('terminosCondiciones', true, endCookies)
-                // setCookie('tratamientoDatos', true, endCookies)
-                // console.log(e.target)
-                // console.log(e.target.id)
-
-                const dataClient = {
-                    documentNumber: document.getElementById("client-document").value,
-                    documentType: "Cédula de Ciudadanía",
-                    firstName: document.getElementById("client-first-name").value,
-                    isCorporate: (document.getElementById("client-company-ie") && document.getElementById("client-company-ie").value != "") ? true : false,
-                    lastName: document.getElementById("client-last-name").value,
-                    phone: document.getElementById("client-phone").value,
-                    email: document.getElementById("client-email").value,
-                    acceptTerms: true,
-                }
-                const validateEmpty = Object.values(dataClient).some(obj => obj === "");
-
-                if (!validateEmpty) {
-                    guardarDatosMasterData(dataClient, "CC");
-                }
-
-                switch (e.target.id) {
-                    case 'go-to-shipping':
-                        window.location.hash = 'shipping'
-                        break;
-                    case 'go-to-payment':
-                        window.location.hash = 'payment'
-                        break;
-                }
-            }
-            else {
-                // console.log('NO PUEDE AVANZAR');
-            }
-        });
-    };
-
     const checkTerms = () => {
-        let $newsletter = $('.box-client-info .newsletter');
-        if ($newsletter.length) {
+        let $totalizers = $('.cart-template:not(.mini-cart) .summary-template-holder .cart-totalizers');
+        if ($totalizers.length) {
             var newCheck = '';
-
-            newCheck += '    <p id="contain-terms" class="terms-conditions dataCheck">'
+            newCheck += '    <div id="contain-terms">'
+            newCheck += '    <p class="terms-conditions dataCheck">'
             newCheck += '        <label for="terms-conditions" class="checkbox check-label label-error">'
             newCheck += '            <input id="terms-conditions" type="checkbox" required>'
             newCheck += '            <span class="btnCheckbox"></span>'
             newCheck += '            <span class="check-text">'
             newCheck += '                He leído y aceptado las políticas de privacidad y Tratamiento de datos Personales'
-            /*
-            newCheck += '                <a href="/estatico/terminos-condiciones" target="_blank" class="linkAcceptTerms">Términos y Condiciones </a>'
-            newCheck += '                y las '
-            newCheck += '                <a href="/estatico/politicas-privacidad" target="_blank" class="linkAcceptTerms">Políticas de uso de cookies</a>'
-            */
             newCheck += '            .</span>'
             newCheck += '        </label>'
             newCheck += '        <span class="help error check-error terms-data-error" style="display:none">'
             newCheck += '            Este campo es obligatorio.'
             newCheck += '        </span>'
             newCheck += '    </p>'
-            /*
-            newCheck += '    <p id="contain-authorize" class="authorize-data dataCheck">'
-            newCheck += '        <label for="authorize-data" class="checkbox check-label label-error">'
-            newCheck += '            <input id="authorize-data" type="checkbox" required>'
-            newCheck += '            <span class="btnCheckbox"></span>'
-            newCheck += '            <span class="check-text">'
-            newCheck += '                Acepto recibir comunicaciones informativas y/o promocionales relacionadas a los diversos productos y servicios que se comercializan en Diners Club Mall'
-            newCheck += '            .</span>'
-            newCheck += '        </label>'
-            newCheck += '        <span class="help error check-error authorize-data-error" style="display:none">'
-            newCheck += '            Este campo es obligatorio.'
-            newCheck += '        </span>'
-            newCheck += '    </p>'
-            */
+            newCheck += '    <p style="margin-top: 10px; font-size: 12px; color: grey">Mediante la aceptación de la Política de Habeas Data y Tratamiento de Datos personales se certifica que el usuario o cliente es una persona mayor de edad (18 años) y podrá ser tratada de acuerdo con la política de tratamiento de datos.</p>';
+            newCheck += '    </div>';
 
-            $(newCheck).insertBefore($newsletter)
+            $(newCheck).insertAfter($totalizers);
+
             if (getCookie('terminosCondiciones')) {
                 $('#terms-conditions').attr("checked", true)
             }
-            // if (getCookie('tratamientoDatos')) {
-            //   $('#authorize-data').attr("selected", "selected")
-            // }
 
             $('#terms-conditions, #authorize-data').change(function () {
                 let checkInput = $(this);
@@ -253,68 +117,40 @@ const CustomCheckout = function () {
         }
     }
 
-    const docTypeSelector = (selectDoc, inputOrgDoc, inputNumDoc) => {
+    const validateTerms = () => {
+        setTimeout(function () {
+            const buttonFinalizePurchase = document.getElementById("cart-to-orderform");
+            const checkboxTyc = document.getElementById("terms-conditions");
+            checkboxTyc.checked = true;
 
-        var docTypeOptions;
-        docTypeOptions += '<option value="">Selecciona un Tipo</option>';
-        docTypeOptions += '<option value="DNI">DNI</option>';
-        docTypeOptions += '<option value="DNI Extranjero">DNI Extranjero</option>';
+            checkboxTyc.addEventListener("click", function () {
+                if (checkboxTyc.checked === true) {
+                    buttonFinalizePurchase.classList.remove("disabled")
+                } else {
+                    buttonFinalizePurchase.classList.add("disabled")
+                }
+            });
 
-        $(docTypeOptions).appendTo(selectDoc);
-        inputOrgDoc.before(selectDoc).trigger('blur');
+            $("button#payment-data-submit").on("click", function () {
+                const dataClient = {
+                    documentNumber: window.API.orderForm.clientProfileData.document,
+                    documentType: "Cédula de Ciudadanía",
+                    firstName: window.API.orderForm.clientProfileData.firstName,
+                    isCorporate: window.API.orderForm.clientProfileData.isCorporate,
+                    lastName: window.API.orderForm.clientProfileData.lastName,
+                    phone: window.API.orderForm.clientProfileData.phone,
+                    email: window.API.orderForm.clientProfileData.email,
+                    acceptTerms: true,
+                }
+                const validateEmpty = Object.values(dataClient).some(obj => obj === "");
 
-        $('#no-document-key').trigger('click');
+                if (!validateEmpty) {
+                    guardarDatosMasterData(dataClient, "CC");
+                }
+            })
 
-        if (getCookie('tipoDocumento')) {
-            checkDocTypeExist(getCookie('tipoDocumento'), inputOrgDoc, selectDoc)
-            inputNumDoc.val(getCookie('numDocumento')).addClass('success').removeClass('error');
-        }
-        if (inputOrgDoc.val().length > 0) {
-            selectDoc.find('option').removeAttr('selected');
-            selectDoc.find('option[value="' + inputOrgDoc.val() + '"]').prop("selected", "selected");
-        }
-
-        selectDoc.change(function () {
-            checkDocTypeExist($(this).val(), inputOrgDoc, $(this))
-        });
+        }, 1000)
     }
-
-    const checkDocTypeExist = (value, inputOrgDoc, selectDoc) => {
-        inputOrgDoc.val(value);
-
-        if (value !== '') {
-            // console.log('if')
-            selectDoc.removeClass('error')
-            inputOrgDoc.addClass('success').removeClass('error');
-            inputOrgDoc.next().removeClass('showError')
-        }
-        else {
-            // console.log('else')
-            selectDoc.addClass('error')
-            inputOrgDoc.addClass('error').removeClass('success');
-            inputOrgDoc.next().addClass('showError')
-        }
-    };
-
-    const validateDocument = () => {
-        $('#client-document, #client-new-document').keydown(function (e) {
-            // Allow: backspace, delete, tab, escape, enter and .
-            if ($('#client-doc-type').val() !== '') {
-                if ($.inArray(e.keyCode, [46, 8, 9, 27, 13, 110, 190]) !== -1 ||
-                    // Allow: Ctrl+A, Command+A
-                    (e.keyCode === 65 && (e.ctrlKey === true || e.metaKey === true)) ||
-                    // Allow: home, end, left, right, down, up
-                    (e.keyCode >= 35 && e.keyCode <= 40)) {
-                    // let it happen, don't do anything
-                    return;
-                }
-                // Ensure that it is a number and stop the keypress
-                if ((e.shiftKey || (e.keyCode < 48 || e.keyCode > 57)) && (e.keyCode < 96 || e.keyCode > 105)) {
-                    e.preventDefault();
-                }
-            }
-        });
-    };
 
     const editsSummaryCart = () => {
         setInterval(() => {
@@ -388,25 +224,6 @@ addiAllySlug = 'pilatos-ecommerce';
 $.getScript('https://s3.amazonaws.com/statics.addi.com/vtex/js/vtex-checkout-co.bundle.min.js');
 
 $(".product-item-attachment-offerings-select option:contains('prices')").remove();
-
-// inicio codigo
-$(document).ready(function () {
-    // Obtener el elemento .newsletter-text
-    const containerForm = $(".terms-conditions.dataCheck");
-
-    // Crear el mensaje
-    const containerInfo = $("<div>Mediante la aceptación de la Política de Habeas Data y Tratamiento de Datos personales se certifica que el usuario o cliente es una persona mayor de edad (18 años) y podrá ser tratada de acuerdo con la política de tratamiento de datos.</div>");
-
-    // Agregar estilos al mensaje
-    containerInfo.css({
-        marginTop: "10px",
-        fontSize: "12px",
-        color: "grey"
-    });
-
-    // Agregar el mensaje después del elemento .newsletter-text
-    containerForm.after(containerInfo);
-});
 
 // Nequi como medio de pago oculto de PSE
 $(window).on("load", function () { $(".btn.debit-list-selector").find('option:contains("NEQUI")').hide() })

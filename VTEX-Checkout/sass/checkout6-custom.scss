@@ -1,150 +1,148 @@
-@import url('/arquivos/font-icommon.css');
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&display=swap');
+@import url("/arquivos/font-icommon.css");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&display=swap");
 
 // COLORES
-$negro                          : #000;
-$blanco                         : #fff;
-$lightgray                      : #EFEFEF;
-$middlegray                     : #D9D9D9;
-$darkgray                       : #333333;
-$gray2                          : #4F4F4F;
-$gray3                          : #848484;
-$gray4                          : #BDBDBD;
-$gris5                          : #757575;
-$gray6                          : #F2F2F2;
-$yellow                         : #FFD400;
-$dark-yellow                    : #F2A922;
-$dark-brown                     : #B5690C;
-$brown                          : #000000;
-$dark-beige                     : #BF9663;
-$beige                          : #D1AC80;
-$light-beige                    : #D9C9BA;
-$back-product                   : #EFEFEF;
-$blue                           : #1E83C1;
-$green                          : #31AF31;
-$yellow-cat                     : #EAC428;
-$orange                         : #E25E1B;
-$red                            : #D31822;
+$negro: #000;
+$blanco: #fff;
+$lightgray: #efefef;
+$middlegray: #d9d9d9;
+$darkgray: #333333;
+$gray2: #4f4f4f;
+$gray3: #848484;
+$gray4: #bdbdbd;
+$gris5: #757575;
+$gray6: #f2f2f2;
+$yellow: #ffd400;
+$dark-yellow: #f2a922;
+$dark-brown: #b5690c;
+$brown: #000000;
+$dark-beige: #bf9663;
+$beige: #d1ac80;
+$light-beige: #d9c9ba;
+$back-product: #efefef;
+$blue: #1e83c1;
+$green: #31af31;
+$yellow-cat: #eac428;
+$orange: #e25e1b;
+$red: #d31822;
 
-
-$mini                           : 90%;
-$maxi                           : 1440px;
+$mini: 90%;
+$maxi: 1440px;
 
 // BREIKPOINTS
-$breakIframeMobile              : 300px;
+$breakIframeMobile: 300px;
 
-$breakExtraSmallMobile          : 270px;
-$breakSmallMobile               : 480px;
-$breakMobile                    : 767px;
-$breakTabletVert                : 1023px;
-$breakTabletHorz                : 1024px;
-$breakDesktop                   : 1025px;
-$breakHightDesktop              : 1500px;
+$breakExtraSmallMobile: 270px;
+$breakSmallMobile: 480px;
+$breakMobile: 767px;
+$breakTabletVert: 1023px;
+$breakTabletHorz: 1024px;
+$breakDesktop: 1025px;
+$breakHightDesktop: 1500px;
 
 // TIPOGRAFIAS
-$font_family_barlow             : 'Mulish';
-$font_family_poppins            : 'Mulish';
+$font_family_barlow: "Mulish";
+$font_family_poppins: "Mulish";
 
 // ICONOS
-$icomoon-font-family            : "cafe-etrusca" !default;
-$icomoon-font-path              : "/arquivos" !default;
+$icomoon-font-family: "cafe-etrusca" !default;
+$icomoon-font-path: "/arquivos" !default;
 
-$icom-arrow-down                : "\e900";
-$icom-arrow-left                : "\e901";
-$icom-arrow-rigth               : "\e902";
-$icom-b2b-alert                 : "\e903";
-$icom-b2b-carga-masiva          : "\e904";
-$icom-b2b-pdf                   : "\e905";
-$icom-backCE                    : "\e906";
-$icom-box                       : "\e907";
-$icom-cart                      : "\e908";
-$icom-check                     : "\e909";
-$icom-close                     : "\e90e";
-$icom-columns-four              : "\e90f";
-$icom-columns-three             : "\e910";
-$icom-comment                   : "\e911";
-$icom-email                     : "\e912";
-$icom-facebook                  : "\e913";
-$icom-instagram                 : "\e914";
-$icom-location                  : "\e915";
-$icom-logout                    : "\e92e";
-$icom-menu                      : "\e92f";
-$icom-newsletter-path1          : "\e930";
-$icom-newsletter-path2          : "\e931";
-$icom-newsletter-path3          : "\e932";
-$icom-newsletter-path4          : "\e933";
-$icom-newsletter-path5          : "\e934";
-$icom-newsletter-path6          : "\e935";
-$icom-phone                     : "\e943";
-$icom-profile                   : "\e944";
-$icom-quickview                 : "\e945";
-$icom-safety                    : "\e946";
-$icom-search                    : "\e947";
-$icom-security                  : "\e948";
-$icom-star                      : "\e949";
-$icom-star-full                 : "\e94a";
-$icom-swipe-left                : "\e94b";
-$icom-trash                     : "\e94c";
-$icom-truck                     : "\e954";
-$icom-triangle                  : "\e94d";
-$icom-twitter                   : "\e94e";
-$icom-whatsapp                  : "\e94f";
-$icom-wishlist                  : "\e950";
-$icom-wishlist-full             : "\e951";
-$icom-wishlist-icon             : "\e952";
-$icom-youtube                   : "\e953";
+$icom-arrow-down: "\e900";
+$icom-arrow-left: "\e901";
+$icom-arrow-rigth: "\e902";
+$icom-b2b-alert: "\e903";
+$icom-b2b-carga-masiva: "\e904";
+$icom-b2b-pdf: "\e905";
+$icom-backCE: "\e906";
+$icom-box: "\e907";
+$icom-cart: "\e908";
+$icom-check: "\e909";
+$icom-close: "\e90e";
+$icom-columns-four: "\e90f";
+$icom-columns-three: "\e910";
+$icom-comment: "\e911";
+$icom-email: "\e912";
+$icom-facebook: "\e913";
+$icom-instagram: "\e914";
+$icom-location: "\e915";
+$icom-logout: "\e92e";
+$icom-menu: "\e92f";
+$icom-newsletter-path1: "\e930";
+$icom-newsletter-path2: "\e931";
+$icom-newsletter-path3: "\e932";
+$icom-newsletter-path4: "\e933";
+$icom-newsletter-path5: "\e934";
+$icom-newsletter-path6: "\e935";
+$icom-phone: "\e943";
+$icom-profile: "\e944";
+$icom-quickview: "\e945";
+$icom-safety: "\e946";
+$icom-search: "\e947";
+$icom-security: "\e948";
+$icom-star: "\e949";
+$icom-star-full: "\e94a";
+$icom-swipe-left: "\e94b";
+$icom-trash: "\e94c";
+$icom-truck: "\e954";
+$icom-triangle: "\e94d";
+$icom-twitter: "\e94e";
+$icom-whatsapp: "\e94f";
+$icom-wishlist: "\e950";
+$icom-wishlist-full: "\e951";
+$icom-wishlist-icon: "\e952";
+$icom-youtube: "\e953";
 
 // ICONOS PDP
-$icom-pdp-catacion              : "\e936";
-$icom-pdp-centimetros           : "\e937";
-$icom-pdp-gramos                : "\e938";
-$icom-pdp-inventario            : "\e939";
-$icom-pdp-kilogramos            : "\e93a";
-$icom-pdp-litros                : "\e93b";
-$icom-pdp-onzas                 : "\e93c";
-$icom-pdp-pago-seguro           : "\e93d";
-$icom-pdp-peso                  : "\e93e";
-$icom-pdp-revolucionesporminuto : "\e93f";
-$icom-pdp-tueste                : "\e940";
-$icom-pdp-unidades              : "\e941";
-$icom-pdp-volts                 : "\e942";
+$icom-pdp-catacion: "\e936";
+$icom-pdp-centimetros: "\e937";
+$icom-pdp-gramos: "\e938";
+$icom-pdp-inventario: "\e939";
+$icom-pdp-kilogramos: "\e93a";
+$icom-pdp-litros: "\e93b";
+$icom-pdp-onzas: "\e93c";
+$icom-pdp-pago-seguro: "\e93d";
+$icom-pdp-peso: "\e93e";
+$icom-pdp-revolucionesporminuto: "\e93f";
+$icom-pdp-tueste: "\e940";
+$icom-pdp-unidades: "\e941";
+$icom-pdp-volts: "\e942";
 
 // ICONOS CHECKOUT
-$icom-checkout-envio-pago       : "\e90a";
-$icom-checkout-ingreso-email    : "\e90b";
+$icom-checkout-envio-pago: "\e90a";
+$icom-checkout-ingreso-email: "\e90b";
 $icom-checkout-pedido-confirmado: "\e90c";
-$icom-checkout-resumen-compra   : "\e90d";
+$icom-checkout-resumen-compra: "\e90d";
 
 // LOGO ICONO
-$icom-logo-CE-path1             : "\e916";
-$icom-logo-CE-path2             : "\e917";
-$icom-logo-CE-path3             : "\e918";
-$icom-logo-CE-path4             : "\e919";
-$icom-logo-CE-path5             : "\e91a";
-$icom-logo-CE-path6             : "\e91b";
-$icom-logo-CE-path7             : "\e91c";
-$icom-logo-CE-path8             : "\e91d";
-$icom-logo-CE-path9             : "\e91e";
-$icom-logo-CE-path10            : "\e91f";
-$icom-logo-CE-path11            : "\e920";
-$icom-logo-CE-path12            : "\e921";
-$icom-logo-CE-path13            : "\e922";
-$icom-logo-CE-path14            : "\e923";
-$icom-logo-CE-path15            : "\e924";
-$icom-logo-CE-path16            : "\e925";
-$icom-logo-CE-path17            : "\e926";
-$icom-logo-CE-path18            : "\e927";
-$icom-logo-CE-path19            : "\e928";
-$icom-logo-CE-path20            : "\e929";
-$icom-logo-CE-path21            : "\e92a";
-$icom-logo-CE-path22            : "\e92b";
-$icom-logo-CE-path23            : "\e92c";
-$icom-logo-CE-path24            : "\e92d";
+$icom-logo-CE-path1: "\e916";
+$icom-logo-CE-path2: "\e917";
+$icom-logo-CE-path3: "\e918";
+$icom-logo-CE-path4: "\e919";
+$icom-logo-CE-path5: "\e91a";
+$icom-logo-CE-path6: "\e91b";
+$icom-logo-CE-path7: "\e91c";
+$icom-logo-CE-path8: "\e91d";
+$icom-logo-CE-path9: "\e91e";
+$icom-logo-CE-path10: "\e91f";
+$icom-logo-CE-path11: "\e920";
+$icom-logo-CE-path12: "\e921";
+$icom-logo-CE-path13: "\e922";
+$icom-logo-CE-path14: "\e923";
+$icom-logo-CE-path15: "\e924";
+$icom-logo-CE-path16: "\e925";
+$icom-logo-CE-path17: "\e926";
+$icom-logo-CE-path18: "\e927";
+$icom-logo-CE-path19: "\e928";
+$icom-logo-CE-path20: "\e929";
+$icom-logo-CE-path21: "\e92a";
+$icom-logo-CE-path22: "\e92b";
+$icom-logo-CE-path23: "\e92c";
+$icom-logo-CE-path24: "\e92d";
 
 /**{
     font-family: $font_family_barlow !important;
 }*/
-
 
 @function calculateRem($size) {
     // $remSize: $size / $font_size_default;
@@ -244,57 +242,86 @@ html {
     position: relative;
     scroll-behavior: smooth;
 }
-body{
+body {
     overflow-x: hidden;
     &.no-scroll {
         overflow: hidden;
     }
 }
 
-*{
+* {
     font-family: $font_family_barlow;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     scrollbar-color: $light-beige $back-product;
     scrollbar-width: thin;
-    &:focus{
+    &:focus {
         outline: none;
     }
 }
 
 /* COLOR SELECCION */
-::selection {background: $light-beige;color: $blanco;}
-::-moz-selection {background: $light-beige;color: $blanco;}
-::-webkit-selection {background: $light-beige;color: $blanco;}
+::selection {
+    background: $light-beige;
+    color: $blanco;
+}
+::-moz-selection {
+    background: $light-beige;
+    color: $blanco;
+}
+::-webkit-selection {
+    background: $light-beige;
+    color: $blanco;
+}
 /* COLOR SELECCION */
 
 /* COLOR SCROLL */
-::-webkit-scrollbar {width: 5px;background-color: $back-product;opacity: 0;}
-::-webkit-scrollbar:horizontal {height: 4px;width: auto;}
-::-webkit-scrollbar-track {background-color: $back-product;position: absolute;top: 0;right: 0;width: 5px;text-align: center;}
-::-webkit-scrollbar-thumb {background: $light-beige;position: absolute;top: 0;right: 0;}
+::-webkit-scrollbar {
+    width: 5px;
+    background-color: $back-product;
+    opacity: 0;
+}
+::-webkit-scrollbar:horizontal {
+    height: 4px;
+    width: auto;
+}
+::-webkit-scrollbar-track {
+    background-color: $back-product;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 5px;
+    text-align: center;
+}
+::-webkit-scrollbar-thumb {
+    background: $light-beige;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
 /* COLOR SCROLL */
 
-a{
+a {
     text-decoration: none;
 }
-p, form{
+p,
+form {
     margin: 0;
     padding: 0;
 }
-input{
-    border:none;
+input {
+    border: none;
     outline: none;
     border-radius: 0;
 }
-ul{
+ul {
     padding: 0;
     margin: 0;
     list-style: none;
 }
 
-img{
+img {
     display: block;
 }
 
@@ -586,67 +613,66 @@ div.checkoutFooter {
 }
 /* FOOTER CHECKOUT */
 
-.blackBox{
+.blackBox {
     position: fixed;
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
-    background-color: rgba($negro, .25);
+    background-color: rgba($negro, 0.25);
     z-index: 200;
-    .contModal-blackbox{
+    .contModal-blackbox {
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
         width: fit-content;
-        .closeBtn-blackBox{
+        .closeBtn-blackBox {
             position: absolute;
             top: 20px;
             right: 20px;
             cursor: pointer;
             color: $brown;
             @include fontSize(18);
-            @include screen-max-width($breakMobile){
+            @include screen-max-width($breakMobile) {
                 @include fontSize(15);
             }
         }
-        .innerModal-blackBox{
-            &.modal-facturacion{
+        .innerModal-blackBox {
+            &.modal-facturacion {
                 background-color: $blanco;
                 min-width: 650px;
                 max-width: 650px;
                 padding: 25px 25px;
 
-                h2{
+                h2 {
                     @include popins(12, 700, 0.05, none, uppercase);
                     line-height: 14px;
                     color: $negro;
                     margin: 0 0 30px;
                 }
 
-                form{
-                    
-                    div.campos{
+                form {
+                    div.campos {
                         display: flex;
                         flex-wrap: wrap;
                         justify-content: space-between;
                         align-items: flex-start;
                     }
 
-                    div.check{
+                    div.check {
                         width: 100%;
                         margin-bottom: 13px;
-                        >p{
+                        > p {
                             @include barlow(13, 400, 0.025);
                             color: $negro;
                             margin-bottom: 10px;
                         }
-                        label{
+                        label {
                             width: fit-content;
                             margin: 0;
                         }
-                        input{
+                        input {
                             display: block !important;
                             margin: 0;
                             position: absolute;
@@ -657,15 +683,15 @@ div.checkoutFooter {
                             appearance: checkbox;
 
                             &:checked ~ .checkSlide {
-                                &:after{
+                                &:after {
                                     left: 0;
                                 }
-                                p.agree{
+                                p.agree {
                                     color: $blanco;
                                 }
                             }
                         }
-                        .checkSlide{
+                        .checkSlide {
                             width: 110px;
                             height: 25px;
                             border-radius: 200px;
@@ -675,8 +701,8 @@ div.checkoutFooter {
                             align-items: center;
                             position: relative;
                             cursor: pointer;
-                            &:after{
-                                content: '';
+                            &:after {
+                                content: "";
                                 display: block;
                                 width: 50%;
                                 height: 100%;
@@ -688,7 +714,7 @@ div.checkoutFooter {
                                 @include transition(all, 0.2s ease 0s);
                                 z-index: 1;
                             }
-                            p{
+                            p {
                                 width: 50%;
                                 height: 100%;
                                 display: flex;
@@ -699,37 +725,35 @@ div.checkoutFooter {
                                 line-height: inherit;
                                 @include transition(all, 0.2s ease 0s);
                                 z-index: 2;
-                                &.disagree{
+                                &.disagree {
                                     color: $blanco;
                                 }
                             }
                         }
                     }
 
-                    p.alertMessage{
+                    p.alertMessage {
                         margin-top: 20px;
                         @include barlow(10, 300, 0.025);
                         text-align: center;
                         color: $negro;
                     }
 
-                    label{
+                    label {
                         display: block;
                         width: 48%;
                         margin-bottom: 13px;
-                        @include screen-max-width($breakMobile){
+                        @include screen-max-width($breakMobile) {
                             width: 100%;
                         }
-                        p{
+                        p {
                             @include barlow(13, 700, 0.055);
                             color: $brown;
                         }
-                        
-                        
                     }
 
                     input,
-                    select{
+                    select {
                         width: 100%;
                         height: 30px;
                         outline: none;
@@ -745,7 +769,7 @@ div.checkoutFooter {
                     }
 
                     select {
-                        background-image: url('/arquivos/select-triangle.png');
+                        background-image: url("/arquivos/select-triangle.png");
                         background-repeat: no-repeat;
                         background-position: calc(100% - 4px) center;
                         background-size: 10px;
@@ -753,7 +777,7 @@ div.checkoutFooter {
                         appearance: none;
                     }
 
-                    button{
+                    button {
                         align-self: center;
                         display: flex !important;
                         align-items: center;
@@ -764,23 +788,23 @@ div.checkoutFooter {
                         border: none;
                         border-radius: 0;
                         background: $negro;
-                        @include transition (background 0.3s ease 0s);
+                        @include transition(background 0.3s ease 0s);
                         cursor: pointer;
                         @include popins(15, 600, 0, none, uppercase);
                         color: $blanco;
-                        @include screen-min-width($breakDesktop){
-                            &:hover{
+                        @include screen-min-width($breakDesktop) {
+                            &:hover {
                                 background-color: $yellow;
                                 color: $negro;
                             }
                         }
-                        @include screen-max-width($breakMobile){
+                        @include screen-max-width($breakMobile) {
                             width: 100%;
                         }
                     }
 
                     span[class*="error"],
-                    .messages{
+                    .messages {
                         display: block;
                         margin-top: 6px;
                         @include popins(11, 400, 0.015, none);
@@ -793,7 +817,7 @@ div.checkoutFooter {
                 }
             }
 
-            &.modal-success{
+            &.modal-success {
                 min-width: 600px;
                 max-width: 600px;
                 height: 200px;
@@ -803,41 +827,41 @@ div.checkoutFooter {
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
-                @include screen-max-width($breakMobile){
+                @include screen-max-width($breakMobile) {
                     height: auto;
                     padding: 20px 20px;
                     background-position: center 0px;
                     background-size: auto 120px;
                 }
-                h3{
+                h3 {
                     display: table;
                     margin: 0 auto;
                     padding: 15px 0 10px;
                     @include popins(20, 700, 0.01, none);
                     color: $negro;
                     text-align: center;
-                    @include screen-max-width($breakMobile){
+                    @include screen-max-width($breakMobile) {
                         padding: 70px 0 0;
                         @include fontSize(15);
-                    }   
+                    }
                 }
-                p{
+                p {
                     margin: 0 auto;
                     padding: 0px 0 20px;
                     @include barlow(13, 400, 0.015);
                     text-align: center;
                     color: $negro;
                     max-width: 300px;
-                    @include screen-max-width($breakMobile){
+                    @include screen-max-width($breakMobile) {
                         @include barlow(12, 400);
                         max-width: 250px;
                     }
                 }
-                a{
+                a {
                     position: unset;
                 }
                 a,
-                button{
+                button {
                     cursor: pointer;
                     margin: 0 auto;
                     padding: 8px;
@@ -853,13 +877,13 @@ div.checkoutFooter {
                     @include popins(13, 600, 0, none, uppercase);
                     color: $blanco;
                     @include transition(all 0.3s ease 0s);
-                    @include screen-min-width($breakDesktop){
-                        &:hover{
+                    @include screen-min-width($breakDesktop) {
+                        &:hover {
                             background-color: $yellow;
                             color: $negro;
                         }
                     }
-                    @include screen-max-width($breakDesktop){
+                    @include screen-max-width($breakDesktop) {
                         width: 200px;
                     }
                 }
@@ -1574,7 +1598,7 @@ div.checkoutFooter {
 
                                                 a {
                                                     i {
-                                                        font-family: 'icomoon'!important;
+                                                        font-family: "icomoon" !important;
                                                         speak: never;
                                                         font-style: normal;
                                                         font-weight: normal;
@@ -1586,7 +1610,7 @@ div.checkoutFooter {
                                                         @include fontSize(20);
 
                                                         &:before {
-                                                            content: '\e91e';
+                                                            content: "\e91e";
                                                             font-weight: 500;
                                                         }
                                                     }
@@ -1661,12 +1685,11 @@ div.checkoutFooter {
 
                                                 &.coupon-fields {
                                                     span {
-
-                                                        .delete{
-                                                            a{
-                                                                margin-left: .8rem;
+                                                        .delete {
+                                                            a {
+                                                                margin-left: 0.8rem;
                                                                 background: #000000;
-                                                                padding: .6rem 2rem;
+                                                                padding: 0.6rem 2rem;
                                                                 color: #ffffff;
                                                                 border-radius: 100px;
                                                                 font-size: 12px;
@@ -1819,7 +1842,7 @@ div.checkoutFooter {
                                             }
                                         }
                                     }
-                                    .srp-description{
+                                    .srp-description {
                                         padding-right: 3rem !important;
                                     }
                                     label[class*="srp"],
@@ -2029,9 +2052,9 @@ div.checkoutFooter {
                                         }
                                     }
                                     .srp-delivery-info {
-                                        p{
-                                            span::after{
-                                                content: ' ';
+                                        p {
+                                            span::after {
+                                                content: " ";
                                             }
                                         }
 
@@ -2254,6 +2277,111 @@ div.checkoutFooter {
                                 }
                             }
                             /* RESUMEN DEL TOTAL */
+                            /* CHECKBOX DE TERMINOS */
+                            #contain-terms {
+                                max-width: 45%;
+                                float: right;
+                                margin: 1rem 0 1rem auto;
+                                .dataCheck {
+                                    padding: 15px 0 15px;
+                                    &.authorize-data {
+                                        padding-bottom: 15px;
+                                    }
+                                    label.check-label {
+                                        display: flex;
+                                        flex-direction: row;
+                                        align-content: center;
+                                        width: 100%;
+                                        margin: 0 auto;
+                                        padding: 0;
+                                        cursor: pointer;
+                                        text-align: left;
+                                        user-select: none;
+                                        // align-items: center;
+                                        align-items: flex-start;
+                                        justify-content: center;
+
+                                        // input[type="radio"]
+                                        input[type="checkbox"] {
+                                            display: block !important;
+                                            margin: 0;
+                                            position: absolute;
+                                            width: auto;
+                                            height: auto;
+                                            opacity: 0;
+                                            appearance: checkbox;
+
+                                            &:checked ~ span.btnCheckbox {
+                                                &:before {
+                                                    color: black;
+                                                }
+                                            }
+                                        }
+
+                                        span.btnCheckbox {
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: center;
+                                            width: 12px;
+                                            height: 12px;
+                                            min-width: 12px;
+                                            max-width: 12px;
+                                            min-height: 12px;
+                                            max-height: 12px;
+                                            position: relative;
+
+                                            border-radius: 2px;
+                                            border: 1px solid black;
+                                            background-color: white;
+                                            margin: 0px 5px 0 0;
+
+                                            font-family: "#{$icomoon-font-family}" !important;
+
+                                            &:before {
+                                                content: "\2713";
+                                                @include fontSize(8);
+                                                display: flex;
+                                                align-items: center;
+                                                justify-content: center;
+                                                width: 100%;
+                                                height: 100%;
+                                                color: white;
+                                                position: absolute;
+                                                top: 50%;
+                                                left: 50%;
+                                                transform: translate(-50%, -50%);
+                                            }
+
+                                            // &.checkedInput {
+                                            //     // border 6px solid $rojo
+                                            //     // background: $azulOsc2;
+                                            // }
+                                        }
+
+                                        span.check-text {
+                                            padding-right: 1rem;
+                                            margin: 0;
+                                            width: 100%;
+                                            @include barlow(11, 400, 0.01);
+                                            color: $negro;
+                                            line-height: 13px;
+
+                                            a {
+                                                @include barlow(11, 400, 0.01);
+                                                color: $yellow;
+                                                text-decoration: underline;
+                                            }
+                                        }
+                                    }
+                                    span.error {
+                                        width: 100%;
+                                        @include barlow(11, 400, 0.01);
+                                        color: $red;
+                                        text-align: center;
+                                    }
+                                }
+                            }
+                            /* CHECKBOX DE TERMINOS */
                         }
                     }
                     /* RESUMEN DE COMPRA */
@@ -2656,7 +2784,7 @@ div.checkoutFooter {
                             }
                             /* SECCION ACTIVA */
 
-                            /* BASE ESTRUCTURA GENERAL DATOS DE COMPRA */ 
+                            /* BASE ESTRUCTURA GENERAL DATOS DE COMPRA */
                             .accordion-heading {
                                 span.accordion-toggle {
                                     position: inherit;
@@ -2729,11 +2857,11 @@ div.checkoutFooter {
                                     }
                                 }
                             }
-                            /* BASE ESTRUCTURA GENERAL DATOS DE COMPRA */ 
+                            /* BASE ESTRUCTURA GENERAL DATOS DE COMPRA */
 
                             /* DATOS DEL CLIENTE */
                             &.client-profile-data {
-                                padding: 0 .5rem;
+                                padding: 0 0.5rem;
                                 /* TITULO DEL LA SECCION */
                                 .accordion-heading {
                                     span.accordion-toggle {
@@ -2853,10 +2981,10 @@ div.checkoutFooter {
                                                                     }
                                                                 }
                                                                 &.client-last-name {
-                                                                    label{
+                                                                    label {
                                                                         text-indent: -9999px;
-                                                                        &:before{
-                                                                            content: 'Apellido';
+                                                                        &:before {
+                                                                            content: "Apellido";
                                                                             width: 100%;
                                                                             float: left;
                                                                             text-indent: 0;
@@ -3074,111 +3202,6 @@ div.checkoutFooter {
                                                             /* CAMPOS DEL USUARIO */
                                                         }
                                                     }
-                                                    /* CHECKBOX DE TERMINOS */
-                                                    p {
-                                                        &.newsletter {
-                                                            display: none;
-                                                        }
-                                                        &.dataCheck {
-                                                            padding: 15px 0 15px;
-                                                            &.authorize-data {
-                                                                padding-bottom: 15px;
-                                                            }
-                                                            label.check-label {
-                                                                display: flex;
-                                                                flex-direction: row;
-                                                                align-content: center;
-                                                                width: 100%;
-                                                                margin: 0 auto;
-                                                                padding: 0;
-                                                                cursor: pointer;
-                                                                text-align: left;
-                                                                user-select: none;
-                                                                // align-items: center;
-                                                                align-items: flex-start;
-                                                                justify-content: center;
-
-                                                                // input[type="radio"]
-                                                                input[type="checkbox"] {
-                                                                    display: block !important;
-                                                                    margin: 0;
-                                                                    position: absolute;
-                                                                    width: auto;
-                                                                    height: auto;
-                                                                    opacity: 0;
-                                                                    appearance: checkbox;
-
-                                                                    &:checked ~ span.btnCheckbox {
-                                                                        &:before {
-                                                                            color: black;
-                                                                        }
-                                                                    }
-                                                                }
-
-                                                                span.btnCheckbox {
-                                                                    display: flex;
-                                                                    align-items: center;
-                                                                    justify-content: center;
-                                                                    width: 12px;
-                                                                    height: 12px;
-                                                                    min-width: 12px;
-                                                                    max-width: 12px;
-                                                                    min-height: 12px;
-                                                                    max-height: 12px;
-                                                                    position: relative;
-
-                                                                    border-radius: 2px;
-                                                                    border: 1px solid black;
-                                                                    background-color: white;
-                                                                    margin: 0px 5px 0 0;
-
-                                                                    font-family: "#{$icomoon-font-family}" !important;
-
-                                                                    &:before {
-                                                                        content: '\2713';
-                                                                        @include fontSize(8);
-                                                                        display: flex;
-                                                                        align-items: center;
-                                                                        justify-content: center;
-                                                                        width: 100%;
-                                                                        height: 100%;
-                                                                        color: white;
-                                                                        position: absolute;
-                                                                        top: 50%;
-                                                                        left: 50%;
-                                                                        transform: translate(-50%, -50%);
-                                                                    }
-
-                                                                    // &.checkedInput {
-                                                                    //     // border 6px solid $rojo
-                                                                    //     // background: $azulOsc2;
-                                                                    // }
-                                                                }
-
-                                                                span.check-text {
-                                                                    padding-right: 1rem;
-                                                                    margin: 0;
-                                                                    width: 100%;
-                                                                    @include barlow(11, 400, 0.01);
-                                                                    color: $negro;
-                                                                    line-height: 13px;
-
-                                                                    a {
-                                                                        @include barlow(11, 400, 0.01);
-                                                                        color: $yellow;
-                                                                        text-decoration: underline;
-                                                                    }
-                                                                }
-                                                            }
-                                                            span.error {
-                                                                width: 100%;
-                                                                @include barlow(11, 400, 0.01);
-                                                                color: $red;
-                                                                text-align: center;
-                                                            }
-                                                        }
-                                                    }
-                                                    /* CHECKBOX DE TERMINOS */
                                                 }
                                                 /* BOTON DE CONTINUAR */
                                                 p.btn-submit-wrapper {
@@ -3697,7 +3720,7 @@ div.checkoutFooter {
                                                         @include barlow(11, 400, 0.01);
                                                         color: $negro;
                                                         border-radius: 0px;
-                                                        border: 1px solid #B9B9B9;
+                                                        border: 1px solid #b9b9b9;
                                                         padding: 5px 5px;
                                                         outline: none;
                                                         box-shadow: none;
@@ -3710,7 +3733,7 @@ div.checkoutFooter {
 
                                                     select {
                                                         // height: 32px;
-                                                        border: 1px solid #B9B9B9;
+                                                        border: 1px solid #b9b9b9;
                                                         line-height: unset;
                                                         &#client-doc-type {
                                                             &.error {
@@ -3785,8 +3808,8 @@ div.checkoutFooter {
                                                     }
 
                                                     &.ship-city {
-                                                        select{
-                                                            border: 1px solid #B9B9B9;
+                                                        select {
+                                                            border: 1px solid #b9b9b9;
                                                         }
                                                     }
 
@@ -3807,7 +3830,7 @@ div.checkoutFooter {
                                                 order: 3;
                                                 margin-top: 15px;
                                             }
-                                            
+
                                             /* LISTA DE DIRECCIONES PREVIAS */
                                             &.vtex-omnishipping-1-x-addressFormPart1 {
                                                 .address-list {
@@ -3818,9 +3841,9 @@ div.checkoutFooter {
                                                         padding: 10px;
                                                         border: none;
                                                         background-color: transparent;
-                                                        &.vtex-omnishipping-1-x-active{
+                                                        &.vtex-omnishipping-1-x-active {
                                                             div.shp-option-icon {
-                                                                &::before{
+                                                                &::before {
                                                                     display: flex;
                                                                 }
                                                             }
@@ -3844,7 +3867,7 @@ div.checkoutFooter {
                                                                 justify-content: center;
                                                                 text-indent: 0;
                                                                 float: left;
-    
+
                                                                 width: 9px;
                                                                 height: 9px;
                                                                 background-color: $brown;
@@ -3910,7 +3933,7 @@ div.checkoutFooter {
                                                 }
                                             }
                                             /* LISTA DE DIRECCIONES PREVIAS */
-                                            
+
                                             /* LISTA OPCIONES DE ENTREGA */
                                             &.vtex-omnishipping-1-x-deliveryGroup {
                                                 order: 2;
@@ -3995,7 +4018,7 @@ div.checkoutFooter {
                                                 }
                                                 */
                                                 /* CALENDARIO ENTREGA */
-                                                
+
                                                 /*
                                                 div.shp-alert-delivery {
                                                     + p {
@@ -4553,7 +4576,7 @@ div.checkoutFooter {
                                                                     }
                                                                 }
 
-                                                                .payment-group-item-text{
+                                                                .payment-group-item-text {
                                                                     text-align: left;
                                                                 }
 
@@ -4599,15 +4622,15 @@ div.checkoutFooter {
                                                             grid-column: 1;
                                                             grid-row: 4;
                                                         }
-                                                        i{
+                                                        i {
                                                             color: $yellow;
                                                         }
-                                                        p{
+                                                        p {
                                                             color: $negro;
                                                         }
                                                     }
 
-                                                    @media only screen and (min-width: 1180px){
+                                                    @media only screen and (min-width: 1180px) {
                                                         .steps-view {
                                                             padding: 20px;
                                                         }
@@ -4738,7 +4761,7 @@ div.checkoutFooter {
                                                     color: $negro;
                                                     @include barlow(14, 800, 0.01);
                                                     float: left;
-                                                    margin-top: .4rem;
+                                                    margin-top: 0.4rem;
                                                 }
                                             }
                                         }
@@ -4888,14 +4911,14 @@ div.checkoutFooter {
                             /* BOTON DE FINALIZAR COMPRA */
                         }
 
-                        @media only screen and (min-width: 1180px){
+                        @media only screen and (min-width: 1180px) {
                             .cart-fixed {
                                 width: 310px;
                             }
                         }
                     }
 
-                    @media only screen and (min-width: 1180px){
+                    @media only screen and (min-width: 1180px) {
                         .cart-template {
                             margin-left: 1.7rem;
                         }
@@ -4913,7 +4936,7 @@ div.checkoutFooter {
 // ESTRUCTURA DE LEGACY
 .body-checkout-confirmation {
     padding: 0;
-    
+
     #app-top {
         margin-top: 0px;
         .ph3-ns.w-70-ns.db.center {
@@ -4927,12 +4950,12 @@ div.checkoutFooter {
                 &:first-child {
                     // display: none;
                     margin-bottom: 20px;
-                    h1{
+                    h1 {
                         @include popins(18, 600, 0);
                         color: $brown;
                         line-height: inherit;
                     }
-                    span{
+                    span {
                         @include barlow(11, 400, 0.01);
                         color: $gray4;
                         line-height: inherit;
@@ -5008,7 +5031,7 @@ div.checkoutFooter {
             }
         }
     }
-    
+
     #app-container {
         background: transparent;
         .ph3-ns.w-70-ns.db.center {
@@ -5090,7 +5113,7 @@ div.checkoutFooter {
                     border-bottom: 1px solid $brown;
                     display: flex;
                     justify-content: flex-end;
-                    &:last-child{
+                    &:last-child {
                         border-bottom: none;
                     }
                     span {
@@ -5105,7 +5128,7 @@ div.checkoutFooter {
                     }
                 }
             }
-            
+
             .cf.pv4-ns {
                 .fl-l.w-third-l.w-70-m.pr3-l.mb3.mb0-l {
                     @include screen-max-width($breakTabletVert) {
@@ -5193,7 +5216,7 @@ div.checkoutFooter {
                             }
                         }
                     }
-                    
+
                     table {
                         border: none;
                         tbody {
@@ -5266,11 +5289,9 @@ div.checkoutFooter {
                             }
                         }
                     }
-                    
                 }
             }
-            
-            
+
             a.cconf-continue-button,
             a.cconf-myorders-button,
             a.btnInvoice {
@@ -5293,14 +5314,14 @@ div.checkoutFooter {
                     max-width: 100%;
                 }
             }
-            a.btnInvoice{
+            a.btnInvoice {
                 background-color: $negro;
                 border: 1px solid $negro;
                 color: $blanco;
                 float: left;
                 padding: 10px 25px;
                 cursor: pointer;
-                @include screen-min-width($breakDesktop){
+                @include screen-min-width($breakDesktop) {
                     &:hover {
                         border-color: $yellow;
                         background-color: $yellow;
@@ -5319,7 +5340,7 @@ div.checkoutFooter {
                 //     display: block;
                 //     width: 100%;
                 // }
-                @include screen-min-width($breakDesktop){
+                @include screen-min-width($breakDesktop) {
                     &:hover {
                         border-color: $yellow;
                         background-color: $yellow;
@@ -5339,7 +5360,7 @@ div.checkoutFooter {
                 //     display: block;
                 //     width: 100%;
                 // }
-                @include screen-min-width($breakDesktop){
+                @include screen-min-width($breakDesktop) {
                     &:hover {
                         border-color: $yellow;
                         background-color: $yellow;
@@ -5349,12 +5370,10 @@ div.checkoutFooter {
             }
         }
     }
-    
 }
 
 // ESTRUCTURA DE IO
 /* PEDIDO CONFIRMADO */
-
 
 /* FORMULARIO TARJETAS DE CREDITO */
 body {
@@ -5496,14 +5515,14 @@ body {
                         align-self: center;
                     }
 
-                    span{
+                    span {
                         width: 32px !important;
                     }
 
-                    @media only screen and (min-width: 1180px){
-                        span{
+                    @media only screen and (min-width: 1180px) {
+                        span {
                             width: 40px !important;
-                        }   
+                        }
                     }
 
                     input {
@@ -5542,7 +5561,7 @@ body {
                         }
                     }
 
-                    @media only screen and (min-width: 1180px){
+                    @media only screen and (min-width: 1180px) {
                         input {
                             margin: 0 6px 0px 0;
                             width: 14px;
@@ -5557,7 +5576,7 @@ body {
         .PaymentInstallments {
             width: 100%;
             margin: 10px 0;
-            >p{
+            > p {
                 display: flex;
             }
             label {
@@ -5646,7 +5665,7 @@ body {
                     // opacity: 0;
                     appearance: none;
                     &:before {
-                        content: '';
+                        content: "";
                         display: none;
                         align-items: center;
                         justify-content: center;
@@ -5699,67 +5718,67 @@ body {
     }
 }
 
-.container.container-main{
+.container.container-main {
     width: 88% !important;
 }
 
 /* Header */
-.content-checkout-header{
-    .row-logo{
+.content-checkout-header {
+    .row-logo {
         display: flex;
         height: 65px;
         justify-content: space-between;
         align-items: center;
         box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.1);
-        margin-bottom: .7rem;
+        margin-bottom: 0.7rem;
 
-        .content-logo-checkout{
+        .content-logo-checkout {
             padding-left: 2rem;
             width: 150px;
         }
 
-        @media only screen and (min-width: 760px){
-            .content-logo-checkout{
+        @media only screen and (min-width: 760px) {
+            .content-logo-checkout {
                 padding-left: 5rem;
                 width: 257px;
             }
         }
 
-        .contet-site-safe{
+        .contet-site-safe {
             background: $negro;
             display: flex;
             height: 100%;
             align-items: center;
             width: 133px;
             align-items: center;
-        
-            .text-site-safe{
-                width: 50%;
-                padding-right: .5rem;
 
-                .nameStep{
+            .text-site-safe {
+                width: 50%;
+                padding-right: 0.5rem;
+
+                .nameStep {
                     color: $blanco;
                     font-weight: 300;
                     font-size: 12px;
                     line-height: 11px;
                     text-align: right;
                     letter-spacing: 0.02em;
-        
-                    b{
+
+                    b {
                         font-weight: 800;
                     }
                 }
             }
 
-            .ico-site-safe{
+            .ico-site-safe {
                 width: 50%;
-                padding-left: .5rem;
+                padding-left: 0.5rem;
 
-                .ico-safe{
+                .ico-safe {
                     height: 28px;
                     width: 28px;
-                    &::before{
-                        content: '';
+                    &::before {
+                        content: "";
                         display: block;
                         height: 28px;
                         width: 28px;
@@ -5769,63 +5788,63 @@ body {
             }
         }
 
-        @media only screen and (min-width: 760px){
-            .contet-site-safe{
+        @media only screen and (min-width: 760px) {
+            .contet-site-safe {
                 width: 175px;
             }
         }
     }
 
-    @media only screen and (min-width: 760px){
-        .row-logo{
+    @media only screen and (min-width: 760px) {
+        .row-logo {
             height: 107px;
         }
     }
 }
 
-.cart-template{
-    .cart{
-        thead{
-            tr{
-                background: #EFEFEF;
+.cart-template {
+    .cart {
+        thead {
+            tr {
+                background: #efefef;
             }
         }
-        tbody{
-            .quantity{
-                .item-quantity-change-decrement{
-                    .icon-minus-sign{
+        tbody {
+            .quantity {
+                .item-quantity-change-decrement {
+                    .icon-minus-sign {
                         display: flex;
                         align-items: center;
-                        font-size: .8rem !important;
+                        font-size: 0.8rem !important;
                         font-weight: 800;
 
-                        &::before{
-                            content: '\2212' !important;
+                        &::before {
+                            content: "\2212" !important;
                         }
                     }
                 }
 
-                .item-quantity-change-increment{
-                    .icon-plus-sign{
+                .item-quantity-change-increment {
+                    .icon-plus-sign {
                         display: flex;
                         align-items: center;
-                        font-size: .8rem !important;
+                        font-size: 0.8rem !important;
                         font-weight: 800;
 
-                        &::before{
-                            content: '\002B' !important;
+                        &::before {
+                            content: "\002B" !important;
                         }
                     }
                 }
             }
 
-            .product-item{
+            .product-item {
                 margin-bottom: 1rem;
             }
 
-            .product-name{
-                a{
-                    &:first-child{
+            .product-name {
+                a {
+                    &:first-child {
                         font-weight: normal;
                         font-size: 13px !important;
                         line-height: 16px;
@@ -5834,11 +5853,11 @@ body {
                     }
                 }
 
-                small.seller{
+                small.seller {
                     display: block !important;
-                    margin-top: .5rem;
+                    margin-top: 0.5rem;
 
-                    span{
+                    span {
                         display: inline-block !important;
                         font-weight: 800;
                         font-size: 12px;
@@ -5846,31 +5865,32 @@ body {
                         letter-spacing: 0.025em;
                         color: #606060;
 
-                        &:last-child{
+                        &:last-child {
                             font-weight: normal;
                         }
                     }
                 }
 
-                .add-item-attachment-container{
+                .add-item-attachment-container {
                     display: none !important;
                 }
             }
 
-            .product-price{
-                .list-price{
-                    .old-product-price{
+            .product-price {
+                .list-price {
+                    .old-product-price {
                         font-weight: normal;
                         font-size: 12px;
                         line-height: 15px;
                         letter-spacing: 0.025em;
                         text-decoration-line: line-through;
-                        color: #AAA9A9;
+                        color: #aaa9a9;
                     }
                 }
 
-                .best-price{
-                    .new-product-real-price, .new-product-price{
+                .best-price {
+                    .new-product-real-price,
+                    .new-product-price {
                         font-weight: 800 !important;
                         font-size: 15px !important;
                         line-height: 19px;
@@ -5879,8 +5899,8 @@ body {
                 }
             }
 
-            .quantity-price{
-                span{
+            .quantity-price {
+                span {
                     font-weight: 800;
                     font-size: 15px !important;
                     line-height: 19px;
@@ -5891,53 +5911,53 @@ body {
     }
 }
 
-.summary-template-holder{
-    .row-fluid{
-        .summary-totalizers{
+.summary-template-holder {
+    .row-fluid {
+        .summary-totalizers {
             margin-top: 2rem !important;
         }
     }
 }
 
 // Estilos Footer
-.content-checkout-footer{
-    .title-payment-methods{
-        h3{
+.content-checkout-footer {
+    .title-payment-methods {
+        h3 {
             font-weight: 900;
             font-size: 18px;
             line-height: 23px;
             text-align: center;
             letter-spacing: 0.02em;
             text-transform: uppercase;
-            color: #231F20;
+            color: #231f20;
         }
     }
 
-    .img-payment{
+    .img-payment {
         display: flex;
         align-items: center;
         justify-content: center;
         width: 90%;
-        margin: .5rem auto;
+        margin: 0.5rem auto;
 
-        img{
+        img {
             width: 100%;
         }
     }
 
-    @media only screen and (min-width: 1180px){
-        .img-payment{
+    @media only screen and (min-width: 1180px) {
+        .img-payment {
             width: 34%;
         }
     }
 
-    .allied-rights{
+    .allied-rights {
         background: $negro;
         display: flex;
         align-items: center;
         justify-content: center;
 
-        .text-allied-rights{
+        .text-allied-rights {
             text-align: center;
             font-weight: normal;
             font-size: 12px;
@@ -5949,8 +5969,8 @@ body {
     }
 }
 
-.orderform-template-holder{
-    .vtex-omnishipping-1-x-shippingDataDev{
+.orderform-template-holder {
+    .vtex-omnishipping-1-x-shippingDataDev {
         background-color: transparent;
     }
 }
@@ -5959,7 +5979,7 @@ body {
     .payment-group-list-btn {
         a#payment-group-creditCardPaymentGroup {
             span {
-                background-image: url('/arquivos/Pilatos-MediosDePago-TarjetaCredito.png') !important;
+                background-image: url("/arquivos/Pilatos-MediosDePago-TarjetaCredito.png") !important;
                 background-size: 35px;
                 padding-right: 2rem !important;
 
@@ -5970,7 +5990,7 @@ body {
         }
         a#payment-group-debitCardPaymentGroup {
             span {
-                background-image: url('https://io.vtex.com.br/checkout-ui/v6.43.3/img/ico-debit2.png') !important;
+                background-image: url("https://io.vtex.com.br/checkout-ui/v6.43.3/img/ico-debit2.png") !important;
                 background-size: 35px;
                 padding-right: 2rem !important;
                 color: #000000 !important;
@@ -6015,7 +6035,7 @@ body {
         } */
         a#payment-group-WompiCoPaymentGroup {
             span {
-                background-image: url('/arquivos/wompi.jpg') !important;
+                background-image: url("/arquivos/wompi.jpg") !important;
                 background-size: 35px;
                 padding-right: 2rem !important;
                 color: #000000 !important;
@@ -6027,7 +6047,7 @@ body {
         }
         a#payment-group-debitPaymentGroup {
             span {
-                background-image: url('/arquivos/pse.png') !important;
+                background-image: url("/arquivos/pse.png") !important;
                 background-size: 35px;
                 padding-right: 2rem !important;
 
@@ -6039,16 +6059,16 @@ body {
     }
 }
 
-.bank-invoice-options{
-    .bank-invoice-baloto{
-        background-image: url('/arquivos/Baloto-logo.png') !important;
+.bank-invoice-options {
+    .bank-invoice-baloto {
+        background-image: url("/arquivos/Baloto-logo.png") !important;
         background-size: 80%;
         background-repeat: no-repeat;
         background-position-y: bottom;
         background-position-x: center;
     }
-    .bank-invoice-efecty{
-        background-image: url('/arquivos/efecty.png') !important;
+    .bank-invoice-efecty {
+        background-image: url("/arquivos/efecty.png") !important;
         background-size: 80%;
         background-repeat: no-repeat;
         background-position-y: bottom;
