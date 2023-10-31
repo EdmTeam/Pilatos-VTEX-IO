@@ -2277,111 +2277,6 @@ div.checkoutFooter {
                                 }
                             }
                             /* RESUMEN DEL TOTAL */
-                            /* CHECKBOX DE TERMINOS */
-                            #contain-terms {
-                                max-width: 45%;
-                                float: right;
-                                margin: 1rem 0 1rem auto;
-                                .dataCheck {
-                                    padding: 15px 0 15px;
-                                    &.authorize-data {
-                                        padding-bottom: 15px;
-                                    }
-                                    label.check-label {
-                                        display: flex;
-                                        flex-direction: row;
-                                        align-content: center;
-                                        width: 100%;
-                                        margin: 0 auto;
-                                        padding: 0;
-                                        cursor: pointer;
-                                        text-align: left;
-                                        user-select: none;
-                                        // align-items: center;
-                                        align-items: flex-start;
-                                        justify-content: center;
-
-                                        // input[type="radio"]
-                                        input[type="checkbox"] {
-                                            display: block !important;
-                                            margin: 0;
-                                            position: absolute;
-                                            width: auto;
-                                            height: auto;
-                                            opacity: 0;
-                                            appearance: checkbox;
-
-                                            &:checked ~ span.btnCheckbox {
-                                                &:before {
-                                                    color: black;
-                                                }
-                                            }
-                                        }
-
-                                        span.btnCheckbox {
-                                            display: flex;
-                                            align-items: center;
-                                            justify-content: center;
-                                            width: 12px;
-                                            height: 12px;
-                                            min-width: 12px;
-                                            max-width: 12px;
-                                            min-height: 12px;
-                                            max-height: 12px;
-                                            position: relative;
-
-                                            border-radius: 2px;
-                                            border: 1px solid black;
-                                            background-color: white;
-                                            margin: 0px 5px 0 0;
-
-                                            font-family: "#{$icomoon-font-family}" !important;
-
-                                            &:before {
-                                                content: "\2713";
-                                                @include fontSize(8);
-                                                display: flex;
-                                                align-items: center;
-                                                justify-content: center;
-                                                width: 100%;
-                                                height: 100%;
-                                                color: white;
-                                                position: absolute;
-                                                top: 50%;
-                                                left: 50%;
-                                                transform: translate(-50%, -50%);
-                                            }
-
-                                            // &.checkedInput {
-                                            //     // border 6px solid $rojo
-                                            //     // background: $azulOsc2;
-                                            // }
-                                        }
-
-                                        span.check-text {
-                                            padding-right: 1rem;
-                                            margin: 0;
-                                            width: 100%;
-                                            @include barlow(11, 400, 0.01);
-                                            color: $negro;
-                                            line-height: 13px;
-
-                                            a {
-                                                @include barlow(11, 400, 0.01);
-                                                color: $yellow;
-                                                text-decoration: underline;
-                                            }
-                                        }
-                                    }
-                                    span.error {
-                                        width: 100%;
-                                        @include barlow(11, 400, 0.01);
-                                        color: $red;
-                                        text-align: center;
-                                    }
-                                }
-                            }
-                            /* CHECKBOX DE TERMINOS */
                         }
                     }
                     /* RESUMEN DE COMPRA */
@@ -4927,6 +4822,107 @@ div.checkoutFooter {
                 }
             }
         }
+
+        /* CHECKBOX DE TERMINOS */
+        #contain-terms {
+            max-width: 45%;
+            float: right;
+            margin: 1rem 0 1rem auto;
+            .dataCheck {
+                padding: 15px 0 15px;
+                &.authorize-data {
+                    padding-bottom: 15px;
+                }
+                label.check-label {
+                    display: flex;
+                    flex-direction: row;
+                    align-content: center;
+                    width: 100%;
+                    margin: 0 auto;
+                    padding: 0;
+                    cursor: pointer;
+                    text-align: left;
+                    user-select: none;
+                    // align-items: center;
+                    align-items: flex-start;
+                    justify-content: center;
+
+                    // input[type="radio"]
+                    input[type="checkbox"] {
+                        display: block !important;
+                        margin: 0;
+                        position: absolute;
+                        width: auto;
+                        height: auto;
+                        opacity: 0;
+                        appearance: checkbox;
+
+                        &:checked ~ span.btnCheckbox {
+                            &:before {
+                                color: black;
+                            }
+                        }
+                    }
+
+                    span.btnCheckbox {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 12px;
+                        height: 12px;
+                        min-width: 12px;
+                        max-width: 12px;
+                        min-height: 12px;
+                        max-height: 12px;
+                        position: relative;
+
+                        border-radius: 2px;
+                        border: 1px solid black;
+                        background-color: white;
+                        margin: 0px 5px 0 0;
+
+                        font-family: "#{$icomoon-font-family}" !important;
+
+                        &:before {
+                            content: "\2713";
+                            @include fontSize(8);
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            width: 100%;
+                            height: 100%;
+                            color: white;
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                        }
+                    }
+
+                    span.check-text {
+                        padding-right: 1rem;
+                        margin: 0;
+                        width: 100%;
+                        @include barlow(11, 400, 0.01);
+                        color: $negro;
+                        line-height: 13px;
+
+                        a {
+                            @include barlow(11, 400, 0.01);
+                            color: $yellow;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+                span.error {
+                    width: 100%;
+                    @include barlow(11, 400, 0.01);
+                    color: $red;
+                    text-align: center;
+                }
+            }
+        }
+        /* CHECKBOX DE TERMINOS */
     }
 }
 /* CARRITO Y FINALIZACION DEL PEDIDO */
@@ -6074,4 +6070,131 @@ body {
         background-position-y: bottom;
         background-position-x: center;
     }
+}
+
+// Estilos añadidos en vtex admin
+.payment-group .payment-group-list-btn a#payment-group-AddiPaymentGroup span {
+    font-size: 0;
+    background-size: 37px;
+    background-position: left center;
+    padding-right: 2rem !important;
+    padding-left: 43px !important;
+    color: #000000 !important;
+}
+
+.payment-group .payment-group-list-btn a#payment-group-SisteCreditoPaymentGroup span {
+    font-size: 13px;
+    background-image: url(/arquivos/sistecredito-logo.png) !important;
+    background-size: 26px;
+    background-position: left center;
+    padding-right: 2rem !important;
+    padding-left: 29px !important;
+    color: #000000 !important;
+}
+
+.payment-group .payment-group-list-btn a#payment-group-debitPaymentGroup span {
+    font-size: 0px;
+    background-image: url(/arquivos/pse-mp.png) !important;
+    background-size: 20px;
+    background-position: left center;
+    padding-right: 2rem !important;
+    color: #000000 !important;
+    padding-left: 29px !important;
+}
+
+.payment-group .payment-group-list-btn a#payment-group-creditCardPaymentGroup span {
+    font-size: 13px;
+    background-image: url(/arquivos/tarjetaCredito.png) !important;
+    background-size: 23px;
+    background-position: left center;
+    padding-right: 2rem !important;
+    padding-left: 29px !important;
+    color: #000000 !important;
+}
+.payment-group .payment-group-list-btn a#payment-group-customPrivate_501PaymentGroup span {
+    font-size: 13px;
+    background-image: url(/arquivos/logo-codensa.png) !important;
+    background-size: 26px;
+    background-position: left center;
+    padding-right: 2rem !important;
+    padding-left: 29px !important;
+    color: #000000 !important;
+}
+
+.payment-group .payment-group-list-btn a#payment-group-NequiPaymentGroup span {
+    font-size: 13px;
+    background-image: url(/arquivos/logo-nequi.png) !important;
+    background-size: 23px !important;
+    background-position: left center !important;
+    padding-right: 2rem !important;
+    padding-left: 29px !important;
+    color: #000000 !important;
+}
+
+.payment-group .payment-group-list-btn a#payment-group-custom201PaymentGroupPaymentGroup span {
+    font-size: 13px;
+    background-image: url(/arquivos/pago-contra-dark.png) !important;
+    background-size: 21px;
+    background-position: left center;
+    padding-right: 2rem !important;
+    padding-left: 28px !important;
+    color: #000000 !important;
+}
+/*botones*/
+p.btn-submit-wrapper button {
+    width: 100% !important;
+}
+p.btn-go-to-payment button {
+    width: 100% !important;
+    border-radius: 0 !important;
+}
+
+button#payment-data-submit {
+    background: black;
+}
+@media (max-width: 760px) {
+    button#payment-data-submit {
+        width: 85%;
+    }
+}
+
+/* Descripcion texto sistecredito */
+.SisteCreditoPaymentGroup .payment-description::after {
+    content: "Compra ese outfit que tanto querías con Sistecrédito: fácil, rápido y seguro. Solicita tu crédito en menos de 5 minutos, paga a cuotas y no esperes para estrenar.";
+    display: block;
+    font-size: 13px;
+    text-align: justify;
+    color: #000;
+    margin-bottom: 6px;
+    line-height: 1.5rem;
+}
+
+.SisteCreditoPaymentGroup .payment-description {
+    font-size: 0;
+}
+
+[id="payment-group-WH Google PayPaymentGroup"] .payment-group-item-text {
+    background-image: url("https://io2.vtex.com/checkout-ui/v6.97.2/img/payment-google-pay-logo.svg") !important;
+    background-size: 36px;
+    font-size: 13px;
+    background-position: left center;
+    padding-right: 2rem !important;
+    padding-left: 47px !important;
+    color: #000000 !important;
+    font-weight: bold;
+}
+
+.vtex-pickup-points-modal-3-x-modalBackdrop {
+    z-index: 98 !important;
+}
+
+.vtex-pickup-points-modal-3-x-pkpmodal {
+    z-index: 99 !important;
+}
+
+.vtex-pickup-points-modal-3-x-askGeolocationBtn {
+    width: 60px !important;
+    height: 60px !important;
+    top: 0 !important;
+    right: 0 !important;
 }

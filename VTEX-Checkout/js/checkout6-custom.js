@@ -226,4 +226,120 @@ $.getScript('https://s3.amazonaws.com/statics.addi.com/vtex/js/vtex-checkout-co.
 $(".product-item-attachment-offerings-select option:contains('prices')").remove();
 
 // Nequi como medio de pago oculto de PSE
-$(window).on("load", function () { $(".btn.debit-list-selector").find('option:contains("NEQUI")').hide() })
+$(window).on("load", function () { $(".btn.debit-list-selector").find('option:contains("NEQUI")').hide() });
+
+// Personalización del checkout Express
+const CustomCheckoutExpress = (function () {
+    // Función para obtener el método de envío seleccionado de la orden
+    const selectedSla = (orderForm) => orderForm.shippingData.logisticsInfo[0].selectedSla;
+
+    // Oculta el método de pago "Contraentrega" y muestra otros métodos de pago
+    const hidePaymentMethod = () => {
+        // Elimina el método de pago "Contraentrega"
+        $(".pg-contra-entrega").remove();
+        // Muestra todos los métodos de pago excepto "Contraentrega"
+        $(".payment-group-list-btn a:not(.pg-contra-entrega)").show();
+        // Simula un clic en el primer método de pago distinto de "Contraentrega"
+        $(".payment-group-list-btn a:not(.pg-contra-entrega):first-child").click();
+    };
+
+    // Muestra todos los métodos de pago, incluyendo "Contraentrega"
+    const showAllPaymentMethods = () => {
+        // Muestra "Contraentrega" y otros métodos de pago
+        $(".pg-contra-entrega, .payment-group-list-btn a").show();
+        // Simula un clic en el primer método de pago
+        $(".payment-group-list-btn a:first-child").click();
+    };
+
+    // Valida el método de pago seleccionado según el método de envío
+    const validatePaymentMethod = function (orderForm) {
+        if (!selectedSla(orderForm)) {
+            return;
+        }
+
+        // Verifica si el método de envío es "Envío a Domicilio Express"
+        if (selectedSla(orderForm) === "pickit - Envío a Domicilio") {
+            console.log("Entro en Envío a Domicilio Express", selectedSla(orderForm));
+            hidePaymentMethod(); // Oculta los métodos de pago según las reglas
+        } else {
+            console.log("Entro en el caso else", selectedSla(orderForm));
+            showAllPaymentMethods(); // Muestra todos los métodos de pago
+        }
+    };
+
+    // Inicializa la personalización del checkout
+    const init = function () {
+        $(window).on('hashchange load', function () {
+            // Verifica si la página actual es la página de pago
+            if (location.hash === "#/payment" || location.hash === "#payment") {
+                // Obtiene el formulario de orden y realiza validaciones
+                vtexjs.checkout.getOrderForm().then(function (orderForm) {
+                    validatePaymentMethod(orderForm); // Valida el método de pago
+                });
+            }
+        });
+    };
+
+    // Expone la función "init" para iniciar la personalización del checkout
+    return {
+        init: init,
+    };
+})();
+
+// Inicia la personalización del checkout cuando el documento esté listo
+$(document).ready(function () {
+    CustomCheckoutExpress.init();
+});
+// FIN
+
+// OCULTAR EL VALE CUANDO SE SELECCIONA CONTRA ENTREGA
+
+// Función para verificar si estamos en la ruta "/#/payment" o "/#/payment/"
+function isInPaymentRoute() {
+  const validRoutes = ["#/payment", "/payment"];
+  return validRoutes.includes(window.location.hash);
+}
+
+// Función para manejar los cambios en el método de pago
+function handlePaymentMethodChange(orderForm) {
+  if (isInPaymentRoute()) {
+    const selectedPaymentMethod = orderForm.paymentData.payments[0]?.paymentSystem;
+
+    if (selectedPaymentMethod) {
+      // Verificar si el método de pago seleccionado es igual a "201" (Contraentrega)
+      if (selectedPaymentMethod === "201") {
+        // Ocultar el bloque con el ID "show-gift-card-group" si el método de pago es "Addi"
+        $("#show-gift-card-group").hide();
+      } else {
+        // Mostrar el bloque con el ID "show-gift-card-group" para cualquier otro método de pago
+        $("#show-gift-card-group").show();
+      }
+    } 
+  }
+}
+
+// Escuchar el evento "orderFormUpdated" para detectar cambios en el formulario de pedido
+$(window).on("orderFormUpdated.vtex", function (e, orderForm) {
+  handlePaymentMethodChange(orderForm);
+});
+
+// Llamar a la función por primera vez para mostrar el método de pago actual
+vtexjs.checkout.getOrderForm().done(function (orderForm) {
+  handlePaymentMethodChange(orderForm);
+});
+    
+// Recoger en tienda que oculte el metodo de pago contra entrega
+//const hideContraEntregaStore = (location) => {
+
+  //if (!location.includes('payment')) return
+
+  //const slaList = ['Recogida en tienda (1)']
+
+  //const { selectedSla } = vtexjs.checkout.orderForm?.shippingData?.logisticsInfo[0]
+
+  //if (!selectedSla) return
+
+  //const hide = slaList.includes(selectedSla)
+
+  //if (hide) $('.pg-contra-entrega').hide();
+//}
