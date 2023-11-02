@@ -3191,3 +3191,12 @@
   font-family: 'Poppins', sans-serif;
 
 }
+
+/* CARROUSEL PREMIUM 2023 */
+
+.flexRowContent--essensialitary-recomendador{
+  background: #f8f8f8;
+  margin-bottom: 1%;
+  padding: 3% 2% 5% 5%;
+  width: 100%;
+}

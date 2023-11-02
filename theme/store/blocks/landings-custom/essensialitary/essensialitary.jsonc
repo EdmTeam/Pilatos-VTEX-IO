@@ -1,0 +1,50 @@
+{
+  "store.custom#essensialitary":{
+    "children": [
+      "flex-layout.row#essensialitary",
+      "search-result-layout.customQuery#landing-marcas"
+      // "rich-text#seoEssensialitary"
+
+
+    ],
+    "props":{
+        "blockClass": "contentStoreCustom"
+    }
+  },
+  "flex-layout.row#essensialitary":{
+    "children": [
+      "flex-layout.col#essensialitary"
+
+    ],
+    "props": {
+      "blockClass": "contentSearch"
+    }
+
+  },
+
+  "flex-layout.col#essensialitary":{
+    "children": [
+      "rich-text#departmen-fragancia-diesel-bread-crumb",
+      "rich-text#department-fragancia-diesel-title",
+      "flex-layout.row#bannerLandingRituales",
+      "flex-layout.row#essensialitary-recomendador-superior",
+     "flex-layout.row#essensialitary-recomendador-inferior"
+
+
+    ]
+  },
+  "rich-text#seoEssensialitary":{
+    "title": "SEO ESSENSILITARY",
+    "props": {
+      "text": "Nuestra nueva colección ESSENTIALITARY reúne prendas cómodas, funcionales y con toques utilitarios que están en tendencia y que no pueden faltan en tu armario. Creemos que la esencia está en los pequeños detalles, es hora de imponer moda y comodidad.",
+      "blockClass": ["seoEssensialitary", "contentSearch"]
+    }
+  }
+
+
+
+
+
+
+}
+

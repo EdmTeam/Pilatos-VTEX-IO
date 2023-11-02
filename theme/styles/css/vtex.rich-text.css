@@ -2885,12 +2885,33 @@ text-transform: uppercase;
 margin: 2px;
 }
 
+.paragraph--essensialitary-title-vitrina{
+  color: #000;
+font-family: Poppins;
+font-size: 55px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+margin: 2px;
+}
+
+
 .paragraph--sneaker-title-vitrina-dos{
   color: #FFF;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+}
+
+.paragraph--essensialitary-title-vitrina-dos{
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0 0 16px 0;
 }
 
 .headingLevel2--textejeDeEstilosSneakers{
@@ -2955,6 +2976,13 @@ margin: 2px;
     font-size: 32px;
   }
   .paragraph--sneaker-title-vitrina-dos{
+    font-size: 11px;
+  }
+
+  .paragraph--essensialitary-title-vitrina{
+    font-size: 29px;
+  }
+  .paragraph--essensialitary-title-vitrina-dos{
     font-size: 11px;
   }
 
@@ -3068,5 +3096,12 @@ margin: 2px;
 
 
   }
+
+}
+
+.paragraph--seoEssensialitary{
+  margin: 2px;
+  font-size: 12px;
+
 
 }
