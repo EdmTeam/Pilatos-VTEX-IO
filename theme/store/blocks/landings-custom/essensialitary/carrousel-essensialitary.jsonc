@@ -1,0 +1,130 @@
+{
+
+    "flex-layout.row#essensialitary-recomendador-superior": {
+        "children": [
+            "flex-layout.col#essensialitary-recomendador-superior"
+        ],
+        "props": {
+            "blockClass": "essensialitary-recomendador",
+            // "blockClass": "sliderContentShelf",
+            "fullWidth": true
+        }
+    },
+
+    "flex-layout.col#essensialitary-recomendador-superior": {
+        "children": [
+            "rich-text#title-best-essensialitary",
+            "rich-text#title-best-essensialitary-dos",
+            "vtex.product-summary:list-context.product-list#essensialitary-recomendador"
+        ]
+    },
+
+    "rich-text#title-best-essensialitary":{
+        "props":{
+            "text": "Prendas Superiores",
+            "blockClass": "essensialitary-title-vitrina"
+        }
+    },
+
+    "rich-text#title-best-essensialitary-dos":{
+      "props":{
+          "text": "¡Destaca con estilo! con nuestras prendas superiores exclusivas ",
+          "blockClass": "essensialitary-title-vitrina-dos"
+      }
+  },
+
+    "vtex.product-summary:list-context.product-list#essensialitary-recomendador": {
+        "blocks": [
+            "vtex.product-summary:product-summary.shelf#most-viewed"
+        ],
+        "children": [
+            "slider-layout#home-shelf-essensialitary-recomendadoree"
+        ],
+        "props": {
+            "orderBy": "OrderByTopSaleDESC",
+            "collection": "1596",
+            "maxItems": 20
+        }
+    },
+    "slider-layout#home-shelf-essensialitary-recomendadoree": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 4,
+            "tablet": 3,
+            "phone": 2
+          },
+          "infinite": true,
+          "showNavigationArrows": "desktopOnly",
+          "showPaginationDots": "always"
+        //   "centerMode": {
+        //     "mobile": "to-the-left",
+        //     "desktop": "disabled"
+        //   }
+        }
+    },
+
+    "flex-layout.row#essensialitary-recomendador-inferior": {
+      "children": [
+          "flex-layout.col#essensialitary-recomendador-inferior"
+      ],
+      "props": {
+          "blockClass": "essensialitary-recomendador",
+          // "blockClass": "sliderContentShelf",
+          "fullWidth": true
+      }
+  },
+
+  "flex-layout.col#essensialitary-recomendador-inferior": {
+      "children": [
+          "rich-text#title-best-essensialitary-inferior",
+          "rich-text#title-best-essensialitary-dos-inferior",
+          "vtex.product-summary:list-context.product-list#essensialitary-recomendador-inferior"
+      ]
+  },
+
+  "rich-text#title-best-essensialitary-inferior":{
+      "props":{
+          "text": "Prendas Inferiores",
+          "blockClass": "essensialitary-title-vitrina"
+      }
+  },
+
+  "rich-text#title-best-essensialitary-dos-inferior":{
+    "props":{
+        "text": "¡Destaca con estilo! con nuestras prendas inferiores exclusivas ",
+        "blockClass": "essensialitary-title-vitrina-dos"
+    }
+},
+
+  "vtex.product-summary:list-context.product-list#essensialitary-recomendador-inferior": {
+      "blocks": [
+          "vtex.product-summary:product-summary.shelf#most-viewed"
+      ],
+      "children": [
+          "slider-layout#home-shelf-essensialitary-recomendadoree-inferior"
+      ],
+      "props": {
+          "orderBy": "OrderByTopSaleDESC",
+          "collection": "1595",
+          "maxItems": 20
+      }
+  },
+  "slider-layout#home-shelf-essensialitary-recomendadoree-inferior": {
+      "props": {
+        "itemsPerPage": {
+          "desktop": 4,
+          "tablet": 3,
+          "phone": 2
+        },
+        "infinite": true,
+        "showNavigationArrows": "desktopOnly",
+        "showPaginationDots": "always"
+      //   "centerMode": {
+      //     "mobile": "to-the-left",
+      //     "desktop": "disabled"
+      //   }
+      }
+  }
+
+
+}
