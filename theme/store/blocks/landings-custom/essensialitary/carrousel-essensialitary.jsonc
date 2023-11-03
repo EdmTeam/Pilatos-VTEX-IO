@@ -28,7 +28,7 @@
 
     "rich-text#title-best-essensialitary-dos":{
       "props":{
-          "text": "¡Destaca con estilo! con nuestros prendas superiores exclusivas ",
+          "text": "¡Destaca con estilo! con nuestras prendas superiores exclusivas ",
           "blockClass": "essensialitary-title-vitrina-dos"
       }
   },
@@ -42,7 +42,7 @@
         ],
         "props": {
             "orderBy": "OrderByTopSaleDESC",
-            "collection": "1552",
+            "collection": "1596",
             "maxItems": 20
         }
     },
@@ -91,7 +91,7 @@
 
   "rich-text#title-best-essensialitary-dos-inferior":{
     "props":{
-        "text": "¡Destaca con estilo! con nuestros prendas inferiores exclusivas ",
+        "text": "¡Destaca con estilo! con nuestras prendas inferiores exclusivas ",
         "blockClass": "essensialitary-title-vitrina-dos"
     }
 },
@@ -105,7 +105,7 @@
       ],
       "props": {
           "orderBy": "OrderByTopSaleDESC",
-          "collection": "1502",
+          "collection": "1595",
           "maxItems": 20
       }
   },
