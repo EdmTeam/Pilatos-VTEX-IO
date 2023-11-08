@@ -3105,3 +3105,23 @@ margin: 2px;
 
 
 }
+
+.headingLevel2--filtroSeo {
+  margin: 2px;
+
+}
+.link--filtroSeo{
+  color: #000;
+  font-size: 15px;
+}
+
+@media (max-width: 764px) {
+  .headingLevel2--filtroSeo {
+    margin: 10px;
+
+  }
+  .link--filtroSeo{
+
+    font-size: 17px;
+  }
+}
