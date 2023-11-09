@@ -1,7 +1,7 @@
 {
-    
-       
- 
+
+
+
 
     "size-guide#zapatos-mujer-adidas":{
         "props": {
@@ -216,7 +216,7 @@
           ]
         }
     },
-    // GUIA DE TALLA MARCAS DISANDINA 
+    // GUIA DE TALLA MARCAS DISANDINA
     "size-guide#mujer-hombre-gorras-Alpinestars":{
         "props": {
           "conditionals": [
@@ -374,7 +374,7 @@
         }
     },
 
-// fin DISANDINA 
+// fin DISANDINA
     "size-guide#zapatos-mujer-superdry":{
         "props": {
           "conditionals": [
@@ -715,14 +715,14 @@
         }
     },
 
-  
+
 
     //guia de tallas correa
     "size-guide#correa":{
         "props": {
           "conditionals": [
               {
-                  
+
                   "categories": ["27"],
                   "imageDesktop": "/arquivos/Pilatos-GuiaCorreas-Desktop.jpg",
                   "imageTablet": "/arquivos/Pilatos-GuiaCorreas-Desktop.jpg",
@@ -730,5 +730,33 @@
               }
           ]
         }
+    },
+
+    "size-guide#hombre-vans":{
+      "props": {
+        "conditionals": [
+            {
+                "brands": ["2000005"],
+                "categories": ["3"],
+                "imageDesktop": "/arquivos/Pilatos-GuiaTallas-VansZapatosH1-Deska.jpg",
+                "imageTablet": "/arquivos/Pilatos-GuiaTallas-VansZapatosH1-Deska.jpg",
+                "imagePhone": "/arquivos/Pilatos-GuiaTallas-VansZapatosH1-Mobaa.jpg"
+            }
+        ]
+      }
+
+    },
+    "size-guide#mujer-vans":{
+      "props": {
+        "conditionals": [
+            {
+                "brands": ["2000005"],
+                "categories": ["44"],
+                "imageDesktop": "/arquivos/Pilatos-GuiaTallas-VansZapatosM1-Deska.jpg",
+                "imageTablet": "/arquivos/Pilatos-GuiaTallas-VansZapatosM1-Deska.jpg",
+                "imagePhone": "/arquivos/Pilatos-GuiaTallas-VansZapatosM1-Mobaa.jpg"
+            }
+        ]
+      }
     }
 }

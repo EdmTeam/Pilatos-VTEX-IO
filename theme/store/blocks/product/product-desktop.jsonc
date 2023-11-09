@@ -10,7 +10,7 @@
             "flex-layout.row#product-view-product-tablet"
         ]
     },
-    
+
       "flex-layout.row#product-view-product-tablet":{
         "children":[
             "flex-layout.col#stack-product-tablet",
@@ -35,7 +35,7 @@
             "vtex.store-components:product-name",
 
             "flex-layout.row#product-identifier-rating",
-            
+
             "vtex.product-highlights@2.x:product-highlights#collection",
 
             "product-price#product",
@@ -90,6 +90,8 @@
             "size-guide#zapatos-hombre-Replay",
             "size-guide#hombre-Superdry",
             "size-guide#zapatos-hombre-Superdry",
+            "size-guide#hombre-vans",
+            "size-guide#mujer-vans",
             "size-guide#correa",
 
             "size-guide#zapatos-hombre-nike",
@@ -98,7 +100,7 @@
             "flex-layout.row#product-button-quantity",
             "addi-infos",
             "rich-text#title-descripcionProducto",
-            "flex-layout.row#productDescripcion", 
+            "flex-layout.row#productDescripcion",
 
            // "disclosure-layout#descripcionProducto",
             "condition-layout.product#cond1-diesel",
@@ -108,10 +110,10 @@
             "condition-layout.product#cond5-girbaud",
             "link#scrollLink",
             "share#default",
-            
+
             "flex-layout.row#add-to-list-btn",
             "pilatos21.add-to-cart-button:add-to-cart-button",
-            "productsegmentify" 
+            "productsegmentify"
         ],
         "props":{
             "blockClass": ["product-description", "stack-product"],
@@ -144,7 +146,7 @@
         "props":{
             "width": "73%"
         }
-    },    
+    },
 
         // descripcion nueva
         "flex-layout.row#productDescripcion": {
@@ -167,7 +169,7 @@
             }
         }
 
-       
-      
-      
+
+
+
 }
