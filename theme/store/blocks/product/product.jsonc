@@ -133,7 +133,7 @@
 
   "flex-layout.row#productViewed": {
     "children":[
-      "flex-layout.row#viewed"
+     "flex-layout.row#viewed"
     ],
     "props":{
       "blockClass": "productShelf"
@@ -260,8 +260,10 @@
       "flex-layout.row#product-button",
 
       "addi-infos",
-      "rich-text#title-descripcionProducto",
-      "flex-layout.row#productDescripcion",
+      // "rich-text#title-descripcionProducto",
+      // "flex-layout.row#productDescripcion",
+      "disclosure-layout#productoDescription",
+
       "condition-layout.product#cond1-diesel",
       "condition-layout.product#cond2-superdry",
       "condition-layout.product#cond3-kipling",
