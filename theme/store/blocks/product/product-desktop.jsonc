@@ -99,9 +99,9 @@
             "product-availability#uno",
             "flex-layout.row#product-button-quantity",
             "addi-infos",
-            "rich-text#title-descripcionProducto",
-            "flex-layout.row#productDescripcion",
-
+            // "rich-text#title-descripcionProducto",
+            // "flex-layout.row#productDescripcion",
+            "disclosure-layout#productoDescription",
            // "disclosure-layout#descripcionProducto",
             "condition-layout.product#cond1-diesel",
             "condition-layout.product#cond2-superdry",
@@ -149,27 +149,49 @@
     },
 
         // descripcion nueva
-        "flex-layout.row#productDescripcion": {
-            "children": [
-                "product-description"
-            ]
-        },
-        "product-description": {
-            "props": {
-                "collapseContent": true,
-                "showTitle": true,
-                "title": "Descripción de producto"
+        // "flex-layout.row#productDescripcion": {
+        //     "children": [
+        //         "product-description"
+        //     ]
+        // },
+        // "product-description": {
+        //     "props": {
+        //         "collapseContent": true,
+        //         "showTitle": true,
+        //         "title": "Descripción de producto"
 
-            }
+        //     }
+        // },
+        // "rich-text#title-descripcionProducto": {
+        //     "props": {
+        //       "text": "Descripción del Producto",
+        //       "blockClass": "product-description-pdp"
+        //     }
+        // },
+
+        // DESCRIPCION DE PRODUCTO NUEVA CON BOTON
+
+        "disclosure-layout#productoDescription": {
+          "children": ["disclosure-trigger#productoDescription", "disclosure-content#simpleDescription"]
         },
-        "rich-text#title-descripcionProducto": {
-            "props": {
-              "text": "Descripción del Producto",
-              "blockClass": "product-description-pdp"
-            }
+        "disclosure-trigger#productoDescription": {
+          "children": ["rich-text#question"],
+          "props": {
+            "blockClass": "container-products"
+          }
+        },
+
+        "disclosure-content#simpleDescription": {
+          "children": ["product-description"
+          ]
+        },
+        "rich-text#question": {
+          "props": {
+            "text": "Descripción del producto ↓",
+            "blockClass": "product-description-pdp"
+          }
+        }
+
         }
 
 
-
-
-}
