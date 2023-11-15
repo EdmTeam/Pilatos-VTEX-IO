@@ -51,7 +51,16 @@
     display: none;
 }
 /* Flag envio gratis */
-.productHighlightWrapper [data-highlight-id="1544"]{
+.productHighlightWrapper [data-highlight-id="1590"]{
+    width: 35px;
+    height: 35px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(/arquivos/flag-heritage-pilatos.png);
+    display: block;
+}
+
+.productHighlightWrapper [data-highlight-id="1618"]{
     width: 35px;
     height: 35px;
     background-size: contain;
