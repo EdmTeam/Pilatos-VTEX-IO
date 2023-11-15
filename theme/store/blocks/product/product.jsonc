@@ -1,26 +1,22 @@
-
 {
   "store.product": {
-    "children": [
-      "flex-layout.row#product-view" 
-    ]
+    "children": ["flex-layout.row#product-view"]
   },
-//condicionales de producto
-    "condition-layout.product#cond1-diesel": {
-     "props": {
-       "conditions": [
-         {
-           "subject": "brandId",
-           "arguments": {
-             "id": "2000083"
-           }
-         }
-       ],
-       "Then": "flex-layout.row#texto-importadoEDM"
-      
-     }
-   },
-   "condition-layout.product#cond2-superdry": {
+  //condicionales de producto
+  "condition-layout.product#cond1-diesel": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "brandId",
+          "arguments": {
+            "id": "2000083"
+          }
+        }
+      ],
+      "Then": "flex-layout.row#texto-importadoEDM"
+    }
+  },
+  "condition-layout.product#cond2-superdry": {
     "props": {
       "conditions": [
         {
@@ -31,7 +27,6 @@
         }
       ],
       "Then": "flex-layout.row#texto-importadoEDM"
-     
     }
   },
   "condition-layout.product#cond3-kipling": {
@@ -44,7 +39,7 @@
           }
         }
       ],
-      "Then": "flex-layout.row#texto-importadoEDM" 
+      "Then": "flex-layout.row#texto-importadoEDM"
     }
   },
   "condition-layout.product#cond4-pilatos": {
@@ -57,7 +52,7 @@
           }
         }
       ],
-      "Then": "flex-layout.row#texto-produccionColombiana" 
+      "Then": "flex-layout.row#texto-produccionColombiana"
     }
   },
 
@@ -71,52 +66,42 @@
           }
         }
       ],
-      "Then": "flex-layout.row#texto-produccionColombiana" 
+      "Then": "flex-layout.row#texto-produccionColombiana"
     }
   },
 
- 
-   
-// texto condicional producto  
-"flex-layout.row#texto-importadoEDM":{
-  "children":[
-    "rich-text#produccionTexto"
-  ]
-},
+  // texto condicional producto
+  "flex-layout.row#texto-importadoEDM": {
+    "children": ["rich-text#produccionTexto"]
+  },
 
-"rich-text#produccionTexto":{
-  "props":{
-    "text": "Importado por Estudio de Moda SAS",
-    "blockClass": "texto-importado",
-    "textAlignment": "CENTER",
-    "textPosition": "CENTER"
+  "rich-text#produccionTexto": {
+    "props": {
+      "text": "Importado por Estudio de Moda SAS",
+      "blockClass": "texto-importado",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
     }
-},
+  },
 
-"flex-layout.row#texto-produccionColombiana":{
-  "children":[
-    "rich-text#produccionTextoColombiana"
-  ]
-},
+  "flex-layout.row#texto-produccionColombiana": {
+    "children": ["rich-text#produccionTextoColombiana"]
+  },
 
-"rich-text#produccionTextoColombiana":{
-  "props":{
-    "text": "Producción Colombiana",
-    "blockClass": "texto-importado",
-    "textAlignment": "CENTER",
-    "textPosition": "CENTER"
+  "rich-text#produccionTextoColombiana": {
+    "props": {
+      "text": "Producción Colombiana",
+      "blockClass": "texto-importado",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
     }
-},
+  },
 
-
-
-"flex-layout.row#product-view":{
-  "children":[
-    "flex-layout.col#product-view"
-  ]
-},
-  "flex-layout.col#product-view":{
-    "children":[
+  "flex-layout.row#product-view": {
+    "children": ["flex-layout.col#product-view"]
+  },
+  "flex-layout.col#product-view": {
+    "children": [
       "flex-layout.col#breadcrumb",
       "responsive-layout.phone#product-view-product",
       "responsive-layout.tablet#product-view-product",
@@ -126,78 +111,70 @@
       "responsive-layout.desktop#brands-promise",
       "tab-layout#product-tab",
       "buy-with",
+      "BuyTogheter",
       "flex-layout.row#productViewed"
     ],
-    "props":{
-      "blockClass": "productView"    }
+    "props": {
+      "blockClass": "productView"
+    }
   },
 
   "flex-layout.row#productViewed": {
-    "children":[
-      "flex-layout.row#viewed"
-    ],
-    "props":{
+    "children": ["flex-layout.row#viewed"],
+    "props": {
       "blockClass": "productShelf"
     }
   },
 
-  "responsive-layout.phone#product-view-product":{
-    "children":[
-      "flex-layout.row#product-view-product-phone"
-    ]
+  "responsive-layout.phone#product-view-product": {
+    "children": ["flex-layout.row#product-view-product-phone"]
   },
 
-  "flex-layout.row#product-view-product-phone":{
-    "children":[
+  "flex-layout.row#product-view-product-phone": {
+    "children": [
       "flex-layout.col#product-description",
       "flex-layout.col#stack-product"
     ]
   },
 
-  "flex-layout.col#breadcrumb":{
-    "children":[
-      "breadcrumb"
-    ],
-    "props":{
+  "flex-layout.col#breadcrumb": {
+    "children": ["breadcrumb"],
+    "props": {
       "blockClass": "product-description"
     }
   },
 
-  "flex-layout.col#product-description":{
-    "children":[
+  "flex-layout.col#product-description": {
+    "children": [
       "vtex.store-components:product-brand",
       "vtex.store-components:product-name",
       "flex-layout.row#product-identifier-rating"
-      
     ],
-    "props":{
+    "props": {
       "blockClass": "product-description"
     }
   },
-  
-  "flex-layout.row#product-identifier-rating":{
-    "children":[
+
+  "flex-layout.row#product-identifier-rating": {
+    "children": [
       "product-identifier.product",
       "flex-layout.col#product-rating"
     ],
-    "props":{
+    "props": {
       "blockClass": "productIdentifierRating",
       "preserveLayoutOnMobile": true
     }
   },
 
-  "flex-layout.col#product-rating":{
-    "children":[
-      "product-rating-summary"
-    ],
-    "props":{
-      "blockClass":"productRating"
+  "flex-layout.col#product-rating": {
+    "children": ["product-rating-summary"],
+    "props": {
+      "blockClass": "productRating"
     }
   },
 
   "flex-layout.col#stack-product": {
     "children": [
-
       "stack-layout#product",
       "product-price#product",
       "sku-selector",
@@ -245,7 +222,7 @@
       "size-guide#mujer-superdry",
       "size-guide#zapatos-hombre-diesel",
       "size-guide#hombre-diesel",
-     // "size-guide#zapatos-hombre-LeCoqSportif",
+      // "size-guide#zapatos-hombre-LeCoqSportif",
       "size-guide#hombre-MaritheFrancoisGirbaud",
       "size-guide#zapatos-hombre-newbalance",
       "size-guide#zapatos-hombre-reebok",
@@ -254,20 +231,20 @@
       "size-guide#hombre-Superdry",
       "size-guide#zapatos-hombre-Superdry",
       "size-guide#correa",
-      
+
       "product-quantity",
       "product-availability#uno",
       "flex-layout.row#product-button",
-    
+
       "addi-infos",
       "rich-text#title-descripcionProducto",
-      "flex-layout.row#productDescripcion", 
+      "flex-layout.row#productDescripcion",
       "condition-layout.product#cond1-diesel",
       "condition-layout.product#cond2-superdry",
       "condition-layout.product#cond3-kipling",
       "condition-layout.product#cond4-pilatos",
       "condition-layout.product#cond5-girbaud",
-            "link#scrollLink",
+      "link#scrollLink",
       "share#default",
       "flex-layout.row#add-to-list-btn",
       "pilatos21.add-to-cart-button:add-to-cart-button",
@@ -279,18 +256,17 @@
       "blockClass": "stack-product"
     }
   },
-  // producto disponibles 
+  // producto disponibles
   "product-availability#uno": {
     "props": {
       "threshold": "10",
       "lowStockMessage": "¡Últimas {quantity} unidades!"
-        }
+    }
   },
-  
 
-  "sku-selector":{
-    "props": {  
-      "thumbnailImage": ["color"]  
+  "sku-selector": {
+    "props": {
+      "thumbnailImage": ["color"]
     }
   },
 
@@ -301,7 +277,7 @@
       "product-specification-badges"
     ]
   },
-  
+
   "product-images": {
     "props": {
       "aspectRatio": {
@@ -323,23 +299,21 @@
     }
   },
 
-  "product-quantity":{
-    "props":{
+  "product-quantity": {
+    "props": {
       "selectorType": "dropdown"
     }
   },
 
-  "flex-layout.row#product-button":{
-    "children":[
-      "vtex.add-to-cart-button:add-to-cart-button#product"
-    ],
-    "props":{
+  "flex-layout.row#product-button": {
+    "children": ["vtex.add-to-cart-button:add-to-cart-button#product"],
+    "props": {
       "blockClass": "productButton"
     }
   },
 
-  "vtex.add-to-cart-button:add-to-cart-button#product":{
-    "props":{
+  "vtex.add-to-cart-button:add-to-cart-button#product": {
+    "props": {
       "text": "Agregar Ahora",
       "unavailableText": "No Disponible"
     }
@@ -355,47 +329,39 @@
     }
   },
 
-  "link#scrollLink":{
-    "children": [
-      "rich-text#nitysic",
-      "flex-layout.row#scrollLink"
-    ],
-    "props":{
-        "href": "#pilatos21-add-to-cart-button-0-x-btnStyle"
+  "link#scrollLink": {
+    "children": ["rich-text#nitysic", "flex-layout.row#scrollLink"],
+    "props": {
+      "href": "#pilatos21-add-to-cart-button-0-x-btnStyle"
     }
   },
 
-  "flex-layout.row#scrollLink":{
-    "children":[
-        "rich-text#scrollLink",
-        "rich-text#icoFlecha"
-    ],
-    "props":{
+  "flex-layout.row#scrollLink": {
+    "children": ["rich-text#scrollLink", "rich-text#icoFlecha"],
+    "props": {
       "blockClass": "contentMoreInformation"
     }
   },
 
-  "rich-text#nitysic":{
-    "props":{
+  "rich-text#nitysic": {
+    "props": {
       "text": "NIT: 890926803 - SIC: 890.926.803",
       "blockClass": "texto-nitysic",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
-
     }
-
   },
-  "rich-text#scrollLink":{
-      "props":{
-          "text": "MÁS INFORMACIÓN",
-          "blockClass": "moreInfo"
-      }
+  "rich-text#scrollLink": {
+    "props": {
+      "text": "MÁS INFORMACIÓN",
+      "blockClass": "moreInfo"
+    }
   },
 
-  "rich-text#icoFlecha":{
-      "props":{
-          "text": "",
-          "blockClass": "icoFlechaMore"
-      }
+  "rich-text#icoFlecha": {
+    "props": {
+      "text": "",
+      "blockClass": "icoFlechaMore"
+    }
   }
 }
