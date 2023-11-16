@@ -3231,17 +3231,16 @@
   max-width: 900px;
   margin: 0 auto;
   width: 600px;
-  box-shadow: 11px 8px 35px 0px rgba(0,0,0,0.19);
-  -webkit-box-shadow: 11px 8px 35px 0px rgba(0,0,0,0.19);
-  -moz-box-shadow: 11px 8px 35px 0px rgba(0,0,0,0.19);
+  box-shadow: 11px 8px 35px 0px rgba(0,0,0,0.10);
+  -webkit-box-shadow: 11px 8px 35px 0px rgba(0,0,0,0.10);
+  -moz-box-shadow: 11px 8px 35px 0px rgba(0,0,0,0.10);
   padding: 2%;
 }
 @media (max-width: 640px) {
   .flexColChild--formContainer-dsi{
     width: 100%;
-    box-shadow: 11px 8px 35px 0px rgba(0,0,0,0.19);
--webkit-box-shadow: 11px 8px 35px 0px rgba(0,0,0,0.19);
--moz-box-shadow: 11px 8px 35px 0px rgba(0,0,0,0.19);
-  }
-
+   box-shadow: 11px 8px 35px 0px rgba(0,0,0,0.10);
+  -webkit-box-shadow: 11px 8px 35px 0px rgba(0,0,0,0.10);
+  -moz-box-shadow: 11px 8px 35px 0px rgba(0,0,0,0.10);
+}
 }
