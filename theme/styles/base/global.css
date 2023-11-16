@@ -357,13 +357,15 @@
 
 }
 
-/* Estilos para landing DSI */
+/* Estilos para landing DSI ocultar o mostrar label */
 :global(.vtex-flex-layout-0-x-flexCol--formContainer-dsi) form label:first-child :global(.vtex-input__label) {
-    display: none !important;
+    display: block !important;
 }
 :global(.vtex-flex-layout-0-x-flexCol--formContainer-dsi) form label:nth-child(2n) :global(.vtex-input__label) {
-    display: none !important;
+    display: block !important;
 }
+
+
 
 /*
 * Estilos para FORMULARIO WORK WITH US

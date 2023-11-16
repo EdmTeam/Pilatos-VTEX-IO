@@ -1,0 +1,49 @@
+{
+    "title": "formulario",
+    "type": "object",
+    "properties": {
+        "terms": {
+            "type": "boolean",
+            "title": "Acepta términos y condiciones"
+        },
+        "name": {
+            "type": "string",
+            "title": "Nombre Completo"
+        },
+        "mail": {
+            "type": "string",
+            "format": "email",
+            "title": "Correo Electrónico"
+        },
+
+        "phone": {
+            "type": "string",
+            "format": "phone",
+            "title": "Número de Teléfono"
+        },
+        "cedula": {
+            "type": "string",
+            "format": "cedula",
+            "title": "Cédula"
+        },
+        "birthday": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Fecha de Nacimiento"
+        }
+    },
+    "required": [
+        "birthday",
+        "mail",
+        "name",
+        "cedula",
+        "phone",
+        "terms"
+    ],
+    "v-security": {
+        "publicWrite": [
+            "publicForWrite"
+        ],
+        "publicJsonSchema": true
+    }
+}
