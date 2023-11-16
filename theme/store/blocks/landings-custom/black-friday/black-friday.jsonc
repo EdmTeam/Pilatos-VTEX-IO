@@ -18,7 +18,7 @@
     "flex-layout.col#content-blackfriday": {
         "children": [
             "rich-text#desc-blackfriday-h1",
-            "rich-text#desc-blackfriday",
+            "rich-text#desc-blackfridaya",
             "flex-layout.row#title-and-form-blackfriday"
             //"rich-text#button-to-event-blackfriday",
            // "flex-layout.row#questions-blackfriday"
@@ -68,50 +68,47 @@
             "blockClass": "desc-dsi"
         }
     },
-    "rich-text#desc-blackfriday": {
-        "props": {
-            "textAlignment": "CENTER",
-            "text": "**¡La oportunidad perfecta para realizar tus compras de navidad! Regístrate aquí y obtén envío gratis durante el evento. Prepárate para conocer los mejores descuentos que tenemos y compres tus favoritos, solo del 26 al 28 de noviembre de 2021!**",
-            "blockClass": "desc-dsi"
-        }
-    },
-    "rich-text#button-to-event-blackfriday": {
+    "rich-text#desc-blackfridaya": {
         "props": {
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
-            "text": "[Compra aquí tus productos](/dia-sin-iva-pilatos)",
-            "blockClass": "button-to-event-dsi"
+            "text": "¡La oportunidad perfecta! Regístrate aquí y obtén envío gratis durante el evento.",
+            "blockClass": "desc-dsi"
         }
     },
+
     "flex-layout.row#title-and-form-blackfriday": {
         "children": [
-            "flex-layout.col#title-blackfriday",
+            // "flex-layout.col#title-blackfriday",
             "flex-layout.col#form-blackfriday"
-        ]
-    },
-    "flex-layout.col#title-blackfriday": {
-        "children": [
-            "rich-text#title-blackfriday",
-            "rich-text#subtitle-blackfriday"
-        ]
-    },
-    "rich-text#title-blackfriday": {
+        ],
         "props": {
-            "textAlignment": "RIGHT",
-            "textPosition": "RIGHT",
-            "text": "## BLACK FRIDAY:",
-            "font": "t-heading-1",
-            "blockClass": "title-dsi"
+          "blockClass": "container-form-black"
         }
     },
-    "rich-text#subtitle-blackfriday": {
-        "props": {
-            "textAlignment": "RIGHT",
-            "text": "*Inscríbete aquí para ser el primero en enterarte de todos los detalles.*",
-            "font": "t-body",
-            "blockClass": "subtitle-dsi"
-        }
-    },
+    // "flex-layout.col#title-blackfriday": {
+    //     "children": [
+    //         "rich-text#title-blackfriday",
+    //         "rich-text#subtitle-blackfriday"
+    //     ]
+    // },
+    // "rich-text#title-blackfriday": {
+    //     "props": {
+    //         "textAlignment": "RIGHT",
+    //         "textPosition": "RIGHT",
+    //         "text": "## BLACK FRIDAY:",
+    //         "font": "t-heading-1",
+    //         "blockClass": "title-dsi"
+    //     }
+    // },
+    // "rich-text#subtitle-blackfriday": {
+    //     "props": {
+    //         "textAlignment": "RIGHT",
+    //         "text": "*Inscríbete aquí para ser el primero en enterarte de todos los detalles.*",
+    //         "font": "t-body",
+    //         "blockClass": "subtitle-dsi"
+    //     }
+    // },
     "flex-layout.col#form-blackfriday": {
         "props": {
             "blockClass": "formContainer-dsi"
@@ -122,12 +119,14 @@
     },
     "form#blackfriday": {
         "props": {
-            "entity": "BF",
-            "schema": "blackfriday"
+            "entity": "AA",
+            "schema": "formulario"
         },
         "children": [
             "form-input.text#blackfriday-form-name",
             "form-input.text#blackfriday-form-email",
+            "form-input.text#blackfriday-form-celular",
+            "form-input.text#blackfriday-form-cedula",
             "form-input.text#blackfriday-form-birthday",
             "form-input.checkbox#blackfriday-form-terms",
             "rich-text#blackfriday-read-politics",
@@ -151,6 +150,20 @@
             "placeholder": "Ingresa tu correo electrónico"
         }
     },
+  "form-input.text#blackfriday-form-celular": {
+    "props": {
+        "pointer": "#/properties/phone",
+        "label": "Celular",
+        "placeholder": "Ingresa tu numero de celular"
+    }
+},
+  "form-input.text#blackfriday-form-cedula": {
+    "props": {
+        "pointer": "#/properties/cedula",
+        "label": "Cédula",
+        "placeholder": "Ingresa tu numero de cédula"
+    }
+},
     "form-input.text#blackfriday-form-birthday": {
         "props": {
             "pointer": "#/properties/birthday",
@@ -191,82 +204,7 @@
             "textPosition": "CENTER",
             "blockClass": "dsi-successSubmit"
         }
-    },
-    "image#banner-desktop-precios-blackfriday": {
-        "props": {
-            "src": "/arquivos/blackfriday Banner Precios_DSKT.jpg",
-            "alt": "Explicación de Precios DÍA SIN IVA",
-            "title": "precios día sin IVA"
-        }
-    },
-    "image#banner-mobile-precios-blackfriday": {
-        "props": {
-            "src": "/arquivos/blackfriday Banner Precios_MOB.jpg",
-            "alt": "Explicación de Precios DÍA SIN IVA",
-            "title": "precios día sin IVA"
-        }
-    },
-    "flex-layout.row#questions-blackfriday": {
-        "children": [
-            "flex-layout.col#questions-blackfriday"
-        ]
-    },
-    "flex-layout.col#questions-blackfriday": {
-        "children": [
-            "rich-text#question-one-blackfriday",
-            "rich-text#question-two-blackfriday-m",
-            "rich-text#question-three-blackfriday",
-            "rich-text#question-four-blackfriday",
-            "rich-text#question-five-blackfriday",
-            "rich-text#question-six-blackfriday"
-        ]
-    },
-    "rich-text#question-one-blackfriday": {
-        "props": {
-            "textAlignment": "LEFT",
-            "text": "### **¿Qué es el Black Friday?**\nEl Black Friday o conocido también como Viernes Negro es uno de los eventos de descuentos más importante en el mercado mundial, originario de Estados Unidos. El objetivo de esta campaña es brindar los mejores descuentos de fin de año tanto en tiendas online como físicas, por lo que tendrás la oportunidad de adelantar tus compras navideñas con precios increíbles.",
-            "font": "t-body",
-            "blockClass": "question-dsi"
-        }
-    },
-    "rich-text#question-two-blackfriday-m": {
-        "props": {
-            "textAlignment": "LEFT",
-            "text": "### **¿Cuándo es el Black Friday Colombia 2021?**\nEl próximo Black Friday será del 26 al 28 de noviembre de 2021. Si quieres tener información antes que todos sobre las ofertas especiales de este día, suscríbete a nuestro newsletter. Anticipa tus regalos de Navidad comprando desde ahora a precios mucho más accesibles en el Black Friday.",
-            "font": "t-body",
-            "blockClass": "question-dsi"
-        }
-    },
-    "rich-text#question-three-blackfriday": {
-        "props": {
-            "textAlignment": "LEFT",
-            "text": "### **¿Qué formas de pago puedo usar en el Black Friday?**\nTenemos múltiples formas de pago para que compres tus favoritos y sorprendas a tus seres queridos con los regalos de navidad. Puedes comprar con una o más tarjetas de débito, con tarjeta de crédito Visa, MasterCard, American Express y Diners; en efectivo, con Nequi o si prefieres realizar tus pagos a cuotas con ADDI o Sistecrédito. Compra de manera segura, paga con tu método de pago de preferencia y recibe en casa. ¡Aprovecha y estrena!",
-            "font": "t-body",
-            "blockClass": "question-dsi"
-        }
-    },
-    "rich-text#question-four-blackfriday": {
-        "props": {
-            "textAlignment": "LEFT",
-            "text": "### **¿Qué puedes esperar del Black Friday en Pilatos?**\nIncreíbles descuentos en toda la tienda en tus prendas y accesorios favoritos. Tenis, jeans, camisetas, denim, pantalones, buzos, chaquetas y lo mejor de las mejores marcas en un solo lugar.",
-            "font": "t-body",
-            "blockClass": "question-dsi"
-        }
-    },
-    "rich-text#question-five-blackfriday": {
-        "props": {
-            "textAlignment": "LEFT",
-            "text": "### **¿Cuánto tiempo dura el Black Friday en Pilatos?**\nEl Black Friday 2021 estará activo el 26 de noviembre y finalizará el 28 de noviembre, te aconsejamos que no esperes al último día ¡Los mejores descuentos se van primero!",
-            "font": "t-body",
-            "blockClass": "question-dsi"
-        }
-    },
-    "rich-text#question-six-blackfriday": {
-        "props": {
-            "textAlignment": "LEFT",
-            "text": "### **¿Dónde puedo comprar?**\nPuedes comprar en nuestras tiendas físicas y en línea [Pilatos.com](https://www.pilatos.com/)\nConoce todo el catálogo para el Black Friday. Un gran abanico de posibilidades para una amplia gama de deportes, así como tenis, ropa y accesorios para completar un outfit con el diseño y tecnología de la marca.",
-            "font": "t-body",
-            "blockClass": "question-dsi"
-        }
     }
-}
+  }
+
+

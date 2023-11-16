@@ -3072,8 +3072,22 @@
   padding: 1rem;
 }
 .flexCol--formContainer-dsi :global(.vtex-input__label) {
+  font-size: 18px;
+  font-weight: 700;
   display: block;
+  padding: 3% 0 0 3%;
+
 }
+
+.flexCol--formContainer-dsi :global(.vtex-styleguide-9-x-input)::placeholder{
+  text-align: left;
+  font-size: 14px;
+  color: #0000004e;
+  padding: 3% 0 0 3%;
+
+}
+
+
 .flexCol--formContainer-dsi :global(.vtex-input-prefix__group) {
   margin: 1rem 0;
 }
@@ -3090,6 +3104,17 @@
 
 }
 
+@media (max-width: 640px) {
+  .flexRow--content-dsi {
+    padding: 0 2%;
+  }
+
+.flexCol--formContainer-dsi :global(.vtex-input__label) {
+    font-size: 16px;
+
+  }
+
+}
 
 /*Form New Balance*/
 .flexRowContent--form-nb-container :global(.vtex-input__label){
@@ -3199,4 +3224,24 @@
   margin-bottom: 1%;
   padding: 3% 2% 5% 5%;
   width: 100%;
+}
+
+/* FORM EXPECTATIVA */
+.flexColChild--formContainer-dsi{
+  max-width: 900px;
+  margin: 0 auto;
+  width: 600px;
+  box-shadow: 11px 8px 35px 0px rgba(0,0,0,0.19);
+  -webkit-box-shadow: 11px 8px 35px 0px rgba(0,0,0,0.19);
+  -moz-box-shadow: 11px 8px 35px 0px rgba(0,0,0,0.19);
+  padding: 2%;
+}
+@media (max-width: 640px) {
+  .flexColChild--formContainer-dsi{
+    width: 100%;
+    box-shadow: 11px 8px 35px 0px rgba(0,0,0,0.19);
+-webkit-box-shadow: 11px 8px 35px 0px rgba(0,0,0,0.19);
+-moz-box-shadow: 11px 8px 35px 0px rgba(0,0,0,0.19);
+  }
+
 }
