@@ -1,54 +1,51 @@
 {
-    "flex-layout.row#most-viewed": {
-        "children": [
-            "flex-layout.col#most-viewed"
-        ],
-        "props": {
-            "blockClass": "sliderContentShelf"
-        }
-    },
-
-    "flex-layout.col#most-viewed": {
-        "children": [
-            "rich-text#title-best-sellers",
-            "vtex.product-summary:list-context.product-list#most-viewed"        
-        ]
-    },
-
-    "rich-text#title-best-sellers":{
-        "props":{
-            "text": "Los más vendidos",
-            "blockClass": "titleShelf"
-        }
-    },
-
-    "vtex.product-summary:list-context.product-list#most-viewed": {
-        "blocks": [
-            "vtex.product-summary:product-summary.shelf#most-viewed"
-        ],
-        "children": [
-            "slider-layout#home-shelf-most-viewed"
-        ],
-        "props": {
-            "orderBy": "OrderByTopSaleDESC",
-            "collection": "1222",
-            "maxItems": 30
-        }
-    },
-    "slider-layout#home-shelf-most-viewed": {
-        "props": {
-          "itemsPerPage": {
-            "desktop": 4,
-            "tablet": 3,
-            "phone": 2
-          },
-          "infinite": true,
-          "showNavigationArrows": "desktopOnly",
-          "showPaginationDots": "always"
-        //   "centerMode": {
-        //     "mobile": "to-the-left",
-        //     "desktop": "disabled"
-        //   }
-        }
+  "flex-layout.row#most-viewed": {
+    "children": ["flex-layout.col#most-viewed"],
+    "props": {
+      "blockClass": "sliderContentShelf"
     }
+  },
+
+  "flex-layout.col#most-viewed": {
+    "children": [
+      "rich-text#title-best-sellers",
+      "vtex.product-summary:list-context.product-list#most-viewed"
+    ]
+  },
+
+  "rich-text#title-best-sellers": {
+    "props": {
+      "text": "Los más vendidos",
+      "blockClass": "titleShelf"
+    }
+  },
+
+  "vtex.product-summary:list-context.product-list#most-viewed": {
+    "blocks": [
+      //"vtex.product-summary:product-summary.shelf#most-viewed"
+      "vtex.product-summary:product-summary.shelf#new-vitrine"
+    ],
+    "children": ["slider-layout#home-shelf-most-viewed"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "collection": "1222",
+      "maxItems": 30
+    }
+  },
+  "slider-layout#home-shelf-most-viewed": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "always"
+      //   "centerMode": {
+      //     "mobile": "to-the-left",
+      //     "desktop": "disabled"
+      //   }
+    }
+  }
 }

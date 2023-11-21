@@ -1,0 +1,9 @@
+.stackItem--disccount,
+.stackItem--collection-new {
+  z-index: 999 !important;
+}
+
+.stackItem--collection-new {
+  left: auto;
+  right: 0;
+}

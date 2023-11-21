@@ -1,0 +1,28 @@
+.savings--disccount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: auto !important;
+  left: auto !important;
+  background: #ffd400;
+  color: #000;
+  padding: 0 0.3rem;
+}
+
+.savingsPercentage--disccount {
+  border-radius: 0;
+}
+
+.sellingPrice--new-vitrine {
+  margin: 0;
+}
+
+.listPriceValue--new-vitrine {
+  text-decoration-color: #aaa9a9;
+}
+
+.listPrice--new-vitrine .currencyContainer--new-vitrine {
+  font-weight: normal !important;
+  text-decoration-color: #aaa9a9;
+}

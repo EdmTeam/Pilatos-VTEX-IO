@@ -1,0 +1,25 @@
+{
+  "flex-layout.row#prices-vitrine": {
+    "title": "Contenedor Precios Vitrina",
+    "children": [
+      "product-selling-price#new-vitrine",
+      "product-list-price#new-vitrine"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "blockClass": ["pricesVitrine"],
+      "colGap": 2
+    }
+  },
+  "product-selling-price#new-vitrine": {
+    "props": {
+      "blockClass": "new-vitrine"
+    }
+  },
+  "product-list-price#new-vitrine": {
+    "props": {
+      "blockClass": "new-vitrine"
+    }
+  }
+}

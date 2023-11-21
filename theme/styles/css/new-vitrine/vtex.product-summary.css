@@ -1,0 +1,21 @@
+.productBrandContainer--brand {
+  text-align: left;
+}
+
+.productBrandName--brand {
+  color: #767677;
+  text-align: right;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 17.48px;
+}
+
+.nameContainer--new-vitrine {
+  margin-bottom: 0;
+  min-height: min-content;
+}
+
+.productNameContainer--new-vitrine {
+  height: auto !important;
+}

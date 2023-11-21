@@ -1,0 +1,11 @@
+{
+  "vtex.product-summary:product-summary.shelf#new-vitrine": {
+    "title": "Contenedor Vitrina",
+    "children": [
+      "stack-layout#new-vitrine",
+      "flex-layout.row#brand-delivery-free",
+      "vtex.product-summary:product-summary-name#new-vitrina",
+      "flex-layout.row#prices-vitrine"
+    ]
+  }
+}

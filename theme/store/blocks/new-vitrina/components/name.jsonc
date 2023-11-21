@@ -1,0 +1,8 @@
+{
+  "vtex.product-summary:product-summary-name#new-vitrina": {
+    "title": "Nombre Producto",
+    "props": {
+      "blockClass": "new-vitrine"
+    }
+  }
+}

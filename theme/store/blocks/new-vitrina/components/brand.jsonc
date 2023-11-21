@@ -1,0 +1,13 @@
+{
+  "flex-layout.row#brand-delivery-free": {
+    "title": "Contenedor Marca Y Envío gratis",
+    "children": ["vtex.product-summary:product-summary-brand#new-vitrine"],
+    "props": {}
+  },
+  "vtex.product-summary:product-summary-brand#new-vitrine": {
+    "title": "Marca",
+    "props": {
+      "blockClass": ["brand"]
+    }
+  }
+}

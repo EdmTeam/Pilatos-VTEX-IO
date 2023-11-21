@@ -1,0 +1,10 @@
+{
+  "product-price-savings#new-vitrine": {
+    "title": "Descuento Vitrina",
+    "props": {
+      "message": "-{savingsPercentage}",
+      "markers": ["discount"],
+      "blockClass": "disccount"
+    }
+  }
+}

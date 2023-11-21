@@ -1,0 +1,33 @@
+{
+  "stack-layout#new-vitrine": {
+    "title": "Contenedor Imagen Vitrina",
+    "children": [
+      "vtex.product-summary:product-summary-image#shelf",
+      "product-price-savings#new-vitrine",
+      "vtex.product-highlights:product-highlights#collection-new"
+    ],
+    "props": {
+      "blockClass": "imageShelf"
+    }
+  },
+  "vtex.product-highlights:product-highlights#collection-new": {
+    "title": "Tag Nuevo",
+    "props": {
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["Nuevas llegadas"]
+      },
+      "blockClass": "collection-new"
+    },
+    "children": ["product-highlight-wrapper#collection-new"]
+  },
+  "product-highlight-wrapper#collection-new": {
+    "children": ["product-highlight-text#collection-new"]
+  },
+  "product-highlight-text#collection-new": {
+    "props": {
+      "message": "{highlightName}"
+    }
+  }
+}
