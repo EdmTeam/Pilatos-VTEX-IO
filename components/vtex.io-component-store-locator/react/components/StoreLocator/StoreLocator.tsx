@@ -387,7 +387,7 @@ const StoreLocator: StorefrontFunctionComponent<StoreLocatorProps> = ({
                         className={`${styles.containerMap} pa3 ${handles.containerMap}`}
                     >
                         <Map
-                            googleMapURL={`//maps.googleapis.com/maps/api/js?key=${apiKeyGoogle}&v=3.exp&libraries=geometry,drawing,places`}
+                            googleMapURL={`/maps.googleapis.com/maps/api/js?key=${apiKeyGoogle}&v=3.exp&libraries=geometry,drawing,places`}
                             loadingElement={<div style={{ height: `100%` }} />}
                             containerElement={
                                 <div
@@ -419,7 +419,7 @@ const StoreLocator: StorefrontFunctionComponent<StoreLocatorProps> = ({
  * propiedades por defecto del componete
  */
 StoreLocator.defaultProps = {
-    apiKeyGoogle: 'AIzaSyB4wwZij7RCPD78w5Fgxbq0uUwvCEEiH20',
+    apiKeyGoogle: 'AIzaSyAYEt1R_RW2-g2rxXZ87Julfer5Deduzyc',
     lat: 4.6839895,
     lgn: -74.0493608,
     map: {
