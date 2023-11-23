@@ -4,9 +4,8 @@
             "flex-layout.row#bannerLandingMonastery",
             "flex-layout.row#bannersGeneros-mobi",
             "slider-layout#imagenesCategorias",
-            "flex-layout.row#bannersTexto-mobi",
-            "search-result-layout.customQuery#department-nuevo" 
-        ],
+            "flex-layout.row#bannersTexto-mobi"
+                  ],
         "props":{
             "blockClass": "contentSearch"
         }
@@ -81,7 +80,7 @@
     },
     "flex-layout.row#bannerIconic-mobi":{
         "children":[
-            "image#monasteryIconicBanner-mob"       
+            "image#monasteryIconicBanner-mob"
          ]
     },
     "image#monasteryCoutareBanner-mob":{
@@ -90,7 +89,7 @@
             "blockClass":"estilosCategoriasMonastery",
             "maxWidth":"420px",
             "marginTop":"200px"
-            
+
         }
     },
     "image#monasteryIconicBanner-mob":{

@@ -2,8 +2,9 @@
         {
             "store.custom#landing-aguaBendita": {
                 "blocks":[
-                    
-                    "flex-layout.row#bannerAguaBendita"
+
+                    "flex-layout.row#bannerAguaBendita",
+                    "search-result-layout.customQuery#agua-bendita"
                 ],
                 "props":{
                     "blockClass": "contentStoreCustom"
@@ -18,7 +19,7 @@
                 "props":{
                     "blockClass": "contentSearch"
                 }
-            
+
             },
 
             "flex-layout.col#bannerAguaBendita":{
@@ -26,18 +27,17 @@
                     "rich-text#landing-aguaBendita",
                     "rich-text#landing-aguaBendita-title",
                     "responsive-layout.desktop#bannerAguaBendita",
-                    
+
                     "responsive-layout.desktop#bannerAguaBenditaStreet",
                     "responsive-layout.desktop#bannerAguaBenditaSecundario",
                     "responsive-layout.tablet#bannerAguaBendita",
                     "responsive-layout.tablet#bannerAguaBenditaSecundario",
                     "responsive-layout.tablet#bannerAguaBenditaStreet",
-                    "responsive-layout.phone#bannerAguaBendita",
-                    "search-result-layout.customQuery#department-nuevo",               
-                    "rich-text#filtro-seo" 
+                    "responsive-layout.phone#bannerAguaBendita"
+                    // "rich-text#filtro-seo"
 
-    
-                ] 
+
+                ]
             },
 
      // Bread-crumb y Title
@@ -54,7 +54,7 @@
                         }
         },
 
-       
+
 
     // BANNER PRINCIPAL DESK Y TABLET
     "responsive-layout.desktop#bannerAguaBendita":{
@@ -81,7 +81,7 @@
        ]
     },
 
-     // BANNER SECUNDARIOS 
+     // BANNER SECUNDARIOS
 
      "responsive-layout.desktop#bannerAguaBenditaSecundario":{
         "children":[
@@ -152,7 +152,7 @@
      },
 
 
-    // ARCHIVOS DE IMAGENES 
+    // ARCHIVOS DE IMAGENES
     "image#bannerAguaBendita-desk": {
       "props": {
         "src": "/arquivos/Desktop_AB.jpg"
@@ -196,7 +196,7 @@
                 "url": "/"
               },
               "blockClass": "departmentBannerImg-mundial"
-              
+
             }
           },
 
@@ -209,7 +209,7 @@
                   "blockClass": "departmentBannerImg-mundial"
                 }
               },
-      
+
           "image#bannerAguaBenditaFooter2": {
                   "props": {
                     "src": "/arquivos/Desktop_Men.jpg",
@@ -217,12 +217,30 @@
                       "url": "/"
                     },
                     "blockClass": "departmentBannerImg-mundial"
-            
-                    
+
+
                   }
-                }
+                },
 
-          
+                // VITRINA DE PRODUCTO AGUA BENDITA
 
-          
+                "search-result-layout.customQuery#agua-bendita": {
+                  "blocks": [
+                      "search-result-layout.desktop",
+                      "search-result-layout.mobile#nuevo"
+                  ],
+                  "props": {
+                      "querySchema": {
+                          "orderByField": "OrderByBestDiscountDESC",
+                          "hideUnavailableItems": true,
+                          "maxItemsPerPage": 48,
+                          "queryField": "agua-bendita",
+                          "mapField": "b"
+                      }
+                  }
+              }
+
+
+
+
         }

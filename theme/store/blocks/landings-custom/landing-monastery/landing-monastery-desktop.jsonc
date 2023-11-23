@@ -3,12 +3,13 @@
         "blocks":[
             "responsive-layout.desktop#bannerMonastery",
             "responsive-layout.tablet#bannerMonastery",
-            "responsive-layout.phone#bannersMonastery"
-          
+            "responsive-layout.phone#bannersMonastery",
+            "search-result-layout.customQuery#department-nuevo"
+
         ],
         "props":{
             "blockClass": "contentStoreCustom"
-        }         
+        }
     },
     "flex-layout.row#bannerMonastery":{
         "children":[
@@ -37,7 +38,7 @@
                  "blockClass": "departmentTitle"
                 }
            },
-      /*Banner landing*/     
+      /*Banner landing*/
       /*Desktop*/
         "responsive-layout.desktop#bannerMonastery":{
              "children": [
@@ -45,10 +46,10 @@
                 "image#bannerMonastery",
                 "flex-layout.row#monasteryGenero",
                 "flex-layout.row#monasteryCategorias",
-                "flex-layout.row#monasteryBannerTexto",
-                "search-result-layout.customQuery#department-nuevo" 
-                
-                
+                "flex-layout.row#monasteryBannerTexto"
+
+
+
              ],
              "props": {
                 "blockClass": "contentSearch"
@@ -61,10 +62,8 @@
                "image#bannerMonastery",
                "flex-layout.row#monasteryGenero-tablet",
                "flex-layout.row#monasteryCategorias-tablet",
-               "flex-layout.row#monasteryBannerTexto",
-               "search-result-layout.customQuery#department-nuevo" 
-               
-               
+               "flex-layout.row#monasteryBannerTexto"
+
             ],
             "props": {
                "blockClass": "contentSearch"
@@ -213,7 +212,7 @@
             "url": "/monastery-camisetas"
         },
         "blockClass":"sanValentinImagen"
-        
+
     }
 },
 "image#categoriaGorras":{
@@ -223,7 +222,7 @@
             "url": "/monastery-gorras"
         },
         "blockClass":"sanValentinImagen"
-        
+
     }
 },
 "image#categoriaPantalonetas":{
@@ -233,7 +232,7 @@
             "url": "/monastery-pantalonetas"
         },
         "blockClass":"sanValentinImagen"
-        
+
     }
 },
 /*imagenes tablet*/
@@ -245,7 +244,7 @@
             "url": "/monastery-camisetas"
         },
         "maxWidth":"300px"
-       
+
     }
 },
 "image#categoriaGorras-tablet":{
@@ -255,7 +254,7 @@
         "link": {
             "url": "/monastery-gorras"
         },
-        "maxWidth":"300px"   
+        "maxWidth":"300px"
     }
 },
 "image#categoriaPantalonetas-tablet":{
