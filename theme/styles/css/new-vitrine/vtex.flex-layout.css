@@ -1,3 +1,11 @@
 .flexRowContent--pricesVitrine {
   align-items: center;
+  margin-top: 10px;
+  gap: 0.2rem;
+}
+
+.flexRowContent--addToCartVitrine :global(.vtex-button) {
+  border-radius: 80px;
+  background: #ffd400;
+  border: none;
 }

@@ -3,9 +3,13 @@
     "title": "Contenedor Vitrina",
     "children": [
       "stack-layout#new-vitrine",
+      "sku-selector#new-vitrine",
       "flex-layout.row#brand-delivery-free",
       "vtex.product-summary:product-summary-name#new-vitrina",
       "flex-layout.row#prices-vitrine"
-    ]
+    ],
+    "props": {
+      "blockClass": "new-vitrine"
+    }
   }
 }

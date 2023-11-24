@@ -1,0 +1,18 @@
+{
+  "flex-layout.row#add-to-cart-vitrine": {
+    "title": "Contenedor Botón Agregar Al Carrito Vitrina",
+    "children": ["vtex.add-to-cart-button:add-to-cart-button#new-vitrine"],
+    "props": {
+      "blockClass": ["addToCartVitrine"]
+    }
+  },
+  "vtex.add-to-cart-button:add-to-cart-button#new-vitrine": {
+    "props": {
+      "text": "Añadir al carrito",
+      "unavailableText": "Agotado",
+      "addToCartFeedback": "customEvent",
+      "customPixelEventId": "addToCart",
+      "blockClass": "new-vitrine"
+    }
+  }
+}

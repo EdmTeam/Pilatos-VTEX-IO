@@ -1,9 +1,17 @@
 .stackItem--disccount,
-.stackItem--collection-new {
+.stackItem--collection-new,
+.stackItem--addToCartVitrine {
   z-index: 999 !important;
 }
 
 .stackItem--collection-new {
   left: auto;
   right: 0;
+}
+
+.stackItem--addToCartVitrine {
+  top: auto;
+  bottom: 10px;
+  width: 100%;
+  padding: 0 2rem;
 }

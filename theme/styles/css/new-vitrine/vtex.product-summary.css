@@ -19,3 +19,31 @@
 .productNameContainer--new-vitrine {
   height: auto !important;
 }
+
+.brandName--new-vitrine {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 64em) {
+  .element--new-vitrine
+    :global(.vtex-stack-layout-0-x-stackItem--addToCartVitrine) {
+    visibility: hidden;
+  }
+
+  .element--new-vitrine:hover
+    :global(.vtex-stack-layout-0-x-stackItem--addToCartVitrine) {
+    visibility: visible;
+  }
+
+  .element--new-vitrine:hover
+    :global(.vtex-flex-layout-0-x-flexRow--brand-and-tag),
+  .element--new-vitrine:hover
+    :global(.vtex-product-summary-2-x-nameContainer--new-vitrine),
+  .element--new-vitrine:hover
+    :global(.vtex-flex-layout-0-x-flexRow--pricesVitrine) {
+    display: none;
+  }
+}

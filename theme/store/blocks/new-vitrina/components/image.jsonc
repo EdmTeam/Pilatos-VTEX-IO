@@ -4,7 +4,8 @@
     "children": [
       "vtex.product-summary:product-summary-image#shelf",
       "product-price-savings#new-vitrine",
-      "vtex.product-highlights:product-highlights#collection-new"
+      "vtex.product-highlights:product-highlights#collection-new",
+      "flex-layout.row#add-to-cart-vitrine"
     ],
     "props": {
       "blockClass": "imageShelf"
