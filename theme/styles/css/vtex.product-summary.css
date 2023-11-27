@@ -1,144 +1,142 @@
-.productBrandContainer{
-    text-align: right;
-    margin-top: .5rem;
+.productBrandContainer {
+  text-align: right;
+  margin-top: 0.5rem;
 }
 
-.productBrand.brandName{
-    font-weight: bold;
-    color: gray;
+.productBrand.brandName {
+  font-weight: bold;
+  color: gray;
 }
 
-.productBrandName{
-    font-weight: bold;
-    color: #000000;
-    font-size: .95rem;
+.productBrandName {
+  font-weight: bold;
+  color: #000000;
+  font-size: 0.95rem;
 }
 
-.nameContainer{
-    margin: .3rem 0 .3rem 0;
-    padding: 0;
-    justify-content: left;
-    min-height: 30px;
+.nameContainer {
+  margin: 0.3rem 0 0.3rem 0;
+  padding: 0;
+  justify-content: left;
+  min-height: 30px;
 }
 
-.nameContainer .nameWrapper{
+.nameContainer .nameWrapper {
+  text-align: left;
+  line-height: 12px;
+}
+
+.nameContainer .nameWrapper .brandName {
+  font-size: 10px;
+  line-height: 12px;
+  font-style: normal;
+  font-weight: normal;
+  color: #260c11;
+  font-family: Mulish;
+  text-align: left;
+}
+
+.element--shelfSlide {
+  position: relative;
+}
+
+.container--shelfSlide {
+  margin: 0 0.3rem;
+  position: relative;
+}
+
+@media only screen and (min-width: 1180px) {
+  .nameContainer {
+    margin: 1rem 0 0.9rem 0;
+  }
+
+  .nameContainer .nameWrapper {
+    height: 36px;
+  }
+
+  .nameContainer .nameWrapper .brandName {
+    font-size: 13px;
+    line-height: 140%;
+  }
+
+  .container--shelfSlide {
+    margin: 0 1rem;
+    max-width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .element--shelfSearch .brandName {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    display: block;
+    font-size: 9px;
+    line-height: 11px;
+    color: #000000 !important;
+  }
+
+  .container--shelfSearch {
+    margin: 0 1rem;
+  }
+
+  .element--shelfSearch .productBrandContainer {
     text-align: left;
-    line-height: 12px;
+  }
+
+  .element--shelfSearch .nameContainer {
+    margin: 0.2rem 0;
+    min-height: auto;
+  }
 }
 
-.nameContainer .nameWrapper .brandName{
-    font-size: 10px;
-    line-height: 12px;
-    font-style: normal;
-    font-weight: normal;
-    color: #260C11;
+.element {
+  position: relative;
+}
+
+@media only screen and (min-width: 1180px) {
+  .element--shelfSearch .nameContainer {
+    margin: 0.2rem 0;
+    min-height: 15px;
+  }
+
+  .element--shelfSearch .brandName {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    display: block;
+    font-size: 9px !important;
+    line-height: 11px;
+    color: #000000 !important;
+  }
+
+  .container--shelfSearch {
+    margin: 0 1rem;
+  }
+
+  .element--shelfSearch {
+    padding-bottom: 0;
+  }
+
+  .container--shelfSearch .productBrandContainer {
+    text-align: left;
+  }
+
+  .container--shelfSearch .productBrandName {
     font-family: Mulish;
-    text-align: left;
+    font-weight: 900;
+    font-size: 9px;
+    line-height: 11px;
+    color: #575756;
+    text-transform: uppercase;
+  }
 }
 
-.element--shelfSlide{
-    position: relative;
-}
-
-.container--shelfSlide{
-    margin: 0 .3rem;
-    position: relative;
-}
-
-@media only screen and (min-width: 1180px){
-    .nameContainer{
-        margin: 1rem 0 .9rem 0;
-    }
-
-    .nameContainer .nameWrapper{
-        height: 36px;
-    }
-
-    .nameContainer .nameWrapper .brandName{
-        font-size: 13px;
-        line-height: 140%;
-    }
-
-    .container--shelfSlide{
-        margin: 0 1rem;
-        max-width: 100% !important;
-    }
-}
-
-@media only screen and (max-width: 760px){
-    .element--shelfSearch .brandName{
-        text-overflow: ellipsis;
-        overflow: hidden;
-        white-space: nowrap;
-        display: block;
-        font-size: 9px;
-        line-height: 11px;
-        color: #000000 !important;
-    }
-
-    .container--shelfSearch{
-        margin: 0 1rem;
-    }
-
-    .element--shelfSearch .productBrandContainer{
-        text-align: left;
-    }
-
-    .element--shelfSearch .nameContainer{
-        margin: .2rem 0;
-        min-height: auto;
-    }
-}
-
-.element{
-    position: relative;
-}
-
-@media only screen and (min-width: 1180px){
-    .element--shelfSearch .nameContainer{
-        margin: .2rem 0;
-        min-height: 15px;
-    }
-
-    .element--shelfSearch .brandName{
-        text-overflow: ellipsis;
-        overflow: hidden;
-        white-space: nowrap;
-        display: block;
-        font-size: 9px !important;
-        line-height: 11px;
-        color: #000000 !important;
-    }
-
-    .container--shelfSearch{
-        margin: 0 1rem;
-    }
-
-    .element--shelfSearch{
-        padding-bottom: 0;
-    }
-
-    .container--shelfSearch .productBrandContainer{
-        text-align: left;
-    }
-
-    .container--shelfSearch .productBrandName{
-        font-family: Mulish;
-        font-weight: 900;
-        font-size: 9px;
-        line-height: 11px;
-        color: #575756;
-        text-transform: uppercase;
-    }
-}
-
-.clearLink--shelfSlide{
-    padding: 0 .5rem;
-    background: #ffffff;
+.clearLink--shelfSlide {
+  padding: 0 0.5rem;
+  background: #ffffff;
 }
 
 .imageNormal {
-    height: auto !important;
-  }
-
-
+  height: auto !important;
+}

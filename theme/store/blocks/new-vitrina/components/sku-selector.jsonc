@@ -1,5 +1,5 @@
 {
-  "sku-selector#new-vitrine": {
+  "vtex.product-summary:product-summary-sku-selector#new-vitrine": {
     "props": {
       "thumbnailImage": ["color"],
       "blockClass": "new-vitrine"

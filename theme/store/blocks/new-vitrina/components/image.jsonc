@@ -2,13 +2,26 @@
   "stack-layout#new-vitrine": {
     "title": "Contenedor Imagen Vitrina",
     "children": [
-      "vtex.product-summary:product-summary-image#shelf",
+      "vtex.product-summary:product-summary-image#new-vitrine",
       "product-price-savings#new-vitrine",
       "vtex.product-highlights:product-highlights#collection-new",
       "flex-layout.row#add-to-cart-vitrine"
     ],
     "props": {
       "blockClass": "imageShelf"
+    }
+  },
+  "vtex.product-summary:product-summary-image#new-vitrine": {
+    "props": {
+      "showBadge": false,
+      "aspectRatio": "3:4",
+      "width": 750,
+      "height": 1000,
+      "displayMode": "carousel",
+      "hoverImage": {
+        "criteria": "index",
+        "index": "2"
+      }
     }
   },
   "vtex.product-highlights:product-highlights#collection-new": {
