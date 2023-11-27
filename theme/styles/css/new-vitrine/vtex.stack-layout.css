@@ -14,4 +14,22 @@
   bottom: 10px;
   width: 100%;
   padding: 0 2rem;
+  display: none;
+}
+
+.stackItem--comprarapida {
+  top: auto;
+  left: auto;
+  right: 0;
+  bottom: 0;
+}
+
+@media screen and (min-width: 64em) {
+  .stackItem--addToCartVitrine {
+    display: block;
+  }
+
+  .stackItem--comprarapida {
+    display: none;
+  }
 }

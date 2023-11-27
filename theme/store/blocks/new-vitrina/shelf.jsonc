@@ -3,6 +3,7 @@
     "title": "Contenedor Vitrina",
     "children": [
       "stack-layout#new-vitrine",
+      "overlay-trigger#comprarapida",
       "vtex.product-summary:product-summary-sku-selector#new-vitrine",
       "flex-layout.row#brand-delivery-free",
       "vtex.product-summary:product-summary-name#new-vitrina",

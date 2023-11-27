@@ -54,6 +54,16 @@
   color: #fff;
 }
 
+.element--new-vitrine .SKUSelectorContainer--new-vitrine {
+  display: none;
+}
+
+.element--new-vitrine
+  :global(.vtex-overlay-layout-0-x-container--comprarapida)
+  .SKUSelectorContainer--new-vitrine {
+  display: block;
+}
+
 @media screen and (min-width: 64em) {
   .element--new-vitrine
     :global(.vtex-stack-layout-0-x-stackItem--addToCartVitrine) {
@@ -71,10 +81,6 @@
     :global(.vtex-product-summary-2-x-nameContainer--new-vitrine),
   .element--new-vitrine:hover
     :global(.vtex-flex-layout-0-x-flexRow--pricesVitrine) {
-    display: none;
-  }
-
-  .element--new-vitrine .SKUSelectorContainer--new-vitrine {
     display: none;
   }
 

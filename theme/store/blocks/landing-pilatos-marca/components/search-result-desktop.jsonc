@@ -1,0 +1,105 @@
+{
+  "search-result-layout.desktop#brand-pilatos": {
+    "children": [
+      "flex-layout.row#banner-search",
+      "flex-layout.row#bread-crumb",
+      "flex-layout.row#search-info",
+      "flex-layout.row#search-info-desk-new",
+      //"flex-layout.row#fetch-previous",
+      "flex-layout.row#result-pilatos",
+      "flex-layout.row#spacer",
+      "rich-text#filtro-seo"
+    ],
+    "props": {
+      "preventRouteChange": true,
+      "hideUnavailableItems": true,
+      "showFacetQuantity": true,
+      "showProductsCount": true,
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      },
+      "__unstableProductOriginVtex": true,
+      "hiddenFacets": {
+        "specificationFilters": {
+          "hiddenFilters": [
+            {
+              "name": "Material"
+            },
+
+            {
+              "name": "Alto (Cm)"
+            },
+            {
+              "name": "Ancho (Cm)"
+            },
+            {
+              "name": "Breve Descripción"
+            },
+            {
+              "name": "Descripción"
+            },
+            {
+              "name": "Color"
+            },
+            {
+              "name": "Tipo"
+            },
+            {
+              "name": "Categoría"
+            },
+            {
+              "name": "Colores"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "flex-layout.row#result-pilatos": {
+    "title": "Contenedor Resultados Pilatos",
+    "children": ["flex-layout.col#content-pilatos"],
+    "props": {
+      "preventHorizontalStretch": true,
+      "fullWidth": true,
+      "blockClass": "contentResultFilter"
+    }
+  },
+  "flex-layout.col#content-pilatos": {
+    "title": "Contenedor Resultados Pilatos",
+    "children": [
+      "flex-layout.row#fetch-previous",
+      "flex-layout.row#products-pilatos",
+      "flex-layout.row#fetch-more"
+    ],
+    "props": {
+      "width": "grow",
+      "preventVerticalStretch": true,
+      "blockClass": "contentResult"
+    }
+  },
+  "flex-layout.row#products-pilatos": {
+    "title": "Contenedor Resultados Pilatos",
+    "children": ["search-content#pilatos"]
+  },
+  "search-content#pilatos": {
+    "blocks": ["gallery#pilatos", "not-found"]
+  },
+  "gallery#pilatos": {
+    "props": {
+      "layouts": [
+        {
+          "name": "whole",
+          "component": "OneOrTwoLineSummary",
+          "itemsPerRow": {
+            "(min-width:1008px)": 4,
+            "(min-width:623px) and (max-width:1007px)": 3,
+            "(max-width:622px)": 2
+          }
+        }
+      ],
+      "OneOrTwoLineSummary": "vtex.product-summary:product-summary.shelf#new-vitrine"
+    },
+    "blocks": ["vtex.product-summary:product-summary.shelf#new-vitrine"]
+  }
+}

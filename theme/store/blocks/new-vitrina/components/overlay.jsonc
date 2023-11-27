@@ -1,0 +1,35 @@
+{
+  "overlay-trigger#comprarapida": {
+    "props": {
+      "trigger": "click",
+      "blockClass": "comprarapida"
+    },
+    "children": ["rich-text#CompraRapida", "overlay-layout#comprarapida"]
+  },
+  "overlay-layout#comprarapida": {
+    "title": "Compra Rapida",
+    "props": {
+      "blockClass": "comprarapida",
+      "placement": "bottom",
+      "scrollBehavior": "close-on-scroll",
+      "offsets": {
+        "skidding": 0,
+        "distance": 0
+      }
+    },
+    "children": [
+      "vtex.product-summary:product-summary-sku-selector#new-vitrine",
+      "vtex.add-to-cart-button:add-to-cart-button#new-vitrine"
+    ]
+  },
+  "rich-text#CompraRapida": {
+    "title": "Comprar",
+    "props": {
+      "text": "Activador",
+      "blockClass": "CompraRapida",
+      "preventVerticalStretch": true,
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  }
+}

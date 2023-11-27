@@ -1,165 +1,149 @@
 {
-    "store.custom#landing-pilatos-marca":{
-        "blocks":[
-            "flex-layout.row#banner-landing-pilatos-marca",
-            "search-result-layout.customQuery#landing-pilatos-marca"
-        ],
-        "props":{
-            "blockClass": "contentStoreCustom"
-        }
-    },
-
-    "flex-layout.row#banner-landing-pilatos-marca":{
-        "children":[
-            "flex-layout.col#banner-landing-pilatos-marca"
-        ],
-        "props":{
-            "blockClass": "contentSearch"
-        }
-    },
-
-    "flex-layout.col#banner-landing-pilatos-marca":{
-        "children":[
-            "rich-text#landing-pilatos-marca-bread-crumb",
-            "rich-text#landing-pilatos-marca-title",
-            "responsive-layout.desktop#landing-pilatos-marca-banners",
-            "responsive-layout.tablet#landing-pilatos-marca-banners",
-            "responsive-layout.phone#landing-pilatos-marca-banners"
-        ]
-    },
-
-    "responsive-layout.desktop#landing-pilatos-marca-banners":{
-        "children":[
-            "flex-layout.col#landing-pilatos-marca-banners-1",
-            "flex-layout.row#most-viewed",
-            "flex-layout.row#landing-pilatos-marca-banners-2"
-          //  "flex-layout.row#brands"
-        ]
-    },
-
-    "rich-text#landing-pilatos-marca-bread-crumb":{
-        "props":{
-            "text": "[Home](/) / [**Pilatos**](/pilatos)",
-            "blockClass": "departmentBreadCrumb"
-        }
-    },
-
-    "rich-text#landing-pilatos-marca-title":{
-        "props":{
-            "text": "# Pilatos",
-            "blockClass": "departmentTitle"
-        }
-    },
-
-
-    "search-result-layout.customQuery#landing-pilatos-marca": {
-        "blocks": [
-            "search-result-layout.desktop",
-            "search-result-layout.mobile#landing-pilatos-marca"
-        ],
-        "props": {
-            "querySchema": {
-                "orderByField": "OrderByTopSaleDESC",
-                "hideUnavailableItems": true,
-                "maxItemsPerPage": 48,
-                "queryField": "pilatos",
-                "mapField": "b"
-            }
-        }
-    },
-
-    "flex-layout.col#landing-pilatos-marca-banners-1":{
-        "children":[
-            "image#landing-pilatos-marca-banners-1-img-1"
-        ],
-        "props":{
-            "blockClass":"contentBannersDesk"
-        }
-    },
-
-    "image#landing-pilatos-marca-banners-1-img-1": {
-        "props": {
-            "src": "/arquivos/Pilatos-RitvalesLanding-Desktop.jpg",
-            "link": {
-                "url": "",
-                "attributeTitle": ""
-            },
-            "blockClass": "departmentBannerImg-1"
-        }
-    },
-
-  
-
-    "flex-layout.row#landing-pilatos-marca-banners-2":{
-        "children":[
-            "flex-layout.col#landing-pilatos-marca-banners-2-img-1",
-            "flex-layout.col#landing-pilatos-marca-banners-2-img-2",
-            "flex-layout.col#landing-pilatos-marca-banners-2-img-3"
-        ],
-        "props":{
-            "blockClass":"contentBanners-2"
-        }
-    },
-
-    "flex-layout.col#landing-pilatos-marca-banners-2-img-1":{
-        "children":[
-            "image#landing-pilatos-marca-banners-2-img-1"
-        ],
-        "props":{
-            "width": "31%"
-        }
-    },
-
-    "image#landing-pilatos-marca-banners-2-img-1": {
-        "props": {
-            "src": "/arquivos/Pilatos-RitvalesLanding-Desktop1.jpg",
-            "link": {
-                "url": "",
-                "attributeTitle": ""
-            },
-            "blockClass": "departmentBannerImg-3"
-        }
-    },
-
-    "flex-layout.col#landing-pilatos-marca-banners-2-img-2":{
-        "children":[
-            "image#landing-pilatos-marca-banners-2-img-2"
-        ],
-        "props":{
-            "width": "31%"
-        }
-    },
-
-    "image#landing-pilatos-marca-banners-2-img-2": {
-        "props": {
-            "src": "/arquivos/Pilatos-RitvalesLanding-Desktop2.jpg",
-            "link": {
-                "url": "",
-                "attributeTitle": ""
-            },
-            "blockClass": "departmentBannerImg-4"
-        }
-    },
-
-   
-
-    "image#landing-pilatos-marca-banners-2-img-3": {
-        "props": {
-            "src": "/arquivos/Pilatos-RitvalesLanding-Desktop3.jpg",
-            "link": {
-                "url": "",
-                "attributeTitle": ""
-            },
-            "blockClass": "departmentBannerImg-5"
-        }
-    },
-    "flex-layout.col#landing-pilatos-marca-banners-2-img-3":{
-        "children":[
-            "image#landing-pilatos-marca-banners-2-img-3"
-        ],
-        "props":{
-            "width": "31%"
-        }
+  "store.custom#landing-pilatos-marca": {
+    "blocks": [
+      "flex-layout.row#banner-landing-pilatos-marca",
+      "search-result-layout.customQuery#landing-pilatos-marca"
+    ],
+    "props": {
+      "blockClass": "contentStoreCustom"
     }
-    
+  },
+
+  "flex-layout.row#banner-landing-pilatos-marca": {
+    "children": ["flex-layout.col#banner-landing-pilatos-marca"],
+    "props": {
+      "blockClass": "contentSearch"
+    }
+  },
+
+  "flex-layout.col#banner-landing-pilatos-marca": {
+    "children": [
+      "rich-text#landing-pilatos-marca-bread-crumb",
+      "rich-text#landing-pilatos-marca-title",
+      "responsive-layout.desktop#landing-pilatos-marca-banners",
+      "responsive-layout.tablet#landing-pilatos-marca-banners",
+      "responsive-layout.phone#landing-pilatos-marca-banners"
+    ]
+  },
+
+  "responsive-layout.desktop#landing-pilatos-marca-banners": {
+    "children": [
+      "flex-layout.col#landing-pilatos-marca-banners-1",
+      "flex-layout.row#most-viewed",
+      "flex-layout.row#landing-pilatos-marca-banners-2"
+      //  "flex-layout.row#brands"
+    ]
+  },
+
+  "rich-text#landing-pilatos-marca-bread-crumb": {
+    "props": {
+      "text": "[Home](/) / [**Pilatos**](/pilatos)",
+      "blockClass": "departmentBreadCrumb"
+    }
+  },
+
+  "rich-text#landing-pilatos-marca-title": {
+    "props": {
+      "text": "# Pilatos",
+      "blockClass": "departmentTitle"
+    }
+  },
+
+  "search-result-layout.customQuery#landing-pilatos-marca": {
+    "blocks": [
+      "search-result-layout.desktop#brand-pilatos",
+      "search-result-layout.mobile#landing-pilatos-marca"
+    ],
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByTopSaleDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 48,
+        "queryField": "pilatos",
+        "mapField": "b"
+      }
+    }
+  },
+
+  "flex-layout.col#landing-pilatos-marca-banners-1": {
+    "children": ["image#landing-pilatos-marca-banners-1-img-1"],
+    "props": {
+      "blockClass": "contentBannersDesk"
+    }
+  },
+
+  "image#landing-pilatos-marca-banners-1-img-1": {
+    "props": {
+      "src": "/arquivos/Pilatos-RitvalesLanding-Desktop.jpg",
+      "link": {
+        "url": "",
+        "attributeTitle": ""
+      },
+      "blockClass": "departmentBannerImg-1"
+    }
+  },
+
+  "flex-layout.row#landing-pilatos-marca-banners-2": {
+    "children": [
+      "flex-layout.col#landing-pilatos-marca-banners-2-img-1",
+      "flex-layout.col#landing-pilatos-marca-banners-2-img-2",
+      "flex-layout.col#landing-pilatos-marca-banners-2-img-3"
+    ],
+    "props": {
+      "blockClass": "contentBanners-2"
+    }
+  },
+
+  "flex-layout.col#landing-pilatos-marca-banners-2-img-1": {
+    "children": ["image#landing-pilatos-marca-banners-2-img-1"],
+    "props": {
+      "width": "31%"
+    }
+  },
+
+  "image#landing-pilatos-marca-banners-2-img-1": {
+    "props": {
+      "src": "/arquivos/Pilatos-RitvalesLanding-Desktop1.jpg",
+      "link": {
+        "url": "",
+        "attributeTitle": ""
+      },
+      "blockClass": "departmentBannerImg-3"
+    }
+  },
+
+  "flex-layout.col#landing-pilatos-marca-banners-2-img-2": {
+    "children": ["image#landing-pilatos-marca-banners-2-img-2"],
+    "props": {
+      "width": "31%"
+    }
+  },
+
+  "image#landing-pilatos-marca-banners-2-img-2": {
+    "props": {
+      "src": "/arquivos/Pilatos-RitvalesLanding-Desktop2.jpg",
+      "link": {
+        "url": "",
+        "attributeTitle": ""
+      },
+      "blockClass": "departmentBannerImg-4"
+    }
+  },
+
+  "image#landing-pilatos-marca-banners-2-img-3": {
+    "props": {
+      "src": "/arquivos/Pilatos-RitvalesLanding-Desktop3.jpg",
+      "link": {
+        "url": "",
+        "attributeTitle": ""
+      },
+      "blockClass": "departmentBannerImg-5"
+    }
+  },
+  "flex-layout.col#landing-pilatos-marca-banners-2-img-3": {
+    "children": ["image#landing-pilatos-marca-banners-2-img-3"],
+    "props": {
+      "width": "31%"
+    }
+  }
 }
