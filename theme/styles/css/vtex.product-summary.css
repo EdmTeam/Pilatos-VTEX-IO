@@ -139,4 +139,5 @@
 
 .imageNormal {
   height: auto !important;
+  object-fit: none !important;
 }

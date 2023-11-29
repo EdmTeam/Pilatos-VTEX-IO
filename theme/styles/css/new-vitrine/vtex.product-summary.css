@@ -87,4 +87,14 @@
   .element--new-vitrine:hover .SKUSelectorContainer--new-vitrine {
     display: block;
   }
+
+  .containerNormal--new-vitrine {
+    margin: 0;
+    max-width: 98% !important;
+  }
+
+  .imageContainer {
+    text-align: center;
+    width: 100%;
+  }
 }

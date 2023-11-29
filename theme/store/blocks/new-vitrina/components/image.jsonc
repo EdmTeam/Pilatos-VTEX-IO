@@ -16,12 +16,12 @@
       "showBadge": false,
       "aspectRatio": "3:4",
       "width": 750,
-      "height": 1200,
-      "displayMode": "carousel",
-      "hoverImage": {
+      "height": 1000,
+      "displayMode": "carousel"
+      /*       "hoverImage": {
         "criteria": "index",
         "index": "2"
-      }
+      } */
     }
   },
   "vtex.product-highlights:product-highlights#collection-new": {

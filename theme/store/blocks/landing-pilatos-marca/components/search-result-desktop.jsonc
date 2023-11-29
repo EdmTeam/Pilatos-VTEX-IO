@@ -89,7 +89,7 @@
     "props": {
       "layouts": [
         {
-          "name": "whole",
+          "name": "pilatos",
           "component": "OneOrTwoLineSummary",
           "itemsPerRow": {
             "(min-width:1008px)": 4,
