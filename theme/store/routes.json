@@ -1,621 +1,621 @@
 {
-    "store.custom#quienes-somos": {
-        "path": "/quienes-somos"
-    },
-
-    "store.custom#contact-us": {
-        "path": "/contactenos"
-    },
-
-    "store.custom#faq": {
-        "path": "/faq"
-    },
-
-    "store.custom#tiendas-oficiales": {
-        "path": "/tiendas-oficiales"
-    },
-
-    "store.custom#evento-template": {
-        "path": "/sale"
-    },
-
-    "store.custom#department-hombre": {
-        "path": "/hombre"
-    },
-
-    "store.custom#department-mujer": {
-        "path": "/mujer"
-    },
-
-    "store.custom#department-ninos": {
-        "path": "/ninos"
-    },
-
-    "store.custom#category-accesorios-hombre": {
-        "path": "/hombre/accesorios"
-    },
-
-    "store.custom#category-jeans-hombre": {
-        "path": "/hombre/jeans"
-    },
-
-    "store.custom#category-ropa-hombre": {
-        "path": "/hombre/ropa"
-    },
-
-    "store.custom#category-ropa-de-playa-hombre": {
-        "path": "/hombre/ropa-de-playa"
-    },
-
-    "store.custom#category-ropa-interior-hombre": {
-        "path": "/hombre/ropa-interior"
-    },
-
-    "store.custom#category-zapatos-hombre": {
-        "path": "/hombre/zapatos"
-    },
-
-    "store.custom#category-billetera-hombre": {
-        "path": "/hombre/accesorios/billeteras"
-    },
-
-    "store.custom#category-bolsos-hombre": {
-        "path": "/hombre/accesorios/bolsos"
-    },
-
-    "store.custom#category-bufandas-hombre": {
-        "path": "/hombre/accesorios/bufandas"
-    },
-
-    "store.custom#category-correas-hombre": {
-        "path": "/hombre/accesorios/correas"
-    },
-
-    "store.custom#category-estuches-hombre": {
-        "path": "/hombre/accesorios/estuches"
-    },
-
-    "store.custom#category-gafas-hombre": {
-        "path": "/hombre/accesorios/gafas"
-    },
-
-    "store.custom#category-gorras-hombre": {
-        "path": "/hombre/accesorios/gorras"
-    },
-
-    "store.custom#category-maletas-hombre": {
-        "path": "/hombre/accesorios/maletas"
-    },
-
-    "store.custom#category-morrales-hombre": {
-        "path": "/hombre/accesorios/morrales"
-    },
-
-    "store.custom#category-perfumes-hombre": {
-        "path": "/hombre/accesorios/perfumes"
-    },
-
-    "store.custom#category-relojes-hombre": {
-        "path": "/hombre/accesorios/relojes"
-    },
-
-    "store.custom#category-tapabocas-hombre": {
-        "path": "/hombre/accesorios/tapabocas"
-    },
-
-    "store.custom#category-otros-accesorios-hombre": {
-        "path": "/hombre/accesorios/otros-accesorios"
-    },
-
-    "store.custom#category-regular-hombre": {
-        "path": "/hombre/jeans/regular"
-    },
-
-    "store.custom#category-slim-hombre": {
-        "path": "/hombre/jeans/slim"
-    },
-
-    "store.custom#category-superslim-hombre": {
-        "path": "/hombre/jeans/superslim"
-    },
-
-    "store.custom#category-wide-hombre": {
-        "path": "/hombre/jeans/wide"
-    },
-
-    "store.custom#category-bermudas-hombre": {
-        "path": "/hombre/ropa/bermudas"
-    },
-
-    "store.custom#category-buzos-hombre": {
-        "path": "/hombre/ropa/buzos"
-    },
-
-    "store.custom#category-camisas-hombre": {
-        "path": "/hombre/ropa/camisas"
-    },
-
-    "store.custom#category-camisetas-hombre": {
-        "path": "/hombre/ropa/camisetas"
-    },
-
-    "store.custom#category-chaquetas-hombre": {
-        "path": "/hombre/ropa/chaquetas"
-    },
-
-    "store.custom#category-pantalones-hombre": {
-        "path": "/hombre/ropa/pantalones"
-    },
-
-    "store.custom#category-polos-hombre": {
-        "path": "/hombre/ropa/polos"
-    },
-
-    "store.custom#category-sudaderas-hombre": {
-        "path": "/hombre/ropa/sudaderas"
-    },
-
-    "store.custom#category-ropa-playa-accesorios-hombre": {
-        "path": "/hombre/ropa-de-playa/accesorios"
-    },
-
-    "store.custom#category-pantalonetas-hombre": {
-        "path": "/hombre/ropa-de-playa/pantalonetas"
-    },
-
-    "store.custom#category-sandalias-hombre": {
-        "path": "/hombre/ropa-de-playa/sandalias"
-    },
-
-    "store.custom#category-boxer-hombre": {
-        "path": "/hombre/ropa-interior/boxer"
-    },
-
-    "store.custom#category-medias-hombre": {
-        "path": "/hombre/ropa-interior/medias"
-    },
-
-    "store.custom#category-zapatos-sandalias-hombre": {
-        "path": "/hombre/zapatos/sandalias"
-    },
-
-    "store.custom#category-tenis-hombre": {
-        "path": "/hombre/zapatos/tenis"
-    },
-
-    "store.custom#category-sub-zapatos-hombre": {
-        "path": "/hombre/zapatos/zapatos"
-    },
-
-    "store.custom#category-billetera-mujer": {
-        "path": "/mujer/accesorios/billeteras"
-    },
-
-    "store.custom#category-bolsos-mujer": {
-        "path": "/mujer/accesorios/bolsos"
-    },
-
-    "store.custom#category-bufandas-mujer": {
-        "path": "/mujer/accesorios/bufandas"
-    },
-
-    "store.custom#category-correas-mujer": {
-        "path": "/mujer/accesorios/correas"
-    },
-
-    "store.custom#category-estuches-mujer": {
-        "path": "/mujer/accesorios/estuches"
-    },
-
-    "store.custom#category-gafas-mujer": {
-        "path": "/mujer/accesorios/gafas"
-    },
-
-    "store.custom#category-gorras-mujer": {
-        "path": "/mujer/accesorios/gorras"
-    },
-
-    "store.custom#category-maletas-mujer": {
-        "path": "/mujer/accesorios/maletas"
-    },
-
-    "store.custom#category-morrales-mujer": {
-        "path": "/mujer/accesorios/morrales"
-    },
-
-    "store.custom#category-otros-accesorios-mujer": {
-        "path": "/mujer/accesorios/otros-accesorios"
-    },
-
-    "store.custom#category-perfumes-mujer": {
-        "path": "/mujer/accesorios/perfumes"
-    },
-
-    "store.custom#category-relojes-mujer": {
-        "path": "/mujer/accesorios/relojes"
-    },
-
-    "store.custom#category-tapabocas-mujer": {
-        "path": "/mujer/accesorios/tapabocas"
-    },
-
-    "store.custom#category-accesorios-mujer": {
-        "path": "/mujer/accesorios"
-    },
-
-    "store.custom#category-regular-mujer": {
-        "path": "/mujer/jeans/regular"
-    },
-
-    "store.custom#category-slim-mujer": {
-        "path": "/mujer/jeans/slim"
-    },
-
-    "store.custom#category-superslim-mujer": {
-        "path": "/mujer/jeans/superslim"
-    },
-
-    "store.custom#category-jean-ancho-mujer": {
-        "path": "/mujer/jeans/jean-ancho"
-    },
-
-    "store.custom#category-jeans-mujer": {
-        "path": "/mujer/jeans"
-    },
-
-    "store.custom#category-buzos-mujer": {
-        "path": "/mujer/ropa/buzos"
-    },
-
-    "store.custom#category-camisas-mujer": {
-        "path": "/mujer/ropa/camisas"
-    },
-
-    "store.custom#category-camisetas-mujer": {
-        "path": "/mujer/ropa/camisetas"
-    },
-
-    "store.custom#category-chaquetas-mujer": {
-        "path": "/mujer/ropa/chaquetas"
-    },
-
-    "store.custom#category-faldas-mujer": {
-        "path": "/mujer/ropa/faldas"
-    },
-
-    "store.custom#category-pantalones-mujer": {
-        "path": "/mujer/ropa/pantalones"
-    },
-
-    "store.custom#category-polos-mujer": {
-        "path": "/mujer/ropa/polos"
-    },
-
-    "store.custom#category-shorts-mujer": {
-        "path": "/mujer/ropa/shorts"
-    },
-
-    "store.custom#category-sudaderas-mujer": {
-        "path": "/mujer/ropa/sudaderas"
-    },
-
-    "store.custom#category-ropa-mujer": {
-        "path": "/mujer/ropa"
-    },
-
-    "store.custom#category-vestidos-mujer": {
-        "path": "/mujer/ropa/vestidos"
-    },
-
-    "store.custom#category-ropa-playa-accesorios-mujer": {
-        "path": "/mujer/ropa-de-playa/accesorios"
-    },
-
-    "store.custom#category-bikinis-mujer": {
-        "path": "/mujer/ropa-de-playa/bikinis"
-    },
-
-    "store.custom#category-enteros-mujer": {
-        "path": "/mujer/ropa-de-playa/enteros"
-    },
-
-    "store.custom#category-sandalias-mujer": {
-        "path": "/mujer/ropa-de-playa/sandalias"
-    },
-
-    "store.custom#category-sandalias-bano-mujer": {
-        "path": "/mujer/ropa-de-playa/salida-de-bano"
-    },
-
-    "store.custom#category-ropa-de-playa-mujer": {
-        "path": "/mujer/ropa-de-playa"
-    },
-
-    "store.custom#category-bodys-mujer": {
-        "path": "/mujer/ropa-interior/bodys"
-    },
-
-    "store.custom#category-medias-mujer": {
-        "path": "/mujer/ropa-interior/medias"
-    },
-
-    "store.custom#category-panties-mujer": {
-        "path": "/mujer/ropa-interior/panties"
-    },
-
-    "store.custom#category-tops-mujer": {
-        "path": "/mujer/ropa-interior/tops"
-    },
-
-    "store.custom#category-ropa-interior-mujer": {
-        "path": "/mujer/ropa-interior"
-    },
-
-    "store.custom#category-zapatos-sandalias-mujer": {
-        "path": "/mujer/zapatos/sandalias"
-    },
-
-    "store.custom#category-tenis-mujer": {
-        "path": "/mujer/zapatos/tenis"
-    },
-
-    "store.custom#category-sub-zapatos-mujer": {
-        "path": "/mujer/zapatos/zapatos"
-    },
-
-    "store.custom#category-zapatos-mujer": {
-        "path": "/mujer/zapatos"
-    },
-
-    "store.custom#category-billetera-ninos": {
-        "path": "/ninos/accesorios/billeteras"
-    },
-
-    "store.custom#category-bolsos-ninos": {
-        "path": "/ninos/accesorios/bolsos"
-    },
-
-    "store.custom#category-bufandas-ninos": {
-        "path": "/ninos/accesorios/bufandas"
-    },
-
-    "store.custom#category-correas-ninos": {
-        "path": "/ninos/accesorios/correas"
-    },
-
-    "store.custom#category-estuches-ninos": {
-        "path": "/ninos/accesorios/estuches"
-    },
-
-    "store.custom#category-gafas-ninos": {
-        "path": "/ninos/accesorios/gafas"
-    },
-
-    "store.custom#category-gorras-ninos": {
-        "path": "/ninos/accesorios/gorras"
-    },
-
-    "store.custom#category-maletas-ninos": {
-        "path": "/ninos/accesorios/maletas"
-    },
-
-    "store.custom#category-morrales-ninos": {
-        "path": "/ninos/accesorios/morrales"
-    },
-
-    "store.custom#category-otros-accesorios-ninos": {
-        "path": "/ninos/accesorios/otros-accesorios"
-    },
-
-    "store.custom#category-perfumes-ninos": {
-        "path": "/ninos/accesorios/perfumes"
-    },
-
-    "store.custom#category-relojes-ninos": {
-        "path": "/ninos/accesorios/relojes"
-    },
-
-    "store.custom#category-tapabocas-ninos": {
-        "path": "/ninos/accesorios/tapabocas"
-    },
-
-    "store.custom#category-accesorios-ninos": {
-        "path": "/ninos/accesorios"
-    },
-
-    "store.custom#category-jean-ancho-ninos": {
-        "path": "/ninos/jeans/jean-ancho"
-    },
-
-    "store.custom#category-regular-ninos": {
-        "path": "/ninos/jeans/regular"
-    },
-
-    "store.custom#category-slim-ninos": {
-        "path": "/ninos/jeans/slim"
-    },
-
-    "store.custom#category-superslim-ninos": {
-        "path": "/ninos/jeans/superslim"
-    },
-
-    "store.custom#category-jeans-ninos": {
-        "path": "/ninos/jeans"
-    },
-
-    "store.custom#category-bermudas-ninos": {
-        "path": "/ninos/ropa/bermudas"
-    },
-
-    "store.custom#category-buzos-ninos": {
-        "path": "/ninos/ropa/buzos"
-    },
-
-    "store.custom#category-camisas-ninos": {
-        "path": "/ninos/ropa/camisas"
-    },
-
-    "store.custom#category-camisetas-ninos": {
-        "path": "/ninos/ropa/camisetas"
-    },
-
-    "store.custom#category-chaquetas-ninos": {
-        "path": "/ninos/ropa/chaquetas"
-    },
-
-    "store.custom#category-faldas-ninos": {
-        "path": "/ninos/ropa/faldas"
-    },
-
-    "store.custom#category-pantalones-ninos": {
-        "path": "/ninos/ropa/pantalones"
-    },
-
-    "store.custom#category-shorts-ninos": {
-        "path": "/ninos/ropa/shorts"
-    },
-
-    "store.custom#category-sudaderas-ninos": {
-        "path": "/ninos/ropa/sudaderas"
-    },
-
-    "store.custom#category-vestidos-ninos": {
-        "path": "/ninos/ropa/vestidos"
-    },
-
-    "store.custom#category-ropa-ninos": {
-        "path": "/ninos/ropa"
-    },
-
-    "store.custom#category-ropa-playa-accesorios-ninos": {
-        "path": "/ninos/ropa-de-playa/accesorios"
-    },
-
-    "store.custom#category-bikinis-ninos": {
-        "path": "/ninos/ropa-de-playa/bikinis"
-    },
-
-    "store.custom#category-enteros-ninos": {
-        "path": "/ninos/ropa-de-playa/enteros"
-    },
-
-    "store.custom#category-sandalias-ninos": {
-        "path": "/ninos/ropa-de-playa/sandalias"
-    },
-
-    "store.custom#category-sandalias-bano-ninos": {
-        "path": "/ninos/ropa-de-playa/sandalias-de-baño"
-    },
-
-    "store.custom#category-ropa-de-playa-ninos": {
-        "path": "/ninos/ropa-de-playa"
-    },
-
-    "store.custom#category-bodys-ninos": {
-        "path": "/ninos/ropa-interios/bodys"
-    },
-
-    "store.custom#category-medias-ninos": {
-        "path": "/ninos/ropa-interios/medias"
-    },
-
-    "store.custom#category-panties-ninos": {
-        "path": "/ninos/ropa-interios/panties"
-    },
-
-    "store.custom#category-tops-ninos": {
-        "path": "/ninos/ropa-interios/tops"
-    },
-
-    "store.custom#category-ropa-interior-ninos": {
-        "path": "/ninos/ropa-interios"
-    },
-
-    "store.custom#category-zapatos-sandalias-ninos": {
-        "path": "/ninos/zapatos/sandalias"
-    },
-
-    "store.custom#category-tenis-ninos": {
-        "path": "/ninos/zapatos/tenis"
-    },
-
-    "store.custom#category-sub-zapatos-ninos": {
-        "path": "/ninos/zapatos/zapatos"
-    },
-
-    "store.custom#category-zapatos-ninos": {
-        "path": "/ninos/zapatos"
-    },
-
-    "store.wishlist": {
-        "path": "/lista-deseos"
-    },
-
-    "store.custom#store-locator":{
-        "path": "/localizador-tiendas"
-    },
-
-    "store.custom#promociones-vigentes": {
-        "path": "/promociones-vigentes"
-    },
-    "store.custom#terminos-condiciones": {
-        "path": "/terminos-condiciones"
-    },
-    "store.custom#politicas": {
-        "path": "/politicas"
-    },
-    "store.custom#preguntas-frecuentes": {
-        "path": "/preguntas-frecuentes"
-    },
-    "store.custom#cambios-devoluciones": {
-        "path": "/cambios-devoluciones"
-    },
-    "store.custom#envios-entregas": {
-        "path": "/envios-entregas"
-    },
-    "store.custom#pagos": {
-        "path": "/pagos"
-    },
-    "store.custom#cuenta": {
-        "path": "/cuenta"
-    },
-    "store.custom#compra": {
-        "path": "/compra"
-    },
-    "store.custom#page-nuevo": {
-        "path": "/nuevo"
-    },
-    "store.custom#page-pilatos-concept":{
-        "path": "/pilatos"
-    },
-    "store.custom#work-with-us":{
-        "path": "/trabaja-con-nosotros"
-    },
-    "store.custom#landing-toda-la-tienda":{
-        "path": "/toda-la-tienda"
-    },
-    "store.custom#sobre-nosotros":{
-        "path": "/sobre-pilatos"
-    },
-    "store.custom#order-from-chaos":{
-        "path": "/order-from-chaos"
-    },
-    "store.custom#dsi-expectativa":{
-        "path": "/dia-sin-iva"
-    },
-    "store.custom#blackfriday-expectativa":{
-        "path": "/blackfriday/expectativa"
-    },
-    "store.custom#guia-regalos":{
-        "path": "/guia-de-regalos"
-    },
-    "store.custom#landingFormulario": {
-        "path": "/landing-formulario"
-    },
-    "store.custom#landing-memorama": {
-        "path": "/memorama"
-    },
-    "store.custom#landing-memorama-mundial": {
-        "path": "/memorama-mundial"
-    }
+  "store.custom#quienes-somos": {
+    "path": "/quienes-somos"
+  },
+
+  "store.custom#contact-us": {
+    "path": "/contactenos"
+  },
+
+  "store.custom#faq": {
+    "path": "/faq"
+  },
+
+  "store.custom#tiendas-oficiales": {
+    "path": "/tiendas-oficiales"
+  },
+
+  "store.custom#evento-template": {
+    "path": "/sale"
+  },
+
+  "store.custom#department-hombre": {
+    "path": "/hombre"
+  },
+
+  "store.custom#department-mujer": {
+    "path": "/mujer"
+  },
+
+  "store.custom#department-ninos": {
+    "path": "/ninos"
+  },
+
+  "store.custom#category-accesorios-hombre": {
+    "path": "/hombre/accesorios"
+  },
+
+  "store.custom#category-jeans-hombre": {
+    "path": "/hombre/jeans"
+  },
+
+  "store.custom#category-ropa-hombre": {
+    "path": "/hombre/ropa"
+  },
+
+  "store.custom#category-ropa-de-playa-hombre": {
+    "path": "/hombre/ropa-de-playa"
+  },
+
+  "store.custom#category-ropa-interior-hombre": {
+    "path": "/hombre/ropa-interior"
+  },
+
+  "store.custom#category-zapatos-hombre": {
+    "path": "/hombre/zapatos"
+  },
+
+  "store.custom#category-billetera-hombre": {
+    "path": "/hombre/accesorios/billeteras"
+  },
+
+  "store.custom#category-bolsos-hombre": {
+    "path": "/hombre/accesorios/bolsos"
+  },
+
+  "store.custom#category-bufandas-hombre": {
+    "path": "/hombre/accesorios/bufandas"
+  },
+
+  "store.custom#category-correas-hombre": {
+    "path": "/hombre/accesorios/correas"
+  },
+
+  "store.custom#category-estuches-hombre": {
+    "path": "/hombre/accesorios/estuches"
+  },
+
+  "store.custom#category-gafas-hombre": {
+    "path": "/hombre/accesorios/gafas"
+  },
+
+  "store.custom#category-gorras-hombre": {
+    "path": "/hombre/accesorios/gorras"
+  },
+
+  "store.custom#category-maletas-hombre": {
+    "path": "/hombre/accesorios/maletas"
+  },
+
+  "store.custom#category-morrales-hombre": {
+    "path": "/hombre/accesorios/morrales"
+  },
+
+  "store.custom#category-perfumes-hombre": {
+    "path": "/hombre/accesorios/perfumes"
+  },
+
+  "store.custom#category-relojes-hombre": {
+    "path": "/hombre/accesorios/relojes"
+  },
+
+  "store.custom#category-tapabocas-hombre": {
+    "path": "/hombre/accesorios/tapabocas"
+  },
+
+  "store.custom#category-otros-accesorios-hombre": {
+    "path": "/hombre/accesorios/otros-accesorios"
+  },
+
+  "store.custom#category-regular-hombre": {
+    "path": "/hombre/jeans/regular"
+  },
+
+  "store.custom#category-slim-hombre": {
+    "path": "/hombre/jeans/slim"
+  },
+
+  "store.custom#category-superslim-hombre": {
+    "path": "/hombre/jeans/superslim"
+  },
+
+  "store.custom#category-wide-hombre": {
+    "path": "/hombre/jeans/wide"
+  },
+
+  "store.custom#category-bermudas-hombre": {
+    "path": "/hombre/ropa/bermudas"
+  },
+
+  "store.custom#category-buzos-hombre": {
+    "path": "/hombre/ropa/buzos"
+  },
+
+  "store.custom#category-camisas-hombre": {
+    "path": "/hombre/ropa/camisas"
+  },
+
+  "store.custom#category-camisetas-hombre": {
+    "path": "/hombre/ropa/camisetas"
+  },
+
+  "store.custom#category-chaquetas-hombre": {
+    "path": "/hombre/ropa/chaquetas"
+  },
+
+  "store.custom#category-pantalones-hombre": {
+    "path": "/hombre/ropa/pantalones"
+  },
+
+  "store.custom#category-polos-hombre": {
+    "path": "/hombre/ropa/polos"
+  },
+
+  "store.custom#category-sudaderas-hombre": {
+    "path": "/hombre/ropa/sudaderas"
+  },
+
+  "store.custom#category-ropa-playa-accesorios-hombre": {
+    "path": "/hombre/ropa-de-playa/accesorios"
+  },
+
+  "store.custom#category-pantalonetas-hombre": {
+    "path": "/hombre/ropa-de-playa/pantalonetas"
+  },
+
+  "store.custom#category-sandalias-hombre": {
+    "path": "/hombre/ropa-de-playa/sandalias"
+  },
+
+  "store.custom#category-boxer-hombre": {
+    "path": "/hombre/ropa-interior/boxer"
+  },
+
+  "store.custom#category-medias-hombre": {
+    "path": "/hombre/ropa-interior/medias"
+  },
+
+  "store.custom#category-zapatos-sandalias-hombre": {
+    "path": "/hombre/zapatos/sandalias"
+  },
+
+  "store.custom#category-tenis-hombre": {
+    "path": "/hombre/zapatos/tenis"
+  },
+
+  "store.custom#category-sub-zapatos-hombre": {
+    "path": "/hombre/zapatos/zapatos"
+  },
+
+  "store.custom#category-billetera-mujer": {
+    "path": "/mujer/accesorios/billeteras"
+  },
+
+  "store.custom#category-bolsos-mujer": {
+    "path": "/mujer/accesorios/bolsos"
+  },
+
+  "store.custom#category-bufandas-mujer": {
+    "path": "/mujer/accesorios/bufandas"
+  },
+
+  "store.custom#category-correas-mujer": {
+    "path": "/mujer/accesorios/correas"
+  },
+
+  "store.custom#category-estuches-mujer": {
+    "path": "/mujer/accesorios/estuches"
+  },
+
+  "store.custom#category-gafas-mujer": {
+    "path": "/mujer/accesorios/gafas"
+  },
+
+  "store.custom#category-gorras-mujer": {
+    "path": "/mujer/accesorios/gorras"
+  },
+
+  "store.custom#category-maletas-mujer": {
+    "path": "/mujer/accesorios/maletas"
+  },
+
+  "store.custom#category-morrales-mujer": {
+    "path": "/mujer/accesorios/morrales"
+  },
+
+  "store.custom#category-otros-accesorios-mujer": {
+    "path": "/mujer/accesorios/otros-accesorios"
+  },
+
+  "store.custom#category-perfumes-mujer": {
+    "path": "/mujer/accesorios/perfumes"
+  },
+
+  "store.custom#category-relojes-mujer": {
+    "path": "/mujer/accesorios/relojes"
+  },
+
+  "store.custom#category-tapabocas-mujer": {
+    "path": "/mujer/accesorios/tapabocas"
+  },
+
+  "store.custom#category-accesorios-mujer": {
+    "path": "/mujer/accesorios"
+  },
+
+  "store.custom#category-regular-mujer": {
+    "path": "/mujer/jeans/regular"
+  },
+
+  "store.custom#category-slim-mujer": {
+    "path": "/mujer/jeans/slim"
+  },
+
+  "store.custom#category-superslim-mujer": {
+    "path": "/mujer/jeans/superslim"
+  },
+
+  "store.custom#category-jean-ancho-mujer": {
+    "path": "/mujer/jeans/jean-ancho"
+  },
+
+  "store.custom#category-jeans-mujer": {
+    "path": "/mujer/jeans"
+  },
+
+  "store.custom#category-buzos-mujer": {
+    "path": "/mujer/ropa/buzos"
+  },
+
+  "store.custom#category-camisas-mujer": {
+    "path": "/mujer/ropa/camisas"
+  },
+
+  "store.custom#category-camisetas-mujer": {
+    "path": "/mujer/ropa/camisetas"
+  },
+
+  "store.custom#category-chaquetas-mujer": {
+    "path": "/mujer/ropa/chaquetas"
+  },
+
+  "store.custom#category-faldas-mujer": {
+    "path": "/mujer/ropa/faldas"
+  },
+
+  "store.custom#category-pantalones-mujer": {
+    "path": "/mujer/ropa/pantalones"
+  },
+
+  "store.custom#category-polos-mujer": {
+    "path": "/mujer/ropa/polos"
+  },
+
+  "store.custom#category-shorts-mujer": {
+    "path": "/mujer/ropa/shorts"
+  },
+
+  "store.custom#category-sudaderas-mujer": {
+    "path": "/mujer/ropa/sudaderas"
+  },
+
+  "store.custom#category-ropa-mujer": {
+    "path": "/mujer/ropa"
+  },
+
+  "store.custom#category-vestidos-mujer": {
+    "path": "/mujer/ropa/vestidos"
+  },
+
+  "store.custom#category-ropa-playa-accesorios-mujer": {
+    "path": "/mujer/ropa-de-playa/accesorios"
+  },
+
+  "store.custom#category-bikinis-mujer": {
+    "path": "/mujer/ropa-de-playa/bikinis"
+  },
+
+  "store.custom#category-enteros-mujer": {
+    "path": "/mujer/ropa-de-playa/enteros"
+  },
+
+  "store.custom#category-sandalias-mujer": {
+    "path": "/mujer/ropa-de-playa/sandalias"
+  },
+
+  "store.custom#category-sandalias-bano-mujer": {
+    "path": "/mujer/ropa-de-playa/salida-de-bano"
+  },
+
+  "store.custom#category-ropa-de-playa-mujer": {
+    "path": "/mujer/ropa-de-playa"
+  },
+
+  "store.custom#category-bodys-mujer": {
+    "path": "/mujer/ropa-interior/bodys"
+  },
+
+  "store.custom#category-medias-mujer": {
+    "path": "/mujer/ropa-interior/medias"
+  },
+
+  "store.custom#category-panties-mujer": {
+    "path": "/mujer/ropa-interior/panties"
+  },
+
+  "store.custom#category-tops-mujer": {
+    "path": "/mujer/ropa-interior/tops"
+  },
+
+  "store.custom#category-ropa-interior-mujer": {
+    "path": "/mujer/ropa-interior"
+  },
+
+  "store.custom#category-zapatos-sandalias-mujer": {
+    "path": "/mujer/zapatos/sandalias"
+  },
+
+  "store.custom#category-tenis-mujer": {
+    "path": "/mujer/zapatos/tenis"
+  },
+
+  "store.custom#category-sub-zapatos-mujer": {
+    "path": "/mujer/zapatos/zapatos"
+  },
+
+  "store.custom#category-zapatos-mujer": {
+    "path": "/mujer/zapatos"
+  },
+
+  "store.custom#category-billetera-ninos": {
+    "path": "/ninos/accesorios/billeteras"
+  },
+
+  "store.custom#category-bolsos-ninos": {
+    "path": "/ninos/accesorios/bolsos"
+  },
+
+  "store.custom#category-bufandas-ninos": {
+    "path": "/ninos/accesorios/bufandas"
+  },
+
+  "store.custom#category-correas-ninos": {
+    "path": "/ninos/accesorios/correas"
+  },
+
+  "store.custom#category-estuches-ninos": {
+    "path": "/ninos/accesorios/estuches"
+  },
+
+  "store.custom#category-gafas-ninos": {
+    "path": "/ninos/accesorios/gafas"
+  },
+
+  "store.custom#category-gorras-ninos": {
+    "path": "/ninos/accesorios/gorras"
+  },
+
+  "store.custom#category-maletas-ninos": {
+    "path": "/ninos/accesorios/maletas"
+  },
+
+  "store.custom#category-morrales-ninos": {
+    "path": "/ninos/accesorios/morrales"
+  },
+
+  "store.custom#category-otros-accesorios-ninos": {
+    "path": "/ninos/accesorios/otros-accesorios"
+  },
+
+  "store.custom#category-perfumes-ninos": {
+    "path": "/ninos/accesorios/perfumes"
+  },
+
+  "store.custom#category-relojes-ninos": {
+    "path": "/ninos/accesorios/relojes"
+  },
+
+  "store.custom#category-tapabocas-ninos": {
+    "path": "/ninos/accesorios/tapabocas"
+  },
+
+  "store.custom#category-accesorios-ninos": {
+    "path": "/ninos/accesorios"
+  },
+
+  "store.custom#category-jean-ancho-ninos": {
+    "path": "/ninos/jeans/jean-ancho"
+  },
+
+  "store.custom#category-regular-ninos": {
+    "path": "/ninos/jeans/regular"
+  },
+
+  "store.custom#category-slim-ninos": {
+    "path": "/ninos/jeans/slim"
+  },
+
+  "store.custom#category-superslim-ninos": {
+    "path": "/ninos/jeans/superslim"
+  },
+
+  "store.custom#category-jeans-ninos": {
+    "path": "/ninos/jeans"
+  },
+
+  "store.custom#category-bermudas-ninos": {
+    "path": "/ninos/ropa/bermudas"
+  },
+
+  "store.custom#category-buzos-ninos": {
+    "path": "/ninos/ropa/buzos"
+  },
+
+  "store.custom#category-camisas-ninos": {
+    "path": "/ninos/ropa/camisas"
+  },
+
+  "store.custom#category-camisetas-ninos": {
+    "path": "/ninos/ropa/camisetas"
+  },
+
+  "store.custom#category-chaquetas-ninos": {
+    "path": "/ninos/ropa/chaquetas"
+  },
+
+  "store.custom#category-faldas-ninos": {
+    "path": "/ninos/ropa/faldas"
+  },
+
+  "store.custom#category-pantalones-ninos": {
+    "path": "/ninos/ropa/pantalones"
+  },
+
+  "store.custom#category-shorts-ninos": {
+    "path": "/ninos/ropa/shorts"
+  },
+
+  "store.custom#category-sudaderas-ninos": {
+    "path": "/ninos/ropa/sudaderas"
+  },
+
+  "store.custom#category-vestidos-ninos": {
+    "path": "/ninos/ropa/vestidos"
+  },
+
+  "store.custom#category-ropa-ninos": {
+    "path": "/ninos/ropa"
+  },
+
+  "store.custom#category-ropa-playa-accesorios-ninos": {
+    "path": "/ninos/ropa-de-playa/accesorios"
+  },
+
+  "store.custom#category-bikinis-ninos": {
+    "path": "/ninos/ropa-de-playa/bikinis"
+  },
+
+  "store.custom#category-enteros-ninos": {
+    "path": "/ninos/ropa-de-playa/enteros"
+  },
+
+  "store.custom#category-sandalias-ninos": {
+    "path": "/ninos/ropa-de-playa/sandalias"
+  },
+
+  "store.custom#category-sandalias-bano-ninos": {
+    "path": "/ninos/ropa-de-playa/sandalias-de-baño"
+  },
+
+  "store.custom#category-ropa-de-playa-ninos": {
+    "path": "/ninos/ropa-de-playa"
+  },
+
+  "store.custom#category-bodys-ninos": {
+    "path": "/ninos/ropa-interios/bodys"
+  },
+
+  "store.custom#category-medias-ninos": {
+    "path": "/ninos/ropa-interios/medias"
+  },
+
+  "store.custom#category-panties-ninos": {
+    "path": "/ninos/ropa-interios/panties"
+  },
+
+  "store.custom#category-tops-ninos": {
+    "path": "/ninos/ropa-interios/tops"
+  },
+
+  "store.custom#category-ropa-interior-ninos": {
+    "path": "/ninos/ropa-interios"
+  },
+
+  "store.custom#category-zapatos-sandalias-ninos": {
+    "path": "/ninos/zapatos/sandalias"
+  },
+
+  "store.custom#category-tenis-ninos": {
+    "path": "/ninos/zapatos/tenis"
+  },
+
+  "store.custom#category-sub-zapatos-ninos": {
+    "path": "/ninos/zapatos/zapatos"
+  },
+
+  "store.custom#category-zapatos-ninos": {
+    "path": "/ninos/zapatos"
+  },
+
+  "store.wishlist": {
+    "path": "/lista-deseos"
+  },
+
+  "store.custom#store-locator": {
+    "path": "/localizador-tiendas"
+  },
+
+  "store.custom#promociones-vigentes": {
+    "path": "/promociones-vigentes"
+  },
+  "store.custom#terminos-condiciones": {
+    "path": "/terminos-condiciones"
+  },
+  "store.custom#politicas": {
+    "path": "/politicas"
+  },
+  "store.custom#preguntas-frecuentes": {
+    "path": "/preguntas-frecuentes"
+  },
+  "store.custom#cambios-devoluciones": {
+    "path": "/cambios-devoluciones"
+  },
+  "store.custom#envios-entregas": {
+    "path": "/envios-entregas"
+  },
+  "store.custom#pagos": {
+    "path": "/pagos"
+  },
+  "store.custom#cuenta": {
+    "path": "/cuenta"
+  },
+  "store.custom#compra": {
+    "path": "/compra"
+  },
+  "store.custom#page-nuevo": {
+    "path": "/nuevo"
+  },
+  "store.custom#page-pilatos-concept": {
+    "path": "/pilatos"
+  },
+  "store.custom#work-with-us": {
+    "path": "/trabaja-con-nosotros"
+  },
+  "store.custom#landing-toda-la-tienda": {
+    "path": "/toda-la-tienda"
+  },
+  "store.custom#sobre-nosotros": {
+    "path": "/sobre-pilatos"
+  },
+  "store.custom#order-from-chaos": {
+    "path": "/order-from-chaos"
+  },
+  "store.custom#dsi-expectativa": {
+    "path": "/dia-sin-iva"
+  },
+  "store.custom#blackfriday-expectativa": {
+    "path": "/blackfriday/expectativa"
+  },
+  "store.custom#guia-regalos": {
+    "path": "/guia-de-regalos"
+  },
+  "store.custom#landingFormulario": {
+    "path": "/landing-formulario"
+  },
+  "store.custom#landing-memorama": {
+    "path": "/memorama"
+  },
+  "store.custom#landing-memorama-mundial": {
+    "path": "/memorama-mundial"
+  }
 }

@@ -1,246 +1,207 @@
+{
+  "store.custom#landing-aguaBendita": {
+    "blocks": [
+      "flex-layout.row#bannerAguaBendita",
+      "search-result-layout.customQuery#agua-bendita"
+    ],
+    "props": {
+      "blockClass": "contentStoreCustom"
+    }
+  },
 
-        {
-            "store.custom#landing-aguaBendita": {
-                "blocks":[
+  "flex-layout.row#bannerAguaBendita": {
+    "children": ["flex-layout.col#bannerAguaBendita"],
+    "props": {
+      "blockClass": "contentSearch"
+    }
+  },
 
-                    "flex-layout.row#bannerAguaBendita",
-                    "search-result-layout.customQuery#agua-bendita"
-                ],
-                "props":{
-                    "blockClass": "contentStoreCustom"
-                }
+  "flex-layout.col#bannerAguaBendita": {
+    "children": [
+      "rich-text#landing-aguaBendita",
+      "rich-text#landing-aguaBendita-title",
+      "responsive-layout.desktop#bannerAguaBendita",
 
-            },
+      "responsive-layout.desktop#bannerAguaBenditaStreet",
+      "responsive-layout.desktop#bannerAguaBenditaSecundario",
+      "responsive-layout.tablet#bannerAguaBendita",
+      "responsive-layout.tablet#bannerAguaBenditaSecundario",
+      "responsive-layout.tablet#bannerAguaBenditaStreet",
+      "responsive-layout.phone#bannerAguaBendita"
+      // "rich-text#filtro-seo"
+    ]
+  },
 
-            "flex-layout.row#bannerAguaBendita":{
-                "children":[
-                    "flex-layout.col#bannerAguaBendita"
-                ],
-                "props":{
-                    "blockClass": "contentSearch"
-                }
+  // Bread-crumb y Title
+  "rich-text#landing-aguaBendita": {
+    "props": {
+      "text": "[Home](/) / [**PilatosMundial**](/PilatosMundial)",
+      "blockClass": "departmentBreadCrumb"
+    }
+  },
+  "rich-text#landing-aguaBendita-title": {
+    "props": {
+      "text": "# Pilatos Mundial",
+      "blockClass": "departmentTitle"
+    }
+  },
 
-            },
+  // BANNER PRINCIPAL DESK Y TABLET
+  "responsive-layout.desktop#bannerAguaBendita": {
+    "children": ["image#bannerAguaBendita-desk"]
+  },
 
-            "flex-layout.col#bannerAguaBendita":{
-                "children": [
-                    "rich-text#landing-aguaBendita",
-                    "rich-text#landing-aguaBendita-title",
-                    "responsive-layout.desktop#bannerAguaBendita",
+  "responsive-layout.tablet#bannerAguaBendita": {
+    "children": ["image#bannerAguaBendita-desk"]
+  },
 
-                    "responsive-layout.desktop#bannerAguaBenditaStreet",
-                    "responsive-layout.desktop#bannerAguaBenditaSecundario",
-                    "responsive-layout.tablet#bannerAguaBendita",
-                    "responsive-layout.tablet#bannerAguaBenditaSecundario",
-                    "responsive-layout.tablet#bannerAguaBenditaStreet",
-                    "responsive-layout.phone#bannerAguaBendita"
-                    // "rich-text#filtro-seo"
+  "responsive-layout.desktop#bannerAguaBenditaStreet": {
+    "children": ["image#bannerAguaBenditaStreet-desk"]
+  },
 
+  "responsive-layout.tablet#bannerAguaBenditaStreet": {
+    "children": ["image#bannerAguaBenditaStreet-desk"]
+  },
 
-                ]
-            },
+  // BANNER SECUNDARIOS
 
-     // Bread-crumb y Title
-        "rich-text#landing-aguaBendita": {
-            "props": {
-                "text": "[Home](/) / [**PilatosMundial**](/PilatosMundial)",
-                "blockClass": "departmentBreadCrumb"
-                        }
-                            },
-        "rich-text#landing-aguaBendita-title": {
-            "props": {
-                "text": "# Pilatos Mundial",
-                "blockClass": "departmentTitle"
-                        }
-        },
+  "responsive-layout.desktop#bannerAguaBenditaSecundario": {
+    "children": [
+      "flex-layout.row#bannerAguaBenditaSecundario",
+      "flex-layout.row#most-viewed",
+      "flex-layout.row#bannerAguaBenditaFooter"
+    ]
+  },
 
+  "responsive-layout.tablet#bannerAguaBenditaSecundario": {
+    "children": [
+      "flex-layout.row#bannerAguaBenditaSecundario",
+      "flex-layout.row#most-viewed",
+      "flex-layout.row#bannerAguaBenditaFooter"
+    ]
+  },
 
+  "flex-layout.row#bannerAguaBenditaSecundario": {
+    "children": [
+      "flex-layout.col#aguaBenditaSecun1",
+      "flex-layout.col#aguaBenditaSecun2",
+      "flex-layout.col#aguaBenditaSecun3"
+    ],
+    "props": {
+      "blockClass": "contentBanners-2"
+    }
+  },
 
-    // BANNER PRINCIPAL DESK Y TABLET
-    "responsive-layout.desktop#bannerAguaBendita":{
-       "children":[
-        "image#bannerAguaBendita-desk"
-       ]
-    },
+  "flex-layout.row#bannerAguaBenditaFooter": {
+    "children": [
+      "flex-layout.col#bannerAguaBenditaFooter1",
+      "flex-layout.col#bannerAguaBenditaFooter2"
+    ],
+    "props": {
+      "blockClass": "contentBanners-2"
+    }
+  },
 
-    "responsive-layout.tablet#bannerAguaBendita":{
-        "children":[
-         "image#bannerAguaBendita-desk"
-        ]
-     },
+  "flex-layout.col#aguaBenditaSecun1": {
+    "children": ["image#aguaBenditaSecun1"]
+  },
 
-     "responsive-layout.desktop#bannerAguaBenditaStreet":{
-      "children":[
-       "image#bannerAguaBenditaStreet-desk"
-      ]
-   },
+  "flex-layout.col#aguaBenditaSecun2": {
+    "children": ["image#aguaBenditaSecun2"]
+  },
 
-   "responsive-layout.tablet#bannerAguaBenditaStreet":{
-       "children":[
-        "image#bannerAguaBenditaStreet-desk"
-       ]
-    },
+  "flex-layout.col#aguaBenditaSecun3": {
+    "children": ["image#aguaBenditaSecun3"]
+  },
+  "flex-layout.col#bannerAguaBenditaFooter1": {
+    "children": ["image#bannerAguaBenditaFooter1"]
+  },
+  "flex-layout.col#bannerAguaBenditaFooter2": {
+    "children": ["image#bannerAguaBenditaFooter2"]
+  },
 
-     // BANNER SECUNDARIOS
+  // ARCHIVOS DE IMAGENES
+  "image#bannerAguaBendita-desk": {
+    "props": {
+      "src": "/arquivos/Desktop_AB.jpg"
+    }
+  },
 
-     "responsive-layout.desktop#bannerAguaBenditaSecundario":{
-        "children":[
-            "flex-layout.row#bannerAguaBenditaSecundario",
-            "flex-layout.row#most-viewed",
-            "flex-layout.row#bannerAguaBenditaFooter"
-        ]
-     },
-
-     "responsive-layout.tablet#bannerAguaBenditaSecundario":{
-        "children":[
-            "flex-layout.row#bannerAguaBenditaSecundario",
-            "flex-layout.row#most-viewed",
-            "flex-layout.row#bannerAguaBenditaFooter"
-
-        ]
-
-     },
-
-     "flex-layout.row#bannerAguaBenditaSecundario":{
-        "children": [
-            "flex-layout.col#aguaBenditaSecun1",
-            "flex-layout.col#aguaBenditaSecun2",
-            "flex-layout.col#aguaBenditaSecun3"
-        ],
-        "props":{
-            "blockClass":"contentBanners-2"
-        }
-     },
-
-     "flex-layout.row#bannerAguaBenditaFooter":{
-        "children": [
-            "flex-layout.col#bannerAguaBenditaFooter1",
-            "flex-layout.col#bannerAguaBenditaFooter2"
-        ],
-        "props":{
-            "blockClass":"contentBanners-2"
-        }
-     },
-
-
-     "flex-layout.col#aguaBenditaSecun1":{
-        "children": [
-            "image#aguaBenditaSecun1"
-        ]
-     },
-
-     "flex-layout.col#aguaBenditaSecun2":{
-        "children": [
-            "image#aguaBenditaSecun2"
-        ]
-     },
-
-     "flex-layout.col#aguaBenditaSecun3":{
-        "children": [
-            "image#aguaBenditaSecun3"
-        ]
-     },
-     "flex-layout.col#bannerAguaBenditaFooter1":{
-        "children": [
-            "image#bannerAguaBenditaFooter1"
-        ]
-     },
-     "flex-layout.col#bannerAguaBenditaFooter2":{
-        "children": [
-            "image#bannerAguaBenditaFooter2"
-        ]
-     },
-
-
-    // ARCHIVOS DE IMAGENES
-    "image#bannerAguaBendita-desk": {
-      "props": {
-        "src": "/arquivos/Desktop_AB.jpg"
-          }
-    },
-
-    "image#bannerAguaBenditaStreet-desk":{
-      "props": {
-        "src": "/arquivos/Banner-landing-Streetwear-EDM.jpg",
-        "link": {
-          "url": "/agua-bendita-street"
-        },
-        "blockClass":"bannerAguaBendita"
-      }
-    },
-
-    "image#aguaBenditaSecun1": {
-        "props": {
-          "src": "/arquivos/Desktop_Readytowear.jpg",
-          "link": {
-            "url": "/"
-          },
-          "blockClass": "departmentBannerImg-mundial"
-        }
+  "image#bannerAguaBenditaStreet-desk": {
+    "props": {
+      "src": "/arquivos/Banner-landing-Streetwear-EDM.jpg",
+      "link": {
+        "url": "/agua-bendita-street"
       },
+      "blockClass": "bannerAguaBendita"
+    }
+  },
 
-    "image#aguaBenditaSecun2": {
-          "props": {
-            "src": "/arquivos/Desktop_Swimwear.jpg",
-            "link": {
-              "url": "/"
-            },
-            "blockClass": "departmentBannerImg-mundial"
-          }
-        },
+  "image#aguaBenditaSecun1": {
+    "props": {
+      "src": "/arquivos/Desktop_Readytowear.jpg",
+      "link": {
+        "url": "/"
+      },
+      "blockClass": "departmentBannerImg-mundial"
+    }
+  },
 
-    "image#aguaBenditaSecun3": {
-            "props": {
-              "src": "/arquivos/Desktop_Accesorios.jpg",
-              "link": {
-                "url": "/"
-              },
-              "blockClass": "departmentBannerImg-mundial"
+  "image#aguaBenditaSecun2": {
+    "props": {
+      "src": "/arquivos/Desktop_Swimwear.jpg",
+      "link": {
+        "url": "/"
+      },
+      "blockClass": "departmentBannerImg-mundial"
+    }
+  },
 
-            }
-          },
+  "image#aguaBenditaSecun3": {
+    "props": {
+      "src": "/arquivos/Desktop_Accesorios.jpg",
+      "link": {
+        "url": "/"
+      },
+      "blockClass": "departmentBannerImg-mundial"
+    }
+  },
 
-          "image#bannerAguaBenditaFooter1": {
-                "props": {
-                  "src": "/arquivos/Desktop_Kids.jpg",
-                  "link": {
-                    "url": "/"
-                  },
-                  "blockClass": "departmentBannerImg-mundial"
-                }
-              },
+  "image#bannerAguaBenditaFooter1": {
+    "props": {
+      "src": "/arquivos/Desktop_Kids.jpg",
+      "link": {
+        "url": "/"
+      },
+      "blockClass": "departmentBannerImg-mundial"
+    }
+  },
 
-          "image#bannerAguaBenditaFooter2": {
-                  "props": {
-                    "src": "/arquivos/Desktop_Men.jpg",
-                    "link": {
-                      "url": "/"
-                    },
-                    "blockClass": "departmentBannerImg-mundial"
+  "image#bannerAguaBenditaFooter2": {
+    "props": {
+      "src": "/arquivos/Desktop_Men.jpg",
+      "link": {
+        "url": "/"
+      },
+      "blockClass": "departmentBannerImg-mundial"
+    }
+  },
 
+  // VITRINA DE PRODUCTO AGUA BENDITA
 
-                  }
-                },
-
-                // VITRINA DE PRODUCTO AGUA BENDITA
-
-                "search-result-layout.customQuery#agua-bendita": {
-                  "blocks": [
-                      "search-result-layout.desktop",
-                      "search-result-layout.mobile#nuevo"
-                  ],
-                  "props": {
-                      "querySchema": {
-                          "orderByField": "OrderByBestDiscountDESC",
-                          "hideUnavailableItems": true,
-                          "maxItemsPerPage": 48,
-                          "queryField": "agua-bendita",
-                          "mapField": "b"
-                      }
-                  }
-              }
-
-
-
-
-        }
+  "search-result-layout.customQuery#agua-bendita": {
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile#nuevo"
+    ],
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByBestDiscountDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 48,
+        "queryField": "agua-bendita",
+        "mapField": "b"
+      }
+    }
+  }
+}

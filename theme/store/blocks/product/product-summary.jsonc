@@ -5,51 +5,40 @@
       "stack-layout#prodsum",
       "vtex.product-summary:product-summary-brand",
       "vtex.product-summary:product-summary-name",
-            "flex-layout.row#price",
+      "flex-layout.row#price",
       "vtex.product-summary:product-summary-space",
       "flex-layout.row#sku-btn"
     ],
-    "props":{
+    "props": {
       "blockClass": "shelfSlide"
     }
   },
 
-
   "flex-layout.row#price": {
-    "children": [
-      "flex-layout.col#selling-price",
-      "flex-layout.col#list-price"
-    ],
-    "props":{
+    "children": ["flex-layout.col#selling-price", "flex-layout.col#list-price"],
+    "props": {
       "blockClass": "contentPrice",
       "preserveLayoutOnMobile": true
     }
   },
 
-  "flex-layout.col#selling-price":{
-    "children": [
-      "product-selling-price#summary"
-    ],
-    "props":{
+  "flex-layout.col#selling-price": {
+    "children": ["product-selling-price#summary"],
+    "props": {
       "blockClass": "contentPrices"
     }
   },
 
-  "flex-layout.col#list-price":{
-    "children": [
-      "product-list-price"
-    ],
-    "props":{
+  "flex-layout.col#list-price": {
+    "children": ["product-list-price"],
+    "props": {
       "blockClass": "contentPrices"
     }
   },
 
   "flex-layout.row#sku-btn": {
-    "children": [
-      "flex-layout.col#content-sku",
-      "flex-layout.col#add-to-cart"
-    ],
-    "props":{
+    "children": ["flex-layout.col#content-sku", "flex-layout.col#add-to-cart"],
+    "props": {
       "blockClass": "contentSkuBtn"
     }
   },
@@ -72,7 +61,6 @@
   //     "initialSelection": "complete"
   //   }
   // },
-
 
   "pilatos21.product-summary:product-summary-sku-selector#color": {
     "props": {
@@ -97,18 +85,14 @@
     }
   },
 
-
-
   "flex-layout.col#add-to-cart": {
-    "children": [
-      "pilatos21.add-to-cart-button:add-to-cart-button#shelf"
-    ],
+    "children": ["pilatos21.add-to-cart-button:add-to-cart-button#shelf"],
     "props": {
       "width": "20%",
       "blockClass": "contentButton"
     }
   },
-  "pilatos21.add-to-cart-button:add-to-cart-button#shelf":{
+  "pilatos21.add-to-cart-button:add-to-cart-button#shelf": {
     "props": {
       "onClickBehavior": "add-to-cart",
       "text": "AGREGAR"
@@ -119,7 +103,7 @@
       "vtex.product-summary:product-summary-image#shelf",
       "vtex.product-highlights@2.x:product-highlights#collection"
       // "modal-trigger#quickview",
-    //  "flex-layout.row#add-to-list-btn"
+      //  "flex-layout.row#add-to-list-btn"
     ],
     "props": {
       "blockClass": "imageShelf"
@@ -131,16 +115,14 @@
       "aspectRatio": "1:1",
       "maxHeight": 500,
       "height": 400,
-      "hoverImage":{
+      "hoverImage": {
         "criteria": "index",
         "index": "2"
-      } 
+      }
     }
   },
-  "flex-layout.row#add-to-list-btn":{
-    "children": [
-      "add-to-list-btn"
-    ],
+  "flex-layout.row#add-to-list-btn": {
+    "children": ["add-to-list-btn"],
     "props": {
       "blockClass": "addWishList"
     }
@@ -162,18 +144,14 @@
   },
   "product-selling-price#summary": {
     "props": {
-      "markers": [
-        "highlight"
-      ],
+      "markers": ["highlight"],
       "message": "{sellingPriceValue}"
     }
   },
   "product-price-savings#summary": {
     "props": {
       "message": "-{savingsPercentage} Off",
-      "markers": [
-        "discount"
-      ]
+      "markers": ["discount"]
     }
   }
 }
