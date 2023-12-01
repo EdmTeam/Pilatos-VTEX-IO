@@ -1,0 +1,82 @@
+{
+  "vtex.product-summary:list-context.product-list#guiaDeRegalo-look1": {
+    "blocks": [
+        "vtex.product-summary:product-summary.shelf#most-viewed"
+    ],
+    "children": [
+        "slider-layout#guiaDeRegalo-look1"
+    ],
+    "props": {
+        "orderBy": "OrderByTopSaleDESC",
+        "collection": "1635",
+        "maxItems": 30
+    }
+},
+"slider-layout#guiaDeRegalo-look1": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "always"
+    }
+},
+"vtex.product-summary:list-context.product-list#guiaDeRegalo-look2": {
+  "blocks": [
+      "vtex.product-summary:product-summary.shelf#most-viewed"
+  ],
+  "children": [
+      "slider-layout#guiaDeRegalo-look1"
+  ],
+  "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "collection": "1637",
+      "maxItems": 30
+  }
+},
+"slider-layout#guiaDeRegalo-look2": {
+  "props": {
+    "itemsPerPage": {
+      "desktop": 3,
+      "tablet": 3,
+      "phone": 2
+    },
+    "infinite": false,
+    "showNavigationArrows": "desktopOnly",
+    "showPaginationDots": "always"
+  }
+},
+
+
+"vtex.product-summary:list-context.product-list#guiaDeRegalo-look3": {
+  "blocks": [
+      "vtex.product-summary:product-summary.shelf#most-viewed"
+  ],
+  "children": [
+      "slider-layout#guiaDeRegalo-look1"
+  ],
+  "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "collection": "1636",
+      "maxItems": 30
+  }
+},
+"slider-layout#guiaDeRegalo-look3": {
+  "props": {
+    "itemsPerPage": {
+      "desktop": 3,
+      "tablet": 3,
+      "phone": 2
+    },
+    "infinite": false,
+    "showNavigationArrows": "desktopOnly",
+    "showPaginationDots": "always"
+  }
+}
+
+
+
+}

@@ -1,0 +1,294 @@
+{
+
+
+  "rich-text#armaTuLookGuiaDeRegalo-text": {
+    "props": {
+      "text": "¿Quieres obsequiar el look completo?, acá lo pudes hacer",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "tab-layout#guiaDeRegaloLook": {
+    "title": "GUIA DE REGALO CATEGORY - BRAND",
+    "children": [
+      "tab-list#guiaDeRegaloLook",
+      "tab-content#guiaDeRegaloLook"
+    ],
+    "props": {
+      "blockClass": "contentSearch",
+      "defaultActiveTabId": "guiaDeRegaloLook-look1"
+    }
+  },
+
+  "tab-list#guiaDeRegaloLook": {
+    "children": [
+      "tab-list.item#guiaDeRegaloLook-1",
+      "tab-list.item#guiaDeRegaloLook-2",
+      "tab-list.item#guiaDeRegaloLook-3"
+
+    ]
+  },
+  "tab-list.item#guiaDeRegaloLook-1": {
+    "props": {
+      "tabId": "guiaDeRegaloLook-look1",
+      "label": "Ver Look 1",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-list.item#guiaDeRegaloLook-2": {
+    "props": {
+      "tabId": "guiaDeRegaloLook-look2",
+      "label": "Ver Look 2"
+    }
+  },
+
+  "tab-list.item#guiaDeRegaloLook-3": {
+    "props": {
+      "tabId": "guiaDeRegaloLook-look3",
+      "label": "Ver Look 3"
+    }
+  },
+   "tab-content#guiaDeRegaloLook": {
+     "children": [
+       "tab-content.item#guiaDeRegaloLook-look1",
+       "tab-content.item#guiaDeRegaloLook-look2",
+       "tab-content.item#guiaDeRegaloLook-look3"
+
+    ]
+   },
+   "tab-content.item#guiaDeRegaloLook-look1": {
+     "children": [
+      "flex-layout.row#guiaDeRegaloLook-look1"
+    ],
+     "props": {
+       "tabId": "guiaDeRegaloLook-look1"
+     }
+   },
+   "tab-content.item#guiaDeRegaloLook-look2": {
+     "children": [
+      "flex-layout.row#guiaDeRegaloLook-look2"
+     ],
+     "props": {
+       "tabId": "guiaDeRegaloLook-look2"
+     }
+   },
+
+   "tab-content.item#guiaDeRegaloLook-look3": {
+    "children": [
+      "flex-layout.row#guiaDeRegaloLook-look3"
+    ],
+    "props": {
+      "tabId": "guiaDeRegaloLook-look3"
+    }
+  },
+
+  //  Look 1
+
+   "flex-layout.row#guiaDeRegaloLook-look1":{
+    "children": [
+      "flex-layout.row#bannerLookUno-regalos",
+      "flex-layout.row#sesionCarrouselLookUno"
+        ],
+    "props": {
+      "blockClass": "prueba-billy-container"
+
+    }
+  },
+  "flex-layout.row#bannerLookUno-regalos":{
+    "title": "BANNER LOOK UNO",
+  "children": [
+    "list-context.image-list#bannerLookUno-regalos"
+  ],
+  "props": {
+    "blockClass": "prueba-izquierda",
+    "width": "30%"
+  }
+  },
+
+  "flex-layout.row#sesionCarrouselLookUno":{
+    "title": "carrousel RITUALES",
+    "children": [
+      "vtex.product-summary:list-context.product-list#guiaDeRegalo-look1"
+  ],
+  "props": {
+    "blockClass": "prueba-derecha",
+    "width": "60%"
+
+  }
+
+  },
+
+
+
+
+ //  Look 2
+
+
+ "flex-layout.row#guiaDeRegaloLook-look2":{
+  "children": [
+    "flex-layout.col#guiaDeRegaloLook-look2"
+  ],
+  "props": {
+    "preventHorizontalStretch": true,
+    "blockClass": "container-giftCategory"
+
+
+  }
+},
+"flex-layout.col#guiaDeRegaloLook-look2":{
+  "children": [
+    "flex-layout.row#guiaDeRegaloLook-look2-content"
+  ]
+},
+
+"flex-layout.row#guiaDeRegaloLook-look2-content":{
+  "children": [
+    "flex-layout.row#bannerLookDos-regalos",
+    "flex-layout.col#sesionCarrouselLookDos"
+
+  ],
+  "props": {
+      // "blockClass": "sliderFitRituales",
+      "fullWidth": false,
+      "preventHorizontalStretch": true
+
+  }
+},
+
+"flex-layout.row#bannerLookDos-regalos":{
+  "title": "BANNER LOOK DOS",
+"children": [
+  "list-context.image-list#bannerLookDos-regalos"
+],
+"props": {
+  "blockClass": "bannerFit"
+}
+},
+
+"flex-layout.col#sesionCarrouselLookDos":{
+  "title": "carrousel RITUALES",
+  "children": [
+    "vtex.product-summary:list-context.product-list#guiaDeRegalo-look2"
+],
+"props": {
+  "blockClass": "carrouselFit",
+  "horizontalAlign": "left"
+}
+
+},
+
+ //  Look 3
+
+
+ "flex-layout.row#guiaDeRegaloLook-look3":{
+  "children": [
+    "flex-layout.col#guiaDeRegaloLook-look3"
+  ],
+  "props": {
+    "preventHorizontalStretch": true,
+    "blockClass": "container-giftCategory"
+
+
+  }
+},
+"flex-layout.col#guiaDeRegaloLook-look3":{
+  "children": [
+    "flex-layout.row#guiaDeRegaloLook-look3-content"
+  ]
+},
+
+"flex-layout.row#guiaDeRegaloLook-look3-content":{
+  "children": [
+    "flex-layout.row#bannerLookTres-regalos",
+    "flex-layout.col#sesionCarrouselLookTres"
+
+  ],
+  "props": {
+      // "blockClass": "sliderFitRituales",
+      "fullWidth": false,
+      "preventHorizontalStretch": true
+
+  }
+},
+
+"flex-layout.row#bannerLookTres-regalos":{
+  "title": "BANNER LOOK TRES",
+"children": [
+  "list-context.image-list#bannerLookTres-regalos"
+],
+"props": {
+  "blockClass": "bannerFit"
+}
+},
+
+"flex-layout.col#sesionCarrouselLookTres":{
+  "title": "carrousel RITUALES",
+  "children": [
+    "vtex.product-summary:list-context.product-list#guiaDeRegalo-look3"
+],
+"props": {
+  "blockClass": "carrouselFit",
+  "horizontalAlign": "left"
+}
+
+},
+
+
+// ARCHIVOS IMAGENES
+
+
+"list-context.image-list#bannerLookUno-regalos": {
+  "children": [
+      "slider-layout"
+  ],
+  "props": {
+    "height": "auto",
+      "preload": true,
+      "images": [
+          {
+              "image": "/arquivos/Pilatos-GuiaRegalos-Landing-Look3-Desk.jpg",
+              "mobileImage": "/arquivos/Pilatos-GuiaRegalos-Landing-Look3-Mob.jpg"
+          }
+      ]
+  }
+},
+
+
+"list-context.image-list#bannerLookDos-regalos": {
+  "children": [
+      "slider-layout"
+  ],
+  "props": {
+    "height": 800,
+      "preload": true,
+      "images": [
+          {
+              "image": "/arquivos/Pilatos-GuiaRegalos-Landing-Look1-Desk.jpg",
+              "mobileImage": "/arquivos/Pilatos-GuiaRegalos-Landing-Look1-Mob.jpg"
+          }
+      ]
+  }
+},
+
+
+"list-context.image-list#bannerLookTres-regalos": {
+  "children": [
+      "slider-layout"
+  ],
+  "props": {
+    "height": 800,
+      "preload": true,
+      "images": [
+          {
+              "image": "/arquivos/Pilatos-GuiaRegalos-Landing-Look2-Desk.jpg",
+              "mobileImage": "/arquivos/Pilatos-GuiaRegalos-Landing-Look2-Mob.jpg"
+          }
+      ]
+  }
+}
+
+
+
+
+
+}

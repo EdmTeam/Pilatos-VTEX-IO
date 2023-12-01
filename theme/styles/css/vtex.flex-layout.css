@@ -361,6 +361,15 @@
     justify-content: flex-end;
   }
 
+  /* :global(.vtex-flex-layout-0-x-stretchChildrenWidth) .flexRow--prueba-izquierda {
+    width: 10%;
+  } */
+
+  /* .flexRowContent--prueba-billy-container :global(.vtex-flex-layout-0-x-stretchChildrenWidth:first-child){
+    flex-basis: 50%;
+  } */
+
+
   .flexRowContent--paymentMethods :global(.vtex-store-components-3-x-imageElement){
     margin-right: 0;
     width: 61%;
@@ -3243,4 +3252,38 @@
   -webkit-box-shadow: 11px 8px 35px 0px rgba(0,0,0,0.10);
   -moz-box-shadow: 11px 8px 35px 0px rgba(0,0,0,0.10);
 }
+}
+/* GUIA DE REGALO 2023 */
+.flexRow--containerBlack {
+  background: #000;
+  padding:2%;
+  margin-bottom: 2px;
+  /* height: 734px; */
+}
+
+.flexCol--containerSeoBotonesGenero{
+  margin: 0 auto;
+  max-width: 700px;
+  justify-content: center;
+}
+
+.flexCol--card-giftCategory{
+  margin: 5px;
+}
+
+.flexRowContent--container-giftCategory{
+  justify-content: center;
+}
+
+.prueba-billy-container{
+  display: flex;
+}
+
+.prueba-izquierda{
+  flex: 0.4;
+
+}
+
+.prueba-derecha{
+  flex: 0.6;
 }

@@ -86,7 +86,7 @@
     background-color: #d3d6d7 ;
     min-width: 300px;
     /* min-width: 200PX; */
-   
+
 }
 
 .listItem--tabs-newbalanceform :global(.vtex-button){
@@ -121,4 +121,38 @@
     background-color: transparent;
     border: 0;
     font-weight: 700;
+    text-transform: none;
+}
+
+.listItem :global(.vtex-button){
+  text-transform: none;
+  color: #000000;
+}
+
+
+
+.container--contentSearch {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* tablat billy guia de regalos */
+
+.listContainer--guiaDeRegalo{
+  justify-content: center;
+}
+
+.listContainer--guiaDeRegalo .listItemActive {
+  background: white;
+  border-bottom: 1px solid black;
+}
+
+
+.listContainer--guiaDeRegalo .vtex-button__label {
+  color: #ff0000;
+}
+
+.listItem--giftBrand{
+  color: #ff0000;
+
 }

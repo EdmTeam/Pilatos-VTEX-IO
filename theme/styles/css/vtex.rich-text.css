@@ -3058,7 +3058,8 @@ margin: 2px;
   font-size: 16px;
   font-weight: 700;
   text-decoration: none;
-  padding: 15px 20px;
+  padding: 12px 20px;
+  margin-right: 10px;
 
 
 }
@@ -3125,4 +3126,28 @@ margin: 2px;
 
     font-size: 17px;
   }
+}
+
+/* GUIA DE REGALO 2023 */
+.headingLevel1--H1GuiaDeRegalo{
+  font-size: 22px;
+  font-weight: 700;
+  font-family: poppins;
+  color: #030303;
+}
+.link--H1GuiaDeRegalo {
+  color: #ffc600;
+}
+.container--paragrapGuiaDeRegalo{
+  color: #030303;
+}
+
+.paragraph--btnTercerNivel{
+  margin-top: 0;
+}
+
+.link--btnTercerNivel{
+  color: #030303;
+  font-weight: 600;
+
 }

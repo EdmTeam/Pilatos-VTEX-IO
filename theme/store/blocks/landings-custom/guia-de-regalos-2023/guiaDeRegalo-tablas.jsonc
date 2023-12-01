@@ -1,0 +1,379 @@
+{
+  "tab-layout#guiaDeRegalo": {
+    "title": "GUIA DE REGALO CATEGORY - BRAND",
+    "children": [
+      "tab-list#guiaDeRegalo",
+      "tab-content#home"
+    ],
+    "props": {
+      "blockClass": "contentSearch",
+      "defaultActiveTabId": "home1"
+    }
+  },
+
+  "tab-list#guiaDeRegalo": {
+    "children": [
+      "tab-list.item#giftCategory",
+      "tab-list.item#giftBrand"
+    ],
+    "props": {
+      "blockClass": "guiaDeRegalo"
+    }
+  },
+  "tab-list.item#giftCategory": {
+    "props": {
+      "tabId": "home1",
+      "label": "Buscar regalo por categoria",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-list.item#giftBrand": {
+    "props": {
+      "tabId": "home2",
+      "label": "Buscar regalo por marca"
+    }
+  },
+   "tab-content#home": {
+     "children": [
+       "tab-content.item#home1",
+       "tab-content.item#home2"
+    ]
+   },
+   "tab-content.item#home1": {
+     "children": [
+      "flex-layout.row#giftCategory"
+    ],
+     "props": {
+       "tabId": "home1"
+     }
+   },
+   "tab-content.item#home2": {
+     "children": [
+      "flex-layout.row#giftBrand"
+     ],
+     "props": {
+       "tabId": "home2"
+     }
+   },
+
+  //  Gift Category Slider
+
+   "flex-layout.row#giftCategory":{
+    "children": [
+      "flex-layout.col#giftCategory1",
+      "flex-layout.col#giftCategory2",
+      "flex-layout.col#giftCategory3"
+    ],
+    "props": {
+
+       "blockClass": "container-giftCategory"
+
+
+    }
+  },
+
+  //  Gift Brand Slider
+
+  "flex-layout.row#giftBrand":{
+    "children": [
+      "flex-layout.col#giftBrand1",
+      "flex-layout.col#giftBrand2",
+      "flex-layout.col#giftBrand3"
+    ],
+    "props": {
+      "blockClass": "container-giftCategory"
+
+
+    }
+  },
+
+
+  // Category 1
+
+  "flex-layout.col#giftCategory1":{
+    "children": [
+
+      "list-context.image-list#giftCategory1",
+      "rich-text#giftCategory1-description",
+      "rich-text#giftCategory1-btn"
+    ],
+    "props": {
+      "blockClass": "card-giftCategory"
+    }
+   },
+
+
+  "list-context.image-list#giftCategory1": {
+    "children": [
+        "slider-layout#giftCategory"
+    ],
+    "props": {
+        "preload": true,
+        "images": [
+            {
+            "image": "/arquivos/Pilatos-GuiaRegalos-Landing-CatJeans-Desk.jpg",
+            "mobileImage": "/arquivos/Pilatos-GuiaRegalos-Landing-CatJeans-Mob.jpg",
+            "link": {
+              "url": "/"
+            }
+        }
+        ]
+    }
+},
+
+"rich-text#giftCategory1-description":{
+  "props": {
+    "text": "La prenda que luce con cualquier outfit. Compra ahora los **JEANS** ideales para regalar en esta época.    "
+  }
+},
+
+"rich-text#giftCategory1-btn": {
+  "props": {
+    "text": "[Comprar jeans](/)",
+    "blockClass": "btnTercerNivel"
+  }
+},
+
+// Category 2
+
+"flex-layout.col#giftCategory2":{
+  "children": [
+
+    "list-context.image-list#giftCategory2",
+    "rich-text#giftCategory2-description",
+    "rich-text#giftCategory2-btn"
+  ],
+  "props": {
+    "blockClass": "card-giftCategory"
+  }
+ },
+
+
+"list-context.image-list#giftCategory2": {
+  "children": [
+      "slider-layout#giftCategory"
+  ],
+  "props": {
+      "preload": true,
+      "images": [
+          {
+          "image": "/arquivos/Pilatos-GuiaRegalos-Landing-CatTenis-Desk.jpg",
+          "mobileImage": "/arquivos/Pilatos-GuiaRegalos-Landing-CatTenis-Mob.jpg"
+      }
+      ]
+  }
+},
+
+"rich-text#giftCategory2-description":{
+"props": {
+  "text": "Encuentra el estilo que mejor se adapte a tu persona especial. Tenemos los **TENIS** para alegrar a cualquiera"
+}
+},
+
+"rich-text#giftCategory2-btn": {
+"props": {
+  "text": "[Comprar tenis](/)",
+  "blockClass": "btnTercerNivel"
+
+}
+},
+
+// Category 3
+
+"flex-layout.col#giftCategory3":{
+  "children": [
+
+    "list-context.image-list#giftCategory3",
+    "rich-text#giftCategory3-description",
+    "rich-text#giftCategory3-btn"
+  ],
+  "props": {
+    "blockClass": "card-giftCategory"
+  }
+ },
+
+
+"list-context.image-list#giftCategory3": {
+  "children": [
+      "slider-layout#giftCategory"
+  ],
+  "props": {
+      "preload": true,
+
+      "images": [
+          {
+          "image": "/arquivos/Pilatos-GuiaRegalos-Landing-CatCamisetas-Desk.jpg",
+          "mobileImage": "/arquivos/Pilatos-GuiaRegalos-Landing-CatCamisetas-Mob.jpg"
+      }
+      ]
+  }
+},
+
+"rich-text#giftCategory3-description":{
+"props": {
+  "text": "Compra ahora las **CAMISETAS** para dar el regalo perfecto en esta navidad. Fáciles de usar, cómodas y con mucho estilo.  "
+}
+},
+
+"rich-text#giftCategory3-btn": {
+"props": {
+  "text": "[Comprar camisetas](/)",
+  "blockClass": "btnTercerNivel"
+
+}
+},
+
+  // BRAND  1
+
+  "flex-layout.col#giftBrand1":{
+    "children": [
+
+      "list-context.image-list#giftBrand1",
+      "rich-text#giftBrand1-description",
+      "rich-text#giftBrand1-btn"
+    ],
+    "props": {
+      "blockClass": "card-giftCategory"
+    }
+   },
+
+
+  "list-context.image-list#giftBrand1": {
+    "children": [
+      "slider-layout#giftCategory"
+    ],
+    "props": {
+        "preload": true,
+        "images": [
+            {
+            "image": "/arquivos/Pilatos-GuiaRegalos-Landing-MarcaPilatos-Desk.jpg",
+            "mobileImage": "/arquivos/Pilatos-GuiaRegalos-Landing-MarcaPilatos-Mob.jpg"
+        }
+        ]
+    }
+},
+
+"rich-text#giftBrand1-description":{
+  "props": {
+    "text": "Haz que la persona que quieres destaque del resto regalándole **PILATOS**. Descubre la selección más cool de la marca."
+  }
+},
+
+"rich-text#giftBrand1-btn": {
+  "props": {
+    "text": "[Comprar Pilatos](/)",
+    "blockClass": "btnTercerNivel"
+
+  }
+},
+
+// BRAND  2
+
+"flex-layout.col#giftBrand2":{
+  "children": [
+
+    "list-context.image-list#giftBrand2",
+    "rich-text#giftBrand2-description",
+    "rich-text#giftBrand2-btn"
+  ],
+  "props": {
+    "blockClass": "card-giftCategory"
+  }
+ },
+
+
+"list-context.image-list#giftBrand2": {
+  "children": [
+    "slider-layout#giftCategory"
+  ],
+  "props": {
+      "preload": true,
+      "images": [
+          {
+          "image": "/arquivos/Pilatos-GuiaRegalos-Landing-MarcaDiesel-Desk.jpg",
+          "mobileImage": "/arquivos/Pilatos-GuiaRegalos-Landing-MarcaDiesel-Mob.jpg"
+      }
+      ]
+  }
+},
+
+"rich-text#giftBrand2-description":{
+"props": {
+  "text": "Asegúrate de dar en navidad un regalo tan icónico como **DIESEL**. Camisetas, tenis, jeans y accesorios con lo último en tendencia.  "
+}
+},
+
+"rich-text#giftBrand2-btn": {
+"props": {
+  "text": "[Comprar Diesel](/)",
+  "blockClass": "btnTercerNivel"
+
+}
+},
+
+// BRAND  3
+
+"flex-layout.col#giftBrand3":{
+  "children": [
+
+    "list-context.image-list#giftBrand3",
+    "rich-text#giftBrand3-description",
+    "rich-text#giftBrand3-btn"
+  ],
+  "props": {
+    "blockClass": "card-giftCategory"
+  }
+ },
+
+
+"list-context.image-list#giftBrand3": {
+  "children": [
+    "slider-layout#giftCategory"
+  ],
+  "props": {
+      "preload": true,
+      "images": [
+          {
+          "image": "/arquivos/Pilatos-GuiaRegalos-Landing-MarcaMFG-Desk.jpg",
+          "mobileImage": "/arquivos/Pilatos-GuiaRegalos-Landing-MarcaMFG-Mob.jpg"
+      }
+      ]
+  }
+},
+
+"rich-text#giftBrand3-description":{
+"props": {
+  "text": "La selección con lo mejor de **M+FG** está aquí. Escoge el regalo perfecto entre las camisetas, polos, jeans y tenis más vanguardistas."
+}
+},
+
+"rich-text#giftBrand3-btn": {
+"props": {
+  "text": "[Comprar Girbaud](/)",
+  "blockClass": "btnTercerNivel"
+
+}
+},
+
+// guia de regalos slider
+
+"slider-layout#giftCategory": {
+  "props": {
+    "itemsPerPage": {
+      "desktop": 1,
+      "tablet": 1,
+      "phone": 1
+    },
+    "infinite": true,
+    "showNavigationArrows": "never",
+    "showPaginationDots": "never"
+  }
+}
+
+
+
+}
+
+
+
+
