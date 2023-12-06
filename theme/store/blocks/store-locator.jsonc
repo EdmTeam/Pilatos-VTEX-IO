@@ -1,7 +1,24 @@
 {
-    "store.custom#store-locator":{
-        "blocks":[
-            "pilatos21.store-locator:store-locator"
-        ]
+  "store.custom#store-locator": {
+    "blocks": ["pilatos21.store-locator:store-locator"]
+  },
+  "pilatos21.store-locator:store-locator": {
+    "props": {
+      "levels": 3,
+      "map": {
+        "height": "531px",
+        "width": "100%",
+        "icon": "/arquivos/pin-zone.svg",
+        "iconWidth": "38px",
+        "iconHeight": "50px",
+        "zoomLevel": 6,
+        "zoomPoint": 15
+      },
+      "switch": {
+        "switchOption1": true,
+        "switchOption2": true,
+        "switchOption3": false
+      }
     }
+  }
 }
