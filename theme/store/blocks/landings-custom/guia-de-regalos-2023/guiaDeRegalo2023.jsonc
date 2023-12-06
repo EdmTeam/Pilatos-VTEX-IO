@@ -1,0 +1,188 @@
+{
+  "store.custom#guiaDeRegalo2023": {
+    "blocks": [
+    "flex-layout.row#bread-crum-regalos",
+      //"flex-layout.row#SesionPrincipalGuiaDeRegalo",
+      "flex-layout.row#seoGuiaDeRegalo2023",
+      "flex-layout.row#botonesGeneroRegalo",
+      "flex-layout.row#bannerLandingGuiaDeRegalo",
+      "tab-layout#guiaDeRegalo",
+      // "flex-layout.row#armaTuLookGuiaDeRegalo",
+     "rich-text#armaTuLookGuiaDeRegalo-text",
+      "tab-layout#guiaDeRegaloLook",
+      "flex-layout.row#giftVerTodo",
+      "product-separator",
+      "rich-text#filtro-seo-gift"
+    ]
+  },
+  "flex-layout.row#SesionPrincipalGuiaDeRegalo": {
+    "title": "Sesion Principal: Banner + SEO",
+    "children": [
+      "flex-layout.col#seoBotonesGenero",
+      "flex-layout.col#bannerSesionPrincipalGuiaDeRegalo"
+    ],
+    "props": {
+      "blockClass": "containerBlack"
+    }
+  },
+  "flex-layout.col#seoBotonesGenero": {
+    "title": "SEO Sesion",
+    "children": [
+      "rich-text#H1GuiaDeRegalo",
+      "rich-text#seoGuiaDeRegalo2023",
+      "flex-layout.row#botonesGeneroRegalo"
+
+    ],
+    "props": {
+      "verticalAlign": "center",
+      "blockClass": "containerSeoBotonesGenero"
+    }
+  },
+  "flex-layout.col#bannerSesionPrincipalGuiaDeRegalo":{
+    "title": "Imagen Banner Regalo",
+    "children": [
+      "image#bannerSesionPrincipalGuiaDeRegalo"
+    ],
+     "props": {
+      "horizontalAlign": "center"
+        }
+  },
+
+  // BREADCRUD REGALO
+
+  "flex-layout.row#bread-crum-regalos": {
+    "children": [
+      "flex-layout.col#bread-crum-regalos"
+    ],
+    "props": {
+      "blockClass": "contentSearch"
+    }
+  },
+
+  "flex-layout.col#bread-crum-regalos":{
+    "children": [
+      "rich-text#landing-ecobag-bread-crumb",
+      "rich-text#H1GuiaDeRegalo"
+
+    ]
+  },
+  // SEO SESION
+  "rich-text#H1GuiaDeRegalo":{
+    "title": "H1 TITULO SEO",
+    "props": {
+      "text": "# Regalos de Navidad",
+      "blockClass": "titleH1",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+        }
+  },
+
+  "flex-layout.row#seoGuiaDeRegalo2023": {
+    "title": "TEXTO SEO REGALO",
+    "children": [
+      "rich-text#seoGuiaDeRegalo2023"
+    ],
+    "props": {
+      "blockClass": "contentSearch"
+    }
+  },
+
+  "rich-text#seoGuiaDeRegalo2023": {
+    "title": "TEXTO SEO REGALO",
+    "props": {
+      "blockClass": "paragrapGuiaDeRegalo",
+      "text": "En esta época de festividades sorprende con los **regalos de Navidad** más cool de la temporada. ¡Haz que cada momento sea único con Pilatos!",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+  // botones genero
+  "flex-layout.row#botonesGeneroRegalo":{
+    "title": "Botones Genero",
+    "children": [
+      "rich-text#botonesGeneroRegalo-masculino",
+      "rich-text#botonesGeneroRegalo-femenino"
+    ],
+    "props": {
+      "preventHorizontalStretch": true,
+      "horizontalAlign": "center",
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true
+    }
+  },
+
+  // BTN GENERO HOMBRE MUJER
+  "rich-text#botonesGeneroRegalo-masculino":{
+    "title": "BTN MASCULINO",
+    "props": {
+      "text": "[Comprar hombre](/regalos-de-navidad-hombre)",
+      "blockClass": "btnPrincipal"
+    }
+  },
+
+  "rich-text#botonesGeneroRegalo-femenino":{
+    "title": "BTN MASCULINO",
+    "props": {
+      "text": "[Comprar mujer](/regalos-de-navidad-mujer)",
+      "blockClass": "btnPrincipal"
+
+    }
+  },
+
+   // sesión banner landing
+   "flex-layout.row#bannerLandingGuiaDeRegalo":{
+    "children": [
+      "list-context.image-list#bannerLandingGuiaDeRegalo"
+    ],
+    "props": {
+      "blockClass": "contentSearch"
+
+    }
+  },
+
+  "list-context.image-list#bannerLandingGuiaDeRegalo": {
+    "children": [
+        "slider-layout"
+    ],
+    "props": {
+        "height": 570,
+        "preload": true,
+        "images": [
+            {
+                "image": "/arquivos/Pilatos-GuiaRegalos-Landing-Ppal1-Desk.jpg",
+                "mobileImage": "/arquivos/Pilatos-GuiaRegalos-Landing-Ppal1-Mob.jpg",
+                "link": {
+                  "url": "/regalos-de-navidad-productos"
+                }
+            }
+        ]
+    }
+},
+
+// ARCHIVO IMAGEN
+"image#bannerSesionPrincipalGuiaDeRegalo": {
+  "title": "BANNER Principal",
+  "props": {
+    "src": "/arquivos/Pilatos-GuiaRegalos-Landing-Ppal2-Desk.jpg",
+    "blockClass": "bannerSesionPrincipalGuiaDeRegalo"
+  }
+},
+
+// AQUI VA EL SEO
+
+
+"rich-text#filtro-seo-gift":{
+  "title": "TEXTO SEO FINAL LARGO",
+  "props":{
+
+      "text": "Lo mejor, de las mejores marcas ",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "filtroSeo"
+
+  }
+}
+
+
+}

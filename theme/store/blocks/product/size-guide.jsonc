@@ -758,5 +758,45 @@
             }
         ]
       }
+    },
+    // AP CROWN
+    "size-guide#buzos-ap-crown":{
+      "props": {
+        "conditionals": [
+            {
+                "brands": ["2000122"],
+                "categories": ["16"],
+                "imageDesktop": "/arquivos/Pilatos-GuiaTallas-chompa-ApCrown.jpg",
+                "imageTablet": "/arquivos/Pilatos-GuiaTallas-chompa-ApCrown.jpg",
+                "imagePhone": "/arquivos/Pilatos-GuiaTallas-chompa-ApCrown.jpg"
+            }
+        ]
+      }
+    },
+    "size-guide#camisetas-ap-crown":{
+      "props": {
+        "conditionals": [
+            {
+                "brands": ["2000122"],
+                "categories": ["13"],
+                "imageDesktop": "/arquivos/Pilatos-GuiaTallas-camisetas-ApCrown.jpg",
+                "imageTablet": "/arquivos/Pilatos-GuiaTallas-camisetas-ApCrown.jpg",
+                "imagePhone": "/arquivos/Pilatos-GuiaTallas-camisetas-ApCrown.jpg"
+            }
+        ]
+      }
+    },
+    "size-guide#bermudas-ap-crown":{
+      "props": {
+        "conditionals": [
+            {
+                "brands": ["2000122"],
+                "categories": ["19", "40"],
+                "imageDesktop": "/arquivos/Pilatos-GuiaTallas-Pantalonetas-ApCrown.jpg",
+                "imageTablet": "/arquivos/Pilatos-GuiaTallas-Pantalonetas-ApCrown.jpg",
+                "imagePhone": "/arquivos/Pilatos-GuiaTallas-Pantalonetas-ApCrown.jpg"
+            }
+        ]
+      }
     }
 }
