@@ -14,9 +14,9 @@
   "vtex.product-summary:product-summary-image#new-vitrine": {
     "props": {
       "showBadge": false,
-      "aspectRatio": "3:4",
-      "width": 750,
-      "height": 1000,
+      "aspectRatio": "9:16",
+      "width": 500,
+      "height": 650,
       "displayMode": "carousel"
       /*       "hoverImage": {
         "criteria": "index",
