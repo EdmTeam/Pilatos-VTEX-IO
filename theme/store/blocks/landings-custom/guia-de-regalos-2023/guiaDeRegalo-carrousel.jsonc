@@ -1,0 +1,195 @@
+{
+  "vtex.product-summary:list-context.product-list#guiaDeRegalo-look1": {
+    "blocks": [
+        "vtex.product-summary:product-summary.shelf#most-viewed"
+    ],
+    "children": [
+        "slider-layout#guiaDeRegalo-look1"
+    ],
+    "props": {
+        "orderBy": "OrderByTopSaleDESC",
+        "collection": "1635",
+        "maxItems": 16
+    }
+},
+"slider-layout#guiaDeRegalo-look1": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "always"
+    }
+},
+"vtex.product-summary:list-context.product-list#guiaDeRegalo-look2": {
+  "blocks": [
+      "vtex.product-summary:product-summary.shelf#most-viewed"
+  ],
+  "children": [
+      "slider-layout#guiaDeRegalo-look2"
+  ],
+  "props": {
+      "orderBy": "OrderByReleaseDateDESC",
+      "collection": "1637",
+      "maxItems": 16
+  }
+},
+"slider-layout#guiaDeRegalo-look2": {
+  "props": {
+    "itemsPerPage": {
+      "desktop": 3,
+      "tablet": 3,
+      "phone": 2
+    },
+    "infinite": false,
+    "showNavigationArrows": "desktopOnly",
+    "showPaginationDots": "always"
+  }
+},
+
+
+"vtex.product-summary:list-context.product-list#guiaDeRegalo-look3": {
+  "blocks": [
+      "vtex.product-summary:product-summary.shelf#most-viewed"
+  ],
+  "children": [
+      "slider-layout#guiaDeRegalo-look3"
+  ],
+  "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "collection": "1636",
+      "maxItems": 16
+  }
+},
+"slider-layout#guiaDeRegalo-look3": {
+  "props": {
+    "itemsPerPage": {
+      "desktop": 3,
+      "tablet": 3,
+      "phone": 2
+    },
+    "infinite": false,
+    "showNavigationArrows": "desktopOnly",
+    "showPaginationDots": "always"
+  }
+},
+
+// carrousel ver todo
+
+"flex-layout.row#giftVerTodo":{
+  "children": [
+    "flex-layout.col#giftVerTodo"
+  ],
+  "props": {
+    "blockClass": "contentSearch"
+  }
+},
+
+"flex-layout.col#giftVerTodo":{
+  "children": [
+    "flex-layout.row#giftVerTodo-tittle",
+    "responsive-layout.desktop#giftVerTodo"
+  ],
+  "props": {
+    "blockClass": "contentSearch"
+  }
+},
+
+"responsive-layout.desktop#giftVerTodo":{
+  "children":[
+    "vtex.product-summary:list-context.product-list#giftVerTodo"
+  ]
+},
+
+
+
+"flex-layout.row#giftVerTodo-tittle":{
+  "children": [
+    "rich-text#tittle-VerTodo",
+    "flex-layout.col#btnVerTodoGeneral"
+
+
+    ],
+    "props": {
+      "blockClass": "contentSearch"
+    }
+},
+
+"flex-layout.col#btnVerTodoGeneral":{
+  "children": [
+    "responsive-layout.mobile#btn-VerTodo",
+    "responsive-layout.desktop#btn-VerTodo"
+  ]
+},
+
+"responsive-layout.desktop#btn-VerTodo":{
+  "children": [
+    "rich-text#btn-VerTodo"
+  ]
+},
+
+"responsive-layout.mobile#btn-VerTodo":{
+  "children": [
+    "rich-text#btn-VerTodo-m"
+  ]
+},
+"rich-text#tittle-VerTodo":{
+  "props": {
+    "text": "Inspírate aquí para obsequiar el regalo perfecto",
+    "textAlignment": "LEFT",
+    "textPosition": "LEFT",
+    "blockClass": "tittleArmaTuLookInsp"
+
+  }
+},
+
+"rich-text#btn-VerTodo":{
+  "props": {
+    "text": "[Ver todo](/regalos-de-navidad-productos)",
+    "blockClass": "btnPrincipal",
+    "textAlignment": "RIGHT",
+    "textPosition": "RIGHT"
+
+  }
+},
+"rich-text#btn-VerTodo-m":{
+  "props": {
+    "text": "[Ver todo](/regalos-de-navidad-productos)",
+    "blockClass": "btnPrincipal",
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER"
+
+  }
+},
+
+
+"vtex.product-summary:list-context.product-list#giftVerTodo": {
+  "blocks": [
+      "vtex.product-summary:product-summary.shelf#most-viewed"
+  ],
+  "children": [
+      "slider-layout#giftVerTodo"
+  ],
+  "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "collection": "1639",
+      "maxItems": 24
+  }
+},
+"slider-layout#giftVerTodo": {
+  "props": {
+    "itemsPerPage": {
+      "desktop": 4,
+      "tablet": 3,
+      "phone": 2
+    },
+    "infinite": false,
+    "showNavigationArrows": "desktopOnly",
+    "showPaginationDots": "never"
+  }
+}
+
+}
