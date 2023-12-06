@@ -23,14 +23,14 @@
   "tab-list.item#giftCategory": {
     "props": {
       "tabId": "home1",
-      "label": "Buscar regalo por categoria",
+      "label": "Busca tu regalo por categoria",
       "defaultActiveTab": true
     }
   },
   "tab-list.item#giftBrand": {
     "props": {
       "tabId": "home2",
-      "label": "Buscar regalo por marca"
+      "label": "Busca tu regalo por marca"
     }
   },
    "tab-content#home": {
@@ -114,7 +114,7 @@
             "image": "/arquivos/Pilatos-GuiaRegalos-Landing-CatJeans-Desk.jpg",
             "mobileImage": "/arquivos/Pilatos-GuiaRegalos-Landing-CatJeans-Mob.jpg",
             "link": {
-              "url": "/"
+              "url": "/regalos-de-navidad-jeans"
             }
         }
         ]
@@ -123,13 +123,14 @@
 
 "rich-text#giftCategory1-description":{
   "props": {
-    "text": "La prenda que luce con cualquier outfit. Compra ahora los **JEANS** ideales para regalar en esta época.    "
+    "text": "La prenda que luce con cualquier outfit. Compra ahora los **JEANS** ideales para regalar en esta época.",
+    "blockClass": "textCategoryGift"
   }
 },
 
 "rich-text#giftCategory1-btn": {
   "props": {
-    "text": "[Comprar jeans](/)",
+    "text": "[Comprar jeans](/regalos-de-navidad-jeans)",
     "blockClass": "btnTercerNivel"
   }
 },
@@ -158,7 +159,10 @@
       "images": [
           {
           "image": "/arquivos/Pilatos-GuiaRegalos-Landing-CatTenis-Desk.jpg",
-          "mobileImage": "/arquivos/Pilatos-GuiaRegalos-Landing-CatTenis-Mob.jpg"
+          "mobileImage": "/arquivos/Pilatos-GuiaRegalos-Landing-CatTenis-Mob.jpg",
+          "link": {
+            "url": "/regalos-de-navidad-tenis"
+          }
       }
       ]
   }
@@ -166,13 +170,15 @@
 
 "rich-text#giftCategory2-description":{
 "props": {
-  "text": "Encuentra el estilo que mejor se adapte a tu persona especial. Tenemos los **TENIS** para alegrar a cualquiera"
+  "text": "Encuentra el estilo que mejor se adapte a tu persona especial. Tenemos los **TENIS** para alegrar a cualquiera",
+  "blockClass": "textCategoryGift"
+
 }
 },
 
 "rich-text#giftCategory2-btn": {
 "props": {
-  "text": "[Comprar tenis](/)",
+  "text": "[Comprar tenis](/regalos-de-navidad-tenis)",
   "blockClass": "btnTercerNivel"
 
 }
@@ -203,7 +209,10 @@
       "images": [
           {
           "image": "/arquivos/Pilatos-GuiaRegalos-Landing-CatCamisetas-Desk.jpg",
-          "mobileImage": "/arquivos/Pilatos-GuiaRegalos-Landing-CatCamisetas-Mob.jpg"
+          "mobileImage": "/arquivos/Pilatos-GuiaRegalos-Landing-CatCamisetas-Mob.jpg",
+          "link": {
+            "url": "/regalos-de-navidad-camisetas"
+          }
       }
       ]
   }
@@ -211,13 +220,15 @@
 
 "rich-text#giftCategory3-description":{
 "props": {
-  "text": "Compra ahora las **CAMISETAS** para dar el regalo perfecto en esta navidad. Fáciles de usar, cómodas y con mucho estilo.  "
+  "text": "Compra ahora las **CAMISETAS** para dar el regalo perfecto en esta navidad. Fáciles de usar, cómodas y con mucho estilo.  ",
+  "blockClass": "textCategoryGift"
+
 }
 },
 
 "rich-text#giftCategory3-btn": {
 "props": {
-  "text": "[Comprar camisetas](/)",
+  "text": "[Comprar camisetas](/regalos-de-navidad-camisetas)",
   "blockClass": "btnTercerNivel"
 
 }
@@ -247,7 +258,10 @@
         "images": [
             {
             "image": "/arquivos/Pilatos-GuiaRegalos-Landing-MarcaPilatos-Desk.jpg",
-            "mobileImage": "/arquivos/Pilatos-GuiaRegalos-Landing-MarcaPilatos-Mob.jpg"
+            "mobileImage": "/arquivos/Pilatos-GuiaRegalos-Landing-MarcaPilatos-Mob.jpg",
+            "link": {
+              "url": "/pilatos"
+            }
         }
         ]
     }
@@ -255,13 +269,14 @@
 
 "rich-text#giftBrand1-description":{
   "props": {
-    "text": "Haz que la persona que quieres destaque del resto regalándole **PILATOS**. Descubre la selección más cool de la marca."
+    "text": "Haz que la persona que quieres destaque del resto regalándole **PILATOS**. Descubre la selección más cool de la marca.",
+    "blockClass": "textCategoryGift"
   }
 },
 
 "rich-text#giftBrand1-btn": {
   "props": {
-    "text": "[Comprar Pilatos](/)",
+    "text": "[Comprar Pilatos](/pilatos)",
     "blockClass": "btnTercerNivel"
 
   }
@@ -291,7 +306,10 @@
       "images": [
           {
           "image": "/arquivos/Pilatos-GuiaRegalos-Landing-MarcaDiesel-Desk.jpg",
-          "mobileImage": "/arquivos/Pilatos-GuiaRegalos-Landing-MarcaDiesel-Mob.jpg"
+          "mobileImage": "/arquivos/Pilatos-GuiaRegalos-Landing-MarcaDiesel-Mob.jpg",
+          "link": {
+            "url": "/diesel"
+          }
       }
       ]
   }
@@ -299,13 +317,14 @@
 
 "rich-text#giftBrand2-description":{
 "props": {
-  "text": "Asegúrate de dar en navidad un regalo tan icónico como **DIESEL**. Camisetas, tenis, jeans y accesorios con lo último en tendencia.  "
+  "text": "Asegúrate de dar en navidad un regalo tan icónico como **DIESEL**. Camisetas, tenis, jeans y accesorios con lo último en tendencia.  ",
+  "blockClass": "textCategoryGift"
 }
 },
 
 "rich-text#giftBrand2-btn": {
 "props": {
-  "text": "[Comprar Diesel](/)",
+  "text": "[Comprar Diesel](/diesel)",
   "blockClass": "btnTercerNivel"
 
 }
@@ -335,7 +354,10 @@
       "images": [
           {
           "image": "/arquivos/Pilatos-GuiaRegalos-Landing-MarcaMFG-Desk.jpg",
-          "mobileImage": "/arquivos/Pilatos-GuiaRegalos-Landing-MarcaMFG-Mob.jpg"
+          "mobileImage": "/arquivos/Pilatos-GuiaRegalos-Landing-MarcaMFG-Mob.jpg",
+          "link": {
+            "url": "/girbaud"
+          }
       }
       ]
   }
@@ -343,13 +365,14 @@
 
 "rich-text#giftBrand3-description":{
 "props": {
-  "text": "La selección con lo mejor de **M+FG** está aquí. Escoge el regalo perfecto entre las camisetas, polos, jeans y tenis más vanguardistas."
+  "text": "La selección con lo mejor de **M+FG** está aquí. Escoge el regalo perfecto entre las camisetas, polos, jeans y tenis más vanguardistas.",
+  "blockClass": "textCategoryGift"
 }
 },
 
 "rich-text#giftBrand3-btn": {
 "props": {
-  "text": "[Comprar Girbaud](/)",
+  "text": "[Comprar Girbaud](/girbaud)",
   "blockClass": "btnTercerNivel"
 
 }
@@ -366,7 +389,8 @@
     },
     "infinite": true,
     "showNavigationArrows": "never",
-    "showPaginationDots": "never"
+    "showPaginationDots": "never",
+    "blockClass": "giftCategory"
   }
 }
 

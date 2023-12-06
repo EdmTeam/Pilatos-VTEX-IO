@@ -1466,7 +1466,7 @@
 }
 @media only screen and (min-width: 1180px){
   .flexRow--contentSearch{
-    width: 88%;
+    width: 90%;
     margin: 0 auto;
   }
   .flexRow--sliderFitRituales{
@@ -2497,6 +2497,9 @@
   text-decoration: none;
 }
 
+
+
+
 .flexRow--static-accordion-pagos :global(.vtex-rich-text-0-x-link){
   color: #F2A922;
   text-decoration: none;
@@ -3275,15 +3278,37 @@
   justify-content: center;
 }
 
-.prueba-billy-container{
+.giftLook-container{
   display: flex;
 }
 
-.prueba-izquierda{
+.giftLook-izquierda{
   flex: 0.4;
 
 }
 
-.prueba-derecha{
+.giftLook-derecha{
   flex: 0.6;
 }
+
+/* Guia de Regalos Diciembre 2023 */
+
+.imageElementLink--giftCategory{
+  width: 100%;
+}
+.vtex-store-components-23-x-imageElementLink--giftCategory{
+  width: 100%;
+}
+
+.vtex-store-components-13-x-imageElementLink--giftCategory{
+  width: 100% !important;
+
+}
+.flexRowContent--giftLook-container{
+  align-items: center;
+  margin: 0 auto;
+width: 88%;
+
+}
+
+

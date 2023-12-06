@@ -3,9 +3,10 @@
 
   "rich-text#armaTuLookGuiaDeRegalo-text": {
     "props": {
-      "text": "¿Quieres obsequiar el look completo?, acá lo pudes hacer",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER"
+      "text": "¿Quieres obsequiar la pinta completa?, aquí te ayudamos hacerlo",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "tittleArmaTuLook"
     }
   },
   "tab-layout#guiaDeRegaloLook": {
@@ -15,7 +16,7 @@
       "tab-content#guiaDeRegaloLook"
     ],
     "props": {
-      "blockClass": "contentSearch",
+      // "blockClass": "contentSearch",
       "defaultActiveTabId": "guiaDeRegaloLook-look1"
     }
   },
@@ -26,26 +27,30 @@
       "tab-list.item#guiaDeRegaloLook-2",
       "tab-list.item#guiaDeRegaloLook-3"
 
-    ]
+    ],
+    "props": {
+      "blockClass": "guiaDeRegalo"
+
+    }
   },
   "tab-list.item#guiaDeRegaloLook-1": {
     "props": {
       "tabId": "guiaDeRegaloLook-look1",
-      "label": "Ver Look 1",
+      "label": "Pinta #1",
       "defaultActiveTab": true
     }
   },
   "tab-list.item#guiaDeRegaloLook-2": {
     "props": {
       "tabId": "guiaDeRegaloLook-look2",
-      "label": "Ver Look 2"
+      "label": "Pinta #2"
     }
   },
 
   "tab-list.item#guiaDeRegaloLook-3": {
     "props": {
       "tabId": "guiaDeRegaloLook-look3",
-      "label": "Ver Look 3"
+      "label": "Pinta #3"
     }
   },
    "tab-content#guiaDeRegaloLook": {
@@ -90,7 +95,7 @@
       "flex-layout.row#sesionCarrouselLookUno"
         ],
     "props": {
-      "blockClass": "prueba-billy-container"
+      "blockClass": "giftLook-container"
 
     }
   },
@@ -100,7 +105,7 @@
     "list-context.image-list#bannerLookUno-regalos"
   ],
   "props": {
-    "blockClass": "prueba-izquierda",
+    "blockClass": "giftLook-izquierda",
     "width": "30%"
   }
   },
@@ -111,7 +116,7 @@
       "vtex.product-summary:list-context.product-list#guiaDeRegalo-look1"
   ],
   "props": {
-    "blockClass": "prueba-derecha",
+    "blockClass": "giftLook-derecha",
     "width": "60%"
 
   }
@@ -123,56 +128,36 @@
 
  //  Look 2
 
-
  "flex-layout.row#guiaDeRegaloLook-look2":{
   "children": [
-    "flex-layout.col#guiaDeRegaloLook-look2"
-  ],
-  "props": {
-    "preventHorizontalStretch": true,
-    "blockClass": "container-giftCategory"
-
-
-  }
-},
-"flex-layout.col#guiaDeRegaloLook-look2":{
-  "children": [
-    "flex-layout.row#guiaDeRegaloLook-look2-content"
-  ]
-},
-
-"flex-layout.row#guiaDeRegaloLook-look2-content":{
-  "children": [
     "flex-layout.row#bannerLookDos-regalos",
-    "flex-layout.col#sesionCarrouselLookDos"
-
-  ],
+    "flex-layout.row#sesionCarrouselLookDos"
+      ],
   "props": {
-      // "blockClass": "sliderFitRituales",
-      "fullWidth": false,
-      "preventHorizontalStretch": true
+    "blockClass": "giftLook-container"
 
   }
 },
-
 "flex-layout.row#bannerLookDos-regalos":{
   "title": "BANNER LOOK DOS",
 "children": [
   "list-context.image-list#bannerLookDos-regalos"
 ],
 "props": {
-  "blockClass": "bannerFit"
+  "blockClass": "giftLook-izquierda",
+  "width": "30%"
 }
 },
 
-"flex-layout.col#sesionCarrouselLookDos":{
+"flex-layout.row#sesionCarrouselLookDos":{
   "title": "carrousel RITUALES",
   "children": [
     "vtex.product-summary:list-context.product-list#guiaDeRegalo-look2"
 ],
 "props": {
-  "blockClass": "carrouselFit",
-  "horizontalAlign": "left"
+  "blockClass": "giftLook-derecha",
+  "width": "60%"
+
 }
 
 },
@@ -182,53 +167,34 @@
 
  "flex-layout.row#guiaDeRegaloLook-look3":{
   "children": [
-    "flex-layout.col#guiaDeRegaloLook-look3"
-  ],
-  "props": {
-    "preventHorizontalStretch": true,
-    "blockClass": "container-giftCategory"
-
-
-  }
-},
-"flex-layout.col#guiaDeRegaloLook-look3":{
-  "children": [
-    "flex-layout.row#guiaDeRegaloLook-look3-content"
-  ]
-},
-
-"flex-layout.row#guiaDeRegaloLook-look3-content":{
-  "children": [
     "flex-layout.row#bannerLookTres-regalos",
-    "flex-layout.col#sesionCarrouselLookTres"
-
-  ],
+    "flex-layout.row#sesionCarrouselLookTres"
+      ],
   "props": {
-      // "blockClass": "sliderFitRituales",
-      "fullWidth": false,
-      "preventHorizontalStretch": true
+    "blockClass": "giftLook-container"
 
   }
 },
-
 "flex-layout.row#bannerLookTres-regalos":{
-  "title": "BANNER LOOK TRES",
+  "title": "BANNER LOOK DOS",
 "children": [
   "list-context.image-list#bannerLookTres-regalos"
 ],
 "props": {
-  "blockClass": "bannerFit"
+  "blockClass": "giftLook-izquierda",
+  "width": "30%"
 }
 },
 
-"flex-layout.col#sesionCarrouselLookTres":{
+"flex-layout.row#sesionCarrouselLookTres":{
   "title": "carrousel RITUALES",
   "children": [
     "vtex.product-summary:list-context.product-list#guiaDeRegalo-look3"
 ],
 "props": {
-  "blockClass": "carrouselFit",
-  "horizontalAlign": "left"
+  "blockClass": "giftLook-derecha",
+  "width": "60%"
+
 }
 
 },

@@ -9,10 +9,10 @@
       "tab-layout#guiaDeRegalo",
       // "flex-layout.row#armaTuLookGuiaDeRegalo",
      "rich-text#armaTuLookGuiaDeRegalo-text",
-      "tab-layout#guiaDeRegaloLook"
-
-
-
+      "tab-layout#guiaDeRegaloLook",
+      "flex-layout.row#giftVerTodo",
+      "product-separator",
+      "rich-text#filtro-seo-gift"
     ]
   },
   "flex-layout.row#SesionPrincipalGuiaDeRegalo": {
@@ -45,7 +45,7 @@
     ],
      "props": {
       "horizontalAlign": "center"
-    }
+        }
   },
 
   // BREADCRUD REGALO
@@ -71,7 +71,9 @@
     "title": "H1 TITULO SEO",
     "props": {
       "text": "# Regalos de Navidad",
-      "blockClass": "departmentTitle"
+      "blockClass": "titleH1",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
         }
   },
 
@@ -105,7 +107,8 @@
     "props": {
       "preventHorizontalStretch": true,
       "horizontalAlign": "center",
-      "preventVerticalStretch": true
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true
     }
   },
 
@@ -113,7 +116,7 @@
   "rich-text#botonesGeneroRegalo-masculino":{
     "title": "BTN MASCULINO",
     "props": {
-      "text": "[Comprar hombre](/)",
+      "text": "[Comprar hombre](/regalos-de-navidad-hombre)",
       "blockClass": "btnPrincipal"
     }
   },
@@ -121,7 +124,7 @@
   "rich-text#botonesGeneroRegalo-femenino":{
     "title": "BTN MASCULINO",
     "props": {
-      "text": "[Comprar mujer](/)",
+      "text": "[Comprar mujer](/regalos-de-navidad-mujer)",
       "blockClass": "btnPrincipal"
 
     }
@@ -159,10 +162,27 @@
 
 // ARCHIVO IMAGEN
 "image#bannerSesionPrincipalGuiaDeRegalo": {
+  "title": "BANNER Principal",
   "props": {
     "src": "/arquivos/Pilatos-GuiaRegalos-Landing-Ppal2-Desk.jpg",
     "blockClass": "bannerSesionPrincipalGuiaDeRegalo"
   }
+},
+
+// AQUI VA EL SEO
+
+
+"rich-text#filtro-seo-gift":{
+  "title": "TEXTO SEO FINAL LARGO",
+  "props":{
+
+      "text": "Lo mejor, de las mejores marcas ",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "filtroSeo"
+
+  }
 }
+
 
 }

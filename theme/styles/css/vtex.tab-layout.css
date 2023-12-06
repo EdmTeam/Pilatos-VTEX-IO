@@ -50,6 +50,11 @@
 .listItemActive--menuTabVitrine-item {
     position: relative;
 }
+
+.listItemActive--guiaDeRegaloLook {
+  background: #ff0000;
+}
+
 .listItemActive--menuTabVitrine-item::after {
     content: '';
     position: absolute;
@@ -135,6 +140,13 @@
   width: 90%;
   margin: 0 auto;
 }
+@media (max-width:760px) {
+  .container--contentSearch {
+    width: 96%;
+  }
+
+
+}
 
 /* tablat billy guia de regalos */
 
@@ -156,3 +168,8 @@
   color: #ff0000;
 
 }
+
+.listContainer--guiaDeRegaloLook{
+  justify-content: center;
+}
+
