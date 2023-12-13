@@ -3257,6 +3257,60 @@
 }
 }
 
+/* GUIA DE REGALO 2023 */
+.flexRow--containerBlack {
+  background: #000;
+  padding:2%;
+  margin-bottom: 2px;
+  /* height: 734px; */
+}
+
+.flexCol--containerSeoBotonesGenero{
+  margin: 0 auto;
+  max-width: 700px;
+  justify-content: center;
+}
+
+.flexCol--card-giftCategory{
+  margin: 5px;
+}
+
+.flexRowContent--container-giftCategory{
+  justify-content: center;
+}
+
+.giftLook-container{
+  display: flex;
+}
+
+.giftLook-izquierda{
+  flex: 0.4;
+
+}
+
+.giftLook-derecha{
+  flex: 0.6;
+}
+
+/* Guia de Regalos Diciembre 2023 */
+
+.imageElementLink--giftCategory{
+  width: 100%;
+}
+.vtex-store-components-23-x-imageElementLink--giftCategory{
+  width: 100%;
+}
+
+.vtex-store-components-13-x-imageElementLink--giftCategory{
+  width: 100% !important;
+
+}
+.flexRowContent--giftLook-container{
+  align-items: center;
+  margin: 0 auto;
+width: 88%;
+
+}
 
 /*landing colecciones*/
 .flexRowContent--landing-collection-flex-images {
