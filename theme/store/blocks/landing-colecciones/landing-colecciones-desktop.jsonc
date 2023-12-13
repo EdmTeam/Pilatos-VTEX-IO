@@ -1,0 +1,262 @@
+{
+    "store.custom#landing-colecciones": {
+        "blocks": [
+            "responsive-layout.desktop#page-landing-colecciones",
+            "responsive-layout.tablet#page-landing-colecciones",
+            "responsive-layout.phone#page-landing-colecciones"
+        ]
+    },
+
+    "responsive-layout.desktop#page-landing-colecciones": {
+        "children": [
+            "flex-layout.row#content-landing-colecciones"
+        ]
+    },
+
+    "responsive-layout.tablet#page-landing-colecciones": {
+        "children": [
+            "flex-layout.row#content-landing-colecciones"
+        ]
+    },
+
+    "flex-layout.row#content-landing-colecciones": {
+        "children": [
+            "flex-layout.col#content-col-landing-colecciones"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#content-col-landing-colecciones": {
+        "children": [
+            "rich-text#titulo-landing-colecciones",
+            "flex-layout.row#images-landing-colecciones",
+            "flex-layout.row#images-landing-colecciones-2"
+        ]
+    },
+
+    "rich-text#titulo-landing-colecciones": {
+        "props": {
+            "text": "Nuevas colecciones: para todos los gustos",
+            "blockClass": "departmentTitle"
+        }
+    },
+
+    "flex-layout.row#images-landing-colecciones": {
+        "children": [
+            "flex-layout.col#landing-colecciones-image-1",
+            "flex-layout.col#landing-colecciones-image-2",
+            "flex-layout.col#landing-colecciones-image-3",
+            "flex-layout.col#landing-colecciones-image-4"
+        ],
+        "props": {
+            "blockClass": "landing-collection-flex-images",
+            "marginTop": 6
+        }
+    },
+
+    "flex-layout.row#images-landing-colecciones-2": {
+        "children": [
+            "flex-layout.col#landing-colecciones-image-1.2",
+            "flex-layout.col#landing-colecciones-image-2.2",
+            "flex-layout.col#landing-colecciones-image-3.2",
+            "flex-layout.col#landing-colecciones-image-4.2"
+        ],
+        "props": {
+            "blockClass": "landing-collection-flex-images"
+        }
+    },
+
+    "flex-layout.col#landing-colecciones-image-1": {
+        "children": [
+            "image#landing-colecciones-image-1-content",
+            "rich-text#landing-colecciones-info-1-content"
+        ]
+    },
+
+    "flex-layout.col#landing-colecciones-image-1.2": {
+        "children": [
+            "image#landing-colecciones-image-1.2-content",
+            "rich-text#landing-colecciones-info-1.2-content"
+        ]
+    },
+
+    "flex-layout.col#landing-colecciones-image-2": {
+        "children": [
+            "image#landing-colecciones-image-2-content",
+            "rich-text#landing-colecciones-info-2-content"
+        ]
+    },
+
+    "flex-layout.col#landing-colecciones-image-2.2": {
+        "children": [
+            "image#landing-colecciones-image-2.2-content",
+            "rich-text#landing-colecciones-info-2.2-content"
+        ]
+    },
+
+    "flex-layout.col#landing-colecciones-image-3": {
+        "children": [
+            "image#landing-colecciones-image-3-content",
+            "rich-text#landing-colecciones-info-3-content"
+        ]
+    },
+
+    "flex-layout.col#landing-colecciones-image-3.2": {
+        "children": [
+            "image#landing-colecciones-image-3.2-content",
+            "rich-text#landing-colecciones-info-3.2-content"
+        ]
+    },
+
+    "flex-layout.col#landing-colecciones-image-4": {
+        "children": [
+            "image#landing-colecciones-image-4-content",
+            "rich-text#landing-colecciones-info-4-content"
+        ]
+    },
+
+    "flex-layout.col#landing-colecciones-image-4.2": {
+        "children": [
+            "image#landing-colecciones-image-4.2-content",
+            "rich-text#landing-colecciones-info-4.2-content"
+        ]
+    },
+
+    "image#landing-colecciones-image-1-content": {
+        "props": {
+            "src": "/arquivos/Coleccion-PilatosxGirbaud-Portada.jpg",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            }
+        }
+    },
+
+    "image#landing-colecciones-image-1.2-content": {
+        "props": {
+            "src": "/arquivos/Coleccion-FridaxKipling-Portada.jpg",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            }
+        }
+    },
+
+    "image#landing-colecciones-image-2-content": {
+        "props": {
+            "src": "/arquivos/Coleccion-underwear-Portada.jpg",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            }
+        }
+    },
+
+    "image#landing-colecciones-image-2.2-content": {
+        "props": {
+            "src": "/arquivos/Coleccion-SneakersCity-Portada.jpg",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            }
+        }
+    },
+
+    "image#landing-colecciones-image-3-content": {
+        "props": {
+            "src": "/arquivos/Coleccion-FunDenim-Portada.jpg",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            }
+        }
+    },
+
+    "image#landing-colecciones-image-3.2-content": {
+        "props": {
+            "src": "/arquivos/Coleccion-BarbiexKipling-Portada.jpg",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            }
+        }
+    },
+
+    "image#landing-colecciones-image-4-content": {
+        "props": {
+            "src": "/arquivos/Coleccion-Essentialitary-Portada.jpg",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            }
+        }
+    },
+
+    "image#landing-colecciones-image-4.2-content": {
+        "props": {
+            "src": "/arquivos/Coleccion-ActLive-Portada.jpg",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            }
+        }
+    },
+
+    "rich-text#landing-colecciones-info-1-content": {
+        "props": {
+            "text": "[**Ver colección**](/home)",
+            "blockClass": "landing-collection-link"
+        }
+    },
+
+    "rich-text#landing-colecciones-info-1.2-content": {
+        "props": {
+            "text": "[**Ver colección**](/home)",
+            "blockClass": "landing-collection-link"
+        }
+    },
+
+    "rich-text#landing-colecciones-info-2-content": {
+        "props": {
+            "text": "[**Ver colección**](/home)",
+            "blockClass": "landing-collection-link"
+        }
+    },
+
+    "rich-text#landing-colecciones-info-2.2-content": {
+        "props": {
+            "text": "[**Ver colección**](/home)",
+            "blockClass": "landing-collection-link"
+        }
+    },
+
+    "rich-text#landing-colecciones-info-3-content": {
+        "props": {
+            "text": "[**Ver colección**](/home)",
+            "blockClass": "landing-collection-link"
+        }
+    },
+
+    "rich-text#landing-colecciones-info-3.2-content": {
+        "props": {
+            "text": "[**Ver colección**](/home)",
+            "blockClass": "landing-collection-link"
+        }
+    },
+
+    "rich-text#landing-colecciones-info-4-content": {
+        "props": {
+            "text": "[**Ver colección**](/home)",
+            "blockClass": "landing-collection-link"
+        }
+    },
+
+    "rich-text#landing-colecciones-info-4.2-content": {
+        "props": {
+            "text": "[**Ver colección**](/home)",
+            "blockClass": "landing-collection-link"
+        }
+    }
+}
