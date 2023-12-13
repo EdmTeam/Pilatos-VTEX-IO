@@ -812,3 +812,7 @@ cursor: pointer;
 .imageElement--imageRituales{
   margin-right: 10px;
 }
+
+.imageElement--imagen-1-contenido-colecciones {
+    width: 100%;
+}

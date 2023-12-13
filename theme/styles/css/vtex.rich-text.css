@@ -3126,3 +3126,10 @@ margin: 2px;
     font-size: 17px;
   }
 }
+
+
+/*landing colecciones*/
+.link--landing-collection-link {
+  color: #000;
+  font-weight: bold;
+}

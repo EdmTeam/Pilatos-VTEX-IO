@@ -1,0 +1,268 @@
+{
+    "responsive-layout.phone#page-landing-colecciones": {
+        "children": [
+            "flex-layout.row#content-landing-mobile-colecciones"
+        ]
+    },
+
+    "flex-layout.row#content-landing-mobile-colecciones": {
+        "children": [
+            "flex-layout.col#content-col-landing-mobile-colecciones"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#content-col-landing-mobile-colecciones": {
+        "children": [
+            "rich-text#titulo-landing-colecciones",
+            "flex-layout.col#images-landing-colecciones"
+        ]
+    },
+
+    "flex-layout.col#images-landing-colecciones": {
+        "children": [
+            "flex-layout.col#landing-colecciones-image-1-mobile",
+            "flex-layout.col#landing-colecciones-image-2-mobile",
+            "flex-layout.col#landing-colecciones-image-3-mobile",
+            "flex-layout.col#landing-colecciones-image-4-mobile",
+            "flex-layout.col#landing-colecciones-image-5-mobile",
+            "flex-layout.col#landing-colecciones-image-6-mobile",
+            "flex-layout.col#landing-colecciones-image-7-mobile",
+            "flex-layout.col#landing-colecciones-image-8-mobile"
+        ]   
+    },
+
+     //contenido 1
+    "flex-layout.col#landing-colecciones-image-1-mobile": {
+        "children": [
+            "image#landing-colecciones-image-1-content-mobile",
+            "rich-text#landing-colecciones-info-1-content-mobile"
+        ],
+        "props": {
+            "blockClass": "contenedor-colecciones"
+        }
+    },
+
+    "image#landing-colecciones-image-1-content-mobile": {
+        "props": {
+            "src": "/arquivos/Coleccion-PilatosxGirbaud-Portada.jpg",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "imagen-1-contenido-colecciones"
+        }
+    },
+
+    "rich-text#landing-colecciones-info-1-content-mobile": {
+        "props": {
+            "text": "[**Ver colección**](/home)",
+            "blockClass": "landing-collection-link"
+        }
+    },
+
+    //contenido 2
+    "flex-layout.col#landing-colecciones-image-2-mobile": {
+        "children": [
+            "image#landing-colecciones-image-2-content-mobile",
+            "rich-text#landing-colecciones-info-2-content-mobile"
+        ],
+        "props": {
+            "blockClass": "contenedor-colecciones"
+        }
+    },
+
+    "image#landing-colecciones-image-2-content-mobile": {
+        "props": {
+            "src": "/arquivos/Coleccion-FridaxKipling-Portada.jpg",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "imagen-1-contenido-colecciones"
+        }
+    },
+
+    "rich-text#landing-colecciones-info-2-content-mobile": {
+        "props": {
+            "text": "[**Ver colección**](/home)",
+            "blockClass": "landing-collection-link"
+        }
+    },
+
+    //contenido 3
+    "flex-layout.col#landing-colecciones-image-3-mobile": {
+        "children": [
+            "image#landing-colecciones-image-3-content-mobile",
+            "rich-text#landing-colecciones-info-3-content-mobile"
+        ],
+        "props": {
+            "blockClass": "contenedor-colecciones"
+        }
+    },
+
+    "image#landing-colecciones-image-3-content-mobile": {
+        "props": {
+            "src": "/arquivos/Coleccion-underwear-Portada.jpg",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "imagen-1-contenido-colecciones"
+        }
+    },
+
+    "rich-text#landing-colecciones-info-3-content-mobile": {
+        "props": {
+            "text": "[**Ver colección**](/home)",
+            "blockClass": "landing-collection-link"
+        }
+    },
+
+    //contenido 4
+    "flex-layout.col#landing-colecciones-image-4-mobile": {
+        "children": [
+            "image#landing-colecciones-image-4-content-mobile",
+            "rich-text#landing-colecciones-info-4-content-mobile"
+        ],
+        "props": {
+            "blockClass": "contenedor-colecciones"
+        }
+    },
+
+    "image#landing-colecciones-image-4-content-mobile": {
+        "props": {
+            "src": "/arquivos/Coleccion-SneakersCity-Portada.jpg",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "imagen-1-contenido-colecciones"
+        }
+    },
+
+    "rich-text#landing-colecciones-info-4-content-mobile": {
+        "props": {
+            "text": "[**Ver colección**](/home)",
+            "blockClass": "landing-collection-link"
+        }
+    },
+
+    //contenido 5
+    "flex-layout.col#landing-colecciones-image-5-mobile": {
+        "children": [
+            "image#landing-colecciones-image-5-content-mobile",
+            "rich-text#landing-colecciones-info-5-content-mobile"
+        ],
+        "props": {
+            "blockClass": "contenedor-colecciones"
+        }
+    },
+
+    "image#landing-colecciones-image-5-content-mobile": {
+        "props": {
+            "src": "/arquivos/Coleccion-FunDenim-Portada.jpg",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "imagen-1-contenido-colecciones"
+        }
+    },
+
+    "rich-text#landing-colecciones-info-5-content-mobile": {
+        "props": {
+            "text": "[**Ver colección**](/home)",
+            "blockClass": "landing-collection-link"
+        }
+    },
+
+    //contenido 6
+    "flex-layout.col#landing-colecciones-image-6-mobile": {
+        "children": [
+            "image#landing-colecciones-image-6-content-mobile",
+            "rich-text#landing-colecciones-info-6-content-mobile"
+        ],
+        "props": {
+            "blockClass": "contenedor-colecciones"
+        }
+    },
+
+    "image#landing-colecciones-image-6-content-mobile": {
+        "props": {
+            "src": "/arquivos/Coleccion-BarbiexKipling-Portada.jpg",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "imagen-1-contenido-colecciones"
+        }
+    },
+
+    "rich-text#landing-colecciones-info-6-content-mobile": {
+        "props": {
+            "text": "[**Ver colección**](/home)",
+            "blockClass": "landing-collection-link"
+        }
+    },
+
+    //contenido 7
+    "flex-layout.col#landing-colecciones-image-7-mobile": {
+        "children": [
+            "image#landing-colecciones-image-7-content-mobile",
+            "rich-text#landing-colecciones-info-7-content-mobile"
+        ],
+        "props": {
+            "blockClass": "contenedor-colecciones"
+        }
+    },
+
+    "image#landing-colecciones-image-7-content-mobile": {
+        "props": {
+            "src": "/arquivos/Coleccion-Essentialitary-Portada.jpg",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "imagen-1-contenido-colecciones"
+        }
+    },
+
+    "rich-text#landing-colecciones-info-7-content-mobile": {
+        "props": {
+            "text": "[**Ver colección**](/home)",
+            "blockClass": "landing-collection-link"
+        }
+    },
+
+    //contenido 8
+    "flex-layout.col#landing-colecciones-image-8-mobile": {
+        "children": [
+            "image#landing-colecciones-image-8-content-mobile",
+            "rich-text#landing-colecciones-info-8-content-mobile"
+        ],
+        "props": {
+            "blockClass": "contenedor-colecciones"
+        }
+    },
+
+    "image#landing-colecciones-image-8-content-mobile": {
+        "props": {
+            "src": "/arquivos/Coleccion-ActLive-Portada.jpg",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "imagen-1-contenido-colecciones"
+        }
+    },
+
+    "rich-text#landing-colecciones-info-8-content-mobile": {
+        "props": {
+            "text": "[**Ver colección**](/home)",
+            "blockClass": "landing-collection-link"
+        }
+    }
+}
