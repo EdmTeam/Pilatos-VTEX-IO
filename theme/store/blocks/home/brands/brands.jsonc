@@ -60,7 +60,10 @@
         "image#brand-16",
         "image#brand-21",
         "image#brand-22",
-        "image#brand-28"
+        "image#brand-28",
+        "image#brand-32",
+        "image#brand-33"
+
       ]
     },
 
@@ -265,6 +268,25 @@
           "link": {
               "url": "/nike"
           }
+      }
+    },
+    "image#brand-32": {
+      "props": {
+          "src": "/arquivos/calvin-klein-logo.png",
+          "link": {
+              "url": "/calvin-klein"
+          },
+          "maxWidth": "150px"
+
+      }
+    },
+    "image#brand-33": {
+      "props": {
+          "src": "/arquivos/ap-crown-logo.jpg",
+          "link": {
+              "url": "/ap-crown"
+          },
+          "maxWidth": "150px"
       }
     }
   }
