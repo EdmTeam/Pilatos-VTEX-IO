@@ -3,7 +3,8 @@
         "blocks": [
             "responsive-layout.desktop#page-landing-colecciones",
             "responsive-layout.tablet#page-landing-colecciones",
-            "responsive-layout.phone#page-landing-colecciones"
+            "responsive-layout.phone#page-landing-colecciones",
+            "rich-text#filtro-seo"
         ]
     },
 
@@ -31,6 +32,7 @@
     "flex-layout.col#content-col-landing-colecciones": {
         "children": [
             "rich-text#titulo-landing-colecciones",
+            "rich-text#titulo-landing-colecciones-seo",
             "flex-layout.row#images-landing-colecciones",
             "flex-layout.row#images-landing-colecciones-2"
         ]
@@ -38,10 +40,20 @@
 
     "rich-text#titulo-landing-colecciones": {
         "props": {
-            "text": "Nuevas colecciones: para todos los gustos",
-            "blockClass": "departmentTitle"
+            "text": "# Nuevas colecciones en Pilatos",
+            "blockClass": "guia-regalos-pride-h1",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
         }
     },
+
+    "rich-text#titulo-landing-colecciones-seo": {
+      "props": {
+          "text": "Descubre nuestras emocionantes nuevas colecciones: un universo de opciones para cada estilo y preferencia.",
+          "blockClass": "ritualesSEO"
+
+      }
+  },
 
     "flex-layout.row#images-landing-colecciones": {
         "children": [
@@ -70,192 +82,112 @@
 
     "flex-layout.col#landing-colecciones-image-1": {
         "children": [
-            "image#landing-colecciones-image-1-content",
+          "flex-layout.row#coleccionesImagen1-essentialitary",
             "rich-text#landing-colecciones-info-1-content"
         ]
     },
 
     "flex-layout.col#landing-colecciones-image-1.2": {
         "children": [
-            "image#landing-colecciones-image-1.2-content",
+          "flex-layout.row#coleccionesImagen5-Actlive",
             "rich-text#landing-colecciones-info-1.2-content"
         ]
     },
 
     "flex-layout.col#landing-colecciones-image-2": {
         "children": [
-            "image#landing-colecciones-image-2-content",
+          "flex-layout.row#coleccionesImagen2-PilatosxGirbaud",
             "rich-text#landing-colecciones-info-2-content"
         ]
     },
 
     "flex-layout.col#landing-colecciones-image-2.2": {
         "children": [
-            "image#landing-colecciones-image-2.2-content",
-            "rich-text#landing-colecciones-info-2.2-content"
-        ]
+           "flex-layout.row#coleccionesImagen6-PilatosSneakers",
+           "rich-text#landing-colecciones-info-2.2-content"
+          ]
     },
 
     "flex-layout.col#landing-colecciones-image-3": {
         "children": [
-            "image#landing-colecciones-image-3-content",
+          "flex-layout.row#coleccionesImagen3-UnderWear",
             "rich-text#landing-colecciones-info-3-content"
         ]
     },
 
     "flex-layout.col#landing-colecciones-image-3.2": {
         "children": [
-            "image#landing-colecciones-image-3.2-content",
+          "flex-layout.row#coleccionesImagen7-BarbieKipling",
             "rich-text#landing-colecciones-info-3.2-content"
         ]
     },
 
     "flex-layout.col#landing-colecciones-image-4": {
         "children": [
-            "image#landing-colecciones-image-4-content",
+          "flex-layout.row#coleccionesImagen4-FunDenim",
             "rich-text#landing-colecciones-info-4-content"
         ]
     },
 
     "flex-layout.col#landing-colecciones-image-4.2": {
         "children": [
-            "image#landing-colecciones-image-4.2-content",
+          "flex-layout.row#coleccionesImagen8-FridaKahlo",
             "rich-text#landing-colecciones-info-4.2-content"
         ]
     },
 
-    "image#landing-colecciones-image-1-content": {
-        "props": {
-            "src": "/arquivos/Coleccion-PilatosxGirbaud-Portada.jpg",
-            "link": {
-                "url": "/",
-                "attributeTitle": ""
-            }
-        }
-    },
-
-    "image#landing-colecciones-image-1.2-content": {
-        "props": {
-            "src": "/arquivos/Coleccion-FridaxKipling-Portada.jpg",
-            "link": {
-                "url": "/",
-                "attributeTitle": ""
-            }
-        }
-    },
-
-    "image#landing-colecciones-image-2-content": {
-        "props": {
-            "src": "/arquivos/Coleccion-underwear-Portada.jpg",
-            "link": {
-                "url": "/",
-                "attributeTitle": ""
-            }
-        }
-    },
-
-    "image#landing-colecciones-image-2.2-content": {
-        "props": {
-            "src": "/arquivos/Coleccion-SneakersCity-Portada.jpg",
-            "link": {
-                "url": "/",
-                "attributeTitle": ""
-            }
-        }
-    },
-
-    "image#landing-colecciones-image-3-content": {
-        "props": {
-            "src": "/arquivos/Coleccion-FunDenim-Portada.jpg",
-            "link": {
-                "url": "/",
-                "attributeTitle": ""
-            }
-        }
-    },
-
-    "image#landing-colecciones-image-3.2-content": {
-        "props": {
-            "src": "/arquivos/Coleccion-BarbiexKipling-Portada.jpg",
-            "link": {
-                "url": "/",
-                "attributeTitle": ""
-            }
-        }
-    },
-
-    "image#landing-colecciones-image-4-content": {
-        "props": {
-            "src": "/arquivos/Coleccion-Essentialitary-Portada.jpg",
-            "link": {
-                "url": "/",
-                "attributeTitle": ""
-            }
-        }
-    },
-
-    "image#landing-colecciones-image-4.2-content": {
-        "props": {
-            "src": "/arquivos/Coleccion-ActLive-Portada.jpg",
-            "link": {
-                "url": "/",
-                "attributeTitle": ""
-            }
-        }
-    },
-
     "rich-text#landing-colecciones-info-1-content": {
         "props": {
-            "text": "[**Ver colección**](/home)",
+            "text": "[Ver Essentialitary](/essentialitary)",
             "blockClass": "landing-collection-link"
         }
     },
 
     "rich-text#landing-colecciones-info-1.2-content": {
         "props": {
-            "text": "[**Ver colección**](/home)",
-            "blockClass": "landing-collection-link"
+          "text": "[Ver Actlive](/girbaud-actlive)",
+          "blockClass": "landing-collection-link"
         }
     },
 
     "rich-text#landing-colecciones-info-2-content": {
         "props": {
-            "text": "[**Ver colección**](/home)",
-            "blockClass": "landing-collection-link"
+          "text": "[Ver Pilatos x Girbaud](/pilatos-girbaud)",
+          "blockClass": "landing-collection-link"
         }
     },
 
     "rich-text#landing-colecciones-info-2.2-content": {
         "props": {
-            "text": "[**Ver colección**](/home)",
-            "blockClass": "landing-collection-link"
+          "text": "[Ver Sneakers](/sneakers-city)",
+          "blockClass": "landing-collection-link"
         }
     },
 
     "rich-text#landing-colecciones-info-3-content": {
         "props": {
-            "text": "[**Ver colección**](/home)",
-            "blockClass": "landing-collection-link"
+          "text": "[Ver Underwear](/underwear-girbaud)",
+          "blockClass": "landing-collection-link"
         }
     },
 
     "rich-text#landing-colecciones-info-3.2-content": {
         "props": {
-            "text": "[**Ver colección**](/home)",
-            "blockClass": "landing-collection-link"
+          "text": "[Ver Barbie](/barbie-kipling)",
+          "blockClass": "landing-collection-link"
         }
     },
 
     "rich-text#landing-colecciones-info-4-content": {
         "props": {
-            "text": "[**Ver colección**](/home)",
+          "text": "[Ver Fun Denim](/fun-denim)",
             "blockClass": "landing-collection-link"
         }
     },
 
     "rich-text#landing-colecciones-info-4.2-content": {
         "props": {
-            "text": "[**Ver colección**](/home)",
+          "text": "[Ver Kipling](/kipling)",
             "blockClass": "landing-collection-link"
         }
     }
