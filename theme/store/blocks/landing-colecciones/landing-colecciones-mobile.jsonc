@@ -1,0 +1,130 @@
+{
+    "responsive-layout.phone#page-landing-colecciones": {
+        "children": [
+            "flex-layout.row#content-landing-mobile-colecciones"
+        ]
+    },
+
+    "flex-layout.row#content-landing-mobile-colecciones": {
+        "children": [
+            "flex-layout.col#content-col-landing-mobile-colecciones"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#content-col-landing-mobile-colecciones": {
+        "children": [
+            "rich-text#titulo-landing-colecciones",
+            "rich-text#titulo-landing-colecciones-seo",
+            "flex-layout.col#images-landing-colecciones"
+        ]
+    },
+
+    "flex-layout.col#images-landing-colecciones": {
+        "children": [
+            "flex-layout.col#landing-colecciones-image-1-mobile",
+            "flex-layout.col#landing-colecciones-image-2-mobile",
+            "flex-layout.col#landing-colecciones-image-3-mobile",
+            "flex-layout.col#landing-colecciones-image-4-mobile",
+            "flex-layout.col#landing-colecciones-image-5-mobile",
+            "flex-layout.col#landing-colecciones-image-6-mobile",
+            "flex-layout.col#landing-colecciones-image-7-mobile",
+            "flex-layout.col#landing-colecciones-image-8-mobile"
+        ]
+    },
+
+     //contenido 1
+    "flex-layout.col#landing-colecciones-image-1-mobile": {
+        "children": [
+          "flex-layout.row#coleccionesImagen1-essentialitary",
+          "rich-text#landing-colecciones-info-1-content"
+                  ],
+        "props": {
+            "blockClass": "contenedor-colecciones"
+        }
+    },
+
+    //contenido 2
+    "flex-layout.col#landing-colecciones-image-2-mobile": {
+        "children": [
+          "flex-layout.row#coleccionesImagen2-PilatosxGirbaud",
+                      "rich-text#landing-colecciones-info-2-content"
+
+          ],
+        "props": {
+            "blockClass": "contenedor-colecciones"
+        }
+    },
+
+
+    //contenido 3
+    "flex-layout.col#landing-colecciones-image-3-mobile": {
+        "children": [
+          "flex-layout.row#coleccionesImagen3-UnderWear",
+            "rich-text#landing-colecciones-info-3-content"
+        ],
+        "props": {
+            "blockClass": "contenedor-colecciones"
+        }
+    },
+
+
+    //contenido 4
+    "flex-layout.col#landing-colecciones-image-4-mobile": {
+        "children": [
+          "flex-layout.row#coleccionesImagen4-FunDenim",
+            "rich-text#landing-colecciones-info-4-content"
+        ],
+        "props": {
+            "blockClass": "contenedor-colecciones"
+        }
+    },
+
+    //contenido 5
+    "flex-layout.col#landing-colecciones-image-5-mobile": {
+        "children": [
+          "flex-layout.row#coleccionesImagen5-Actlive",
+            "rich-text#landing-colecciones-info-1.2-content"
+        ],
+        "props": {
+            "blockClass": "contenedor-colecciones"
+        }
+    },
+
+    //contenido 6
+    "flex-layout.col#landing-colecciones-image-6-mobile": {
+        "children": [
+          "flex-layout.row#coleccionesImagen6-PilatosSneakers",
+            "rich-text#landing-colecciones-info-2.2-content"
+                  ],
+        "props": {
+            "blockClass": "contenedor-colecciones"
+        }
+    },
+
+    //contenido 7
+    "flex-layout.col#landing-colecciones-image-7-mobile": {
+        "children": [
+          "flex-layout.row#coleccionesImagen7-BarbieKipling",
+            "rich-text#landing-colecciones-info-3.2-content"
+        ],
+        "props": {
+            "blockClass": "contenedor-colecciones"
+        }
+    },
+
+
+    //contenido 8
+    "flex-layout.col#landing-colecciones-image-8-mobile": {
+        "children": [
+          "flex-layout.row#coleccionesImagen8-FridaKahlo",
+            "rich-text#landing-colecciones-info-4.2-content"
+        ],
+        "props": {
+            "blockClass": "contenedor-colecciones"
+        }
+    }
+
+}

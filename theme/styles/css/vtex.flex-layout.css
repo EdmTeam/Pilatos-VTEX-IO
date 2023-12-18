@@ -3256,6 +3256,7 @@
   -moz-box-shadow: 11px 8px 35px 0px rgba(0,0,0,0.10);
 }
 }
+
 /* GUIA DE REGALO 2023 */
 .flexRow--containerBlack {
   background: #000;
@@ -3311,4 +3312,12 @@ width: 88%;
 
 }
 
+/*landing colecciones*/
+.flexRowContent--landing-collection-flex-images {
+  gap: 20px;
+}
 
+.flexCol--contenedor-colecciones {
+  width: 90%;
+  margin: 0 auto;
+}

@@ -1,0 +1,216 @@
+{
+  // sesión banner imagen uno
+"flex-layout.row#coleccionesImagen1-essentialitary":{
+  "title": "BANNER IMAGEN 1",
+  "children": [
+    "list-context.image-list#coleccionesImagen1-essentialitary"
+  ]
+},
+
+"flex-layout.row#coleccionesImagen2-PilatosxGirbaud":{
+  "title": "BANNER IMAGEN 1",
+  "children": [
+    "list-context.image-list#coleccionesImagen2-PilatosxGirbaud"
+  ]
+},
+
+"flex-layout.row#coleccionesImagen3-UnderWear":{
+  "title": "BANNER IMAGEN 1",
+  "children": [
+    "list-context.image-list#coleccionesImagen3-UnderWear"
+  ]
+},
+"flex-layout.row#coleccionesImagen4-FunDenim":{
+  "title": "BANNER IMAGEN 1",
+  "children": [
+    "list-context.image-list#coleccionesImagen4-FunDenim"
+  ]
+},
+
+"flex-layout.row#coleccionesImagen5-Actlive":{
+  "title": "BANNER IMAGEN 1",
+  "children": [
+    "list-context.image-list#coleccionesImagen5-Actlive"
+  ]
+},
+
+"flex-layout.row#coleccionesImagen6-PilatosSneakers":{
+  "title": "BANNER IMAGEN 1",
+  "children": [
+    "list-context.image-list#coleccionesImagen6-PilatosSneakers"
+  ]
+},
+
+"flex-layout.row#coleccionesImagen7-BarbieKipling":{
+  "title": "BANNER IMAGEN 1",
+  "children": [
+    "list-context.image-list#coleccionesImagen7-BarbieKipling"
+  ]
+},
+
+"flex-layout.row#coleccionesImagen8-FridaKahlo":{
+  "title": "BANNER IMAGEN 1",
+  "children": [
+    "list-context.image-list#coleccionesImagen8-FridaKahlo"
+  ]
+},
+
+
+// lis context con las imagenes
+"list-context.image-list#coleccionesImagen1-essentialitary": {
+  "children": [
+      "slider-layout#colecciones"
+  ],
+  "props": {
+      "preload": true,
+      "images": [
+          {
+              "image": "/arquivos/Coleccion-Essentialitary-Portada.jpg",
+              "mobileImage": "/arquivos/Coleccion-Essentialitary-Portada.jpg",
+              "link": {
+                "url": "/essentialitary"
+              }
+          }
+      ]
+  }
+},
+
+"list-context.image-list#coleccionesImagen2-PilatosxGirbaud": {
+  "children": [
+      "slider-layout#colecciones"
+  ],
+  "props": {
+      "preload": true,
+      "images": [
+          {
+              "image": "/arquivos/Coleccion-PilatosxGirbaud-Portada.jpg",
+              "mobileImage": "/arquivos/Coleccion-PilatosxGirbaud-Portada.jpg",
+              "link": {
+                "url": "/essentialitary"
+              }
+          }
+      ]
+  }
+},
+
+"list-context.image-list#coleccionesImagen3-UnderWear": {
+  "children": [
+      "slider-layout#colecciones"
+  ],
+  "props": {
+      "preload": true,
+      "images": [
+          {
+              "image": "/arquivos/Coleccion-underwear-Portada.jpg",
+              "mobileImage": "/arquivos/Coleccion-underwear-Portada.jpg",
+              "link": {
+                "url": "/essentialitary"
+              }
+          }
+      ]
+  }
+},
+"list-context.image-list#coleccionesImagen4-FunDenim": {
+  "children": [
+      "slider-layout#colecciones"
+  ],
+  "props": {
+      "preload": true,
+      "images": [
+          {
+              "image": "/arquivos/Coleccion-FunDenim-Portada.jpg",
+              "mobileImage": "/arquivos/Coleccion-FunDenim-Portada.jpg",
+              "link": {
+                "url": "/essentialitary"
+              }
+          }
+      ]
+  }
+},
+"list-context.image-list#coleccionesImagen5-Actlive": {
+  "children": [
+      "slider-layout#colecciones"
+  ],
+  "props": {
+      "preload": true,
+      "images": [
+          {
+              "image": "/arquivos/Coleccion-ActLive-Portada.jpg",
+              "mobileImage": "/arquivos/Coleccion-ActLive-Portada.jpg",
+              "link": {
+                "url": "/essentialitary"
+              }
+          }
+      ]
+  }
+},
+"list-context.image-list#coleccionesImagen6-PilatosSneakers": {
+  "children": [
+      "slider-layout#colecciones"
+  ],
+  "props": {
+      "preload": true,
+      "images": [
+          {
+              "image": "/arquivos/Coleccion-SneakersCity-Portada.jpg",
+              "mobileImage": "/arquivos/Coleccion-SneakersCity-Portada.jpg",
+              "link": {
+                "url": "/essentialitary"
+              }
+          }
+      ]
+  }
+},
+"list-context.image-list#coleccionesImagen7-BarbieKipling": {
+  "children": [
+      "slider-layout#colecciones"
+  ],
+  "props": {
+      "preload": true,
+      "images": [
+          {
+              "image": "/arquivos/Coleccion-BarbiexKipling-Portada.jpg",
+              "mobileImage": "/arquivos/Coleccion-BarbiexKipling-Portada.jpg",
+              "link": {
+                "url": "/essentialitary"
+              }
+          }
+      ]
+  }
+},
+
+"list-context.image-list#coleccionesImagen8-FridaKahlo": {
+  "children": [
+      "slider-layout#colecciones"
+  ],
+  "props": {
+      "preload": true,
+      "images": [
+          {
+              "image": "/arquivos/Coleccion-FridaxKipling-Portada.jpg",
+              "mobileImage": "/arquivos/Coleccion-FridaxKipling-Portada.jpg",
+              "link": {
+                "url": "/essentialitary"
+              }
+          }
+      ]
+  }
+},
+
+
+// slider colecciones
+
+"slider-layout#colecciones": {
+  "props": {
+    "itemsPerPage": {
+      "desktop": 1,
+      "tablet": 1,
+      "phone": 1
+    },
+    "infinite": true,
+    "showNavigationArrows": "desktopOnly",
+    "blockClass": "colecciones"
+  }
+}
+
+}

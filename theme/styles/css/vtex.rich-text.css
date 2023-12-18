@@ -767,17 +767,17 @@
 /*DIA SIN IVA MENU*/
 .paragraph--itemMenuLevelDSI,
 .link--itemMenuLevelDSI {
-  font-weight: 700;
-  font-size: 12px;
+  /* font-weight: 700;
   line-height: 11px;
   letter-spacing: 0.05em;
-  text-transform: uppercase;
-  color: #ffffff;
-  margin: 1.4rem 0;
+  text-transform: uppercase; */
+  color: #000;
+  font-size: 12px;
+  /* margin: 1.4rem 0; */
   text-decoration: none;
-  background: #000000;
-  padding: 5px;
-  border-radius: 5px;
+  font-weight: 700;
+  /* padding: 5px;
+  border-radius: 5px; */
 }
 
 .container--icoMenuLevel1 {
@@ -1592,7 +1592,7 @@ margin: 70px;
 
 .wrapper--departmentTitle .heading {
   font-weight: bold;
-  font-size: 13px;
+  font-size: 16px;
   line-height: 28px;
   color: #000000;
   margin: .3rem 0 0 0;
@@ -3230,4 +3230,115 @@ margin: 2px;
   font-weight: 600;
   font-family: 'Poppins', sans-serif;
     color: #030303;
+}
+
+/* GUIA DE REGALO 2023 */
+.headingLevel1--H1GuiaDeRegalo{
+  font-size: 22px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+    color: #030303;
+}
+.link--H1GuiaDeRegalo {
+  color: #ffc600;
+}
+.container--paragrapGuiaDeRegalo{
+  color: #030303;
+  width: 90% !important;
+}
+@media (max-width: 760px) {
+  .container--paragrapGuiaDeRegalo{
+    width: 90% !important;
+  }
+
+}
+
+.paragraph--btnTercerNivel{
+  margin-top: 0;
+}
+
+.link--btnTercerNivel{
+  color: #030303;
+  font-weight: 600;
+
+}
+
+.paragraph--textCategoryGift{
+  font-size: 16px;
+}
+.wrapper--textCategoryGift{
+  font-size: 16px;
+}
+
+.container--tittleArmaTuLook{
+  margin: 0 auto;
+  width: 92%;
+  font-size: 18px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+  width: 88% !important;
+
+}
+.wrapper--tittleArmaTuLook{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container--tittleArmaTuLookInsp{
+  margin: 0 auto;
+  width: 92% !important;
+  font-size: 18px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+
+}
+.wrapper--tittleArmaTuLookInsp{
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media (max-width: 740px) {
+  .wrapper--tittleArmaTuLook{
+    margin: 0 auto;
+  }
+
+  .wrapper--tittleArmaTuLookInsp{
+    margin: 3% auto;
+    width: 90%;
+  }
+}
+
+.link--tittleArmaTuLookInsp{
+  color:#3f3f40;
+  border: 1px solid #3f3f40;
+  border-radius: 50px;
+  padding: 9px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.link--tittleArmaTuLookInsp:hover{
+  background: #030303;
+  color: #fff;
+}
+
+@media (max-width:640px) {
+  .link--tittleArmaTuLookInsp{
+    padding:3px 10px 3px 10px ;
+    font-size: 16px;
+  }
+
+}
+.headingLevel1--titleH1{
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+    color: #030303;
+}
+
+
+/*landing colecciones*/
+.link--landing-collection-link {
+  color: #000;
+  font-weight: bold;
 }
