@@ -138,8 +138,8 @@
     justify-content: center;
 }
 
-.styledLinkContent--menuLinkHeader, 
-.styledLinkContent--menuLinkHeaderHover, 
+.styledLinkContent--menuLinkHeader,
+.styledLinkContent--menuLinkHeaderHover,
 .styledLinkContent--menuLinkHeaderColor
 {
     font-weight: bold;
@@ -149,10 +149,10 @@
     letter-spacing: 0.05em;
     text-transform: uppercase;
     /* border-bottom: 4px solid transparent;  */
-    transition: all ease .5s;   
+    transition: all ease .5s;
 }
 
-/* .menuItem--menuLinkHeader:hover .styledLinkContent--menuLinkHeader, 
+/* .menuItem--menuLinkHeader:hover .styledLinkContent--menuLinkHeader,
 .menuItem--menuLinkHeader:hover .styledLinkContent--menuLinkHeaderColor{
     border-bottom: 4px solid #FFD400;
     transition: all ease .5s;
@@ -163,11 +163,10 @@
 }
 /*stylo boton dsi*/
 .styledLinkContent--menuLinkHeaderPilatosIVA{
-    background: #000000;
-    color: #FFFFFF;
-    border-radius: 8px;
-    padding: 5px;
-    margin-top: -5px;
+    color: #000000;
+}
+.styledLinkContent--menuLinkHeaderPilatosIVA:hover{
+  border-bottom: 2px solid #FFD400;
 }
 
 .styledLinkContent--menuLinkHeaderPilatos{
@@ -210,8 +209,8 @@
 }
 
 /* Menu Desktop */
-.menuItem--menuLinkHeader, 
-.menuItem--menuLinkHeaderHover, 
+.menuItem--menuLinkHeader,
+.menuItem--menuLinkHeaderHover,
 .menuItem--menuLinkHeaderColor{
     padding: 1.4rem 0;
 }
@@ -241,11 +240,11 @@
     .submenuWrapper--contentSubmenuDesk-1{
         left: -30px;
     }
-    
+
     .submenuWrapper--contentSubmenuDesk-2{
         left: -113px;
     }
-    
+
     .submenuWrapper--contentSubmenuDesk-3{
         left: -196px;
     }
@@ -310,8 +309,8 @@
     left: 50%;
     transform: translateX(-50%);
     z-index: -1;
-    width: 0; 
-    height: 0; 
+    width: 0;
+    height: 0;
     border-right: 10px solid transparent;
     border-top: 11px solid transparent;
     border-left: 11px solid transparent;

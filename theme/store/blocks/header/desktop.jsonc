@@ -189,7 +189,7 @@
 
   // Seccion de iconos
   "flex-layout.col#header-items-desk-col-2": {
-    "children": [ 
+    "children": [
       "flex-layout.row#header-items-desk-ico"
     ],
     "props": {

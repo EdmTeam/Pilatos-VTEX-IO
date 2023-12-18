@@ -767,17 +767,17 @@
 /*DIA SIN IVA MENU*/
 .paragraph--itemMenuLevelDSI,
 .link--itemMenuLevelDSI {
-  font-weight: 700;
-  font-size: 12px;
+  /* font-weight: 700;
   line-height: 11px;
   letter-spacing: 0.05em;
-  text-transform: uppercase;
-  color: #ffffff;
-  margin: 1.4rem 0;
+  text-transform: uppercase; */
+  color: #000;
+  font-size: 12px;
+  /* margin: 1.4rem 0; */
   text-decoration: none;
-  background: #000000;
-  padding: 5px;
-  border-radius: 5px;
+  font-weight: 700;
+  /* padding: 5px;
+  border-radius: 5px; */
 }
 
 .container--icoMenuLevel1 {

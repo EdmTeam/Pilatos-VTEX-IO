@@ -16,17 +16,17 @@
       "blockClass": "menucontainerDesk"
     }
   },
-  
+
   "menu-item#menu-item-9-desk-1": {
     "props": {
       "type": "custom",
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/productos-top",
+        "href": "/colecciones",
         "noFollow": false,
-        "tagTitle": "PRODUCTOS TOP",
-        "text": "PRODUCTOS TOP"
+        "tagTitle": "Colecciones",
+        "text": "Colecciones"
       },
       "blockClass": [
         "menuLinkHeader",
