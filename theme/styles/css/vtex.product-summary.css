@@ -45,6 +45,10 @@
   position: relative;
 }
 
+.imageNormal {
+  height: auto !important;
+}
+
 @media only screen and (min-width: 1180px) {
   .nameContainer {
     margin: 1rem 0 0.9rem 0;
@@ -137,7 +141,8 @@
   background: #ffffff;
 }
 
-.imageNormal {
-  height: auto !important;
-  object-fit: none !important;
+@media screen and (min-width: 64em) {
+  .imageNormal {
+    object-fit: none !important;
+  }
 }
