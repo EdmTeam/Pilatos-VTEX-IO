@@ -18,9 +18,9 @@ interface Props {
   text?: string
   unavailableText?: string
   onClickBehavior?:
-    | 'add-to-cart'
-    | 'go-to-product-page'
-    | 'ensure-sku-selection'
+  | 'add-to-cart'
+  | 'go-to-product-page'
+  | 'ensure-sku-selection'
   onClickEventPropagation?: 'disabled' | 'enabled'
   skuItems?: CartItem[]
   customPixelEventId?: string
@@ -89,13 +89,21 @@ const Wrapper = withToast(function Wrapper(props: Props) {
   const multipleAvailableSKUs = itemsLength > 1
   const selectedItem = productContext?.selectedItem
   const assemblyOptions = productContext?.assemblyOptions
-  const seller =
-    selectedSeller ??
-    (productContext?.selectedItem?.sellers[0] as ProductTypes.Seller)
+  const sellers = productContext?.selectedItem?.sellers;
+
+  const selectedSellerr =
+    selectedSeller ?? (sellers && sellers.find((seller) => seller.sellerDefault === true));
+
+  const seller = selectedSellerr as ProductTypes.Seller;
+
   const selectedQuantity =
     productContext?.selectedQuantity != null
       ? productContext.selectedQuantity
       : 1
+
+
+  console.log('Sellerrrr', seller);
+
 
   const skuItems = useMemo(
     () =>
