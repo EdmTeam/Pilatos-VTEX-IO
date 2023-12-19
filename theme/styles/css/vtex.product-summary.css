@@ -45,8 +45,16 @@
   position: relative;
 }
 
+.imageStackContainer {
+  width: 100%;
+  height: 250px;
+}
+
 .imageNormal {
-  height: auto !important;
+  object-fit: cover !important;
+  max-height: 250px !important;
+  max-width: 100% !important;
+  /* height: auto !important; */
 }
 
 @media only screen and (min-width: 1180px) {
@@ -142,7 +150,11 @@
 }
 
 @media screen and (min-width: 64em) {
+  .imageStackContainer {
+    height: 650px;
+  }
+
   .imageNormal {
-    object-fit: none !important;
+    max-height: 650px !important;
   }
 }

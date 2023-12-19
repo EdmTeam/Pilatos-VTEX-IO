@@ -15,8 +15,14 @@
     "props": {
       "showBadge": false,
       "aspectRatio": "9:16",
-      "width": 500,
-      "height": 650,
+      "width": {
+        "mobile": 800,
+        "desktop": 500
+      },
+      "height": {
+        "mobile": 250,
+        "desktop": 650
+      },
       "displayMode": "carousel"
       /*       "hoverImage": {
         "criteria": "index",
