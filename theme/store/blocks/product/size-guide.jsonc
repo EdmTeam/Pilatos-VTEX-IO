@@ -394,7 +394,7 @@
           "conditionals": [
               {
                   "brands": ["2000106"],
-                  "categories": ["48", "53", "84", "79"],
+                  "categories": ["57", "55", "54", "56" ],
                   "imageDesktop": "/arquivos/Pilatos-GuiaTallas-Superdry4-camisa-mujer.jpg",
                   "imageTablet": "/arquivos/Pilatos-GuiaTallas-Mobile-Superdry-camisamujer.jpg",
                   "imagePhone": "/arquivos/Pilatos-GuiaTallas-Mobile-Superdry-camisamujer.jpg"
@@ -692,7 +692,7 @@
           "conditionals": [
               {
                   "brands": ["2000106"],
-                  "categories": ["5", "4", "39", "36"],
+                  "categories": [ "4", "14", "13", "15", "36"],
                   "imageDesktop": "/arquivos/Pilatos-GuiaTallas-Superdry2-camisa-hombre.jpg",
                   "imageTablet": "/arquivos/Pilatos-GuiaTallas-Mobile-Superdry2-camisa-hombre.jpg",
                   "imagePhone": "/arquivos/Pilatos-GuiaTallas-Mobile-Superdry2-camisa-hombre.jpg"
@@ -798,5 +798,32 @@
             }
         ]
       }
-    }
+    },
+
+    "size-guide#sandalias-hombre-Superdry":{
+      "props": {
+        "conditionals": [
+            {
+                "brands": ["2000106"],
+                "categories": ["42"],
+                "imageDesktop": "/arquivos/Pilatos-GuiaTallas-sandalias-hombre-Superdry.jpg",
+                "imageTablet": "/arquivos/Pilatos-GuiaTallas-sandalias-hombre-Superdry.jpg",
+                "imagePhone": "/arquivos/Pilatos-GuiaTallas-sandalias-hombre-Superdry.jpg"
+            }
+        ]
+      }
+    },
+            "size-guide#sandalias-mujer-Superdry":{
+              "props": {
+                "conditionals": [
+                    {
+                        "brands": ["2000106"],
+                        "categories": ["88"],
+                        "imageDesktop": "/arquivos/Pilatos-GuiaTallas-sandalias-mujer-Superdry.jpg",
+                        "imageTablet": "/arquivos/Pilatos-GuiaTallas-sandalias-mujer-Superdry.jpg",
+                        "imagePhone": "/arquivos/Pilatos-GuiaTallas-sandalias-mujer-Superdry.jpg"
+                    }
+                ]
+              }
+            }
 }
