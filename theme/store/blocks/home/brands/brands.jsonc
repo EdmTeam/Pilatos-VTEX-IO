@@ -1,292 +1,269 @@
 {
-    "flex-layout.row#brands": {
-      "children": [
-        "flex-layout.col#brands"
+  "flex-layout.row#brands": {
+    "children": [
+      "flex-layout.col#brands"
+    ],
+    "props": {
+      "blockClass": "contentBrandsSlide"
+    }
+  },
+  "flex-layout.col#brands": {
+    "children": [
+      "rich-text#brands-title",
+      "slider-layout#brands"
+    ]
+  },
+  "rich-text#brands-title": {
+    "props": {
+      "text": "**Comprar por marca**",
+      "blockClass": "titlePromotionalBanners"
+    }
+  },
+  "slider-layout#brands": {
+    "props": {
+      "blockClass": [
+        "contentSlide",
+        "contentSlideBrand"
       ],
-      "props": {
-        "blockClass": "contentBrandsSlide"
-      }
-    },
-
-    "flex-layout.col#brands":{
-      "children":[
-        "rich-text#brands-title",
-        "slider-layout#brands"
-      ]
-    },
-
-    "rich-text#brands-title": {
-      "props":{
-          "text": "**Comprar por marca**",
-          "blockClass": "titlePromotionalBanners"
-      }
-    },
-
-    "slider-layout#brands": {
-      "props": {
-        "blockClass": [
-          "contentSlide",
-          "contentSlideBrand"
-        ],
-        "itemsPerPage": {
-          "desktop": 8,
-          "tablet": 6,
-          "phone": 3
-        },
-        "showPaginationDots":"never"
-        // "autoplay": {
-        //   "timeout": 5000,
-        //   "stopOnHover": false
-        // }
+      "itemsPerPage": {
+        "desktop": 8,
+        "tablet": 6,
+        "phone": 3
       },
-      "children": [
-        "image#brand-5",
-        "image#brand-23",
-        "image#brand-12",
-        "image#brand-10",
-        "image#brand-13",
-        "image#brand-20",
-        "image#brand-11",
-        "image#brand-24",
-        "image#brand-19",
-        "image#brand-18",
-        "image#brand-2",
-        "image#brand-26",
-        "image#brand-17",
-        "image#brand-15",
-        "image#brand-1",
-        "image#brand-7",
-        "image#brand-9",
-        "image#brand-16",
-        "image#brand-21",
-        "image#brand-22",
-        "image#brand-28",
-        "image#brand-32",
-        "image#brand-33"
-
-      ]
+      "showPaginationDots": "never"
+      // "autoplay": {
+      //   "timeout": 5000,
+      //   "stopOnHover": false
+      // }
     },
-
-    "image#brand-1": {
-      "props": {
-          "src": "/arquivos/LogoLacoste.png",
-          "link": {
-              "url": "/lacoste"
-          }
-      }
-    },
-
-    "image#brand-2": {
-      "props": {
-          "src": "/arquivos/Logo_Celio.png",
-          "link": {
-              "url": "/celio"
-          }
-      }
-    },
-
-
-
-
-
-    "image#brand-5": {
-      "props": {
-          "src": "/arquivos/Logo_Diesel.png",
-          "link": {
-              "url": "/diesel"
-          }
-      }
-    },
-
-    "image#brand-7": {
-      "props": {
-          "src": "/arquivos/Logo_Fossil.png",
-          "link": {
-              "url": "/fossil"
-          }
-      }
-    },
-
-
-
-    "image#brand-9": {
-      "props": {
-          "src": "/arquivos/Logo_Goorin_Bros.png",
-          "link": {
-              "url": "/goorin-bros"
-          }
-      }
-    },
-
-    "image#brand-10": {
-      "props": {
-          "src": "/arquivos/Logo_Kipling.png",
-          "link": {
-              "url": "/kipling"
-          }
-      }
-    },
-
-    "image#brand-11": {
-      "props": {
-          "src": "/arquivos/Logo_Le Coq_Sportif.png",
-          "link": {
-              "url": "/le-coq-sportif"
-          }
-      }
-    },
-
-    "image#brand-12": {
-      "props": {
-          "src": "/arquivos/Logo_MFG.png",
-          "link": {
-              "url": "/marithe-francois-girbaud"
-          }
-      }
-    },
-
-    "image#brand-13": {
-      "props": {
-          "src": "/arquivos/Logo_New_Balance.png",
-          "link": {
-              "url": "/new-balance"
-          }
-      }
-    },
-
-    "image#brand-15": {
-      "props": {
-          "src": "/arquivos/Logo_Oakley.png",
-          "link": {
-              "url": "/oakley"
-          }
-      }
-    },
-
-    "image#brand-16": {
-      "props": {
-          "src": "/arquivos/PilatosLogo.png",
-          "link": {
-              "url": "/pilatos"
-          }
-      }
-    },
-
-    "image#brand-17": {
-      "props": {
-          "src": "/arquivos/Logo_Quiksilver.png",
-          "link": {
-              "url": "/quiksilver"
-          }
-      }
-    },
-
-    "image#brand-18": {
-      "props": {
-          "src": "/arquivos/Logo_Ray_Ban.png",
-          "link": {
-              "url": "/ray-ban"
-          }
-      }
-    },
-
-    "image#brand-19": {
-      "props": {
-          "src": "/arquivos/VANS_log new-01-nuevo.png",
-          "link": {
-              "url": "/vans"
-          }
-      }
-    },
-
-    "image#brand-20": {
-      "props": {
-          "src": "/arquivos/Logo_Replay.png",
-          "link": {
-              "url": "/replay"
-          }
-      }
-    },
-
-    "image#brand-21": {
-      "props": {
-          "src": "/arquivos/Logo_Roxy.png",
-          "link": {
-              "url": "/roxy"
-          }
-      }
-    },
-
-    "image#brand-22": {
-      "props": {
-          "src": "/arquivos/Logo_Stance.png",
-          "link": {
-              "url": "/stance"
-          }
-      }
-    },
-
-    "image#brand-23": {
-      "props": {
-          "src": "/arquivos/Logo_Superdy.png",
-          "link": {
-              "url": "/superdry"
-          }
-      }
-    },
-
-    "image#brand-24": {
-      "props": {
-          "src": "/arquivos/AguaBendita-Logo.jpg",
-          "link": {
-              "url": "/agua-bendita"
-          }
-      }
-    },
-
-    "image#brand-25": {
-      "props": {
-          "src": "/arquivos/Logo_AB.png",
-          "link": {
-              "url": "/agua-bendita"
-          }
-      }
-    },
-
-    "image#brand-28": {
-      "props": {
-          "src": "/arquivos/Logo_Quiksilver.png",
-          "link": {
-              "url": "/quiksilver"
-          }
-      }
-    },
-
-    "image#brand-26": {
-      "props": {
-          "src": "/arquivos/SWOOSH-negro_transp.png",
-          "link": {
-              "url": "/nike"
-          }
-      }
-    },
-    "image#brand-32": {
-      "props": {
-          "src": "/arquivos/calvin-klein-logo.png",
-          "link": {
-              "url": "/calvin-klein"
-          },
-          "maxWidth": "150px"
-
-      }
-    },
-    "image#brand-33": {
-      "props": {
-          "src": "/arquivos/ap-crown-logo.jpg",
-          "link": {
-              "url": "/ap-crown"
-          },
-          "maxWidth": "150px"
+    "children": [
+      "image#brand-5",
+      "image#brand-23",
+      "image#brand-12",
+      "image#brand-10",
+      "image#brand-13",
+      "image#brand-20",
+      "image#brand-11",
+      "image#brand-24",
+      "image#brand-19",
+      "image#brand-18",
+      "image#brand-2",
+      "image#brand-26",
+      "image#brand-17",
+      "image#brand-15",
+      "image#brand-1",
+      "image#brand-7",
+      "image#brand-9",
+      "image#brand-16",
+      "image#brand-21",
+      "image#brand-22",
+      "image#brand-28",
+      "image#brand-32",
+      "image#brand-33",
+      "image#brand-34"
+    ]
+  },
+  "image#brand-1": {
+    "props": {
+      "src": "/arquivos/LogoLacoste.png",
+      "link": {
+        "url": "/lacoste"
       }
     }
+  },
+  "image#brand-2": {
+    "props": {
+      "src": "/arquivos/Logo_Celio.png",
+      "link": {
+        "url": "/celio"
+      }
+    }
+  },
+  "image#brand-5": {
+    "props": {
+      "src": "/arquivos/Logo_Diesel.png",
+      "link": {
+        "url": "/diesel"
+      }
+    }
+  },
+  "image#brand-7": {
+    "props": {
+      "src": "/arquivos/Logo_Fossil.png",
+      "link": {
+        "url": "/fossil"
+      }
+    }
+  },
+  "image#brand-9": {
+    "props": {
+      "src": "/arquivos/Logo_Goorin_Bros.png",
+      "link": {
+        "url": "/goorin-bros"
+      }
+    }
+  },
+  "image#brand-10": {
+    "props": {
+      "src": "/arquivos/Logo_Kipling.png",
+      "link": {
+        "url": "/kipling"
+      }
+    }
+  },
+  "image#brand-11": {
+    "props": {
+      "src": "/arquivos/Logo_Le Coq_Sportif.png",
+      "link": {
+        "url": "/le-coq-sportif"
+      }
+    }
+  },
+  "image#brand-12": {
+    "props": {
+      "src": "/arquivos/Logo_MFG.png",
+      "link": {
+        "url": "/marithe-francois-girbaud"
+      }
+    }
+  },
+  "image#brand-13": {
+    "props": {
+      "src": "/arquivos/Logo_New_Balance.png",
+      "link": {
+        "url": "/new-balance"
+      }
+    }
+  },
+  "image#brand-15": {
+    "props": {
+      "src": "/arquivos/Logo_Oakley.png",
+      "link": {
+        "url": "/oakley"
+      }
+    }
+  },
+  "image#brand-16": {
+    "props": {
+      "src": "/arquivos/PilatosLogo.png",
+      "link": {
+        "url": "/pilatos"
+      }
+    }
+  },
+  "image#brand-17": {
+    "props": {
+      "src": "/arquivos/Logo_Quiksilver.png",
+      "link": {
+        "url": "/quiksilver"
+      }
+    }
+  },
+  "image#brand-18": {
+    "props": {
+      "src": "/arquivos/Logo_Ray_Ban.png",
+      "link": {
+        "url": "/ray-ban"
+      }
+    }
+  },
+  "image#brand-19": {
+    "props": {
+      "src": "/arquivos/VANS_log new-01-nuevo.png",
+      "link": {
+        "url": "/vans"
+      }
+    }
+  },
+  "image#brand-20": {
+    "props": {
+      "src": "/arquivos/Logo_Replay.png",
+      "link": {
+        "url": "/replay"
+      }
+    }
+  },
+  "image#brand-21": {
+    "props": {
+      "src": "/arquivos/Logo_Roxy.png",
+      "link": {
+        "url": "/roxy"
+      }
+    }
+  },
+  "image#brand-22": {
+    "props": {
+      "src": "/arquivos/Logo_Stance.png",
+      "link": {
+        "url": "/stance"
+      }
+    }
+  },
+  "image#brand-23": {
+    "props": {
+      "src": "/arquivos/Logo_Superdy.png",
+      "link": {
+        "url": "/superdry"
+      }
+    }
+  },
+  "image#brand-24": {
+    "props": {
+      "src": "/arquivos/AguaBendita-Logo.jpg",
+      "link": {
+        "url": "/agua-bendita"
+      }
+    }
+  },
+  "image#brand-25": {
+    "props": {
+      "src": "/arquivos/Logo_AB.png",
+      "link": {
+        "url": "/agua-bendita"
+      }
+    }
+  },
+  "image#brand-28": {
+    "props": {
+      "src": "/arquivos/Logo_Quiksilver.png",
+      "link": {
+        "url": "/quiksilver"
+      }
+    }
+  },
+  "image#brand-26": {
+    "props": {
+      "src": "/arquivos/SWOOSH-negro_transp.png",
+      "link": {
+        "url": "/nike"
+      }
+    }
+  },
+  "image#brand-32": {
+    "props": {
+      "src": "/arquivos/calvin-klein-logo.png",
+      "link": {
+        "url": "/calvin-klein"
+      },
+      "maxWidth": "150px"
+    }
+  },
+  "image#brand-33": {
+    "props": {
+      "src": "/arquivos/ap-crown-logo.jpg",
+      "link": {
+        "url": "/ap-crown"
+      },
+      "maxWidth": "150px"
+    }
+  },
+  "image#brand-34": {
+    "props": {
+      "src": "/arquivos/logo_Pepejeans.png",
+      "link": {
+        "url": "/pepe-jeans"
+      },
+      "maxWidth": "150px"
+    }
   }
+}
