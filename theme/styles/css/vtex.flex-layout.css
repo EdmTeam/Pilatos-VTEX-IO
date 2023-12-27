@@ -3321,3 +3321,9 @@ width: 88%;
   width: 90%;
   margin: 0 auto;
 }
+
+/*template nuevo de género*/  
+.flexRowContent--botones-nuevo-template-genero {
+  display: flex;
+  align-items: center;
+}

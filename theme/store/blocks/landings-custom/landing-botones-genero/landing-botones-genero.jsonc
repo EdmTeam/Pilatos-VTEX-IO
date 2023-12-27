@@ -1,0 +1,84 @@
+{
+    "store.custom#landing-botones-genero": {
+        "blocks": [
+            "flex-layout.row#templateBotonesGenero",
+            "search-result-layout.customQuery#department-nuevo"
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
+    },
+
+    "flex-layout.row#templateBotonesGenero": {
+        "children":[
+            "flex-layout.col#templateGeneroNuevo"
+
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#templateGeneroNuevo":{
+        "title": "Contenedor landing género",
+        "children":[
+            "rich-text#department-templateGeneroNuevo-bread",
+            "rich-text#department-templateGeneroNuevo-title",
+            "rich-text#department-templateGeneroNuevo-description",
+            "responsive-layout.desktop#templateBotonesGenero-desk",
+            "responsive-layout.mobile#templateBotonesGenero-mobile",
+            "flex-layout.row#botones-templateBotonesGeneroBtns"
+        ]
+    },
+
+    "rich-text#department-templateGeneroNuevo-bread": {
+        "title": "Bread crumb",
+        "props":{
+            "text": "[Home](/) / [**Pilatos**](/pilatos)",
+            "blockClass": "departmentBreadCrumb"
+        }
+    },
+
+    "rich-text#department-templateGeneroNuevo-title": {
+        "title": "Titulo SEO",
+        "props":{
+            "text": "# Pilatos",
+            "blockClass": "departmentTitle"
+        }
+    },
+
+    "rich-text#department-templateGeneroNuevo-description": {
+        "title": "SEO CORTO",
+        "props":{
+            "text": "Contamos con nuestra **propia línea de ropa Pilatos** que trae nuevas cápsulas mes a mes, como Olímpicos, inspirada en los elementos típicos de los Juegos Olímpicos y Tokio como ciudad anfitriona. Encuentra diseños exclusivos de ropa para mujer y hombre en un solo lugar, camisetas, buzos y chaquetas, jeans y accesorios, perfectos para innovar y renovar tu clóset.",
+            "blockClass": "departmentDescription"
+        }
+    },
+
+    //Botones
+    "flex-layout.row#botones-templateBotonesGeneroBtns": {
+        "children": [
+            "rich-text#btnsGeneroNuevo-boton1",
+            "rich-text#btnsGeneroNuevo-boton2"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "preventHorizontalStretch": true,
+            "blockClass": "botones-nuevo-template-genero"
+        }
+    },
+
+    "rich-text#btnsGeneroNuevo-boton1": {
+        "props":{
+            "text":"HOMBRE",
+            "blockClass":"botonGeneroNuevo"
+        }
+    },
+
+    "rich-text#btnsGeneroNuevo-boton2": {
+        "props":{
+            "text":"MUJER",
+            "blockClass":"botonGeneroNuevo"
+        }
+    }
+}
