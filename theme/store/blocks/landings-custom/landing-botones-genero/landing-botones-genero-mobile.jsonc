@@ -1,0 +1,18 @@
+{
+    "responsive-layout.mobile#templateBotonesGenero-mobile": {
+        "children": [
+            "image#landing-templateBotonesGenero-banner-img-phone"
+        ]
+    },
+    "image#landing-templateBotonesGenero-banner-img-phone": {
+        "title": "Imágen mobile",
+        "props": {
+            "src": "/arquivos/Pilatos-Bancolombia-Banner-Landing-Mob.jpg",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    }
+}

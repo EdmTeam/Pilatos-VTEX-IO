@@ -3342,3 +3342,46 @@ margin: 2px;
   color: #000;
   font-weight: bold;
 }
+
+
+/*template nuevo de género*/
+.paragraph--botonGeneroNuevo {
+    background-color:  black;
+    border: none;
+    font-weight: 700;
+    color: white;
+    width: 160px;
+    height: 46px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 20px;
+    cursor: pointer;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: background-color 0.2s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link--botonGeneroNuevo {
+  color: white;
+  text-decoration: none;
+}
+
+@media (max-width:640px) {
+  .paragraph--botonGeneroNuevo {
+    width: 150px;
+    height: 36px;
+    margin: 10px 5px;
+  }
+}
+
+.paragraph--botonGeneroNuevo:hover {
+  background-color: #FFD400;
+}
+
+.paragraph--botonGeneroNuevo:hover .link--botonGeneroNuevo{
+  color: black;
+}  

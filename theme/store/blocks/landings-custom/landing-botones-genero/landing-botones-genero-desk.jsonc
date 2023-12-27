@@ -1,0 +1,23 @@
+{
+    "responsive-layout.desktop#templateBotonesGenero-desk": {
+        "children": [
+            "image#landing-botones-genero-img"
+        ],
+        "props":{
+            "blockClass":"contentBannersDesk"
+        }
+    },
+
+
+    "image#landing-botones-genero-img": {
+        "title": "Imágen desktop",
+        "props": {
+            "src": "/arquivos/Pilatos-Bancolombia-Banner-Landing-Desk.jpg",
+            "link": {
+                "url": "",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    }
+}
