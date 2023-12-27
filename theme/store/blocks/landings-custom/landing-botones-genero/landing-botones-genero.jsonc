@@ -70,14 +70,14 @@
 
     "rich-text#btnsGeneroNuevo-boton1": {
         "props":{
-            "text":"HOMBRE",
+            "text":"[**HOMBRE**](/hombre)",
             "blockClass":"botonGeneroNuevo"
         }
     },
 
     "rich-text#btnsGeneroNuevo-boton2": {
         "props":{
-            "text":"MUJER",
+            "text":"[**MUJER**](/mujer)",
             "blockClass":"botonGeneroNuevo"
         }
     }

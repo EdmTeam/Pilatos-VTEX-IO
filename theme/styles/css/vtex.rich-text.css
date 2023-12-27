@@ -3365,6 +3365,11 @@ margin: 2px;
     align-items: center;
 }
 
+.link--botonGeneroNuevo {
+  color: white;
+  text-decoration: none;
+}
+
 @media (max-width:640px) {
   .paragraph--botonGeneroNuevo {
     width: 150px;
@@ -3373,7 +3378,10 @@ margin: 2px;
   }
 }
 
-.paragraph--botonGeneroNuevo:hover{
+.paragraph--botonGeneroNuevo:hover {
   background-color: #FFD400;
-  color: black;
 }
+
+.paragraph--botonGeneroNuevo:hover .link--botonGeneroNuevo{
+  color: black;
+}  
