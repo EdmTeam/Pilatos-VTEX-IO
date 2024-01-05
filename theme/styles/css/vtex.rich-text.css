@@ -3385,3 +3385,31 @@ margin: 2px;
 .paragraph--botonGeneroNuevo:hover .link--botonGeneroNuevo{
   color: black;
 }  
+
+/* template envio express*/
+.paragraph--titulo-envio-express {
+  font-size: 4rem;
+  line-height: 1.2;
+  font-weight: bold;
+  color: #545454;
+}
+
+.paragraph--titulo-envio-express::after {
+  content: " 24 a 48 horas";
+  color: #000;
+}
+
+.paragraph--titulo-pickit-productos {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+@media (max-width:768px) {
+  .paragraph--titulo-envio-express {
+    font-size: 26px;
+  }
+
+  .paragraph--titulo-pickit-productos {
+    font-size: 16px;
+  }
+}

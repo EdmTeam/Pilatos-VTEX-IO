@@ -1,0 +1,131 @@
+{
+    "responsive-layout.phone#landing-envio-express": {
+        "children": [
+            "flex-layout.row#envio-express-primera-parte-mobile",
+            "image#envio-express-segunda-parte-mobile",
+            "flex-layout.row#envio-express-tercera-parte-mobile"
+        ]
+    },
+
+    //primera parte
+    "flex-layout.row#envio-express-primera-parte-mobile": {
+        "title": "Contenedor mobile primera parte",
+        "children": [
+            "flex-layout.col#envio-express-primera-parte-info-mobile",
+            "flex-layout.col#envio-express-primera-parte-img-mobile"
+        ],
+        "props": {
+            "marginTop": 4,
+            "marginBottom": 4,
+            "blockClass": "contenedor-envio-express"
+        }
+    },
+
+    "flex-layout.col#envio-express-primera-parte-img-mobile": {
+        "children": [
+            "image#envio-express-col-2-primera-parte-mobile"
+        ]
+    },
+
+    "image#envio-express-col-2-primera-parte-mobile": {
+        "props": {
+            "title": "Banner primera parte mobile",
+            "src": "/arquivos/Pilatos-PickIt-Banner-landing-imagen-superior-mobile.jpg"
+        }
+    },
+
+    "flex-layout.col#envio-express-primera-parte-info-mobile": {
+        "children": [
+            "rich-text#envio-express-col-1-primera-parte-mobile"
+        ]
+    },
+
+    "rich-text#envio-express-col-1-primera-parte-mobile": {
+        "props": {
+            "font": "t-heading-1",
+            "text": "Llevamos tu pedido en pocas horas, recibe tu pedido de 24 a 48 horas",
+            "textAlignment": "LEFT",
+            "blockClass": "titulo-envio-express"
+        }
+    },
+
+    //Segunda parte
+    "image#envio-express-segunda-parte-mobile": {
+        "title": "imagen seagunda parte mobile",
+        "props": {
+            "title": "Banner segunda parte",
+            "src": "/arquivos/Pilatos-PickIt-Banner-landing-mobile-largo.png",
+            "blockClass": "img-segunda-parte-pickit-mob"
+        }
+    },
+
+    //tercera parte
+    "flex-layout.row#envio-express-tercera-parte-mobile": {
+        "title": "Contenedor tercera parte mobile",
+        "children": [
+            "flex-layout.col#envio-express-tercera-parte-col-mobile"
+        ],
+        "props": {
+            "blockClass": "contenedor-envio-express"
+        }
+    },
+
+    "flex-layout.col#envio-express-tercera-parte-col-mobile": {
+        "children": [
+            "image#envio-express-tercera-parte-img-1-mobile",
+            "image#envio-express-tercera-parte-img-2-mobile",
+            "image#envio-express-tercera-parte-img-3-mobile",
+            "image#envio-express-tercera-parte-img-4-mobile",
+            "image#envio-express-tercera-parte-img-5-mobile",
+            "image#envio-express-tercera-parte-img-6-mobile"
+        ]
+    },
+
+    "image#envio-express-tercera-parte-img-1-mobile": {
+        "props": {
+            "title": "imagen tercera parte img 1",
+            "src": "/arquivos/Pilatos-PickIt-Banner-landing-envios-a-punto-pickit-imagen-mobile.jpg",
+            "alt": "imagen tercera parte img 1"
+        }
+    },
+
+    "image#envio-express-tercera-parte-img-2-mobile": {
+        "props": {
+            "title": "imagen tercera parte img 2",
+            "src": "/arquivos/Pilatos-PickIt-Banner-landing-envios-a-punto-pickit-texto-mobile.jpg",
+            "alt": "imagen tercera parte img 2"
+        }
+    },
+
+    "image#envio-express-tercera-parte-img-3-mobile": {
+        "props": {
+            "title": "imagen tercera parte img 3",
+            "src": "/arquivos/Pilatos-PickIt-Banner-landing-envios-a-tu-hogar-imagen-mobile.jpg",
+            "alt": "imagen tercera parte img 3"
+        }
+    },
+
+    "image#envio-express-tercera-parte-img-4-mobile": {
+        "props": {
+            "title": "imagen tercera parte img 4",
+            "src": "/arquivos/Pilatos-PickIt-Banner-landing-envios-a-punto-Pick-it-texto-mobile.jpg",
+            "alt": "imagen tercera parte img 4"
+        }
+    },
+
+    "image#envio-express-tercera-parte-img-5-mobile": {
+        "props": {
+            "title": "imagen tercera parte img 5",
+            "src": "/arquivos/Pilatos-PickIt-Banner-landing-devolucion-imagen-mobile.jpg",
+            "alt": "imagen tercera parte img 5"
+        }
+    },
+
+    "image#envio-express-tercera-parte-img-6-mobile": {
+        "props": {
+            "title": "imagen tercera parte img 6",
+            "src": "/arquivos/Pilatos-PickIt-Banner-landing-devolucion-texto-mobile.jpg",
+            "alt": "imagen tercera parte img 6"
+        }
+    }
+}

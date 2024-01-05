@@ -1,0 +1,190 @@
+{
+    "store.custom#template-envio-express": {
+        "blocks": [
+            "responsive-layout.desktop#landing-envio-express",
+            "responsive-layout.tablet#landing-envio-express",
+            "responsive-layout.phone#landing-envio-express",
+            "flex-layout.row#pickit-titulo-productos",  
+            "flex-layout.row#pickit-productos"
+        ]
+    },
+
+    "responsive-layout.desktop#landing-envio-express": {
+        "children": [
+            "flex-layout.row#envio-express-primera-parte-desk",
+            "image#envio-express-img-desk-segunda-parte",
+            "flex-layout.row#envio-express-img-desk-tercera-parte"
+        ]
+    },
+
+    "responsive-layout.tablet#landing-envio-express": {
+        "children": [
+            "flex-layout.row#envio-express-primera-parte-desk",
+            "image#envio-express-img-desk-segunda-parte",
+            "flex-layout.row#envio-express-img-desk-tercera-parte"
+        ]
+    },
+
+    "flex-layout.row#envio-express-primera-parte-desk": {
+        "title": "Contenedor primera parte desk",
+        "children": [
+            "flex-layout.col#envio-express-info-desk",
+            "flex-layout.col#envio-express-img-desk"
+        ],
+        "props": {
+            "blockClass": "contenedor-envio-express",
+            "paddingBottom": 8
+        }
+    },
+
+    "flex-layout.col#envio-express-info-desk": {
+        "title": "Info primera parte",
+        "children": [
+            "rich-text#envio-express-desc-desk"
+        ],
+        "props": {
+            "verticalAlign": "middle"
+        }
+    },
+
+    "rich-text#envio-express-desc-desk": {
+        "title": "Desripción primera parte",
+        "props": {
+            "font": "t-heading-1",
+            "text": "Llevamos tu \n pedido en pocas horas, \n recibe tu pedido \n de",
+            "textAlignment": "LEFT",
+            "blockClass": "titulo-envio-express"
+        }
+    },
+
+    "flex-layout.col#envio-express-img-desk": {
+        "title": "Imagen primera parte",
+        "children": [
+            "image#envio-express-img-desk-primera-parte"
+        ]
+    },
+
+    "image#envio-express-img-desk-primera-parte": {
+        "props": {
+            "title": "Banner primera parte",
+            "src": "/arquivos/Pilatos-PickIt-Banner-landing-imagen-superior-desk.jpg"
+        }
+    },
+
+    //segunda parte
+
+    "image#envio-express-img-desk-segunda-parte": {
+        "title": "imagen seagunda parte",
+        "props": {
+            "title": "Banner segunda parte desk",
+            "src": "/arquivos/Pilatos-PickIt-Banner-landing-desk-largo.png",
+            "maxWidth": "100%"
+        }
+    },
+
+    //tercera parte
+    "flex-layout.row#envio-express-img-desk-tercera-parte": {
+        "title": "Contenedor tercera parte",
+        "children": [
+            "flex-layout.col#envio-express-tercera-parte-col-1",
+            "flex-layout.col#envio-express-tercera-parte-col-2"
+        ],
+        "props": {
+            "blockClass": "contenedor-envio-express",
+            "paddingTop": 8
+        }
+    },
+
+    "flex-layout.col#envio-express-tercera-parte-col-1": {
+        "title": "Contenedor imagenes desktop col 1",
+        "children": [
+            "image#envio-express-tercera-parte-img-1",
+            "image#envio-express-tercera-parte-img-3",
+            "image#envio-express-tercera-parte-img-5"
+        ]
+    },
+
+    "image#envio-express-tercera-parte-img-1": {
+        "props": {
+            "title": "imagen tercera parte img 1",
+            "src": "/arquivos/Pilatos-PickIt-Banner-landing-envios-a-tu-hogar-imagen-desk.jpg"
+        }
+    },
+
+    "image#envio-express-tercera-parte-img-3": {
+        "props": {
+            "title": "imagen tercera parte img 3",
+            "src": "/arquivos/Pilatos-PickIt-Banner-landing-envios-a-punto-pickit-texto-desk.jpg"
+        }
+    },
+
+    "image#envio-express-tercera-parte-img-5": {
+        "props": {
+            "title": "imagen tercera parte img 5",
+            "src": "/arquivos/Pilatos-PickIt-Banner-landing-devolucion-imagen-desk.jpg"
+        }
+    },
+
+    //col 2
+
+    "flex-layout.col#envio-express-tercera-parte-col-2": {
+        "title": "Contenedor imagenes desktop col 2",
+        "children": [
+            "image#envio-express-tercera-parte-img-2",
+            "image#envio-express-tercera-parte-img-4",
+            "image#envio-express-tercera-parte-img-6"
+        ]
+    },
+
+    "image#envio-express-tercera-parte-img-2": {
+        "props": {
+            "title": "imagen tercera parte img 2",
+            "src": "/arquivos/Pilatos-PickIt-Banner-landing-envios-a-tu-hogar-texto-desk.jpg"
+        }
+    },
+
+    "image#envio-express-tercera-parte-img-4": {
+        "props": {
+            "title": "imagen tercera parte img 4",
+            "src": "/arquivos/Pilatos-PickIt-Banner-landing-envios-a-punto-pickit-imagen-desk.jpg"
+        }
+    },
+
+    "image#envio-express-tercera-parte-img-6": {
+        "props": {
+            "title": "imagen tercera parte img 6",
+            "src": "/arquivos/Pilatos-PickIt-Banner-landing-devolucion-texto-desk.jpg"
+        }
+    },
+
+    //titulo productos
+
+    "flex-layout.row#pickit-titulo-productos": {
+        "children": [
+            "rich-text#titulo-envio-express-productos"
+        ],
+        "props": {
+            "blockClass": "contenedor-envio-express"
+        }
+    },
+
+    "rich-text#titulo-envio-express-productos": {
+        "props": {
+            "text": "Disfruta estos productos con envío express",
+            "textAlignment": "LEFT",
+            "blockClass": "titulo-pickit-productos"
+        }
+    },
+
+    //productos
+    "flex-layout.row#pickit-productos": {
+        "title": "Productos",
+        "children": [
+            "vtex.product-summary:list-context.product-list#recomendadorNewBalanceOne"
+        ],
+        "props": {
+            "blockClass": "contenedor-envio-express",
+            "paddingBottom": 8
+        }
+    }
+}

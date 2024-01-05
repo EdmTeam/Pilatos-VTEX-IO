@@ -39,7 +39,8 @@
             "rich-text#submenu-level-2-item-32-row-7",
             "rich-text#submenu-level-2-item-33-row-7",
             "rich-text#submenu-level-2-item-37-row-7",
-            "rich-text#submenu-level-2-item-35-row-7"
+            "rich-text#submenu-level-2-item-35-row-7",
+            "rich-text#submenu-level-2-item-36-row-7"
 
 
 
@@ -122,6 +123,12 @@
         }
     },
 
+    "rich-text#submenu-level-2-item-36-row-7":{
+        "props":{
+            "text": "[Pepe Jeans](/pepe-jeans)",
+            "blockClass": "contentSubMenuAcordeon"
+        }
+    },    
 
   "rich-text#submenu-level-2-item-35-row-7":{
     "props":{
