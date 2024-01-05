@@ -832,3 +832,7 @@ cursor: pointer;
     width: 100%;
 }
 
+/*pickit*/
+.imageElement--img-segunda-parte-pickit-mob {
+    margin: 24px 0;
+}

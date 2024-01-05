@@ -3327,3 +3327,8 @@ width: 88%;
   display: flex;
   align-items: center;
 }
+
+.flexRowContent--contenedor-envio-express {
+  width: 90%;
+  margin: 0 auto;
+}
