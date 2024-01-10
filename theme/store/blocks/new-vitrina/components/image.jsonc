@@ -21,7 +21,7 @@
       },
       "height": {
         "mobile": 250,
-        "desktop": 650
+        "desktop": 500
       },
       "displayMode": "carousel"
       /*       "hoverImage": {
