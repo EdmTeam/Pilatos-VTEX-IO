@@ -47,7 +47,7 @@
 
 .imageStackContainer {
   width: 100%;
-  height: 500px;
+  height: auto;
 }
 
 .imageNormal {
@@ -144,4 +144,10 @@
 .clearLink--shelfSlide {
   padding: 0 0.5rem;
   background: #ffffff;
+}
+
+@media screen and (min-width: 40em) {
+  .imageStackContainer {
+    height: 500px;
+  }
 }

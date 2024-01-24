@@ -11,6 +11,7 @@
       "rich-text#filtro-seo"
     ],
     "props": {
+      "blockClass": "pilatos",
       "preventRouteChange": true,
       "hideUnavailableItems": true,
       "showFacetQuantity": true,
@@ -89,17 +90,26 @@
     "props": {
       "layouts": [
         {
-          "name": "whole",
-          "component": "OneOrTwoLineSummary",
+          "name": "grid",
+          "component": "GridSummary",
           "itemsPerRow": {
             "(min-width:1008px)": 4,
             "(min-width:623px) and (max-width:1007px)": 3,
             "(max-width:622px)": 2
           }
+        },
+        {
+          "name": "list",
+          "component": "ListSummary",
+          "itemsPerRow": {
+            "(min-width:1008px)": 3,
+            "(min-width:623px) and (max-width:1007px)": 3,
+            "(max-width:622px)": 2
+          }
         }
       ],
-      "OneOrTwoLineSummary": "vtex.product-summary:product-summary.shelf#new-vitrine"
-    },
-    "blocks": ["vtex.product-summary:product-summary.shelf#new-vitrine"]
+      "ListSummary": "vtex.product-summary:product-summary.shelf#new-vitrine",
+      "GridSummary": "vtex.product-summary:product-summary.shelf#new-vitrine"
+    }
   }
 }

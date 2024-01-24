@@ -1,0 +1,47 @@
+{
+  "gallery-layout-switcher": {
+    "children": ["gallery-layout-option#grid", "gallery-layout-option#list"]
+  },
+
+  "gallery-layout-option#grid": {
+    "props": {
+      "name": "grid"
+    },
+    "children": ["icon-grid", "rich-text#option-grid"]
+  },
+
+  "gallery-layout-option#list": {
+    "props": {
+      "name": "list"
+    },
+    "children": ["icon-inline-grid", "rich-text#option-list"]
+  },
+
+  "responsive-layout.desktop#textOptionGrid": {
+    "title": "Contenedor Texto Grid",
+    "children": ["rich-text#option-grid"]
+  },
+
+  "responsive-layout.desktop#textOptionList": {
+    "title": "Contenedor Texto List",
+    "children": ["rich-text#option-list"]
+  },
+
+  "rich-text#option-grid": {
+    "title": "Texto Grid",
+    "props": {
+      "text": "Grid",
+      "textColor": "c-auto",
+      "blockClass": "layout-option"
+    }
+  },
+
+  "rich-text#option-list": {
+    "title": "Texto List",
+    "props": {
+      "text": "Lista",
+      "textColor": "c-auto",
+      "blockClass": "layout-option"
+    }
+  }
+}

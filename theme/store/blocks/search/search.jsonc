@@ -290,7 +290,8 @@
     "children": [
       // "rich-text#order-by-desk",
       "flex-layout.col#order-by-desk",
-      "flex-layout.col#filterMobile-desk"
+      "flex-layout.col#filterMobile-desk",
+      "gallery-layout-switcher"
     ],
     "props": {
       "preserveLayoutOnMobile": true,
