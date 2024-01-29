@@ -836,3 +836,8 @@ cursor: pointer;
 .imageElement--img-segunda-parte-pickit-mob {
     margin: 24px 0;
 }
+
+/*trabaja con nosotros*/
+.imageElement--work-with-part-one-img {
+    width: 100%;
+}

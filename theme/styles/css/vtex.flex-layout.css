@@ -3332,3 +3332,22 @@ width: 88%;
   width: 90%;
   margin: 0 auto;
 }
+
+/*Traba con nosotros*/
+.flexCol--workWithContentInfoFlex {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+@media (max-width: 600px) {
+  .flexCol--workWithContentInfoFlex {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 800px) {
+  .flexRow--form-work-with-us-container-content {
+    width: 60%;
+    margin: 0 auto;
+  }
+}

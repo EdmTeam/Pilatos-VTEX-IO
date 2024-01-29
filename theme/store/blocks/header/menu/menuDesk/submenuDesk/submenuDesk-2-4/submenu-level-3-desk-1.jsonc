@@ -36,7 +36,8 @@
             "rich-text#submenu-desk-department-4-category-37",
             "rich-text#submenu-desk-department-4-category-35",
             "rich-text#submenu-desk-department-4-category-40",
-            "rich-text#submenu-desk-department-4-category-41"
+            "rich-text#submenu-desk-department-4-category-41",
+            "rich-text#submenu-desk-department-4-category-42"
 
         ],
         "props":{
@@ -158,6 +159,13 @@
   "rich-text#submenu-desk-department-4-category-41":{
     "props":{
         "text": "[Pepe Jeans](/pepe-jeans)",
+        "blockClass": "textCategory"
+    }
+},
+
+"rich-text#submenu-desk-department-4-category-42":{
+    "props":{
+        "text": "[ON](/on)",
         "blockClass": "textCategory"
     }
 },

@@ -22,6 +22,7 @@
         "children":[
             "rich-text#landing-new-balance-bread-crumb",
             "rich-text#landing-new-balance-title",
+            "rich-text#landing-marcas-description",
             "responsive-layout.desktop#landing-new-balance-banners",
             "responsive-layout.tablet#landing-new-balance-banners",
             "responsive-layout.phone#landing-new-balance-banners",

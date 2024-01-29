@@ -22,7 +22,8 @@
     "flex-layout.col#bannerMonastery":{
         "children":[
             "rich-text#landing-monastery",
-            "rich-text#landing-monastery-title"
+            "rich-text#landing-monastery-title",
+            "rich-text#landing-marcas-description"
         ]
     },
     /*Bread crumb & Title*/

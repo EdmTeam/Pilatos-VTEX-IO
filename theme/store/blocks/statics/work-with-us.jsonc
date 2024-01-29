@@ -1,327 +1,99 @@
+//NUEVO TEMPLATE
+
 {
     "store.custom#work-with-us": {
         "children": [
-            "flex-layout.row#content-work-with"
-        ]
-    },
-    "flex-layout.row#content-work-with": {
-        "children": [
-            "flex-layout.col#content-work-with"
-        ]
-    },
-    "flex-layout.col#content-work-with": {
-        "children": [
-            "responsive-layout.phone#work-with",
-            "responsive-layout.tablet#work-with",
-            "responsive-layout.desktop#work-with"
-        ]
-    },
-    "responsive-layout.desktop#work-with": {
-        "children": [
-            "flex-layout.row#content-work-with-desktop"
-        ]
-    },
-    "responsive-layout.tablet#work-with": {
-        "children": [
-            "flex-layout.row#content-work-with-desktop",
-            "responsive-layout.tablet#brands-promise"
-        ]
-    },
-    "flex-layout.row#content-work-with-desktop": {
-        "children": [
-            "flex-layout.col#content-work-with-desktop"
-        ]
-    },
-    "flex-layout.col#content-work-with-desktop": {
-        "children": [
-            "flex-layout.col#content-work-with-desktop-col-1",
-            "flex-layout.col#content-work-with-desktop-col-2",
-            "flex-layout.col#content-work-with-desktop-col-3",
-            "flex-layout.col#content-work-with-desktop-col-4",
             "form#work-with-us",
-            "responsive-layout.desktop#brands-promise"
-        ],
-        "props": {
-            "blockClass": "contentWorkWithDesktop"
-        }
-    },
-    "responsive-layout.phone#work-with": {
-        "children": [
-            "flex-layout.row#content-work-with-mobile"
+            "responsive-layout.desktop#work-with-container",
+            "responsive-layout.mobile#work-with-container-mobile"
         ]
     },
-    "flex-layout.row#content-work-with-mobile": {
+
+    //modal
+
+    "flex-layout.col#workWithContentModal": {
         "children": [
-            "flex-layout.col#content-work-with-mobile-col-1",
-            "flex-layout.col#content-work-with-mobile-col-2",
-            "flex-layout.col#content-work-with-mobile-col-3",
-            "flex-layout.col#content-work-with-mobile-col-4",
-            "form#work-with-us",
-            "responsive-layout.phone#brands-promise"
+            "flex-layout.col#workWithContentInfo",
+            "flex-layout.col#workWithContentModalContent"
+        ],
+        "props": {
+            "blockClass": "workWithContentInfoFlex"
+        }
+    },
+
+    "flex-layout.col#workWithContentInfo": {
+        "children": [
+            "rich-text#workWithContentLink"
         ]
     },
-    "flex-layout.col#content-work-with-mobile-col-1": {
+
+    "rich-text#workWithContentLink": {
+        "props": {
+            "text": "Leer [Política de datos](/politicas)",
+            "font": "t-mini",
+            "blockClass": "politicas-workWithContent"
+        }
+    },
+
+    "flex-layout.col#workWithContentModalContent": {
         "children": [
-            "image#work-with"
+            "modal-trigger#work-with-modal"
+        ]
+    },
+
+    "modal-trigger#work-with-modal": {
+        "children": [
+            "rich-text#work-with-modal",
+            "modal-layout#work-with"
         ],
         "props": {
-            "width": "100%",
-            "blockClass": "workWithContentBanner"
+            "trigger": "click"
         }
     },
-    "flex-layout.col#content-work-with-desktop-col-1": {
+
+    "rich-text#work-with-modal": {
+        "props": {
+          "text": "y [Términos y condiciones]()",
+          "blockClass": "politicas-work-with-tyc",
+          "font": "t-mini"
+        }
+      },
+
+      "modal-layout#work-with": {
         "children": [
-            "image#work-with-desktop"
+            "modal-header#work-with",
+            "rich-text#modal-content-work-with",
+            "modal-actions.close#work-with"
         ],
         "props": {
-            "width": "100%",
-            "blockClass": "workWithContentBanner"
+            "disableEscapeKeyDown": true
         }
-    },
-    "flex-layout.col#content-work-with-mobile-col-2": {
-        "children": [
-            "iframe#work-with"
-        ],
+      },
+
+      "modal-header#work-with": {
         "props": {
-            "width": "100%",
-            "blockClass": "workWithContentIframe"
+            "showCloseButton": true,
+            "iconCloseSize": 32
         }
-    },
-    "flex-layout.col#content-work-with-desktop-col-2": {
-        "children": [
-            "iframe#work-with"
-        ],
+      },
+
+      "rich-text#modal-content-work-with": {
         "props": {
-            "width": "100%",
-            "blockClass": "workWithContentIframe"
+            "text": "Agradecemos el interés de compartir con nosotros su hoja de vida, lo contactaremos en caso de contar con una oportunidad laboral que se ajuste a su perfil profesional. Con el fin de dar cumplimiento a la Ley 1581 de 2012 y el Decreto 1377 de 2013 (“Ley 1581”), y demás normas complementarias, Estudio de Moda S.A.S (la “Compañía”) actúa como Responsable de los Datos Personales recolectados de conformidad con la definición incluida en la Ley 1581. El envío voluntario a través de este sitio web de su hoja de vida constituye para la Compañía una manifestación inequívoca, la cual no admite duda o equivocación, y que nos permite concluir de forma razonable que usted otorgó su AUTORIZACIÓN previa, expresa e informada y consentimiento explícito para el tratamiento de los Datos Personales allí contenidos por parte de la Compañía. Para mayor información en cuanto al tratamiento lo invitamos a consultar la Política de Tratamiento de Información aplicable disponible en www.pilatos.com enviando un correo electrónico a habeasdata@estudiodemoda.com.co. Sus Datos Personales serán tratados bajo principios de seguridad y confidencialidad aplicables, con el propósito de analizar.",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "workwithus-habeasdata-new"
         }
-    },
-    "image#work-with-desktop": {
+      },
+
+      "modal-actions.close#work-with": {
         "props": {
-            "src": "/arquivos/vacantes-edm-banner.jpg",
-            "link": {
-                "url": "/",
-                "attributeTitle": ""
-            },
-            "width": "100%"
+            "label": "Aceptar",
+            "blockClass": "boton-work-with-cerrar"
         }
-    },
-    "image#work-with": {
-        "props": {
-            "src": "/arquivos/vacantes-edm-banner-m.jpg",
-            "link": {
-                "url": "/",
-                "attributeTitle": ""
-            },
-            "width": "100%"
-        }
-    },
-    "iframe#work-with": {
-        "props": {
-            "src": "https://www.youtube-nocookie.com/embed/Ylf15fPwu5U?autoplay=1&loop=1&playlist=Ylf15fPwu5U&controls=0&mute=0",
-            "blockClass": "contentWorkWithIframe"
-        }
-    },
-    "flex-layout.col#content-work-with-mobile-col-3": {
-        "children": [
-            "image#work-with-banner-2",
-            "image#work-with-banner-3"
-        ],
-        "props": {
-            "width": "100%",
-            "blockClass": "workWithContentBanner-2"
-        }
-    },
-    "flex-layout.col#content-work-with-desktop-col-3": {
-        "children": [
-            "image#work-with-banner-2",
-            "image#work-with-banner-3"
-        ],
-        "props": {
-            "width": "100%",
-            "blockClass": "workWithContentBanner-2"
-        }
-    },
-    "image#work-with-banner-2": {
-        "props": {
-            "src": "/arquivos/vacantes-equipo-2-2020.png",
-            "link": {
-                "url": "/",
-                "attributeTitle": ""
-            },
-            "width": "100%",
-            "blockClass": "workWithContentBannerImg"
-        }
-    },
-    "image#work-with-banner-3": {
-        "props": {
-            "src": "/arquivos/vacantes-equipo-2020.png",
-            "link": {
-                "url": "/",
-                "attributeTitle": ""
-            },
-            "width": "100%",
-            "blockClass": "workWithContentBannerImg"
-        }
-    },
-    "flex-layout.col#content-work-with-mobile-col-4": {
-        "children": [
-            "flex-layout.row#content-work-with-mobile-col-4"
-        ],
-        "props": {
-            "width": "100%",
-            "blockClass": "workWithContentBanner-3"
-        }
-    },
-    "flex-layout.col#content-work-with-desktop-col-4": {
-        "children": [
-            "flex-layout.row#content-work-with-desktop-col-4"
-        ],
-        "props": {
-            "width": "100%",
-            "blockClass": "workWithContentBanner-3"
-        }
-    },
-    "flex-layout.row#content-work-with-mobile-col-4": {
-        "children": [
-            "flex-layout.col#content-work-with-mobile-banner-3-col-1",
-            "flex-layout.col#content-work-with-mobile-banner-3-col-2",
-            "flex-layout.col#content-work-with-mobile-banner-3-col-3",
-            "flex-layout.col#content-work-with-mobile-banner-3-col-4"
-        ],
-        "props": {
-            "preserveLayoutOnMobile": true,
-            "blockClass": "workWithContentPromsSectionRow"
-        }
-    },
-    "flex-layout.row#content-work-with-desktop-col-4": {
-        "children": [
-            "flex-layout.col#content-work-with-desktop-banner-3-col-1",
-            "flex-layout.col#content-work-with-desktop-banner-3-col-2",
-            "flex-layout.col#content-work-with-desktop-banner-3-col-3",
-            "flex-layout.col#content-work-with-desktop-banner-3-col-4"
-        ],
-        "props": {
-            "preserveLayoutOnMobile": true,
-            "blockClass": "workWithContentPromsSectionRow"
-        }
-    },
-    "flex-layout.col#content-work-with-mobile-banner-3-col-1": {
-        "children": [
-            "image#work-with-banner-promsSection-1"
-        ],
-        "props": {
-            "width": "50%",
-            "blockClass": "workWithImgPromsSectionLeft"
-        }
-    },
-    "flex-layout.col#content-work-with-desktop-banner-3-col-1": {
-        "children": [
-            "image#work-with-banner-promsSection-1"
-        ],
-        "props": {
-            "width": "25%",
-            "blockClass": "workWithImgPromsSection"
-        }
-    },
-    "flex-layout.col#content-work-with-mobile-banner-3-col-2": {
-        "children": [
-            "image#work-with-banner-promsSection-2"
-        ],
-        "props": {
-            "width": "50%",
-            "blockClass": "workWithImgPromsSectionRight"
-        }
-    },
-    "flex-layout.col#content-work-with-desktop-banner-3-col-2": {
-        "children": [
-            "image#work-with-banner-promsSection-2"
-        ],
-        "props": {
-            "width": "25%",
-            "blockClass": "workWithImgPromsSection"
-        }
-    },
-    "flex-layout.col#content-work-with-mobile-banner-3-col-3": {
-        "children": [
-            "image#work-with-banner-promsSection-3"
-        ],
-        "props": {
-            "width": "50%",
-            "blockClass": "workWithImgPromsSectionLeft"
-        }
-    },
-    "flex-layout.col#content-work-with-desktop-banner-3-col-3": {
-        "children": [
-            "image#work-with-banner-promsSection-3"
-        ],
-        "props": {
-            "width": "25%",
-            "blockClass": "workWithImgPromsSection"
-        }
-    },
-    "flex-layout.col#content-work-with-mobile-banner-3-col-4": {
-        "children": [
-            "image#work-with-banner-promsSection-4"
-        ],
-        "props": {
-            "width": "50%",
-            "blockClass": "workWithImgPromsSectionRight"
-        }
-    },
-    "flex-layout.col#content-work-with-desktop-banner-3-col-4": {
-        "children": [
-            "image#work-with-banner-promsSection-4"
-        ],
-        "props": {
-            "width": "25%",
-            "blockClass": "workWithImgPromsSection"
-        }
-    },
-    "image#work-with-banner-promsSection-1": {
-        "props": {
-            "src": "/arquivos/vacantes-edm-comisiones.png",
-            "link": {
-                "url": "/",
-                "attributeTitle": ""
-            },
-            "width": "100%",
-            "blockClass": "workWithContentPromsSection"
-        }
-    },
-    "image#work-with-banner-promsSection-2": {
-        "props": {
-            "src": "/arquivos/vacantes-edm-mejoresmarcas.png",
-            "link": {
-                "url": "/",
-                "attributeTitle": ""
-            },
-            "width": "100%",
-            "blockClass": "workWithContentPromsSection"
-        }
-    },
-    "image#work-with-banner-promsSection-3": {
-        "props": {
-            "src": "/arquivos/vacantes-edm-moda.png",
-            "link": {
-                "url": "/",
-                "attributeTitle": ""
-            },
-            "width": "100%",
-            "blockClass": "workWithContentPromsSection"
-        }
-    },
-    "image#work-with-banner-promsSection-4": {
-        "props": {
-            "src": "/arquivos/vacantes-edm-soy.png",
-            "link": {
-                "url": "/",
-                "attributeTitle": ""
-            },
-            "width": "100%",
-            "blockClass": "workWithContentPromsSection"
-        }
-    },
+      },
+    //modal
+
     "form#work-with-us": {
         "props": {
             "entity": "workwithus",
@@ -337,7 +109,8 @@
     "flex-layout.row#container-form-work-with-us": {
         "props": {
             "paddingTop": 3,
-            "paddingBottom": 3
+            "paddingBottom": 3,
+            "blockClass": "form-work-with-us-container-content"
         },
         "children": [
             "flex-layout.col#container-form-work-with-us"
@@ -355,17 +128,17 @@
             "form-input.text#workwithus-name",
             "flex-layout.row#form-work-with-us-locate",
             "form-input.upload#workwithus-cv",
-            "rich-text#landingFormulario-read-politics",
+            "flex-layout.col#workWithContentModal",
             "form-input.checkbox#workwithus-terms",
-            "rich-text#workwithus-habeas-data",
             "form-submit#workwithus-submit"
         ]
     },
     "rich-text#workwithus-title": {
         "props": {
-            "text": "# Registrate y trabaja con nosotros",
-            "textAlignment": "CENTER",
-            "textPosition": "CENTER"
+            "text": "# Registrate ahora y trabaja con nosotros",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "workwithus-title-pcpal"
         }
     },
     "form-input.text#workwithus-name": {
@@ -412,8 +185,8 @@
     },
     "form-submit#workwithus-submit": {
         "props": {
-            "label": "Registrarme",
-            "blockClass": "submit-workwithus"
+            "label": "Enviar formulario",
+            "blockClass": "submit-workwithus-new"
         }
     },
     "form-success#workwithus": {
@@ -435,14 +208,6 @@
             "rich-text#workwithus-successSubmit"
         ]
     },
-    "rich-text#workwithus-habeas-data": {
-        "props": {
-            "text": "Agradecemos el interés de compartir con nosotros su hoja de vida, lo contactaremos en caso de contar con una oportunidad laboral que se ajuste a su perfil profesional. Con el fin de dar cumplimiento a la Ley 1581 de 2012 y el Decreto 1377 de 2013 (“Ley 1581”), y demás normas complementarias, Estudio de Moda S.A.S (la “Compañía”) actúa como Responsable de los Datos Personales recolectados de conformidad con la definición incluida en la Ley 1581. El envío voluntario a través de este sitio web de su hoja de vida constituye para la Compañía una manifestación inequívoca, la cual no admite duda o equivocación, y que nos permite concluir de forma razonable que usted otorgó su AUTORIZACIÓN previa, expresa e informada y consentimiento explícito para el tratamiento de los Datos Personales allí contenidos por parte de la Compañía. Para mayor información en cuanto al tratamiento lo invitamos a consultar la Política de Tratamiento de Información aplicable disponible en www.pilatos.com enviando un correo electrónico a habeasdata@estudiodemoda.com.co. Sus Datos Personales serán tratados bajo principios de seguridad y confidencialidad aplicables, con el propósito de analizar.",
-            "textAlignment": "LEFT",
-            "textPosition": "CENTER",
-            "blockClass": "workwithus-habeasdata"
-        }
-    },
     "rich-text#workwithus-successSubmit": {
         "props": {
             "text": "Tus datos fueron registrados satisfactoriamente",
@@ -450,5 +215,261 @@
             "textPosition": "CENTER",
             "blockClass": "dsi-successSubmit"
         }
+    },
+
+    //DESKTOP
+    "responsive-layout.desktop#work-with-container": {
+        "children": [
+            "flex-layout.row#work-with-part-one",
+            "flex-layout.row#micro-copy-pc-workWithContent",
+            "slider-layout#brandsBeachwear-worwithus",
+            "flex-layout.row#subtitle-pc-workWithContent",
+            "flex-layout.row#work-with-part-two"
+        ]
+    },
+
+    "flex-layout.row#micro-copy-pc-workWithContent": {
+        "children": [
+            "flex-layout.col#micro-copy-workWithContent"
+        ]
+    },
+
+    "flex-layout.col#micro-copy-workWithContent": {
+        "children": [
+            "rich-text#micro-copy-workwithus"
+        ]  ,
+        "props": {
+            "paddingLeft": 8,
+            "paddingRight": 8
+        } 
+    },
+
+    "rich-text#micro-copy-workwithus": {
+        "props": {
+            "text": "Conoce las marcas más cool que componen nuestro portafolio, podrás ser parte de ellas:"
+        }
+    },
+
+    //subtitulo
+    "flex-layout.row#subtitle-pc-workWithContent": {
+        "title": "Subtitulo galería",
+        "children": [
+            "flex-layout.col#micro-subtitle-workWithContent"
+        ]
+    },
+
+    "flex-layout.col#micro-subtitle-workWithContent": {
+        "children": [
+            "rich-text#micro-subtitle-workwithus"
+        ]  ,
+        "props": {
+            "paddingLeft": 8,
+            "paddingRight": 8
+        } 
+    },
+
+    "rich-text#micro-subtitle-workwithus": {
+        "props": {
+            "text": "### Pilares"
+        }
+    },
+
+    //Slider
+    "slider-layout#brandsBeachwear-worwithus": {
+
+        "props": {
+          "blockClass": [
+            "contentSlide",
+            "contentSlideBrand"
+          ],
+
+          "itemsPerPage": {
+            "desktop": 9,
+            "tablet": 4,
+            "phone": 2
+          },
+
+          "showPaginationDots":"never"
+        },
+
+        "children": [
+
+          "image#brandsBeachwear-pilatos",
+
+          "image#brandsBeachwear-superdry",
+
+          "image#brandsBeachwear-balance",
+
+          "image#brandsBeachwear-diesel",
+
+          "image#brandsBeachwear-kipling",
+
+          "image#brandsBeachwear-replay",
+
+          "image#brandsBeachwear-girbaud"
+
+        ]
+
+      },
+
+    //Slider
+
+    "flex-layout.row#work-with-part-one": {
+        "title": "Contenedor parte 1 desktop",
+        "children": [
+            "flex-layout.col#work-with-part-one-img",
+            "flex-layout.col#work-with-part-one-info"
+        ],
+        "props": {
+            "colGap": 6,
+            "marginTop": 8,
+            "marginBottom": 8
+        }
+    },
+
+    "flex-layout.col#work-with-part-one-img": {
+        "title": "Contenedor img parte 1 desk",
+        "children": [
+            "image#work-with-part-one-img"
+        ],
+        "props": {
+            "paddingLeft": 8
+        }
+    },
+
+    "image#work-with-part-one-img": {
+        "props": {
+            "title": "Banner primera parte desk",
+            "src": "/arquivos/primera-foto-desk.jpg",
+            "blockClass": "work-with-part-one-img"
+        }
+    },
+
+    "flex-layout.col#work-with-part-one-info": {
+        "title": "Contenedor texto parte 1",
+        "children": [
+            "rich-text#work-with-part-one-title",
+            "rich-text#work-with-part-one-desc"
+        ],
+        "props": {
+            "paddingRight": 8,
+            "verticalAlign": "middle"
+        }
+    },
+
+    "rich-text#work-with-part-one-title": {
+        "title": "Subtitulo trabaja con nosotros",
+        "props": {
+            "text": "## ÚNETE AL EQUIPO MÁS COOL",
+            "blockClass": "work-with-part-one-title"
+        }
+    },
+
+    "rich-text#work-with-part-one-desc": {
+        "title": "Desripción trabaja con nosotros",
+        "props": {
+            "text": "Hacer parte de nuestro equipo es trabajar con lo mejor de las mejores marcas como Diesel, Superdry, MFG, Kipling y New Balance. Encontrarás un equipo que trabaja feliz, unido y con pasión por lo que hacemos. Que esperar para unirte a nosotros ¡TE ESTAMOS ESPERANDO!"
+        }
+    },
+
+    //DESKTOP GALERÍA DE IMGS
+    "flex-layout.row#work-with-part-two": {
+        "title": "Componente galería de imagenes DESK",
+        "children": [
+            "flex-layout.col#work-with-part-two-imgs"
+        ]
+    },
+
+    "flex-layout.col#work-with-part-two-imgs": {
+        "children": [
+            "flex-layout.row#work-with-part-one-col-imgs",
+            "flex-layout.row#work-with-part-two-col-imgs"
+        ],
+        "props": {
+            "paddingLeft": 8,
+            "paddingRight": 8
+        }
+    },
+
+    "flex-layout.row#work-with-part-one-col-imgs": {
+        "title": "Primera parte de las imgs desktop",
+        "children": [
+            "image#work-with-part-one-img-1-col-1",
+            "image#work-with-part-one-img-2-col-1",
+            "image#work-with-part-one-img-3-col-1"
+        ],
+        "props": {
+            "colGap": 4,
+            "marginBottom": 4
+        }
+    },
+
+    "image#work-with-part-one-img-1-col-1": {
+        "title": "Imagen 1 trabaja con nosotros ",
+        "props": {
+            "alt": "Imagen trabaja con nosotros",
+            "src": "/arquivos/gente-feliz-desk.jpg",
+            "blockClass": "work-with-part-one-img"
+        }
+    },
+
+    "image#work-with-part-one-img-2-col-1": {
+        "title": "Imagen 2 trabaja con nosotros ",
+        "props": {
+            "alt": "Imagen trabaja con nosotros",
+            "src": "/arquivos/sostenible-desk.jpg",
+            "blockClass": "work-with-part-one-img"
+        }
+    },
+
+    "image#work-with-part-one-img-3-col-1": {
+        "title": "Imagen 3 trabaja con nosotros ",
+        "props": {
+            "alt": "Imagen trabaja con nosotros",
+            "src": "/arquivos/integrados-desk.jpg",
+            "blockClass": "work-with-part-one-img"
+        }
+    },
+    
+
+    "flex-layout.row#work-with-part-two-col-imgs": {
+        "title": "segunda parte de las imgs desktop",
+        "children": [
+            "image#work-with-part-one-img-1-col-2",
+            "image#work-with-part-one-img-2-col-2",
+            "image#work-with-part-one-img-3-col-2"
+        ],
+        "props": {
+            "colGap": 4
+        }
+    },
+
+    "image#work-with-part-one-img-1-col-2": {
+        "title": "Imagen 4 trabaja con nosotros ",
+        "props": {
+            "alt": "Imagen trabaja con nosotros",
+            "src": "/arquivos/conectados-desk.jpg",
+            "blockClass": "work-with-part-one-img"
+        }
+    },
+
+    "image#work-with-part-one-img-2-col-2": {
+        "title": "Imagen 5 trabaja con nosotros ",
+        "props": {
+            "alt": "Imagen trabaja con nosotros",
+            "src": "/arquivos/sincronizados-desk.jpg",
+            "blockClass": "work-with-part-one-img"
+        }
+    },
+
+    "image#work-with-part-one-img-3-col-2": {
+        "title": "Imagen 6 trabaja con nosotros ",
+        "props": {
+            "alt": "Imagen trabaja con nosotros",
+            "src": "/arquivos/crecimiento-rentable-desk.jpg",
+            "blockClass": "work-with-part-one-img"
+        }
     }
 }
+
+

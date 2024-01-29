@@ -13,6 +13,7 @@
         "children":[
             "rich-text#landing-ecobag-bread-crumb",
             "rich-text#landing-ecobag-title",
+            "rich-text#landing-marcas-description",
             "responsive-layout.desktop#landing-sostenible-banners",
           "responsive-layout.tablet#landing-sostenible-banners",
             "responsive-layout.phone#landing-sostenible-banners"

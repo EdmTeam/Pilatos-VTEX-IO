@@ -15,6 +15,7 @@
  "responsive-layout.desktop#landingChampions":{
    "children":[
     "flex-layout.row#championsTitulo",
+    "rich-text#landing-marcas-description",
     "image#championsBannerLanding",
     "flex-layout.row#championGenero",
     "responsive-layout.desktop#champion-tres-botones",
@@ -28,6 +29,7 @@
 "responsive-layout.tablet#landingChampions":{
     "children":[
         "flex-layout.row#championsTitulo",
+        "rich-text#landing-marcas-description",
         "image#championsBannerLanding",
         "flex-layout.row#championGenero",
         "responsive-layout.tablet#champion-tres-botones"

@@ -22,6 +22,7 @@
         "children":[
             "rich-text#landing-pilatos-marca-bread-crumb",
             "rich-text#landing-pilatos-marca-title",
+            "rich-text#landing-marcas-description",
             "responsive-layout.desktop#landing-pilatos-marca-banners",
             "responsive-layout.tablet#landing-pilatos-marca-banners",
             "responsive-layout.phone#landing-pilatos-marca-banners"
