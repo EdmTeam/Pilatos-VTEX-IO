@@ -65,3 +65,26 @@
     width: 500px;
     padding: 1%;
 }
+
+/* Trabaja con nosotros*/
+.closeButton--boton-work-with-cerrar {
+    background-color: #FFD400;
+    color: #000000;
+    width: 449px;
+    height: 47px;
+    border-radius: 80px;
+    padding: 16px 40px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+@media (max-width:600px) {
+    .closeButton--boton-work-with-cerrar {
+        width: auto;
+    }
+}
+
+.closeButton--boton-work-with-cerrar:hover {
+    background-color: #ffc600;
+}

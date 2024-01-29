@@ -15,6 +15,7 @@
        "children":[
         "rich-text#landing-monastery",
         "rich-text#landing-monastery-title",
+            "rich-text#landing-marcas-description",
         "image#banner-landing-monastery-mobile"
        ]
     },

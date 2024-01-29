@@ -16,6 +16,7 @@
         "children":[
             "rich-text#landing-champions",
             "rich-text#landing-champions-title",
+            "rich-text#landing-marcas-description",
          "image#bannerLandingMobileChampion"
         ]
      },

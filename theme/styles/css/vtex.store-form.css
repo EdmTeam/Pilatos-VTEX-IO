@@ -15,3 +15,21 @@
 .input {
   background: red;
 }
+
+/*Traba con nosotros*/
+.formSubmitButton--submit-workwithus-new :global(.vtex-button) {
+  background-color: #FFD400;
+  border: 0;
+  border-radius: 80px;
+  padding: 16px 40px;
+  color: #000;
+  font-weight: bold;
+  width: 449px;
+  height: 47px;
+}
+
+@media (max-width:768px) {
+  .formSubmitButton--submit-workwithus-new :global(.vtex-button) {
+    width: 100%;
+  }
+}

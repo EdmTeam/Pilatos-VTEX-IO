@@ -1,0 +1,193 @@
+{
+        //MOBILE
+        "responsive-layout.mobile#work-with-container-mobile": {
+            "children": [
+                "flex-layout.row#work-with-part-one-mob",
+                "flex-layout.row#micro-copy-mobile-workWithContent",
+                "slider-layout#brandsBeachwear-worwithus",
+                "flex-layout.row#subtitle-mob-workWithContent",
+                "flex-layout.row#work-with-part-two-mob"
+            ]
+        },
+    
+        "flex-layout.row#micro-copy-mobile-workWithContent": {
+            "children": [
+                "flex-layout.col#micro-copy-mobile-workWithContent"
+            ]
+        },
+    
+        "flex-layout.col#micro-copy-mobile-workWithContent": {
+            "children": [
+                "rich-text#micro-copy-workwithus"
+            ]  ,
+            "props": {
+                "paddingLeft": 5,
+                "paddingRight": 5
+            } 
+        },
+    
+        //Subtitulo galería
+        "flex-layout.row#subtitle-mob-workWithContent": {
+            "title": "Subtitulo galería",
+            "children": [
+                "flex-layout.col#subtitle-galery-mobile-workWithContent"
+            ]
+        },
+    
+        "flex-layout.col#subtitle-galery-mobile-workWithContent": {
+            "children": [
+                "rich-text#micro-subtitle-workwithus"
+            ]  ,
+            "props": {
+                "paddingLeft": 5,
+                "paddingRight": 5
+            } 
+        },
+    
+        "flex-layout.row#work-with-part-one-mob": {
+            "title": "Contenedor primera parte mob",
+            "children": [
+                "flex-layout.col#work-with-part-one-mob"
+            ],
+            "props": {
+                "marginTop": 6
+            }
+        },
+    
+        "flex-layout.col#work-with-part-one-mob": {
+            "children": [
+                "flex-layout.col#work-with-part-one-img-mob",
+                "flex-layout.col#work-with-part-one-info-mob"
+            ],
+            "props": {
+                "paddingLeft": 5,
+                "paddingRight": 5
+            }
+        },
+    
+        "flex-layout.col#work-with-part-one-img-mob": {
+            "title": "Imagen primera parte mob",
+            "children": [
+                "image#work-with-part-one-img-mob"
+            ]
+        },
+    
+        "image#work-with-part-one-img-mob": {
+            "props": {
+                "title": "Banner primera parte mob",
+                "src": "/arquivos/primera-foto-mob.jpg",
+                "blockClass": "work-with-part-one-img"
+            }
+        },
+    
+        "flex-layout.col#work-with-part-one-info-mob": {
+            "title": "Info primera parte mob",
+            "children": [
+                "rich-text#work-with-part-one-title-mob",
+                "rich-text#work-with-part-one-desc-mob"
+            ]
+        },
+    
+        "rich-text#work-with-part-one-title-mob": {
+            "title": "Subtitulo trabaja con nosotros MOB",
+            "props": {
+                "text": "## ÚNETE AL EQUIPO MÁS COOL",
+                "blockClass": "work-with-part-one-title-mob"
+            }
+        },
+    
+        "rich-text#work-with-part-one-desc-mob": {
+            "title": "Desripción trabaja con nosotros MOB",
+            "props": {
+                "text": "Hacer parte de nuestro equipo es trabajar con lo mejor de las mejores marcas como Diesel, Superdry, MFG, Kipling y New Balance. Encontrarás un equipo que trabaja feliz, unido y con pasión por lo que hacemos. Que esperar para unirte a nosotros ¡TE ESTAMOS ESPERANDO!"
+            }
+        },
+    
+        //Galería MOB
+        "flex-layout.row#work-with-part-two-mob": {
+            "title": "Contenedor Imagenes MOB",
+            "children": [
+                "flex-layout.col#work-with-col-1-two-mob",
+                "flex-layout.col#work-with-col-2-two-mob"
+            ],
+            "props": {
+                "rowGap": 2
+            }
+        },
+    
+        "flex-layout.col#work-with-col-1-two-mob": {
+            "title": "Contenedor columna 1 mobile",
+            "children": [
+                "image#work-with-col-1-img-1-mob",
+                "image#work-with-col-1-img-2-mob",
+                "image#work-with-col-1-img-3-mob"
+            ],
+            "props": {
+                "marginRight": 2,
+                "paddingLeft": 5,
+                "paddingRight": 5
+            }
+        },
+    
+        "image#work-with-col-1-img-1-mob": {
+            "title": "Imagen 1 mob trabaja con nosotros ",
+            "props": {
+                "alt": "Imagen trabaja con nosotros",
+                "src": "/arquivos/gente-feliz-mob.jpg"
+            }
+        },
+    
+        "image#work-with-col-1-img-2-mob": {
+            "title": "Imagen 1 mob trabaja con nosotros ",
+            "props": {
+                "alt": "Imagen trabaja con nosotros",
+                "src": "/arquivos/integrados-mob.jpg"
+            }
+        },
+    
+        "image#work-with-col-1-img-3-mob": {
+            "title": "Imagen 1 mob trabaja con nosotros ",
+            "props": {
+                "alt": "Imagen trabaja con nosotros",
+                "src": "/arquivos/sincronizados-mob.jpg"
+            }
+        },
+    
+        "flex-layout.col#work-with-col-2-two-mob": {
+            "title": "Contenedor columna 2 mobile",
+            "children": [
+                "image#work-with-col-2-img-1-mob",
+                "image#work-with-col-2-img-2-mob",
+                "image#work-with-col-2-img-3-mob"
+            ],
+            "props": {
+                "marginLeft": 2,
+                "paddingLeft": 5,
+                "paddingRight": 5
+            }
+        },
+    
+        "image#work-with-col-2-img-1-mob": {
+            "title": "Imagen 1 mob trabaja con nosotros ",
+            "props": {
+                "alt": "Imagen trabaja con nosotros",
+                "src": "/arquivos/sostenibles-mob.jpg"
+            }
+        },
+    
+        "image#work-with-col-2-img-2-mob": {
+            "title": "Imagen 1 mob trabaja con nosotros ",
+            "props": {
+                "alt": "Imagen trabaja con nosotros",
+                "src": "/arquivos/conectados-mob.jpg"
+            }
+        },
+    
+        "image#work-with-col-2-img-3-mob": {
+            "title": "Imagen 1 mob trabaja con nosotros ",
+            "props": {
+                "alt": "Imagen trabaja con nosotros",
+                "src": "/arquivos/crecimiento-rentable-mob.jpg"
+            }
+        }
+}

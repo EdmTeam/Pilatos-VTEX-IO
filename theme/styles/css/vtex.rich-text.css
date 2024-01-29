@@ -3413,3 +3413,29 @@ margin: 2px;
     font-size: 16px;
   }
 }
+
+/*trabaja con nosotros*/
+.paragraph--work-with-part-one-title {
+  margin: 0;
+}
+
+.paragraph--workwithus-habeasdata-new {
+  padding: 40px;
+}
+
+.headingLevel1--workwithus-title-pcpal {
+  font-size: 35px;
+}
+
+@media (max-width:600px) {
+  .heading--workwithus-title-pcpal {
+    font-size: 30px;
+  }
+  .headingLevel2--work-with-part-one-title-mob {
+    font-size: 25px;
+    margin: 8px 0 0 0;
+  }
+  .container--politicas-workWithContent {
+    height: 6px;
+  }
+}

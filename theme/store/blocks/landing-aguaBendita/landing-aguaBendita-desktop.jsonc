@@ -26,6 +26,7 @@
                 "children": [
                     "rich-text#landing-aguaBendita",
                     "rich-text#landing-aguaBendita-title",
+                    "rich-text#landing-marcas-description",
                     "responsive-layout.desktop#bannerAguaBendita",
 
                     "responsive-layout.desktop#bannerAguaBenditaStreet",
