@@ -837,6 +837,10 @@ cursor: pointer;
     margin: 24px 0;
 }
 
+.imageElement--logo-pickit-black {
+    width: 10rem;
+}
+
 /*trabaja con nosotros*/
 .imageElement--work-with-part-one-img {
     width: 100%;

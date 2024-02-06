@@ -40,10 +40,20 @@
     "flex-layout.col#envio-express-info-desk": {
         "title": "Info primera parte",
         "children": [
-            "rich-text#envio-express-desc-desk"
+            "rich-text#envio-express-desc-desk",
+            "image#logo-pickit"
         ],
         "props": {
             "verticalAlign": "middle"
+        }
+    },
+
+    "image#logo-pickit": {
+        "title": "Logo pickit",
+        "props": {
+            "src": "./arquivos/pickit_black_logo.png",
+            "alt": "Logo pickit",
+            "blockClass": "logo-pickit-black"
         }
     },
 
@@ -51,7 +61,7 @@
         "title": "Desripción primera parte",
         "props": {
             "font": "t-heading-1",
-            "text": "Llevamos tu \n pedido en pocas horas, \n recibe tu pedido \n de",
+            "text": "Llevamos tu pedido en pocas horas, recibe tu paquete \n de",
             "textAlignment": "LEFT",
             "blockClass": "titulo-envio-express"
         }
