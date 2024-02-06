@@ -36,14 +36,15 @@
 
     "flex-layout.col#envio-express-primera-parte-info-mobile": {
         "children": [
-            "rich-text#envio-express-col-1-primera-parte-mobile"
+            "rich-text#envio-express-col-1-primera-parte-mobile",
+            "image#logo-pickit"
         ]
     },
 
     "rich-text#envio-express-col-1-primera-parte-mobile": {
         "props": {
             "font": "t-heading-1",
-            "text": "Llevamos tu pedido en pocas horas, recibe tu pedido de 24 a 48 horas",
+            "text": "Llevamos tu pedido en pocas horas, recibe tu paquete de 24 a 48 horas",
             "textAlignment": "LEFT",
             "blockClass": "titulo-envio-express"
         }

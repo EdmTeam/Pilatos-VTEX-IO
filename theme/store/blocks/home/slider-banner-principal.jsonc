@@ -199,9 +199,25 @@
         "children":[
             "responsive-layout.desktop#banner-devolucionesHome",       
             "responsive-layout.phone#banner-devolucionesHome",
-            "responsive-layout.tablet#banner-devolucionesHome"
+            "responsive-layout.tablet#banner-devolucionesHome",
+            "flex-layout.col#contenedor-banner-reverso"
         ]
     }, 
+
+    /*banner reversso footer*/
+    "flex-layout.col#contenedor-banner-reverso": {
+        "children": [
+            "responsive-layout.phone#banner-principal",
+            "responsive-layout.tablet#banner-principal",
+            "responsive-layout.desktop#banner-principal"
+        ],
+        "props": {
+            "width": "grow",
+            "blockClass": "banner-reversso-footer"
+        }
+    },
+    /*banner reversso footer*/
+
 
     "responsive-layout.phone#banner-devolucionesHome": {
         "children":[
