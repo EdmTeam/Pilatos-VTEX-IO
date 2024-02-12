@@ -3355,3 +3355,14 @@ width: 88%;
 .flexColChild--banner-reversso-footer {
   margin-top: 0.5%;
 }
+
+/*tu cuota*/
+.flexCol--trigger-content-informativo {
+  background-color: #EEEEEE;
+  padding: 10px;
+}
+
+.flexRowContent--contenedor-tu-cuota-pcpal {
+  width: 90%;
+  margin: 30px auto 30px auto;
+}

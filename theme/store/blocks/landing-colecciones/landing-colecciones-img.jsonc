@@ -55,6 +55,34 @@
   ]
 },
 
+"flex-layout.row#coleccionesImagen9-pilatosxaguabendita":{
+  "title": "BANNER IMAGEN 1",
+  "children": [
+    "list-context.image-list#coleccionesImagen9-pilatosxaguabendita"
+  ]
+},
+
+"flex-layout.row#coleccionesImagen10-benature-girbaud":{
+  "title": "BANNER IMAGEN 1",
+  "children": [
+    "list-context.image-list#coleccionesImagen10-benature-girbaud"
+  ]
+},
+
+"flex-layout.row#coleccionesImagen11-essential-girbaud":{
+  "title": "BANNER IMAGEN 1",
+  "children": [
+    "list-context.image-list#coleccionesImagen11-essential-girbaud"
+  ]
+},
+
+"flex-layout.row#coleccionesImagen12-heritage-girbaud":{
+  "title": "BANNER IMAGEN 1",
+  "children": [
+    "list-context.image-list#coleccionesImagen12-heritage-girbaud"
+  ]
+},
+
 
 // lis context con las imagenes
 "list-context.image-list#coleccionesImagen1-essentialitary": {
@@ -195,6 +223,78 @@
           }
       ]
   }
+},
+
+"list-context.image-list#coleccionesImagen9-pilatosxaguabendita": {
+  "children": [
+    "slider-layout#colecciones"
+],
+"props": {
+    "preload": true,
+    "images": [
+        {
+            "image": "/arquivos/Coleccion-Aguabendita-Portada.jpg",
+            "mobileImage": "/arquivos/Coleccion-Aguabendita-Portada.jpg",
+            "link": {
+              "url": "/pilatos-aguabendita"
+            }
+        }
+    ]
+}
+},
+
+"list-context.image-list#coleccionesImagen10-benature-girbaud": {
+  "children": [
+    "slider-layout#colecciones"
+],
+"props": {
+    "preload": true,
+    "images": [
+        {
+            "image": "/arquivos/Coleccion-BeNature-Portada.jpg",
+            "mobileImage": "/arquivos/Coleccion-BeNature-Portada.jpg",
+            "link": {
+              "url": "/benature-girbaud"
+            }
+        }
+    ]
+}
+},
+
+"list-context.image-list#coleccionesImagen11-essential-girbaud": {
+  "children": [
+    "slider-layout#colecciones"
+],
+"props": {
+    "preload": true,
+    "images": [
+        {
+            "image": "/arquivos/Coleccion-Essential-Portada.jpg",
+            "mobileImage": "/arquivos/Coleccion-Essential-Portada.jpg",
+            "link": {
+              "url": "/essential-girbaud"
+            }
+        }
+    ]
+}
+},
+
+"list-context.image-list#coleccionesImagen12-heritage-girbaud":{
+  "children": [
+    "slider-layout#colecciones"
+],
+"props": {
+    "preload": true,
+    "images": [
+        {
+            "image": "/arquivos/Coleccion-Heritage-Portada.jpg",
+            "mobileImage": "/arquivos/Coleccion-Heritage-Portada.jpg",
+            "link": {
+              "url": "/heritage-girbaud"
+            }
+        }
+    ]
+}
 },
 
 
