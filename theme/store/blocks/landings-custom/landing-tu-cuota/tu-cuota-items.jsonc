@@ -1,0 +1,806 @@
+{
+    //DESKTOP
+
+    //PRIMER ITEM
+    "disclosure-layout#captcha": {
+        "title": "1 paso",
+        "children": [
+            "disclosure-trigger#captcha-trigger-title-content",
+            "disclosure-content#captcha-trigger-info"
+        ]
+    },
+    "disclosure-trigger#captcha-trigger-title-content": {
+        "title": "Contenido titulo 1 paso",
+        "children": [
+            "rich-text#captcha-title",
+            "disclosure-state-indicator"
+        ],
+        "props": {
+            "blockClass": "trigger-content-icon",
+            "as": "div"
+        }
+    },
+    "rich-text#captcha-title": {
+        "props": {
+            "text": "Aceptar el captcha y realizar la validación general",
+            "blockClass": "tu-cuota-opc-1"
+        }
+    },
+    //contenido
+    "disclosure-content#captcha-trigger-info": {
+        "title": "Contenido informativo del 1 paso",
+        "children": [
+            "flex-layout.col#contenedor-informativo"
+        ]
+    },
+    "flex-layout.col#contenedor-informativo": {
+        "children": [
+            "rich-text#paso-a",
+            "rich-text#paso-b",
+            "rich-text#paso-c",
+            "image#aceptar-captcha-img"
+        ],
+        "props": {
+            "rowGap": 4,
+            "blockClass": "trigger-content-informativo"
+        }
+    },
+    "rich-text#paso-a": {
+        "props": {
+            "text": "**a).**Ingresa en el módulo “cliente nuevo 2”."
+        }
+    },
+    "rich-text#paso-b": {
+        "props": {
+            "text": "**b).**Diligencia los campos resaltados en rojo."
+        }
+    },
+    "rich-text#paso-c": {
+        "props": {
+            "text": "**c).**Dar clic en continuar."
+        }
+    },
+    "image#aceptar-captcha-img": {
+        "props": {
+            "src": "/arquivos/paso-1-captcha.png",
+            "alt": "Imagen aceptar captcha",
+            "maxWidth": "40%"
+        }
+    },
+
+    //SEGUNDO ITEM
+    "disclosure-layout#central-riesgo": {
+        "title": "2 paso",
+        "children": [
+            "disclosure-trigger#captcha-trigger-title-content-2-paso",
+            "disclosure-content#captcha-trigger-info-2-paso"
+        ]
+    },
+    "disclosure-trigger#captcha-trigger-title-content-2-paso": {
+        "title": "Contenido titulo 2 paso",
+        "children": [
+            "rich-text#captcha-title-2-paso",
+            "disclosure-state-indicator"
+        ],
+        "props": {
+            "blockClass": "trigger-content-icon",
+            "as": "div"
+        }
+    },
+    "rich-text#captcha-title-2-paso": {
+        "props": {
+            "text": "Autorización de centrales",
+            "blockClass": "tu-cuota-opc-2"
+        }
+    },
+    //contenido
+    "disclosure-content#captcha-trigger-info-2-paso": {
+        "title": "Contenido informativo del 2 paso",
+        "children": [
+            "flex-layout.col#contenedor-informativo-2-paso"
+        ]
+    },
+    "flex-layout.col#contenedor-informativo-2-paso": {
+        "children": [
+            "rich-text#paso-a-item-2",
+            "image#aceptar-central-riesgo-a-img",
+            "rich-text#paso-b-item-2",
+            "image#aceptar-central-riesgo-b-img",
+            "rich-text#paso-c-item-2",
+            "image#aceptar-central-riesgo-c-img"
+        ],
+        "props": {
+            "rowGap": 4,
+            "blockClass": "trigger-content-informativo"
+        }
+    },
+    "rich-text#paso-a-item-2": {
+        "props": {
+            "text": "**a).**Aceptar consulta de centrales de riesgo."
+        }
+    },
+    "rich-text#paso-b-item-2": {
+        "props": {
+            "text": "**b).**Seleccionar el canal para envio al cliente de autorización de consulta de centrales."
+        }
+    },
+    "rich-text#paso-c-item-2": {
+        "props": {
+            "text": "**c).**Autorizar via whatsapp o SMS."
+        }
+    },
+
+    "image#aceptar-central-riesgo-a-img": {
+        "props": {
+            "src": "/arquivos/paso-2-a.png",
+            "alt": "Imagen central de riesgos",
+            "maxWidth": "50%"
+        }
+    },
+    "image#aceptar-central-riesgo-b-img": {
+        "props": {
+            "src": "/arquivos/paso-2-b.png",
+            "alt": "Imagen central de riesgos",
+            "maxWidth": "50%"
+        }
+    },
+    "image#aceptar-central-riesgo-c-img": {
+        "props": {
+            "src": "/arquivos/paso-2-c.png",
+            "alt": "Imagen central de riesgos",
+            "maxWidth": "50%"
+        }
+    },
+
+    //TERCER ITEM
+    "disclosure-layout#info-complementaria": {
+        "title": "3 paso",
+        "children": [
+            "disclosure-trigger#trigger-title-content-3-paso",
+            "disclosure-content#trigger-info-3-paso"
+        ]
+    },
+    "disclosure-trigger#trigger-title-content-3-paso": {
+        "title": "Contenido titulo 3 paso",
+        "children": [
+            "rich-text#captcha-title-3-paso",
+            "disclosure-state-indicator"
+        ],
+        "props": {
+            "blockClass": "trigger-content-icon",
+            "as": "div"
+        }
+    },
+    "rich-text#captcha-title-3-paso": {
+        "props": {
+            "text": "Información complementaria ",
+            "blockClass": "tu-cuota-opc-3"
+        }
+    },
+    //contenido
+    "disclosure-content#trigger-info-3-paso": {
+        "title": "Contenido informativo del 3 paso",
+        "children": [
+            "flex-layout.col#contenedor-informativo-3-paso"
+        ]
+    },
+    "flex-layout.col#contenedor-informativo-3-paso": {
+        "children": [
+            "rich-text#paso-a-item-3",
+            "image#aceptar-complementaria-a-img",
+            "rich-text#paso-b-item-3",
+            "image#aceptar-complementaria-b-img"
+        ],
+        "props": {
+            "rowGap": 4,
+            "blockClass": "trigger-content-informativo"
+        }
+    },
+    "rich-text#paso-a-item-3": {
+        "props": {
+            "text": "**a).**Validar autorización del cliente."
+        }
+    },
+    "rich-text#paso-b-item-3": {
+        "props": {
+            "text": "**b).**Diligenciar información complementaria."
+        }
+    },
+
+    "image#aceptar-complementaria-a-img": {
+        "props": {
+            "src": "/arquivos/paso-3-a.png",
+            "alt": "Imagen info complementaria",
+            "maxWidth": "40%"
+        }
+    },
+    "image#aceptar-complementaria-b-img": {
+        "props": {
+            "src": "/arquivos/paso-3-b.png",
+            "alt": "Imagen info complementaria",
+            "maxWidth": "40%"
+        }
+    },
+
+    //CUARTO ITEM
+    "disclosure-layout#validacion-identidad": {
+        "title": "4 paso",
+        "children": [
+            "disclosure-trigger#trigger-title-content-4-paso",
+            "disclosure-content#trigger-info-4-paso"
+        ]
+    },
+    "disclosure-trigger#trigger-title-content-4-paso": {
+        "title": "Contenido titulo 4 paso",
+        "children": [
+            "rich-text#captcha-title-4-paso",
+            "disclosure-state-indicator"
+        ],
+        "props": {
+            "blockClass": "trigger-content-icon",
+            "as": "div"
+        }
+    },
+    "rich-text#captcha-title-4-paso": {
+        "props": {
+            "text": "Validación de identidad",
+            "blockClass": "tu-cuota-opc-4"
+        }
+    },
+    //contenido
+    "disclosure-content#trigger-info-4-paso": {
+        "title": "Contenido informativo del 4 paso",
+        "children": [
+            "flex-layout.col#contenedor-informativo-4-paso"
+        ]
+    },
+    "flex-layout.col#contenedor-informativo-4-paso": {
+        "children": [
+            "rich-text#paso-a-item-4",
+            "image#validacion-identidad-a-img",
+            "rich-text#paso-b-item-4",
+            "image#validacion-identidad-b-img"
+        ],
+        "props": {
+            "rowGap": 4,
+            "blockClass": "trigger-content-informativo"
+        }
+    },
+    "rich-text#paso-a-item-4": {
+        "props": {
+            "text": "**a).**Si el sistema me lo pide, realizar las preguntas de validación al cliente y diligenciar las respuestas. Dar clic en continuar."
+        }
+    },
+    "rich-text#paso-b-item-4": {
+        "props": {
+            "text": "**b).**A continuación saldrá una ventana que te mostrará el codigo QR  el cliente deberá escanearlo con su celular para realizar el proceso de validación biométrica."
+        }
+    },
+
+    "image#validacion-identidad-a-img": {
+        "props": {
+            "src": "/arquivos/paso-4-a.png",
+            "alt": "Imagen validacion-identidad",
+            "maxWidth": "40%"
+        }
+    },
+    "image#validacion-identidad-b-img": {
+        "props": {
+            "src": "/arquivos/paso-4-b.png",
+            "alt": "Imagen validacion-identidad",
+            "maxWidth": "40%"
+        }
+    },
+
+    //QUINTO ITEM
+    "disclosure-layout#validacion-biometrica": {
+        "title": "4 paso",
+        "children": [
+            "disclosure-trigger#trigger-title-content-5-paso",
+            "disclosure-content#trigger-info-5-paso"
+        ]
+    },
+    "disclosure-trigger#trigger-title-content-5-paso": {
+        "title": "Contenido titulo 5 paso",
+        "children": [
+            "rich-text#captcha-title-5-paso",
+            "disclosure-state-indicator"
+        ],
+        "props": {
+            "blockClass": "trigger-content-icon",
+            "as": "div"
+        }
+    },
+    "rich-text#captcha-title-5-paso": {
+        "props": {
+            "text": "Validación biométrica",
+            "blockClass": "tu-cuota-opc-5"
+        }
+    },
+    //contenido
+    "disclosure-content#trigger-info-5-paso": {
+        "title": "Contenido informativo del 5 paso",
+        "children": [
+            "flex-layout.col#contenedor-informativo-5-paso"
+        ]
+    },
+    "flex-layout.col#contenedor-informativo-5-paso": {
+        "children": [
+            "rich-text#paso-a-item-5",
+            "image#validacion-biometrica-a-img",
+            "rich-text#paso-b-item-5",
+            "image#validacion-biometrica-b-img",
+            "rich-text#paso-c-item-5",
+            "image#validacion-biometrica-c-img",
+            "rich-text#paso-d-item-5",
+            "image#validacion-biometrica-d-img"
+        ],
+        "props": {
+            "rowGap": 4,
+            "blockClass": "trigger-content-informativo"
+        }
+    },
+    "rich-text#paso-a-item-5": {
+        "props": {
+            "text": "**a).**El cliente deberá permitir el acceso en la página de validación biométrica para poder acceder a la cámara del celular."
+        }
+    },
+    "rich-text#paso-b-item-5": {
+        "props": {
+            "text": "**b).**Marcar la casilla de aceptación de términos y condiciones y aceptarlos si el ciente esta de acuerdo."
+        }
+    },
+    "rich-text#paso-c-item-5": {
+        "props": {
+            "text": "**c).**A continuación la herramienta de validación biométrica indicará a el cliente el paso a paso para la toma de foto de su documento de identidad."
+        }
+    },
+    "rich-text#paso-d-item-5": {
+        "props": {
+            "text": "**d).**A Seguido de la toma de foto del documento, la herramienta pedirá abrir la cámara para capturar una foto- video del cliente, la cual ayudará a identificar si la persona es la misma dell documento."
+        }
+    },
+
+    "image#validacion-biometrica-a-img": {
+        "props": {
+            "src": "/arquivos/paso-5-a.png",
+            "alt": "Imagen validacion-identidad",
+            "maxWidth": "40%"
+        }
+    },
+    "image#validacion-biometrica-b-img": {
+        "props": {
+            "src": "/arquivos/paso-5-b.png",
+            "alt": "Imagen validacion-identidad",
+            "maxWidth": "40%"
+        }
+    },
+    "image#validacion-biometrica-c-img": {
+        "props": {
+            "src": "/arquivos/paso-5-c.png",
+            "alt": "Imagen validacion-identidad",
+            "maxWidth": "60%"
+        }
+    },
+    "image#validacion-biometrica-d-img": {
+        "props": {
+            "src": "/arquivos/paso-5-d.png",
+            "alt": "Imagen validacion-identidad",
+            "maxWidth": "60%"
+        }
+    },
+
+
+
+
+
+
+
+
+    //MOBILE
+    //PRIMER ITEM
+    "disclosure-layout#captcha-mob": {
+        "title": "1 paso",
+        "children": [
+            "disclosure-trigger#captcha-trigger-title-content-mob",
+            "disclosure-content#captcha-trigger-info-mob"
+        ]
+    },
+    "disclosure-trigger#captcha-trigger-title-content-mob": {
+        "title": "Contenido titulo 1 paso",
+        "children": [
+            "rich-text#captcha-title-mob",
+            "disclosure-state-indicator"
+        ],
+        "props": {
+            "blockClass": "trigger-content-icon",
+            "as": "div"
+        }
+    },
+    "rich-text#captcha-title-mob": {
+        "props": {
+            "text": "Aceptar el captcha y realizar la validación general",
+            "blockClass": "tu-cuota-opc-1"
+        }
+    },
+    //contenido
+    "disclosure-content#captcha-trigger-info-mob": {
+        "title": "Contenido informativo del 1 paso",
+        "children": [
+            "flex-layout.col#contenedor-informativo-mob"
+        ]
+    },
+    "flex-layout.col#contenedor-informativo-mob": {
+        "children": [
+            "rich-text#paso-a-mob",
+            "rich-text#paso-b-mob",
+            "rich-text#paso-c-mob",
+            "image#aceptar-captcha-img-mob"
+        ],
+        "props": {
+            "rowGap": 4,
+            "blockClass": "trigger-content-informativo"
+        }
+    },
+    "rich-text#paso-a-mob": {
+        "props": {
+            "text": "**a).**Ingresa en el módulo “cliente nuevo 2”."
+        }
+    },
+    "rich-text#paso-b-mob": {
+        "props": {
+            "text": "**b).**Diligencia los campos resaltados en rojo."
+        }
+    },
+    "rich-text#paso-c-mob": {
+        "props": {
+            "text": "**c).**Dar clic en continuar."
+        }
+    },
+    "image#aceptar-captcha-img-mob": {
+        "props": {
+            "src": "/arquivos/paso-1-captcha.png",
+            "alt": "Imagen aceptar captcha",
+            "maxWidth": "100%"
+        }
+    },
+
+    //SEGUNDO ITEM
+    "disclosure-layout#central-riesgo-mob": {
+        "title": "2 paso",
+        "children": [
+            "disclosure-trigger#captcha-trigger-title-content-2-paso-mob",
+            "disclosure-content#captcha-trigger-info-2-paso-mob"
+        ]
+    },
+    "disclosure-trigger#captcha-trigger-title-content-2-paso-mob": {
+        "title": "Contenido titulo 2 paso",
+        "children": [
+            "rich-text#captcha-title-2-paso-mob",
+            "disclosure-state-indicator"
+        ],
+        "props": {
+            "blockClass": "trigger-content-icon",
+            "as": "div"
+        }
+    },
+    "rich-text#captcha-title-2-paso-mob": {
+        "props": {
+            "text": "Autorización de centrales",
+            "blockClass": "tu-cuota-opc-2"
+        }
+    },
+    //contenido
+    "disclosure-content#captcha-trigger-info-2-paso-mob": {
+        "title": "Contenido informativo del 2 paso",
+        "children": [
+            "flex-layout.col#contenedor-informativo-2-paso-mob"
+        ]
+    },
+    "flex-layout.col#contenedor-informativo-2-paso-mob": {
+        "children": [
+            "rich-text#paso-a-item-2-mob",
+            "image#aceptar-central-riesgo-a-img-mob",
+            "rich-text#paso-b-item-2-mob",
+            "image#aceptar-central-riesgo-b-img-mob",
+            "rich-text#paso-c-item-2-mob",
+            "image#aceptar-central-riesgo-c-img-mob"
+        ],
+        "props": {
+            "rowGap": 4,
+            "blockClass": "trigger-content-informativo"
+        }
+    },
+    "rich-text#paso-a-item-2-mob": {
+        "props": {
+            "text": "**a).**Aceptar consulta de centrales de riesgo."
+        }
+    },
+    "rich-text#paso-b-item-2-mob": {
+        "props": {
+            "text": "**b).**Seleccionar el canal para envio al cliente de autorización de consulta de centrales."
+        }
+    },
+    "rich-text#paso-c-item-2-mob": {
+        "props": {
+            "text": "**c).**Autorizar via whatsapp o SMS."
+        }
+    },
+
+    "image#aceptar-central-riesgo-a-img-mob": {
+        "props": {
+            "src": "/arquivos/paso-2-a.png",
+            "alt": "Imagen central de riesgos",
+            "maxWidth": "100%"
+        }
+    },
+    "image#aceptar-central-riesgo-b-img-mob": {
+        "props": {
+            "src": "/arquivos/paso-2-b.png",
+            "alt": "Imagen central de riesgos",
+            "maxWidth": "100%"
+        }
+    },
+    "image#aceptar-central-riesgo-c-img-mob": {
+        "props": {
+            "src": "/arquivos/paso-2-c.png",
+            "alt": "Imagen central de riesgos",
+            "maxWidth": "100%"
+        }
+    },
+
+    //TERCER ITEM
+    "disclosure-layout#info-complementaria-mob": {
+        "title": "3 paso",
+        "children": [
+            "disclosure-trigger#trigger-title-content-3-paso-mob",
+            "disclosure-content#trigger-info-3-paso-mob"
+        ]
+    },
+    "disclosure-trigger#trigger-title-content-3-paso-mob": {
+        "title": "Contenido titulo 3 paso",
+        "children": [
+            "rich-text#captcha-title-3-paso-mob",
+            "disclosure-state-indicator"
+        ],
+        "props": {
+            "blockClass": "trigger-content-icon",
+            "as": "div"
+        }
+    },
+    "rich-text#captcha-title-3-paso-mob": {
+        "props": {
+            "text": "Información complementaria ",
+            "blockClass": "tu-cuota-opc-3"
+        }
+    },
+    //contenido
+    "disclosure-content#trigger-info-3-paso-mob": {
+        "title": "Contenido informativo del 3 paso",
+        "children": [
+            "flex-layout.col#contenedor-informativo-3-paso-mob"
+        ]
+    },
+    "flex-layout.col#contenedor-informativo-3-paso-mob": {
+        "children": [
+            "rich-text#paso-a-item-3-mob",
+            "image#aceptar-complementaria-a-img-mob",
+            "rich-text#paso-b-item-3-mob",
+            "image#aceptar-complementaria-b-img-mob"
+        ],
+        "props": {
+            "rowGap": 4,
+            "blockClass": "trigger-content-informativo"
+        }
+    },
+    "rich-text#paso-a-item-3-mob": {
+        "props": {
+            "text": "**a).**Validar autorización del cliente."
+        }
+    },
+    "rich-text#paso-b-item-3-mob": {
+        "props": {
+            "text": "**b).**Diligenciar información complementaria."
+        }
+    },
+
+    "image#aceptar-complementaria-a-img-mob": {
+        "props": {
+            "src": "/arquivos/paso-3-a.png",
+            "alt": "Imagen info complementaria",
+            "maxWidth": "100%"
+        }
+    },
+    "image#aceptar-complementaria-b-img-mob": {
+        "props": {
+            "src": "/arquivos/paso-3-b.png",
+            "alt": "Imagen info complementaria",
+            "maxWidth": "100%"
+        }
+    },
+
+    //CUARTO ITEM
+    "disclosure-layout#validacion-identidad-mob": {
+        "title": "4 paso",
+        "children": [
+            "disclosure-trigger#trigger-title-content-4-paso-mob",
+            "disclosure-content#trigger-info-4-paso-mob"
+        ]
+    },
+    "disclosure-trigger#trigger-title-content-4-paso-mob": {
+        "title": "Contenido titulo 4 paso",
+        "children": [
+            "rich-text#captcha-title-4-paso-mob",
+            "disclosure-state-indicator"
+        ],
+        "props": {
+            "blockClass": "trigger-content-icon",
+            "as": "div"
+        }
+    },
+    "rich-text#captcha-title-4-paso-mob": {
+        "props": {
+            "text": "Validación de identidad",
+            "blockClass": "tu-cuota-opc-4"
+        }
+    },
+    //contenido
+    "disclosure-content#trigger-info-4-paso-mob": {
+        "title": "Contenido informativo del 4 paso",
+        "children": [
+            "flex-layout.col#contenedor-informativo-4-paso-mob"
+        ]
+    },
+    "flex-layout.col#contenedor-informativo-4-paso-mob": {
+        "children": [
+            "rich-text#paso-a-item-4-mob",
+            "image#validacion-identidad-a-img-mob",
+            "rich-text#paso-b-item-4-mob",
+            "image#validacion-identidad-b-img-mob"
+        ],
+        "props": {
+            "rowGap": 4,
+            "blockClass": "trigger-content-informativo"
+        }
+    },
+    "rich-text#paso-a-item-4-mob": {
+        "props": {
+            "text": "**a).**Si el sistema me lo pide, realizar las preguntas de validación al cliente y diligenciar las respuestas. Dar clic en continuar."
+        }
+    },
+    "rich-text#paso-b-item-4-mob": {
+        "props": {
+            "text": "**b).**A continuación saldrá una ventana que te mostrará el codigo QR  el cliente deberá escanearlo con su celular para realizar el proceso de validación biométrica."
+        }
+    },
+
+    "image#validacion-identidad-a-img-mob": {
+        "props": {
+            "src": "/arquivos/paso-4-a.png",
+            "alt": "Imagen validacion-identidad",
+            "maxWidth": "100%"
+        }
+    },
+    "image#validacion-identidad-b-img-mob": {
+        "props": {
+            "src": "/arquivos/paso-4-b.png",
+            "alt": "Imagen validacion-identidad",
+            "maxWidth": "100%"
+        }
+    },
+
+    //QUINTO ITEM
+    "disclosure-layout#validacion-biometrica-mob": {
+        "title": "4 paso",
+        "children": [
+            "disclosure-trigger#trigger-title-content-5-paso-mob",
+            "disclosure-content#trigger-info-5-paso-mob"
+        ]
+    },
+    "disclosure-trigger#trigger-title-content-5-paso-mob": {
+        "title": "Contenido titulo 5 paso",
+        "children": [
+            "rich-text#captcha-title-5-paso-mob",
+            "disclosure-state-indicator"
+        ],
+        "props": {
+            "blockClass": "trigger-content-icon",
+            "as": "div"
+        }
+    },
+    "rich-text#captcha-title-5-paso-mob": {
+        "props": {
+            "text": "Validación biométrica",
+            "blockClass": "tu-cuota-opc-5"
+        }
+    },
+    //contenido
+    "disclosure-content#trigger-info-5-paso-mob": {
+        "title": "Contenido informativo del 5 paso",
+        "children": [
+            "flex-layout.col#contenedor-informativo-5-paso-mob"
+        ]
+    },
+    "flex-layout.col#contenedor-informativo-5-paso-mob": {
+        "children": [
+            "rich-text#paso-a-item-5-mob",
+            "image#validacion-biometrica-a-img-mob",
+            "rich-text#paso-b-item-5-mob",
+            "image#validacion-biometrica-b-img-mob",
+            "rich-text#paso-c-item-5-mob",
+            "image#validacion-biometrica-c1-img-mob",
+            "image#validacion-biometrica-c2-img-mob",
+            "rich-text#paso-d-item-5-mob",
+            "image#validacion-biometrica-d1-img-mob",
+            "image#validacion-biometrica-d2-img-mob"
+        ],
+        "props": {
+            "rowGap": 4,
+            "blockClass": "trigger-content-informativo"
+        }
+    },
+    "rich-text#paso-a-item-5-mob": {
+        "props": {
+            "text": "**a).**El cliente deberá permitir el acceso en la página de validación biométrica para poder acceder a la cámara del celular."
+        }
+    },
+    "rich-text#paso-b-item-5-mob": {
+        "props": {
+            "text": "**b).**Marcar la casilla de aceptación de términos y condiciones y aceptarlos si el ciente esta de acuerdo."
+        }
+    },
+    "rich-text#paso-c-item-5-mob": {
+        "props": {
+            "text": "**c).**A continuación la herramienta de validación biométrica indicará a el cliente el paso a paso para la toma de foto de su documento de identidad."
+        }
+    },
+    "rich-text#paso-d-item-5-mob": {
+        "props": {
+            "text": "**d).**A Seguido de la toma de foto del documento, la herramienta pedirá abrir la cámara para capturar una foto- video del cliente, la cual ayudará a identificar si la persona es la misma dell documento."
+        }
+    },
+
+    "image#validacion-biometrica-a-img-mob": {
+        "props": {
+            "src": "/arquivos/paso-5-a.png",
+            "alt": "Imagen validacion-identidad",
+            "maxWidth": "100%"
+        }
+    },
+    "image#validacion-biometrica-b-img-mob": {
+        "props": {
+            "src": "/arquivos/paso-5-b.png",
+            "alt": "Imagen validacion-identidad",
+            "maxWidth": "100%"
+        }
+    },
+    "image#validacion-biometrica-c1-img-mob": {
+        "props": {
+            "src": "/arquivos/paso-5-itemc1.png",
+            "alt": "Imagen validacion-identidad",
+            "maxWidth": "100%"
+        }
+    },
+    "image#validacion-biometrica-c2-img-mob": {
+        "props": {
+            "src": "/arquivos/paso-5-itemc2.png",
+            "alt": "Imagen validacion-identidad",
+            "maxWidth": "100%"
+        }
+    },
+    "image#validacion-biometrica-d1-img-mob": {
+        "props": {
+            "src": "/arquivos/paso-5-itemd1.png",
+            "alt": "Imagen validacion-identidad",
+            "maxWidth": "100%"
+        }
+    },
+    "image#validacion-biometrica-d2-img-mob": {
+        "props": {
+            "src": "/arquivos/paso-5-itemd2.png",
+            "alt": "Imagen validacion-identidad",
+            "maxWidth": "100%"
+        }
+    }
+
+}

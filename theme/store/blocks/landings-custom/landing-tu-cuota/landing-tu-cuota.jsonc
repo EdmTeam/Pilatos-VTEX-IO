@@ -1,0 +1,148 @@
+{
+    "store.custom#tu-cuota-landing": {
+        "blocks": [
+            "flex-layout.row#static-tu-cuota"
+        ]
+    },
+    "flex-layout.row#static-tu-cuota": {
+        "title": "Contenedor",
+        "props": {
+            "blockClass": [
+                "contenedor-tu-cuota-pcpal"
+            ],
+            "marginTop": 8,
+            "marginBottom": 8
+        },
+        "children": [
+            "flex-layout.col#static-tu-cuota"
+        ]
+    },
+    "flex-layout.col#static-tu-cuota": {
+        "title": "Acordion información",
+        "children": [
+            "rich-text#title-tu-cuota",
+            "rich-text#descripcion-tu-cuota",
+            "rich-text#invitacion-texto-tu-cuota",
+            "responsive-layout.desktop#disclosure-group-tu-cuota",
+            "responsive-layout.mobile#disclosure-group-tu-cuota-mob",
+            "rich-text#footer-tu-cuota"
+        ],
+        "props": {
+            "blockClass": [
+                "container-static-accordion-tu-cuota"
+            ]
+        }
+    },
+    "rich-text#title-tu-cuota": {
+        "title": "Título general",
+        "props": {
+            "text": "# ¿Cómo solicitar un crédito en Tu Cuota?",
+            "blockClass": "titulo-tu-cuota-nuevo"
+        }
+    },
+    "rich-text#descripcion-tu-cuota": {
+        "title": "Descripción general",
+        "props": {
+            "text": "Pagando con TuCuota estas un paso más cerca del outfit que quieres. Difiere tus compras hasta 19 cuotas y disfruta 0% de intereses pagando a 3 cuotas. Disponible en tiendas físicas y página web. Sujeto a estudio previo de crédito. Aplican términos y condiciones."
+        }
+    },
+
+    "rich-text#invitacion-texto-tu-cuota": {
+        "title": "Texto invitación",
+        "props": {
+            "text": "**Sigue estos simples pasos para solicitar tu credito:**"
+        }
+    },
+
+    //bloque indicador
+    "disclosure-state-indicator": {
+        "props": {
+          "Show": "icon-plus",
+          "Hide": "icon-minus"
+        }
+      },
+    //bloque indicador
+
+    //DISCLOSURE DESKTOP
+    "responsive-layout.desktop#disclosure-group-tu-cuota": {
+        "children": [
+            "disclosure-layout-group#group-tu-cuota"
+        ]
+    },
+
+    "disclosure-layout-group#group-tu-cuota": {
+        "title": "Grupo tu cuota",
+        "children": [
+            "flex-layout.row#group-tu-cuota"
+        ]
+    },
+    "flex-layout.row#group-tu-cuota": {
+        "children": [
+            "flex-layout.col#group-tu-cuota"
+        ],
+        "props": {
+            "marginTop": 5,
+            "marginBottom": 5,
+            "fullWidth": true
+        }
+    },
+    "flex-layout.col#group-tu-cuota": {
+        "title": "Contenedor las 5 question",
+        "children": [
+            "disclosure-layout#captcha",
+            "disclosure-layout#central-riesgo",
+            "disclosure-layout#info-complementaria",
+            "disclosure-layout#validacion-identidad",
+            "disclosure-layout#validacion-biometrica"
+        ],
+        "props": {
+            "rowGap": 5
+        }
+    },
+
+    //DISCLOSURE MOBILE
+    "responsive-layout.mobile#disclosure-group-tu-cuota-mob": {
+        "children": [
+            "disclosure-layout-group#group-tu-cuota-mob"
+        ]
+    },
+    "disclosure-layout-group#group-tu-cuota-mob": {
+        "title": "Grupo tu cuota mob",
+        "children": [
+            "flex-layout.row#group-tu-cuota-mob"
+        ]
+    },
+    "flex-layout.row#group-tu-cuota-mob": {
+        "children": [
+            "flex-layout.col#group-tu-cuota-mob"
+        ],
+        "props": {
+            "marginTop": 5,
+            "marginBottom": 5,
+            "fullWidth": true
+        }
+    },
+    "flex-layout.col#group-tu-cuota-mob": {
+        "title": "Contenedor las 5 question mob",
+        "children": [
+            "disclosure-layout#captcha-mob",
+            "disclosure-layout#central-riesgo-mob",
+            "disclosure-layout#info-complementaria-mob",
+            "disclosure-layout#validacion-identidad-mob",
+            "disclosure-layout#validacion-biometrica-mob"
+        ],
+        "props": {
+            "rowGap": 5
+        }
+    },
+
+    //FOOTER TU CUOTA
+    "rich-text#footer-tu-cuota": {
+        "title": "Tu cuota footer",
+        "props": {
+            "text": "### Y ¡listo! ahora puedes comprar y diferirlo hasta en 19 cuotas. ",
+            "textPosition": "CENTER",
+            "blockClass": "tu-cuota-footer-text"
+        }
+    }
+}

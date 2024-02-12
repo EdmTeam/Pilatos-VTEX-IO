@@ -3439,3 +3439,42 @@ margin: 2px;
     height: 6px;
   }
 }
+
+
+
+/*Tu cuota landing*/
+.paragraph--tu-cuota-opc-1, .paragraph--tu-cuota-opc-2, .paragraph--tu-cuota-opc-3, .paragraph--tu-cuota-opc-4, .paragraph--tu-cuota-opc-5 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.paragraph--tu-cuota-opc-1::before {
+  content: "1. ";
+  margin-top: 0;
+}
+.paragraph--tu-cuota-opc-2::before {
+  content: "2. ";
+  margin-top: 0;
+}
+.paragraph--tu-cuota-opc-3::before {
+  content: "3. ";
+  margin-top: 0;
+}
+.paragraph--tu-cuota-opc-4::before {
+  content: "4. ";
+  margin-top: 0;
+}
+.paragraph--tu-cuota-opc-5::before {
+  content: "5. ";
+  margin-top: 0;
+}
+.headingLevel3--tu-cuota-footer-text {
+  font-weight: 300;
+}
+@media (max-width: 768px) {
+  .headingLevel1--titulo-tu-cuota-nuevo {
+    font-size: 32px;
+  }
+  .headingLevel3--tu-cuota-footer-text {
+    font-size: 20px;
+  }
+}

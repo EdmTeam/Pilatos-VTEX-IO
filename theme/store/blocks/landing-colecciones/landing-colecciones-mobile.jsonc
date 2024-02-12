@@ -31,7 +31,11 @@
             "flex-layout.col#landing-colecciones-image-5-mobile",
             "flex-layout.col#landing-colecciones-image-6-mobile",
             "flex-layout.col#landing-colecciones-image-7-mobile",
-            "flex-layout.col#landing-colecciones-image-8-mobile"
+            "flex-layout.col#landing-colecciones-image-8-mobile",
+            "flex-layout.col#landing-colecciones-image-9-mobile",
+            "flex-layout.col#landing-colecciones-image-10-mobile",
+            "flex-layout.col#landing-colecciones-image-11-mobile",
+            "flex-layout.col#landing-colecciones-image-12-mobile"
         ]
     },
 
@@ -125,6 +129,49 @@
         "props": {
             "blockClass": "contenedor-colecciones"
         }
-    }
+    },
 
+    //contenido 9
+    "flex-layout.col#landing-colecciones-image-9-mobile": {
+        "children": [
+            "flex-layout.row#coleccionesImagen9-pilatosxaguabendita",
+            "rich-text#landing-colecciones-info-1.3-content"
+          ],
+          "props": {
+              "blockClass": "contenedor-colecciones"
+          }
+    },
+
+    //contenido 10
+    "flex-layout.col#landing-colecciones-image-10-mobile": {
+        "children": [
+            "flex-layout.row#coleccionesImagen10-benature-girbaud",
+            "rich-text#landing-colecciones-info-2.3-content"
+          ],
+          "props": {
+              "blockClass": "contenedor-colecciones"
+          }
+    },
+
+    //contenido 11
+    "flex-layout.col#landing-colecciones-image-11-mobile": {
+        "children": [
+            "flex-layout.row#coleccionesImagen11-essential-girbaud",
+            "rich-text#landing-colecciones-info-3.3-content"
+          ],
+          "props": {
+              "blockClass": "contenedor-colecciones"
+          }
+    },
+
+    //contenido 12
+    "flex-layout.col#landing-colecciones-image-12-mobile": {
+        "children": [
+            "flex-layout.row#coleccionesImagen12-heritage-girbaud",
+            "rich-text#landing-colecciones-info-4.3-content"
+          ],
+          "props": {
+              "blockClass": "contenedor-colecciones"
+          }
+    }
 }

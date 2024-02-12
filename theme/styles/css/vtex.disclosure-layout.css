@@ -3,3 +3,15 @@
   border: #fff;
   cursor: pointer;
 }
+
+/*tu cuota*/
+.trigger--trigger-content-icon {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  padding: 15px;
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid #E8E8E8;
+}
