@@ -41,7 +41,8 @@
             "rich-text#submenu-level-2-item-37-row-7",
             "rich-text#submenu-level-2-item-35-row-7",
             "rich-text#submenu-level-2-item-36-row-7",
-            "rich-text#submenu-level-2-item-38-row-7"
+            "rich-text#submenu-level-2-item-38-row-7",
+            "rich-text#submenu-level-2-item-39-row-7"
         ],
         "props": {
             "blockClass": [
@@ -125,7 +126,7 @@
             "text": "[Pepe Jeans](/pepe-jeans)",
             "blockClass": "contentSubMenuAcordeon"
         }
-    },    
+    },
 
   "rich-text#submenu-level-2-item-35-row-7":{
     "props":{
@@ -147,6 +148,15 @@
         "blockClass": "contentSubMenuAcordeon"
     }
   },
+
+
+"rich-text#submenu-level-2-item-39-row-7":{
+  "props":{
+      "text": "[Brooks](/brooks)",
+      "blockClass": "contentSubMenuAcordeon"
+  }
+},
+
 
     "rich-text#submenu-level-2-item-29-row-7":{
         "props":{
