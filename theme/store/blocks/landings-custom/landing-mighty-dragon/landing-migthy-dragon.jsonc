@@ -1,0 +1,204 @@
+{
+    "store.custom#landing-mighty-dragon": {
+        "blocks": [
+            "flex-layout.row#brad-crumb-department-pilatos",
+            "flex-layout.row#banner-landing-mighty-dragon",
+            "flex-layout.row#carrousel-mighty-dragon",
+            "responsive-layout.desktop#mighty-dragon-desktop",
+            "responsive-layout.mobile#mighty-dragon-mobile",
+            "flex-layout.row#titulo-galeria-mighty-dragon",
+            "flex-layout.row#looks-mighty-dragon",
+            "rich-text#seoSneaker"
+        ]
+    },
+
+    "flex-layout.row#brad-crumb-department-pilatos": {
+        "children": [
+            "flex-layout.col#brad-crumb-department-pilatos"
+        ],
+        "props": {
+            "blockClass": "contenedor-mighty-dragon"
+        }
+    },
+    "flex-layout.col#brad-crumb-department-pilatos": {
+        "children": [
+            "rich-text#departmen-pilatos-bread-crumb",
+            "rich-text#department-pilatos-title",
+            "rich-text#department-pilatos-description"
+        ]
+    },
+    //Baner landing
+    "flex-layout.row#banner-landing-mighty-dragon": {
+        "title": "Banner landing",
+        "children": [
+            "list-context.image-list#banner-landing-mighty-dragon"
+        ],
+        "props": {
+            "blockClass": "banner-activaciones-imagen"
+        }
+    },
+    "list-context.image-list#banner-landing-mighty-dragon": {
+        "children": [
+            "slider-layout"
+        ],
+        "props": {
+            "height": 570,
+            "preload": true,
+            "images": [
+                {
+                    "image": "/arquivos/Año-del-dragon-banner-landing-desk.jpg",
+                    "mobileImage": "/arquivos/Año-del-dragon-banner-landing-mobile.jpg"
+                }
+            ]
+        }
+    },
+    //Titulo Galería 
+    "flex-layout.row#titulo-galeria-mighty-dragon": {
+        "title": "Titulo galería",
+        "children": [
+            "rich-text#titulo-galeria-mighty-dragon"
+        ],
+        "props": {
+            "blockClass": "contenedor-mighty-dragon"
+        }
+    },
+    "rich-text#titulo-galeria-mighty-dragon": {
+        "props": {
+            "text": "Descubre tu look para Mighty Dragón",
+            "font": "t-body",
+            "blockClass": "titulo-mighty-dragon"
+        }
+    },
+
+    // sesión carrousel mighty dragon
+    "flex-layout.row#carrousel-mighty-dragon": {
+        "title": "carrousel producto",
+        "children": [
+            "flex-layout.col#sesion-mighty-dragon-carrousel"
+        ],
+        "props": {
+            "blockClass": "sesionCarrouselMightyDragon",
+            "fullWidth": true
+        }
+    },
+    "flex-layout.col#sesion-mighty-dragon-carrousel": {
+        "children": [
+            "vtex.product-summary:list-context.product-list#sneaker-recomendador"
+        ]
+    },
+
+    
+    //SLIDER
+    "flex-layout.row#looks-mighty-dragon": {
+        "children": [
+            "slider-layout#looks-mighty-dragon"
+        ],
+        "props": {
+            "blockClass": ["contenedor-mighty-dragon", "contenedor-looks-mighty-dragon"]
+        }
+    },
+
+    "slider-layout#looks-mighty-dragon": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 2,
+                "phone": 2
+            },
+            "infinite": true,
+            "showNavigationArrows": "desktopOnly",
+            "blockClass": "carousel"
+        },
+        "children": [
+            "list-context.image-list#look-1-mighty-dragon",
+            "list-context.image-list#look-2-mighty-dragon",
+            "list-context.image-list#look-3-mighty-dragon",
+            "list-context.image-list#look-4-mighty-dragon",
+            "list-context.image-list#look-5-mighty-dragon"
+        ]
+    },
+    //slider 1
+    "list-context.image-list#look-1-mighty-dragon": {
+        "children": [
+            "slider-layout"
+        ],
+        "props": {
+            "height": 570,
+            "preload": true,
+            "images": [
+                {
+                    "image": "/arquivos/Año-del-dragon-banner-look1-desk.jpg",
+                    "mobileImage": "/arquivos/Año-del-dragon-banner-look1-mobile.jpg"
+                }
+            ]
+        }
+    },
+
+    //slider 2
+    "list-context.image-list#look-2-mighty-dragon": {
+        "children": [
+            "slider-layout"
+        ],
+        "props": {
+            "height": 570,
+            "preload": true,
+            "images": [
+                {
+                    "image": "/arquivos/Año-del-dragon-banner-look2-desk.jpg",
+                    "mobileImage": "/arquivos/Año-del-dragon-banner-look2-mobile.jpg"
+                }
+            ]
+        }
+    },
+
+    //slider 3
+    "list-context.image-list#look-3-mighty-dragon": {
+        "children": [
+            "slider-layout"
+        ],
+        "props": {
+            "height": 570,
+            "preload": true,
+            "images": [
+                {
+                    "image": "/arquivos/Año-del-dragon-banner-look3-desk.jpg",
+                    "mobileImage": "/arquivos/Año-del-dragon-banner-look3-mobile.jpg"
+                }
+            ]
+        }
+    },
+
+    //slider 4
+    "list-context.image-list#look-4-mighty-dragon": {
+        "children": [
+            "slider-layout"
+        ],
+        "props": {
+            "height": 570,
+            "preload": true,
+            "images": [
+                {
+                    "image": "/arquivos/Año-del-dragon-banner-look4-desk.jpg",
+                    "mobileImage": "/arquivos/Año-del-dragon-banner-look4-mobile.jpg"
+                }
+            ]
+        }
+    },
+
+    //slider 5
+    "list-context.image-list#look-5-mighty-dragon": {
+        "children": [
+            "slider-layout"
+        ],
+        "props": {
+            "height": 570,
+            "preload": true,
+            "images": [
+                {
+                    "image": "/arquivos/Año-del-dragon-banner-look5-desk.jpg",
+                    "mobileImage": "/arquivos/Año-del-dragon-banner-look5-mobile.jpg"
+                }
+            ]
+        }
+    }
+}

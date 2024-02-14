@@ -87,7 +87,7 @@
      "responsive-layout.desktop#bannerAguaBenditaSecundario":{
         "children":[
             "flex-layout.row#bannerAguaBenditaSecundario",
-            "flex-layout.row#most-viewed",
+            //"flex-layout.row#most-viewed",
             "flex-layout.row#bannerAguaBenditaFooter"
         ]
      },
@@ -95,7 +95,7 @@
      "responsive-layout.tablet#bannerAguaBenditaSecundario":{
         "children":[
             "flex-layout.row#bannerAguaBenditaSecundario",
-            "flex-layout.row#most-viewed",
+            //"flex-layout.row#most-viewed",
             "flex-layout.row#bannerAguaBenditaFooter"
 
         ]

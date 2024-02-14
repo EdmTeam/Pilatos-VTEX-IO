@@ -1,0 +1,46 @@
+{
+    "responsive-layout.mobile#mighty-dragon-mobile": {
+        "children": [
+            "flex-layout.row#contenedor-galeria-mighty-dragon-mob"
+        ]
+    },
+
+    "flex-layout.row#contenedor-galeria-mighty-dragon-mob": {
+        "title": "Contenedor galería mob",
+        "children": [
+            "flex-layout.col#galeria-mob-mighty-dragon"
+        ],
+        "props": {
+            "blockClass": "contenedor-mighty-dragon"
+        }
+    },
+
+    "flex-layout.col#galeria-mob-mighty-dragon": {
+        "children": [
+            "image#banner1-galeria-mighty-dragon-mob",
+            "image#banner2-galeria-mighty-dragon-mob",
+            "image#banner3-galeria-mighty-dragon-mob"
+        ]
+    },
+
+    "image#banner1-galeria-mighty-dragon-mob": {
+        "props": {
+            "title": "Imagen 1 mob de la galería",
+            "src": "/arquivos/Año-del-dragon-banner-1-mobile.jpg"
+        }
+    },
+
+    "image#banner2-galeria-mighty-dragon-mob": {
+        "props": {
+            "title": "Imagen 2 mob de la galería",
+            "src": "/arquivos/Año-del-dragon-banner-3-mobile.jpg"
+        }
+    },
+
+    "image#banner3-galeria-mighty-dragon-mob": {
+        "props": {
+            "title": "Imagen 3 mob de la galería",
+            "src": "/arquivos/Año-del-dragon-banner-2-mobile.jpg"
+        }
+    }
+}

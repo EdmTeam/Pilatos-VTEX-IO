@@ -3478,3 +3478,10 @@ margin: 2px;
     font-size: 20px;
   }
 }
+
+
+/*Mighty dragon*/
+.paragraph--titulo-mighty-dragon {
+  font-weight: bold;
+  font-size: 24px;
+}

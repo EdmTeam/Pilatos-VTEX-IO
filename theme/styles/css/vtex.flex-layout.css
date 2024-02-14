@@ -3172,7 +3172,7 @@
   width: 100%;
 }
 
-.flexRowContent--sesionCarrouselRituales{
+.flexRowContent--sesionCarrouselRituales, .flexRowContent--sesionCarrouselMightyDragon{
   margin-bottom: 1%;
   padding: 3% 2% 5% 5%;
   width: 100%;
@@ -3365,4 +3365,18 @@ width: 88%;
 .flexRowContent--contenedor-tu-cuota-pcpal {
   width: 90%;
   margin: 30px auto 30px auto;
+}
+
+/*Mighty dragon*/
+.flexRowContent--contenedor-mighty-dragon {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.flexRowContent--banner-columna2-desk-migthy-dragon {
+  height: 100%;
+}
+
+.flexRow--contenedor-looks-mighty-dragon {
+  margin-bottom: 50px;
 }

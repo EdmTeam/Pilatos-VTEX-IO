@@ -20,7 +20,7 @@
             "image#bannerAguaBenditaMobi-cat1",
             "image#bannerAguaBenditaMobi-cat2",
             "image#bannerAguaBenditaMobi-cat3",
-            "flex-layout.row#most-viewed",
+            //"flex-layout.row#most-viewed",
             "image#bannerAguaBenditaMobi-cat4",
             "image#bannerAguaBenditaMobi-cat5"
         ]
