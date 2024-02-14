@@ -41,6 +41,15 @@
     background-image: url(/arquivos/Pilatos-FlagNuevo-Circular.png);
     display: block;
 }
+/* Dragon flag 2024 */
+.productHighlightWrapper [data-highlight-id="1681"]{
+  width: 35px;
+  height: 35px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(/arquivos/Pilatos-MightyDragon-Flag.jpg);
+  display: block;
+}
 
 .productHighlightWrapper [data-highlight-id="1654"]{
     width: 35px;

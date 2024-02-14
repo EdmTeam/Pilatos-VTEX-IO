@@ -485,35 +485,16 @@
     margin-right: .6rem;
 }
 /*prueba hover billy fondo*/
-.imageElementLink--departmentBannerImg-3:hover{
-    -webkit-filter: saturate(250%);
-filter: saturate(250%);
-}
-
-.imageElementLink--departmentBannerImg-6:hover{
-    -webkit-filter: brightness(50%);
-filter: brightness(50%);
-}
 
 .imageElementLink--departmentBannerImg-sneaker{
     margin: 1%;
 }
 
-.imageElementLink--departmentBannerImg-sneaker:hover{
-    -webkit-filter: brightness(50%);
-filter: brightness(50%);
-}
-.imageElementLink--departmentBannerImg-sneakerBrands:hover{
-    -webkit-filter: brightness(50%);
-    filter: drop-shadow(2px 4px 6px #ccfb04);
-}
 .imageElementLink--departmentBannerImg-topHome{
 margin-bottom: 1%;
 }
 
 .imageElementLink--departmentBannerImg-top:hover{
-    -webkit-filter: brightness(50%);
-filter: brightness(50%);
 margin-bottom: 1%;
 margin-top: 1%;
 }
