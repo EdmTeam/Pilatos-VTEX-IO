@@ -1,0 +1,78 @@
+{
+    "responsive-layout.desktop#mighty-dragon-desktop": {
+        "children": [
+            "flex-layout.row#contenedor-galeria-mighty-dragon"
+        ]
+    },
+
+    "flex-layout.row#contenedor-galeria-mighty-dragon": {
+        "title": "2 columnas galería desktop",
+        "children": [
+            "flex-layout.col#columna1-mighty-dragon",
+            "flex-layout.row#columna2-mighty-dragon"
+        ],
+        "props": {
+            "preventHorizontalStretch": true,
+            "blockClass": "contenedor-mighty-dragon",
+            "colGap": 4
+        }
+    },
+
+    "flex-layout.col#columna1-mighty-dragon": {
+        "title": "1ra columna de la galería desktop",
+        "children": [
+            "flex-layout.col#columna1-img1-mighty-dragon",
+            "flex-layout.col#columna2-img2-mighty-dragon"
+        ],
+        "props": {
+            "rowGap": 4
+        }
+    },
+
+    //columna 1
+    "flex-layout.col#columna1-img1-mighty-dragon": {
+        "title": "Imagen 1",
+        "children": [
+            "image#bannercolumna1-galeria-mighty-dragon"
+        ]
+    },
+
+    "flex-layout.col#columna2-img2-mighty-dragon": {
+        "title": "Imagen 2",
+        "children": [
+            "image#bannercolumna1.1-galeria-mighty-dragon"
+        ]
+    },
+
+    "image#bannercolumna1-galeria-mighty-dragon": {
+        "props": {
+            "src": "/arquivos/Año-del-dragon-banner-1-desk.jpg"
+        }
+    },
+
+    "image#bannercolumna1.1-galeria-mighty-dragon": {
+        "props": {
+            "src": "/arquivos/Año-del-dragon-banner-2-desk.jpg"
+        }
+    },
+
+    //columna 2
+    "flex-layout.row#columna2-mighty-dragon": {
+        "title": "Columna 2 imagen 2 desktop",
+        "children": [
+            "image#bannercolumna2-galeria-mighty-dragon"
+        ],
+        "props": {
+            "blockClass": "banner-columna2-desk-migthy-dragon"
+        }
+    },
+
+    "image#bannercolumna2-galeria-mighty-dragon": {
+        "title": "Banner columna 2 dekstop",
+        "props": {
+            "src": "/arquivos/Año-del-dragon-banner-3-desk.jpg",
+            "alt": "Banner columna 2 mighty dragon"
+        }
+    }
+}
+
