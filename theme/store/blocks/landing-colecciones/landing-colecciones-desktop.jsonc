@@ -33,9 +33,9 @@
         "children": [
             "rich-text#titulo-landing-colecciones",
             "rich-text#titulo-landing-colecciones-seo",
+            "flex-layout.row#images-landing-colecciones-3",
             "flex-layout.row#images-landing-colecciones",
-            "flex-layout.row#images-landing-colecciones-2",
-            "flex-layout.row#images-landing-colecciones-3"
+            "flex-layout.row#images-landing-colecciones-2"
         ]
     },
 
