@@ -24,6 +24,10 @@
 
     "flex-layout.col#images-landing-colecciones": {
         "children": [
+            "flex-layout.col#landing-colecciones-image-9-mobile",
+            "flex-layout.col#landing-colecciones-image-10-mobile",
+            "flex-layout.col#landing-colecciones-image-11-mobile",
+            "flex-layout.col#landing-colecciones-image-12-mobile",
             "flex-layout.col#landing-colecciones-image-1-mobile",
             "flex-layout.col#landing-colecciones-image-2-mobile",
             "flex-layout.col#landing-colecciones-image-3-mobile",
@@ -31,11 +35,7 @@
             "flex-layout.col#landing-colecciones-image-5-mobile",
             "flex-layout.col#landing-colecciones-image-6-mobile",
             "flex-layout.col#landing-colecciones-image-7-mobile",
-            "flex-layout.col#landing-colecciones-image-8-mobile",
-            "flex-layout.col#landing-colecciones-image-9-mobile",
-            "flex-layout.col#landing-colecciones-image-10-mobile",
-            "flex-layout.col#landing-colecciones-image-11-mobile",
-            "flex-layout.col#landing-colecciones-image-12-mobile"
+            "flex-layout.col#landing-colecciones-image-8-mobile"
         ]
     },
 
