@@ -79,14 +79,14 @@
 }
 
 /*Estrategia envio gratis 16/02/2024*/
-.productHighlightWrapper [data-highlight-id="1692"]{
+/*.productHighlightWrapper [data-highlight-id="1692"]{
     width: 35px;
     height: 35px;
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url(/arquivos/flag-heritage-pilatos.png);
     display: block;
-}
+}*/
 
 /* activar cuando se acabe bancolombia de octubre 2023 */
 .productHighlightWrapper [data-highlight-id="1482"]{
