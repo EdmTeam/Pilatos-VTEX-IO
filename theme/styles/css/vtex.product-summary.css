@@ -54,24 +54,13 @@
   object-fit: cover !important;
 }
 
-@media only screen and (min-width: 1180px) {
-  .nameContainer {
-    margin: 1rem 0 0.9rem 0;
-  }
+.element {
+  position: relative;
+}
 
-  .nameContainer .nameWrapper {
-    height: 36px;
-  }
-
-  .nameContainer .nameWrapper .brandName {
-    font-size: 13px;
-    line-height: 140%;
-  }
-
-  .container--shelfSlide {
-    margin: 0 1rem;
-    max-width: 100% !important;
-  }
+.clearLink--shelfSlide {
+  padding: 0 0.5rem;
+  background: #ffffff;
 }
 
 @media only screen and (max-width: 760px) {
@@ -99,11 +88,25 @@
   }
 }
 
-.element {
-  position: relative;
-}
-
 @media only screen and (min-width: 1180px) {
+  .nameContainer {
+    margin: 1rem 0 0.9rem 0;
+  }
+
+  .nameContainer .nameWrapper {
+    height: 36px;
+  }
+
+  .nameContainer .nameWrapper .brandName {
+    font-size: 13px;
+    line-height: 140%;
+  }
+
+  .container--shelfSlide {
+    margin: 0 1rem;
+    max-width: 100% !important;
+  }
+
   .element--shelfSearch .nameContainer {
     margin: 0.2rem 0;
     min-height: 15px;
@@ -139,15 +142,11 @@
     color: #575756;
     text-transform: uppercase;
   }
-}
-
-.clearLink--shelfSlide {
-  padding: 0 0.5rem;
-  background: #ffffff;
-}
-
-@media screen and (min-width: 40em) {
+  
   .imageStackContainer {
     height: 500px;
   }
+}
+
+@media screen and (min-width: 40em) {  
 }

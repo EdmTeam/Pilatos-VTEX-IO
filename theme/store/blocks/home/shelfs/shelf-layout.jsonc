@@ -22,8 +22,8 @@
 
   "vtex.product-summary:list-context.product-list#most-viewed": {
     "blocks": [
-      //"vtex.product-summary:product-summary.shelf#most-viewed"
-      "vtex.product-summary:product-summary.shelf#new-vitrine"
+      "vtex.product-summary:product-summary.shelf#most-viewed"
+      //"vtex.product-summary:product-summary.shelf#new-vitrine"
     ],
     "children": ["slider-layout#home-shelf-most-viewed"],
     "props": {
@@ -46,6 +46,30 @@
       //     "mobile": "to-the-left",
       //     "desktop": "disabled"
       //   }
+    }
+  },
+  "flex-layout.row#most-viewed-landing-pilatos": {
+    "children": ["flex-layout.col#most-viewed-landing-pilatos"],
+    "props": {
+      "blockClass": "sliderContentShelf"
+    }
+  },
+  "flex-layout.col#most-viewed-landing-pilatos": {
+    "children": [
+      "rich-text#title-best-sellers",
+      "vtex.product-summary:list-context.product-list#most-viewed-landing-pilatos"
+    ]
+  },
+  "vtex.product-summary:list-context.product-list#most-viewed-landing-pilatos": {
+    "blocks": [
+      //"vtex.product-summary:product-summary.shelf#most-viewed"
+      "vtex.product-summary:product-summary.shelf#new-vitrine"
+    ],
+    "children": ["slider-layout#home-shelf-most-viewed"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "collection": "1222",
+      "maxItems": 30
     }
   }
 }

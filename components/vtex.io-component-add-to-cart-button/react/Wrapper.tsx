@@ -102,7 +102,7 @@ const Wrapper = withToast(function Wrapper(props: Props) {
       : 1
 
 
-  console.log('Sellerrrr', seller);
+  //console.log('Sellerrrr', seller);
 
 
   const skuItems = useMemo(

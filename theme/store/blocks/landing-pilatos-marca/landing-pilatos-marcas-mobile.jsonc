@@ -30,15 +30,17 @@
           "flex-layout.row#banner-search-mobile",
           "flex-layout.row#bread-crumb",
           "flex-layout.row#suggestion",
+          //"flex-layout.row#most-viewed",
+          "flex-layout.row#most-viewed-landing-pilatos",
           "responsive-layout.phone#landing-pilatos-marca-banners-2-phone",
           "responsive-layout.tablet#landing-pilatos-marca-banners-2-tablet",
-          "flex-layout.row#most-viewed",
           //"flex-layout.row#brands",
-          "flex-layout.row#product-count-mobile",
-
+          //"flex-layout.row#product-count-mobile",
           "flex-layout.row#search-info-mobile-landing-pilatos-marca",
+          "flex-layout.row#info-sec-mobile",
           "flex-layout.row#fetch-previous",
-          "flex-layout.row#content-mobile",
+          "flex-layout.row#result-pilatos",
+          //"flex-layout.row#content-mobile",
           "flex-layout.row#fetch-more"
           
 
@@ -272,5 +274,16 @@
             },
             "blockClass": "departmentBannerImg-5"
         }
-    }
+    },
+    "flex-layout.row#info-sec-mobile": {
+        "children": [
+          "flex-layout.col#product-count",
+          "gallery-layout-switcher"
+        ],
+        "props": {
+          "preserveLayoutOnMobile": true,
+          "fullWidth": true, 
+          "blockClass": "info-sec-mobile"
+        }
+      }
 }

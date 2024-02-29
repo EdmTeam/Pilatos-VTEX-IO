@@ -76,6 +76,7 @@
   margin: .5rem auto !important;
 }
 
+
 @media only screen and (min-width: 2100px) {
   .flexRow--search-in-deskNew{
     top: 160px !important;
@@ -97,14 +98,19 @@
   }
 
   .flexRow--search-in-mobile{
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
   }
 
+  .flexRowContent--search-in-mobile{
+    width: 95% !important;
+  }
+
+
   .flexRow--search-in-deskNew{
-    width: 30%;
+    width: 100%;
     margin: 0 auto;
-    position: sticky;
+   /*  position: sticky; */
     top: 4%;
     z-index: 1;
   }
@@ -688,6 +694,11 @@
   }
 }
 
+.flexRowContent--info-sec-mobile {
+  display: flex;
+  align-items: center;
+}
+
 /* Estilos a los banners secundarios */
 .flexRow--contentPromotionalBannerDesk{
   width: 80%;
@@ -746,6 +757,11 @@
 
   .flexCol--categoryBannerConterImg{
     margin: 0 1.2rem;
+  }
+
+  .flexRowContent--info-sec-mobile {
+    width: 95%;
+    margin: 0 auto;
   }
 }
 
@@ -1320,7 +1336,6 @@
 :global(.vtex-search-result-3-x-filterPopupArrowIcon){
   padding: 0 1rem;
   width: 5%;
-  display: none;
 }
 
 .flexCol--filterOrderBy{
@@ -1413,8 +1428,8 @@
 }
 
 .flexRowContent--search-in-mobile{
-  border: 1px solid #000000;
-  width: 88%;
+  border: 1px solid #D9D9D9;
+  width: 90%;
   margin: .8rem auto;
 }
 
@@ -1423,23 +1438,39 @@
 }
 
 .flexRowContent--search-in-deskNew{
-  border: 1px solid #000000;
   width: 88%;
   margin: .8rem auto;
-  background: #ffffffeb;
-
 }
 
-.flexRowContent--search-in-deskNew .stretchChildrenWidth{
-  width: 50% !important;
+.flexRowContent--search-in-deskNew .stretchChildrenWidth:last-child{
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
 
 .flexCol--filterMobileCol{
-  border-right: 1px solid #000000;
+  border-bottom: 1px solid #D9D9D9;
+  border-top: 1px solid #D9D9D9;
+  padding: 15px 20px;
+  align-items: flex-end;
+}
+
+.flexColChild--filterMobileCol {
+  width: max-content;
+  height: 100% !important;
+  border: 1px solid #545454;
 }
 
 .flexCol--orderByMobileCol{
-  border-right: 1px solid #000000;
+  border-right: none;
+  justify-content: center;
+  align-items: flex-end;
+  padding-right: 20px;
+}
+ 
+.flexColChild--orderByMobileCol {
+  width: max-content;
+  border: 1px solid #545454;
+  padding: 2px 0 2px 10px;
 }
 
 .flexCol--productView .flexRow--contentPromeses{
@@ -1453,6 +1484,13 @@
     margin-top: 37px!important;
     position: relative;
     top: 0px;
+  }
+}
+
+@media screen  and (max-width:740px) {
+  .flexCol--orderByMobileCol{
+    padding-right: 0px;
+    align-items: flex-start;
   }
 }
 @media only screen and (min-width: 1180px){
@@ -1504,6 +1542,14 @@
 
   .flexCol--orderByMobileCol{
     border-right: none;
+    border-bottom: 1px solid #D9D9D9;
+    border-top: 1px solid #D9D9D9;
+    padding: 15px 20px;
+    align-items: flex-start;
+  }
+  .flexColChild--orderByMobileCol {
+    width: max-content;
+    border: none;
   }
 
   :global(.vtex-search-result-3-x-gallery){
@@ -1516,8 +1562,8 @@
   }
 
   :global(.vtex-search-result-3-x-orderByButton){
-    border: 1px solid #D3D1D1;
-    padding: .8rem 0;
+    border: 1px solid #545454;
+    padding: 0.8rem 10px;;
   }
 
   .flexRowContent--search-in-mobile{
@@ -1526,11 +1572,11 @@
 
   .flexRowContent--search-in-deskNew{
     width: 100%;
-    background: #ffffffeb;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 
   :global(.vtex-search-result-3-x-filterMessage){
-    margin-bottom: 6.3rem;
     margin-left: 0;
     font-weight: 900;
   }
@@ -1585,6 +1631,9 @@
     margin-bottom: 5px;
     position: relative;
     left: 0px !important;
+  }
+  :global(.vtex-search-result-3-x-filterPopupTitle){
+    width: 100%;
   }
 }
 .flexRowContent--containerBotones {
@@ -3239,8 +3288,15 @@
 @media (max-width: 640px) {
   .flexColChild--formContainer-dsi{
     width: 100%;
-   box-shadow: 11px 8px 35px 0px rgba(0,0,0,0.10);
-  -webkit-box-shadow: 11px 8px 35px 0px rgba(0,0,0,0.10);
-  -moz-box-shadow: 11px 8px 35px 0px rgba(0,0,0,0.10);
+    box-shadow: 11px 8px 35px 0px rgba(0,0,0,0.10);
+    -webkit-box-shadow: 11px 8px 35px 0px rgba(0,0,0,0.10);
+    -moz-box-shadow: 11px 8px 35px 0px rgba(0,0,0,0.10);
+  }
 }
+
+@media screen and (min-width:741px) and (max-width:1023px) {
+  .flexCol--filterMobileCol {
+    align-items: flex-start;
+  }
+  
 }

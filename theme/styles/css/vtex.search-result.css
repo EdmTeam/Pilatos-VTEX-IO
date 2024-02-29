@@ -100,20 +100,106 @@
     margin: 0 auto;
 }
 
-.searchResultContainer .totalProducts--layout{
-    display: inline;
+.searchResultContainer .totalProducts--layout {
+    display: flex;
+    justify-content: flex-end;
     color: #828282;
     text-transform: capitalize;
     font-size: 12px;
+    padding-right: 2rem;
 }
 
-@media (max-width: 700px){
+.galleryLayoutSwitcher {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.galleryLayoutSwitcher::before {
+    content: "Ver:";
+    font-size: 14px;
+    line-height: 15px;
+    font-weight: 400;
+    color: #000;
+    margin-top: 1rem;
+}
+
+.galleryLayoutOptionButton {
+    height: 50px;
+    margin-top: 1rem;
+}
+
+.galleryLayoutOptionButton :global(.vtex-store-icons-0-x-gridIcon),
+.galleryLayoutOptionButton :global(.vtex-store-icons-0-x-inlineGridIcon),
+.galleryLayoutOptionButton :global(.vtex-rich-text-0-x-wrapper--layout-option) {
+    display: none;
+}
+
+.galleryLayoutOptionButton :global(.vtex-rich-text-0-x-container--layout-option)::after {
+    content: url("/arquivos/switcher-grid2-l-desktop-pilatos.png");
+    filter: invert(145%) sepia(2%) saturate(11%) hue-rotate(24deg) brightness(132%) contrast(80%);
+}
+.galleryLayoutOptionButton:last-child :global(.vtex-rich-text-0-x-container--layout-option)::after {
+    content: url("/arquivos/switcher-list-l-pilatos.png");
+    filter: none;
+}
+
+.galleryLayoutOptionButton--selected {
+    border: 1px solid #545454;
+    padding: 0 10px;
+}
+
+.galleryLayoutOptionButton--selected :global(.vtex-rich-text-0-x-container--layout-option)::after {
+    filter: none;
+}
+.galleryLayoutOptionButton--selected:last-child :global(.vtex-rich-text-0-x-container--layout-option)::after {
+    filter: invert(70%) sepia(0%) saturate(0%) hue-rotate(244deg) brightness(89%) contrast(85%);
+}
+
+@media only screen and (min-width: 740px) and (max-width:1025px){
+    .searchResultContainer .totalProducts--layout {
+        justify-content: flex-start;
+        padding-left: 1rem;
+    }
+}
+
+@media (max-width: 740px){
     .vtex-search-result-3-x-totalProducts--layout {
         justify-content: normal;
-        display: flex;
         padding: 0 3%;
         background: red;
         width: 800px;
+    }
+    .galleryLayoutOptionButton :global(.vtex-rich-text-0-x-container--layout-option)::after {
+        content: url("/arquivos/switcher-grid2-l-mobile-pilatos.png");
+    }
+    .galleryLayoutOptionButton:last-child :global(.vtex-rich-text-0-x-container--layout-option)::after {
+        content: url("/arquivos/switcher-list2-l-mobile-pilatos.png");
+    }
+    .searchResultContainer .totalProducts--layout {
+        justify-content: flex-start;
+        padding-left: 2rem;
+    }
+    .galleryLayoutSwitcher {
+        justify-content: flex-start;
+        flex-direction: row-reverse;
+        margin-top: 0;
+        margin-right: 1.5rem;
+        gap: 5px;
+    }
+    .galleryLayoutSwitcher::before {
+        display: none;
+    }
+
+    .galleryLayoutSwitcher::after {
+        content: "Ver:";
+        font-size: 14px;
+        line-height: 15px;
+        font-weight: 400;
+        color: #000;
+        margin-top: 1rem;
     }
 
 }
@@ -219,3 +305,10 @@
 display: none;
 }
 
+.orderByButton :global(.vtex-search-result-3-x-caretIcon) {
+    color: #000;
+}
+
+.orderByOptionsContainer {
+    z-index: 9999;
+}

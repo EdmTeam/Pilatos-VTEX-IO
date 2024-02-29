@@ -60,6 +60,7 @@
     padding: 10px;
     background: #FFD400 !important;
     border-radius: 50%;
+    z-index: 9;
 }
 
 .paginationDotsContainer{
@@ -154,7 +155,7 @@
 }
 
 :global(.vtex-flex-layout-0-x-flexRowContent--sliderContentShelf) .sliderArrows{
-    top: 25%;
+    top: 200px;
 }
 
 :global(.vtex-flex-layout-0-x-flexRowContent--sliderContentShelf) .sliderRightArrow{

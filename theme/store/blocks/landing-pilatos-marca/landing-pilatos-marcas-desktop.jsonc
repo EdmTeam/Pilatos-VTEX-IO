@@ -29,7 +29,8 @@
   "responsive-layout.desktop#landing-pilatos-marca-banners": {
     "children": [
       "flex-layout.col#landing-pilatos-marca-banners-1",
-      "flex-layout.row#most-viewed",
+      //"flex-layout.row#most-viewed",
+      "flex-layout.row#most-viewed-landing-pilatos",
       "flex-layout.row#landing-pilatos-marca-banners-2"
       //  "flex-layout.row#brands"
     ]
@@ -59,8 +60,7 @@
         "orderByField": "OrderByTopSaleDESC",
         "hideUnavailableItems": true,
         "maxItemsPerPage": 48,
-        "queryField": "pilatos",
-        "mapField": "b"
+        "queryField": "pilatos"
       }
     }
   },

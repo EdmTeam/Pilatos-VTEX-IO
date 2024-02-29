@@ -166,6 +166,7 @@
     "children":[
       "vtex.store-components:product-brand",
       "vtex.store-components:product-name",
+      "manufacturercode",
       "flex-layout.row#product-identifier-rating"
 
     ],

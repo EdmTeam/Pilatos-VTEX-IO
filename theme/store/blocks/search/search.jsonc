@@ -430,29 +430,41 @@
     "props": {
       "layouts": [
         {
-          "name": "whole",
-          "component": "OneOrTwoLineSummary",
+          "name": "grid",
+          "component": "GridSummary",
           "itemsPerRow": {
             "(min-width:1008px)": 4,
-            "(min-width:623px) and (max-width:1007px)": 3,
-            "(max-width:622px)": 2
+            "(min-width:741px) and (max-width:1007px)": 4,
+            "(max-width:740px)": 2
+          }
+        },
+        {
+          "name": "list",
+          "component": "ListSummary",
+          "itemsPerRow": {
+            "(min-width:1008px)": 3,
+            "(min-width:741px) and (max-width:1007px)": 3,
+            "(max-width:740px)": 1
           }
         }
       ],
-      "OneOrTwoLineSummary": "vtex.product-summary:product-summary.shelf#new-vitrine"
+      "ListSummary": "vtex.product-summary:product-summary.shelf#search",
+      "GridSummary": "vtex.product-summary:product-summary.shelf#search"
     },
-    "blocks": ["vtex.product-summary:product-summary.shelf#new-vitrine"]
+    "blocks": [
+      "vtex.product-summary:product-summary.shelf#search"
+    ]
   },
   "vtex.product-summary:product-summary.shelf#search": {
     "children": [
+      //"flex-layout.row#add-to-cart"
       "product-price-savings#summary",
       "stack-layout#prodsum",
       "vtex.product-summary:product-summary-brand",
       "vtex.product-summary:product-summary-name",
+            "flex-layout.row#price",
       "vtex.product-summary:product-summary-space",
-      "product-list-price",
-      "product-selling-price#summary"
-      //"flex-layout.row#add-to-cart"
+      "flex-layout.row#sku-btn"
     ]
   }
 }

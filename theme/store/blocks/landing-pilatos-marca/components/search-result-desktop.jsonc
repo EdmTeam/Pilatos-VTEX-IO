@@ -94,8 +94,8 @@
           "component": "GridSummary",
           "itemsPerRow": {
             "(min-width:1008px)": 4,
-            "(min-width:623px) and (max-width:1007px)": 3,
-            "(max-width:622px)": 2
+            "(min-width:741px) and (max-width:1007px)": 4,
+            "(max-width:740px)": 2
           }
         },
         {
@@ -103,8 +103,8 @@
           "component": "ListSummary",
           "itemsPerRow": {
             "(min-width:1008px)": 3,
-            "(min-width:623px) and (max-width:1007px)": 3,
-            "(max-width:622px)": 2
+            "(min-width:741px) and (max-width:1007px)": 3,
+            "(max-width:740px)": 1
           }
         }
       ],
