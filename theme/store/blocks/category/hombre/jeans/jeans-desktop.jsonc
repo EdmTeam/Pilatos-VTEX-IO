@@ -22,10 +22,10 @@
         "children":[
             "rich-text#category-jeans-hombre-bread-crumb",
             "rich-text#category-jeans-hombre-title",
-            "rich-text#category-jeans-hombre-description",
-            "responsive-layout.desktop#category-jeans-hombre-banners",
-            "responsive-layout.phone#category-jeans-hombre-banners",
-            "responsive-layout.tablet#category-jeans-hombre-banners"
+            "rich-text#category-jeans-hombre-description"
+            //"responsive-layout.desktop#category-jeans-hombre-banners",
+            //"responsive-layout.phone#category-jeans-hombre-banners",
+            //"responsive-layout.tablet#category-jeans-hombre-banners"
         ]
     },
 

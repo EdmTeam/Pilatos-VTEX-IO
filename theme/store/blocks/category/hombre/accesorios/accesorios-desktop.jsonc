@@ -22,10 +22,10 @@
         "children":[
             "rich-text#category-accesorios-hombre-bread-crumb",
             "rich-text#category-accesorios-hombre-title",
-            "rich-text#category-accesorios-hombre-description",
-            "responsive-layout.desktop#category-accesorios-hombre-banners",
-            "responsive-layout.phone#category-accesorios-hombre-banners",
-            "responsive-layout.tablet#category-accesorios-hombre-banners"
+            "rich-text#category-accesorios-hombre-description"
+            //"responsive-layout.desktop#category-accesorios-hombre-banners",
+            //"responsive-layout.phone#category-accesorios-hombre-banners",
+            //"responsive-layout.tablet#category-accesorios-hombre-banners"
         ]
     },
 

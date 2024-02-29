@@ -1,0 +1,98 @@
+{
+    "store.custom#landing-template-sale": {
+        "blocks": [
+            "flex-layout.row#templateBotonesGeneroSale",
+            "search-result-layout.customQuery#department-nuevo"
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
+    },
+
+    "flex-layout.row#templateBotonesGeneroSale": {
+        "children":[
+            "flex-layout.col#templateGeneroSale"
+
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+
+
+    "flex-layout.col#templateGeneroSale":{
+        "title": "Contenedor landing género sale",
+        "children":[
+            "rich-text#department-templateGeneroNuevo-bread-sale",
+            //"rich-text#department-templateGeneroNuevo-description-sale"
+            "responsive-layout.desktop#templateBotonesGenero-desk",
+            "responsive-layout.mobile#templateBotonesGenero-mobile",
+            "flex-layout.row#templateSaleBotonesGenero"
+        ]
+    },
+
+    "flex-layout.row#templateSaleBotonesGenero": {
+        "children": [
+            "flex-layout.col#templateSaleBotonesGenero"
+        ]
+    },
+
+    "flex-layout.col#templateSaleBotonesGenero": {
+        "children": [
+            "rich-text#department-templateGeneroNuevo-title-sale",
+            "flex-layout.row#botones-templateBotonesGeneroBtnsSale",
+            "rich-text#columnaVacia"
+        ],
+        "props": {
+            "blockClass": "titulo-botones-sale-template"
+        }
+    },
+
+    "rich-text#department-templateGeneroNuevo-bread-sale": {
+        "title": "Bread crumb",
+        "props":{
+            "text": "[Home](/) / [**Pilatos**](/pilatos)",
+            "blockClass": "departmentBreadCrumb"
+        }
+    },
+
+    "rich-text#department-templateGeneroNuevo-title-sale": {
+        "title": "Titulo SEO",
+        "props":{
+            "text": "# Pilatos",
+            "blockClass": ["departmentTitle", "departmentTitleSaleTemplate"]
+        }
+    },
+
+    "rich-text#department-templateGeneroNuevo-description-sale": {
+        "title": "SEO CORTO",
+        "props":{
+            "text": "Contamos con nuestra **propia línea de ropa Pilatos** que trae nuevas cápsulas mes a mes, como Olímpicos, inspirada en los elementos típicos de los Juegos Olímpicos y Tokio como ciudad anfitriona. Encuentra diseños exclusivos de ropa para mujer y hombre en un solo lugar, camisetas, buzos y chaquetas, jeans y accesorios, perfectos para innovar y renovar tu clóset.",
+            "blockClass": "departmentDescription"
+        }
+    },
+
+
+
+    //Botones
+    "flex-layout.row#botones-templateBotonesGeneroBtnsSale": {
+        "children": [
+            "flex-layout.col#botones-templateBotonesGeneroBtnsSale"
+        ]
+    },
+    "flex-layout.col#botones-templateBotonesGeneroBtnsSale": {
+        "children": [
+            "rich-text#btnsGeneroNuevo-boton1",
+            "rich-text#btnsGeneroNuevo-boton2"
+        ],
+        "props": {
+            "blockClass": "botones-nuevo-template-sale"
+        }
+    },
+
+    "rich-text#columnaVacia": {
+        "props": {
+            "text": ""
+        }
+    }
+}
