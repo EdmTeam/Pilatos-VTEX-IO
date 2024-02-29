@@ -3380,3 +3380,29 @@ width: 88%;
 .flexRow--contenedor-looks-mighty-dragon {
   margin-bottom: 50px;
 }
+
+/*template sale*/
+.flexCol--titulo-botones-sale-template {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* .flexColChild--titulo-botones-sale-template {
+  width: 35%;
+} */
+
+.flexCol--botones-nuevo-template-sale {
+  flex-direction: row;
+  align-items: center;
+  margin-right: 15%;
+}
+
+@media (max-width: 500px) {
+  .flexCol--titulo-botones-sale-template {
+    flex-direction: column;
+  }
+  .flexCol--botones-nuevo-template-sale {
+    margin-right: 0;
+  }
+}

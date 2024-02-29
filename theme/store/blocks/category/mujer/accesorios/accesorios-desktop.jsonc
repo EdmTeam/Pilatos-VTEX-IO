@@ -22,10 +22,10 @@
         "children":[
             "rich-text#category-accesorios-mujer-bread-crumb",
             "rich-text#category-accesorios-mujer-title",
-            "rich-text#category-accesorios-mujer-description",
-            "responsive-layout.desktop#category-accesorios-mujer-banners",
-            "responsive-layout.phone#category-accesorios-mujer-banners",
-            "responsive-layout.tablet#category-accesorios-mujer-banners"
+            "rich-text#category-accesorios-mujer-description"
+            //"responsive-layout.desktop#category-accesorios-mujer-banners",
+           // "responsive-layout.phone#category-accesorios-mujer-banners",
+            //"responsive-layout.tablet#category-accesorios-mujer-banners"
         ]
     },
 
