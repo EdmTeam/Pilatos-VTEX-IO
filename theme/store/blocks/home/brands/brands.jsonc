@@ -60,7 +60,10 @@
       "image#brand-28",
       "image#brand-32",
       "image#brand-33",
-      "image#brand-34"
+      "image#brand-34",
+      "image#brand-35",
+      "image#brand-36",
+      "image#brand-37"
     ]
   },
   "image#brand-1": {
@@ -253,8 +256,7 @@
       "src": "/arquivos/ap-crown-logo.jpg",
       "link": {
         "url": "/ap-crown"
-      },
-      "maxWidth": "150px"
+      }
     }
   },
   "image#brand-34": {
@@ -264,6 +266,30 @@
         "url": "/pepe-jeans"
       },
       "maxWidth": "150px"
+    }
+  },
+  "image#brand-35": {
+    "props": {
+      "src": "/arquivos/LOGO-SUPERGA-200X200.jpg",
+      "link": {
+        "url": "/superga"
+      }
+    }
+  },
+  "image#brand-36": {
+    "props": {
+      "src": "/arquivos/IDENTIFICADOR-100.jpg",
+      "link": {
+        "url": "/jansport"
+      }
+    }
+  },
+  "image#brand-37": {
+    "props": {
+      "src": "/arquivos/logo 200x200.jpg",
+      "link": {
+        "url": "/kappa"
+      }
     }
   }
 }

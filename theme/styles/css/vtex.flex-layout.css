@@ -62,7 +62,7 @@
 .flexRowContent--contentItem1{
   padding: 1rem 13px 1rem 13px;
   background: #000000;
-  margin-top: 8.5rem;
+  margin-top: 17rem;
   position: relative;
   display: block;
 }
@@ -964,7 +964,7 @@
   margin: 0 auto;
   height: auto;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
-  top: -6.4rem;
+  top: -16.4rem;
 }
 
 .flexCol--contentNewsletterMobile{
@@ -988,7 +988,9 @@
 
 .flexColChild--contentNewsletter :global(.vtex-styleguide-9-x-input)::placeholder{
   font-weight: normal;
-  font-size: 11px;
+  /*font-size: 11px;*/
+  /**formulario primera compra form**/
+  font-size: 1rem;
   line-height: 14px;
   letter-spacing: 0.01em;
   color: #000000;
@@ -1014,11 +1016,15 @@
 }
 
 .flexColChild--contentNewsletter :global(.vtex-button__label){
-  display: none;
+  /* display: none; */
+  display: block;
+  font-family: Mulish;
+  font-weight: 400;
 }
 
 .flexColChild--contentNewsletter :global(.vtex-checkbox__line-container){
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
+  margin-top: 0;
 }
 
 .flexColChild--contentNewsletter :global(.vtex-checkbox__label){
@@ -1043,15 +1049,23 @@
 
 @media only screen and (min-width: 740px){
   .flexRow--contentFooter{
-    margin-top: 9rem;
+    /* margin-top: 9rem; */
+    margin-top: 22rem;
   }
 
   .flexCol--contentNewsletter{
     width: 61.3% !important;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
-    top: -7.7rem;
+    /* top: -7.7rem; */
+    top: -22rem;
     left: 50%;
     transform: translateX(-50%);
+  }
+
+  @media screen and (max-width: 1023px) {
+    .flexCol--contentNewsletter {
+      top: -17rem;
+    }
   }
 
   .flexCol--contentInput{
@@ -1062,7 +1076,7 @@
   }
 
   .flexCol--contentInput :global(.vtex-store-form-0-x-formSubmitContainer){
-    position: absolute;
+    /*position: absolute;*/
     top: 10px;
     right: 0;
     width: 38%;
@@ -1071,7 +1085,8 @@
   .flexColChild--contentNewsletter :global(.vtex-checkbox__line-container){
     width: 65%;
     margin: 0 auto;
-    margin-top: 10px;
+    /* margin-top: 10px; */
+    margin-top: 0;
   }
 
   .flexRowContent--contentSocialMedia{
@@ -1386,7 +1401,8 @@
 }
 
 :global(.vtex-checkbox__line-container){
-  margin-bottom: .5rem;
+  /* margin-bottom: .5rem; */
+  margin-bottom: 0;
 }
 
 :global(.vtex-search-result-3-x-filterTemplateOverflow){
@@ -2380,7 +2396,8 @@
 }
 
 .flexColChild--contentNewsletterMobile :global(.vtex-store-form-0-x-formSubmitButton){
-  width: 45%;
+  /*width: 45%;*/
+  width: 100%;
 }
 
 .flexCol--contentNewsletterModal{
@@ -3405,4 +3422,17 @@ width: 88%;
   .flexCol--botones-nuevo-template-sale {
     margin-right: 0;
   }
+}
+
+/*FORM PRIMERA COMPRA*/
+.flexCol--checkboxLabel-form-primeracompra {
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  margin-top: 1rem;
+}
+
+
+.flexColChild--contentNewsletter :global(.vtex-button)::after {
+  content: "" !important;
 }

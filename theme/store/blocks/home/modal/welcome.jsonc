@@ -40,8 +40,7 @@
             "form-input.text#welcome-form-email",
             "form-input.text#welcome-form-birthday",
             "form-input.text#welcome-form-phone",
-            "rich-text#welcome-read-politics",
-            "form-input.checkbox#welcome-form-terms",
+            "flex-layout.row#contenedor-checkbox-primeracompra",
             "form-submit#welcome-form-submit"
         ],
         "blocks": [
@@ -76,6 +75,23 @@
             "placeholder": "Ingresa tu número de celular"
         }
     },
+
+    "flex-layout.row#contenedor-checkbox-primeracompra": {
+        "children": [
+            "flex-layout.col#contenedor-checkbox-primeracompra"
+        ]
+    },
+
+    "flex-layout.col#contenedor-checkbox-primeracompra": {
+        "children": [
+            "form-input.checkbox#welcome-form-terms",
+            "rich-text#welcome-read-politics"
+        ],
+        "props": {
+            "blockClass": "checkboxLabel-form-primeracompra"
+        }
+    },
+
     "rich-text#welcome-read-politics": {
         "props": {
             "text": "Leer [política de datos](/politicas) y [términos y condiciones](/terminos-condiciones)",
@@ -87,7 +103,7 @@
     },"form-input.checkbox#welcome-form-terms": {
         "props": {
             "pointer": "#/properties/terms",
-            "label": "Acepto política de datos y términos y condiciones"
+            "label": ""
         }
     },"form-submit#welcome-form-submit": {
         "props": {
