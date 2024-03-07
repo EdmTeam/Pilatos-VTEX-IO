@@ -54,14 +54,15 @@
     /*FORMULARIO PRIMERA COMPRA****/
     "form#primeracompra": {
         "props": {
-            "entity": "WE",
-            "schema": "popupbienvenida"
+            "entity": "PC",
+            "schema": "formularioprimeracompra"
         },
         "children": [
             "form-input.text#welcome-form-name",
             "form-input.text#welcome-form-email",
             "form-input.text#welcome-form-birthday",
             "form-input.text#welcome-form-phone",
+            "form-input.text#welcome-form-cedula",
             "flex-layout.row#contenedor-checkbox-primeracompra",
             "form-submit#primeracompra-form-submit"
         ],

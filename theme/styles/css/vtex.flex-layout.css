@@ -62,7 +62,7 @@
 .flexRowContent--contentItem1{
   padding: 1rem 13px 1rem 13px;
   background: #000000;
-  margin-top: 17rem;
+  margin-top: 20rem;
   position: relative;
   display: block;
 }
@@ -1064,7 +1064,8 @@
 
   @media screen and (max-width: 1023px) {
     .flexCol--contentNewsletter {
-      top: -17rem;
+      /*top: -17rem;*/
+      top: -19rem;
     }
   }
 
@@ -3435,4 +3436,14 @@ width: 88%;
 
 .flexColChild--contentNewsletter :global(.vtex-button)::after {
   content: "" !important;
+}
+
+
+@media only screen and (max-width: 639px) {
+  .flexRowContent--contentItem1 {
+    margin-top: 20rem;
+  }
+  .flexCol--contentNewsletter {
+    top: -18rem;
+  }
 }
