@@ -146,7 +146,8 @@
 /* Estiolos personalizados footer*/
 .container--titleItemsfooter {
   justify-content: center;
-  margin-top: 11.3rem;
+  /*margin-top: 11.3rem;*/
+  margin-top: 13rem;
 }
 
 .paragraph--titleItemsfooter {
@@ -3484,4 +3485,11 @@ margin: 2px;
 .paragraph--titulo-mighty-dragon {
   font-weight: bold;
   font-size: 24px;
+}
+
+/***form primera compra***/
+.paragraph--form-succes-primera-compra {
+  background-color: #FFD400;
+  padding: 20px;
+  font-weight: bold;
 }

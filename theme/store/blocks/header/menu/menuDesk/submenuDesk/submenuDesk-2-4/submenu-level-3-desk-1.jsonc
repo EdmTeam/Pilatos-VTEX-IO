@@ -62,8 +62,11 @@
             "rich-text#submenu-desk-department-4-category-20", //quiksilver
             "rich-text#submenu-desk-department-4-category-41",
             "rich-text#submenu-desk-department-4-category-37", //ap crown
-            "rich-text#submenu-desk-department-4-category-16-sin-texto",
-            "rich-text#submenu-desk-department-4-category-28" //alpinestar
+            "rich-text#submenu-desk-department-4-category-56", //superga
+            "rich-text#submenu-desk-department-4-category-28", //alpinestar
+            "rich-text#submenu-desk-department-4-category-47", //jansport
+            "rich-text#submenu-desk-department-4-category-0", //vacío
+            "rich-text#submenu-desk-department-4-category-57" //kappa
 
 
         ],
@@ -75,9 +78,39 @@
         }
     },
 
-    "rich-text#submenu-desk-department-4-category-16-sin-texto":{
+    "rich-text#submenu-desk-department-4-category-0": {
         "props":{
             "text": " ",
+            "blockClass": [
+              "textSubcategory"
+
+            ]
+        }
+    },
+
+    "rich-text#submenu-desk-department-4-category-56":{
+        "props":{
+            "text": "[Superga](/superga)",
+            "blockClass": [
+              "textSubcategory"
+
+            ]
+        }
+    },
+
+    "rich-text#submenu-desk-department-4-category-47":{
+        "props":{
+            "text": "[Jansport](/jansport)",
+            "blockClass": [
+              "textSubcategory"
+
+            ]
+        }
+    },
+
+    "rich-text#submenu-desk-department-4-category-57":{
+        "props":{
+            "text": "[Kappa](/kappa)",
             "blockClass": [
               "textSubcategory"
 

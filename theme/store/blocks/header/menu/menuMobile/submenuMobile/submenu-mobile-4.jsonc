@@ -43,7 +43,10 @@
             "rich-text#submenu-level-2-item-16-row-7",
             "rich-text#submenu-level-2-item-23-row-7",
             "rich-text#submenu-level-2-item-36-row-7",
-            "rich-text#submenu-level-2-item-39-row-7"
+            "rich-text#submenu-level-2-item-39-row-7",
+            "rich-text#submenu-level-2-item-40-row-7",//superga
+            "rich-text#submenu-level-2-item-41-row-7",//jasnsport
+            "rich-text#submenu-level-2-item-42-row-7"//kappa
         ],
         "props": {
             "blockClass": [
@@ -91,6 +94,34 @@
     },
 
     //Marcas
+    "rich-text#submenu-level-2-item-40-row-7":{
+        "props":{
+            "text": "[Superga](/superga)",
+            "blockClass": [
+                "contentSubMenuAcordeon",
+                "textSubcategoryPilatos"
+            ]
+        }
+    },
+    "rich-text#submenu-level-2-item-41-row-7":{
+        "props":{
+            "text": "[Jansport](/jansport)",
+            "blockClass": [
+                "contentSubMenuAcordeon",
+                "textSubcategoryPilatos"
+            ]
+        }
+    },
+    "rich-text#submenu-level-2-item-42-row-7":{
+        "props":{
+            "text": "[Kappa](/kappa)",
+            "blockClass": [
+                "contentSubMenuAcordeon",
+                "textSubcategoryPilatos"
+            ]
+        }
+    },
+
     "rich-text#submenu-level-2-item-1-row-7":{
         "props":{
             "text": "[Pilatos](/pilatos)",
