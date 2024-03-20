@@ -23,9 +23,9 @@
               {
                   "brands": ["2000095"],
                   "categories": ["91"],
-                  "imageDesktop": "/arquivos/Pilatos-GuiaKids-Desktop.jpg",
-                  "imageTablet": "/arquivos/Pilatos-GuiaKids-Desktop.jpg",
-                  "imagePhone": "/arquivos/Pilatos-GuiaKids-Mobile.jpg"
+                  "imageDesktop": "/arquivos/NewBalance-GuiaTallas-ninos-4-11-unisex.jpg",
+                  "imageTablet": "/arquivos/NewBalance-GuiaTallas-ninos-4-11-unisex.jpg",
+                  "imagePhone": "/arquivos/NewBalance-GuiaTallas-ninos-4-11-unisex.jpg"
               }
           ]
         }
@@ -95,9 +95,9 @@
               {
                   "brands": ["2000095"],
                   "categories": ["44"],
-                  "imageDesktop": "/arquivos/Newbalance---mujer-zapato.jpg",
-                  "imageTablet": "/arquivos/Newbalance-mujer-zapato-largo.jpg",
-                  "imagePhone": "/arquivos/Newbalance-mujer-zapato-largo.jpg"
+                  "imageDesktop": "/arquivos/NewBalance-GuiaTallas-calzado-mujer.jpg",
+                  "imageTablet": "/arquivos/NewBalance-GuiaTallas-calzado-mujer.jpg",
+                  "imagePhone": "/arquivos/NewBalance-GuiaTallas-calzado-mujer.jpg"
               }
           ]
         }
@@ -637,9 +637,9 @@
               {
                   "brands": ["2000095"],
                   "categories": ["3"],
-                  "imageDesktop": "/arquivos/Newbalance--Hombre-zapato.jpg",
-                  "imageTablet": "/arquivos/Newbalance-hombre-zapato-largo.jpg",
-                  "imagePhone": "/arquivos/Newbalance-hombre-zapato-largo.jpg"
+                  "imageDesktop": "/arquivos/NewBalance-GuiaTallas-calzado-hombre.jpg",
+                  "imageTablet": "/arquivos/NewBalance-GuiaTallas-calzado-hombre.jpg",
+                  "imagePhone": "/arquivos/NewBalance-GuiaTallas-calzado-hombre.jpg"
               }
           ]
         }
@@ -826,4 +826,5 @@
                 ]
               }
             }
+
 }
