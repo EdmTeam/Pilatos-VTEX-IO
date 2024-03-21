@@ -114,7 +114,7 @@
       "image#logo-pilatoss"
     ],
     "props": {
-      "width": "50%",
+      //"width": "50%",
       "blockClass": "contentLogo"
     }
   },

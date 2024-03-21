@@ -2,7 +2,8 @@
     "store.custom#landing-new-balance":{
         "blocks":[
             "flex-layout.row#banner-landing-new-balance",
-            "search-result-layout.customQuery#landing-marcas"
+            //"search-result-layout.customQuery#landing-marcas"
+            "search-result-layout.customQuery#landing-new-balance"
                 ],
         "props":{
             "blockClass": "contentStoreCustom"

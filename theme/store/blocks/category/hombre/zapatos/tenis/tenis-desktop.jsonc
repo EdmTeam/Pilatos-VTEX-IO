@@ -2,10 +2,7 @@
     "store.custom#category-tenis-hombre":{
         "blocks":[
             "flex-layout.row#banner-category-tenis-hombre",
-            "search-result-layout.customQuery#category-tenis-hombre",
-            "responsive-layout.desktop#category-tenis-hombre-banners",
-            "responsive-layout.phone#category-tenis-hombre-banners",
-            "responsive-layout.tablet#category-tenis-hombre-banners"
+            "search-result-layout.customQuery#category-tenis-hombre"
         ],
         "props":{
             "blockClass": "contentStoreCustom"
@@ -27,12 +24,6 @@
             "rich-text#category-tenis-hombre-title",
             "rich-text#category-tenis-hombre-description"
 
-        ]
-    },
-
-    "responsive-layout.desktop#category-tenis-hombre-banners":{
-        "children":[
-            "flex-layout.row#category-tenis-hombre-banners-1"
         ]
     },
 
@@ -71,50 +62,6 @@
                 "skusFilter": "ALL",
                 "mapField": "category-1"
             }
-        }
-    },
-
-    "flex-layout.row#category-tenis-hombre-banners-1":{
-        "children":[
-            "image#category-tenis-hombre-banners-1-img-1",
-            "image#category-tenis-hombre-banners-1-img-2",
-            "image#category-tenis-hombre-banners-1-img-3"
-        ],
-        "props":{
-            "blockClass":"contentCategoryBannersDesk"
-        }
-    },
-
-    "image#category-tenis-hombre-banners-1-img-1": {
-        "props": {
-            "src": "/arquivos/Categorias_hombre_Banner_buzos_Desktop.jpg",
-            "link": {
-                "url": "/hombre/ropa/chaquetas",
-                "attributeTitle": ""
-            },
-            "blockClass": "departmentBannerImg-1"
-        }
-    },
-
-    "image#category-tenis-hombre-banners-1-img-2": {
-        "props": {
-            "src": "/arquivos/Categorias_hombre_Banner_camisetas_Desktop.jpg",
-            "link": {
-                "url": "/hombre/ropa/camisetas",
-                "attributeTitle": ""
-            },
-            "blockClass": "departmentBannerImg-2"
-        }
-    },
-
-    "image#category-tenis-hombre-banners-1-img-3": {
-        "props": {
-            "src": "/arquivos/Categorias_hombre_Banner_deportiva_Desktop.jpg",
-            "link": {
-                "url": "/hombre/ropa/sudaderas",
-                "attributeTitle": ""
-            },
-            "blockClass": "departmentBannerImg-3"
         }
     }
 }

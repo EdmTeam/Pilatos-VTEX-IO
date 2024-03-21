@@ -3447,3 +3447,21 @@ width: 88%;
     top: -18rem;
   }
 }
+
+/***Landing de francques**/
+.flexRowContent--banners-hym-francques {
+  display: flex;
+  gap: 12px;
+}
+
+.flexRowContent--organique-francques-banner, .flexRowContent--banners-hym-francques {
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 450px) {
+  .flexRowContent--banners-hym-francques {
+    width: 95%;
+    margin: 0 auto;
+  }
+}

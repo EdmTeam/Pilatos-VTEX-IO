@@ -2,10 +2,7 @@
     "store.custom#category-jeans-mujer":{
         "blocks":[
             "flex-layout.row#banner-category-jeans-mujer",
-            "search-result-layout.customQuery#category-jeans-mujer",
-            "responsive-layout.desktop#category-jeans-mujer-banners",
-            "responsive-layout.phone#category-jeans-mujer-banners",
-            "responsive-layout.tablet#category-jeans-mujer-banners"
+            "search-result-layout.customQuery#category-jeans-mujer"
         ],
         "props":{
             "blockClass": "contentStoreCustom"
@@ -27,12 +24,6 @@
             "rich-text#category-jeans-mujer-title",
             "rich-text#category-jeans-mujer-description"
 
-        ]
-    },
-
-    "responsive-layout.desktop#category-jeans-mujer-banners":{
-        "children":[
-            "flex-layout.row#category-jeans-mujer-banners-1"
         ]
     },
 
@@ -71,50 +62,6 @@
                 "skusFilter": "ALL",
                 "mapField": "category-1"
             }
-        }
-    },
-
-    "flex-layout.row#category-jeans-mujer-banners-1":{
-        "children":[
-            "image#category-jeans-mujer-banners-1-img-1",
-            "image#category-jeans-mujer-banners-1-img-2",
-            "image#category-jeans-mujer-banners-1-img-3"
-        ],
-        "props":{
-            "blockClass":"contentCategoryBannersDesk"
-        }
-    },
-
-    "image#category-jeans-mujer-banners-1-img-1": {
-        "props": {
-            "src": "/arquivos/BANNER_categoria_mujer_cosmetiquerasyestuches_dektop.jpg",
-            "link": {
-                "url": "/",
-                "attributeTitle": ""
-            },
-            "blockClass": "departmentBannerImg-1"
-        }
-    },
-
-    "image#category-jeans-mujer-banners-1-img-2": {
-        "props": {
-            "src": "/arquivos/BANNER_categoria_mujer_ropadebano_desktop.jpg",
-            "link": {
-                "url": "/mujer/ropa-de-playa",
-                "attributeTitle": ""
-            },
-            "blockClass": "departmentBannerImg-2"
-        }
-    },
-
-    "image#category-jeans-mujer-banners-1-img-3": {
-        "props": {
-            "src": "/arquivos/BANNER_categoria_mujer_tenis_desktop.jpg",
-            "link": {
-                "url": "/",
-                "attributeTitle": ""
-            },
-            "blockClass": "departmentBannerImg-3"
         }
     }
 }

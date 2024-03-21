@@ -23,18 +23,8 @@
             "rich-text#category-zapatos-mujer-bread-crumb",
             "rich-text#category-zapatos-mujer-title",
             "rich-text#category-zapatos-mujer-description"
-            // "responsive-layout.desktop#category-zapatos-mujer-banners",
-            // "responsive-layout.phone#category-zapatos-mujer-banners",
-            // "responsive-layout.tablet#category-zapatos-mujer-banners"
         ]
     },
-
-    "responsive-layout.desktop#category-zapatos-mujer-banners":{
-        "children":[
-            "flex-layout.row#category-zapatos-mujer-banners-1"
-        ]
-    },
-
     "rich-text#category-zapatos-mujer-bread-crumb":{
         "props":{
             "text": "[Home](/) / [**Mujer**](/mujer) / [**Zapatos**](/mujer/zapatos)",
@@ -70,50 +60,6 @@
                 "skusFilter": "ALL",
                 "mapField": "category-1"
             }
-        }
-    },
-
-    "flex-layout.row#category-zapatos-mujer-banners-1":{
-        "children":[
-            "image#category-zapatos-mujer-banners-1-img-1",
-            "image#category-zapatos-mujer-banners-1-img-2",
-            "image#category-zapatos-mujer-banners-1-img-3"
-        ],
-        "props":{
-            "blockClass":"contentCategoryBannersDesk"
-        }
-    },
-
-    "image#category-zapatos-mujer-banners-1-img-1": {
-        "props": {
-            "src": "/arquivos/category-bn-desk-3.png",
-            "link": {
-                "url": "/",
-                "attributeTitle": ""
-            },
-            "blockClass": "departmentBannerImg-1"
-        }
-    },
-
-    "image#category-zapatos-mujer-banners-1-img-2": {
-        "props": {
-            "src": "/arquivos/category-bn-desk-2.png",
-            "link": {
-                "url": "/",
-                "attributeTitle": ""
-            },
-            "blockClass": "departmentBannerImg-2"
-        }
-    },
-
-    "image#category-zapatos-mujer-banners-1-img-3": {
-        "props": {
-            "src": "/arquivos/category-bn-desk-1.png",
-            "link": {
-                "url": "/",
-                "attributeTitle": ""
-            },
-            "blockClass": "departmentBannerImg-3"
         }
     }
 }

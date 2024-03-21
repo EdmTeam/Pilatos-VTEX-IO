@@ -1,0 +1,170 @@
+{
+    "store.search#new-balance": {
+        "blocks": [
+            "search-result-layout#new-balance"
+        ],
+        "props": {
+            "skusFilter": "FIRST_AVAILABLE",
+            "simulationBehavior": "default"
+        }
+    },
+
+    "search-result-layout#new-balance": {
+        "blocks": [
+            "search-result-layout.desktop#new-balance",
+            "search-result-layout.mobile#new-balance"
+        ]
+    },
+
+    "search-result-layout.desktop#new-balance": {
+        "children": [
+            "flex-layout.row#banner-search-mobile",
+          "flex-layout.row#bread-crumb",
+          "flex-layout.row#suggestion",
+          "flex-layout.row#search-info-new-balance",
+          "flex-layout.row#fetch-previous",
+          "flex-layout.row#content-mobile",
+          "flex-layout.row#fetch-more",
+          "rich-text#filtro-seo"
+        ],
+        "props": {
+            "hideUnavailableItems": true,
+            "showFacetQuantity": true,
+            "showProductsCount": true,
+            "blockClass": "searchResultMobile",
+            "preventRouteChange": true,
+            "hiddenFacets": {
+                "specificationFilters": {
+                    "hiddenFilters": [
+                       {
+                        "name": "Ocasion de Uso"
+                        },
+                        {
+                            "name": "Siluetas icónicas"
+                        },
+                        {
+                            "name": "Categoría"
+                        },
+                        {
+                            "name": "Color"
+                        },
+                        {
+                            "name": "Colores"
+                        },
+                        {
+                            "name": "Tipo"
+                        }
+                    ]
+                }
+            },
+            "__unstableProductOriginVtex": true,
+            "mobileLayout": {
+                "mode1": "small",
+                "mode2": "normal"
+            }
+        }
+    },
+
+    "filter-navigator.v3#filter-new-balance": {
+        "blocks": ["sidebar-close-button"],
+     "props": {
+         "truncateFilters": true,
+         "showClearByFilter": true,
+         "fullWidthOnMobile": true,
+         "navigationTypeOnMobile": "collapsible",
+         "appliedFiltersOverview": "show",
+         "totalProductsOnMobile": "show",
+         "updateOnFilterSelectionOnMobile": true,
+         "priceRangeLayout": "inputAndSlider"
+     }
+    },
+
+    "flex-layout.row#search-info-new-balance": {
+        "children": [
+            "flex-layout.col#order-by-desk",
+            "flex-layout.col#filterMobile-desk"
+        ],
+        "props": {
+          "preserveLayoutOnMobile": true,
+          "colSizing": "auto",
+          "colJustify": "around",
+          "blockClass": "search-in-deskNew"
+        }
+    },
+
+    "search-result-layout.customQuery#landing-new-balance": {
+        "blocks": [
+            "search-result-layout.desktop#new-balance",
+            "search-result-layout.mobile#new-balance"
+        ]
+    },
+
+
+
+    //MOBILE
+    "search-result-layout.mobile#new-balance": {
+        "children": [
+            "flex-layout.row#banner-search-mobile",
+            "flex-layout.row#bread-crumb",
+            "flex-layout.row#suggestion",
+            "flex-layout.row#search-info-new-balance-mobile",
+            "flex-layout.row#fetch-previous",
+            "flex-layout.row#content-mobile",
+            "flex-layout.row#fetch-more",
+            "rich-text#filtro-seo"
+        ],
+        "props": {
+            "hideUnavailableItems": true,
+            "showFacetQuantity": true,
+            "showProductsCount": true,
+            "blockClass": "searchResultMobile",
+            "preventRouteChange": true,
+            "hiddenFacets": {
+                "specificationFilters": {
+                    "hiddenFilters": [
+                        {
+                            "name": "Ocasion de Uso"
+                            },
+                            {
+                                "name": "Siluetas icónicas"
+                            },
+                            {
+                                "name": "Categoría"
+                            },
+                            {
+                                "name": "Color"
+                            },
+                            {
+                                "name": "Colores"
+                            },
+                            {
+                                "name": "Tipo"
+                            }
+                    ]
+                }
+            },
+            "__unstableProductOriginVtex": true,
+            "mobileLayout": {
+                "mode1": "small",
+                "mode2": "normal"
+            }
+        }
+    },
+
+    "flex-layout.row#search-info-new-balance-mobile": {
+        "children": [
+          "flex-layout.col#filterMobile",
+          "flex-layout.col#order-by-mobile"
+        ],
+        "props": {
+          "preserveLayoutOnMobile": true,
+          "colSizing": "auto",
+          "colJustify": "around",
+          "blockClass": "search-in-mobile"
+        }
+    }
+}
+
+
+
+

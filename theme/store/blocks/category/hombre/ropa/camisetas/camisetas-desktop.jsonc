@@ -2,10 +2,7 @@
     "store.custom#category-camisetas-hombre":{
         "blocks":[
             "flex-layout.row#banner-category-camisetas-hombre",
-            "search-result-layout.customQuery#category-camisetas-hombre",
-            "responsive-layout.desktop#category-camisetas-hombre-banners",
-            "responsive-layout.phone#category-camisetas-hombre-banners",
-            "responsive-layout.tablet#category-camisetas-hombre-banners"
+            "search-result-layout.customQuery#category-camisetas-hombre"
         ],
         "props":{
             "blockClass": "contentStoreCustom"
@@ -27,12 +24,6 @@
             "rich-text#category-camisetas-hombre-title",
             "rich-text#category-camisetas-hombre-description"
 
-        ]
-    },
-
-    "responsive-layout.desktop#category-camisetas-hombre-banners":{
-        "children":[
-            "flex-layout.row#category-camisetas-hombre-banners-1"
         ]
     },
 
@@ -71,50 +62,6 @@
                 "skusFilter": "ALL",
                 "mapField": "category-1"
             }
-        }
-    },
-
-    "flex-layout.row#category-camisetas-hombre-banners-1":{
-        "children":[
-            "image#category-camisetas-hombre-banners-1-img-1",
-            "image#category-camisetas-hombre-banners-1-img-2",
-            "image#category-camisetas-hombre-banners-1-img-3"
-        ],
-        "props":{
-            "blockClass":"contentCategoryBannersDesk"
-        }
-    },
-
-    "image#category-camisetas-hombre-banners-1-img-1": {
-        "props": {
-            "src": "/arquivos/Categorias_hombre_Banner_gorras_Desktop.jpg",
-            "link": {
-                "url": "/hombre/accesorios/gorras",
-                "attributeTitle": ""
-            },
-            "blockClass": "departmentBannerImg-1"
-        }
-    },
-
-    "image#category-camisetas-hombre-banners-1-img-2": {
-        "props": {
-            "src": "/arquivos/Categorias_hombre_Banner_jeans_Desktop.jpg",
-            "link": {
-                "url": "/hombre/jeans",
-                "attributeTitle": ""
-            },
-            "blockClass": "departmentBannerImg-2"
-        }
-    },
-
-    "image#category-camisetas-hombre-banners-1-img-3": {
-        "props": {
-            "src": "/arquivos/Categorias_hombre_Banner_tenis_Desktop.jpg",
-            "link": {
-                "url": "/hombre/zapatos/tenis",
-                "attributeTitle": ""
-            },
-            "blockClass": "departmentBannerImg-3"
         }
     }
 }

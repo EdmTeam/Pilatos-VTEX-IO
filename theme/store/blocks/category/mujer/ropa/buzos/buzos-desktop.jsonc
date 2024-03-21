@@ -3,9 +3,7 @@
         "blocks":[
             "flex-layout.row#banner-category-buzos-mujer",
             "search-result-layout.customQuery#category-buzos-mujer",
-            "responsive-layout.desktop#category-buzos-mujer-banners",
-            "responsive-layout.phone#category-buzos-mujer-banners",
-            "responsive-layout.tablet#category-buzos-mujer-banners"
+            "responsive-layout.phone#category-buzos-mujer-banners"
         ],
         "props":{
             "blockClass": "contentStoreCustom"
@@ -29,13 +27,6 @@
 
         ]
     },
-
-    "responsive-layout.desktop#category-buzos-mujer-banners":{
-        "children":[
-            "flex-layout.row#category-buzos-mujer-banners-1"
-        ]
-    },
-
     "rich-text#category-buzos-mujer-bread-crumb":{
         "props":{
             "text": "[Home](/) / [**Mujer**](/mujer) / [**Ropa**](/mujer/ropa) / [**Buzos**](/mujer/ropa/buzos)",
@@ -71,50 +62,6 @@
                 "skusFilter": "ALL",
                 "mapField": "category-1"
             }
-        }
-    },
-
-    "flex-layout.row#category-buzos-mujer-banners-1":{
-        "children":[
-            "image#category-buzos-mujer-banners-1-img-1",
-            "image#category-buzos-mujer-banners-1-img-2",
-            "image#category-buzos-mujer-banners-1-img-3"
-        ],
-        "props":{
-            "blockClass":"contentCategoryBannersDesk"
-        }
-    },
-
-    "image#category-buzos-mujer-banners-1-img-1": {
-        "props": {
-            "src": "/arquivos/BANNER_categoria_mujer_bolsosymorrales_dektop.jpg",
-            "link": {
-                "url": "/mujer/accesorios/morrales",
-                "attributeTitle": ""
-            },
-            "blockClass": "departmentBannerImg-1"
-        }
-    },
-
-    "image#category-buzos-mujer-banners-1-img-2": {
-        "props": {
-            "src": "/arquivos/BANNER_categoria_mujer_camisetas_desktop.jpg",
-            "link": {
-                "url": "/mujer/ropa/camisetas",
-                "attributeTitle": ""
-            },
-            "blockClass": "departmentBannerImg-2"
-        }
-    },
-
-    "image#category-buzos-mujer-banners-1-img-3": {
-        "props": {
-            "src": "/arquivos/BANNER_categoria_mujer_jeans_desktop.jpg",
-            "link": {
-                "url": "/mujer/jeans",
-                "attributeTitle": ""
-            },
-            "blockClass": "departmentBannerImg-3"
         }
     }
 }
