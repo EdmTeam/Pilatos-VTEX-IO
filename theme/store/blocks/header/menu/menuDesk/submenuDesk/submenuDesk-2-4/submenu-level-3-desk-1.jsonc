@@ -66,7 +66,9 @@
             "rich-text#submenu-desk-department-4-category-28", //alpinestar
             "rich-text#submenu-desk-department-4-category-47", //jansport
             "rich-text#submenu-desk-department-4-category-0", //vacío
-            "rich-text#submenu-desk-department-4-category-57" //kappa
+            "rich-text#submenu-desk-department-4-category-57", //kappa
+            "rich-text#submenu-desk-department-4-category-0", //vacío
+            "rich-text#submenu-desk-department-4-category-58" //THE NORTH FACE
 
 
         ],
@@ -111,6 +113,16 @@
     "rich-text#submenu-desk-department-4-category-57":{
         "props":{
             "text": "[Kappa](/kappa)",
+            "blockClass": [
+              "textSubcategory"
+
+            ]
+        }
+    },
+
+    "rich-text#submenu-desk-department-4-category-58":{
+        "props":{
+            "text": "[The north face](/the-north-face)",
             "blockClass": [
               "textSubcategory"
 

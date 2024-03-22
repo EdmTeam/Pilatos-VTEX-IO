@@ -63,7 +63,9 @@
       "image#brand-34",
       "image#brand-35",
       "image#brand-36",
-      "image#brand-37"
+      "image#brand-37",
+      "image#brand-38",
+      "image#brand-39"
     ]
   },
   "image#brand-1": {
@@ -261,7 +263,7 @@
   },
   "image#brand-34": {
     "props": {
-      "src": "/arquivos/logo_Pepejeans.png",
+      "src": "/arquivos/logo-pepe-jeans-new.png",
       "link": {
         "url": "/pepe-jeans"
       },
@@ -286,9 +288,25 @@
   },
   "image#brand-37": {
     "props": {
-      "src": "/arquivos/logo 200x200.jpg",
+      "src": "/arquivos/logo-kapp-new.jpg",
       "link": {
         "url": "/kappa"
+      }
+    }
+  },
+  "image#brand-38": {
+    "props": {
+      "src": "/arquivos/logo-new-era-new.jpg",
+      "link": {
+        "url": "/new-era"
+      }
+    }
+  },
+  "image#brand-39": {
+    "props": {
+      "src": "/arquivos/logo-the-north-face-new.jpg",
+      "link": {
+        "url": "/the-north-face"
       }
     }
   }

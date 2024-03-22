@@ -46,7 +46,8 @@
             "rich-text#submenu-level-2-item-39-row-7",
             "rich-text#submenu-level-2-item-40-row-7",//superga
             "rich-text#submenu-level-2-item-41-row-7",//jasnsport
-            "rich-text#submenu-level-2-item-42-row-7"//kappa
+            "rich-text#submenu-level-2-item-42-row-7",//kappa
+            "rich-text#submenu-level-2-item-43-row-7"//THE NORTH FACE
         ],
         "props": {
             "blockClass": [
@@ -115,6 +116,16 @@
     "rich-text#submenu-level-2-item-42-row-7":{
         "props":{
             "text": "[Kappa](/kappa)",
+            "blockClass": [
+                "contentSubMenuAcordeon",
+                "textSubcategoryPilatos"
+            ]
+        }
+    },
+
+    "rich-text#submenu-level-2-item-43-row-7":{
+        "props":{
+            "text": "[The north face](/the-north-face)",
             "blockClass": [
                 "contentSubMenuAcordeon",
                 "textSubcategoryPilatos"

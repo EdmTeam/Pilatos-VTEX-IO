@@ -13,8 +13,8 @@
 
     "rich-text#menu-item-title": {
         "props": {
-            "text": "CONTÁCTANOS",
-            "blockClass": "titleItemsfooter"
+            "text": "[CONTÁCTANOS](https://api.whatsapp.com/send?phone=573215282745)",
+            "blockClass": ["titleItemsfooter", "linkWhatsapFooter"]
         }
     },
 
