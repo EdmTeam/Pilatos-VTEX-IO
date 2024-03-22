@@ -23,15 +23,6 @@
             "rich-text#category-tenis-mujer-bread-crumb",
             "rich-text#category-tenis-mujer-title",
             "rich-text#category-tenis-mujer-description"
-            //"responsive-layout.desktop#category-tenis-mujer-banners",
-            //"responsive-layout.phone#category-tenis-mujer-banners",
-            //"responsive-layout.tablet#category-tenis-mujer-banners"
-        ]
-    },
-
-    "responsive-layout.desktop#category-tenis-mujer-banners":{
-        "children":[
-            "flex-layout.row#category-tenis-mujer-banners-1"
         ]
     },
 
@@ -70,50 +61,6 @@
                 "skusFilter": "ALL",
                 "mapField": "category-1"
             }
-        }
-    },
-
-    "flex-layout.row#category-tenis-mujer-banners-1":{
-        "children":[
-            "image#category-tenis-mujer-banners-1-img-1",
-            "image#category-tenis-mujer-banners-1-img-2",
-            "image#category-tenis-mujer-banners-1-img-3"
-        ],
-        "props":{
-            "blockClass":"contentCategoryBannersDesk"
-        }
-    },
-
-    "image#category-tenis-mujer-banners-1-img-1": {
-        "props": {
-            "src": "/arquivos/BANNER_categoria_mujer_camisetas_desktop.jpg",
-            "link": {
-                "url": "/mujer/ropa/camisetas",
-                "attributeTitle": ""
-            },
-            "blockClass": "departmentBannerImg-1"
-        }
-    },
-
-    "image#category-tenis-mujer-banners-1-img-2": {
-        "props": {
-            "src": "/arquivos/BANNER_categoria_mujer_ropadeportiva_desktop.jpg",
-            "link": {
-                "url": "/mujer/ropa/sudaderas",
-                "attributeTitle": ""
-            },
-            "blockClass": "departmentBannerImg-2"
-        }
-    },
-
-    "image#category-tenis-mujer-banners-1-img-3": {
-        "props": {
-            "src": "/arquivos/BANNER_categoria_mujer_vestidosyfaldas_desktop.jpg",
-            "link": {
-                "url": "/mujer/ropa/faldas",
-                "attributeTitle": ""
-            },
-            "blockClass": "departmentBannerImg-3"
         }
     }
 }

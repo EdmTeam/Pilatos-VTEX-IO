@@ -23,15 +23,6 @@
             "rich-text#category-faldas-mujer-bread-crumb",
             "rich-text#category-faldas-mujer-title",
             "rich-text#category-faldas-mujer-description"
-            // "responsive-layout.desktop#category-faldas-mujer-banners",
-            // "responsive-layout.phone#category-faldas-mujer-banners",
-            // "responsive-layout.tablet#category-faldas-mujer-banners"
-        ]
-    },
-
-    "responsive-layout.desktop#category-faldas-mujer-banners":{
-        "children":[
-            "flex-layout.row#category-faldas-mujer-banners-1"
         ]
     },
 
@@ -70,50 +61,6 @@
                 "skusFilter": "ALL",
                 "mapField": "category-1"
             }
-        }
-    },
-
-    "flex-layout.row#category-faldas-mujer-banners-1":{
-        "children":[
-            "image#category-faldas-mujer-banners-1-img-1",
-            "image#category-faldas-mujer-banners-1-img-2",
-            "image#category-faldas-mujer-banners-1-img-3"
-        ],
-        "props":{
-            "blockClass":"contentCategoryBannersDesk"
-        }
-    },
-
-    "image#category-faldas-mujer-banners-1-img-1": {
-        "props": {
-            "src": "/arquivos/category-bn-desk-3.png",
-            "link": {
-                "url": "/",
-                "attributeTitle": ""
-            },
-            "blockClass": "departmentBannerImg-1"
-        }
-    },
-
-    "image#category-faldas-mujer-banners-1-img-2": {
-        "props": {
-            "src": "/arquivos/category-bn-desk-2.png",
-            "link": {
-                "url": "/",
-                "attributeTitle": ""
-            },
-            "blockClass": "departmentBannerImg-2"
-        }
-    },
-
-    "image#category-faldas-mujer-banners-1-img-3": {
-        "props": {
-            "src": "/arquivos/category-bn-desk-1.png",
-            "link": {
-                "url": "/",
-                "attributeTitle": ""
-            },
-            "blockClass": "departmentBannerImg-3"
         }
     }
 }

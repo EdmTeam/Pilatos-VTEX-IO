@@ -1,18 +1,4 @@
 {
-    "responsive-layout.phone#category-tenis-hombre-banners":{
-        "children":[
-            "flex-layout.col#category-tenis-hombre-banners-1-mobile"
-        ]
-    },
-
-    "flex-layout.col#category-tenis-hombre-banners-1-mobile":{
-        "children":[
-            "list-context.image-list#department-banner-mobile-category-tenis-hombre"
-        ],
-        "props":{
-            "blockClass":"contentBannersDesk"
-        }
-    },
 
     "search-result-layout.mobile#category-tenis-hombre": {
         "children": [
@@ -23,8 +9,7 @@
           "flex-layout.row#fetch-previous",
           "flex-layout.row#content-mobile",
           "flex-layout.row#fetch-more",
-          "rich-text#filtro-seo",
-          "list-context.image-list#department-banner-mobile-category-tenis-hombre"
+          "rich-text#filtro-seo"
 
         ],
         "props": {
@@ -92,136 +77,6 @@
           "colSizing": "auto",
           "colJustify": "around",
           "blockClass": "search-in-mobile"
-        }
-    },
-
-    "list-context.image-list#department-banner-mobile-category-tenis-hombre": {
-        "children": [
-            "slider-layout#department-banner-mobile-category-tenis-hombre"
-        ],
-        "props": {
-            "images": [
-                {
-                    "image": "/arquivos/Categorias_hombre_Banner_buzos_Mobile.jpg",
-                    "description": "Promotional Banner",
-                    "link": {
-                        "url": "/hombre/ropa/chaquetas",
-                        "attributeTitle": ""
-                    },
-                    "title": "",
-                    "width": "235px"
-                },
-                {
-                    "image": "/arquivos/Categorias_hombre_Banner_camisetas_Mobile.jpg",
-                    "description": "Promotional Banner",
-                    "link": {
-                        "url": "/hombre/ropa/camisetas",
-                        "attributeTitle": ""
-                    },
-                    "title": ""
-                },
-                {
-                    "image": "/arquivos/Categorias_hombre_Banner_deportiva_Mobile.jpg",
-                    "description": "Promotional Banner",
-                    "link": {
-                        "url": "/hombre/ropa/sudaderas",
-                        "attributeTitle": ""
-                    },
-                    "title": ""
-                }
-            ]
-        }
-    },
-
-    "slider-layout#department-banner-mobile-category-tenis-hombre": {
-        "props": {
-            "blockClass": "departmenBannerSlide",
-            "itemsPerPage": {
-                "desktop": 1,
-                "tablet": 1,
-                "phone": 1
-            },
-            "centerMode": "to-the-left",
-            "showNavigationArrows": "desktopOnly",
-            "showPaginationDots": "mobileOnly"
-        }
-    },
-
-    //Tablet
-    "responsive-layout.tablet#category-tenis-hombre-banners":{
-        "children":[
-            "flex-layout.row#category-tenis-hombre-banners"
-        ]
-    },
-
-    "flex-layout.row#category-tenis-hombre-banners":{
-        "children":[
-            "flex-layout.col#category-tenis-hombre-banners-2-img-1-tablet",
-            "flex-layout.col#category-tenis-hombre-banners-2-img-2-tablet",
-            "flex-layout.col#category-tenis-hombre-banners-2-img-3-tablet"
-        ],
-        "props":{
-            "blockClass":"contentBanners-2"
-        }
-    },
-
-    "flex-layout.col#category-tenis-hombre-banners-2-img-1-tablet":{
-        "children":[
-            "image#category-tenis-hombre-banners-2-img-1-tablet"
-        ],
-        "props":{
-            "width": "33%"
-        }
-    },
-
-    "image#category-tenis-hombre-banners-2-img-1-tablet": {
-        "props": {
-            "src": "/arquivos/Categorias_hombre_Banner_buzos_Mobile.jpg",
-            "link": {
-                "url": "/hombre/ropa/buzos",
-                "attributeTitle": ""
-            },
-            "blockClass": "departmentBannerImg-3"
-        }
-    },
-
-    "flex-layout.col#category-tenis-hombre-banners-2-img-2-tablet":{
-        "children":[
-            "image#category-tenis-hombre-banners-2-img-2-tablet"
-        ],
-        "props":{
-            "width": "33%"
-        }
-    },
-
-    "image#category-tenis-hombre-banners-2-img-2-tablet": {
-        "props": {
-            "src": "/arquivos/Categorias_hombre_Banner_camisetas_Mobile.jpg",
-            "link": {
-                "url": "/hombre/ropa/camisetas",
-                "attributeTitle": ""
-            },
-            "blockClass": "departmentBannerImg-4"
-        }
-    },
-
-    "flex-layout.col#category-tenis-hombre-banners-2-img-3-tablet":{
-        "children":[
-            "image#category-tenis-hombre-banners-2-img-3-tablet"
-        ],
-        "props":{
-            "width": "33%"
-        }
-    },
-
-    "image#category-tenis-hombre-banners-2-img-3-tablet": {
-        "props": {
-            "src": "/arquivos/Categorias_hombre_Banner_deportiva_Mobile.jpg",
-            "link": {
-                "url": "/",
-                "attributeTitle": ""
-            },
-            "blockClass": "departmentBannerImg-5"
         }
     }
 }

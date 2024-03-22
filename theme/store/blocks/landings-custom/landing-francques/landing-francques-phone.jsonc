@@ -1,0 +1,96 @@
+{
+    "responsive-layout.phone#contenedor-principal-phone": {
+        "children": [
+            "flex-layout.row#banner-landing-francques-mob",
+            "rich-text#department-template-francques-description",
+            "flex-layout.row#banners-hym-mob-francques",
+            "flex-layout.row#banner-organique-mob-francques"
+        ]
+    },
+
+    "flex-layout.row#banner-landing-francques-mob": {
+        "title": "Contenedor banner landing francques mob",
+        "children": [
+            "image#landing-francques-banner-img-phone"
+        ]
+    },
+
+    "image#landing-francques-banner-img-phone": {
+        "title": "Banner landing de francques mob",
+        "props": {
+            "src": "/arquivos/Pilatos-FrancquesLanding-BannerPrincipal-Mob.jpg",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+    "flex-layout.row#banners-hym-mob-francques": {
+        "title": "Banners hombre y mujer MOB",
+        "children": [
+            "flex-layout.col#banner-mob-compra-hombre",
+            "flex-layout.col#banner-mob-compra-mujer"
+        ],
+        "props": {
+            "marginTop": 4,
+            "marginBottom": 4,
+            "blockClass": "banners-hym-francques"
+        }
+    },
+
+    "flex-layout.col#banner-mob-compra-hombre": {
+        "title": "Banner hombre MOB",
+        "children": [
+            "image#banner-compra-hombre-mob"
+        ]
+    },
+
+    "flex-layout.col#banner-mob-compra-mujer": {
+        "title": "Banner mujer MOB",
+        "children": [
+            "image#banner-compra-mujer-mob"
+        ]
+    },
+
+    "image#banner-compra-hombre-mob": {
+        "title": "Banner hombre MOB",
+        "props": {
+            "src": "/arquivos/Pilatos-FrancquesLanding-BannerHombre-Mob.jpg",
+            "link": {
+                "url": "",
+                "attributeTitle": ""
+            }
+        }
+    },
+
+    "image#banner-compra-mujer-mob": {
+        "title": "Banner mujer MOB",
+        "props": {
+            "src": "/arquivos/Pilatos-FrancquesLanding-BannerMujer-Mob.jpg",
+            "link": {
+                "url": "",
+                "attributeTitle": ""
+            }
+        }
+    },
+
+    "flex-layout.row#banner-organique-mob-francques": {
+        "title": "Banner organique MOB",
+        "children": [
+            "image#banner-organique-francques-mob"
+        ]
+    },
+
+    "image#banner-organique-francques-mob": {
+        "title": "banner organique mob image",
+        "props": {
+            "src": "/arquivos/Pilatos-FrancquesLanding-BannerOrganique-Mob.jpg",
+            "link": {
+                "url": "",
+                "attributeTitle": ""
+            }
+        }
+    }
+}

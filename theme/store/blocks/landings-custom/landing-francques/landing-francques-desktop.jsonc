@@ -1,0 +1,111 @@
+{
+    "responsive-layout.desktop#contenedor-principal-desktop": {
+        "children": [
+            "flex-layout.row#banner-landing-francques",
+            "rich-text#department-template-francques-description",
+            "flex-layout.row#banners-hym-desk-francques",
+            "flex-layout.row#banner-organique-francques"
+        ]
+    },
+
+    "responsive-layout.tablet#contenedor-principal-tablet": {
+        "children": [
+            "flex-layout.row#banner-landing-francques",
+            "rich-text#department-template-francques-description",
+            "flex-layout.row#banners-hym-desk-francques",
+            "flex-layout.row#banner-organique-francques"
+        ]
+    },
+
+    "flex-layout.row#banner-landing-francques": {
+        "children": [
+            "image#banner-landing-desk-francques"
+        ],
+        "props":{
+            "blockClass":"contentBannersDesk",
+            "marginBottom": 6
+        }
+    },
+
+    "image#banner-landing-desk-francques": {
+        "title": "Imágen desktop francques",
+        "props": {
+            "src": "/arquivos/Pilatos-FrancquesLanding-BannerPrincipal-Desk.jpg",
+            "link": {
+                "url": "",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+    "flex-layout.row#banners-hym-desk-francques": {
+        "title": "Banners hombre y mujer",
+        "children": [
+            "flex-layout.col#banner-compra-hombre",
+            "flex-layout.col#banner-compra-mujer"
+        ],
+        "props": {
+            "marginTop": 4,
+            "marginBottom": 4,
+            "blockClass": "banners-hym-francques"
+        }
+    },
+
+    "flex-layout.col#banner-compra-hombre": {
+        "title": "Banner hombre",
+        "children": [
+            "image#banner-compra-hombre"
+        ]
+    },
+
+    "flex-layout.col#banner-compra-mujer": {
+        "title": "Banner mujer",
+        "children": [
+            "image#banner-compra-mujer"
+        ]
+    },
+
+    "image#banner-compra-hombre": {
+        "title": "Banner hombre",
+        "props": {
+            "src": "/arquivos/Pilatos-FrancquesLanding-BannerHombre-Desk.jpg ",
+            "link": {
+                "url": "",
+                "attributeTitle": ""
+            }
+        }
+    },
+
+    "image#banner-compra-mujer": {
+        "title": "Banner mujer",
+        "props": {
+            "src": "/arquivos/Pilatos-FrancquesLanding-BannerMujer-Desk.jpg",
+            "link": {
+                "url": "",
+                "attributeTitle": ""
+            }
+        }
+    },
+
+    "flex-layout.row#banner-organique-francques": {
+        "title": "Banner organique desktop",
+        "children": [
+            "image#banner-organique-francques"
+        ],
+        "props": {
+            "blockClass": "organique-francques-banner"
+        }
+    },
+
+    "image#banner-organique-francques": {
+        "title": "banner organique desktop image",
+        "props": {
+            "src": "/arquivos/Pilatos-FrancquesLanding-BannerOrganique-Desk.jpg",
+            "link": {
+                "url": "",
+                "attributeTitle": ""
+            }
+        }
+    }
+}
