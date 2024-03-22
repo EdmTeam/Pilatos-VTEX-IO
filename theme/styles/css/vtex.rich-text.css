@@ -3493,3 +3493,8 @@ margin: 2px;
   padding: 20px;
   font-weight: bold;
 }
+/***footer redirect de whatsap en CONTÁCTANOS***/
+.link--linkWhatsapFooter {
+  text-decoration: none;
+  color: #fff;
+}
