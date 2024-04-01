@@ -6,7 +6,7 @@ const TallaComponent = () => {
   const [marca, setMarca] = useState('');
   const [genero, setGenero] = useState('');
   const [categoria, setCategoria] = useState('');
-  const [imagenTalla, setImagenTalla] = useState('');
+  const [imagenTalla, setstImagenTalla] = useState('');
   const [imagenMedidas, setImagenMedidas] = useState('');
   const [suggestedBrands, setSuggestedBrands] = useState([]);
   const [showBrandMessage, setShowBrandMessage] = useState(false);
