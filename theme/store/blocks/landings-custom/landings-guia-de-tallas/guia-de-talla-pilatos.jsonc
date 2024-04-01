@@ -1,8 +1,8 @@
 {
   "store.custom#landing-guiaDeTallas":{
     "blocks": [
-      "flex-layout.row#guiaDeTallas-bread-crumb",
-      "guia-talla-custom-pilatos",
+      "rich-text#guiaDeTallas-bread-crumb",
+      "guia-talla-custom-pilatos-new",
     //  "flex-layout.row#most-viewed",
     "flex-layout.row#guiaDeTallas-titulo",
       "flex-layout.row#textoSeoApoyo",
@@ -13,16 +13,9 @@
     }
   },
 
-      //Bread crumb
+  "guia-talla-custom-pilatos-new":{},
 
-  "flex-layout.row#guiaDeTallas-bread-crumb":{
-    "children":[
-     "rich-text#guiaDeTallas-bread-crumb"
-    ],
-    "props":{
-        "blockClass":"contentSearch"
-    }
- },
+      //Bread crumb
 
     "rich-text#guiaDeTallas-bread-crumb":{
       "props":{
@@ -59,53 +52,22 @@
     }
 },
 
-  // componente de guia de tallas
-  "guia-talla-custom-pilatos":{},
 
   "flex-layout.row#textoSeoApoyo":{
     "children": [
-
-      "rich-text#guiaDeTallas-paso1",
-      "rich-text#guiaDeTallas-paso2",
-      "rich-text#guiaDeTallas-paso3"
+      "rich-text#guiaDeTallas-paso1"
     ],
     "props":{
-        "blockClass":"container-guiadeTallas",
-        "colGap": 5
+        "blockClass":"container-guiadeTallas"
     }
   },
 
-  "flex-layout.row#textoSeoApoyo2":{
-    "children": [
-
-      "rich-text#guiaDeTallas-paso2"
-
-
-    ],
-    "props":{
-        "blockClass":"contentSearch"
-    }
-  },
 
   "rich-text#guiaDeTallas-paso1":{
     "props":{
-        "text":"## Aqui va el texto seo",
+        "text":"**Encuentra tu marca favorita:** lorem ",
         "blockClass":"guiaDeTallas-texto"
     }
-},
-
-"rich-text#guiaDeTallas-paso2":{
-  "props":{
-      "text":"## Aqui va el texto seo",
-      "blockClass":"guiaDeTallas-texto"
-  }
-},
-
-"rich-text#guiaDeTallas-paso3":{
-  "props":{
-      "text":"## Aqui va el texto seo",
-      "blockClass":"guiaDeTallas-texto"
-  }
 },
 
 
@@ -121,7 +83,7 @@
 
 "rich-text#guiaDeTallas-titulo":{
   "props":{
-      "text":"### Utilización de la Herramienta de Guía de Tallas",
+      "text":"### Instrucciones de uso",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
   }

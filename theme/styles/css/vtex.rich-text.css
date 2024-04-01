@@ -2796,16 +2796,17 @@ margin: 70px;
 
 .container--guiaDeTallas-texto{
   border: 4px;
-  width: 50%;
 }
 
 .wrapper--guiaDeTallas-texto {
   margin-bottom: 5%;
+  width: 100%;
   padding: 2%;
-  height: 300px;
   border-top: 1px solid black;
-  border-right: 1px solid black;
+}
 
+.strong--guiaDeTallas-texto {
+  font-size: 24px;
 }
 
 /* Sneaker City CSS*/
@@ -3385,7 +3386,7 @@ margin: 2px;
 
 .paragraph--botonGeneroNuevo:hover .link--botonGeneroNuevo{
   color: black;
-}  
+}
 
 /* template envio express*/
 .paragraph--titulo-envio-express {
