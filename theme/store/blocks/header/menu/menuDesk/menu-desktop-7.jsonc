@@ -16,7 +16,7 @@
       "blockClass": "menucontainerDesk"
     }
   },
-  
+
   "menu-item#menu-item-7-desk-1": {
     "props": {
       "type": "custom",
@@ -29,7 +29,7 @@
         "text": "PILATOS"
       },
       "iconProps": {
-        "id": "hpa-eyes",
+        "id": "hpa-eyes-2024",
         "size": 16,
         "viewBox": "0 0 16 16",
         "activeClassName": "rebel-pink",

@@ -15,7 +15,7 @@
     "children": [
       "custom-sticky#header-sticky-inactive",
       "custom-sticky#header-sticky-active",
-      "link#content-chat-whatsapp",
+     // "link#content-chat-whatsapp",
       "segmentify"
     ]
   },
@@ -26,7 +26,7 @@
     "children": [
       "responsive-layout.tablet#header-tablet",
       "responsive-layout.phone#header-phone",
-      "link#content-chat-whatsapp",
+      //"link#content-chat-whatsapp",
       "segmentify"
     ]
   },
