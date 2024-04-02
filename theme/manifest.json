@@ -1,7 +1,7 @@
 {
   "vendor": "pilatos21",
   "name": "theme",
-  "version": "3.1.35",
+  "version": "3.1.36",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
