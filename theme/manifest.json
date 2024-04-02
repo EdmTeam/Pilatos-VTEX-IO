@@ -1,7 +1,7 @@
 {
   "vendor": "pilatos21",
   "name": "theme",
-  "version": "3.1.33",
+  "version": "3.1.36",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
@@ -76,7 +76,7 @@
     "vtex.store-video": "1.x",
     "vtex.product-availability": "0.x",
     "vtex.disclosure-layout": "1.x",
-    "pilatos21.talla-guia-custom": "0.x"
+    "pilatos21.talla-guia-custom-markeplace": "0.x"
   },
   "peerDependencies": {
     "pilatos21.wishlist": "0.x",
