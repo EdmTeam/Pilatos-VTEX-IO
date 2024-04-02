@@ -1,0 +1,231 @@
+{
+    "condition-layout.product#garment-care-le-coq": {
+        "props": {
+            "conditions": [
+                {
+                    "subject": "brandId",
+                    "arguments": {
+                        "id": "2000092"
+                    }
+                }
+            ],
+            "Then": "disclosure-layout#product-garment-care"
+        }
+    },
+
+    "disclosure-layout#product-garment-care": {
+        "children": [
+            "disclosure-trigger#product-content-garment-care",
+            "disclosure-content#product-description-garment-care"
+        ]
+    },
+
+    "disclosure-state-indicator#garment-care": {
+        "props": {
+            "Show": "icon-caret#down",
+            "Hide": "icon-caret#up"
+        }
+      },
+
+      "icon-caret#down": {
+        "props": {
+          "orientation": "down"
+        }
+      },
+      "icon-caret#up": {
+        "props": {
+          "orientation": "up"
+        }
+      },
+
+    "disclosure-trigger#product-content-garment-care": {
+        "children": [
+            "rich-text#garment-care",
+            "disclosure-state-indicator#garment-care"
+        ],
+        "props": {
+            "blockClass": ["container-products", "disclosure-indicator-garment-care"]
+        }
+    },
+
+    "rich-text#garment-care": {
+        "props": {
+            "text": "**Cuidados de la prenda**"
+            //"blockClass": "product-description-pdp"
+        }
+    },
+    "disclosure-content#product-description-garment-care": {
+        "children": [
+            "rich-text#garment-care-descripcion",
+            "flex-layout.row#garment-care",
+            "rich-text#garment-care-use",
+            "flex-layout.row#garment-use"
+        ],
+        "props": {
+            "blockClass": "garment-use-product-pdp"
+        }
+    },
+
+    "rich-text#garment-care-descripcion": {
+        "props": {
+            "text": "**Implementos de limpieza**"
+        }
+    },
+    
+    "flex-layout.row#garment-care": {
+        "children": [
+            "flex-layout.col#garment-care"
+        ]
+    },
+
+    "flex-layout.col#garment-care": {
+        "children": [
+            "rich-text#garment-care-cleaning"
+        ]
+    },
+    "rich-text#garment-care-cleaning": {
+        "props": {
+            "text": "-Borrador de Nubuck o de Miga de Pan \n -Crema o Limpiador Líquido \n -Spray para Gamuza \n -Paño de Algodón \n -Cepillo Especial para Gamuza \n"
+        }
+    },
+    "rich-text#garment-care-use": {
+        "props": {
+            "text": "**Recomendaciones de uso**"
+        }
+    },
+    "flex-layout.row#garment-use": {
+        "children": [
+            "flex-layout.col#garment-use"
+        ]
+    },
+
+    "flex-layout.col#garment-use": {
+        "children": [
+            "flex-layout.col#garment-use-1",
+            "flex-layout.col#garment-use-2",
+            "flex-layout.col#garment-use-3",
+            "flex-layout.col#garment-use-4",
+            "flex-layout.col#garment-use-5"
+        ]
+    },
+    
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-1": {
+        "children": [
+            "image#garment-care-cleaning-use-1",
+            "rich-text#garment-care-cleaning-use-1"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-1": {
+        "props": {
+            "text": "No dejar húmedo, pérdida de su forma."
+        }
+    },
+    "image#garment-care-cleaning-use-1": {
+        "props": {
+            "src": "/arquivos/do-not-dry.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-2": {
+        "children": [
+            "image#garment-care-cleaning-use-2",
+            "rich-text#garment-care-cleaning-use-2"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-2": {
+        "props": {
+            "text": "No usar seguidamente, con el fin de dejar descansar las fibras."
+        }
+    },
+    "image#garment-care-cleaning-use-2": {
+        "props": {
+            "src": "/arquivos/no-usar-seguido-new.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-3": {
+        "children": [
+            "image#garment-care-cleaning-use-3",
+            "rich-text#garment-care-cleaning-use-3"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-3": {
+        "props": {
+            "text": "No dejar bajo el sol, esto causará cambio de color y daño de fibras."
+        }
+    },
+    "image#garment-care-cleaning-use-3": {
+        "props": {
+            "src": "/arquivos/secar-a-la-sombra.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-4": {
+        "children": [
+            "image#garment-care-cleaning-use-4",
+            "rich-text#garment-care-cleaning-use-4"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-4": {
+        "props": {
+            "text": " No usar detergente, ni blanqueador, ya que pueden dañar el material o decolorarlo."
+        }
+    },
+    "image#garment-care-cleaning-use-4": {
+        "props": {
+            "src": "/arquivos/no-lejia.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-5": {
+        "children": [
+            "image#garment-care-cleaning-use-5",
+            "rich-text#garment-care-cleaning-use-5"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-5": {
+        "props": {
+            "text": " No lavar en lavadora, se deben usar los implementos de limpieza recomendados."
+        }
+    },
+    "image#garment-care-cleaning-use-5": {
+        "props": {
+            "src": "/arquivos/no-secar-en-secadora.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    }
+    /******* item completo recomendación de uso****/
+}

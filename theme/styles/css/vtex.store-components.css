@@ -6,7 +6,7 @@
   }
 
 .productDescriptionContainer{
-    max-width: 80%;
+    max-width: 90%;
     margin: 0 auto;
 }
 
@@ -681,9 +681,9 @@ margin-top: 1%;
 
 .productDescriptionText .content{
     font-weight: normal;
-    font-size: 11px;
-    line-height: 16px;
-    color: #000000;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #3f3f40;
 }
 
 @media only screen and (min-width: 740px){
@@ -710,11 +710,11 @@ margin-top: 1%;
     }
 
     .productDescriptionText .content{
-        font-size: 12px;
+        font-size: 16px;
     }
 
     .productDescriptionContainer{
-        width: 93% !important;
+        /*width: 93% !important;*/
         max-width: none;
     }
 }
@@ -829,4 +829,10 @@ cursor: pointer;
 /*trabaja con nosotros*/
 .imageElement--work-with-part-one-img {
     width: 100%;
+}
+
+/*****Cuidadp de prenda**/
+.imageElement--icono-cuidado-de-prenda {
+    width: 25px;
+    object-fit: cover;
 }
