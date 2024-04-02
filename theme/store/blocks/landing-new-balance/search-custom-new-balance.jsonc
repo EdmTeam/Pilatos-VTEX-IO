@@ -21,6 +21,7 @@
             "flex-layout.row#banner-search-mobile",
           "flex-layout.row#bread-crumb",
           "flex-layout.row#suggestion",
+          "search-products-count-per-page",
           "flex-layout.row#search-info-new-balance",
           "flex-layout.row#fetch-previous",
           "flex-layout.row#content-mobile",

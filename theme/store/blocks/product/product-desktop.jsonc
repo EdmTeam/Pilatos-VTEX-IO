@@ -1,43 +1,37 @@
 {
-    "responsive-layout.tablet#product-view-product":{
-        "children":[
-            "flex-layout.row#product-view-product-tablet"
-        ]
-      },
-
-    "responsive-layout.desktop#product-view-product":{
-        "children":[
+    "responsive-layout.tablet#product-view-product": {
+        "children": [
             "flex-layout.row#product-view-product-tablet"
         ]
     },
-
-      "flex-layout.row#product-view-product-tablet":{
-        "children":[
+    "responsive-layout.desktop#product-view-product": {
+        "children": [
+            "flex-layout.row#product-view-product-tablet"
+        ]
+    },
+    "flex-layout.row#product-view-product-tablet": {
+        "children": [
             "flex-layout.col#stack-product-tablet",
-            "flex-layout.col#product-description-tablet"        ],
-        "props":{
+            "flex-layout.col#product-description-tablet"
+        ],
+        "props": {
             "blockClass": "contentProductInfo"
         }
     },
-
-    "flex-layout.col#stack-product-tablet":{
-        "children":[
+    "flex-layout.col#stack-product-tablet": {
+        "children": [
             "stack-layout#product"
         ],
-        "props":{
+        "props": {
             "width": "60%"
         }
     },
-
-    "flex-layout.col#product-description-tablet":{
-        "children":[
+    "flex-layout.col#product-description-tablet": {
+        "children": [
             "vtex.store-components:product-brand",
             "vtex.store-components:product-name",
-
             "flex-layout.row#product-identifier-rating",
-
             "vtex.product-highlights@2.x:product-highlights#collection",
-
             "product-price#product",
             "size-guide#superior-mujer-hombre-medias-stance",
             "size-guide#mujer-hombre-gorras-Alpinestars",
@@ -80,7 +74,7 @@
             "size-guide#mujer-superdry",
             "size-guide#zapatos-hombre-diesel",
             "size-guide#hombre-diesel",
-          //  "size-guide#zapatos-hombre-LeCoqSportif",
+            //  "size-guide#zapatos-hombre-LeCoqSportif",
             "size-guide#hombre-MaritheFrancoisGirbaud",
             "size-guide#zapatos-hombre-newbalance",
             "size-guide#zapatos-hombre-reebok",
@@ -91,7 +85,6 @@
             "size-guide#zapatos-hombre-Superdry",
             "size-guide#sandalias-hombre-Superdry",
             "size-guide#sandalias-mujer-Superdry",
-
             "size-guide#hombre-vans",
             "size-guide#mujer-vans",
             "size-guide#correa",
@@ -107,96 +100,97 @@
             // "rich-text#title-descripcionProducto",
             // "flex-layout.row#productDescripcion",
             "disclosure-layout#productoDescription",
-           // "disclosure-layout#descripcionProducto",
+            "condition-layout.product#garment-care-le-coq", //Cuidado de prenda le-coq
+            "condition-layout.product#garment-care-ap-crown", //Cuidado de prenda ap-crown
+            // "disclosure-layout#descripcionProducto",
             "condition-layout.product#cond1-diesel",
             "condition-layout.product#cond2-superdry",
             "condition-layout.product#cond3-kipling",
             "condition-layout.product#cond4-pilatos",
             "condition-layout.product#cond5-girbaud",
-            "link#scrollLink",
+            //"link#scrollLink",
             "share#default",
-
             "flex-layout.row#add-to-list-btn",
             "pilatos21.add-to-cart-button:add-to-cart-button",
             "productsegmentify"
         ],
-        "props":{
-            "blockClass": ["product-description", "stack-product"],
+        "props": {
+            "blockClass": [
+                "product-description",
+                "stack-product"
+            ],
             "width": "40%"
         }
     },
-    "flex-layout.row#product-button-quantity":{
-        "children":[
+    "flex-layout.row#product-button-quantity": {
+        "children": [
             "flex-layout.col#product-quantity",
             "flex-layout.col#product-button"
         ],
-        "props":{
+        "props": {
             "blockClass": "contentButtonQuantity"
         }
     },
-
-    "flex-layout.col#product-quantity":{
-        "children":[
+    "flex-layout.col#product-quantity": {
+        "children": [
             "product-quantity"
         ],
-        "props":{
+        "props": {
             "width": "27%"
         }
     },
-
-    "flex-layout.col#product-button":{
-        "children":[
+    "flex-layout.col#product-button": {
+        "children": [
             "flex-layout.row#product-button"
         ],
-        "props":{
+        "props": {
             "width": "73%"
         }
     },
-
-        // descripcion nueva
-        // "flex-layout.row#productDescripcion": {
-        //     "children": [
-        //         "product-description"
-        //     ]
-        // },
-        // "product-description": {
-        //     "props": {
-        //         "collapseContent": true,
-        //         "showTitle": true,
-        //         "title": "Descripción de producto"
-
-        //     }
-        // },
-        // "rich-text#title-descripcionProducto": {
-        //     "props": {
-        //       "text": "Descripción del Producto",
-        //       "blockClass": "product-description-pdp"
-        //     }
-        // },
-
-        // DESCRIPCION DE PRODUCTO NUEVA CON BOTON
-
-        "disclosure-layout#productoDescription": {
-          "children": ["disclosure-trigger#productoDescription", "disclosure-content#simpleDescription"]
-        },
-        "disclosure-trigger#productoDescription": {
-          "children": ["rich-text#question"],
-          "props": {
-            "blockClass": "container-products"
-          }
-        },
-
-        "disclosure-content#simpleDescription": {
-          "children": ["product-description"
-          ]
-        },
-        "rich-text#question": {
-          "props": {
-            "text": "Descripción del producto ↓",
-            "blockClass": "product-description-pdp"
-          }
+    // descripcion nueva
+    // "flex-layout.row#productDescripcion": {
+    //     "children": [
+    //         "product-description"
+    //     ]
+    // },
+    // "product-description": {
+    //     "props": {
+    //         "collapseContent": true,
+    //         "showTitle": true,
+    //         "title": "Descripción de producto"
+    //     }
+    // },
+    // "rich-text#title-descripcionProducto": {
+    //     "props": {
+    //       "text": "Descripción del Producto",
+    //       "blockClass": "product-description-pdp"
+    //     }
+    // },
+    // DESCRIPCION DE PRODUCTO NUEVA CON BOTON
+    "disclosure-layout#productoDescription": {
+        "children": [
+            "disclosure-trigger#productoDescription",
+            "disclosure-content#simpleDescription"
+        ]
+    },
+    "disclosure-trigger#productoDescription": {
+        "children": [
+            "rich-text#question",
+            "disclosure-state-indicator#garment-care"
+        ],
+        "props": {
+            "blockClass": ["container-products", "disclosure-indicator-garment-care"]
         }
-
+    },
+    "disclosure-content#simpleDescription": {
+        "children": [
+            "product-description"
+        ]
+    },
+    "rich-text#question": {
+        "props": {
+            "text": "**Descripción del producto**"
+            //"blockClass": "product-description-pdp"
         }
-
-
+    }
+}

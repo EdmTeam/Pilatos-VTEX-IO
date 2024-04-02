@@ -3465,3 +3465,10 @@ width: 88%;
     margin: 0 auto;
   }
 }
+
+/*Cuidado de prendas*/
+.flexCol--contenedor-primera-compra-icons {
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}

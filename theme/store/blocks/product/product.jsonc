@@ -268,13 +268,15 @@
       // "rich-text#title-descripcionProducto",
       // "flex-layout.row#productDescripcion",
       "disclosure-layout#productoDescription",
+      "condition-layout.product#garment-care-le-coq",  //Cuidado de prendas
+      "condition-layout.product#garment-care-ap-crown", //Cuidado de prenda ap-crown
 
       "condition-layout.product#cond1-diesel",
       "condition-layout.product#cond2-superdry",
       "condition-layout.product#cond3-kipling",
       "condition-layout.product#cond4-pilatos",
       "condition-layout.product#cond5-girbaud",
-            "link#scrollLink",
+            //"link#scrollLink",
       "share#default",
       "flex-layout.row#add-to-list-btn",
       "pilatos21.add-to-cart-button:add-to-cart-button",
