@@ -1,0 +1,241 @@
+{
+    "condition-layout.product#garment-care-newbalance-camisetas-hombre": {
+        "props": {
+            "conditions": [
+                {
+                    "subject": "brandId",
+                    "arguments": {
+                        "id": "2000095"
+                    }
+                },
+                {
+                    "subject": "categoryId",
+                    "arguments": {
+                        "id": "13"
+                    }
+                }
+            ],
+            "matchType": "all",
+            "Then": "disclosure-layout#product-garment-care-newbalance-camisetas"
+        }
+    },
+
+    "condition-layout.product#garment-care-newbalance-camisetas-mujer": {
+        "props": {
+            "conditions": [
+                {
+                    "subject": "brandId",
+                    "arguments": {
+                        "id": "2000095"
+                    }
+                },
+                {
+                    "subject": "categoryId",
+                    "arguments": {
+                        "id": "54"
+                    }
+                }
+            ],
+            "matchType": "all",
+            "Then": "disclosure-layout#product-garment-care-newbalance-camisetas"
+        }
+    },
+
+    "disclosure-layout#product-garment-care-newbalance-camisetas": {
+        "children": [
+            "disclosure-trigger#product-content-garment-care-newbalance-camisetas",
+            "disclosure-content#product-description-garment-care-newbalance-camisetas"
+        ]
+    },
+
+    "disclosure-trigger#product-content-garment-care-newbalance-camisetas": {
+        "children": [
+            "rich-text#garment-care-newbalance-camisetas",
+            "disclosure-state-indicator#garment-care"
+        ],
+        "props": {
+            "blockClass": ["container-products", "disclosure-indicator-garment-care"]
+        }
+    },
+
+    "rich-text#garment-care-newbalance-camisetas": {
+        "props": {
+            "text": "**Cuidados de la prenda**"
+            //"blockClass": "product-description-pdp"
+        }
+    },
+    "disclosure-content#product-description-garment-care-newbalance-camisetas": {
+        "children": [
+            "rich-text#garment-care-use-newbalance-camisetas",
+            "flex-layout.row#garment-use-newbalance-camisetas"
+        ],
+        "props": {
+            "blockClass": "garment-use-product-pdp"
+        }
+    },
+    
+    "rich-text#garment-care-use-newbalance-camisetas": {
+        "props": {
+            "text": "**Recomendaciones de uso**"
+        }
+    },
+    "flex-layout.row#garment-use-newbalance-camisetas": {
+        "children": [
+            "flex-layout.col#garment-use-newbalance-camisetas"
+        ]
+    },
+
+    "flex-layout.col#garment-use-newbalance-camisetas": {
+        "children": [
+            "flex-layout.col#garment-use-1-newbalance-camisetas",
+            "flex-layout.col#garment-use-2-newbalance-camisetas",
+            "flex-layout.col#garment-use-3-newbalance-camisetas",
+            "flex-layout.col#garment-use-4-newbalance-camisetas",
+            "flex-layout.col#garment-use-5-newbalance-camisetas",
+            "flex-layout.col#garment-use-6-newbalance-camisetas"
+        ]
+    },
+    
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-1-newbalance-camisetas": {
+        "children": [
+            "image#garment-care-cleaning-use-1-newbalance-camisetas",
+            "rich-text#garment-care-cleaning-use-1-newbalance-camisetas"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-1-newbalance-camisetas": {
+        "props": {
+            "text": "Lavar a máquina por el revés en temperatura fría"
+        }
+    },
+    "image#garment-care-cleaning-use-1-newbalance-camisetas": {
+        "props": {
+            "src": "/arquivos/image-saturation.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-2-newbalance-camisetas": {
+        "children": [
+            "image#garment-care-cleaning-use-2-newbalance-camisetas",
+            "rich-text#garment-care-cleaning-use-2-newbalance-camisetas"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-2-newbalance-camisetas": {
+        "props": {
+            "text": "Lavar con jabón suave"
+        }
+    },
+    "image#garment-care-cleaning-use-2-newbalance-camisetas": {
+        "props": {
+            "src": "/arquivos/lavar-a-mano-new.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-3-newbalance-camisetas": {
+        "children": [
+            "image#garment-care-cleaning-use-3-newbalance-camisetas",
+            "rich-text#garment-care-cleaning-use-3-newbalance-camisetas"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-3-newbalance-camisetas": {
+        "props": {
+            "text": "No usar blanqueador"
+        }
+    },
+    "image#garment-care-cleaning-use-3-newbalance-camisetas": {
+        "props": {
+            "src": "/arquivos/no-lejia.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-4-newbalance-camisetas": {
+        "children": [
+            "image#garment-care-cleaning-use-4-newbalance-camisetas",
+            "rich-text#garment-care-cleaning-use-4-newbalance-camisetas"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-4-newbalance-camisetas": {
+        "props": {
+            "text": "Lavar con colores similares "
+        }
+    },
+    "image#garment-care-cleaning-use-4-newbalance-camisetas": {
+        "props": {
+            "src": "/arquivos/do-not-dry.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-5-newbalance-camisetas": {
+        "children": [
+            "image#garment-care-cleaning-use-5-newbalance-camisetas",
+            "rich-text#garment-care-cleaning-use-5-newbalance-camisetas"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-5-newbalance-camisetas": {
+        "props": {
+            "text": "Planchar por el revés a temperatura baja o media"
+        }
+    },
+    "image#garment-care-cleaning-use-5-newbalance-camisetas": {
+        "props": {
+            "src": "/arquivos/planchar-baja-temperatura.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-6-newbalance-camisetas": {
+        "children": [
+            "image#garment-care-cleaning-use-6-newbalance-camisetas",
+            "rich-text#garment-care-cleaning-use-6-newbalance-camisetas"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-6-newbalance-camisetas": {
+        "props": {
+            "text": "No usar secadora"
+        }
+    },
+    "image#garment-care-cleaning-use-6-newbalance-camisetas": {
+        "props": {
+            "src": "/arquivos/no-secar-en-secadora.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    }
+}

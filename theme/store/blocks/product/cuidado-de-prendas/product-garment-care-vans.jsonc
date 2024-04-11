@@ -1,0 +1,239 @@
+{
+    "condition-layout.product#garment-care-vans": {
+        "props": {
+            "conditions": [
+                {
+                    "subject": "brandId",
+                    "arguments": {
+                        "id": "2000005"
+                    }
+                }
+            ],
+            "Then": "disclosure-layout#product-garment-care-vans"
+        }
+    },
+
+    "disclosure-layout#product-garment-care-vans": {
+        "children": [
+            "disclosure-trigger#product-content-garment-care-vans",
+            "disclosure-content#product-description-garment-care-vans"
+        ]
+    },
+
+    "disclosure-trigger#product-content-garment-care-vans": {
+        "children": [
+            "rich-text#garment-care-vans",
+            "disclosure-state-indicator#garment-care"
+        ],
+        "props": {
+            "blockClass": ["container-products", "disclosure-indicator-garment-care"]
+        }
+    },
+
+    "rich-text#garment-care-vans": {
+        "props": {
+            "text": "**Cuidados de la prenda**"
+            //"blockClass": "product-description-pdp"
+        }
+    },
+    "disclosure-content#product-description-garment-care-vans": {
+        "children": [
+            "rich-text#garment-care-use-vans",
+            "flex-layout.row#garment-use-vans"
+        ],
+        "props": {
+            "blockClass": "garment-use-product-pdp"
+        }
+    },
+    
+    "rich-text#garment-care-use-vans": {
+        "props": {
+            "text": "**Instrucciones de uso** \n Para mayor durabilidad del producto recomendamos:"
+        }
+    },
+    "flex-layout.row#garment-use-vans": {
+        "children": [
+            "flex-layout.col#garment-use-vans"
+        ]
+    },
+
+    "flex-layout.col#garment-use-vans": {
+        "children": [
+            "flex-layout.col#garment-use-1-vans",
+            "flex-layout.col#garment-use-2-vans",
+            "flex-layout.col#garment-use-3-vans",
+            "flex-layout.col#garment-use-4-vans",
+            "flex-layout.col#garment-use-5-vans",
+            "flex-layout.col#garment-use-6-vans",
+            "flex-layout.col#garment-use-7-vans"
+        ]
+    },
+    
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-1-vans": {
+        "children": [
+            "image#garment-care-cleaning-use-1-vans",
+            "rich-text#garment-care-cleaning-use-1-vans"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-1-vans": {
+        "props": {
+            "text": "No usar lavadora"
+        }
+    },
+    "image#garment-care-cleaning-use-1-vans": {
+        "props": {
+            "src": "/arquivos/secar-a-la-sombra.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-2-vans": {
+        "children": [
+            "image#garment-care-cleaning-use-2-vans",
+            "rich-text#garment-care-cleaning-use-2-vans"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-2-vans": {
+        "props": {
+            "text": "No usar detergente"
+        }
+    },
+    "image#garment-care-cleaning-use-2-vans": {
+        "props": {
+            "src": "/arquivos/no-lejia.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-3-vans": {
+        "children": [
+            "image#garment-care-cleaning-use-3-vans",
+            "rich-text#garment-care-cleaning-use-3-vans"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-3-vans": {
+        "props": {
+            "text": "No usar cepillos duros"
+        }
+    },
+    "image#garment-care-cleaning-use-3-vans": {
+        "props": {
+            "src": "/arquivos/do-not-dry.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-4-vans": {
+        "children": [
+            "image#garment-care-cleaning-use-4-vans",
+            "rich-text#garment-care-cleaning-use-4-vans"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-4-vans": {
+        "props": {
+            "text": "No dejar en remojo"
+        }
+    },
+    "image#garment-care-cleaning-use-4-vans": {
+        "props": {
+            "src": "/arquivos/image-saturation.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-5-vans": {
+        "children": [
+            "image#garment-care-cleaning-use-5-vans",
+            "rich-text#garment-care-cleaning-use-5-vans"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-5-vans": {
+        "props": {
+            "text": "Secado no expuesto directamente al sol"
+        }
+    },
+    "image#garment-care-cleaning-use-5-vans": {
+        "props": {
+            "src": "/arquivos/secar-a-la-sombra-nuevo.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-6-vans": {
+        "children": [
+            "image#garment-care-cleaning-use-6-vans",
+            "rich-text#garment-care-cleaning-use-6-vans"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-6-vans": {
+        "props": {
+            "text": "Utilizar productos renovadores adecuados para el tipo de material o jabones suaves"
+        }
+    },
+    "image#garment-care-cleaning-use-6-vans": {
+        "props": {
+            "src": "/arquivos/lavar-a-mano-new.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-7-vans": {
+        "children": [
+            "image#garment-care-cleaning-use-7-vans",
+            "rich-text#garment-care-cleaning-use-7-vans"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-7-vans": {
+        "props": {
+            "text": "No apto para deporte de alto rendimiento"
+        }
+    },
+    "image#garment-care-cleaning-use-7-vans": {
+        "props": {
+            "src": "/arquivos/run.png",
+            "alt": "Icono cuidado de prenda",
+            "blockClass": "icono-cuidado-de-prenda"
+        }
+    }
+    /******* item completo recomendación de uso****/
+}

@@ -1,0 +1,145 @@
+{
+    "condition-layout.product#garment-care-newbalance-gorras": {
+        "props": {
+            "conditions": [
+                {
+                    "subject": "brandId",
+                    "arguments": {
+                        "id": "2000095"
+                    }
+                },
+                {
+                    "subject": "categoryId",
+                    "arguments": {
+                        "id": "24"
+                    }
+                }
+            ],
+            "matchType": "all",
+            "Then": "disclosure-layout#product-garment-care-newbalance-gorras"
+        }
+    },
+    "disclosure-layout#product-garment-care-newbalance-gorras": {
+        "children": [
+            "disclosure-trigger#product-content-garment-care-newbalance-gorras",
+            "disclosure-content#product-description-garment-care-newbalance-gorras"
+        ]
+    },
+
+    "disclosure-trigger#product-content-garment-care-newbalance-gorras": {
+        "children": [
+            "rich-text#garment-care-newbalance-gorras",
+            "disclosure-state-indicator#garment-care"
+        ],
+        "props": {
+            "blockClass": ["container-products", "disclosure-indicator-garment-care"]
+        }
+    },
+
+    "rich-text#garment-care-newbalance-gorras": {
+        "props": {
+            "text": "**Cuidados de la prenda**"
+            //"blockClass": "product-description-pdp"
+        }
+    },
+    "disclosure-content#product-description-garment-care-newbalance-gorras": {
+        "children": [
+            "rich-text#garment-care-use-newbalance-gorras",
+            "flex-layout.row#garment-use-newbalance-gorras"
+        ],
+        "props": {
+            "blockClass": "garment-use-product-pdp"
+        }
+    },
+    
+    "rich-text#garment-care-use-newbalance-gorras": {
+        "props": {
+            "text": "**Recomendaciones de uso**"
+        }
+    },
+    "flex-layout.row#garment-use-newbalance-gorras": {
+        "children": [
+            "flex-layout.col#garment-use-newbalance-gorras"
+        ]
+    },
+
+    "flex-layout.col#garment-use-newbalance-gorras": {
+        "children": [
+            "flex-layout.col#garment-use-1-newbalance-gorras",
+            "flex-layout.col#garment-use-2-newbalance-gorras",
+            "flex-layout.col#garment-use-3-newbalance-gorras"
+        ]
+    },
+    
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-1-newbalance-gorras": {
+        "children": [
+            "image#garment-care-cleaning-use-1-newbalance-gorras",
+            "rich-text#garment-care-cleaning-use-1-newbalance-gorras"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-1-newbalance-gorras": {
+        "props": {
+            "text": "No lavar a máquina"
+        }
+    },
+    "image#garment-care-cleaning-use-1-newbalance-gorras": {
+        "props": {
+            "src": "/arquivos/secar-a-la-sombra.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-2-newbalance-gorras": {
+        "children": [
+            "image#garment-care-cleaning-use-2-newbalance-gorras",
+            "rich-text#garment-care-cleaning-use-2-newbalance-gorras"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-2-newbalance-gorras": {
+        "props": {
+            "text": "No utilizar Detergentes, aceites o blanqueadores"
+        }
+    },
+    "image#garment-care-cleaning-use-2-newbalance-gorras": {
+        "props": {
+            "src": "/arquivos/no-lejia.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-3-newbalance-gorras": {
+        "children": [
+            "image#garment-care-cleaning-use-3-newbalance-gorras",
+            "rich-text#garment-care-cleaning-use-3-newbalance-gorras"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-3-newbalance-gorras": {
+        "props": {
+            "text": "Elimine la suciedad con un cepillo suave, seco y limpio"
+        }
+    },
+    "image#garment-care-cleaning-use-3-newbalance-gorras": {
+        "props": {
+            "src": "/arquivos/do-not-dry.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    }
+    /******* item completo recomendación de uso****/
+}

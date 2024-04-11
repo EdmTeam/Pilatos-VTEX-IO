@@ -1,0 +1,214 @@
+{
+    "condition-layout.product#garment-care-kipling": {
+        "props": {
+            "conditions": [
+                {
+                    "subject": "brandId",
+                    "arguments": {
+                        "id": "2000091"
+                    }
+                }
+            ],
+            "Then": "disclosure-layout#product-garment-care-kipling"
+        }
+    },
+
+    "disclosure-layout#product-garment-care-kipling": {
+        "children": [
+            "disclosure-trigger#product-content-garment-care-kipling",
+            "disclosure-content#product-description-garment-care-kipling"
+        ]
+    },
+
+    "disclosure-trigger#product-content-garment-care-kipling": {
+        "children": [
+            "rich-text#garment-care-kipling",
+            "disclosure-state-indicator#garment-care"
+        ],
+        "props": {
+            "blockClass": ["container-products", "disclosure-indicator-garment-care"]
+        }
+    },
+
+    "rich-text#garment-care-kipling": {
+        "props": {
+            "text": "**Cuidados de la prenda**"
+            //"blockClass": "product-description-pdp"
+        }
+    },
+    "disclosure-content#product-description-garment-care-kipling": {
+        "children": [
+            "rich-text#garment-care-kipling-descripcion",
+            "flex-layout.row#garment-care-kipling",
+            "rich-text#garment-care-kipling-use",
+            "flex-layout.row#garment-use-kipling"
+        ],
+        "props": {
+            "blockClass": "garment-use-kipling-product-pdp"
+        }
+    },
+
+    "rich-text#garment-care-kipling-descripcion": {
+        "props": {
+            "text": "**Una guía de: como limpiar tu Kipling**"
+        }
+    },
+    
+    "flex-layout.row#garment-care-kipling": {
+        "children": [
+            "flex-layout.col#garment-care-kipling"
+        ]
+    },
+
+    "flex-layout.col#garment-care-kipling": {
+        "children": [
+            "rich-text#garment-care-kipling-cleaning"
+        ]
+    },
+    "rich-text#garment-care-kipling-cleaning": {
+        "props": {
+            "text": "Sabemos que llevas tu bolso a todas partes, así que eventualmente necesitara algo de limpieza. No te preocupes por que se borren tus memorias, ¡Están para quedarse!"
+        }
+    },
+    "rich-text#garment-care-kipling-use": {
+        "props": {
+            "text": "**Cuidado esencial**"
+        }
+    },
+    "flex-layout.row#garment-use-kipling": {
+        "children": [
+            "flex-layout.col#garment-use-kipling"
+        ]
+    },
+
+    "flex-layout.col#garment-use-kipling": {
+        "children": [
+            "flex-layout.col#garment-use-kipling-1",
+            "flex-layout.col#garment-use-kipling-2",
+            "flex-layout.col#garment-use-kipling-3",
+            "flex-layout.col#garment-use-kipling-4",
+            "flex-layout.col#garment-use-kipling-5"
+        ]
+    },
+    
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-kipling-1": {
+        "children": [
+            //"image#garment-care-kipling-cleaning-use-1",
+            "rich-text#garment-care-kipling-cleaning-use-1"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-kipling-cleaning-use-1": {
+        "props": {
+            "text": "- **Vacia tu bolso** \n Saca todos los utensilios que tengas en tu morral-bolso, no olvides revisar los bolsillos de tu producto Kipling favorito."
+        }
+    },
+    /*"image#garment-care-kipling-cleaning-use-1": {
+        "props": {
+            "src": "/arquivos/no-lejia.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },*/
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-kipling-2": {
+        "children": [
+            //"image#garment-care-kipling-cleaning-use-2",
+            "rich-text#garment-care-kipling-cleaning-use-2"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-kipling-cleaning-use-2": {
+        "props": {
+            "text": "- **Límpialo** \n Limpia por dentro y por fuera tu bolso usando jabón suave, agua tibia y una esponja."
+        }
+    },
+    /*"image#garment-care-kipling-cleaning-use-2": {
+        "props": {
+            "src": "/arquivos/no-secar-en-secadora.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },*/
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-kipling-3": {
+        "children": [
+            //"image#garment-care-kipling-cleaning-use-3",
+            "rich-text#garment-care-kipling-cleaning-use-3"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-kipling-cleaning-use-3": {
+        "props": {
+            "text": "- **Déjalo secar** \n Ubica tu bolso en un espacio donde se pueda ventilar. Asegúrate de que los cierres estén abiertos. Ahora que tu bolso está limpio, empaca lo que necesites y ¡listo!"
+        }
+    },
+    /*"image#garment-care-kipling-cleaning-use-3": {
+        "props": {
+            "src": "/arquivos/no-secar-en-secadora.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },*/
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-kipling-4": {
+        "children": [
+            //"image#garment-care-kipling-cleaning-use-4",
+            "rich-text#garment-care-kipling-cleaning-use-4"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-kipling-cleaning-use-4": {
+        "props": {
+            "text": "- **Como nuevo** \n (¡Esos pueden lavarse también!)"
+        }
+    },
+    /*"image#garment-care-kipling-cleaning-use-4": {
+        "props": {
+            "src": "/arquivos/no-secar-en-secadora.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },*/
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-kipling-5": {
+        "children": [
+            //"image#garment-care-kipling-cleaning-use-4",
+            "rich-text#garment-care-kipling-cleaning-use-5"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-kipling-cleaning-use-5": {
+        "props": {
+            "text": "Ahora que ya tiens la bolsa limpia, haz la maleta y listo"
+        }
+    }
+    /*"image#garment-care-kipling-cleaning-use-5": {
+        "props": {
+            "src": "/arquivos/no-secar-en-secadora.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    }*/
+    /******* item completo recomendación de uso****/
+}

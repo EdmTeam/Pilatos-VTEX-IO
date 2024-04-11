@@ -1,0 +1,159 @@
+{
+    "condition-layout.product#garment-care-new-era": {
+        "props": {
+            "conditions": [
+                {
+                    "subject": "brandId",
+                    "arguments": {
+                        "id": "2000115"
+                    }
+                }
+            ],
+            "Then": "disclosure-layout#product-garment-care-new-era"
+        }
+    },
+
+    "disclosure-layout#product-garment-care-new-era": {
+        "children": [
+            "disclosure-trigger#product-content-garment-care-new-era",
+            "disclosure-content#product-description-garment-care-new-era"
+        ]
+    },
+
+    "disclosure-trigger#product-content-garment-care-new-era": {
+        "children": [
+            "rich-text#garment-care-new-era",
+            "disclosure-state-indicator#garment-care"
+        ],
+        "props": {
+            "blockClass": ["container-products", "disclosure-indicator-garment-care"]
+        }
+    },
+
+    "rich-text#garment-care-new-era": {
+        "props": {
+            "text": "**Cuidados de la prenda**"
+            //"blockClass": "product-description-pdp"
+        }
+    },
+    "disclosure-content#product-description-garment-care-new-era": {
+        "children": [
+            "flex-layout.row#garment-use-new-era"
+        ],
+        "props": {
+            "blockClass": "garment-use-new-era-product-pdp"
+        }
+    },
+
+    "flex-layout.row#garment-use-new-era": {
+        "children": [
+            "flex-layout.col#garment-use-new-era"
+        ]
+    },
+
+    "flex-layout.col#garment-use-new-era": {
+        "children": [
+            "flex-layout.col#garment-use-new-era-1",
+            "flex-layout.col#garment-use-new-era-2",
+            "flex-layout.col#garment-use-new-era-3",
+            "flex-layout.col#garment-use-new-era-4"
+        ]
+    },
+    
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-new-era-1": {
+        "children": [
+            //"image#garment-care-new-era-cleaning-use-1",
+            "rich-text#garment-care-new-era-cleaning-use-1"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-new-era-cleaning-use-1": {
+        "props": {
+            "text": "- **No dejes tus gorras afuera** \n Puedes usarlas en cualquier momento y lugar, pero cuando llegues a casa no las dejes olvidadas en la mesa o arrumbadas en tu clóset. Dejarlas afuera atrae polvo y pelusas que pueden adherirse a tus gorras, sobre todo en materiales delicados como el suede. Para guardarlas, te ayudarán mucho los accesorios como el Cap Storage System (sistema para almacenar gorras), que puedes colgar en tu clóset o en la pared, así como los Cap Carriers (porta gorras) que también son útiles cuando sales de viaje. Además de proteger tus gorras, con estos accesorios evitarás que pierdan su forma."
+        }
+    },
+    /*"image#garment-care-new-era-cleaning-use-1": {
+        "props": {
+            "src": "/arquivos/no-lejia.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },*/
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-new-era-2": {
+        "children": [
+            //"image#garment-care-new-era-cleaning-use-2",
+            "rich-text#garment-care-new-era-cleaning-use-2"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-new-era-cleaning-use-2": {
+        "props": {
+            "text": "- **¡Manténlas limpias!** \n Muchos fans de la comunidad New Era nos preguntan cómo pueden limpiar sus gorras y remover las manchas que aparecen con el uso y el sudor. Una opción es lavarlas y otra es limpiarlas en seco con un cepillo de madera y un cap freshner de New Era. \n ¡Listo! Ya lograste regresarle un poco de frescura a tu modelo favorito. \n Por cierto, después de limpiarla en seco puedes aplicar aerosol protector (cap guard) para mantenerla fresca por más tiempo"
+        }
+    },
+    /*"image#garment-care-new-era-cleaning-use-2": {
+        "props": {
+            "src": "/arquivos/no-secar-en-secadora.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },*/
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-new-era-3": {
+        "children": [
+            //"image#garment-care-new-era-cleaning-use-3",
+            "rich-text#garment-care-new-era-cleaning-use-3"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-new-era-cleaning-use-3": {
+        "props": {
+            "text": "- **Intenta no aplastarlas** \n  Muchos guardan sus caps en una mochila o bolsa, pero éstas se aplastan y, por lo tanto, van perdiendo su forma. Si llevas tus gorras a un paseo y no quieres que se aplasten en la mochila o el lugar donde guardes tus cosas, te recomendamos colgarlas en las asas de tu mochila o en una trabilla de tu pantalón (esa tira vertical donde pasas el cinturón)."
+        }
+    },
+    /*"image#garment-care-new-era-cleaning-use-3": {
+        "props": {
+            "src": "/arquivos/no-secar-en-secadora.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },*/
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-new-era-4": {
+        "children": [
+            //"image#garment-care-new-era-cleaning-use-4",
+            "rich-text#garment-care-new-era-cleaning-use-4"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-new-era-cleaning-use-4": {
+        "props": {
+            "text": "- **Evita la lluvia** \n  Sabemos que deseas lucir tus gorras New Era en todo momento, ¡pero no son a prueba de tormentas! Intenta evitar la lluvia mientras usas tus caps, especialmente si quieres que las etiquetas originales permanezcan intactas. Recuerda que son una inversión para tu estilo. \n ¿Qué harías sin tus gorras New Era? No te preocupes, porque es muy fácil mantenerlas en buen estado por mucho tiempo. Sólo necesitas limpiarlas ocasionalmente, guardarlas cuando no las uses y evitar que se deformen. ¿Qué harías sin tus gorras New Era? No te preocupes, porque es muy fácil mantenerlas en buen estado por mucho tiempo. Sólo necesitas limpiarlas ocasionalmente, guardarlas cuando no las uses y evitar que se deformen."
+        }
+    }
+    /*"image#garment-care-new-era-cleaning-use-4": {
+        "props": {
+            "src": "/arquivos/no-secar-en-secadora.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },*/
+    /******* item completo recomendación de uso****/
+}

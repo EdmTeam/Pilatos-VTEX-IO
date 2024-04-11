@@ -1,0 +1,347 @@
+{
+    "condition-layout.product#garment-care-newbalance-morrales": {
+        "props": {
+            "conditions": [
+                {
+                    "subject": "brandId",
+                    "arguments": {
+                        "id": "2000095"
+                    }
+                },
+                {
+                    "subject": "categoryId",
+                    "arguments": {
+                        "id": "31"
+                    }
+                }
+            ],
+            "matchType": "all",
+            "Then": "disclosure-layout#product-garment-care-newbalance-morrales"
+        }
+    },
+
+    "condition-layout.product#garment-care-newbalance-bolsos": {
+        "props": {
+            "conditions": [
+                {
+                    "subject": "brandId",
+                    "arguments": {
+                        "id": "2000095"
+                    }
+                },
+                {
+                    "subject": "categoryId",
+                    "arguments": {
+                        "id": "25"
+                    }
+                }
+            ],
+            "matchType": "all",
+            "Then": "disclosure-layout#product-garment-care-newbalance-morrales"
+        }
+    },
+
+    "condition-layout.product#garment-care-newbalance-buzos-hombre": {
+        "props": {
+            "conditions": [
+                {
+                    "subject": "brandId",
+                    "arguments": {
+                        "id": "2000095"
+                    }
+                },
+                {
+                    "subject": "categoryId",
+                    "arguments": {
+                        "id": "16"
+                    }
+                }
+            ],
+            "matchType": "all",
+            "Then": "disclosure-layout#product-garment-care-newbalance-morrales"
+        }
+    },
+
+    "condition-layout.product#garment-care-newbalance-buzos-mujer": {
+        "props": {
+            "conditions": [
+                {
+                    "subject": "brandId",
+                    "arguments": {
+                        "id": "2000095"
+                    }
+                },
+                {
+                    "subject": "categoryId",
+                    "arguments": {
+                        "id": "57"
+                    }
+                }
+            ],
+            "matchType": "all",
+            "Then": "disclosure-layout#product-garment-care-newbalance-morrales"
+        }
+    },
+
+    "condition-layout.product#garment-care-newbalance-maletas": {
+        "props": {
+            "conditions": [
+                {
+                    "subject": "brandId",
+                    "arguments": {
+                        "id": "2000095"
+                    }
+                },
+                {
+                    "subject": "categoryId",
+                    "arguments": {
+                        "id": "32"
+                    }
+                }
+            ],
+            "matchType": "all",
+            "Then": "disclosure-layout#product-garment-care-newbalance-morrales"
+        }
+    },
+
+    "condition-layout.product#garment-care-newbalance-medias-hombre": {
+        "props": {
+            "conditions": [
+                {
+                    "subject": "brandId",
+                    "arguments": {
+                        "id": "2000095"
+                    }
+                },
+                {
+                    "subject": "categoryId",
+                    "arguments": {
+                        "id": "38"
+                    }
+                }
+            ],
+            "matchType": "all",
+            "Then": "disclosure-layout#product-garment-care-newbalance-morrales"
+        }
+    },
+
+    "condition-layout.product#garment-care-newbalance-medias-mujer": {
+        "props": {
+            "conditions": [
+                {
+                    "subject": "brandId",
+                    "arguments": {
+                        "id": "2000095"
+                    }
+                },
+                {
+                    "subject": "categoryId",
+                    "arguments": {
+                        "id": "82"
+                    }
+                }
+            ],
+            "matchType": "all",
+            "Then": "disclosure-layout#product-garment-care-newbalance-morrales"
+        }
+    },
+
+    "disclosure-layout#product-garment-care-newbalance-morrales": {
+        "children": [
+            "disclosure-trigger#product-content-garment-care-newbalance-morrales",
+            "disclosure-content#product-description-garment-care-newbalance-morrales"
+        ]
+    },
+
+    "disclosure-trigger#product-content-garment-care-newbalance-morrales": {
+        "children": [
+            "rich-text#garment-care-newbalance-morrales",
+            "disclosure-state-indicator#garment-care"
+        ],
+        "props": {
+            "blockClass": ["container-products", "disclosure-indicator-garment-care"]
+        }
+    },
+
+    "rich-text#garment-care-newbalance-morrales": {
+        "props": {
+            "text": "**Cuidados de la prenda**"
+            //"blockClass": "product-description-pdp"
+        }
+    },
+    "disclosure-content#product-description-garment-care-newbalance-morrales": {
+        "children": [
+            "rich-text#garment-care-use-newbalance-morrales",
+            "flex-layout.row#garment-use-newbalance-morrales"
+        ],
+        "props": {
+            "blockClass": "garment-use-product-pdp"
+        }
+    },
+    
+    "rich-text#garment-care-use-newbalance-morrales": {
+        "props": {
+            "text": "**Recomendaciones de uso**"
+        }
+    },
+    "flex-layout.row#garment-use-newbalance-morrales": {
+        "children": [
+            "flex-layout.col#garment-use-newbalance-morrales"
+        ]
+    },
+
+    "flex-layout.col#garment-use-newbalance-morrales": {
+        "children": [
+            "flex-layout.col#garment-use-1-newbalance-morrales",
+            "flex-layout.col#garment-use-2-newbalance-morrales",
+            "flex-layout.col#garment-use-3-newbalance-morrales",
+            "flex-layout.col#garment-use-4-newbalance-morrales",
+            "flex-layout.col#garment-use-5-newbalance-morrales",
+            "flex-layout.col#garment-use-6-newbalance-morrales"
+        ]
+    },
+    
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-1-newbalance-morrales": {
+        "children": [
+            "image#garment-care-cleaning-use-1-newbalance-morrales",
+            "rich-text#garment-care-cleaning-use-1-newbalance-morrales"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-1-newbalance-morrales": {
+        "props": {
+            "text": "Lavar con jabón suave y preferiblemente a mano"
+        }
+    },
+    "image#garment-care-cleaning-use-1-newbalance-morrales": {
+        "props": {
+            "src": "/arquivos/lavar-a-mano-new.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-2-newbalance-morrales": {
+        "children": [
+            "image#garment-care-cleaning-use-2-newbalance-morrales",
+            "rich-text#garment-care-cleaning-use-2-newbalance-morrales"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-2-newbalance-morrales": {
+        "props": {
+            "text": "No usar blanqueador"
+        }
+    },
+    "image#garment-care-cleaning-use-2-newbalance-morrales": {
+        "props": {
+            "src": "/arquivos/no-lejia.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-3-newbalance-morrales": {
+        "children": [
+            "image#garment-care-cleaning-use-3-newbalance-morrales",
+            "rich-text#garment-care-cleaning-use-3-newbalance-morrales"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-3-newbalance-morrales": {
+        "props": {
+            "text": "No lavar en seco"
+        }
+    },
+    "image#garment-care-cleaning-use-3-newbalance-morrales": {
+        "props": {
+            "src": "/arquivos/secar-a-la-sombra-nuevo.png",
+            "alt": "Icono cuidado de prenda",
+            "blockClass": "icono-cuidado-de-prenda"
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-4-newbalance-morrales": {
+        "children": [
+            "image#garment-care-cleaning-use-4-newbalance-morrales",
+            "rich-text#garment-care-cleaning-use-4-newbalance-morrales"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-4-newbalance-morrales": {
+        "props": {
+            "text": "No planchar"
+        }
+    },
+    "image#garment-care-cleaning-use-4-newbalance-morrales": {
+        "props": {
+            "src": "/arquivos/planchar-baja-temperatura.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-5-newbalance-morrales": {
+        "children": [
+            "image#garment-care-cleaning-use-5-newbalance-morrales",
+            "rich-text#garment-care-cleaning-use-5-newbalance-morrales"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-5-newbalance-morrales": {
+        "props": {
+            "text": "No usar secadora"
+        }
+    },
+    "image#garment-care-cleaning-use-5-newbalance-morrales": {
+        "props": {
+            "src": "/arquivos/do-not-dry.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-6-newbalance-morrales": {
+        "children": [
+            "image#garment-care-cleaning-use-6-newbalance-morrales",
+            "rich-text#garment-care-cleaning-use-6-newbalance-morrales"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-6-newbalance-morrales": {
+        "props": {
+            "text": "No exprimir"
+        }
+    },
+    "image#garment-care-cleaning-use-6-newbalance-morrales": {
+        "props": {
+            "src": "/arquivos/no-retorcer.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 34
+        }
+    }
+    /******* item completo recomendación de uso****/
+}
