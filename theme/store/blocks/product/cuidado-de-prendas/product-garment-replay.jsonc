@@ -1,0 +1,139 @@
+{
+    "condition-layout.product#garment-care-replay": {
+        "props": {
+            "conditions": [
+                {
+                    "subject": "brandId",
+                    "arguments": {
+                        "id": "2000102"
+                    }
+                }
+            ],
+            "Then": "disclosure-layout#product-garment-care-replay"
+        }
+    },
+
+    "disclosure-layout#product-garment-care-replay": {
+        "children": [
+            "disclosure-trigger#product-content-garment-care-replay",
+            "disclosure-content#product-description-garment-care-replay"
+        ]
+    },
+
+    "disclosure-trigger#product-content-garment-care-replay": {
+        "children": [
+            "rich-text#garment-care-replay",
+            "disclosure-state-indicator#garment-care"
+        ],
+        "props": {
+            "blockClass": ["container-products", "disclosure-indicator-garment-care"]
+        }
+    },
+
+    "rich-text#garment-care-replay": {
+        "props": {
+            "text": "**Cuidados de la prenda**"
+            //"blockClass": "product-description-pdp"
+        }
+    },
+    "disclosure-content#product-description-garment-care-replay": {
+        "children": [
+            "rich-text#garment-care-replay-descripcion",
+            "flex-layout.row#garment-care-replay",
+            "rich-text#garment-care-replay-use",
+            "flex-layout.row#garment-use-replay"
+        ],
+        "props": {
+            "blockClass": "garment-use-replay-product-pdp"
+        }
+    },
+
+    "rich-text#garment-care-replay-descripcion": {
+        "props": {
+            "text": "**Limpieza eficiente**"
+        }
+    },
+    
+    "flex-layout.row#garment-care-replay": {
+        "children": [
+            "flex-layout.col#garment-care-replay"
+        ]
+    },
+
+    "flex-layout.col#garment-care-replay": {
+        "children": [
+            "rich-text#garment-care-replay-cleaning"
+        ]
+    },
+    "rich-text#garment-care-replay-cleaning": {
+        "props": {
+            "text": "Elimine la suciedad con un cepillo suave, seco y limpio"
+        }
+    },
+    "rich-text#garment-care-replay-use": {
+        "props": {
+            "text": "**Cuidado esencial**"
+        }
+    },
+    "flex-layout.row#garment-use-replay": {
+        "children": [
+            "flex-layout.col#garment-use-replay"
+        ]
+    },
+
+    "flex-layout.col#garment-use-replay": {
+        "children": [
+            "flex-layout.col#garment-use-replay-1",
+            "flex-layout.col#garment-use-replay-2"
+        ]
+    },
+    
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-replay-1": {
+        "children": [
+            "image#garment-care-replay-cleaning-use-1",
+            "rich-text#garment-care-replay-cleaning-use-1"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-replay-cleaning-use-1": {
+        "props": {
+            "text": "No utilizar Detergentes, aceites o blanqueadores"
+        }
+    },
+    "image#garment-care-replay-cleaning-use-1": {
+        "props": {
+            "src": "/arquivos/no-lejia.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-replay-2": {
+        "children": [
+            "image#garment-care-replay-cleaning-use-2",
+            "rich-text#garment-care-replay-cleaning-use-2"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-replay-cleaning-use-2": {
+        "props": {
+            "text": " No lavar en lavadora"
+        }
+    },
+    "image#garment-care-replay-cleaning-use-2": {
+        "props": {
+            "src": "/arquivos/no-secar-en-secadora.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    }
+    /******* item completo recomendación de uso****/
+}

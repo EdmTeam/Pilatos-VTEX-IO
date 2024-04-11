@@ -1,0 +1,208 @@
+{
+    "condition-layout.product#garment-lacoste": {
+        "props": {
+            "conditions": [
+                {
+                    "subject": "brandId",
+                    "arguments": {
+                        "id": "2000114"
+                    }
+                }
+            ],
+            "Then": "disclosure-layout#product-garment-lacoste"
+        }
+    },
+
+    "disclosure-layout#product-garment-lacoste": {
+        "children": [
+            "disclosure-trigger#product-content-garment-lacoste",
+            "disclosure-content#product-description-garment-lacoste"
+        ]
+    },
+
+    "disclosure-trigger#product-content-garment-lacoste": {
+        "children": [
+            "rich-text#garment-lacoste",
+            "disclosure-state-indicator#garment-care"
+        ],
+        "props": {
+            "blockClass": ["container-products", "disclosure-indicator-garment-care"]
+        }
+    },
+
+    "rich-text#garment-lacoste": {
+        "props": {
+            "text": "**Cuidados de la prenda**"
+            //"blockClass": "product-description-pdp"
+        }
+    },
+    "disclosure-content#product-description-garment-lacoste": {
+        "children": [
+            "rich-text#garment-lacoste-descripcion",
+            "flex-layout.row#garment-lacoste",
+            "flex-layout.row#garment-use-lacoste"
+        ],
+        "props": {
+            "blockClass": "garment-use-product-pdp"
+        }
+    },
+
+    "rich-text#garment-lacoste-descripcion": {
+        "props": {
+            "text": "**Mantenimiento exterior** \n Datos para mantener el calzado en condiciones:"
+        }
+    },
+    
+    "flex-layout.row#garment-lacoste": {
+        "children": [
+            "flex-layout.col#garment-lacoste"
+        ]
+    },
+
+    "flex-layout.col#garment-lacoste": {
+        "children": [
+            "rich-text#garment-lacoste-cleaning"
+        ]
+    },
+    "rich-text#garment-lacoste-cleaning": {
+        "props": {
+            "text": "No usar las mismas zapatillas todos los días, dejar descansar y secar las zapatillas un día o dos antes de volver a usarlas , evita que se gasten más rápidamente. también es bueno para el cuerpo. \n\n No secar las zapatillas húmedas en una estufa ni cerca de un radiador. Rellenar con trozos de periódico y dejarlas así durante la noche. \n\n Nunca lavar las zapatillas en el lavarropas o sumergirlas en agua."
+        }
+    },
+    "flex-layout.row#garment-use-lacoste": {
+        "children": [
+            "flex-layout.col#garment-use-lacoste"
+        ]
+    },
+
+    "flex-layout.col#garment-use-lacoste": {
+        "children": [
+            "flex-layout.col#garment-use-lacoste-1",
+            "flex-layout.col#garment-use-lacoste-2",
+            "flex-layout.col#garment-use-lacoste-3",
+            "flex-layout.col#garment-use-lacoste-4",
+            "flex-layout.col#garment-use-lacoste-5"
+        ]
+    },
+    
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-lacoste-1": {
+        "children": [
+            //"image#garment-lacoste-cleaning-use-1",
+            "rich-text#garment-lacoste-cleaning-use-1"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-lacoste-cleaning-use-1": {
+        "props": {
+            "text": "**Zapatillas de gamuza** \n\n -No mojar la gamuza (puede dañar el calzadol \n -Para suciedad y manchas menores, utilizar un cepillo suave lei un cepillo de dientes viejo) para cepillar suavemente la tierra v sacar las manchas \n -Un cepiliado regular mantiene los pelos de la gamuza limpios y con un buen aspecto \n -Las manchas difíciles pueden ser removidas con un ouitamanchas apto para gamuza. Elegir el producto apropiado va seguir las instrucciones con cuidado"
+        }
+    },
+    /*"image#garment-lacoste-cleaning-use-1": {
+        "props": {
+            "src": "/arquivos/no-lejia.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },*/
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-lacoste-2": {
+        "children": [
+            //"image#garment-lacoste-cleaning-use-2",
+            "rich-text#garment-lacoste-cleaning-use-2"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-lacoste-cleaning-use-2": {
+        "props": {
+            "text": "**Zapatillas de cuero sintético** \n\n -Pueden ser lavadas con jabón blanco, agua fría y un cepillo suave. \n -Dejar secar con el aire. \n -Asegurarse de limpiarlas después de que havan sido expuestas a tierra o barro"
+        }
+    },
+    /*"image#garment-lacoste-cleaning-use-2": {
+        "props": {
+            "src": "/arquivos/no-secar-en-secadora.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },*/
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-lacoste-3": {
+        "children": [
+            //"image#garment-lacoste-cleaning-use-3",
+            "rich-text#garment-lacoste-cleaning-use-3"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-lacoste-cleaning-use-3": {
+        "props": {
+            "text": "**Zpatillas de nylon y mesh** \n\n -Lo importante es la prevención. \n -Rociarlas con spray de silicona periódicamente va a evitar que la tierra y manchas se adhieran. \n -Pueden limpiarse con un trapo húmedo."
+        }
+    },
+    /*"image#garment-lacoste-cleaning-use-3": {
+        "props": {
+            "src": "/arquivos/no-secar-en-secadora.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },*/
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-lacoste-4": {
+        "children": [
+            //"image#garment-lacoste-cleaning-use-3",
+            "rich-text#garment-lacoste-cleaning-use-4"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-lacoste-cleaning-use-4": {
+        "props": {
+            "text": "**Zpatillas de de cuero** \n\n -Si tiene manchas usar un trapo húmedo para retirarlas \n -Secar completamente (nunca encerar zapatillas húmedas por que puede dañar el ciclo \n -Si no tiene manchas, usar un trapo suave para sacarle la tierra \n -Luego utilizar cera o crema especial para calzados de cuero. Elegir el color más parecido al color de las zapatillas es un color neutral."
+        }
+    },
+    /*"image#garment-lacoste-cleaning-use-3": {
+        "props": {
+            "src": "/arquivos/no-secar-en-secadora.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },*/
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-lacoste-5": {
+        "children": [
+            //"image#garment-lacoste-cleaning-use-3",
+            "rich-text#garment-lacoste-cleaning-use-5"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-lacoste-cleaning-use-5": {
+        "props": {
+            "text": "**Zpatillas de leona** \n\n -Lavar a mano con un jabón suave (jabón blanco) \n -Dejar que se sequen al aire, no usar el seca-ropas (pierde su forma)"
+        }
+    }
+    /*"image#garment-lacoste-cleaning-use-3": {
+        "props": {
+            "src": "/arquivos/no-secar-en-secadora.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },*/
+    /******* item completo recomendación de uso****/
+}

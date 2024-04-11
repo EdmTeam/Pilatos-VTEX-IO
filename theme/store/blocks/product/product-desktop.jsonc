@@ -100,8 +100,114 @@
             // "rich-text#title-descripcionProducto",
             // "flex-layout.row#productDescripcion",
             "disclosure-layout#productoDescription",
-            "condition-layout.product#garment-care-le-coq", //Cuidado de prenda le-coq
-            "condition-layout.product#garment-care-ap-crown", //Cuidado de prenda ap-crown
+            "condition-layout.product#garment-care-le-coq",
+            "condition-layout.product#garment-care-ap-crown",
+            "condition-layout.product#garment-care-sprayground",
+            "condition-layout.product#garment-care-ray-ban",
+            "condition-layout.product#garment-care-pilatos-marca",
+            "condition-layout.product#garment-care-replay",
+            "condition-layout.product#garment-care-kipling",
+            "condition-layout.product#garment-care-diesel",
+            "condition-layout.product#garment-care-newbalance-gorras",
+            "condition-layout.product#garment-care-newbalance-morrales",
+            "condition-layout.product#garment-care-newbalance-maletas",
+            "condition-layout.product#garment-care-newbalance-bolsos",
+            "condition-layout.product#garment-care-newbalance-chaquetas-hombre",
+            "condition-layout.product#garment-care-newbalance-chaquetas-mujer",
+            "condition-layout.product#garment-care-newbalance-bermudas",
+            "condition-layout.product#garment-care-newbalance-pantalones",
+            "condition-layout.product#garment-care-newbalance-tops",
+            "condition-layout.product#garment-care-newbalance-sandalias-hombre",
+            "condition-layout.product#garment-care-newbalance-sandalias-mujer",
+            "condition-layout.product#garment-care-newbalance-buzos-hombre",
+            "condition-layout.product#garment-care-newbalance-buzos-mujer",
+            "condition-layout.product#garment-care-newbalance-pantalonetas",
+            "condition-layout.product#garment-care-newbalance-camisetas-hombre",
+            "condition-layout.product#garment-care-newbalance-camisetas-mujer",
+            "condition-layout.product#garment-care-newbalance-medias-hombre",
+            "condition-layout.product#garment-care-newbalance-medias-mujer",
+            "condition-layout.product#garment-care-newbalance-sudaderas-hombre",
+            "condition-layout.product#garment-care-newbalance-sudaderas-mujer",
+            "condition-layout.product#garment-care-newbalance-shorts",
+            "condition-layout.product#garment-care-newbalance-tenis-hombre",
+            "condition-layout.product#garment-care-newbalance-tenis-mujer",
+            "condition-layout.product#garment-care-goorin-bros",
+            "condition-layout.product#garment-care-new-era",
+            "condition-layout.product#garment-care-on",
+            "condition-layout.product#garment-care-vans",
+            "condition-layout.product#garment-lacoste",
+            "condition-layout.product#garment-care-girbaud-tenis-hombre",
+            "condition-layout.product#garment-care-girbaud-tenis-mujer",
+            "condition-layout.product#garment-care-girbaud-camisetas-hombre",
+            "condition-layout.product#garment-care-girbaud-camisetas-mujer",
+            "condition-layout.product#garment-care-girbaud-jean-hombre",
+            "condition-layout.product#garment-care-girbaud-jean-mujer",
+            "condition-layout.product#garment-care-girbaud-polos-hombre",
+            "condition-layout.product#garment-care-girbaud-camisas-hombre",
+            "condition-layout.product#garment-care-girbaud-camisas-mujer",
+            "condition-layout.product#garment-care-girbaud-pantalones-hombre",
+            "condition-layout.product#garment-care-girbaud-pantalones-mujer",
+            "condition-layout.product#garment-care-girbaud-gorras-hombre",
+            "condition-layout.product#garment-care-girbaud-gorras-mujer",
+            "condition-layout.product#garment-care-girbaud-buzos-hombre",
+            "condition-layout.product#garment-care-girbaud-buzos-mujer",
+            "condition-layout.product#garment-care-girbaud-chaquetas-hombre",
+            "condition-layout.product#garment-care-girbaud-chaquetas-mujer",
+            "condition-layout.product#garment-care-girbaud-medias-hombre",
+            "condition-layout.product#garment-care-girbaud-medias-mujer",
+            "condition-layout.product#garment-care-girbaud-vestidos-mujer",
+            "condition-layout.product#garment-care-girbaud-faldas-mujer",
+            "condition-layout.product#garment-care-girbaud-sudaderas-hombre",
+            "condition-layout.product#garment-care-girbaud-sudaderas-mujer",
+            "condition-layout.product#garment-care-girbaud-bermudas-hombre",
+            "condition-layout.product#garment-care-girbaud-shorts-mujer",
+            "condition-layout.product#garment-care-girbaud-boxer-hombre",
+            "condition-layout.product#garment-care-girbaud-bolsos-hombre",
+            "condition-layout.product#garment-care-girbaud-bolsos-mujer",
+            "condition-layout.product#garment-care-girbaud-bodys-mujer",
+            "condition-layout.product#garment-care-girbaud-accesorios-hombre",
+            "condition-layout.product#garment-care-girbaud-accesorios-mujer",
+            "condition-layout.product#garment-care-girbaud-morrales-hombre",
+            "condition-layout.product#garment-care-girbaud-morrales-mujer",
+            "condition-layout.product#garment-care-girbaud-correas-hombre",
+            "condition-layout.product#garment-care-girbaud-correas-mujer",
+            "condition-layout.product#garment-care-superdry-bolsos-hombre",
+            "condition-layout.product#garment-care-superdry-bolsos-mujer",
+            "condition-layout.product#garment-care-superdry-sandalias-hombre-zapatos",
+            "condition-layout.product#garment-care-superdry-sandalias-hombre-playa",
+            "condition-layout.product#garment-care-superdry-sandalias-mujer",
+            "condition-layout.product#garment-care-superdry-tenis-hombre",
+            "condition-layout.product#garment-care-superdry-tenis-mujer",
+            "condition-layout.product#garment-care-superdry-boxer-hombre",
+            "condition-layout.product#garment-care-superdry-chaquetas-hombre",
+            "condition-layout.product#garment-care-superdry-chaquetas-mujer",
+            "condition-layout.product#garment-care-superdry-bermudas-hombre",
+            "condition-layout.product#garment-care-superdry-bermudas-ninos",
+            "condition-layout.product#garment-care-superdry-jeans-hombre",
+            "condition-layout.product#garment-care-superdry-jeans-mujer",
+            "condition-layout.product#garment-care-superdry-pantalones-hombre",
+            "condition-layout.product#garment-care-superdry-pantalones-mujer",
+            "condition-layout.product#garment-care-superdry-buzos-hombre",
+            "condition-layout.product#garment-care-superdry-buzos-mujer",
+            "condition-layout.product#garment-care-superdry-camisas-hombre",
+            "condition-layout.product#garment-care-superdry-camisas-mujer",
+            "condition-layout.product#garment-care-superdry-camisetas-hombre",
+            "condition-layout.product#garment-care-superdry-camisetas-mujer",
+            "condition-layout.product#garment-care-superdry-polos-hombre",
+            "condition-layout.product#garment-care-superdry-polos-mujer",
+            "condition-layout.product#garment-care-superdry-sudaderas-hombre",
+            "condition-layout.product#garment-care-superdry-sudaderas-mujer",
+            "condition-layout.product#garment-care-superdry-medias-hombre",
+            "condition-layout.product#garment-care-superdry-faldas-mujer",
+            "condition-layout.product#garment-care-superdry-shorts-mujer",
+            "condition-layout.product#garment-care-superdry-estuches-hombre",
+            "condition-layout.product#garment-care-superdry-estuches-mujer",
+            "condition-layout.product#garment-care-superdry-gorras-hombre",
+            "condition-layout.product#garment-care-superdry-gorras-mujer",
+            "condition-layout.product#garment-care-superdry-correa-hombre",
+            "condition-layout.product#garment-care-superdry-correa-mujer",
+            
+            
             // "disclosure-layout#descripcionProducto",
             "condition-layout.product#cond1-diesel",
             "condition-layout.product#cond2-superdry",
@@ -122,6 +228,7 @@
             "width": "40%"
         }
     },
+    
     "flex-layout.row#product-button-quantity": {
         "children": [
             "flex-layout.col#product-quantity",
@@ -149,29 +256,29 @@
     },
     // descripcion nueva
     // "flex-layout.row#productDescripcion": {
-    //     "children": [
-    //         "product-description"
-    //     ]
-    // },
-    // "product-description": {
-    //     "props": {
+        //     "children": [
+            //         "product-description"
+            //     ]
+            // },
+            // "product-description": {
+                //     "props": {
     //         "collapseContent": true,
     //         "showTitle": true,
     //         "title": "Descripción de producto"
     //     }
     // },
     // "rich-text#title-descripcionProducto": {
-    //     "props": {
-    //       "text": "Descripción del Producto",
-    //       "blockClass": "product-description-pdp"
-    //     }
-    // },
-    // DESCRIPCION DE PRODUCTO NUEVA CON BOTON
-    "disclosure-layout#productoDescription": {
-        "children": [
-            "disclosure-trigger#productoDescription",
-            "disclosure-content#simpleDescription"
-        ]
+        //     "props": {
+            //       "text": "Descripción del Producto",
+            //       "blockClass": "product-description-pdp"
+            //     }
+            // },
+            // DESCRIPCION DE PRODUCTO NUEVA CON BOTON
+            "disclosure-layout#productoDescription": {
+                "children": [
+                    "disclosure-trigger#productoDescription",
+                    "disclosure-content#simpleDescription"
+                ]
     },
     "disclosure-trigger#productoDescription": {
         "children": [

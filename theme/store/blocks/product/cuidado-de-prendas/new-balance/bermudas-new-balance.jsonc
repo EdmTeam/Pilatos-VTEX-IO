@@ -1,0 +1,288 @@
+{
+    "condition-layout.product#garment-care-newbalance-bermudas": {
+        "props": {
+            "conditions": [
+                {
+                    "subject": "brandId",
+                    "arguments": {
+                        "id": "2000095"
+                    }
+                },
+                {
+                    "subject": "categoryId",
+                    "arguments": {
+                        "id": "19"
+                    }
+                }
+            ],
+            "matchType": "all",
+            "Then": "disclosure-layout#product-garment-care-newbalance-bermudas"
+        }
+    },
+
+    "condition-layout.product#garment-care-newbalance-pantalones": {
+        "props": {
+            "conditions": [
+                {
+                    "subject": "brandId",
+                    "arguments": {
+                        "id": "2000095"
+                    }
+                },
+                {
+                    "subject": "categoryId",
+                    "arguments": {
+                        "id": "59"
+                    }
+                }
+            ],
+            "matchType": "all",
+            "Then": "disclosure-layout#product-garment-care-newbalance-bermudas"
+        }
+    },
+
+    "condition-layout.product#garment-care-newbalance-tops": {
+        "props": {
+            "conditions": [
+                {
+                    "subject": "brandId",
+                    "arguments": {
+                        "id": "2000095"
+                    }
+                },
+                {
+                    "subject": "categoryId",
+                    "arguments": {
+                        "id": "81"
+                    }
+                }
+            ],
+            "matchType": "all",
+            "Then": "disclosure-layout#product-garment-care-newbalance-bermudas"
+        }
+    },
+
+    "disclosure-layout#product-garment-care-newbalance-bermudas": {
+        "children": [
+            "disclosure-trigger#product-content-garment-care-newbalance-bermudas",
+            "disclosure-content#product-description-garment-care-newbalance-bermudas"
+        ]
+    },
+
+    "disclosure-trigger#product-content-garment-care-newbalance-bermudas": {
+        "children": [
+            "rich-text#garment-care-newbalance-bermudas",
+            "disclosure-state-indicator#garment-care"
+        ],
+        "props": {
+            "blockClass": ["container-products", "disclosure-indicator-garment-care"]
+        }
+    },
+
+    "rich-text#garment-care-newbalance-bermudas": {
+        "props": {
+            "text": "**Cuidados de la prenda**"
+            //"blockClass": "product-description-pdp"
+        }
+    },
+    "disclosure-content#product-description-garment-care-newbalance-bermudas": {
+        "children": [
+            "rich-text#garment-care-use-newbalance-bermudas",
+            "flex-layout.row#garment-use-newbalance-bermudas"
+        ],
+        "props": {
+            "blockClass": "garment-use-product-pdp"
+        }
+    },
+    
+    "rich-text#garment-care-use-newbalance-bermudas": {
+        "props": {
+            "text": "**Recomendaciones de uso**"
+        }
+    },
+    "flex-layout.row#garment-use-newbalance-bermudas": {
+        "children": [
+            "flex-layout.col#garment-use-newbalance-bermudas"
+        ]
+    },
+
+    "flex-layout.col#garment-use-newbalance-bermudas": {
+        "children": [
+            "flex-layout.col#garment-use-1-newbalance-bermudas",
+            "flex-layout.col#garment-use-2-newbalance-bermudas",
+            "flex-layout.col#garment-use-3-newbalance-bermudas",
+            "flex-layout.col#garment-use-4-newbalance-bermudas",
+            "flex-layout.col#garment-use-5-newbalance-bermudas",
+            "flex-layout.col#garment-use-6-newbalance-bermudas",
+            "flex-layout.col#garment-use-7-newbalance-bermudas"
+        ]
+    },
+    
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-1-newbalance-bermudas": {
+        "children": [
+            "image#garment-care-cleaning-use-1-newbalance-bermudas",
+            "rich-text#garment-care-cleaning-use-1-newbalance-bermudas"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-1-newbalance-bermudas": {
+        "props": {
+            "text": "Lavar a máquina en temperatura fría y en ciclo delicado"
+        }
+    },
+    "image#garment-care-cleaning-use-1-newbalance-bermudas": {
+        "props": {
+            "src": "/arquivos/image-saturation.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-2-newbalance-bermudas": {
+        "children": [
+            "image#garment-care-cleaning-use-2-newbalance-bermudas",
+            "rich-text#garment-care-cleaning-use-2-newbalance-bermudas"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-2-newbalance-bermudas": {
+        "props": {
+            "text": "Lavar con jabón suave"
+        }
+    },
+    "image#garment-care-cleaning-use-2-newbalance-bermudas": {
+        "props": {
+            "src": "/arquivos/secar-a-la-sombra.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-3-newbalance-bermudas": {
+        "children": [
+            "image#garment-care-cleaning-use-3-newbalance-bermudas",
+            "rich-text#garment-care-cleaning-use-3-newbalance-bermudas"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-3-newbalance-bermudas": {
+        "props": {
+            "text": "No usar blanqueador"
+        }
+    },
+    "image#garment-care-cleaning-use-3-newbalance-bermudas": {
+        "props": {
+            "src": "/arquivos/no-lejia.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-4-newbalance-bermudas": {
+        "children": [
+            "image#garment-care-cleaning-use-4-newbalance-bermudas",
+            "rich-text#garment-care-cleaning-use-4-newbalance-bermudas"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-4-newbalance-bermudas": {
+        "props": {
+            "text": "No lavar en seco"
+        }
+    },
+    "image#garment-care-cleaning-use-4-newbalance-bermudas": {
+        "props": {
+            "src": "/arquivos/do-not-dry.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-5-newbalance-bermudas": {
+        "children": [
+            "image#garment-care-cleaning-use-5-newbalance-bermudas",
+            "rich-text#garment-care-cleaning-use-5-newbalance-bermudas"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-5-newbalance-bermudas": {
+        "props": {
+            "text": "No planchar"
+        }
+    },
+    "image#garment-care-cleaning-use-5-newbalance-bermudas": {
+        "props": {
+            "src": "/arquivos/planchar-baja-temperatura.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-6-newbalance-bermudas": {
+        "children": [
+            "image#garment-care-cleaning-use-6-newbalance-bermudas",
+            "rich-text#garment-care-cleaning-use-6-newbalance-bermudas"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-6-newbalance-bermudas": {
+        "props": {
+            "text": "No usar secadora"
+        }
+    },
+    "image#garment-care-cleaning-use-6-newbalance-bermudas": {
+        "props": {
+            "src": "/arquivos/no-secar-en-secadora.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+     /******* item completo recomendación de uso****/
+     "flex-layout.col#garment-use-7-newbalance-bermudas": {
+        "children": [
+            "image#garment-care-cleaning-use-7-newbalance-bermudas",
+            "rich-text#garment-care-cleaning-use-7-newbalance-bermudas"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-7-newbalance-bermudas": {
+        "props": {
+            "text": "No exprimir"
+        }
+    },
+    "image#garment-care-cleaning-use-7-newbalance-bermudas": {
+        "props": {
+            "src": "/arquivos/no-retorcer.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 34
+        }
+    }
+    /******* item completo recomendación de uso****/
+}

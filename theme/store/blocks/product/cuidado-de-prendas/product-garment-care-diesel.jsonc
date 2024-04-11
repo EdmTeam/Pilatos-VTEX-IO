@@ -1,0 +1,214 @@
+{
+    "condition-layout.product#garment-care-diesel": {
+        "props": {
+            "conditions": [
+                {
+                    "subject": "brandId",
+                    "arguments": {
+                        "id": "2000083"
+                    }
+                }
+            ],
+            "Then": "disclosure-layout#product-garment-care-diesel"
+        }
+    },
+
+    "disclosure-layout#product-garment-care-diesel": {
+        "children": [
+            "disclosure-trigger#product-content-garment-care-diesel",
+            "disclosure-content#product-description-garment-care-diesel"
+        ]
+    },
+
+    "disclosure-trigger#product-content-garment-care-diesel": {
+        "children": [
+            "rich-text#garment-care-diesel",
+            "disclosure-state-indicator#garment-care"
+        ],
+        "props": {
+            "blockClass": ["container-products", "disclosure-indicator-garment-care"]
+        }
+    },
+
+    "rich-text#garment-care-diesel": {
+        "props": {
+            "text": "**Cuidados de la prenda**"
+            //"blockClass": "product-description-pdp"
+        }
+    },
+    "disclosure-content#product-description-garment-care-diesel": {
+        "children": [
+            "rich-text#garment-care-use-diesel",
+            "flex-layout.row#garment-use-diesel"
+        ],
+        "props": {
+            "blockClass": "garment-use-product-pdp"
+        }
+    },
+    
+    "rich-text#garment-care-use-diesel": {
+        "props": {
+            "text": "**Recomendaciones de uso**"
+        }
+    },
+    "flex-layout.row#garment-use-diesel": {
+        "children": [
+            "flex-layout.col#garment-use-diesel"
+        ]
+    },
+
+    "flex-layout.col#garment-use-diesel": {
+        "children": [
+            "flex-layout.col#garment-use-1-diesel",
+            "flex-layout.col#garment-use-2-diesel",
+            "flex-layout.col#garment-use-3-diesel",
+            "flex-layout.col#garment-use-4-diesel",
+            "flex-layout.col#garment-use-5-diesel",
+            "flex-layout.col#garment-use-6-diesel"
+        ]
+    },
+    
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-1-diesel": {
+        "children": [
+            "image#garment-care-cleaning-use-1-diesel",
+            "rich-text#garment-care-cleaning-use-1-diesel"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-1-diesel": {
+        "props": {
+            "text": "Lavar a máquina a 30 °C"
+        }
+    },
+    "image#garment-care-cleaning-use-1-diesel": {
+        "props": {
+            "src": "/arquivos/secar-a-la-sombra.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-2-diesel": {
+        "children": [
+            "image#garment-care-cleaning-use-2-diesel",
+            "rich-text#garment-care-cleaning-use-2-diesel"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-2-diesel": {
+        "props": {
+            "text": "No blanquear"
+        }
+    },
+    "image#garment-care-cleaning-use-2-diesel": {
+        "props": {
+            "src": "/arquivos/no-lejia.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-3-diesel": {
+        "children": [
+            "image#garment-care-cleaning-use-3-diesel",
+            "rich-text#garment-care-cleaning-use-3-diesel"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-3-diesel": {
+        "props": {
+            "text": "No secar en secadora"
+        }
+    },
+    "image#garment-care-cleaning-use-3-diesel": {
+        "props": {
+            "src": "/arquivos/secar-a-la-sombra-nuevo.png",
+            "alt": "Icono cuidado de prenda",
+            "blockClass": "icono-cuidado-de-prenda"
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-4-diesel": {
+        "children": [
+            "image#garment-care-cleaning-use-4-diesel",
+            "rich-text#garment-care-cleaning-use-4-diesel"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-4-diesel": {
+        "props": {
+            "text": "Planchar a 110 °C max"
+        }
+    },
+    "image#garment-care-cleaning-use-4-diesel": {
+        "props": {
+            "src": "/arquivos/planchar-baja-temperatura.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-5-diesel": {
+        "children": [
+            "image#garment-care-cleaning-use-5-diesel",
+            "rich-text#garment-care-cleaning-use-5-diesel"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-5-diesel": {
+        "props": {
+            "text": "No lavar en seco"
+        }
+    },
+    "image#garment-care-cleaning-use-5-diesel": {
+        "props": {
+            "src": "/arquivos/do-not-dry.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-6-diesel": {
+        "children": [
+            "image#garment-care-cleaning-use-6-diesel",
+            "rich-text#garment-care-cleaning-use-6-diesel"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-6-diesel": {
+        "props": {
+            "text": "Secar colgada a la sombra"
+        }
+    },
+    "image#garment-care-cleaning-use-6-diesel": {
+        "props": {
+            "src": "/arquivos/no-secar-en-secadora.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    }
+    /******* item completo recomendación de uso****/
+}

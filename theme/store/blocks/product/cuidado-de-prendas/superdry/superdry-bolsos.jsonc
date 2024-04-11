@@ -1,0 +1,68 @@
+{
+    "disclosure-layout#product-garment-care-superdry-bolsos": {
+        "children": [
+            "disclosure-trigger#product-content-garment-care-superdry-bolsos",
+            "disclosure-content#product-description-garment-care-superdry-bolsos"
+        ]
+    },
+
+    "disclosure-trigger#product-content-garment-care-superdry-bolsos": {
+        "children": [
+            "rich-text#garment-care-superdry-bolsos",
+            "disclosure-state-indicator#garment-care"
+        ],
+        "props": {
+            "blockClass": ["container-products", "disclosure-indicator-garment-care"]
+        }
+    },
+
+    "rich-text#garment-care-superdry-bolsos": {
+        "props": {
+            "text": "**Cuidados de la prenda**"
+            //"blockClass": "product-description-pdp"
+        }
+    },
+    "disclosure-content#product-description-garment-care-superdry-bolsos": {
+        "children": [
+            "flex-layout.row#garment-use-superdry-bolsos"
+        ],
+        "props": {
+            "blockClass": "garment-use-product-pdp"
+        }
+    },
+    "flex-layout.row#garment-use-superdry-bolsos": {
+        "children": [
+            "flex-layout.col#garment-use-superdry-bolsos"
+        ]
+    },
+
+    "flex-layout.col#garment-use-superdry-bolsos": {
+        "children": [
+            "flex-layout.col#garment-use-1-superdry-bolsos"
+        ]
+    },
+    
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-1-superdry-bolsos": {
+        "children": [
+            "image#garment-care-cleaning-use-1-superdry-bolsos",
+            "rich-text#garment-care-cleaning-use-1-superdry-bolsos"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-1-superdry-bolsos": {
+        "props": {
+            "text": "limpie con un paño húmedo"
+        }
+    },
+    "image#garment-care-cleaning-use-1-superdry-bolsos": {
+        "props": {
+            "src": "/arquivos/lavar-a-mano-new.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    }
+    /******* item completo recomendación de uso****/
+}
