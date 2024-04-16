@@ -696,7 +696,8 @@ margin-top: 1%;
 @media only screen and (min-width: 1180px){
     .price_className--productPrice{
         margin: 2.2rem auto 1rem 0;
-        width: 85%;
+        /*width: 85%;*/
+        width: 80%;
     }
 
     :global(.vtex-flex-layout-0-x-flexColChild--stack-product) .skuSelectorContainer{
@@ -835,4 +836,11 @@ cursor: pointer;
 .imageElement--icono-cuidado-de-prenda {
     width: 25px;
     object-fit: cover;
+}
+
+/***PDP***/
+@media screen and (min-width: 640px) and (max-width: 860px) {
+    :global(.vtex-flex-layout-0-x-flexColChild--stack-product) .skuSelectorContainer{
+        width: 100%
+    }
 }

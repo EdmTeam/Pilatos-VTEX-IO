@@ -1,4 +1,4 @@
-.label{
+/*.label{
     width: 90%;
     margin: 0 auto;
     display: flex;
@@ -10,4 +10,27 @@
     text-decoration-line: underline;
     text-transform: uppercase;
     color: #000000;
+}*/
+
+.label{
+    /*width: 90%;*/
+    margin: 0 auto;
+    font-weight: bold;
+    /*font-size: 9px;*/
+    font-size: 12px;
+    /*line-height: 11px;*/
+    /*text-decoration-line: underline;*/
+    /*text-transform: uppercase;*/
+    color: #000000;
+    border: 1px solid #000;
+    max-width: max-content;
+    padding: 10px 16px;;
+    border-radius: 100px;
+}
+
+/***PDP***/
+@media screen and (min-width: 640px) and (max-width: 860px) {
+    .label {
+        padding: 8px;
+    }
 }
