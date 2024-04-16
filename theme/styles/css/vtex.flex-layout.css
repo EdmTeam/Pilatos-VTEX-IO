@@ -1773,9 +1773,9 @@
   border-radius: 0;
 }
 
-.flexColChild--stack-product .flexRowContent--productButton{
+/*.flexColChild--stack-product .flexRowContent--productButton{
   margin: 1.1rem 0;
-}
+}*/
 
 .flexColChild--stack-product .flexRowContent--productButton :global(.vtex-button){
   width: 91%;
@@ -1926,8 +1926,11 @@
   }
 
   .flexColChild--product-description .flexRowContent--productIdentifierRating{
-    display: block;
+    /*display: block;*/
+    display: flex;
+    align-items: center;
     margin-top: .3rem;
+    width: 80%;
   }
 
   .flexColChild--product-description :global(.vtex-reviews-and-ratings-1-x-summaryContainer){
@@ -1944,7 +1947,8 @@
   }
 
   .flexRowContent--contentButtonQuantity{
-    align-items: center;
+    /*align-items: center;*/
+    align-items: end;
   }
 
   .flexRowContent--poductTab :global(.vtex-tab-layout-0-x-listContainer){
@@ -3470,5 +3474,44 @@ width: 88%;
 .flexCol--contenedor-primera-compra-icons {
   flex-direction: row;
   align-items: center;
+  gap: 8px;
+}
+
+/****PDP**/
+.flexCol--btn-size-guide {
+  display: flex;
+  flex-direction: row;
+  align-items: self-end;
+  justify-content: space-evenly;
+  margin-top: -18px;
+}
+.flexRowContent--contenedor-size-guide-quantity {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto 20px auto;
+}
+.flexCol--product-size-guide-btn {
+  margin-top: 12px;
+}
+/*@media screen and (max-width: 1044px)*/
+@media screen and (min-width: 640px) and (max-width: 860px) {
+  .flexColChild--product-description .flexRowContent--productIdentifierRating{
+    display: block;
+  }
+  .flexRowContent--contenedor-sku-mi-talla {
+    flex-direction: column;
+    margin-bottom: 18px;
+  }
+  .flexCol--btn-size-guide {
+    margin-top: 10px;
+  }
+}
+
+/****VENDIDO POR***/
+.flexCol--seller-name-product {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   gap: 8px;
 }

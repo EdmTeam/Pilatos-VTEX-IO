@@ -199,68 +199,8 @@
 
       "stack-layout#product",
       "product-price#product",
-      "size-guide#superior-mujer-hombre-medias-stance",
-      "size-guide#mujer-hombre-gorras-Alpinestars",
-      "size-guide#hombre-pantalones-Alpinestars",
-      "size-guide#superior-hombre-Alpinestars",
-      "size-guide#hombre-cascos-gorras-Oakley",
-      "size-guide#hombre-superior-inferior-Oakley",
-      "size-guide#hombre-tenis-Oakley",
-      "size-guide#mujer-calzado-gorra-sombrero-Roxy",
-      "size-guide#mujer-superior-inferior-Roxy",
-      "size-guide#mujer-vestidos-Roxy",
-      "size-guide#hombre-calzado-Quiksilver",
-      "size-guide#hombre-gorra-Quiksilver",
-      "size-guide#hombre-superior-short-Quiksilver",
-      "size-guide#superior-mujer-champion",
-      "size-guide#inferior-mujer-champion",
-      "size-guide#superior-hombre-champion",
-      "size-guide#inferior-hombre-champion",
-      "size-guide#inferior-hombre-Oneill",
-      "size-guide#calzado-hombre-Oneill",
-      "size-guide#calzado-hombre-lacoste",
-      "size-guide#calzado-mujer-lacoste",
-      "size-guide#calzado-hombre-lecoq",
-      "size-guide#calzado-mujer-lecoq",
-      "size-guide#camisetas-hombre-monastery",
-      "size-guide#zapatos-hombre-adidas",
-      "size-guide#zapatos-mujer-adidas",
-      "size-guide#mujer-diesel",
-      "size-guide#zapatos-mujer-diesel",
-      //"size-guide#zapatos-mujer-LeCoqSportif",
-      "size-guide#mujer-MaritheFrancoisGirbaud",
-      "size-guide#zapatos-mujer-newbalance",
-      "size-guide#zapatos-mujer-reebok",
-      "size-guide#mujer-Replay",
-      "size-guide#zapatos-hombre-nike",
-      "size-guide#mujer-nike",
-      "size-guide#superior-nike-hombre",
-      "size-guide#superior-nike-mujer",
-      "size-guide#inferior-nike-hombre",
-      "size-guide#kids-newbalance",
-      "size-guide#zapatos-mujer-Replay",
-      "size-guide#zapatos-mujer-superdry",
-      "size-guide#sandalias-hombre-Superdry",
-            "size-guide#sandalias-mujer-Superdry",
-      "size-guide#mujer-superdry",
-      "size-guide#zapatos-hombre-diesel",
-      "size-guide#hombre-diesel",
-      "size-guide#buzos-ap-crown",
-      "size-guide#camisetas-ap-crown",
-      "size-guide#bermudas-ap-crown",
-     // "size-guide#zapatos-hombre-LeCoqSportif",
-      "size-guide#hombre-MaritheFrancoisGirbaud",
-      "size-guide#zapatos-hombre-newbalance",
-      "size-guide#zapatos-hombre-reebok",
-      "size-guide#hombre-Replay",
-      "size-guide#zapatos-hombre-Replay",
-      "size-guide#hombre-Superdry",
-      "size-guide#zapatos-hombre-Superdry",
-      "size-guide#correa",
-      "size-guide#hombre-vans",
-            "size-guide#mujer-vans",
             "sku-selector",
-      "product-quantity",
+            "flex-layout.row#product-quantity-size-guide",
       "product-availability#uno",
       "flex-layout.row#product-button",
 
@@ -383,7 +323,7 @@
       "condition-layout.product#cond3-kipling",
       "condition-layout.product#cond4-pilatos",
       "condition-layout.product#cond5-girbaud",
-            //"link#scrollLink",
+      "link#scrollLink",
       "share#default",
       "flex-layout.row#add-to-list-btn",
       "pilatos21.add-to-cart-button:add-to-cart-button",
@@ -473,8 +413,9 @@
 
   "link#scrollLink":{
     "children": [
-      "rich-text#nitysic",
-      "flex-layout.row#scrollLink"
+      "flex-layout.row#seller-table#seller-product",
+      "rich-text#nitysic"
+      //"flex-layout.row#scrollLink"
     ],
     "props":{
         "href": "#pilatos21-add-to-cart-button-0-x-btnStyle"
@@ -513,5 +454,90 @@
           "text": "",
           "blockClass": "icoFlechaMore"
       }
+  },
+
+  //PDP
+  "flex-layout.row#product-quantity-size-guide": {
+    "children": [
+      "flex-layout.col#product-quantity-size-guide",
+      "flex-layout.col#product-size-guide"
+    ],
+    "props": {
+      "blockClass": "contenedor-size-guide-quantity"
+    }
+  },
+  
+  "flex-layout.col#product-quantity-size-guide": {
+    "children": [
+      "product-quantity"
+    ]
+  },
+
+  "flex-layout.col#product-size-guide": {
+    "children": [
+      "size-guide#superior-mujer-hombre-medias-stance",
+      "size-guide#mujer-hombre-gorras-Alpinestars",
+      "size-guide#hombre-pantalones-Alpinestars",
+      "size-guide#superior-hombre-Alpinestars",
+      "size-guide#hombre-cascos-gorras-Oakley",
+      "size-guide#hombre-superior-inferior-Oakley",
+      "size-guide#hombre-tenis-Oakley",
+      "size-guide#mujer-calzado-gorra-sombrero-Roxy",
+      "size-guide#mujer-superior-inferior-Roxy",
+      "size-guide#mujer-vestidos-Roxy",
+      "size-guide#hombre-calzado-Quiksilver",
+      "size-guide#hombre-gorra-Quiksilver",
+      "size-guide#hombre-superior-short-Quiksilver",
+      "size-guide#superior-mujer-champion",
+      "size-guide#inferior-mujer-champion",
+      "size-guide#superior-hombre-champion",
+      "size-guide#inferior-hombre-champion",
+      "size-guide#inferior-hombre-Oneill",
+      "size-guide#calzado-hombre-Oneill",
+      "size-guide#calzado-hombre-lacoste",
+      "size-guide#calzado-mujer-lacoste",
+      "size-guide#calzado-hombre-lecoq",
+      "size-guide#calzado-mujer-lecoq",
+      "size-guide#camisetas-hombre-monastery",
+      "size-guide#zapatos-hombre-adidas",
+      "size-guide#zapatos-mujer-adidas",
+      "size-guide#mujer-diesel",
+      "size-guide#zapatos-mujer-diesel",
+      //"size-guide#zapatos-mujer-LeCoqSportif",
+      "size-guide#mujer-MaritheFrancoisGirbaud",
+      "size-guide#zapatos-mujer-newbalance",
+      "size-guide#zapatos-mujer-reebok",
+      "size-guide#mujer-Replay",
+      "size-guide#zapatos-hombre-nike",
+      "size-guide#mujer-nike",
+      "size-guide#superior-nike-hombre",
+      "size-guide#superior-nike-mujer",
+      "size-guide#inferior-nike-hombre",
+      "size-guide#kids-newbalance",
+      "size-guide#zapatos-mujer-Replay",
+      "size-guide#zapatos-mujer-superdry",
+      "size-guide#sandalias-hombre-Superdry",
+            "size-guide#sandalias-mujer-Superdry",
+      "size-guide#mujer-superdry",
+      "size-guide#zapatos-hombre-diesel",
+      "size-guide#hombre-diesel",
+      "size-guide#buzos-ap-crown",
+      "size-guide#camisetas-ap-crown",
+      "size-guide#bermudas-ap-crown",
+     // "size-guide#zapatos-hombre-LeCoqSportif",
+      "size-guide#hombre-MaritheFrancoisGirbaud",
+      "size-guide#zapatos-hombre-newbalance",
+      "size-guide#zapatos-hombre-reebok",
+      "size-guide#hombre-Replay",
+      "size-guide#zapatos-hombre-Replay",
+      "size-guide#hombre-Superdry",
+      "size-guide#zapatos-hombre-Superdry",
+      "size-guide#correa",
+      "size-guide#hombre-vans",
+            "size-guide#mujer-vans"
+    ],
+    "props": {
+      "blockClass": "product-size-guide-btn"
+    }
   }
 }

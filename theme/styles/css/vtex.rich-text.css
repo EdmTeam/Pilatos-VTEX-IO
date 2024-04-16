@@ -17,8 +17,6 @@
 
 .paragraph--texto-importado {
   margin-bottom: 0;
-  font-style: italic;
-  font-weight: 800;
   font-size: 14px;
   line-height: 20px;
   color: #000000;
@@ -3498,4 +3496,10 @@ margin: 2px;
 .link--linkWhatsapFooter {
   text-decoration: none;
   color: #fff;
+}
+
+/******PDP*****/
+.paragraph--seller-producto-after {
+  margin: 0;
+  font-size: 13px;
 }
