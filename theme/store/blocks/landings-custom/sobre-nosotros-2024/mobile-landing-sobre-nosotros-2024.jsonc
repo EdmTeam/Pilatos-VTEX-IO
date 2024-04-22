@@ -1,0 +1,26 @@
+{
+    "responsive-layout.mobile#banner-principal-sobrenosotros2024": {
+        "children": [
+            "flex-layout.row#mob-banner-sobrenosotros2024"
+        ]
+    },
+
+    "flex-layout.row#mob-banner-sobrenosotros2024": {
+        "children": [
+            "image#banner-hero-mob-sobrenosotros2024"
+        ]
+    },
+
+    "image#banner-hero-mob-sobrenosotros2024": {
+        "title": "Imágen mob Sobre Pilatos",
+        "props": {
+            "src": "/arquivos/Pilatos-Landing-banner-home-mobile-new.png",
+            "alt": "Banner mobile principal",
+            "link": {
+                "url": "",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    }
+}

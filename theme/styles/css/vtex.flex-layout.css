@@ -3515,3 +3515,9 @@ width: 88%;
   justify-content: center;
   gap: 8px;
 }
+
+/****SOBRE NOSOTROS***/
+.flexRowContent--contenedor-main-sobre-nosotros-2024 {
+  width: 90%;
+  margin: 25px auto 25px auto;
+}

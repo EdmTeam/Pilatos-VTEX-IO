@@ -1,830 +1,1452 @@
 {
-
-
-
-
-    "size-guide#zapatos-mujer-adidas":{
+    "size-guide#zapatos-mujer-adidas": {
         "props": {
-          "conditionals": [
-              {
-                  "brands": ["2000075"],
-                  "categories": ["44"],
-                  "imageDesktop": "/arquivos/Adidas---mujer-zapato.jpg",
-                  "imageTablet": "/arquivos/Adidas-mujer-zapato-largo.jpg",
-                  "imagePhone": "/arquivos/Adidas-mujer-zapato-largo.jpg"
-              }
-          ]
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000075"
+                    ],
+                    "categories": [
+                        "44"
+                    ],
+                    "imageDesktop": "/arquivos/Adidas---mujer-zapato.jpg",
+                    "imageTablet": "/arquivos/Adidas-mujer-zapato-largo.jpg",
+                    "imagePhone": "/arquivos/Adidas-mujer-zapato-largo.jpg"
+                }
+            ]
         }
     },
-
-    "size-guide#kids-newbalance":{
+    "size-guide#kids-newbalance": {
         "props": {
-          "conditionals": [
-              {
-                  "brands": ["2000095"],
-                  "categories": ["91"],
-                  "imageDesktop": "/arquivos/NewBalance-GuiaTallas-ninos-4-11-unisex.jpg",
-                  "imageTablet": "/arquivos/NewBalance-GuiaTallas-ninos-4-11-unisex.jpg",
-                  "imagePhone": "/arquivos/NewBalance-GuiaTallas-ninos-4-11-unisex.jpg"
-              }
-          ]
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000095"
+                    ],
+                    "categories": [
+                        "91"
+                    ],
+                    "imageDesktop": "/arquivos/NewBalance-GuiaTallas-ninos-4-11-unisex.jpg",
+                    "imageTablet": "/arquivos/NewBalance-GuiaTallas-ninos-4-11-unisex.jpg",
+                    "imagePhone": "/arquivos/NewBalance-GuiaTallas-ninos-4-11-unisex.jpg"
+                }
+            ]
         }
     },
-
-
-
-    "size-guide#mujer-diesel":{
+    "size-guide#mujer-diesel": {
         "props": {
-          "conditionals": [
-              {
-                  "brands": ["2000083"],
-                  "categories": ["48", "53", "84", "79"],
-                  "imageDesktop": "/arquivos/MUJER-GT-Diesel-camisa-Desk.jpg",
-                  "imageTablet": "/arquivos/MUJER-GT-Diesel-camisa-mobi.jpg",
-                  "imagePhone": "/arquivos/MUJER-GT-Diesel-camisa-mobi.jpg"
-              }
-          ]
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000083"
+                    ],
+                    "categories": [
+                        "48",
+                        "53",
+                        "84",
+                        "79"
+                    ],
+                    "imageDesktop": "/arquivos/MUJER-GT-Diesel-camisa-Desk.jpg",
+                    "imageTablet": "/arquivos/MUJER-GT-Diesel-camisa-mobi.jpg",
+                    "imagePhone": "/arquivos/MUJER-GT-Diesel-camisa-mobi.jpg"
+                }
+            ]
         }
     },
-
-    "size-guide#zapatos-mujer-diesel":{
+    "size-guide#zapatos-mujer-diesel": {
         "props": {
-          "conditionals": [
-              {
-                  "brands": ["2000083"],
-                  "categories": ["44"],
-                  "imageDesktop": "/arquivos/MUJER-GT-Diesel-TENIS-Desk.jpg",
-                  "imageTablet": "/arquivos/MUJER-GT-Diesel-TENIS-MOBI.jpg",
-                  "imagePhone": "/arquivos/MUJER-GT-Diesel-TENIS-MOBI.jpg"
-              }
-          ]
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000083"
+                    ],
+                    "categories": [
+                        "44"
+                    ],
+                    "imageDesktop": "/arquivos/MUJER-GT-Diesel-TENIS-Desk.jpg",
+                    "imageTablet": "/arquivos/MUJER-GT-Diesel-TENIS-MOBI.jpg",
+                    "imagePhone": "/arquivos/MUJER-GT-Diesel-TENIS-MOBI.jpg"
+                }
+            ]
         }
     },
-
-    "size-guide#zapatos-mujer-LeCoqSportif":{
+    "size-guide#zapatos-mujer-LeCoqSportif": {
         "props": {
-          "conditionals": [
-              {
-                  "brands": ["2000092"],
-                  "categories": ["44"],
-                  "imageDesktop": "/arquivos/Pilatos-GuiaTallas-LeCoq2-mujer-min.jpg",
-                  "imageTablet": "/arquivos/Lecoq-mujer-zapato-largo.jpg",
-                  "imagePhone": "/arquivos/Pilatos-GuiaTallas-LeCoq2-mujer-min.jpg"
-              }
-          ]
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000092"
+                    ],
+                    "categories": [
+                        "44"
+                    ],
+                    "imageDesktop": "/arquivos/Pilatos-GuiaTallas-LeCoq2-mujer-min.jpg",
+                    "imageTablet": "/arquivos/Lecoq-mujer-zapato-largo.jpg",
+                    "imagePhone": "/arquivos/Pilatos-GuiaTallas-LeCoq2-mujer-min.jpg"
+                }
+            ]
         }
     },
-
-    "size-guide#mujer-MaritheFrancoisGirbaud":{
+    "size-guide#mujer-MaritheFrancoisGirbaud": {
         "props": {
-          "conditionals": [
-              {
-                  "brands": ["2000093"],
-                  "categories": ["48", "53", "84", "79"],
-                  "imageDesktop": "/arquivos/Pilatos-GuiaTallas-MFG1-mujer.jpg",
-                  "imageTablet": "/arquivos/Pilatos-GuiaTallas-Mobile-MFG1-mujer.jpg",
-                  "imagePhone": "/arquivos/Pilatos-GuiaTallas-Mobile-MFG1-mujer.jpg"
-              }
-          ]
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000093"
+                    ],
+                    "categories": [
+                        "57",
+                        "55",
+                        "54",
+                        "58",
+                        "56",
+                        "64"
+                    ],
+                    "imageDesktop": "/arquivos/MFG-superior-femenino-GuiaTallas-2024.jpg",
+                    "imageTablet": "/arquivos/MFG-superior-femenino-GuiaTallas-2024.jpg",
+                    "imagePhone": "/arquivos/MFG-superior-femenino-GuiaTallas-2024.jpg"
+                }
+            ]
         }
     },
-
-    "size-guide#zapatos-mujer-newbalance":{
+    "size-guide#zapatos-mujer-newbalance": {
         "props": {
-          "conditionals": [
-              {
-                  "brands": ["2000095"],
-                  "categories": ["44"],
-                  "imageDesktop": "/arquivos/NewBalance-GuiaTallas-calzado-mujer.jpg",
-                  "imageTablet": "/arquivos/NewBalance-GuiaTallas-calzado-mujer.jpg",
-                  "imagePhone": "/arquivos/NewBalance-GuiaTallas-calzado-mujer.jpg"
-              }
-          ]
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000095"
+                    ],
+                    "categories": [
+                        "44"
+                    ],
+                    "imageDesktop": "/arquivos/NewBalance-GuiaTallas-calzado-mujer.jpg",
+                    "imageTablet": "/arquivos/NewBalance-GuiaTallas-calzado-mujer.jpg",
+                    "imagePhone": "/arquivos/NewBalance-GuiaTallas-calzado-mujer.jpg"
+                }
+            ]
         }
     },
-
-    "size-guide#zapatos-mujer-reebok":{
+    "size-guide#zapatos-mujer-reebok": {
         "props": {
-          "conditionals": [
-              {
-                  "brands": ["2000101"],
-                  "categories": ["44"],
-                  "imageDesktop": "/arquivos/Reebok---mujer-zapato.jpg",
-                  "imageTablet": "/arquivos/Reebok-mujer-zapato-largo.jpg",
-                  "imagePhone": "/arquivos/Reebok-mujer-zapato-largo.jpg"
-              }
-          ]
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000101"
+                    ],
+                    "categories": [
+                        "44"
+                    ],
+                    "imageDesktop": "/arquivos/Reebok---mujer-zapato.jpg",
+                    "imageTablet": "/arquivos/Reebok-mujer-zapato-largo.jpg",
+                    "imagePhone": "/arquivos/Reebok-mujer-zapato-largo.jpg"
+                }
+            ]
         }
     },
-
-    "size-guide#mujer-Replay":{
+    "size-guide#mujer-Replay": {
         "props": {
-          "conditionals": [
-              {
-                  "brands": ["2000102"],
-                  "categories": ["48", "53", "84", "79"],
-                  "imageDesktop": "/arquivos/desk-Replay-mujerCamisa.jpg",
-                  "imageTablet": "/arquivos/mobile-Replay-mujerCamisa.jpg",
-                  "imagePhone": "/arquivos/mobile-Replay-mujerCamisa.jpg"
-              }
-          ]
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000102"
+                    ],
+                    "categories": [
+                        "48",
+                        "53",
+                        "84",
+                        "79"
+                    ],
+                    "imageDesktop": "/arquivos/desk-Replay-mujerCamisa.jpg",
+                    "imageTablet": "/arquivos/mobile-Replay-mujerCamisa.jpg",
+                    "imagePhone": "/arquivos/mobile-Replay-mujerCamisa.jpg"
+                }
+            ]
         }
     },
-
-    "size-guide#zapatos-mujer-Replay":{
+    "size-guide#zapatos-mujer-Replay": {
         "props": {
-          "conditionals": [
-              {
-                  "brands": ["2000102"],
-                  "categories": ["44"],
-                  "imageDesktop": "/arquivos/desk-Replay-mujer-tenis.jpg",
-                  "imageTablet": "/arquivos/Replay--mujer-zapato.jpg",
-                  "imagePhone": "/arquivos/Replay--mujer-zapato.jpg"
-              }
-          ]
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000102"
+                    ],
+                    "categories": [
+                        "44"
+                    ],
+                    "imageDesktop": "/arquivos/desk-Replay-mujer-tenis.jpg",
+                    "imageTablet": "/arquivos/Replay--mujer-zapato.jpg",
+                    "imagePhone": "/arquivos/Replay--mujer-zapato.jpg"
+                }
+            ]
         }
     },
-
-    "size-guide#superior-nike-hombre":{
+    "size-guide#superior-nike-hombre": {
         "props": {
-          "conditionals": [
-              {
-                  "brands": ["2000111"],
-                  "categories": ["14", "13", "17"],
-                  "imageDesktop": "/arquivos/Pilatos-GuiaTallasExternas-Nike-superior-hombre.jpg",
-                  "imageTablet": "/arquivos/Pilatos-GuiaTallasExternas-Nike-superior-hombre.jpg",
-                  "imagePhone": "/arquivos/Pilatos-GuiaTallasExternas-Nike-superior-hombre.jpg"
-              }
-          ]
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000111"
+                    ],
+                    "categories": [
+                        "14",
+                        "13",
+                        "17"
+                    ],
+                    "imageDesktop": "/arquivos/Pilatos-GuiaTallasExternas-Nike-superior-hombre.jpg",
+                    "imageTablet": "/arquivos/Pilatos-GuiaTallasExternas-Nike-superior-hombre.jpg",
+                    "imagePhone": "/arquivos/Pilatos-GuiaTallasExternas-Nike-superior-hombre.jpg"
+                }
+            ]
         }
     },
-
-    "size-guide#inferior-nike-hombre":{
+    "size-guide#inferior-nike-hombre": {
         "props": {
-          "conditionals": [
-              {
-                  "brands": ["2000111"],
-                  "categories": ["20"],
-                  "imageDesktop": "/arquivos/Pilatos-GuiaTallasExternas-Nike-inferior-hombre.jpg",
-                  "imageTablet": "/arquivos/Pilatos-GuiaTallasExternas-Nike-inferior-hombre.jpg",
-                  "imagePhone": "/arquivos/Pilatos-GuiaTallasExternas-Nike-inferior-hombre.jpg"
-              }
-          ]
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000111"
+                    ],
+                    "categories": [
+                        "20"
+                    ],
+                    "imageDesktop": "/arquivos/Pilatos-GuiaTallasExternas-Nike-inferior-hombre.jpg",
+                    "imageTablet": "/arquivos/Pilatos-GuiaTallasExternas-Nike-inferior-hombre.jpg",
+                    "imagePhone": "/arquivos/Pilatos-GuiaTallasExternas-Nike-inferior-hombre.jpg"
+                }
+            ]
         }
     },
-
-
-    "size-guide#superior-nike-mujer":{
+    "size-guide#superior-nike-mujer": {
         "props": {
-          "conditionals": [
-              {
-                  "brands": ["2000111"],
-                  "categories": ["55", "54", "58"],
-                  "imageDesktop": "/arquivos/Pilatos-GuiaTallasExternas-Nike-calzado-mujer.jpg",
-                  "imageTablet": "/arquivos/Pilatos-GuiaTallasExternas-Nike-calzado-mujer.jpg",
-                  "imagePhone": "/arquivos/Pilatos-GuiaTallasExternas-Nike-calzado-mujer.jpg"
-              }
-          ]
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000111"
+                    ],
+                    "categories": [
+                        "55",
+                        "54",
+                        "58"
+                    ],
+                    "imageDesktop": "/arquivos/Pilatos-GuiaTallasExternas-Nike-calzado-mujer.jpg",
+                    "imageTablet": "/arquivos/Pilatos-GuiaTallasExternas-Nike-calzado-mujer.jpg",
+                    "imagePhone": "/arquivos/Pilatos-GuiaTallasExternas-Nike-calzado-mujer.jpg"
+                }
+            ]
         }
     },
-
-
-    "size-guide#mujer-nike":{
+    "size-guide#mujer-nike": {
         "props": {
-          "conditionals": [
-              {
-                  "brands": ["2000111"],
-                  "categories": ["44", "45", "46"],
-                  "imageDesktop": "/arquivos/Pilatos-GuiaTallasExternas-Nike-calzado-mujer.jpg",
-                  "imageTablet": "/arquivos/Pilatos-GuiaTallasExternas-Nike-calzado-mujer.jpg",
-                  "imagePhone": "/arquivos/Pilatos-GuiaTallasExternas-Nike-calzado-mujer.jpg"
-              }
-          ]
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000111"
+                    ],
+                    "categories": [
+                        "44",
+                        "45",
+                        "46"
+                    ],
+                    "imageDesktop": "/arquivos/Pilatos-GuiaTallasExternas-Nike-calzado-mujer.jpg",
+                    "imageTablet": "/arquivos/Pilatos-GuiaTallasExternas-Nike-calzado-mujer.jpg",
+                    "imagePhone": "/arquivos/Pilatos-GuiaTallasExternas-Nike-calzado-mujer.jpg"
+                }
+            ]
         }
     },
-
-    "size-guide#superior-mujer-hombre-medias-stance":{
+    "size-guide#superior-mujer-hombre-medias-stance": {
         "props": {
-          "conditionals": [
-              {
-                  "brands": ["2000107", "2000006"],
-                  "categories": ["38", "82"],
-                  "imageDesktop": "/arquivos/Pilatos-GuiaTallas-Stance-medias-hombre-mujer.jpg",
-                  "imageTablet": "/arquivos/Pilatos-GuiaTallas-Stance-medias-hombre-mujer.jpg",
-                  "imagePhone": "/arquivos/Pilatos-GuiaTallas-Stance-medias-hombre-mujer.jpg"
-              }
-          ]
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000107",
+                        "2000006"
+                    ],
+                    "categories": [
+                        "38",
+                        "82"
+                    ],
+                    "imageDesktop": "/arquivos/Pilatos-GuiaTallas-Stance-medias-hombre-mujer.jpg",
+                    "imageTablet": "/arquivos/Pilatos-GuiaTallas-Stance-medias-hombre-mujer.jpg",
+                    "imagePhone": "/arquivos/Pilatos-GuiaTallas-Stance-medias-hombre-mujer.jpg"
+                }
+            ]
         }
     },
     // GUIA DE TALLA MARCAS DISANDINA
-    "size-guide#mujer-hombre-gorras-Alpinestars":{
+    "size-guide#mujer-hombre-gorras-Alpinestars": {
         "props": {
-          "conditionals": [
-              {
-                  "brands": ["2000004"],
-                  "categories": ["24", "67"],
-                  "imageDesktop": "/arquivos/Pilatos-GuiaTallas-Alpinestars-gorras.jpg",
-                  "imageTablet": "/arquivos/Pilatos-GuiaTallas-Alpinestars-gorras.jpg",
-                  "imagePhone": "/arquivos/Pilatos-GuiaTallas-Alpinestars-gorras.jpg"
-              }
-          ]
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000004"
+                    ],
+                    "categories": [
+                        "24",
+                        "67"
+                    ],
+                    "imageDesktop": "/arquivos/Pilatos-GuiaTallas-Alpinestars-gorras.jpg",
+                    "imageTablet": "/arquivos/Pilatos-GuiaTallas-Alpinestars-gorras.jpg",
+                    "imagePhone": "/arquivos/Pilatos-GuiaTallas-Alpinestars-gorras.jpg"
+                }
+            ]
         }
     },
-    "size-guide#hombre-pantalones-Alpinestars":{
+    "size-guide#hombre-pantalones-Alpinestars": {
         "props": {
-          "conditionals": [
-              {
-                  "brands": ["2000004"],
-                  "categories": ["18", "20"],
-                  "imageDesktop": "/arquivos/Pilatos-GuiaTallas-Alpinestars-pantalones-hombrejpg",
-                  "imageTablet": "/arquivos/Pilatos-GuiaTallas-Alpinestars-pantalones-hombre.jpg",
-                  "imagePhone": "/arquivos/Pilatos-GuiaTallas-Alpinestars-pantalones-hombre.jpg"
-              }
-          ]
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000004"
+                    ],
+                    "categories": [
+                        "18",
+                        "20"
+                    ],
+                    "imageDesktop": "/arquivos/Pilatos-GuiaTallas-Alpinestars-pantalones-hombrejpg",
+                    "imageTablet": "/arquivos/Pilatos-GuiaTallas-Alpinestars-pantalones-hombre.jpg",
+                    "imagePhone": "/arquivos/Pilatos-GuiaTallas-Alpinestars-pantalones-hombre.jpg"
+                }
+            ]
         }
     },
-    "size-guide#superior-hombre-Alpinestars":{
+    "size-guide#superior-hombre-Alpinestars": {
         "props": {
-          "conditionals": [
-              {
-                  "brands": ["2000004"],
-                  "categories": ["14", "13", "17", "16"],
-                  "imageDesktop": "/arquivos/Pilatos-GuiaTallas-Alpinestars-superior-hombre.jpg",
-                  "imageTablet": "/arquivos/Pilatos-GuiaTallas-Alpinestars-superior-hombre.jpg",
-                  "imagePhone": "/arquivos/Pilatos-GuiaTallas-Alpinestars-superior-hombre.jpg"
-              }
-          ]
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000004"
+                    ],
+                    "categories": [
+                        "14",
+                        "13",
+                        "17",
+                        "16"
+                    ],
+                    "imageDesktop": "/arquivos/Pilatos-GuiaTallas-Alpinestars-superior-hombre.jpg",
+                    "imageTablet": "/arquivos/Pilatos-GuiaTallas-Alpinestars-superior-hombre.jpg",
+                    "imagePhone": "/arquivos/Pilatos-GuiaTallas-Alpinestars-superior-hombre.jpg"
+                }
+            ]
         }
     },
-    "size-guide#hombre-cascos-gorras-Oakley":{
+    "size-guide#hombre-cascos-gorras-Oakley": {
         "props": {
-          "conditionals": [
-              {
-                  "brands": ["2000097", "2000002"],
-                  "categories": ["24", "35"],
-                  "imageDesktop": "/arquivos/Pilatos-GuiaTallas-Oakley-cascos-gorras.jpg",
-                  "imageTablet": "/arquivos/Pilatos-GuiaTallas-Oakley-cascos-gorras.jpg",
-                  "imagePhone": "/arquivos/Pilatos-GuiaTallas-Oakley-cascos-gorras.jpg"
-              }
-          ]
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000097",
+                        "2000002"
+                    ],
+                    "categories": [
+                        "24",
+                        "35"
+                    ],
+                    "imageDesktop": "/arquivos/Pilatos-GuiaTallas-Oakley-cascos-gorras.jpg",
+                    "imageTablet": "/arquivos/Pilatos-GuiaTallas-Oakley-cascos-gorras.jpg",
+                    "imagePhone": "/arquivos/Pilatos-GuiaTallas-Oakley-cascos-gorras.jpg"
+                }
+            ]
         }
     },
-    "size-guide#hombre-superior-inferior-Oakley":{
+    "size-guide#hombre-superior-inferior-Oakley": {
         "props": {
-          "conditionals": [
-              {
-                "brands": ["2000097", "2000002"],
-                "categories": ["4", "39"],
-                  "imageDesktop": "/arquivos/Pilatos-GuiaTallas-Oakley-superior-inferior-hombre.jpg",
-                  "imageTablet": "/arquivos/Pilatos-GuiaTallas-Oakley-superior-inferior-hombre.jpg",
-                  "imagePhone": "/arquivos/Pilatos-GuiaTallas-Oakley-superior-inferior-hombre.jpg"
-              }
-          ]
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000097",
+                        "2000002"
+                    ],
+                    "categories": [
+                        "4",
+                        "39"
+                    ],
+                    "imageDesktop": "/arquivos/Pilatos-GuiaTallas-Oakley-superior-inferior-hombre.jpg",
+                    "imageTablet": "/arquivos/Pilatos-GuiaTallas-Oakley-superior-inferior-hombre.jpg",
+                    "imagePhone": "/arquivos/Pilatos-GuiaTallas-Oakley-superior-inferior-hombre.jpg"
+                }
+            ]
         }
     },
-    "size-guide#hombre-tenis-Oakley":{
+    "size-guide#hombre-tenis-Oakley": {
         "props": {
-          "conditionals": [
-              {
-                "brands": ["2000097", "2000002"],
-                  "categories": ["3"],
-                  "imageDesktop": "/arquivos/Pilatos-GuiaTallas-Oakley-tenis.jpg",
-                  "imageTablet": "/arquivos/Pilatos-GuiaTallas-Oakley-tenis.jpg",
-                  "imagePhone": "/arquivos/Pilatos-GuiaTallas-Oakley-tenis.jpg"
-              }
-          ]
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000097",
+                        "2000002"
+                    ],
+                    "categories": [
+                        "3"
+                    ],
+                    "imageDesktop": "/arquivos/Pilatos-GuiaTallas-Oakley-tenis.jpg",
+                    "imageTablet": "/arquivos/Pilatos-GuiaTallas-Oakley-tenis.jpg",
+                    "imagePhone": "/arquivos/Pilatos-GuiaTallas-Oakley-tenis.jpg"
+                }
+            ]
         }
     },
-    "size-guide#mujer-calzado-gorra-sombrero-Roxy":{
+    "size-guide#mujer-calzado-gorra-sombrero-Roxy": {
         "props": {
-          "conditionals": [
-              {
-                  "brands": ["2000007"],
-                  "categories": ["44", "67", "78"],
-                  "imageDesktop": "/arquivos/Pilatos-GuiaTallas-Roxy-mujer-calzado-gorra-sombrero.jpg",
-                  "imageTablet": "/arquivos/Pilatos-GuiaTallas-Roxy-mujer-calzado-gorra-sombrero.jpg",
-                  "imagePhone": "/arquivos/Pilatos-GuiaTallas-Roxy-mujer-calzado-gorra-sombrero.jpg"
-              }
-          ]
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000007"
+                    ],
+                    "categories": [
+                        "44",
+                        "67",
+                        "78"
+                    ],
+                    "imageDesktop": "/arquivos/Pilatos-GuiaTallas-Roxy-mujer-calzado-gorra-sombrero.jpg",
+                    "imageTablet": "/arquivos/Pilatos-GuiaTallas-Roxy-mujer-calzado-gorra-sombrero.jpg",
+                    "imagePhone": "/arquivos/Pilatos-GuiaTallas-Roxy-mujer-calzado-gorra-sombrero.jpg"
+                }
+            ]
         }
     },
-    "size-guide#mujer-superior-inferior-Roxy":{
+    "size-guide#mujer-superior-inferior-Roxy": {
         "props": {
-          "conditionals": [
-              {
-                  "brands": ["2000007"],
-                  "categories": ["55", "56", "54", "58", "57", "60", "59", "61"],
-                  "imageDesktop": "/arquivos/Pilatos-GuiaTallas-Roxy-mujer-superior-inferior.jpg",
-                  "imageTablet": "/arquivos/Pilatos-GuiaTallas-Roxy-mujer-superior-inferior.jpg",
-                  "imagePhone": "/arquivos/Pilatos-GuiaTallas-Roxy-mujer-superior-inferior.jpg"
-              }
-          ]
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000007"
+                    ],
+                    "categories": [
+                        "55",
+                        "56",
+                        "54",
+                        "58",
+                        "57",
+                        "60",
+                        "59",
+                        "61"
+                    ],
+                    "imageDesktop": "/arquivos/Pilatos-GuiaTallas-Roxy-mujer-superior-inferior.jpg",
+                    "imageTablet": "/arquivos/Pilatos-GuiaTallas-Roxy-mujer-superior-inferior.jpg",
+                    "imagePhone": "/arquivos/Pilatos-GuiaTallas-Roxy-mujer-superior-inferior.jpg"
+                }
+            ]
         }
     },
-    "size-guide#mujer-vestidos-Roxy":{
+    "size-guide#mujer-vestidos-Roxy": {
         "props": {
-          "conditionals": [
-              {
-                  "brands": ["2000007"],
-                  "categories": ["64"],
-                  "imageDesktop": "/arquivos/Pilatos-GuiaTallas-Roxy-mujer-vestidos.jpg",
-                  "imageTablet": "/arquivos/Pilatos-GuiaTallas-Roxy-mujer-vestidos.jpg",
-                  "imagePhone": "/arquivos/Pilatos-GuiaTallas-Roxy-mujer-vestidos.jpg"
-              }
-          ]
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000007"
+                    ],
+                    "categories": [
+                        "64"
+                    ],
+                    "imageDesktop": "/arquivos/Pilatos-GuiaTallas-Roxy-mujer-vestidos.jpg",
+                    "imageTablet": "/arquivos/Pilatos-GuiaTallas-Roxy-mujer-vestidos.jpg",
+                    "imagePhone": "/arquivos/Pilatos-GuiaTallas-Roxy-mujer-vestidos.jpg"
+                }
+            ]
         }
     },
-    "size-guide#hombre-calzado-Quiksilver":{
+    "size-guide#hombre-calzado-Quiksilver": {
         "props": {
-          "conditionals": [
-              {
-                  "brands": ["2000003"],
-                  "categories": ["3"],
-                  "imageDesktop": "/arquivos/Pilatos-GuiaTallas-Quicksilver-calzado-hombre.jpg",
-                  "imageTablet": "/arquivos/Pilatos-GuiaTallas-Quicksilver-calzado-hombre.jpg",
-                  "imagePhone": "/arquivos/Pilatos-GuiaTallas-Quicksilver-calzado-hombre.jpg"
-              }
-          ]
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000003"
+                    ],
+                    "categories": [
+                        "3"
+                    ],
+                    "imageDesktop": "/arquivos/Pilatos-GuiaTallas-Quicksilver-calzado-hombre.jpg",
+                    "imageTablet": "/arquivos/Pilatos-GuiaTallas-Quicksilver-calzado-hombre.jpg",
+                    "imagePhone": "/arquivos/Pilatos-GuiaTallas-Quicksilver-calzado-hombre.jpg"
+                }
+            ]
         }
     },
-    "size-guide#hombre-gorra-Quiksilver":{
+    "size-guide#hombre-gorra-Quiksilver": {
         "props": {
-          "conditionals": [
-              {
-                  "brands": ["2000003"],
-                  "categories": ["24", "35"],
-                  "imageDesktop": "/arquivos/Pilatos-GuiaTallas-Quicksilver-gorra-hombre.jpg",
-                  "imageTablet": "/arquivos/Pilatos-GuiaTallas-Quicksilver-gorra-hombre.jpg",
-                  "imagePhone": "/arquivos/Pilatos-GuiaTallas-Quicksilver-gorra-hombre.jpg"
-              }
-          ]
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000003"
+                    ],
+                    "categories": [
+                        "24",
+                        "35"
+                    ],
+                    "imageDesktop": "/arquivos/Pilatos-GuiaTallas-Quicksilver-gorra-hombre.jpg",
+                    "imageTablet": "/arquivos/Pilatos-GuiaTallas-Quicksilver-gorra-hombre.jpg",
+                    "imagePhone": "/arquivos/Pilatos-GuiaTallas-Quicksilver-gorra-hombre.jpg"
+                }
+            ]
         }
     },
-    "size-guide#hombre-superior-short-Quiksilver":{
+    "size-guide#hombre-superior-short-Quiksilver": {
         "props": {
-          "conditionals": [
-              {
-                  "brands": ["2000003"],
-                  "categories": ["4", "40"],
-                  "imageDesktop": "/arquivos/Pilatos-GuiaTallas-Quicksilver-hombre-superior-short.jpg",
-                  "imageTablet": "/arquivos/Pilatos-GuiaTallas-Quicksilver-hombre-superior-short.jpg",
-                  "imagePhone": "/arquivos/Pilatos-GuiaTallas-Quicksilver-hombre-superior-short.jpg"
-              }
-          ]
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000003"
+                    ],
+                    "categories": [
+                        "4",
+                        "40"
+                    ],
+                    "imageDesktop": "/arquivos/Pilatos-GuiaTallas-Quicksilver-hombre-superior-short.jpg",
+                    "imageTablet": "/arquivos/Pilatos-GuiaTallas-Quicksilver-hombre-superior-short.jpg",
+                    "imagePhone": "/arquivos/Pilatos-GuiaTallas-Quicksilver-hombre-superior-short.jpg"
+                }
+            ]
         }
     },
-
-// fin DISANDINA
-    "size-guide#zapatos-mujer-superdry":{
+    // fin DISANDINA
+    "size-guide#zapatos-mujer-superdry": {
         "props": {
-          "conditionals": [
-              {
-                  "brands": ["2000106"],
-                  "categories": ["44"],
-                  "imageDesktop": "/arquivos/Pilatos-GuiaTallas-Superdry1-mujer.jpg",
-                  "imageTablet": "/arquivos/Pilatos-GuiaTallas-Mobile-Superdry4-mujer.jpg",
-                  "imagePhone": "/arquivos/Pilatos-GuiaTallas-Mobile-Superdry4-mujer.jpg"
-              }
-          ]
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000106"
+                    ],
+                    "categories": [
+                        "44"
+                    ],
+                    "imageDesktop": "/arquivos/Pilatos-GuiaTallas-Superdry1-mujer.jpg",
+                    "imageTablet": "/arquivos/Pilatos-GuiaTallas-Mobile-Superdry4-mujer.jpg",
+                    "imagePhone": "/arquivos/Pilatos-GuiaTallas-Mobile-Superdry4-mujer.jpg"
+                }
+            ]
         }
     },
-
-    "size-guide#mujer-superdry":{
+    "size-guide#mujer-superdry": {
         "props": {
-          "conditionals": [
-              {
-                  "brands": ["2000106"],
-                  "categories": ["57", "55", "54", "56" ],
-                  "imageDesktop": "/arquivos/Pilatos-GuiaTallas-Superdry4-camisa-mujer.jpg",
-                  "imageTablet": "/arquivos/Pilatos-GuiaTallas-Mobile-Superdry-camisamujer.jpg",
-                  "imagePhone": "/arquivos/Pilatos-GuiaTallas-Mobile-Superdry-camisamujer.jpg"
-              }
-          ]
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000106"
+                    ],
+                    "categories": [
+                        "57",
+                        "55",
+                        "54",
+                        "56"
+                    ],
+                    /*"imageDesktop": "/arquivos/Pilatos-GuiaTallas-Superdry4-camisa-mujer.jpg",
+                    "imageTablet": "/arquivos/Pilatos-GuiaTallas-Mobile-Superdry-camisamujer.jpg",
+                    "imagePhone": "/arquivos/Pilatos-GuiaTallas-Mobile-Superdry-camisamujer.jpg"*/
+                    "imageDesktop": "/arquivos/Superdry-superior-femenino-GuiaTallas-2024.jpg",
+                    "imageTablet": "/arquivos/Superdry-superior-femenino-GuiaTallas-2024.jpg",
+                    "imagePhone": "/arquivos/Superdry-superior-femenino-GuiaTallas-2024.jpg"
+                }
+            ]
         }
     },
-
-    "size-guide#zapatos-hombre-adidas":{
+    "size-guide#zapatos-hombre-adidas": {
         "props": {
-          "conditionals": [
-              {
-                  "brands": ["2000075"],
-                  "categories": ["3"],
-                  "imageDesktop": "/arquivos/Adisas--Hombre-zapato.jpg",
-                  "imageTablet": "/arquivos/Adidas-hombre-zapato-largo.jpg",
-                  "imagePhone": "/arquivos/Adidas-hombre-zapato-largo.jpg"
-              }
-          ]
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000075"
+                    ],
+                    "categories": [
+                        "3"
+                    ],
+                    "imageDesktop": "/arquivos/Adisas--Hombre-zapato.jpg",
+                    "imageTablet": "/arquivos/Adidas-hombre-zapato-largo.jpg",
+                    "imagePhone": "/arquivos/Adidas-hombre-zapato-largo.jpg"
+                }
+            ]
         }
     },
-
-    "size-guide#inferior-mujer-champion":{
+    "size-guide#inferior-mujer-champion": {
         "props": {
-          "conditionals": [
-              {
-                  "brands": ["2000120"],
-                  "categories": ["61", "60"],
-                  "imageDesktop": "/arquivos/Pilatos-GuiaTallasExternas-Champion4-inferior-mujer.jpg",
-                  "imageTablet": "/arquivos/Pilatos-GuiaTallasExternas-Champion4-inferior-mujer.jpg",
-                  "imagePhone": "/arquivos/Pilatos-GuiaTallasExternas-Champion4-inferior-mujer.jpg"
-              }
-          ]
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000120"
+                    ],
+                    "categories": [
+                        "61",
+                        "60"
+                    ],
+                    "imageDesktop": "/arquivos/Pilatos-GuiaTallasExternas-Champion4-inferior-mujer.jpg",
+                    "imageTablet": "/arquivos/Pilatos-GuiaTallasExternas-Champion4-inferior-mujer.jpg",
+                    "imagePhone": "/arquivos/Pilatos-GuiaTallasExternas-Champion4-inferior-mujer.jpg"
+                }
+            ]
         }
     },
-    "size-guide#superior-mujer-champion":{
+    "size-guide#superior-mujer-champion": {
         "props": {
-          "conditionals": [
-              {
-                  "brands": ["2000120"],
-                  "categories": ["55", "54", "58"],
-                  "imageDesktop": "/arquivos/Pilatos-GuiaTallasExternas-Champion3-superior-mujer.jpg",
-                  "imageTablet": "/arquivos/Pilatos-GuiaTallasExternas-Champion3-superior-mujer.jpg",
-                  "imagePhone": "/arquivos/Pilatos-GuiaTallasExternas-Champion3-superior-mujer.jpg"
-              }
-          ]
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000120"
+                    ],
+                    "categories": [
+                        "55",
+                        "54",
+                        "58"
+                    ],
+                    "imageDesktop": "/arquivos/Pilatos-GuiaTallasExternas-Champion3-superior-mujer.jpg",
+                    "imageTablet": "/arquivos/Pilatos-GuiaTallasExternas-Champion3-superior-mujer.jpg",
+                    "imagePhone": "/arquivos/Pilatos-GuiaTallasExternas-Champion3-superior-mujer.jpg"
+                }
+            ]
         }
     },
-    "size-guide#inferior-hombre-champion":{
+    "size-guide#inferior-hombre-champion": {
         "props": {
-          "conditionals": [
-              {
-                  "brands": ["2000120"],
-                  "categories": ["20", "19"],
-                  "imageDesktop": "/arquivos/Pilatos-GuiaTallasExternas-Champion2-inferior-hombre.jpg",
-                  "imageTablet": "/arquivos/Pilatos-GuiaTallasExternas-Champion2-inferior-hombre.jpg",
-                  "imagePhone": "/arquivos/Pilatos-GuiaTallasExternas-Champion2-inferior-hombre.jpg"
-              }
-          ]
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000120"
+                    ],
+                    "categories": [
+                        "20",
+                        "19"
+                    ],
+                    "imageDesktop": "/arquivos/Pilatos-GuiaTallasExternas-Champion2-inferior-hombre.jpg",
+                    "imageTablet": "/arquivos/Pilatos-GuiaTallasExternas-Champion2-inferior-hombre.jpg",
+                    "imagePhone": "/arquivos/Pilatos-GuiaTallasExternas-Champion2-inferior-hombre.jpg"
+                }
+            ]
         }
     },
-    "size-guide#superior-hombre-champion":{
+    "size-guide#superior-hombre-champion": {
         "props": {
-          "conditionals": [
-              {
-                  "brands": ["2000120"],
-                  "categories": ["14", "13", "17"],
-                  "imageDesktop": "/arquivos/Pilatos-GuiaTallasExternas-Champion1-superior-hombre.jpg",
-                  "imageTablet": "/arquivos/Pilatos-GuiaTallasExternas-Champion1-superior-hombre.jpg",
-                  "imagePhone": "/arquivos/Pilatos-GuiaTallasExternas-Champion1-superior-hombre.jpg"
-              }
-          ]
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000120"
+                    ],
+                    "categories": [
+                        "14",
+                        "13",
+                        "17"
+                    ],
+                    "imageDesktop": "/arquivos/Pilatos-GuiaTallasExternas-Champion1-superior-hombre.jpg",
+                    "imageTablet": "/arquivos/Pilatos-GuiaTallasExternas-Champion1-superior-hombre.jpg",
+                    "imagePhone": "/arquivos/Pilatos-GuiaTallasExternas-Champion1-superior-hombre.jpg"
+                }
+            ]
         }
     },
-
-    "size-guide#calzado-hombre-Oneill":{
+    "size-guide#calzado-hombre-Oneill": {
         "props": {
-          "conditionals": [
-              {
-                  "brands": ["2000119"],
-                  "categories": ["3"],
-                  "imageDesktop": "/arquivos/Pilatos-GuiaTallasExternas-ONeill-calzado-hombre.jpg",
-                  "imageTablet": "/arquivos/Pilatos-GuiaTallasExternas-ONeill-calzado-hombre.jpg",
-                  "imagePhone": "/arquivos/Pilatos-GuiaTallasExternas-ONeill-calzado-hombre.jpg"
-              }
-          ]
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000119"
+                    ],
+                    "categories": [
+                        "3"
+                    ],
+                    "imageDesktop": "/arquivos/Pilatos-GuiaTallasExternas-ONeill-calzado-hombre.jpg",
+                    "imageTablet": "/arquivos/Pilatos-GuiaTallasExternas-ONeill-calzado-hombre.jpg",
+                    "imagePhone": "/arquivos/Pilatos-GuiaTallasExternas-ONeill-calzado-hombre.jpg"
+                }
+            ]
         }
     },
-    "size-guide#inferior-hombre-Oneill":{
+    "size-guide#inferior-hombre-Oneill": {
         "props": {
-          "conditionals": [
-              {
-                  "brands": ["2000119"],
-                  "categories": ["40", "20"],
-                  "imageDesktop": "/arquivos/Pilatos-GuiaTallasExternas-inferior-hombre-ONeill1.jpg",
-                  "imageTablet": "/arquivos/Pilatos-GuiaTallasExternas-inferior-hombre-ONeill1.jpg",
-                  "imagePhone": "/arquivos/Pilatos-GuiaTallasExternas-inferior-hombre-ONeill1.jpg"
-              }
-          ]
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000119"
+                    ],
+                    "categories": [
+                        "40",
+                        "20"
+                    ],
+                    "imageDesktop": "/arquivos/Pilatos-GuiaTallasExternas-inferior-hombre-ONeill1.jpg",
+                    "imageTablet": "/arquivos/Pilatos-GuiaTallasExternas-inferior-hombre-ONeill1.jpg",
+                    "imagePhone": "/arquivos/Pilatos-GuiaTallasExternas-inferior-hombre-ONeill1.jpg"
+                }
+            ]
         }
     },
-    "size-guide#calzado-mujer-lacoste":{
+    "size-guide#calzado-mujer-lacoste": {
         "props": {
-          "conditionals": [
-              {
-                  "brands": ["2000114"],
-                  "categories": ["44"],
-                  "imageDesktop": "/arquivos/Pilatos-GuiaTallasExternas-Lacoste-calzado-mujer.jpg",
-                  "imageTablet": "/arquivos/Pilatos-GuiaTallasExternas-Lacoste-calzado-mujer.jpg",
-                  "imagePhone": "/arquivos/Pilatos-GuiaTallasExternas-Lacoste-calzado-mujer.jpg"
-              }
-          ]
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000114"
+                    ],
+                    "categories": [
+                        "44"
+                    ],
+                    "imageDesktop": "/arquivos/Pilatos-GuiaTallasExternas-Lacoste-calzado-mujer.jpg",
+                    "imageTablet": "/arquivos/Pilatos-GuiaTallasExternas-Lacoste-calzado-mujer.jpg",
+                    "imagePhone": "/arquivos/Pilatos-GuiaTallasExternas-Lacoste-calzado-mujer.jpg"
+                }
+            ]
         }
     },
-    "size-guide#calzado-hombre-lacoste":{
+    "size-guide#calzado-hombre-lacoste": {
         "props": {
-          "conditionals": [
-              {
-                  "brands": ["2000114"],
-                  "categories": ["3"],
-                  "imageDesktop": "/arquivos/Pilatos-GuiaTallasExternas-Lacoste-calzado-hombre.jpg",
-                  "imageTablet": "/arquivos/Pilatos-GuiaTallasExternas-Lacoste-calzado-hombre.jpg",
-                  "imagePhone": "/arquivos/Pilatos-GuiaTallasExternas-Lacoste-calzado-hombre.jpg"
-              }
-          ]
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000114"
+                    ],
+                    "categories": [
+                        "3"
+                    ],
+                    "imageDesktop": "/arquivos/Pilatos-GuiaTallasExternas-Lacoste-calzado-hombre.jpg",
+                    "imageTablet": "/arquivos/Pilatos-GuiaTallasExternas-Lacoste-calzado-hombre.jpg",
+                    "imagePhone": "/arquivos/Pilatos-GuiaTallasExternas-Lacoste-calzado-hombre.jpg"
+                }
+            ]
         }
     },
-    "size-guide#calzado-mujer-lecoq":{
+    "size-guide#calzado-mujer-lecoq": {
         "props": {
-          "conditionals": [
-              {
-                  "brands": ["2000092"],
-                  "categories": ["44"],
-                  "imageDesktop": "/arquivos/Pilatos-GuiaTallasExternas-LeCoq-calzado-mujer.jpg",
-                  "imageTablet": "/arquivos/Pilatos-GuiaTallasExternas-LeCoq-calzado-mujer.jpg",
-                  "imagePhone": "/arquivos/Pilatos-GuiaTallasExternas-LeCoq-calzado-mujer.jpg"
-              }
-          ]
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000092"
+                    ],
+                    "categories": [
+                        "44"
+                    ],
+                    "imageDesktop": "/arquivos/Pilatos-GuiaTallasExternas-LeCoq-calzado-mujer.jpg",
+                    "imageTablet": "/arquivos/Pilatos-GuiaTallasExternas-LeCoq-calzado-mujer.jpg",
+                    "imagePhone": "/arquivos/Pilatos-GuiaTallasExternas-LeCoq-calzado-mujer.jpg"
+                }
+            ]
         }
     },
-    "size-guide#calzado-hombre-lecoq":{
+    "size-guide#calzado-hombre-lecoq": {
         "props": {
-          "conditionals": [
-              {
-                  "brands": ["2000092"],
-                  "categories": ["3"],
-                  "imageDesktop": "/arquivos/Pilatos-GuiaTallasExternas-LeCoq-calzado-hombre.jpg",
-                  "imageTablet": "/arquivos/Pilatos-GuiaTallasExternas-LeCoq-calzado-hombre.jpg",
-                  "imagePhone": "/arquivos/Pilatos-GuiaTallasExternas-LeCoq-calzado-hombre.jpg"
-              }
-          ]
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000092"
+                    ],
+                    "categories": [
+                        "3"
+                    ],
+                    "imageDesktop": "/arquivos/Pilatos-GuiaTallasExternas-LeCoq-calzado-hombre.jpg",
+                    "imageTablet": "/arquivos/Pilatos-GuiaTallasExternas-LeCoq-calzado-hombre.jpg",
+                    "imagePhone": "/arquivos/Pilatos-GuiaTallasExternas-LeCoq-calzado-hombre.jpg"
+                }
+            ]
         }
     },
-    "size-guide#camisetas-hombre-monastery":{
+    "size-guide#camisetas-hombre-monastery": {
         "props": {
-          "conditionals": [
-              {
-                  "brands": ["2000112"],
-                  "categories": ["13", "14", "17"],
-                  "imageDesktop": "/arquivos/Pilatos-GuiaTallasExternas-Monastery-camiseta-hombre.jpg",
-                  "imageTablet": "/arquivos/Pilatos-GuiaTallasExternas-Monastery-camiseta-hombre.jpg",
-                  "imagePhone": "/arquivos/Pilatos-GuiaTallasExternas-Monastery-camiseta-hombre.jpg"
-              }
-          ]
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000112"
+                    ],
+                    "categories": [
+                        "13",
+                        "14",
+                        "17"
+                    ],
+                    "imageDesktop": "/arquivos/Pilatos-GuiaTallasExternas-Monastery-camiseta-hombre.jpg",
+                    "imageTablet": "/arquivos/Pilatos-GuiaTallasExternas-Monastery-camiseta-hombre.jpg",
+                    "imagePhone": "/arquivos/Pilatos-GuiaTallasExternas-Monastery-camiseta-hombre.jpg"
+                }
+            ]
         }
     },
-    "size-guide#zapatos-hombre-diesel":{
+    "size-guide#zapatos-hombre-diesel": {
         "props": {
-          "conditionals": [
-              {
-                  "brands": ["2000083"],
-                  "categories": ["3"],
-                  "imageDesktop": "/arquivos/HOMBRE-GT-Diesel-tenis-Desk.jpg",
-                  "imageTablet": "/arquivos/HOMBRE-GT-Diesel-TENIS-MOBI.jpg",
-                  "imagePhone": "/arquivos/HOMBRE-GT-Diesel-TENIS-MOBI.jpg"
-              }
-          ]
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000083"
+                    ],
+                    "categories": [
+                        "3"
+                    ],
+                    "imageDesktop": "/arquivos/HOMBRE-GT-Diesel-tenis-Desk.jpg",
+                    "imageTablet": "/arquivos/HOMBRE-GT-Diesel-TENIS-MOBI.jpg",
+                    "imagePhone": "/arquivos/HOMBRE-GT-Diesel-TENIS-MOBI.jpg"
+                }
+            ]
         }
     },
-
-    "size-guide#zapatos-hombre-nike":{
+    "size-guide#zapatos-hombre-nike": {
         "props": {
-          "conditionals": [
-              {
-                  "brands": ["2000111"],
-                  "categories": ["3", "7", "6"],
-                  "imageDesktop": "/arquivos/Pilatos-GuiaTallasExternas-Nike-calzado-hombre.jpg",
-                  "imageTablet": "/arquivos/Pilatos-GuiaTallasExternas-Nike-calzado-hombre.jpg",
-                  "imagePhone": "/arquivos/aPilatos-GuiaTallas-Nike2.jpg"
-              }
-          ]
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000111"
+                    ],
+                    "categories": [
+                        "3",
+                        "7",
+                        "6"
+                    ],
+                    "imageDesktop": "/arquivos/Pilatos-GuiaTallasExternas-Nike-calzado-hombre.jpg",
+                    "imageTablet": "/arquivos/Pilatos-GuiaTallasExternas-Nike-calzado-hombre.jpg",
+                    "imagePhone": "/arquivos/aPilatos-GuiaTallas-Nike2.jpg"
+                }
+            ]
         }
     },
-
-    "size-guide#hombre-diesel":{
+    "size-guide#hombre-diesel": {
         "props": {
-          "conditionals": [
-              {
-                  "brands": ["2000083"],
-                  "categories": ["5", "4", "39", "36"],
-                  "imageDesktop": "/arquivos/HOMBRE-GT-Diesel-camisa-Desk.jpg",
-                  "imageTablet": "/arquivos/HOMBRE-GT-Diesel-camisa-mobi.jpg",
-                  "imagePhone": "/arquivos/HOMBRE-GT-Diesel-camisa-mobi.jpg"
-              }
-          ]
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000083"
+                    ],
+                    "categories": [
+                        "5",
+                        "4",
+                        "39",
+                        "36"
+                    ],
+                    "imageDesktop": "/arquivos/HOMBRE-GT-Diesel-camisa-Desk.jpg",
+                    "imageTablet": "/arquivos/HOMBRE-GT-Diesel-camisa-mobi.jpg",
+                    "imagePhone": "/arquivos/HOMBRE-GT-Diesel-camisa-mobi.jpg"
+                }
+            ]
         }
     },
-
-    "size-guide#zapatos-hombre-LeCoqSportif":{
+    "size-guide#zapatos-hombre-LeCoqSportif": {
         "props": {
-          "conditionals": [
-              {
-                  "brands": ["2000092"],
-                  "categories": ["3"],
-                  "imageDesktop": "/arquivos/Pilatos-GuiaTallas-LeCoq1-hombre-min.jpg",
-                  "imageTablet": "/arquivos/Lecoq-hombre-zapato-largo.jpg",
-                  "imagePhone": "/arquivos/Pilatos-GuiaTallas-LeCoq1-hombre-min.jpg"
-              }
-          ]
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000092"
+                    ],
+                    "categories": [
+                        "3"
+                    ],
+                    "imageDesktop": "/arquivos/Pilatos-GuiaTallas-LeCoq1-hombre-min.jpg",
+                    "imageTablet": "/arquivos/Lecoq-hombre-zapato-largo.jpg",
+                    "imagePhone": "/arquivos/Pilatos-GuiaTallas-LeCoq1-hombre-min.jpg"
+                }
+            ]
         }
     },
-
-    "size-guide#hombre-MaritheFrancoisGirbaud":{
+    "size-guide#hombre-MaritheFrancoisGirbaud": {
         "props": {
-          "conditionals": [
-              {
-                  "brands": ["2000093"],
-                  "categories": ["5", "4", "39", "36"],
-                  "imageDesktop": "/arquivos/Pilatos-GuiaTallas-MFG2-hombre.jpg",
-                  "imageTablet": "/arquivos/Pilatos-GuiaTallas-Mobile-MFG2-hombre.jpg",
-                  "imagePhone": "/arquivos/Pilatos-GuiaTallas-Mobile-MFG2-hombre.jpg"
-              }
-          ]
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000093"
+                    ],
+                    "categories": [
+                        "16",
+                        "14",
+                        "13",
+                        "15",
+                        "17"
+                    ],
+                    /*"imageDesktop": "/arquivos/Pilatos-GuiaTallas-MFG2-hombre.jpg",
+                    "imageTablet": "/arquivos/Pilatos-GuiaTallas-Mobile-MFG2-hombre.jpg",
+                    "imagePhone": "/arquivos/Pilatos-GuiaTallas-Mobile-MFG2-hombre.jpg"*/
+                    "imageDesktop": "/arquivos/MFG-superior-masculino-GuiaTallas-2024.jpg",
+                    "imageTablet": "/arquivos/MFG-superior-masculino-GuiaTallas-2024.jpg",
+                    "imagePhone": "/arquivos/MFG-superior-masculino-GuiaTallas-2024.jpg"
+                }
+            ]
         }
     },
-
-    "size-guide#zapatos-hombre-newbalance":{
+    "size-guide#zapatos-hombre-newbalance": {
         "props": {
-          "conditionals": [
-              {
-                  "brands": ["2000095"],
-                  "categories": ["3"],
-                  "imageDesktop": "/arquivos/NewBalance-GuiaTallas-calzado-hombre.jpg",
-                  "imageTablet": "/arquivos/NewBalance-GuiaTallas-calzado-hombre.jpg",
-                  "imagePhone": "/arquivos/NewBalance-GuiaTallas-calzado-hombre.jpg"
-              }
-          ]
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000095"
+                    ],
+                    "categories": [
+                        "3"
+                    ],
+                    "imageDesktop": "/arquivos/NewBalance-GuiaTallas-calzado-hombre.jpg",
+                    "imageTablet": "/arquivos/NewBalance-GuiaTallas-calzado-hombre.jpg",
+                    "imagePhone": "/arquivos/NewBalance-GuiaTallas-calzado-hombre.jpg"
+                }
+            ]
         }
     },
-
-    "size-guide#zapatos-hombre-reebok":{
+    "size-guide#zapatos-hombre-reebok": {
         "props": {
-          "conditionals": [
-              {
-                  "brands": ["2000101"],
-                  "categories": ["3"],
-                  "imageDesktop": "/arquivos/Reebok--Hombre-zapato.jpg",
-                  "imageTablet": "/arquivos/Reebok-hombre-zapato-largo.jpg",
-                  "imagePhone": "/arquivos/Reebok-hombre-zapato-largo.jpg"
-              }
-          ]
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000101"
+                    ],
+                    "categories": [
+                        "3"
+                    ],
+                    "imageDesktop": "/arquivos/Reebok--Hombre-zapato.jpg",
+                    "imageTablet": "/arquivos/Reebok-hombre-zapato-largo.jpg",
+                    "imagePhone": "/arquivos/Reebok-hombre-zapato-largo.jpg"
+                }
+            ]
         }
     },
-
-    "size-guide#hombre-Replay":{
+    "size-guide#hombre-Replay": {
         "props": {
-          "conditionals": [
-              {
-                  "brands": ["2000102"],
-                  "categories": ["5", "4", "39", "36"],
-                  "imageDesktop": "/arquivos/desk-Replay-hombreCamisa.jpg",
-                  "imageTablet": "/arquivos/mobile-Replay-hombreCamisa.jpg",
-                  "imagePhone": "/arquivos/mobile-Replay-hombreCamisa.jpg"
-              }
-          ]
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000102"
+                    ],
+                    "categories": [
+                        "5",
+                        "4",
+                        "39",
+                        "36"
+                    ],
+                    "imageDesktop": "/arquivos/desk-Replay-hombreCamisa.jpg",
+                    "imageTablet": "/arquivos/mobile-Replay-hombreCamisa.jpg",
+                    "imagePhone": "/arquivos/mobile-Replay-hombreCamisa.jpg"
+                }
+            ]
         }
     },
-
-    "size-guide#zapatos-hombre-Replay":{
+    "size-guide#zapatos-hombre-Replay": {
         "props": {
-          "conditionals": [
-              {
-                  "brands": ["2000102"],
-                  "categories": ["3"],
-                  "imageDesktop": "/arquivos/desk-Replay-hombre-tenis.jpg",
-                  "imageTablet": "/arquivos/mobile-Replay-hombre-tenis.jpg",
-                  "imagePhone": "/arquivos/mobile-Replay-hombre-tenis.jpg"
-              }
-          ]
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000102"
+                    ],
+                    "categories": [
+                        "3"
+                    ],
+                    "imageDesktop": "/arquivos/desk-Replay-hombre-tenis.jpg",
+                    "imageTablet": "/arquivos/mobile-Replay-hombre-tenis.jpg",
+                    "imagePhone": "/arquivos/mobile-Replay-hombre-tenis.jpg"
+                }
+            ]
         }
     },
-
-    "size-guide#hombre-Superdry":{
+    "size-guide#hombre-Superdry": {
         "props": {
-          "conditionals": [
-              {
-                  "brands": ["2000106"],
-                  "categories": [ "4", "14", "13", "15", "36"],
-                  "imageDesktop": "/arquivos/Pilatos-GuiaTallas-Superdry2-camisa-hombre.jpg",
-                  "imageTablet": "/arquivos/Pilatos-GuiaTallas-Mobile-Superdry2-camisa-hombre.jpg",
-                  "imagePhone": "/arquivos/Pilatos-GuiaTallas-Mobile-Superdry2-camisa-hombre.jpg"
-              }
-          ]
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000106"
+                    ],
+                    "categories": [
+                        "4",
+                        "14",
+                        "13",
+                        "15",
+                        "36"
+                    ],
+                    /*"imageDesktop": "/arquivos/Pilatos-GuiaTallas-Superdry2-camisa-hombre.jpg",
+                    "imageTablet": "/arquivos/Pilatos-GuiaTallas-Mobile-Superdry2-camisa-hombre.jpg",
+                    "imagePhone": "/arquivos/Pilatos-GuiaTallas-Mobile-Superdry2-camisa-hombre.jpg"*/
+                    "imageDesktop": "/arquivos/Superdry-superior-masculino-GuiaTallas-2024.jpg",
+                    "imageTablet": "/arquivos/Superdry-superior-masculino-GuiaTallas-2024.jpg",
+                    "imagePhone": "/arquivos/Superdry-superior-masculino-GuiaTallas-2024.jpg"
+                }
+            ]
         }
     },
-
-    "size-guide#zapatos-hombre-Superdry":{
+    "size-guide#zapatos-hombre-Superdry": {
         "props": {
-          "conditionals": [
-              {
-                  "brands": ["2000106"],
-                  "categories": ["3"],
-                  "imageDesktop": "/arquivos/Pilatos-GuiaTallas-Superdry3-hombre.jpg",
-                  "imageTablet": "/arquivos/Pilatos-GuiaTallas-Mobile-Superdry3-hombre.jpg",
-                  "imagePhone": "/arquivos/Pilatos-GuiaTallas-Mobile-Superdry3-hombre.jpg"
-              }
-          ]
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000106"
+                    ],
+                    "categories": [
+                        "3"
+                    ],
+                    "imageDesktop": "/arquivos/Pilatos-GuiaTallas-Superdry3-hombre.jpg",
+                    "imageTablet": "/arquivos/Pilatos-GuiaTallas-Mobile-Superdry3-hombre.jpg",
+                    "imagePhone": "/arquivos/Pilatos-GuiaTallas-Mobile-Superdry3-hombre.jpg"
+                }
+            ]
         }
     },
-
-
-
     //guia de tallas correa
-    "size-guide#correa":{
+    "size-guide#correa": {
         "props": {
-          "conditionals": [
-              {
-
-                  "categories": ["27"],
-                  "imageDesktop": "/arquivos/Pilatos-GuiaCorreas-Desktop.jpg",
-                  "imageTablet": "/arquivos/Pilatos-GuiaCorreas-Desktop.jpg",
-                  "imagePhone": "/arquivos/Pilatos-GuiaCorreas-Mobile.jpg"
-              }
-          ]
+            "conditionals": [
+                {
+                    "categories": [
+                        "27"
+                    ],
+                    "imageDesktop": "/arquivos/Pilatos-GuiaCorreas-Desktop.jpg",
+                    "imageTablet": "/arquivos/Pilatos-GuiaCorreas-Desktop.jpg",
+                    "imagePhone": "/arquivos/Pilatos-GuiaCorreas-Mobile.jpg"
+                }
+            ]
         }
     },
-
-    "size-guide#hombre-vans":{
-      "props": {
-        "conditionals": [
-            {
-                "brands": ["2000005"],
-                "categories": ["3"],
-                "imageDesktop": "/arquivos/Pilatos-GuiaTallas-VansZapatosH1-Deska.jpg",
-                "imageTablet": "/arquivos/Pilatos-GuiaTallas-VansZapatosH1-Deska.jpg",
-                "imagePhone": "/arquivos/Pilatos-GuiaTallas-VansZapatosH1-Mobaa.jpg"
-            }
-        ]
-      }
-
+    "size-guide#hombre-vans": {
+        "props": {
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000005"
+                    ],
+                    "categories": [
+                        "3"
+                    ],
+                    "imageDesktop": "/arquivos/Pilatos-GuiaTallas-VansZapatosH1-Deska.jpg",
+                    "imageTablet": "/arquivos/Pilatos-GuiaTallas-VansZapatosH1-Deska.jpg",
+                    "imagePhone": "/arquivos/Pilatos-GuiaTallas-VansZapatosH1-Mobaa.jpg"
+                }
+            ]
+        }
     },
-    "size-guide#mujer-vans":{
-      "props": {
-        "conditionals": [
-            {
-                "brands": ["2000005"],
-                "categories": ["44"],
-                "imageDesktop": "/arquivos/Pilatos-GuiaTallas-VansZapatosM1-Deska.jpg",
-                "imageTablet": "/arquivos/Pilatos-GuiaTallas-VansZapatosM1-Deska.jpg",
-                "imagePhone": "/arquivos/Pilatos-GuiaTallas-VansZapatosM1-Mobaa.jpg"
-            }
-        ]
-      }
+    "size-guide#mujer-vans": {
+        "props": {
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000005"
+                    ],
+                    "categories": [
+                        "44"
+                    ],
+                    "imageDesktop": "/arquivos/Pilatos-GuiaTallas-VansZapatosM1-Deska.jpg",
+                    "imageTablet": "/arquivos/Pilatos-GuiaTallas-VansZapatosM1-Deska.jpg",
+                    "imagePhone": "/arquivos/Pilatos-GuiaTallas-VansZapatosM1-Mobaa.jpg"
+                }
+            ]
+        }
     },
     // AP CROWN
-    "size-guide#buzos-ap-crown":{
-      "props": {
-        "conditionals": [
-            {
-                "brands": ["2000122"],
-                "categories": ["16"],
-                "imageDesktop": "/arquivos/Pilatos-GuiaTallas-chompa-ApCrown.jpg",
-                "imageTablet": "/arquivos/Pilatos-GuiaTallas-chompa-ApCrown.jpg",
-                "imagePhone": "/arquivos/Pilatos-GuiaTallas-chompa-ApCrown.jpg"
-            }
-        ]
-      }
+    "size-guide#buzos-ap-crown": {
+        "props": {
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000122"
+                    ],
+                    "categories": [
+                        "16"
+                    ],
+                    "imageDesktop": "/arquivos/ApCrown-BuzoHombre-GuiaTallas-2024.jpg",
+                    "imageTablet": "/arquivos/ApCrown-BuzoHombre-GuiaTallas-2024.jpg",
+                    "imagePhone": "/arquivos/ApCrown-BuzoHombre-GuiaTallas-2024.jpg"
+                }
+            ]
+        }
     },
-    "size-guide#camisetas-ap-crown":{
-      "props": {
-        "conditionals": [
-            {
-                "brands": ["2000122"],
-                "categories": ["13"],
-                "imageDesktop": "/arquivos/Pilatos-GuiaTallas-camisetas-ApCrown.jpg",
-                "imageTablet": "/arquivos/Pilatos-GuiaTallas-camisetas-ApCrown.jpg",
-                "imagePhone": "/arquivos/Pilatos-GuiaTallas-camisetas-ApCrown.jpg"
-            }
-        ]
-      }
+    "size-guide#camisetas-ap-crown": {
+        "props": {
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000122"
+                    ],
+                    "categories": [
+                        "13"
+                    ],
+                    "imageDesktop": "/arquivos/ApCrown-CamisetaRegular-GuiaTallas-2024.jpg",
+                    "imageTablet": "/arquivos/ApCrown-CamisetaRegular-GuiaTallas-2024.jpg",
+                    "imagePhone": "/arquivos/ApCrown-CamisetaRegular-GuiaTallas-2024.jpg"
+                }
+            ]
+        }
     },
-    "size-guide#bermudas-ap-crown":{
-      "props": {
-        "conditionals": [
-            {
-                "brands": ["2000122"],
-                "categories": ["19", "40"],
-                "imageDesktop": "/arquivos/Pilatos-GuiaTallas-Pantalonetas-ApCrown.jpg",
-                "imageTablet": "/arquivos/Pilatos-GuiaTallas-Pantalonetas-ApCrown.jpg",
-                "imagePhone": "/arquivos/Pilatos-GuiaTallas-Pantalonetas-ApCrown.jpg"
-            }
-        ]
-      }
+    "size-guide#camisas-ap-crown": {
+        "props": {
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000122"
+                    ],
+                    "categories": [
+                        "14"
+                    ],
+                    "imageDesktop": "/arquivos/ApCrown-CamisaHombre-GuiaTallas-2024.jpg",
+                    "imageTablet": "/arquivos/ApCrown-CamisaHombre-GuiaTallas-2024.jpg",
+                    "imagePhone": "/arquivos/ApCrown-CamisaHombre-GuiaTallas-2024.jpg"
+                }
+            ]
+        }
     },
 
-    "size-guide#sandalias-hombre-Superdry":{
-      "props": {
-        "conditionals": [
-            {
-                "brands": ["2000106"],
-                "categories": ["42"],
-                "imageDesktop": "/arquivos/Pilatos-GuiaTallas-sandalias-hombre-Superdry.jpg",
-                "imageTablet": "/arquivos/Pilatos-GuiaTallas-sandalias-hombre-Superdry.jpg",
-                "imagePhone": "/arquivos/Pilatos-GuiaTallas-sandalias-hombre-Superdry.jpg"
-            }
-        ]
-      }
+    "size-guide#sudadera-hombre-ap-crown": {
+        "props": {
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000122"
+                    ],
+                    "categories": [
+                        "20"
+                    ],
+                    "imageDesktop": "/arquivos/ApCrown-SudaderaHombre-GuiaTallas-2024.jpg",
+                    "imageTablet": "/arquivos/ApCrown-SudaderaHombre-GuiaTallas-2024.jpg",
+                    "imagePhone": "/arquivos/ApCrown-SudaderaHombre-GuiaTallas-2024.jpg"
+                }
+            ]
+        }
     },
-            "size-guide#sandalias-mujer-Superdry":{
-              "props": {
-                "conditionals": [
-                    {
-                        "brands": ["2000106"],
-                        "categories": ["88"],
-                        "imageDesktop": "/arquivos/Pilatos-GuiaTallas-sandalias-mujer-Superdry.jpg",
-                        "imageTablet": "/arquivos/Pilatos-GuiaTallas-sandalias-mujer-Superdry.jpg",
-                        "imagePhone": "/arquivos/Pilatos-GuiaTallas-sandalias-mujer-Superdry.jpg"
-                    }
-                ]
-              }
-            }
+    "size-guide#bermudas-ap-crown": {
+        "props": {
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000122"
+                    ],
+                    "categories": [
+                        "19",
+                        "40"
+                    ],
+                    "imageDesktop": "/arquivos/ApCrown-Pantalonetahombre-GuiaTallas-2024.jpg",
+                    "imageTablet": "/arquivos/ApCrown-Pantalonetahombre-GuiaTallas-2024.jpg",
+                    "imagePhone": "/arquivos/ApCrown-Pantalonetahombre-GuiaTallas-2024.jpg"
+                }
+            ]
+        }
+    },
+    "size-guide#chaquetas-ap-crown": {
+        "props": {
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000122"
+                    ],
+                    "categories": [
+                        "17"
+                    ],
+                    "imageDesktop": "/arquivos/ApCrown-Chompahombre-GuiaTallas-2024.jpg",
+                    "imageTablet": "/arquivos/ApCrown-Chompahombre-GuiaTallas-2024.jpg",
+                    "imagePhone": "/arquivos/ApCrown-Chompahombre-GuiaTallas-2024.jpg"
+                }
+            ]
+        }
+    },
 
+    "size-guide#sandalias-hombre-Superdry": {
+        "props": {
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000106"
+                    ],
+                    "categories": [
+                        "42"
+                    ],
+                    "imageDesktop": "/arquivos/Pilatos-GuiaTallas-sandalias-hombre-Superdry.jpg",
+                    "imageTablet": "/arquivos/Pilatos-GuiaTallas-sandalias-hombre-Superdry.jpg",
+                    "imagePhone": "/arquivos/Pilatos-GuiaTallas-sandalias-hombre-Superdry.jpg"
+                }
+            ]
+        }
+    },
+    "size-guide#sandalias-mujer-Superdry": {
+        "props": {
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000106"
+                    ],
+                    "categories": [
+                        "17"
+                    ],
+                    "imageDesktop": "/arquivos/Pilatos-GuiaTallas-sandalias-mujer-Superdry.jpg",
+                    "imageTablet": "/arquivos/Pilatos-GuiaTallas-sandalias-mujer-Superdry.jpg",
+                    "imagePhone": "/arquivos/Pilatos-GuiaTallas-sandalias-mujer-Superdry.jpg"
+                }
+            ]
+        }
+    },
+
+    //Calvin Klein
+    "size-guide#hombre-Calvin-klein": {
+        "props": {
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000123"
+                    ],
+                    "categories": [
+                        "37"
+                    ],
+                    "imageDesktop": "/arquivos/CalvinKlein-masculino-GuiaTallas-2024.jpg",
+                    "imageTablet": "/arquivos/CalvinKlein-masculino-GuiaTallas-2024.jpg",
+                    "imagePhone": "/arquivos/CalvinKlein-masculino-GuiaTallas-2024.jpg"
+                }
+            ]
+        }
+    },
+
+    //NEW BALANCE SUPERRIOR
+    "size-guide#hombre-camisetas-newbalance": {
+        "props": {
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000095"
+                    ],
+                    "categories": [
+                        "13", "16", "17"
+                    ],
+                    "imageDesktop": "/arquivos/New-Balance-superior-masculino-GuiaTallas-2024.jpg",
+                    "imageTablet": "/arquivos/New-Balance-superior-masculino-GuiaTallas-2024.jpg",
+                    "imagePhone": "/arquivos/New-Balance-superior-masculino-GuiaTallas-2024.jpg"
+                }
+            ]
+        }
+    },
+    "size-guide#mujer-camisetas-newbalance": {
+        "props": {
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000095"
+                    ],
+                    "categories": [
+                        "57", "54", "58"
+                    ],
+                    "imageDesktop": "/arquivos/New-Balance-superior-femenino-GuiaTallas-2024.jpg",
+                    "imageTablet": "/arquivos/New-Balance-superior-femenino-GuiaTallas-2024.jpg",
+                    "imagePhone": "/arquivos/New-Balance-superior-femenino-GuiaTallas-2024.jpg"
+                }
+            ]
+        }
+    },
+
+    //ON
+    "size-guide#hombre-calzado-on": {
+        "props": {
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000125"
+                    ],
+                    "categories": [
+                        "8"
+                    ],
+                    "imageDesktop": "/arquivos/On-hombre-GuiaTallas-2024.jpg",
+                    "imageTablet": "/arquivos/On-hombre-GuiaTallas-2024.jpg",
+                    "imagePhone": "/arquivos/On-hombre-GuiaTallas-2024.jpg"
+                }
+            ]
+        }
+    },
+    "size-guide#mujer-calzado-on": {
+        "props": {
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000125"
+                    ],
+                    "categories": [
+                        "47"
+                    ],
+                    "imageDesktop": "/arquivos/On-mujer-GuiaTallas-2024.jpg",
+                    "imageTablet": "/arquivos/On-mujer-GuiaTallas-2024.jpg",
+                    "imagePhone": "/arquivos/On-mujer-GuiaTallas-2024.jpg"
+                }
+            ]
+        }
+    },
+    //SUPERDRY INFERIORES
+    "size-guide#hombre-inferiores-Superdry": {
+        "props": {
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000106"
+                    ],
+                    "categories": [
+                        "5",
+                        "40",
+                        "18",
+                        "20",
+                        "19",
+                        "37"
+                    ],
+                    "imageDesktop": "/arquivos/Superdry-inferior-masculino-GuiaTallas-2024.jpg",
+                    "imageTablet": "/arquivos/Superdry-inferior-masculino-GuiaTallas-2024.jpg",
+                    "imagePhone": "/arquivos/Superdry-inferior-masculino-GuiaTallas-2024.jpg"
+                }
+            ]
+        }
+    },
+    "size-guide#mujer-inferiores-Superdry": {
+        "props": {
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000106"
+                    ],
+                    "categories": [
+                        "60",
+                        "61",
+                        "48"
+                    ],
+                    "imageDesktop": "/arquivos/Superdry-inferior-femenino-GuiaTallas-2024.jpg",
+                    "imageTablet": "/arquivos/Superdry-inferior-femenino-GuiaTallas-2024.jpg",
+                    "imagePhone": "/arquivos/Superdry-inferior-femenino-GuiaTallas-2024.jpg"
+                }
+            ]
+        }
+    },
+    //PILATOS SUPERIORES
+    "size-guide#hombre-superiores-Pilatos": {
+        "props": {
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000000"
+                    ],
+                    "categories": [
+                        "14",
+                        "13",
+                        "17",
+                        "15"
+                    ],
+                    "imageDesktop": "/arquivos/Pilatos-superior-masculino-GuiaTallas-2024-new.jpg",
+                    "imageTablet": "/arquivos/Pilatos-superior-masculino-GuiaTallas-2024-new.jpg",
+                    "imagePhone": "/arquivos/Pilatos-superior-masculino-GuiaTallas-2024-new.jpg"
+                }
+            ]
+        }
+    },
+    "size-guide#mujer-superiores-Pilatos": {
+        "props": {
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000000"
+                    ],
+                    "categories": [
+                        "57",
+                        "55",
+                        "54",
+                        "58",
+                        "56"
+                    ],
+                    "imageDesktop": "/arquivos/Pilatos-superior-femenino-GuiaTallas-2024-new.jpg",
+                    "imageTablet": "/arquivos/Pilatos-superior-femenino-GuiaTallas-2024-new.jpg",
+                    "imagePhone": "/arquivos/Pilatos-superior-femenino-GuiaTallas-2024-new.jpg"
+                }
+            ]
+        }
+    },
+    //PILATOS INFERIORES
+    "size-guide#hombre-inferiores-Pilatos": {
+        "props": {
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000000"
+                    ],
+                    "categories": [
+                        "5",
+                        "19",
+                        "18",
+                        "20",
+                        "40"
+                    ],
+                    "imageDesktop": "/arquivos/Pilatos-inferior-masculino-GuiaTallas-2024-new.jpg",
+                    "imageTablet": "/arquivos/Pilatos-inferior-masculino-GuiaTallas-2024-new.jpg",
+                    "imagePhone": "/arquivos/Pilatos-inferior-masculino-GuiaTallas-2024-new.jpg"
+                }
+            ]
+        }
+    },
+    "size-guide#mujer-inferiores-Pilatos": {
+        "props": {
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000000"
+                    ],
+                    "categories": [
+                        "62",
+                        "59",
+                        "60",
+                        "61",
+                        "64",
+                        "48"
+                    ],
+                    "imageDesktop": "/arquivos/Pilatos-inferior-femenino-GuiaTallas-2024-new.jpg",
+                    "imageTablet": "/arquivos/Pilatos-inferior-femenino-GuiaTallas-2024-new.jpg",
+                    "imagePhone": "/arquivos/Pilatos-inferior-femenino-GuiaTallas-2024-new.jpg"
+                }
+            ]
+        }
+    },
+    //INFERIOR GIRBAUD
+    "size-guide#inferior-hombre-MaritheFrancoisGirbaud": {
+        "props": {
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000093"
+                    ],
+                    "categories": [
+                        "5",
+                        "19",
+                        "18",
+                        "20",
+                        "40"
+                    ],
+                    "imageDesktop": "/arquivos/MFG-inferior-masculino-GuiaTallas-2024.jpg",
+                    "imageTablet": "/arquivos/MFG-inferior-masculino-GuiaTallas-2024.jpg",
+                    "imagePhone": "/arquivos/MFG-inferior-masculino-GuiaTallas-2024.jpg"
+                }
+            ]
+        }
+    },
+    "size-guide#inferior-mujer-MaritheFrancoisGirbaud": {
+        "props": {
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000093"
+                    ],
+                    "categories": [
+                        "48",
+                        "59",
+                        "62",
+                        "60",
+                        "61",
+                        "64"
+                    ],
+                    "imageDesktop": "/arquivos/MFG-inferior-femenino-GuiaTallas-2024.jpg",
+                    "imageTablet": "/arquivos/MFG-inferior-femenino-GuiaTallas-2024.jpg",
+                    "imagePhone": "/arquivos/MFG-inferior-femenino-GuiaTallas-2024.jpg"
+                }
+            ]
+        }
+    },
+    //TENIS GIRBAUD
+    "size-guide#tenis-hombre-MaritheFrancoisGirbaud": {
+        "props": {
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000093"
+                    ],
+                    "categories": [
+                        "3"
+                    ],
+                    "imageDesktop": "/arquivos/MFG-calzado-masculino-GuiaTallas-2024.jpg",
+                    "imageTablet": "/arquivos/MFG-calzado-masculino-GuiaTallas-2024.jpg",
+                    "imagePhone": "/arquivos/MFG-calzado-masculino-GuiaTallas-2024.jpg"
+                }
+            ]
+        }
+    },
+    "size-guide#tenis-mujer-MaritheFrancoisGirbaud": {
+        "props": {
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000093"
+                    ],
+                    "categories": [
+                        "44"
+                    ],
+                    "imageDesktop": "/arquivos/MFG-calzado-femenino-GuiaTallas-2024.jpg",
+                    "imageTablet": "/arquivos/MFG-calzado-femenino-GuiaTallas-2024.jpg",
+                    "imagePhone": "/arquivos/MFG-calzado-femenino-GuiaTallas-2024.jpg"
+                }
+            ]
+        }
+    }
 }

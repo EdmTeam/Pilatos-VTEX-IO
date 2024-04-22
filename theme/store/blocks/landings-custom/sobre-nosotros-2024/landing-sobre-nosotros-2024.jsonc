@@ -1,0 +1,36 @@
+{
+    "store.custom#landingSobreNosotros2024": {
+        "blocks": [
+            "responsive-layout.desktop#banner-principal-sobrenosotros2024",
+            "responsive-layout.mobile#banner-principal-sobrenosotros2024",
+            "list-context.image-list#marcas-sobrenosotros2024"
+        ]
+    },
+    "list-context.image-list#marcas-sobrenosotros2024": {
+        "children": [
+            "slider-layout#marcas-sobrenosotros2024"
+        ],
+        "props": {
+            "height": 650,
+            "images": [
+                {
+                    "image": "/arquivos/apple.png",
+                    "mobileImage": "/arquivos/apple.png",
+                    "description": "Miniso",
+                    "link": {
+                        "url": "/"
+                    }
+                }
+            ]
+        }
+    },
+    "slider-layout#marcas-sobrenosotros2024": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 3,
+                "phone": 1
+            }
+        }
+    }
+}
