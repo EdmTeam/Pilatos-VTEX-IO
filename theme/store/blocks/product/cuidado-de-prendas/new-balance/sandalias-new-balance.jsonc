@@ -1,0 +1,242 @@
+{
+    "condition-layout.product#garment-care-newbalance-sandalias-hombre": {
+        "props": {
+            "conditions": [
+                {
+                    "subject": "brandId",
+                    "arguments": {
+                        "id": "2000095"
+                    }
+                },
+                {
+                    "subject": "categoryId",
+                    "arguments": {
+                        "id": "42"
+                    }
+                }
+            ],
+            "matchType": "all",
+            "Then": "disclosure-layout#product-garment-care-newbalance-sandalias-hombre"
+        }
+    },
+
+    "condition-layout.product#garment-care-newbalance-sandalias-mujer": {
+        "props": {
+            "conditions": [
+                {
+                    "subject": "brandId",
+                    "arguments": {
+                        "id": "2000095"
+                    }
+                },
+                {
+                    "subject": "categoryId",
+                    "arguments": {
+                        "id": "88"
+                    }
+                }
+            ],
+            "matchType": "all",
+            "Then": "disclosure-layout#product-garment-care-newbalance-sandalias-hombre"
+        }
+    },
+
+    "disclosure-layout#product-garment-care-newbalance-sandalias-hombre": {
+        "children": [
+            "disclosure-trigger#product-content-garment-care-newbalance-sandalias-hombre",
+            "disclosure-content#product-description-garment-care-newbalance-sandalias-hombre"
+        ]
+    },
+
+    "disclosure-trigger#product-content-garment-care-newbalance-sandalias-hombre": {
+        "children": [
+            "rich-text#garment-care-newbalance-sandalias-hombre",
+            "disclosure-state-indicator#garment-care"
+        ],
+        "props": {
+            "blockClass": ["container-products", "disclosure-indicator-garment-care"]
+        }
+    },
+
+    "rich-text#garment-care-newbalance-sandalias-hombre": {
+        "props": {
+            "text": "**Cuidados de la prenda**"
+            //"blockClass": "product-description-pdp"
+        }
+    },
+    "disclosure-content#product-description-garment-care-newbalance-sandalias-hombre": {
+        "children": [
+            "rich-text#garment-care-use-newbalance-sandalias-hombre",
+            "flex-layout.row#garment-use-newbalance-sandalias-hombre"
+        ],
+        "props": {
+            "blockClass": "garment-use-product-pdp"
+        }
+    },
+    
+    "rich-text#garment-care-use-newbalance-sandalias-hombre": {
+        "props": {
+            "text": "**Recomendaciones de uso**"
+        }
+    },
+    "flex-layout.row#garment-use-newbalance-sandalias-hombre": {
+        "children": [
+            "flex-layout.col#garment-use-newbalance-sandalias-hombre"
+        ]
+    },
+
+    "flex-layout.col#garment-use-newbalance-sandalias-hombre": {
+        "children": [
+            "flex-layout.col#garment-use-1-newbalance-sandalias-hombre",
+            "flex-layout.col#garment-use-2-newbalance-sandalias-hombre",
+            "flex-layout.col#garment-use-3-newbalance-sandalias-hombre",
+            "flex-layout.col#garment-use-4-newbalance-sandalias-hombre",
+            "flex-layout.col#garment-use-5-newbalance-sandalias-hombre",
+            "flex-layout.col#garment-use-6-newbalance-sandalias-hombre"
+        ]
+    },
+    
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-1-newbalance-sandalias-hombre": {
+        "children": [
+            "image#garment-care-cleaning-use-1-newbalance-sandalias-hombre",
+            "rich-text#garment-care-cleaning-use-1-newbalance-sandalias-hombre"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-1-newbalance-sandalias-hombre": {
+        "props": {
+            "text": "Limpiar con jabón suave y preferiblemente a mano"
+        }
+    },
+    "image#garment-care-cleaning-use-1-newbalance-sandalias-hombre": {
+        "props": {
+            "src": "/arquivos/lavar-a-mano-new.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-2-newbalance-sandalias-hombre": {
+        "children": [
+            "image#garment-care-cleaning-use-2-newbalance-sandalias-hombre",
+            "rich-text#garment-care-cleaning-use-2-newbalance-sandalias-hombre"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-2-newbalance-sandalias-hombre": {
+        "props": {
+            "text": "No usar blanqueador"
+        }
+    },
+    "image#garment-care-cleaning-use-2-newbalance-sandalias-hombre": {
+        "props": {
+            "src": "/arquivos/no-lejia.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-3-newbalance-sandalias-hombre": {
+        "children": [
+            "image#garment-care-cleaning-use-3-newbalance-sandalias-hombre",
+            "rich-text#garment-care-cleaning-use-3-newbalance-sandalias-hombre"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-3-newbalance-sandalias-hombre": {
+        "props": {
+            "text": "No lavar en seco"
+        }
+    },
+    "image#garment-care-cleaning-use-3-newbalance-sandalias-hombre": {
+        "props": {
+            "src": "/arquivos/secar-a-la-sombra-nuevo.png",
+            "alt": "Icono cuidado de prenda",
+            "blockClass": "icono-cuidado-de-prenda"
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-4-newbalance-sandalias-hombre": {
+        "children": [
+            "image#garment-care-cleaning-use-4-newbalance-sandalias-hombre",
+            "rich-text#garment-care-cleaning-use-4-newbalance-sandalias-hombre"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-4-newbalance-sandalias-hombre": {
+        "props": {
+            "text": "No planchar"
+        }
+    },
+    "image#garment-care-cleaning-use-4-newbalance-sandalias-hombre": {
+        "props": {
+            "src": "/arquivos/planchar-baja-temperatura.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-5-newbalance-sandalias-hombre": {
+        "children": [
+            "image#garment-care-cleaning-use-5-newbalance-sandalias-hombre",
+            "rich-text#garment-care-cleaning-use-5-newbalance-sandalias-hombre"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-5-newbalance-sandalias-hombre": {
+        "props": {
+            "text": "No usar secadora"
+        }
+    },
+    "image#garment-care-cleaning-use-5-newbalance-sandalias-hombre": {
+        "props": {
+            "src": "/arquivos/do-not-dry.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-6-newbalance-sandalias-hombre": {
+        "children": [
+            "image#garment-care-cleaning-use-6-newbalance-sandalias-hombre",
+            "rich-text#garment-care-cleaning-use-6-newbalance-sandalias-hombre"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-6-newbalance-sandalias-hombre": {
+        "props": {
+            "text": "No exprimir"
+        }
+    },
+    "image#garment-care-cleaning-use-6-newbalance-sandalias-hombre": {
+        "props": {
+            "src": "/arquivos/no-retorcer.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 34
+        }
+    }
+    /******* item completo recomendación de uso****/
+}

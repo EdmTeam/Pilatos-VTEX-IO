@@ -17,8 +17,6 @@
 
 .paragraph--texto-importado {
   margin-bottom: 0;
-  font-style: italic;
-  font-weight: 800;
   font-size: 14px;
   line-height: 20px;
   color: #000000;
@@ -3521,4 +3519,30 @@ margin: 2px;
 .link--linkWhatsapFooter {
   text-decoration: none;
   color: #fff;
+}
+
+/******PDP*****/
+.paragraph--seller-producto-after {
+  margin: 0;
+  font-size: 13px;
+}
+
+/******SOBRE NOSOTROS**/
+.paragraph--main-sobre-nosotros-2024-title {
+  margin: 0;
+  line-height: 1;
+  font-size: 32px;
+  line-height: 25px;
+  letter-spacing: .02em;
+  color: #000;
+  font-weight: 900;
+}
+
+.paragraph--main-sobre-nosotros-2024-title::after {
+  content: "";
+  display: block;
+  width: 45%;
+  height: 2px;
+  background-color: #FAD91F;
+  margin-top: 20px;
 }

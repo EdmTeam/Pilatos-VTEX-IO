@@ -1,0 +1,225 @@
+{
+    "disclosure-layout#product-garment-care-girbaud-resto-prendas": {
+        "children": [
+            "disclosure-trigger#product-content-garment-care-girbaud-resto-prendas",
+            "disclosure-content#product-description-garment-care-girbaud-resto-prendas"
+        ]
+    },
+
+    "disclosure-trigger#product-content-garment-care-girbaud-resto-prendas": {
+        "children": [
+            "rich-text#garment-care-girbaud-resto-prendas",
+            "disclosure-state-indicator#garment-care"
+        ],
+        "props": {
+            "blockClass": ["container-products", "disclosure-indicator-garment-care"]
+        }
+    },
+
+    "rich-text#garment-care-girbaud-resto-prendas": {
+        "props": {
+            "text": "**Cuidados de la prenda**"
+            //"blockClass": "product-description-pdp"
+        }
+    },
+    "disclosure-content#product-description-garment-care-girbaud-resto-prendas": {
+        "children": [
+            "rich-text#garment-care-use-girbaud-resto-prendas",
+            "flex-layout.row#garment-use-girbaud-resto-prendas"
+        ],
+        "props": {
+            "blockClass": "garment-use-product-pdp"
+        }
+    },
+    
+    "rich-text#garment-care-use-girbaud-resto-prendas": {
+        "props": {
+            "text": "**Recomendaciones de uso**"
+        }
+    },
+    "flex-layout.row#garment-use-girbaud-resto-prendas": {
+        "children": [
+            "flex-layout.col#garment-use-girbaud-resto-prendas"
+        ]
+    },
+
+    "flex-layout.col#garment-use-girbaud-resto-prendas": {
+        "children": [
+            "flex-layout.col#garment-use-1-girbaud-resto-prendas",
+            "flex-layout.col#garment-use-2-girbaud-resto-prendas",
+            "flex-layout.col#garment-use-3-girbaud-resto-prendas",
+            "flex-layout.col#garment-use-4-girbaud-resto-prendas",
+            "flex-layout.col#garment-use-5-girbaud-resto-prendas",
+            "flex-layout.col#garment-use-6-girbaud-resto-prendas",
+            "flex-layout.col#garment-use-7-girbaud-resto-prendas"
+        ]
+    },
+    
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-1-girbaud-resto-prendas": {
+        "children": [
+            "image#garment-care-cleaning-use-1-girbaud-resto-prendas",
+            "rich-text#garment-care-cleaning-use-1-girbaud-resto-prendas"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-1-girbaud-resto-prendas": {
+        "props": {
+            "text": "No secar a maquina"
+        }
+    },
+    "image#garment-care-cleaning-use-1-girbaud-resto-prendas": {
+        "props": {
+            "src": "/arquivos/no-secar-en-secadora.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-2-girbaud-resto-prendas": {
+        "children": [
+            "image#garment-care-cleaning-use-2-girbaud-resto-prendas",
+            "rich-text#garment-care-cleaning-use-2-girbaud-resto-prendas"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-2-girbaud-resto-prendas": {
+        "props": {
+            "text": "Lavar a 30 maximo"
+        }
+    },
+    "image#garment-care-cleaning-use-2-girbaud-resto-prendas": {
+        "props": {
+            "src": "/arquivos/secar-a-la-sombra.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-3-girbaud-resto-prendas": {
+        "children": [
+            "image#garment-care-cleaning-use-3-girbaud-resto-prendas",
+            "rich-text#garment-care-cleaning-use-3-girbaud-resto-prendas"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-3-girbaud-resto-prendas": {
+        "props": {
+            "text": "Planchar a baja temperatura"
+        }
+    },
+    "image#garment-care-cleaning-use-3-girbaud-resto-prendas": {
+        "props": {
+            "src": "/arquivos/planchar-baja-temperatura.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-4-girbaud-resto-prendas": {
+        "children": [
+            "image#garment-care-cleaning-use-4-girbaud-resto-prendas",
+            "rich-text#garment-care-cleaning-use-4-girbaud-resto-prendas"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-4-girbaud-resto-prendas": {
+        "props": {
+            "text": "No usar ningun tipo de blanqueador "
+        }
+    },
+    "image#garment-care-cleaning-use-4-girbaud-resto-prendas": {
+        "props": {
+            "src": "/arquivos/no-lejia.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-5-girbaud-resto-prendas": {
+        "children": [
+            "image#garment-care-cleaning-use-5-girbaud-resto-prendas",
+            "rich-text#garment-care-cleaning-use-5-girbaud-resto-prendas"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-5-girbaud-resto-prendas": {
+        "props": {
+            "text": "Secar a sombra"
+        }
+    },
+    "image#garment-care-cleaning-use-5-girbaud-resto-prendas": {
+        "props": {
+            "src": "/arquivos/do-not-dry.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-6-girbaud-resto-prendas": {
+        "children": [
+            "image#garment-care-cleaning-use-6-girbaud-resto-prendas",
+            "rich-text#garment-care-cleaning-use-6-girbaud-resto-prendas"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-6-girbaud-resto-prendas": {
+        "props": {
+            "text": "No retorcer"
+        }
+    },
+    "image#garment-care-cleaning-use-6-girbaud-resto-prendas": {
+        "props": {
+            "src": "/arquivos/no-retorcer.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 34
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+     /******* item completo recomendación de uso****/
+     "flex-layout.col#garment-use-7-girbaud-resto-prendas": {
+        "children": [
+            "image#garment-care-cleaning-use-7-girbaud-resto-prendas",
+            "rich-text#garment-care-cleaning-use-7-girbaud-resto-prendas"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-7-girbaud-resto-prendas": {
+        "props": {
+            "text": "No lavar en seco"
+        }
+    },
+    "image#garment-care-cleaning-use-7-girbaud-resto-prendas": {
+        "props": {
+            "src": "/arquivos/image-saturation.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    }
+    /******* item completo recomendación de uso****/
+}

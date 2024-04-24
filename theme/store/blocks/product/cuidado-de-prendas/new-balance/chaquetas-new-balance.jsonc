@@ -1,0 +1,351 @@
+{
+    "condition-layout.product#garment-care-newbalance-chaquetas-hombre": {
+        "props": {
+            "conditions": [
+                {
+                    "subject": "brandId",
+                    "arguments": {
+                        "id": "2000095"
+                    }
+                },
+                {
+                    "subject": "categoryId",
+                    "arguments": {
+                        "id": "58"
+                    }
+                }
+            ],
+            "matchType": "all",
+            "Then": "disclosure-layout#product-garment-care-newbalance-chaquetas"
+        }
+    },
+
+    "condition-layout.product#garment-care-newbalance-chaquetas-mujer": {
+        "props": {
+            "conditions": [
+                {
+                    "subject": "brandId",
+                    "arguments": {
+                        "id": "2000095"
+                    }
+                },
+                {
+                    "subject": "categoryId",
+                    "arguments": {
+                        "id": "17"
+                    }
+                }
+            ],
+            "matchType": "all",
+            "Then": "disclosure-layout#product-garment-care-newbalance-chaquetas"
+        }
+    },
+
+    "condition-layout.product#garment-care-newbalance-pantalonetas": {
+        "props": {
+            "conditions": [
+                {
+                    "subject": "brandId",
+                    "arguments": {
+                        "id": "2000095"
+                    }
+                },
+                {
+                    "subject": "categoryId",
+                    "arguments": {
+                        "id": "40"
+                    }
+                }
+            ],
+            "matchType": "all",
+            "Then": "disclosure-layout#product-garment-care-newbalance-chaquetas"
+        }
+    },
+
+    "condition-layout.product#garment-care-newbalance-sudaderas-hombre": {
+        "props": {
+            "conditions": [
+                {
+                    "subject": "brandId",
+                    "arguments": {
+                        "id": "2000095"
+                    }
+                },
+                {
+                    "subject": "categoryId",
+                    "arguments": {
+                        "id": "20"
+                    }
+                }
+            ],
+            "matchType": "all",
+            "Then": "disclosure-layout#product-garment-care-newbalance-chaquetas"
+        }
+    },
+
+    "condition-layout.product#garment-care-newbalance-sudaderas-mujer": {
+        "props": {
+            "conditions": [
+                {
+                    "subject": "brandId",
+                    "arguments": {
+                        "id": "2000095"
+                    }
+                },
+                {
+                    "subject": "categoryId",
+                    "arguments": {
+                        "id": "61"
+                    }
+                }
+            ],
+            "matchType": "all",
+            "Then": "disclosure-layout#product-garment-care-newbalance-chaquetas"
+        }
+    },
+
+    "condition-layout.product#garment-care-newbalance-shorts": {
+        "props": {
+            "conditions": [
+                {
+                    "subject": "brandId",
+                    "arguments": {
+                        "id": "2000095"
+                    }
+                },
+                {
+                    "subject": "categoryId",
+                    "arguments": {
+                        "id": "60"
+                    }
+                }
+            ],
+            "matchType": "all",
+            "Then": "disclosure-layout#product-garment-care-newbalance-chaquetas"
+        }
+    },
+
+    "disclosure-layout#product-garment-care-newbalance-chaquetas": {
+        "children": [
+            "disclosure-trigger#product-content-garment-care-newbalance-chaquetas",
+            "disclosure-content#product-description-garment-care-newbalance-chaquetas"
+        ]
+    },
+
+    "disclosure-trigger#product-content-garment-care-newbalance-chaquetas": {
+        "children": [
+            "rich-text#garment-care-newbalance-chaquetas",
+            "disclosure-state-indicator#garment-care"
+        ],
+        "props": {
+            "blockClass": ["container-products", "disclosure-indicator-garment-care"]
+        }
+    },
+
+    "rich-text#garment-care-newbalance-chaquetas": {
+        "props": {
+            "text": "**Cuidados de la prenda**"
+            //"blockClass": "product-description-pdp"
+        }
+    },
+    "disclosure-content#product-description-garment-care-newbalance-chaquetas": {
+        "children": [
+            "rich-text#garment-care-use-newbalance-chaquetas",
+            "flex-layout.row#garment-use-newbalance-chaquetas"
+        ],
+        "props": {
+            "blockClass": "garment-use-product-pdp"
+        }
+    },
+    
+    "rich-text#garment-care-use-newbalance-chaquetas": {
+        "props": {
+            "text": "**Recomendaciones de uso**"
+        }
+    },
+    "flex-layout.row#garment-use-newbalance-chaquetas": {
+        "children": [
+            "flex-layout.col#garment-use-newbalance-chaquetas"
+        ]
+    },
+
+    "flex-layout.col#garment-use-newbalance-chaquetas": {
+        "children": [
+            "flex-layout.col#garment-use-1-newbalance-chaquetas",
+            "flex-layout.col#garment-use-2-newbalance-chaquetas",
+            "flex-layout.col#garment-use-3-newbalance-chaquetas",
+            "flex-layout.col#garment-use-4-newbalance-chaquetas",
+            "flex-layout.col#garment-use-5-newbalance-chaquetas",
+            "flex-layout.col#garment-use-6-newbalance-chaquetas",
+            "flex-layout.col#garment-use-7-newbalance-chaquetas"
+        ]
+    },
+    
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-1-newbalance-chaquetas": {
+        "children": [
+            "image#garment-care-cleaning-use-1-newbalance-chaquetas",
+            "rich-text#garment-care-cleaning-use-1-newbalance-chaquetas"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-1-newbalance-chaquetas": {
+        "props": {
+            "text": "Lavar a máquina en temperatura fría y en ciclo delicado"
+        }
+    },
+    "image#garment-care-cleaning-use-1-newbalance-chaquetas": {
+        "props": {
+            "src": "/arquivos/image-saturation.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-2-newbalance-chaquetas": {
+        "children": [
+            "image#garment-care-cleaning-use-2-newbalance-chaquetas",
+            "rich-text#garment-care-cleaning-use-2-newbalance-chaquetas"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-2-newbalance-chaquetas": {
+        "props": {
+            "text": "Lavar con jabón suave"
+        }
+    },
+    "image#garment-care-cleaning-use-2-newbalance-chaquetas": {
+        "props": {
+            "src": "/arquivos/lavar-a-mano-new.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-3-newbalance-chaquetas": {
+        "children": [
+            "image#garment-care-cleaning-use-3-newbalance-chaquetas",
+            "rich-text#garment-care-cleaning-use-3-newbalance-chaquetas"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-3-newbalance-chaquetas": {
+        "props": {
+            "text": "No usar blanqueador"
+        }
+    },
+    "image#garment-care-cleaning-use-3-newbalance-chaquetas": {
+        "props": {
+            "src": "/arquivos/no-lejia.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-4-newbalance-chaquetas": {
+        "children": [
+            "image#garment-care-cleaning-use-4-newbalance-chaquetas",
+            "rich-text#garment-care-cleaning-use-4-newbalance-chaquetas"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-4-newbalance-chaquetas": {
+        "props": {
+            "text": "No lavar en seco"
+        }
+    },
+    "image#garment-care-cleaning-use-4-newbalance-chaquetas": {
+        "props": {
+            "src": "/arquivos/do-not-dry.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-5-newbalance-chaquetas": {
+        "children": [
+            "image#garment-care-cleaning-use-5-newbalance-chaquetas",
+            "rich-text#garment-care-cleaning-use-5-newbalance-chaquetas"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-5-newbalance-chaquetas": {
+        "props": {
+            "text": "No planchar"
+        }
+    },
+    "image#garment-care-cleaning-use-5-newbalance-chaquetas": {
+        "props": {
+            "src": "/arquivos/planchar-baja-temperatura.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-6-newbalance-chaquetas": {
+        "children": [
+            "image#garment-care-cleaning-use-6-newbalance-chaquetas",
+            "rich-text#garment-care-cleaning-use-6-newbalance-chaquetas"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-6-newbalance-chaquetas": {
+        "props": {
+            "text": "No usar secadora"
+        }
+    },
+    "image#garment-care-cleaning-use-6-newbalance-chaquetas": {
+        "props": {
+            "src": "/arquivos/no-secar-en-secadora.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+     /******* item completo recomendación de uso****/
+     "flex-layout.col#garment-use-7-newbalance-chaquetas": {
+        "children": [
+            "image#garment-care-cleaning-use-7-newbalance-chaquetas",
+            "rich-text#garment-care-cleaning-use-7-newbalance-chaquetas"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-7-newbalance-chaquetas": {
+        "props": {
+            "text": "No exprimir"
+        }
+    },
+    "image#garment-care-cleaning-use-7-newbalance-chaquetas": {
+        "props": {
+            "src": "/arquivos/no-retorcer.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 34
+        }
+    }
+    /******* item completo recomendación de uso****/
+}

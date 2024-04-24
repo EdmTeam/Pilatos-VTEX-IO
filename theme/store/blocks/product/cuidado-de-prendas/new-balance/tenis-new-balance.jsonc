@@ -1,0 +1,167 @@
+{
+    "condition-layout.product#garment-care-newbalance-tenis-hombre": {
+        "props": {
+            "conditions": [
+                {
+                    "subject": "brandId",
+                    "arguments": {
+                        "id": "2000095"
+                    }
+                },
+                {
+                    "subject": "categoryId",
+                    "arguments": {
+                        "id": "8"
+                    }
+                }
+            ],
+            "matchType": "all",
+            "Then": "disclosure-layout#product-garment-care-newbalance-tenis"
+        }
+    },
+
+    "condition-layout.product#garment-care-newbalance-tenis-mujer": {
+        "props": {
+            "conditions": [
+                {
+                    "subject": "brandId",
+                    "arguments": {
+                        "id": "2000095"
+                    }
+                },
+                {
+                    "subject": "categoryId",
+                    "arguments": {
+                        "id": "47"
+                    }
+                }
+            ],
+            "matchType": "all",
+            "Then": "disclosure-layout#product-garment-care-newbalance-tenis"
+        }
+    },
+
+    "disclosure-layout#product-garment-care-newbalance-tenis": {
+        "children": [
+            "disclosure-trigger#product-content-garment-care-newbalance-tenis",
+            "disclosure-content#product-description-garment-care-newbalance-tenis"
+        ]
+    },
+
+    "disclosure-trigger#product-content-garment-care-newbalance-tenis": {
+        "children": [
+            "rich-text#garment-care-newbalance-tenis",
+            "disclosure-state-indicator#garment-care"
+        ],
+        "props": {
+            "blockClass": ["container-products", "disclosure-indicator-garment-care"]
+        }
+    },
+
+    "rich-text#garment-care-newbalance-tenis": {
+        "props": {
+            "text": "**Cuidados de la prenda**"
+            //"blockClass": "product-description-pdp"
+        }
+    },
+    "disclosure-content#product-description-garment-care-newbalance-tenis": {
+        "children": [
+            "rich-text#garment-care-use-newbalance-tenis",
+            "flex-layout.row#garment-use-newbalance-tenis"
+        ],
+        "props": {
+            "blockClass": "garment-use-product-pdp"
+        }
+    },
+    
+    "rich-text#garment-care-use-newbalance-tenis": {
+        "props": {
+            "text": "**Recomendaciones de uso**"
+        }
+    },
+    "flex-layout.row#garment-use-newbalance-tenis": {
+        "children": [
+            "flex-layout.col#garment-use-newbalance-tenis"
+        ]
+    },
+
+    "flex-layout.col#garment-use-newbalance-tenis": {
+        "children": [
+            "flex-layout.col#garment-use-1-newbalance-tenis",
+            "flex-layout.col#garment-use-2-newbalance-tenis",
+            "flex-layout.col#garment-use-3-newbalance-tenis"
+        ]
+    },
+    
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-1-newbalance-tenis": {
+        "children": [
+            "image#garment-care-cleaning-use-1-newbalance-tenis",
+            "rich-text#garment-care-cleaning-use-1-newbalance-tenis"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-1-newbalance-tenis": {
+        "props": {
+            "text": "No Lavar a mano ni usar Lavadora "
+        }
+    },
+    "image#garment-care-cleaning-use-1-newbalance-tenis": {
+        "props": {
+            "src": "/arquivos/secar-a-la-sombra.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-2-newbalance-tenis": {
+        "children": [
+            "image#garment-care-cleaning-use-2-newbalance-tenis",
+            "rich-text#garment-care-cleaning-use-2-newbalance-tenis"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-2-newbalance-tenis": {
+        "props": {
+            "text": "No utilizar Detergentes, aceites o blanqueadores"
+        }
+    },
+    "image#garment-care-cleaning-use-2-newbalance-tenis": {
+        "props": {
+            "src": "/arquivos/no-lejia.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-3-newbalance-tenis": {
+        "children": [
+            "image#garment-care-cleaning-use-3-newbalance-tenis",
+            "rich-text#garment-care-cleaning-use-3-newbalance-tenis"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-3-newbalance-tenis": {
+        "props": {
+            "text": "Elimine la suciedad con un cepillo suave, seco y limpio"
+        }
+    },
+    "image#garment-care-cleaning-use-3-newbalance-tenis": {
+        "props": {
+            "src": "/arquivos/do-not-dry.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    }
+    /******* item completo recomendación de uso****/
+}

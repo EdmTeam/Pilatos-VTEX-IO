@@ -1,0 +1,167 @@
+{
+    "condition-layout.product#garment-care-girbaud-tenis-hombre": {
+        "props": {
+            "conditions": [
+                {
+                    "subject": "brandId",
+                    "arguments": {
+                        "id": "2000093"
+                    }
+                },
+                {
+                    "subject": "categoryId",
+                    "arguments": {
+                        "id": "8"
+                    }
+                }
+            ],
+            "matchType": "all",
+            "Then": "disclosure-layout#product-garment-care-girbaud-tenis"
+        }
+    },
+
+    "condition-layout.product#garment-care-girbaud-tenis-mujer": {
+        "props": {
+            "conditions": [
+                {
+                    "subject": "brandId",
+                    "arguments": {
+                        "id": "2000093"
+                    }
+                },
+                {
+                    "subject": "categoryId",
+                    "arguments": {
+                        "id": "47"
+                    }
+                }
+            ],
+            "matchType": "all",
+            "Then": "disclosure-layout#product-garment-care-girbaud-tenis"
+        }
+    },
+
+    "disclosure-layout#product-garment-care-girbaud-tenis": {
+        "children": [
+            "disclosure-trigger#product-content-garment-care-girbaud-tenis",
+            "disclosure-content#product-description-garment-care-girbaud-tenis"
+        ]
+    },
+
+    "disclosure-trigger#product-content-garment-care-girbaud-tenis": {
+        "children": [
+            "rich-text#garment-care-girbaud-tenis",
+            "disclosure-state-indicator#garment-care"
+        ],
+        "props": {
+            "blockClass": ["container-products", "disclosure-indicator-garment-care"]
+        }
+    },
+
+    "rich-text#garment-care-girbaud-tenis": {
+        "props": {
+            "text": "**Cuidados de la prenda**"
+            //"blockClass": "product-description-pdp"
+        }
+    },
+    "disclosure-content#product-description-garment-care-girbaud-tenis": {
+        "children": [
+            "rich-text#garment-care-use-girbaud-tenis",
+            "flex-layout.row#garment-use-girbaud-tenis"
+        ],
+        "props": {
+            "blockClass": "garment-use-product-pdp"
+        }
+    },
+    
+    "rich-text#garment-care-use-girbaud-tenis": {
+        "props": {
+            "text": "**Recomendaciones de uso**"
+        }
+    },
+    "flex-layout.row#garment-use-girbaud-tenis": {
+        "children": [
+            "flex-layout.col#garment-use-girbaud-tenis"
+        ]
+    },
+
+    "flex-layout.col#garment-use-girbaud-tenis": {
+        "children": [
+            "flex-layout.col#garment-use-1-girbaud-tenis",
+            "flex-layout.col#garment-use-2-girbaud-tenis",
+            "flex-layout.col#garment-use-3-girbaud-tenis"
+        ]
+    },
+    
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-1-girbaud-tenis": {
+        "children": [
+            "image#garment-care-cleaning-use-1-girbaud-tenis",
+            "rich-text#garment-care-cleaning-use-1-girbaud-tenis"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-1-girbaud-tenis": {
+        "props": {
+            "text": "No Lavar a mano ni usar Lavadora"
+        }
+    },
+    "image#garment-care-cleaning-use-1-girbaud-tenis": {
+        "props": {
+            "src": "/arquivos/secar-a-la-sombra.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-2-girbaud-tenis": {
+        "children": [
+            "image#garment-care-cleaning-use-2-girbaud-tenis",
+            "rich-text#garment-care-cleaning-use-2-girbaud-tenis"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-2-girbaud-tenis": {
+        "props": {
+            "text": "No utilizar Detergentes, aceites o blanqueadores"
+        }
+    },
+    "image#garment-care-cleaning-use-2-girbaud-tenis": {
+        "props": {
+            "src": "/arquivos/no-lejia.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-3-girbaud-tenis": {
+        "children": [
+            "image#garment-care-cleaning-use-3-girbaud-tenis",
+            "rich-text#garment-care-cleaning-use-3-girbaud-tenis"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-3-girbaud-tenis": {
+        "props": {
+            "text": "Elimine la suciedad con un cepillo suave, seco y limpio"
+        }
+    },
+    "image#garment-care-cleaning-use-3-girbaud-tenis": {
+        "props": {
+            "src": "/arquivos/do-not-dry.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    }
+    /******* item completo recomendación de uso****/
+}

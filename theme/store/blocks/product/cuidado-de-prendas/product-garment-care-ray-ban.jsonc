@@ -1,0 +1,215 @@
+{
+    "condition-layout.product#garment-care-ray-ban": {
+        "props": {
+            "conditions": [
+                {
+                    "subject": "brandId",
+                    "arguments": {
+                        "id": "2000103"
+                    }
+                }
+            ],
+            "Then": "disclosure-layout#product-garment-care-ray-ban"
+        }
+    },
+
+    "disclosure-layout#product-garment-care-ray-ban": {
+        "children": [
+            "disclosure-trigger#product-content-garment-care-ray-ban",
+            "disclosure-content#product-description-garment-care-ray-ban"
+        ]
+    },
+
+    "disclosure-trigger#product-content-garment-care-ray-ban": {
+        "children": [
+            "rich-text#garment-care-ray-ban",
+            "disclosure-state-indicator#garment-care"
+        ],
+        "props": {
+            "blockClass": ["container-products", "disclosure-indicator-garment-care"]
+        }
+    },
+
+    "rich-text#garment-care-ray-ban": {
+        "props": {
+            "text": "**Cuidados de la prenda**"
+            //"blockClass": "product-description-pdp"
+        }
+    },
+    "disclosure-content#product-description-garment-care-ray-ban": {
+        "children": [
+            "rich-text#garment-care-use-ray-ban",
+            "flex-layout.row#garment-use-ray-ban"
+        ],
+        "props": {
+            "blockClass": "garment-use-product-pdp"
+        }
+    },
+    
+    "rich-text#garment-care-use-ray-ban": {
+        "props": {
+            "text": "**Recomendaciones de uso**"
+        }
+    },
+    "flex-layout.row#garment-use-ray-ban": {
+        "children": [
+            "flex-layout.col#garment-use-ray-ban"
+        ]
+    },
+
+    "flex-layout.col#garment-use-ray-ban": {
+        "children": [
+            "flex-layout.col#garment-use-1-ray-ban",
+            "flex-layout.col#garment-use-2-ray-ban",
+            "flex-layout.col#garment-use-3-ray-ban",
+            "flex-layout.col#garment-use-4-ray-ban",
+            "flex-layout.col#garment-use-5-ray-ban",
+            "flex-layout.col#garment-use-6-ray-ban"
+        ]
+    },
+    
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-1-ray-ban": {
+        "children": [
+            //"image#garment-care-cleaning-use-1-ray-ban",
+            "rich-text#garment-care-cleaning-use-1-ray-ban"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-1-ray-ban": {
+        "props": {
+            "text": "- Lave su montura periódicamente con agua corriente y jabón suave, especialmente después de su uso en la playa, piscina o tras una actividad que le haya generado alta sudoración. Séquelos con un paño suave o papel absorbente, evitando frotar los lentes."
+        }
+    },
+    /*"image#garment-care-cleaning-use-1-ray-ban": {
+        "props": {
+            "src": "/arquivos/secar-a-la-sombra.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },*/
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-2-ray-ban": {
+        "children": [
+            //"image#garment-care-cleaning-use-2-ray-ban",
+            "rich-text#garment-care-cleaning-use-2-ray-ban"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-2-ray-ban": {
+        "props": {
+            "text": "- No utilizar para su limpieza o secado, productos abrasivos o disolventes en general, como alcohol, acetona, queroseno, etc."
+        }
+    },
+    /*"image#garment-care-cleaning-use-2-ray-ban": {
+        "props": {
+            "src": "/arquivos/no-usar-seguido-new.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },*/
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-3-ray-ban": {
+        "children": [
+            //"image#garment-care-cleaning-use-3-ray-ban",
+            "rich-text#garment-care-cleaning-use-3-ray-ban"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-3-ray-ban": {
+        "props": {
+            "text": "- Guarde siempre su montura limpia dentro del estuche cuando no la esté usando."
+        }
+    },
+    /*"image#garment-care-cleaning-use-3-ray-ban": {
+        "props": {
+            "src": "/arquivos/do-not-dry.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },*/
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-4-ray-ban": {
+        "children": [
+            //"image#garment-care-cleaning-use-4-ray-ban",
+            "rich-text#garment-care-cleaning-use-4-ray-ban"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-4-ray-ban": {
+        "props": {
+            "text": "- Nunca apoye la montura con los lentes mirando hacia abajo."
+        }
+    },
+    /*"image#garment-care-cleaning-use-4-ray-ban": {
+        "props": {
+            "src": "/arquivos/no-lejia.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },*/
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-5-ray-ban": {
+        "children": [
+            //"image#garment-care-cleaning-use-5-ray-ban",
+            "rich-text#garment-care-cleaning-use-5-ray-ban"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-5-ray-ban": {
+        "props": {
+            "text": "- Evite dejar la montura en entornos de alta temperatura (por ejemplo, la guantera o la parte superior del tablero del automóvil)."
+        }
+    },
+    /*"image#garment-care-cleaning-use-5-ray-ban": {
+        "props": {
+            "src": "/arquivos/no-dejar-remojo.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24,
+            "blockClass": "icono-cuidado-de-prenda"
+        }
+    },*/
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-6-ray-ban": {
+        "children": [
+            //"image#garment-care-cleaning-use-6-ray-ban",
+            "rich-text#garment-care-cleaning-use-6-ray-ban"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-6-ray-ban": {
+        "props": {
+            "text": "- Lleve la montura a un profesional para que la ajuste y revise cuando sea necesario."
+        }
+    }
+    /*"image#garment-care-cleaning-use-6-ray-ban": {
+        "props": {
+            "src": "/arquivos/no-retorcer.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 34
+        }
+    }*/
+    /******* item completo recomendación de uso****/
+}

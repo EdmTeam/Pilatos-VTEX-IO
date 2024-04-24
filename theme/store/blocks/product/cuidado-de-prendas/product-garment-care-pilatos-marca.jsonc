@@ -1,0 +1,239 @@
+{
+    "condition-layout.product#garment-care-pilatos-marca": {
+        "props": {
+            "conditions": [
+                {
+                    "subject": "brandId",
+                    "arguments": {
+                        "id": "2000000"
+                    }
+                }
+            ],
+            "Then": "disclosure-layout#product-garment-care-pilatos-marca"
+        }
+    },
+
+    "disclosure-layout#product-garment-care-pilatos-marca": {
+        "children": [
+            "disclosure-trigger#product-content-garment-care-pilatos-marca",
+            "disclosure-content#product-description-garment-care-pilatos-marca"
+        ]
+    },
+
+    "disclosure-trigger#product-content-garment-care-pilatos-marca": {
+        "children": [
+            "rich-text#garment-care-pilatos-marca",
+            "disclosure-state-indicator#garment-care"
+        ],
+        "props": {
+            "blockClass": ["container-products", "disclosure-indicator-garment-care"]
+        }
+    },
+
+    "rich-text#garment-care-pilatos-marca": {
+        "props": {
+            "text": "**Cuidados de la prenda**"
+            //"blockClass": "product-description-pdp"
+        }
+    },
+    "disclosure-content#product-description-garment-care-pilatos-marca": {
+        "children": [
+            "rich-text#garment-care-use-pilatos-marca",
+            "flex-layout.row#garment-use-pilatos-marca"
+        ],
+        "props": {
+            "blockClass": "garment-use-product-pdp"
+        }
+    },
+    
+    "rich-text#garment-care-use-pilatos-marca": {
+        "props": {
+            "text": "**Recomendaciones de uso**"
+        }
+    },
+    "flex-layout.row#garment-use-pilatos-marca": {
+        "children": [
+            "flex-layout.col#garment-use-pilatos-marca"
+        ]
+    },
+
+    "flex-layout.col#garment-use-pilatos-marca": {
+        "children": [
+            "flex-layout.col#garment-use-1-pilatos-marca",
+            "flex-layout.col#garment-use-2-pilatos-marca",
+            "flex-layout.col#garment-use-3-pilatos-marca",
+            "flex-layout.col#garment-use-4-pilatos-marca",
+            "flex-layout.col#garment-use-5-pilatos-marca",
+            "flex-layout.col#garment-use-6-pilatos-marca",
+            "flex-layout.col#garment-use-7-pilatos-marca"
+        ]
+    },
+    
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-1-pilatos-marca": {
+        "children": [
+            "image#garment-care-cleaning-use-1-pilatos-marca",
+            "rich-text#garment-care-cleaning-use-1-pilatos-marca"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-1-pilatos-marca": {
+        "props": {
+            "text": "No secar a maquina"
+        }
+    },
+    "image#garment-care-cleaning-use-1-pilatos-marca": {
+        "props": {
+            "src": "/arquivos/secar-a-la-sombra.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-2-pilatos-marca": {
+        "children": [
+            "image#garment-care-cleaning-use-2-pilatos-marca",
+            "rich-text#garment-care-cleaning-use-2-pilatos-marca"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-2-pilatos-marca": {
+        "props": {
+            "text": "Lavar a 30 maximo"
+        }
+    },
+    "image#garment-care-cleaning-use-2-pilatos-marca": {
+        "props": {
+            "src": "/arquivos/30-grados-maximo.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 30
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-3-pilatos-marca": {
+        "children": [
+            "image#garment-care-cleaning-use-3-pilatos-marca",
+            "rich-text#garment-care-cleaning-use-3-pilatos-marca"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-3-pilatos-marca": {
+        "props": {
+            "text": "Planchar a baja temperatura"
+        }
+    },
+    "image#garment-care-cleaning-use-3-pilatos-marca": {
+        "props": {
+            "src": "/arquivos/do-not-dry.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-4-pilatos-marca": {
+        "children": [
+            "image#garment-care-cleaning-use-4-pilatos-marca",
+            "rich-text#garment-care-cleaning-use-4-pilatos-marca"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-4-pilatos-marca": {
+        "props": {
+            "text": "No usar ningun tipo de blanqueador"
+        }
+    },
+    "image#garment-care-cleaning-use-4-pilatos-marca": {
+        "props": {
+            "src": "/arquivos/no-lejia.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-5-pilatos-marca": {
+        "children": [
+            "image#garment-care-cleaning-use-5-pilatos-marca",
+            "rich-text#garment-care-cleaning-use-5-pilatos-marca"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-5-pilatos-marca": {
+        "props": {
+            "text": "Secar a sombra"
+        }
+    },
+    "image#garment-care-cleaning-use-5-pilatos-marca": {
+        "props": {
+            "src": "/arquivos/secar-a-la-sombra-nuevo.png",
+            "alt": "Icono cuidado de prenda",
+            "blockClass": "icono-cuidado-de-prenda"
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-6-pilatos-marca": {
+        "children": [
+            "image#garment-care-cleaning-use-6-pilatos-marca",
+            "rich-text#garment-care-cleaning-use-6-pilatos-marca"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-6-pilatos-marca": {
+        "props": {
+            "text": "No retorcer"
+        }
+    },
+    "image#garment-care-cleaning-use-6-pilatos-marca": {
+        "props": {
+            "src": "/arquivos/no-retorcer.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 34
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-7-pilatos-marca": {
+        "children": [
+            "image#garment-care-cleaning-use-7-pilatos-marca",
+            "rich-text#garment-care-cleaning-use-7-pilatos-marca"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-7-pilatos-marca": {
+        "props": {
+            "text": "No lavar en seco"
+        }
+    },
+    "image#garment-care-cleaning-use-7-pilatos-marca": {
+        "props": {
+            "src": "/arquivos/no-secar-en-secadora.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    }
+    /******* item completo recomendación de uso****/
+}

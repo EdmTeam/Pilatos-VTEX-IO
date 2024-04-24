@@ -1,0 +1,189 @@
+{
+    "condition-layout.product#garment-care-goorin-bros": {
+        "props": {
+            "conditions": [
+                {
+                    "subject": "brandId",
+                    "arguments": {
+                        "id": "2000089"
+                    }
+                }
+            ],
+            "Then": "disclosure-layout#product-garment-care-goorin-bros"
+        }
+    },
+
+    "disclosure-layout#product-garment-care-goorin-bros": {
+        "children": [
+            "disclosure-trigger#product-content-garment-care-goorin-bros",
+            "disclosure-content#product-description-garment-care-goorin-bros"
+        ]
+    },
+
+    "disclosure-trigger#product-content-garment-care-goorin-bros": {
+        "children": [
+            "rich-text#garment-care-goorin-bros",
+            "disclosure-state-indicator#garment-care"
+        ],
+        "props": {
+            "blockClass": ["container-products", "disclosure-indicator-garment-care"]
+        }
+    },
+
+    "rich-text#garment-care-goorin-bros": {
+        "props": {
+            "text": "**Cuidados de la prenda**"
+            //"blockClass": "product-description-pdp"
+        }
+    },
+    "disclosure-content#product-description-garment-care-goorin-bros": {
+        "children": [
+            "rich-text#garment-care-use-goorin-bros",
+            "flex-layout.row#garment-use-goorin-bros"
+        ],
+        "props": {
+            "blockClass": "garment-use-product-pdp"
+        }
+    },
+    
+    "rich-text#garment-care-use-goorin-bros": {
+        "props": {
+            "text": "**Recomendaciones de uso**"
+        }
+    },
+    "flex-layout.row#garment-use-goorin-bros": {
+        "children": [
+            "flex-layout.col#garment-use-goorin-bros"
+        ]
+    },
+
+    "flex-layout.col#garment-use-goorin-bros": {
+        "children": [
+            "flex-layout.col#garment-use-1-goorin-bros",
+            "flex-layout.col#garment-use-2-goorin-bros",
+            "flex-layout.col#garment-use-3-goorin-bros",
+            "flex-layout.col#garment-use-4-goorin-bros",
+            "flex-layout.col#garment-use-5-goorin-bros"
+        ]
+    },
+    
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-1-goorin-bros": {
+        "children": [
+            "image#garment-care-cleaning-use-1-goorin-bros",
+            "rich-text#garment-care-cleaning-use-1-goorin-bros"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-1-goorin-bros": {
+        "props": {
+            "text": "No usar en piscinas"
+        }
+    },
+    "image#garment-care-cleaning-use-1-goorin-bros": {
+        "props": {
+            "src": "/arquivos/secar-a-la-sombra.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-2-goorin-bros": {
+        "children": [
+            "image#garment-care-cleaning-use-2-goorin-bros",
+            "rich-text#garment-care-cleaning-use-2-goorin-bros"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-2-goorin-bros": {
+        "props": {
+            "text": "No usar cloro"
+        }
+    },
+    "image#garment-care-cleaning-use-2-goorin-bros": {
+        "props": {
+            "src": "/arquivos/do-not-dry.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-3-goorin-bros": {
+        "children": [
+            "image#garment-care-cleaning-use-3-goorin-bros",
+            "rich-text#garment-care-cleaning-use-3-goorin-bros"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-3-goorin-bros": {
+        "props": {
+            "text": "No lavar en lavadora"
+        }
+    },
+    "image#garment-care-cleaning-use-3-goorin-bros": {
+        "props": {
+            "src": "/arquivos/no-lejia.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-4-goorin-bros": {
+        "children": [
+            "image#garment-care-cleaning-use-4-goorin-bros",
+            "rich-text#garment-care-cleaning-use-4-goorin-bros"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-4-goorin-bros": {
+        "props": {
+            "text": "Lavar a mano usando cepillo de dientes, jabon de tocador y agua fria"
+        }
+    },
+    "image#garment-care-cleaning-use-4-goorin-bros": {
+        "props": {
+            "src": "/arquivos/lavar-a-mano-new.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-5-goorin-bros": {
+        "children": [
+            "image#garment-care-cleaning-use-5-goorin-bros",
+            "rich-text#garment-care-cleaning-use-5-goorin-bros"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-5-goorin-bros": {
+        "props": {
+            "text": "Secar a la sombra"
+        }
+    },
+    "image#garment-care-cleaning-use-5-goorin-bros": {
+        "props": {
+            "src": "/arquivos/image-saturation.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    }
+    /******* item completo recomendación de uso****/
+}

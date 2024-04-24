@@ -1,0 +1,145 @@
+{
+    "disclosure-layout#product-garment-care-superdry-resto-prendas": {
+        "children": [
+            "disclosure-trigger#product-content-garment-care-superdry-resto-prendas",
+            "disclosure-content#product-description-garment-care-superdry-resto-prendas"
+        ]
+    },
+    "disclosure-trigger#product-content-garment-care-superdry-resto-prendas": {
+        "children": [
+            "rich-text#garment-care-superdry-resto-prendas",
+            "disclosure-state-indicator#garment-care"
+        ],
+        "props": {
+            "blockClass": [
+                "container-products",
+                "disclosure-indicator-garment-care"
+            ]
+        }
+    },
+    "rich-text#garment-care-superdry-resto-prendas": {
+        "props": {
+            "text": "**Cuidados de la prenda**"
+            //"blockClass": "product-description-pdp"
+        }
+    },
+    "disclosure-content#product-description-garment-care-superdry-resto-prendas": {
+        "children": [
+            "rich-text#garment-care-use-superdry-resto-prendas",
+            "flex-layout.row#garment-use-superdry-resto-prendas"
+        ],
+        "props": {
+            "blockClass": "garment-use-product-pdp"
+        }
+    },
+    "rich-text#garment-care-use-superdry-resto-prendas": {
+        "props": {
+            "text": "**Recomendaciones de uso**"
+        }
+    },
+    "flex-layout.row#garment-use-superdry-resto-prendas": {
+        "children": [
+            "flex-layout.col#garment-use-superdry-resto-prendas"
+        ]
+    },
+    "flex-layout.col#garment-use-superdry-resto-prendas": {
+        "children": [
+            "flex-layout.col#garment-use-1-superdry-resto-prendas",
+            "flex-layout.col#garment-use-2-superdry-resto-prendas",
+            "flex-layout.col#garment-use-3-superdry-resto-prendas",
+            "flex-layout.col#garment-use-4-superdry-resto-prendas"
+        ]
+    },
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-1-superdry-resto-prendas": {
+        "children": [
+            "image#garment-care-cleaning-use-1-superdry-resto-prendas",
+            "rich-text#garment-care-cleaning-use-1-superdry-resto-prendas"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-1-superdry-resto-prendas": {
+        "props": {
+            "text": "No secar a en la secadora"
+        }
+    },
+    "image#garment-care-cleaning-use-1-superdry-resto-prendas": {
+        "props": {
+            "src": "/arquivos/no-secar-en-secadora.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-2-superdry-resto-prendas": {
+        "children": [
+            "image#garment-care-cleaning-use-2-superdry-resto-prendas",
+            "rich-text#garment-care-cleaning-use-2-superdry-resto-prendas"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-2-superdry-resto-prendas": {
+        "props": {
+            "text": "No limpiar en seco"
+        }
+    },
+    "image#garment-care-cleaning-use-2-superdry-resto-prendas": {
+        "props": {
+            "src": "/arquivos/secar-a-la-sombra.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-3-superdry-resto-prendas": {
+        "children": [
+            "image#garment-care-cleaning-use-3-superdry-resto-prendas",
+            "rich-text#garment-care-cleaning-use-3-superdry-resto-prendas"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-3-superdry-resto-prendas": {
+        "props": {
+            "text": "Planchar Fría"
+        }
+    },
+    "image#garment-care-cleaning-use-3-superdry-resto-prendas": {
+        "props": {
+            "src": "/arquivos/planchar-baja-temperatura.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-4-superdry-resto-prendas": {
+        "children": [
+            "image#garment-care-cleaning-use-4-superdry-resto-prendas",
+            "rich-text#garment-care-cleaning-use-4-superdry-resto-prendas"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-4-superdry-resto-prendas": {
+        "props": {
+            "text": "Lavar A Máquina - Agua Fría (30 °C)"
+        }
+    },
+    "image#garment-care-cleaning-use-4-superdry-resto-prendas": {
+        "props": {
+            "src": "/arquivos/image-saturation.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    }
+    /******* item completo recomendación de uso****/
+}

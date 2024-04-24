@@ -65,7 +65,15 @@
       "image#brand-36",
       "image#brand-37",
       "image#brand-38",
-      "image#brand-39"
+      "image#brand-39",
+      "image#brand-40",
+      "image#brand-41",
+      "image#brand-42",
+      "image#brand-43",
+      "image#brand-44",
+      "image#brand-45",
+      "image#brand-46",
+      "image#brand-47"
     ]
   },
   "image#brand-1": {
@@ -307,6 +315,70 @@
       "src": "/arquivos/logo-the-north-face-new.jpg",
       "link": {
         "url": "/the-north-face"
+      }
+    }
+  },
+  "image#brand-40": {
+    "props": {
+      "src": "/arquivos/LogoAlpinestars-125x125px.png",
+      "link": {
+        "url": "/alpinestars"
+      }
+    }
+  },
+  "image#brand-41": {
+    "props": {
+      "src": "/arquivos/LogoBrooks-125x125px.png",
+      "link": {
+        "url": "/brooks"
+      }
+    }
+  },
+  "image#brand-42": {
+    "props": {
+      "src": "/arquivos/LogoChampion-125x125px.png",
+      "link": {
+        "url": "/champion"
+      }
+    }
+  },
+  "image#brand-43": {
+    "props": {
+      "src": "/arquivos/LogoEcovessel-125x125px.png",
+      "link": {
+        "url": "/ecovessel"
+      }
+    }
+  },
+  "image#brand-44": {
+    "props": {
+      "src": "/arquivos/LogoFjallRaven-125x125px.png",
+      "link": {
+        "url": "/fjall-raven"
+      }
+    }
+  },
+  "image#brand-45": {
+    "props": {
+      "src": "/arquivos/LogoMonastery-125x125px.png",
+      "link": {
+        "url": "/monastery"
+      }
+    }
+  },
+  "image#brand-46": {
+    "props": {
+      "src": "/arquivos/LogoON-125x125px.png",
+      "link": {
+        "url": "/on"
+      }
+    }
+  },
+  "image#brand-47": {
+    "props": {
+      "src": "/arquivos/LogoSprayground-125x125px.png",
+      "link": {
+        "url": "/sprayground"
       }
     }
   }

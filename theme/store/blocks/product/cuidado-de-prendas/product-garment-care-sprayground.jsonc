@@ -1,0 +1,164 @@
+{
+    "condition-layout.product#garment-care-sprayground": {
+        "props": {
+            "conditions": [
+                {
+                    "subject": "brandId",
+                    "arguments": {
+                        "id": "2000121"
+                    }
+                }
+            ],
+            "Then": "disclosure-layout#product-garment-care-sprayground"
+        }
+    },
+
+    "disclosure-layout#product-garment-care-sprayground": {
+        "children": [
+            "disclosure-trigger#product-content-garment-care-sprayground",
+            "disclosure-content#product-description-garment-care-sprayground"
+        ]
+    },
+
+    "disclosure-trigger#product-content-garment-care-sprayground": {
+        "children": [
+            "rich-text#garment-care-sprayground",
+            "disclosure-state-indicator#garment-care"
+        ],
+        "props": {
+            "blockClass": ["container-products", "disclosure-indicator-garment-care"]
+        }
+    },
+
+    "rich-text#garment-care-sprayground": {
+        "props": {
+            "text": "**Cuidados de la prenda**"
+            //"blockClass": "product-description-pdp"
+        }
+    },
+    "disclosure-content#product-description-garment-care-sprayground": {
+        "children": [
+            "rich-text#garment-care-use-sprayground",
+            "flex-layout.row#garment-use-sprayground"
+        ],
+        "props": {
+            "blockClass": "garment-use-product-pdp"
+        }
+    },
+    
+    "rich-text#garment-care-use-sprayground": {
+        "props": {
+            "text": "**Recomendaciones de uso**"
+        }
+    },
+    "flex-layout.row#garment-use-sprayground": {
+        "children": [
+            "flex-layout.col#garment-use-sprayground"
+        ]
+    },
+
+    "flex-layout.col#garment-use-sprayground": {
+        "children": [
+            "flex-layout.col#garment-use-1-sprayground",
+            "flex-layout.col#garment-use-2-sprayground",
+            "flex-layout.col#garment-use-3-sprayground",
+            "flex-layout.col#garment-use-4-sprayground"
+        ]
+    },
+    
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-1-sprayground": {
+        "children": [
+            "image#garment-care-cleaning-use-1-sprayground",
+            "rich-text#garment-care-cleaning-use-1-sprayground"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-1-sprayground": {
+        "props": {
+            "text": "Lavar a mano"
+        }
+    },
+    "image#garment-care-cleaning-use-1-sprayground": {
+        "props": {
+            "src": "/arquivos/lavar-a-mano.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-2-sprayground": {
+        "children": [
+            "image#garment-care-cleaning-use-2-sprayground",
+            "rich-text#garment-care-cleaning-use-2-sprayground"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-2-sprayground": {
+        "props": {
+            "text": "No usar blanqueador"
+        }
+    },
+    "image#garment-care-cleaning-use-2-sprayground": {
+        "props": {
+            "src": "/arquivos/no-lejia.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-3-sprayground": {
+        "children": [
+            "image#garment-care-cleaning-use-3-sprayground",
+            "rich-text#garment-care-cleaning-use-3-sprayground"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-3-sprayground": {
+        "props": {
+            "text": "No secar al sol"
+        }
+    },
+    "image#garment-care-cleaning-use-3-sprayground": {
+        "props": {
+            "src": "/arquivos/do-not-dry.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-4-sprayground": {
+        "children": [
+            "image#garment-care-cleaning-use-4-sprayground",
+            "rich-text#garment-care-cleaning-use-4-sprayground"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-4-sprayground": {
+        "props": {
+            "text": "No retorcer"
+        }
+    },
+    "image#garment-care-cleaning-use-4-sprayground": {
+        "props": {
+            "src": "/arquivos/no-retorcer.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 34
+        }
+    }
+    /******* item completo recomendación de uso****/
+}

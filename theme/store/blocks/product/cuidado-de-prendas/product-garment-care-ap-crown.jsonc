@@ -184,10 +184,9 @@
     },
     "image#garment-care-cleaning-use-5-ap-crown": {
         "props": {
-            "src": "/arquivos/no-dejar-remojo.png",
+            "src": "/arquivos/image-saturation.png",
             "alt": "Icono cuidado de prenda",
-            "maxWidth": 24,
-            "blockClass": "icono-cuidado-de-prenda"
+            "maxWidth": 24
         }
     },
     /******* item completo recomendación de uso****/
@@ -233,7 +232,7 @@
     },
     "image#garment-care-cleaning-use-7-ap-crown": {
         "props": {
-            "src": "/arquivos/sombra-secar-new.png",
+            "src": "/arquivos/secar-a-la-sombra-nuevo.png",
             "alt": "Icono cuidado de prenda",
             "blockClass": "icono-cuidado-de-prenda"
         }

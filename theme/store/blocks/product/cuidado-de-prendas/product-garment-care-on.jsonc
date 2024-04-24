@@ -1,0 +1,164 @@
+{
+    "condition-layout.product#garment-care-on": {
+        "props": {
+            "conditions": [
+                {
+                    "subject": "brandId",
+                    "arguments": {
+                        "id": "2000125"
+                    }
+                }
+            ],
+            "Then": "disclosure-layout#product-garment-care-on"
+        }
+    },
+
+    "disclosure-layout#product-garment-care-on": {
+        "children": [
+            "disclosure-trigger#product-content-garment-care-on",
+            "disclosure-content#product-description-garment-care-on"
+        ]
+    },
+
+    "disclosure-trigger#product-content-garment-care-on": {
+        "children": [
+            "rich-text#garment-care-on",
+            "disclosure-state-indicator#garment-care"
+        ],
+        "props": {
+            "blockClass": ["container-products", "disclosure-indicator-garment-care"]
+        }
+    },
+
+    "rich-text#garment-care-on": {
+        "props": {
+            "text": "**Cuidados de la prenda**"
+            //"blockClass": "product-description-pdp"
+        }
+    },
+    "disclosure-content#product-description-garment-care-on": {
+        "children": [
+            "rich-text#garment-care-on-descripcion",
+            "flex-layout.row#garment-care-on",
+            "rich-text#garment-care-on-use",
+            "flex-layout.row#garment-use-on"
+        ],
+        "props": {
+            "blockClass": "garment-use-product-pdp"
+        }
+    },
+
+    "rich-text#garment-care-on-descripcion": {
+        "props": {
+            "text": "**Cómo limpiar las zapatillas de running** \n ¿Qué necesito para limpiar mis zapatillas?"
+        }
+    },
+    
+    "flex-layout.row#garment-care-on": {
+        "children": [
+            "flex-layout.col#garment-care-on"
+        ]
+    },
+
+    "flex-layout.col#garment-care-on": {
+        "children": [
+            "rich-text#garment-care-on-cleaning"
+        ]
+    },
+    "rich-text#garment-care-on-cleaning": {
+        "props": {
+            "text": "-Detergente suave o jabón para ropa- jabón para ropa \n -Un cepillo para zapatos suave o un cepillo de dientes \n -Bicarbonato sódico \n -Una esponja o un paño \n -Un cubo de agua tibia \n -Toallas de papel"
+        }
+    },
+    "rich-text#garment-care-on-use": {
+        "props": {
+            "text": "**Recomendaciones de uso**"
+        }
+    },
+    "flex-layout.row#garment-use-on": {
+        "children": [
+            "flex-layout.col#garment-use-on"
+        ]
+    },
+
+    "flex-layout.col#garment-use-on": {
+        "children": [
+            "flex-layout.col#garment-use-on-1",
+            "flex-layout.col#garment-use-on-2",
+            "flex-layout.col#garment-use-on-3"
+        ]
+    },
+    
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-on-1": {
+        "children": [
+            //"image#garment-care-on-cleaning-use-1",
+            "rich-text#garment-care-on-cleaning-use-1"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-on-cleaning-use-1": {
+        "props": {
+            "text": "- **Lavado a mano** \n\n\n -Elimina el exceso de suciedad: antes del lavado, golpea las suelas de las zapatillas para eliminar la mayor cantidad de barro y suciedad posible. Utiliza un cepillo suave o un cepillo de dientes viejo para eliminar los restos incrustados en la suela. \n\n\n -Retira los accesorios: quita los cordones y las plantillas. Puedes lavarlos por separado en la lavadora, si se puede, o a mano sumergiéndolos en agua tibia con jabón y enjuagándolos bien. \n\n\n -Lávalas a mano: para la parte exterior de la zapatilla, mezcla agua tibia y un detergente suave en un cubo o recipiente hondo. Utiliza un paño o una esponja para limpiar la superficie con cuidado. Para las manchas más difíciles, puedes usar un cepillo de dientes viejo o un cepillo con cerdas suaves. Evita utilizar materiales abrasivos que puedan dañar el tejido. \n\n\n -Limpia las suelas: si están muy sucias, puedes usar una mezcla de bicarbonato de sodio y agua para crear una pasta, luego aplícala a las suelas y frota suavemente. \n\n\n -Enjuágalas: una vez hayas eliminado la suciedad, acláralas bien con agua limpia para eliminar los restos de jabón o detergente. \n\n\n -Déjalas secar: evita las fuentes de calor directo, como los radiadores, para secar tus zapatillas. El calor intenso puede hacer que los materiales pierdan su forma. En su lugar, rellena tus zapatillas con bolas de papel para ayudar a absorber la humedad y mantener su forma. Luego déjalas secar a temperatura ambiente. \n\n\n -Vuelve a poner todo en su sitio: cuando se haya secado todo por completo, vuelve a colocar los cordones y las plantillas. Tus zapatillas estarán listas para la próxima aventura."
+        }
+    },
+    /*"image#garment-care-on-cleaning-use-1": {
+        "props": {
+            "src": "/arquivos/no-lejia.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },*/
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-on-2": {
+        "children": [
+            //"image#garment-care-on-cleaning-use-2",
+            "rich-text#garment-care-on-cleaning-use-2"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-on-cleaning-use-2": {
+        "props": {
+            "text": "**Limpieza con cepillo** \n\n\n Si no tienes agua a mano, no hay problema. Este método no es tan eficaz como el lavado a mano, pero no requiere remojo ni productos químicos agresivos: es la forma más rápida de tener las zapatillas listas para la próxima sesión, y solo te llevará unos minutos. \n\n\n -Golpea las zapatillas: una vez que el barro esté seco golpea las suelas una contra otra para eliminar la suciedad suelta con facilidad. \n\n\n -Cepillalas: si están cubiertas de suciedad, utiliza un cepillo suave o un cepillo de dientes para eliminar lo que esté más incrustado. \n\n\n -Guárdalas: coloca las zapatillas en un lugar seco (con los cordones desabrochados y la suela interior lo que esté más incrustado."
+        }
+    },
+    /*"image#garment-care-on-cleaning-use-2": {
+        "props": {
+            "src": "/arquivos/no-secar-en-secadora.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },*/
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-on-3": {
+        "children": [
+            //"image#garment-care-on-cleaning-use-3",
+            "rich-text#garment-care-on-cleaning-use-3"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-on-cleaning-use-3": {
+        "props": {
+            "text": "**¿Puedo meter las zapatillas de running en la lavadora?** \n\n\n Puede ser tentador tomar atajos después de una larga carrera, pero si te preocupa la durabilidad de tus zapatillas (y de tu lavadora), evita lavarlas a máquina. Y mantenlas lejos de la secadora también. Adam nos explica por qué: Nunca recomendamos meter las zapatillas sucias en la lavadora ni en la secadora. La combinación de calor prolongado y exposición al detergente puede dañar las costuras, el sellado y la integridad general de la estructura y el soporte de la zapatilla a largo plazo"
+        }
+    }
+    /*"image#garment-care-on-cleaning-use-3": {
+        "props": {
+            "src": "/arquivos/no-secar-en-secadora.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },*/
+    /******* item completo recomendación de uso****/
+}
