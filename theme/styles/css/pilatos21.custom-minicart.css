@@ -39,6 +39,11 @@
 .drawer--contentMinicart{
     width: 100% !important;
 }
+@media (max-width: 764px) {
+  .drawer--contentMinicart{
+    max-width: 80% !important;
+  }
+}
 
 .drawerContent--contentMinicart{
     position: relative;
@@ -78,7 +83,7 @@
 
 .drawer--contentMinicart .minicartProductListContainer{
     min-height: 247px;
-    max-height: 370px;
+    max-height: 700px;
     padding: 0 1rem 0 .75rem;
 }
 
@@ -113,7 +118,7 @@
 }
 
 .minicartTitle::before{
-    content: 'Resumen de tu pedido';
+    content: 'Carrito de compras';
     font-family: Mulish;
     font-weight: 800;
     font-size: 16px;
@@ -146,7 +151,7 @@
 
 .drawer--contentMinicart .minicartCheckoutButton{
     padding: 0 1.4rem;
-    margin: 1rem 0 1.7rem 0;
+    /* margin: 1rem 0 1.7rem 0; */
 }
 
 .drawer--contentMinicart :global(.vtex-rich-text-0-x-container--closeIco){
@@ -160,13 +165,16 @@
 .minicartCheckoutButton :global(.vtex-button){
     border: none;
     border-radius: 0;
-    background: #FFFFFF;
+    background: #FFD400;
+    color: #000000;
     font-weight: 900;
     font-size: 14px;
     line-height: 18px;
     color: transparent;
     position: relative;
     outline: none;
+    border-radius: 80px;
+
 }
 
 .minicartCheckoutButton :global(.vtex-button):hover{
@@ -174,7 +182,7 @@
 }
 
 .minicartCheckoutButton :global(.vtex-button)::before{
-    content: 'IR A PAGAR';
+    content: 'Ir a pagar';
     position: absolute;
     top: 50%;
     left: 50%;
@@ -258,3 +266,5 @@
 .minicartIconContainer :global(.vtex-store-icons-0-x-cartIcon){
     display: none;
 }
+
+

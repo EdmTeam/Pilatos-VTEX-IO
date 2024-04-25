@@ -36,7 +36,7 @@
 
   "close-cart-popup":{
     "children":[
-      "rich-text#submenu-close-icono"    
+      "rich-text#submenu-close-icono"
     ]
   },
 
@@ -51,33 +51,36 @@
     "children": [
       "minicart-summary",
       "free-shipping",
-      "rich-text#keep-buying",
-      "minicart-checkout-button"
+      "minicart-checkout-button",
+      "rich-text#keep-buying"
+
+
     ]
   },
 
+
   "rich-text#keep-buying":{
     "props":{
-      "text": "[SEGUIR COMPRANDO](/)",
-      "blockClass": "keepBuying"
+      "text": "[Seguir comprando](/)",
+      "blockClass": "btnSecundarioCart"
     }
   },
 
   "free-shipping":{
     "props": {
-      "valueOfFreeShipping": 300000,
+      "valueOfFreeShipping": 350000,
       "infoLabel": {
         "labelInitial": "",
         "labelBetween": "¡Faltan ",
         "labelFinal": " para que tu envío sea ",
-        "labelFreeShippingComplete": "¡Tu envío es totalmente gratis!",
-        "labelAdditional": "totalmente gratis!"
+        "labelFreeShippingComplete": "¡Tu envío es gratis!",
+        "labelAdditional": "gratis!"
       },
       "show": {
         "freeShippingComponent": true,
         "informativeFreeShippingText": true,
-        "percentageFreeShipping":true,
-        "rangeFreeShipping": true,
+        "percentageFreeShipping":false,
+        "rangeFreeShipping": false,
         "labelInitial": false,
         "subTotal": false,
         "labelBetween": true,
@@ -215,7 +218,7 @@
       "width": "18%",
       "blockClass": "contentQuantitySelector"
     }
-  },  
+  },
   //====================================
 
   "minicart-summary": {

@@ -3060,13 +3060,36 @@ margin: 2px;
   text-decoration: none;
   padding: 12px 20px;
   margin-right: 10px;
-
-
 }
 
 .link--btnPrincipal:hover {
   color: #fff;
   background: #1d1d1d ;
+}
+
+.link--btnSecundarioCart{
+  color: #fff;
+  text-decoration: none;
+}
+
+.container--btnSecundarioCart{
+  justify-content: center;
+}
+
+.paragraph--btnSecundarioCart {
+  border-radius: 80px;
+  color: #fff;
+  border-color: #FFD400;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 8px 45px;
+  border: 1px solid;
+  text-align: center;
+}
+.wrapper--btnSecundarioCart {
+  width: 90%;
 }
 
 .paragraph--textoFitRituales{
