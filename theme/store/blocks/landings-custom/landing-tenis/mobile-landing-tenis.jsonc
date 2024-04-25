@@ -1,0 +1,183 @@
+{
+    "responsive-layout.mobile#landing-tenis-mob": {
+        "children": [
+            "flex-layout.row#bloque-2-tenis-mob",
+            "flex-layout.row#bloque-3-tenis-mob",
+            "flex-layout.row#bloque-4-tenis-mob"
+        ]
+    },
+
+    //BLOQUE 2 MOBILE
+    "flex-layout.row#bloque-2-tenis-mob": {
+        "children": [
+            "flex-layout.col#bloque-2-tenis-mob"
+        ],
+        "props": {
+            "blockClass": "contenedor-bloque-2-tenis-mob"
+        }
+    },
+
+    "flex-layout.col#bloque-2-tenis-mob": {
+        "children": [
+            "rich-text#titulo-tenis-landing-mob",
+            "rich-text#descripcion-tenis-landing-mob",
+            "flex-layout.col#btn-genero-landing-tenis"
+        ],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+
+    "rich-text#titulo-tenis-landing-mob": {
+        "props": {
+            "font": "t-heading-1",
+            "text": "Compra por menos de $250.000",
+            "blockClass": "titulo-landing-tenis-mob",
+            "textAlignment": "CENTER"
+        }
+    },
+
+    "rich-text#descripcion-tenis-landing-mob": {
+        "props": {
+            "text": "Elevate your sneaker game with the Nike Air Max 90—a true icon that stands the test of time while embraci",
+            "blockClass": "descripcion-landing-tenis-mob",
+            "textAlignment": "CENTER"
+        }
+    },
+
+    //BLOQUE 3 MOBILE
+    "flex-layout.row#bloque-3-tenis-mob": {
+        "children": [
+            "flex-layout.col#bloque-3-tenis-mob"
+        ]
+    },
+
+    "flex-layout.col#bloque-3-tenis-mob": {
+        "children": [
+            "rich-text#busca-por-marca-mob",
+            "image#bloque-3-tenis-mob",
+            "flex-layout.row#marcas-tenis-mob"
+        ]
+    },
+
+    "rich-text#busca-por-marca-mob": {
+        "props": {
+            "text": "Busca por marca",
+            "blockClass": ["busca-por-marca-texto-tenis-desk", "busca-por-marca-texto-tenis-mob"]
+        }
+    },
+
+    "image#bloque-3-tenis-mob": {
+        "props": {
+            "src": "/arquivos/Pilatos-LandingTenis-Banner-Mob.jpg",
+            "blockClass": "imagen-marcas-landing-tenis"
+        }
+    },
+
+    "flex-layout.row#marcas-tenis-mob": {
+        "children": [
+            "flex-layout.col#marcas-tenis-mob-1",
+            "flex-layout.col#marcas-tenis-mob-2"
+        ],
+        "props": {
+            "blockClass": "contenedor-info-marcas-mob"
+        }
+    },
+
+    "flex-layout.col#marcas-tenis-mob-1": {
+        "children": [
+            "rich-text#marca-diesel-mob",
+            "rich-text#marca-nike-mob",
+            "rich-text#marca-vans-mob",
+            "rich-text#marca-new-balance-mob"
+        ]
+    },
+
+    "flex-layout.col#marcas-tenis-mob-2": {
+        "children": [
+            "rich-text#marca-pepe-jeans-mob",
+            "rich-text#marca-lacoste-mob",
+            "rich-text#marca-superdry-mob",
+            "rich-text#marca-le-coq-mob"
+        ]
+    },
+
+    "rich-text#marca-diesel-mob": {
+        "props": {
+            "text": "[Diesel](/diesel)",
+            "blockClass": "texto-marcas-landing-tenis-mob"
+        }
+    },
+
+    "rich-text#marca-nike-mob": {
+        "props": {
+            "text": "[Nike](/nike)",
+            "blockClass": "texto-marcas-landing-tenis-mob"
+        }
+    },
+
+    "rich-text#marca-vans-mob": {
+        "props": {
+            "text": "[Vans](/vans)",
+            "blockClass": "texto-marcas-landing-tenis-mob"
+        }
+    },
+
+    "rich-text#marca-new-balance-mob": {
+        "props": {
+            "text": "[New Balance](/new-balance)",
+            "blockClass": "texto-marcas-landing-tenis-mob"
+        }
+    },
+
+    "rich-text#marca-le-coq-mob": {
+        "props": {
+            "text": "[Le Coq Sportif](/le-coq-sportif)",
+            "blockClass": "texto-marcas-landing-tenis-mob"
+        }
+    },
+
+    "rich-text#marca-pepe-jeans-mob": {
+        "props": {
+            "text": "[Pepe jeans](/pepe-jeans)",
+            "blockClass": "texto-marcas-landing-tenis-mob"
+        }
+    },
+
+    "rich-text#marca-lacoste-mob": {
+        "props": {
+            "text": "[Lacoste](/lacoste)",
+            "blockClass": "texto-marcas-landing-tenis-mob"
+        }
+    },
+
+    "rich-text#marca-superdry-mob": {
+        "props": {
+            "text": "[Superdry](/superdry)",
+            "blockClass": "texto-marcas-landing-tenis-mob"
+        }
+    },
+
+    //BLOQUE 4
+    "flex-layout.row#bloque-4-tenis-mob": {
+        "children": [
+            "flex-layout.col#bloque-4-tenis-mob"
+        ],
+        "props": {
+            "marginTop": 8
+        }
+    },
+
+    "flex-layout.col#bloque-4-tenis-mob": {
+        "children": [
+            "rich-text#nuevos-lanzamientos-mob"
+        ]
+    },
+
+    "rich-text#nuevos-lanzamientos-mob": {
+        "props": {
+            "text": "Nuevos lanzamientos",
+            "blockClass": ["nuevos-lanzamientos-texto-tenis-mob"]
+        }
+    }
+}

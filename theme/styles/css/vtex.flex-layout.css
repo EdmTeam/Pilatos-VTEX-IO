@@ -3521,3 +3521,40 @@ width: 88%;
   width: 90%;
   margin: 25px auto 25px auto;
 }
+
+/********LANDING TENIS****/
+.flexCol--contenedor-marcas-landing-tenis {
+  flex-direction: row;
+  align-items: center;
+  gap: 8rem;
+}
+
+.flexColChild--main-marcas-content, .flexColChild--main-marcas-content-carrusel {
+  width: 85%;
+  margin: 0 auto;
+}
+@media screen and (max-width: 500px) {
+  .flexColChild--main-marcas-content-carrusel {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+.flexCol--info-marcas-landing-tenis {
+  gap: 20px;
+}
+
+.flexRowContent--contenedor-info-marcas-mob {
+  display: flex;
+  margin: 0 10px;
+}
+
+.flexRowContent--contenedor-bloque-2-tenis-mob {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.flexCol--contenedor-btns-genero-landing-tenis {
+  flex-direction: row;
+  gap: 10px;
+}

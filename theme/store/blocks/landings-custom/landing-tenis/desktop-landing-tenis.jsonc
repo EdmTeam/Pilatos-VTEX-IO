@@ -1,0 +1,235 @@
+{
+    "responsive-layout.desktop#landing-tenis-desk": {
+        "children": [
+            "flex-layout.row#bloque-2-tenis-desk",
+            "flex-layout.row#bloque-3-tenis-desk",
+            "flex-layout.row#bloque-4-tenis-desk"
+        ]
+    },
+    "flex-layout.row#banner-hero-tenis-desk": {
+        "children": [
+            "info-card#banner-hero-tenis-desk"
+        ],
+        "props": {
+            "blockClass": "contenedor-hero-landing-tenis"
+        }
+    },
+
+    "info-card#banner-hero-tenis-desk": {
+        "props": {
+            "id": "info-card-example",
+            "isFullModeStyle": true,
+            "textPosition": "left",
+            "imageUrl": "/arquivos/Pilatos-LandingTenis-BannerPpal-Desk.jpg",
+            "mobileImageUrl": "/arquivos/Pilatos-LandingTenis-BannerPpal-Mob.jpg",
+            "headline": "Sneakers",
+            "subhead": "Elevate your sneaker game with the Nike Air Max 90—a true icon that stands the test of time while embracing the future of comfort and style. Experience the perfect fusion of heritage and innovation with every stride you take",
+            "textMode": "html",
+            "callToActionText": "Comprar ahora",
+            "callToActionUrl": "/pilatos",
+            "blockClass": "info-card-tenis-desk",
+            "textAlignment": "center"
+        }
+    },
+
+    //BLOQUE 2
+
+    "flex-layout.row#bloque-2-tenis-desk": {
+        "children": [
+            "flex-layout.col#bloque-2-tenis-desk"
+        ]
+    },
+
+    "flex-layout.col#bloque-2-tenis-desk": {
+        "children": [
+            "rich-text#titulo-tenis-landing",
+            "rich-text#descripcion-tenis-landing",
+            "flex-layout.col#btn-genero-landing-tenis"
+        ],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+
+    "rich-text#titulo-tenis-landing": {
+        "props": {
+            "font": "t-heading-1",
+            "text": "Compra por menos de $250.000",
+            "blockClass": "titulo-landing-tenis",
+            "textAlignment": "CENTER"
+        }
+    },
+
+    "rich-text#descripcion-tenis-landing": {
+        "props": {
+            "text": "Elevate your sneaker game with the Nike Air Max 90—a true icon that stands the test of time while embraci",
+            "blockClass": "descripcion-landing-tenis",
+            "textAlignment": "CENTER"
+        }
+    },
+
+    "flex-layout.col#btn-genero-landing-tenis": {
+        "children": [
+            "rich-text#btn-tenis-landing-hombre",
+            "rich-text#btn-tenis-landing-mujer"
+        ],
+        "props": {
+            "blockClass": "contenedor-btns-genero-landing-tenis"
+        }
+    },
+
+    "rich-text#btn-tenis-landing-hombre": {
+        "props": {
+            "text": "[Hombre](/pilatos)",
+            "blockClass": "btn-landing-tenis",
+            "textAlignment": "CENTER"
+        }
+    },
+
+    "rich-text#btn-tenis-landing-mujer": {
+        "props": {
+            "text": "[Mujer](/pilatos)",
+            "blockClass": "btn-landing-tenis",
+            "textAlignment": "CENTER"
+        }
+    },
+
+    //BLOQUE 3 BUSCADOR MARCA
+    "flex-layout.row#bloque-3-tenis-desk": {
+        "children": [
+            "flex-layout.col#bloque-3-tenis-desk"
+        ]
+    },
+
+    "flex-layout.col#bloque-3-tenis-desk": {
+        "children": [
+            "rich-text#busca-por-marca-desk",
+            "flex-layout.col#contenedor-marcas-desk"
+        ],
+        "props": {
+            "blockClass": "main-marcas-content"
+        }
+    },
+
+    "rich-text#busca-por-marca-desk": {
+        "props": {
+            "text": "Busca por marca",
+            "blockClass": "busca-por-marca-texto-tenis-desk"
+        }
+    },
+
+    "flex-layout.col#contenedor-marcas-desk": {
+        "children": [
+            "image#bloque-3-tenis-desk",
+            "flex-layout.col#bloque-3marcas-desk"
+        ],
+        "props": {
+            "blockClass": "contenedor-marcas-landing-tenis"
+        }
+    },
+
+    "image#bloque-3-tenis-desk": {
+        "props": {
+            "src": "/arquivos/Pilatos-LandingTenis-Banner-Desk.jpg",
+            "blockClass": "imagen-marcas-landing-tenis"
+        }
+    },
+
+    "flex-layout.col#bloque-3marcas-desk": {
+        "children": [
+            "rich-text#marca-diesel",
+            "rich-text#marca-nike",
+            "rich-text#marca-vans",
+            "rich-text#marca-new-balance",
+            "rich-text#marca-le-coq",
+            "rich-text#marca-pepe-jeans",
+            "rich-text#marca-lacoste",
+            "rich-text#marca-superdry"
+        ],
+        "props": {
+            "blockClass": "info-marcas-landing-tenis"
+        }
+    },
+
+    "rich-text#marca-diesel": {
+        "props": {
+            "text": "[Diesel](/diesel)",
+            "blockClass": "texto-marcas-landing-tenis"
+        }
+    },
+
+    "rich-text#marca-nike": {
+        "props": {
+            "text": "[Nike](/nike)",
+            "blockClass": "texto-marcas-landing-tenis"
+        }
+    },
+
+    "rich-text#marca-vans": {
+        "props": {
+            "text": "[Vans](/vans)",
+            "blockClass": "texto-marcas-landing-tenis"
+        }
+    },
+
+    "rich-text#marca-new-balance": {
+        "props": {
+            "text": "[New Balance](/new-balance)",
+            "blockClass": "texto-marcas-landing-tenis"
+        }
+    },
+
+    "rich-text#marca-le-coq": {
+        "props": {
+            "text": "[Le Coq Sportif](/le-coq-sportif)",
+            "blockClass": "texto-marcas-landing-tenis"
+        }
+    },
+
+    "rich-text#marca-pepe-jeans": {
+        "props": {
+            "text": "[Pepe jeans](/pepe-jeans)",
+            "blockClass": "texto-marcas-landing-tenis"
+        }
+    },
+
+    "rich-text#marca-lacoste": {
+        "props": {
+            "text": "[Lacoste](/lacoste)",
+            "blockClass": "texto-marcas-landing-tenis"
+        }
+    },
+
+    "rich-text#marca-superdry": {
+        "props": {
+            "text": "[Superdry](/superdry)",
+            "blockClass": "texto-marcas-landing-tenis"
+        }
+    },
+
+    //BLOQUE 4
+    "flex-layout.row#bloque-4-tenis-desk": {
+        "children": [
+            "flex-layout.col#bloque-4-tenis-desk"
+        ],
+        "props": {
+            "marginTop": 8
+        }
+    },
+
+    "flex-layout.col#bloque-4-tenis-desk": {
+        "children": [
+            "rich-text#nuevos-lanzamientos-desk"
+        ],
+        "props": {
+            "blockClass": "main-marcas-content"
+        }
+    },
+
+    "rich-text#nuevos-lanzamientos-desk": {
+        "props": {
+            "text": "Nuevos lanzamientos",
+            "blockClass": "busca-por-marca-texto-tenis-desk"
+        }
+    }
+}

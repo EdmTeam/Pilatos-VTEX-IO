@@ -1,0 +1,41 @@
+{
+    "store.custom#landing-tenis": {
+        "blocks": [
+            "flex-layout.row#banner-hero-tenis-desk",
+            "responsive-layout.desktop#landing-tenis-desk",
+            "responsive-layout.mobile#landing-tenis-mob",
+            "flex-layout.row#vitrina-landing-tenis",
+            "video#landing-tenis",
+            "rich-text#filtro-seo"
+        ]
+    },
+
+    "flex-layout.row#vitrina-landing-tenis": {
+        "children": [
+            "flex-layout.col#vitrina-landing-tenis"
+        ],
+        "props": {
+            "marginBottom": 8
+        }
+    },
+
+    "flex-layout.col#vitrina-landing-tenis": {
+        "children": [
+            "vtex.product-summary:list-context.product-list#most-viewed"
+        ],
+        "props": {
+            "blockClass": "main-marcas-content-carrusel"
+        }
+    },
+
+    "video#landing-tenis": {
+        "props": {
+            "width": "100%",
+            "height": "auto",
+            "loop": true,
+            "autoPlay": true,
+            "muted": true,
+            "src": "https://estudiodemoda.co/wp-content/uploads/2024/04/Pilatos-LandingTenis-Video.mp4"
+        }
+    }
+}
