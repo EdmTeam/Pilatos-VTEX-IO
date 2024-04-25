@@ -844,3 +844,50 @@ cursor: pointer;
         width: 100%
     }
 }
+
+/*****LANDING TENIS****/
+
+.infoCardTextContainer--info-card-tenis-desk {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.infoCardHeadline--info-card-tenis-desk {
+    color: #fff;
+    font-weight: 900;
+    font-size: 64px;
+}
+
+.infoCardSubhead--info-card-tenis-desk {
+    width: 40%;
+    color: #fff;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 768px) {
+    .infoCardSubhead--info-card-tenis-desk {
+        width: 100%;
+    }
+    .infoCardHeadline--info-card-tenis-desk {
+        font-size: 32px;
+    }
+}
+
+:global(.vtex-store-components-3-x-infoCardCallActionContainer--info-card-tenis-desk) :global(.vtex-button) {
+    color: #000;
+    background-color: #FFD400;
+    padding: 10px 20px;
+    border-radius: 100px;
+    font-weight: 800;
+    text-transform: capitalize;
+    border: 0;
+}
+
+:global(.vtex-store-components-3-x-infoCardCallActionContainer--info-card-tenis-desk) :global(.vtex-button):hover {
+    outline: 0;
+    border: 0;
+}
+
+.imageElement--imagen-marcas-landing-tenis {
+    width: 600px;
+}

@@ -20,8 +20,8 @@
     "flex-layout.col#promotional-banners-2-col-1":{
         "children":[
             "image#promotional-banners-2-img-1",
-            "rich-text#des-promotional-banners-2-img-1",
-            "rich-text#link-promotional-banners-2-img-1"
+            "rich-text#des-promotional-banners-2-img-1"
+           //"rich-text#link-promotional-banners-2-img-1"
         ],
         "props":{
             "blockClass": "promBannerContentImg"
@@ -56,8 +56,8 @@
     "flex-layout.col#promotional-banners-2-col-2":{
         "children":[
             "image#promotional-banners-2-img-2",
-            "rich-text#des-promotional-banners-2-img-2",
-            "rich-text#link-promotional-banners-2-img-2"
+            "rich-text#des-promotional-banners-2-img-2"
+            //"rich-text#link-promotional-banners-2-img-2"
         ],
         "props":{
             "blockClass": "promBannerContentImg"
@@ -92,8 +92,8 @@
     "flex-layout.col#promotional-banners-2-col-3":{
         "children":[
             "image#promotional-banners-2-img-3",
-            "rich-text#des-promotional-banners-2-img-3",
-            "rich-text#link-promotional-banners-2-img-3"
+            "rich-text#des-promotional-banners-2-img-3"
+            //"rich-text#link-promotional-banners-2-img-3"
         ],
         "props":{
             "blockClass": "promBannerContentImg"
@@ -128,8 +128,8 @@
     "flex-layout.col#promotional-banners-2-col-4":{
         "children":[
             "image#promotional-banners-2-img-4",
-            "rich-text#des-promotional-banners-2-img-4",
-            "rich-text#link-promotional-banners-2-img-4"
+            "rich-text#des-promotional-banners-2-img-4"
+            //"rich-text#link-promotional-banners-2-img-4"
         ],
         "props":{
             "blockClass": "promBannerContentImg"

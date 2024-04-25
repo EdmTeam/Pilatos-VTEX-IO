@@ -3523,3 +3523,110 @@ margin: 2px;
   background-color: #FAD91F;
   margin-top: 20px;
 }
+
+/**************LANDING TENIS****/
+.paragraph--texto-marcas-landing-tenis {
+  margin: 0;
+  font-size: 25px;
+}
+
+.paragraph--texto-marcas-landing-tenis-mob {
+  margin: 0;
+  font-size: 24px;
+}
+
+.link--texto-marcas-landing-tenis {
+  color: #000;
+}
+
+.link--texto-marcas-landing-tenis-mob {
+  color: #000;
+  font-size: 18px;
+}
+
+
+.link--texto-marcas-landing-tenis:hover, .link--texto-marcas-landing-tenis-mob:hover {
+  font-weight: bold;
+}
+
+.paragraph--busca-por-marca-texto-tenis-desk {
+  margin-bottom: 30px;
+  font-size: 25px;
+  color: #545454;
+  font-weight: bold;
+}
+
+.paragraph--busca-por-marca-texto-tenis-mob {
+  font-size: 20px;
+  color: #545454;
+  font-weight: bold;
+  margin: 4rem 0 0 10px;
+}
+
+.paragraph--titulo-landing-tenis {
+  color: #545454;
+  font-weight: 800;
+  margin: 2rem 0 0 0;
+  font-size: 32px;
+}
+
+/*.paragraph--titulo-landing-tenis::after {
+  content: "$250.000";
+  color: #000;
+  margin-left: 1.5rem;
+}*/
+
+.paragraph--descripcion-landing-tenis {
+  color: #616161;
+  margin: 0 0 1rem 0;
+}
+
+.link--btn-landing-tenis {
+  text-decoration: none;
+  font-weight: 800;
+  color: #000;
+}
+
+.paragraph--btn-landing-tenis {
+  width: 150px;
+  height: 36px;
+  background-color: #FFD400;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*MOB*/
+.paragraph--titulo-landing-tenis-mob {
+  color: #545454;
+  font-weight: 800;
+  font-size: 32px;
+  margin: 2rem 0 0 0;
+  line-height: 1.2;
+}
+
+/*.paragraph--titulo-landing-tenis-mob::after {
+  content: "$250.000";
+  color: #000;
+  margin-left: 1rem;
+}*/
+
+.paragraph--descripcion-landing-tenis-mob {
+  color: #616161;
+  text-align: left;
+}
+
+.paragraph--nuevos-lanzamientos-texto-tenis-mob {
+  font-size: 20px;
+  color: #545454;
+  font-weight: bold;
+  margin: 1rem 0 0 10px;
+  line-height: 1.2;
+}
+
+.container--titulo-hero-landing-zapatos-desk {
+  position: absolute;
+  top: 0;
+  color: #fff;
+}
