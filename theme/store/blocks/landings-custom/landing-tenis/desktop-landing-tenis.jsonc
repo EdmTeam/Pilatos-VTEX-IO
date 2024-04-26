@@ -1,6 +1,7 @@
 {
     "responsive-layout.desktop#landing-tenis-desk": {
         "children": [
+            "image#landing-botones-genero-img",
             "flex-layout.row#bloque-2-tenis-desk",
             "flex-layout.row#bloque-3-tenis-desk",
             "flex-layout.row#bloque-4-tenis-desk"

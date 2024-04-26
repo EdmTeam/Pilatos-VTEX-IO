@@ -1,6 +1,7 @@
 {
     "responsive-layout.mobile#landing-tenis-mob": {
         "children": [
+            "image#landing-templateBotonesGenero-banner-img-phone",
             "flex-layout.row#bloque-2-tenis-mob",
             "flex-layout.row#bloque-3-tenis-mob",
             "flex-layout.row#bloque-4-tenis-mob"
