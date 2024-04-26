@@ -144,6 +144,16 @@
     border-radius: 50%;
 }
 
+/*Flag exclusivo online**/
+.productHighlightWrapper [data-highlight-id="1717"]{
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(/arquivos/Pilatos-FlagExclusivoOnline.jpg);
+    display: block;
+}
+
 /*
 .productHighlightWrapper [data-highlight-id="1227"]{
     width: 50px;

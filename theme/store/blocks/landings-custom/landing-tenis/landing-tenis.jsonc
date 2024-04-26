@@ -1,6 +1,7 @@
 {
     "store.custom#landing-tenis": {
         "blocks": [
+            "flex-layout.row#bread",
             "flex-layout.row#banner-hero-tenis-desk",
             "responsive-layout.desktop#landing-tenis-desk",
             "responsive-layout.mobile#landing-tenis-mob",
@@ -8,6 +9,15 @@
             "video#landing-tenis",
             "rich-text#filtro-seo"
         ]
+    },
+
+    "flex-layout.row#bread": {
+        "children": [
+            "rich-text#department-templateGeneroNuevo-bread"
+        ],
+        "props": {
+            "blockClass": "contentSearch"
+        }
     },
 
     "flex-layout.row#vitrina-landing-tenis": {
