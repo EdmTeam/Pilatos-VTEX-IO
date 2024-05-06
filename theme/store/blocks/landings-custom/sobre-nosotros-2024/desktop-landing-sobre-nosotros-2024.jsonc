@@ -96,7 +96,7 @@
 
     "rich-text#marcas-sobrenosotros2024": {
         "props": {
-            "text": "¿Qué marcas tiene pilatos?",
+            "text": "¿Qué marcas tiene Pilatos?",
             "font": "t-heading-1",
             "blockClass": "main-sobre-nosotros-2024-title"
         }

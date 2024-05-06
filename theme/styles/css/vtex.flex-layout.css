@@ -3546,11 +3546,13 @@ width: 88%;
 }
 
 @media screen and (max-width: 930px) {
-  .flexCol--contenedor-footer-sobrenosotros2024-persona {
-    display: none;
-  }
   .flexRowContent--contenedor-footer-sobrenosotros2024::after {
     height: 100%;
+  }
+}
+@media screen and (max-width: 639px) {
+  .flexCol--contenedor-footer-sobrenosotros2024-persona {
+    display: none;
   }
 }
 
