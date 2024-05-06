@@ -1,7 +1,9 @@
 {
     "responsive-layout.mobile#banner-principal-sobrenosotros2024": {
         "children": [
-            "flex-layout.row#mob-banner-sobrenosotros2024"
+            "flex-layout.row#mob-banner-sobrenosotros2024",
+            "flex-layout.row#mob-main-sobrenosotros2024",
+            "flex-layout.row#mob-slider-marcas-sobrenosotros2024"
         ]
     },
 
@@ -21,6 +23,69 @@
                 "attributeTitle": ""
             },
             "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+    //MAIN
+    "flex-layout.row#mob-main-sobrenosotros2024": {
+        "children": [
+            "flex-layout.col#mob-main-sobrenosotros2024"
+        ],
+        "props": {
+            "blockClass": "contenedor-main-sobre-nosotros-2024"
+        }
+    },
+
+    "flex-layout.col#mob-main-sobrenosotros2024": {
+        "children": [
+            "rich-text#mob-que-puedo-encontrar-sobrenosotros2024",
+            "rich-text#mob-que-puedo-encontrar-sobrenosotros2024-descripcion",
+            "image#mob-main-que-puedo-encontrar"
+        ]
+    },
+
+    "rich-text#mob-que-puedo-encontrar-sobrenosotros2024": {
+        "props": {
+            "text": "¿Qué puedo encontrar en Pilatos?",
+            "font": "t-heading-1",
+            "blockClass": "main-sobre-nosotros-2024-title"
+        }
+    },
+
+    "rich-text#mob-que-puedo-encontrar-sobrenosotros2024-descripcion": {
+        "props": {
+            "text": "Desde jeans, chaquetas, camisas, camisetas, vestidos, bermudas y ropa interior hasta lentes de sol, relojería de lujo, bolsos, calzado y marroquinería son sinónimo de moda, exclusividad y tendencias en nuestro portafolio. \n\n Tenemos nuestra marca propia Pilatos, símbolo para aquellas personas que transmiten confianza y les gusta elevar su estilo a través de nuestras colecciones basadas en autenticidad y tendencias."
+        }
+    },
+
+    "image#mob-main-que-puedo-encontrar": {
+        "props": {
+            "src": "/arquivos/Pilatos-Landing-Modelo2-mobile.png",
+            "alt": "Imagen que podemos encontrar en Pilatos"
+        }
+    },
+
+    //QUE MARCA TIENE PILATOS
+    "flex-layout.row#mob-slider-marcas-sobrenosotros2024":{
+        "children": [
+            "flex-layout.col#mob-slider-marcas-sobrenosotros2024"
+        ],
+        "props": {
+            "blockClass": "contenedor-main-sobre-nosotros-2024"
+        }
+    },
+
+    "flex-layout.col#mob-slider-marcas-sobrenosotros2024": {
+        "children": [
+            "rich-text#mob-marcas-sobrenosotros2024"
+        ]
+    },
+
+    "rich-text#mob-marcas-sobrenosotros2024": {
+        "props": {
+            "text": "¿Qué marcas tiene pilatos?",
+            "font": "t-heading-1",
+            "blockClass": "main-sobre-nosotros-2024-title"
         }
     }
 }

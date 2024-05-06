@@ -190,11 +190,15 @@
                     "categories": [
                         "14",
                         "13",
-                        "17"
+                        "17",
+                        "16"
                     ],
-                    "imageDesktop": "/arquivos/Pilatos-GuiaTallasExternas-Nike-superior-hombre.jpg",
+                    /*"imageDesktop": "/arquivos/Pilatos-GuiaTallasExternas-Nike-superior-hombre.jpg",
                     "imageTablet": "/arquivos/Pilatos-GuiaTallasExternas-Nike-superior-hombre.jpg",
-                    "imagePhone": "/arquivos/Pilatos-GuiaTallasExternas-Nike-superior-hombre.jpg"
+                    "imagePhone": "/arquivos/Pilatos-GuiaTallasExternas-Nike-superior-hombre.jpg"*/
+                    "imageDesktop": "/arquivos/Nike-SuperiorMasculino-GuiaTallas-2024.jpg",
+                    "imageTablet": "/arquivos/Nike-SuperiorMasculino-GuiaTallas-2024.jpg",
+                    "imagePhone": "/arquivos/Nike-SuperiorMasculino-GuiaTallas-2024.jpg"
                 }
             ]
         }
@@ -207,11 +211,15 @@
                         "2000111"
                     ],
                     "categories": [
-                        "20"
+                        "20",
+                        "19"
                     ],
-                    "imageDesktop": "/arquivos/Pilatos-GuiaTallasExternas-Nike-inferior-hombre.jpg",
+                    /*"imageDesktop": "/arquivos/Pilatos-GuiaTallasExternas-Nike-inferior-hombre.jpg",
                     "imageTablet": "/arquivos/Pilatos-GuiaTallasExternas-Nike-inferior-hombre.jpg",
-                    "imagePhone": "/arquivos/Pilatos-GuiaTallasExternas-Nike-inferior-hombre.jpg"
+                    "imagePhone": "/arquivos/Pilatos-GuiaTallasExternas-Nike-inferior-hombre.jpg"*/
+                    "imageDesktop": "/arquivos/Nike-InferiorMasculino-GuiaTallas-2024.jpg",
+                    "imageTablet": "/arquivos/Nike-InferiorMasculino-GuiaTallas-2024.jpg",
+                    "imagePhone": "/arquivos/Nike-InferiorMasculino-GuiaTallas-2024.jpg"
                 }
             ]
         }
@@ -226,11 +234,15 @@
                     "categories": [
                         "55",
                         "54",
-                        "58"
+                        "58",
+                        "57"
                     ],
-                    "imageDesktop": "/arquivos/Pilatos-GuiaTallasExternas-Nike-calzado-mujer.jpg",
+                    /*"imageDesktop": "/arquivos/Pilatos-GuiaTallasExternas-Nike-calzado-mujer.jpg",
                     "imageTablet": "/arquivos/Pilatos-GuiaTallasExternas-Nike-calzado-mujer.jpg",
-                    "imagePhone": "/arquivos/Pilatos-GuiaTallasExternas-Nike-calzado-mujer.jpg"
+                    "imagePhone": "/arquivos/Pilatos-GuiaTallasExternas-Nike-calzado-mujer.jpg"*/
+                    "imageDesktop": "/arquivos/Nike-SuperiorFemenino-GuiaTallas-2024.jpg",
+                    "imageTablet": "/arquivos/Nike-SuperiorFemenino-GuiaTallas-2024.jpg",
+                    "imagePhone": "/arquivos/Nike-SuperiorFemenino-GuiaTallas-2024.jpg"
                 }
             ]
         }
@@ -1125,11 +1137,15 @@
                         "2000106"
                     ],
                     "categories": [
-                        "42"
+                        "42",
+                        "8"
                     ],
-                    "imageDesktop": "/arquivos/Pilatos-GuiaTallas-sandalias-hombre-Superdry.jpg",
+                    /*"imageDesktop": "/arquivos/Pilatos-GuiaTallas-sandalias-hombre-Superdry.jpg",
                     "imageTablet": "/arquivos/Pilatos-GuiaTallas-sandalias-hombre-Superdry.jpg",
-                    "imagePhone": "/arquivos/Pilatos-GuiaTallas-sandalias-hombre-Superdry.jpg"
+                    "imagePhone": "/arquivos/Pilatos-GuiaTallas-sandalias-hombre-Superdry.jpg"*/
+                    "imageDesktop": "/arquivos/Superdry-tenisysandalias-masculino-GuiaTallas-2024.jpg",
+                    "imageTablet": "/arquivos/Superdry-tenisysandalias-masculino-GuiaTallas-2024.jpg",
+                    "imagePhone": "/arquivos/Superdry-tenisysandalias-masculino-GuiaTallas-2024.jpg"
                 }
             ]
         }
@@ -1142,11 +1158,15 @@
                         "2000106"
                     ],
                     "categories": [
-                        "17"
+                        "88",
+                        "47"
                     ],
-                    "imageDesktop": "/arquivos/Pilatos-GuiaTallas-sandalias-mujer-Superdry.jpg",
+                    /*"imageDesktop": "/arquivos/Pilatos-GuiaTallas-sandalias-mujer-Superdry.jpg",
                     "imageTablet": "/arquivos/Pilatos-GuiaTallas-sandalias-mujer-Superdry.jpg",
-                    "imagePhone": "/arquivos/Pilatos-GuiaTallas-sandalias-mujer-Superdry.jpg"
+                    "imagePhone": "/arquivos/Pilatos-GuiaTallas-sandalias-mujer-Superdry.jpg"*/
+                    "imageDesktop": "/arquivos/Superdry-tenisysandalias-femenino-GuiaTallas-2024.jpg",
+                    "imageTablet": "/arquivos/Superdry-tenisysandalias-femenino-GuiaTallas-2024.jpg",
+                    "imagePhone": "/arquivos/Superdry-tenisysandalias-femenino-GuiaTallas-2024.jpg"
                 }
             ]
         }
@@ -1445,6 +1465,27 @@
                     "imageDesktop": "/arquivos/MFG-calzado-femenino-GuiaTallas-2024.jpg",
                     "imageTablet": "/arquivos/MFG-calzado-femenino-GuiaTallas-2024.jpg",
                     "imagePhone": "/arquivos/MFG-calzado-femenino-GuiaTallas-2024.jpg"
+                }
+            ]
+        }
+    },
+
+    //NIKE
+    "size-guide#inferior-mujer-nike": {
+        "props": {
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000111"
+                    ],
+                    "categories": [
+                        "61",
+                        "60",
+                        "62"
+                    ],
+                    "imageDesktop": "/arquivos/Nike-InferiorFemenino-GuiaTallas-2024.jpg",
+                    "imageTablet": "/arquivos/Nike-InferiorFemenino-GuiaTallas-2024.jpg",
+                    "imagePhone": "/arquivos/Nike-InferiorFemenino-GuiaTallas-2024.jpg"
                 }
             ]
         }

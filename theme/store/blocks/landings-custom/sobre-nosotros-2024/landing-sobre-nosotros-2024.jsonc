@@ -1,11 +1,33 @@
 {
     "store.custom#landingSobreNosotros2024": {
         "blocks": [
+            "flex-layout.row#bread",
+           "flex-layout.row#title-sobrenosotros2024",
             "responsive-layout.desktop#banner-principal-sobrenosotros2024",
             "responsive-layout.mobile#banner-principal-sobrenosotros2024",
-            "list-context.image-list#marcas-sobrenosotros2024"
+            "flex-layout.row#marcas-sobrenosotros2024-slider",
+            "flex-layout.row#contenedor-footer-sobrenosotros2024"
         ]
     },
+
+    "flex-layout.row#title-sobrenosotros2024": {
+        "children": [
+            "rich-text#department-templateGeneroNuevo-title"
+        ],
+        "props": {
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.row#marcas-sobrenosotros2024-slider": {
+        "children": [
+            "list-context.image-list#marcas-sobrenosotros2024"
+        ],
+        "props": {
+            "blockClass": "contenedor-main-sobre-nosotros-2024"
+        }
+    },
+
     "list-context.image-list#marcas-sobrenosotros2024": {
         "children": [
             "slider-layout#marcas-sobrenosotros2024"
@@ -13,12 +35,270 @@
         "props": {
             "height": 650,
             "images": [
-                {
-                    "image": "/arquivos/apple.png",
-                    "mobileImage": "/arquivos/apple.png",
-                    "description": "Miniso",
+                /*{
+                    "image": "/arquivos/LogoAdidas-150x150px.png",
+                    "description": "Addidas",
                     "link": {
                         "url": "/"
+                    }
+                },*/
+                {
+                    "image": "/arquivos/LogoAguabendita-150x150px.png",
+                    "description": "Agua bendita",
+                    "link": {
+                        "url": "/agua-bendita"
+                    }
+                },
+                {
+                    "image": "/arquivos/LogoAlpinestars-150x150px.png",
+                    "description": "Alpinestars",
+                    "link": {
+                        "url": "/alpinestars"
+                    }
+                },
+                {
+                    "image": "/arquivos/LogoApCrown-150x150px.png",
+                    "description": "ApCrown",
+                    "link": {
+                        "url": "/ap-crown"
+                    }
+                },
+                {
+                    "image": "/arquivos/LogoCelio-150x150px.png",
+                    "description": "Celio",
+                    "link": {
+                        "url": "/celio"
+                    }
+                },
+                {
+                    "image": "/arquivos/LogoChampion-150x150px.png",
+                    "description": "Champion",
+                    "link": {
+                        "url": "/champion"
+                    }
+                },
+                {
+                    "image": "/arquivos/LogoDiesel-150x150px.png",
+                    "description": "Diesel",
+                    "link": {
+                        "url": "/diesel"
+                    }
+                },
+                {
+                    "image": "/arquivos/LogoEcovessel-150x150px.png",
+                    "description": "Ecovessel",
+                    "link": {
+                        "url": "/ecovessel"
+                    }
+                },
+                {
+                    "image": "/arquivos/LogoFjallRaven-150x150px.png",
+                    "description": "FjallRaven",
+                    "link": {
+                        "url": "/fjall-raven"
+                    }
+                },
+                {
+                    "image": "/arquivos/LogoGoorinBros-150x150px.png",
+                    "description": "GoorinBros",
+                    "link": {
+                        "url": "/goorin-bros"
+                    }
+                },
+                {
+                    "image": "/arquivos/LogoKipling-150x150px.png",
+                    "description": "Kipling",
+                    "link": {
+                        "url": "/kipling"
+                    }
+                },
+                {
+                    "image": "/arquivos/LogoLacoste-150x150px.png",
+                    "description": "Lacoste",
+                    "link": {
+                        "url": "/lacoste"
+                    }
+                },
+                {
+                    "image": "/arquivos/LogoLeCoqSportif-150x150px.png",
+                    "description": "Lecoq",
+                    "link": {
+                        "url": "/le-coq-sportif"
+                    }
+                },
+                {
+                    "image": "/arquivos/LogoMFG-150x150px.png",
+                    "description": "Girbaud",
+                    "link": {
+                        "url": "/girbaud"
+                    }
+                },
+                {
+                    "image": "/arquivos/LogoMonastery-150x150px.png",
+                    "description": "Monastery",
+                    "link": {
+                        "url": "/monastery"
+                    }
+                },
+                {
+                    "image": "/arquivos/LogoNewBalance-150x150px.png",
+                    "description": "New Balance",
+                    "link": {
+                        "url": "/new-balance"
+                    }
+                },
+                {
+                    "image": "/arquivos/LogoNewEra-150x150px.png",
+                    "description": "New Era",
+                    "link": {
+                        "url": "/new-era"
+                    }
+                },
+                {
+                    "image": "/arquivos/LogoNike-150x150px.png",
+                    "description": "Nike",
+                    "link": {
+                        "url": "/nike"
+                    }
+                },
+                {
+                    "image": "/arquivos/LogoOn-150x150px.png",
+                    "description": "On",
+                    "link": {
+                        "url": "/on"
+                    }
+                },
+                {
+                    "image": "/arquivos/LogoOneill-150x150px.png",
+                    "description": "Oneil",
+                    "link": {
+                        "url": "/oneill"
+                    }
+                },
+                {
+                    "image": "/arquivos/LogoPepeJeans-150x150px.png",
+                    "description": "Pepe jeans",
+                    "link": {
+                        "url": "/pepe-jeans"
+                    }
+                },
+                {
+                    "image": "/arquivos/LogoPilatos-150x150px.png",
+                    "description": "Pilatos",
+                    "link": {
+                        "url": "/pilatos"
+                    }
+                },
+                {
+                    "image": "/arquivos/LogoQuicksilver-150x150px.png",
+                    "description": "Quicksilver",
+                    "link": {
+                        "url": "/quiksilver"
+                    }
+                },
+                {
+                    "image": "/arquivos/LogoRayBan-150x150px.png",
+                    "description": "RayBan",
+                    "link": {
+                        "url": "/ray-ban"
+                    }
+                },
+                {
+                    "image": "/arquivos/LogoReplay-150x150px.png",
+                    "description": "Replay",
+                    "link": {
+                        "url": "/replay"
+                    }
+                },
+                {
+                    "image": "/arquivos/LogoRoxy-150x150px.png",
+                    "description": "Roxy",
+                    "link": {
+                        "url": "/roxy"
+                    }
+                },
+                {
+                    "image": "/arquivos/LogoStance-150x150px.png",
+                    "description": "Stance",
+                    "link": {
+                        "url": "/stance"
+                    }
+                },
+                {
+                    "image": "/arquivos/LogoSuperdry-150x150px.png",
+                    "description": "Superdry",
+                    "link": {
+                        "url": "/superdry"
+                    }
+                },
+                /*{
+                    "image": "/arquivos/LogoTheFrenchie-150x150px.png",
+                    "description": "LogoTheFrenchie",
+                    "link": {
+                        "url": "/"
+                    }
+                },*/
+                {
+                    "image": "/arquivos/LogoVans-150x150px.png",
+                    "description": "Vans",
+                    "link": {
+                        "url": "/vans"
+                    }
+                },
+                {
+                    "image": "/arquivos/LogoBrooks-125x125px.png",
+                    "description": "brooks",
+                    "link": {
+                        "url": "/brooks"
+                    }
+                },
+                {
+                    "image": "/arquivos/logo-the-north-face-new.jpg",
+                    "description": "brooks",
+                    "link": {
+                        "url": "/the-north-face"
+                    }
+                },
+                {
+                    "image": "/arquivos/logo-kapp-new.jpg",
+                    "description": "kappa",
+                    "link": {
+                        "url": "/kappa"
+                    }
+                },
+                {
+                    "image": "/arquivos/IDENTIFICADOR-100.jpg",
+                    "description": "jansport",
+                    "link": {
+                        "url": "/jansport"
+                    }
+                },
+                {
+                    "image": "/arquivos/LOGO-SUPERGA-200X200.jpg",
+                    "description": "superga",
+                    "link": {
+                        "url": "/superga"
+                    }
+                },
+                {
+                    "image": "/arquivos/calvin-klein-logo.png",
+                    "description": "calvin-klein",
+                    "link": {
+                        "url": "/calvin-klein"
+                    }
+                },
+                {
+                    "image": "/arquivos/Logo_Oakley.png",
+                    "description": "oakley",
+                    "link": {
+                        "url": "/oakley"
+                    }
+                },
+                {
+                    "image": "/arquivos/Logo_Fossil.png",
+                    "description": "fossil",
+                    "link": {
+                        "url": "/fossil"
                     }
                 }
             ]
@@ -27,10 +307,11 @@
     "slider-layout#marcas-sobrenosotros2024": {
         "props": {
             "itemsPerPage": {
-                "desktop": 4,
+                "desktop": 6,
                 "tablet": 3,
-                "phone": 1
-            }
+                "phone": 2
+            },
+            "blockClass": "marca-sobre-nosotros-2024"
         }
     }
 }

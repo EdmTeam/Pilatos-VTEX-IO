@@ -3547,6 +3547,43 @@ margin: 2px;
   margin-top: 20px;
 }
 
+@media screen and (max-width: 600px) {
+  .paragraph--main-sobre-nosotros-2024-title {
+    font-size: 24px;
+  }
+}
+
+.paragraph--registrate-footer-sobrenosotros2024 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 900;
+  letter-spacing: .02em;
+}
+
+.paragraph--btn-resgistro-sobreNosotros-2024 {
+  font-weight: 900;
+  color: #000;
+  background-color: #FFD400;
+  border-radius: 80px;
+  padding: 12px 30px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .paragraph--registrate-footer-sobrenosotros2024 {
+    font-size: 24px;
+  }
+  .paragraph--btn-resgistro-sobreNosotros-2024 {
+    background-color: transparent;
+    padding: 0px;
+}
+}
+
+.strong--registrate-footer-sobrenosotros2024 {
+  color: #FFD400;
+  font-weight: 900;
+}
+
 /**************LANDING TENIS****/
 .paragraph--texto-marcas-landing-tenis {
   margin: 0;

@@ -273,6 +273,7 @@
 
     "flex-layout.col#btn-mi-talla": {
         "children": [
+            "size-guide#inferior-mujer-nike",
             "size-guide#sudadera-hombre-ap-crown",
             "size-guide#camisas-ap-crown",
             "size-guide#chaquetas-ap-crown",
@@ -328,7 +329,7 @@
             "size-guide#zapatos-mujer-reebok",
             "size-guide#mujer-Replay",
             "size-guide#zapatos-mujer-Replay",
-            "size-guide#zapatos-mujer-superdry",
+            //"size-guide#zapatos-mujer-superdry",
             "size-guide#mujer-superdry",
             "size-guide#zapatos-hombre-diesel",
             "size-guide#hombre-diesel",
@@ -340,7 +341,7 @@
             "size-guide#kids-newbalance",
             "size-guide#zapatos-hombre-Replay",
             "size-guide#hombre-Superdry",
-            "size-guide#zapatos-hombre-Superdry",
+            //"size-guide#zapatos-hombre-Superdry",
             "size-guide#sandalias-hombre-Superdry",
             "size-guide#sandalias-mujer-Superdry",
             "size-guide#hombre-vans",

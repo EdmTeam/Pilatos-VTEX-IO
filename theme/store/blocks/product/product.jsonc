@@ -475,6 +475,7 @@
 
   "flex-layout.col#product-size-guide": {
     "children": [
+      "size-guide#inferior-mujer-nike",
       "size-guide#sudadera-hombre-ap-crown",
       "size-guide#camisas-ap-crown",
       "size-guide#chaquetas-ap-crown",
@@ -533,7 +534,7 @@
       "size-guide#inferior-nike-hombre",
       "size-guide#kids-newbalance",
       "size-guide#zapatos-mujer-Replay",
-      "size-guide#zapatos-mujer-superdry",
+      //"size-guide#zapatos-mujer-superdry",
       "size-guide#sandalias-hombre-Superdry",
             "size-guide#sandalias-mujer-Superdry",
       "size-guide#mujer-superdry",
@@ -549,7 +550,7 @@
       "size-guide#hombre-Replay",
       "size-guide#zapatos-hombre-Replay",
       "size-guide#hombre-Superdry",
-      "size-guide#zapatos-hombre-Superdry",
+      //"size-guide#zapatos-hombre-Superdry",
       "size-guide#correa",
       "size-guide#hombre-vans",
             "size-guide#mujer-vans"
