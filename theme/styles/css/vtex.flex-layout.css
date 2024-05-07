@@ -2843,13 +2843,13 @@
 }
 
 .flexColChild--pilatosLoversContentInput :global(.vtex-styleguide-9-x-input){
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .flexColChild--pilatosLoversContentInput :global(.vtex-store-form-0-x-formSubmitContainer){
-  position: absolute;
+  /*position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: 0;*/
   margin-bottom: 1rem;
 }
 
@@ -2905,7 +2905,8 @@
   }
 
   .flexCol--pilatosLoversContentInput{
-    width: 80%;
+    /*width: 80%;*/
+    width: 100%;
   }
 }
 
@@ -3520,6 +3521,39 @@ width: 88%;
 .flexRowContent--contenedor-main-sobre-nosotros-2024 {
   width: 90%;
   margin: 25px auto 25px auto;
+}
+
+.flexRowContent--contenedor-footer-sobrenosotros2024 {
+  position: relative;
+}
+.flexRowContent--contenedor-footer-sobrenosotros2024::after {
+  content: "";
+  background-color: #111111;
+  height: 80%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+.flexCol--contenedor-footer-sobrenosotros2024-persona {
+  z-index: 1;
+}
+.flexCol--contenedor-registrate-footer-sobrenosotros2024 {
+  z-index: 1;
+}
+.flexRowContent--contenedor-footer-sobre-nosotros-2024 {
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 930px) {
+  .flexRowContent--contenedor-footer-sobrenosotros2024::after {
+    height: 100%;
+  }
+}
+@media screen and (max-width: 639px) {
+  .flexCol--contenedor-footer-sobrenosotros2024-persona {
+    display: none;
+  }
 }
 
 /********LANDING TENIS****/

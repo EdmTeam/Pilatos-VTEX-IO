@@ -367,3 +367,10 @@
 .imageElementLink--colecciones{
   width: 100%;
 }
+
+/***landing sobre nosotros**/
+.slide--marca-sobre-nosotros-2024 {
+    border: 1px solid #EAE7E7;
+    border-radius: 12px;
+    margin-right: 10px;
+}

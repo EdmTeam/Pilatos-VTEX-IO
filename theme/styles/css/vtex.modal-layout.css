@@ -88,3 +88,33 @@
 .closeButton--boton-work-with-cerrar:hover {
     background-color: #ffc600;
 }
+
+/******SOBRE NOSOTROS**/
+.paper--form-registro-sobreNosotros2024 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*width: max-content;
+    height: max-content;*/
+    width: 60%;
+    height: max-content;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .triggerContainer--content-btn-resgistro-sobreNosotros-2024 {
+        width: 100%;
+        background-color: red;
+        border-radius: 80px;
+        margin-bottom: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #FFD400;
+    }
+    .paper--form-registro-sobreNosotros2024{
+        width: 100%;
+        padding: 10px;
+    }
+}

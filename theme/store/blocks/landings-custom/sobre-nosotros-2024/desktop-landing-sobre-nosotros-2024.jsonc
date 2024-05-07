@@ -81,8 +81,7 @@
     /**QUE MARCAS TIENE PILATOS***/
     "flex-layout.row#slider-marcas-sobrenosotros2024": {
         "children": [
-            "flex-layout.col#marcas-pilatos-sobrenosotros2024",
-            "list-context.image-list#marcas-sobrenosotros2024"
+            "flex-layout.col#marcas-pilatos-sobrenosotros2024"
         ],
         "props": {
             "blockClass": "contenedor-main-sobre-nosotros-2024"
@@ -97,9 +96,102 @@
 
     "rich-text#marcas-sobrenosotros2024": {
         "props": {
-            "text": "¿Qué marcas tiene pilatos?",
+            "text": "¿Qué marcas tiene Pilatos?",
             "font": "t-heading-1",
             "blockClass": "main-sobre-nosotros-2024-title"
+        }
+    },
+
+    //FOOTER
+    "responsive-layout.desktop#banner-footer-sobrenosotros2024": {
+        "children": [
+            "flex-layout.row#contenedor-footer-sobrenosotros2024"
+        ]
+    },
+
+    "flex-layout.row#contenedor-footer-sobrenosotros2024": {
+        "children": [
+            "flex-layout.row#contenedor-container-footer-sobrenosotros2024"
+        ],
+        "props": {
+            "marginTop": 8,
+            "blockClass": "contenedor-footer-sobrenosotros2024",
+            "horizontalAlign": "center"
+        }
+    },
+
+    "flex-layout.row#contenedor-container-footer-sobrenosotros2024": {
+        "children": [
+            "flex-layout.col#contenedor-persona-sobrenosotros2024",
+            "flex-layout.col#contenedor-informativo-sobrenosotros2024"
+        ],
+        "props": {
+            "blockClass": "contenedor-footer-sobre-nosotros-2024"
+        }
+    },
+
+    "flex-layout.col#contenedor-persona-sobrenosotros2024": {
+        "children": [
+            "image#persona-footer-sobrenosotros2024"
+        ],
+        "props": {
+            "blockClass": "contenedor-footer-sobrenosotros2024-persona"
+        }
+    },
+
+    "image#persona-footer-sobrenosotros2024": {
+        "props": {
+            "src": "/arquivos/Pilatos-Landing-Modelo3-desk.png"
+        }
+    },
+
+    "flex-layout.col#contenedor-informativo-sobrenosotros2024": {
+        "children": [
+            "rich-text#registrate-footer-sobrenosotros2024",
+            "modal-trigger#registrate-footer-sobrenosotros2024"
+        ],
+        "props": {
+            "verticalAlign": "middle",
+            "blockClass": "contenedor-registrate-footer-sobrenosotros2024"
+        }
+    },
+
+    "rich-text#registrate-footer-sobrenosotros2024": {
+        "props": {
+            "text": "Registrate ahora y obten **un 15% de descuento** en tu primera compra",
+            "blockClass": "registrate-footer-sobrenosotros2024"
+        }
+    },
+
+
+    //MODAL TRIGGER
+    "modal-trigger#registrate-footer-sobrenosotros2024": {
+        "children": ["rich-text#registrate-text-footer-sobrenosotros2024", "modal-layout#registrate-footer-sobrenosotros2024"],
+        "props": {
+            "blockClass": "content-btn-resgistro-sobreNosotros-2024"
+        }
+    },
+
+    "rich-text#registrate-text-footer-sobrenosotros2024": {
+        "props": {
+            "text": "Registrarme",
+            "blockClass": "btn-resgistro-sobreNosotros-2024"
+        }
+    },
+
+    "flex-layout.col#form-footer-sobrenosotros2024": {
+        "children": [
+            "form#pilatos-lovers"
+        ],
+        "props": {
+            "blockClass": "form-sobreNosotros-2024"
+        }
+    },
+
+    "modal-layout#registrate-footer-sobrenosotros2024": {
+        "children": ["flex-layout.col#form-footer-sobrenosotros2024"],
+        "props": {
+            "blockClass": "form-registro-sobreNosotros2024"
         }
     }
 }
