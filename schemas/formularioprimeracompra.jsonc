@@ -20,8 +20,8 @@
             "type": "string",
             "format": "phone",
             "title": "Número de Teléfono"
-        },
-        "cedula": {
+        }
+        /*"cedula": {
             "type": "string",
             "format": "cedula",
             "title": "Cédula"
@@ -30,13 +30,13 @@
             "type": "string",
             "format": "date-time",
             "title": "Fecha de Nacimiento"
-        }
+        }*/
     },
     "required": [
-        "birthday",
+        /*"birthday",*/
         "mail",
         "name",
-        "cedula",
+        /*"cedula",*/
         "phone",
         "terms"
     ],
