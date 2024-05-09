@@ -119,15 +119,15 @@
     },
     "form#blackfriday": {
         "props": {
-            "entity": "AA",
+            "entity": "EB",
             "schema": "formulario"
         },
         "children": [
             "form-input.text#blackfriday-form-name",
             "form-input.text#blackfriday-form-email",
             "form-input.text#blackfriday-form-celular",
-            "form-input.text#blackfriday-form-cedula",
-            "form-input.text#blackfriday-form-birthday",
+            //"form-input.text#blackfriday-form-cedula",
+            //"form-input.text#blackfriday-form-birthday",
             "form-input.checkbox#blackfriday-form-terms",
             "rich-text#blackfriday-read-politics",
             "form-submit#blackfriday-form-submit"
