@@ -15,28 +15,15 @@
             "format": "email",
             "title": "Correo Electrónico"
         },
-
         "phone": {
             "type": "string",
             "format": "phone",
             "title": "Número de Teléfono"
-        },
-        "cedula": {
-            "type": "string",
-            "format": "cedula",
-            "title": "Cédula"
-        },
-        "birthday": {
-            "type": "string",
-            "format": "date-time",
-            "title": "Fecha de Nacimiento"
         }
     },
     "required": [
-        "birthday",
         "mail",
         "name",
-        "cedula",
         "phone",
         "terms"
     ],
