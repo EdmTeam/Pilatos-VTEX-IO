@@ -83,14 +83,14 @@ const StoreLocator: StorefrontFunctionComponent<StoreLocatorProps> = ({
     const getDataLevel1 = () => {
         let dataOptions: any = [];
         for (let i = 0; i < stores.length; i++) {
-            const value = stores[i].level1.trim();
+            const value = stores[i]?.level1?.trim();
             console.log(value)
             const option = {
                 value: value,
                 label: value,
             };
             if (
-                dataOptions.filter((index: any) => index.value === option.value)
+                dataOptions.filter((index: any) => index?.value === option?.value)
                     .length <= 0
             ) {
                 dataOptions.push(option);
@@ -105,18 +105,18 @@ const StoreLocator: StorefrontFunctionComponent<StoreLocatorProps> = ({
         setStore(null);
         let dataOptions: any = [];
         const resultFilter = stores.filter(
-            (index: any) => index.level1.trim().toLowerCase() === level1Value.toLowerCase()
+            (index: any) => index?.level1?.trim().toLowerCase() === level1Value?.toLowerCase()
         );
         if (resultFilter.length > 0) {
             for (let i = 0; i < resultFilter.length; i++) {
-                const value = resultFilter[i].level2.trim();
+                const value = resultFilter[i]?.level2?.trim();
                 const option = {
                     value: value,
                     label: value,
                 };
                 if (
                     dataOptions.filter(
-                        (index: any) => index.value === option.value
+                        (index: any) => index?.value === option?.value
                     ).length <= 0
                 ) {
                     dataOptions.push(option);
@@ -139,18 +139,18 @@ const StoreLocator: StorefrontFunctionComponent<StoreLocatorProps> = ({
         setStore(null);
         let dataOptions: any = [];
         const resultFilter = stores.filter(
-            (index: any) => index.level2.trim().toLowerCase() === level2Value.toLowerCase()
+            (index: any) => index?.level2?.trim().toLowerCase() === level2Value?.toLowerCase()
         );
         if (resultFilter.length > 0) {
             for (let i = 0; i < resultFilter.length; i++) {
-                const value = resultFilter[i].level3.trim();
+                const value = resultFilter[i]?.level3?.trim();
                 const option = {
                     value: value,
                     label: value,
                 };
                 if (
                     dataOptions.filter(
-                        (index: any) => index.value === option.value
+                        (index: any) => index?.value === option?.value
                     ).length <= 0
                 ) {
                     dataOptions.push(option);
@@ -174,18 +174,18 @@ const StoreLocator: StorefrontFunctionComponent<StoreLocatorProps> = ({
     const getGeo = () => {
         const resultFilter = stores.filter(
             (index: any) =>
-                index.level1.trim().toLowerCase() === level1Value.toLowerCase() &&
-                index.level2.trim().toLowerCase() === level2Value.toLowerCase() &&
-                index.level3.trim().toLowerCase() === level3Value.toLowerCase()
+                index?.level1?.trim().toLowerCase() === level1Value?.toLowerCase() &&
+                index?.level2?.trim().toLowerCase() === level2Value?.toLowerCase() &&
+                index?.level3?.trim().toLowerCase() === level3Value?.toLowerCase()
         );
         if (resultFilter.length > 0) {
             const storeSelect = resultFilter[0];
             setStore(storeSelect);
             setGeo({
-                lat: parseFloat(storeSelect.lat),
-                lgn: parseFloat(storeSelect.lgn),
+                lat: parseFloat(storeSelect?.lat),
+                lgn: parseFloat(storeSelect?.lgn),
             });
-            setZoom(map.zoomPoint);
+            setZoom(map?.zoomPoint);
         }
     };
     /**
@@ -392,8 +392,8 @@ const StoreLocator: StorefrontFunctionComponent<StoreLocatorProps> = ({
                             containerElement={
                                 <div
                                     style={{
-                                        height: map.height,
-                                        width: map.width,
+                                        height: map?.height,
+                                        width: map?.width,
                                     }}
                                 />
                             }
