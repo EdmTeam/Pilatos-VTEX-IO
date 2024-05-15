@@ -4,7 +4,8 @@
             "responsive-layout.desktop#banner-blackfriday",
             "responsive-layout.tablet#banner-blackfriday",
             "responsive-layout.phone#banner-blackfriday",
-            "flex-layout.row#content-blackfriday"
+            "flex-layout.row#content-blackfriday",
+            "rich-text#filtro-seo" 
         ]
     },
     "flex-layout.row#content-blackfriday": {
