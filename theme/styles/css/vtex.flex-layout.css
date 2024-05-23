@@ -3484,7 +3484,7 @@ width: 88%;
   flex-direction: row;
   align-items: self-end;
   justify-content: space-evenly;
-  margin-top: -18px;
+  margin-top: 0px;
 }
 .flexRowContent--contenedor-size-guide-quantity {
   display: flex;
@@ -3494,6 +3494,9 @@ width: 88%;
 }
 .flexCol--product-size-guide-btn {
   margin-top: 12px;
+}
+.flexRowContent--contenedor-sku-mi-talla {
+  margin-bottom: 20px;
 }
 /*@media screen and (max-width: 1044px)*/
 @media screen and (min-width: 640px) and (max-width: 860px) {

@@ -41,7 +41,8 @@
 }
 
 .savings .savingsPercentage{
-  color: #FFD400;
+  /*color: #FFD400; desactivar el 28 de mayo*/
+  color: #FFF;
   height: 35px;
   width: 35px;
   display: flex;
