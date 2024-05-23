@@ -39,6 +39,7 @@
             "addi-infos",
             // "rich-text#title-descripcionProducto",
             // "flex-layout.row#productDescripcion",
+            "condition-layout.product#garment-artdist",
             "disclosure-layout#productoDescription",
             "condition-layout.product#garment-care-le-coq",
             "condition-layout.product#garment-care-ap-crown",
@@ -273,6 +274,21 @@
 
     "flex-layout.col#btn-mi-talla": {
         "children": [
+            "size-guide#north-face-superior-masculino",
+            "size-guide#north-face-superior-femenino",
+            "size-guide#north-face-inferior-femenino",
+            "size-guide#north-face-inferior-masculino",
+            "size-guide#north-face-calzado-masculino",
+            "size-guide#north-face-calzado-femenino",
+            "size-guide#hombre-superga-mujer-calzado",
+            "size-guide#hombre-pepe-jans-hombre-calzado",
+            "size-guide#hombre-pepe-jans-mujer-calzado",
+            "size-guide#hombre-artdist-camisetas",
+            "size-guide#hombre-artdist-buzos",
+            "size-guide#hombre-artdist-sudaderas",
+            //"size-guide#unisex-tenis-kappa",
+            "size-guide#hombre-kappa",
+            "size-guide#mujer-kappa",
             "size-guide#inferior-mujer-nike",
             "size-guide#sudadera-hombre-ap-crown",
             "size-guide#camisas-ap-crown",
@@ -351,6 +367,8 @@
             "size-guide#camisetas-ap-crown",
             "size-guide#bermudas-ap-crown",
             "size-guide#zapatos-hombre-nike",
+            "size-guide#kids-newbalance-inferior",
+            "size-guide#kids-newbalance-superior",
             "size-guide#mujer-nike"
         ],
         "props": {

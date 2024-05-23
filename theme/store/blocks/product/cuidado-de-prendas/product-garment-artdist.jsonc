@@ -1,0 +1,289 @@
+{
+    "condition-layout.product#garment-artdist": {
+        "props": {
+            "conditions": [
+                {
+                    "subject": "brandId",
+                    "arguments": {
+                        "id": "2000134"
+                    }
+                }
+            ],
+            "Then": "disclosure-layout#product-garment-care-artdist"
+        }
+    },
+
+    "disclosure-layout#product-garment-care-artdist": {
+        "children": [
+            "disclosure-trigger#product-content-garment-care-artdist",
+            "disclosure-content#product-description-garment-care-artdist"
+        ]
+    },
+
+    "disclosure-trigger#product-content-garment-care-artdist": {
+        "children": [
+            "rich-text#garment-care-artdist",
+            "disclosure-state-indicator#garment-care"
+        ],
+        "props": {
+            "blockClass": ["container-products", "disclosure-indicator-garment-care"]
+        }
+    },
+
+    "rich-text#garment-care-artdist": {
+        "props": {
+            "text": "**Cuidados de la prenda**"
+            //"blockClass": "product-description-pdp"
+        }
+    },
+    "disclosure-content#product-description-garment-care-artdist": {
+        "children": [
+            "rich-text#garment-care-use-artdist",
+            "flex-layout.row#garment-use-artdist"
+        ],
+        "props": {
+            "blockClass": "garment-use-product-pdp"
+        }
+    },
+    
+    "rich-text#garment-care-use-artdist": {
+        "props": {
+            "text": "**Recomendaciones de uso**"
+        }
+    },
+    "flex-layout.row#garment-use-artdist": {
+        "children": [
+            "flex-layout.col#garment-use-artdist"
+        ]
+    },
+
+    "flex-layout.col#garment-use-artdist": {
+        "children": [
+            "flex-layout.col#garment-use-1-artdist",
+            "flex-layout.col#garment-use-2-artdist",
+            "flex-layout.col#garment-use-3-artdist",
+            "flex-layout.col#garment-use-4-artdist",
+            "flex-layout.col#garment-use-5-artdist",
+            "flex-layout.col#garment-use-6-artdist",
+            "flex-layout.col#garment-use-7-artdist",
+            "flex-layout.col#garment-use-8-artdist",
+            "flex-layout.col#garment-use-9-artdist"
+        ]
+    },
+    
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-1-artdist": {
+        "children": [
+            "image#garment-care-cleaning-use-1-artdist",
+            "rich-text#garment-care-cleaning-use-1-artdist"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-1-artdist": {
+        "props": {
+            "text": "Lavar a máquina con agua fría"
+        }
+    },
+    "image#garment-care-cleaning-use-1-artdist": {
+        "props": {
+            "src": "/arquivos/secar-a-la-sombra.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-2-artdist": {
+        "children": [
+            "image#garment-care-cleaning-use-2-artdist",
+            "rich-text#garment-care-cleaning-use-2-artdist"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-2-artdist": {
+        "props": {
+            "text": "Lavar por el revés"
+        }
+    },
+    "image#garment-care-cleaning-use-2-artdist": {
+        "props": {
+            "src": "/arquivos/30-grados-maximo.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 30
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-3-artdist": {
+        "children": [
+            "image#garment-care-cleaning-use-3-artdist",
+            "rich-text#garment-care-cleaning-use-3-artdist"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-3-artdist": {
+        "props": {
+            "text": "Lavar con prendas de mismo color"
+        }
+    },
+    "image#garment-care-cleaning-use-3-artdist": {
+        "props": {
+            "src": "/arquivos/do-not-dry.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-4-artdist": {
+        "children": [
+            "image#garment-care-cleaning-use-4-artdist",
+            "rich-text#garment-care-cleaning-use-4-artdist"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-4-artdist": {
+        "props": {
+            "text": "No lavar en seco"
+        }
+    },
+    "image#garment-care-cleaning-use-4-artdist": {
+        "props": {
+            "src": "/arquivos/no-lejia.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-5-artdist": {
+        "children": [
+            "image#garment-care-cleaning-use-5-artdist",
+            "rich-text#garment-care-cleaning-use-5-artdist"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-5-artdist": {
+        "props": {
+            "text": "Planchar a temperatura"
+        }
+    },
+    "image#garment-care-cleaning-use-5-artdist": {
+        "props": {
+            "src": "/arquivos/secar-a-la-sombra-nuevo.png",
+            "alt": "Icono cuidado de prenda",
+            "blockClass": "icono-cuidado-de-prenda"
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-6-artdist": {
+        "children": [
+            "image#garment-care-cleaning-use-6-artdist",
+            "rich-text#garment-care-cleaning-use-6-artdist"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-6-artdist": {
+        "props": {
+            "text": "No usar blanqueadores"
+        }
+    },
+    "image#garment-care-cleaning-use-6-artdist": {
+        "props": {
+            "src": "/arquivos/no-secar-en-secadora.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 34
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-7-artdist": {
+        "children": [
+            "image#garment-care-cleaning-use-7-artdist",
+            "rich-text#garment-care-cleaning-use-7-artdist"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-7-artdist": {
+        "props": {
+            "text": "No dejar en remojo"
+        }
+    },
+    "image#garment-care-cleaning-use-7-artdist": {
+        "props": {
+            "src": "/arquivos/no-secar-en-secadora.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+     /******* item completo recomendación de uso****/
+     "flex-layout.col#garment-use-8-artdist": {
+        "children": [
+            "image#garment-care-cleaning-use-8-artdist",
+            "rich-text#garment-care-cleaning-use-8-artdist"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-8-artdist": {
+        "props": {
+            "text": "No retorcer"
+        }
+    },
+    "image#garment-care-cleaning-use-8-artdist": {
+        "props": {
+            "src": "/arquivos/no-retorcer.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+     /******* item completo recomendación de uso****/
+     "flex-layout.col#garment-use-9-artdist": {
+        "children": [
+            "image#garment-care-cleaning-use-9-artdist",
+            "rich-text#garment-care-cleaning-use-9-artdist"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-9-artdist": {
+        "props": {
+            "text": "Secar a la sombra"
+        }
+    },
+    "image#garment-care-cleaning-use-9-artdist": {
+        "props": {
+            "src": "/arquivos/no-secar-en-secadora.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    }
+    /******* item completo recomendación de uso****/
+}

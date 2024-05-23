@@ -33,6 +33,41 @@
             ]
         }
     },
+    "size-guide#kids-newbalance-inferior": {
+        "props": {
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000095"
+                    ],
+                    "categories": [
+                        "95", "126", "106", "107", "108", "109", "110", "127"
+                    ],
+                    "imageDesktop": "/arquivos/New-Balance-ninosinferior-GuiaTallas-2024.jpg",
+                    "imageTablet": "/arquivos/New-Balance-ninosinferior-GuiaTallas-2024.jpg",
+                    "imagePhone": "/arquivos/New-Balance-ninosinferior-GuiaTallas-2024.jpg"
+                }
+            ]
+        }
+    },
+
+    "size-guide#kids-newbalance-superior": {
+        "props": {
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000095"
+                    ],
+                    "categories": [
+                        "104", "102", "101", "105"
+                    ],
+                    "imageDesktop": "/arquivos/New-Balance-ninossuperior-GuiaTallas-2024.jpg",
+                    "imageTablet": "/arquivos/New-Balance-ninossuperior-GuiaTallas-2024.jpg",
+                    "imagePhone": "/arquivos/New-Balance-ninossuperior-GuiaTallas-2024.jpg"
+                }
+            ]
+        }
+    },
     "size-guide#mujer-diesel": {
         "props": {
             "conditionals": [
@@ -117,7 +152,7 @@
                         "2000095"
                     ],
                     "categories": [
-                        "44"
+                        "44", "88"
                     ],
                     "imageDesktop": "/arquivos/NewBalance-GuiaTallas-calzado-mujer.jpg",
                     "imageTablet": "/arquivos/NewBalance-GuiaTallas-calzado-mujer.jpg",
@@ -540,7 +575,8 @@
                         "57",
                         "55",
                         "54",
-                        "56"
+                        "56",
+                        "58"
                     ],
                     /*"imageDesktop": "/arquivos/Pilatos-GuiaTallas-Superdry4-camisa-mujer.jpg",
                     "imageTablet": "/arquivos/Pilatos-GuiaTallas-Mobile-Superdry-camisamujer.jpg",
@@ -686,7 +722,7 @@
                         "2000114"
                     ],
                     "categories": [
-                        "44"
+                        "44", "88"
                     ],
                     "imageDesktop": "/arquivos/Pilatos-GuiaTallasExternas-Lacoste-calzado-mujer.jpg",
                     "imageTablet": "/arquivos/Pilatos-GuiaTallasExternas-Lacoste-calzado-mujer.jpg",
@@ -703,7 +739,7 @@
                         "2000114"
                     ],
                     "categories": [
-                        "3"
+                        "3", "42"
                     ],
                     "imageDesktop": "/arquivos/Pilatos-GuiaTallasExternas-Lacoste-calzado-hombre.jpg",
                     "imageTablet": "/arquivos/Pilatos-GuiaTallasExternas-Lacoste-calzado-hombre.jpg",
@@ -792,7 +828,8 @@
                     "categories": [
                         "3",
                         "7",
-                        "6"
+                        "6",
+                        "42"
                     ],
                     "imageDesktop": "/arquivos/Pilatos-GuiaTallasExternas-Nike-calzado-hombre.jpg",
                     "imageTablet": "/arquivos/Pilatos-GuiaTallasExternas-Nike-calzado-hombre.jpg",
@@ -870,7 +907,8 @@
                         "2000095"
                     ],
                     "categories": [
-                        "3"
+                        "3",
+                        "42"
                     ],
                     "imageDesktop": "/arquivos/NewBalance-GuiaTallas-calzado-hombre.jpg",
                     "imageTablet": "/arquivos/NewBalance-GuiaTallas-calzado-hombre.jpg",
@@ -944,8 +982,7 @@
                         "4",
                         "14",
                         "13",
-                        "15",
-                        "36"
+                        "15"
                     ],
                     /*"imageDesktop": "/arquivos/Pilatos-GuiaTallas-Superdry2-camisa-hombre.jpg",
                     "imageTablet": "/arquivos/Pilatos-GuiaTallas-Mobile-Superdry2-camisa-hombre.jpg",
@@ -997,11 +1034,11 @@
                         "2000005"
                     ],
                     "categories": [
-                        "3"
+                        "7", "8", "6"
                     ],
-                    "imageDesktop": "/arquivos/Pilatos-GuiaTallas-VansZapatosH1-Deska.jpg",
-                    "imageTablet": "/arquivos/Pilatos-GuiaTallas-VansZapatosH1-Deska.jpg",
-                    "imagePhone": "/arquivos/Pilatos-GuiaTallas-VansZapatosH1-Mobaa.jpg"
+                    "imageDesktop": "/arquivos/Vans-Calzado-GuiaTallas-2024.jpg",
+                    "imageTablet": "/arquivos/Vans-Calzado-GuiaTallas-2024.jpg",
+                    "imagePhone": "/arquivos/Vans-Calzado-GuiaTallas-2024.jpg"
                 }
             ]
         }
@@ -1014,11 +1051,11 @@
                         "2000005"
                     ],
                     "categories": [
-                        "44"
+                        "46", "47", "45"
                     ],
-                    "imageDesktop": "/arquivos/Pilatos-GuiaTallas-VansZapatosM1-Deska.jpg",
-                    "imageTablet": "/arquivos/Pilatos-GuiaTallas-VansZapatosM1-Deska.jpg",
-                    "imagePhone": "/arquivos/Pilatos-GuiaTallas-VansZapatosM1-Mobaa.jpg"
+                    "imageDesktop": "/arquivos/Vans-Calzado-GuiaTallas-2024.jpg",
+                    "imageTablet": "/arquivos/Vans-Calzado-GuiaTallas-2024.jpg",
+                    "imagePhone": "/arquivos/Vans-Calzado-GuiaTallas-2024.jpg"
                 }
             ]
         }
@@ -1138,7 +1175,8 @@
                     ],
                     "categories": [
                         "42",
-                        "8"
+                        "8",
+                        "38"
                     ],
                     /*"imageDesktop": "/arquivos/Pilatos-GuiaTallas-sandalias-hombre-Superdry.jpg",
                     "imageTablet": "/arquivos/Pilatos-GuiaTallas-sandalias-hombre-Superdry.jpg",
@@ -1159,7 +1197,8 @@
                     ],
                     "categories": [
                         "88",
-                        "47"
+                        "47",
+                        "82"
                     ],
                     /*"imageDesktop": "/arquivos/Pilatos-GuiaTallas-sandalias-mujer-Superdry.jpg",
                     "imageTablet": "/arquivos/Pilatos-GuiaTallas-sandalias-mujer-Superdry.jpg",
@@ -1486,6 +1525,284 @@
                     "imageDesktop": "/arquivos/Nike-InferiorFemenino-GuiaTallas-2024.jpg",
                     "imageTablet": "/arquivos/Nike-InferiorFemenino-GuiaTallas-2024.jpg",
                     "imagePhone": "/arquivos/Nike-InferiorFemenino-GuiaTallas-2024.jpg"
+                }
+            ]
+        }
+    },
+
+    //KAPPA
+    "size-guide#mujer-kappa": {
+        "props": {
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000128"
+                    ],
+                    "categories": [
+                        "48",
+                        "53"
+                    ],
+                    "imageDesktop": "/arquivos/Kappa-Femenino-GuiaTallas-2024.jpg",
+                    "imageTablet": "/arquivos/Kappa-Femenino-GuiaTallas-2024.jpg",
+                    "imagePhone": "/arquivos/Kappa-Femenino-GuiaTallas-2024.jpg"
+                }
+            ]
+        }
+    },
+
+    "size-guide#hombre-kappa": {
+        "props": {
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000128"
+                    ],
+                    "categories": [
+                        "5",
+                        "4"
+                    ],
+                    "imageDesktop": "/arquivos/Kappa-Masculino-GuiaTallas-2024.jpg",
+                    "imageTablet": "/arquivos/Kappa-Masculino-GuiaTallas-2024.jpg",
+                    "imagePhone": "/arquivos/Kappa-Masculino-GuiaTallas-2024.jpg"
+                }
+            ]
+        }
+    },
+
+    /*"size-guide#unisex-tenis-kappa": {
+        "props": {
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000128"
+                    ],
+                    "categories": [
+                        "3",
+                        "44"
+                    ],
+                    "imageDesktop": "/arquivos/Kappa-GuayosAdultoUnisex-GuiaTallas-2024.jpg",
+                    "imageTablet": "/arquivos/Kappa-GuayosAdultoUnisex-GuiaTallas-2024.jpg",
+                    "imagePhone": "/arquivos/Kappa-GuayosAdultoUnisex-GuiaTallas-2024.jpg"
+                }
+            ]
+        }
+    }*/
+
+    // ARTDIST
+    "size-guide#hombre-artdist-camisetas": {
+        "props": {
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000134"
+                    ],
+                    "categories": [
+                        "13"
+                    ],
+                    "imageDesktop": "/arquivos/Artdist-Camisetaregular-GuiaTallas-2024.jpg",
+                    "imageTablet": "/arquivos/Artdist-Camisetaregular-GuiaTallas-2024.jpg",
+                    "imagePhone": "/arquivos/Artdist-Camisetaregular-GuiaTallas-2024.jpg"
+                }
+            ]
+        }
+    },
+
+    "size-guide#hombre-artdist-buzos": {
+        "props": {
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000134"
+                    ],
+                    "categories": [
+                        "16"
+                    ],
+                    "imageDesktop": "/arquivos/Artdist-buzo-GuiaTallas-2024.jpg",
+                    "imageTablet": "/arquivos/Artdist-buzo-GuiaTallas-2024.jpg",
+                    "imagePhone": "/arquivos/Artdist-buzo-GuiaTallas-2024.jpg"
+                }
+            ]
+        }
+    },
+
+    "size-guide#hombre-artdist-sudaderas": {
+        "props": {
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000134"
+                    ],
+                    "categories": [
+                        "20"
+                    ],
+                    "imageDesktop": "/arquivos/Artdist-sudadera-GuiaTallas-2024.jpg",
+                    "imageTablet": "/arquivos/Artdist-sudadera-GuiaTallas-2024.jpg",
+                    "imagePhone": "/arquivos/Artdist-sudadera-GuiaTallas-2024.jpg"
+                }
+            ]
+        }
+    },
+
+    //PEPE JEANS
+    "size-guide#hombre-pepe-jans-hombre-calzado": {
+        "props": {
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000124"
+                    ],
+                    "categories": [
+                        "3"
+                    ],
+                    "imageDesktop": "/arquivos/PepeJeans-Hombre-GuiaTallas-2024.jpg",
+                    "imageTablet": "/arquivos/PepeJeans-Hombre-GuiaTallas-2024.jpg",
+                    "imagePhone": "/arquivos/PepeJeans-Hombre-GuiaTallas-2024.jpg"
+                }
+            ]
+        }
+    },
+
+    "size-guide#hombre-pepe-jans-mujer-calzado": {
+        "props": {
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000124"
+                    ],
+                    "categories": [
+                        "44"
+                    ],
+                    "imageDesktop": "/arquivos/PepeJeans-Mujer-GuiaTallas-2024.jpg",
+                    "imageTablet": "/arquivos/PepeJeans-Mujer-GuiaTallas-2024.jpg",
+                    "imagePhone": "/arquivos/PepeJeans-Mujer-GuiaTallas-2024.jpg"
+                }
+            ]
+        }
+    },
+
+    //SUPERGA
+    "size-guide#hombre-superga-mujer-calzado": {
+        "props": {
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000132"
+                    ],
+                    "categories": [
+                        "3", "44"
+                    ],
+                    "imageDesktop": "/arquivos/Superga-Calzadounisexadulto-GuiaTallas-2024.jpg",
+                    "imageTablet": "/arquivos/Superga-Calzadounisexadulto-GuiaTallas-2024.jpg",
+                    "imagePhone": "/arquivos/Superga-Calzadounisexadulto-GuiaTallas-2024.jpg"
+                }
+            ]
+        }
+    },
+
+    //THE NORTH FACE
+    "size-guide#north-face-calzado-femenino": {
+        "props": {
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000130"
+                    ],
+                    "categories": [
+                        "44"
+                    ],
+                    "imageDesktop": "/arquivos/TheNorthFace-CalzadoFemenino-GuiaTallas-2024.jpg",
+                    "imageTablet": "/arquivos/TheNorthFace-CalzadoFemenino-GuiaTallas-2024.jpg",
+                    "imagePhone": "/arquivos/TheNorthFace-CalzadoFemenino-GuiaTallas-2024.jpg"
+                }
+            ]
+        }
+    },
+
+    "size-guide#north-face-calzado-masculino": {
+        "props": {
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000130"
+                    ],
+                    "categories": [
+                        "3"
+                    ],
+                    "imageDesktop": "/arquivos/TheNorthFace-CalzadoMasculino-GuiaTallas-2024.jpg",
+                    "imageTablet": "/arquivos/TheNorthFace-CalzadoMasculino-GuiaTallas-2024.jpg",
+                    "imagePhone": "/arquivos/TheNorthFace-CalzadoMasculino-GuiaTallas-2024.jpg"
+                }
+            ]
+        }
+    },
+
+    "size-guide#north-face-inferior-masculino": {
+        "props": {
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000130"
+                    ],
+                    "categories": [
+                        "5"
+                    ],
+                    "imageDesktop": "/arquivos/TheNorthFace-InferiorMasculino-GuiaTallas-2024.jpg",
+                    "imageTablet": "/arquivos/TheNorthFace-InferiorMasculino-GuiaTallas-2024.jpg",
+                    "imagePhone": "/arquivos/TheNorthFace-InferiorMasculino-GuiaTallas-2024.jpg"
+                }
+            ]
+        }
+    },
+
+    "size-guide#north-face-inferior-femenino": {
+        "props": {
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000130"
+                    ],
+                    "categories": [
+                        "48"
+                    ],
+                    "imageDesktop": "/arquivos/TheNorthFace-InferiorFemenino-GuiaTallas-2024.jpg",
+                    "imageTablet": "/arquivos/TheNorthFace-InferiorFemenino-GuiaTallas-2024.jpg",
+                    "imagePhone": "/arquivos/TheNorthFace-InferiorFemenino-GuiaTallas-2024.jpg"
+                }
+            ]
+        }
+    },
+
+    "size-guide#north-face-superior-femenino": {
+        "props": {
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000130"
+                    ],
+                    "categories": [
+                        "55", "57", "54", "58", "56"
+                    ],
+                    "imageDesktop": "/arquivos/TheNorthFace-SuperiorFemenino-GuiaTallas-2024.jpg",
+                    "imageTablet": "/arquivos/TheNorthFace-SuperiorFemenino-GuiaTallas-2024.jpg",
+                    "imagePhone": "/arquivos/TheNorthFace-SuperiorFemenino-GuiaTallas-2024.jpg"
+                }
+            ]
+        }
+    },
+
+    "size-guide#north-face-superior-masculino": {
+        "props": {
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000130"
+                    ],
+                    "categories": [
+                        "14", "13", "17", "15"
+                    ],
+                    "imageDesktop": "/arquivos/TheNorthFace-SuperiorMasculino-GuiaTallas-2024.jpg",
+                    "imageTablet": "/arquivos/TheNorthFace-SuperiorMasculino-GuiaTallas-2024.jpg",
+                    "imagePhone": "/arquivos/TheNorthFace-SuperiorMasculino-GuiaTallas-2024.jpg"
                 }
             ]
         }

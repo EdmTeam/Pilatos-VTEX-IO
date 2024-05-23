@@ -68,7 +68,9 @@
             "rich-text#submenu-desk-department-4-category-0", //vacío
             "rich-text#submenu-desk-department-4-category-57", //kappa
             "rich-text#submenu-desk-department-4-category-0", //vacío
-            "rich-text#submenu-desk-department-4-category-58" //THE NORTH FACE
+            "rich-text#submenu-desk-department-4-category-58", //THE NORTH FACE
+            "rich-text#submenu-desk-department-4-category-0", //vacío
+            "rich-text#submenu-desk-department-4-category-59" //ARTDIST
 
 
         ],
@@ -83,6 +85,16 @@
     "rich-text#submenu-desk-department-4-category-0": {
         "props":{
             "text": " ",
+            "blockClass": [
+              "textSubcategory"
+
+            ]
+        }
+    },
+
+    "rich-text#submenu-desk-department-4-category-59":{
+        "props":{
+            "text": "[Artdist](/artdist)",
             "blockClass": [
               "textSubcategory"
 

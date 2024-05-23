@@ -2,14 +2,25 @@
   "store.custom#landing-guiaDeTallas":{
     "blocks": [
       "rich-text#guiaDeTallas-bread-crumb",
+      "rich-text#department-guiaTallas-description",
       "guia-talla-custom-pilatos-new",
     //  "flex-layout.row#most-viewed",
     "flex-layout.row#guiaDeTallas-titulo",
       "flex-layout.row#textoSeoApoyo",
-          "responsive-layout.desktop#bannerGuiaDeTalla"
+          "responsive-layout.desktop#bannerGuiaDeTalla",
+          "flex-layout.row#guiaTallasSeoLargo"
     ],
     "props":{
         "blockClass": "contentStoreCustom"
+    }
+  },
+
+  "rich-text#department-guiaTallas-description": {
+    "title": "SEO CORTO",
+    "props":{
+        "text": "# Importancia de Elegir los Zapatos Correctos \n En Pilatos, comprendemos que la elección del calzado va más allá de la simple estética; afecta directamente nuestra comodidad y salud. Los zapatos incorrectos pueden causar molestias, dolores e incluso lesiones a largo plazo. Es por eso que es fundamental elegir el calzado correcto para garantizar una experiencia cómoda y segura.",
+        "blockClass": "ritualesSeoLargo",
+      "textAlignment": "CENTER"
     }
   },
 
@@ -31,6 +42,20 @@
     ],
     "props":{
       "blockClass": "bannerGuiaDeTalla"
+    }
+  },
+
+  "flex-layout.row#guiaTallasSeoLargo": {
+    "children": [
+      "rich-text#guiaTallasSeoLargo"
+    ]
+  },
+
+  "rich-text#guiaTallasSeoLargo": {
+    "props": {
+      "text": "## Comodidad y Salud van de la Mano \n En Pilatos, sabemos que la comodidad es clave cuando se trata de elegir zapatos. Un calzado que no se ajusta correctamente puede provocar rozaduras, ampollas e incluso deformidades en los pies. Además, los zapatos inadecuados pueden afectar la postura y la alineación del cuerpo, lo que puede generar molestias adicionales. \n ## Medidas Precisas, Ajuste Perfecto \n Para encontrar la talla adecuada de zapatos, es esencial tomar medidas precisas de tus pies. Utiliza una cinta métrica para medir la longitud y el ancho del pie en centímetros. Recuerda que los pies pueden variar de tamaño a lo largo del día, por lo que es recomendable medirlos por la tarde para obtener resultados más precisos. ## Tablas de Conversión y Ajuste \n Consulta las tablas de conversión de tallas para asegurarte de que estás seleccionando la talla correcta según el sistema de numeración utilizado por la marca. Además, ten en cuenta el ajuste del zapato.",
+      "blockClass": "ritualesSeoLargo",
+      "textAlignment": "CENTER"
     }
   },
 
