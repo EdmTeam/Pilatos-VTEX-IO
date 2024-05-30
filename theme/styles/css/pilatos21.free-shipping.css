@@ -1,6 +1,7 @@
 .fs_globalFreeShippingContainer{
     padding: 0 1.5rem;
     width: 100%;
+    display: none;
 }
 
 .currencyContainer{
