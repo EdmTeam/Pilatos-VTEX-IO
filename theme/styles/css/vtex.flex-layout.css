@@ -3356,6 +3356,18 @@ width: 88%;
   margin: 0 auto;
 }
 
+@media screen and (max-width: 768px) {
+  .flexRowContent--contenedor-boton-envio-express {
+    flex-direction: column;
+  }
+}
+
+.flexRowContent--contenedor-boton-envio-express {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 /*Traba con nosotros*/
 .flexCol--workWithContentInfoFlex {
   display: flex;

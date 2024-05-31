@@ -37,6 +37,7 @@
     "flex-layout.col#envio-express-primera-parte-info-mobile": {
         "children": [
             "rich-text#envio-express-col-1-primera-parte-mobile",
+            "rich-text#welcome-read-politics-envio-express",
             "image#logo-pickit"
         ]
     },

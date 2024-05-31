@@ -274,6 +274,8 @@
 
     "flex-layout.col#btn-mi-talla": {
         "children": [
+            "size-guide#inferior-mujer-Replay",
+            "size-guide#hombre-inferior-Replay",
             "size-guide#north-face-superior-masculino",
             "size-guide#north-face-superior-femenino",
             "size-guide#north-face-inferior-femenino",
@@ -360,8 +362,7 @@
             //"size-guide#zapatos-hombre-Superdry",
             "size-guide#sandalias-hombre-Superdry",
             "size-guide#sandalias-mujer-Superdry",
-            "size-guide#hombre-vans",
-            "size-guide#mujer-vans",
+            "size-guide#mujer-hombre-vans",
             "size-guide#correa",
             "size-guide#buzos-ap-crown",
             "size-guide#camisetas-ap-crown",
@@ -369,7 +370,8 @@
             "size-guide#zapatos-hombre-nike",
             "size-guide#kids-newbalance-inferior",
             "size-guide#kids-newbalance-superior",
-            "size-guide#mujer-nike"
+            "size-guide#mujer-nike",
+            "size-guide#pantalon-ap-crown"
         ],
         "props": {
             "blockClass": "btn-size-guide"

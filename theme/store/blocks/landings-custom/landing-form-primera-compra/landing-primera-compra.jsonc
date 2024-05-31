@@ -1,0 +1,193 @@
+{
+    "store.custom#landing-form-primera-compra": {
+        "children": [
+            "responsive-layout.desktop#banner-primera-compra-landing",
+            "responsive-layout.tablet#banner-primera-compra-landing",
+            "responsive-layout.phone#banner-primera-compra-landing",
+            "flex-layout.row#content-primera-compra-landing",
+            "flex-layout.row#pickit-titulo-productos",  
+            "flex-layout.row#pickit-productos",
+            "rich-text#filtro-seo" 
+        ]
+    },
+    "flex-layout.row#content-primera-compra-landing": {
+        "props": {
+            "blockClass": "content-dsi"
+        },
+        "children": [
+            "flex-layout.col#content-primera-compra-landing"
+        ]
+    },
+    "flex-layout.col#content-primera-compra-landing": {
+        "children": [
+            "rich-text#desc-primera-compra-landing-h1",
+            "rich-text#desc-primera-compra-landinga",
+            "flex-layout.row#title-and-form-primera-compra-landing"
+        ]
+    },
+    "responsive-layout.desktop#banner-primera-compra-landing": {
+        "children": [
+            "image#banner-desktop-primera-compra-landing"
+        ]
+    },
+    "responsive-layout.tablet#banner-primera-compra-landing": {
+        "children": [
+            "image#banner-tablet-primera-compra-landing"
+        ]
+    },
+    "responsive-layout.phone#banner-primera-compra-landing": {
+        "children": [
+            "image#banner-phone-primera-compra-landing"
+        ]
+    },
+    "image#banner-desktop-primera-compra-landing": {
+        "props": {
+            "src": "/arquivos/Pilatos-BannerPrimeraCompra-Desk.jpg",
+            "alt": "Black Friday Suscribete y obtén envío gratis durante el evento",
+            "title": "banner día sin IVA"
+        }
+    },
+    "image#banner-tablet-primera-compra-landing": {
+        "props": {
+            "src": "/arquivos/Pilatos-BannerPrimeraCompra-Mob.jpg",
+            "alt": "Black Friday Suscribete y obtén envío gratis durante el evento",
+            "title": "banner día sin IVA"
+        }
+    },
+    "image#banner-phone-primera-compra-landing": {
+        "props": {
+            "src": "/arquivos/Pilatos-BannerPrimeraCompra-Mob.jpg",
+            "alt": "Black Friday Suscribete y obtén envío gratis durante el evento",
+            "title": "banner día sin IVA"
+        }
+    },
+    "rich-text#desc-primera-compra-landing-h1": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "# Form primera compra",
+            "blockClass": "desc-dsi"
+        }
+    },
+    "rich-text#desc-primera-compra-landinga": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Regístrate aquí y obtén un descuento del 15 % en tu primera compra",
+            "blockClass": "desc-dsi"
+        }
+    },
+
+    "flex-layout.row#title-and-form-primera-compra-landing": {
+        "children": [
+            // "flex-layout.col#title-primera-compra-landing",
+            "flex-layout.col#form-primera-compra-landing"
+        ],
+        "props": {
+          "blockClass": "container-form-black"
+        }
+    },
+    // "flex-layout.col#title-primera-compra-landing": {
+    //     "children": [
+    //         "rich-text#title-primera-compra-landing",
+    //         "rich-text#subtitle-primera-compra-landing"
+    //     ]
+    // },
+    // "rich-text#title-primera-compra-landing": {
+    //     "props": {
+    //         "textAlignment": "RIGHT",
+    //         "textPosition": "RIGHT",
+    //         "text": "## BLACK FRIDAY:",
+    //         "font": "t-heading-1",
+    //         "blockClass": "title-dsi"
+    //     }
+    // },
+    // "rich-text#subtitle-primera-compra-landing": {
+    //     "props": {
+    //         "textAlignment": "RIGHT",
+    //         "text": "*Inscríbete aquí para ser el primero en enterarte de todos los detalles.*",
+    //         "font": "t-body",
+    //         "blockClass": "subtitle-dsi"
+    //     }
+    // },
+    "flex-layout.col#form-primera-compra-landing": {
+        "props": {
+            "blockClass": "formContainer-dsi"
+        },
+        "children": [
+            "form#primera-compra-landing"
+        ]
+    },
+    "form#primera-compra-landing": {
+        "props": {
+            "entity": "PC",
+            "schema": "formularioprimeracompra"
+        },
+        "children": [
+            "form-input.text#primera-compra-landing-form-name",
+            "form-input.text#primera-compra-landing-form-email",
+            "form-input.text#primera-compra-landing-form-celular",
+            "form-input.checkbox#primera-compra-landing-form-terms",
+            "rich-text#primera-compra-landing-read-politics",
+            "form-submit#primera-compra-landing-form-submit"
+        ],
+        "blocks": [
+            "form-success#primera-compra-landing"
+        ]
+    },
+    "form-input.text#primera-compra-landing-form-name": {
+        "props": {
+            "pointer": "#/properties/name",
+            "label": "Nombre completo",
+            "placeholder": "Ingresa tu nombre completo"
+        }
+    },
+    "form-input.text#primera-compra-landing-form-email": {
+        "props": {
+            "pointer": "#/properties/mail",
+            "label": "Correo Electrónico",
+            "placeholder": "Ingresa tu correo electrónico"
+        }
+    },
+  "form-input.text#primera-compra-landing-form-celular": {
+    "props": {
+        "pointer": "#/properties/phone",
+        "label": "Celular",
+        "placeholder": "Ingresa tu numero de celular"
+    }
+},
+    "form-input.checkbox#primera-compra-landing-form-terms": {
+        "props": {
+            "pointer": "#/properties/terms",
+            "label": "Acepto política de datos y términos y condiciones"
+        }
+    },
+    "form-submit#primera-compra-landing-form-submit": {
+        "props": {
+            "label": "Registrarme",
+            "blockClass": "submit-dsi"
+        }
+    },
+    "rich-text#primera-compra-landing-read-politics": {
+        "props": {
+            "text": "Leer [política de datos](/politicas) y [términos y condiciones](/terminos-condiciones)",
+            "textAlignment": "LEFT",
+            "textPosition": "left",
+            "font": "t-mini",
+            "blockClass": "read-politics-dsi"
+        }
+    },
+    "form-success#primera-compra-landing": {
+        "children": [
+            "rich-text#primera-compra-landing-successSubmit"
+        ]
+    },
+    "rich-text#primera-compra-landing-successSubmit": {
+        "props": {
+            "text": "Tus datos fueron registrados satisfactoriamente \n con este código puedes redimir tu descuento: \n **welcomepil15**",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "dsi-successSubmit"
+        }
+    }
+  }
