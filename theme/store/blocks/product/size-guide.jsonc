@@ -178,6 +178,8 @@
             ]
         }
     },
+
+    //REPLAY MUJER
     "size-guide#mujer-Replay": {
         "props": {
             "conditionals": [
@@ -186,14 +188,16 @@
                         "2000102"
                     ],
                     "categories": [
-                        "48",
-                        "53",
-                        "84",
-                        "79"
+                        "57",
+                        "55",
+                        "54",
+                        "58",
+                        "56",
+                        "64"
                     ],
-                    "imageDesktop": "/arquivos/desk-Replay-mujerCamisa.jpg",
-                    "imageTablet": "/arquivos/mobile-Replay-mujerCamisa.jpg",
-                    "imagePhone": "/arquivos/mobile-Replay-mujerCamisa.jpg"
+                    "imageDesktop": "/arquivos/Replay-superior-femenino-GuiaTallas-2024.jpg",
+                    "imageTablet": "/arquivos/Replay-superior-femenino-GuiaTallas-2024.jpg",
+                    "imagePhone": "/arquivos/Replay-superior-femenino-GuiaTallas-2024.jpg"
                 }
             ]
         }
@@ -208,9 +212,26 @@
                     "categories": [
                         "44"
                     ],
-                    "imageDesktop": "/arquivos/desk-Replay-mujer-tenis.jpg",
-                    "imageTablet": "/arquivos/Replay--mujer-zapato.jpg",
-                    "imagePhone": "/arquivos/Replay--mujer-zapato.jpg"
+                    "imageDesktop": "/arquivos/Replay-calzado-femenino-GuiaTallas-2024.jpg",
+                    "imageTablet": "/arquivos/Replay-calzado-femenino-GuiaTallas-2024.jpg",
+                    "imagePhone": "/arquivos/Replay-calzado-femenino-GuiaTallas-2024.jpg"
+                }
+            ]
+        }
+    },
+    "size-guide#inferior-mujer-Replay": {
+        "props": {
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000102"
+                    ],
+                    "categories": [
+                        "48"
+                    ],
+                    "imageDesktop": "/arquivos/Replay-inferior-femenino-GuiaTallas-2024.jpg",
+                    "imageTablet": "/arquivos/Replay-inferior-femenino-GuiaTallas-2024.jpg",
+                    "imagePhone": "/arquivos/Replay-inferior-femenino-GuiaTallas-2024.jpg"
                 }
             ]
         }
@@ -576,7 +597,8 @@
                         "55",
                         "54",
                         "56",
-                        "58"
+                        "58",
+                        "64"
                     ],
                     /*"imageDesktop": "/arquivos/Pilatos-GuiaTallas-Superdry4-camisa-mujer.jpg",
                     "imageTablet": "/arquivos/Pilatos-GuiaTallas-Mobile-Superdry-camisamujer.jpg",
@@ -934,6 +956,7 @@
             ]
         }
     },
+    //REPLAY
     "size-guide#hombre-Replay": {
         "props": {
             "conditionals": [
@@ -942,14 +965,15 @@
                         "2000102"
                     ],
                     "categories": [
-                        "5",
-                        "4",
-                        "39",
-                        "36"
+                        "16",
+                        "14",
+                        "13",
+                        "17",
+                        "15"
                     ],
-                    "imageDesktop": "/arquivos/desk-Replay-hombreCamisa.jpg",
-                    "imageTablet": "/arquivos/mobile-Replay-hombreCamisa.jpg",
-                    "imagePhone": "/arquivos/mobile-Replay-hombreCamisa.jpg"
+                    "imageDesktop": "/arquivos/Replay-superior-masculino-GuiaTallas-2024.jpg",
+                    "imageTablet": "/arquivos/Replay-superior-masculino-GuiaTallas-2024.jpg",
+                    "imagePhone": "/arquivos/Replay-superior-masculino-GuiaTallas-2024.jpg"
                 }
             ]
         }
@@ -964,13 +988,33 @@
                     "categories": [
                         "3"
                     ],
-                    "imageDesktop": "/arquivos/desk-Replay-hombre-tenis.jpg",
-                    "imageTablet": "/arquivos/mobile-Replay-hombre-tenis.jpg",
-                    "imagePhone": "/arquivos/mobile-Replay-hombre-tenis.jpg"
+                    "imageDesktop": "/arquivos/Replay-calzado-masculino-GuiaTallas-2024.jpg",
+                    "imageTablet": "/arquivos/Replay-calzado-masculino-GuiaTallas-2024.jpg",
+                    "imagePhone": "/arquivos/Replay-calzado-masculino-GuiaTallas-2024.jpg"
                 }
             ]
         }
     },
+
+    "size-guide#hombre-inferior-Replay": {
+        "props": {
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000102"
+                    ],
+                    "categories": [
+                        "5"
+                    ],
+                    "imageDesktop": "/arquivos/Replay-inferior-masculino-GuiaTallas-2024.jpg",
+                    "imageTablet": "/arquivos/Replay-inferior-masculino-GuiaTallas-2024.jpg",
+                    "imagePhone": "/arquivos/Replay-inferior-masculino-GuiaTallas-2024.jpg"
+                }
+            ]
+        }
+    },
+
+    //SUPERDRY
     "size-guide#hombre-Superdry": {
         "props": {
             "conditionals": [
@@ -979,10 +1023,11 @@
                         "2000106"
                     ],
                     "categories": [
-                        "4",
+                        "16",
+                        "17",
+                        "15",
                         "14",
-                        "13",
-                        "15"
+                        "13"
                     ],
                     /*"imageDesktop": "/arquivos/Pilatos-GuiaTallas-Superdry2-camisa-hombre.jpg",
                     "imageTablet": "/arquivos/Pilatos-GuiaTallas-Mobile-Superdry2-camisa-hombre.jpg",
@@ -1026,7 +1071,7 @@
             ]
         }
     },
-    "size-guide#hombre-vans": {
+    "size-guide#mujer-hombre-vans": {
         "props": {
             "conditionals": [
                 {
@@ -1034,24 +1079,7 @@
                         "2000005"
                     ],
                     "categories": [
-                        "7", "8", "6"
-                    ],
-                    "imageDesktop": "/arquivos/Vans-Calzado-GuiaTallas-2024.jpg",
-                    "imageTablet": "/arquivos/Vans-Calzado-GuiaTallas-2024.jpg",
-                    "imagePhone": "/arquivos/Vans-Calzado-GuiaTallas-2024.jpg"
-                }
-            ]
-        }
-    },
-    "size-guide#mujer-vans": {
-        "props": {
-            "conditionals": [
-                {
-                    "brands": [
-                        "2000005"
-                    ],
-                    "categories": [
-                        "46", "47", "45"
+                        "46", "47", "45", "131", "7", "8", "6"
                     ],
                     "imageDesktop": "/arquivos/Vans-Calzado-GuiaTallas-2024.jpg",
                     "imageTablet": "/arquivos/Vans-Calzado-GuiaTallas-2024.jpg",
@@ -1165,6 +1193,26 @@
             ]
         }
     },
+
+    "size-guide#pantalon-ap-crown": {
+        "props": {
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000122"
+                    ],
+                    "categories": [
+                        "18"
+                    ],
+                    "imageDesktop": "/arquivos/ApCrown-PantalonesHombre-GuiaTallas-2024.jpg",
+                    "imageTablet": "/arquivos/ApCrown-PantalonesHombre-GuiaTallas-2024.jpg",
+                    "imagePhone": "/arquivos/ApCrown-PantalonesHombre-GuiaTallas-2024.jpg"
+                }
+            ]
+        }
+    },
+
+    //SUPERDRY
 
     "size-guide#sandalias-hombre-Superdry": {
         "props": {
@@ -1689,7 +1737,7 @@
                         "2000132"
                     ],
                     "categories": [
-                        "3", "44"
+                        "3", "44", "131"
                     ],
                     "imageDesktop": "/arquivos/Superga-Calzadounisexadulto-GuiaTallas-2024.jpg",
                     "imageTablet": "/arquivos/Superga-Calzadounisexadulto-GuiaTallas-2024.jpg",
