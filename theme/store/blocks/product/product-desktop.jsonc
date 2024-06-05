@@ -33,14 +33,31 @@
             "flex-layout.row#product-identifier-rating",
             "vtex.product-highlights@2.x:product-highlights#collection",
             "product-price#product",
-            "flex-layout.row#sku-btn-mitalla",
+            "flex-layout.col#sku",
+            "flex-layout.col#btn-mi-talla",
             "product-availability#uno",
             "flex-layout.row#product-button-quantity",
             "addi-infos",
             // "rich-text#title-descripcionProducto",
             // "flex-layout.row#productDescripcion",
-            "condition-layout.product#garment-artdist",
             "disclosure-layout#productoDescription",
+            "condition-layout.product#garment-care-nike-bermudas-hombre",
+            "condition-layout.product#garment-care-nike-bermudas-mujer",
+            "condition-layout.product#garment-care-nike-buzos-hombre",
+            "condition-layout.product#garment-care-nike-buzos-mujer",
+            "condition-layout.product#garment-care-nike-chaquetas-hombre",
+            "condition-layout.product#garment-care-nike-chaquetas-mujer",
+            "condition-layout.product#garment-care-nike-sudaderas-homrbe",
+            "condition-layout.product#garment-care-nike-sudaderas-mujer",
+            "condition-layout.product#garment-care-nike-camisetas-hombre",
+            "condition-layout.product#garment-care-nike-camisetas-mujer",
+            "condition-layout.product#garment-care-nike-tenis-hombe",
+            "condition-layout.product#garment-care-nike-sandalias-hombe",
+            "condition-layout.product#garment-care-nike-zapatos-hombe",
+            "condition-layout.product#garment-care-nike-tenis-mujer",
+            "condition-layout.product#garment-care-nike-sandalias-mujer",
+            "condition-layout.product#garment-care-nike-zapatos-mujer",
+            "condition-layout.product#garment-artdist",
             "condition-layout.product#garment-care-le-coq",
             "condition-layout.product#garment-care-ap-crown",
             "condition-layout.product#garment-care-sprayground",
@@ -253,16 +270,6 @@
     },
 
     //sku y btn mi talla
-    "flex-layout.row#sku-btn-mitalla": {
-        "children": [
-            "flex-layout.col#sku",
-            "flex-layout.col#btn-mi-talla"
-        ],
-        "props": {
-            "blockClass": "contenedor-sku-mi-talla"
-        }
-    },
-
     "flex-layout.col#sku": {
         "children": [
             "sku-selector"
