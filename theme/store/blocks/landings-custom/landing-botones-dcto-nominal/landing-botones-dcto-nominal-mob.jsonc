@@ -1,0 +1,18 @@
+{
+    "responsive-layout.mobile#templateGeneroDctoNominal-mobile": {
+        "children": [
+            "image#landing-templateGeneroDctoNominal-banner-img-phone"
+        ]
+    },
+    "image#landing-templateGeneroDctoNominal-banner-img-phone": {
+        "title": "Imágen mobile",
+        "props": {
+            "src": "/arquivos/Piltos-Descuento-nominal-Banner-landing-Mobil (1).jpg",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    }
+}

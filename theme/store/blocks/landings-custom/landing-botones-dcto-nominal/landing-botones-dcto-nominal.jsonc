@@ -1,0 +1,92 @@
+{
+    "store.custom#landing-botones-dcto-nominal": {
+        "blocks": [
+            "flex-layout.row#templateGeneroDctoNominal",
+            "search-result-layout.customQuery#department-nuevo"
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
+    },
+
+    "flex-layout.row#templateGeneroDctoNominal": {
+        "children":[
+            "flex-layout.col#templateGeneroDctoNominal"
+
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#templateGeneroDctoNominal":{
+        "title": "Contenedor landing género",
+        "children":[
+            "rich-text#department-templateGeneroDctoNominal-bread",
+            "rich-text#department-templateGeneroDctoNominal-title",
+            "rich-text#department-templateGeneroDctoNominal-description",
+            "responsive-layout.desktop#templateGeneroDctoNominal-desk",
+            "responsive-layout.mobile#templateGeneroDctoNominal-mobile",
+            "flex-layout.row#botones-templateGeneroDctoNominalBtns"
+        ]
+    },
+
+    "rich-text#department-templateGeneroDctoNominal-bread": {
+        "title": "Bread crumb",
+        "props":{
+            "text": "[Home](/) / [**Pilatos**](/pilatos)",
+            "blockClass": "departmentBreadCrumb"
+        }
+    },
+
+    "rich-text#department-templateGeneroDctoNominal-title": {
+        "title": "Titulo SEO",
+        "props":{
+            "text": "# Pilatos",
+            "blockClass": "departmentTitle"
+        }
+    },
+
+    "rich-text#department-templateGeneroDctoNominal-description": {
+        "title": "SEO CORTO",
+        "props":{
+            "text": "Contamos con nuestra **propia línea de ropa Pilatos** que trae nuevas cápsulas mes a mes, como Olímpicos, inspirada en los elementos típicos de los Juegos Olímpicos y Tokio como ciudad anfitriona. Encuentra diseños exclusivos de ropa para mujer y hombre en un solo lugar, camisetas, buzos y chaquetas, jeans y accesorios, perfectos para innovar y renovar tu clóset.",
+            "blockClass": "departmentDescription"
+        }
+    },
+
+    //Botones
+    "flex-layout.row#botones-templateGeneroDctoNominalBtns": {
+        "children": [
+            "rich-text#BtsGeneroDctoNominal-boton1",
+            "rich-text#BtsGeneroDctoNominal-boton2",
+            "rich-text#BtsGeneroDctoNominal-boton3"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "preventHorizontalStretch": true,
+            "blockClass": ["botones-nuevo-template-genero", "botones-dcto-nominal"]
+        }
+    },
+
+    "rich-text#BtsGeneroDctoNominal-boton1": {
+        "props":{
+            "text":"[**TENIS**](/tenis)",
+            "blockClass":"botonGeneroNuevo"
+        }
+    },
+
+    "rich-text#BtsGeneroDctoNominal-boton2": {
+        "props":{
+            "text":"[**CAMISETAS**](/camisetas)",
+            "blockClass":"botonGeneroNuevo"
+        }
+    },
+
+    "rich-text#BtsGeneroDctoNominal-boton3": {
+        "props":{
+            "text":"[**JEANS**](/jeans)",
+            "blockClass":"botonGeneroNuevo"
+        }
+    }
+}

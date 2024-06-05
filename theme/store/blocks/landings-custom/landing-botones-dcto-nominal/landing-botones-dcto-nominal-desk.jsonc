@@ -1,0 +1,23 @@
+{
+    "responsive-layout.desktop#templateGeneroDctoNominal-desk": {
+        "children": [
+            "image#landing-templateGeneroDctoNominal-img"
+        ],
+        "props":{
+            "blockClass":"contentBannersDesk"
+        }
+    },
+
+
+    "image#landing-templateGeneroDctoNominal-img": {
+        "title": "Imágen desktop",
+        "props": {
+            "src": "/arquivos/Piltos-Descuento-nominal-Banner-landing-Desk (1).jpg",
+            "link": {
+                "url": "",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    }
+}
