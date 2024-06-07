@@ -3619,3 +3619,8 @@ width: 88%;
     align-items: center;
   }
 }
+
+/****Slider carrusel del home antiguo***/
+.flexRowContent--slider-carrusel-logos-antiguo {
+  display: none;
+}
