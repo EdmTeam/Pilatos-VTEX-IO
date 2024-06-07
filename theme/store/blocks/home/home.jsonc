@@ -12,8 +12,9 @@
 
       "__fold__.mobile",
       //"flex-layout.row#brands",
+      //"rich-text#brands-title",
       "rich-text#brands-title",
-      "flex-layout.row#marcas-sobrenosotros2024-slider",
+      "flex-layout.row#marcas-home-slider",
       "__fold__.desktop",
      "responsive-layout.phone#category-banners",
       "responsive-layout.tablet#category-banners",
