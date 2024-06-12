@@ -28,6 +28,7 @@
   },
   "search-result-layout.desktop": {
     "children": [
+      "seo-schema-plp",
       "flex-layout.row#banner-search",
       "flex-layout.row#bread-crumb",
       "flex-layout.row#search-info",
@@ -230,6 +231,7 @@
 
   "search-result-layout.mobile": {
     "children": [
+      "seo-schema-plp",
       "flex-layout.row#bread-crumb",
       "search-title.v2",
       "flex-layout.row#product-count-mobile",
