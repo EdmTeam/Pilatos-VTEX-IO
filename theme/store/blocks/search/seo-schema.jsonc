@@ -1,0 +1,202 @@
+{
+  "seo-schema-plp": {
+    "props": {
+      "schemas": [
+        // Zapatos para Hombre --------------------------------------------------------------
+        {
+          "url": "/hombre/zapatos",
+          "htmlId": "schema-hombre-zapatos",
+          "data": {
+            "@context": "http://schema.org",
+            "@type": "ItemList",
+            "numberOfItems": 1,
+            "itemListElement": [
+              {
+                "@type": "Product",
+                "position": 1,
+                "item": {
+                  "@type": "Product",
+                  "name": "Zapatos para Hombre",
+                  "description": "Descubre los mejores zapatos de moda para hombre en Pilatos. Variedad de estilos y marcas para cada ocasión. ¡Compra ahora y luce espectacular!",
+                  //"sku": "",
+                  "url": "https://www.pilatos.com/hombre/zapatos",
+                  //"image": "",
+                  "brand": {
+                    "@type": "Brand",
+                    "name": "Pilatos"
+                  },
+                  "offers": {
+                    "@type": "AggregateOffer",
+                    "url": "https://www.pilatos.com/hombre/zapatos",
+                    "itemCondition": "http://schema.org/NewCondition",
+                    "priceCurrency": "COP",
+                    "availability": "http://schema.org/InStock",
+                    "lowPrice": "83930",
+                    "highPrice": "2649900",
+                    "offerCount": "3721"
+                  }
+                }
+              }
+            ]
+          }
+        },
+
+        // Sandalias para Hombre --------------------------------------------------------------
+        {
+          "url": "/hombre/zapatos/sandalias",
+          "htmlId": "schema-hombre-sandalias",
+          "data": {
+            "@context": "http://schema.org",
+            "@type": "ItemList",
+            "numberOfItems": 1,
+            "itemListElement": [
+              {
+                "@type": "Product",
+                "position": 1,
+                "item": {
+                  "@type": "Product",
+                  "name": "Sandalias para Hombre",
+                  "description": "Explora nuestra colección de chanclas y sandalias para hombre en Pilatos. Comodidad y estilo en cada paso. ¡Compra tus sandalias ideales ahora!",
+                  //"sku": "",
+                  "url": "https://www.pilatos.com/hombre/zapatos/sandalias",
+                  "image": "https://pilatos21.vteximg.com.br/arquivos/ids/1294859_2",
+                  "brand": {
+                    "@type": "Brand",
+                    "name": "Pilatos"
+                  },
+                  "offers": {
+                    "@type": "AggregateOffer",
+                    "url": "https://www.pilatos.com/hombre/zapatos/sandalias",
+                    "itemCondition": "http://schema.org/NewCondition",
+                    "priceCurrency": "COP",
+                    "availability": "http://schema.org/InStock",
+                    "lowPrice": "83930",
+                    "highPrice": "524930",
+                    "offerCount": "224"
+                  }
+                }
+              }
+            ]
+          }
+        },
+
+        // Tenis para Hombre --------------------------------------------------------------
+        {
+          "url": "/hombre/zapatos/tenis",
+          "htmlId": "schema-hombre-tenis",
+          "data": {
+            "@context": "http://schema.org",
+            "@type": "ItemList",
+            "numberOfItems": 1,
+            "itemListElement": [
+              {
+                "@type": "Product",
+                "position": 1,
+                "item": {
+                  "@type": "Product",
+                  "name": "Zapatillas y Tenis para Hombre",
+                  "description": "Descubre las zapatillas y tenis para hombre en Pilatos, combinando estilo y comodidad para tu día a día. Encuentra tus favoritos y luce increíble. ¡Compra ahora!",
+                  //"sku": "",
+                  "url": "https://www.pilatos.com/hombre/zapatos/tenis",
+                  "image": "https://pilatos21.vteximg.com.br/arquivos/ids/1270530_2",
+                  "brand": {
+                    "@type": "Brand",
+                    "name": "Pilatos"
+                  },
+                  "offers": {
+                    "@type": "AggregateOffer",
+                    "url": "https://www.pilatos.com/hombre/zapatos/tenis",
+                    "itemCondition": "http://schema.org/NewCondition",
+                    "priceCurrency": "COP",
+                    "availability": "http://schema.org/InStock",
+                    "lowPrice": "16990",
+                    "highPrice": "2649900",
+                    "offerCount": "3497"
+                  }
+                }
+              }
+            ]
+          }
+        },
+
+        // Sandalias para Mujer --------------------------------------------------------------
+        {
+          "url": "/mujer/zapatos/sandalias",
+          "htmlId": "schema-mujer-sandalias",
+          "data": {
+            "@context": "http://schema.org",
+            "@type": "ItemList",
+            "numberOfItems": 1,
+            "itemListElement": [
+              {
+                "@type": "Product",
+                "position": 1,
+                "item": {
+                  "@type": "Product",
+                  "name": "Sandalias para mujer",
+                  "description": "Las sandalias para mujer de Pilatos son la mezcla perfecta de funcionalidad y moda para tus días más tranquilos. ¡Elige las tuyas!",
+                  //"sku": "",
+                  "url": "https://www.pilatos.com/mujer/zapatos/sandalias",
+                  //"image": "https://pilatos21.vteximg.com.br/arquivos/ids/1270530_2",
+                  "brand": {
+                    "@type": "Brand",
+                    "name": "Pilatos"
+                  },
+                  "offers": {
+                    "@type": "AggregateOffer",
+                    "url": "https://www.pilatos.com/mujer/zapatos/sandalias",
+                    "itemCondition": "http://schema.org/NewCondition",
+                    "priceCurrency": "COP",
+                    "availability": "http://schema.org/InStock",
+                    "lowPrice": "51120",
+                    "highPrice": "314930",
+                    "offerCount": "148"
+                  }
+                }
+              }
+            ]
+          }
+        },
+
+        // Tenis para Mujer --------------------------------------------------------------
+        {
+          "url": "/mujer/zapatos/tenis",
+          "htmlId": "schema-mujer-tenis",
+          "data": {
+            "@context": "http://schema.org",
+            "@type": "ItemList",
+            "numberOfItems": 1,
+            "itemListElement": [
+              {
+                "@type": "Product",
+                "position": 1,
+                "item": {
+                  "@type": "Product",
+                  "name": "Zapatillas y tenis para mujer",
+                  "description": "¡No busques más! Los tenis para mujer que necesitas para complementar los looks que te gustan, los tiene Pilatos. ¡Compra los tuyos ahora!",
+                  //"sku": "",
+                  "url": "https://www.pilatos.com/mujer/zapatos/tenis",
+                  //"image": "https://pilatos21.vteximg.com.br/arquivos/ids/1270530_2",
+                  "brand": {
+                    "@type": "Brand",
+                    "name": "Pilatos"
+                  },
+                  "offers": {
+                    "@type": "AggregateOffer",
+                    "url": "https://www.pilatos.com/mujer/zapatos/tenis",
+                    "itemCondition": "http://schema.org/NewCondition",
+                    "priceCurrency": "COP",
+                    "availability": "http://schema.org/InStock",
+                    "lowPrice": "153000",
+                    "highPrice": "2649900",
+                    "offerCount": "148"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

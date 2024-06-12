@@ -76,7 +76,8 @@
     "vtex.store-video": "1.x",
     "vtex.product-availability": "0.x",
     "vtex.disclosure-layout": "1.x",
-    "pilatos21.talla-guia-custom-markeplace": "0.x"
+    "pilatos21.talla-guia-custom-markeplace": "0.x",
+    "pilatos21.seo-tags": "0.x"
   },
   "peerDependencies": {
     "pilatos21.wishlist": "0.x",
