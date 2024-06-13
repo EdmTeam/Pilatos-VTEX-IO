@@ -23,7 +23,6 @@
     "vtex.slider": "0.x",
     "vtex.shelf": "1.x",
     "vtex.menu": "2.x",
-    "pilatos21.custom-minicart": "0.x",
     "vtex.product-details": "1.x",
     "vtex.product-kit": "1.x",
     "vtex.search-result": "3.x",
@@ -77,6 +76,7 @@
     "vtex.product-availability": "0.x",
     "vtex.disclosure-layout": "1.x",
     "pilatos21.talla-guia-custom-markeplace": "0.x",
+    "vtex.minicart": "2.x",
     "pilatos21.seo-tags": "0.x"
   },
   "peerDependencies": {
