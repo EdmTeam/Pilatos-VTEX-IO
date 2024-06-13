@@ -106,7 +106,8 @@
     margin: 0 auto;
     position: sticky;
     top: 4%;
-    z-index: 1;
+    /*z-index: 1;*/
+    z-index: 2;
   }
 
 
@@ -3356,6 +3357,18 @@ width: 88%;
   margin: 0 auto;
 }
 
+@media screen and (max-width: 768px) {
+  .flexRowContent--contenedor-boton-envio-express {
+    flex-direction: column;
+  }
+}
+
+.flexRowContent--contenedor-boton-envio-express {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 /*Traba con nosotros*/
 .flexCol--workWithContentInfoFlex {
   display: flex;
@@ -3483,12 +3496,13 @@ width: 88%;
   display: flex;
   flex-direction: row;
   align-items: self-end;
-  justify-content: space-evenly;
   margin-top: 0px;
+  padding-bottom: 1rem;
 }
 .flexRowContent--contenedor-size-guide-quantity {
   display: flex;
   align-items: center;
+  flex-direction: column;
   width: 90%;
   margin: 0 auto 20px auto;
 }
@@ -3594,4 +3608,19 @@ width: 88%;
 .flexCol--contenedor-btns-genero-landing-tenis {
   flex-direction: row;
   gap: 10px;
+}
+
+
+/***Dcto nominal***/
+@media screen and (max-width: 768px) {
+  .flexRowContent--botones-dcto-nominal {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+}
+
+/****Slider carrusel del home antiguo***/
+.flexRowContent--slider-carrusel-logos-antiguo {
+  display: none;
 }

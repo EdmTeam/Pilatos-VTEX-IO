@@ -3423,6 +3423,23 @@ margin: 2px;
   line-height: 1.2;
   font-weight: bold;
   color: #545454;
+  margin: 0;
+}
+
+.container--botonEnvioExpress {
+  display: flex;
+    justify-content: end; 
+} 
+
+@media screen and (max-width: 768px) {
+  .container--botonEnvioExpress {
+    justify-content: start;
+  }
+}
+
+.paragraph--read-politics-dsi-envio-express {
+  margin: 20px 0;
+  font-size: 14px;
 }
 
 .paragraph--titulo-envio-express::after {

@@ -1,9 +1,6 @@
 ### SublimeText ###
 *.sublime-workspace
 
-### VS Code ###
-*.vscode
-
 ### OSX ###
 .DS_Store
 .AppleDouble
@@ -36,13 +33,8 @@ docs/_book/
 npm-debug.log
 .build/
 lib
-.eslintrc
-*.orig
-react/package-lock.json
 dist
 build
 lerna-debug.log
 yarn-error.log
 *.orig
-package-lock.json
-yarn.lock

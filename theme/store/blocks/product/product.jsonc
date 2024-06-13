@@ -208,6 +208,22 @@
       // "rich-text#title-descripcionProducto",
       // "flex-layout.row#productDescripcion",
       "disclosure-layout#productoDescription",
+      "condition-layout.product#garment-care-nike-bermudas-hombre",
+      "condition-layout.product#garment-care-nike-bermudas-mujer",
+      "condition-layout.product#garment-care-nike-buzos-hombre",
+      "condition-layout.product#garment-care-nike-buzos-mujer",
+      "condition-layout.product#garment-care-nike-chaquetas-hombre",
+      "condition-layout.product#garment-care-nike-chaquetas-mujer",
+      "condition-layout.product#garment-care-nike-sudaderas-homrbe",
+      "condition-layout.product#garment-care-nike-sudaderas-mujer",
+      "condition-layout.product#garment-care-nike-camisetas-hombre",
+      "condition-layout.product#garment-care-nike-camisetas-mujer",
+      "condition-layout.product#garment-care-nike-tenis-hombe",
+      "condition-layout.product#garment-care-nike-sandalias-hombe",
+      "condition-layout.product#garment-care-nike-zapatos-hombe",
+      "condition-layout.product#garment-care-nike-tenis-mujer",
+      "condition-layout.product#garment-care-nike-sandalias-mujer",
+      "condition-layout.product#garment-care-nike-zapatos-mujer",
       "condition-layout.product#garment-artdist",
       "condition-layout.product#garment-care-le-coq",
       "condition-layout.product#garment-care-ap-crown",
@@ -476,6 +492,8 @@
 
   "flex-layout.col#product-size-guide": {
     "children": [
+      "size-guide#inferior-mujer-Replay",
+      "size-guide#hombre-inferior-Replay",
       "size-guide#north-face-superior-masculino",
       "size-guide#north-face-superior-femenino",
       "size-guide#north-face-inferior-femenino",
@@ -570,8 +588,8 @@
       "size-guide#hombre-Superdry",
       //"size-guide#zapatos-hombre-Superdry",
       "size-guide#correa",
-      "size-guide#hombre-vans",
-      "size-guide#mujer-vans"
+      "size-guide#mujer-hombre-vans",
+      "size-guide#pantalon-ap-crown"
     ],
     "props": {
       "blockClass": "product-size-guide-btn"

@@ -14,3 +14,9 @@ react/__tests__/**
 react/.babelrc
 react/.eslintrc
 react/setupTests.js
+.gitignore
+README.md
+dotnet/obj/
+dotnet/bin/
+yarn.lock
+.vs

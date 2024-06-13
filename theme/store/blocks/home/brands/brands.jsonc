@@ -4,7 +4,7 @@
       "flex-layout.col#brands"
     ],
     "props": {
-      "blockClass": "contentBrandsSlide"
+      "blockClass": ["contentBrandsSlide", "slider-carrusel-logos-antiguo"]
     }
   },
   "flex-layout.col#brands": {
