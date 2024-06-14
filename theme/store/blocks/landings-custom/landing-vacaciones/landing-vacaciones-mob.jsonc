@@ -1,0 +1,123 @@
+{
+    "responsive-layout.phone#landing-vacaciones-mob": {
+        "children": [
+            "flex-layout.row#content-titulo-landing-vacaciones-mob",
+            "flex-layout.row#content-banner-hero-vacaciones-mob",
+            "flex-layout.row#content-marcas-banner-hero-vacaciones-mob",
+            "flex-layout.row#botones-vacaciones",
+            "flex-layout.row#ver-todo-hombres",
+            "flex-layout.row#ver-todo-mujeres",
+            "flex-layout.row#content-compra-por-categoria",
+            "flex-layout.row#banners-compra-por-categoria",
+            "flex-layout.row#banner-footer-vacaciones-mob"
+        ]
+    },
+
+    "flex-layout.row#content-titulo-landing-vacaciones-mob": {
+        "children": [
+            "rich-text#titulo-landing-vacaciones-mob"
+        ]
+    },
+
+    "rich-text#titulo-landing-vacaciones-mob": {
+        "props": {
+            "text": "# 20% off en ref seleccionadas",
+            "textPosition": "CENTER",
+            "textAlignment": "CENTER",
+            "blockClass": "titulo-landing-vacaciones-mobile"
+        }
+    },
+
+    "flex-layout.row#content-banner-hero-vacaciones-mob": {
+        "children": [
+            "image#landing-hero-vacaciones-mob"
+        ]
+    },
+
+    "image#landing-hero-vacaciones-mob": {
+        "title": "Banner principal desktop",
+        "props": {
+            "src": "/arquivos/Group318.png",
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+    //MARCAS 2DA COLUMNA
+    "flex-layout.row#content-marcas-banner-hero-vacaciones-mob": {
+        "children": [
+            "image#landing-marcas-vacaciones-mob"
+        ],
+        "props": {
+            "blockClass": "contenedor-banner-marcas-landing-mob-vacaciones"
+        }
+    },
+
+    "image#landing-marcas-vacaciones-mob": {
+        "title": "Banner principal mob",
+        "props": {
+            "src": "/arquivos/banner-marcas-prueba.png",
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+    //VER TODO HOMBRE
+    "flex-layout.row#ver-todo-hombres": {
+        "children": [
+            "flex-layout.col#ver-todo-hombres"
+        ],
+        "props": {
+            "marginBottom": 6
+        }
+    },
+
+    "flex-layout.col#ver-todo-hombres": {
+        "children": [
+            "image#banner-ver-todo-hombre-mobile",
+            "vtex.product-summary:list-context.product-list#vacaciones-recomendador"
+        ]
+    },
+
+    "image#banner-ver-todo-hombre-mobile": {
+        "props": {
+            "src": "/arquivos/Group 314.png"
+        }
+    },
+
+    //VER TODO MUJER
+    "flex-layout.row#ver-todo-mujeres": {
+        "children": [
+            "flex-layout.col#ver-todo-mujeres"
+        ],
+        "props": {
+            "marginBottom": 6
+        }
+    },
+
+    "flex-layout.col#ver-todo-mujeres": {
+        "children": [
+            "image#banner-ver-todo-mujer-mobile",
+            "vtex.product-summary:list-context.product-list#vacaciones-recomendador"
+        ]
+    },
+
+    "image#banner-ver-todo-mujer-mobile": {
+        "props": {
+            "src": "/arquivos/Group 313.png"
+        }
+    },
+
+    //BANNER FOOTER
+    "flex-layout.row#banner-footer-vacaciones-mob": {
+        "children": [
+            "image#banner-footer-vacaciones-mob"
+        ],
+        "props": {
+            "marginTop": 8
+        }
+    },
+    "image#banner-footer-vacaciones-mob": {
+        "props": {
+            "src": "/arquivos/Frame 430.png"
+        }
+    }
+}

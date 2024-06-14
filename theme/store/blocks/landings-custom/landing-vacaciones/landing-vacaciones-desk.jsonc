@@ -1,0 +1,298 @@
+{
+    "responsive-layout.desktop#landing-vacaciones-desk": {
+        "children": [
+            "flex-layout.row#content-titulo-landing-vacaciones-desk",
+            "flex-layout.row#content-banner-hero-vacaciones-desk",
+            "flex-layout.row#content-marcas-banner-hero-vacaciones-desk",
+            "flex-layout.row#botones-vacaciones",
+            "flex-layout.row#content-ver-todo-hombre-vacaciones",
+            "flex-layout.row#landing-vacaciones-todo-hombre",
+            "flex-layout.row#contenedor-principal-mujeres",
+            "flex-layout.row#content-compra-por-categoria",
+            "flex-layout.row#banners-compra-por-categoria",
+            "flex-layout.row#banner-footer-vacaciones"
+        ]
+    },
+
+    "flex-layout.row#content-titulo-landing-vacaciones-desk": {
+        "children": [
+            "rich-text#titulo-landing-vacaciones-desk"
+        ]
+    },
+
+    "rich-text#titulo-landing-vacaciones-desk": {
+        "props": {
+            "text": "# 20% off en ref seleccionadas",
+            "textPosition": "CENTER",
+            "blockClass": "titulo-landing-vacaciones-desk"
+        }
+    },
+
+    "flex-layout.row#content-banner-hero-vacaciones-desk": {
+        "children": [
+            "image#landing-hero-vacaciones-desk"
+        ],
+        "props": {
+            "blockClass": "contenedor-banner-landing-desk-vacaciones"
+        }
+    },
+
+    "image#landing-hero-vacaciones-desk": {
+        "title": "Banner principal desktop",
+        "props": {
+            "src": "/arquivos/Group 319.png",
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+    //MARCAS 2DA COLUMNA
+    "flex-layout.row#content-marcas-banner-hero-vacaciones-desk": {
+        "title": "Contenedor marcas desk",
+        "children": [
+            "image#landing-marcas-vacaciones-desk"
+        ],
+        "props": {
+            "blockClass": "contenedor-banner-marcas-landing-desk-vacaciones"
+        }
+    },
+
+    "image#landing-marcas-vacaciones-desk": {
+        "title": "Banner principal desktop",
+        "props": {
+            "src": "/arquivos/Group 318.png",
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+    //BOTONES GÉNERO
+    "flex-layout.row#botones-vacaciones": {
+        "children": [
+            "rich-text#vacaciones-boton1",
+            "rich-text#vacaciones-boton2"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "preventHorizontalStretch": true,
+            "blockClass": "botones-nuevo-template-genero",
+            "marginTop": 6,
+            "marginBottom": 6
+        }
+    },
+
+    "rich-text#vacaciones-boton1": {
+        "props":{
+            "text":"[**HOMBRE**](/hombre)",
+            "blockClass":"botonGeneroNuevo"
+        }
+    },
+
+    "rich-text#vacaciones-boton2": {
+        "props":{
+            "text":"[**MUJER**](/mujer)",
+            "blockClass":"botonGeneroNuevo"
+        }
+    },
+
+    //VER TODO HOMBRES
+    "flex-layout.row#content-ver-todo-hombre-vacaciones": {
+        "title": "Texto ver todo hombres desk",
+        "children": [
+            "rich-text#ver-todo-hombre-vacaciones"
+        ],
+        "props": {
+            "blockClass": "contenedor-banner-marcas-landing-desk-vacaciones"
+        }
+    },
+
+    "rich-text#ver-todo-hombre-vacaciones": {
+        "props": {
+            "text": "**Ver todo hombres**"
+        }
+    },
+
+    "flex-layout.row#landing-vacaciones-todo-hombre": {
+        "title": "Contenedor Hombre desk",
+        "children": [
+            "flex-layout.row#image-todo-hombre-vacaciones",
+            "flex-layout.col#vitrina-todo-hombre-vacaciones"
+            
+        ],
+        "props": {
+            "blockClass": "contenedor-banner-marcas-landing-desk-vacaciones",
+            "fullWidth": false,
+            "preventHorizontalStretch": true
+        }
+    },
+
+    "flex-layout.row#image-todo-hombre-vacaciones": {
+        "children": [
+            "image#banner-todo-hombre-vacaciones"
+        ]
+    },
+
+    "flex-layout.col#vitrina-todo-hombre-vacaciones": {
+        "title": "carrousel Vacaciones desk hombre",
+        "children": [
+            "vtex.product-summary:list-context.product-list#vacaciones-recomendador"
+        ],
+        "props": {
+          "blockClass": "carrouselFit",
+          "horizontalAlign": "left"
+        }
+    },
+
+    "image#banner-todo-hombre-vacaciones": {
+        "props": {
+            "src": "/arquivos/hombre-banner-prueba.png"
+        }
+    },
+
+    //VER TODO MUJERES
+    "flex-layout.row#contenedor-principal-mujeres": {
+        "children": [
+            "flex-layout.col#contenedor-principal-mujeres"
+        ],
+        "props": {
+            "blockClass": "contenedor-carrusel-mujeres-vacaciones"
+        }
+    },
+
+    "flex-layout.col#contenedor-principal-mujeres": {
+        "children": [
+            "flex-layout.row#content-ver-todo-mujer-vacaciones",
+            "flex-layout.row#landing-vacaciones-todo-mujer"
+        ]
+    },
+
+    "flex-layout.row#content-ver-todo-mujer-vacaciones": {
+        "title": "Ver todo mujeres desk",
+        "children": [
+            "rich-text#ver-todo-mujer-vacaciones"
+        ],
+        "props": {
+            "blockClass": "contenedor-banner-marcas-landing-desk-vacaciones"
+        }
+    },
+
+    "rich-text#ver-todo-mujer-vacaciones": {
+        "props": {
+            "text": "**Ver todo mujeres**"
+        }
+    },
+
+    "flex-layout.row#landing-vacaciones-todo-mujer": {
+        "title": "Contenedor mujeres desk",
+        "children": [
+            "flex-layout.row#image-todo-mujer-vacaciones",
+            "flex-layout.col#vitrina-todo-mujer-vacaciones"
+            
+        ],
+        "props": {
+            "blockClass": ["contenedor-banner-marcas-landing-desk-vacaciones"],
+            "fullWidth": false,
+            "preventHorizontalStretch": true
+        }
+    },
+
+    "flex-layout.row#image-todo-mujer-vacaciones": {
+        "children": [
+            "image#banner-todo-mujer-vacaciones"
+        ]
+    },
+
+    "flex-layout.col#vitrina-todo-mujer-vacaciones": {
+        "title": "carrousel Vacaciones mujeres",
+        "children": [
+            "vtex.product-summary:list-context.product-list#vacaciones-recomendador"
+        ],
+        "props": {
+          "blockClass": "carrouselFit",
+          "horizontalAlign": "left"
+        }
+    },
+
+    "image#banner-todo-mujer-vacaciones": {
+        "props": {
+            "src": "/arquivos/mujeres-banner-prueba.png"
+        }
+    },
+
+    //COMPRA POR CATEGORÍA
+    "flex-layout.row#content-compra-por-categoria": {
+        "title": "Sección compra por categoría",
+        "children": [
+            "rich-text#compra-por-categorias-vacaciones"
+        ],
+        "props": {
+            "blockClass": "contenedor-banner-marcas-landing-desk-vacaciones"
+        }
+    },
+
+    "rich-text#compra-por-categorias-vacaciones": {
+        "props": {
+            "text": "**Compra por categorías**"
+        }
+    },
+
+    "flex-layout.row#banners-compra-por-categoria": {
+        "children": [
+            "flex-layout.col#banner-1-compra-por-categoria",
+            "flex-layout.col#banner-2-compra-por-categoria"
+        ],
+        "props": {
+            "blockClass": ["contenedor-banner-categorias-landing-desk-vacaciones", "contenedor-hombre-mujer-categorias"],
+            "colGap": 4,
+            "rowGap": 4
+        }
+    },
+
+    "flex-layout.col#banner-1-compra-por-categoria": {
+        "children": [
+            "rich-text#compra-por-categorias-vacaciones-hombre"
+        ],
+        "props": {
+            "blockClass": "banner-1-compra-por-categoria"
+        }
+    },
+
+    "rich-text#compra-por-categorias-vacaciones-hombre": {
+        "props":{
+            "text": "**Accesorios** \n\n\n [**Gorras**](/gorras) \n [**Sandalias**](/sandalias) \n[**Morrales**](/morrales) \n [**Gafas**](/gafas)",
+            "blockClass": "categorias-vacaciones-landing"
+        }
+    },
+
+    "flex-layout.col#banner-2-compra-por-categoria": {
+        "children": [
+            "rich-text#compra-por-categorias-vacaciones-mujer"
+        ],
+        "props": {
+            "blockClass": "banner-2-compra-por-categoria"
+        }
+    },
+
+    "rich-text#compra-por-categorias-vacaciones-mujer": {
+        "props":{
+            "text": "**Ropa de baño** \n\n\n [**Bermudas**](/bermudas) \n [**Trajes de baño**](/trajes-de-baño) \n[**Vestidos**](/vestidos) \n [**Faldas**](/faldas) \n [**Shorts**](/shorts)",
+            "blockClass": "categorias-vacaciones-landing"
+        }
+    },
+
+    "flex-layout.row#banner-footer-vacaciones": {
+        "children": [
+            "image#banner-footer-vacaciones"
+        ],
+        "props": {
+            "marginTop": 8
+        }
+    },
+
+    "image#banner-footer-vacaciones": {
+        "props": {
+            "src": "/arquivos/Frame 428.png"
+        }
+    }
+}
+
+
+
