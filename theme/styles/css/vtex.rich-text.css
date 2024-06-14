@@ -3720,6 +3720,13 @@ margin: 2px;
 .headingLevel1--titulo-landing-vacaciones-desk, 
 .headingLevel1--titulo-landing-vacaciones-mobile {
   font-weight: 900;
+  text-align: center;
+  width: 95%;
+  margin: 0 auto;
+}
+.paragraph--titulo-landing-vacaciones-desk {
+  text-align: center;
+  width: 95%;
 }
 .headingLevel1--titulo-landing-vacaciones-mobile {
   font-size: 1.5rem;
