@@ -1,0 +1,11 @@
+{
+  "seo-schema-pdp": {
+    "component": "seoSchemaPdp"
+  },
+  "seo-schema-plp": {
+    "component": "seoSchemaPlp"
+  },
+  "open-graph-tags": {
+    "component": "openGraphTags"
+  }
+}

@@ -2,7 +2,7 @@
   "minicart.v2#pilatos": {
     "props": {
       "MinicartIcon": "icon-cart#minicart-icon",
-      "variation": "popup",
+      "variation": "drawer",
       "blockClass": "contentMinicart"
     },
     "children": [

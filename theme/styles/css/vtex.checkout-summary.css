@@ -1,5 +1,12 @@
 .summarySmallDisclaimer{
-    display: none;
+   font-size: 0px;
+   margin-top: 0px !important;
+}
+
+.summarySmallDisclaimer::after{
+  content: "Envío e impuestos calculados en el checkout.";
+  font-size: .875rem;
+  color: white;
 }
 
 .summaryItemContainer:nth-child(odd) .summaryItemLabel{
@@ -11,6 +18,7 @@
 }
 
 .summaryItemContainer:nth-child(odd) .summaryItemLabel::before{
+  display: none;
     content: 'Envío:';
     position: absolute;
     left: 0;
@@ -23,11 +31,12 @@
 }
 
 .summaryItemContainer:nth-child(odd) .summaryItemPrice .price::before{
-    content: 'A calcular';
-    position: absolute;
-    right: 0;
-    top: 1.6rem;
-    color: #FFFFFF;
+  display: none;
+  content: 'A calcular';
+  position: absolute;
+  right: 0;
+  top: 1.6rem;
+  color: #FFFFFF;
 }
 
 .summaryItemContainer:nth-child(even) .summaryItemLabel{
@@ -59,7 +68,7 @@
 }
 
 .summaryItemContainer:nth-child(odd){
-    margin: .5rem 0 2.35rem 0;
+    margin: .5rem 0 0 0 !important;
 }
 
 .summaryItemContainer:nth-child(even) .price{
