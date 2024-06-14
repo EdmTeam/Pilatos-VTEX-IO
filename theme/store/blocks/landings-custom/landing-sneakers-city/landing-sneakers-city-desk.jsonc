@@ -1,0 +1,14 @@
+{
+    "store.custom#landing-nueva-sneakers-city": {
+        "blocks": [
+            "flex-layout.row#bread",
+            "responsive-layout.desktop#landing-sneakers-city-desk",
+            "responsive-layout.phone#landing-sneakers-city-mob",
+            "rich-text#filtro-seo"
+        ]
+    },
+
+    "responsive-layout.desktop#landing-sneakers-city-desk": {
+        
+    }
+}
