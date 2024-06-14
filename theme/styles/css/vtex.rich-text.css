@@ -3715,3 +3715,38 @@ margin: 2px;
   top: 0;
   color: #fff;
 }
+
+/******LANDING VACACIONES**/
+.headingLevel1--titulo-landing-vacaciones-desk, 
+.headingLevel1--titulo-landing-vacaciones-mobile {
+  font-weight: 900;
+}
+.headingLevel1--titulo-landing-vacaciones-mobile {
+  font-size: 1.5rem;
+}
+.paragraph--categorias-vacaciones-landing, .link--categorias-vacaciones-landing {
+  color: #000;
+}
+.link--categorias-vacaciones-landing {
+  text-decoration: none;
+  font-weight: 300;
+}
+
+.link--categorias-vacaciones-landing .strong--categorias-vacaciones-landing {
+  font-weight: 300;
+}
+.container--categorias-vacaciones-landing {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 7rem 0 4rem 35%;
+}
+
+@media screen and (max-width: 768px) {
+  .container--categorias-vacaciones-landing {
+    margin: 0;
+  }
+  .wrapper--categorias-vacaciones-landing {
+    margin: 0 0 0 8rem;
+  }
+}

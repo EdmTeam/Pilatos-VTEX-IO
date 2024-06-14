@@ -1,0 +1,32 @@
+{
+
+    "vtex.product-summary:list-context.product-list#vacaciones-recomendador": {
+      "blocks": [
+          "vtex.product-summary:product-summary.shelf#most-viewed"
+      ],
+      "children": [
+          "slider-layout#home-vacaciones-recomendador"
+      ],
+      "props": {
+          "orderBy": "OrderByTopSaleDESC",
+          "collection": "1586",
+          "maxItems": 30
+      }
+  },
+  "slider-layout#home-vacaciones-recomendador": {
+      "props": {
+        "itemsPerPage": {
+          "desktop": 3,
+          "tablet": 3,
+          "phone": 2
+        },
+        "infinite": false,
+        "showNavigationArrows": "desktopOnly",
+        "showPaginationDots": "always"
+      //   "centerMode": {
+      //     "mobile": "to-the-left",
+      //     "desktop": "disabled"
+      //   }
+      }
+  }
+  }

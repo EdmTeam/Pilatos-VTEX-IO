@@ -1,0 +1,26 @@
+{
+    "store.custom#landing-vacaciones": {
+        "blocks": [
+            "flex-layout.row#bread",
+            "responsive-layout.desktop#landing-vacaciones-desk",
+            "responsive-layout.tablet#landing-vacaciones-desk",
+            "responsive-layout.phone#landing-vacaciones-mob",
+            "rich-text#filtro-seo"
+        ]
+    },
+
+    "responsive-layout.tablet#landing-vacaciones-desk": {
+        "children": [
+            "flex-layout.row#content-titulo-landing-vacaciones-desk",
+            "flex-layout.row#content-banner-hero-vacaciones-desk",
+            "flex-layout.row#content-marcas-banner-hero-vacaciones-desk",
+            "flex-layout.row#botones-vacaciones",
+            "flex-layout.row#content-ver-todo-hombre-vacaciones",
+            "flex-layout.row#landing-vacaciones-todo-hombre",
+            "flex-layout.row#contenedor-principal-mujeres",
+            "flex-layout.row#content-compra-por-categoria",
+            "flex-layout.row#banners-compra-por-categoria",
+            "flex-layout.row#banner-footer-vacaciones"
+        ]
+    }
+}

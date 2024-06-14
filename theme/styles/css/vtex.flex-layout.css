@@ -3624,3 +3624,55 @@ width: 88%;
 .flexRowContent--slider-carrusel-logos-antiguo {
   display: none;
 }
+
+/*****LANDING VACACIONES**/
+.flexRowContent--contenedor-banner-landing-desk-vacaciones {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.flexRowContent--contenedor-banner-marcas-landing-desk-vacaciones {
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+.flexRowContent--contenedor-banner-categorias-landing-desk-vacaciones {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.flexRowContent--contenedor-carrusel-mujeres-vacaciones {
+  background-color: #F2EDED;
+  padding: 2rem;
+  margin: 3rem 0;
+}
+
+.flexColChild--banner-1-compra-por-categoria {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(/arquivos/accesorios-hombre-prueba.png);
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .flexColChild--banner-1-compra-por-categoria {
+    display: block  ;
+  }
+}
+
+.flexColChild--banner-2-compra-por-categoria {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(/arquivos/accesorios-mujer-prueba.png);
+  display: flex;
+  justify-content: center
+}
+
+.flexColChild--banner-1-compra-por-categoria {
+  height: 100% !important;
+}
+.flexColChild--banner-2-compra-por-categoria {
+  height: 100% !important;
+}
