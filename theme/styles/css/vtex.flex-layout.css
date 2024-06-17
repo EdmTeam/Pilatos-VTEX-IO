@@ -3636,6 +3636,9 @@ width: 88%;
   margin: 0 auto;
 }
 
+.flexRowContent--contenedor-banner-marcas {
+  margin-top: 2rem  ;
+}
 
 .flexRowContent--contenedor-banner-categorias-landing-desk-vacaciones {
   width: 80%;
@@ -3651,23 +3654,23 @@ width: 88%;
 .flexColChild--banner-1-compra-por-categoria {
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(/arquivos/accesorios-hombre-prueba.png);
-  display: flex;
-  justify-content: center;
-}
-
-@media screen and (max-width: 768px) {
-  .flexColChild--banner-1-compra-por-categoria {
-    display: block  ;
-  }
+  background-image: url(/arquivos/Pilatos-Accesorios-Landing-Banner-Accesorios-Desk.jpg);
 }
 
 .flexColChild--banner-2-compra-por-categoria {
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(/arquivos/accesorios-mujer-prueba.png);
-  display: flex;
-  justify-content: center
+  background-image: url(/arquivos/Pilatos-Accesorios-Landing-Banner-RopaDeBano-Desk.jpg);
+}
+
+@media screen and (max-width: 768px) {
+  .flexColChild--banner-1-compra-por-categoria {
+    background-image: url(/arquivos/Pilatos-Accesorios-Landing-Banner-Accesorios-Mob.jpg);
+    display: block  ;
+  }
+  .flexColChild--banner-2-compra-por-categoria {
+    background-image: url(/arquivos/Pilatos-Accesorios-Landing-Banner-RopaDeBano-Mob.jpg);
+  }
 }
 
 .flexColChild--banner-1-compra-por-categoria {

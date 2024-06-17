@@ -3732,11 +3732,16 @@ margin: 2px;
   font-size: 1.5rem;
 }
 .paragraph--categorias-vacaciones-landing, .link--categorias-vacaciones-landing {
-  color: #000;
+  color: #fff;
+  font-size: 1.5rem;
 }
 .link--categorias-vacaciones-landing {
   text-decoration: none;
   font-weight: 300;
+}
+
+.link--categorias-vacaciones-landing:hover {
+  border-bottom: 2px solid #fff;
 }
 
 .link--categorias-vacaciones-landing .strong--categorias-vacaciones-landing {
@@ -3744,9 +3749,7 @@ margin: 2px;
 }
 .container--categorias-vacaciones-landing {
   width: 100%;
-  display: flex;
-  justify-content: center;
-  margin: 7rem 0 4rem 35%;
+  margin: 5rem 0 7rem 30px;
 }
 
 @media screen and (max-width: 768px) {
@@ -3754,6 +3757,6 @@ margin: 2px;
     margin: 0;
   }
   .wrapper--categorias-vacaciones-landing {
-    margin: 0 0 0 8rem;
+    margin: 0 0 0 3rem;
   }
 }
