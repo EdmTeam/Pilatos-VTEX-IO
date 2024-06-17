@@ -40,7 +40,7 @@
     "image#landing-hero-vacaciones-desk": {
         "title": "Banner principal desktop",
         "props": {
-            "src": "/arquivos/Group 319.png",
+            "src": "/arquivos/Pilatos-Accesorios-Landing-Banner-Ppal-Desk.jpg",
             "blockClass": "departmentBannerImg-1"
         }
     },
@@ -52,14 +52,14 @@
             "image#landing-marcas-vacaciones-desk"
         ],
         "props": {
-            "blockClass": "contenedor-banner-marcas-landing-desk-vacaciones"
+            "blockClass": ["contenedor-banner-marcas-landing-desk-vacaciones", "contenedor-banner-marcas"]
         }
     },
 
     "image#landing-marcas-vacaciones-desk": {
         "title": "Banner principal desktop",
         "props": {
-            "src": "/arquivos/Group 318.png",
+            "src": "/arquivos/Pilatos-Accesorios-Landing-Banner-Logos-Desk.jpg",
             "blockClass": "departmentBannerImg-1"
         }
     },
@@ -143,7 +143,7 @@
 
     "image#banner-todo-hombre-vacaciones": {
         "props": {
-            "src": "/arquivos/hombre-banner-prueba.png"
+            "src": "/arquivos/Pilatos-Accesorios-Landing-Banner-Hombre-Desk-nuevo.jpg"
         }
     },
 
@@ -213,7 +213,7 @@
 
     "image#banner-todo-mujer-vacaciones": {
         "props": {
-            "src": "/arquivos/mujeres-banner-prueba.png"
+            "src": "/arquivos/Pilatos-Accesorios-Landing-Banner-Mujer-Desk-nuevo.jpg"
         }
     },
 
@@ -289,7 +289,7 @@
 
     "image#banner-footer-vacaciones": {
         "props": {
-            "src": "/arquivos/Frame 428.png"
+            "src": "/arquivos/Pilatos-Accesorios-Landing-Banner-Recomendaciones-Desk.jpg"
         }
     }
 }

@@ -37,7 +37,7 @@
     "image#landing-hero-vacaciones-mob": {
         "title": "Banner principal desktop",
         "props": {
-            "src": "/arquivos/Group318.png",
+            "src": "/arquivos/Pilatos-Accesorios-Landing-Banner-Ppal-Mob.jpg",
             "blockClass": "departmentBannerImg-1"
         }
     },
@@ -55,7 +55,7 @@
     "image#landing-marcas-vacaciones-mob": {
         "title": "Banner principal mob",
         "props": {
-            "src": "/arquivos/banner-marcas-prueba.png",
+            "src": "/arquivos/Pilatos-Accesorios-Landing-Banner-Logos-Mob.jpg",
             "blockClass": "departmentBannerImg-1"
         }
     },
@@ -79,7 +79,7 @@
 
     "image#banner-ver-todo-hombre-mobile": {
         "props": {
-            "src": "/arquivos/Group 314.png"
+            "src": "/arquivos/Pilatos-Accesorios-Landing-Banner-Hombre-Mob.jpg"
         }
     },
 
@@ -102,7 +102,7 @@
 
     "image#banner-ver-todo-mujer-mobile": {
         "props": {
-            "src": "/arquivos/Group 313.png"
+            "src": "/arquivos/Pilatos-Accesorios-Landing-Banner-Mujer-Mob.jpg"
         }
     },
 
@@ -117,7 +117,7 @@
     },
     "image#banner-footer-vacaciones-mob": {
         "props": {
-            "src": "/arquivos/Frame 430.png"
+            "src": "/arquivos/Pilatos-Accesorios-Landing-Banner-Recomendaciones-Mob.jpg"
         }
     }
 }

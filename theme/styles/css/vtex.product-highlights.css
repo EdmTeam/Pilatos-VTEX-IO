@@ -93,8 +93,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url(/arquivos/FlagBancolombia-Negro.png);
-    display: block;
-    /*display:none descativar despues del 16*/
+    display:none
 }
 
 
