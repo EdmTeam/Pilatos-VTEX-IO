@@ -3654,22 +3654,22 @@ width: 88%;
 .flexColChild--banner-1-compra-por-categoria {
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(/arquivos/Pilatos-Accesorios-Landing-Banner-Accesorios-Desk.jpg);
+  background-image: url(/arquivos/Pilatos-Accesorios-Landing-Banner-Accesorios-Desk-new.jpg);
 }
 
 .flexColChild--banner-2-compra-por-categoria {
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(/arquivos/Pilatos-Accesorios-Landing-Banner-RopaDeBano-Desk.jpg);
+  background-image: url(/arquivos/Pilatos-Accesorios-Landing-Banner-RopaDeBano-Desk-new.jpg);
 }
 
 @media screen and (max-width: 768px) {
   .flexColChild--banner-1-compra-por-categoria {
-    background-image: url(/arquivos/Pilatos-Accesorios-Landing-Banner-Accesorios-Mob.jpg);
+    background-image: url(/arquivos/Pilatos-Accesorios-Landing-Banner-Accesorios-Mob-new.jpg);
     display: block  ;
   }
   .flexColChild--banner-2-compra-por-categoria {
-    background-image: url(/arquivos/Pilatos-Accesorios-Landing-Banner-RopaDeBano-Mob.jpg);
+    background-image: url(/arquivos/Pilatos-Accesorios-Landing-Banner-RopaDeBano-Mob-new.jpg);
   }
 }
 
