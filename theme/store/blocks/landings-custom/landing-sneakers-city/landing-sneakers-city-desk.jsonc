@@ -1,14 +1,291 @@
 {
-    "store.custom#landing-nueva-sneakers-city": {
-        "blocks": [
-            "flex-layout.row#bread",
-            "responsive-layout.desktop#landing-sneakers-city-desk",
-            "responsive-layout.phone#landing-sneakers-city-mob",
-            "rich-text#filtro-seo"
+  "store.custom#landing-nueva-sneakers-city": {
+    "blocks": [
+      "flex-layout.row#bread",
+      "flex-layout.row#seo-corto",
+      "list-context.image-list#banner-hero-video-sneakers-city",
+      "list-context.image-list#banner-hero-image-sneakers-city",
+      "flex-layout.row#manifesto-landing-sneakers-city",
+      "list-context.image-list#banner-kit-image-sneakers-city",
+
+      "responsive-layout.desktop#landing-sneakers-city-desk",
+      "responsive-layout.mobile#landing-sneakers-city-mob",
+
+      "flex-layout.row#botones-vacaciones",
+      "flex-layout.row#contenedor-carrusel-sneakers-city",
+      "flex-layout.row#marcas-sneakers-city",
+      "list-context.image-list#banner-delgado-image-sneakers-city",
+
+      "rich-text#filtro-seo"
+      ]
+    },
+      
+    "flex-layout.row#seo-corto": {
+        "children": [
+            "flex-layout.col#seo-corto"
+        ],
+        "props": {
+            "blockClass": "contentSearch"
+        }
+    },
+            
+    "flex-layout.col#seo-corto": {
+        "children": [
+            "rich-text#department-templateGeneroNuevo-title",
+            "rich-text#department-templateGeneroNuevo-description"
         ]
     },
 
-    "responsive-layout.desktop#landing-sneakers-city-desk": {
-        
+  //VIDEO
+  "list-context.image-list#banner-hero-video-sneakers-city": {
+    "children": [
+        "slider-layout#banner-hero-video-sneakers-city"
+    ],
+    "props": {
+        "preload": true,
+        "height": 750,
+        "images": [
+            {
+                "image": "/arquivos/banner-desk-sneaker-prueba.png",
+                "mobileImage": "/arquivos/banner-mob-sneaker-prueba.png",
+                "description": "Sneaker city video"
+            }
+        ]
     }
+  },
+
+  "slider-layout#banner-hero-video-sneakers-city": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 4,
+        "phone": 2
+      },
+      "infinite": true,
+      "blockClass": "ingredienteFragancia"
+    }
+  },
+
+  //IMAGE
+  "list-context.image-list#banner-hero-image-sneakers-city": {
+    "children": [
+        "slider-layout#banner-hero-image-sneakers-city"
+    ],
+    "props": {
+        "preload": true,
+        "height": 750,
+        "images": [
+            {
+                "image": "/arquivos/subbaner-desk-prueba.png",
+                "mobileImage": "/arquivos/subbane-mob-prueba.png",
+                "description": "Sneaker city image"
+            }
+        ]
+    }
+  },
+
+  "slider-layout#banner-hero-image-sneakers-city": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 4,
+        "phone": 2
+      },
+      "infinite": true,
+      "blockClass": "ingredienteFragancia"
+    }
+  },
+
+  //MANIFESTO
+  "flex-layout.row#manifesto-landing-sneakers-city": {
+    "children": [
+        "flex-layout.col#manifesto-landing-sneakers-city"
+    ],
+    "props": {
+        "blockClass": "contenedor-banner-marcas-landing-desk-vacaciones"
+    }
+  },
+
+  "flex-layout.col#manifesto-landing-sneakers-city": {
+    "children": [
+        "rich-text#manifesto-landing-sneakers-city"
+    ]
+  },
+
+  "rich-text#manifesto-landing-sneakers-city": {
+    "props": {
+        "text": "### Manifesto \n Sed commodo ullamcorper at, nibh Praesent at, tincidunt Sed vitae non fringilla massa non sapien venenatis lorem. vitae ipsum Vestibulum quis ullamcorper urna dui. Sed In vitae leo. felis, Ut ex. nec est. ac Nunc convallis. quis odio odio Ut odio facilisis efficitur. vitae venenatis non ex. vitae ipsum Vestibulum quis ullamcorper urna dui. Sed In vitae leo.",
+        "textAlignment": "CENTER",
+        "blockClass": "manifesto-sneakers-city"
+    }
+  },
+
+  //IMAGE KIT
+  "list-context.image-list#banner-kit-image-sneakers-city": {
+    "children": [
+        "slider-layout#banner-kit-image-sneakers-city"
+    ],
+    "props": {
+        "preload": true,
+        "height": 750,
+        "images": [
+            {
+                "image": "/arquivos/subbaner-desk-prueba.png",
+                "mobileImage": "/arquivos/subbane-mob-prueba.png",
+                "description": "Sneaker city image"
+            }
+        ]
+    }
+  },
+
+  "slider-layout#banner-kit-image-sneakers-city": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 4,
+        "phone": 2
+      },
+      "infinite": true,
+      "blockClass": "ingredienteFragancia"
+    }
+  },
+
+  //RESPONSIVE DESKTOP
+  "responsive-layout.desktop#landing-sneakers-city-desk": {
+    "children": [
+      "flex-layout.row#valores-sneakers-city-desk"
+    ]
+  },
+
+  "flex-layout.row#valores-sneakers-city-desk": {
+    "children": [
+      "flex-layout.col#valores-sneakers-city-desk-valor-1",
+      "flex-layout.col#valores-sneakers-city-desk-valor-2",
+      "flex-layout.col#valores-sneakers-city-desk-valor-3"
+    ],
+    "props": {
+      "marginTop": 4,
+      "marginBottom": 4,
+      "blockClass": ["contenedor-banner-marcas-landing-desk-vacaciones", "contenedor-valores-sneakers-city"]
+    }
+  },
+
+  "flex-layout.col#valores-sneakers-city-desk-valor-1": {
+    "children": [
+      "image#valores-sneakers-city-desk-valor-1"
+    ]
+  },
+  "flex-layout.col#valores-sneakers-city-desk-valor-2": {
+    "children": [
+      "image#valores-sneakers-city-desk-valor-2"
+    ]
+  },
+  "flex-layout.col#valores-sneakers-city-desk-valor-3": {
+    "children": [
+      "image#valores-sneakers-city-desk-valor-3"
+    ]
+  },
+
+  //IMAGENES
+  "image#valores-sneakers-city-desk-valor-1": {
+    "props": {
+      "src": "/arquivos/mycity-sneakers-prueba-desk.png",
+      "link": {
+        "url": "/"
+      }
+    }
+  },
+  "image#valores-sneakers-city-desk-valor-2": {
+    "props": {
+      "src": "/arquivos/universe-sneakers-prueba-edsk.png",
+      "link": {
+        "url": "/"
+      }
+    }
+  },
+  "image#valores-sneakers-city-desk-valor-3": {
+    "props": {
+      "src": "/arquivos/libertad-sneakers-prueba-desk.png",
+      "link": {
+        "url": "/"
+      }
+    }
+  },
+
+  //CARRUSEL
+  "flex-layout.row#contenedor-carrusel-sneakers-city": {
+    "children": [
+      "flex-layout.col#contenedor-carrusel-sneakers-city"
+    ],
+    "props": {
+      "blockClass": "contenedor-banner-marcas-landing-desk-vacaciones",
+      "rowGap": 4
+    }
+  },
+
+  "flex-layout.col#contenedor-carrusel-sneakers-city": {
+    "children": [
+      "rich-text#titulo-carrusel-sneakers-city",
+      "vtex.product-summary:list-context.product-list#sneakers-city-recomendador"
+    ]
+  },
+
+  "rich-text#titulo-carrusel-sneakers-city": {
+    "props": {
+      "text": "**Nuevas referencias para ti**"
+    }    
+  },
+
+  //CONTENEDOR MARCAS
+  "flex-layout.row#marcas-sneakers-city": {
+    "children": [
+      "flex-layout.col#marcas-sneakers-city"
+    ],
+    "props": {
+      "blockClass": "contenedor-banner-marcas-landing-desk-vacaciones"
+    }
+  },
+
+  "flex-layout.col#marcas-sneakers-city": {
+    "children": [
+      "rich-text#titulo-marcas-sneakers-city"
+    ]
+  },
+
+  "rich-text#titulo-marcas-sneakers-city": {
+    "props": {
+      "text": "**Encuentra tu marca favorita**"
+    }
+  },
+
+  //BANNER DELGADO
+
+  "list-context.image-list#banner-delgado-image-sneakers-city": {
+    "children": [
+        "slider-layout#banner-delgado-image-sneakers-city"
+    ],
+    "props": {
+        "preload": true,
+        "height": 750,
+        "images": [
+            {
+                "image": "/arquivos/banner-pequeno-desk-sneaker-prueba.png",
+                "mobileImage": "/arquivos/banner-pequeno-mob-sneaker-prueba.png",
+                "description": "Sneaker city image"
+            }
+        ]
+    }
+  },
+
+  "slider-layout#banner-delgado-image-sneakers-city": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 4,
+        "phone": 2
+      },
+      "infinite": true,
+      "blockClass": "ingredienteFragancia"
+    }
+  }
 }

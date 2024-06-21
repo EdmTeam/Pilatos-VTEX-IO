@@ -3622,16 +3622,19 @@ margin: 2px;
 
 .link--texto-marcas-landing-tenis {
   color: #000;
+  text-decoration: none;
 }
 
 .link--texto-marcas-landing-tenis-mob {
   color: #000;
   font-size: 18px;
+  text-decoration: none;
 }
 
 
 .link--texto-marcas-landing-tenis:hover, .link--texto-marcas-landing-tenis-mob:hover {
   font-weight: bold;
+  border-bottom: 2px solid #000;
 }
 
 .paragraph--busca-por-marca-texto-tenis-desk {
@@ -3759,4 +3762,16 @@ margin: 2px;
   .wrapper--categorias-vacaciones-landing {
     margin: 0 0 0 3rem;
   }
+}
+
+/***LANDING SNEAKERS CITY***/
+@media screen and (max-width: 450px) {
+  .paragraph--manifesto-sneakers-city {
+    font-size: 12px;
+  }
+}
+
+/***Corrección tamaños h2 del SEO**/
+.headingLevel2--filtroSeo {
+  font-size: 1.5rem;
 }

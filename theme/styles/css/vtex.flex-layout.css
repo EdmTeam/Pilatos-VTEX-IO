@@ -3620,11 +3620,6 @@ width: 88%;
   }
 }
 
-/****Slider carrusel del home antiguo***/
-.flexRowContent--slider-carrusel-logos-antiguo {
-  display: none;
-}
-
 /*****LANDING VACACIONES**/
 .flexRowContent--contenedor-banner-landing-desk-vacaciones {
   width: 80%;
@@ -3678,4 +3673,14 @@ width: 88%;
 }
 .flexColChild--banner-2-compra-por-categoria {
   height: 100% !important;
+}
+
+/****Landing sneakers city***/
+.flexRowContent--contenedor-valores-sneakers-city {
+  display: flex;
+  gap: 15px;
+}
+.flexRowContent--contenedor-valores-sneakers-city-mobile {
+  display: flex;
+  gap: 10px;
 }
