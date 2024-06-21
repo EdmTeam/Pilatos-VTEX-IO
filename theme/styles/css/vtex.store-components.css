@@ -891,3 +891,8 @@ cursor: pointer;
 .imageElement--imagen-marcas-landing-tenis {
     width: 600px;
 }
+
+/*****Landing sneakers city***/
+.imageElement--banner-valor-3-mobile-sneakers-city {
+    width: 100%;
+}

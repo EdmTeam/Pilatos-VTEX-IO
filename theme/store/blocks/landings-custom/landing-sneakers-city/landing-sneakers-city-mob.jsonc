@@ -1,5 +1,54 @@
 {
-    "responsive-layout.phone#landing-sneakers-city-mob": {
-        
+  "responsive-layout.mobile#landing-sneakers-city-mob": {
+    "children": [
+        "flex-layout.row#valores-sneakers-city-mob",
+        "flex-layout.row#valores-sneakers-banner-3-city-mob"
+    ]
+  },
+
+  "flex-layout.row#valores-sneakers-city-mob": {
+    "children": [
+      "image#valores-sneakers-city-mob-valor-1",
+      "image#valores-sneakers-city-mob-valor-2"
+    ],
+    "props": {
+      "blockClass": ["contenedor-banner-marcas-landing-desk-vacaciones", "contenedor-valores-sneakers-city-mobile"]
     }
+  },
+
+  "image#valores-sneakers-city-mob-valor-1": {
+    "props": {
+      "src": "/arquivos/mycity-sneakers-prueba-desk.png",
+      "link": {
+        "url": "/"
+      }
+    }
+  },
+  "image#valores-sneakers-city-mob-valor-2": {
+    "props": {
+      "src": "/arquivos/universe-sneakers-prueba-edsk.png",
+      "link": {
+        "url": "/"
+      }
+    }
+  },
+
+  "flex-layout.row#valores-sneakers-banner-3-city-mob": {
+    "children": [
+      "image#valores-sneakers-city-mob-valor-3"
+    ],
+    "props": {
+      "blockClass": ["contenedor-banner-marcas-landing-desk-vacaciones"]
+    }
+  },
+
+  "image#valores-sneakers-city-mob-valor-3": {
+    "props": {
+      "src": "/arquivos/libertas-sneakers-prueba.png",
+      "link": {
+        "url": "/"
+      },
+      "blockClass": "banner-valor-3-mobile-sneakers-city"
+    }
+  }
 }
