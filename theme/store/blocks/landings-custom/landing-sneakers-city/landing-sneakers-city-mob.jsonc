@@ -18,7 +18,7 @@
 
   "image#valores-sneakers-city-mob-valor-1": {
     "props": {
-      "src": "/arquivos/mycity-sneakers-prueba-desk.png",
+      "src": "/arquivos/Pilatos-SneakersCity-Landing-MyCity-Mob.jpg",
       "link": {
         "url": "/"
       }
@@ -26,7 +26,7 @@
   },
   "image#valores-sneakers-city-mob-valor-2": {
     "props": {
-      "src": "/arquivos/universe-sneakers-prueba-edsk.png",
+      "src": "/arquivos/Pilatos-SneakersCity-Landing-Libertad-Mob.jpg",
       "link": {
         "url": "/"
       }
@@ -44,7 +44,7 @@
 
   "image#valores-sneakers-city-mob-valor-3": {
     "props": {
-      "src": "/arquivos/libertas-sneakers-prueba.png",
+      "src": "/arquivos/Pilatos-SneakersCity-Landing-MiUniverso-Mob.jpg",
       "link": {
         "url": "/"
       },

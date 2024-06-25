@@ -1,32 +1,159 @@
 {
-
-    "vtex.product-summary:list-context.product-list#sneakers-city-recomendador": {
-      "blocks": [
-          "vtex.product-summary:product-summary.shelf#most-viewed"
-      ],
-      "children": [
-          "slider-layout#home-sneakers-city-recomendador"
-      ],
-      "props": {
-          "orderBy": "OrderByTopSaleDESC",
-          "collection": "1586",
-          "maxItems": 30
-      }
+  "vtex.product-summary:list-context.product-list#sneakers-city-recomendador": {
+    "blocks": ["vtex.product-summary:product-summary.shelf#most-viewed"],
+    "children": ["slider-layout#home-sneakers-city-recomendador"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "collection": "1586",
+      "maxItems": 30
+    }
   },
   "slider-layout#home-sneakers-city-recomendador": {
-      "props": {
-        "itemsPerPage": {
-          "desktop": 3,
-          "tablet": 3,
-          "phone": 2
-        },
-        "infinite": false,
-        "showNavigationArrows": "desktopOnly",
-        "showPaginationDots": "always"
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": false,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "always"
       //   "centerMode": {
       //     "mobile": "to-the-left",
       //     "desktop": "disabled"
       //   }
-      }
+    }
+  },
+
+  //Carrusel logos
+  "flex-layout.row#marcas-sneakercity-slider": {
+    "children": ["list-context.image-list#marcas-sneakercity"],
+    "props": {
+      "blockClass": ["contenedor-marcas-sneakercity"]
+    }
+  },
+
+  "list-context.image-list#marcas-sneakercity": {
+    "children": ["slider-layout#marcas-sneakercity"],
+    "props": {
+      "height": 650,
+      "images": [
+        {
+          "image": "/arquivos/LogoGoorinBros-150x150px.png",
+          "description": "GoorinBros",
+          "link": {
+            "url": "/goorin-bros"
+          }
+        },
+        {
+          "image": "/arquivos/LogoDiesel-150x150px.png",
+          "description": "Diesel",
+          "link": {
+            "url": "/diesel"
+          }
+        },
+        {
+          "image": "/arquivos/logo-kapp-new.jpg",
+          "description": "kappa",
+          "link": {
+            "url": "/kappa"
+          }
+        },
+        {
+          "image": "/arquivos/LogoLacoste-150x150px.png",
+          "description": "Lacoste",
+          "link": {
+            "url": "/lacoste"
+          }
+        },
+        {
+          "image": "/arquivos/LogoLeCoqSportif-150x150px.png",
+          "description": "Lecoq",
+          "link": {
+            "url": "/le-coq-sportif"
+          }
+        },
+        {
+          "image": "/arquivos/LogoMFG-150x150px.png",
+          "description": "Girbaud",
+          "link": {
+            "url": "/girbaud"
+          }
+        },
+        {
+          "image": "/arquivos/LogoNewBalance-150x150px.png",
+          "description": "New Balance",
+          "link": {
+            "url": "/new-balance"
+          }
+        },
+        {
+          "image": "/arquivos/LogoNike-150x150px.png",
+          "description": "Nike",
+          "link": {
+            "url": "/nike"
+          }
+        },
+        {
+          "image": "/arquivos/Logo_Oakley.png",
+          "description": "oakley",
+          "link": {
+            "url": "/oakley"
+          }
+        },
+        {
+          "image": "/arquivos/LogoOn-150x150px.png",
+          "description": "On",
+          "link": {
+            "url": "/on"
+          }
+        },
+        {
+          "image": "/arquivos/LogoPepeJeans-150x150px.png",
+          "description": "Pepe jeans",
+          "link": {
+            "url": "/pepe-jeans"
+          }
+        },
+        {
+          "image": "/arquivos/LogoReplay-150x150px.png",
+          "description": "Replay",
+          "link": {
+            "url": "/replay"
+          }
+        },
+        {
+          "image": "/arquivos/LogoSuperdry-150x150px.png",
+          "description": "Superdry",
+          "link": {
+            "url": "/superdry"
+          }
+        },
+        {
+          "image": "/arquivos/Pilatos-SneakersCity-Landing-LogoSuperga-Desk.jpg",
+          "description": "superga",
+          "link": {
+            "url": "/superga"
+          }
+        },
+        {
+          "image": "/arquivos/LogoVans-150x150px.png",
+          "description": "Vans",
+          "link": {
+            "url": "/vans"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#marcas-sneakercity": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 3,
+        "phone": 2
+      },
+      "blockClass": ["marca-sobre-nosotros-2024", "marcas-sneakers-city"]
+    }
   }
-  }
+}

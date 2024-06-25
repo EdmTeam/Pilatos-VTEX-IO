@@ -6,7 +6,7 @@
       "list-context.image-list#banner-hero-video-sneakers-city",
       "list-context.image-list#banner-hero-image-sneakers-city",
       "flex-layout.row#manifesto-landing-sneakers-city",
-      "list-context.image-list#banner-kit-image-sneakers-city",
+      //"list-context.image-list#banner-kit-image-sneakers-city",
 
       "responsive-layout.desktop#landing-sneakers-city-desk",
       "responsive-layout.mobile#landing-sneakers-city-mob",
@@ -14,7 +14,8 @@
       "flex-layout.row#botones-vacaciones",
       "flex-layout.row#contenedor-carrusel-sneakers-city",
       "flex-layout.row#marcas-sneakers-city",
-      "list-context.image-list#banner-delgado-image-sneakers-city",
+      "flex-layout.row#marcas-sneakercity-slider",
+      //"list-context.image-list#banner-delgado-image-sneakers-city",
 
       "rich-text#filtro-seo"
       ]
@@ -46,8 +47,8 @@
         "height": 750,
         "images": [
             {
-                "image": "/arquivos/banner-desk-sneaker-prueba.png",
-                "mobileImage": "/arquivos/banner-mob-sneaker-prueba.png",
+                "image": "/arquivos/Pilatos-SneakersCity-Landing-Video-Desk.gif",
+                "mobileImage": "/arquivos/Pilatos-SneakersCity-Landing-Video-Mob.gif",
                 "description": "Sneaker city video"
             }
         ]
@@ -76,10 +77,15 @@
         "height": 750,
         "images": [
             {
-                "image": "/arquivos/subbaner-desk-prueba.png",
-                "mobileImage": "/arquivos/subbane-mob-prueba.png",
+                "image": "/arquivos/Pilatos-SneakersCity-Landing-Ppal-Desk.jpg",
+                "mobileImage": "/arquivos/Pilatos-SneakersCity-Landing-Ppal-Mob.jpg",
                 "description": "Sneaker city image"
-            }
+            },
+            {
+              "image": "/arquivos/Pilatos-Sneakers-x-Wassen-banner-landing-desk.jpg",
+              "mobileImage": "/arquivos/Pilatos-Sneakers-x-Wassen-banner-landing-mobile.jpg",
+              "description": "Sneaker city image"
+          }
         ]
     }
   },
@@ -87,9 +93,9 @@
   "slider-layout#banner-hero-image-sneakers-city": {
     "props": {
       "itemsPerPage": {
-        "desktop": 6,
-        "tablet": 4,
-        "phone": 2
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
       },
       "infinite": true,
       "blockClass": "ingredienteFragancia"
@@ -114,8 +120,9 @@
 
   "rich-text#manifesto-landing-sneakers-city": {
     "props": {
-        "text": "### Manifesto \n Sed commodo ullamcorper at, nibh Praesent at, tincidunt Sed vitae non fringilla massa non sapien venenatis lorem. vitae ipsum Vestibulum quis ullamcorper urna dui. Sed In vitae leo. felis, Ut ex. nec est. ac Nunc convallis. quis odio odio Ut odio facilisis efficitur. vitae venenatis non ex. vitae ipsum Vestibulum quis ullamcorper urna dui. Sed In vitae leo.",
+        "text": "### Descubre los sneakers que te harán explorar tu estilo libre.",
         "textAlignment": "CENTER",
+        "textPosition": "CENTER",
         "blockClass": "manifesto-sneakers-city"
     }
   },
@@ -189,7 +196,7 @@
   //IMAGENES
   "image#valores-sneakers-city-desk-valor-1": {
     "props": {
-      "src": "/arquivos/mycity-sneakers-prueba-desk.png",
+      "src": "/arquivos/Pilatos-SneakersCity-Landing-MyCity-Desk.jpg",
       "link": {
         "url": "/"
       }
@@ -197,7 +204,7 @@
   },
   "image#valores-sneakers-city-desk-valor-2": {
     "props": {
-      "src": "/arquivos/universe-sneakers-prueba-edsk.png",
+      "src": "/arquivos/Pilatos-SneakersCity-Landing-MiUniverso-Desk.jpg",
       "link": {
         "url": "/"
       }
@@ -205,7 +212,7 @@
   },
   "image#valores-sneakers-city-desk-valor-3": {
     "props": {
-      "src": "/arquivos/libertad-sneakers-prueba-desk.png",
+      "src": "/arquivos/Pilatos-SneakersCity-Landing-Libertad-Desk.jpg",
       "link": {
         "url": "/"
       }
