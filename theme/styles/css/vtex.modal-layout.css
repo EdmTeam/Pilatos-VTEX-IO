@@ -15,7 +15,8 @@
 }
 
 .paper--popup-welcome {
-    padding: 2rem;
+    /*padding: 2rem;*/
+    padding: 1.5rem;
     background-image: url("https://pilatos21.vtexassets.com/arquivos/pop-up-bienvenida-pilatos-3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
