@@ -1643,9 +1643,10 @@ margin: 70px;
 }
 
 .container--filtroSeo {
-  width: 88%;
-  margin: 0 auto;
-  margin-top: 2%;
+  /*width: 88%;*/
+  width: 80%;
+  margin: 2% auto 0 auto;
+  /*margin-top: 2%;*/
 }
 
 .wrapper--filtroSeo .paragraph {
@@ -1671,6 +1672,10 @@ margin: 70px;
     color: #000000;
     width: 100%;
     margin: 0 0 1rem 0;
+  }
+
+  .wrapper--filtroSeo .paragraph {
+    font-size: 12px;
   }
 }
 
@@ -3773,5 +3778,12 @@ margin: 2px;
 
 /***Corrección tamaños h2 del SEO**/
 .headingLevel2--filtroSeo {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+}
+
+/*****Header nuevo***/
+.link--reversso-texto-menu {
+  text-decoration: none;
+  color: #000;
+  font-size: 0.8rem;
 }

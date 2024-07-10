@@ -50,7 +50,8 @@
         ],
         "props": {
             "openAutocompleteOnFocus": true,
-            "placeholder": "¿Qué estás buscando?",
+            //"placeholder": "¿Qué estás buscando?",
+            "placeholder": "Buscar",
             "blockClass": "contentSearch",
             "displayMode": "search-button"
         }

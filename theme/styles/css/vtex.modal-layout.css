@@ -119,3 +119,14 @@
         padding: 10px;
     }
 }
+
+/***Modal buscador header nuevo**/
+.paper--modal-buscador-header {
+    /*width: 100%;*/
+    width: 800px;
+    padding: 20px;
+    margin: 0;
+    position: absolute;
+    top: 26%;
+    box-shadow: -4px 1px 11px 0px rgba(0,0,0,0.47);
+}

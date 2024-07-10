@@ -896,3 +896,8 @@ cursor: pointer;
 .imageElement--banner-valor-3-mobile-sneakers-city {
     width: 100%;
 }
+
+.imageElement--icono-buscador-nuevo-header {
+    width: 18px;
+    cursor: pointer;
+}
