@@ -1008,6 +1008,23 @@
             ]
         }
     },
+    "size-guide#pantaloneta-bermudas-hombre-monastery": {
+        "props": {
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000112"
+                    ],
+                    "categories": [
+                        "19", "40"
+                    ],
+                    "imageDesktop": "/arquivos/Monastery-PantalonetaHombre-GuiaTallas-2024.jpg",
+                    "imageTablet": "/arquivos/Monastery-PantalonetaHombre-GuiaTallas-2024.jpg",
+                    "imagePhone": "/arquivos/Monastery-PantalonetaHombre-GuiaTallas-2024.jpg"
+                }
+            ]
+        }
+    },
     "size-guide#zapatos-hombre-diesel": {
         "props": {
             "conditionals": [
@@ -1805,7 +1822,7 @@
         }
     },
 
-    /*"size-guide#unisex-tenis-kappa": {
+    "size-guide#unisex-tenis-kappa": {
         "props": {
             "conditionals": [
                 {
@@ -1814,15 +1831,16 @@
                     ],
                     "categories": [
                         "3",
-                        "44"
+                        "44",
+                        "131"
                     ],
-                    "imageDesktop": "/arquivos/Kappa-GuayosAdultoUnisex-GuiaTallas-2024.jpg",
-                    "imageTablet": "/arquivos/Kappa-GuayosAdultoUnisex-GuiaTallas-2024.jpg",
-                    "imagePhone": "/arquivos/Kappa-GuayosAdultoUnisex-GuiaTallas-2024.jpg"
+                    "imageDesktop": "/arquivos/Kappa-Calzado-completo-GuiaTallas-2024.jpg",
+                    "imageTablet": "/arquivos/Kappa-Calzado-completo-GuiaTallas-2024.jpg",
+                    "imagePhone": "/arquivos/Kappa-Calzado-completo-GuiaTallas-2024.jpg"
                 }
             ]
         }
-    }*/
+    },
 
     // ARTDIST
     "size-guide#hombre-artdist-camisetas": {

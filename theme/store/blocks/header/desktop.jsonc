@@ -150,17 +150,83 @@
 
   "flex-layout.row#header-items-desk": {
     "children": [
-      "flex-layout.col#header-items-desk-col-1",
+      "flex-layout.col#content-reversso-header",
       "flex-layout.col#header-items-desk-col-2"
-    ]
+    ],
+    "props": {
+      "blockClass": "contenedor-iconos-menu-header"
+    }
   },
+
+  "flex-layout.col#content-reversso-header": {
+    "children": [
+      "rich-text#cambiosdev"
+    ],
+    "props": {
+      "width": "30%",
+      "blockClass": "cambiosdevcontent"
+    }
+  },
+
+  "rich-text#cambiosdev": {
+    "props": {
+      "text": "[**Cambios & Devol.**](/reversso)",
+      "blockClass": "reversso-texto-menu"
+    }
+  },
+
+    //MODAL BUSCADOR//
+    "flex-layout.col#content-buscador-header": {
+      "children": [
+        "modal-trigger#buscador-header"
+      ],
+      "props": {
+        "width": "20%",
+        "blockClass":[
+          "icono-buscador-nuevo-header"
+        ]
+      }
+    },
+
+    "modal-trigger#buscador-header": {
+      "children": [
+        "image#icono-buscador-nuevo-header", "modal-layout#buscador-header"
+      ]
+    },
+    "image#icono-buscador-nuevo-header": {
+      "props": {
+        "src": "/arquivos/search-icon-nuevo-menu.png",
+        "blockClass":[
+          "icono-buscador-nuevo-header"
+        ]
+      }
+    },
+    "modal-layout#buscador-header": {
+      "children": [
+        "modal-header#buscador-header",
+        "flex-layout.col#header-items-desk-col-1"
+      ],
+      "props": {
+        "blockClass": "modal-buscador-header",
+        "backdrop": "none"
+      }
+    },
+    //MODAL BUSCADOR//
+
+    "modal-header#buscador-header": {
+      "props": {
+        "showCloseButton": true,
+        "iconCloseSize": 24
+      }
+    },
 
   "flex-layout.col#header-items-desk-col-1": {
     "children": [
       "search-bar"
     ],
     "props": {
-      "width": "55%"
+      "width": "55%",
+      "blockClass": "input-buscador-nuevo-header"
     }
   },
 
@@ -171,7 +237,7 @@
     "props": {
       "openAutocompleteOnFocus": true,
       "placeholder": "Buscar",
-      "blockClass": "contentSearch"
+      "blockClass": ["contentSearch", "input-buscador-nuevo-header-content"]
     }
   },
   "autocomplete-result-list.v2#desktop": {
@@ -193,17 +259,22 @@
       "flex-layout.row#header-items-desk-ico"
     ],
     "props": {
-      "width": "45%",
+      "width": "35%",
+      //"width": "45%",
       "blockClass": "contenicos"
     }
   },
 
   "flex-layout.row#header-items-desk-ico": {
     "children": [
+      "flex-layout.col#content-buscador-header",
       "flex-layout.col#header-items-desk-ico-col-1",
       "flex-layout.col#header-items-desk-ico-col-2",
       "flex-layout.col#header-items-desk-ico-col-3"
-    ]
+    ],
+    "props": {
+      "blockClass": "iconos-flex-header-menu"
+    }
   },
 
   //Icono wishList

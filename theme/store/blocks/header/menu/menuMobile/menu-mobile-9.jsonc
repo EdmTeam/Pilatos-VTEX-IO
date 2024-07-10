@@ -1,7 +1,8 @@
 {
     "flex-layout.row#submenu-level-1-row-9": {
         "children": [
-            "flex-layout.row#submenu-level-1-texto-row-9"
+            "flex-layout.row#submenu-level-1-texto-row-9",
+            "rich-text#cambiosdev"
             // "drawer#submenu-level-1-row-6"
         ],
         "props": {

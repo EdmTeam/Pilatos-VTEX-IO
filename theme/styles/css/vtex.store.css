@@ -163,6 +163,8 @@
 
 :global(.vtex-store-components-3-x-autoCompleteOuterContainer--contentSearch) :global(.vtex-input-prefix__group){
     border-bottom: none;
+    /*Ubicar el "Buscar" al lado izquierdo*/
+    text-align-last: justify;
 }
 
 /* Estilos para el resumen de carrito */
