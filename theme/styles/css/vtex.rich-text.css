@@ -3381,17 +3381,17 @@ margin: 2px;
 
 
 /*template nuevo de género*/
-.paragraph--botonGeneroNuevo {
-    background-color:  black;
+.link--botonGeneroNuevo {
+  text-decoration: none;
+  background-color:  black;
     border: none;
     font-weight: 700;
     color: white;
-    width: 160px;
-    height: 46px;
+    width: 150px;
+    height: 40px;
     text-align: center;
     display: inline-block;
     font-size: 16px;
-    margin: 10px 20px;
     cursor: pointer;
     border-radius: 25px;
     text-decoration: none;
@@ -3400,27 +3400,11 @@ margin: 2px;
     justify-content: center;
     align-items: center;
 }
-
-.link--botonGeneroNuevo {
-  color: white;
-  text-decoration: none;
+.link--botonGeneroNuevo:hover {
+  background-color: #F5D400;
+  color: #000;
 }
 
-@media (max-width:640px) {
-  .paragraph--botonGeneroNuevo {
-    width: 150px;
-    height: 36px;
-    margin: 10px 5px;
-  }
-}
-
-.paragraph--botonGeneroNuevo:hover {
-  background-color: #FFD400;
-}
-
-.paragraph--botonGeneroNuevo:hover .link--botonGeneroNuevo{
-  color: black;
-}
 
 /* template envio express*/
 .paragraph--titulo-envio-express {
