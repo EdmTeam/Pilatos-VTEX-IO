@@ -3350,6 +3350,7 @@ width: 88%;
 .flexRowContent--botones-nuevo-template-genero {
   display: flex;
   align-items: center;
+  gap: 10px;
 }
 
 .flexRowContent--contenedor-envio-express {
