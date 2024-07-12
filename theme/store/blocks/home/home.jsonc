@@ -6,6 +6,8 @@
       "flex-layout.row#texto-SEO",
       "rich-text#h1-pilatoshome",
 
+      // "livestreaming",
+
       "responsive-layout.phone#brands-promise",
       "responsive-layout.tablet#brands-promise",
       "responsive-layout.desktop#brands-promise",

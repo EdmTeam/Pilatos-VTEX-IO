@@ -81,7 +81,8 @@
   },
   "peerDependencies": {
     "pilatos21.wishlist": "0.x",
-    "addi.product-page-action": "1.x"
+    "addi.product-page-action": "1.x",
+    "vtexventures.livestreaming": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
