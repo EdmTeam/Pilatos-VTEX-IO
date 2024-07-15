@@ -1,0 +1,37 @@
+{
+    "title": "formulariocolombiamoda",
+    "type": "object",
+    "properties": {
+        "terms": {
+            "type": "boolean",
+            "title": "Acepta términos y condiciones"
+        },
+        "name": {
+            "type": "string",
+            "title": "Nombre Completo"
+        },
+        "mail": {
+            "type": "string",
+            "format": "email",
+            "title": "Correo Electrónico"
+        },
+ 
+        "phone": {
+            "type": "string",
+            "format": "phone",
+            "title": "Número de Teléfono"
+        }
+    },
+    "required": [
+        "mail",
+        "name",
+        "phone",
+        "terms"
+    ],
+    "v-security": {
+        "publicWrite": [
+            "publicForWrite"
+        ],
+        "publicJsonSchema": true
+    }
+}
