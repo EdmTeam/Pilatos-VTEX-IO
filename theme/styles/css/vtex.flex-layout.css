@@ -981,6 +981,15 @@
   height: 2rem;
 }
 
+/****Formulario colombia moda**/
+.flexRowContent--formulario-expectativa-live-shopping :global(.vtex-input-prefix__group) {
+  background-color: #DCDCDC;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+/****Formulario colombia moda**/
+
 .flexColChild--contentNewsletter :global(.vtex-styleguide-9-x-input)::placeholder {
   text-align: left;
 }
@@ -3704,4 +3713,14 @@ width: 88%;
 .flexRowContent--iconos-flex-header-menu {
   display: flex;
   align-items: center;
+}
+
+/****FORMULARIO LANDING LIVE SHOPPING**/
+.flexRow--contenedor-formulario-expectativa-live-shopping {
+  background-color: #F0F0F0;
+  padding: 20px 0;
+}
+.flexRowContent--formulario-expectativa-live-shopping {
+  width: 40%;
+  margin: 0 auto;
 }

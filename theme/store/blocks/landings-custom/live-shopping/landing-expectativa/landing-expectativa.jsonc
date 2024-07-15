@@ -1,0 +1,138 @@
+{
+  "store.custom#landing-expectativa-live-shopping": {
+    "blocks": [
+      "flex-layout.row#bread",
+      "flex-layout.row#seo-corto",
+      "list-context.image-list#banner-hero-expectativa-live-shopping",
+      "flex-layout.row#contenedor-formulario-expectativa-live-shopping",
+      "responsive-layout.desktop#landing-expectativa-live-shopping-desk",
+      "responsive-layout.phone#landing-expectativa-live-shopping-mob",
+      "rich-text#filtro-seo"
+    ]
+  },
+
+  //Banner landing
+  "list-context.image-list#banner-hero-expectativa-live-shopping": {
+    "children": ["slider-layout#banner-hero-expectativa-live-shopping"],
+    "props": {
+      "preload": true,
+      "height": 750,
+      "images": [
+        {
+          "image": "/arquivos/hero-live-shopping-expectativa.png",
+          "mobileImage": "/arquivos/hero-live-shopping-expectativa-mob.png",
+          "description": "Sneaker city image"
+        }
+      ]
+    }
+  },
+
+  "slider-layout#banner-hero-expectativa-live-shopping": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "blockClass": "ingredienteFragancia"
+    }
+  },
+
+  //FORMULARIO
+  "flex-layout.row#contenedor-formulario-expectativa-live-shopping": {
+    "children": [
+        "flex-layout.row#form-expectativa-live-shopping"
+    ],
+    "props": {
+        "blockClass": "contenedor-formulario-expectativa-live-shopping",
+        "marginTop": 4
+    }
+  },
+
+  "flex-layout.row#form-expectativa-live-shopping": {
+    "children": [
+        "form#expectativa-live-shopping"
+    ],
+    "props": {
+        "blockClass": "formulario-expectativa-live-shopping"
+    }
+  },
+
+  "form#expectativa-live-shopping": {
+    "props": {
+        "entity": "MC",
+        "schema": "formulariocolombiamoda"
+    },
+    "children": [
+        "rich-text#form-title-live-shopping",
+        "form-input.text#live-shopping-form-name",
+        "form-input.text#live-shopping-form-phone",
+        "form-input.text#live-shopping-form-email",
+        "flex-layout.row#contenedor-checkbox-live-shopping",
+        "form-submit#live-shopping-form-submit"
+    ]
+  },
+
+  //CONTENIDO FORMULARIO
+  "rich-text#form-title-live-shopping": {
+    "props": {
+        "text": "Inscríbete aquí para disfrutar de la promo y de nuestra colección colombiamoda 24",
+        "blockClass": "titulo-formulario-live-shopping"
+    }
+  },
+  "form-input.text#live-shopping-form-name":{
+        "props": {
+            "pointer": "#/properties/name",
+            "placeholder": "Nombres"
+        }
+    },
+    "form-input.text#live-shopping-form-phone":{
+        "props": {
+            "pointer": "#/properties/phone",
+            "placeholder": "Teléfono"
+        }
+    },
+    "form-input.text#live-shopping-form-email":{
+        "props": {
+            "pointer": "#/properties/mail",
+            "placeholder": "Email"
+        }
+    },
+    "flex-layout.row#contenedor-checkbox-live-shopping": {
+        "children": [
+            "flex-layout.col#contenedor-checkbox-live-shopping"
+        ]
+    },
+
+    "flex-layout.col#contenedor-checkbox-live-shopping": {
+        "children": [
+            "form-input.checkbox#live-shopping-form-terms",
+            "rich-text#live-shopping-read-politics"
+        ],
+        "props": {
+            "blockClass": "checkboxLabel-form-live-shopping"
+        }
+    },
+
+    "rich-text#live-shopping-read-politics": {
+        "props": {
+            "text": "Leer [política de datos](/politicas) y [términos y condiciones](/terminos-condiciones)",
+            "textAlignment": "LEFT",
+            "textPosition": "left",
+            "font": "t-mini",
+            "blockClass": "read-politics-dsi"
+        }
+    },"form-input.checkbox#live-shopping-form-terms": {
+        "props": {
+            "pointer": "#/properties/terms",
+            "label": ""
+        }
+    },
+    "form-submit#live-shopping-form-submit": {
+        "props": {
+            "label": "Inscribirme",
+            "blockClass": "submit-dsi"
+        }
+    }
+}

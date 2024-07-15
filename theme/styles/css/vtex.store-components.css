@@ -68,7 +68,7 @@
 
 :global(.vtex-styleguide-9-x-input)::placeholder{
     color: #260C11;
-    text-align: right;
+    text-align: left;
 }
 
 :global(.vtex-input__suffix){

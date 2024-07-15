@@ -3771,3 +3771,10 @@ margin: 2px;
   color: #000;
   font-size: 0.8rem;
 }
+
+/******Formulario live shopping**/
+.paragraph--titulo-formulario-live-shopping {
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.5rem;
+}
