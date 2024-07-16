@@ -1,0 +1,10 @@
+{
+  "store.custom#landing-live-shopping": {
+    "blocks":[
+            "livestreaming"
+        ],
+        "props":{
+            "blockClass": "landing-live-shopping"
+      }
+  }
+}
