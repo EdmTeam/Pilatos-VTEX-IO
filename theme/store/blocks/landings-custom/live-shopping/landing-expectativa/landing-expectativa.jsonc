@@ -70,6 +70,9 @@
         "form-input.text#live-shopping-form-email",
         "flex-layout.row#contenedor-checkbox-live-shopping",
         "form-submit#live-shopping-form-submit"
+    ],
+    "blocks": [
+      "form-success#live-shopping"
     ]
   },
 
@@ -232,5 +235,21 @@
         "src": "https://youtu.be/C1VJGIAtKZA",
         "blockClass": "videoEl"
       }
-    }
+    },
+
+    //FORM SUCCESS
+    "form-success#live-shopping": {
+      "children": [
+        "rich-text#live-shopping-successSubmit"
+      ]
+    },
+  
+    "rich-text#live-shopping-successSubmit": {
+      "props": {
+          "text": "Gracias por suscribirte, usa el código **NOMADASPLTS** en el carrito y recibe un obsequio por tus compras durante nuestro Live Shopping",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "blockClass": "dsi-successSubmit"
+      }
+  }
 }
