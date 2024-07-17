@@ -3778,3 +3778,9 @@ margin: 2px;
   text-align: center;
   font-size: 1.5rem;
 }
+
+/***Landing franqs***/
+.container--contenedor-template-franqs {
+  width: 90%;
+  margin: 0 auto;
+}

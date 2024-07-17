@@ -3482,18 +3482,6 @@ width: 88%;
   gap: 12px;
 }
 
-.flexRowContent--organique-francques-banner, .flexRowContent--banners-hym-francques {
-  width: 90%;
-  margin: 0 auto;
-}
-
-@media screen and (max-width: 450px) {
-  .flexRowContent--banners-hym-francques {
-    width: 95%;
-    margin: 0 auto;
-  }
-}
-
 /*Cuidado de prendas*/
 .flexCol--contenedor-primera-compra-icons {
   flex-direction: row;
@@ -3722,5 +3710,37 @@ width: 88%;
 }
 .flexRowContent--formulario-expectativa-live-shopping {
   width: 40%;
+  margin: 0 auto;
+}
+.flexCol--checkboxLabel-form-live-shopping {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.flexRowContent--formulario-expectativa-live-shopping :global(.vtex-store-form-0-x-formSubmitButton){
+  /*width: 45%;*/
+  width: 100%;
+}
+.flexRow--contenedor-videos-live-shopping {
+  width: 60%;
+  margin: 0 auto;
+}
+@media screen and (max-width: 768px) {
+  .flexRowContent--formulario-expectativa-live-shopping {
+    width: 90%;
+  }
+  .flexRow--contenedor-videos-live-shopping {
+    width: 90%;
+  }
+  .flexRowContent--contenedor-parte-1-live-shopping {
+    display: flex;
+    gap: 5px;
+  }
+}
+
+/****LANDING FRANQS***/
+.flexRowContent--contenedor-template-franqs {
+  width: 90%;
   margin: 0 auto;
 }

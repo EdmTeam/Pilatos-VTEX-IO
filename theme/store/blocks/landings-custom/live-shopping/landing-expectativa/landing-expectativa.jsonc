@@ -5,8 +5,7 @@
       "flex-layout.row#seo-corto",
       "list-context.image-list#banner-hero-expectativa-live-shopping",
       "flex-layout.row#contenedor-formulario-expectativa-live-shopping",
-      "responsive-layout.desktop#landing-expectativa-live-shopping-desk",
-      "responsive-layout.phone#landing-expectativa-live-shopping-mob",
+      "flex-layout.row#contenedor-videos-live-shopping",
       "rich-text#filtro-seo"
     ]
   },
@@ -132,7 +131,106 @@
     "form-submit#live-shopping-form-submit": {
         "props": {
             "label": "Inscribirme",
-            "blockClass": "submit-dsi"
+            "blockClass": "submit-live-shopping"
         }
+    },
+
+    //Videos expectativa live shopping
+    "flex-layout.row#contenedor-videos-live-shopping": {
+      "children": [
+        "flex-layout.col#contenedor-videos-live-shopping"
+      ],
+      "props": {
+        "blockClass": "contenedor-videos-live-shopping"
+      }
+    },
+
+    "flex-layout.col#contenedor-videos-live-shopping": {
+      "children": [
+        "rich-text#subtitle-live-shopping",
+        "flex-layout.row#videos-primera-parte-live-shopping",
+        "flex-layout.row#videos-segunda-parte-live-shopping"
+      ]
+    },
+
+    "rich-text#subtitle-live-shopping": {
+      "props": {
+        "text": "¡Un poco de lo que verás en nuestro Live Shopping!",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER"
+      }
+    },
+
+    "flex-layout.row#videos-primera-parte-live-shopping": {
+      "children": [
+        "video#background-1-live-shopping",
+        "video#background-2-live-shopping"
+      ],
+      "props": {
+        "rowGap": 6,
+        "colGap": 6,
+        "marginBottom": 6,
+        "blockClass": "contenedor-parte-1-live-shopping"
+      }
+    },
+
+    "flex-layout.row#videos-segunda-parte-live-shopping": {
+      "children": [
+        "video#background-3-live-shopping",
+        "video#background-4-live-shopping"
+      ],
+      "props": {
+        "rowGap": 6,
+        "colGap": 6,
+        "blockClass": "contenedor-parte-1-live-shopping"
+      }
+    },
+
+    "video#background-1-live-shopping": {
+      "props": {
+        "width": "100%",
+        "height": "500px",
+        "loop": false,
+        "autoPlay": true,
+        "muted": false,
+        "src": "https://youtu.be/C1VJGIAtKZA",
+        "blockClass": "videoEl"
+      }
+    },
+
+    "video#background-2-live-shopping": {
+      "props": {
+        "width": "100%",
+        "height": "500px",
+        "loop": false,
+        "autoPlay": true,
+        "muted": false,
+        "src": "https://youtu.be/C1VJGIAtKZA",
+        "blockClass": "videoEl"
+      }
+    },
+
+    "video#background-3-live-shopping": {
+      "props": {
+        "width": "100%",
+        "height": "500px",
+        "loop": false,
+        "autoPlay": true,
+        "muted": false,
+        "src": "https://youtu.be/C1VJGIAtKZA",
+        "blockClass": "videoEl"
+      }
+    },
+
+    "video#background-4-live-shopping": {
+      "props": {
+        "width": "100%",
+        "height": "500px",
+        "loop": false,
+        "autoPlay": true,
+        "muted": false,
+        "src": "https://youtu.be/C1VJGIAtKZA",
+        "blockClass": "videoEl"
+      }
     }
 }
