@@ -3733,10 +3733,6 @@ width: 88%;
   .flexRow--contenedor-videos-live-shopping {
     width: 90%;
   }
-  .flexRowContent--contenedor-parte-1-live-shopping {
-    display: flex;
-    gap: 5px;
-  }
 }
 
 /****LANDING FRANQS***/

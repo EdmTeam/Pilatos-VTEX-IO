@@ -166,8 +166,8 @@
 
     "flex-layout.row#videos-primera-parte-live-shopping": {
       "children": [
-        "video#background-1-live-shopping",
-        "video#background-2-live-shopping"
+        "flex-layout.col#videos-primera-parte-live-shopping",
+        "flex-layout.col#imagen-primera-parte-live-shopping"
       ],
       "props": {
         "rowGap": 6,
@@ -179,15 +179,27 @@
 
     "flex-layout.row#videos-segunda-parte-live-shopping": {
       "children": [
-        "video#background-3-live-shopping",
-        "video#background-4-live-shopping"
+        "image#background-1-live-shopping",
+        "image#background-2-live-shopping"
       ],
       "props": {
-        "rowGap": 6,
-        "colGap": 6,
-        "blockClass": "contenedor-parte-1-live-shopping"
+        "colGap": 4,
+        "rowGap": 4
       }
     },
+
+    "flex-layout.col#videos-primera-parte-live-shopping": {
+      "children": [
+        "video#background-1-live-shopping"
+      ]
+    },
+
+    "flex-layout.col#imagen-primera-parte-live-shopping": {
+      "children": [
+        "image#background-1-live-shopping"
+      ]
+    },
+
 
     "video#background-1-live-shopping": {
       "props": {
@@ -201,39 +213,17 @@
       }
     },
 
-    "video#background-2-live-shopping": {
+    "image#background-1-live-shopping": {
       "props": {
-        "width": "100%",
-        "height": "500px",
-        "loop": false,
-        "autoPlay": true,
-        "muted": false,
-        "src": "https://youtu.be/C1VJGIAtKZA",
-        "blockClass": "videoEl"
+        "src": "/arquivos/Pilatos-Accesorios-Landing-Banner-Hombre-Desk-nuevo.jpg",
+        "alt": "Imagen 1 live shopping"
       }
     },
 
-    "video#background-3-live-shopping": {
+    "image#background-2-live-shopping": {
       "props": {
-        "width": "100%",
-        "height": "500px",
-        "loop": false,
-        "autoPlay": true,
-        "muted": false,
-        "src": "https://youtu.be/C1VJGIAtKZA",
-        "blockClass": "videoEl"
-      }
-    },
-
-    "video#background-4-live-shopping": {
-      "props": {
-        "width": "100%",
-        "height": "500px",
-        "loop": false,
-        "autoPlay": true,
-        "muted": false,
-        "src": "https://youtu.be/C1VJGIAtKZA",
-        "blockClass": "videoEl"
+        "src": "/arquivos/Pilatos-Accesorios-Landing-Banner-Hombre-Desk-nuevo.jpg",
+        "alt": "Imagen 1 live shopping"
       }
     },
 
