@@ -1,12 +1,14 @@
 {
   "store.home": {
     "blocks": [
+    //  "livestreaming",
       "modal-trigger#welcome",
      "flex-layout.row#congtent-slider",
       "flex-layout.row#texto-SEO",
+
       "rich-text#h1-pilatoshome",
 
-      // "livestreaming",
+
 
       "responsive-layout.phone#brands-promise",
       "responsive-layout.tablet#brands-promise",

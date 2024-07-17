@@ -617,5 +617,8 @@
     },
     "store.custom#landing-memorama-mundial": {
         "path": "/memorama-mundial"
+    },
+    "store.custom#landing-live-shopping": {
+        "path": "/live-shopping"
     }
 }
