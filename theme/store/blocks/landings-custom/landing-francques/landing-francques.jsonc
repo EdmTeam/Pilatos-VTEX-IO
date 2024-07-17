@@ -1,6 +1,7 @@
 {
     "store.custom#landing-francques ": {
         "blocks": [
+            "flex-layout.row#breadFranqs",
             "flex-layout.row#template-francques",
             "search-result-layout.customQuery#department-nuevo"
         ],
@@ -13,17 +14,28 @@
         "children":[
             "flex-layout.col#template-francques"
 
+        ]
+    },
+
+    "flex-layout.row#breadFranqs": {
+        "children": [
+            "flex-layout.col#breadFranqs"
         ],
-        "props":{
-            "blockClass": "contentSearch"
+        "props": {
+            "blockClass": "contenedor-template-franqs"
         }
+    },
+
+    "flex-layout.col#breadFranqs": {
+        "children": [
+            "rich-text#department-templateGeneroNuevo-bread",
+            "rich-text#department-templateGeneroNuevo-title"
+        ]
     },
 
     "flex-layout.col#template-francques": {
         "title": "Contenedor landing francques",
         "children":[
-            "rich-text#department-templateGeneroNuevo-bread",
-            "rich-text#department-templateGeneroNuevo-title",
             "responsive-layout.desktop#contenedor-principal-desktop",
             "responsive-layout.tablet#contenedor-principal-tablet",
             "responsive-layout.phone#contenedor-principal-phone"
@@ -34,7 +46,7 @@
         "title": "SEO CORTO",
         "props":{
             "text": "Contamos con nuestra **propia línea de ropa Pilatos** que trae nuevas cápsulas mes a mes, como Olímpicos, inspirada en los elementos típicos de los Juegos Olímpicos y Tokio como ciudad anfitriona. Encuentra diseños exclusivos de ropa para mujer y hombre en un solo lugar, camisetas, buzos y chaquetas, jeans y accesorios, perfectos para innovar y renovar tu clóset.",
-            "blockClass": "departmentDescription",
+            "blockClass": ["departmentDescription", "contenedor-template-franqs"],
             "textAlignment": "CENTER"
         }
     }
