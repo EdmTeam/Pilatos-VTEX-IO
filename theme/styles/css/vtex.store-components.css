@@ -903,8 +903,16 @@ cursor: pointer;
 }
 
 /***Landing Colombia moda**/
+
 .imageElement--imagen-1-live-shopping {
     width: 100%;
     height: 550px;
     object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+    .imageElement--imagen-1-live-shopping {
+        width: auto;
+        height: auto;
+    }
 }
