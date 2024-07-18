@@ -177,17 +177,6 @@
       }
     },
 
-    "flex-layout.row#videos-segunda-parte-live-shopping": {
-      "children": [
-        "image#background-1-live-shopping",
-        "image#background-2-live-shopping"
-      ],
-      "props": {
-        "colGap": 4,
-        "rowGap": 4
-      }
-    },
-
     "flex-layout.col#videos-primera-parte-live-shopping": {
       "children": [
         "video#background-1-live-shopping"
@@ -197,9 +186,11 @@
     "flex-layout.col#imagen-primera-parte-live-shopping": {
       "children": [
         "image#background-1-live-shopping"
-      ]
+      ],
+      "props": {
+        "blockClass": "contenedor-imagen-1-live-shopping"
+      }
     },
-
 
     "video#background-1-live-shopping": {
       "props": {
@@ -208,24 +199,68 @@
         "loop": false,
         "autoPlay": true,
         "muted": false,
-        "src": "https://youtu.be/C1VJGIAtKZA",
+        "src": "https://www.youtube.com/watch?v=C1VJGIAtKZA&t=215s&pp=ygUSbGl2ZSBzaG9wcGluZyB2dGV4",
         "blockClass": "videoEl"
       }
     },
 
     "image#background-1-live-shopping": {
       "props": {
-        "src": "/arquivos/Pilatos-Accesorios-Landing-Banner-Hombre-Desk-nuevo.jpg",
-        "alt": "Imagen 1 live shopping"
+        "src": "/arquivos/Pilatos-Colombiamoda-Landing1-Juanfe3.jpg",
+        "alt": "Imagen 1 live shopping",
+        "blockClass": "imagen-1-live-shopping"
       }
     },
 
-    "image#background-2-live-shopping": {
+    "flex-layout.row#videos-segunda-parte-live-shopping": {
+      "children": [
+        "flex-layout.col#videos-segunda-parte-live-shopping-1",
+        "flex-layout.col#videos-segunda-parte-live-shopping-2"
+      ],
       "props": {
-        "src": "/arquivos/Pilatos-Accesorios-Landing-Banner-Hombre-Desk-nuevo.jpg",
-        "alt": "Imagen 1 live shopping"
+        "colGap": 6,
+        "rowGap": 6,
+        "marginBottom": 6,
+        "blockClass": "contenedor-parte-2-live-shopping"
       }
     },
+
+    "flex-layout.col#videos-segunda-parte-live-shopping-1": {
+      "children": [
+        "video#background-3-live-shopping"
+      ]
+    },
+
+    "flex-layout.col#videos-segunda-parte-live-shopping-2": {
+      "children": [
+        "video#background-4-live-shopping"
+      ]
+    },
+
+    "video#background-3-live-shopping": {
+      "props": {
+        "width": "100%",
+        "height": "550px",
+        "loop": false,
+        "autoPlay": true,
+        "muted": false,
+        "src": "https://www.youtube.com/watch?v=C1VJGIAtKZA&t=215s&pp=ygUSbGl2ZSBzaG9wcGluZyB2dGV4",
+        "blockClass": "videoEl"
+      }
+    },
+
+    "video#background-4-live-shopping": {
+      "props": {
+        "width": "100%",
+        "height": "550px",
+        "loop": false,
+        "autoPlay": true,
+        "muted": false,
+        "src": "https://www.youtube.com/watch?v=C1VJGIAtKZA&t=215s&pp=ygUSbGl2ZSBzaG9wcGluZyB2dGV4",
+        "blockClass": "videoEl"
+      }
+    },
+
 
     //FORM SUCCESS
     "form-success#live-shopping": {
