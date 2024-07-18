@@ -901,3 +901,10 @@ cursor: pointer;
     width: 18px;
     cursor: pointer;
 }
+
+/***Landing Colombia moda**/
+.imageElement--imagen-1-live-shopping {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+}
