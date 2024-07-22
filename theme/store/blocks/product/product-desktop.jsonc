@@ -281,6 +281,8 @@
 
     "flex-layout.col#btn-mi-talla": {
         "children": [
+            "size-guide#jeans-franques-masculino",
+            "size-guide#jeans-franques-femenino",
             "size-guide#inferior-mujer-Replay",
             "size-guide#hombre-inferior-Replay",
             "size-guide#north-face-superior-masculino",

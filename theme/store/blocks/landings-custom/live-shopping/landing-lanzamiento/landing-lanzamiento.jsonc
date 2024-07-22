@@ -1,5 +1,183 @@
 {
-    "store.custom#landing-lanzamiento-live-shopping": {
+  "store.custom#landing-lanzamiento-live-shopping": {
+    "blocks": [
+      "flex-layout.row#bread",
+      "flex-layout.row#seo-corto",
+      "list-context.image-list#banner-hero-lanamiento-live-shopping",
+      "flex-layout.row#video-lanzamiento-live-shopping",
+      "flex-layout.row#carrusel-lanzamiento-live-shopping",
+      "flex-layout.row#carrusel-productos-lanamiento-live-shopping",
+      "flex-layout.row#botones-templateLiveShopping",
+      "search-result-layout.customQuery#department-nuevo",
+      "rich-text#filtro-seo"
+    ]
+  },
 
+  "list-context.image-list#banner-hero-lanamiento-live-shopping": {
+    "children": ["slider-layout#banner-hero-lanamiento-live-shopping"],
+    "props": {
+      "preload": true,
+      "height": 750,
+      "images": [
+        {
+          "image": "/arquivos/Pilatos-Colombiamoda-Landing3-BannerPpal-Desk.jpg",
+          "mobileImage": "/arquivos/Pilatos-Colombiamoda-Landing3-BannerPpal-Mob.jpg",
+          "description": "Sneaker city image"
+        }
+      ]
     }
+  },
+
+  "slider-layout#banner-hero-lanamiento-live-shopping": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "blockClass": "ingredienteFragancia"
+    }
+  },
+
+  //Video
+  "flex-layout.row#video-lanzamiento-live-shopping": {
+    "children": ["video#background-lanzamiento-live-shopping"],
+    "props": {
+      "blockClass": "contenedor-video-lanzamiento-live-shopping",
+      "marginBottom": 4
+    }
+  },
+
+  //CARRSUEL
+  "flex-layout.row#carrusel-lanzamiento-live-shopping": {
+    "children": [
+      "slider-layout#lanzamiento-live-shopping"
+    ],
+    "props": {
+      "marginBottom": 6,
+      "marginTop": 6,
+      "blockClass": "contenedor-carrusel-lanzamiento-live-shopping"
+    }
+  },
+
+  "slider-layout#lanzamiento-live-shopping": {
+    "children": [
+      "image#banner-1-lanzamiento-live-shopping",
+      "image#banner-2-lanzamiento-live-shopping",
+      "image#banner-3-lanzamiento-live-shopping",
+      "image#banner-4-lanzamiento-live-shopping",
+      "image#banner-5-lanzamiento-live-shopping"
+    ],
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true
+    }
+  },
+
+  "image#banner-1-lanzamiento-live-shopping": {
+    "props": {
+      "src": "/arquivos/Pilatos-Colombiamoda-Landing3-GrupoDarkNight.jpg"
+    }
+  },
+  "image#banner-2-lanzamiento-live-shopping": {
+    "props": {
+      "src": "/arquivos/Pilatos-Colombiamoda-Landing3-GrupoDenim.jpg"
+    }
+  },
+  "image#banner-3-lanzamiento-live-shopping": {
+    "props": {
+      "src": "/arquivos/Pilatos-Colombiamoda-Landing3-GrupoFrancques.jpg"
+    }
+  },
+  "image#banner-4-lanzamiento-live-shopping": {
+    "props": {
+      "src": "/arquivos/Pilatos-Colombiamoda-Landing3-GrupoLunar.jpg"
+    }
+  },
+  "image#banner-5-lanzamiento-live-shopping": {
+    "props": {
+      "src": "/arquivos/Pilatos-Colombiamoda-Landing3-GrupoSpaceDesert.jpg"
+    }
+  },
+  //CARRSUEL
+
+  "video#background-lanzamiento-live-shopping": {
+    "props": {
+      "width": "100%",
+      "height": "300",
+      "loop": false,
+      "autoPlay": true,
+      "muted": false,
+      "src": "https://www.youtube.com/watch?v=C1VJGIAtKZA&t=215s&pp=ygUSbGl2ZSBzaG9wcGluZyB2dGV4",
+      "blockClass": "video-lanzamiento-live-shopping"
+    }
+  },
+
+  //CARRUSEL PRODUCTO
+  "flex-layout.row#carrusel-productos-lanamiento-live-shopping": {
+    "children": ["flex-layout.col#carrusel-productos-lanamiento-live-shopping"],
+    "props": {
+      "marginTop": 6,
+      "blockClass": "container-carrusel-productos-live-shopping"
+    }
+  },
+
+  "flex-layout.col#carrusel-productos-lanamiento-live-shopping": {
+    "children": [
+      "rich-text#recomendadorliveShopping",
+      "vtex.product-summary:list-context.product-list#recomendadorliveShopping"
+    ],
+    "props": {
+      "blockClass": "carrusel-productos-live-shopping"
+    }
+  },
+
+  "rich-text#recomendadorliveShopping": {
+    "props": {
+      "text": "Recomendados Colombiamoda 2024",
+      "blockClass": "titulo-recomendador-colombiamoda"
+    }
+  },
+
+  "vtex.product-summary:list-context.product-list#recomendadorliveShopping": {
+    "blocks": ["vtex.product-summary:product-summary.shelf#most-viewed"],
+    "children": ["slider-layout#home-shelf-most-viewedeee"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "collection": "1281",
+      "maxItems": 10
+    }
+  },
+
+  //BOTONES
+  "flex-layout.row#botones-templateLiveShopping": {
+    "children": [
+      "rich-text#btnsLiveShopping-boton1",
+      "rich-text#btnsLiveShopping-boton2"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "blockClass": "botones-nuevo-template-genero"
+    }
+  },
+
+  "rich-text#btnsLiveShopping-boton1": {
+    "props": {
+      "text": "[**HOMBRE**](/hombre)",
+      "blockClass": "botonGeneroNuevo"
+    }
+  },
+
+  "rich-text#btnsLiveShopping-boton2": {
+    "props": {
+      "text": "[**MUJER**](/mujer)",
+      "blockClass": "botonGeneroNuevo"
+    }
+  }
 }

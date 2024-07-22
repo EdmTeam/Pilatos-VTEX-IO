@@ -70,7 +70,9 @@
             "rich-text#submenu-desk-department-4-category-0", //vacío
             "rich-text#submenu-desk-department-4-category-58", //THE NORTH FACE
             "rich-text#submenu-desk-department-4-category-0", //vacío
-            "rich-text#submenu-desk-department-4-category-59" //ARTDIST
+            "rich-text#submenu-desk-department-4-category-59", //ARTDIST
+            "rich-text#submenu-desk-department-4-category-0", //vacío
+            "rich-text#submenu-desk-department-4-category-60" //Franques
 
 
         ],
@@ -95,6 +97,16 @@
     "rich-text#submenu-desk-department-4-category-59":{
         "props":{
             "text": "[Artdist](/artdist)",
+            "blockClass": [
+              "textSubcategory"
+
+            ]
+        }
+    },
+
+    "rich-text#submenu-desk-department-4-category-60":{
+        "props":{
+            "text": "[Franques](/franques)",
             "blockClass": [
               "textSubcategory"
 
