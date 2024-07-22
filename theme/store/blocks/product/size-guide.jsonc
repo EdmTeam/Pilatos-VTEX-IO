@@ -2060,5 +2060,43 @@
                 }
             ]
         }
+    },
+
+    //FRANQUES
+    "size-guide#jeans-franques-masculino": {
+        "props": {
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000133"
+                    ],
+                    "categories": [
+                        "5"
+                    ],
+                    "imageDesktop": "/arquivos/1GUIA-DE-TALLAS-MASCULINO-FRANCQUES.jpg",
+                    "imageTablet": "/arquivos/1GUIA-DE-TALLAS-MASCULINO-FRANCQUES.jpg",
+                    "imagePhone": "/arquivos/1GUIA-DE-TALLAS-MASCULINO-FRANCQUES.jpg"
+                }
+            ]
+        }
+    },
+
+    "size-guide#jeans-franques-femenino": {
+        "props": {
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000133"
+                    ],
+                    "categories": [
+                        "48"
+                    ],
+                    "imageDesktop": "/arquivos/1GUIA-DE-TALLAS-FEMENINO-FRANCQUES.jpg",
+                    "imageTablet": "/arquivos/1GUIA-DE-TALLAS-FEMENINO-FRANCQUES.jpg",
+                    "imagePhone": "/arquivos/1GUIA-DE-TALLAS-FEMENINO-FRANCQUES.jpg"
+                }
+            ]
+        }
     }
+    
 }

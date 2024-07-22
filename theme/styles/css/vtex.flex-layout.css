@@ -3740,3 +3740,33 @@ width: 88%;
   width: 90%;
   margin: 0 auto;
 }
+
+/***LANDING LANZAMIENTO COLOMBIAMODA**/
+.flexRowContent--contenedor-video-lanzamiento-live-shopping {
+  width: 70%;
+  margin: 20px auto;
+}
+
+.flexRowContent--contenedor-carrusel-lanzamiento-live-shopping {
+  width: 90%;
+  margin: 30px auto;
+}
+
+@media screen and (max-width: 768px) {
+  .flexRowContent--contenedor-video-lanzamiento-live-shopping {
+    width: 95%;
+  }
+
+  .flexRowContent--contenedor-carrusel-lanzamiento-live-shopping{
+    width: 95%;
+  }
+}
+.flexRow--container-carrusel-productos-live-shopping {
+  background-color: #F5F5F5;
+  padding: 20px 20px 30px 20px;
+  margin-top: 20px;
+}
+.flexCol--carrusel-productos-live-shopping {
+  width: 90% !important;
+  margin: 0 auto;
+}
