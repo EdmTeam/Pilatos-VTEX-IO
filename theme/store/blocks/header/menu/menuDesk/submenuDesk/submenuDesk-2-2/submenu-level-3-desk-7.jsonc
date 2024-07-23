@@ -21,12 +21,27 @@
             "rich-text#submenu-desk-department-2-category-7-subcategory-14",
             "rich-text#submenu-desk-department-2-category-7-subcategory-15",
             "rich-text#submenu-desk-department-2-category-7-subcategory-16",
-            "rich-text#submenu-desk-department-2-category-7-subcategory-20"
+            "rich-text#submenu-desk-department-2-category-7-subcategory-20",
+            "rich-text#submenu-desk-department-4-category-60-francques-2" //Franques
+ 
         ],
         "props":{
             "blockClass": "contentBlockSubmenu"
         }
     },
+
+
+       "rich-text#submenu-desk-department-4-category-60-francques-2":{
+          "props":{
+                "text": "[Francques](/francques)",
+                "blockClass": [
+                  "textSubcategory"
+    
+                ]
+            }
+
+    
+       },
 
     "rich-text#submenu-desk-department-2-category-7":{
         "props":{
