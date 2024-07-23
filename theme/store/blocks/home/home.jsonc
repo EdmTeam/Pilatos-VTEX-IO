@@ -1,14 +1,17 @@
 {
   "store.home": {
     "blocks": [
-    //  "livestreaming",
+      //  "livestreaming",
+
       "modal-trigger#welcome",
-     "flex-layout.row#congtent-slider",
+      "flex-layout.row#congtent-slider",
+
+      /*Carrusel live shopping, 
+    eliminar una vez termine el evento*/ "flex-layout.row#carrusel-productos-colombiamoda-home",
+
       "flex-layout.row#texto-SEO",
 
       "rich-text#h1-pilatoshome",
-
-
 
       "responsive-layout.phone#brands-promise",
       "responsive-layout.tablet#brands-promise",
@@ -20,19 +23,60 @@
       "flex-layout.row#marcas-sobrenosotros2024-slider",
       "link#content-chat-whatsapp",
       "__fold__.desktop",
-     "responsive-layout.phone#category-banners",
+      "responsive-layout.phone#category-banners",
       "responsive-layout.tablet#category-banners",
       "responsive-layout.desktop#category-banners",
-     // "flex-layout.row#most-viewed",
+      // "flex-layout.row#most-viewed",
       "responsive-layout.phone#promotional-banners-2-abtest",
       "responsive-layout.desktop#promotional-banners-2-abtest",
       "responsive-layout.tablet#promotional-banners-2-abtest",
 
       "flex-layout.row#cambio-devolucionesHome"
+
       //"flex-layout.row#Recently-viewed",
       /*"responsive-layout.phone#promotional-banners",
       "responsive-layout.tablet#promotional-banners",
       "responsive-layout.desktop#promotional-banners"*/
     ]
+  },
+
+  /*******************************/
+
+  /*Carrusel live shopping, 
+    eliminar una vez termine el evento*/
+  "flex-layout.row#carrusel-productos-colombiamoda-home": {
+    "children": ["flex-layout.col#carrusel-productos-colombiamoda-home"],
+    "title": "Carrusel 1 Live Shopping",
+    "props": {
+      "marginTop": 6,
+      "marginBottom": 6
+    }
+  },
+
+  "flex-layout.col#carrusel-productos-colombiamoda-home": {
+    "children": [
+      "rich-text#recomendador-carrusel-productos-colombiamoda-home",
+      "vtex.product-summary:list-context.product-list#carrusel-productos-colombiamoda-home"
+    ],
+    "props": {
+      "blockClass": "carrusel-productos-live-shopping"
+    }
+  },
+
+  "rich-text#recomendador-carrusel-productos-colombiamoda-home": {
+    "props": {
+      "text": "Recomendados Colombiamoda 2024",
+      "blockClass": "titulo-recomendador-colombiamoda"
+    }
+  },
+
+  "vtex.product-summary:list-context.product-list#carrusel-productos-colombiamoda-home": {
+    "blocks": ["vtex.product-summary:product-summary.shelf#most-viewed"],
+    "children": ["slider-layout#home-shelf-most-viewedeee"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "collection": "1281",
+      "maxItems": 32
+    }
   }
 }
