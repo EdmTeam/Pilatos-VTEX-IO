@@ -40,13 +40,25 @@
             "rich-text#submenu-level-3-text-14-row-7-row-2",
             "rich-text#submenu-level-3-text-15-row-7-row-2",
             "rich-text#submenu-level-3-text-16-row-7-row-2",
-            "rich-text#submenu-level-3-text-20-row-7-row-2"
+            "rich-text#submenu-level-3-text-20-row-7-row-2",
+            "rich-text#submenu-desk-department-4-category-60-francques-2-mobile" //Franques
 
         ],
         "props": {
             "blockClass": "contentSubMenuAcordeon"
         }
     },
+
+    "rich-text#submenu-desk-department-4-category-60-francques-2-mobile":{
+
+        "props": {
+            "text": "[Francques](/francques)",
+            "blockClass": [
+                "textSubmenuAcordeon",
+                "textSubcategoryPilatos"
+            ]
+        }
+    }, //Franques
 
     "rich-text#submenu-level-3-text-1-row-7-row-2": {
         "props": {

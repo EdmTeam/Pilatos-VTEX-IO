@@ -22,7 +22,8 @@
             "rich-text#submenu-desk-department-1-category-7-subcategory-17",
             "rich-text#submenu-desk-department-1-category-7-subcategory-18",
             "rich-text#submenu-desk-department-1-category-7-subcategory-19",
-            "rich-text#submenu-desk-department-1-category-7-subcategory-20"
+            "rich-text#submenu-desk-department-1-category-7-subcategory-20",
+            "rich-text#submenu-desk-department-4-category-60-francques-2" //Franques
                 ],
         "props":{
             "blockClass": "contentBlockSubmenu"

@@ -7,7 +7,7 @@
       "flex-layout.row#congtent-slider",
 
       /*Carrusel live shopping, 
-    eliminar una vez termine el evento*/ "flex-layout.row#carrusel-productos-colombiamoda-home-live-shopping",
+    eliminar una vez termine el evento*/ "flex-layout.row#carrusel-productos-colombiamoda-home-live-shoping",
 
       "flex-layout.row#texto-SEO",
 
@@ -44,7 +44,7 @@
 
   /*Carrusel live shopping, 
     eliminar una vez termine el evento*/
-  "flex-layout.row#carrusel-productos-colombiamoda-home-live-shopping": {
+  "flex-layout.row#carrusel-productos-colombiamoda-home-live-shoping": {
     "children": ["flex-layout.col#carrusel-productos-colombiamoda-home-live-shopping"],
     "title": "Carrusel Live Shopping",
     "props": {
