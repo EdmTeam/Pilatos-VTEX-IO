@@ -5,9 +5,10 @@
       "rich-text#department-guiaTallas-description",
       "guia-talla-custom-pilatos-new",
     //  "flex-layout.row#most-viewed",
-    "flex-layout.row#guiaDeTallas-titulo",
-      "flex-layout.row#textoSeoApoyo",
+    // "flex-layout.row#guiaDeTallas-titulo",
+      // "flex-layout.row#textoSeoApoyo",
           "responsive-layout.desktop#bannerGuiaDeTalla",
+          "responsive-layout.mobile#bannerGuiaDeTalla",
           "flex-layout.row#guiaTallasSeoLargo"
     ],
     "props":{
@@ -20,7 +21,9 @@
     "props":{
         "text": "# Importancia de Elegir los Zapatos Correctos \n En Pilatos, comprendemos que la elección del calzado va más allá de la simple estética; afecta directamente nuestra comodidad y salud. Los zapatos incorrectos pueden causar molestias, dolores e incluso lesiones a largo plazo. Es por eso que es fundamental elegir el calzado correcto para garantizar una experiencia cómoda y segura.",
         "blockClass": "ritualesSeoLargo",
-      "textAlignment": "CENTER"
+        "textColor": "c-on-black",
+        "textAlignment": "CENTER",
+        "fullWidth": false
     }
   },
 
@@ -45,17 +48,91 @@
     }
   },
 
+  "responsive-layout.mobile#bannerGuiaDeTalla":{
+    "children": [
+      "flex-layout.row#bannerGuiaDeTalla"
+    ],
+    "props":{
+      "blockClass": "bannerGuiaDeTalla"
+    }
+  },
+
   "flex-layout.row#guiaTallasSeoLargo": {
     "children": [
-      "rich-text#guiaTallasSeoLargo"
-    ]
+      "flex-layout.col#leftColumn",
+      "flex-layout.col#rightColumn"
+      
+    ],
+    "props": {
+      "blockClass": "guiaTallasSeoLargo",
+      "horizontalAlign": "center",
+      "marginTop": 8,
+      "fullWidth": false
+
+    }
   },
+
+  "flex-layout.col#leftColumn": {
+    "children": [
+      "responsive-layout.desktop#imageDesktop",
+      "responsive-layout.mobile#imageMobile"
+    ],
+    "props": {
+      "width": "40%"
+    }
+  },
+  "responsive-layout.desktop#imageDesktop":{
+    "children": [
+      "image#desktop"
+    ],
+    "props":{
+      "blockClass": "imageDesktop"
+    }
+  },
+
+  "responsive-layout.mobile#imageMobile":{
+    "children": [
+      "image#mobile"
+    ],
+    "props":{
+      "blockClass": "imageMobile"
+    }
+  },
+  "flex-layout.col#rightColumn": {
+    "children": [
+      "rich-text#guiaTallasSeoLargo"
+    ],
+    "props": {
+      "width": "40%"
+    }
+  },
+
+  "image#desktop": {
+  "props": {
+    "src": "",
+    "link": {
+      "url": ""
+    } ,
+    "alt": ""
+  }
+},
+
+"image#mobile": {
+  "props": {
+    "src": "https://appliancetheme.vteximg.com.br/arquivos/Responsive-Image-Mobile.jpg?q=1",
+    "link": {
+      "url": ""
+    } ,
+    "alt": ""
+  }
+},
 
   "rich-text#guiaTallasSeoLargo": {
     "props": {
       "text": "## Comodidad y Salud van de la Mano \n En Pilatos, sabemos que la comodidad es clave cuando se trata de elegir zapatos. Un calzado que no se ajusta correctamente puede provocar rozaduras, ampollas e incluso deformidades en los pies. Además, los zapatos inadecuados pueden afectar la postura y la alineación del cuerpo, lo que puede generar molestias adicionales. \n ## Medidas Precisas, Ajuste Perfecto \n Para encontrar la talla adecuada de zapatos, es esencial tomar medidas precisas de tus pies. Utiliza una cinta métrica para medir la longitud y el ancho del pie en centímetros. Recuerda que los pies pueden variar de tamaño a lo largo del día, por lo que es recomendable medirlos por la tarde para obtener resultados más precisos. ## Tablas de Conversión y Ajuste \n Consulta las tablas de conversión de tallas para asegurarte de que estás seleccionando la talla correcta según el sistema de numeración utilizado por la marca. Además, ten en cuenta el ajuste del zapato.",
       "blockClass": "ritualesSeoLargo",
-      "textAlignment": "CENTER"
+      "textAlignment": "LEFT",
+      "textColor": "c-on-black"
     }
   },
 
@@ -64,10 +141,9 @@
       "image#bannerGuiaDeTalla"
     ],
     "props": {
-      "marginTop": 150,
+      // "marginTop": 150,
       "border":"all",
-      "paddingTop": 15
-
+      "paddingTop": 7
     }
   },
 

@@ -3052,18 +3052,21 @@ margin: 2px;
 
 .container--ritualesSeoLargo{
   max-width: 80%;
-  margin: 5px auto 0 auto;
+  margin: auto;
   text-align: left;
-
 }
 
 .paragraph--ritualesSEO {
   font-size: 15px;
   color: #000;
   margin-top: 0;
+  font-size: 15px;
 
 }
 
+.headingLevel3--ritualesSeoLargo {
+  font-size: 19px;
+}
 .link--btnPrincipal{
   border-radius: 80px;
   background: #FFD400;
@@ -3132,8 +3135,18 @@ margin: 2px;
 
   .container--ritualesSeoLargo{
     text-align: center;
+  }
 
+  .wrapper--ritualesSeoLargo {
+    text-align: left;
+  }
 
+  .headingLevel3--ritualesSeoLargo {
+    font-size: 16px;
+  }
+
+  .paragraph--ritualesSeoLargo {
+    font-size: 14px;
   }
 
 }
@@ -3790,4 +3803,9 @@ margin: 2px;
 .paragraph--titulo-recomendador-colombiamoda {
   color: #000;
   font-size: 1.2rem;
+}
+
+.headingLevel2--ritualesSeoLargo {
+  text-align: center!important;
+  font-size: 25px;
 }
