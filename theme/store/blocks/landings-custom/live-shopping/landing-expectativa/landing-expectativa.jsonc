@@ -4,7 +4,7 @@
       "flex-layout.row#bread",
       "flex-layout.row#seo-corto",
       "list-context.image-list#banner-hero-expectativa-live-shopping",
-      "flex-layout.row#contenedor-formulario-expectativa-live-shopping",
+      //"flex-layout.row#contenedor-formulario-expectativa-live-shopping",
       "flex-layout.row#contenedor-videos-live-shopping",
       "rich-text#filtro-seo"
     ]
@@ -158,7 +158,7 @@
   "flex-layout.row#videos-primera-parte-live-shopping": {
     "children": [
       "flex-layout.col#videos-primera-parte-live-shopping",
-      "flex-layout.col#imagen-primera-parte-live-shopping"
+      "flex-layout.col#videos-segunda-parte-live-shopping"
     ],
     "props": {
       "rowGap": 6,
@@ -172,32 +172,34 @@
     "children": ["video#background-1-live-shopping"]
   },
 
-  "flex-layout.col#imagen-primera-parte-live-shopping": {
-    "children": ["image#background-1-live-shopping"],
-    "props": {
-      "blockClass": "contenedor-imagen-1-live-shopping"
-    }
-  },
-
   "video#background-1-live-shopping": {
     "props": {
       "width": "100%",
-      "height": "500px",
+      "height": "550px",
       "loop": false,
       "autoPlay": true,
       "muted": false,
-      "src": "https://www.youtube.com/watch?v=C1VJGIAtKZA&t=215s&pp=ygUSbGl2ZSBzaG9wcGluZyB2dGV4",
+      "src": "https://estudiodemoda.co/wp-content/uploads/2024/07/Pilatos-Colombiamoda-Landing1.mp4",
       "blockClass": "videoEl"
     }
   },
 
-  "image#background-1-live-shopping": {
+  "flex-layout.col#videos-segunda-parte-live-shopping": {
+    "children": ["video#background-2-live-shopping"]
+  },
+
+  "video#background-2-live-shopping": {
     "props": {
-      "src": "/arquivos/Pilatos-Colombiamoda-Landing1-Juanfe3.jpg",
-      "alt": "Imagen 1 live shopping",
-      "blockClass": "imagen-1-live-shopping"
+      "width": "100%",
+      "height": "550px",
+      "loop": false,
+      "autoPlay": true,
+      "muted": false,
+      "src": "https://estudiodemoda.co/wp-content/uploads/2024/07/Pilatos-Colombiamoda-Landing1.mp4",
+      "blockClass": "videoEl"
     }
   },
+
 
   "flex-layout.row#videos-segunda-parte-live-shopping": {
     "children": [

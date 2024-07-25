@@ -42,10 +42,15 @@
 
   //Video
   "flex-layout.row#video-lanzamiento-live-shopping": {
-    "children": ["video#background-lanzamiento-live-shopping"],
+    "children": [
+      "video#background-lanzamiento-live-shopping",
+      "video#background-lanzamiento-2-live-shopping"
+    ],
     "props": {
       "blockClass": "contenedor-video-lanzamiento-live-shopping",
-      "marginBottom": 4
+      "marginBottom": 4,
+      "colGap": 4,
+      "rowGap": 4
     }
   },
 
@@ -109,11 +114,23 @@
   "video#background-lanzamiento-live-shopping": {
     "props": {
       "width": "100%",
-      "height": "300",
+      "height": "400",
       "loop": false,
       "autoPlay": true,
       "muted": false,
-      "src": "https://www.youtube.com/watch?v=C1VJGIAtKZA&t=215s&pp=ygUSbGl2ZSBzaG9wcGluZyB2dGV4",
+      "src": "https://www.youtube.com/watch?v=baah1OyqnS4",
+      "blockClass": "video-lanzamiento-live-shopping"
+    }
+  },
+
+  "video#background-lanzamiento-2-live-shopping": {
+    "props": {
+      "width": "100%",
+      "height": "400",
+      "loop": false,
+      "autoPlay": true,
+      "muted": false,
+      "src": "https://estudiodemoda.co/wp-content/uploads/2023/12/BUZOS-MOBILE.mp4",
       "blockClass": "video-lanzamiento-live-shopping"
     }
   },
