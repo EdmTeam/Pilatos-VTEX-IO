@@ -6,8 +6,8 @@
       "modal-trigger#welcome",
       "flex-layout.row#congtent-slider",
 
-      /*Carrusel live shopping, 
-    eliminar una vez termine el evento*/ "flex-layout.row#carrusel-productos-colombiamoda-home-live-shopping-1",
+      /*Carrusel live shopping,  eliminar una vez termine el evento*/ 
+      "flex-layout.row#carrusel-productos-colombiamoda-home-live-shopping-1",
 
       "flex-layout.row#texto-SEO",
 

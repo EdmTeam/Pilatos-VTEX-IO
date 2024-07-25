@@ -41,7 +41,8 @@
             "rich-text#submenu-level-3-text-17-row-7",
             "rich-text#submenu-level-3-text-18-row-7",
             "rich-text#submenu-level-3-text-19-row-7",
-            "rich-text#submenu-level-3-text-20-row-7"
+            "rich-text#submenu-level-3-text-20-row-7",
+            "rich-text#submenu-desk-department-4-category-60-francques-2-mobile" //Franques
                 ],
         "props": {
             "blockClass": "contentSubMenuAcordeon"
