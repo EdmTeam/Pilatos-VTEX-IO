@@ -1,155 +1,284 @@
 {
-    "flex-layout.col#submenu-desk-department-2-category-7":{
-        "children":[
-            "flex-layout.col#submenu-desk-department-2-category-7-row-1"
-        ]
-    },
+  "flex-layout.col#submenu-desk-department-2-category-7": {
+    "children": ["flex-layout.col#submenu-desk-department-2-category-7-row-1"]
+  },
 
-    "flex-layout.col#submenu-desk-department-2-category-7-row-1":{
-        "children":[
-            "rich-text#submenu-desk-department-2-category-7",
-            "rich-text#submenu-desk-department-2-category-7-subcategory-1",
-            "rich-text#submenu-desk-department-2-category-7-subcategory-2",
-            "rich-text#submenu-desk-department-2-category-7-subcategory-3",
-            "rich-text#submenu-desk-department-2-category-7-subcategory-4",
-            "rich-text#submenu-desk-department-2-category-7-subcategory-5",
-            "rich-text#submenu-desk-department-2-category-7-subcategory-6",
-            "rich-text#submenu-desk-department-2-category-7-subcategory-7",
-            "rich-text#submenu-desk-department-2-category-7-subcategory-8",
-            "rich-text#submenu-desk-department-2-category-7-subcategory-11",
-            "rich-text#submenu-desk-department-2-category-7-subcategory-13",
-            "rich-text#submenu-desk-department-2-category-7-subcategory-14",
-            "rich-text#submenu-desk-department-2-category-7-subcategory-15",
-            "rich-text#submenu-desk-department-2-category-7-subcategory-16",
-            "rich-text#submenu-desk-department-2-category-7-subcategory-20",
-            "rich-text#submenu-desk-department-4-category-60-francques-2" //Franques
- 
-        ],
-        "props":{
-            "blockClass": "contentBlockSubmenu"
-        }
-    },
-
-
-       "rich-text#submenu-desk-department-4-category-60-francques-2":{
-          "props":{
-                "text": "[Francques](/francques)",
-                "blockClass": [
-                  "textSubcategory"
-    
-                ]
-            }
-
-    
-       },
-
-    "rich-text#submenu-desk-department-2-category-7":{
-        "props":{
-            "text": "MARCAS",
-            "blockClass": "textCategory"
-        }
-    },
-
-    "rich-text#submenu-desk-department-2-category-7-subcategory-1":{
-        "props":{
-            "text": "[Pilatos](/mujer/pilatos?map=category-1,marca)",
-            "blockClass": [
-                "textSubcategory",
-                "textSubcategoryPilatos"
-            ]
-        }
-    },
-
-    "rich-text#submenu-desk-department-2-category-7-subcategory-2":{
-        "props":{
-            "text": "[Diesel](/mujer/diesel?map=category-1,marca)",
-            "blockClass": "textSubcategory"
-        }
-    },
-
-    "rich-text#submenu-desk-department-2-category-7-subcategory-3":{
-        "props":{
-            "text": "[Superdry](/mujer/superdry?map=category-1,marca)",
-            "blockClass": "textSubcategory"
-        }
-    },
-
-    "rich-text#submenu-desk-department-2-category-7-subcategory-4":{
-        "props":{
-            "text": "[Kipling](/mujer/kipling?map=category-1,marca)",
-            "blockClass": "textSubcategory"
-        }
-    },
-
-    "rich-text#submenu-desk-department-2-category-7-subcategory-5":{
-        "props":{
-            "text": "[Marithe Francois Girbaud](/mujer/marithe-francois-girbaud?map=category-1,marca)",
-            "blockClass": "textSubcategory"
-        }
-    },
-
-    "rich-text#submenu-desk-department-2-category-7-subcategory-6":{
-        "props":{
-            "text": "[Replay](/mujer/replay?map=category-1,marca)",
-            "blockClass": "textSubcategory"
-        }
-    },
-
-    "rich-text#submenu-desk-department-2-category-7-subcategory-7":{
-        "props":{
-            "text": "[New Balance](/mujer/new-balance?map=category-1,marca)",
-            "blockClass": "textSubcategory"
-        }
-    },
-
-    "rich-text#submenu-desk-department-2-category-7-subcategory-8":{
-        "props":{
-            "text": "[Nike](/mujer/nike?map=category-1,marca)",
-            "blockClass": "textSubcategory"
-        }
-    },
-
-
-    "rich-text#submenu-desk-department-2-category-7-subcategory-11":{
-        "props":{
-            "text": "[Stance](/mujer/stance?map=category-1,marca)",
-            "blockClass": "textSubcategory"
-        }
-    },
-
-    
-
-    "rich-text#submenu-desk-department-2-category-7-subcategory-13":{
-        "props":{
-            "text": "[Roxy](/mujer/roxy?map=category-1,marca)",
-            "blockClass": "textSubcategory"
-        }
-    },
-
-    "rich-text#submenu-desk-department-2-category-7-subcategory-14":{
-        "props":{
-            "text": "[Oakley](/mujer/oakley?map=category-1,marca)",
-            "blockClass": "textSubcategory"
-        }
-    },
-
-    "rich-text#submenu-desk-department-2-category-7-subcategory-15":{
-        "props":{
-            "text": "[Le Coq Sportif](/mujer/le-coq-sportif?map=category-1,marca)",
-            "blockClass": "textSubcategory"
-        }
-    },
-
-    "rich-text#submenu-desk-department-2-category-7-subcategory-16":{
-        "props":{
-            "text": "[Ray Ban](/mujer/ray-ban?map=category-1,marca)",
-            "blockClass": "textSubcategory"
-        }
-    }, 
-    "rich-text#submenu-desk-department-2-category-7-subcategory-20":{
-        "props":{
-            "text": "[Agua Bendita](/mujer/agua-bendita?map=category-1,marca)",
-            "blockClass": "textSubcategory"
-        }
+  "flex-layout.col#submenu-desk-department-2-category-7-row-1": {
+    "children": [
+      "rich-text#submenu-desk-department-2-category-7",
+      "rich-text#submenu-desk-department-2-category-7-subcategory-1",
+      "rich-text#submenu-desk-department-2-category-7-subcategory-2",
+      "rich-text#submenu-desk-department-2-category-7-subcategory-3",
+      "rich-text#submenu-desk-department-2-category-7-subcategory-4",
+      "rich-text#submenu-desk-department-2-category-7-subcategory-5",
+      "rich-text#submenu-desk-department-2-category-7-subcategory-6",
+      "rich-text#submenu-desk-department-2-category-7-subcategory-7",
+      "rich-text#submenu-desk-department-2-category-7-subcategory-8",
+      "rich-text#submenu-desk-department-2-category-7-subcategory-11",
+      "rich-text#submenu-desk-department-2-category-7-subcategory-13",
+      "rich-text#submenu-desk-department-2-category-7-subcategory-14",
+      "rich-text#submenu-desk-department-2-category-7-subcategory-15",
+      "rich-text#submenu-desk-department-2-category-7-subcategory-16",
+      "rich-text#submenu-desk-department-2-category-7-subcategory-20",
+      "rich-text#submenu-desk-department-4-category-60-francques-2", //Franques
+      "rich-text#submenu-desk-department-2-category-7-subcategory-21", //Monastery mujer
+      "rich-text#submenu-desk-department-2-category-7-subcategory-22", //Vans mujer
+      "rich-text#submenu-desk-department-2-category-7-subcategory-23", //Goring Bros mujer
+      "rich-text#submenu-desk-department-2-category-7-subcategory-24", //New era mujer
+      "rich-text#submenu-desk-department-2-category-7-subcategory-25", //Lacoste mujer
+      "rich-text#submenu-desk-department-2-category-7-subcategory-26", //Champion mujer
+      "rich-text#submenu-desk-department-2-category-7-subcategory-27", //Ap Crown mujer
+      "rich-text#submenu-desk-department-2-category-7-subcategory-28", //Alpinestar mujer
+      "rich-text#submenu-desk-department-2-category-7-subcategory-29", //On mujer
+      "rich-text#submenu-desk-department-2-category-7-subcategory-30", //Fjallraven mujer
+      "rich-text#submenu-desk-department-2-category-7-subcategory-31", //sprayground mujer
+      "rich-text#submenu-desk-department-2-category-7-subcategory-32", //ECOVESSEL mujer
+      "rich-text#submenu-desk-department-2-category-7-subcategory-33", //BROOKS mujer
+      "rich-text#submenu-desk-department-2-category-7-subcategory-34", //Pepe jeans mujer
+      "rich-text#submenu-desk-department-2-category-7-subcategory-35", //Superga mujer
+      "rich-text#submenu-desk-department-2-category-7-subcategory-36", //JANSPORT mujer
+      "rich-text#submenu-desk-department-2-category-7-subcategory-37", //KAPPA mujer
+      "rich-text#submenu-desk-department-2-category-7-subcategory-38" //THE NORTH FACE mujer
+    ],
+    "props": {
+      "blockClass": "contentBlockSubmenu"
     }
+  },
+
+  "rich-text#submenu-desk-department-2-category-7-subcategory-38": {
+    "props": {
+      "text": "[The North Face](/mujer/kappa?map=category-1,marca)",
+      "blockClass": ["textSubcategory"]
+    }
+  },
+
+  "rich-text#submenu-desk-department-2-category-7-subcategory-37": {
+    "props": {
+      "text": "[Kappa](/mujer/kappa?map=category-1,marca)",
+      "blockClass": ["textSubcategory"]
+    }
+  },
+
+  "rich-text#submenu-desk-department-2-category-7-subcategory-36": {
+    "props": {
+      "text": "[Jansport](/mujer/jansport?map=category-1,marca)",
+      "blockClass": ["textSubcategory"]
+    }
+  },
+
+  "rich-text#submenu-desk-department-2-category-7-subcategory-35": {
+    "props": {
+      "text": "[Superga](/mujer/superga?map=category-1,marca)",
+      "blockClass": ["textSubcategory"]
+    }
+  },
+
+  "rich-text#submenu-desk-department-2-category-7-subcategory-34": {
+    "props": {
+      "text": "[Pepe Jeans](/mujer/pepe-jeans?map=category-1,marca)",
+      "blockClass": ["textSubcategory"]
+    }
+  },
+
+  "rich-text#submenu-desk-department-2-category-7-subcategory-33": {
+    "props": {
+      "text": "[Brooks](/mujer/brooks?map=category-1,marca)",
+      "blockClass": ["textSubcategory"]
+    }
+  },
+
+  "rich-text#submenu-desk-department-2-category-7-subcategory-32": {
+    "props": {
+      "text": "[Ecovessel](/mujer/ecovessel?map=category-1,marca)",
+      "blockClass": ["textSubcategory"]
+    }
+  },
+
+  "rich-text#submenu-desk-department-2-category-7-subcategory-31": {
+    "props": {
+      "text": "[Sprayground](/mujer/sprayground?map=category-1,marca)",
+      "blockClass": ["textSubcategory"]
+    }
+  },
+
+  "rich-text#submenu-desk-department-2-category-7-subcategory-30": {
+    "props": {
+      "text": "[Fjall Raven](/mujer/fjall-raven?map=category-1,marca)",
+      "blockClass": ["textSubcategory"]
+    }
+  },
+
+  "rich-text#submenu-desk-department-2-category-7-subcategory-29": {
+    "props": {
+      "text": "[ON](/mujer/on?map=category-1,marca)",
+      "blockClass": ["textSubcategory"]
+    }
+  },
+
+  "rich-text#submenu-desk-department-2-category-7-subcategory-28": {
+    "props": {
+      "text": "[Alpinestars](/mujer/alpinestars?map=category-1,marca)",
+      "blockClass": ["textSubcategory"]
+    }
+  },
+
+  "rich-text#submenu-desk-department-2-category-7-subcategory-27": {
+    "props": {
+      "text": "[Ap Crown](/mujer/ap-crown?map=category-1,marca)",
+      "blockClass": ["textSubcategory"]
+    }
+  },
+
+  "rich-text#submenu-desk-department-2-category-7-subcategory-26": {
+    "props": {
+      "text": "[Champion](/champions-mujer)",
+      "blockClass": ["textSubcategory"]
+    }
+  },
+
+  "rich-text#submenu-desk-department-2-category-7-subcategory-25": {
+    "props": {
+      "text": "[Lacoste](/mujer/lacoste?map=category-1,marca)",
+      "blockClass": ["textSubcategory"]
+    }
+  },
+
+  "rich-text#submenu-desk-department-2-category-7-subcategory-24": {
+    "props": {
+      "text": "[New Era](/mujer/new-era?map=category-1,marca)",
+      "blockClass": ["textSubcategory"]
+    }
+  },
+
+  "rich-text#submenu-desk-department-2-category-7-subcategory-23": {
+    "props": {
+      "text": "[Goorin Bros](/mujer/goorin-bros?map=category-1,marca)",
+      "blockClass": ["textSubcategory"]
+    }
+  },
+
+  "rich-text#submenu-desk-department-2-category-7-subcategory-22": {
+    "props": {
+      "text": "[Vans](/mujer/vans?map=category-1,marca)",
+      "blockClass": ["textSubcategory"]
+    }
+  },
+
+  "rich-text#submenu-desk-department-2-category-7-subcategory-21": {
+    "props": {
+      "text": "[Monastery](/monastery-mujer)",
+      "blockClass": ["textSubcategory"]
+    }
+  },
+
+  "rich-text#submenu-desk-department-4-category-60-francques-2": {
+    "props": {
+      "text": "[Francques](/francques-mujer)",
+      "blockClass": ["textSubcategory"]
+    }
+  },
+
+  "rich-text#submenu-desk-department-2-category-7": {
+    "props": {
+      "text": "MARCAS",
+      "blockClass": "textCategory"
+    }
+  },
+
+  "rich-text#submenu-desk-department-2-category-7-subcategory-1": {
+    "props": {
+      "text": "[Pilatos](/mujer/pilatos?map=category-1,marca)",
+      "blockClass": ["textSubcategory", "textSubcategoryPilatos"]
+    }
+  },
+
+  "rich-text#submenu-desk-department-2-category-7-subcategory-2": {
+    "props": {
+      "text": "[Diesel](/mujer/diesel?map=category-1,marca)",
+      "blockClass": "textSubcategory"
+    }
+  },
+
+  "rich-text#submenu-desk-department-2-category-7-subcategory-3": {
+    "props": {
+      "text": "[Superdry](/mujer/superdry?map=category-1,marca)",
+      "blockClass": "textSubcategory"
+    }
+  },
+
+  "rich-text#submenu-desk-department-2-category-7-subcategory-4": {
+    "props": {
+      "text": "[Kipling](/mujer/kipling?map=category-1,marca)",
+      "blockClass": "textSubcategory"
+    }
+  },
+
+  "rich-text#submenu-desk-department-2-category-7-subcategory-5": {
+    "props": {
+      "text": "[Marithe Francois Girbaud](/mujer/marithe-francois-girbaud?map=category-1,marca)",
+      "blockClass": "textSubcategory"
+    }
+  },
+
+  "rich-text#submenu-desk-department-2-category-7-subcategory-6": {
+    "props": {
+      "text": "[Replay](/mujer/replay?map=category-1,marca)",
+      "blockClass": "textSubcategory"
+    }
+  },
+
+  "rich-text#submenu-desk-department-2-category-7-subcategory-7": {
+    "props": {
+      "text": "[New Balance](/mujer/new-balance?map=category-1,marca)",
+      "blockClass": "textSubcategory"
+    }
+  },
+
+  "rich-text#submenu-desk-department-2-category-7-subcategory-8": {
+    "props": {
+      "text": "[Nike](/mujer/nike?map=category-1,marca)",
+      "blockClass": "textSubcategory"
+    }
+  },
+
+  "rich-text#submenu-desk-department-2-category-7-subcategory-11": {
+    "props": {
+      "text": "[Stance](/mujer/stance?map=category-1,marca)",
+      "blockClass": "textSubcategory"
+    }
+  },
+
+  "rich-text#submenu-desk-department-2-category-7-subcategory-13": {
+    "props": {
+      "text": "[Roxy](/mujer/roxy?map=category-1,marca)",
+      "blockClass": "textSubcategory"
+    }
+  },
+
+  "rich-text#submenu-desk-department-2-category-7-subcategory-14": {
+    "props": {
+      "text": "[Oakley](/mujer/oakley?map=category-1,marca)",
+      "blockClass": "textSubcategory"
+    }
+  },
+
+  "rich-text#submenu-desk-department-2-category-7-subcategory-15": {
+    "props": {
+      "text": "[Le Coq Sportif](/mujer/le-coq-sportif?map=category-1,marca)",
+      "blockClass": "textSubcategory"
+    }
+  },
+
+  "rich-text#submenu-desk-department-2-category-7-subcategory-16": {
+    "props": {
+      "text": "[Ray Ban](/mujer/ray-ban?map=category-1,marca)",
+      "blockClass": "textSubcategory"
+    }
+  },
+  "rich-text#submenu-desk-department-2-category-7-subcategory-20": {
+    "props": {
+      "text": "[Agua Bendita](/mujer/agua-bendita?map=category-1,marca)",
+      "blockClass": "textSubcategory"
+    }
+  }
 }

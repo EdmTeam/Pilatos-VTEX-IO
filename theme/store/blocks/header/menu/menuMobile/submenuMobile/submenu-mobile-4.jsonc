@@ -49,7 +49,9 @@
             "rich-text#submenu-level-2-item-42-row-7",//kappa
             "rich-text#submenu-level-2-item-43-row-7",//THE NORTH FACE
             "rich-text#submenu-level-2-item-44-row-7",//ARTDIST
-            "rich-text#submenu-level-2-item-45-row-7"//FRANQUES
+            "rich-text#submenu-level-2-item-45-row-7",//FRANQUES
+            "rich-text#submenu-level-2-item-46-row-7",//Devier
+            "rich-text#submenu-level-2-item-47-row-7"//Blackoud
         ],
         "props": {
             "blockClass": [
@@ -97,6 +99,26 @@
     },
 
     //Marcas
+    "rich-text#submenu-level-2-item-47-row-7": {
+        "props":{
+           "text": "[Blackoud](/blackoud)",
+            "blockClass": [
+                "contentSubMenuAcordeon",
+                "textSubcategoryPilatos"
+            ]
+        }
+    },
+
+    "rich-text#submenu-level-2-item-46-row-7": {
+        "props":{
+            "text": "[Devier](/devier)",
+            "blockClass": [
+                "contentSubMenuAcordeon",
+                "textSubcategoryPilatos"
+            ]
+        }
+    },
+
     "rich-text#submenu-level-2-item-45-row-7": {
         "props":{
             "text": "[Francques](/francques)",
