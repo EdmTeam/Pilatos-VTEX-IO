@@ -72,7 +72,11 @@
             "rich-text#submenu-desk-department-4-category-0", //vacío
             "rich-text#submenu-desk-department-4-category-59", //ARTDIST
             "rich-text#submenu-desk-department-4-category-0", //vacío
-            "rich-text#submenu-desk-department-4-category-60" //Franques
+            "rich-text#submenu-desk-department-4-category-60", //Franques
+            "rich-text#submenu-desk-department-4-category-0", //vacío
+            "rich-text#submenu-desk-department-4-category-61", //Devier
+            "rich-text#submenu-desk-department-4-category-0", //vacío
+            "rich-text#submenu-desk-department-4-category-62" //Blackoud
 
 
         ],
@@ -107,6 +111,26 @@
     "rich-text#submenu-desk-department-4-category-60":{
         "props":{
             "text": "[Francques](/francques)",
+            "blockClass": [
+              "textSubcategory"
+
+            ]
+        }
+    },
+
+    "rich-text#submenu-desk-department-4-category-61":{
+        "props":{
+            "text": "[Devier](/devier)",
+            "blockClass": [
+              "textSubcategory"
+
+            ]
+        }
+    },
+
+    "rich-text#submenu-desk-department-4-category-62":{
+        "props":{
+            "text": "[Blackoud](/blackoud)",
             "blockClass": [
               "textSubcategory"
 
