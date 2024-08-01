@@ -1,5 +1,5 @@
 import React, { useCallback, memo, useState, useMemo } from 'react'
-import { compose, flip, gt, filter, pathOr, clone } from 'ramda'
+import { filter, clone } from 'ramda'
 import { ResponsiveValuesTypes } from 'vtex.responsive-values'
 
 import styles from '../styles.css'
@@ -67,14 +67,25 @@ interface Props {
   sliderItemsPerPage: ResponsiveValuesTypes.ResponsiveValue<number>
 }
 
-const isSkuAvailable = compose<
-  SelectorProductItem | undefined,
-  number,
-  boolean
->(
-  flip(gt)(0),
-  pathOr(0, ['sellers', '0', 'commertialOffer', 'AvailableQuantity'])
-)
+const isSkuAvailable = (item: any): boolean =>  {
+  const check = item?.sellers?.map((seller: any) => {
+    if (seller.commertialOffer.AvailableQuantity > 0) {
+      return true
+    }
+    return false
+  })
+
+  return check.includes(true)
+}
+
+// compose<
+//   SelectorProductItem | undefined,
+//   number,
+//   boolean
+// >(
+//   flip(gt)(0),
+//   pathOr(0, ['sellers', '1', 'commertialOffer', 'AvailableQuantity'])
+// )
 
 const showItemAsAvailable = ({
   possibleItems,
