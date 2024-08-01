@@ -22,7 +22,27 @@
             "rich-text#submenu-desk-department-1-category-7-subcategory-17",
             "rich-text#submenu-desk-department-1-category-7-subcategory-18",
             "rich-text#submenu-desk-department-1-category-7-subcategory-19",
-            "rich-text#submenu-desk-department-1-category-7-subcategory-20"
+            "rich-text#submenu-desk-department-1-category-7-subcategory-20",
+            "rich-text#submenu-desk-department-4-category-60-francques-2", //Franques
+            "rich-text#submenu-desk-department-4-category-60-monastery-1", //Monastery
+            "rich-text#submenu-desk-department-4-category-60-vans-2", //vans
+            "rich-text#submenu-desk-department-4-category-60-new-era-3", //New Era
+            "rich-text#submenu-desk-department-4-category-60-lacoste-4", //Lacoste
+            "rich-text#submenu-desk-department-4-category-60-champion-5", //champion
+            "rich-text#submenu-desk-department-4-category-60-ap-crown-6", //ap-crown
+            "rich-text#submenu-desk-department-4-category-60-alpinestar-7", //alpinestar
+            "rich-text#submenu-desk-department-4-category-60-on-8", //on
+            "rich-text#submenu-desk-department-4-category-60-fjallraven-9", //Fjallraven
+            "rich-text#submenu-desk-department-4-category-60-sprayground-10", //sprayground
+            "rich-text#submenu-desk-department-4-category-60-calvin-klein-11", //calvin-klein
+            "rich-text#submenu-desk-department-4-category-60-ecovessel-12", //ecovessel
+            "rich-text#submenu-desk-department-4-category-60-brooks-13", //brooks
+            "rich-text#submenu-desk-department-4-category-60-pepe-jeans-14", //pepe-jeans
+            "rich-text#submenu-desk-department-4-category-60-superga-15", //superga
+            "rich-text#submenu-desk-department-4-category-60-jansport-16", //jansport
+            "rich-text#submenu-desk-department-4-category-60-kappa-17", //kappa
+            "rich-text#submenu-desk-department-4-category-60-the-north-face-18", //the-north-face
+            "rich-text#submenu-desk-department-4-category-60-artdist-19" //artdist
                 ],
         "props":{
             "blockClass": "contentBlockSubmenu"
@@ -33,6 +53,139 @@
         "props":{
             "text": "MARCAS",
             "blockClass": "textCategory"
+        }
+    },
+
+    "rich-text#submenu-desk-department-4-category-60-fjallraven-9":{
+        "props":{
+            "text": "[Fjall Raven](/hombre/fjall-raven?map=category-1,marca)",
+            "blockClass": "textSubcategory"
+        }
+    },
+
+    "rich-text#submenu-desk-department-4-category-60-on-8":{
+        "props":{
+            "text": "[ON](/hombre/on?map=category-1,marca)",
+            "blockClass": "textSubcategory"
+        }
+    },
+
+    "rich-text#submenu-desk-department-4-category-60-alpinestar-7":{
+        "props":{
+            "text": "[Alpinestars](/hombre/alpinestars?map=category-1,marca)",
+            "blockClass": "textSubcategory"
+        }
+    },
+
+    "rich-text#submenu-desk-department-4-category-60-ap-crown-6":{
+        "props":{
+            "text": "[Ap Crown](/hombre/ap-crown?map=category-1,marca)",
+            "blockClass": "textSubcategory"
+        }
+    },
+
+    "rich-text#submenu-desk-department-4-category-60-champion-5":{
+        "props":{
+            "text": "[Champion](/champions-hombre)",
+            "blockClass": "textSubcategory"
+        }
+    },
+
+    "rich-text#submenu-desk-department-4-category-60-lacoste-4":{
+        "props":{
+            "text": "[Lacoste](/hombre/lacoste?map=category-1,marca)",
+            "blockClass": "textSubcategory"
+        }
+    },
+
+    "rich-text#submenu-desk-department-4-category-60-new-era-3":{
+        "props":{
+            "text": "[New Era](/hombre/new-era?map=category-1,marca)",
+            "blockClass": "textSubcategory"
+        }
+    },
+
+    "rich-text#submenu-desk-department-4-category-60-vans-2":{
+        "props":{
+            "text": "[Vans](/hombre/vans?map=category-1,marca)",
+            "blockClass": "textSubcategory"
+        }
+    },
+
+    "rich-text#submenu-desk-department-4-category-60-monastery-1":{
+        "props":{
+            "text": "[Monastery](/monastery-hombre)",
+            "blockClass": "textSubcategory"
+        }
+    },
+
+    "rich-text#submenu-desk-department-4-category-60-sprayground-10":{
+        "props":{
+            "text": "[Sprayground](/hombre/sprayground?map=category-1,marca)",
+            "blockClass": "textSubcategory"
+        }
+    },
+
+    "rich-text#submenu-desk-department-4-category-60-calvin-klein-11":{
+        "props":{
+            "text": "[Calvin Klein](/calvin-klein)",
+            "blockClass": "textSubcategory"
+        }
+    },
+
+    "rich-text#submenu-desk-department-4-category-60-ecovessel-12":{
+        "props":{
+            "text": "[Ecovessel](/hombre/ecovessel?map=category-1,marca)",
+            "blockClass": "textSubcategory"
+        }
+    },
+
+    "rich-text#submenu-desk-department-4-category-60-brooks-13":{
+        "props":{
+            "text": "[Brooks](/hombre/brooks?map=category-1,marca)",
+            "blockClass": "textSubcategory"
+        }
+    },
+
+    "rich-text#submenu-desk-department-4-category-60-pepe-jeans-14":{
+        "props":{
+            "text": "[Pepe Jeans](/hombre/pepe-jeans?map=category-1,marca)",
+            "blockClass": "textSubcategory"
+        }
+    },
+
+    "rich-text#submenu-desk-department-4-category-60-superga-15":{
+        "props":{
+            "text": "[Superga](/hombre/superga?map=category-1,marca)",
+            "blockClass": "textSubcategory"
+        }
+    },
+
+    "rich-text#submenu-desk-department-4-category-60-jansport-16":{
+        "props":{
+            "text": "[Jansport](/hombre/jansport?map=category-1,marca)",
+            "blockClass": "textSubcategory"
+        }
+    },
+
+    "rich-text#submenu-desk-department-4-category-60-kappa-17":{
+        "props":{
+            "text": "[Kappa](/hombre/kappa?map=category-1,marca)",
+            "blockClass": "textSubcategory"
+        }
+    },
+
+    "rich-text#submenu-desk-department-4-category-60-the-north-face-18":{
+        "props":{
+            "text": "[The North Face](/hombre/the-north-face?map=category-1,marca)",
+            "blockClass": "textSubcategory"
+        }
+    },
+
+    "rich-text#submenu-desk-department-4-category-60-artdist-19":{
+        "props":{
+            "text": "[Artdist](/artdist)",
+            "blockClass": "textSubcategory"
         }
     },
 

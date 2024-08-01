@@ -1,13 +1,13 @@
 {
   "store.home": {
     "blocks": [
-      //  "livestreaming",
+      "livestreaming",
 
       "modal-trigger#welcome",
       "flex-layout.row#congtent-slider",
 
-      /*Carrusel live shopping, 
-    eliminar una vez termine el evento*/ "flex-layout.row#carrusel-productos-colombiamoda-home",
+      /*Carrusel live shopping,  eliminar una vez termine el evento*/ 
+      "flex-layout.row#carrusel-productos-colombiamoda-home-live-shopping-1",
 
       "flex-layout.row#texto-SEO",
 
@@ -44,16 +44,16 @@
 
   /*Carrusel live shopping, 
     eliminar una vez termine el evento*/
-  "flex-layout.row#carrusel-productos-colombiamoda-home": {
-    "children": ["flex-layout.col#carrusel-productos-colombiamoda-home"],
-    "title": "Carrusel 1 Live Shopping",
+  "flex-layout.row#carrusel-productos-colombiamoda-home-live-shopping-1": {
+    "children": ["flex-layout.col#carrusel-productos-colombiamoda-home-live-shopping-1"],
+    "title": "Carrusel Live Shopping",
     "props": {
       "marginTop": 6,
       "marginBottom": 6
     }
   },
 
-  "flex-layout.col#carrusel-productos-colombiamoda-home": {
+  "flex-layout.col#carrusel-productos-colombiamoda-home-live-shopping-1": {
     "children": [
       "rich-text#recomendador-carrusel-productos-colombiamoda-home",
       "vtex.product-summary:list-context.product-list#carrusel-productos-colombiamoda-home"
