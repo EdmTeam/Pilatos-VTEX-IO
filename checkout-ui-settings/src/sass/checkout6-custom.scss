@@ -4831,7 +4831,7 @@ div.checkoutFooter {
 
         /* CHECKBOX DE TERMINOS */
         #contain-terms {
-            max-width: 45%;
+            max-width: 100%;
             float: right;
             margin: 1rem 0 1rem auto;
             .dataCheck {
@@ -4915,7 +4915,7 @@ div.checkoutFooter {
 
                         a {
                             @include barlow(11, 400, 0.01);
-                            color: $yellow;
+                            color: black;
                             text-decoration: underline;
                         }
                     }

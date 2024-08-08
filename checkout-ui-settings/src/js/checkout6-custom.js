@@ -79,8 +79,9 @@ const CustomCheckout = function () {
     }
 
     const checkTerms = () => {
-        let $totalizers = $('.cart-template:not(.mini-cart) .summary-template-holder .cart-totalizers');
-        if ($totalizers.length) {
+        //let $totalizers = $('.cart-template:not(.mini-cart) .summary-template-holder .cart-totalizers');
+        const $formProfile = $('.box-client-info-pj');
+        if ($formProfile.length) {
             var newCheck = '';
             newCheck += '    <div id="contain-terms">'
             newCheck += '    <p class="terms-conditions dataCheck">'
@@ -88,7 +89,7 @@ const CustomCheckout = function () {
             newCheck += '            <input id="terms-conditions" type="checkbox" required>'
             newCheck += '            <span class="btnCheckbox"></span>'
             newCheck += '            <span class="check-text">'
-            newCheck += '                He leído y aceptado las políticas de privacidad y Tratamiento de datos Personales'
+            newCheck += '                He leído y aceptado las <a href="/politicas">políticas de privacidad</a> y <a href="/">Tratamiento de datos Personales</a>'
             newCheck += '            .</span>'
             newCheck += '        </label>'
             newCheck += '        <span class="help error check-error terms-data-error" style="display:none">'
@@ -98,7 +99,7 @@ const CustomCheckout = function () {
             newCheck += '    <p style="margin-top: 10px; font-size: 12px; color: grey">Mediante la aceptación de la Política de Habeas Data y Tratamiento de Datos personales se certifica que el usuario o cliente es una persona mayor de edad (18 años) y podrá ser tratada de acuerdo con la política de tratamiento de datos.</p>';
             newCheck += '    </div>';
 
-            $(newCheck).insertAfter($totalizers);
+            $(newCheck).insertAfter($formProfile);
 
             if (getCookie('terminosCondiciones')) {
                 $('#terms-conditions').attr("checked", true)
@@ -119,7 +120,7 @@ const CustomCheckout = function () {
 
     const validateTerms = () => {
         setTimeout(function () {
-            const buttonFinalizePurchase = document.getElementById("cart-to-orderform");
+            const buttonFinalizePurchase = document.getElementById("go-to-shipping");
             const checkboxTyc = document.getElementById("terms-conditions");
             checkboxTyc.checked = true;
 
@@ -314,7 +315,7 @@ function handlePaymentMethodChange(orderForm) {
         // Mostrar el bloque con el ID "show-gift-card-group" para cualquier otro método de pago
         $("#show-gift-card-group").show();
       }
-    } 
+    }
   }
 }
 
@@ -327,7 +328,7 @@ $(window).on("orderFormUpdated.vtex", function (e, orderForm) {
 vtexjs.checkout.getOrderForm().done(function (orderForm) {
   handlePaymentMethodChange(orderForm);
 });
-    
+
 // Recoger en tienda que oculte el metodo de pago contra entrega
 //const hideContraEntregaStore = (location) => {
 

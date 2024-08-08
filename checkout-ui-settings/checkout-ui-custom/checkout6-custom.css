@@ -5718,7 +5718,7 @@ div.checkoutFooter p.copyRight {
 }
 .body-cart .container-main #contain-terms,
 .body-order-form .container-main #contain-terms {
-  max-width: 45%;
+  max-width: 100%;
   float: right;
   margin: 1rem 0 1rem auto;
 }
@@ -5816,7 +5816,7 @@ div.checkoutFooter p.copyRight {
   letter-spacing: 0.01em;
   text-decoration: none;
   text-transform: unset;
-  color: #ffd400;
+  color: black;
   text-decoration: underline;
 }
 .body-cart .container-main #contain-terms .dataCheck span.error,
