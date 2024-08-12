@@ -1,0 +1,375 @@
+{
+  "store.custom#friends-and-family": {
+    "blocks": [
+      "flex-layout.row#bread",
+      //"flex-layout.row#seo-corto",
+      "list-context.image-list#banner-hero-frineds-family",
+      "flex-layout.row#container-texto-inicial-friends-family",
+      "flex-layout.row#contenedor-formulario-friends-and-family",
+      "rich-text#filtro-seo"
+    ]
+  },
+
+  /*******Banner landing*******/
+  "list-context.image-list#banner-hero-frineds-family": {
+    "title": "Banner landing",
+    "children": ["slider-layout#banner-hero-frineds-family"],
+    "props": {
+      "preload": true,
+      "height": 750,
+      "images": [
+        {
+          "image": "/arquivos/friends-family-desk.png",
+          "mobileImage": "/arquivos/friends-family-mob.png",
+          "description": "Friends Family banner landing"
+        }
+      ]
+    }
+  },
+
+  "slider-layout#banner-hero-frineds-family": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "blockClass": "ingredienteFragancia"
+    }
+  },
+  /*******Banner landing*******/
+  /*******Texto inicial*******/
+  "flex-layout.row#container-texto-inicial-friends-family": {
+    "title": "Container Texto inicial",
+    "children": [
+        "flex-layout.col#container-texto-inicial-friends-family"
+    ]
+  },
+
+  "flex-layout.col#container-texto-inicial-friends-family": {
+    "children": [
+        "rich-text#texto-inicial-friends-family",
+        "rich-text#texto-los-esperamos-friends-family"
+    ]
+  },
+
+  "rich-text#texto-inicial-friends-family": {
+    "title": "Texto inicial",
+    "props": {
+        "text": "**Regístrate aquí con tu correo de nómina de empleado e inscribe a tus 5 invitados, una vez \n se inscriban les llegará un correo para acceder a los descuentos del 23 al 25 de agosto.**",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER"
+    }
+  },
+
+  "rich-text#texto-los-esperamos-friends-family": {
+    "title": "Los esperamos",
+    "props": {
+        "text": "¡Los esperamos!",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "blockClass": "los-esperamos-friends-family"
+    }
+  },
+  /*******Texto inicial*******/
+  /*******Fromulario*******/
+  "flex-layout.row#contenedor-formulario-friends-and-family": {
+    "title": "Contenedor formulario Friends & Family",
+    "children": [
+        "flex-layout.row#contenedor-form-friends-and-family"
+    ],
+    "props": {
+        "marginTop": 4,
+        "marginBottom": 4
+    }
+  },
+
+  "flex-layout.row#contenedor-form-friends-and-family": {
+    "children": [
+        "form#family-and-friends"
+    ],
+    "props": {
+        "blockClass": "formulario-family-friends-container"
+    }
+  },
+
+  "form#family-and-friends": {
+    "props": {
+        "entity": "FF",
+        "schema": "formulariofriendsfamily"
+    },
+    "children": [
+        "rich-text#form-title-friendsfamily",
+        "flex-layout.row#friendsfamily-content-inputs-1",
+        "flex-layout.row#friendsfamily-content-inputs-2",
+        "rich-text#form-title-friendsfamily-datos-invitados",
+        "flex-layout.row#friendsfamily-content-inputs-invitados-1",
+        "flex-layout.row#friendsfamily-content-inputs-invitados-2",
+        "flex-layout.row#friendsfamily-content-inputs-invitados-3",
+        "flex-layout.row#friendsfamily-content-inputs-invitados-4",
+        "flex-layout.row#friendsfamily-content-inputs-invitados-5",
+        "rich-text#terminos-texto",
+        "flex-layout.row#contenedor-checkbox-friendsfamily",
+        "form-submit#friendsfamily-form-submit"
+    ],
+    "blocks": ["form-success#friendsfamily"]
+  },
+
+  //CONTENIDO FORMULARIO
+  "rich-text#form-title-friendsfamily": {
+    "props": {
+      "text": "**Datos empleado**",
+      "blockClass": "inputs-titulo-friends-family",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "flex-layout.row#friendsfamily-content-inputs-1": {
+    "children": [
+      "form-input.text#friendsfamily-form-name",
+      "form-input.text#friendsfamily-form-last-name"
+    ],
+    "props": {
+      "colGap": 8
+    }
+  },
+
+  "flex-layout.row#friendsfamily-content-inputs-2": {
+    "children": [
+      "form-input.text#friendsfamily-form-phone",
+      "form-input.text#friendsfamily-form-email"
+    ],
+    "props": {
+      "colGap": 8,
+      "marginTop": 4,
+      "marginBottom": 8
+    }
+  },
+
+  "form-input.text#friendsfamily-form-name": {
+    "props": {
+      "pointer": "#/properties/name",
+      "placeholder": "Nombre"
+    }
+  },
+  "form-input.text#friendsfamily-form-last-name": {
+    "props": {
+      "pointer": "#/properties/lastname",
+      "placeholder": "Apellido"
+    }
+  },
+  "form-input.text#friendsfamily-form-phone": {
+    "props": {
+      "pointer": "#/properties/phone",
+      "placeholder": "Teléfono"
+    }
+  },
+  "form-input.text#friendsfamily-form-email": {
+    "props": {
+      "pointer": "#/properties/mail",
+      "placeholder": "Email"
+    }
+  },
+
+  "rich-text#form-title-friendsfamily-datos-invitados": {
+    "props": {
+      "text": "**Datos de tus invitados**",
+      "blockClass": "inputs-titulo-friends-family",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "flex-layout.row#friendsfamily-content-inputs-invitados-1": {
+    "children": [
+      "form-input.text#friendsfamily-form-email1",
+      "form-input.text#friendsfamily-form-phone1"
+    ],
+    "props": {
+      "colGap": 8,
+      "marginTop": 4,
+      "marginBottom": 4
+    }
+  },
+
+  "form-input.text#friendsfamily-form-email1": {
+    "props": {
+      "pointer": "#/properties/email1",
+      "placeholder": "Email contacto Nº1"
+    }
+  },
+
+  "form-input.text#friendsfamily-form-phone1": {
+    "props": {
+      "pointer": "#/properties/phone1",
+      "placeholder": "Teléfono contacto Nº1"
+    }
+  },
+
+  "flex-layout.row#friendsfamily-content-inputs-invitados-2": {
+    "children": [
+      "form-input.text#friendsfamily-form-email2",
+      "form-input.text#friendsfamily-form-phone2"
+    ],
+    "props": {
+      "colGap": 8,
+      "marginTop": 4,
+      "marginBottom": 4
+    }
+
+  },
+
+  "form-input.text#friendsfamily-form-email2": {
+    "props": {
+      "pointer": "#/properties/email2",
+      "placeholder": "Email contacto Nº2"
+    }
+  },
+
+  "form-input.text#friendsfamily-form-phone2": {
+    "props": {
+      "pointer": "#/properties/phone2",
+      "placeholder": "Teléfono contacto Nº2"
+    }
+  },
+
+  "flex-layout.row#friendsfamily-content-inputs-invitados-3": {
+    "children": [
+      "form-input.text#friendsfamily-form-email3",
+      "form-input.text#friendsfamily-form-phone3"
+    ],
+    "props": {
+      "colGap": 8,
+      "marginTop": 4,
+      "marginBottom": 4
+    }
+  },
+
+  "form-input.text#friendsfamily-form-email3": {
+    "props": {
+      "pointer": "#/properties/email3",
+      "placeholder": "Email contacto Nº3"
+    }
+  },
+
+  "form-input.text#friendsfamily-form-phone3": {
+    "props": {
+      "pointer": "#/properties/phone3",
+      "placeholder": "Teléfono contacto Nº3"
+    }
+  },
+
+  "flex-layout.row#friendsfamily-content-inputs-invitados-4": {
+    "children": [
+      "form-input.text#friendsfamily-form-email4",
+      "form-input.text#friendsfamily-form-phone4"
+    ],
+    "props": {
+      "colGap": 8,
+      "marginTop": 4,
+      "marginBottom": 4
+    }
+  },
+
+  "form-input.text#friendsfamily-form-email4": {
+    "props": {
+      "pointer": "#/properties/email4",
+      "placeholder": "Email contacto Nº4"
+    }
+  },
+
+  "form-input.text#friendsfamily-form-phone4": {
+    "props": {
+      "pointer": "#/properties/phone4",
+      "placeholder": "Teléfono contacto Nº4"
+    }
+  },
+
+  "flex-layout.row#friendsfamily-content-inputs-invitados-5": {
+    "children": [
+      "form-input.text#friendsfamily-form-email5",
+      "form-input.text#friendsfamily-form-phone5"
+    ],
+    "props": {
+      "colGap": 8,
+      "marginTop": 4,
+      "marginBottom": 8
+    }
+  },
+
+  "form-input.text#friendsfamily-form-email5": {
+    "props": {
+      "pointer": "#/properties/email5",
+      "placeholder": "Email contacto Nº5"
+    }
+  },
+
+  "form-input.text#friendsfamily-form-phone5": {
+    "props": {
+      "pointer": "#/properties/phone5",
+      "placeholder": "Teléfono contacto Nº5"
+    }
+  },
+
+  "rich-text#terminos-texto": {
+    "props": {
+      "text": "Mediante el registro de mis datos personales autorizo a xxxxxxxxx representante de la marca xxxxxxx; para la recolección, almacenamiento y uso de los mismos con la finalidad de contactarme mediante email marketing, aplicaciones de mensajería instantánea (whatsapp o similares) y redes sociales para ofrecer servicios y campañas comerciales; ofertar servicios de valor agregado; participar en programas de beneficios y fidelización; consultar hábitos de consumo y aficiones para ofertas, promociones, servicios, entre otros; contactarlo para realizar estudios de mercado y encuestas de satisfacción; gestionar tramites (solicitudes, quejas y reclamos); compartir con empresas aliadas, asociados, sucursales, franquicias, filiales y subsidiarias para la oferta de servicios, en los términos de la política de tratamiento y protección de datos personales, en donde se establecen los principios para el manejo de mis datos personales, la cual podré consultar en la página web www.aguabendita.com.co/politicas Como titular de mi información, tengo derecho a conocer, actualizar, corregir, suprimir y revocar mis datos personales, en los términos señalados en la política de tratamiento y protección de datos personales de xxxxxxx, a través de los medios dispuestos, tales como: correo electrónico xxxx@.com.co, además de la página web anteriormente indicada, o en cualquiera de nuestras tiendas físicas xxxx del país.",
+      "blockClass": "terminos-texto-friends-family"
+    }
+  },
+
+  "flex-layout.row#contenedor-checkbox-friendsfamily": {
+    "children": ["flex-layout.col#contenedor-checkbox-friendsfamily"],
+    "props": {
+      "marginTop": 8
+    }
+  },
+
+  "flex-layout.col#contenedor-checkbox-friendsfamily": {
+    "children": [
+      "form-input.checkbox#friendsfamily-form-terms",
+      "rich-text#friendsfamily-read-politics"
+    ],
+    "props": {
+      "blockClass": "checkboxLabel-form-live-shopping"
+    }
+  },
+
+  "rich-text#friendsfamily-read-politics": {
+    "props": {
+      "text": "Leer [política de datos](/politicas) y [términos y condiciones](/terminos-condiciones)",
+      "textAlignment": "LEFT",
+      "textPosition": "left",
+      "font": "t-mini",
+      "blockClass": "read-politics-dsi"
+    }
+  },
+  "form-input.checkbox#friendsfamily-form-terms": {
+    "props": {
+      "pointer": "#/properties/terms",
+      "label": ""
+    }
+  },
+  "form-submit#friendsfamily-form-submit": {
+    "props": {
+      "label": "Enviar",
+      "blockClass": "submit-friends-family"
+    }
+  },
+
+  "form-success#friendsfamily": {
+    "children": ["rich-text#friendsfamily"]
+  },
+
+  "rich-text#friendsfamily": {
+    "props": {
+      "text": "Gracias por inscribirte, ya estás registrado tu y tus amigos para nuestro bazar, el 23 de Agosto les enviaremos un correo para que puedan empezar a comprar ",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "dsi-successSubmit"
+    }
+  }
+  /*******Fromulario*******/
+}

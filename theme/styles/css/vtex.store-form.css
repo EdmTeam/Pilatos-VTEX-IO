@@ -57,3 +57,18 @@ height: 47px;
   align-items: center;
   height: 50px;
 }
+
+/**Friends and family**/
+.formSubmitButton--submit-friends-family :global(.vtex-button) {
+  background-color: #FFD400;
+  border: 0;
+  border-radius: 8px;
+  width: 100%;
+  font-weight: 700;
+  margin: 20px auto 0 auto;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+}
