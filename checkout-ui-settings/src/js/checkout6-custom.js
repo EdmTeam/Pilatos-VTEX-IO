@@ -89,7 +89,7 @@ const CustomCheckout = function () {
             newCheck += '            <input id="terms-conditions" type="checkbox" required>'
             newCheck += '            <span class="btnCheckbox"></span>'
             newCheck += '            <span class="check-text">'
-            newCheck += '                He leído y aceptado las <a href="/politicas">políticas de privacidad</a> y <a href="/">Tratamiento de datos Personales</a>'
+            newCheck += '                He leído y aceptado las <a href="/politicas" target="_blank">políticas de privacidad</a> y <a href="/politicas" target="_blank">Tratamiento de datos Personales</a>'
             newCheck += '            .</span>'
             newCheck += '        </label>'
             newCheck += '        <span class="help error check-error terms-data-error" style="display:none">'

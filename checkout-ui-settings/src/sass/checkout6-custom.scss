@@ -1,6 +1,9 @@
 @import url("/arquivos/font-icommon.css");
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&display=swap");
 
+/*libreria de icon*/
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+
 // COLORES
 $negro: #000;
 $blanco: #fff;
@@ -232,7 +235,7 @@ $max_font: 50px;
 body,
 html {
     -webkit-font-smoothing: antialiased;
-    background-color: $blanco;
+    background-color: $blanco !important;
     border: 0;
     font-style: normal;
     width: 100%;
@@ -244,7 +247,6 @@ html {
 }
 body {
     overflow-x: hidden;
-    background-color: #f1f1f1 !important;
     &.no-scroll {
         overflow: hidden;
     }
@@ -6078,6 +6080,14 @@ body {
     }
 }
 
+.icon-edit:before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f044";
+  font-weight: 900;
+  font-style: normal;
+  color: black;
+}
+
 // Estilos añadidos en vtex admin
 .payment-group .payment-group-list-btn a#payment-group-AddiPaymentGroup span {
     font-size: 0;
@@ -6146,6 +6156,46 @@ body {
     padding-left: 28px !important;
     color: #000000 !important;
 }
+
+.payment-group .payment-group-list-btn a#payment-group-WompiCoPaymentGroup span::before {
+  content: "Botón Bancolombia";
+  font-size: 13px;
+  color: #000000;
+}
+.payment-group .payment-group-list-btn a#payment-group-WompiCoPaymentGroup span {
+	font-size: 0;
+  background-image: url(/arquivos/LogoBancolombia-dato.png)!important;
+  background-size: 22px;
+  padding-right: 2rem!important;
+  color: #000000!important;
+  background-position: left center;
+  padding-left: 30px !important;
+}
+.payment-group #payment-group-PSEPaymentGroup {
+    order: -2;
+}
+
+.payment-group .payment-group-list-btn a#payment-group-PSEPaymentGroup span {
+  font-size: 13px !important;
+  color: #000000 !important;
+  background-image: url(/arquivos/pse-pilatos-new.png) !important;
+  background-size: 25px;
+  background-position: left center;
+  padding-right: 2rem !important;
+  padding-left: 29px !important;
+}
+
+
+[id="payment-group-WH Google PayPaymentGroup"] .payment-group-item-text {
+  background-image: url(/arquivos/google-ws.png) !important;
+  background-size: 36px;
+  font-size: 13px !important;
+  background-position: left center;
+  padding-right: 2rem !important;
+  padding-left: 45px !important;
+  color: #000000 !important;
+}
+
 /*botones*/
 p.btn-submit-wrapper button {
     width: 100% !important;
@@ -6177,17 +6227,6 @@ button#payment-data-submit {
 
 .SisteCreditoPaymentGroup .payment-description {
     font-size: 0;
-}
-
-[id="payment-group-WH Google PayPaymentGroup"] .payment-group-item-text {
-    background-image: url("https://io2.vtex.com/checkout-ui/v6.97.2/img/payment-google-pay-logo.svg") !important;
-    background-size: 36px;
-    font-size: 13px;
-    background-position: left center;
-    padding-right: 2rem !important;
-    padding-left: 47px !important;
-    color: #000000 !important;
-    font-weight: bold;
 }
 
 .vtex-pickup-points-modal-3-x-modalBackdrop {
