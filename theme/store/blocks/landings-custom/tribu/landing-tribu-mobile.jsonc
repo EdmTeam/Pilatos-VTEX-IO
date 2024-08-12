@@ -1,0 +1,178 @@
+{
+    "responsive-layout.phone#page-landing-tribu": {
+        "children": [
+            "flex-layout.row#content-landing-mobile-tribu"
+        ]
+    },
+
+    "flex-layout.row#content-landing-mobile-tribu": {
+        "children": [
+            "flex-layout.col#content-col-landing-mobile-tribu"
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#content-col-landing-mobile-tribu": {
+        "children": [
+            "rich-text#titulo-landing-tribu",
+            "rich-text#titulo-landing-tribu-seo",
+            "flex-layout.col#images-landing-tribu"
+        ]
+    },
+
+    "flex-layout.col#images-landing-tribu": {
+        "children": [
+            "flex-layout.col#landing-tribu-image-9-mobile",
+            "flex-layout.col#landing-tribu-image-10-mobile",
+            "flex-layout.col#landing-tribu-image-11-mobile",
+            "flex-layout.col#landing-tribu-image-12-mobile",
+            "flex-layout.col#landing-tribu-image-1-mobile",
+            "flex-layout.col#landing-tribu-image-2-mobile",
+            "flex-layout.col#landing-tribu-image-3-mobile",
+            "flex-layout.col#landing-tribu-image-4-mobile",
+            "flex-layout.col#landing-tribu-image-5-mobile",
+            "flex-layout.col#landing-tribu-image-6-mobile",
+            "flex-layout.col#landing-tribu-image-7-mobile",
+            "flex-layout.col#landing-tribu-image-8-mobile"
+        ]
+    },
+
+     //contenido 1
+    "flex-layout.col#landing-tribu-image-1-mobile": {
+        "children": [
+          "flex-layout.row#tribuImagen1-essentialitary"
+          //"rich-text#landing-tribu-info-1-content"
+                  ],
+        "props": {
+            "blockClass": "contenedor-tribu",
+            "rowGap": 6
+        }
+    },
+
+    //contenido 2
+    "flex-layout.col#landing-tribu-image-2-mobile": {
+        "children": [
+          "flex-layout.row#tribuImagen2-PilatosxGirbaud"
+                      //"rich-text#landing-tribu-info-2-content"
+
+          ],
+        "props": {
+            "blockClass": "contenedor-tribu"
+        }
+    },
+
+
+    //contenido 3
+    "flex-layout.col#landing-tribu-image-3-mobile": {
+        "children": [
+          "flex-layout.row#tribuImagen3-UnderWear"
+            //"rich-text#landing-tribu-info-3-content"
+        ],
+        "props": {
+            "blockClass": "contenedor-tribu"
+        }
+    },
+
+
+    //contenido 4
+    "flex-layout.col#landing-tribu-image-4-mobile": {
+        "children": [
+          "flex-layout.row#tribuImagen4-FunDenim"
+            //"rich-text#landing-tribu-info-4-content"
+        ],
+        "props": {
+            "blockClass": "contenedor-tribu"
+        }
+    },
+
+    //contenido 5
+    "flex-layout.col#landing-tribu-image-5-mobile": {
+        "children": [
+          "flex-layout.row#tribuImagen5-Actlive"
+            //"rich-text#landing-tribu-info-1.2-content"
+        ],
+        "props": {
+            "blockClass": "contenedor-tribu"
+        }
+    },
+
+    //contenido 6
+    "flex-layout.col#landing-tribu-image-6-mobile": {
+        "children": [
+          "flex-layout.row#tribuImagen6-PilatosSneakers"
+            //"rich-text#landing-tribu-info-2.2-content"
+                  ],
+        "props": {
+            "blockClass": "contenedor-tribu"
+        }
+    },
+
+    //contenido 7
+    "flex-layout.col#landing-tribu-image-7-mobile": {
+        "children": [
+          "flex-layout.row#tribuImagen7-BarbieKipling"
+            //"rich-text#landing-tribu-info-3.2-content"
+        ],
+        "props": {
+            "blockClass": "contenedor-tribu"
+        }
+    },
+
+
+    //contenido 8
+    "flex-layout.col#landing-tribu-image-8-mobile": {
+        "children": [
+          "flex-layout.row#tribuImagen8-FridaKahlo"
+            //"rich-text#landing-tribu-info-4.2-content"
+        ],
+        "props": {
+            "blockClass": "contenedor-tribu"
+        }
+    },
+
+    //contenido 9
+    "flex-layout.col#landing-tribu-image-9-mobile": {
+        "children": [
+            "flex-layout.row#tribuImagen9-pilatosxaguabendita"
+            //"rich-text#landing-tribu-info-1.3-content"
+          ],
+          "props": {
+              "blockClass": "contenedor-tribu"
+          }
+    },
+
+    //contenido 10
+    "flex-layout.col#landing-tribu-image-10-mobile": {
+        "children": [
+            "flex-layout.row#tribuImagen10-benature-girbaud"
+            //"rich-text#landing-tribu-info-2.3-content"
+          ],
+          "props": {
+              "blockClass": "contenedor-tribu"
+          }
+    },
+
+    //contenido 11
+    "flex-layout.col#landing-tribu-image-11-mobile": {
+        "children": [
+            "flex-layout.row#tribuImagen11-essential-girbaud"
+            //"rich-text#landing-tribu-info-3.3-content"
+          ],
+          "props": {
+              "blockClass": "contenedor-tribu"
+          }
+    },
+
+    //contenido 12
+    "flex-layout.col#landing-tribu-image-12-mobile": {
+        "children": [
+            "flex-layout.row#tribuImagen12-heritage-girbaud"
+            //"rich-text#landing-tribu-info-4.3-content"
+          ],
+          "props": {
+              "blockClass": "contenedor-tribu"
+          }
+    }
+}

@@ -3770,3 +3770,15 @@ width: 88%;
   width: 90% !important;
   margin: 0 auto;
 }
+/*****Friends and family***/
+.flexRowContent--formulario-family-friends-container {
+  width: 70%;
+  margin: 0 auto;
+}
+.flexRowContent--formulario-family-friends-container :global(.vtex-input-prefix__group) {
+  background-color: #EAE8E8;
+  border-radius: 8px;
+  border: 0;
+  padding: 8px;
+  margin-bottom: 10px;
+}

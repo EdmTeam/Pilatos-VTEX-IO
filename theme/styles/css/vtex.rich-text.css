@@ -3809,3 +3809,33 @@ margin: 2px;
   text-align: center!important;
   font-size: 25px;
 }
+/***Friends & Family***/
+.paragraph--los-esperamos-friends-family {
+  font-weight: 900;
+}
+.paragraph--inputs-titulo-friends-family {
+  font-weight: 300;
+}
+.paragraph--registrate-invitacion-primera-compra {
+  line-height: 1;
+  font-weight: bold;
+}
+.link--registrate-cta-primera-compra {
+  color: #fff;
+  text-decoration: none;
+  background: #000;
+  height: 35px;
+  width: 9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.link--registrate-cta-primera-compra:hover {
+  background: #FAD91F;
+  color: #000;
+  transition: background 1s;
+}
+.paragraph--terminos-texto-friends-family {
+  font-size: 11px;
+}

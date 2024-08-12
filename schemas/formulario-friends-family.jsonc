@@ -1,0 +1,105 @@
+{
+    "title": "formulariofriendsfamily",
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string",
+            "title": "Nombre"
+        },
+
+        "lastname": {
+            "type": "string",
+            "title": "Nombre"
+        },
+
+        "mail": {
+            "type": "string",
+            "format": "email",
+            "title": "Correo Electrónico"
+        },
+ 
+        "phone": {
+            "type": "string",
+            "format": "phone",
+            "title": "Número de Teléfono"
+        },
+
+        "terms": {
+            "type": "boolean",
+            "title": "Acepta términos y condiciones"
+        },
+
+        "email1": {
+            "type": "string",
+            "format": "email",
+            "title": "Email contacto Nº1"
+        },
+
+        "phone1": {
+            "type": "string",
+            "format": "phone",
+            "title": "Teléfono contacto Nº1"
+        },
+
+        "email2": {
+            "type": "string",
+            "format": "email",
+            "title": "Email contacto Nº2"
+        },
+
+        "phone2": {
+            "type": "string",
+            "format": "phone",
+            "title": "Teléfono contacto Nº2"
+        },
+
+        "email3": {
+            "type": "string",
+            "format": "email",
+            "title": "Email contacto Nº3"
+        },
+
+        "phone3": {
+            "type": "string",
+            "format": "phone",
+            "title": "Teléfono contacto Nº3"
+        },
+
+        "email4": {
+            "type": "string",
+            "format": "email",
+            "title": "Email contacto Nº4"
+        },
+
+        "phone4": {
+            "type": "string",
+            "format": "phone",
+            "title": "Teléfono contacto Nº4"
+        },
+
+        "email5": {
+            "type": "string",
+            "format": "email",
+            "title": "Email contacto Nº5"
+        },
+
+        "phone5": {
+            "type": "string",
+            "format": "phone",
+            "title": "Teléfono contacto Nº5"
+        }
+    },
+    "required": [
+        "name",
+        "lastname",
+        "mail",
+        "phone",
+        "terms"
+    ],
+    "v-security": {
+        "publicWrite": [
+            "publicForWrite"
+        ],
+        "publicJsonSchema": true
+    }
+}

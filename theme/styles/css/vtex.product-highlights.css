@@ -60,7 +60,9 @@
     display: none;
 }
 /* Flag envio gratis */
-.productHighlightWrapper [data-highlight-id="1590"]{
+.productHighlightWrapper [data-highlight-id="1590"],
+/*eliminar despues del 18 de agosto*/
+.productHighlightWrapper [data-highlight-id="1835"]{
     width: 35px;
     height: 35px;
     background-size: contain;

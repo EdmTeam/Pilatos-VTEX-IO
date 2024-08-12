@@ -1,0 +1,317 @@
+{
+    // sesión banner imagen uno
+  "flex-layout.row#tribuImagen1-essentialitary":{
+    "title": "BANNER IMAGEN 1",
+    "children": [
+      "list-context.image-list#tribuImagen1-essentialitary"
+    ]
+  },
+  
+  "flex-layout.row#tribuImagen2-PilatosxGirbaud":{
+    "title": "BANNER IMAGEN 1",
+    "children": [
+      "list-context.image-list#tribuImagen2-PilatosxGirbaud"
+    ]
+  },
+  
+  "flex-layout.row#tribuImagen3-UnderWear":{
+    "title": "BANNER IMAGEN 1",
+    "children": [
+      "list-context.image-list#tribuImagen3-UnderWear"
+    ]
+  },
+  "flex-layout.row#tribuImagen4-FunDenim":{
+    "title": "BANNER IMAGEN 1",
+    "children": [
+      "list-context.image-list#tribuImagen4-FunDenim"
+    ]
+  },
+  
+  "flex-layout.row#tribuImagen5-Actlive":{
+    "title": "BANNER IMAGEN 1",
+    "children": [
+      "list-context.image-list#tribuImagen5-Actlive"
+    ]
+  },
+  
+  "flex-layout.row#tribuImagen6-PilatosSneakers":{
+    "title": "BANNER IMAGEN 1",
+    "children": [
+      "list-context.image-list#tribuImagen6-PilatosSneakers"
+    ]
+  },
+  
+  "flex-layout.row#tribuImagen7-BarbieKipling":{
+    "title": "BANNER IMAGEN 1",
+    "children": [
+      "list-context.image-list#tribuImagen7-BarbieKipling"
+    ]
+  },
+  
+  "flex-layout.row#tribuImagen8-FridaKahlo":{
+    "title": "BANNER IMAGEN 1",
+    "children": [
+      "list-context.image-list#tribuImagen8-FridaKahlo"
+    ]
+  },
+  
+  "flex-layout.row#tribuImagen9-pilatosxaguabendita":{
+    "title": "BANNER IMAGEN 1",
+    "children": [
+      "list-context.image-list#tribuImagen9-pilatosxaguabendita"
+    ]
+  },
+  
+  "flex-layout.row#tribuImagen10-benature-girbaud":{
+    "title": "BANNER IMAGEN 1",
+    "children": [
+      "list-context.image-list#tribuImagen10-benature-girbaud"
+    ]
+  },
+  
+  "flex-layout.row#tribuImagen11-essential-girbaud":{
+    "title": "BANNER IMAGEN 1",
+    "children": [
+      "list-context.image-list#tribuImagen11-essential-girbaud"
+    ]
+  },
+  
+  "flex-layout.row#tribuImagen12-heritage-girbaud":{
+    "title": "BANNER IMAGEN 1",
+    "children": [
+      "list-context.image-list#tribuImagen12-heritage-girbaud"
+    ]
+  },
+  
+  
+  // lis context con las imagenes
+  "list-context.image-list#tribuImagen1-essentialitary": {
+    "children": [
+        "slider-layout#tribu"
+    ],
+    "props": {
+        "preload": true,
+        "images": [
+            {
+                "image": "/arquivos/Pilatos-Colombiamoda-TribuPilatos-BannerReplay.jpg",
+                "mobileImage": "/arquivos/Pilatos-Colombiamoda-TribuPilatos-BannerReplay.jpg",
+                "link": {
+                  "url": "/replay"
+                }
+            }
+        ]
+    }
+  },
+  
+  "list-context.image-list#tribuImagen2-PilatosxGirbaud": {
+    "children": [
+        "slider-layout#tribu"
+    ],
+    "props": {
+        "preload": true,
+        "images": [
+            {
+                "image": "/arquivos/Pilatos-Colombiamoda-TribuPilatos-BannerDiesel.jpg",
+                "mobileImage": "/arquivos/Pilatos-Colombiamoda-TribuPilatos-BannerDiesel.jpg",
+                "link": {
+                  "url": "/diesel"
+                }
+            }
+        ]
+    }
+  },
+  
+  "list-context.image-list#tribuImagen3-UnderWear": {
+    "children": [
+        "slider-layout#tribu"
+    ],
+    "props": {
+        "preload": true,
+        "images": [
+            {
+                "image": "/arquivos/Pilatos-Colombiamoda-TribuPilatos-BannerMonastery.jpg",
+                "mobileImage": "/arquivos/Pilatos-Colombiamoda-TribuPilatos-BannerMonastery.jpg",
+                "link": {
+                  "url": "/monastery"
+                }
+            }
+        ]
+    }
+  },
+  "list-context.image-list#tribuImagen4-FunDenim": {
+    "children": [
+        "slider-layout#tribu"
+    ],
+    "props": {
+        "preload": true,
+        "images": [
+            {
+                "image": "/arquivos/Pilatos-Colombiamoda-TribuPilatos-BannerSneakersCity1.jpg",
+                "mobileImage": "/arquivos/Pilatos-Colombiamoda-TribuPilatos-BannerSneakersCity1.jpg",
+                "link": {
+                  "url": "/sneakers-city"
+                }
+            }
+        ]
+    }
+  },
+  "list-context.image-list#tribuImagen5-Actlive": {
+    "children": [
+        "slider-layout#tribu"
+    ],
+    "props": {
+        "preload": true,
+        "images": [
+            {
+                "image": "/arquivos/Pilatos-Colombiamoda-TribuPilatos-BannerRitvales.jpg",
+                "mobileImage": "/arquivos/Pilatos-Colombiamoda-TribuPilatos-BannerRitvales.jpg",
+                "link": {
+                  "url": "/ritvales"
+                }
+            }
+        ]
+    }
+  },
+  "list-context.image-list#tribuImagen6-PilatosSneakers": {
+    "children": [
+        "slider-layout#tribu"
+    ],
+    "props": {
+        "preload": true,
+        "images": [
+            {
+                "image": "/arquivos/Pilatos-TribuPilatos-SD.jpg",
+                "mobileImage": "/arquivos/Pilatos-TribuPilatos-SD.jpg",
+                "link": {
+                  "url": "/superdry"
+                }
+            }
+        ]
+    }
+  },
+  "list-context.image-list#tribuImagen7-BarbieKipling": {
+    "children": [
+        "slider-layout#tribu"
+    ],
+    "props": {
+        "preload": true,
+        "images": [
+            {
+                "image": "/arquivos/Pilatos-TribuPilatos-MFG.jpg",
+                "mobileImage": "/arquivos/Pilatos-TribuPilatos-MFG.jpg",
+                "link": {
+                  "url": "/girbaud"
+                }
+            }
+        ]
+    }
+  },
+  
+  "list-context.image-list#tribuImagen8-FridaKahlo": {
+    "children": [
+        "slider-layout#tribu"
+    ],
+    "props": {
+        "preload": true,
+        "images": [
+            {
+                "image": "/arquivos/Pilatos-TribuPilatos-Kipling.jpg",
+                "mobileImage": "/arquivos/Pilatos-TribuPilatos-Kipling.jpg",
+                "link": {
+                  "url": "/kipling"
+                }
+            }
+        ]
+    }
+  },
+  
+  "list-context.image-list#tribuImagen9-pilatosxaguabendita": {
+    "children": [
+      "slider-layout#tribu"
+  ],
+  "props": {
+      "preload": true,
+      "images": [
+          {
+              "image": "/arquivos/Pilatos-Colombiamoda-TribuPilatos-BannerPpal.jpg",
+              "mobileImage": "/arquivos/Pilatos-Colombiamoda-TribuPilatos-BannerPpal.jpg",
+              "link": {
+                "url": "/nomadas-futuristas"
+              }
+          }
+      ]
+  }
+  },
+  
+  "list-context.image-list#tribuImagen10-benature-girbaud": {
+    "children": [
+      "slider-layout#tribu"
+  ],
+  "props": {
+      "preload": true,
+      "images": [
+          {
+              "image": "/arquivos/Pilatos-Colombiamoda-TribuPilatos-BannerYouTubeActualizado.jpg",
+              "mobileImage": "/arquivos/Pilatos-Colombiamoda-TribuPilatos-BannerYouTubeActualizado.jpg",
+              "link": {
+                "url": "https://youtu.be/COKhcxDLO-4"
+              }
+          }
+      ]
+  }
+  },
+  
+  "list-context.image-list#tribuImagen11-essential-girbaud": {
+    "children": [
+      "slider-layout#tribu"
+  ],
+  "props": {
+      "preload": true,
+      "images": [
+          {
+              "image": "/arquivos/Pilatos-TribuPilatos-Outfits.jpg",
+              "mobileImage": "/arquivos/Pilatos-TribuPilatos-Outfits.jpg",
+              "link": {
+                "url": "/colombiamoda"
+              }
+          }
+      ]
+  }
+  },
+  
+  "list-context.image-list#tribuImagen12-heritage-girbaud":{
+    "children": [
+      "slider-layout#tribu"
+  ],
+  "props": {
+      "preload": true,
+      "images": [
+          {
+              "image": "/arquivos/Pilatos-Colombiamoda-TribuPilatos-BannerFrancques.jpg",
+              "mobileImage": "/arquivos/Pilatos-Colombiamoda-TribuPilatos-BannerFrancques.jpg",
+              "link": {
+                "url": "/francques"
+              }
+          }
+      ]
+  }
+  },
+  
+  
+  // slider tribu
+  
+  "slider-layout#tribu": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "tribu"
+    }
+  }
+  
+  }
+  
