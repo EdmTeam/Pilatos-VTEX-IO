@@ -1,0 +1,282 @@
+{
+  "store.custom#landing-outfits": {
+    "blocks": [
+        "flex-layout.row#seo-outfits", 
+        "flex-layout.row#vitrina-outfit-grupo-1",
+        "flex-layout.row#vitrina-outfit-grupo-2",
+        "flex-layout.row#vitrina-outfit-grupo-3"
+    ]
+  },
+
+  //TEXTO SEO
+  "flex-layout.row#seo-outfits": {
+    "children": ["flex-layout.col#seo-outfits"],
+    "props": {
+        "marginBottom": 4
+    }
+  },
+  "flex-layout.col#seo-outfits": {
+    "children": [
+      "rich-text#titulo-landing-outfits",
+      "rich-text#titulo-landing-outfits-seo"
+    ]
+  },
+  "rich-text#titulo-landing-outfits": {
+    "props": {
+      "text": "# Lookbook",
+      "blockClass": ["guia-regalos-pride-h1", "outfits-h1"],
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#titulo-landing-outfits-seo": {
+    "props": {
+      "text": "Descubre tus outfits favoritos de nuestra colección Nómadas Futuristas ,inspirada en paisajes espaciales, calles distópicas y la misteriosidad del cosmos.",
+      "blockClass": "ritualesSEO"
+    }
+  },
+
+  //OUTFITS CARRUSELES
+  "flex-layout.row#vitrina-outfit-grupo-1": {
+    "children": [
+        "flex-layout.col#vitrina-outfit-grupo-1"
+    ],
+    "props": {
+        "marginBottom": 6,
+        "blockClass": "outfit-content"
+    }
+  },
+
+  "flex-layout.col#vitrina-outfit-grupo-1": {
+    "children": [
+        "rich-text#lunar-outfit",
+        "flex-layout.row#lunar-outfit-slider"
+    ]
+  },
+
+  "flex-layout.row#vitrina-outfit-grupo-2": {
+    "children": [
+        "flex-layout.col#vitrina-outfit-grupo-2"
+    ],
+    "props": {
+        "blockClass": "outfit-content"
+    }
+  },
+
+  "flex-layout.col#vitrina-outfit-grupo-2": {
+    "children": [
+        "rich-text#lunar-outfit-2",
+        "flex-layout.row#space-desert-outfit-slider-2"
+    ]
+  },
+
+  "flex-layout.row#vitrina-outfit-grupo-3": {
+    "children": [
+        "flex-layout.col#vitrina-outfit-grupo-3"
+    ],
+    "props": {
+        "blockClass": "outfit-content",
+        "marginTop": 5,
+        "marginBottom": 8
+    }
+  },
+
+  "flex-layout.col#vitrina-outfit-grupo-3": {
+    "children": [
+        "rich-text#lunar-outfit-3",
+        "flex-layout.row#space-desert-outfit-slider-3"
+    ]
+  },
+
+  ///OUTFIT INDIVIDUAL
+  "rich-text#lunar-outfit": {
+    "props": {
+        "text": "**Lunar**"
+    }
+  },
+  "flex-layout.row#lunar-outfit-slider": {
+    "children": [
+        "slider-layout#outfit-lunar"
+    ]
+  },
+  "slider-layout#outfit-lunar": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    },
+    "children": [
+        "image#fits-lunar-1",
+        "image#fits-lunar-2",
+        "image#fits-lunar-3",
+        "image#fits-lunar-4",
+        "image#fits-lunar-5",
+        "image#fits-lunar-6",
+        "image#fits-lunar-7"
+    ]
+  },
+  "image#fits-lunar-1": {
+    "props": {
+        "src": "/arquivos/prueba-outift.png"
+    }
+  },
+  "image#fits-lunar-2": {
+    "props": {
+        "src": "/arquivos/prueba-outift.png"
+    }
+  },
+  "image#fits-lunar-3": {
+    "props": {
+        "src": "/arquivos/prueba-outift.png"
+    }
+  },
+  "image#fits-lunar-4": {
+    "props": {
+        "src": "/arquivos/prueba-outift.png"
+    }
+  },
+  "image#fits-lunar-5": {
+    "props": {
+        "src": "/arquivos/prueba-outift.png"
+    }
+  },
+  "image#fits-lunar-6": {
+    "props": {
+        "src": "/arquivos/prueba-outift.png"
+    }
+  },
+  "image#fits-lunar-7": {
+    "props": {
+        "src": "/arquivos/prueba-outift.png"
+    }
+  },
+
+  ///OUTFIT INDIVIDUAL
+  "rich-text#lunar-outfit-2": {
+    "props": {
+        "text": "**Space Desert**"
+    }
+  },
+  "flex-layout.row#space-desert-outfit-slider-2": {
+    "children": [
+        "slider-layout#outfit-lunar-2"
+    ]
+  },
+  "slider-layout#outfit-lunar-2": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    },
+    "children": [
+        "image#fits-space-desert-1",
+        "image#fits-space-desert-2",
+        "image#fits-space-desert-3",
+        "image#fits-space-desert-4",
+        "image#fits-space-desert-5"
+    ]
+  },
+  "image#fits-space-desert-1": {
+    "props": {
+        "src": "/arquivos/prueba-outift.png"
+    }
+  },
+  "image#fits-space-desert-2": {
+    "props": {
+        "src": "/arquivos/prueba-outift.png"
+    }
+  },
+  "image#fits-space-desert-3": {
+    "props": {
+        "src": "/arquivos/prueba-outift.png"
+    }
+  },
+  "image#fits-space-desert-4": {
+    "props": {
+        "src": "/arquivos/prueba-outift.png"
+    }
+  },
+  "image#fits-space-desert-5": {
+    "props": {
+        "src": "/arquivos/prueba-outift.png"
+    }
+  },
+
+  ///OUTFIT INDIVIDUAL
+  "rich-text#lunar-outfit-3": {
+    "props": {
+        "text": "**Dark Night**"
+    }
+  },
+  "flex-layout.row#space-desert-outfit-slider-3": {
+    "children": [
+        "slider-layout#outfit-lunar-3"
+    ]
+  },
+  "slider-layout#outfit-lunar-3": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    },
+    "children": [
+        "image#fits-dark-night-1",
+        "image#fits-dark-night-2",
+        "image#fits-dark-night-3",
+        "image#fits-dark-night-4",
+        "image#fits-dark-night-5",
+        "image#fits-dark-night-6",
+        "image#fits-dark-night-7"
+    ]
+  },
+  "image#fits-dark-night-1": {
+    "props": {
+        "src": "/arquivos/prueba-outift.png"
+    }
+  },
+  "image#fits-dark-night-2": {
+    "props": {
+        "src": "/arquivos/prueba-outift.png"
+    }
+  },
+  "image#fits-dark-night-3": {
+    "props": {
+        "src": "/arquivos/prueba-outift.png"
+    }
+  },
+  "image#fits-dark-night-4": {
+    "props": {
+        "src": "/arquivos/prueba-outift.png"
+    }
+  },
+  "image#fits-dark-night-5": {
+    "props": {
+        "src": "/arquivos/prueba-outift.png"
+    }
+  },
+  "image#fits-dark-night-6": {
+    "props": {
+        "src": "/arquivos/prueba-outift.png"
+    }
+  },
+  "image#fits-dark-night-7": {
+    "props": {
+        "src": "/arquivos/prueba-outift.png"
+    }
+  }
+}

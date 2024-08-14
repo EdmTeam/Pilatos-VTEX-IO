@@ -3782,3 +3782,14 @@ width: 88%;
   padding: 8px;
   margin-bottom: 10px;
 }
+/******Outfits***/
+.flexRow--outfit-content {
+  width: 90%;
+  margin: 0 auto;
+}
+.flexCol--sliderLookcolombiamoda {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}

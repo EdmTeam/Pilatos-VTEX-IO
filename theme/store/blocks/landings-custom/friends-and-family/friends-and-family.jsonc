@@ -354,7 +354,7 @@
   },
   "form-submit#friendsfamily-form-submit": {
     "props": {
-      "label": "Enviar",
+      "label": "Registrar",
       "blockClass": "submit-friends-family"
     }
   },
