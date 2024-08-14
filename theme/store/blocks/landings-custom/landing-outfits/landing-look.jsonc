@@ -1,0 +1,102 @@
+{
+  "store.custom#ladning-look": {
+    "blocks": [
+      "rich-text#titulo-landing-look",
+      "rich-text#titulo-landing-look-seo",
+      "flex-layout.row#carrusel-productos-look"
+    ]
+  },
+
+  "rich-text#titulo-landing-look": {
+    "props": {
+      "text": "# Look",
+      "blockClass": "guia-regalos-pride-h1",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "rich-text#titulo-landing-look-seo": {
+    "props": {
+      "text": "Compra el outfit completo y haz parte de nuestra colección Nómadas Futuristas",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "ritualesSEO"
+    }
+  },
+
+  "flex-layout.row#carrusel-productos-look": {
+    "title": "Carrusel",
+    "children": [
+        "flex-layout.col#carrusel-productos-look"
+    ],
+    "props": {
+        "fullWidth": false,
+        "preventHorizontalStretch": true,
+        "marginBottom": 10,
+        "marginTop": 8
+    }
+  },
+
+  "flex-layout.col#carrusel-productos-look": {
+    "children": [
+        "flex-layout.col#imagen-carrusel-look",
+        "flex-layout.col#carruselLook-fit"
+    ],
+    "props": {
+        "blockClass": "sliderLookcolombiamoda"
+    }
+  },
+
+  "flex-layout.col#imagen-carrusel-look": {
+    "children": [
+        "image#landing-look"
+    ],
+    "props": {
+        "blockClass": "sliderLookcolombiamoda-1"
+    }
+  },
+
+  "image#landing-look": {
+    "props": {
+      "src": "/arquivos/prueba-outift.png"
+    }
+  },
+
+  "flex-layout.col#carruselLook-fit": {
+    "title": "carrousel Look",
+    "children": [
+      "vtex.product-summary:list-context.product-list#look-recomendador"
+    ],
+    "props": {
+      "blockClass": ["carrouselFit", "sliderLookcolombiamoda-2"],
+      "horizontalAlign": "left"
+    }
+  },
+
+  "vtex.product-summary:list-context.product-list#look-recomendador": {
+    "blocks": ["vtex.product-summary:product-summary.shelf#most-viewed"],
+    "children": ["slider-layout#home-look-recomendador"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "collection": "1586",
+      "maxItems": 30
+    }
+  },
+  "slider-layout#home-look-recomendador": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": false,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "always"
+      //   "centerMode": {
+      //     "mobile": "to-the-left",
+      //     "desktop": "disabled"
+      //   }
+    }
+  }
+}
