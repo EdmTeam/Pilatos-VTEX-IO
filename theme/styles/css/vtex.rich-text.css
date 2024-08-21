@@ -3776,7 +3776,7 @@ margin: 2px;
 
 /***Corrección tamaños h2 del SEO**/
 .headingLevel2--filtroSeo {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 /*****Header nuevo***/
@@ -3838,4 +3838,8 @@ margin: 2px;
 }
 .paragraph--terminos-texto-friends-family {
   font-size: 11px;
+}
+.headingLevel3--filtro-seo-tribu {
+  margin-bottom: 0;
+  font-size: 0.8rem;
 }
