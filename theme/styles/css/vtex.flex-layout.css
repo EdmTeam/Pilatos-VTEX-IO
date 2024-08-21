@@ -3793,3 +3793,15 @@ width: 88%;
   align-items: center;
   gap: 20px;
 }
+.flexRow--sliderLook {
+  width: 90%;
+  margin: 0 auto;
+}
+.flexCol--sliderLookcolombiamoda-1 {
+  width: 300px;
+}
+@media screen and (max-width: 768px) {
+  .flexCol--sliderLookcolombiamoda {
+    flex-direction: column;
+  }
+}

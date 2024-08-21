@@ -1134,9 +1134,9 @@
                         "3",
                         "42"
                     ],
-                    "imageDesktop": "/arquivos/NewBalance-GuiaTallas-calzado-hombre.jpg",
-                    "imageTablet": "/arquivos/NewBalance-GuiaTallas-calzado-hombre.jpg",
-                    "imagePhone": "/arquivos/NewBalance-GuiaTallas-calzado-hombre.jpg"
+                    "imageDesktop": "/arquivos/NewBalance-GuiaTallas-hombre.jpg",
+                    "imageTablet": "/arquivos/NewBalance-GuiaTallas-hombre.jpg",
+                    "imagePhone": "/arquivos/NewBalance-GuiaTallas-hombre.jpg"
                 }
             ]
         }
@@ -1492,11 +1492,11 @@
                         "2000095"
                     ],
                     "categories": [
-                        "13", "16", "17"
+                        "5", "4"
                     ],
-                    "imageDesktop": "/arquivos/New-Balance-superior-masculino-GuiaTallas-2024.jpg",
-                    "imageTablet": "/arquivos/New-Balance-superior-masculino-GuiaTallas-2024.jpg",
-                    "imagePhone": "/arquivos/New-Balance-superior-masculino-GuiaTallas-2024.jpg"
+                    "imageDesktop": "/arquivos/New-Balance-masculino-GuiaTallas-2024.jpg",
+                    "imageTablet": "/arquivos/New-Balance-masculino-GuiaTallas-2024.jpg",
+                    "imagePhone": "/arquivos/New-Balance-masculino-GuiaTallas-2024.jpg"
                 }
             ]
         }
@@ -1509,15 +1509,16 @@
                         "2000095"
                     ],
                     "categories": [
-                        "57", "54", "58"
+                        "48", "53"
                     ],
-                    "imageDesktop": "/arquivos/New-Balance-superior-femenino-GuiaTallas-2024.jpg",
-                    "imageTablet": "/arquivos/New-Balance-superior-femenino-GuiaTallas-2024.jpg",
-                    "imagePhone": "/arquivos/New-Balance-superior-femenino-GuiaTallas-2024.jpg"
+                    "imageDesktop": "/arquivos/New-Balance-femenino-GuiaTallas-2024.jpg",
+                    "imageTablet": "/arquivos/New-Balance-femenino-GuiaTallas-2024.jpg",
+                    "imagePhone": "/arquivos/New-Balance-femenino-GuiaTallas-2024.jpg"
                 }
             ]
         }
     },
+    
 
     //ON
     "size-guide#hombre-calzado-on": {

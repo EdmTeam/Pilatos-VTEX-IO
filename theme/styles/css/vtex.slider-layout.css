@@ -377,3 +377,7 @@
 .slide--marca-sobre-nosotros-2024 {
     background-color: #fff;
 }
+/*****OUTFITS****/
+.slide--outfits--lastVisible, .slide--outfits--visible {
+    margin: 0 7px;
+}

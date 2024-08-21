@@ -3,7 +3,8 @@
     "blocks": [
       "rich-text#titulo-landing-look",
       "rich-text#titulo-landing-look-seo",
-      "flex-layout.row#carrusel-productos-look"
+      "flex-layout.row#carrusel-productos-look",
+      "rich-text#filtro-seo" 
     ]
   },
 
@@ -34,7 +35,8 @@
         "fullWidth": false,
         "preventHorizontalStretch": true,
         "marginBottom": 10,
-        "marginTop": 8
+        "marginTop": 8,
+        "blockClass": "sliderLook"
     }
   },
 
@@ -80,7 +82,7 @@
     "props": {
       "orderBy": "OrderByTopSaleDESC",
       "collection": "1586",
-      "maxItems": 30
+      "maxItems": 10
     }
   },
   "slider-layout#home-look-recomendador": {
@@ -91,8 +93,8 @@
         "phone": 2
       },
       "infinite": false,
-      "showNavigationArrows": "desktopOnly",
-      "showPaginationDots": "always"
+      "showNavigationArrows": "always"
+      //"showPaginationDots": "always"
       //   "centerMode": {
       //     "mobile": "to-the-left",
       //     "desktop": "disabled"

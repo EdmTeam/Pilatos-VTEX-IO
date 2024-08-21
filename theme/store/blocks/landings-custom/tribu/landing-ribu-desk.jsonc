@@ -4,8 +4,18 @@
             "responsive-layout.desktop#page-landing-tribu",
             "responsive-layout.tablet#page-landing-tribu",
             "responsive-layout.phone#page-landing-tribu",
-            "rich-text#filtro-seo"
+            "rich-text#filtro-seo-tribu"
         ]
+    },
+
+    "rich-text#filtro-seo-tribu":{
+        "props":{
+            "text": "## Revive la Pasarela de Colombiamoda \n Mira el video completo de nuestra pasarela en Colombiamoda 2024. Desde Diesel hasta Superdry, nuestras marcas líderes presentaron sus **últimas tendencias**, marcando un hito en el **mundo de la moda.** \n ## Colecciones Destacadas \n ### Colección de Francques \n Descubre la **colección de Francques**, donde la elegancia y la modernidad se fusionan. Cada prenda está diseñada para destacar y crear un impacto visual único. \n ### Colección de Replay \n Replay presentó su colección más audaz en Colombiamoda 2024. Con un enfoque en la innovación y la rebeldía, estas prendas son ideales para quienes buscan marcar tendencia. \n ### Colección de Diesel \n Diesel trajo su estilo icónico a la pasarela, combinando influencias urbanas y detalles atrevidos. Perfecta para quienes buscan una expresión audaz y sin concesiones.",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "filtroSeo"
+    
+        }
     },
 
     "responsive-layout.desktop#page-landing-tribu": {
@@ -41,7 +51,7 @@
 
     "rich-text#titulo-landing-tribu": {
         "props": {
-            "text": "# Nuevas tribu en Pilatos",
+            "text": "# Tribu Pilatos en Colombiamoda 2024",
             "blockClass": "guia-regalos-pride-h1",
             "textAlignment": "CENTER",
             "textPosition": "CENTER"
@@ -50,7 +60,7 @@
 
     "rich-text#titulo-landing-tribu-seo": {
       "props": {
-          "text": "Descubre nuestras emocionantes nuevas tribu: un universo de opciones para cada estilo y preferencia.",
+          "text": "En Tribu Pilatos celebramos la moda y la pasión que nos une. Durante Colombiamoda 2024, nuestras marcas icónicas desfilaron en la pasarela mostrando lo mejor de sus colecciones.",
           "blockClass": "ritualesSEO"
 
       }
