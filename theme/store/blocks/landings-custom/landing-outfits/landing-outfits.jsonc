@@ -4,7 +4,8 @@
         "flex-layout.row#seo-outfits", 
         "flex-layout.row#vitrina-outfit-grupo-1",
         "flex-layout.row#vitrina-outfit-grupo-2",
-        "flex-layout.row#vitrina-outfit-grupo-3"
+        "flex-layout.row#vitrina-outfit-grupo-3",
+        "rich-text#filtro-seo" 
     ]
   },
 
@@ -108,51 +109,44 @@
       },
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
-      "blockClass": "carousel"
+      "blockClass": ["carousel", "outfits"]
     },
     "children": [
         "image#fits-lunar-1",
         "image#fits-lunar-2",
         "image#fits-lunar-3",
         "image#fits-lunar-4",
-        "image#fits-lunar-5",
-        "image#fits-lunar-6",
-        "image#fits-lunar-7"
+        "image#fits-lunar-5"
     ]
   },
   "image#fits-lunar-1": {
     "props": {
-        "src": "/arquivos/prueba-outift.png"
+        "src": "/arquivos/Look-1.jpg",
+        "link": {"url": "/"}
     }
   },
   "image#fits-lunar-2": {
     "props": {
-        "src": "/arquivos/prueba-outift.png"
+        "src": "/arquivos/Look-2.jpg",
+        "link": {"url": "/"}
     }
   },
   "image#fits-lunar-3": {
     "props": {
-        "src": "/arquivos/prueba-outift.png"
+        "src": "/arquivos/Look-3.jpg",
+        "link": {"url": "/"}
     }
   },
   "image#fits-lunar-4": {
     "props": {
-        "src": "/arquivos/prueba-outift.png"
+        "src": "/arquivos/Look-8.jpg",
+        "link": {"url": "/"}
     }
   },
   "image#fits-lunar-5": {
     "props": {
-        "src": "/arquivos/prueba-outift.png"
-    }
-  },
-  "image#fits-lunar-6": {
-    "props": {
-        "src": "/arquivos/prueba-outift.png"
-    }
-  },
-  "image#fits-lunar-7": {
-    "props": {
-        "src": "/arquivos/prueba-outift.png"
+        "src": "/arquivos/Look-9-y-10.jpg",
+        "link": {"url": "/"}
     }
   },
 
@@ -176,7 +170,7 @@
       },
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
-      "blockClass": "carousel"
+      "blockClass": ["carousel", "outfits"]
     },
     "children": [
         "image#fits-space-desert-1",
@@ -188,27 +182,32 @@
   },
   "image#fits-space-desert-1": {
     "props": {
-        "src": "/arquivos/prueba-outift.png"
+        "src": "/arquivos/Look-28.jpg",
+        "link": {"url": "/"}
     }
   },
   "image#fits-space-desert-2": {
     "props": {
-        "src": "/arquivos/prueba-outift.png"
+        "src": "/arquivos/Look-29.jpg",
+        "link": {"url": "/"}
     }
   },
   "image#fits-space-desert-3": {
     "props": {
-        "src": "/arquivos/prueba-outift.png"
+        "src": "/arquivos/Look-30.jpg",
+        "link": {"url": "/"}
     }
   },
   "image#fits-space-desert-4": {
     "props": {
-        "src": "/arquivos/prueba-outift.png"
+        "src": "/arquivos/Look-31.jpg",
+        "link": {"url": "/"}
     }
   },
   "image#fits-space-desert-5": {
     "props": {
-        "src": "/arquivos/prueba-outift.png"
+        "src": "/arquivos/Look-32.jpg",
+        "link": {"url": "/"}
     }
   },
 
@@ -232,7 +231,7 @@
       },
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
-      "blockClass": "carousel"
+      "blockClass": ["carousel", "outfits"]
     },
     "children": [
         "image#fits-dark-night-1",
@@ -240,43 +239,50 @@
         "image#fits-dark-night-3",
         "image#fits-dark-night-4",
         "image#fits-dark-night-5",
-        "image#fits-dark-night-6",
-        "image#fits-dark-night-7"
+        "image#fits-dark-night-6"
+        //"image#fits-dark-night-7"
     ]
   },
   "image#fits-dark-night-1": {
     "props": {
-        "src": "/arquivos/prueba-outift.png"
+        "src": "/arquivos/Look-34.jpg",
+        "link": {"url": "/"}
     }
   },
   "image#fits-dark-night-2": {
     "props": {
-        "src": "/arquivos/prueba-outift.png"
+        "src": "/arquivos/Look-35.jpg",
+        "link": {"url": "/"}
     }
   },
   "image#fits-dark-night-3": {
     "props": {
-        "src": "/arquivos/prueba-outift.png"
+        "src": "/arquivos/Look-38.jpg",
+        "link": {"url": "/"}
     }
   },
   "image#fits-dark-night-4": {
     "props": {
-        "src": "/arquivos/prueba-outift.png"
+        "src": "/arquivos/Look-39.jpg",
+        "link": {"url": "/"}
     }
   },
   "image#fits-dark-night-5": {
     "props": {
-        "src": "/arquivos/prueba-outift.png"
+        "src": "/arquivos/Look-40.jpg",
+        "link": {"url": "/"}
     }
   },
   "image#fits-dark-night-6": {
     "props": {
-        "src": "/arquivos/prueba-outift.png"
+        "src": "/arquivos/Look-44.jpg",
+        "link": {"url": "/"}
     }
   },
   "image#fits-dark-night-7": {
     "props": {
-        "src": "/arquivos/prueba-outift.png"
+        "src": "/arquivos/prueba-outift.png",
+        "link": {"url": "/"}
     }
   }
 }

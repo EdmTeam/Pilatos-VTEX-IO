@@ -38,7 +38,8 @@
     height: 35px;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url(/arquivos/Pilatos-FlagNuevo-Circular.png);
+    /*background-image: url(/arquivos/Pilatos-FlagNuevo-Circular.png);*/
+    background-image: url(/arquivos/Pilatos-FlagNuevo1.png);
     display: block;
 }
 /* Dragon flag 2024 */
