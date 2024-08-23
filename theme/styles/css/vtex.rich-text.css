@@ -3414,6 +3414,26 @@ margin: 2px;
     justify-content: center;
     align-items: center;
 }
+.link--botonGeneroNuevoFriendsFamily {
+  text-decoration: none;
+  background-color:  #F5D400;
+  padding: 15px 17px;
+    border: none;
+    font-weight: 700;
+    color: #000;
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: background-color 0.2s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .link--botonGeneroNuevo:hover {
   background-color: #F5D400;
   color: #000;

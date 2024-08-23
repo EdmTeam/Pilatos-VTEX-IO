@@ -3805,3 +3805,17 @@ width: 88%;
     flex-direction: column;
   }
 }
+/**Friends family**/
+.flexRowContent--botones-descuento-friends-family {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .flexRowContent--botones-descuento-friends-family {
+    flex-direction: column;
+    gap: 0;
+  }
+}

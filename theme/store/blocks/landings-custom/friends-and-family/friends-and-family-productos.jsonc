@@ -1,0 +1,160 @@
+{
+    "store.custom#landing-friends-family-productis": {
+        "blocks": [
+            "flex-layout.row#templateFriendsFamily",
+            "search-result-layout.customQuery#department-nuevo"
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
+    },
+
+    "flex-layout.row#templateFriendsFamily": {
+        "children":[
+            "flex-layout.col#templateFriendsFamilyProductos"
+
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#templateFriendsFamilyProductos":{
+        "title": "Contenedor landing género",
+        "children":[
+            "rich-text#department-templateFriendsFamilyProductos-bread",
+            "rich-text#department-templateFriendsFamilyProductos-title",
+            "rich-text#department-templateFriendsFamilyProductos-description",
+            "responsive-layout.desktop#templateFriendsFamily-desk",
+            "responsive-layout.mobile#templateFriendsFamily-mobile",
+            "flex-layout.row#botones-templateFriendsFamilyBtns-descuento",
+            "flex-layout.row#botones-templateFriendsFamilyBtns"
+        ]
+    },
+
+    "rich-text#department-templateFriendsFamilyProductos-bread": {
+        "title": "Bread crumb",
+        "props":{
+            "text": "[Home](/) / [**Pilatos**](/pilatos)",
+            "blockClass": "departmentBreadCrumb"
+        }
+    },
+
+    "rich-text#department-templateFriendsFamilyProductos-title": {
+        "title": "Titulo SEO",
+        "props":{
+            "text": "# Pilatos",
+            "blockClass": "departmentTitle"
+        }
+    },
+
+    "rich-text#department-templateFriendsFamilyProductos-description": {
+        "title": "SEO CORTO",
+        "props":{
+            "text": "Contamos con nuestra **propia línea de ropa Pilatos** que trae nuevas cápsulas mes a mes, como Olímpicos, inspirada en los elementos típicos de los Juegos Olímpicos y Tokio como ciudad anfitriona. Encuentra diseños exclusivos de ropa para mujer y hombre en un solo lugar, camisetas, buzos y chaquetas, jeans y accesorios, perfectos para innovar y renovar tu clóset.",
+            "blockClass": "departmentDescription"
+        }
+    },
+
+    //Botones descuento
+    "flex-layout.row#botones-templateFriendsFamilyBtns-descuento": {
+        "children": [
+            "rich-text#btnsGeneroFriendsFamily-boton1-descuento",
+            "rich-text#btnsGeneroFriendsFamily-boton2-descuento",
+            "rich-text#btnsGeneroFriendsFamily-boton3-descuento"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "preventHorizontalStretch": true,
+            "blockClass": "botones-descuento-friends-family"
+        }
+    },
+
+    "rich-text#btnsGeneroFriendsFamily-boton1-descuento": {
+        "props":{
+            "text":"[**Chaquetas y buzos desde $60.000**](/bazar-pilatos-chaquetas-buzos)",
+            "blockClass":"botonGeneroNuevoFriendsFamily"
+        }
+    },
+    "rich-text#btnsGeneroFriendsFamily-boton2-descuento": {
+        "props":{
+            "text":"[**Jeans desde $75.000**](/bazar-pilatos-jeans)",
+            "blockClass":"botonGeneroNuevoFriendsFamily"
+        }
+    },
+    "rich-text#btnsGeneroFriendsFamily-boton3-descuento": {
+        "props":{
+            "text":"[**Camisetas desde $59.900**](/bazar-pilatos-camisetas)",
+            "blockClass":"botonGeneroNuevoFriendsFamily"
+        }
+    },
+
+    //Botones
+    "flex-layout.row#botones-templateFriendsFamilyBtns": {
+        "children": [
+            "rich-text#btnsGeneroFriendsFamily-boton1",
+            "rich-text#btnsGeneroFriendsFamily-boton2"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "preventHorizontalStretch": true,
+            "blockClass": "botones-nuevo-template-genero"
+        }
+    },
+
+    "rich-text#btnsGeneroFriendsFamily-boton1": {
+        "props":{
+            "text":"[**HOMBRE**](/hombre)",
+            "blockClass":"botonGeneroNuevo"
+        }
+    },
+
+    "rich-text#btnsGeneroFriendsFamily-boton2": {
+        "props":{
+            "text":"[**MUJER**](/mujer)",
+            "blockClass":"botonGeneroNuevo"
+        }
+    },
+
+
+    //DESK
+    "responsive-layout.desktop#templateFriendsFamily-desk": {
+        "children": [
+            "image#landing-friendsFamily-img"
+        ],
+        "props":{
+            "blockClass":"contentBannersDesk"
+        }
+    },
+
+
+    "image#landing-friendsFamily-img": {
+        "title": "Imágen desktop",
+        "props": {
+            "src": "/arquivos/Bazar-friends-and-family-banner-dcto-home-desk.jpg",
+            "link": {
+                "url": "",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+    //MOB
+    "responsive-layout.mobile#templateFriendsFamily-mobile": {
+        "children": [
+            "image#landing-templateFriendsFamily-banner-img-phone"
+        ]
+    },
+    "image#landing-templateFriendsFamily-banner-img-phone": {
+        "title": "Imágen mobile",
+        "props": {
+            "src": "/arquivos/Bazar-friends-and-family-banner-dcto-home-mobile.jpg",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    }
+}
