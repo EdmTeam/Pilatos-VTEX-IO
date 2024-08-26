@@ -4363,7 +4363,6 @@ div.checkoutFooter p.copyRight {
 .body-order-form .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group.shipping-data .accordion-inner .box-step > div.vtex-omnishipping-1-x-addressFormPart1 div.vtex-omnishipping-1-x-addressSummary,
 .body-order-form .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group.shipping-data .accordion-inner .box-step > div.vtex-omnishipping-1-x-addressForm div.vtex-omnishipping-1-x-addressSummary {
   position: relative;
-  display: none;
 }
 .body-cart .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group.shipping-data .accordion-inner .box-step > div.vtex-omnishipping-1-x-addressFormPart1 div.vtex-omnishipping-1-x-addressSummary div.address-summary, .body-cart .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group.shipping-data .accordion-inner .box-step > div.vtex-omnishipping-1-x-addressForm div.vtex-omnishipping-1-x-addressSummary div.address-summary,
 .body-order-form .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group.shipping-data .accordion-inner .box-step > div.vtex-omnishipping-1-x-addressFormPart1 div.vtex-omnishipping-1-x-addressSummary div.address-summary,
