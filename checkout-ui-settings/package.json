@@ -1,0 +1,27 @@
+{
+  "name": "vtex-checkout",
+  "version": "0.0.1",
+  "description": "Declare custom settings to be used by checkout ui",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon -w src/ -e js,scss -i src/templates/ -x \"yarn build:dev\"",
+    "dev:link": "yarn dev -x \"yarn build:dev && vtex link --no-watch\"",
+    "build:dev": "yarn minifyJS -b && yarn sass",
+    "build:prod": "yarn minifyJS && yarn sass --style=compressed",
+    "publish:vtex": "yarn build:prod && vtex publish --verbose",
+    "sass": "sass --no-source-map src/sass/checkout6-custom.scss:checkout-ui-custom/checkout6-custom.css",
+    "minifyJS": "uglifyjs src/js/*.js -c -m --warn --comments -o checkout-ui-custom/checkout6-custom.js",
+    "lint": "jshint src/js/checkout6-custom.js",
+    "format": "prettier --write \"src/js/*.js\""
+  },
+  "dependencies": {
+    "jshint": "^2.13.1",
+    "nodemon": "^2.0.12",
+    "sass": "^1.37.5",
+    "uglify-js": "^3.14.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.3.2"
+  }
+}
