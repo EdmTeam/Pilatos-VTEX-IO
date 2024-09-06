@@ -1,12 +1,13 @@
 {
   "store.home": {
     "blocks": [
+      "pa-widget",
       "livestreaming",
 
       "modal-trigger#welcome",
       "flex-layout.row#congtent-slider",
 
-      /*Carrusel live shopping,  eliminar una vez termine el evento*/ 
+      /*Carrusel live shopping,  eliminar una vez termine el evento*/
       "flex-layout.row#carrusel-productos-colombiamoda-home-live-shopping-1",
 
       "flex-layout.row#texto-SEO",
@@ -42,7 +43,7 @@
 
   /*******************************/
 
-  /*Carrusel live shopping, 
+  /*Carrusel live shopping,
     eliminar una vez termine el evento*/
   "flex-layout.row#carrusel-productos-colombiamoda-home-live-shopping-1": {
     "children": ["flex-layout.col#carrusel-productos-colombiamoda-home-live-shopping-1"],
