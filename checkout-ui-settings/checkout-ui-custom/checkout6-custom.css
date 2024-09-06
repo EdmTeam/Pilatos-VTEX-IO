@@ -2817,9 +2817,11 @@ div.checkoutFooter p.copyRight {
   .body-cart .container-main.container-cart .checkout-container .cart-template .cart-links-bottom .btn-place-order-wrapper,
   .body-order-form .container-main.container-cart .checkout-container .cart-template .cart-links-bottom .btn-place-order-wrapper {
     padding-left: 0;
-    justify-content: center;
     width: 100%;
     float: none;
+    position: fixed;
+    bottom: 0px;
+    left: 0;
   }
 }
 .body-cart .container-main.container-cart .checkout-container .cart-template .cart-links-bottom .btn-place-order-wrapper a.btn-place-order,
@@ -2850,6 +2852,14 @@ div.checkoutFooter p.copyRight {
   -ms-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+}
+@media screen and (max-width: 767px) {
+  .body-cart .container-main.container-cart .checkout-container .cart-template .cart-links-bottom .btn-place-order-wrapper a.btn-place-order,
+  .body-order-form .container-main.container-cart .checkout-container .cart-template .cart-links-bottom .btn-place-order-wrapper a.btn-place-order {
+    border-radius: 0px !important;
+    height: 60px;
+    font-size: 16px;
+  }
 }
 @media screen and (min-width: 1025px) {
   .body-cart .container-main.container-cart .checkout-container .cart-template .cart-links-bottom .btn-place-order-wrapper a.btn-place-order:hover,
@@ -6851,6 +6861,11 @@ body {
   color: #fff;
   padding: 1rem 2rem;
 }
+@media only screen and (max-width: 768px) {
+  .content-checkout-footer {
+    margin-bottom: 65px;
+  }
+}
 
 .orderform-template-holder .vtex-omnishipping-1-x-shippingDataDev {
   background-color: transparent;
@@ -7074,7 +7089,19 @@ button#payment-data-submit {
 
 @media (max-width: 760px) {
   button#payment-data-submit {
-    width: 85%;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border-radius: 0px !important;
+    height: 60px;
+    z-index: 999;
+  }
+  button#payment-data-submit span {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 /* Descripcion texto sistecredito */

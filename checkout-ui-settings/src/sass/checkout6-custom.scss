@@ -2340,9 +2340,11 @@ div.checkoutFooter {
                             float: left;
                             @include screen-max-width($breakMobile) {
                                 padding-left: 0;
-                                justify-content: center;
                                 width: 100%;
                                 float: none;
+                                position: fixed;
+                                bottom: 0px;
+                                left: 0;
                             }
                             a {
                                 &.btn-place-order {
@@ -2363,6 +2365,12 @@ div.checkoutFooter {
                                     text-shadow: none;
                                     // line-height: 40px;
                                     @include transition(all 0.3s ease 0s);
+                                    @include screen-max-width($breakMobile) {
+                                      border-radius: 0px !important;
+                                      height: 60px;
+                                      font-size: 16px;
+                                    }
+
                                     @include screen-min-width($breakDesktop) {
                                         &:hover {
                                             background-color: $yellow;
@@ -5970,6 +5978,10 @@ body {
             padding: 1rem 2rem;
         }
     }
+
+    @media only screen and (max-width: 768px) {
+      margin-bottom: 65px;
+    }
 }
 
 .orderform-template-holder {
@@ -6209,7 +6221,20 @@ button#payment-data-submit {
 }
 @media (max-width: 760px) {
     button#payment-data-submit {
-        width: 85%;
+      width: 100%;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      border-radius: 0px !important;
+      height: 60px;
+      z-index: 999;
+
+      span {
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
     }
 }
 
