@@ -3819,3 +3819,24 @@ width: 88%;
     gap: 0;
   }
 }
+
+/****guia regalos 2024**/
+.flexRowContent--botones-nuevo-template-genero-guia-regalos {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  background-color: #F1F1F1;
+  padding: 20px 0;
+  margin: 20px 0;
+}
+.flexRowContent--contendor-botones-mobile-guiaregalos {
+  background-color: #F1F1F1;
+  padding: 20px;
+}
+.flexRowContent--btn-guia-regalo-buevo {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  gap: 10px;
+}

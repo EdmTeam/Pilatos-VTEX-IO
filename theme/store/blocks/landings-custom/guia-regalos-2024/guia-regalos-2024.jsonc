@@ -1,0 +1,244 @@
+{
+    "store.custom#guia-regalos-2024": {
+        "blocks": [
+            "flex-layout.row#templateguiaregalos",
+            "search-result-layout.customQuery#department-nuevo"
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
+    },
+
+    "flex-layout.row#templateguiaregalos": {
+        "children":[
+            "flex-layout.col#guiaderegalosnuevo"
+
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#guiaderegalosnuevo":{
+        "title": "Contenedor landing género",
+        "children":[
+            "rich-text#department-guiaderegalosnuevo-bread",
+            "rich-text#department-guiaderegalosnuevo-title",
+            "rich-text#department-guiaderegalosnuevo-description",
+            "responsive-layout.desktop#templateguiaregalos-desk",
+            "responsive-layout.mobile#templateguiaregalos-mobile",
+            "flex-layout.row#botones-templateguiaregalosBtns",
+            "responsive-layout.desktop#botonesguiatallas",
+            "responsive-layout.tablet#botonesguiatallas",
+            "responsive-layout.phone#botonesguiatallas"
+        ]
+    },
+
+    "rich-text#department-guiaderegalosnuevo-bread": {
+        "title": "Bread crumb",
+        "props":{
+            "text": "[Home](/) / [**Pilatos**](/pilatos)",
+            "blockClass": "departmentBreadCrumb"
+        }
+    },
+
+    "rich-text#department-guiaderegalosnuevo-title": {
+        "title": "Titulo SEO",
+        "props":{
+            "text": "# Pilatos",
+            "blockClass": "departmentTitle"
+        }
+    },
+
+    "rich-text#department-guiaderegalosnuevo-description": {
+        "title": "SEO CORTO",
+        "props":{
+            "text": "Contamos con nuestra **propia línea de ropa Pilatos** que trae nuevas cápsulas mes a mes, como Olímpicos, inspirada en los elementos típicos de los Juegos Olímpicos y Tokio como ciudad anfitriona. Encuentra diseños exclusivos de ropa para mujer y hombre en un solo lugar, camisetas, buzos y chaquetas, jeans y accesorios, perfectos para innovar y renovar tu clóset.",
+            "blockClass": "departmentDescription"
+        }
+    },
+
+    //Botones
+    "flex-layout.row#botones-templateguiaregalosBtns": {
+        "children": [
+            "rich-text#btnsguiaderegalosnuevo-boton1",
+            "rich-text#btnsguiaderegalosnuevo-boton2"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "preventHorizontalStretch": true,
+            "blockClass": "botones-nuevo-template-genero"
+        }
+    },
+
+    "rich-text#btnsguiaderegalosnuevo-boton1": {
+        "props":{
+            "text":"[**HOMBRE**](/hombre)",
+            "blockClass":"botonGeneroNuevo"
+        }
+    },
+
+    "rich-text#btnsguiaderegalosnuevo-boton2": {
+        "props":{
+            "text":"[**MUJER**](/mujer)",
+            "blockClass":"botonGeneroNuevo"
+        }
+    },
+
+    //Fin botones
+
+    //Botones dcto
+    "responsive-layout.tablet#botonesguiatallas": {
+        "children": [
+            "flex-layout.row#botones-templateguiaregalosBtnsDcto"
+        ]
+    },
+
+    "responsive-layout.desktop#botonesguiatallas": {
+        "children": [
+            "flex-layout.row#botones-templateguiaregalosBtnsDcto"
+        ]
+    },
+
+    "responsive-layout.phone#botonesguiatallas": {
+        "children": [
+            "flex-layout.row#Contenedor-botones-mobile-guiatallas"
+        ]
+    },
+
+    "flex-layout.row#Contenedor-botones-mobile-guiatallas": {
+        "children": [
+            "flex-layout.row#botones-templateguiaregalosBtnsDctoMob1",
+            "flex-layout.row#botones-templateguiaregalosBtnsDctoMob2",
+            "flex-layout.row#botones-templateguiaregalosBtnsDctoMob3"
+        ],
+        "props": {
+            "blockClass": "contendor-botones-mobile-guiaregalos"
+        }
+    },
+
+    "flex-layout.row#botones-templateguiaregalosBtnsDctoMob1": {
+        "children": [
+            "rich-text#btnsguiaderegalosnuevo-boton1-guia-regalos",
+            "rich-text#btnsguiaderegalosnuevo-boton2-guia-regalos"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "preventHorizontalStretch": true,
+            "blockClass": "btn-guia-regalo-buevo"
+        }
+    },
+
+    "flex-layout.row#botones-templateguiaregalosBtnsDctoMob2": {
+        "children": [
+            "rich-text#btnsguiaderegalosnuevo-boton3-guia-regalos",
+            "rich-text#btnsguiaderegalosnuevo-boton4-guia-regalos"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "preventHorizontalStretch": true,
+            "blockClass": "btn-guia-regalo-buevo"
+        }
+    },
+
+    "flex-layout.row#botones-templateguiaregalosBtnsDctoMob3": {
+        "children": [
+            "rich-text#btnsguiaderegalosnuevo-boton5-guia-regalos"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "preventHorizontalStretch": true,
+            "blockClass": "btn-guia-regalo-buevo"
+        }
+    },
+
+    "flex-layout.row#botones-templateguiaregalosBtnsDcto": {
+        "children": [
+            "rich-text#btnsguiaderegalosnuevo-boton1-guia-regalos",
+            "rich-text#btnsguiaderegalosnuevo-boton2-guia-regalos",
+            "rich-text#btnsguiaderegalosnuevo-boton3-guia-regalos",
+            "rich-text#btnsguiaderegalosnuevo-boton4-guia-regalos",
+            "rich-text#btnsguiaderegalosnuevo-boton5-guia-regalos"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "preventHorizontalStretch": true,
+            "blockClass": "botones-nuevo-template-genero-guia-regalos"
+        }
+    },
+
+    "rich-text#btnsguiaderegalosnuevo-boton1-guia-regalos": {
+        "props":{
+            "text":"[**Accesorios**](/accesorios)",
+            "blockClass":"botonGeneroNuevoguia-regalos"
+        }
+    },
+
+    "rich-text#btnsguiaderegalosnuevo-boton2-guia-regalos": {
+        "props":{
+            "text":"[**Camisetas**](/camisetas)",
+            "blockClass":"botonGeneroNuevoguia-regalos"
+        }
+    },
+
+    "rich-text#btnsguiaderegalosnuevo-boton3-guia-regalos": {
+        "props":{
+            "text":"[**Billeteras**](/billeteras)",
+            "blockClass":"botonGeneroNuevoguia-regalos"
+        }
+    },
+
+    "rich-text#btnsguiaderegalosnuevo-boton4-guia-regalos": {
+        "props":{
+            "text":"[**Morrales**](/morrales)",
+            "blockClass":"botonGeneroNuevoguia-regalos"
+        }
+    },
+
+    "rich-text#btnsguiaderegalosnuevo-boton5-guia-regalos": {
+        "props":{
+            "text":"[**Gorras**](/gorras)",
+            "blockClass":"botonGeneroNuevoguia-regalos"
+        }
+    },
+    //Botones dcto
+
+    "responsive-layout.mobile#templateguiaregalos-mobile": {
+        "children": [
+            "image#landing-templateguiaregalos-banner-img-phone"
+        ]
+    },
+    "image#landing-templateguiaregalos-banner-img-phone": {
+        "title": "Imágen mobile",
+        "props": {
+            "src": "/arquivos/Pilatos-Bancolombia-Banner-Landing-Mob.jpg",
+            "link": {
+                "url": "/",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    },
+
+    "responsive-layout.desktop#templateguiaregalos-desk": {
+        "children": [
+            "image#templateguiaregalos-img"
+        ],
+        "props":{
+            "blockClass":"contentBannersDesk"
+        }
+    },
+
+
+    "image#templateguiaregalos-img": {
+        "title": "Imágen desktop",
+        "props": {
+            "src": "/arquivos/Pilatos-Bancolombia-Banner-Landing-Desk.jpg",
+            "link": {
+                "url": "",
+                "attributeTitle": ""
+            },
+            "blockClass": "departmentBannerImg-1"
+        }
+    }
+}
