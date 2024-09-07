@@ -6219,23 +6219,32 @@ p.btn-go-to-payment button {
 button#payment-data-submit {
     background: black;
 }
-@media (max-width: 760px) {
-    button#payment-data-submit {
-      width: 100%;
-      position: fixed;
-      bottom: 0;
-      left: 0;
-      border-radius: 0px !important;
-      height: 60px;
-      z-index: 999;
 
-      span {
-        font-size: 16px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
+@media only screen and (max-width: 1024px){
+  button#payment-data-submit {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border-radius: 0px !important;
+    height: 60px;
+    z-index: 999;
+
+    span {
+      font-size: 16px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .vtex-social-selling ul {
+    top: 316px;
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 /* Descripcion texto sistecredito */

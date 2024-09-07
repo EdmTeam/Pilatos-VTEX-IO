@@ -7087,7 +7087,7 @@ button#payment-data-submit {
   background: black;
 }
 
-@media (max-width: 760px) {
+@media only screen and (max-width: 1024px) {
   button#payment-data-submit {
     width: 100%;
     position: fixed;
@@ -7102,6 +7102,13 @@ button#payment-data-submit {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .vtex-social-selling ul {
+    top: 316px;
+    display: flex;
+    flex-direction: column;
   }
 }
 /* Descripcion texto sistecredito */
