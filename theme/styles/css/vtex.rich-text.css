@@ -3863,3 +3863,13 @@ margin: 2px;
   margin-bottom: 0;
   font-size: 0.8rem;
 }
+
+/*******Guia regalos 2024****/
+.link--botonGeneroNuevoguia-regalos {
+  text-decoration: none;
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #FFD400;
+  border-radius: 100px;
+  padding: 5px 15px;
+}
