@@ -2,6 +2,7 @@
 {
   "store.product": {
     "children": [
+      "pa-widget",
       "flex-layout.row#product-view"
     ]
   },
@@ -483,7 +484,7 @@
       "blockClass": "contenedor-size-guide-quantity"
     }
   },
-  
+
   "flex-layout.col#product-quantity-size-guide": {
     "children": [
       "product-quantity"
