@@ -1,7 +1,7 @@
 {
   "store.home": {
     "blocks": [
-      "pa-widget",
+      //"pa-widget",
       "livestreaming",
 
       "modal-trigger#welcome",

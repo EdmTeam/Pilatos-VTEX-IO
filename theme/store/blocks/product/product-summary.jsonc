@@ -92,7 +92,7 @@
       "showValueForVariation ": "image",
       "showVariationsLabels": true,
       "visibleVariations": ["Talla"],
-      "displayMode": "select",
+      //"displayMode": "slider",
       "initialSelection": "complete"
     }
   },
@@ -134,7 +134,7 @@
       "hoverImage":{
         "criteria": "index",
         "index": "2"
-      } 
+      }
     }
   },
   "flex-layout.row#add-to-list-btn":{
