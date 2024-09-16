@@ -1,7 +1,7 @@
 {
   "vendor": "pilatos21",
   "name": "theme",
-  "version": "5.0.27",
+  "version": "6.0.1",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
@@ -82,7 +82,8 @@
   "peerDependencies": {
     "pilatos21.wishlist": "0.x",
     "addi.product-page-action": "1.x",
-    "vtexventures.livestreaming-free": "0.x"
+    "vtexventures.livestreaming-free": "0.x",
+    "vtexventures.personal-shopper-free": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

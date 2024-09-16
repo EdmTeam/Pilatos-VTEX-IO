@@ -3,21 +3,15 @@
     "blocks": [
       //"pa-widget",
       "livestreaming",
-
       "modal-trigger#welcome",
       "flex-layout.row#congtent-slider",
-
       /*Carrusel live shopping,  eliminar una vez termine el evento*/
       "flex-layout.row#carrusel-productos-colombiamoda-home-live-shopping-1",
-
       "flex-layout.row#texto-SEO",
-
       "rich-text#h1-pilatoshome",
-
       "responsive-layout.phone#brands-promise",
       "responsive-layout.tablet#brands-promise",
       "responsive-layout.desktop#brands-promise",
-
       "__fold__.mobile",
       //"flex-layout.row#brands",
       "rich-text#brands-title",
@@ -31,9 +25,7 @@
       "responsive-layout.phone#promotional-banners-2-abtest",
       "responsive-layout.desktop#promotional-banners-2-abtest",
       "responsive-layout.tablet#promotional-banners-2-abtest",
-
       "flex-layout.row#cambio-devolucionesHome"
-
       //"flex-layout.row#Recently-viewed",
       /*"responsive-layout.phone#promotional-banners",
       "responsive-layout.tablet#promotional-banners",
