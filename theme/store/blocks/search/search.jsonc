@@ -128,7 +128,7 @@
   },
   "flex-layout.col#search-title": {
     "children": [
-      "search-title.v2"
+      //"search-title.v2"
     ]
   },
   "flex-layout.row#result": {
@@ -233,7 +233,7 @@
     "children": [
       "seo-schema-plp",
       "flex-layout.row#bread-crumb",
-      "search-title.v2",
+      //"search-title.v2",
       "flex-layout.row#product-count-mobile",
      //"flex-layout.col#product-count",
       "flex-layout.row#search-info-mobile",
