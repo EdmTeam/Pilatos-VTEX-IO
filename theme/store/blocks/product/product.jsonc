@@ -2,7 +2,7 @@
 {
   "store.product": {
     "children": [
-      //"pa-widget",
+      "pa-widget",
       "flex-layout.row#product-view"
     ]
   },
