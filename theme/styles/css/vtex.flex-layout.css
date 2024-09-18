@@ -3840,3 +3840,39 @@ width: 88%;
   justify-content: center;
   gap: 10px;
 }
+
+/*Landing t-shirt*/
+
+.flexRowContent--4-imagenes-t-shirt-2024-mobile-1{
+
+     /* max-width: 100%; */
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    width: calc(96% - 2px);
+    margin: 0 5px;
+    gap: 3%;
+    margin-bottom: 3%;
+    margin-top: 2%;
+}
+
+
+.flexRowContent--4-imagenes-t-shirt-2024-mobile-2{
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  width: calc(96% - 2px);
+  margin: 0 5px;
+  gap: 3%;
+}
+
+.flexRowContent--4-imagenes-t-shirt-2024-desk{
+
+  gap: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+
+/*Fin landing t-shirt*/

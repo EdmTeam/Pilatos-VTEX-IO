@@ -1,0 +1,293 @@
+{
+    "store.custom#landing-t-shirt-2024": {
+      "blocks": [
+        "flex-layout.row#templateBotonesGenero-t-shirt-2024",
+        "search-result-layout.customQuery#department-nuevo"
+      ],
+      "props": {
+        "blockClass": "contentStoreCustom"
+      }
+    },
+    "flex-layout.row#templateBotonesGenero-t-shirt-2024": {
+      "children": [
+        "flex-layout.col#templateGeneroNuevo-t-shirt-2024"
+      ],
+      "props": {
+        "blockClass": "contentSearch"
+      }
+    },
+    "flex-layout.col#templateGeneroNuevo-t-shirt-2024": {
+      "title": "Contenedor landing género",
+      "children": [
+        "rich-text#department-templateGeneroNuevo-bread-t-shirt-2024",
+        "rich-text#department-templateGeneroNuevo-title-t-shirt-2024",
+        "rich-text#department-templateGeneroNuevo-description-t-shirt-2024",
+        "responsive-layout.desktop#templateBotonesGenero-desk",
+        "responsive-layout.mobile#templateBotonesGenero-mobile",
+        "responsive-layout.desktop#imagenes-4-t-shirt-desktop",
+         "responsive-layout.mobile#imagenes-4-t-shirt-mobile",
+        "flex-layout.row#botones-templateBotonesGeneroBtns-t-shirt-2024"
+      ]
+    },
+    "rich-text#department-templateGeneroNuevo-bread-t-shirt-2024": {
+      "title": "Bread crumb",
+      "props": {
+        "text": "[Home](/) / [**Pilatos**](/pilatos)",
+        "blockClass": "departmentBreadCrumb"
+      }
+    },
+    "rich-text#department-templateGeneroNuevo-title-t-shirt-2024": {
+      "title": "Titulo SEO",
+      "props": {
+        "text": "# Pilatos",
+        "blockClass": "departmentTitle"
+      }
+    },
+    "rich-text#department-templateGeneroNuevo-description-t-shirt-2024": {
+      "title": "SEO CORTO",
+      "props": {
+        "text": "Contamos con nuestra **propia línea de ropa Pilatos** que trae nuevas cápsulas mes a mes, como Olímpicos, inspirada en los elementos típicos de los Juegos Olímpicos y Tokio como ciudad anfitriona. Encuentra diseños exclusivos de ropa para mujer y hombre en un solo lugar, camisetas, buzos y chaquetas, jeans y accesorios, perfectos para innovar y renovar tu clóset.",
+        "blockClass": "departmentDescription"
+      }
+    },
+    "flex-layout.row#botones-templateBotonesGeneroBtns-t-shirt-2024": {
+      "children": [
+        "rich-text#btnsGeneroNuevo-boton1-t-shirt-2024",
+        "rich-text#btnsGeneroNuevo-boton2-t-shirt-2024"
+      ],
+      "props": {
+        "horizontalAlign": "center",
+        "preventHorizontalStretch": true,
+        "blockClass": "botones-nuevo-template-genero"
+      }
+    },
+    "rich-text#btnsGeneroNuevo-boton1-t-shirt-2024": {
+      "props": {
+        "text": "[**HOMBRE**](/hombre)",
+        "blockClass": "botonGeneroNuevo"
+      }
+    },
+    "rich-text#btnsGeneroNuevo-boton2-t-shirt-2024": {
+      "props": {
+        "text": "[**MUJER**](/mujer)",
+        "blockClass": "botonGeneroNuevo"
+      }
+    },
+
+    //4 imagenes desk
+
+     "responsive-layout.desktop#imagenes-4-t-shirt-desktop":{
+        "title":"grupo 4 imagenes desk",
+        "children": [
+              "flex-layout.row#custom-4-imagenes-t-shirt"
+        ]
+     },
+
+
+    "flex-layout.row#custom-4-imagenes-t-shirt": {
+        "title": "4 imagenes t-shirt",
+    "props": {
+      "blockClass": "4-imagenes-t-shirt-2024-desk"
+    },
+    "children": [
+      "flex-layout.col#image1-tshirt-2024",
+      "flex-layout.col#image2-tshirt-2024",
+      "flex-layout.col#image3-tshirt-2024",
+      "flex-layout.col#image4-tshirt-2024"
+    ]
+  },
+  "flex-layout.col#image1-tshirt-2024": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center",
+      "blockClass": "carouselImage"
+    },
+    "children": [
+      "image#superdry-t-shirt"
+    ]
+  },
+  "flex-layout.col#image2-tshirt-2024": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center",
+      "blockClass": "carouselImage"
+    },
+    "children": [
+      "image#diesel-t-shirt"
+    ]
+  },
+  "flex-layout.col#image3-tshirt-2024": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center",
+      "blockClass": "carouselImage"
+    },
+    "children": [
+      "image#monastery-t-shirt"
+    ]
+  },
+  "flex-layout.col#image4-tshirt-2024": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center",
+      "blockClass": "carouselImage"
+    },
+    "children": [
+      "image#marithe-t-shirt"
+    ]
+  },
+  "image#superdry-t-shirt": {
+    "props": {
+      "src": "/arquivos/superdry.jpg",
+      "alt": "Superdry",
+      "link": {
+        "url": "/superdry"
+      }
+    }
+  },
+  "image#diesel-t-shirt": {
+    "props": {
+      "src": "/arquivos/diesel.jpg",
+      "alt": "Diesel",
+      "link": {
+        "url": "/diesel"
+      }
+    }
+  },
+  "image#monastery-t-shirt": {
+    "props": {
+      "src": "/arquivos/monastery.jpg",
+      "alt": "Monastery",
+      "link": {
+        "url": "/monastery"
+      }
+    }
+  },
+  "image#marithe-t-shirt": {
+    "props": {
+      "src": "/arquivos/marithe.jpg",
+      "alt": "Marithé François Girbaud",
+      "link": {
+        "url": "/marithe"
+      }
+    }
+  },
+  //FIN 4 imagenes desk
+
+
+   //4 imagenes mobile
+
+   "responsive-layout.mobile#imagenes-4-t-shirt-mobile":{
+    "title":"grupo 4 imagenes mobile",
+    "children": [
+
+         "flex-layout.row#custom-4-imagenes-t-shirt-mobile",
+           "flex-layout.row#custom-4-imagenes-bottom-t-shirt-mobile"
+    ]
+   },
+
+
+   "flex-layout.row#custom-4-imagenes-t-shirt-mobile": {
+    "title": "Imagenes 1 y 2",
+    "props": {
+      "blockClass": "4-imagenes-t-shirt-2024-mobile-1"
+    
+    },
+
+    "children": [
+      "flex-layout.col#image1-tshirt-2024-mobile",
+      "flex-layout.col#image2-tshirt-2024-mobile"
+    ]
+  },
+  "flex-layout.row#custom-4-imagenes-bottom-t-shirt-mobile": {
+    "title": "Imagenes 3 y 4",
+    "props": {
+      "blockClass": "4-imagenes-t-shirt-2024-mobile-2"
+    },
+    "children": [
+      "flex-layout.col#image3-tshirt-2024-mobile",
+      "flex-layout.col#image4-tshirt-2024-mobile"
+    ]
+  },
+  "flex-layout.col#image1-tshirt-2024-mobile": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center",
+      "blockClass": "carouselImage-mobile"
+    },
+    "children": [
+      "image#superdry-t-shirt-mobile"
+    ]
+  },
+  "flex-layout.col#image2-tshirt-2024-mobile": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center",
+      "blockClass": "carouselImage-mobile"
+    },
+    "children": [
+      "image#diesel-t-shirt-mobile"
+    ]
+  },
+  "flex-layout.col#image3-tshirt-2024-mobile": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center",
+      "blockClass": "carouselImage-mobile"
+    },
+    "children": [
+      "image#monastery-t-shirt-mobile"
+    ]
+  },
+
+  "flex-layout.col#image4-tshirt-2024-mobile": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center",
+      "blockClass": "carouselImage-mobile"
+    },
+    "children": [
+      "image#marithe-t-shirt-mobile"
+    ]
+  },
+  "image#superdry-t-shirt-mobile": {
+    "props": {
+      "src": "/arquivos/superdry.jpg",
+      "alt": "Superdry",
+      "link": {
+        "url": "/superdry"
+      }
+    }
+  },
+  "image#diesel-t-shirt-mobile": {
+    "props": {
+      "src": "/arquivos/diesel.jpg",
+      "alt": "Diesel",
+      "link": {
+        "url": "/diesel"
+      }
+    }
+  },
+  "image#monastery-t-shirt-mobile": {
+    "props": {
+      "src": "/arquivos/monastery.jpg",
+      "alt": "Monastery",
+      "link": {
+        "url": "/monastery"
+      }
+    }
+  },
+  "image#marithe-t-shirt-mobile": {
+    "props": {
+      "src": "/arquivos/marithe.jpg",
+      "alt": "Marithé François Girbaud",
+      "link": {
+        "url": "/marithe"
+      }
+    }
+  }
+
+
+   // FIN 4 imagenes mobile
+  }
+  
