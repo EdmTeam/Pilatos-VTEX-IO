@@ -1,6 +1,5 @@
 @import url("/arquivos/font-icommon.css");
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&display=swap");
-
 /*libreria de icon*/
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
 
@@ -1799,10 +1798,16 @@ div.checkoutFooter {
                                 align-self: flex-start;
                                 @include screen-max-width($breakTabletVert) {
                                     width: 100%;
+                                    flex-direction: column;
                                 }
-                                // .cart-select-gift-placeholder {
-                                //     display: none;
-                                // }
+
+                                .cart-select-gift-placeholder {
+                                   margin-right: 50px;
+                                   @include screen-max-width($breakTabletVert) {
+                                    margin-right: 0px;
+                                    margin-bottom: 40px;
+                                  }
+                                }
 
                                 #shipping-preview-container {
                                     @include screen-max-width($breakTabletVert) {
