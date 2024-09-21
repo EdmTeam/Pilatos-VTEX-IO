@@ -1800,9 +1800,9 @@ div.checkoutFooter {
                                 @include screen-max-width($breakTabletVert) {
                                     width: 100%;
                                 }
-                                .cart-select-gift-placeholder {
-                                    display: none;
-                                }
+                                // .cart-select-gift-placeholder {
+                                //     display: none;
+                                // }
 
                                 #shipping-preview-container {
                                     @include screen-max-width($breakTabletVert) {
