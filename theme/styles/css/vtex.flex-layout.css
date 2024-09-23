@@ -1762,8 +1762,8 @@
 }
 
 .flexColChild--stack-product :global(.vtex-product-quantity-1-x-quantitySelectorContainer){
-  width: 90%;
-  margin: 4px auto 0 auto;
+  width: 52%;
+  margin: 0;
 }
 
 .flexColChild--stack-product :global(.vtex-product-quantity-1-x-quantitySelectorTitle){
@@ -1961,6 +1961,11 @@
     align-items: end;
   }
 
+  .flexRowContent--contentButtonQuantity :global(.vtex-rich-text-0-x-paragraph){
+    margin-bottom: 0px;
+    font-size: 11px;
+  }
+
   .flexRowContent--poductTab :global(.vtex-tab-layout-0-x-listContainer){
     width: 80%;
     margin: 0 auto;
@@ -2024,9 +2029,10 @@
   }
 
   .flexColChild--product-description :global(.vtex-store-components-3-x-productBrandName){
-    font-weight: 800;
-    font-size: 1.2rem;
+    font-weight: 600;
+    font-size: 16px;
     margin-bottom: 1rem;
+
   }
 
   .flexColChild--product-description :global(.vtex-store-components-3-x-productBrand){
@@ -3355,7 +3361,7 @@ width: 88%;
   margin: 0 auto;
 }
 
-/*template nuevo de género*/  
+/*template nuevo de género*/
 .flexRowContent--botones-nuevo-template-genero {
   display: flex;
   align-items: center;
@@ -3873,6 +3879,27 @@ width: 88%;
   margin-top: 2%;
   margin-bottom: 2%;
 }
-
-
 /*Fin landing t-shirt*/
+
+/*Valor Offer PDP*/
+.flexRowContent--productValorOffer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.flexCol--productValorOffer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.flexRowContent--productValorOffer .stretchChildrenWidth {
+  width: 100% !important;
+  margin-bottom: 4px;
+  margin-top: 4px;
+}

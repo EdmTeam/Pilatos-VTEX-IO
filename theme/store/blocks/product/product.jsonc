@@ -204,7 +204,6 @@
             "flex-layout.row#product-quantity-size-guide",
       "product-availability#uno",
       "flex-layout.row#product-button",
-
       "addi-infos",
       // "rich-text#title-descripcionProducto",
       // "flex-layout.row#productDescripcion",
@@ -334,8 +333,6 @@
       "condition-layout.product#garment-care-superdry-gorras-mujer",
       "condition-layout.product#garment-care-superdry-correa-hombre",
       "condition-layout.product#garment-care-superdry-correa-mujer",
-
-
       "condition-layout.product#cond1-diesel",
       "condition-layout.product#cond2-superdry",
       "condition-layout.product#cond3-kipling",
@@ -361,7 +358,6 @@
         }
   },
 
-
   "sku-selector":{
     "props": {
       "thumbnailImage": ["color"]
@@ -378,12 +374,13 @@
 
   "product-images": {
     "props": {
+      "blockClass": "pdpImage",
       "aspectRatio": {
         "desktop": "auto",
         "phone": "1:1"
       },
       "displayThumbnailsArrows": true,
-      "showNavigationArrows": false,
+      "showNavigationArrows": true,
       "hiddenImages": ["Color"]
     }
   },
@@ -439,6 +436,90 @@
         "href": "#pilatos21-add-to-cart-button-0-x-btnStyle"
     }
   },
+
+  /*Valor Offer*/
+  "flex-layout.row#productValorOffer":{
+    "children":[
+      "flex-layout.col#mediosPagos",
+      "flex-layout.col#enviosGratis",
+      "flex-layout.col#cambiosDevo"
+    ],
+    "props":{
+      "blockClass": "productValorOffer"
+    }
+  },
+
+  "flex-layout.col#mediosPagos":{
+    "children":[
+       "image#mediosPDP",
+       "rich-text#mediosPDP"
+    ],
+    "props":{
+      "blockClass": "productValorOffer"
+    }
+  },
+
+  "image#mediosPDP": {
+    "props": {
+      "src": "/arquivos/solar_card-outline.svg",
+      "maxHeight": 20
+    }
+  },
+
+  "rich-text#mediosPDP":{
+    "props":{
+        "text": "Múltiples medios de pago",
+        "blockClass": "textOfferValor"
+    }
+  },
+
+  /*envios*/
+  "flex-layout.col#enviosGratis":{
+    "children":[
+       "image#enviosGratis",
+       "rich-text#enviosGratis"
+    ],
+    "props":{
+      "blockClass": "productValorOffer"
+    }
+  },
+  "image#enviosGratis": {
+    "props": {
+      "src": "/arquivos/shipping-truck--truck-shipping-delivery-transfer.svg",
+      "maxHeight": 20
+    }
+  },
+
+  "rich-text#enviosGratis":{
+    "props":{
+        "text": "Envíos gratis por compras a partir de $300.000",
+        "blockClass": "textOfferValor"
+    }
+  },
+  /*Cambios*/
+  "flex-layout.col#cambiosDevo":{
+    "children":[
+        "image#cambiosDevo",
+        "rich-text#cambiosDevo"
+    ],
+    "props":{
+      "blockClass": "productValorOffer"
+    }
+  },
+  "image#cambiosDevo": {
+    "props": {
+      "src": "/arquivos/Vector.svg",
+      "maxHeight": 20
+    }
+  },
+
+  "rich-text#cambiosDevo":{
+    "props":{
+        "text": "Haz tus cambios y devoluciones fácilmente",
+        "blockClass": "textOfferValor"
+    }
+  },
+  /*Fin Valor Offer*/
 
   "flex-layout.row#scrollLink":{
     "children":[

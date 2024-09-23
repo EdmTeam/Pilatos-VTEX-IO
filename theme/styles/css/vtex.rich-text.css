@@ -3451,8 +3451,8 @@ margin: 2px;
 
 .container--botonEnvioExpress {
   display: flex;
-    justify-content: end; 
-} 
+    justify-content: end;
+}
 
 @media screen and (max-width: 768px) {
   .container--botonEnvioExpress {
@@ -3743,7 +3743,7 @@ margin: 2px;
 }
 
 /******LANDING VACACIONES**/
-.headingLevel1--titulo-landing-vacaciones-desk, 
+.headingLevel1--titulo-landing-vacaciones-desk,
 .headingLevel1--titulo-landing-vacaciones-mobile {
   font-weight: 900;
   text-align: center;
@@ -3872,4 +3872,16 @@ margin: 2px;
   border: 1px solid #FFD400;
   border-radius: 100px;
   padding: 5px 15px;
+}
+
+/*Valor Offer PDP*/
+.paragraph--textOfferValor {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  text-align: left;
+  color: #494949;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 8px;
 }
