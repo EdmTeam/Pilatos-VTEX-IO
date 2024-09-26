@@ -4464,7 +4464,6 @@ div.checkoutFooter {
                                                                 padding: 10px 10px;
                                                                 text-decoration: none;
                                                                 border-radius: 0px;
-                                                                order: 2;
 
                                                                 span {
                                                                     display: flex;
@@ -4488,7 +4487,7 @@ div.checkoutFooter {
                                                                 }
 
                                                                 &#payment-group-creditCardPaymentGroup {
-                                                                    order: 1;
+                                                                    order: 4;
                                                                     span {
                                                                         /*
                                                                         &:after {
@@ -6042,6 +6041,7 @@ body {
             }
         } */
         a#payment-group-WompiCoPaymentGroup {
+            order: 1 !important;
             span {
                 background-image: url("/arquivos/wompi.jpg") !important;
                 background-size: 35px;
@@ -6093,6 +6093,10 @@ body {
 }
 
 // Estilos añadidos en vtex admin
+.payment-group .payment-group-list-btn a#payment-group-AddiPaymentGroup {
+ order: 2 !important;
+}
+
 .payment-group .payment-group-list-btn a#payment-group-AddiPaymentGroup span {
     font-size: 0;
     background-size: 37px;
@@ -6110,6 +6114,10 @@ body {
     padding-right: 2rem !important;
     padding-left: 29px !important;
     color: #000000 !important;
+}
+
+.payment-group .payment-group-list-btn a#payment-group-SisteCreditoPaymentGroup {
+  order: 5;
 }
 
 .payment-group .payment-group-list-btn a#payment-group-debitPaymentGroup span {
@@ -6151,6 +6159,10 @@ body {
     color: #000000 !important;
 }
 
+.payment-group .payment-group-list-btn a#payment-group-NequiPaymentGroup {
+  order: 6;
+}
+
 .payment-group .payment-group-list-btn a#payment-group-custom201PaymentGroupPaymentGroup span {
     font-size: 13px;
     background-image: url(/arquivos/pago-contra-dark.png) !important;
@@ -6176,7 +6188,7 @@ body {
   padding-left: 30px !important;
 }
 .payment-group #payment-group-PSEPaymentGroup {
-    order: -2;
+    order: 3 !important;
 }
 
 .payment-group .payment-group-list-btn a#payment-group-PSEPaymentGroup span {
@@ -6198,6 +6210,11 @@ body {
   padding-right: 2rem !important;
   padding-left: 45px !important;
   color: #000000 !important;
+}
+
+
+[id="payment-group-WH Google PayPaymentGroup"] {
+  order: 4;
 }
 
 /*botones*/
@@ -6246,4 +6263,12 @@ button#payment-data-submit {
     height: 60px !important;
     top: 0 !important;
     right: 0 !important;
+}
+
+.promotion-row {
+  display: none !important;
+}
+
+.srp-summary-result {
+ display: table-row !important;
 }

@@ -5316,7 +5316,6 @@ div.checkoutFooter p.copyRight {
   padding: 10px 10px;
   text-decoration: none;
   border-radius: 0px;
-  order: 2;
 }
 .body-cart .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .payment-group .payment-group-list-btn a span,
 .body-order-form .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .payment-group .payment-group-list-btn a span {
@@ -5347,7 +5346,7 @@ div.checkoutFooter p.copyRight {
 }
 .body-cart .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .payment-group .payment-group-list-btn a#payment-group-creditCardPaymentGroup,
 .body-order-form .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .payment-group .payment-group-list-btn a#payment-group-creditCardPaymentGroup {
-  order: 1;
+  order: 4;
 }
 .body-cart .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .payment-group .payment-group-list-btn a#payment-group-creditCardPaymentGroup span,
 .body-order-form .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .payment-group .payment-group-list-btn a#payment-group-creditCardPaymentGroup span {
@@ -6916,6 +6915,9 @@ body {
 .payment-group .payment-group-list-btn a#payment-group-debitCardPaymentGroup span:before {
   display: block !important;
 }
+.payment-group .payment-group-list-btn a#payment-group-WompiCoPaymentGroup {
+  order: 1 !important;
+}
 .payment-group .payment-group-list-btn a#payment-group-WompiCoPaymentGroup span {
   background-image: url("/arquivos/wompi.jpg") !important;
   background-size: 35px;
@@ -6957,6 +6959,10 @@ body {
   color: black;
 }
 
+.payment-group .payment-group-list-btn a#payment-group-AddiPaymentGroup {
+  order: 2 !important;
+}
+
 .payment-group .payment-group-list-btn a#payment-group-AddiPaymentGroup span {
   font-size: 0;
   background-size: 37px;
@@ -6974,6 +6980,10 @@ body {
   padding-right: 2rem !important;
   padding-left: 29px !important;
   color: #000000 !important;
+}
+
+.payment-group .payment-group-list-btn a#payment-group-SisteCreditoPaymentGroup {
+  order: 5;
 }
 
 .payment-group .payment-group-list-btn a#payment-group-debitPaymentGroup span {
@@ -7016,6 +7026,10 @@ body {
   color: #000000 !important;
 }
 
+.payment-group .payment-group-list-btn a#payment-group-NequiPaymentGroup {
+  order: 6;
+}
+
 .payment-group .payment-group-list-btn a#payment-group-custom201PaymentGroupPaymentGroup span {
   font-size: 13px;
   background-image: url(/arquivos/pago-contra-dark.png) !important;
@@ -7043,7 +7057,7 @@ body {
 }
 
 .payment-group #payment-group-PSEPaymentGroup {
-  order: -2;
+  order: 3 !important;
 }
 
 .payment-group .payment-group-list-btn a#payment-group-PSEPaymentGroup span {
@@ -7064,6 +7078,10 @@ body {
   padding-right: 2rem !important;
   padding-left: 45px !important;
   color: #000000 !important;
+}
+
+[id="payment-group-WH Google PayPaymentGroup"] {
+  order: 4;
 }
 
 /*botones*/
@@ -7113,4 +7131,12 @@ button#payment-data-submit {
   height: 60px !important;
   top: 0 !important;
   right: 0 !important;
+}
+
+.promotion-row {
+  display: none !important;
+}
+
+.srp-summary-result {
+  display: table-row !important;
 }
