@@ -916,3 +916,29 @@ cursor: pointer;
         height: auto;
     }
 }
+
+/*New Banners Info Card*/
+.infoCardContainer--infocardBanner {
+  position: relative;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.infoCardTextContainer--infocardBanner {
+ display: none !important;
+}
+
+.infoCardImageContainer--infocardBanner {
+  width: 100% !important;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .infoCardContainer--infocardBanner {
+    position: relative;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+}
+

@@ -5,6 +5,9 @@
       "livestreaming",
       "modal-trigger#welcome",
       "flex-layout.row#congtent-slider",
+      "flex-layout.row#bannersInfoCard",
+      "flex-layout.row#bannerDescuento",
+      "flex-layout.row#bannersCategorias",
       /*Carrusel live shopping,  eliminar una vez termine el evento*/
       "flex-layout.row#carrusel-productos-colombiamoda-home-live-shopping-1",
       "flex-layout.row#texto-SEO",
