@@ -3,7 +3,7 @@
     "blocks": [
       "pa-widget",
       "livestreaming",
-      "modal-trigger#welcome",
+      // "modal-trigger#welcome",
       "flex-layout.row#congtent-slider",
       /*Carrusel live shopping,  eliminar una vez termine el evento*/
       "flex-layout.row#carrusel-productos-colombiamoda-home-live-shopping-1",
