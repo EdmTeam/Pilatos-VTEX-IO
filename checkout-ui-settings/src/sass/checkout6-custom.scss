@@ -352,10 +352,10 @@ select {
 }
 
 select {
-    background-image: url("/arquivos/arrowSelect.png") !important;
+    background-image: url("/arquivos/downChevron.svg") !important;
     background-position: 96% !important;
     background-repeat: no-repeat !important;
-    background-size: 10px 7px !important;
+    background-size: 10px 8px !important;
 }
 
 [class^="icon-"],
@@ -6247,3 +6247,24 @@ button#payment-data-submit {
     top: 0 !important;
     right: 0 !important;
 }
+
+/*Select section shipping
+
+.ship-state select#ship-state {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  padding-right: 30px;
+  position: relative;
+}
+
+.ship-state select#ship-state::after {
+  content: '\25BC';
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  font-size: 12px;
+  color: #555;
+}*/
