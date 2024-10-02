@@ -7114,3 +7114,11 @@ button#payment-data-submit {
   top: 0 !important;
   right: 0 !important;
 }
+
+.promotion-row {
+  display: none !important;
+}
+
+.srp-summary-result {
+  display: table-row !important;
+}
