@@ -183,6 +183,29 @@
 } */
 
 
+/*Flag bancolombia 2024-2*/
+
+.productHighlightWrapper [data-highlight-id="1932"]{
+    width: 46px;
+    height: 46px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(/arquivos/Diesel-Flag-Bancolombia-3.png);
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .productHighlightWrapper [data-highlight-id="1932"] {
+      width: 35px; /* Ajusta el tamaño para mobile */
+      height: 35px;
+
+    }
+  }
+
+
+/*FIN bancolombia 2024-2*/
+
+
 
 
 
