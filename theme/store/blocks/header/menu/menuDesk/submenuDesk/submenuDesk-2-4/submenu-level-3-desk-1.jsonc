@@ -5,7 +5,12 @@
   "flex-layout.col#submenu-desk-department-4-category-1-propias":{
     "children": [
       "flex-layout.col#submenu-desk-department-4-category-1-row-1-propias"
-    ]
+    ],
+    "props":{
+        "blockClass": [
+            "contentBlockSubmenuRight"
+        ]
+    }
   },
 
   "flex-layout.col#submenu-desk-department-4-category-1-row-1-propias":{
@@ -22,7 +27,7 @@
     "props":{
         "blockClass": [
             "contentBlockSubmenu"
-                  ]
+        ]
     }
 
   },
@@ -32,13 +37,16 @@
     "flex-layout.col#submenu-desk-department-4-category-1":{
         "children":[
             "flex-layout.col#submenu-desk-department-4-category-1-row-1"
-        ]
+        ],
+        "props":{
+          "blockClass": [
+              "submenu-desk-department"
+          ]
+      }
     },
 
     "flex-layout.col#submenu-desk-department-4-category-1-row-1":{
         "children":[
-
-
             "rich-text#submenu-desk-department-4-category-25", //monastery
             "rich-text#submenu-desk-department-4-category-22", //stance
             "rich-text#submenu-desk-department-4-category-27", //vans
@@ -77,8 +85,6 @@
             "rich-text#submenu-desk-department-4-category-61", //Devier
             "rich-text#submenu-desk-department-4-category-0", //vacío
             "rich-text#submenu-desk-department-4-category-62" //Blackoud
-
-
         ],
         "props":{
             "blockClass": [
@@ -173,17 +179,15 @@
             "text": "[The north face](/the-north-face)",
             "blockClass": [
               "textSubcategory"
-
             ]
         }
     },
 
     "rich-text#submenu-desk-department-4-category-1":{
         "props":{
-            "text": "[Pilatos](/pilatos)",
+            "text": "![pilatos](/arquivos/Pilatos-LogosMarcas-Pilatos.png) [Pilatos](/pilatos)",
             "blockClass": [
               "textSubcategory"
-
             ]
         }
     },
@@ -232,77 +236,77 @@
 
     "rich-text#submenu-desk-department-4-category-2":{
         "props":{
-            "text": "[Diesel](/diesel)",
+            "text": "![pilatos](/arquivos/Pilatos-LogosMarcas-Diesel.png) [Diesel](/diesel)",
             "blockClass": "textSubcategory"
         }
     },
 
     "rich-text#submenu-desk-department-4-category-3":{
         "props":{
-            "text": "[Superdry](/superdry)",
+            "text": "![pilatos](/arquivos/Pilatos-LogosMarcas-Superdry.png) [Superdry](/superdry)",
             "blockClass": "textSubcategory"
         }
     },
 
     "rich-text#submenu-desk-department-4-category-4":{
         "props":{
-            "text": "[Kipling](/kipling)",
+            "text": "![pilatos](/arquivos/Pilatos-LogosMarcas-Kipling.png) [Kipling](/kipling)",
             "blockClass": "textSubcategory"
         }
     },
 
     "rich-text#submenu-desk-department-4-category-5":{
         "props":{
-            "text": "[Marithe Francois Girbaud](/girbaud)",
+            "text": "![pilatos](/arquivos/Pilatos-LogosMarcas-MFG.png) [Marithe Francois Girbaud](/girbaud)",
             "blockClass": "textSubcategory"
         }
     },
 
     "rich-text#submenu-desk-department-4-category-6":{
         "props":{
-            "text": "[Replay](/replay)",
+            "text": "![pilatos](/arquivos/Pilatos-LogosMarcas-Replay.png) [Replay](/replay)",
             "blockClass": "textSubcategory"
         }
     },
 
     "rich-text#submenu-desk-department-4-category-7":{
         "props":{
-            "text": "[New Balance](/new-balance)",
+            "text": "![pilatos](/arquivos/Pilatos-LogosMarcas-NB.png) [New Balance](/new-balance)",
             "blockClass": "textSubcategory"
         }
     },
 
     "rich-text#submenu-desk-department-4-category-8":{
         "props":{
-            "text": "[Nike](/nike)",
+            "text": "![pilatos](/arquivos/Pilatos-LogosMarcas-Nike.png) [Nike](/nike)",
             "blockClass": "textSubcategory"
         }
     },
 
     "rich-text#submenu-desk-department-4-category-40":{
       "props":{
-          "text": "[Calvin Klein](/calvin-klein)",
+          "text": "![pilatos](/arquivos/Pilatos-LogosMarcas-CalvinKlein.png) [Calvin Klein](/calvin-klein)",
           "blockClass": "textSubcategory"
       }
   },
 
   "rich-text#submenu-desk-department-4-category-41":{
     "props":{
-        "text": "[Pepe Jeans](/pepe-jeans)",
+        "text": "![pilatos](/arquivos/Pilatos-LogosMarcas-PepeJeans.png) [Pepe Jeans](/pepe-jeans)",
         "blockClass": "textSubcategory"
     }
 },
 
 "rich-text#submenu-desk-department-4-category-42":{
     "props":{
-        "text": "[ON](/on)",
+        "text": "![pilatos](/arquivos/Pilatos-LogosMarcas-ON.png) [ON](/on)",
         "blockClass": "textSubcategory"
     }
 },
 
 "rich-text#submenu-desk-department-4-category-43":{
   "props":{
-      "text": "[Brooks](/brooks)",
+      "text": "![pilatos](/arquivos/Pilatos-LogosMarcas-Brooks.png) [Brooks](/brooks)",
       "blockClass": "textSubcategory"
   }
 },
@@ -310,7 +314,7 @@
 
     "rich-text#submenu-desk-department-4-category-12":{
         "props":{
-            "text": "[Agua Bendita](/agua-bendita)",
+            "text": "![pilatos](/arquivos/Pilatos-LogosMarcas-AguaBendita.png) [Agua Bendita](/agua-bendita)",
             "blockClass": "textSubcategory"
         }
     },
@@ -318,56 +322,56 @@
 
     "rich-text#submenu-desk-department-4-category-14":{
         "props":{
-            "text": "[Roxy](/roxy)",
+            "text": "![pilatos](/arquivos/Pilatos-LogosMarcas-Roxy.png) [Roxy](/roxy)",
             "blockClass": "textSubcategory"
         }
     },
 
     "rich-text#submenu-desk-department-4-category-17":{
         "props":{
-            "text": "[Goorin Bros](/goorin-bros)",
+            "text": "![pilatos](/arquivos/Pilatos-LogosMarcas-GoorinBros.png) [Goorin Bros](/goorin-bros)",
             "blockClass": "textSubcategory"
         }
     },
 
     "rich-text#submenu-desk-department-4-category-18":{
         "props":{
-            "text": "[Le Coq Sportif](/le-coq-sportif)",
+            "text": "![pilatos](/arquivos/Pilatos-LogosMarcas-LeCoqSportif.png) [Le Coq Sportif](/le-coq-sportif)",
             "blockClass": "textSubcategory"
         }
     },
 
     "rich-text#submenu-desk-department-4-category-19":{
         "props":{
-            "text": "[Oakley](/oakley)",
+            "text": "![pilatos](/arquivos/Pilatos-LogosMarcas-Oakley.png) [Oakley](/oakley)",
             "blockClass": "textSubcategory"
         }
     },
 
     "rich-text#submenu-desk-department-4-category-20":{
         "props":{
-            "text": "[Quiksilver](/quiksilver)",
+            "text": "![pilatos](/arquivos/Pilatos-LogosMarcas-Quiksilver.png) [Quiksilver](/quiksilver)",
             "blockClass": "textSubcategory"
         }
     },
 
     "rich-text#submenu-desk-department-4-category-21":{
         "props":{
-            "text": "[Ray Ban](/ray-ban)",
+            "text": "![pilatos](/arquivos/Pilatos-LogosMarcas-RayBan.png) [Ray Ban](/ray-ban)",
             "blockClass": "textSubcategory"
         }
     },
 
     "rich-text#submenu-desk-department-4-category-22":{
         "props":{
-            "text": "[Stance](/stance)",
+            "text": "![pilatos](/arquivos/Pilatos-LogosMarcas-Stance.png) [Stance](/stance)",
             "blockClass": "textSubcategory"
         }
     },
 
     "rich-text#submenu-desk-department-4-category-23":{
         "props":{
-            "text": "[Celio](/celio)",
+            "text": "![pilatos](/arquivos/Pilatos-LogosMarcas-Celio.png) [Celio](/celio)",
             "blockClass": "textSubcategory"
         }
     },
@@ -375,7 +379,7 @@
 
     "rich-text#submenu-desk-department-4-category-25":{
         "props":{
-            "text": "[Monastery](/monastery)",
+            "text": "![pilatos](/arquivos/Pilatos-LogosMarcas-Monastery.png) [Monastery](/monastery)",
             "blockClass": "textSubcategory"
         }
     },
@@ -383,20 +387,20 @@
 
     "rich-text#submenu-desk-department-4-category-27":{
         "props":{
-            "text": "[Vans](/vans)",
+            "text": "![pilatos](/arquivos/Pilatos-LogosMarcas-Vans.png) [Vans](/vans)",
             "blockClass": "textSubcategory"
         }
     },
 
     "rich-text#submenu-desk-department-4-category-32":{
         "props":{
-            "text": "[Ecovessel](/ecovessel)",
+            "text": "![pilatos](/arquivos/Pilatos-LogosMarcas-Ecovessel.png) [Ecovessel](/ecovessel)",
             "blockClass": "textSubcategory"
         }
     },
     "rich-text#submenu-desk-department-4-category-33":{
         "props":{
-            "text": "[Champion](/champion)",
+            "text": "![pilatos](/arquivos/Pilatos-LogosMarcas-Champion.png) [Champion](/champion)",
             "blockClass": "textSubcategory"
         }
     }
