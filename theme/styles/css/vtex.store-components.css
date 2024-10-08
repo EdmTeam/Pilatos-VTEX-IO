@@ -937,8 +937,16 @@ cursor: pointer;
 @media screen and (max-width: 1024px) {
   .infoCardContainer--infocardBanner {
     position: relative;
-    margin-left: 8px;
-    margin-right: 8px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexColChild--bannersInfoCardRight) {
+    margin-left: 4px !important;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexColChild--bannersInfoCardLeft) {
+    margin-right: 4px !important;
   }
 }
 
