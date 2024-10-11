@@ -38,7 +38,10 @@
       "rich-text#submenu-desk-department-2-category-7-subcategory-35", //Superga mujer
       "rich-text#submenu-desk-department-2-category-7-subcategory-36", //JANSPORT mujer
       "rich-text#submenu-desk-department-2-category-7-subcategory-37", //KAPPA mujer
-      "rich-text#submenu-desk-department-2-category-7-subcategory-38" //THE NORTH FACE mujer
+      "rich-text#submenu-desk-department-2-category-7-subcategory-38", //THE NORTH FACE mujer
+      "rich-text#submenu-desk-department-4-category-61", // devier
+        "rich-text#submenu-desk-department-4-category-62" // blackout
+
     ],
     "props": {
       "blockClass": "contentBlockSubmenu"
