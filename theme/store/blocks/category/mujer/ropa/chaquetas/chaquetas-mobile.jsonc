@@ -9,7 +9,8 @@
           "flex-layout.row#content-mobile",
           "flex-layout.row#fetch-more",
           "rich-text#filtro-seo",
-          "list-context.image-list#department-banner-mobile-category-camisetas-mujer"
+          "list-context.image-list#department-banner-mobile-category-camisetas-mujer",
+          "back-to-top-button"
         ],
         "props": {
             "preventRouteChange": true,

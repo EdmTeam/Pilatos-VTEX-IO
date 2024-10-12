@@ -24,7 +24,7 @@
             "image#bannerAguaBenditaMobi-cat4",
             "image#bannerAguaBenditaMobi-cat5"
         ]
-    }, 
+    },
 
 // vitrina de producto
 
@@ -36,7 +36,8 @@
         "flex-layout.row#fetch-previous",
         "flex-layout.row#content-mobile",
         "flex-layout.row#fetch-more",
-        "flex-layout.row#spacer"
+        "flex-layout.row#spacer",
+        "back-to-top-button"
     ],
     "props": {
         "showProductsCount": true,

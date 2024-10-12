@@ -73,7 +73,8 @@
             "flex-layout.row#fetch-previous",
             "flex-layout.row#content-mobile",
             "flex-layout.row#fetch-more",
-            "flex-layout.row#spacer"
+            "flex-layout.row#spacer",
+            "back-to-top-button"
         ],
         "props": {
             "hiddenFacets": {
@@ -285,17 +286,17 @@
             "textPosition": "CENTER",
             "blockClass": "memorama-successSubmit"
         }
-    },   
+    },
 
-    // INICIO CODIGO DE SLIDER MOBILE 
-/* 
+    // INICIO CODIGO DE SLIDER MOBILE
+/*
     "list-context.image-list#department-bannerlanding-memorama-banners": {
         "children": [
             "slider-layout#department-banner-mobile-landing-marcas-memorama"
         ],
         "props": {
             "images": [
-             
+
                 {
                     "image": "/arquivos/Pilatos-EcobagLanding-FotoEcobag.jpg",
                     "description": "Promotional Banner",
@@ -323,7 +324,7 @@
     "slider-layout#department-banner-mobile-landing-marcas-memorama": {
         "props": {
             "blockClass": "departmenBannerSlide-memorama",
-            "itemsPerPage": {   
+            "itemsPerPage": {
                 "desktop": 1,
                 "tablet": 1,
                 "phone": 1
@@ -336,7 +337,7 @@
 
 
  */
-    // FIN DEL CODIGO SLIDER MOBILE 
+    // FIN DEL CODIGO SLIDER MOBILE
 
     "rich-text#landing-memorama-bread-crumb":{
         "props":{
@@ -359,7 +360,7 @@
         }
     },
 
-   
+
 
     "flex-layout.col#landing-memorama-banners-1":{
         "children":[
@@ -400,7 +401,7 @@
             "blockClass": "departmentBannerImg-ingre"
         }
     },
-/* 
+/*
     "flex-layout.col#landing-memorama-banners-golondrina":{
         "children":[
             "image#landing-memorama-banners-1-img-1"
@@ -422,22 +423,22 @@
     },
  */
 
-  
+
 
     "flex-layout.row#landing-memorama-banners-2":{
         "children":[
             "flex-layout.col#landing-memorama-banners-2-img-1a",
             "flex-layout.col#landing-memorama-banners-2-img-2a",
-            "flex-layout.col#landing-memorama-banners-2-img-3"            
+            "flex-layout.col#landing-memorama-banners-2-img-3"
 
-           
+
         ],
         "props":{
 /*             "blockClass":"contentBanners-ecobag"
  */        }
     },
 
-    
+
 
     "flex-layout.col#landing-memorama-banners-2-img-1a":{
         "children":[
@@ -498,8 +499,8 @@
             "blockClass": "departmentBannerImg-memodesk"
         }
     },
-   
-    
+
+
     "flex-layout.col#landing-memorama-banners-3":{
         "children":[
             "image#landing-memorama-banners-3-img-3"
@@ -520,7 +521,7 @@
         }
     },
 
-    // tablet banner 
+    // tablet banner
 
     "flex-layout.col#landing-memorama-banners-1-tablet":{
         "children":[
@@ -549,14 +550,14 @@
         }
     },
 
-  
+
 
     "flex-layout.row#landing-memorama-banners-2-tablet":{
         "children":[
             "flex-layout.col#landing-memorama-banners-2-img-1-tableta",
             "flex-layout.col#landing-memorama-banners-2-img-2-tableta",
             "slider-layout#landing-fragancia"
-           
+
         ],
         "props":{
             "blockClass":"contentBanners-2"
@@ -603,18 +604,18 @@
         }
     },
 
-  
+
 
     // mobile banner
 
     "flex-layout.col#landing-memorama-banners-1-p":{
         "children":[
-            "image#landing-memorama-banners-1-img-1-p", 
+            "image#landing-memorama-banners-1-img-1-p",
             "flex-layout.row#form-memorama",
          //   "rich-text#memorama-text-seo-h1",
           //  "rich-text#memorama-parrafo-seo-h1-mobile",
-          //  "memorygame", 
-            "image#landing-memorama-banners-1-img-1-ph1a", 
+          //  "memorygame",
+            "image#landing-memorama-banners-1-img-1-ph1a",
             "image#landing-memorama-banners-1-img-1-ph2a",
             "image#landing-memorama-banners-1-img-1-ph3a",
             "rich-text#landing-memorama-text-seo-h1",
@@ -672,7 +673,7 @@
         }
     },
 
-   
+
 
     "image#landing-memorama-banners-1-img-1-phingrediente": {
         "props": {
@@ -687,7 +688,7 @@
 
 
 
- 
+
 
     "flex-layout.row#banner-landing-memorama-piedepagina":{
         "children":[
@@ -717,10 +718,10 @@
             },
             "blockClass": "departmentBannerImg-1"
         }
-    
+
     },
 
-    // mobile 
+    // mobile
     "responsive-layout.phone#banner-landing-memorama-piedepagina-phone":{
         "children":[
             "image#landing-memorama-banners-1-img-1-pie-phone"
@@ -739,7 +740,7 @@
             },
             "blockClass": "departmentBannerImg-12"
         }
-    
+
     },
 
     //pie de pagina tablet
@@ -761,7 +762,7 @@
             },
             "blockClass": "departmentBannerImg-12"
         }
-    
+
     },
 // VIDEO ECOBAG
 
@@ -831,5 +832,5 @@
             "blockClass": "orderFromChaosVideo"
         }
     }
-    
+
 }
