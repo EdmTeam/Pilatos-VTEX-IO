@@ -37,7 +37,8 @@
             "flex-layout.col#btn-mi-talla",
             "product-availability#uno",
             "flex-layout.row#product-button-quantity",
-            "addi-infos",
+            //"addi-infos",
+            "flex-layout.row#logosPagos",
             "flex-layout.row#productValorOffer",
             // "rich-text#title-descripcionProducto",
             // "flex-layout.row#productDescripcion",
@@ -174,7 +175,8 @@
             "condition-layout.product#cond3-kipling",
             "condition-layout.product#cond4-pilatos",
             "condition-layout.product#cond5-girbaud",
-            "link#scrollLink",
+            //"link#scrollLink",
+            "flex-layout.row#seller-table#seller-product",
             "share#default",
             "flex-layout.row#add-to-list-btn",
             "pilatos21.add-to-cart-button:add-to-cart-button",
@@ -401,9 +403,13 @@
 
     //VENDEDOR
     "flex-layout.row#seller-table#seller-product": {
-        "children": [
-            "flex-layout.col#seller-table#seller-product"
-        ]
+      "props": {
+        "blockClass": "seller-product"
+      },
+      "children": [
+        "flex-layout.col#seller-table#seller-product",
+        "rich-text#nitysic"
+      ]
     },
 
     "flex-layout.col#seller-table#seller-product": {
@@ -446,5 +452,43 @@
         "props": {
             "blockClass": "name-seller-product"
         }
+    },
+
+    //Logos Pagos
+    "flex-layout.row#logosPagos": {
+      "props": {
+        "blockClass": "logosPagos"
+      },
+      "children": [
+        "flex-layout.col#logosPagos"
+      ]
+    },
+
+    "flex-layout.col#logosPagos": {
+      "props": {
+        "blockClass": "logosPagosCol"
+      },
+      "children": [
+        "image#logoAddi",
+        "image#logoSiste"
+      ]
+    },
+    "image#logoAddi": {
+      "props": {
+        "src": "/arquivos/logoAddi.jpg",
+        "link": {
+          "url": "https://preapproval.addi.com/",
+          "newTab": true
+        }
+      }
+    },
+    "image#logoSiste": {
+      "props": {
+        "src": "/arquivos/banner-mediodepago-pagaacredito.jpg",
+        "link": {
+          "url": "https://personas.credinet.co/login",
+          "newTab": true
+        }
+      }
     }
 }

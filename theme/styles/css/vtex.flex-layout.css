@@ -1738,6 +1738,12 @@
   margin: 0 .1rem;
 }
 
+@media screen and (max-width:1024px) {
+  .flexCol--product-description{
+    padding-top: 20px;
+  }
+}
+
 .flexCol--stack-product{
   position: relative;
 }
@@ -3902,4 +3908,42 @@ width: 88%;
   width: 100% !important;
   margin-bottom: 4px;
   margin-top: 4px;
+}
+
+
+/*Seller Product*/
+.flexRowContent--seller-product {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column !important;
+}
+
+.flexRowContent--seller-product .stretchChildrenWidth {
+  width: 100% !important;
+}
+
+
+:global(.vtex-flex-layout-0-x-flexCol--logosPagosCol) {
+  display: flex;
+  flex-direction: row !important;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 1024px) {
+  .flexRowContent--seller-product {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .flexCol--logosPagosCol {
+    justify-content: center;
+  }
+
+  .flexRowContent--productValorOffer {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 15px;
+  }
 }
