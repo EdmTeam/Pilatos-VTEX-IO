@@ -1,0 +1,351 @@
+{
+    "flex-layout.row#productRelated": {
+        "title": "Productos Relacionados",
+        "props": {
+            "blockClass": [
+             "productShelf"
+            ]
+        },
+        "children": [
+          "flex-layout.row#sugeridos"
+        ]
+    },
+    "flex-layout.row#sugeridos": {
+      "title": "Productos Relacionados",
+      "props": {
+          "blockClass": [
+           "sliderContentShelf"
+          ]
+      },
+      "children": [
+          "flex-layout.col#productRelated"
+      ]
+    },
+    "flex-layout.col#productRelated": {
+        "title": "Productos Relacionados",
+        "props": {
+            "blockClass": "productRelatedCol"
+        },
+        "children": [
+          "rich-text#title-viewed",
+          "condition-layout.product#producRelatedJeans",
+          "condition-layout.product#producRelatedTenis",
+          "condition-layout.product#producRelatedCamisetas",
+          "condition-layout.product#producRelatedBuzos",
+          "condition-layout.product#producRelatedAccesorios",
+          "condition-layout.product#producRelatedOthers"
+        ]
+    },
+
+    /*Condition Jeans*/
+    "condition-layout.product#producRelatedJeans": {
+        "title": "Condicion Jeans",
+        "props": {
+         "conditions": [
+            {
+             "subject": "categoryTree",
+             "arguments": {
+                "id": "5"
+             }
+            },
+            {
+              "subject": "categoryTree",
+              "arguments": {
+                 "id": "19"
+              }
+             },
+             {
+              "subject": "categoryTree",
+              "arguments": {
+                 "id": "18"
+              }
+             },
+             {
+              "subject": "categoryTree",
+              "arguments": {
+                 "id": "20"
+              }
+             },
+            {
+                "subject": "categoryTree",
+                "arguments": {
+                   "id": "48"
+                }
+            },
+            {
+              "subject": "categoryTree",
+              "arguments": {
+                 "id": "62"
+              }
+             },
+             {
+              "subject": "categoryTree",
+              "arguments": {
+                 "id": "59"
+              }
+             },
+             {
+              "subject": "categoryTree",
+              "arguments": {
+                 "id": "61"
+              }
+             }
+         ],
+         "matchType": "any",
+         "Then": "vtex.product-summary:list-context.product-list#productRelatedJeans"
+     }
+    },
+
+    "vtex.product-summary:list-context.product-list#productRelatedJeans": {
+        "title": "Product Related Jeans",
+        "blocks": [
+         "vtex.product-summary:product-summary.shelf#most-viewed"
+        ],
+        "children": [
+            "slider-layout#home-shelf-most-viewedeee"
+        ],
+        "props": {
+            "orderBy": "OrderByReleaseDateDESC",
+            "collection": "1919"
+        }
+    },
+
+    /*Condition Tenis*/
+    "condition-layout.product#producRelatedTenis": {
+      "title": "Condicion Tenis",
+      "props": {
+      "conditions": [
+          {
+              "subject": "categoryTree",
+              "arguments": {
+                  "id": "3"
+              }
+          },
+          {
+              "subject": "categoryTree",
+              "arguments": {
+                  "id": "44"
+              }
+          }
+      ],
+      "matchType": "any",
+      "Then": "vtex.product-summary:list-context.product-list#producRelatedTenis"
+    }
+    },
+
+    "vtex.product-summary:list-context.product-list#producRelatedTenis": {
+      "title": "Product Related Tenis",
+      "blocks": [
+        "vtex.product-summary:product-summary.shelf#most-viewed"
+      ],
+      "children": [
+        "slider-layout#home-shelf-most-viewedeee"
+      ],
+      "props": {
+          "orderBy": "OrderByReleaseDateDESC",
+          "collection": "1920"
+      }
+  },
+
+  /*Condition Camisetas*/
+  "condition-layout.product#producRelatedCamisetas": {
+    "title": "Condicion Camisetas",
+    "props": {
+    "conditions": [
+        {
+            "subject": "categoryTree",
+            "arguments": {
+                "id": "13"
+            }
+        },
+        {
+            "subject": "categoryTree",
+            "arguments": {
+                "id": "14"
+            }
+        },
+        {
+          "subject": "categoryTree",
+          "arguments": {
+              "id": "15"
+          }
+        },
+        {
+          "subject": "categoryTree",
+          "arguments": {
+              "id": "54"
+          }
+        },
+        {
+          "subject": "categoryTree",
+          "arguments": {
+              "id": "55"
+          }
+        },
+        {
+          "subject": "categoryTree",
+          "arguments": {
+              "id": "56"
+          }
+        }
+    ],
+    "matchType": "any",
+    "Then": "vtex.product-summary:list-context.product-list#producRelatedCamisetas"
+  }
+  },
+
+  "vtex.product-summary:list-context.product-list#producRelatedCamisetas": {
+    "title": "Product Related Camisetas",
+    "blocks": [
+      "vtex.product-summary:product-summary.shelf#most-viewed"
+    ],
+    "children": [
+      "slider-layout#home-shelf-most-viewedeee"
+    ],
+    "props": {
+        "orderBy": "OrderByReleaseDateDESC",
+        "collection": "1921"
+    }
+  },
+
+  /*Condition Buzos*/
+  "condition-layout.product#producRelatedBuzos": {
+    "title": "Condicion Buzos",
+    "props": {
+    "conditions": [
+        {
+            "subject": "categoryTree",
+            "arguments": {
+                "id": "16"
+            }
+        },
+        {
+            "subject": "categoryTree",
+            "arguments": {
+                "id": "17"
+            }
+        },
+        {
+          "subject": "categoryTree",
+          "arguments": {
+              "id": "57"
+          }
+        },
+        {
+          "subject": "categoryTree",
+          "arguments": {
+              "id": "58"
+          }
+        }
+    ],
+    "matchType": "any",
+    "Then": "vtex.product-summary:list-context.product-list#producRelatedBuzos"
+  }
+  },
+
+  "vtex.product-summary:list-context.product-list#producRelatedBuzos": {
+    "title": "Product Related Buzos",
+    "blocks": [
+      "vtex.product-summary:product-summary.shelf#most-viewed"
+    ],
+    "children": [
+      "slider-layout#home-shelf-most-viewedeee"
+    ],
+    "props": {
+        "orderBy": "OrderByReleaseDateDESC",
+        "collection": "1922"
+    }
+  },
+
+  /*Condition Accesorios*/
+  "condition-layout.product#producRelatedAccesorios": {
+    "title": "Condicion Accesorios",
+    "props": {
+    "conditions": [
+        {
+            "subject": "categoryTree",
+            "arguments": {
+                "id": "22"
+            }
+        },
+        {
+            "subject": "categoryTree",
+            "arguments": {
+                "id": "65"
+            }
+        }
+    ],
+    "matchType": "any",
+    "Then": "vtex.product-summary:list-context.product-list#producRelatedAccesorios"
+  }
+  },
+
+  "vtex.product-summary:list-context.product-list#producRelatedAccesorios": {
+    "title": "Product Related Accesorios",
+    "blocks": [
+      "vtex.product-summary:product-summary.shelf#most-viewed"
+    ],
+    "children": [
+      "slider-layout#home-shelf-most-viewedeee"
+    ],
+    "props": {
+        "orderBy": "OrderByReleaseDateDESC",
+        "collection": "1923"
+    }
+  },
+
+  /*Condition Others*/
+  "condition-layout.product#producRelatedOthers": {
+    "title": "Condicion Others",
+    "props": {
+    "conditions": [
+        {
+            "subject": "categoryTree",
+            "arguments": {
+                "id": "39"
+            }
+        },
+        {
+            "subject": "categoryTree",
+            "arguments": {
+                "id": "36"
+            }
+        },
+        {
+          "subject": "categoryTree",
+          "arguments": {
+              "id": "84"
+          }
+        },
+        {
+          "subject": "categoryTree",
+          "arguments": {
+              "id": "79"
+          }
+        },
+        {
+          "subject": "categoryTree",
+          "arguments": {
+              "id": "90"
+          }
+        }
+    ],
+    "matchType": "any",
+    "Then": "shelf.relatedProducts#views-desktop"
+  }
+  }
+
+  /*"vtex.product-summary:list-context.product-list#producRelatedOthers": {
+    "title": "Product Related Others",
+    "blocks": [
+      "vtex.product-summary:product-summary.shelf#most-viewed"
+    ],
+    "children": [
+      "slider-layout#home-shelf-most-viewedeee"
+    ],
+    "props": {
+        "orderBy": "OrderByReleaseDateDESC",
+        "collection": "137"
+    }
+  }*/
+}
