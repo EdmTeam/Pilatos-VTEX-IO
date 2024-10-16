@@ -106,7 +106,7 @@
 
     "rich-text#submenu-desk-department-4-category-59":{
         "props":{
-            "text": "[Artdist](/artdist)",
+            "text": "![pilatos](/arquivos/Pilatos-LogosMarcas-Artdist.png) [Artdist](/artdist)",
             "blockClass": [
               "textSubcategory"
 
@@ -116,7 +116,7 @@
 
     "rich-text#submenu-desk-department-4-category-60":{
         "props":{
-            "text": "[Francques](/francques)",
+            "text": "![pilatos](/arquivos/Pilatos-LogosMarcas-Francques2.png) [Francques](/francques)",
             "blockClass": [
               "textSubcategory"
 
@@ -126,7 +126,7 @@
 
     "rich-text#submenu-desk-department-4-category-61":{
         "props":{
-            "text": "[Devier](/devier)",
+            "text": "![pilatos](/arquivos/Pilatos-LogosMarcas-Devier.png) [Devier](/devier)",
             "blockClass": [
               "textSubcategory"
 
@@ -136,7 +136,7 @@
 
     "rich-text#submenu-desk-department-4-category-62":{
         "props":{
-            "text": "[Blackoud](/blackoud)",
+            "text": "![pilatos](/arquivos/Pilatos-LogosMarcas-Blackoud.png) [Blackoud](/blackoud)",
             "blockClass": [
               "textSubcategory"
 
@@ -146,7 +146,7 @@
 
     "rich-text#submenu-desk-department-4-category-56":{
         "props":{
-            "text": "[Superga](/superga)",
+            "text": "![pilatos](/arquivos/Pilatos-LogosMarcas-Superga.png) [Superga](/superga)",
             "blockClass": [
               "textSubcategory"
 
@@ -156,7 +156,7 @@
 
     "rich-text#submenu-desk-department-4-category-47":{
         "props":{
-            "text": "[Jansport](/jansport)",
+            "text": "![pilatos](/arquivos/Pilatos-LogosMarcas-Jansport.png) [Jansport](/jansport)",
             "blockClass": [
               "textSubcategory"
 
@@ -166,7 +166,7 @@
 
     "rich-text#submenu-desk-department-4-category-57":{
         "props":{
-            "text": "[Kappa](/kappa)",
+            "text": "![pilatos](/arquivos/Pilatos-LogosMarcas-Kappa.png) [Kappa](/kappa)",
             "blockClass": [
               "textSubcategory"
 
@@ -176,7 +176,7 @@
 
     "rich-text#submenu-desk-department-4-category-58":{
         "props":{
-            "text": "[The north face](/the-north-face)",
+            "text": "![pilatos](/arquivos/Pilatos-LogosMarcas-TheNorthFace2.png) [The north face](/the-north-face)",
             "blockClass": [
               "textSubcategory"
             ]
@@ -194,42 +194,42 @@
 
     "rich-text#submenu-desk-department-4-category-28":{
         "props":{
-            "text": "[Alpinestars](/alpinestars)",
+            "text": "![pilatos](/arquivos/Pilatos-LogosMarcas-Alpinestars.png) [Alpinestars](/alpinestars)",
             "blockClass": "textSubcategory"
         }
     },
 
     "rich-text#submenu-desk-department-4-category-31":{
         "props":{
-            "text": "[Fjall Raven](/fjall-raven)",
+            "text": "![pilatos](/arquivos/Pilatos-LogosMarcas-FjallRaven.png) [Fjall Raven](/fjall-raven)",
             "blockClass": "textSubcategory"
         }
     },
 
   "rich-text#submenu-desk-department-4-category-35":{
     "props":{
-        "text": "[Sprayground](/sprayground)",
+        "text": "![pilatos](/arquivos/Pilatos-LogosMarcas-Sprayground.png) [Sprayground](/sprayground)",
+        "blockClass": "textSubcategory"
+      }
+  },
+
+  "rich-text#submenu-desk-department-4-category-37":{
+    "props":{
+        "text": "![pilatos](/arquivos/Pilatos-LogosMarcas-ApCrown.png) [Ap Crown](/ap-crown)",
         "blockClass": "textSubcategory"
     }
-},
-
-"rich-text#submenu-desk-department-4-category-37":{
-  "props":{
-      "text": "[Ap Crown](/ap-crown)",
-      "blockClass": "textSubcategory"
-  }
-},
+  },
 
 
     "rich-text#submenu-desk-department-4-category-29":{
         "props":{
-            "text": "[Lacoste](/lacoste)",
+            "text": "![pilatos](/arquivos/Pilatos-LogosMarcas-Lacoste.png) [Lacoste](/lacoste)",
             "blockClass": "textSubcategory"
         }
     },
     "rich-text#submenu-desk-department-4-category-30":{
         "props":{
-            "text": "[New Era](/new-era)",
+            "text": "![pilatos](/arquivos/Pilatos-LogosMarcas-NewEra.png) [New Era](/new-era)",
             "blockClass": "textSubcategory"
         }
     },
