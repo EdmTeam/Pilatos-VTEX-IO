@@ -55,10 +55,10 @@
 }
 
 .sliderArrows{
-    height: 29px;
-    width: 29px;
+    height: 40px;
+    width: 40px;
     padding: 10px;
-    background: #FFD400 !important;
+    background: #E2E8F0 !important;
     border-radius: 50%;
 }
 
@@ -96,6 +96,10 @@
     .sliderTrackContainer--contentPromotionalBanner{
         width: 96%;
     }
+
+    .sliderLayoutContainer--contentBanner{
+      margin-bottom: 10px;
+  }
 }
 
 @media only screen and (min-width: 740px){
@@ -145,7 +149,8 @@
 }
 
 .paginationDotsContainer--contentBanner{
-    bottom: -1.5rem;
+    bottom: 8%;
+    left: -80%;
 }
 
 .caretIcon{
@@ -220,6 +225,13 @@
 .sliderTrack--departmenBannerSlide{
     margin-top: .2rem;
     margin-left: 1.5rem;
+}
+
+@media only screen and (max-width: 1020px){
+  .paginationDotsContainer--contentBanner{
+    bottom: 4%;
+    left: 0%;
+  }
 }
 
 @media only screen and (min-width: 740px){
@@ -380,4 +392,23 @@
 /*****OUTFITS****/
 .slide--outfits--lastVisible, .slide--outfits--visible {
     margin: 0 7px;
+}
+
+/*Banners Categorias Home*/
+.slide--bannersCategorias {
+  max-width: 291px !important;
+}
+
+@media screen and (max-width: 1366px) {
+  .slide--bannersCategorias {
+    margin-right: 12px;
+    margin-left: 12px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .slide--bannersCategorias {
+    margin-right: 8px;
+    margin-left: 8px;
+  }
 }

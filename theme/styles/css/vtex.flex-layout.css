@@ -3355,7 +3355,7 @@ width: 88%;
   margin: 0 auto;
 }
 
-/*template nuevo de género*/  
+/*template nuevo de género*/
 .flexRowContent--botones-nuevo-template-genero {
   display: flex;
   align-items: center;
@@ -3876,3 +3876,45 @@ width: 88%;
 
 
 /*Fin landing t-shirt*/
+
+/*News Banners Home*/
+.flexRow--bannersInfoCard {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.flexRow--bannerDescuento {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.flexRow--bannersCategorias {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+  .flexRowContent--bannersInfoCard {
+    display: flex;
+  }
+
+  .flexRowContent--bannersInfoCard .stretchChildrenWidth    {
+    width: 50% !important;
+  }
+
+  .flexRow--bannerDescuento {
+    margin-top: 5px;
+  }
+
+  .flexRow--bannersCategorias {
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+}
+
