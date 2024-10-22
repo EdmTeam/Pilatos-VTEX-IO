@@ -3895,8 +3895,8 @@ width: 88%;
   width: 100%;
   max-width: 1600px;
   margin: 0 auto;
-  margin-top: 20px;
-  margin-bottom: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -3906,6 +3906,15 @@ width: 88%;
 
   .flexRowContent--bannersInfoCard .stretchChildrenWidth    {
     width: 50% !important;
+  }
+
+  .flexRow--bannerDescuento {
+    margin-top: 5px;
+  }
+
+  .flexRow--bannersCategorias {
+    margin-top: 10px;
+    margin-bottom: 0px;
   }
 }
 
