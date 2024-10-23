@@ -1,0 +1,159 @@
+{
+    "store.custom#landing-sneakers-2024": {
+        "blocks": [
+            "flex-layout.row#templateBotonesGenero",
+            "search-result-layout.customQuery#department-nuevo"
+        ],
+        "props":{
+            "blockClass": "contentStoreCustom"
+        }
+    },
+
+    "flex-layout.row#templateBotonesGenero": {
+        "title": "Landing sneakers 2024",
+        "children":[
+            "flex-layout.col#templateGeneroNuevo"
+
+        ],
+        "props":{
+            "blockClass": "contentSearch"
+        }
+    },
+
+    "flex-layout.col#templateGeneroNuevo":{
+
+        "title": "Contenedor landing sneakers",
+        "children":[
+            "rich-text#department-templateGeneroNuevo-bread",
+            "rich-text#department-templateGeneroNuevo-title",
+            "rich-text#department-templateGeneroNuevo-description",
+            "flex-layout.row#bannerLanding-sneakers-2024",
+             "responsive-layout.desktop#sneakers-desk-2024",
+             "responsive-layout.mobile#sneakers-mobile2024"
+       
+    
+        ]
+    },
+
+    // MODO DESKTOP
+
+     "responsive-layout.desktop#sneakers-desk-2024":{
+        "title": "Sneakers desk",
+        "children": [
+            "flex-layout.row#imagen-sneakers-2024"
+
+        ]
+     },
+
+// FIN MODO DESKTOP
+
+//MODO MOBILE
+
+"responsive-layout.mobile#sneakers-mobile2024":{
+    "title": "Sneakers mobile",
+    "children": [
+        "flex-layout.row#imagen-sneakers-2024"
+
+    ]
+
+},
+
+// FIN MODO MOBILE
+
+
+
+  /*Banner landing*/
+  "flex-layout.row#bannerLanding-sneakers-2024": {
+    "title": "Banner landing principal nllegada",
+    "children": [
+      "list-context.image-list#bannerLanding-nuevas-llegadas"
+    ],
+    "props": {
+      "blockClass": "banner-activaciones-imagen-form"
+    }
+  },
+
+  "list-context.image-list#bannerLanding-nuevas-llegadas": {
+    "children": [
+      "slider-layout#banner-landing-nuevas-llegadas"
+    ],
+    "props": {
+      "height": 570,
+      "preload": true,
+      "images": [
+        {
+          "image": "https://dieselcolombia.vtexassets.com/assets/vtex.file-manager-graphql/images/546f5d85-b623-4eda-ad33-f1347b127d69___d92778d4dfbcb317247b1599a32f3d3c.gif",
+          "mobileImage": "https://dieselcolombia.vtexassets.com/assets/vtex.file-manager-graphql/images/bd00c59f-f985-470a-b31b-bbf4c037b0a0___a4a0b23477f861e29a544ec7ff2cb36c.gif"
+        }
+      ]
+    }
+  },
+
+  "slider-layout#banner-landing-nuevas-llegadas": {
+    "title": "Productos",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 30,
+        "tablet": 30,
+        "phone": 30
+      },
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "never",
+      "infinite": false,
+      "fullWidth": true,
+      "blockClass": "slide__banner"
+    }
+  },
+  /*FIN Banner landing*/
+
+
+
+     "flex-layout.row#imagen-sneakers-2024":{
+
+        "title": "imagen 1 sneakers",
+        "children": [
+          "image#custom-image-1-sneakers-2024"
+        ]
+     },
+
+     "image#custom-image-1-sneakers-2024": {
+  "props": {
+    "src": "https://mi-tienda.com/path-to-your-image4.jpg",
+    "alt": "sneakers-2024",
+    "maxWidth": "100%",
+    "blockClass": "imagen-dsneakers-1",
+    "link": {
+      "url": "/path-to-link-4",
+      "noFollow": true,
+      "openNewTab": false
+    }
+  }
+   },
+
+
+    "rich-text#department-templateGeneroNuevo-bread": {
+        "title": "Bread crumb",
+        "props":{
+            "text": "[Home](/) / [**Pilatos**](/pilatos)",
+            "blockClass": "departmentBreadCrumb"
+        }
+    },
+
+    "rich-text#department-templateGeneroNuevo-title": {
+        "title": "Titulo SEO",
+        "props":{
+            "text": "# Pilatos",
+            "blockClass": "departmentTitle"
+        }
+    },
+
+    "rich-text#department-templateGeneroNuevo-description": {
+        "title": "SEO CORTO",
+        "props":{
+            "text": "Contamos con nuestra **propia línea de ropa Pilatos** que trae nuevas cápsulas mes a mes, como Olímpicos, inspirada en los elementos típicos de los Juegos Olímpicos y Tokio como ciudad anfitriona. Encuentra diseños exclusivos de ropa para mujer y hombre en un solo lugar, camisetas, buzos y chaquetas, jeans y accesorios, perfectos para innovar y renovar tu clóset.",
+            "blockClass": "departmentDescription"
+        }
+    }
+
+   
+}
