@@ -1,7 +1,7 @@
 {
     "store.custom#landing-sneakers-2024": {
         "blocks": [
-            "flex-layout.row#templateBotonesGenero",
+            "flex-layout.row#templateBotonesGenero-2",
             "search-result-layout.customQuery#department-nuevo"
         ],
         "props":{
@@ -9,10 +9,10 @@
         }
     },
 
-    "flex-layout.row#templateBotonesGenero": {
+    "flex-layout.row#templateBotonesGenero-2": {
         "title": "Landing sneakers 2024",
         "children":[
-            "flex-layout.col#templateGeneroNuevo"
+            "flex-layout.col#templateGeneroNuevo-2"
 
         ],
         "props":{
@@ -20,13 +20,13 @@
         }
     },
 
-    "flex-layout.col#templateGeneroNuevo":{
+    "flex-layout.col#templateGeneroNuevo-2":{
 
         "title": "Contenedor landing sneakers",
         "children":[
-            "rich-text#department-templateGeneroNuevo-bread",
-            "rich-text#department-templateGeneroNuevo-title",
-            "rich-text#department-templateGeneroNuevo-description",
+            "rich-text#department-templateGeneroNuevo-bread-2",
+            "rich-text#department-templateGeneroNuevo-title-2",
+            "rich-text#department-templateGeneroNuevo-description-2",
             "flex-layout.row#bannerLanding-sneakers-2024",
              "responsive-layout.desktop#sneakers-desk-2024",
              "responsive-layout.mobile#sneakers-mobile2024"
@@ -131,7 +131,7 @@
    },
 
 
-    "rich-text#department-templateGeneroNuevo-bread": {
+    "rich-text#department-templateGeneroNuevo-bread-2": {
         "title": "Bread crumb",
         "props":{
             "text": "[Home](/) / [**Pilatos**](/pilatos)",
@@ -139,7 +139,7 @@
         }
     },
 
-    "rich-text#department-templateGeneroNuevo-title": {
+    "rich-text#department-templateGeneroNuevo-title-2": {
         "title": "Titulo SEO",
         "props":{
             "text": "# Pilatos",
@@ -147,7 +147,7 @@
         }
     },
 
-    "rich-text#department-templateGeneroNuevo-description": {
+    "rich-text#department-templateGeneroNuevo-description-2": {
         "title": "SEO CORTO",
         "props":{
             "text": "Contamos con nuestra **propia línea de ropa Pilatos** que trae nuevas cápsulas mes a mes, como Olímpicos, inspirada en los elementos típicos de los Juegos Olímpicos y Tokio como ciudad anfitriona. Encuentra diseños exclusivos de ropa para mujer y hombre en un solo lugar, camisetas, buzos y chaquetas, jeans y accesorios, perfectos para innovar y renovar tu clóset.",
