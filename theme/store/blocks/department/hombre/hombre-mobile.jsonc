@@ -37,7 +37,8 @@
           "flex-layout.row#search-info-mobile-hombre",
           "flex-layout.row#fetch-previous",
           "flex-layout.row#content-mobile",
-          "flex-layout.row#fetch-more"
+          "flex-layout.row#fetch-more",
+          "back-to-top-button"
         ],
         "props": {
             "showProductsCount": true,
@@ -78,7 +79,7 @@
                         },
                         {
                           "name": "Color"
-                        }, 
+                        },
                         {
                             "name": "Categoría"
                       }

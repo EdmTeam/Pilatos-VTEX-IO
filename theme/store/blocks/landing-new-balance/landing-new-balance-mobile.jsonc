@@ -35,12 +35,13 @@
           "responsive-layout.tablet#landing-new-balance-banners-2-tablet",
           "flex-layout.row#fetch-previous",
           "flex-layout.row#content-mobile",
-          "flex-layout.row#fetch-more"
+          "flex-layout.row#fetch-more",
+          "back-to-top-button"
         ]
-       
+
     },
 
- 
+
 
     "responsive-layout.phone#landing-new-balance-banners-2-phone":{
         "children":[
@@ -49,7 +50,7 @@
             "flex-layout.col#landing-new-balance-banners-top-mobi",
             "flex-layout.row#recomendadorNewBalanceOne",
             "flex-layout.col#landing-new-balance-banners-nuevo-mobi"
-            
+
            // "flex-layout.row#recomendadorNewBalanceTwo"
 
         ]
@@ -62,7 +63,7 @@
         "props": {
             "height": 450,
             "images": [
-             
+
                 {
                     "image": "/arquivos/BANNER-HOMBRE-newbalance.png",
                     "description": "Promotional Banner",
@@ -118,13 +119,13 @@
     },
 
     //Tablet
-   
+
     "responsive-layout.tablet#landing-new-balance-banners":{
         "children":[
             "flex-layout.col#landing-new-balance-banners-1",
             "flex-layout.row#landing-new-balance-banners-2",
             "flex-layout.row#landing-new-balance-banners-3",
-            "flex-layout.row#recomendadorNewBalanceOne", 
+            "flex-layout.row#recomendadorNewBalanceOne",
             "flex-layout.col#landing-new-balance-banners-nuevo",
             "flex-layout.col#landing-new-balance-banners-top"
            // "flex-layout.row#recomendadorNewBalanceTwo"

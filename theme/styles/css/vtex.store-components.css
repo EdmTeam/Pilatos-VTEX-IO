@@ -910,6 +910,27 @@ cursor: pointer;
     object-fit: cover;
 }
 
+.backToTopButtonContainer :global(.vtex-button) {
+  background-color: #000;
+  border-color: #000;
+  width: 45px;
+}
+
+@media screen and (max-width: 1024px) {
+  .imageElement--imagen-1-live-shopping {
+    width: auto;
+    height: auto;
+  }
+
+  .backToTopButtonContainer :global(.vtex-button) {
+    right: -30px;
+    width: 35px;
+}
+
+  .backToTopButtonContainer :global(.vtex-button__label) {
+    padding: 0px !important;
+  }
+}
 @media screen and (max-width: 768px) {
     .imageElement--imagen-1-live-shopping {
         width: auto;

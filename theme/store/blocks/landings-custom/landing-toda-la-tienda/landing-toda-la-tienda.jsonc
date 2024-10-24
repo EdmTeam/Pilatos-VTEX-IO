@@ -67,7 +67,8 @@
             // "flex-layout.row#count-per-page",
             // "flex-layout.row#products-progress-bar",
             "flex-layout.row#fetch-more",
-            "flex-layout.row#spacer"
+            "flex-layout.row#spacer",
+            "back-to-top-button"
         ],
         "props": {
             "showProductsCount": true,

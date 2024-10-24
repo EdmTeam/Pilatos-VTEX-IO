@@ -57,7 +57,8 @@
             "flex-layout.row#fetch-previous",
             "flex-layout.row#content-mobile",
             "flex-layout.row#fetch-more",
-            "flex-layout.row#spacer"
+            "flex-layout.row#spacer",
+            "back-to-top-button"
         ],
         "props": {
             "hiddenFacets": {
