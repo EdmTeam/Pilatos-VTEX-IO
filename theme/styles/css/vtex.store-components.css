@@ -918,15 +918,16 @@ cursor: pointer;
 
 @media screen and (max-width: 1024px) {
   .imageElement--imagen-1-live-shopping {
-      width: auto;
-      height: auto;
-  }
-
-  .backToTopButtonContainer {
-    right: 1rem !important;
+    width: auto;
+    height: auto;
   }
 
   .backToTopButtonContainer :global(.vtex-button) {
-    width: 60px;
+    right: -30px;
+    width: 35px;
+}
+
+  .backToTopButtonContainer :global(.vtex-button__label) {
+    padding: 0px !important;
   }
 }
