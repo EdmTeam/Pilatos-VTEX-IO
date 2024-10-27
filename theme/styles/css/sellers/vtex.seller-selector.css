@@ -1,0 +1,3 @@
+.sellerMasterContainer--tabla-seller-product :global(.vtex-seller-selector-0-x-sellerList--body-seller-product) :global(.vtex-seller-selector-0-x-sellerRow--name-seller-product):nth-child(even){
+  display: none;
+}
