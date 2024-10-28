@@ -202,7 +202,6 @@
       "product-price#product",
       "sku-selector",
       "flex-layout.row#product-quantity-size-guide",
-      "product-availability#uno",
       "flex-layout.row#product-button",
       "flex-layout.row#logosPagos",
       "flex-layout.row#productValorOffer",
@@ -561,8 +560,9 @@
   //PDP
   "flex-layout.row#product-quantity-size-guide": {
     "children": [
-      "flex-layout.col#product-quantity-size-guide",
-      "flex-layout.col#product-size-guide"
+      "flex-layout.col#product-size-guide",
+      "product-availability#uno",
+      "flex-layout.col#product-quantity-size-guide"
     ],
     "props": {
       "blockClass": "contenedor-size-guide-quantity"

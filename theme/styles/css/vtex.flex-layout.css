@@ -658,12 +658,31 @@
   display: none;
 }
 
+.flexRow--addWishList :global(.vtex-button) {
+ display: flex;
+ justify-content: flex-start;
+ align-items: center;
+}
+
+.flexRow--addWishList :global(.vtex-button)::after{
+  content: 'Agregar a favoritos';
+  font-size: 11px;
+  padding-left: 0px;
+  color: #000000 !important;
+  text-decoration: underline;
+}
+
+
 .flexRow--productContentW .flexRow--addWishList :global(.vtex-button) :global(.vtex-button__label)::before{
   content: '\e91e';
   font-weight: normal;
 }
 
 @media only screen and (min-width: 1180px){
+  .flexRow--addWishList :global(.vtex-button)::after{
+    padding-left: 12px;
+  }
+
   .flexColChild--contentButton{
     display: flex;
     justify-content: space-between;
@@ -1692,7 +1711,13 @@
 }
 
 .flexColChild--product-description :global(.vtex-store-components-3-x-productBrandName){
-  font-weight: bold;
+  font-weight: 400;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.flexColChild--product-description :global(.vtex-store-components-3-x-productBrandContainer){
+  margin-bottom: 6px !important;
 }
 
 .flexColChild--product-description :global(.vtex-store-components-3-x-productNameContainer){
@@ -1702,10 +1727,11 @@
 
 .flexColChild--product-description :global(.vtex-store-components-3-x-productBrand){
   font-weight: bold;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 17px;
   color: #000000;
   display: block;
+  margin-bottom: 12px;
 }
 
 .flexColChild--product-description :global(.vtex-product-identifier-0-x-product-identifier){
@@ -1783,7 +1809,7 @@
 }
 
 .flexColChild--stack-product :global(.vtex-dropdown__container){
-  width: 109px;
+  width: 60px;
   height: 36px;
   border: 1px solid #A9A9A9;
   border-radius: 0;
@@ -3517,7 +3543,11 @@ width: 88%;
   margin: 0 auto 20px auto;
 }
 .flexCol--product-size-guide-btn {
-  margin-top: 12px;
+  margin-bottom: 18px !important;
+}
+.flexColChild--product-size-guide-btn {
+  display: flex !important;
+  justify-content: flex-start !important;
 }
 .flexRowContent--contenedor-sku-mi-talla {
   margin-bottom: 20px;

@@ -933,3 +933,16 @@ cursor: pointer;
 .swiperCaretPrev--pdpImage::after {
   content: url(/arquivos/arrowRightPDP.png);
 }
+
+:global(.vtex-product-identifier-0-x-product-identifier--productReference) {
+  margin-right: 38px;
+}
+
+:global(.vtex-add-to-cart-button-0-x-buttonText) {
+  font-size: 0px;
+}
+
+:global(.vtex-add-to-cart-button-0-x-buttonText)::after {
+  font-size: 12px;
+  content: "AGREGAR AL CARRITO";
+}
