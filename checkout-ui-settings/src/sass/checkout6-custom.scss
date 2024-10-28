@@ -6054,6 +6054,8 @@ body {
                 }
             }
         }
+
+
         a#payment-group-debitPaymentGroup {
             span {
                 background-image: url("/arquivos/pse.png") !important;
@@ -6105,12 +6107,24 @@ body {
 
 .payment-group .payment-group-list-btn a#payment-group-SisteCreditoPaymentGroup span {
     font-size: 13px;
-    background-image: url(/arquivos/sistecredito-logo.png) !important;
-    background-size: 26px;
+    background-image: url(/arquivos/SISTECREDITO-100X100_3.png) !important;
+    background-size: 30px;
     background-position: left center;
     padding-right: 2rem !important;
-    padding-left: 29px !important;
+    padding-left: 42px !important;
     color: #000000 !important;
+}
+
+#payment-data .steps-view[data-bind="visible: showPaymentOptions"] .SisteCreditoPaymentGroup .payment-description:after {
+  content: " ";
+  background-image: url(/arquivos/SISTECREDITO-600X600_2.jpg);
+  width: 100%;
+  height: 400px;
+  display: block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 15px 0;
 }
 
 .payment-group .payment-group-list-btn a#payment-group-debitPaymentGroup span {
@@ -6126,10 +6140,10 @@ body {
 .payment-group .payment-group-list-btn a#payment-group-creditCardPaymentGroup span {
     font-size: 13px;
     background-image: url(/arquivos/tarjetaCredito.png) !important;
-    background-size: 23px;
+    background-size: 28px;
     background-position: left center;
     padding-right: 2rem !important;
-    padding-left: 29px !important;
+    padding-left: 42px !important;
     color: #000000 !important;
 }
 .payment-group .payment-group-list-btn a#payment-group-customPrivate_501PaymentGroup span {
@@ -6144,11 +6158,11 @@ body {
 
 .payment-group .payment-group-list-btn a#payment-group-NequiPaymentGroup span {
     font-size: 13px;
-    background-image: url(/arquivos/logo-nequi.png) !important;
-    background-size: 23px !important;
+    background-image: url(/arquivos/NEQUI-100X100_3.png) !important;
+    background-size: 35px !important;
     background-position: left center !important;
     padding-right: 2rem !important;
-    padding-left: 29px !important;
+    padding-left: 44px !important;
     color: #000000 !important;
 }
 
@@ -6163,18 +6177,31 @@ body {
 }
 
 .payment-group .payment-group-list-btn a#payment-group-WompiCoPaymentGroup span::before {
-  content: "Botón Bancolombia";
+  content: "Bancolombia";
   font-size: 13px;
   color: #000000;
 }
+
+#payment-data .steps-view[data-bind="visible: showPaymentOptions"] .WompiCoPaymentGroup .payment-description:after {
+  content: " ";
+  background-image: url(/arquivos/WOMPICO-600X600_2.jpg);
+  width: 100%;
+  height: 400px;
+  display: block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 15px 0;
+}
+
 .payment-group .payment-group-list-btn a#payment-group-WompiCoPaymentGroup span {
 	font-size: 0;
-  background-image: url(/arquivos/LogoBancolombia-dato.png)!important;
-  background-size: 22px;
+  background-image: url(/arquivos/BANCOLOMBIA-100X100_3.png)!important;
+  background-size: 32px;
   padding-right: 2rem!important;
   color: #000000!important;
   background-position: left center;
-  padding-left: 30px !important;
+  padding-left: 42px !important;
 }
 .payment-group #payment-group-PSEPaymentGroup {
     order: -2;
@@ -6183,11 +6210,11 @@ body {
 .payment-group .payment-group-list-btn a#payment-group-PSEPaymentGroup span {
   font-size: 13px !important;
   color: #000000 !important;
-  background-image: url(/arquivos/pse-pilatos-new.png) !important;
-  background-size: 25px;
+  background-image: url(/arquivos/PSE-100X100_3.png) !important;
+  background-size: 30px;
   background-position: left center;
   padding-right: 2rem !important;
-  padding-left: 29px !important;
+  padding-left: 42px !important;
 }
 
 
