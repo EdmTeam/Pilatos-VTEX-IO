@@ -699,7 +699,7 @@ margin-top: 1%;
     }
 
     .price_className--productPrice{
-        margin: 1rem auto 1rem 0;
+        margin: 0.5rem auto 1rem 0;
         /*width: 85%;*/
         width: 80%;
     }
