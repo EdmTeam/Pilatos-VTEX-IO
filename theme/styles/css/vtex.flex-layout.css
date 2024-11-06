@@ -1843,7 +1843,7 @@
   align-items: center;
   justify-content: space-between;
   width: 90%;
-  margin: 0 auto 2rem auto;
+  margin: 10px auto 2rem auto;
 }
 
 .flexColChild--stack-product :global(.vtex-store-components-3-x-shareLabel){

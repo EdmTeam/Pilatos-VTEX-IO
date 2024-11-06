@@ -334,13 +334,8 @@
       "condition-layout.product#garment-care-superdry-gorras-mujer",
       "condition-layout.product#garment-care-superdry-correa-hombre",
       "condition-layout.product#garment-care-superdry-correa-mujer",
-      "condition-layout.product#cond1-diesel",
-      "condition-layout.product#cond2-superdry",
-      "condition-layout.product#cond3-kipling",
-      "condition-layout.product#cond4-pilatos",
-      "condition-layout.product#cond5-girbaud",
       //"link#scrollLink",
-      "flex-layout.row#seller-table#seller-product",
+      "disclosure-layout#masDetallesSellers",
       "share#default",
       "flex-layout.row#add-to-list-btn",
       "pilatos21.add-to-cart-button:add-to-cart-button",
@@ -494,7 +489,7 @@
 
   "rich-text#enviosGratis":{
     "props":{
-        "text": "Envíos gratis por compras a partir de $300.000",
+        "text": "Envíos gratis por compras a partir de $350.000",
         "blockClass": "textOfferValor"
     }
   },
