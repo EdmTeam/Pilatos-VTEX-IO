@@ -42,7 +42,11 @@
             "rich-text#submenu-desk-department-4-category-60-jansport-16", //jansport
             "rich-text#submenu-desk-department-4-category-60-kappa-17", //kappa
             "rich-text#submenu-desk-department-4-category-60-the-north-face-18", //the-north-face
-            "rich-text#submenu-desk-department-4-category-60-artdist-19" //artdist
+            "rich-text#submenu-desk-department-4-category-60-artdist-19", //artdist
+            "rich-text#submenu-desk-department-4-category-61", // Devier
+            "rich-text#submenu-desk-department-4-category-62" //blackout
+            
+
                 ],
         "props":{
             "blockClass": "contentBlockSubmenu"
