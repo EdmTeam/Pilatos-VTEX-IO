@@ -41,6 +41,7 @@ const CustomCheckout = (function () {
     checkTerms()
     validateTerms()
     editsSummaryCart()
+    oghGiftCard()
   }
 
   const editsOrderForm = () => {
@@ -62,6 +63,49 @@ const CustomCheckout = (function () {
     }
     return null
   }
+
+  const oghGiftCard = () => {
+    //Funcion para cambiar nombres del select de gift card y Vale Digital
+    console.log('ENTRA oghGiftCard');
+    let metodoSelec = $(".link-gift-card").css('display');
+    if ((metodoSelec !== 'undefined') && (metodoSelec !== 'block')) {
+        let divs = $(".gift-card-section").toArray().length;
+        if (divs == 1) {
+            const metodoSeleccionadoGift = document.querySelector(".gift-card-section:not(.modificado)");
+            if (metodoSeleccionadoGift) {
+                const contenedorGift = metodoSeleccionadoGift.querySelector("#gift-card-provider-selector:not(.modificado)");
+                if (contenedorGift) {
+                    contenedorGift.classList.add("modificado");
+                    $("#gift-card-provider-selector option").each(function () {
+                        if (this.text.includes("oh")) {
+                            this.text = 'Tarjeta de Regalo';
+                        } else if (this.text.includes("Vtex")) {
+                            this.text = 'Vale Digital';
+                        }
+                    });
+                    metodoSeleccionadoGift.classList.add("modificado");
+                }
+            }
+        } else {
+            const metodoSeleccionadoGift = $(".gift-card-section:nth-child(3):not(.modificado)");
+            if ((metodoSeleccionadoGift) && (document.querySelector(".gift-card-section:nth-child(3):not(.modificado)"))) {
+                const contenedorGift = $(".gift-card-section:nth-child(3) #gift-card-provider-selector:not(.modificado)");
+                if (contenedorGift) {
+                    contenedorGift.addClass("modificado");
+                    $(".gift-card-section:nth-child(3) #gift-card-provider-selector option").each(function () {
+                        if (this.text.includes("oh")) {
+                            this.text = 'Tarjeta de Regalo';
+                        } else if (this.text.includes("Vtex")) {
+                            this.text = 'Vale Digital';
+                        }
+                    });
+                    metodoSeleccionadoGift.addClass("modificado");
+                }
+            }
+        }
+    }
+  };
+
 
   const pasosCheckout = (location) => {
     var statusCheckout = {
@@ -531,3 +575,52 @@ const fillShippingDetails = () => {
   const clickGoToPaymentButton = () => $('#btn-go-to-payment').click();
   scheduleDelayedExcecutions(clickGoToPaymentButton);
 };
+
+$(window).on('orderFormUpdated.vtex', function (e, orderForm) {
+  var sizeArrayItems = Object.keys(orderForm.items).length;
+
+  // Mensaje alerta y placeholder Gift Card - Saldo a favor.
+  if (sizeArrayItems > 0) {
+      $(".link-payment-discounts-cod").click(function () {
+          let firstOption = $("#gift-card-provider-selector option:first-child");
+          let optionText = firstOption.text();
+          console.log("selectedOptionText2", optionText);
+          let inputGC = document.querySelector("#payment-discounts-code");
+          if (optionText.includes("Vtex")) {
+              $(".payment-discounts-options").addClass('mensaje-saldo');
+              inputGC.placeholder = 'XXXX-XXXX-XXXX-XXXX';
+              firstOption.prop('selected', true);
+          } else {
+              $(".payment-discounts-options").addClass('mensaje-ohgift');
+              inputGC.placeholder = '1234567891011121314';
+              let select = document.getElementById('gift-card-provider-selector');
+              let firstOption = select.querySelector('option:first-child');
+              select.appendChild(firstOption);
+          }
+          $("#gift-card-provider-selector").change(function () {
+              //  Condicional para cambiar placeholder de gift card y tarjeta de regalo
+              let selectedOptionText = $("#gift-card-provider-selector option:selected").text();
+              let inputGC = document.querySelector("#payment-discounts-code");
+              if (selectedOptionText.includes("Tarjeta")) {
+                  inputGC.placeholder = '1234567891011121314';
+              } else {
+                  inputGC.placeholder = 'XXXX-XXXX-XXXX-XXXX';
+              }
+              // Fin Condicional para cambiar placeholder de gift card y tarjeta de regalo
+              let cardSelected = $(this).children("option:selected").val("option:selected").text();
+              if (cardSelected == 'Vale Digital') {
+                  $(".payment-discounts-options").removeClass('mensaje-ohgift');
+                  $(".payment-discounts-options").addClass('mensaje-saldo');
+              } else {
+                  $(".payment-discounts-options").addClass('mensaje-ohgift');
+                  $(".payment-discounts-options").removeClass('mensaje-saldo');
+              }
+          });
+      });
+  }
+  //FIN Mensaje alerta y placeholder Gift Card - Vale Digital
+});
+
+$(document).ready(function () {
+  oghGiftCard();
+})
