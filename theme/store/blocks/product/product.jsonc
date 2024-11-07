@@ -122,9 +122,9 @@
       "responsive-layout.phone#product-view-product",
       "responsive-layout.tablet#product-view-product",
       "responsive-layout.desktop#product-view-product",
-      "responsive-layout.phone#brands-promise",
+      /*"responsive-layout.phone#brands-promise",
       "responsive-layout.tablet#brands-promise",
-      "responsive-layout.desktop#brands-promise",
+      "responsive-layout.desktop#brands-promise",*/
       "tab-layout#product-tab",
       "flex-layout.row#productViewed"
     ],
@@ -200,12 +200,12 @@
 
       "stack-layout#product",
       "product-price#product",
-            "sku-selector",
-            "flex-layout.row#product-quantity-size-guide",
-      "product-availability#uno",
+      "sku-selector",
+      "flex-layout.row#product-quantity-size-guide",
       "flex-layout.row#product-button",
-
-      "addi-infos",
+      "flex-layout.row#logosPagos",
+      "flex-layout.row#productValorOffer",
+      //"addi-infos",
       // "rich-text#title-descripcionProducto",
       // "flex-layout.row#productDescripcion",
       "disclosure-layout#productoDescription",
@@ -334,14 +334,8 @@
       "condition-layout.product#garment-care-superdry-gorras-mujer",
       "condition-layout.product#garment-care-superdry-correa-hombre",
       "condition-layout.product#garment-care-superdry-correa-mujer",
-
-
-      "condition-layout.product#cond1-diesel",
-      "condition-layout.product#cond2-superdry",
-      "condition-layout.product#cond3-kipling",
-      "condition-layout.product#cond4-pilatos",
-      "condition-layout.product#cond5-girbaud",
-      "link#scrollLink",
+      //"link#scrollLink",
+      "disclosure-layout#masDetallesSellers",
       "share#default",
       "flex-layout.row#add-to-list-btn",
       "pilatos21.add-to-cart-button:add-to-cart-button",
@@ -361,7 +355,6 @@
         }
   },
 
-
   "sku-selector":{
     "props": {
       "thumbnailImage": ["color"]
@@ -378,12 +371,13 @@
 
   "product-images": {
     "props": {
+      "blockClass": "pdpImage",
       "aspectRatio": {
         "desktop": "auto",
         "phone": "1:1"
       },
       "displayThumbnailsArrows": true,
-      "showNavigationArrows": false,
+      "showNavigationArrows": true,
       "hiddenImages": ["Color"]
     }
   },
@@ -440,6 +434,90 @@
     }
   },
 
+  /*Valor Offer*/
+  "flex-layout.row#productValorOffer":{
+    "children":[
+      "flex-layout.col#mediosPagos",
+      "flex-layout.col#enviosGratis",
+      "flex-layout.col#cambiosDevo"
+    ],
+    "props":{
+      "blockClass": "productValorOffer"
+    }
+  },
+
+  "flex-layout.col#mediosPagos":{
+    "children":[
+       "image#mediosPDP",
+       "rich-text#mediosPDP"
+    ],
+    "props":{
+      "blockClass": "productValorOffer"
+    }
+  },
+
+  "image#mediosPDP": {
+    "props": {
+      "src": "/arquivos/solar_card-outline.svg",
+      "maxHeight": 20
+    }
+  },
+
+  "rich-text#mediosPDP":{
+    "props":{
+        "text": "Múltiples medios de pago",
+        "blockClass": "textOfferValor"
+    }
+  },
+
+  /*envios*/
+  "flex-layout.col#enviosGratis":{
+    "children":[
+       "image#enviosGratis",
+       "rich-text#enviosGratis"
+    ],
+    "props":{
+      "blockClass": "productValorOffer"
+    }
+  },
+  "image#enviosGratis": {
+    "props": {
+      "src": "/arquivos/shipping-truck--truck-shipping-delivery-transfer.svg",
+      "maxHeight": 20
+    }
+  },
+
+  "rich-text#enviosGratis":{
+    "props":{
+        "text": "Envíos gratis por compras a partir de $350.000",
+        "blockClass": "textOfferValor"
+    }
+  },
+  /*Cambios*/
+  "flex-layout.col#cambiosDevo":{
+    "children":[
+        "image#cambiosDevo",
+        "rich-text#cambiosDevo"
+    ],
+    "props":{
+      "blockClass": "productValorOffer"
+    }
+  },
+  "image#cambiosDevo": {
+    "props": {
+      "src": "/arquivos/Vector.svg",
+      "maxHeight": 20
+    }
+  },
+
+  "rich-text#cambiosDevo":{
+    "props":{
+        "text": "Haz tus cambios y devoluciones fácilmente",
+        "blockClass": "textOfferValor"
+    }
+  },
+  /*Fin Valor Offer*/
+
   "flex-layout.row#scrollLink":{
     "children":[
         "rich-text#scrollLink",
@@ -477,8 +555,9 @@
   //PDP
   "flex-layout.row#product-quantity-size-guide": {
     "children": [
-      "flex-layout.col#product-quantity-size-guide",
-      "flex-layout.col#product-size-guide"
+      "flex-layout.col#product-size-guide",
+      "product-availability#uno",
+      "flex-layout.col#product-quantity-size-guide"
     ],
     "props": {
       "blockClass": "contenedor-size-guide-quantity"

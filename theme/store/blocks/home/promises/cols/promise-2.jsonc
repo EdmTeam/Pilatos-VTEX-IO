@@ -78,7 +78,7 @@
 
     "rich-text#promise-2-text-2": {
         "props": {
-            "text": "Envíos gratis a partir de $300.000",
+            "text": "Envíos gratis a partir de $350.000",
             "blockClass": "colorPromise2"
         }
     },
