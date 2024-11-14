@@ -4341,101 +4341,122 @@ div.checkoutFooter {
                                                             margin: 10px 0 0;
                                                         }
                                                         fieldset {
-                                                            padding: 0;
-                                                            p {
-                                                                &.payment-discounts-options {
-                                                                    // width:;
-                                                                    display: flex;
-                                                                    justify-content: flex-start;
+                                                          padding: 0;
+                                                          p {
+                                                            &.payment-discounts-options {
+                                                                flex-direction: column;
+                                                                width: 50%;
+                                                                display: flex;
+                                                                justify-content: flex-start;
+
+                                                                @include screen-max-width($breakTabletVert) {
+                                                                    justify-content: center;
+                                                                }
+
+                                                                label {
+                                                                    display: none;
+                                                                    @include barlow(11, 700, 0.01);
+                                                                    color: $brown;
+                                                                }
+
+                                                                i {
+                                                                    display: none;
+                                                                }
+
+                                                                input[type="text"] {
+                                                                    width: 100% !important;
+                                                                    height: 30px;
+                                                                    @include barlow(11, 400, 0.01);
+                                                                    color: $negro;
+                                                                    border-radius: 0px;
+                                                                    border: 1px solid $middlegray;
+                                                                    padding: 5px 5px;
+                                                                    margin-right: 8px;
+                                                                    outline: none;
+                                                                    box-shadow: none;
 
                                                                     @include screen-max-width($breakTabletVert) {
-                                                                        justify-content: center;
+                                                                        width: 55%;
+                                                                        margin-bottom: 5px;
+                                                                    }
+                                                                }
+
+                                                                button {
+                                                                    border: none;
+                                                                    outline: none;
+                                                                    text-shadow: none;
+                                                                    box-shadow: none;
+                                                                    border-radius: 0px;
+                                                                    background: $brown;
+                                                                    padding: 5px 15px;
+                                                                    height: 30px;
+                                                                    @include popins(12, 700, 0.01, none, uppercase);
+                                                                    color: $blanco;
+                                                                    text-indent: -9999px;
+                                                                    @include transition(all 0.3s ease 0s);
+
+                                                                    &:before {
+                                                                        content: "Agregar";
+                                                                        text-indent: 0;
+                                                                        float: left;
                                                                     }
 
-                                                                    label {
-                                                                        display: none;
-                                                                        @include barlow(11, 700, 0.01);
-                                                                        color: $brown;
-                                                                    }
-
-                                                                    i {
-                                                                        display: none;
-                                                                    }
-
-                                                                    input[type="text"] {
-                                                                        width: 100% !important;
-                                                                        height: 30px;
-                                                                        @include barlow(11, 400, 0.01);
-                                                                        color: $negro;
-                                                                        border-radius: 0px;
-                                                                        border: 1px solid $middlegray;
-                                                                        padding: 5px 5px;
-                                                                        margin-right: 8px;
-                                                                        outline: none;
-                                                                        box-shadow: none;
-
-                                                                        @include screen-max-width($breakTabletVert) {
-                                                                            width: 55%;
-                                                                            margin-bottom: 10px;
+                                                                    @include screen-min-width($breakTabletVert) {
+                                                                        &:hover {
+                                                                            background-color: $yellow;
+                                                                            color: $negro;
                                                                         }
                                                                     }
 
-                                                                    button {
-                                                                        border: none;
-                                                                        outline: none;
-                                                                        text-shadow: none;
-                                                                        box-shadow: none;
-                                                                        border-radius: 0px;
-                                                                        background: $brown;
-                                                                        padding: 5px 15px;
-                                                                        height: 30px;
-                                                                        @include popins(12, 700, 0.01, none, uppercase);
-                                                                        color: $blanco;
-                                                                        text-indent: -9999px;
-                                                                        @include transition(all 0.3s ease 0s);
-
-                                                                        &:before {
-                                                                            content: "Agregar";
-                                                                            text-indent: 0;
-                                                                            float: left;
-                                                                        }
-
-                                                                        @include screen-min-width($breakTabletVert) {
-                                                                            &:hover {
-                                                                                background-color: $yellow;
-                                                                                color: $negro;
-                                                                            }
-                                                                        }
-
-                                                                        @include screen-max-width($breakTabletVert) {
-                                                                            width: 40%;
-                                                                        }
+                                                                    @include screen-max-width($breakTabletVert) {
+                                                                        width: 40%;
                                                                     }
+                                                                }
+
+                                                                @include screen-max-width($breakTabletVert) {
+                                                                  width: 100%;
                                                                 }
                                                             }
 
-                                                            h5 {
-                                                                padding: 10px 0;
-                                                                position: relative;
-                                                                @include popins(14, 700, 0.01, uppercase);
-                                                                color: $dark-yellow;
-                                                                margin-top: 5px;
+                                                            &.gift-card-provider-options {
+                                                              width: 42% !important;
+
+                                                              label {
+                                                                display: none;
+                                                              }
+
+                                                              select#gift-card-provider-selector {
+                                                                height: 30px;
+                                                                border-radius: 0px !important;
+                                                                outline: none;
+
+                                                                @include screen-max-width($breakTabletVert) {
+                                                                  width: 100% !important;
+                                                                }
+                                                              }
+
+                                                              button#btn-add-gift-card {
+                                                                border-radius: 0px !important;
+                                                                background: #000;
+                                                                color: #ffffff;
+                                                                outline: none !important;
+
+                                                                &:focus {
+                                                                  outline-offset:  0px !important;
+                                                                }
+
+                                                                @include screen-max-width($breakTabletVert) {
+                                                                  margin: 0 auto;
+                                                                  width: 100% !important;
+                                                                  margin-top: 10px;
+                                                                }
+                                                              }
+
+                                                              @include screen-max-width($breakTabletVert) {
+                                                                width: 100% !important;
+                                                              }
                                                             }
-                                                            table {
-                                                                .number {
-                                                                    display: none !important;
-                                                                }
-                                                                .code {
-                                                                    color: $negro;
-                                                                    text-transform: uppercase;
-                                                                    @include barlow(11, 400, 0.01);
-                                                                }
-                                                                a {
-                                                                    @include barlow(11, 400, 0.01, underline);
-                                                                    color: $dark-yellow;
-                                                                    padding-left: 10px;
-                                                                }
-                                                            }
+                                                          }
                                                         }
                                                     }
                                                     /* FORMULARIO DE GIFT CARD */
@@ -6282,4 +6303,32 @@ button#payment-data-submit {
 
 .srp-summary-result {
  display: table-row !important;
+}
+
+.mensaje-ohgift:not(.mensaje-hide)::after {
+  content: "PIN (16 dígitos) seguido del código de seguridad (3 dígitos)";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  color: #000;
+
+  @include screen-max-width($breakTabletVert) {
+    font-size: 11px;
+    margin-bottom: 8px;
+  }
+}
+
+.mensaje-saldo:not(.mensaje-hide)::after {
+  content: "Código de letras XXXX-XXXX-XXXX-XXXX";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  color: #000;
+
+  @include screen-max-width($breakTabletVert) {
+    font-size: 11px;
+    margin-bottom: 8px;
+  }
 }

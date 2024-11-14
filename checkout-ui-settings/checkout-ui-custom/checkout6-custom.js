@@ -26,14 +26,14 @@ var calculatePromotions = e => {
 };
 
 const CustomCheckout = function() {
-    const c = e => {
+    const o = e => {
         for (var t = e + "=", o = document.cookie.split(";"), n = 0; n < o.length; n++) {
             for (var a = o[n]; " " == a.charAt(0); ) a = a.substring(1, a.length);
             if (0 == a.indexOf(t)) return a.substring(t.length, a.length);
         }
         return null;
     };
-    const d = (e, t) => {
+    const n = (e, t) => {
         console.log("Estoy en guardarDatosMasterData");
         t = {
             url: "/api/ds/pub/documents/" + t,
@@ -63,7 +63,7 @@ const CustomCheckout = function() {
                 var e = $(".box-client-info-pj"), t;
                 e.length && (t = "", t += '    <div id="contain-terms">    <p class="terms-conditions dataCheck">        <label for="terms-conditions" class="checkbox check-label label-error">            <input id="terms-conditions" type="checkbox" required>            <span class="btnCheckbox"></span>            <span class="check-text">                He leído y aceptado las <a href="/politicas" target="_blank">políticas de privacidad</a> y <a href="/politicas" target="_blank">Tratamiento de datos Personales</a>            .</span>        </label>        <span class="help error check-error terms-data-error" style="display:none">            Este campo es obligatorio.        </span>    </p>    <p style="margin-top: 10px; font-size: 12px; color: grey">Mediante la aceptación de la Política de Habeas Data y Tratamiento de Datos personales se certifica que el usuario o cliente es una persona mayor de edad (18 años) y podrá ser tratada de acuerdo con la política de tratamiento de datos.</p>    </div>', 
                 $('    <div id="contain-terms">    <p class="terms-conditions dataCheck">        <label for="terms-conditions" class="checkbox check-label label-error">            <input id="terms-conditions" type="checkbox" required>            <span class="btnCheckbox"></span>            <span class="check-text">                He leído y aceptado las <a href="/politicas" target="_blank">políticas de privacidad</a> y <a href="/politicas" target="_blank">Tratamiento de datos Personales</a>            .</span>        </label>        <span class="help error check-error terms-data-error" style="display:none">            Este campo es obligatorio.        </span>    </p>    <p style="margin-top: 10px; font-size: 12px; color: grey">Mediante la aceptación de la Política de Habeas Data y Tratamiento de Datos personales se certifica que el usuario o cliente es una persona mayor de edad (18 años) y podrá ser tratada de acuerdo con la política de tratamiento de datos.</p>    </div>').insertAfter(e), 
-                c("terminosCondiciones") && $("#terms-conditions").attr("checked", !0), 
+                o("terminosCondiciones") && $("#terms-conditions").attr("checked", !0), 
                 $("#terms-conditions, #authorize-data").change(function() {
                     var e = $(this);
                     !1 === e.prop("checked") ? e.parent().next().show() : e.parent().next().hide();
@@ -84,22 +84,16 @@ const CustomCheckout = function() {
                         email: window.API.orderForm.clientProfileData.email,
                         acceptTerms: !0
                     };
-                    Object.values(e).some(e => "" === e) || d(e, "CC");
+                    Object.values(e).some(e => "" === e) || n(e, "CC");
                 });
             }, 1e3), setInterval(() => {
                 $(".empty-cart-content").is(":hidden") ? $(".checkout-container >.cart-template .summary-template-holder .summary").css("display", "flex") : $(".checkout-container >.cart-template .summary-template-holder .summary").css("display", "none");
-            }, 500);
-            {
-                console.log("ENTRA oghGiftCard");
-                var o = $(".link-gift-card").css("display"), n, a, i, s, r;
-                "undefined" !== o && "block" !== o && (1 == $(".gift-card-section").toArray().length ? (a = document.querySelector(".gift-card-section:not(.modificado)")) && (i = a.querySelector("#gift-card-provider-selector:not(.modificado)")) && (i.classList.add("modificado"), 
-                $("#gift-card-provider-selector option").each(function() {
-                    this.text.includes("oh") ? this.text = "Tarjeta de Regalo" : this.text.includes("Vtex") && (this.text = "Vale Digital");
-                }), a.classList.add("modificado")) : (s = $(".gift-card-section:nth-child(3):not(.modificado)")) && document.querySelector(".gift-card-section:nth-child(3):not(.modificado)") && (r = $(".gift-card-section:nth-child(3) #gift-card-provider-selector:not(.modificado)")) && (r.addClass("modificado"), 
-                $(".gift-card-section:nth-child(3) #gift-card-provider-selector option").each(function() {
-                    this.text.includes("oh") ? this.text = "Tarjeta de Regalo" : this.text.includes("Vtex") && (this.text = "Vale Digital");
-                }), s.addClass("modificado")));
-            }
+            }, 500), document.addEventListener("DOMContentLoaded", function() {
+                var e = document.querySelector(".link-gift-card");
+                e ? e.addEventListener("click", function() {
+                    console.log("You finally clicked without jQuery");
+                }) : console.log("Element with class 'link-gift-card' not found.");
+            });
         },
         pasosCheckout: e => {
             var t = "cart", o = "profile", n = "shipping", a = "payment", i = "email", s = "orderPlaced", r = ($(".checkoutPasos li").click(function(e) {
@@ -142,10 +136,26 @@ $(window).on("load", function() {
     return {
         init: function() {
             $(window).on("hashchange load", function() {
-                "#/payment" !== location.hash && "#payment" !== location.hash || vtexjs.checkout.getOrderForm().then(function(e) {
+                "#/payment" !== location.hash && "#payment" !== location.hash || (vtexjs.checkout.getOrderForm().then(function(e) {
                     e = e, t(e) && ("pickit - Envío a Domicilio" === t(e) ? (console.log("Entro en Envío a Domicilio Express", t(e)), 
                     o) : (console.log("Entro en el caso else", t(e)), n))();
-                });
+                }), setTimeout(() => {
+                    document.querySelector(".link-gift-card").addEventListener("click", function() {
+                        var e, t = $("#gift-card-provider-selector option:first-child"), o = t.text(), n = (console.log("selectedOptionText2", o), 
+                        document.querySelector("#payment-discounts-code"));
+                        o.includes("oh") ? ($(".payment-discounts-options").addClass("mensaje-ohgift"), 
+                        n.placeholder = "1234567891011121314", e = (o = document.getElementById("gift-card-provider-selector")).querySelector("option:first-child"), 
+                        o.appendChild(e)) : ($(".payment-discounts-options").addClass("mensaje-saldo"), 
+                        n.placeholder = "XXXX-XXXX-XXXX-XXXX", t.prop("selected", !0)), 
+                        $("#gift-card-provider-selector").change(function() {
+                            var e = $("#gift-card-provider-selector option:selected").text(), t = document.querySelector("#payment-discounts-code"), e = (e.includes("oh") ? t.placeholder = "1234567891011121314" : t.placeholder = "XXXX-XXXX-XXXX-XXXX", 
+                            $(this).children("option:selected").val("option:selected").text());
+                            "VtexGiftCard" == e ? ($(".payment-discounts-options").removeClass("mensaje-ohgift"), 
+                            $(".payment-discounts-options").addClass("mensaje-saldo")) : ($(".payment-discounts-options").addClass("mensaje-ohgift"), 
+                            $(".payment-discounts-options").removeClass("mensaje-saldo"));
+                        });
+                    });
+                }, 2500));
             });
         }
     };
@@ -251,22 +261,3 @@ const getScreenEndpoint = () => {
     "" === e.receiverName) && (e.receiverName = "Por email");
     scheduleDelayedExcecutions(() => $("#btn-go-to-payment").click());
 };
-
-$(window).on("orderFormUpdated.vtex", function(e, t) {
-    0 < Object.keys(t.items).length && $(".link-payment-discounts-cod").click(function() {
-        var e = $("#gift-card-provider-selector option:first-child"), t = e.text(), o = (console.log("selectedOptionText2", t), 
-        document.querySelector("#payment-discounts-code"));
-        t.includes("Vtex") ? ($(".payment-discounts-options").addClass("mensaje-saldo"), 
-        o.placeholder = "XXXX-XXXX-XXXX-XXXX", e.prop("selected", !0)) : ($(".payment-discounts-options").addClass("mensaje-ohgift"), 
-        o.placeholder = "1234567891011121314", e = (t = document.getElementById("gift-card-provider-selector")).querySelector("option:first-child"), 
-        t.appendChild(e)), $("#gift-card-provider-selector").change(function() {
-            var e = $("#gift-card-provider-selector option:selected").text(), t = document.querySelector("#payment-discounts-code"), e = (e.includes("Tarjeta") ? t.placeholder = "1234567891011121314" : t.placeholder = "XXXX-XXXX-XXXX-XXXX", 
-            $(this).children("option:selected").val("option:selected").text());
-            "Vale Digital" == e ? ($(".payment-discounts-options").removeClass("mensaje-ohgift"), 
-            $(".payment-discounts-options").addClass("mensaje-saldo")) : ($(".payment-discounts-options").addClass("mensaje-ohgift"), 
-            $(".payment-discounts-options").removeClass("mensaje-saldo"));
-        });
-    });
-}), $(document).ready(function() {
-    oghGiftCard();
-});

@@ -5150,6 +5150,8 @@ div.checkoutFooter p.copyRight {
 }
 .body-cart .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .gift-card-section fieldset p.payment-discounts-options,
 .body-order-form .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .gift-card-section fieldset p.payment-discounts-options {
+  flex-direction: column;
+  width: 50%;
   display: flex;
   justify-content: flex-start;
 }
@@ -5198,7 +5200,7 @@ div.checkoutFooter p.copyRight {
   .body-cart .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .gift-card-section fieldset p.payment-discounts-options input[type=text],
   .body-order-form .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .gift-card-section fieldset p.payment-discounts-options input[type=text] {
     width: 55%;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
   }
 }
 .body-cart .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .gift-card-section fieldset p.payment-discounts-options button,
@@ -5245,47 +5247,56 @@ div.checkoutFooter p.copyRight {
     width: 40%;
   }
 }
-.body-cart .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .gift-card-section fieldset h5,
-.body-order-form .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .gift-card-section fieldset h5 {
-  padding: 10px 0;
-  position: relative;
-  font-family: "Mulish";
-  font-size: 0.875rem;
-  font-size: 14px;
-  font-weight: 700;
-  letter-spacing: 0.01em;
-  text-decoration: uppercase;
-  text-transform: unset;
-  color: #f2a922;
-  margin-top: 5px;
+@media screen and (max-width: 1023px) {
+  .body-cart .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .gift-card-section fieldset p.payment-discounts-options,
+  .body-order-form .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .gift-card-section fieldset p.payment-discounts-options {
+    width: 100%;
+  }
 }
-.body-cart .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .gift-card-section fieldset table .number,
-.body-order-form .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .gift-card-section fieldset table .number {
-  display: none !important;
+.body-cart .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .gift-card-section fieldset p.gift-card-provider-options,
+.body-order-form .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .gift-card-section fieldset p.gift-card-provider-options {
+  width: 42% !important;
 }
-.body-cart .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .gift-card-section fieldset table .code,
-.body-order-form .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .gift-card-section fieldset table .code {
-  color: #000;
-  text-transform: uppercase;
-  font-family: "Mulish";
-  font-size: 0.6875rem;
-  font-size: 11px;
-  font-weight: 400;
-  letter-spacing: 0.01em;
-  text-decoration: none;
-  text-transform: unset;
+.body-cart .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .gift-card-section fieldset p.gift-card-provider-options label,
+.body-order-form .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .gift-card-section fieldset p.gift-card-provider-options label {
+  display: none;
 }
-.body-cart .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .gift-card-section fieldset table a,
-.body-order-form .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .gift-card-section fieldset table a {
-  font-family: "Mulish";
-  font-size: 0.6875rem;
-  font-size: 11px;
-  font-weight: 400;
-  letter-spacing: 0.01em;
-  text-decoration: underline;
-  text-transform: unset;
-  color: #f2a922;
-  padding-left: 10px;
+.body-cart .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .gift-card-section fieldset p.gift-card-provider-options select#gift-card-provider-selector,
+.body-order-form .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .gift-card-section fieldset p.gift-card-provider-options select#gift-card-provider-selector {
+  height: 30px;
+  border-radius: 0px !important;
+  outline: none;
+}
+@media screen and (max-width: 1023px) {
+  .body-cart .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .gift-card-section fieldset p.gift-card-provider-options select#gift-card-provider-selector,
+  .body-order-form .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .gift-card-section fieldset p.gift-card-provider-options select#gift-card-provider-selector {
+    width: 100% !important;
+  }
+}
+.body-cart .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .gift-card-section fieldset p.gift-card-provider-options button#btn-add-gift-card,
+.body-order-form .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .gift-card-section fieldset p.gift-card-provider-options button#btn-add-gift-card {
+  border-radius: 0px !important;
+  background: #000;
+  color: #ffffff;
+  outline: none !important;
+}
+.body-cart .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .gift-card-section fieldset p.gift-card-provider-options button#btn-add-gift-card:focus,
+.body-order-form .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .gift-card-section fieldset p.gift-card-provider-options button#btn-add-gift-card:focus {
+  outline-offset: 0px !important;
+}
+@media screen and (max-width: 1023px) {
+  .body-cart .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .gift-card-section fieldset p.gift-card-provider-options button#btn-add-gift-card,
+  .body-order-form .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .gift-card-section fieldset p.gift-card-provider-options button#btn-add-gift-card {
+    margin: 0 auto;
+    width: 100% !important;
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .body-cart .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .gift-card-section fieldset p.gift-card-provider-options,
+  .body-order-form .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .gift-card-section fieldset p.gift-card-provider-options {
+    width: 100% !important;
+  }
 }
 .body-cart .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .payment-group,
 .body-order-form .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .payment-group {
@@ -7146,4 +7157,34 @@ button#payment-data-submit {
 
 .srp-summary-result {
   display: table-row !important;
+}
+
+.mensaje-ohgift:not(.mensaje-hide)::after {
+  content: "PIN (16 dígitos) seguido del código de seguridad (3 dígitos)";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  color: #000;
+}
+@media screen and (max-width: 1023px) {
+  .mensaje-ohgift:not(.mensaje-hide)::after {
+    font-size: 11px;
+    margin-bottom: 8px;
+  }
+}
+
+.mensaje-saldo:not(.mensaje-hide)::after {
+  content: "Código de letras XXXX-XXXX-XXXX-XXXX";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  color: #000;
+}
+@media screen and (max-width: 1023px) {
+  .mensaje-saldo:not(.mensaje-hide)::after {
+    font-size: 11px;
+    margin-bottom: 8px;
+  }
 }
