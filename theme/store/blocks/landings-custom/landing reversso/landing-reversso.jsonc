@@ -17,7 +17,7 @@
       "blockClass": "contentStoreCustom"
     }
   },
-  // texto inicial 
+  // texto inicial
 
   "flex-layout.row#titleReverso": {
     "children": [
@@ -66,11 +66,11 @@
 
   "rich-text#botonesReverso": {
     "props": {
-        "text": "[**Iniciar una devolución sin costo**](https://pilatos.reversso.com/)",
+        "text": "[**Iniciar una devolución**](https://pilatos.reversso.com/)",
         "blockClass": "botonReverso"
     }
 },
-  // sesion uno - reverso 
+  // sesion uno - reverso
   "responsive-layout.desktop#reversoSession1": {
     "children": [
       "flex-layout.row#reversoSession1"
