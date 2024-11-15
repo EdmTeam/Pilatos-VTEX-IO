@@ -143,14 +143,14 @@ $(window).on("load", function() {
                     document.querySelector(".link-gift-card").addEventListener("click", function() {
                         var e, t = $("#gift-card-provider-selector option:first-child"), o = t.text(), n = (console.log("selectedOptionText2", o), 
                         document.querySelector("#payment-discounts-code"));
-                        o.includes("oh") ? ($(".payment-discounts-options").addClass("mensaje-ohgift"), 
+                        o.includes("Gift Card") ? ($(".payment-discounts-options").addClass("mensaje-ohgift"), 
                         n.placeholder = "1234567891011121314", e = (o = document.getElementById("gift-card-provider-selector")).querySelector("option:first-child"), 
                         o.appendChild(e)) : ($(".payment-discounts-options").addClass("mensaje-saldo"), 
                         n.placeholder = "XXXX-XXXX-XXXX-XXXX", t.prop("selected", !0)), 
                         $("#gift-card-provider-selector").change(function() {
-                            var e = $("#gift-card-provider-selector option:selected").text(), t = document.querySelector("#payment-discounts-code"), e = (e.includes("oh") ? t.placeholder = "1234567891011121314" : t.placeholder = "XXXX-XXXX-XXXX-XXXX", 
+                            var e = $("#gift-card-provider-selector option:selected").text(), t = document.querySelector("#payment-discounts-code"), e = (e.includes("Gift Card") ? t.placeholder = "1234567891011121314" : t.placeholder = "XXXX-XXXX-XXXX-XXXX", 
                             $(this).children("option:selected").val("option:selected").text());
-                            "VtexGiftCard" == e ? ($(".payment-discounts-options").removeClass("mensaje-ohgift"), 
+                            "Vale de Recompra" == e ? ($(".payment-discounts-options").removeClass("mensaje-ohgift"), 
                             $(".payment-discounts-options").addClass("mensaje-saldo")) : ($(".payment-discounts-options").addClass("mensaje-ohgift"), 
                             $(".payment-discounts-options").removeClass("mensaje-saldo"));
                         });

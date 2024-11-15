@@ -318,7 +318,7 @@ const CustomCheckoutExpress = (function () {
             let optionText = firstOption.text();
             console.log("selectedOptionText2", optionText);
             let inputGC = document.querySelector("#payment-discounts-code");
-            if (optionText.includes("oh")) {
+            if (optionText.includes("Gift Card")) {
               $(".payment-discounts-options").addClass('mensaje-ohgift');
               inputGC.placeholder = '1234567891011121314';
               let select = document.getElementById('gift-card-provider-selector');
@@ -334,14 +334,14 @@ const CustomCheckoutExpress = (function () {
                 //  Condicional para cambiar placeholder de gift card y tarjeta de regalo
                 let selectedOptionText = $("#gift-card-provider-selector option:selected").text();
                 let inputGC = document.querySelector("#payment-discounts-code");
-                if (selectedOptionText.includes("oh")) {
+                if (selectedOptionText.includes("Gift Card")) {
                     inputGC.placeholder = '1234567891011121314';
                 } else {
                     inputGC.placeholder = 'XXXX-XXXX-XXXX-XXXX';
                 }
                 // Fin Condicional para cambiar placeholder de gift card y tarjeta de regalo
                 let cardSelected = $(this).children("option:selected").val("option:selected").text();
-                if (cardSelected == 'VtexGiftCard') {
+                if (cardSelected == 'Vale de Recompra') {
                     $(".payment-discounts-options").removeClass('mensaje-ohgift');
                     $(".payment-discounts-options").addClass('mensaje-saldo');
                 } else {

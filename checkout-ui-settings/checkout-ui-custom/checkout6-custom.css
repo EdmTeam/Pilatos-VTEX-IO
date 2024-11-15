@@ -7188,3 +7188,21 @@ button#payment-data-submit {
     margin-bottom: 8px;
   }
 }
+
+.payment-discounts-list {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.payment-discounts-list h5 {
+  color: #f2a922;
+}
+.payment-discounts-list .code {
+  padding-right: 10px;
+}
+.payment-discounts-list .number {
+  padding-right: 10px;
+}
+.payment-discounts-list .remove a {
+  color: #f2a922;
+  text-decoration: underline;
+}

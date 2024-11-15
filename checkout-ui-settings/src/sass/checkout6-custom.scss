@@ -6332,3 +6332,27 @@ button#payment-data-submit {
     margin-bottom: 8px;
   }
 }
+
+.payment-discounts-list {
+  margin-top: 12px;
+  margin-bottom: 12px;
+
+  h5 {
+    color: #f2a922;
+  }
+
+  .code {
+    padding-right: 10px;
+  }
+
+  .number {
+    padding-right: 10px;
+  }
+
+  .remove {
+    a {
+      color: #f2a922;
+      text-decoration: underline;
+    }
+  }
+}
