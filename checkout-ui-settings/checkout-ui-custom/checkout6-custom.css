@@ -7149,5 +7149,5 @@ button#payment-data-submit {
 }
 
 .payment-group .payment-group-list-btn .pg-contra-entrega {
-  display: none;
+  display: none !important;
 }
