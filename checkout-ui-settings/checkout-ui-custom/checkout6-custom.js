@@ -5,17 +5,17 @@ $(document).ready(function() {
 });
 
 var calculatePromotions = e => {
-    var t, n, a = "", i = 0, s = e.storePreferencesData.currencySymbol;
+    var t, n, a = "", s = 0, i = e.storePreferencesData.currencySymbol;
     if (null != e.ratesAndBenefitsData) {
         var r = e.ratesAndBenefitsData.rateAndBenefitsIdentifiers, c = e.items;
         for (let o = 0; o < r.length; o++) {
-            for (let t = i = 0; t < c.length; t++) for (let e = 0; e < c[t].priceTags.length; e++) c[t].priceTags[e].identifier == r[o].id && (i += c[t].priceTags[e].value);
-            t = i.toString().substr(0, i.toString().length - 2), n = i.toString().slice("-2"), 
-            i = new Intl.NumberFormat("es-CO").format(t), a += `
+            for (let t = s = 0; t < c.length; t++) for (let e = 0; e < c[t].priceTags.length; e++) c[t].priceTags[e].identifier == r[o].id && (s += c[t].priceTags[e].value);
+            t = s.toString().substr(0, s.toString().length - 2), n = s.toString().slice("-2"), 
+            s = new Intl.NumberFormat("es-CO").format(t), a += `
                 <tr class="promotion-row promotion-row-${r[o].id}">
                     <td class="info">${r[o].name}</td>
                     <td class="space"></td>
-                    <td class="monetary">${s} ${i},${n}</td>
+                    <td class="monetary">${i} ${s},${n}</td>
                     <td class="empty"></td>
                 </tr>`;
         }
@@ -96,7 +96,7 @@ const CustomCheckout = function() {
             });
         },
         pasosCheckout: e => {
-            var t = "cart", o = "profile", n = "shipping", a = "payment", i = "email", s = "orderPlaced", r = ($(".checkoutPasos li").click(function(e) {
+            var t = "cart", o = "profile", n = "shipping", a = "payment", s = "email", i = "orderPlaced", r = ($(".checkoutPasos li").click(function(e) {
                 e.preventDefault(), window.location = "/checkout#/" + $(this).attr("data-step");
             }), e => {
                 var t = setInterval(() => {
@@ -105,8 +105,8 @@ const CustomCheckout = function() {
                     $('.checkoutPasos li[data-step*="' + e + '"').addClass("pasoActivo currentPaso"));
                 }, 500);
             });
-            0 < e.indexOf(t) && r(t), (0 < e.indexOf(i) || 0 < e.indexOf(o)) && r(i), 
-            (0 < e.indexOf(n) || 0 < e.indexOf(a)) && r(n), 0 < e.indexOf(s) && r(s);
+            0 < e.indexOf(t) && r(t), (0 < e.indexOf(s) || 0 < e.indexOf(o)) && r(s), 
+            (0 < e.indexOf(n) || 0 < e.indexOf(a)) && r(n), 0 < e.indexOf(i) && r(i);
         },
         changeResolutionImage: () => {
             "#/shipping" == location.hash && $(".vtex-omnishipping-1-x-image").each(function(e) {
@@ -127,18 +127,24 @@ $(".product-item-attachment-offerings-select option:contains('prices')").remove(
 $(window).on("load", function() {
     $(".btn.debit-list-selector").find('option:contains("NEQUI")').hide();
 }), function() {
-    const t = e => e.shippingData.logisticsInfo[0].selectedSla, o = () => {
+    const a = e => e.shippingData.logisticsInfo[0].selectedSla, s = () => {
         $(".pg-contra-entrega").remove(), $(".payment-group-list-btn a:not(.pg-contra-entrega)").show(), 
         $(".payment-group-list-btn a:not(.pg-contra-entrega):first-child").click();
-    }, n = () => {
+    }, i = () => {
         $(".pg-contra-entrega, .payment-group-list-btn a").show(), $(".payment-group-list-btn a:first-child").click();
     };
     return {
         init: function() {
             $(window).on("hashchange load", function() {
                 "#/payment" !== location.hash && "#payment" !== location.hash || (vtexjs.checkout.getOrderForm().then(function(e) {
-                    e = e, t(e) && ("pickit - Envío a Domicilio" === t(e) ? (console.log("Entro en Envío a Domicilio Express", t(e)), 
-                    o) : (console.log("Entro en el caso else", t(e)), n))();
+                    t = e, a(t) && ("pickit - Envío a Domicilio" === a(t) ? (console.log("Entro en Envío a Domicilio Express", a(t)), 
+                    s) : (console.log("Entro en el caso else", a(t)), i))();
+                    var t = e.sellers || [];
+                    const o = $(".pg-contra-entrega"), n = t.some(e => "Estudio de Moda S.A." !== e.name);
+                    setTimeout(() => {
+                        n ? (o.addClass("hidden"), console.log("Hay al menos un vendedor diferente de Estudio de Moda S.A.")) : (o.removeClass("hidden"), 
+                        console.log("Todos los vendedores son Estudio de Moda S.A."));
+                    }, 800);
                 }), setTimeout(() => {
                     document.querySelector(".link-gift-card").addEventListener("click", function() {
                         var e, t = $("#gift-card-provider-selector option:first-child"), o = t.text(), n = (console.log("selectedOptionText2", o), 
@@ -221,11 +227,11 @@ const getScreenEndpoint = () => {
     for (const t of document.getElementsByClassName("hproduct item")) e === t.dataset.sku && hideHtmlElement(t.getElementsByClassName("shipping-date")[0]);
 }, hideGiftcardsShippingItems = e => {
     var t = document.getElementsByClassName("shp-summary-package"), o = document.querySelectorAll("td.shipping-date");
-    for (const i of e) {
+    for (const s of e) {
         var {
             index: n,
             sku: a
-        } = i;
+        } = s;
         hideHtmlElement(t[n]), hideHtmlElement(o[n]?.firstElementChild), hidePurchaseSummaryElementBySku(a);
     }
 }, scheduleDelayedExcecutions = e => {

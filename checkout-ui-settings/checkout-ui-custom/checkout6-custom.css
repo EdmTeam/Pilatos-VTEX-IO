@@ -6,6 +6,10 @@
 /**{
     font-family: $font_family_barlow !important;
 }*/
+.hidden {
+  display: none !important;
+}
+
 /*** MEDIA QUERIES ***/
 /* RESET DE ESTILOS GLOBAL */
 body,
@@ -7205,8 +7209,4 @@ button#payment-data-submit {
 .payment-discounts-list .remove a {
   color: #f2a922;
   text-decoration: underline;
-}
-
-.payment-group .payment-group-list-btn .pg-contra-entrega {
-  display: none !important;
 }

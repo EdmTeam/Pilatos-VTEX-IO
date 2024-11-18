@@ -310,6 +310,20 @@ const CustomCheckoutExpress = (function () {
         // Obtiene el formulario de orden y realiza validaciones
         vtexjs.checkout.getOrderForm().then(function (orderForm) {
           validatePaymentMethod(orderForm) // Valida el método de pago
+
+          const sellers = orderForm.sellers || [];
+          const itemContraentrega = $('.pg-contra-entrega');
+          const hasDifferentSeller = sellers.some(seller => seller.name !== "Estudio de Moda S.A.");
+
+          setTimeout(() => {
+            if (hasDifferentSeller) {
+                itemContraentrega.addClass('hidden');
+                console.log('Hay al menos un vendedor diferente de Estudio de Moda S.A.');
+            } else {
+                itemContraentrega.removeClass('hidden');
+                console.log('Todos los vendedores son Estudio de Moda S.A.');
+            }
+          }, 800);
         })
 
         setTimeout(() => {
@@ -351,6 +365,8 @@ const CustomCheckoutExpress = (function () {
             });
           });
         }, 2500);
+
+
       }
     })
   }
