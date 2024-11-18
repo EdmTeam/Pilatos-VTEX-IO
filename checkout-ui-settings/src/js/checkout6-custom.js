@@ -41,6 +41,19 @@ const CustomCheckout = (function () {
     checkTerms()
     validateTerms()
     editsSummaryCart()
+    //changePlaceGiftcard()
+
+    document.addEventListener('DOMContentLoaded', function () {
+      const giftCardLink = document.querySelector('.link-gift-card');
+      if (giftCardLink) {
+        giftCardLink.addEventListener('click', function () {
+          console.log("You finally clicked without jQuery");
+        });
+      } else {
+        console.log("Element with class 'link-gift-card' not found.");
+      }
+    });
+
   }
 
   const editsOrderForm = () => {
@@ -298,6 +311,46 @@ const CustomCheckoutExpress = (function () {
         vtexjs.checkout.getOrderForm().then(function (orderForm) {
           validatePaymentMethod(orderForm) // Valida el método de pago
         })
+
+        setTimeout(() => {
+          document.querySelector('.link-gift-card').addEventListener('click', function () {
+            let firstOption = $("#gift-card-provider-selector option:first-child");
+            let optionText = firstOption.text();
+            console.log("selectedOptionText2", optionText);
+            let inputGC = document.querySelector("#payment-discounts-code");
+            if (optionText.includes("Gift Card")) {
+              $(".payment-discounts-options").addClass('mensaje-ohgift');
+              inputGC.placeholder = '1234567891011121314';
+              let select = document.getElementById('gift-card-provider-selector');
+              let firstOption = select.querySelector('option:first-child');
+              select.appendChild(firstOption);
+            } else {
+              $(".payment-discounts-options").addClass('mensaje-saldo');
+              inputGC.placeholder = 'XXXX-XXXX-XXXX-XXXX';
+              firstOption.prop('selected', true);
+            }
+
+            $("#gift-card-provider-selector").change(function () {
+                //  Condicional para cambiar placeholder de gift card y tarjeta de regalo
+                let selectedOptionText = $("#gift-card-provider-selector option:selected").text();
+                let inputGC = document.querySelector("#payment-discounts-code");
+                if (selectedOptionText.includes("Gift Card")) {
+                    inputGC.placeholder = '1234567891011121314';
+                } else {
+                    inputGC.placeholder = 'XXXX-XXXX-XXXX-XXXX';
+                }
+                // Fin Condicional para cambiar placeholder de gift card y tarjeta de regalo
+                let cardSelected = $(this).children("option:selected").val("option:selected").text();
+                if (cardSelected == 'Vale de Recompra') {
+                    $(".payment-discounts-options").removeClass('mensaje-ohgift');
+                    $(".payment-discounts-options").addClass('mensaje-saldo');
+                } else {
+                    $(".payment-discounts-options").addClass('mensaje-ohgift');
+                    $(".payment-discounts-options").removeClass('mensaje-saldo');
+                }
+            });
+          });
+        }, 2500);
       }
     })
   }
@@ -365,3 +418,169 @@ vtexjs.checkout.getOrderForm().done(function (orderForm) {
 
 //if (hide) $('.pg-contra-entrega').hide();
 //}
+
+//GIFTCARD OGF
+const getScreenEndpoint = () => {
+  try {
+      const { href } = window.location;
+      const screen = href.slice(href.lastIndexOf('/') + 1);
+      return screen;
+  } catch (error) {
+      return '';
+  }
+};
+
+const isGiftcard = (item) => {
+  const categoryValues = Object.values(item.productCategories);
+  return categoryValues.includes('ohgiftcard');
+};
+
+const getGiftcardIndexesAndSkus = (items) => {
+  const itemIndexes = [];
+  try {
+      items.forEach((item, index) => {
+          if (isGiftcard(item)) itemIndexes.push({ index, sku: item.id });
+      });
+  } finally {
+      return itemIndexes;
+  }
+};
+
+const hideHtmlElement = (element) => {
+  if (element) {
+      element.style.display = 'none';
+      element.classList.add('hiddenByScript');
+  }
+};
+
+const showHiddenElements = () => {
+  const elements = Array.from(document.getElementsByClassName('hiddenByScript'));
+  for (const element of elements) {
+      element.style.display = '';
+      element.classList.remove('hiddenByScript');
+  }
+};
+
+const hideInfoElementByI18n = (i18n) => {
+  const infoElements = Array.from(document.getElementsByClassName('info'));
+  const foundElement = infoElements.find((element) => element.dataset.i18n === i18n);
+  // We hide the parent element which is the row element
+  hideHtmlElement(foundElement?.parentElement);
+};
+
+const hideElementsByClassName = (className) => {
+  const arrayOfElements = document.getElementsByClassName(className);
+  for (const element of arrayOfElements) hideHtmlElement(element);
+};
+
+const hideElementById = (id) => hideHtmlElement(document.getElementById(id));
+
+const hideShippingCalculator = () => {
+  const shippingCalculatorButton = document.getElementById('shipping-calculate-link');
+  const shippingCalculatorContainer = shippingCalculatorButton?.parentElement?.parentElement;
+  hideHtmlElement(shippingCalculatorContainer);
+};
+
+const hideAllShippingInformation = () => {
+  hideElementById('shipping-data');
+  hideElementById('shipping-preview-container');
+  hideInfoElementByI18n('totalizers.Shipping');
+  hideElementsByClassName('shipping-date');
+  hideElementsByClassName('Shipping');
+  hideShippingCalculator();
+  const screenEndpoint = getScreenEndpoint();
+  if (/shipping/.test(screenEndpoint)) fillShippingDetails();
+};
+
+const hidePurchaseSummaryElementBySku = (sku) => {
+  const list = document.getElementsByClassName('hproduct item');
+  for (const container of list) {
+      if (sku === container.dataset.sku) {
+          hideHtmlElement(container.getElementsByClassName('shipping-date')[0]);
+      }
+  }
+};
+
+const hideGiftcardsShippingItems = (giftcardsIndexAndSku) => {
+  const shippingDetails = document.getElementsByClassName('shp-summary-package');
+  const shippingDates = document.querySelectorAll('td.shipping-date');
+
+  for (const giftcardIndexAndSku of giftcardsIndexAndSku) {
+      const { index, sku } = giftcardIndexAndSku;
+      hideHtmlElement(shippingDetails[index]);
+      hideHtmlElement(shippingDates[index]?.firstElementChild);
+      hidePurchaseSummaryElementBySku(sku);
+  }
+};
+
+const scheduleDelayedExcecutions = (functionToExecute) => {
+  functionToExecute();
+  setTimeout(functionToExecute, 500);
+  setTimeout(functionToExecute, 1000);
+  setTimeout(functionToExecute, 1500);
+};
+
+const updateAllHiddenElements = (items) => {
+  showHiddenElements();
+
+  const giftcardIndexesAndSkus = getGiftcardIndexesAndSkus(items);
+
+  const numberOfGiftcards = giftcardIndexesAndSkus?.length || 0;
+  if (!numberOfGiftcards) return;
+
+  if (numberOfGiftcards === items.length) {
+      scheduleDelayedExcecutions(hideAllShippingInformation);
+  } else if (numberOfGiftcards > 0) {
+      scheduleDelayedExcecutions(() => hideGiftcardsShippingItems(giftcardIndexesAndSkus));
+  }
+};
+
+window.addEventListener('DOMContentLoaded', () => defer(addOrderFormListener));
+
+const addOrderFormListener = () => {
+  $(window).on('orderFormUpdated.vtex', (evt, orderForm) => {
+      updateAllHiddenElements(orderForm.items);
+  });
+};
+
+const defer = (method) => {
+  if (window.jQuery) return method();
+
+  setTimeout(() => {
+      defer(method);
+  }, 50);
+};
+
+const setElementValue = (id, value) => {
+  const element = document.getElementById(id);
+  if (!element) return;
+
+  const valueSetter = Object.getOwnPropertyDescriptor(element, 'value').set;
+  const prototype = Object.getPrototypeOf(element);
+  const prototypeValueSetter = Object.getOwnPropertyDescriptor(prototype, 'value').set;
+
+  if (valueSetter && valueSetter !== prototypeValueSetter) prototypeValueSetter.call(element, value);
+  else valueSetter.call(element, value);
+
+  element.dispatchEvent(new Event('input', { bubbles: true }));
+};
+
+const fillShippingDetails = () => {
+
+  setElementValue('ship-postalCode', '3333');
+  setElementValue('ship-street', 'Por email');
+  setElementValue('ship-number', '1');
+  setElementValue('ship-receiverName', 'Por email');
+
+  const firstSelectedAddress = vtexjs.checkout.orderForm.shippingData.selectedAddresses[0];
+  if (firstSelectedAddress) {
+      if (firstSelectedAddress.city === '') firstSelectedAddress.city = 'Ciudad Autónoma de Buenos Aires';
+      if (firstSelectedAddress.number === '') firstSelectedAddress.number = '1';
+      if (firstSelectedAddress.postalCode === '') firstSelectedAddress.postalCode = '3333';
+      if (firstSelectedAddress.street === '') firstSelectedAddress.street = 'Por email';
+      if (firstSelectedAddress.receiverName === '') firstSelectedAddress.receiverName = 'Por email';
+  }
+
+  const clickGoToPaymentButton = () => $('#btn-go-to-payment').click();
+  scheduleDelayedExcecutions(clickGoToPaymentButton);
+};

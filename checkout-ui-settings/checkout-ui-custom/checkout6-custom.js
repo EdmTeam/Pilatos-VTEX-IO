@@ -5,35 +5,35 @@ $(document).ready(function() {
 });
 
 var calculatePromotions = e => {
-    var t, a, n = "", s = 0, i = e.storePreferencesData.currencySymbol;
+    var t, n, a = "", i = 0, s = e.storePreferencesData.currencySymbol;
     if (null != e.ratesAndBenefitsData) {
         var r = e.ratesAndBenefitsData.rateAndBenefitsIdentifiers, c = e.items;
         for (let o = 0; o < r.length; o++) {
-            for (let t = s = 0; t < c.length; t++) for (let e = 0; e < c[t].priceTags.length; e++) c[t].priceTags[e].identifier == r[o].id && (s += c[t].priceTags[e].value);
-            t = s.toString().substr(0, s.toString().length - 2), a = s.toString().slice("-2"), 
-            s = new Intl.NumberFormat("es-CO").format(t), n += `
+            for (let t = i = 0; t < c.length; t++) for (let e = 0; e < c[t].priceTags.length; e++) c[t].priceTags[e].identifier == r[o].id && (i += c[t].priceTags[e].value);
+            t = i.toString().substr(0, i.toString().length - 2), n = i.toString().slice("-2"), 
+            i = new Intl.NumberFormat("es-CO").format(t), a += `
                 <tr class="promotion-row promotion-row-${r[o].id}">
                     <td class="info">${r[o].name}</td>
                     <td class="space"></td>
-                    <td class="monetary">${i} ${s},${a}</td>
+                    <td class="monetary">${s} ${i},${n}</td>
                     <td class="empty"></td>
                 </tr>`;
         }
         $(".promotion-row").remove(), setTimeout(function() {
-            $(".promotion-row").remove(), $(".totalizers-list").append(n);
+            $(".promotion-row").remove(), $(".totalizers-list").append(a);
         }, 1e3);
     }
 };
 
 const CustomCheckout = function() {
     const o = e => {
-        for (var t = e + "=", o = document.cookie.split(";"), a = 0; a < o.length; a++) {
-            for (var n = o[a]; " " == n.charAt(0); ) n = n.substring(1, n.length);
-            if (0 == n.indexOf(t)) return n.substring(t.length, n.length);
+        for (var t = e + "=", o = document.cookie.split(";"), n = 0; n < o.length; n++) {
+            for (var a = o[n]; " " == a.charAt(0); ) a = a.substring(1, a.length);
+            if (0 == a.indexOf(t)) return a.substring(t.length, a.length);
         }
         return null;
     };
-    const a = (e, t) => {
+    const n = (e, t) => {
         console.log("Estoy en guardarDatosMasterData");
         t = {
             url: "/api/ds/pub/documents/" + t,
@@ -84,14 +84,19 @@ const CustomCheckout = function() {
                         email: window.API.orderForm.clientProfileData.email,
                         acceptTerms: !0
                     };
-                    Object.values(e).some(e => "" === e) || a(e, "CC");
+                    Object.values(e).some(e => "" === e) || n(e, "CC");
                 });
             }, 1e3), setInterval(() => {
                 $(".empty-cart-content").is(":hidden") ? $(".checkout-container >.cart-template .summary-template-holder .summary").css("display", "flex") : $(".checkout-container >.cart-template .summary-template-holder .summary").css("display", "none");
-            }, 500);
+            }, 500), document.addEventListener("DOMContentLoaded", function() {
+                var e = document.querySelector(".link-gift-card");
+                e ? e.addEventListener("click", function() {
+                    console.log("You finally clicked without jQuery");
+                }) : console.log("Element with class 'link-gift-card' not found.");
+            });
         },
         pasosCheckout: e => {
-            var t = "cart", o = "profile", a = "shipping", n = "payment", s = "email", i = "orderPlaced", r = ($(".checkoutPasos li").click(function(e) {
+            var t = "cart", o = "profile", n = "shipping", a = "payment", i = "email", s = "orderPlaced", r = ($(".checkoutPasos li").click(function(e) {
                 e.preventDefault(), window.location = "/checkout#/" + $(this).attr("data-step");
             }), e => {
                 var t = setInterval(() => {
@@ -100,8 +105,8 @@ const CustomCheckout = function() {
                     $('.checkoutPasos li[data-step*="' + e + '"').addClass("pasoActivo currentPaso"));
                 }, 500);
             });
-            0 < e.indexOf(t) && r(t), (0 < e.indexOf(s) || 0 < e.indexOf(o)) && r(s), 
-            (0 < e.indexOf(a) || 0 < e.indexOf(n)) && r(a), 0 < e.indexOf(i) && r(i);
+            0 < e.indexOf(t) && r(t), (0 < e.indexOf(i) || 0 < e.indexOf(o)) && r(i), 
+            (0 < e.indexOf(n) || 0 < e.indexOf(a)) && r(n), 0 < e.indexOf(s) && r(s);
         },
         changeResolutionImage: () => {
             "#/shipping" == location.hash && $(".vtex-omnishipping-1-x-image").each(function(e) {
@@ -125,16 +130,32 @@ $(window).on("load", function() {
     const t = e => e.shippingData.logisticsInfo[0].selectedSla, o = () => {
         $(".pg-contra-entrega").remove(), $(".payment-group-list-btn a:not(.pg-contra-entrega)").show(), 
         $(".payment-group-list-btn a:not(.pg-contra-entrega):first-child").click();
-    }, a = () => {
+    }, n = () => {
         $(".pg-contra-entrega, .payment-group-list-btn a").show(), $(".payment-group-list-btn a:first-child").click();
     };
     return {
         init: function() {
             $(window).on("hashchange load", function() {
-                "#/payment" !== location.hash && "#payment" !== location.hash || vtexjs.checkout.getOrderForm().then(function(e) {
+                "#/payment" !== location.hash && "#payment" !== location.hash || (vtexjs.checkout.getOrderForm().then(function(e) {
                     e = e, t(e) && ("pickit - Envío a Domicilio" === t(e) ? (console.log("Entro en Envío a Domicilio Express", t(e)), 
-                    o) : (console.log("Entro en el caso else", t(e)), a))();
-                });
+                    o) : (console.log("Entro en el caso else", t(e)), n))();
+                }), setTimeout(() => {
+                    document.querySelector(".link-gift-card").addEventListener("click", function() {
+                        var e, t = $("#gift-card-provider-selector option:first-child"), o = t.text(), n = (console.log("selectedOptionText2", o), 
+                        document.querySelector("#payment-discounts-code"));
+                        o.includes("Gift Card") ? ($(".payment-discounts-options").addClass("mensaje-ohgift"), 
+                        n.placeholder = "1234567891011121314", e = (o = document.getElementById("gift-card-provider-selector")).querySelector("option:first-child"), 
+                        o.appendChild(e)) : ($(".payment-discounts-options").addClass("mensaje-saldo"), 
+                        n.placeholder = "XXXX-XXXX-XXXX-XXXX", t.prop("selected", !0)), 
+                        $("#gift-card-provider-selector").change(function() {
+                            var e = $("#gift-card-provider-selector option:selected").text(), t = document.querySelector("#payment-discounts-code"), e = (e.includes("Gift Card") ? t.placeholder = "1234567891011121314" : t.placeholder = "XXXX-XXXX-XXXX-XXXX", 
+                            $(this).children("option:selected").val("option:selected").text());
+                            "Vale de Recompra" == e ? ($(".payment-discounts-options").removeClass("mensaje-ohgift"), 
+                            $(".payment-discounts-options").addClass("mensaje-saldo")) : ($(".payment-discounts-options").addClass("mensaje-ohgift"), 
+                            $(".payment-discounts-options").removeClass("mensaje-saldo"));
+                        });
+                    });
+                }, 2500));
             });
         }
     };
@@ -155,3 +176,88 @@ $(document).ready(function() {
 }), vtexjs.checkout.getOrderForm().done(function(e) {
     handlePaymentMethodChange(e);
 });
+
+const getScreenEndpoint = () => {
+    try {
+        var e = window.location["href"];
+        return e.slice(e.lastIndexOf("/") + 1);
+    } catch (e) {
+        return "";
+    }
+}, isGiftcard = e => {
+    return Object.values(e.productCategories).includes("ohgiftcard");
+}, getGiftcardIndexesAndSkus = e => {
+    const o = [];
+    try {
+        e.forEach((e, t) => {
+            isGiftcard(e) && o.push({
+                index: t,
+                sku: e.id
+            });
+        });
+    } finally {
+        return o;
+    }
+}, hideHtmlElement = e => {
+    e && (e.style.display = "none", e.classList.add("hiddenByScript"));
+}, showHiddenElements = () => {
+    for (const e of Array.from(document.getElementsByClassName("hiddenByScript"))) e.style.display = "", 
+    e.classList.remove("hiddenByScript");
+}, hideInfoElementByI18n = t => {
+    var e = Array.from(document.getElementsByClassName("info")).find(e => e.dataset.i18n === t);
+    hideHtmlElement(e?.parentElement);
+}, hideElementsByClassName = e => {
+    for (const t of document.getElementsByClassName(e)) hideHtmlElement(t);
+}, hideElementById = e => hideHtmlElement(document.getElementById(e)), hideShippingCalculator = () => {
+    var e = document.getElementById("shipping-calculate-link")?.parentElement?.parentElement;
+    hideHtmlElement(e);
+}, hideAllShippingInformation = () => {
+    hideElementById("shipping-data"), hideElementById("shipping-preview-container"), 
+    hideInfoElementByI18n("totalizers.Shipping"), hideElementsByClassName("shipping-date"), 
+    hideElementsByClassName("Shipping"), hideShippingCalculator();
+    var e = getScreenEndpoint();
+    /shipping/.test(e) && fillShippingDetails();
+}, hidePurchaseSummaryElementBySku = e => {
+    for (const t of document.getElementsByClassName("hproduct item")) e === t.dataset.sku && hideHtmlElement(t.getElementsByClassName("shipping-date")[0]);
+}, hideGiftcardsShippingItems = e => {
+    var t = document.getElementsByClassName("shp-summary-package"), o = document.querySelectorAll("td.shipping-date");
+    for (const i of e) {
+        var {
+            index: n,
+            sku: a
+        } = i;
+        hideHtmlElement(t[n]), hideHtmlElement(o[n]?.firstElementChild), hidePurchaseSummaryElementBySku(a);
+    }
+}, scheduleDelayedExcecutions = e => {
+    e(), setTimeout(e, 500), setTimeout(e, 1e3), setTimeout(e, 1500);
+}, updateAllHiddenElements = e => {
+    showHiddenElements();
+    const t = getGiftcardIndexesAndSkus(e);
+    var o = t?.length || 0;
+    o && (o === e.length ? scheduleDelayedExcecutions(hideAllShippingInformation) : 0 < o && scheduleDelayedExcecutions(() => hideGiftcardsShippingItems(t)));
+}, addOrderFormListener = (window.addEventListener("DOMContentLoaded", () => defer(addOrderFormListener)), 
+() => {
+    $(window).on("orderFormUpdated.vtex", (e, t) => {
+        updateAllHiddenElements(t.items);
+    });
+}), defer = e => {
+    if (window.jQuery) return e();
+    setTimeout(() => {
+        defer(e);
+    }, 50);
+}, setElementValue = (e, t) => {
+    var o, n, e = document.getElementById(e);
+    e && (o = Object.getOwnPropertyDescriptor(e, "value").set, n = Object.getPrototypeOf(e), 
+    n = Object.getOwnPropertyDescriptor(n, "value").set, (o && o !== n ? n : o).call(e, t), 
+    e.dispatchEvent(new Event("input", {
+        bubbles: !0
+    })));
+}, fillShippingDetails = () => {
+    setElementValue("ship-postalCode", "3333"), setElementValue("ship-street", "Por email"), 
+    setElementValue("ship-number", "1"), setElementValue("ship-receiverName", "Por email");
+    var e = vtexjs.checkout.orderForm.shippingData.selectedAddresses[0];
+    e && ("" === e.city && (e.city = "Ciudad Autónoma de Buenos Aires"), "" === e.number && (e.number = "1"), 
+    "" === e.postalCode && (e.postalCode = "3333"), "" === e.street && (e.street = "Por email"), 
+    "" === e.receiverName) && (e.receiverName = "Por email");
+    scheduleDelayedExcecutions(() => $("#btn-go-to-payment").click());
+};
