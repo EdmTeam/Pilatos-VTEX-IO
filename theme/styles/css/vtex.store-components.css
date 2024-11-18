@@ -632,7 +632,7 @@ margin-top: 1%;
 }
 
 :global(.vtex-flex-layout-0-x-flexColChild--stack-product) .skuSelectorSubcontainer--color{
-    margin: .1rem 0 .8rem 0;
+    margin: .1rem 0 0 0;
 }
 
 :global(.vtex-flex-layout-0-x-flexColChild--stack-product) .skuSelectorSubcontainer--talla .skuSelectorItem{
@@ -690,12 +690,16 @@ margin-top: 1%;
     .price_className--productPrice{
         margin: 1.5rem 0 1rem auto;
     }
-
 }
 
 @media only screen and (min-width: 1180px){
+    .listPriceValue {
+      font-size: 20px;
+      font-weight: 900 !important;
+    }
+
     .price_className--productPrice{
-        margin: 2.2rem auto 1rem 0;
+        margin: 0.5rem auto 1rem 0;
         /*width: 85%;*/
         width: 80%;
     }
@@ -938,6 +942,31 @@ cursor: pointer;
     }
 }
 
+.swiperCaretNext--pdpImage .caretIcon--pdpImage,
+.swiperCaretPrev--pdpImage .caretIcon--pdpImage {
+  visibility: hidden;
+}
+
+.swiperCaretNext--pdpImage::after {
+  content: url(/arquivos/arrowLeftPDP.png);
+}
+
+.swiperCaretPrev--pdpImage::after {
+  content: url(/arquivos/arrowRightPDP.png);
+}
+
+:global(.vtex-product-identifier-0-x-product-identifier--productReference) {
+  margin-right: 38px;
+}
+
+:global(.vtex-add-to-cart-button-0-x-buttonText) {
+  font-size: 0px;
+}
+
+:global(.vtex-add-to-cart-button-0-x-buttonText)::after {
+  font-size: 12px;
+  content: "AGREGAR AL CARRITO";
+}
 /*New Banners Info Card*/
 .infoCardContainer--infocardBanner {
   position: relative;

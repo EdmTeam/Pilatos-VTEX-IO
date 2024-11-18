@@ -7206,3 +7206,7 @@ button#payment-data-submit {
   color: #f2a922;
   text-decoration: underline;
 }
+
+.payment-group .payment-group-list-btn .pg-contra-entrega {
+  display: none !important;
+}

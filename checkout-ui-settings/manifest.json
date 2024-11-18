@@ -1,7 +1,7 @@
 {
   "name": "checkout-ui-settings",
   "vendor": "pilatos21",
-  "version": "0.0.7",
+  "version": "0.0.9",
   "title": "Checkout UI Settings",
   "description": "Declare custom settings to be used by checkout ui",
   "builders": {
@@ -9,7 +9,7 @@
     "checkout-ui-custom": "0.x"
   },
   "scripts": {
-    "prereleasy": "bash lint.sh"
+    "prereleasy": "vtex publish --verbose"
   },
   "credentialType": "absolute",
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"

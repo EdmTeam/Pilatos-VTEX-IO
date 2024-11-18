@@ -13,19 +13,24 @@
 }*/
 
 .label{
-    /*width: 90%;*/
-    margin: 0 auto;
-    font-weight: bold;
-    /*font-size: 9px;*/
-    font-size: 12px;
-    /*line-height: 11px;*/
-    /*text-decoration-line: underline;*/
-    /*text-transform: uppercase;*/
-    color: #000000;
-    border: 1px solid #000;
-    max-width: max-content;
-    padding: 10px 16px;;
-    border-radius: 100px;
+  margin: 0 auto;
+  border: 1px solid #989393;
+  max-width: max-content;
+  padding: 6px 10px;
+  max-height: 28px !important;
+  font-size: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.label::before {
+  content: 'Guía de tallas';
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16.8px;
+  text-align: center;
+  color: #717070;
 }
 
 /***PDP***/
