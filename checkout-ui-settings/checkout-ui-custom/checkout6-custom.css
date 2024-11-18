@@ -7147,3 +7147,7 @@ button#payment-data-submit {
 .srp-summary-result {
   display: table-row !important;
 }
+
+.payment-group .payment-group-list-btn .pg-contra-entrega {
+  display: none;
+}
