@@ -1039,7 +1039,7 @@
 }
 
 .flexColChild--contentNewsletter :global(.vtex-button):hover{
-  background: #FFD400;
+  background: #000;
   outline: none;
   border: none;
 }
