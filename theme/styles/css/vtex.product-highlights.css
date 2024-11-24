@@ -206,6 +206,27 @@
 /*FIN bancolombia 2024-2*/
 
 
+/*Flag blackdays 2024-2*/
+
+.productHighlightWrapper [data-highlight-id="1956"]{
+    width: 46px;
+    height: 46px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(/arquivos/FLAG-blakcdays-todas.jpg);
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .productHighlightWrapper [data-highlight-id="1956"] {
+      width: 45px; /* Ajusta el tamaño para mobile */
+      height: 45px;
+
+    }
+  }
+
+
+
 
 
 
