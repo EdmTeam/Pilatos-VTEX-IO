@@ -11,7 +11,8 @@
   },
   "dependencies": {
     "vtex.render-runtime": "8.x",
-    "vtex.product-context": "0.x"
+    "vtex.product-context": "0.x",
+    "vtex.css-handles": "0.x"
   },
   "registries": [
     "smartcheckout"
