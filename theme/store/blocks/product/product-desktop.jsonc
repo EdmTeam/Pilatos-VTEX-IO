@@ -435,7 +435,8 @@
       },
       "children": [
         "flex-layout.col#seller-table#seller-product",
-        "rich-text#nitysic"
+        // "rich-text#nitysic"
+        "sellers-data"
       ]
     },
 
