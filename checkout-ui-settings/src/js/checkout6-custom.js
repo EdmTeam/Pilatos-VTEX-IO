@@ -312,16 +312,16 @@ const CustomCheckoutExpress = (function () {
           validatePaymentMethod(orderForm) // Valida el método de pago
 
           const sellers = orderForm.sellers || [];
+          const shipSLA = orderForm.shippingData?.logisticsInfo[0]?.slas || [];
           const itemContraentrega = $('.pg-contra-entrega');
           const hasDifferentSeller = sellers.some(seller => seller.name !== "Estudio de Moda S.A.");
+          const isPickit = shipSLA.some((sla) => sla.id === "pickit - Envío a Domicilio");
 
           setTimeout(() => {
-            if (hasDifferentSeller) {
+            if (hasDifferentSeller || isPickit) {
                 itemContraentrega.addClass('hidden');
-                console.log('Hay al menos un vendedor diferente de Estudio de Moda S.A.');
             } else {
                 itemContraentrega.removeClass('hidden');
-                console.log('Todos los vendedores son Estudio de Moda S.A.');
             }
           }, 800);
         })
