@@ -312,10 +312,12 @@ const CustomCheckoutExpress = (function () {
           validatePaymentMethod(orderForm) // Valida el método de pago
 
           const sellers = orderForm.sellers || [];
-          const shipSLA = orderForm.shippingData?.logisticsInfo[0]?.slas || [];
+          const shipSLA = orderForm.shippingData?.logisticsInfo || [];
           const itemContraentrega = $('.pg-contra-entrega');
           const hasDifferentSeller = sellers.some(seller => seller.name !== "Estudio de Moda S.A.");
-          const isPickit = shipSLA.some((sla) => sla.id === "pickit - Envío a Domicilio");
+          const isPickit = shipSLA.some(sla => sla.selectedSla === "pickit - Envío a Domicilio");
+
+          console.log('SLA::', isPickit)
 
           setTimeout(() => {
             if (hasDifferentSeller || isPickit) {

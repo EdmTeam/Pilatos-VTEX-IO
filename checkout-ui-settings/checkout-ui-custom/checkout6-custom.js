@@ -139,9 +139,9 @@ $(window).on("load", function() {
                 "#/payment" !== location.hash && "#payment" !== location.hash || (vtexjs.checkout.getOrderForm().then(function(e) {
                     t = e, i(t) && ("pickit - Envío a Domicilio" === i(t) ? (console.log("Entro en Envío a Domicilio Express", i(t)), 
                     s) : (console.log("Entro en el caso else", i(t)), r))();
-                    var t = e.sellers || [], e = e.shippingData?.logisticsInfo[0]?.slas || [];
-                    const o = $(".pg-contra-entrega"), n = t.some(e => "Estudio de Moda S.A." !== e.name), a = e.some(e => "pickit - Envío a Domicilio" === e.id);
-                    setTimeout(() => {
+                    var t = e.sellers || [], e = e.shippingData?.logisticsInfo || [];
+                    const o = $(".pg-contra-entrega"), n = t.some(e => "Estudio de Moda S.A." !== e.name), a = e.some(e => "pickit - Envío a Domicilio" === e.selectedSla);
+                    console.log("SLA::", a), setTimeout(() => {
                         n || a ? o.addClass("hidden") : o.removeClass("hidden");
                     }, 800);
                 }), setTimeout(() => {
