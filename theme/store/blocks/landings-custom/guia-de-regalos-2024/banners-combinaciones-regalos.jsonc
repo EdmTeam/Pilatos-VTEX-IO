@@ -29,7 +29,10 @@
       "image#banner1__combinacion--desk",
       "image#banner2__combinacion--desk",
       "image#banner3__combinacion--desk"
-    ]
+    ],
+    "props": {
+      "blockClass": "container__images--desk"
+    }
   },
 
   "image#banner1__combinacion--desk":{
