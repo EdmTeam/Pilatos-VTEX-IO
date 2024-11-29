@@ -1404,9 +1404,9 @@
   color: #000000;
 }
 
-:global(.vtex-search-result-3-x-orderByText){
+/* :global(.vtex-search-result-3-x-orderByText){
   display: none;
-}
+} */
 
 :global(.vtex-search-result-3-x-filterTitle){
   font-weight: bold;

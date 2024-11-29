@@ -1,0 +1,102 @@
+{
+  "flex-layout.row#banners__combinaciones--regalos":{
+    "children": [
+      "flex-layout.col#container__responsives--banners-regalos"
+    ],
+    "props": {
+      "blockClass": "container__responsives--banners"
+    }
+  },
+
+  "flex-layout.col#container__responsives--banners-regalos":{
+    "children": [
+      "responsive-layout.desktop#banners__regalos--desk",
+      "responsive-layout.mobile#banners__regalos--mob"
+    ],
+    "props": {
+      "blockClass":"subcontainer__responsives--banners--regalos"
+    }
+  },
+
+  "responsive-layout.desktop#banners__regalos--desk":{
+    "children": [
+      "flex-layout.row#banners__regalos--desk"
+    ]
+  },
+
+  "flex-layout.row#banners__regalos--desk":{
+    "children": [
+      "image#banner1__combinacion--desk",
+      "image#banner2__combinacion--desk",
+      "image#banner3__combinacion--desk"
+    ]
+  },
+
+  "image#banner1__combinacion--desk":{
+    "props": {
+      "src": "/arquivos/GR_Banner Jean+Jean Escritorio.png",
+      "blockClass": ["banner1__combinacion--desk", "banners__combinaciones--regalos"]
+    }
+  },
+
+  "image#banner2__combinacion--desk":{
+    "props": {
+      "src": "/arquivos/GR_Banner Camiseta+Jean Escritorio .png",
+      "blockClass": ["banner2__combinacion--desk", "banners__combinaciones--regalos"]
+    }
+  },
+
+  "image#banner3__combinacion--desk":{
+    "props": {
+      "src": "/arquivos/GR_BannerCamiseta+CamisetaEscritorio.png",
+      "blockClass": ["banner3__combinacion--desk", "banners__combinaciones--regalos"]
+    }
+  },
+
+  "responsive-layout.mobile#banners__regalos--mob":{
+    "children": [
+      "flex-layout.row#banners__regalos--mob",
+      "flex-layout.row#banners2__regalos--mob"
+    ]
+  },
+
+  "flex-layout.row#banners__regalos--mob":{
+    "children": [
+      "image#banner1__combinacion--mob",
+      "image#banner2__combinacion--mob"
+    ],
+    "props": {
+      "blockClass": ["banners__regalos--mob", "first--banners__regalos--mob"]
+    }
+  },
+
+  "flex-layout.row#banners2__regalos--mob":{
+    "children": [
+      "image#banner3__combinacion--mob"
+    ],
+    "props": {
+      "blockClass": ["banners2__regalos--mob", "banners__regalos--mob"]
+    }
+  },
+
+  "image#banner1__combinacion--mob":{
+    "props": {
+      "src": "/arquivos/GR_Banner Camiseta + Jean Mobile.png",
+      "blockClass": ["banner1__combinacion--mob", "banners__combinaciones--regalos"]
+    }
+  },
+
+  "image#banner2__combinacion--mob":{
+    "props": {
+      "src": "/arquivos/GR_Banner Camiseta+ Camiseta Mobile.png",
+      "blockClass": ["banner2__combinacion--mob", "banners__combinaciones--regalos"]
+    }
+  },
+
+  "image#banner3__combinacion--mob":{
+    "props": {
+      "src": "/arquivos/GR_Banner Jean+Jean Mobile.png",
+      "blockClass": ["banner3__combinacion--mob", "banners__combinaciones--regalos"]
+    }
+  }
+}
