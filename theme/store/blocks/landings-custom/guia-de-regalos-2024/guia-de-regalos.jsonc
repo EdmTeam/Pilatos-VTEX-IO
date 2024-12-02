@@ -4,7 +4,7 @@
       "rich-text#seo__principal--guia-regalos",
       "flex-layout.row#banner__principal--guia-regalos",
       "flex-layout.row#banners__combinaciones--regalos",
-      "search-result-layout.customQuery#pillar-tenis-pilatos2",
+      "search-result-layout.customQuery#guia__de--regalos",
       "rich-text#seo__secundario--guia-regalos"
     ],
     "props": {
