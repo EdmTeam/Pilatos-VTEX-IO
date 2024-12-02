@@ -1,0 +1,17 @@
+{
+  "search-result-layout.customQuery#pillar-tenis-pilatos2": {
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile#pilatos"
+        ],
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByScoreDESC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 48,
+                "queryField": "1987",
+                "mapField": "productClusterIds"
+            }
+        }
+    }
+}

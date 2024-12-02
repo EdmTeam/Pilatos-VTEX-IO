@@ -1,0 +1,42 @@
+{
+  "flex-layout.row#banner__principal--guia-regalos":{
+    "children": [
+      "flex-layout.col#container__responsives--banner"
+    ]
+  },
+
+  "flex-layout.col#container__responsives--banner":{
+    "children": [
+      "responsive-layout.desktop#banner__principal--desk",
+      "responsive-layout.mobile#banner__principal--mob"
+    ],
+    "props": {
+      "blockClass":"container__responsives--banner"
+    }
+  },
+
+  "responsive-layout.desktop#banner__principal--desk":{
+    "children": [
+      "image#banner__principal--desk"
+    ]
+  },
+  "responsive-layout.mobile#banner__principal--mob":{
+    "children": [
+      "image#banner__principal--mob"
+    ]
+  },
+
+  "image#banner__principal--desk":{
+    "props": {
+      "src": "/arquivos/GR_Banner Landing Escritorio.png",
+      "blockClass": ["banner__principal--desk", "banner__principal--regalos"]
+    }
+  },
+
+  "image#banner__principal--mob":{
+    "props": {
+      "src": "/arquivos/GR_Banner Landing Mobile.png",
+      "blockClass": ["banner__principal--mob", "banner__principal--regalos"]
+    }
+  }
+}
