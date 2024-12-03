@@ -127,18 +127,23 @@ $(".product-item-attachment-offerings-select option:contains('prices')").remove(
 $(window).on("load", function() {
     $(".btn.debit-list-selector").find('option:contains("NEQUI")').hide();
 }), function() {
-    const t = e => e.shippingData.logisticsInfo[0].selectedSla, o = () => {
+    const i = e => e.shippingData.logisticsInfo[0].selectedSla, s = () => {
         $(".pg-contra-entrega").remove(), $(".payment-group-list-btn a:not(.pg-contra-entrega)").show(), 
         $(".payment-group-list-btn a:not(.pg-contra-entrega):first-child").click();
-    }, n = () => {
+    }, r = () => {
         $(".pg-contra-entrega, .payment-group-list-btn a").show(), $(".payment-group-list-btn a:first-child").click();
     };
     return {
         init: function() {
             $(window).on("hashchange load", function() {
                 "#/payment" !== location.hash && "#payment" !== location.hash || (vtexjs.checkout.getOrderForm().then(function(e) {
-                    e = e, t(e) && ("pickit - Envío a Domicilio" === t(e) ? (console.log("Entro en Envío a Domicilio Express", t(e)), 
-                    o) : (console.log("Entro en el caso else", t(e)), n))();
+                    t = e, i(t) && ("pickit - Envío a Domicilio" === i(t) ? (console.log("Entro en Envío a Domicilio Express", i(t)), 
+                    s) : (console.log("Entro en el caso else", i(t)), r))();
+                    var t = e.sellers || [], e = e.shippingData?.logisticsInfo || [];
+                    const o = $(".pg-contra-entrega"), n = t.some(e => "Estudio de Moda S.A." !== e.name), a = e.some(e => "pickit - Envío a Domicilio" === e.selectedSla);
+                    console.log("SLA::", a), setTimeout(() => {
+                        n || a ? o.addClass("hidden") : o.removeClass("hidden");
+                    }, 800);
                 }), setTimeout(() => {
                     document.querySelector(".link-gift-card").addEventListener("click", function() {
                         var e, t = $("#gift-card-provider-selector option:first-child"), o = t.text(), n = (console.log("selectedOptionText2", o), 

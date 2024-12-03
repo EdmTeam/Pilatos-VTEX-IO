@@ -146,6 +146,10 @@ $icom-logo-CE-path24: "\e92d";
     font-family: $font_family_barlow !important;
 }*/
 
+.hidden {
+  display: none !important;
+}
+
 @function calculateRem($size) {
     // $remSize: $size / $font_size_default;
     $remSize: ($size) / 16;
