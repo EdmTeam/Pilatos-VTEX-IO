@@ -916,6 +916,7 @@
 .wrapper--textSubcategory .link {
   color: #260C11;
   text-decoration: none;
+  min-width: 90px;
 }
 
 .container--closeIco {
