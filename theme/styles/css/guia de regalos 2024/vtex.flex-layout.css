@@ -10,3 +10,7 @@
 .flexRow--container__responsives--banners {
   margin: 30px 0 30px 0;
 }
+
+.flexRowContent--container__images--desk {
+  justify-content: center;
+}
