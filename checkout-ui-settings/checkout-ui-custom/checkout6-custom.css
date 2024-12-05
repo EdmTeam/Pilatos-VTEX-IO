@@ -7212,5 +7212,5 @@ button#payment-data-submit {
 }
 
 .payment-group .payment-group-list-btn a#payment-group-custom201PaymentGroupPaymentGroup {
-  display: none;
+  display: none !important;
 }
