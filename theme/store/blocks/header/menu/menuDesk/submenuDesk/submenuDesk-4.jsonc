@@ -58,9 +58,10 @@
           "blockClass": "submenu-desk-department-options"
         },
         "children":[
+            "flex-layout.row#submenu-desk-category-options-col-1-row-4-propias",
             "flex-layout.row#submenu-desk-category-options-col-1-row-4",
-            "flex-layout.row#submenu-desk-category-options-col-2-row-4-propias",
-            "flex-layout.row#submenu-desk-category-options-col-1-row-4-propias"
+            "flex-layout.row#submenu-desk-category-options-col-2-row-4-propias"
+
             // "flex-layout.col#submenu-desk-category-options-col-2-row-4"
         ]
     },
