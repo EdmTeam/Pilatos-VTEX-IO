@@ -1,0 +1,17 @@
+{
+  "flex-layout.row#breadcrumb__guia-regalos": {
+    "children": [
+      "rich-text#breadcrumb__text--guiaregalos"
+    ],
+    "props": {
+      "blockClass": "breadcrumb__guia-regalos"
+    }
+  },
+  "rich-text#breadcrumb__text--guiaregalos": {
+    "title": "Bread crumb",
+    "props": {
+      "text": "[Home](/) / [**Pilatos**](/pilatos)",
+      "blockClass": ["departmentBreadCrumb", "breadcrumb__text--guiaregalos"]
+    }
+  }
+}
