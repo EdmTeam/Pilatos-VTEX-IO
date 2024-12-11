@@ -7210,7 +7210,3 @@ button#payment-data-submit {
   color: #f2a922;
   text-decoration: underline;
 }
-
-.payment-group .payment-group-list-btn a#payment-group-custom201PaymentGroupPaymentGroup {
-  display: none !important;
-}

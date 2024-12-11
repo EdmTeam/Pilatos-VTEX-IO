@@ -127,23 +127,30 @@ $(".product-item-attachment-offerings-select option:contains('prices')").remove(
 $(window).on("load", function() {
     $(".btn.debit-list-selector").find('option:contains("NEQUI")').hide();
 }), function() {
-    const i = e => e.shippingData.logisticsInfo[0].selectedSla, s = () => {
+    const r = e => e.shippingData.logisticsInfo[0].selectedSla, c = () => {
         $(".pg-contra-entrega").remove(), $(".payment-group-list-btn a:not(.pg-contra-entrega)").show(), 
         $(".payment-group-list-btn a:not(.pg-contra-entrega):first-child").click();
-    }, r = () => {
+    }, l = () => {
         $(".pg-contra-entrega, .payment-group-list-btn a").show(), $(".payment-group-list-btn a:first-child").click();
     };
     return {
         init: function() {
             $(window).on("hashchange load", function() {
-                "#/payment" !== location.hash && "#payment" !== location.hash || (vtexjs.checkout.getOrderForm().then(function(e) {
-                    t = e, i(t) && ("pickit - Envío a Domicilio" === i(t) ? (console.log("Entro en Envío a Domicilio Express", i(t)), 
-                    s) : (console.log("Entro en el caso else", i(t)), r))();
-                    var t = e.sellers || [], e = e.shippingData?.logisticsInfo || [];
-                    const o = $(".pg-contra-entrega"), n = t.some(e => "Estudio de Moda S.A." !== e.name), a = e.some(e => "pickit - Envío a Domicilio" === e.selectedSla);
-                    console.log("SLA::", a), setTimeout(() => {
-                        n || a ? o.addClass("hidden") : o.removeClass("hidden");
+                function o(e) {
+                    t = e, r(t) && ("pickit - Envío a Domicilio" === r(t) ? (console.log("Entro en Envío a Domicilio Express", r(t)), 
+                    c) : (console.log("Entro en el caso else", r(t)), l))();
+                    var t = e.sellers || [], o = e.shippingData?.logisticsInfo || [];
+                    const n = $(".pg-contra-entrega"), a = t.some(e => "Estudio de Moda S.A." !== e.name), i = o.some(e => "pickit - Envío a Domicilio" === e.selectedSla), s = o.some(e => "OGC - Envío gratuito" === e.selectedSla);
+                    console.log("SLA::", i), setTimeout(() => {
+                        a || i || s || 0 !== e.paymentData.giftCards.length ? (console.log("Debe desaparecer contraentrega>>"), 
+                        n.addClass("hidden")) : (console.log("NO debe desaparecer contraentrega>>"), 
+                        n.removeClass("hidden"));
                     }, 800);
+                }
+                "#/payment" !== location.hash && "#payment" !== location.hash || ($(window).on("orderFormUpdated.vtex", function(e, t) {
+                    console.log("El orderForm ha sido actualizado:", t), o(t);
+                }), vtexjs.checkout.getOrderForm().then(function(e) {
+                    console.log("OrderForm inicial:", e), o(e);
                 }), setTimeout(() => {
                     document.querySelector(".link-gift-card").addEventListener("click", function() {
                         var e, t = $("#gift-card-provider-selector option:first-child"), o = t.text(), n = (console.log("selectedOptionText2", o), 

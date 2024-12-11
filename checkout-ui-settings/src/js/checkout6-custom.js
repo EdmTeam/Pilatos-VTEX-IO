@@ -307,26 +307,77 @@ const CustomCheckoutExpress = (function () {
     $(window).on('hashchange load', function () {
       // Verifica si la página actual es la página de pago
       if (location.hash === '#/payment' || location.hash === '#payment') {
-        // Obtiene el formulario de orden y realiza validaciones
-        vtexjs.checkout.getOrderForm().then(function (orderForm) {
-          validatePaymentMethod(orderForm) // Valida el método de pago
+
+        // function validateGiftCard(orderForm) {
+        //   return orderForm.paymentData.giftCards.length !== 0;
+        // }
+        // // Obtiene el formulario de orden y realiza validaciones
+        // vtexjs.checkout.getOrderForm().then(function (orderForm) {
+
+
+        //   validatePaymentMethod(orderForm) // Valida el método de pago
+
+        //   const sellers = orderForm.sellers || [];
+        //   const shipSLA = orderForm.shippingData?.logisticsInfo || [];
+        //   const itemContraentrega = $('.pg-contra-entrega');
+        //   const hasDifferentSeller = sellers.some(seller => seller.name !== "Estudio de Moda S.A.");
+        //   const isPickit = shipSLA.some(sla => sla.selectedSla === "pickit - Envío a Domicilio");
+        //   const ogcItem = shipSLA.some(sla => sla.selectedSla === "OGC - Envío gratuito");
+        //   //const giftCardValidation = orderForm.paymentData.giftCards.length !== 0
+
+        //   console.log('SLA::', isPickit)
+
+        //   setTimeout(() => {
+        //     if (hasDifferentSeller || isPickit || ogcItem || validateGiftCard(orderForm)) {
+        //       console.log("debe desaparecer contraentrega>>")
+        //         itemContraentrega.addClass('hidden');
+        //     } else {
+        //       console.log("NO debe desaparecer contraentrega>>")
+        //         itemContraentrega.removeClass('hidden');
+        //     }
+        //   }, 800);
+        // })
+
+        // Función que valida si hay gift cards
+        function validateGiftCard(orderForm) {
+          return orderForm.paymentData.giftCards.length !== 0;
+        }
+
+        // Función principal que ejecuta la lógica de validación
+        function handleOrderFormUpdate(orderForm) {
+          validatePaymentMethod(orderForm); // Valida el método de pago
 
           const sellers = orderForm.sellers || [];
           const shipSLA = orderForm.shippingData?.logisticsInfo || [];
           const itemContraentrega = $('.pg-contra-entrega');
           const hasDifferentSeller = sellers.some(seller => seller.name !== "Estudio de Moda S.A.");
           const isPickit = shipSLA.some(sla => sla.selectedSla === "pickit - Envío a Domicilio");
+          const ogcItem = shipSLA.some(sla => sla.selectedSla === "OGC - Envío gratuito");
 
-          console.log('SLA::', isPickit)
+          console.log('SLA::', isPickit);
 
           setTimeout(() => {
-            if (hasDifferentSeller || isPickit) {
-                itemContraentrega.addClass('hidden');
+            if (hasDifferentSeller || isPickit || ogcItem || validateGiftCard(orderForm)) {
+              console.log("Debe desaparecer contraentrega>>");
+              itemContraentrega.addClass('hidden');
             } else {
-                itemContraentrega.removeClass('hidden');
+              console.log("NO debe desaparecer contraentrega>>");
+              itemContraentrega.removeClass('hidden');
             }
           }, 800);
-        })
+        }
+
+        // Escuchar el evento `orderFormUpdated.vtex`
+        $(window).on("orderFormUpdated.vtex", function (evt, orderForm) {
+          console.log("El orderForm ha sido actualizado:", orderForm);
+          handleOrderFormUpdate(orderForm); // Ejecuta la lógica en cada actualización
+        });
+
+        // Llamada inicial para asegurar que la lógica se ejecute al cargar la página
+        vtexjs.checkout.getOrderForm().then(function (orderForm) {
+          console.log("OrderForm inicial:", orderForm);
+          handleOrderFormUpdate(orderForm);
+        });
 
         setTimeout(() => {
           document.querySelector('.link-gift-card').addEventListener('click', function () {
