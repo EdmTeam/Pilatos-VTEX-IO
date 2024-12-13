@@ -30,7 +30,8 @@
           "flex-layout.row#search-info-mobile-landing-banner-video",
           "flex-layout.row#fetch-previous",
           "flex-layout.row#content-mobile",
-          "flex-layout.row#fetch-more"
+          "flex-layout.row#fetch-more",
+          "back-to-top-button"
         ],
         "props": {
             "blockClass": "searchResultMobile",
@@ -70,7 +71,7 @@
                         },
                         {
                           "name": "Color"
-                        }, 
+                        },
                         {
                             "name": "Categoría"
                       }
@@ -98,7 +99,7 @@
         }
     },
 
-    
+
     //Tablet
     "responsive-layout.tablet#landing-banner-video-banners":{
         "children":[
@@ -123,5 +124,5 @@
         }
     }
 
-  
+
 }

@@ -632,7 +632,7 @@ margin-top: 1%;
 }
 
 :global(.vtex-flex-layout-0-x-flexColChild--stack-product) .skuSelectorSubcontainer--color{
-    margin: .1rem 0 .8rem 0;
+    margin: .1rem 0 0 0;
 }
 
 :global(.vtex-flex-layout-0-x-flexColChild--stack-product) .skuSelectorSubcontainer--talla .skuSelectorItem{
@@ -690,12 +690,16 @@ margin-top: 1%;
     .price_className--productPrice{
         margin: 1.5rem 0 1rem auto;
     }
-
 }
 
 @media only screen and (min-width: 1180px){
+    .listPriceValue {
+      font-size: 20px;
+      font-weight: 900 !important;
+    }
+
     .price_className--productPrice{
-        margin: 2.2rem auto 1rem 0;
+        margin: 0.5rem auto 1rem 0;
         /*width: 85%;*/
         width: 80%;
     }
@@ -910,9 +914,98 @@ cursor: pointer;
     object-fit: cover;
 }
 
+.backToTopButtonContainer :global(.vtex-button) {
+  background-color: #000;
+  border-color: #000;
+  width: 45px;
+}
+
+@media screen and (max-width: 1024px) {
+  .imageElement--imagen-1-live-shopping {
+    width: auto;
+    height: auto;
+  }
+
+  .backToTopButtonContainer :global(.vtex-button) {
+    right: -30px;
+    width: 35px;
+}
+
+  .backToTopButtonContainer :global(.vtex-button__label) {
+    padding: 0px !important;
+  }
+}
 @media screen and (max-width: 768px) {
     .imageElement--imagen-1-live-shopping {
         width: auto;
         height: auto;
     }
 }
+
+.swiperCaretNext--pdpImage .caretIcon--pdpImage,
+.swiperCaretPrev--pdpImage .caretIcon--pdpImage {
+  visibility: hidden;
+}
+
+.swiperCaretNext--pdpImage::after {
+  content: url(/arquivos/arrowLeftPDP.png);
+}
+
+.swiperCaretPrev--pdpImage::after {
+  content: url(/arquivos/arrowRightPDP.png);
+}
+
+:global(.vtex-product-identifier-0-x-product-identifier--productReference) {
+  margin-right: 38px;
+}
+
+:global(.vtex-add-to-cart-button-0-x-buttonText) {
+  font-size: 0px;
+}
+
+:global(.vtex-add-to-cart-button-0-x-buttonText)::after {
+  font-size: 12px;
+  content: "AGREGAR AL CARRITO";
+}
+/*New Banners Info Card*/
+.infoCardContainer--infocardBanner {
+  position: relative;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.infoCardTextContainer--infocardBanner {
+ display: none !important;
+}
+
+.infoCardImageContainer--infocardBanner {
+  width: 100% !important;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .infoCardContainer--infocardBanner {
+    position: relative;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexColChild--bannersInfoCardRight) {
+    margin-left: 4px !important;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexColChild--bannersInfoCardLeft) {
+    margin-right: 4px !important;
+  }
+}
+
+/*landing sneakers 2024*/
+
+.imageElementLink--imagen-dsneakers-1{
+
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+

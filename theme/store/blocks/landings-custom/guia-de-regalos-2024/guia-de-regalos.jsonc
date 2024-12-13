@@ -1,0 +1,30 @@
+{
+  "store.custom#guia__de--regalos--2024": {
+    "blocks": [
+      "rich-text#seo__principal--guia-regalos",
+      "flex-layout.row#banner__principal--guia-regalos",
+      "flex-layout.row#banners__combinaciones--regalos",
+      "search-result-layout.customQuery#guia__de--regalos",
+      "rich-text#seo__secundario--guia-regalos"
+    ],
+    "props": {
+      "blockClass": "guia__de--regalos--2024"
+    }
+  },
+  "rich-text#seo__secundario--guia-regalos": {
+    "props": {
+      "text": "Texto seo <br> este es el texto seo",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "secundario--guia-regalos"
+    }
+  },
+  "rich-text#seo__principal--guia-regalos": {
+    "props": {
+      "text": "Texto seo <br> este es el texto seo",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "seo__principal--guia-regalos"
+    }
+  }
+}

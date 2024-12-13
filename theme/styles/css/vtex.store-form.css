@@ -1,6 +1,7 @@
 .formSubmitButton--submit-dsi :global(.vtex-button) {
   /* padding: 0 1rem !important; */
   margin-top: 1rem;
+  background-color: #000;
 
   /**nuevos estlos**/
   display: flex;
@@ -11,6 +12,15 @@
   border: 0;
   /**nuevos estlos**/
 }
+
+.formSubmitButton--submit-dsi :global(.vtex-button) :hover {
+  background-color: #000;
+}
+
+.formSubmitButton--submit-dsi :global(.vtex-button__label) {
+  color: #fff;
+}
+
 .formSubmitButton--submit-memorama :global(.vtex-button) {
   margin-top: 1rem;
   background-color: #ffc600;

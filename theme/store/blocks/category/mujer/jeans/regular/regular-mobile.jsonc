@@ -24,7 +24,8 @@
           "flex-layout.row#content-mobile",
           "flex-layout.row#fetch-more",
           "rich-text#filtro-seo",
-          "list-context.image-list#department-banner-mobile-category-jean-ancho-mujer"
+          "list-context.image-list#department-banner-mobile-category-jean-ancho-mujer",
+          "back-to-top-button"
         ],
         "props": {
             "preventRouteChange": true,

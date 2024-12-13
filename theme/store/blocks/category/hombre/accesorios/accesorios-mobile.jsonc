@@ -22,7 +22,8 @@
           "flex-layout.row#search-info-mobile-category-accesorios-hombre",
           "flex-layout.row#fetch-previous",
           "flex-layout.row#content-mobile",
-          "flex-layout.row#fetch-more"
+          "flex-layout.row#fetch-more",
+          "back-to-top-button"
         ],
         "props": {
             "preventRouteChange": true,
@@ -61,10 +62,10 @@
                         },
                         {
                           "name": "Color"
-                        }, 
+                        },
                         {
                             "name": "Categoría"
-                      }, 
+                      },
                         {
                             "name": "Categoría"
                       }

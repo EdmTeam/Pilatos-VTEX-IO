@@ -1,0 +1,16 @@
+.flexRowContent--banners__regalos--mob {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flexRowContent--banners__regalos--mob :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  padding: 0px 10px 10px 10px;
+}
+
+.flexRow--container__responsives--banners {
+  margin: 30px 0 30px 0;
+}
+
+.flexRowContent--container__images--desk {
+  justify-content: center;
+}

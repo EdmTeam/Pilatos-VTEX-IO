@@ -26,7 +26,8 @@
           "flex-layout.row#fetch-previous",
           "flex-layout.row#content-mobile",
           "flex-layout.row#fetch-more",
-          "rich-text#filtro-seo"
+          "rich-text#filtro-seo",
+          "back-to-top-button"
         ],
         "props": {
             "hideUnavailableItems": true,
@@ -112,7 +113,8 @@
             "flex-layout.row#fetch-previous",
             "flex-layout.row#content-mobile",
             "flex-layout.row#fetch-more",
-            "rich-text#filtro-seo"
+            "rich-text#filtro-seo",
+            "back-to-top-button"
         ],
         "props": {
             "hideUnavailableItems": true,

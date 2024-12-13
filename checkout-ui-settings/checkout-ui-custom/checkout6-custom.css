@@ -6,6 +6,10 @@
 /**{
     font-family: $font_family_barlow !important;
 }*/
+.hidden {
+  display: none !important;
+}
+
 /*** MEDIA QUERIES ***/
 /* RESET DE ESTILOS GLOBAL */
 body,
@@ -137,11 +141,12 @@ select {
   appearance: none;
 }
 
+/*Select Style*/
 select {
-  background-image: url("/arquivos/arrowSelect.png") !important;
+  background-image: url("/arquivos/downChevron.svg") !important;
   background-position: 96% !important;
   background-repeat: no-repeat !important;
-  background-size: 10px 7px !important;
+  background-size: 10px 8px !important;
 }
 
 [class^=icon-],
@@ -949,58 +954,58 @@ div.checkoutFooter p.copyRight {
   border-radius: 10px !important;
   overflow: hidden;
   /*
-  .pkpmodal-info-bar {
-      form {
-          button {
-              width: 25px;
-              height: 25px;
-              background-color: $primario;
-              border: none;
-              border-radius: 100px;
-              padding: 0;
-              display: flex;
-              align-items: center;
-              justify-content: center;
-              top: 50%;
-              right: 12px;
-              transform: translateY(-50%);
+    .pkpmodal-info-bar {
+        form {
+            button {
+                width: 25px;
+                height: 25px;
+                background-color: $primario;
+                border: none;
+                border-radius: 100px;
+                padding: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                top: 50%;
+                right: 12px;
+                transform: translateY(-50%);
 
-              svg {
-                  display: block;
-                  width: 14px;
-                  height: auto;
+                svg {
+                    display: block;
+                    width: 14px;
+                    height: auto;
 
-                  path {
-                      fill: $blanco;
-                  }
-              }
-          }
+                    path {
+                        fill: $blanco;
+                    }
+                }
+            }
 
-          > svg {
-              display: block;
-              width: 16px;
-              height: auto;
-              top: 50%;
-              transform: translateY(-50%);
+            > svg {
+                display: block;
+                width: 16px;
+                height: auto;
+                top: 50%;
+                transform: translateY(-50%);
 
-              path {
-                  fill: $primario;
-              }
-          }
-      }
-  }
-  */
+                path {
+                    fill: $primario;
+                }
+            }
+        }
+    }
+    */
   /*
-  button.pkp-modal-btn-lg {
-      background-color: $primario;
-      border: none;
-      color: $blanco;
-      transition: background 0.3s ease 0s;
-      &:hover {
-          background-color: $azul-secundario;
-      }
-  }
-  */
+    button.pkp-modal-btn-lg {
+        background-color: $primario;
+        border: none;
+        color: $blanco;
+        transition: background 0.3s ease 0s;
+        &:hover {
+            background-color: $azul-secundario;
+        }
+    }
+    */
 }
 .vtex-pickup-points-modal-3-x-pkpmodal .pkpmodal-close {
   width: 45px;
@@ -3813,15 +3818,15 @@ div.checkoutFooter p.copyRight {
   width: 100%;
   padding-bottom: 30px !important;
   /*
-  .shipping-options {
-      .shipping-selected-sla {
-          span {
-              @include fontSize(12);
-              color: $negro;
-          }
-      }
-  }
-  */
+                      .shipping-options {
+                          .shipping-selected-sla {
+                              span {
+                                  @include fontSize(12);
+                                  color: $negro;
+                              }
+                          }
+                      }
+                      */
 }
 .body-cart .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group.shipping-data .accordion-inner .box-info .shp-summary-group,
 .body-order-form .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group.shipping-data .accordion-inner .box-info .shp-summary-group {
@@ -3884,100 +3889,100 @@ div.checkoutFooter p.copyRight {
   padding: 0 0px;
   /* DATE PICKER */
   /*
-  .react-datepicker-popper {
-      &[data-placement^="bottom"] {
-          .react-datepicker {
-              .react-datepicker__triangle {
-                  border-bottom-color: #f4f4f4;
+                      .react-datepicker-popper {
+                          &[data-placement^="bottom"] {
+                              .react-datepicker {
+                                  .react-datepicker__triangle {
+                                      border-bottom-color: #f4f4f4;
 
-                  &:before {
-                      border-bottom-color: #f4f4f4;
-                  }
-              }
-          }
-      }
+                                      &:before {
+                                          border-bottom-color: #f4f4f4;
+                                      }
+                                  }
+                              }
+                          }
 
-      .react-datepicker {
-          border: none;
-          box-shadow: 0 0 10px rgba($gris-complementario-oscuro, 0.5);
+                          .react-datepicker {
+                              border: none;
+                              box-shadow: 0 0 10px rgba($gris-complementario-oscuro, 0.5);
 
-          .react-datepicker__triangle {
-              &:before {
-                  border-top-color: $blanco;
-              }
-          }
+                              .react-datepicker__triangle {
+                                  &:before {
+                                      border-top-color: $blanco;
+                                  }
+                              }
 
-          .react-datepicker__month-container {
-              .react-datepicker__header {
-                  background-color: #f4f4f4;
-                  padding: 15px 0 10px;
-                  border: none;
+                              .react-datepicker__month-container {
+                                  .react-datepicker__header {
+                                      background-color: #f4f4f4;
+                                      padding: 15px 0 10px;
+                                      border: none;
 
-                  .react-datepicker__current-month {
-                      color: $primario;
-                      text-transform: uppercase;
-                      @include fontSize(16);
-                      padding-bottom: 10px;
-                  }
+                                      .react-datepicker__current-month {
+                                          color: $primario;
+                                          text-transform: uppercase;
+                                          @include fontSize(16);
+                                          padding-bottom: 10px;
+                                      }
 
-                  .react-datepicker__day-name {
-                      @include fontSize(16);
-                      color: $azul-secundario;
-                      @include notoBold;
-                      line-height: inherit;
-                  }
-              }
+                                      .react-datepicker__day-name {
+                                          @include fontSize(16);
+                                          color: $azul-secundario;
+                                          @include notoBold;
+                                          line-height: inherit;
+                                      }
+                                  }
 
-              .react-datepicker__month {
-                  margin: 0;
-                  padding: 10px 15px;
+                                  .react-datepicker__month {
+                                      margin: 0;
+                                      padding: 10px 15px;
 
-                  .react-datepicker__day {
-                      display: inline-flex;
-                      align-items: center;
-                      justify-content: center;
-                      line-height: 28px;
-                      @include fontSize(16);
-                      color: $azul-secundario;
-                      font-weight: 500;
-                      width: 28px;
-                      height: 28px;
+                                      .react-datepicker__day {
+                                          display: inline-flex;
+                                          align-items: center;
+                                          justify-content: center;
+                                          line-height: 28px;
+                                          @include fontSize(16);
+                                          color: $azul-secundario;
+                                          font-weight: 500;
+                                          width: 28px;
+                                          height: 28px;
 
-                      &.react-datepicker__day--disabled {
-                          color: $gris-complementario-medio;
+                                          &.react-datepicker__day--disabled {
+                                              color: $gris-complementario-medio;
+                                          }
+
+                                          &.react-datepicker__day--keyboard-selected,
+                                          &.react-datepicker__day--selected {
+                                              border-radius: 200px;
+                                              background-color: $verde-complementario;
+                                              color: $blanco !important;
+                                          }
+                                      }
+                                  }
+                              }
+                          }
                       }
-
-                      &.react-datepicker__day--keyboard-selected,
-                      &.react-datepicker__day--selected {
-                          border-radius: 200px;
-                          background-color: $verde-complementario;
-                          color: $blanco !important;
-                      }
-                  }
-              }
-          }
-      }
-  }
-  */
+                      */
   /*
-  .react-datepicker-wrapper {
-      button {
-          width: 100%;
-          border-color: $primario;
-          @include fontSize(13);
-          @include notoBold;
-          color: $primario;
-          letter-spacing: 0.06px;
-          text-transform: uppercase;
-          transition: backgroound 0.3s ease 0s;
+                      .react-datepicker-wrapper {
+                          button {
+                              width: 100%;
+                              border-color: $primario;
+                              @include fontSize(13);
+                              @include notoBold;
+                              color: $primario;
+                              letter-spacing: 0.06px;
+                              text-transform: uppercase;
+                              transition: backgroound 0.3s ease 0s;
 
-          &:hover {
-              background-color: $primario;
-              color: $blanco;
-          }
-      }
-  }
-  */
+                              &:hover {
+                                  background-color: $primario;
+                                  color: $blanco;
+                              }
+                          }
+                      }
+                      */
   /* DATE PICKER */
   /* ALERT */
   /* ALERT */
@@ -3985,48 +3990,48 @@ div.checkoutFooter p.copyRight {
   /* CHECKBOX */
   /* TOOLTIP */
   /*
-  .__react_component_tooltip {
-      background-color: $azul-secundario;
-      font-weight: 500;
-  }
-  */
+                      .__react_component_tooltip {
+                          background-color: $azul-secundario;
+                          font-weight: 500;
+                      }
+                      */
   /* TOOLTIP */
   /* TITLES */
   /* TITLES */
   /*
-  button.vtex-omnishipping-1-x-btnDelivery {
-      order: 4;
-      width: 100%;
-      margin: 0;
-      border-radius: 5px;
-      background: $primario;
-      color: $blanco;
-      text-align: center;
-      @include fontSize(14);
-      font-family: Montserrat;
-      @include notoBold;
-      text-transform: uppercase;
-      border: none;
-      outline: none;
-      box-shadow: none;
-      text-shadow: none;
-      text-indent: -9999px;
-      transition: all 0.3s ease 0s;
+                      button.vtex-omnishipping-1-x-btnDelivery {
+                          order: 4;
+                          width: 100%;
+                          margin: 0;
+                          border-radius: 5px;
+                          background: $primario;
+                          color: $blanco;
+                          text-align: center;
+                          @include fontSize(14);
+                          font-family: Montserrat;
+                          @include notoBold;
+                          text-transform: uppercase;
+                          border: none;
+                          outline: none;
+                          box-shadow: none;
+                          text-shadow: none;
+                          text-indent: -9999px;
+                          transition: all 0.3s ease 0s;
 
-      &:before {
-          content: "INGRESA TUS DATOS DE ENTREGA";
-          text-indent: 0;
-          float: left;
-          display: block;
-          width: 100%;
-          text-align: center;
-      }
+                          &:before {
+                              content: "INGRESA TUS DATOS DE ENTREGA";
+                              text-indent: 0;
+                              float: left;
+                              display: block;
+                              width: 100%;
+                              text-align: center;
+                          }
 
-      &:hover {
-          background-color: $azul-secundario;
-      }
-  }
-  */
+                          &:hover {
+                              background-color: $azul-secundario;
+                          }
+                      }
+                      */
   /* BOTON DE CONTINUAR */
   /* BOTON DE CONTINUAR */
 }
@@ -4205,78 +4210,78 @@ div.checkoutFooter p.copyRight {
   /* SELECCION DE PUNTO RECOGIDA */
   /* LISTA DE PUNTOS DE RECOGIDA */
   /*
-  &.delivery-group-content {
-      order: 2;
-      > h3,
-      > p {
-          display: none;
-      }
-      .pickup-point-info {
-          display: flex;
-          &:before {
-              content: "\e92e";
-              font-family: "cafe-etrusca" !important;
-              @include fontSize(55);
-              color: $primario;
-              line-height: initial;
-          }
-          svg {
-              display: none;
-          }
-          .pickup-point-wrapper {
-              padding-left: 12px;
-              p {
-                  text-transform: uppercase;
-                  @include fontSize(12);
-                  color: $azul-secundario;
-                  @include notoBold;
-              }
-              span {
-                  @include fontSize(12);
-                  color: $azul-secundario;
-              }
-              button {
-                  @include fontSize(12);
-                  color: $verde-complementario;
-              }
-          }
-      }
-      button#change-pickup-button {
-          border: none;
-          @include fontSize(12);
-          color: $azul-secundario;
-          text-indent: -9999px;
-          &:before {
-              content: "Ver todos los puntos de retirada";
-              display: block;
-              width: 100%;
-              text-indent: 0;
-              float: left;
-              text-align: center;
-              text-decoration: underline;
-          }
-      }
+                        &.delivery-group-content {
+                            order: 2;
+                            > h3,
+                            > p {
+                                display: none;
+                            }
+                            .pickup-point-info {
+                                display: flex;
+                                &:before {
+                                    content: "\e92e";
+                                    font-family: "cafe-etrusca" !important;
+                                    @include fontSize(55);
+                                    color: $primario;
+                                    line-height: initial;
+                                }
+                                svg {
+                                    display: none;
+                                }
+                                .pickup-point-wrapper {
+                                    padding-left: 12px;
+                                    p {
+                                        text-transform: uppercase;
+                                        @include fontSize(12);
+                                        color: $azul-secundario;
+                                        @include notoBold;
+                                    }
+                                    span {
+                                        @include fontSize(12);
+                                        color: $azul-secundario;
+                                    }
+                                    button {
+                                        @include fontSize(12);
+                                        color: $verde-complementario;
+                                    }
+                                }
+                            }
+                            button#change-pickup-button {
+                                border: none;
+                                @include fontSize(12);
+                                color: $azul-secundario;
+                                text-indent: -9999px;
+                                &:before {
+                                    content: "Ver todos los puntos de retirada";
+                                    display: block;
+                                    width: 100%;
+                                    text-indent: 0;
+                                    float: left;
+                                    text-align: center;
+                                    text-decoration: underline;
+                                }
+                            }
 
-      .pickup-packages {
-          .vtex-omnishipping-1-x-package {
-              .vtex-omnishipping-1-x-top {
-                  p {
-                      padding: 0;
-                      margin: 0;
-                      @include fontSize(15);
-                      font-weight: 500;
-                      color: $gris-complementario-oscuro;
-                  }
-              }
-              .vtex-omnishipping-1-x-item {
-                  img {
-                      border: none;
-                  }
-              }
-          }
-      }
-  }
-  */
+                            .pickup-packages {
+                                .vtex-omnishipping-1-x-package {
+                                    .vtex-omnishipping-1-x-top {
+                                        p {
+                                            padding: 0;
+                                            margin: 0;
+                                            @include fontSize(15);
+                                            font-weight: 500;
+                                            color: $gris-complementario-oscuro;
+                                        }
+                                    }
+                                    .vtex-omnishipping-1-x-item {
+                                        img {
+                                            border: none;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        */
   /* LISTA DE PUNTOS DE RECOGIDA */
 }
 .body-cart .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group.shipping-data .accordion-inner .box-step > div:first-child, .body-cart .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group.shipping-data .accordion-inner .box-step > div#postalCode-finished-loading,
@@ -4727,116 +4732,116 @@ div.checkoutFooter p.copyRight {
   order: 2;
   /* CALENDARIO ENTREGA */
   /*
-  div.vtex-omnishipping-1-x-scheduledDeliveryList {
-      #scheduled-delivery-delivery {
-          display: flex;
-          align-items: center;
-          flex-direction: row;
-          svg {
-              fill: $verde-complementario !important;
+                          div.vtex-omnishipping-1-x-scheduledDeliveryList {
+                              #scheduled-delivery-delivery {
+                                  display: flex;
+                                  align-items: center;
+                                  flex-direction: row;
+                                  svg {
+                                      fill: $verde-complementario !important;
 
-              path {
-                  fill: $verde-complementario !important;
-              }
-          }
-          p {
-              @include fontSize(12);
-              @include notoRegular;
-              color: $azul-secundario;
-          }
-      }
-      .vtex-omnishipping-1-x-scheduledDeliveryOptionsWrapper {
-          border: none;
-          label {
-              display: flex;
-              align-items: center;
-              flex-direction: row;
-              border: none;
-              background-color: #efefef;
-              svg {
-                  fill: $verde-complementario !important;
-                  path {
-                      fill: $verde-complementario !important;
-                  }
-              }
-              div {
-                  @include fontSize(12);
-                  @include notoRegular;
-                  color: $azul-secundario;
-                  &.shp-option-text {
-                      width: 50%;
-                      .shp-option-text-label-single {
-                          text-indent: -9999px;
-                          &:before {
-                              content: "Domicilio Programado";
-                              text-indent: 0;
-                              float: left;
+                                      path {
+                                          fill: $verde-complementario !important;
+                                      }
+                                  }
+                                  p {
+                                      @include fontSize(12);
+                                      @include notoRegular;
+                                      color: $azul-secundario;
+                                  }
+                              }
+                              .vtex-omnishipping-1-x-scheduledDeliveryOptionsWrapper {
+                                  border: none;
+                                  label {
+                                      display: flex;
+                                      align-items: center;
+                                      flex-direction: row;
+                                      border: none;
+                                      background-color: #efefef;
+                                      svg {
+                                          fill: $verde-complementario !important;
+                                          path {
+                                              fill: $verde-complementario !important;
+                                          }
+                                      }
+                                      div {
+                                          @include fontSize(12);
+                                          @include notoRegular;
+                                          color: $azul-secundario;
+                                          &.shp-option-text {
+                                              width: 50%;
+                                              .shp-option-text-label-single {
+                                                  text-indent: -9999px;
+                                                  &:before {
+                                                      content: "Domicilio Programado";
+                                                      text-indent: 0;
+                                                      float: left;
+                                                  }
+                                              }
+                                          }
+                                          &.shp-option-text-price {
+                                              float: right;
+                                              width: 35%;
+                                              text-align: left;
+                                          }
+                                      }
+                                  }
+                              }
+                              .vtex-omnishipping-1-x-scheduledDelivery {
+                                  padding: 0 12px;
+                              }
+                              .delivery-items {
+                                  padding: 25px 10px;
+                                  .vtex-omnishipping-1-x-item {
+                                      img {
+                                          border: none;
+                                      }
+                                  }
+                              }
                           }
-                      }
-                  }
-                  &.shp-option-text-price {
-                      float: right;
-                      width: 35%;
-                      text-align: left;
-                  }
-              }
-          }
-      }
-      .vtex-omnishipping-1-x-scheduledDelivery {
-          padding: 0 12px;
-      }
-      .delivery-items {
-          padding: 25px 10px;
-          .vtex-omnishipping-1-x-item {
-              img {
-                  border: none;
-              }
-          }
-      }
-  }
-  */
+                          */
   /* CALENDARIO ENTREGA */
   /*
-  div.shp-alert-delivery {
-      + p {
-          @include fontSize(12);
-          @include notoRegular;
-      }
-  }
-  */
+                          div.shp-alert-delivery {
+                              + p {
+                                  @include fontSize(12);
+                                  @include notoRegular;
+                              }
+                          }
+                          */
   /* SLIDE RESUMEN OPCIONES DE ENTREGA */
   /*
-  div.glide-container {
-      width: 100%;
-      margin: 0;
-      .glide__slides {
-          .vtex-omnishipping-1-x-top {
-              p {
-                  padding: 0;
-                  margin: 0;
-                  @include fontSize(15);
-                  font-weight: 500;
-                  color: $gris-complementario-oscuro;
-              }
-          }
-          .vtex-omnishipping-1-x-packageItems {
-              padding: 25px 10px;
-              max-height: none;
-              img {
-                  border: none;
-              }
-          }
-      }
-      .glide__bullets {
-          button {
-              background-color: $gris-complementario-medio;
-              &.glide__bullet--active {
-                  background-color: $azul-secundario;
-              }
-          }
-      }
-  }
-  */
+                          div.glide-container {
+                              width: 100%;
+                              margin: 0;
+                              .glide__slides {
+                                  .vtex-omnishipping-1-x-top {
+                                      p {
+                                          padding: 0;
+                                          margin: 0;
+                                          @include fontSize(15);
+                                          font-weight: 500;
+                                          color: $gris-complementario-oscuro;
+                                      }
+                                  }
+                                  .vtex-omnishipping-1-x-packageItems {
+                                      padding: 25px 10px;
+                                      max-height: none;
+                                      img {
+                                          border: none;
+                                      }
+                                  }
+                              }
+                              .glide__bullets {
+                                  button {
+                                      background-color: $gris-complementario-medio;
+                                      &.glide__bullet--active {
+                                          background-color: $azul-secundario;
+                                      }
+                                  }
+                              }
+                          }
+                          */
   /* SLIDE RESUMEN OPCIONES DE ENTREGA */
 }
 .body-cart .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group.shipping-data .accordion-inner .box-step > div.vtex-omnishipping-1-x-deliveryGroup p.vtex-omnishipping-1-x-shippingSectionTitle,
@@ -4854,32 +4859,32 @@ div.checkoutFooter p.copyRight {
 .body-order-form .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group.shipping-data .accordion-inner .box-step > div.ask-for-geolocation {
   order: 2;
   /*
-  .ask-for-geolocation-manual {
-      button {
-          margin: 0 0 20px;
-          text-indent: -9999px;
-          color: $primario;
-          text-align: center;
-          @include fontSize(12);
-          font-family: Montserrat;
-          font-weight: 500;
-          text-transform: uppercase;
-          transition: all 0.3s ease 0s;
+                          .ask-for-geolocation-manual {
+                              button {
+                                  margin: 0 0 20px;
+                                  text-indent: -9999px;
+                                  color: $primario;
+                                  text-align: center;
+                                  @include fontSize(12);
+                                  font-family: Montserrat;
+                                  font-weight: 500;
+                                  text-transform: uppercase;
+                                  transition: all 0.3s ease 0s;
 
-          &:before {
-              content: "BUSCAR POR UNA DIRECCIÓN";
-              text-indent: 0;
-              float: left;
-              display: block;
-              width: 100%;
-              text-align: center;
-          }
-          &:hover {
-              color: $azul-secundario;
-          }
-      }
-  }
-  */
+                                  &:before {
+                                      content: "BUSCAR POR UNA DIRECCIÓN";
+                                      text-indent: 0;
+                                      float: left;
+                                      display: block;
+                                      width: 100%;
+                                      text-align: center;
+                                  }
+                                  &:hover {
+                                      color: $azul-secundario;
+                                  }
+                              }
+                          }
+                          */
 }
 .body-cart .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group.shipping-data .accordion-inner .box-step > div.ask-for-geolocation .ask-for-geolocation-ask h2,
 .body-order-form .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group.shipping-data .accordion-inner .box-step > div.ask-for-geolocation .ask-for-geolocation-ask h2 {
@@ -5065,13 +5070,13 @@ div.checkoutFooter p.copyRight {
 .body-cart .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-heading span.accordion-toggle,
 .body-order-form .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-heading span.accordion-toggle {
   /*
-  i.icon-credit-card {
-      font-family: "cafe-etrusca" !important;
-      &:before {
-          content: $icon-card;
-      }
-  }
-  */
+                      i.icon-credit-card {
+                          font-family: "cafe-etrusca" !important;
+                          &:before {
+                              content: $icon-card;
+                          }
+                      }
+                      */
 }
 .body-cart .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner,
 .body-order-form .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner {
@@ -5149,6 +5154,8 @@ div.checkoutFooter p.copyRight {
 }
 .body-cart .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .gift-card-section fieldset p.payment-discounts-options,
 .body-order-form .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .gift-card-section fieldset p.payment-discounts-options {
+  flex-direction: column;
+  width: 50%;
   display: flex;
   justify-content: flex-start;
 }
@@ -5197,7 +5204,7 @@ div.checkoutFooter p.copyRight {
   .body-cart .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .gift-card-section fieldset p.payment-discounts-options input[type=text],
   .body-order-form .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .gift-card-section fieldset p.payment-discounts-options input[type=text] {
     width: 55%;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
   }
 }
 .body-cart .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .gift-card-section fieldset p.payment-discounts-options button,
@@ -5244,47 +5251,56 @@ div.checkoutFooter p.copyRight {
     width: 40%;
   }
 }
-.body-cart .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .gift-card-section fieldset h5,
-.body-order-form .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .gift-card-section fieldset h5 {
-  padding: 10px 0;
-  position: relative;
-  font-family: "Mulish";
-  font-size: 0.875rem;
-  font-size: 14px;
-  font-weight: 700;
-  letter-spacing: 0.01em;
-  text-decoration: uppercase;
-  text-transform: unset;
-  color: #f2a922;
-  margin-top: 5px;
+@media screen and (max-width: 1023px) {
+  .body-cart .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .gift-card-section fieldset p.payment-discounts-options,
+  .body-order-form .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .gift-card-section fieldset p.payment-discounts-options {
+    width: 100%;
+  }
 }
-.body-cart .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .gift-card-section fieldset table .number,
-.body-order-form .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .gift-card-section fieldset table .number {
-  display: none !important;
+.body-cart .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .gift-card-section fieldset p.gift-card-provider-options,
+.body-order-form .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .gift-card-section fieldset p.gift-card-provider-options {
+  width: 42% !important;
 }
-.body-cart .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .gift-card-section fieldset table .code,
-.body-order-form .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .gift-card-section fieldset table .code {
-  color: #000;
-  text-transform: uppercase;
-  font-family: "Mulish";
-  font-size: 0.6875rem;
-  font-size: 11px;
-  font-weight: 400;
-  letter-spacing: 0.01em;
-  text-decoration: none;
-  text-transform: unset;
+.body-cart .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .gift-card-section fieldset p.gift-card-provider-options label,
+.body-order-form .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .gift-card-section fieldset p.gift-card-provider-options label {
+  display: none;
 }
-.body-cart .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .gift-card-section fieldset table a,
-.body-order-form .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .gift-card-section fieldset table a {
-  font-family: "Mulish";
-  font-size: 0.6875rem;
-  font-size: 11px;
-  font-weight: 400;
-  letter-spacing: 0.01em;
-  text-decoration: underline;
-  text-transform: unset;
-  color: #f2a922;
-  padding-left: 10px;
+.body-cart .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .gift-card-section fieldset p.gift-card-provider-options select#gift-card-provider-selector,
+.body-order-form .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .gift-card-section fieldset p.gift-card-provider-options select#gift-card-provider-selector {
+  height: 30px;
+  border-radius: 0px !important;
+  outline: none;
+}
+@media screen and (max-width: 1023px) {
+  .body-cart .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .gift-card-section fieldset p.gift-card-provider-options select#gift-card-provider-selector,
+  .body-order-form .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .gift-card-section fieldset p.gift-card-provider-options select#gift-card-provider-selector {
+    width: 100% !important;
+  }
+}
+.body-cart .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .gift-card-section fieldset p.gift-card-provider-options button#btn-add-gift-card,
+.body-order-form .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .gift-card-section fieldset p.gift-card-provider-options button#btn-add-gift-card {
+  border-radius: 0px !important;
+  background: #000;
+  color: #ffffff;
+  outline: none !important;
+}
+.body-cart .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .gift-card-section fieldset p.gift-card-provider-options button#btn-add-gift-card:focus,
+.body-order-form .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .gift-card-section fieldset p.gift-card-provider-options button#btn-add-gift-card:focus {
+  outline-offset: 0px !important;
+}
+@media screen and (max-width: 1023px) {
+  .body-cart .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .gift-card-section fieldset p.gift-card-provider-options button#btn-add-gift-card,
+  .body-order-form .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .gift-card-section fieldset p.gift-card-provider-options button#btn-add-gift-card {
+    margin: 0 auto;
+    width: 100% !important;
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .body-cart .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .gift-card-section fieldset p.gift-card-provider-options,
+  .body-order-form .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .gift-card-section fieldset p.gift-card-provider-options {
+    width: 100% !important;
+  }
 }
 .body-cart .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .payment-group,
 .body-order-form .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .payment-group {
@@ -5352,14 +5368,14 @@ div.checkoutFooter p.copyRight {
 .body-cart .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .payment-group .payment-group-list-btn a#payment-group-creditCardPaymentGroup span,
 .body-order-form .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .payment-group .payment-group-list-btn a#payment-group-creditCardPaymentGroup span {
   /*
-  &:after {
-      content: $icon-card;
-      font-family: "cafe-etrusca" !important;
-      margin-left: 20px;
-      @include fontSize(20);
-      // color: $azul-secundario;
-  }
-  */
+                                      &:after {
+                                          content: $icon-card;
+                                          font-family: "cafe-etrusca" !important;
+                                          margin-left: 20px;
+                                          @include fontSize(20);
+                                          // color: $azul-secundario;
+                                      }
+                                      */
 }
 .body-cart .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .payment-group .payment-group-list-btn a:hover span,
 .body-order-form .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group[class*=store-country] .accordion-inner .box-step .box-step-content form.form-step.box-new .payment-group .payment-group-list-btn a:hover span {
@@ -6866,38 +6882,38 @@ body {
 
 .payment-group .payment-group-list-btn {
   /* a:nth-child(2) {
-      span {
-          background-image: url('/arquivos/Pilatos-MediosDePago-SisteCredito.png') !important;
-          background-size: 35px;
-          padding-right: 2rem !important;
+          span {
+              background-image: url('/arquivos/Pilatos-MediosDePago-SisteCredito.png') !important;
+              background-size: 35px;
+              padding-right: 2rem !important;
 
-          &:before {
-              display: block !important;
+              &:before {
+                  display: block !important;
+              }
           }
       }
-  }
-  a:nth-child(3) {
-      span {
-          background-image: url('/arquivos/codensa.png') !important;
-          background-size: 35px;
-          padding-right: 2rem !important;
+      a:nth-child(3) {
+          span {
+              background-image: url('/arquivos/codensa.png') !important;
+              background-size: 35px;
+              padding-right: 2rem !important;
 
-          &:before {
-              display: block !important;
+              &:before {
+                  display: block !important;
+              }
           }
       }
-  }
-  a:nth-child(4) {
-      span {
-          background-image: url('/arquivos/Pilatos-MediosDePago-Codensa.png') !important;
-          background-size: 35px;
-          padding-right: 2rem !important;
+      a:nth-child(4) {
+          span {
+              background-image: url('/arquivos/Pilatos-MediosDePago-Codensa.png') !important;
+              background-size: 35px;
+              padding-right: 2rem !important;
 
-          &:before {
-              display: block !important;
+              &:before {
+                  display: block !important;
+              }
           }
-      }
-  } */
+      } */
 }
 .payment-group .payment-group-list-btn a#payment-group-creditCardPaymentGroup span {
   background-image: url("/arquivos/Pilatos-MediosDePago-TarjetaCredito.png") !important;
@@ -6968,12 +6984,24 @@ body {
 
 .payment-group .payment-group-list-btn a#payment-group-SisteCreditoPaymentGroup span {
   font-size: 13px;
-  background-image: url(/arquivos/sistecredito-logo.png) !important;
-  background-size: 26px;
+  background-image: url(/arquivos/SISTECREDITO-100X100_3.png) !important;
+  background-size: 30px;
   background-position: left center;
   padding-right: 2rem !important;
-  padding-left: 29px !important;
+  padding-left: 42px !important;
   color: #000000 !important;
+}
+
+#payment-data .steps-view[data-bind="visible: showPaymentOptions"] .SisteCreditoPaymentGroup .payment-description:after {
+  content: " ";
+  background-image: url(/arquivos/SISTECREDITO-600X600_2.jpg);
+  width: 100%;
+  height: 400px;
+  display: block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 15px 0;
 }
 
 .payment-group .payment-group-list-btn a#payment-group-debitPaymentGroup span {
@@ -6989,10 +7017,10 @@ body {
 .payment-group .payment-group-list-btn a#payment-group-creditCardPaymentGroup span {
   font-size: 13px;
   background-image: url(/arquivos/tarjetaCredito.png) !important;
-  background-size: 23px;
+  background-size: 28px;
   background-position: left center;
   padding-right: 2rem !important;
-  padding-left: 29px !important;
+  padding-left: 42px !important;
   color: #000000 !important;
 }
 
@@ -7008,11 +7036,11 @@ body {
 
 .payment-group .payment-group-list-btn a#payment-group-NequiPaymentGroup span {
   font-size: 13px;
-  background-image: url(/arquivos/logo-nequi.png) !important;
-  background-size: 23px !important;
+  background-image: url(/arquivos/NEQUI-100X100_3.png) !important;
+  background-size: 35px !important;
   background-position: left center !important;
   padding-right: 2rem !important;
-  padding-left: 29px !important;
+  padding-left: 44px !important;
   color: #000000 !important;
 }
 
@@ -7027,19 +7055,31 @@ body {
 }
 
 .payment-group .payment-group-list-btn a#payment-group-WompiCoPaymentGroup span::before {
-  content: "Botón Bancolombia";
+  content: "Bancolombia";
   font-size: 13px;
   color: #000000;
 }
 
+#payment-data .steps-view[data-bind="visible: showPaymentOptions"] .WompiCoPaymentGroup .payment-description:after {
+  content: " ";
+  background-image: url(/arquivos/WOMPICO-600X600_2.jpg);
+  width: 100%;
+  height: 400px;
+  display: block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 15px 0;
+}
+
 .payment-group .payment-group-list-btn a#payment-group-WompiCoPaymentGroup span {
   font-size: 0;
-  background-image: url(/arquivos/LogoBancolombia-dato.png) !important;
-  background-size: 22px;
+  background-image: url(/arquivos/BANCOLOMBIA-100X100_3.png) !important;
+  background-size: 32px;
   padding-right: 2rem !important;
   color: #000000 !important;
   background-position: left center;
-  padding-left: 30px !important;
+  padding-left: 42px !important;
 }
 
 .payment-group #payment-group-PSEPaymentGroup {
@@ -7049,11 +7089,11 @@ body {
 .payment-group .payment-group-list-btn a#payment-group-PSEPaymentGroup span {
   font-size: 13px !important;
   color: #000000 !important;
-  background-image: url(/arquivos/pse-pilatos-new.png) !important;
-  background-size: 25px;
+  background-image: url(/arquivos/PSE-100X100_3.png) !important;
+  background-size: 30px;
   background-position: left center;
   padding-right: 2rem !important;
-  padding-left: 29px !important;
+  padding-left: 42px !important;
 }
 
 [id="payment-group-WH Google PayPaymentGroup"] .payment-group-item-text {
@@ -7121,4 +7161,102 @@ button#payment-data-submit {
 
 .srp-summary-result {
   display: table-row !important;
+}
+
+.mensaje-ohgift:not(.mensaje-hide)::after {
+  content: "PIN (16 dígitos) seguido del código de seguridad (3 dígitos)";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  color: #000;
+}
+@media screen and (max-width: 1023px) {
+  .mensaje-ohgift:not(.mensaje-hide)::after {
+    font-size: 11px;
+    margin-bottom: 8px;
+  }
+}
+
+.mensaje-saldo:not(.mensaje-hide)::after {
+  content: "Código de letras XXXX-XXXX-XXXX-XXXX";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  color: #000;
+}
+@media screen and (max-width: 1023px) {
+  .mensaje-saldo:not(.mensaje-hide)::after {
+    font-size: 11px;
+    margin-bottom: 8px;
+  }
+}
+
+.payment-discounts-list {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.payment-discounts-list h5 {
+  color: #f2a922;
+}
+.payment-discounts-list .code {
+  padding-right: 10px;
+}
+.payment-discounts-list .number {
+  padding-right: 10px;
+}
+.payment-discounts-list .remove a {
+  color: #f2a922;
+  text-decoration: underline;
+}
+
+.payment-group .payment-group-list-btn a#payment-group-custom201PaymentGroupPaymentGroup {
+  display: none !important;
+}
+
+#payment-group-KaiowaPaymentGroup .payment-group-item-text {
+  font-size: 0;
+  background-image: url(/arquivos/TU-CUOTA-100X100.png) !important;
+  background-repeat: no-repeat !important;
+  background-size: 42px !important;
+  background-position: left center;
+  justify-content: flex-start;
+}
+
+#payment-group-KaiowaPaymentGroup .payment-group-item-text::after {
+  content: "Tu couta";
+  font-size: 13PX;
+  padding-right: 2rem !important;
+  padding-left: 44px !important;
+  color: #000000 !important;
+}
+
+/* #payment-group-KaiowaPaymentGroup .payment-group-item-text::before {
+  background-image: url(/arquivos/TU-CUOTA-100X100.png) !important;
+  background-repeat: no-repeat !important;
+  font-size: inherit !important;
+  background-size: 33px !important;
+  width: 40px;
+  height: 40px;
+} */
+.KaiowaPaymentGroup .payment-description {
+  font-size: 0;
+}
+
+.KaiowaPaymentGroup .payment-description::before {
+  content: "Tu Cuota";
+  font-size: 12px;
+}
+
+.KaiowaPaymentGroup .payment-description::after {
+  content: "";
+  width: 100%;
+  height: 400px;
+  display: block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 15px 0;
+  background-image: url(/arquivos/TUCUOTA-600X600.png);
 }

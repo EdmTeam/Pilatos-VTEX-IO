@@ -14,8 +14,8 @@
 
     "flex-layout.row#category-banners-title": {
         "children": [
-            "flex-layout.col#mobile-category-banners-title-col-1",
-            "flex-layout.col#mobile-category-banners-title-col-2"
+            "flex-layout.col#mobile-category-banners-title-col-1"
+            // "flex-layout.col#mobile-category-banners-title-col-2"
         ],
         "props":{
             "blockClass": "contentTitle"

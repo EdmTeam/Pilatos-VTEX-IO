@@ -37,7 +37,9 @@
             "flex-layout.col#btn-mi-talla",
             "product-availability#uno",
             "flex-layout.row#product-button-quantity",
-            "addi-infos",
+            //"addi-infos",
+            "flex-layout.row#logosPagos",
+            "flex-layout.row#productValorOffer",
             // "rich-text#title-descripcionProducto",
             // "flex-layout.row#productDescripcion",
             "disclosure-layout#productoDescription",
@@ -165,15 +167,8 @@
             "condition-layout.product#garment-care-superdry-correa-hombre",
             "condition-layout.product#garment-care-superdry-correa-mujer",
             "condition-layout.product#garment-care-newbalance-vestidos",
-            
-            
-            // "disclosure-layout#descripcionProducto",
-            "condition-layout.product#cond1-diesel",
-            "condition-layout.product#cond2-superdry",
-            "condition-layout.product#cond3-kipling",
-            "condition-layout.product#cond4-pilatos",
-            "condition-layout.product#cond5-girbaud",
-            "link#scrollLink",
+            //"link#scrollLink",
+            "disclosure-layout#masDetallesSellers",
             "share#default",
             "flex-layout.row#add-to-list-btn",
             "pilatos21.add-to-cart-button:add-to-cart-button",
@@ -187,7 +182,7 @@
             "width": "40%"
         }
     },
-    
+
     "flex-layout.row#product-button-quantity": {
         "children": [
             "flex-layout.col#product-quantity",
@@ -234,12 +229,12 @@
             //       "blockClass": "product-description-pdp"
             //     }
             // },
-            // DESCRIPCION DE PRODUCTO NUEVA CON BOTON
-            "disclosure-layout#productoDescription": {
-                "children": [
-                    "disclosure-trigger#productoDescription",
-                    "disclosure-content#simpleDescription"
-                ]
+    // DESCRIPCION DE PRODUCTO NUEVA CON BOTON
+    "disclosure-layout#productoDescription": {
+      "children": [
+          "disclosure-trigger#productoDescription",
+          "disclosure-content#simpleDescription"
+      ]
     },
     "disclosure-trigger#productoDescription": {
         "children": [
@@ -260,6 +255,41 @@
             "text": "**Descripción del producto**"
             //"blockClass": "product-description-pdp"
         }
+    },
+
+    /*Mas detalles*/
+    "disclosure-layout#masDetallesSellers": {
+      "children": [
+          "disclosure-trigger#masDetallesSellers",
+          "disclosure-content#masDetallesSellers"
+      ]
+    },
+    "disclosure-trigger#masDetallesSellers": {
+        "children": [
+            "rich-text#masDetallesSellers",
+            "disclosure-state-indicator#garment-care"
+        ],
+        "props": {
+            "blockClass": ["container-products", "disclosure-indicator-garment-care"]
+        }
+    },
+
+    "rich-text#masDetallesSellers": {
+      "props": {
+          "text": "**Más detalles**"
+          //"blockClass": "product-description-pdp"
+      }
+    },
+
+    "disclosure-content#masDetallesSellers": {
+        "children": [
+          "condition-layout.product#cond1-diesel",
+          "condition-layout.product#cond2-superdry",
+          "condition-layout.product#cond3-kipling",
+          "condition-layout.product#cond4-pilatos",
+          "condition-layout.product#cond5-girbaud",
+          "flex-layout.row#seller-table#seller-product"
+        ]
     },
 
     //cantidad title
@@ -400,9 +430,14 @@
 
     //VENDEDOR
     "flex-layout.row#seller-table#seller-product": {
-        "children": [
-            "flex-layout.col#seller-table#seller-product"
-        ]
+      "props": {
+        "blockClass": "seller-product"
+      },
+      "children": [
+        "flex-layout.col#seller-table#seller-product",
+        // "rich-text#nitysic"
+        "sellers-data"
+      ]
     },
 
     "flex-layout.col#seller-table#seller-product": {
@@ -414,7 +449,7 @@
             "blockClass": "seller-name-product"
         }
     },
-    
+
     "rich-text#seller-text": {
         "props": {
             "text": "Vendido por:",
@@ -445,5 +480,43 @@
         "props": {
             "blockClass": "name-seller-product"
         }
+    },
+
+    //Logos Pagos
+    "flex-layout.row#logosPagos": {
+      "props": {
+        "blockClass": "logosPagos"
+      },
+      "children": [
+        "flex-layout.col#logosPagos"
+      ]
+    },
+
+    "flex-layout.col#logosPagos": {
+      "props": {
+        "blockClass": "logosPagosCol"
+      },
+      "children": [
+        "image#logoAddi",
+        "image#logoSiste"
+      ]
+    },
+    "image#logoAddi": {
+      "props": {
+        "src": "/arquivos/logoAddi.jpg",
+        "link": {
+          "url": "https://preapproval.addi.com/",
+          "newTab": true
+        }
+      }
+    },
+    "image#logoSiste": {
+      "props": {
+        "src": "/arquivos/banner-mediodepago-pagaacredito.jpg",
+        "link": {
+          "url": "https://personas.credinet.co/login",
+          "newTab": true
+        }
+      }
     }
 }

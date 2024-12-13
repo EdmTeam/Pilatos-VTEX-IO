@@ -169,10 +169,6 @@
   border-bottom: 2px solid #FFD400;
 }
 
-.styledLinkContent--menuLinkHeaderPilatos{
-    line-height: 133% !important;
-}
-
 /* Estilos al menu */
 .menuItem--menuAccordionLevel1{
     margin-top: 0;

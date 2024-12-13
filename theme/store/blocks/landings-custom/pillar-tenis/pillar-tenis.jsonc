@@ -232,7 +232,7 @@
                 {
                     "image": "/arquivos/Pilatos-PilarPageTenis-Diesel.png",
                     "link": {
-                        "url": "/diesel%20tenis?_q=diesel%20tenis&map=ft"
+                        "url": "/diesel?initialMap=b&initialQuery=Diesel&map=category-3,brand,marca&query=/tenis/diesel/diesel&searchState"
                     }
                 },
                 {
@@ -256,25 +256,25 @@
                 {
                     "image": "/arquivos/Pilatos-PilarPageTenis-Vans.png",
                     "link": {
-                        "url": "/vans%20tenis?_q=vans%20tenis&map=ft"
+                        "url": "/vans%20tenis?_q=vans%20tenis&fuzzy=0&initialMap=ft&initialQuery=vans%20tenis&map=category-3,ft&operator=and&query=/tenis/vans%20tenis&searchState"
                     }
                 },
                 {
                     "image": "/arquivos/Pilatos-PilarPageTenis-Replay.png",
                     "link": {
-                        "url": "/replay%20tenis?_q=replay%20tenis&map=ft"
+                        "url": "/replay%20tenis?_q=replay%20tenis&fuzzy=0&initialMap=ft&initialQuery=replay%20tenis&map=category-3,ft&operator=and&query=/tenis/replay%20tenis&searchState"
                     }
                 },
                 {
                     "image": "/arquivos/Pilatos-PilarPageTenis-Superdry.png",
                     "link": {
-                        "url": "/superdry%20tenis?_q=superdry%20tenis&map=ft"
+                        "url": "/superdry%20tenis?_q=superdry%20tenis&fuzzy=0&initialMap=ft&initialQuery=superdry%20tenis&map=category-3,ft&operator=and&query=/tenis/superdry%20tenis&searchState"
                     }
                 },
                 {
                     "image": "/arquivos/Pilatos-PilarPageTenis-Oakley.png",
                     "link": {
-                        "url": "/oakley%20tenis?_q=oakley%20tenis&map=ft"
+                        "url": "/oakley%20tenis?_q=oakley%20tenis&fuzzy=0&initialMap=ft&initialQuery=oakley%20tenis&map=category-3,ft&operator=and&query=/tenis/oakley%20tenis&searchState"
                     }
                 }
                
