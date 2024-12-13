@@ -21,9 +21,12 @@
     },
 
     "flex-layout.col#submenu-desk-col-1-row-4": {
+      "props":{
+          "blockClass": "submenu-desk-col-marcas"
+        },
         "children":[
-            "flex-layout.row#submenu-desk-vertodo-row-4",
-            "flex-layout.row#submenu-desk-department-options-row-4"
+          //"flex-layout.row#submenu-desk-vertodo-row-4",
+          "flex-layout.row#submenu-desk-department-options-row-4"
         ]
     },
 
@@ -51,9 +54,14 @@
     },
 
     "flex-layout.row#submenu-desk-department-options-row-4":{
+      "props":{
+          "blockClass": "submenu-desk-department-options"
+        },
         "children":[
             "flex-layout.row#submenu-desk-category-options-col-1-row-4-propias",
-            "flex-layout.row#submenu-desk-category-options-col-1-row-4"
+            "flex-layout.row#submenu-desk-category-options-col-1-row-4",
+            "flex-layout.row#submenu-desk-category-options-col-2-row-4-propias"
+
             // "flex-layout.col#submenu-desk-category-options-col-2-row-4"
         ]
     },
@@ -63,7 +71,18 @@
         "flex-layout.col#submenu-desk-department-4-category-1-propias"
       ],
       "props":{
-          "width": "100%"
+        "width": "100%",
+        "blockClass": "submenu-desk-department-marcas"
+      }
+    },
+
+    "flex-layout.row#submenu-desk-category-options-col-2-row-4-propias":{
+      "children": [
+        "flex-layout.col#submenu-desk-department-4-category-2-propias"
+      ],
+      "props":{
+        "width": "100%",
+        "blockClass": "submenu-desk-department-marcas"
       }
     },
 

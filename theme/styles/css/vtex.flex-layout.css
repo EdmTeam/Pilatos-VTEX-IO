@@ -430,6 +430,13 @@
   margin-left: 20px;
 }
 
+.flexRowContent--submenu-desk-department-options {
+  width: 864px;
+  margin: 0 auto;
+  padding-bottom: 28px;
+  padding-top: 28px;
+}
+
 .flexCol--contenicos{
   padding-right: 0;
   padding-left: 1rem;
@@ -3003,7 +3010,7 @@
 }
 
 .flexColChild--contentBlockSubmenu2{
-  width: 50%;
+  width: 100%;
 }
 
 /*
@@ -3948,6 +3955,7 @@ width: 88%;
 }
 
 
+/*Fin landing t-shirt*/
 /*Seller Product*/
 .flexRowContent--seller-product {
   justify-content: center;

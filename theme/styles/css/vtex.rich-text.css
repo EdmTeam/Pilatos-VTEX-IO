@@ -921,6 +921,7 @@
 .wrapper--textSubcategory .link {
   color: #260C11;
   text-decoration: none;
+  min-width: 90px;
 }
 
 .container--closeIco {
@@ -3877,6 +3878,17 @@ margin: 2px;
   border: 1px solid #FFD400;
   border-radius: 100px;
   padding: 5px 15px;
+}
+
+/*Menu Logos*/
+.paragraph--textSubcategory {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+}
+
+.paragraph--textSubcategory .image--textSubcategory {
+ max-width: 90px;
 }
 
 /*Valor Offer PDP*/
