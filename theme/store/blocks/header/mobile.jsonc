@@ -122,11 +122,12 @@
             "flex-layout.row#submenu-level-1-row-2",
             // "flex-layout.row#submenu-level-1-row-3",
             "flex-layout.row#submenu-level-1-row-7",
-            "flex-layout.row#submenu-level-1-row-5",
             "flex-layout.row#submenu-level-1-row-4",
+            "flex-layout.row#submenu-level-1-footer",
             "flex-layout.row#submenu-level-1-row-6",
-            "flex-layout.row#submenu-level-1-row-9",
-            "flex-layout.row#submenu-level-1-footer"
+            "flex-layout.row#submenu-level-1-row-5",
+            "flex-layout.row#submenu-level-1-row-9"
+            
         ],
         "props":{
             "blockClass": "contentItemsMenu"

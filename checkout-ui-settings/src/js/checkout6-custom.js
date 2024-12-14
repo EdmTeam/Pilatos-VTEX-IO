@@ -266,67 +266,106 @@ $(window).on('load', function () {
 // Personalización del checkout Express
 const CustomCheckoutExpress = (function () {
   // Función para obtener el método de envío seleccionado de la orden
-  const selectedSla = (orderForm) => orderForm.shippingData.logisticsInfo[0].selectedSla
+  // const selectedSla = vtexjs.checkout.orderForm.shippingData.logisticsInfo
+  // .some(sla => sla.selectedSla === "pickit - Envío a Domicilio" || sla.selectedSla === "OGC - Envío gratuito")
 
-  // Oculta el método de pago "Contraentrega" y muestra otros métodos de pago
-  const hidePaymentMethod = () => {
-    // Elimina el método de pago "Contraentrega"
-    $('.pg-contra-entrega').remove()
-    // Muestra todos los métodos de pago excepto "Contraentrega"
-    $('.payment-group-list-btn a:not(.pg-contra-entrega)').show()
-    // Simula un clic en el primer método de pago distinto de "Contraentrega"
-    $('.payment-group-list-btn a:not(.pg-contra-entrega):first-child').click()
-  }
+  // const hasDifferentSeller = vtexjs.checkout.orderForm.sellers
+  // .some(seller => seller.name !== "Estudio de Moda S.A.");
 
-  // Muestra todos los métodos de pago, incluyendo "Contraentrega"
-  const showAllPaymentMethods = () => {
-    // Muestra "Contraentrega" y otros métodos de pago
-    $('.pg-contra-entrega, .payment-group-list-btn a').show()
-    // Simula un clic en el primer método de pago
-    $('.payment-group-list-btn a:first-child').click()
-  }
+  // // Oculta el método de pago "Contraentrega" y muestra otros métodos de pago
+  // const hidePaymentMethod = () => {
 
-  // Valida el método de pago seleccionado según el método de envío
-  const validatePaymentMethod = function (orderForm) {
-    if (!selectedSla(orderForm)) {
-      return
-    }
+  //   // Elimina el método de pago "Contraentrega"
+  //   $('.pg-contra-entrega').remove()
+  //   // Muestra todos los métodos de pago excepto "Contraentrega"
+  //   $('.payment-group-list-btn a:not(.pg-contra-entrega)').show()
+  //   // Simula un clic en el primer método de pago distinto de "Contraentrega"
+  //   $('.payment-group-list-btn a:not(.pg-contra-entrega):first-child').click()  
+  //   console.log("esta en hidepaymet method")
+  // }
 
-    // Verifica si el método de envío es "Envío a Domicilio Express"
-    if (selectedSla(orderForm) === 'pickit - Envío a Domicilio') {
-      console.log('Entro en Envío a Domicilio Express', selectedSla(orderForm))
-      hidePaymentMethod() // Oculta los métodos de pago según las reglas
-    } else {
-      console.log('Entro en el caso else', selectedSla(orderForm))
-      showAllPaymentMethods() // Muestra todos los métodos de pago
-    }
-  }
+  // // Muestra todos los métodos de pago, incluyendo "Contraentrega"
+  // const showAllPaymentMethods = () => {
+  //   console.log("esta en showpaymet method")
+  //   // Muestra "Contraentrega" y otros métodos de pago
+  //   $('.pg-contra-entrega, .payment-group-list-btn a').show()
+
+  //   $('.payment-group-list-btn a:first-child').click();
+  //   // Simula un clic en el primer método de pago
+
+  // }
+
+  // // Valida el método de pago seleccionado según el método de envío
+  // const validatePaymentMethod = function (orderForm) {
+  //   if (!selectedSla) {
+  //     return
+  //   }
+
+  //   // Verifica si el método de envío es "Envío a Domicilio Express"
+  //   if (selectedSla || hasDifferentSeller){
+  //     console.log("tambien debe desaparecer contraentrega>>>>")
+  //     console.log("Etiene selected sla o hasdiferent seller", selectedSla, hasDifferentSeller)
+  //     hidePaymentMethod() // Oculta los métodos de pago según las reglas
+  //   } else {
+  //     console.log("tampoco debe desaparecer contraentrega>>>>")
+  //     console.log('Entro en el caso else', selectedSla(orderForm))
+  //     showAllPaymentMethods() // Muestra todos los métodos de pago
+  //   }
+  // }
 
   // Inicializa la personalización del checkout
   const init = function () {
     $(window).on('hashchange load', function () {
       // Verifica si la página actual es la página de pago
       if (location.hash === '#/payment' || location.hash === '#payment') {
-        // Obtiene el formulario de orden y realiza validaciones
-        vtexjs.checkout.getOrderForm().then(function (orderForm) {
-          validatePaymentMethod(orderForm) // Valida el método de pago
+
+        // Función que valida si hay gift cards
+        function validateGiftCard(orderForm) {
+          return orderForm.paymentData.giftCards.length !== 0;
+        }
+
+        // Función principal que ejecuta la lógica de validación
+        function handleOrderFormUpdate(orderForm) {
+
+          
 
           const sellers = orderForm.sellers || [];
           const shipSLA = orderForm.shippingData?.logisticsInfo || [];
           const itemContraentrega = $('.pg-contra-entrega');
           const hasDifferentSeller = sellers.some(seller => seller.name !== "Estudio de Moda S.A.");
           const isPickit = shipSLA.some(sla => sla.selectedSla === "pickit - Envío a Domicilio");
+          const ogcItem = shipSLA.some(sla => sla.selectedSla === "OGC - Envío gratuito");
 
-          console.log('SLA::', isPickit)
+          console.log('SLA::', isPickit);
+          
 
           setTimeout(() => {
-            if (hasDifferentSeller || isPickit) {
-                itemContraentrega.addClass('hidden');
+            if (hasDifferentSeller || isPickit || ogcItem || validateGiftCard(orderForm)) {
+              console.log("Debe desaparecer contraentrega>>");
+              itemContraentrega.addClass('hidden');
             } else {
-                itemContraentrega.removeClass('hidden');
+              console.log("NO debe desaparecer contraentrega>>");
+              itemContraentrega.removeClass('hidden');
             }
-          }, 800);
-        })
+          }, 500);
+        }
+
+        // Escuchar el evento `orderFormUpdated.vtex`
+        $(window).on("orderFormUpdated.vtex", function (evt, orderForm) {
+          console.log("El orderForm ha sido actualizado:", orderForm);
+          handleOrderFormUpdate(orderForm); // Ejecuta la lógica en cada actualización
+          //validatePaymentMethod(orderForm)
+          
+        });
+
+        // Llamada inicial para asegurar que la lógica se ejecute al cargar la página
+        vtexjs.checkout.getOrderForm().then(function (orderForm) {
+          console.log("OrderForm inicial:", orderForm);
+          handleOrderFormUpdate(orderForm);
+          //validatePaymentMethod(orderForm)
+          
+          
+        });
 
         setTimeout(() => {
           document.querySelector('.link-gift-card').addEventListener('click', function () {

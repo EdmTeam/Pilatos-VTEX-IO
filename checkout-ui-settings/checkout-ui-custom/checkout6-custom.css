@@ -7211,10 +7211,6 @@ button#payment-data-submit {
   text-decoration: underline;
 }
 
-.payment-group .payment-group-list-btn a#payment-group-custom201PaymentGroupPaymentGroup {
-  display: none !important;
-}
-
 #payment-group-KaiowaPaymentGroup .payment-group-item-text {
   font-size: 0;
   background-image: url(/arquivos/TU-CUOTA-100X100.png) !important;
@@ -7225,7 +7221,7 @@ button#payment-data-submit {
 }
 
 #payment-group-KaiowaPaymentGroup .payment-group-item-text::after {
-  content: "Tu couta";
+  content: "TuCouta";
   font-size: 13PX;
   padding-right: 2rem !important;
   padding-left: 44px !important;
@@ -7245,7 +7241,7 @@ button#payment-data-submit {
 }
 
 .KaiowaPaymentGroup .payment-description::before {
-  content: "Tu Cuota";
+  content: "TuCuota";
   font-size: 12px;
 }
 
@@ -7258,5 +7254,4 @@ button#payment-data-submit {
   background-repeat: no-repeat;
   background-position: center;
   margin: 15px 0;
-  background-image: url(/arquivos/TUCUOTA-600X600.png);
 }
