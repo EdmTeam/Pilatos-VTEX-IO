@@ -159,7 +159,7 @@
 } */
 
 .styledLinkContent--menuLinkHeaderColor{
-    color: #DD0B3D;
+    color: #000000;
 }
 /*stylo boton dsi*/
 .styledLinkContent--menuLinkHeaderPilatosIVA{
@@ -167,6 +167,10 @@
 }
 .styledLinkContent--menuLinkHeaderPilatosIVA:hover{
   border-bottom: 2px solid #FFD400;
+}
+
+.styledLinkContainer--itemMenuLevelIconMobile {
+    padding: 0 1rem !important
 }
 
 /* Estilos al menu */
@@ -229,7 +233,8 @@
 }
 
 .submenuWrapper--contentSubmenuDesk2{
-    width: 500px !important;
+    width: 100% !important;
+    max-width: 1194px;
 }
 
 @media only screen and (min-width: 1280px){
