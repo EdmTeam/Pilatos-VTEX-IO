@@ -692,7 +692,7 @@
 
   .flexColChild--contentButton{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
   }
 
@@ -702,6 +702,9 @@
 
   .flexRowContent--contentSkuBtn{
     align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    visibility: hidden;
   }
 
   .flexCol--contentButton{

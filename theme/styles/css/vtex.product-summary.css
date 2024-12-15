@@ -145,6 +145,11 @@
     background: #ffffff;
 }
 
+.clearLink--shelfSlide:hover :global(.vtex-flex-layout-0-x-flexRowContent--contentSkuBtn) {
+  visibility: visible;
+}
+
+
 .imageNormal {
     height: auto !important;
     z-index: 1;

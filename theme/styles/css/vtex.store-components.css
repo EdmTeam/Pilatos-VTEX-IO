@@ -335,10 +335,10 @@
     }
 }
 
-/* Vitrina */
+/* Vitrina
 :global(.vtex-product-summary-2-x-element--shelfSlide) .skuSelectorSubcontainer--talla{
     display: none;
-}
+}*/
 
 :global(.vtex-product-summary-2-x-element--shelfSlide) .skuSelectorTextContainer{
     display: none;
@@ -372,6 +372,8 @@
 .skuSelectorContainer{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .skuSelectorSubcontainer--color{
