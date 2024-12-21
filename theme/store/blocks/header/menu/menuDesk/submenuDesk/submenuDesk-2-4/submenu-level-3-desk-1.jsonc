@@ -24,6 +24,7 @@
         "rich-text#submenu-desk-department-4-category-40", //calvin kley
         "rich-text#submenu-desk-department-4-category-23", //Celio
         "rich-text#submenu-desk-department-4-category-33", //champions
+        "rich-text#converse__marcas--menu", //converse
         "rich-text#submenu-desk-department-4-category-61", //Devier
         "rich-text#submenu-desk-department-4-category-32", //ecovessel
         "rich-text#submenu-desk-department-4-category-63", //Franques
@@ -322,6 +323,14 @@
         "blockClass": "textSubcategory"
     }
   },
+
+  "rich-text#converse__marcas--menu":{
+    "title": "Converse",
+        "props":{
+            "text": "[Converse](/converse) ![Agua Bendita](/arquivos/Pilatos-LogosMarcas-AguaBendita.png)",
+            "blockClass": "textSubcategory"
+        }
+    },
 
     "rich-text#submenu-desk-department-4-category-12":{
         "props":{
