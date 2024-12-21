@@ -21,6 +21,7 @@
   "menu-item#menu-item-5-desk-1": {
     "props": {
       "type": "custom",
+      "blockClass": ["menu__sale-desk"],
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -28,8 +29,10 @@
         "noFollow": false,
         "tagTitle": "SALE",
         "text": "SALE"
-      },
-      "blockClass": "menuLinkHeaderColor"
-    }
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#submenu__sale--hover"
+    ]
   }
 }

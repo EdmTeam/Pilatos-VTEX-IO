@@ -19,6 +19,7 @@
             "rich-text#submenu-level-2-item-5-row-7",
             "rich-text#submenu-level-2-item-6-row-7", //replay
             "rich-text#submenu-level-2-item-26-row-7", //monastery
+            "rich-text#converse__marca--mobile", //Converse
             "rich-text#submenu-level-2-item-25-row-7", //vans
             "rich-text#submenu-level-2-item-8-row-7", //nike
             "rich-text#submenu-level-2-item-21-row-7", //ray ban
@@ -102,6 +103,17 @@
     "rich-text#submenu-level-2-item-47-row-7": {
         "props":{
            "text": "[Blackoud](/blackoud)",
+            "blockClass": [
+                "contentSubMenuAcordeon",
+                "textSubcategoryPilatos"
+            ]
+        }
+    },
+
+    "rich-text#converse__marca--mobile": {
+        "title": "Converse",
+        "props":{
+           "text": "[Converse](/converse)",
             "blockClass": [
                 "contentSubMenuAcordeon",
                 "textSubcategoryPilatos"

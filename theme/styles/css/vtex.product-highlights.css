@@ -2,6 +2,37 @@
     font-size: 0;
 }
 
+/* Bancolombia diciembre 2024 */
+
+.productHighlightWrapper [data-highlight-id="2000"]{
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(/arquivos/Flag-Bancolombia_Dic2024.png);
+    display: block;
+}
+
+/* .productHighlightWrapper [data-highlight-id="2001"]{
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(/arquivos/Flag-Bancolombia_Dic2024.png);
+    display: block;
+}
+
+.productHighlightWrapper [data-highlight-id="2002"]{
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(/arquivos/Flag-Bancolombia_Dic2024.png);
+    display: block;
+} */
+
+
+
 /*flag dia sin iva*/
 
 .productHighlightWrapper [data-highlight-id="1171"]{

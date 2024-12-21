@@ -1,0 +1,21 @@
+.flexRowContent--Submenu-desk-sale {
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.flexRowContent--Submenu-desk-sale :global(.vtex-rich-text-0-x-container--contentSubMenuAcordeon) {
+    justify-content: center;
+}
+
+.flexRowContent--Submenu-desk-sale :global(.vtex-rich-text-0-x-container--contentSubMenuAcordeon) 
+:global(.vtex-rich-text-0-x-paragraph--textSubcategoryPilatos):hover {
+    text-decoration: underline;
+}
+
+.flexRow--Submenu-desk-sale {
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
