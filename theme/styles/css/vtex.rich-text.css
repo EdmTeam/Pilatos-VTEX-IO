@@ -771,6 +771,10 @@
   text-decoration: none;
 }
 
+.paragraph--departmentTitle-Home {
+  font-size: 12px;
+}
+
 
 .wrapper--itemMenuLevel1Sale .link--itemMenuLevel1 {
   color: #000000;
