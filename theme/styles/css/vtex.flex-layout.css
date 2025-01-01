@@ -1415,6 +1415,10 @@
   display: none;
 }
 
+.flexRowContent--contentHeaderMenuActive :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child :global(.vtex-flex-layout-0-x-flexCol) {
+  justify-content: center;
+}
+
 :global(.vtex-search-result-3-x-filterTitle){
   font-weight: bold;
   text-transform: capitalize;

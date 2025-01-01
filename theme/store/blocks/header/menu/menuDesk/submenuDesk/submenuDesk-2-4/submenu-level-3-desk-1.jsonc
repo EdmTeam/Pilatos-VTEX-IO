@@ -25,6 +25,7 @@
         "rich-text#submenu-desk-department-4-category-23", //Celio
         "rich-text#submenu-desk-department-4-category-33", //champions
         "rich-text#converse__marcas--menu", //converse
+        "rich-text#dcshoes__marcas--menu", //dcshoes
         "rich-text#submenu-desk-department-4-category-61", //Devier
         "rich-text#submenu-desk-department-4-category-32", //ecovessel
         "rich-text#submenu-desk-department-4-category-63", //Franques
@@ -328,6 +329,14 @@
     "title": "Converse",
         "props":{
             "text": "[Converse](/converse) ![Agua Bendita](/arquivos/Pilatos-LogosMarcas-AguaBendita.png)",
+            "blockClass": "textSubcategory"
+        }
+    },
+
+    "rich-text#dcshoes__marcas--menu":{
+    "title": "DC shoes",
+        "props":{
+            "text": "[Dcshoes](/dcshoes) ![Agua Bendita](/arquivos/Pilatos-LogosMarcas-AguaBendita.png)",
             "blockClass": "textSubcategory"
         }
     },
