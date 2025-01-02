@@ -1,5 +1,32 @@
 {
-    "responsive-layout.phone#reversoMobile": {
+    "responsive-layout.mobile#bloque-reversso-imagenes-mob": {
+        "children": [
+            //"flex-layout.row#bloque-reversso-imagenes-mob"
+            "flex-layout.row#imagen-reverssomobile"
+        ]
+    },
+
+    "flex-layout.row#imagen-reverssomobile": {
+      "title": "Imagen reversso",
+      "children": ["image#reverssomobile"],
+      "props": {
+        "blockClass": "contenedor-imagen-reversso"
+      }
+    },
+  
+    "image#reverssomobile": {
+      "props": {
+        "src": "/arquivos/Pilatos-banner-reversso-mobile.jpg",
+        "blockClass": "custom-image-reversso",
+        "link": {
+          "url": "",
+          "noFollow": false,
+          "openNewTab": false
+        }
+      }
+    }
+
+    /*"responsive-layout.phone#reversoMobile": {
         "children": [
             "image#reversoPaso1-mobi",
             "image#reversoPaso2-mobi",
@@ -71,5 +98,5 @@
             "src": "/arquivos/Pilatos-LandingReversso8a.jpg",
             "blockClass": "fraganciayUso-usoSinLin"
         }
-    }
+    }*/
 }
