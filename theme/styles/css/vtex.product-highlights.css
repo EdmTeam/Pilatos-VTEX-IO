@@ -2,6 +2,17 @@
     font-size: 0;
 }
 
+/* sale enero 2025 */
+
+.productHighlightWrapper [data-highlight-id="2022"]{
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(/arquivos/PILATOS-SALE_Flag.png);
+    display: block;
+}
+
 /* Bancolombia diciembre 2024 */
 
 .productHighlightWrapper [data-highlight-id="2000"]{
