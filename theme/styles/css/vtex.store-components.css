@@ -376,8 +376,10 @@
     align-items: center;
 }
 
-.skuSelectorSubcontainer--color{
-    order: 1;
+@media screen and (max-width: 1024px) {
+  .skuSelectorContainer{
+    height: 30px;
+  }
 }
 
  /*
@@ -405,12 +407,19 @@
     margin: 4px 4px;
 }
 
-.skuSelectorSubcontainer--color{
-    margin: .1rem 0 .3rem 0;
+.skuSelectorSubcontainer--color {
+    margin: 0;
+    order: 1;
 }
 
-.skuSelectorSubcontainer--talla{
-    margin: .3rem 0 .5rem 0;
+.skuSelectorSubcontainer--talla {
+    margin: 0 0 .5rem 0;
+}
+
+@media screen and (max-width:1024px){
+  .skuSelectorSubcontainer--talla {
+    margin: 0 0 .1rem 0;
+  }
 }
 
 .skuSelectorOptionsList{
@@ -967,7 +976,7 @@ cursor: pointer;
 
 :global(.vtex-add-to-cart-button-0-x-buttonText)::after {
   font-size: 12px;
-  content: "AGREGAR AL CARRITO";
+  content: "Comprar Ahora";
 }
 /*New Banners Info Card*/
 .infoCardContainer--infocardBanner {

@@ -11,6 +11,10 @@
     color: #260C11;
 }
 
+.skuSelectorSubcontainer--color {
+  margin-bottom: .2rem !important;
+}
+
 .skuSelectorItem .frameAround{
     border-radius: 50%;
 }

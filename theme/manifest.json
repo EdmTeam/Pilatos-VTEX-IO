@@ -65,6 +65,7 @@
     "vtex.product-specifications": "1.x",
     "vtex.list-context": "0.x",
     "vtex.add-to-cart-button": "0.x",
+    "vtex.overlay-layout": "0.x",
     "pilatos21.add-to-cart-button": "0.x",
     "pilatos21.custom-sticky": "0.x",
     "pilatos21.free-shipping": "0.x",

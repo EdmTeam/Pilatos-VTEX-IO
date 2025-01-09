@@ -5,9 +5,11 @@
       "stack-layout#prodsum",
       "vtex.product-summary:product-summary-brand",
       "vtex.product-summary:product-summary-name",
-            "flex-layout.row#price",
+      "flex-layout.row#price",
       "vtex.product-summary:product-summary-space",
-      "flex-layout.row#sku-btn"
+      //"flex-layout.row#sku-btn",
+      "responsive-layout.desktop#selectorSkuDesktop",
+      "responsive-layout.mobile#selectorSkuMobile"
     ],
     "props":{
       "blockClass": "shelfSlide"
@@ -44,6 +46,10 @@
     }
   },
 
+  "responsive-layout.desktop#selectorSkuDesktop": {
+    "children": ["flex-layout.row#sku-btn"]
+  },
+
   "flex-layout.row#sku-btn": {
     "children": [
       "flex-layout.col#content-sku",
@@ -53,6 +59,7 @@
       "blockClass": "contentSkuBtn"
     }
   },
+
 
   "flex-layout.col#content-sku": {
     "children": [
@@ -97,14 +104,13 @@
     }
   },
 
-
-
   "flex-layout.col#add-to-cart": {
     "children": [
-      "pilatos21.add-to-cart-button:add-to-cart-button#shelf"
+      //"pilatos21.add-to-cart-button:add-to-cart-button#shelf"
+      "vtex.add-to-cart-button:add-to-cart-button"
     ],
     "props": {
-      "width": "20%",
+      "width": "100%",
       "blockClass": "contentButton"
     }
   },
@@ -174,6 +180,32 @@
       "markers": [
         "discount"
       ]
+    }
+  },
+
+  /*Compra rapida mobile*/
+  "responsive-layout.mobile#selectorSkuMobile": {
+    "children": ["overlay-trigger#buy"]
+  },
+  "overlay-trigger#buy": {
+    "title":"Compra rapida mobile",
+    "children": ["overlay-layout#buy", "rich-text#buy"],
+    "props": {
+      "blockClass": "selector"
+    }
+  },
+  "overlay-layout#buy": {
+    "children": ["flex-layout.row#sku-btn"],
+    "props": {
+      "placement": "bottom",
+      "blockClass": "selector"
+    }
+  },
+  "rich-text#buy": {
+    "title": "Titulo compra rapida",
+    "props": {
+      "text": "Compra\n Rápida",
+      "blockClass": "buy-fast"
     }
   }
 }

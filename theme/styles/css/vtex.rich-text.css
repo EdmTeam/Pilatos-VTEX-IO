@@ -3902,3 +3902,32 @@ margin: 2px;
   margin-bottom: 0px;
   margin-left: 8px;
 }
+
+/*Compra Rapida Mobile*/
+.container--buy-fast {
+  position: absolute;
+  right: 0;
+  bottom: 110px;
+  border: 1px solid #f2f2f2;
+  padding: 0 3px;
+  background: #fff;
+  padding: 5px 3px;
+}
+
+.paragraph--buy-fast {
+  margin: 0;
+  font-size: 9px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.paragraph--buy-fast::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-image: url('/arquivos/bag-summary.svg');
+  background-size: cover;
+}
