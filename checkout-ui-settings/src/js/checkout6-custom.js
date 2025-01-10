@@ -339,6 +339,20 @@ const CustomCheckoutExpress = (function () {
           console.log('SLA::', isPickit);
           
 
+          if (hasDifferentSeller || isPickit || ogcItem || validateGiftCard(orderForm)) {
+            const element1 = document.getElementById('payment-group-custom201PaymentGroupPaymentGroup')
+            const element2 = document.getElementById('payment-group-WompiCoPaymentGroup')
+
+            // Verifica si ambos elementos existen
+            if (element1 && element2) {
+              // Agrega un listener al primer elemento
+              element1.addEventListener('click', () => {
+                // Simula un clic en el segundo elemento
+                element2.click()
+              })
+            }
+          }
+
           setTimeout(() => {
             if (hasDifferentSeller || isPickit || ogcItem || validateGiftCard(orderForm)) {
               console.log("Debe desaparecer contraentrega>>");
