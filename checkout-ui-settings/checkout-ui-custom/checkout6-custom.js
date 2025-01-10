@@ -129,11 +129,21 @@ $(window).on("load", function() {
 }), {
     init: function() {
         $(window).on("hashchange load", function() {
+            function c(e) {
+                return 0 !== e.paymentData.giftCards.length;
+            }
             function o(e) {
                 var t = e.sellers || [], o = e.shippingData?.logisticsInfo || [];
                 const n = $(".pg-contra-entrega"), a = t.some(e => "Estudio de Moda S.A." !== e.name), i = o.some(e => "pickit - Envío a Domicilio" === e.selectedSla), s = o.some(e => "OGC - Envío gratuito" === e.selectedSla);
-                console.log("SLA::", i), setTimeout(() => {
-                    a || i || s || 0 !== e.paymentData.giftCards.length ? (console.log("Debe desaparecer contraentrega>>"), 
+                if (console.log("SLA::", i), a || i || s || c(e)) {
+                    t = document.getElementById("payment-group-custom201PaymentGroupPaymentGroup");
+                    const r = document.getElementById("payment-group-WompiCoPaymentGroup");
+                    t && r && t.addEventListener("click", () => {
+                        r.click();
+                    });
+                }
+                setTimeout(() => {
+                    a || i || s || c(e) ? (console.log("Debe desaparecer contraentrega>>"), 
                     n.addClass("hidden")) : (console.log("NO debe desaparecer contraentrega>>"), 
                     n.removeClass("hidden"));
                 }, 500);
