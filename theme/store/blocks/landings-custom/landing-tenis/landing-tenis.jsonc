@@ -5,10 +5,10 @@
             "flex-layout.row#banner-hero-tenis-desk",
             "responsive-layout.desktop#landing-tenis-desk",
             "responsive-layout.mobile#landing-tenis-mob",
-            "rich-text#brands-title",
-      "flex-layout.row#marcas-sobrenosotros2024-slider",
-            "flex-layout.row#vitrina-landing-tenis",
-            "video#landing-tenis",
+            "responsive-layout.desktop#botones-bloque-1",
+            "responsive-layout.desktop#botones-bloque-2",
+            "responsive-layout.mobile#botones-bloque",
+            "flex-layout.row#vitrina-landing-deportiva",
             "rich-text#filtro-seo"
         ]
     },
@@ -22,32 +22,28 @@
         }
     },
 
-    "flex-layout.row#vitrina-landing-tenis": {
+    "flex-layout.row#vitrina-landing-deportiva": {
         "children": [
-            "flex-layout.col#vitrina-landing-tenis"
+            "search-result-layout.customQuery#department-pilatos"
         ],
         "props": {
-            "marginBottom": 8
+            "blockClass": "vitrina-landing-deportiva"
         }
     },
 
-    "flex-layout.col#vitrina-landing-tenis": {
-        "children": [
-            "vtex.product-summary:list-context.product-list#most-viewed"
+    "search-result-layout.customQuery#department-pilatos": {
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile#pilatos"
         ],
         "props": {
-            "blockClass": "main-marcas-content-carrusel"
-        }
-    },
-
-    "video#landing-tenis": {
-        "props": {
-            "width": "100%",
-            "height": "auto",
-            "loop": true,
-            "autoPlay": true,
-            "muted": true,
-            "src": "https://estudiodemoda.co/wp-content/uploads/2024/04/Pilatos-LandingTenis-Video.mp4"
+            "querySchema": {
+                "orderByField": "OrderByScoreDESC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 48,
+                "queryField": "pilatos",
+                "mapField": "b"
+            }
         }
     }
 }
