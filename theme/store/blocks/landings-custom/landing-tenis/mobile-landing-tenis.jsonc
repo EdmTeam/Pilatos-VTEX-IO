@@ -2,9 +2,7 @@
     "responsive-layout.mobile#landing-tenis-mob": {
         "children": [
             "image#landing-templateBotonesGenero-banner-img-phone",
-            "flex-layout.row#bloque-2-tenis-mob",
-            "flex-layout.row#bloque-3-tenis-mob",
-            "flex-layout.row#bloque-4-tenis-mob"
+            "flex-layout.row#bloque-2-tenis-mob"
         ]
     },
 
@@ -21,8 +19,7 @@
     "flex-layout.col#bloque-2-tenis-mob": {
         "children": [
             "rich-text#titulo-tenis-landing-mob",
-            "rich-text#descripcion-tenis-landing-mob",
-            "flex-layout.col#btn-genero-landing-tenis"
+            "rich-text#descripcion-tenis-landing-mob"
         ],
         "props": {
             "horizontalAlign": "center"
@@ -46,139 +43,89 @@
         }
     },
 
-    //BLOQUE 3 MOBILE
-    "flex-layout.row#bloque-3-tenis-mob": {
+    //BLOQE BOTONES MOB
+    "responsive-layout.mobile#botones-bloque": {
         "children": [
-            "flex-layout.col#bloque-3-tenis-mob"
+            "flex-layout.row#botones-bloque-mob"
         ]
     },
 
-    "flex-layout.col#bloque-3-tenis-mob": {
+    "flex-layout.row#botones-bloque-mob": {
         "children": [
-            "rich-text#busca-por-marca-mob",
-            "image#bloque-3-tenis-mob",
-            "flex-layout.row#marcas-tenis-mob"
+            "flex-layout.col#botones-bloque-mob"
         ]
     },
 
-    "rich-text#busca-por-marca-mob": {
-        "props": {
-            "text": "Busca por marca",
-            "blockClass": ["busca-por-marca-texto-tenis-desk", "busca-por-marca-texto-tenis-mob"]
-        }
-    },
-
-    "image#bloque-3-tenis-mob": {
-        "props": {
-            "src": "/arquivos/Pilatos-LandingTenis-Banner-Mob.jpg",
-            "blockClass": "imagen-marcas-landing-tenis"
-        }
-    },
-
-    "flex-layout.row#marcas-tenis-mob": {
+    "flex-layout.col#botones-bloque-mob": {
         "children": [
-            "flex-layout.col#marcas-tenis-mob-1",
-            "flex-layout.col#marcas-tenis-mob-2"
+            "flex-layout.col#botones-bloque-1",
+            "flex-layout.col#botones-bloque-2"
         ],
         "props": {
-            "blockClass": "contenedor-info-marcas-mob"
-        }
+            "blockClass": "botones-deportiva-mob"
+        }  
     },
 
-    "flex-layout.col#marcas-tenis-mob-1": {
+    "flex-layout.col#botones-bloque-1": {
+        "title": "Bloque 1 de botones mobile",
         "children": [
-            "rich-text#marca-diesel-mob",
-            "rich-text#marca-nike-mob",
-            "rich-text#marca-vans-mob",
-            "rich-text#marca-new-balance-mob"
+            "rich-text#btn-tenis-landing-1",
+            "rich-text#btn-tenis-landing-2",
+            "rich-text#btn-tenis-landing-3",
+            "rich-text#btn-tenis-landing-4",
+            "rich-text#btn-tenis-landing-5"
         ]
     },
 
-    "flex-layout.col#marcas-tenis-mob-2": {
+    "flex-layout.col#botones-bloque-2": {
+        "title": "Bloque 2 de botones mobile",
         "children": [
-            "rich-text#marca-pepe-jeans-mob",
-            "rich-text#marca-lacoste-mob",
-            "rich-text#marca-superdry-mob",
-            "rich-text#marca-le-coq-mob"
+            "rich-text#btn-tenis-landing-1",
+            "rich-text#btn-tenis-landing-2",
+            "rich-text#btn-tenis-landing-3",
+            "rich-text#btn-tenis-landing-4",
+            "rich-text#btn-tenis-landing-5"
         ]
     },
-
-    "rich-text#marca-diesel-mob": {
+    
+    "rich-text#btn-tenis-landing-1": {
         "props": {
-            "text": "[Diesel](/diesel)",
-            "blockClass": "texto-marcas-landing-tenis-mob"
+            "text": "[Camisetas](?initialMap=productClusterIds&initialQuery=1763&map=category-3,productclusternames&query=/camisetas/coleccion-deportiva&searchState)",
+            "blockClass": "btn-landing-deportiva",
+            "textAlignment": "CENTER"
         }
     },
 
-    "rich-text#marca-nike-mob": {
+    "rich-text#btn-tenis-landing-2": {
         "props": {
-            "text": "[Nike](/nike)",
-            "blockClass": "texto-marcas-landing-tenis-mob"
+            "text": "[Tenis](/productos-deportivos-general?initialMap=productClusterIds&initialQuery=1763&map=category-3,productclusternames&query=/camisetas/coleccion-deportiva&searchState)",
+            "blockClass": "btn-landing-deportiva",
+            "textAlignment": "CENTER"
         }
     },
 
-    "rich-text#marca-vans-mob": {
+    "rich-text#btn-tenis-landing-3": {
         "props": {
-            "text": "[Vans](/vans)",
-            "blockClass": "texto-marcas-landing-tenis-mob"
+            "text": "[Gorras](/productos-deportivos-general?initialMap=productClusterIds&initialQuery=1763&map=category-3,productclusternames&query=/camisetas/coleccion-deportiva&searchState)",
+            "blockClass": "btn-landing-deportiva",
+            "textAlignment": "CENTER"
         }
     },
 
-    "rich-text#marca-new-balance-mob": {
+    "rich-text#btn-tenis-landing-4": {
         "props": {
-            "text": "[New Balance](/new-balance)",
-            "blockClass": "texto-marcas-landing-tenis-mob"
+            "text": "[Morrales](/productos-deportivos-general?initialMap=productClusterIds&initialQuery=1763&map=category-3,productclusternames&query=/camisetas/coleccion-deportiva&searchState)",
+            "blockClass": "btn-landing-deportiva",
+            "textAlignment": "CENTER"
         }
     },
 
-    "rich-text#marca-le-coq-mob": {
+    "rich-text#btn-tenis-landing-5": {
         "props": {
-            "text": "[Le Coq Sportif](/le-coq-sportif)",
-            "blockClass": "texto-marcas-landing-tenis-mob"
-        }
-    },
-
-    "rich-text#marca-pepe-jeans-mob": {
-        "props": {
-            "text": "[Pepe jeans](/pepe-jeans)",
-            "blockClass": "texto-marcas-landing-tenis-mob"
-        }
-    },
-
-    "rich-text#marca-lacoste-mob": {
-        "props": {
-            "text": "[Lacoste](/lacoste)",
-            "blockClass": "texto-marcas-landing-tenis-mob"
-        }
-    },
-
-    "rich-text#marca-superdry-mob": {
-        "props": {
-            "text": "[Superdry](/superdry)",
-            "blockClass": "texto-marcas-landing-tenis-mob"
-        }
-    },
-
-    //BLOQUE 4
-    "flex-layout.row#bloque-4-tenis-mob": {
-        "children": [
-            "flex-layout.col#bloque-4-tenis-mob"
-        ],
-        "props": {
-            "marginTop": 8
-        }
-    },
-
-    "flex-layout.col#bloque-4-tenis-mob": {
-        "children": [
-            "rich-text#nuevos-lanzamientos-mob"
-        ]
-    },
-
-    "rich-text#nuevos-lanzamientos-mob": {
-        "props": {
-            "text": "Nuevos lanzamientos",
-            "blockClass": ["nuevos-lanzamientos-texto-tenis-mob"]
+            "text": "[Medias](/productos-deportivos-general?initialMap=productClusterIds&initialQuery=1763&map=category-3,productclusternames&query=/camisetas/coleccion-deportiva&searchState)",
+            "blockClass": "btn-landing-deportiva",
+            "textAlignment": "CENTER"
         }
     }
+    //BLOQE BOTONES MOB
 }

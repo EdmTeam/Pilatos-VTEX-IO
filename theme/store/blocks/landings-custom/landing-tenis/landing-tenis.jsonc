@@ -5,10 +5,10 @@
             "flex-layout.row#banner-hero-tenis-desk",
             "responsive-layout.desktop#landing-tenis-desk",
             "responsive-layout.mobile#landing-tenis-mob",
-            "rich-text#brands-title",
-      "flex-layout.row#marcas-sobrenosotros2024-slider",
-            "flex-layout.row#vitrina-landing-tenis",
-            "video#landing-tenis",
+            "responsive-layout.desktop#botones-bloque-1",
+            "responsive-layout.desktop#botones-bloque-2",
+            "responsive-layout.mobile#botones-bloque",
+            "search-result-layout.customQuery#department-pilatos",
             "rich-text#filtro-seo"
         ]
     },
