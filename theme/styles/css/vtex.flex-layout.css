@@ -4052,4 +4052,7 @@ width: 88%;
   align-items: center;
   gap: 2rem;
 }
+.flexRowContent--vitrina-landing-deportiva  :global(.vtex-search-result-3-x-galleryTitle--layout), .flexRowContent--vitrina-landing-deportiva :global(.vtex-breadcrumb-1-x-container) {
+  display: none;
+}
 /*******LANDING DEPORTIVA*****/

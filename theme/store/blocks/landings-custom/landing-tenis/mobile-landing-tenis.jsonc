@@ -58,37 +58,37 @@
 
     "flex-layout.col#botones-bloque-mob": {
         "children": [
-            "flex-layout.col#botones-bloque-1",
-            "flex-layout.col#botones-bloque-2"
+            "flex-layout.col#botones-bloque-1-mob",
+            "flex-layout.col#botones-bloque-2-mob"
         ],
         "props": {
             "blockClass": "botones-deportiva-mob"
         }  
     },
 
-    "flex-layout.col#botones-bloque-1": {
+    "flex-layout.col#botones-bloque-1-mob": {
         "title": "Bloque 1 de botones mobile",
         "children": [
-            "rich-text#btn-tenis-landing-1",
-            "rich-text#btn-tenis-landing-2",
-            "rich-text#btn-tenis-landing-3",
-            "rich-text#btn-tenis-landing-4",
-            "rich-text#btn-tenis-landing-5"
+            "rich-text#btn-tenis-landing-1-mob",
+            "rich-text#btn-tenis-landing-2-mob",
+            "rich-text#btn-tenis-landing-3-mob",
+            "rich-text#btn-tenis-landing-4-mob",
+            "rich-text#btn-tenis-landing-5-mob"
         ]
     },
 
-    "flex-layout.col#botones-bloque-2": {
+    "flex-layout.col#botones-bloque-2-mob": {
         "title": "Bloque 2 de botones mobile",
         "children": [
-            "rich-text#btn-tenis-landing-1",
-            "rich-text#btn-tenis-landing-2",
-            "rich-text#btn-tenis-landing-3",
-            "rich-text#btn-tenis-landing-4",
-            "rich-text#btn-tenis-landing-5"
+            "rich-text#btn-tenis-landing-6-mob",
+            "rich-text#btn-tenis-landing-7-mob",
+            "rich-text#btn-tenis-landing-8-mob",
+            "rich-text#btn-tenis-landing-9-mob",
+            "rich-text#btn-tenis-landing-10-mob"
         ]
     },
     
-    "rich-text#btn-tenis-landing-1": {
+    "rich-text#btn-tenis-landing-1-mob": {
         "props": {
             "text": "[Camisetas](?initialMap=productClusterIds&initialQuery=1763&map=category-3,productclusternames&query=/camisetas/coleccion-deportiva&searchState)",
             "blockClass": "btn-landing-deportiva",
@@ -96,33 +96,68 @@
         }
     },
 
-    "rich-text#btn-tenis-landing-2": {
+    "rich-text#btn-tenis-landing-2-mob": {
         "props": {
-            "text": "[Tenis](/productos-deportivos-general?initialMap=productClusterIds&initialQuery=1763&map=category-3,productclusternames&query=/camisetas/coleccion-deportiva&searchState)",
+            "text": "[Tenis](?initialMap=productClusterIds&initialQuery=1763&map=category-3,productclusternames&query=/tenis/coleccion-deportiva&searchState)",
             "blockClass": "btn-landing-deportiva",
             "textAlignment": "CENTER"
         }
     },
 
-    "rich-text#btn-tenis-landing-3": {
+    "rich-text#btn-tenis-landing-3-mob": {
         "props": {
-            "text": "[Gorras](/productos-deportivos-general?initialMap=productClusterIds&initialQuery=1763&map=category-3,productclusternames&query=/camisetas/coleccion-deportiva&searchState)",
+            "text": "[Gorras](?initialMap=productClusterIds&initialQuery=1763&map=category-3,productclusternames&query=/gorras/coleccion-deportiva&searchState)",
             "blockClass": "btn-landing-deportiva",
             "textAlignment": "CENTER"
         }
     },
 
-    "rich-text#btn-tenis-landing-4": {
+    "rich-text#btn-tenis-landing-4-mob": {
         "props": {
-            "text": "[Morrales](/productos-deportivos-general?initialMap=productClusterIds&initialQuery=1763&map=category-3,productclusternames&query=/camisetas/coleccion-deportiva&searchState)",
+            "text": "[Morrales](?initialMap=productClusterIds&initialQuery=1763&map=category-3,productclusternames&query=/morrales/coleccion-deportiva&searchState)",
             "blockClass": "btn-landing-deportiva",
             "textAlignment": "CENTER"
         }
     },
 
-    "rich-text#btn-tenis-landing-5": {
+    "rich-text#btn-tenis-landing-5-mob": {
         "props": {
-            "text": "[Medias](/productos-deportivos-general?initialMap=productClusterIds&initialQuery=1763&map=category-3,productclusternames&query=/camisetas/coleccion-deportiva&searchState)",
+            "text": "[Medias](?initialMap=productClusterIds&initialQuery=1763&map=category-3,productclusternames&query=/medias/coleccion-deportiva&searchState)",
+            "blockClass": "btn-landing-deportiva",
+            "textAlignment": "CENTER"
+        }
+    },
+    "rich-text#btn-tenis-landing-6-mob": {
+        "props": {
+            "text": "[Bolsos](?initialMap=productClusterIds&initialQuery=1763&map=category-3,productclusternames&query=/bolsos/coleccion-deportiva&searchState)",
+            "blockClass": "btn-landing-deportiva",
+            "textAlignment": "CENTER"
+        }
+    },
+    "rich-text#btn-tenis-landing-7-mob": {
+        "props": {
+            "text": "[Sudaderas](?initialMap=productClusterIds&initialQuery=1763&map=category-3,productclusternames&query=/sudaderas/coleccion-deportiva&searchState)",
+            "blockClass": "btn-landing-deportiva",
+            "textAlignment": "CENTER"
+        }
+    },
+    "rich-text#btn-tenis-landing-8-mob": {
+        "props": {
+            "text": "[Bermudas](?initialMap=productClusterIds&initialQuery=1763&map=category-3,productclusternames&query=/bermudas/coleccion-deportiva&searchState)",
+            "blockClass": "btn-landing-deportiva",
+            "textAlignment": "CENTER"
+        }
+    },
+    "rich-text#btn-tenis-landing-9-mob": {
+        "props": {
+            "text": "[Pantalonetas](?initialMap=productClusterIds&initialQuery=1763&map=category-3,productclusternames&query=/pantalonetas/coleccion-deportiva&searchState)",
+            "blockClass": "btn-landing-deportiva",
+            "textAlignment": "CENTER"
+        }
+    },
+    "rich-text#btn-tenis-landing-10-mob": {
+        "props": {
+            "text": "[Shorts](?initialMap=productClusterIds&initialQuery=1763&map=category-3,productclusternames&query=/shorts/coleccion-deportiva&searchState)",
             "blockClass": "btn-landing-deportiva",
             "textAlignment": "CENTER"
         }
