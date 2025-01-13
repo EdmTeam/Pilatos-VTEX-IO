@@ -6969,3 +6969,25 @@ button#payment-data-submit {
   margin: 15px 0;
   background-image: url(/arquivos/banner-mediodepago-tucuota.png);
 }
+
+/***Recoger en tienda oculto***/
+.body-order-form .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group.shipping-data .accordion-inner .box-step div#delivery-packages-options > div:last-child {
+  display: none !important;
+}
+
+.srp-toggle__pickup {
+  display: none;
+}
+
+#shipping-option-pickup-in-point {
+  display: none;
+}
+
+#shipping-option-delivery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+optgroup[label="Recogida en tienda"] { display: none; }
+/***Recoger en tienda oculto***/
