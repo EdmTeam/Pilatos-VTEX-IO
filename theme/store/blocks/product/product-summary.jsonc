@@ -87,7 +87,7 @@
       "showVariationsLabels": true,
       "visibleVariations": ["Color"],
       "displayMode": "slider",
-      "sliderDisplayThreshold": "4",
+      "sliderDisplayThreshold": 4,
       "sliderItemsPerPage": "1",
       "initialSelection": "complete",
       "thumbnailImage": ["Color"]
@@ -99,8 +99,14 @@
       "showValueForVariation ": "image",
       "showVariationsLabels": true,
       "visibleVariations": ["Talla"],
-      "displayMode": "default",
-      "initialSelection": "complete"
+      "displayMode": "slider",
+      "initialSelection": "complete",
+      "sliderDisplayThreshold": 4,
+      "sliderItemsPerPage":{
+        "desktop": 6,
+        "tablet": 4,
+        "phone": 4
+      }
     }
   },
 

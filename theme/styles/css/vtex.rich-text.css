@@ -3908,10 +3908,10 @@ margin: 2px;
   position: absolute;
   right: 0;
   bottom: 110px;
-  border: 1px solid #f2f2f2;
-  padding: 0 3px;
+  padding: 0 2px;
   background: #fff;
   padding: 5px 3px;
+  border-radius: 4px;
 }
 
 .paragraph--buy-fast {
