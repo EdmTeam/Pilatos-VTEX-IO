@@ -3928,32 +3928,3 @@ margin: 2px;
 }
 /****LANDING DEPORTIVA***/
 
-/*gift card*/
-
-.link--giftCard-boton{
-
-
-  display: inline-block;
-    background-color: black;
-    color: white;
-    font-size: 16px;
-    padding: 10px 20px;
-    text-decoration: none;
-    border: none;
-    cursor: pointer;
-}
-
-@media (max-width: 768px) {
-  .link--giftCard-boton {
-    display: inline-block;
-    background-color: black;
-    color: white;
-    font-size: 14px; /* Reduce el tamaño de la fuente */
-    padding: 8px 16px; /* Ajusta el espacio interno */
-    text-decoration: none;
-    border: none;
-    cursor: pointer;
-    width: 100%; /* Opción para que el botón ocupe todo el ancho */
-    text-align: center; /* Asegura que el texto esté centrado */
-  }
-}

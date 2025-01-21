@@ -39,19 +39,21 @@
 
   "flex-layout.col#boton-giftcard": {
     "title": "boton giftcard",
-    "children": ["rich-text#giftcard"],
+    "children": ["link#giftcard"],
     "props": {
       "blockClass": "contenedor-botonGiftCard",
         "visible": false
     }
   },
 
-    "rich-text#giftcard": {
-        "props": {
-        "text": "[Consulta aquí el saldo de tu Gift Card](/giftcard)",
+"link#giftcard": {
+    "props": {
+      "label": "Consulta aquí el saldo de tu Gift Card",
+      "href": "https://www.begiftcard.co/?_gl=1*jwfc8y*_gcl_au*MTAwOTE2OTI3Ny4xNzMyNzM1Njcz",
+      "target": "_blank",
         "blockClass": "giftCard-boton"
-        }
-    },
+    }
+},
 
   "responsive-layout.desktop#department-pilatos-banners": {
     "children": ["flex-layout.col#department-pilatos-banners-1"]
