@@ -78,7 +78,9 @@
     "pilatos21.talla-guia-custom-markeplace": "0.x",
     "vtex.minicart": "2.x",
     "pilatos21.seo-tags": "0.x",
-    "pilatos21.sellers-collection": "0.x"
+    "pilatos21.sellers-collection": "0.x",
+    "vtex.toggle-layout": "0.x",
+    "vtex.visibility-layout": "0.x"
   },
   "peerDependencies": {
     "pilatos21.wishlist": "0.x",
