@@ -337,8 +337,158 @@
               }
             ]
           }
-        }
-      ]
-    }
-  }
-}
+        },
+
+        [
+          // Hombre buzos
+          {
+            "url": "/hombre/ropa/buzos",
+            "htmlId": "schema-hombre-buzos",
+            "data": {
+              "@context": "https://schema.org/",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://www.pilatos.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Ropa para Hombre",
+                  "item": "https://www.pilatos.com/hombre/ropa/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Buzos para hombre",
+                  "item": "https://www.pilatos.com/hombre/ropa/buzos"
+                }
+              ]
+            }
+          },
+          // Hombre chaquetas
+          {
+            "url": "/hombre/ropa/chaquetas",
+            "htmlId": "schema-hombre-chaquetas",
+            "data": {
+              "@context": "https://schema.org/",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://www.pilatos.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Ropa para Hombre",
+                  "item": "https://www.pilatos.com/hombre/ropa/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Chaquetas para hombre",
+                  "item": "https://www.pilatos.com/hombre/ropa/chaquetas"
+                }
+              ]
+            }
+          },
+          // Hombre pantalones
+          {
+            "url": "/hombre/ropa/pantalones",
+            "htmlId": "schema-hombre-pantalones",
+            "data": {
+              "@context": "https://schema.org/",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://www.pilatos.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Ropa para Hombre",
+                  "item": "https://www.pilatos.com/hombre/ropa/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Pantalones para hombre",
+                  "item": "https://www.pilatos.com/hombre/ropa/pantalones"
+                }
+              ]
+            }
+          },
+          // Hombre bermudas
+          {
+            "url": "/hombre/ropa/bermudas",
+            "htmlId": "schema-hombre-bermudas",
+            "data": {
+              "@context": "https://schema.org/",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://www.pilatos.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Ropa para Hombre",
+                  "item": "https://www.pilatos.com/hombre/ropa/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Bermudas para hombre",
+                  "item": "https://www.pilatos.com/hombre/ropa/bermudas"
+                }
+              ]
+            }
+          },
+          // Hombre sudaderas
+          {
+            "url": "/hombre/ropa/sudaderas",
+            "htmlId": "schema-hombre-sudaderas",
+            "data": {
+              "@context": "https://schema.org/",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://www.pilatos.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Ropa para Hombre",
+                  "item": "https://www.pilatos.com/hombre/ropa/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Pantalones de sudadera hombre",
+                  "item": "https://www.pilatos.com/hombre/ropa/sudaderas"
+                }
+              ]
+            }
+          }
+        ]
+        ]
+       }
+         }
+        
+          }
+        

@@ -4057,6 +4057,14 @@ width: 88%;
 }
 /*******LANDING DEPORTIVA*****/
 
+
+/*gift card*/
+
+.flexCol--contenedor-botonGiftCard{
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
 /*******LANDING MARCAS********/
 .flexRow--contenedor-marcas {
   width: 80%;
