@@ -4061,6 +4061,48 @@ width: 88%;
 /*gift card*/
 
 .flexCol--contenedor-botonGiftCard{
-
   align-items: center;
+  margin-top: 1.5rem;
 }
+
+/*******LANDING MARCAS********/
+.flexRow--contenedor-marcas {
+  width: 80%;
+  margin: 0 auto;
+}
+.flexCol--contenedor-marcas-columnas {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 50px;
+}
+.flexColChild--contenedor-marcas-columnas {
+  width: 100%;
+}
+
+.vtex-rich-text-0-x-container--titulo-marca {
+  border: 1px solid #646262;
+}
+
+.flexCol--marca-individual {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80% !important;
+}
+
+.flexColChild--marca-individual {
+  width: 100%;
+}
+
+.flexColChild--marcas-contenedor-individuales :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  justify-content: left;
+}
+
+@media screen and (max-width: 768px) {
+  .flexCol--contenedor-marcas-columnas {
+    flex-direction: column;
+  }
+}
+/*******LANDING MARCAS********/
