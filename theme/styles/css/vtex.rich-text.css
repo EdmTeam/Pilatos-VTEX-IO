@@ -3927,3 +3927,17 @@ margin: 2px;
   transition: background-color 0.2s ease-in;
 }
 /****LANDING DEPORTIVA***/
+
+/*******LANDING MARCAS********/
+.paragraph--marca-individual-texto {
+  font-size: 14px;
+}
+.link--marca-individual-texto {
+  text-decoration: none;
+  color: #000;
+}
+.wrapper--titulo-marca {
+  width: 100%;
+  border-bottom: 1px solid #646262;
+}
+/*******LANDING MARCAS********/
