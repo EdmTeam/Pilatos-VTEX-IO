@@ -2458,6 +2458,21 @@ margin: 70px;
   margin: .65rem 0;
 }
 
+.wrapper--textSubcategoryPilatos .image--textSubcategoryPilatos,
+.wrapper--contentSubMenuAcordeon .image--contentSubMenuAcordeon {
+  max-width: 120px;
+}
+
+.wrapper--contentSubMenuAcordeon {
+  width: 100%;
+}
+
+.paragraph--textSubcategoryPilatos,
+.paragraph--contentSubMenuAcordeon {
+  display: flex;
+  justify-content: space-between;
+}
+
 .wrapper--contentSubMenuAcordeon .link {
   text-decoration: none;
   color: #000;
