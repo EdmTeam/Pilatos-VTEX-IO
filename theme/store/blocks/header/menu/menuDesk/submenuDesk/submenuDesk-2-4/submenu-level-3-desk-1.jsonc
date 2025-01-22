@@ -25,9 +25,10 @@
         "rich-text#submenu-desk-department-4-category-23", //Celio
         "rich-text#submenu-desk-department-4-category-33", //champions
         "rich-text#converse__marcas--menu", //converse
-        "rich-text#dcshoes__marcas--menu", //dcshoes
+        "rich-text#dcshoes-1__marcas--menu", //dcshoes
         "rich-text#submenu-desk-department-4-category-61", //Devier
         "rich-text#submenu-desk-department-4-category-32", //ecovessel
+        "rich-text#submenu-desk-department-4-category-32.1", //Emmir Miliano
         "rich-text#submenu-desk-department-4-category-63", //Franques
         "rich-text#submenu-desk-department-4-category-31", //FJALL
         "rich-text#submenu-desk-department-4-category-17", //goorin
@@ -84,7 +85,7 @@
       "rich-text#submenu-desk-department-4-category-1-pilatos",  //Pilatos
       "rich-text#submenu-desk-department-4-category-2", //Diesel
       "rich-text#submenu-desk-department-4-category-3", //Superdry
-      "rich-text#submenu-desk-department-4-category-4", //kipling
+      "rich-text#submenu-desk-department-4-category-4.1", //kipling
       "rich-text#submenu-desk-department-4-category-5", //Marithe girbaud
       "rich-text#submenu-desk-department-4-category-6",  //replay
       "rich-text#submenu-desk-department-4-category-7"  //new-balance
@@ -262,10 +263,10 @@
         }
     },
 
-    "rich-text#submenu-desk-department-4-category-4":{
+    "rich-text#submenu-desk-department-4-category-4.1":{
         "props":{
-            "text": "[Kipling](/kipling) ![Kipling](/arquivos/Pilatos-LogosMarcas-Kipling.png)",
-            "blockClass": "textSubcategory"
+            "text": "[Kipling](/kipling) ![Kipling](/arquivos/Logo_Kipling-nuevo-2.png)",
+            "blockClass": ["textSubcategory", "logo-kipling-menu"]
         }
     },
 
@@ -333,11 +334,11 @@
         }
     },
 
-    "rich-text#dcshoes__marcas--menu":{
+    "rich-text#dcshoes-1__marcas--menu":{
     "title": "DC shoes",
         "props":{
-            "text": "[Dcshoes](/dcshoes) ![Agua Bendita](/arquivos/Pilatos-LogosMarcas-AguaBendita.png)",
-            "blockClass": "textSubcategory"
+            "text": "[Dcshoes](/dcshoes) ![Dcshoes](/arquivos/dc-logo-nuevo.png)",
+            "blockClass": ["textSubcategory", "logo-dcshoes-menu"]
         }
     },
 
@@ -427,6 +428,14 @@
             "blockClass": "textSubcategory"
         }
     },
+
+    "rich-text#submenu-desk-department-4-category-32.1":{
+        "props":{
+            "text": "[Emmir Milano](/emmir-milano) ![Emmir Milano](/arquivos/Pilatos-LogosMarcas-emmirmilano.jpg)",
+            "blockClass": "textSubcategory"
+        }
+    },
+
     "rich-text#submenu-desk-department-4-category-33":{
         "props":{
             "text": "[Champion](/champion) ![Champion](/arquivos/Pilatos-LogosMarcas-Champion.png)",

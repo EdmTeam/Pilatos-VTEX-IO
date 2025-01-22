@@ -33,6 +33,7 @@
       "rich-text#submenu-desk-department-2-category-7-subcategory-30", //Fjallraven mujer
       "rich-text#submenu-desk-department-2-category-7-subcategory-31", //sprayground mujer
       "rich-text#submenu-desk-department-2-category-7-subcategory-32", //ECOVESSEL mujer
+      "rich-text#submenu-desk-department-2-category-7-subcategory-32.1", // EMIR MILANO
       "rich-text#submenu-desk-department-2-category-7-subcategory-33", //BROOKS mujer
       "rich-text#submenu-desk-department-2-category-7-subcategory-34", //Pepe jeans mujer
       "rich-text#submenu-desk-department-2-category-7-subcategory-35", //Superga mujer
@@ -93,6 +94,13 @@
   "rich-text#submenu-desk-department-2-category-7-subcategory-32": {
     "props": {
       "text": "[Ecovessel](/mujer/ecovessel?map=category-1,marca)",
+      "blockClass": ["textSubcategory"]
+    }
+  },
+
+  "rich-text#submenu-desk-department-2-category-7-subcategory-32.1": {
+    "props": {
+      "text": "[Emmir Milano](/emmir-milano)",
       "blockClass": ["textSubcategory"]
     }
   },
