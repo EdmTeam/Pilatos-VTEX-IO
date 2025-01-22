@@ -3941,3 +3941,11 @@ margin: 2px;
   border-bottom: 1px solid #646262;
 }
 /*******LANDING MARCAS********/
+
+.paragraph--textSubcategory .image--logo-kipling-menu {
+  width: 50px !important;
+}
+
+.paragraph--textSubcategory .image--logo-dcshoes-menu {
+  width: 20px !important;
+}

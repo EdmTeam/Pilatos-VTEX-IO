@@ -36,6 +36,7 @@
             "rich-text#submenu-desk-department-4-category-60-sprayground-10", //sprayground
             "rich-text#submenu-desk-department-4-category-60-calvin-klein-11", //calvin-klein
             "rich-text#submenu-desk-department-4-category-60-ecovessel-12", //ecovessel
+            "rich-text#submenu-desk-department-4-category-60-emmirmilano-12", //emmir milano
             "rich-text#submenu-desk-department-4-category-60-brooks-13", //brooks
             "rich-text#submenu-desk-department-4-category-60-pepe-jeans-14", //pepe-jeans
             "rich-text#submenu-desk-department-4-category-60-superga-15", //superga
@@ -140,6 +141,13 @@
     "rich-text#submenu-desk-department-4-category-60-ecovessel-12":{
         "props":{
             "text": "[Ecovessel](/hombre/ecovessel?map=category-1,marca)",
+            "blockClass": "textSubcategory"
+        }
+    },
+
+    "rich-text#submenu-desk-department-4-category-60-emmirmilano-12":{
+        "props":{
+            "text": "[Emmir Milano](/emmir-milano)",
             "blockClass": "textSubcategory"
         }
     },

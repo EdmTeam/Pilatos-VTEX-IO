@@ -39,6 +39,7 @@
             "rich-text#submenu-level-2-item-35-row-7", //sprayground
             "rich-text#submenu-level-2-item-35-row-77", //calvin kley
             "rich-text#submenu-level-2-item-32-row-7", //ecovessel
+            "rich-text#submenu-level-2-item-32-row-7.1", //emmir miliano
             "rich-text#submenu-level-2-item-7-row-7",
             "rich-text#submenu-level-2-item-12-row-7",
             "rich-text#submenu-level-2-item-14-row-7",
@@ -422,6 +423,12 @@
     "rich-text#submenu-level-2-item-32-row-7":{
         "props":{
             "text": "[Ecovessel](/ecovessel)",
+            "blockClass": "contentSubMenuAcordeon"
+        }
+    },
+    "rich-text#submenu-level-2-item-32-row-7.1":{
+        "props":{
+            "text": "[Emmir Milano](/emmir-milano)",
             "blockClass": "contentSubMenuAcordeon"
         }
     },
