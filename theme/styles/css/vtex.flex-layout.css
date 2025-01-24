@@ -3004,7 +3004,8 @@
 
 .flexRowContent--subContenItems1-2{
   height: 420px;
-  margin-top: 1rem;
+  margin-top: 42px;
+  padding: 0;
 }
 
 .flexCol--contentBlockSubmenu2{
@@ -4106,3 +4107,28 @@ width: 88%;
   }
 }
 /*******LANDING MARCAS********/
+
+.flexRowContent--subContenItems1-2 .stretchChildrenWidth {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexRowContent--subContenItems1-2 :global(.vtex-disclosure-layout-1-x-trigger--content-a-i--hidden) :global(.vtex-store-icons-0-x-caretIcon) {
+  display: none;
+}
+
+.flexRowContent--subContenItems1-2 :global(.vtex-disclosure-layout-1-x-trigger--content-a-i--hidden)::after {
+  content: '\e904';
+  font-family: 'icomoon' !important;
+  color: #3F3F40;
+}
+
+.flexRowContent--subContenItems1-2 :global(.vtex-disclosure-layout-1-x-trigger--content-a-i--visible) :global(.vtex-store-icons-0-x-caretIcon) {
+  display: none;
+}
+
+.flexRowContent--subContenItems1-2 :global(.vtex-disclosure-layout-1-x-trigger--content-a-i--visible)::after {
+  content: '\e920';
+  font-family: 'icomoon' !important;
+  color: #3F3F40;
+}

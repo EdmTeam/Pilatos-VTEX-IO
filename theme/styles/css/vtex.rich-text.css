@@ -2456,10 +2456,12 @@ margin: 70px;
   letter-spacing: .02em;
   color: #000;
   margin: .65rem 0;
+  gap: 9px;
 }
 
 .wrapper--textSubcategoryPilatos .image--textSubcategoryPilatos,
 .wrapper--contentSubMenuAcordeon .image--contentSubMenuAcordeon {
+  width: 50%;
   max-width: 120px;
 }
 
@@ -2475,7 +2477,13 @@ margin: 70px;
 
 .wrapper--contentSubMenuAcordeon .link {
   text-decoration: none;
-  color: #000;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.4px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #646262;
 }
 
 .wrapper--contentSubMenuAcordeon .link:hover {
@@ -3963,4 +3971,29 @@ margin: 2px;
 
 .paragraph--textSubcategory .image--logo-dcshoes-menu {
   width: 20px !important;
+}
+
+/* menu mobile  */
+
+.container--content-a-i {
+  width: 95%;
+  justify-content: center;
+}
+
+.paragraph--content-a-i {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 2px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #000000;
+  margin-top: 6px;
+  margin-bottom: 12px;
+}
+
+.container--contentSubMenuAcordeon {
+  margin-left: 29px;
+  margin-right: 29px;
 }
