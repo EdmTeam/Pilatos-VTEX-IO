@@ -2450,6 +2450,7 @@ margin: 70px;
 }
 
 .wrapper--contentSubMenuAcordeon .paragraph {
+  align-items: center;
   font-weight: 700;
   font-size: 14px;
   line-height: 13px;
@@ -2457,6 +2458,8 @@ margin: 70px;
   color: #000;
   margin: .65rem 0;
   gap: 9px;
+  margin-top: 7px;
+  margin-bottom: 7px;
 }
 
 .wrapper--textSubcategoryPilatos .image--textSubcategoryPilatos,

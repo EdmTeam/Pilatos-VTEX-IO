@@ -4111,6 +4111,8 @@ width: 88%;
 .flexRowContent--subContenItems1-2 .stretchChildrenWidth {
   display: flex;
   flex-direction: column;
+  padding-left: 23px;
+  padding-right: 23px;
 }
 
 .flexRowContent--subContenItems1-2 :global(.vtex-disclosure-layout-1-x-trigger--content-a-i--hidden) :global(.vtex-store-icons-0-x-caretIcon) {
