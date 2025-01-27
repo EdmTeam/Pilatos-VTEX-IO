@@ -36,3 +36,16 @@
     margin: 0 auto;
   }
 }
+
+/* menu mobile */
+
+.trigger--content-a-i--hidden,
+.trigger--content-a-i--visible {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: none;
+  background-color: #fff;
+  border-bottom: 0.69px solid #767272;
+  margin-bottom: 6px;
+}
