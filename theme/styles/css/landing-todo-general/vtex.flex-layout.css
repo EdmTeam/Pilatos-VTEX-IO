@@ -1,0 +1,76 @@
+.flexRow--seo-texto-general-contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    line-height: 1.5;
+
+}
+
+.flexRow--contenedor-genero-botnes {
+    display: flex;
+ 
+}
+
+.flexRowContent--contenedor-genero-botnes{
+    gap: 2rem;
+
+}
+
+
+@media (max-width: 768px) {
+
+    .flexRowContent--contenedor-genero-botnes {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        flex-wrap: nowrap;
+        margin-right: 1rem;
+    }
+}
+
+
+
+.flexRow--contenedor-categorias-general {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.flexRowContent--contenedor-categorias-general{
+
+    gap: 2rem;
+}
+
+@media (max-width: 768px) {
+    .flexRow--contenedor-categorias-general {
+        Flex-wrap:wrap
+    }
+
+    .flexRow--categoria-botones-layout{ 
+
+        display: flex;
+    }
+
+    .flexRowContent--categoria-botones-layout{
+        display: flex;
+        gap: 2rem;
+      
+    }
+
+
+     }
+    
+    .flexRowContent--categoria-botones-layout{
+        display: flex;
+      
+    }
+
+    .flexCol--categoria-fila-botones{
+        justify-content: center;
+        align-items: center;
+    }
