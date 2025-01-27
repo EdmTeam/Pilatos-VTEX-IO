@@ -1,0 +1,442 @@
+{
+    "store.custom#landing-todo-general": {
+        "title": "Landing todo general",
+        "blocks": [
+            "experimental__visibility-layout#texto-seo-general",
+            "experimental__visibility-layout#banner-landing-general",
+            "experimental__visibility-layout#botones-genero-landing-general",
+         "responsive-layout.mobile#botones-categoria-general-mobile",
+         "responsive-layout.desktop#botones-categoria-general-desk",
+          "search-result-layout.customQuery#vitrina-pilatos-general"
+ 
+            
+           
+        ]
+    },
+
+  
+
+    /* texto seo general*/
+
+    "experimental__visibility-layout#texto-seo-general": {
+        "title": "texto seo general",
+        "children": [
+            "flex-layout.row#texto-seo-general"
+        ],
+        "props": {
+            "visible": true
+        }
+    },
+
+
+       "flex-layout.row#texto-seo-general":{
+
+        "title": "texto seo principal",
+        "children": [
+
+            "rich-text#texto-seo-contenido"
+        ],
+        "props": {
+            "blockClass": "seo-texto-general-contenedor"
+        }
+       },
+
+        "rich-text#texto-seo-contenido": {
+
+            "props": {
+      "text": "**Texto SEO**  \nis simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+      "blockClass": "seo-content-general",
+      "textAlignment": "CENTER"
+    }
+        },
+
+
+       // banner landing
+        
+         "experimental__visibility-layout#banner-landing-general":{
+
+
+            "title": "banner landing general",
+            "children": [
+                "flex-layout.row#bannerActivaciones-general"
+            ],
+            "props": {
+                "visible": true
+            }
+         },
+
+       "flex-layout.row#bannerActivaciones-general":{
+        "title": "BANNER LANDING",
+        "children": [
+          "list-context.image-list#bannerActivaciones-general"
+        ],
+        "props": {
+          "blockClass": "banner-activaciones-imagen-form"
+    
+        }
+      },
+    
+      "list-context.image-list#bannerActivaciones-general": {
+        "children": [
+            "slider-layout#bannerActivaciones-general"
+        ],
+        "props": {
+            "height": 570,
+            "preload": true,
+            "images": [
+                {
+                    "image": "https://replaycolombia.vtexassets.com/assets/vtex.file-manager-graphql/images/e4638487-8fc3-40a1-bab9-112d1c4c94fd___823e0ae2368120ce9380a7913ee46296.jpg",
+                    "mobileImage": "https://replaycolombia.vtexassets.com/assets/vtex.file-manager-graphql/images/5d63dd47-a0ee-41d4-a38d-3fdf1d9d2fe3___9bb528b46541f7614caf5968ff1a7ec4.jpg"
+                }
+            ]
+        }
+    },
+    
+    "slider-layout#bannerActivaciones-general": {
+        "title": "Productos",
+        "props": {
+          "itemsPerPage": {
+            "desktop": 30,
+            "tablet": 30,
+            "phone": 30
+          },
+          "showNavigationArrows": "desktopOnly",
+          "showPaginationDots": "never",
+          "infinite": false,
+          "fullWidth": true,
+          "blockClass": "slide__banner"
+        }
+      },
+
+
+
+          /*BOTONES GENERO*/
+    "experimental__visibility-layout#botones-genero-landing-general": {
+        "title": "botones genero landing general",
+        "children": [
+            "flex-layout.row#genero-botones-generales"
+        ],
+        "props": {
+            "visible": true
+        }
+    },
+
+ "flex-layout.row#genero-botones-generales": {
+    "children": [
+      "rich-text#genero-men-general",
+      "rich-text#genero-women-general"
+    ],
+    "props": {
+      "blockClass": "contenedor-genero-botnes"
+    }
+  },
+  "rich-text#genero-men-general": {
+    "props": {
+      "text": "[Hombre](/pilatos)",
+      "blockClass": "genero-hombre-boton"
+    }
+  },
+  "rich-text#genero-women-general": {
+    "props": {
+      "text": "[Mujer](/pilatos)",
+      "blockClass": "genero-mujer-boton"
+    }
+  },
+
+
+
+  /*BOTONES CATEGORIA*/
+
+"responsive-layout.desktop#botones-categoria-general-desk":{
+
+    "title": "Botones categoría landing general Desktop",
+    "children": [
+        "experimental__visibility-layout#botones-categoria-landing-general"
+    ]
+     },
+
+  "experimental__visibility-layout#botones-categoria-landing-general": {
+    "title": "botones categoria landing general",
+    "children": [
+        "flex-layout.row#categoria-botnes-generales"
+    ],
+    "props": {
+        "visible": true
+    }
+},
+
+"flex-layout.row#categoria-botnes-generales":{
+"title": "CATEGORIA BOTONES",
+"children": [
+
+    "rich-text#categoria-general-1",
+    "rich-text#categoria-general-2",
+    "rich-text#categoria-general-3",
+    "rich-text#categoria-general-4"
+],
+"props": {
+  "blockClass": "contenedor-categorias-general"
+}
+
+},
+
+"rich-text#categoria-general-1": {
+    "props": {
+      "text": "[Camisetas](/pilatos)",
+      "blockClass": "boton-categoria-1"
+    }
+  },
+  "rich-text#categoria-general-2": {
+    "props": {
+      "text": "[Tenis](/pilatos)",
+      "blockClass": "boton-categoria-2"
+    }
+  },
+  "rich-text#categoria-general-3": {
+    "props": {
+      "text": "[Jeans](/pilatos)",
+      "blockClass": "boton-categoria-3"
+    }
+  },
+  "rich-text#categoria-general-4": {
+    "props": {
+      "text": "[Chaquetas](/pilatos)",
+      "blockClass": "boton-categoria-4"
+    }
+  },
+
+  //BOTONES CATEGORIA MOBILE
+
+  "responsive-layout.mobile#botones-categoria-general-mobile":{
+
+    "title": "Botones categoría landing general mobile",
+    "children": [
+        "experimental__visibility-layout#botones-categoria-general-mobile"
+    ]
+},
+
+
+
+"experimental__visibility-layout#botones-categoria-general-mobile": {
+  "title": "Botones categoría landing general",
+  "children": [
+    "flex-layout.row#categoria-botones-responsivo-mobile"
+  ],
+  "props": {
+    "visible": true
+  }
+},
+
+"flex-layout.row#categoria-botones-responsivo-mobile": {
+  "title": "columnas Botones categoría landing general",
+  "children": [
+    "flex-layout.col#categoria-botones-fila-1",
+    "flex-layout.col#categoria-botones-fila-2"
+  ],
+  "props": {
+    "blockClass": "categoria-botones-layout"
+  }
+},
+
+"flex-layout.col#categoria-botones-fila-1": {
+  "title": "Botones categoría 1 y 2",
+  "children": [
+    "rich-text#categoria-general-1-mobile",
+    "rich-text#categoria-general-2-mobile"
+  ],
+  "props": {
+    "blockClass": "categoria-fila-botones"
+  }
+},
+
+"flex-layout.col#categoria-botones-fila-2": {
+  "title": "botones categoria 3 y 4",
+  "children": [
+    "rich-text#categoria-general-3-mobile",
+    "rich-text#categoria-general-4-mobile"
+  ],
+  "props": {
+    "blockClass": "categoria-fila-botones"
+  }
+},
+
+"rich-text#categoria-general-1-mobile": {
+  "props": {
+    "text": "[Camisetas2](/pilatos)",
+    "blockClass": "boton-1-categoria-lgeneral-mobile"
+  }
+},
+"rich-text#categoria-general-2-mobile": {
+  "props": {
+    "text": "[Tenis2](/pilatos)",
+    "blockClass": "boton-2-categoria-lgeneral-mobile"
+  }
+},
+"rich-text#categoria-general-3-mobile": {
+  "props": {
+    "text": "[Jeans2](/pilatos)",
+    "blockClass": "boton-3-categoria-lgeneral-mobile"
+  }
+},
+"rich-text#categoria-general-4-mobile": {
+  "props": {
+    "text": "[Chaquetas2](/pilatos)",
+    "blockClass": "boton-4-categoria-lgeneral-mobile"
+  }
+},
+
+
+// VITRINA LANDING GENERAL
+
+ "search-result-layout.customQuery#vitrina-pilatos-general":{
+  "title": "Vitrina general productos",
+  "blocks": [
+    "search-result-layout.desktop#vitrina-general",
+   "search-result-layout.mobile#vitrina-general"
+  ],
+  "props": {
+    "querySchema": {
+      "orderByField": "OrderByScoreDESC",
+      "hideUnavailableItems": true,
+      "maxItemsPerPage": 48,
+      "queryField": "2022",
+      "mapField": "productClusterIds"
+    }
+  }
+
+
+ },
+
+ // VITRINA DESKTOP
+  "search-result-layout.desktop#vitrina-general":{
+"title": "Botones categoría landing general DESKTOP",
+    "children": [
+      "seo-schema-plp",
+      "flex-layout.row#banner-search",
+      "flex-layout.row#bread-crumb",
+      "flex-layout.row#search-info",
+      "flex-layout.row#search-info-desk-new",
+      "flex-layout.row#result",
+      "flex-layout.row#spacer",
+      "rich-text#filtro-seo",
+      "back-to-top-button"
+        ],
+    "props": {
+      "preventRouteChange": true,
+      "hideUnavailableItems": true,
+      "showFacetQuantity": true,
+     "showProductsCount": true,
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      },
+      "__unstableProductOriginVtex": true,
+      "hiddenFacets": {
+        "specificationFilters": {
+          "hiddenFilters": [
+            {
+              "name": "Material"
+            },
+
+            {
+              "name": "Alto (Cm)"
+            },
+            {
+              "name": "Ancho (Cm)"
+            },
+            {
+              "name": "Breve Descripción"
+            },
+            {
+              "name": "Descripción"
+            },
+            {
+              "name": "Color"
+            },
+            {
+              "name": "Tipo"
+            },
+            {
+              "name": "Categoría"
+            },
+            {
+              "name": "Colores"
+            }
+          ]
+        }
+      }
+    }
+
+  },
+
+   // VITRINA MOBILE
+
+   "search-result-layout.mobile#vitrina-general": {
+    "title": "Botones categoría landing general MOBILE",  
+    "children": [
+      "flex-layout.row#banner-search-mobile",
+      "flex-layout.row#bread-crumb",
+      "flex-layout.row#suggestion",
+      "flex-layout.row#product-count-mobile",
+      "flex-layout.row#search-info-mobile-pilatos",
+      "flex-layout.row#fetch-previous",
+      "flex-layout.row#content-mobile",
+      "flex-layout.row#fetch-more",
+      "rich-text#filtro-seo",
+      "back-to-top-button"
+    ],
+    "props": {
+        "showProductsCount": true,
+        "blockClass": "searchResultMobile",
+        "preventRouteChange": true,
+        "hiddenFacets": {
+            "specificationFilters": {
+                "hiddenFilters": [
+                   {
+                    "name": "Brand"
+                    },
+                    {
+                    "name": "Department"
+                    },
+                    {
+                    "name": "Category"
+                    },
+                    {
+                    "name": "Subcategory"
+                    },
+                    {
+                    "name": "Material"
+                    },
+                    {
+                    "name": "Alto (Cm)"
+                    },
+                    {
+                    "name": "Ancho (Cm)"
+                    },
+                    {
+                    "name": "Breve Descripción"
+                    },
+                    {
+                    "name": "Descripción"
+                    },
+                    {
+                    "name": "Material"
+                    },
+                    {
+                      "name": "Color"
+                    },
+                    {
+                        "name": "Categoría"
+                  }
+                ]
+            }
+        },
+        "__unstableProductOriginVtex": true,
+        "mobileLayout": {
+            "mode1": "small",
+            "mode2": "normal"
+        }
+    }
+}
+
+         }

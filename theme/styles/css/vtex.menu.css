@@ -327,3 +327,8 @@
     height: 470px;
     overflow-y: auto;
 }
+
+.styledLinkContainer--menu__sale-desk{
+
+    padding-top: 2.1rem;
+}
