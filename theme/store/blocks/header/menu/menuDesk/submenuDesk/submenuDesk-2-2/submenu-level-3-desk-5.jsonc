@@ -8,11 +8,11 @@
     "flex-layout.col#submenu-desk-department-2-category-5-row-1":{
         "children":[
             "rich-text#submenu-desk-department-2-category-5",
-            "rich-text#submenu-desk-department-2-category-5-subcategory-3",
+            "rich-text#submenu-desk-department-2-category-5-subcategory-6",
             "rich-text#submenu-desk-department-2-category-5-subcategory-4",
             "rich-text#submenu-desk-department-2-category-5-subcategory-5",
-            "rich-text#submenu-desk-department-2-category-5-subcategory-6",
-            "rich-text#submenu-desk-department-2-category-5-subcategory-7"
+            "rich-text#submenu-desk-department-2-category-5-subcategory-7",
+            "rich-text#submenu-desk-department-2-category-5-subcategory-3"
 
         ],
         "props":{

@@ -45,7 +45,7 @@
         "props":{
             "text": "VER TODO NIÑOS",
             "blockClass": "submenulink",
-            "width": "21%"
+            "width": "13%"
         }
     },
 
@@ -81,7 +81,7 @@
         ],
         "props":{
             "width": "30%",
-            "blockClass": "contentdepartmentImg"     
+            "blockClass": "contentdepartmentImg"
         }
     },
 

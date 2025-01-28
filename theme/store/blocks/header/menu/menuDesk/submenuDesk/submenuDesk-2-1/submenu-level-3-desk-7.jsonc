@@ -1,313 +1,336 @@
 {
-    "flex-layout.col#submenu-desk-department-1-category-7":{
-        "children":[
-            "flex-layout.col#submenu-desk-department-1-category-7-row-1"
-        ]
-    },
-
-    "flex-layout.col#submenu-desk-department-1-category-7-row-1":{
-        "children":[
-            "rich-text#submenu-desk-department-1-category-7",
-            "rich-text#submenu-desk-department-1-category-7-subcategory-1",
-            "rich-text#submenu-desk-department-1-category-7-subcategory-2",
-            "rich-text#submenu-desk-department-1-category-7-subcategory-3",
-            "rich-text#submenu-desk-department-1-category-7-subcategory-4",
-            "rich-text#submenu-desk-department-1-category-7-subcategory-5",
-            "rich-text#submenu-desk-department-1-category-7-subcategory-6",
-            "rich-text#submenu-desk-department-1-category-7-subcategory-22",
-            "rich-text#submenu-desk-department-1-category-7-subcategory-10",
-            "rich-text#submenu-desk-department-1-category-7-subcategory-14",
-            "rich-text#submenu-desk-department-1-category-7-subcategory-15",
-            "rich-text#submenu-desk-department-1-category-7-subcategory-16",
-            "rich-text#submenu-desk-department-1-category-7-subcategory-17",
-            "rich-text#submenu-desk-department-1-category-7-subcategory-18",
-            "rich-text#submenu-desk-department-1-category-7-subcategory-19",
-            "rich-text#submenu-desk-department-1-category-7-subcategory-20",
-            "rich-text#submenu-desk-department-4-category-60-francques-2", //Franques
-            "rich-text#submenu-desk-department-4-category-60-monastery-1", //Monastery
-            "rich-text#submenu-desk-department-4-category-60-vans-2", //vans
-            "rich-text#submenu-desk-department-4-category-60-new-era-3", //New Era
-            "rich-text#submenu-desk-department-4-category-60-lacoste-4", //Lacoste
-            "rich-text#submenu-desk-department-4-category-60-champion-5", //champion
-            "rich-text#submenu-desk-department-4-category-60-ap-crown-6", //ap-crown
-            "rich-text#submenu-desk-department-4-category-60-alpinestar-7", //alpinestar
-            "rich-text#submenu-desk-department-4-category-60-on-8", //on
-            "rich-text#submenu-desk-department-4-category-60-fjallraven-9", //Fjallraven
-            "rich-text#submenu-desk-department-4-category-60-sprayground-10", //sprayground
-            "rich-text#submenu-desk-department-4-category-60-calvin-klein-11", //calvin-klein
-            "rich-text#submenu-desk-department-4-category-60-ecovessel-12", //ecovessel
-            "rich-text#submenu-desk-department-4-category-60-emmirmilano-12", //emmir milano
-            "rich-text#submenu-desk-department-4-category-60-brooks-13", //brooks
-            "rich-text#submenu-desk-department-4-category-60-pepe-jeans-14", //pepe-jeans
-            "rich-text#submenu-desk-department-4-category-60-superga-15", //superga
-            "rich-text#submenu-desk-department-4-category-60-jansport-16", //jansport
-            "rich-text#submenu-desk-department-4-category-60-kappa-17", //kappa
-            "rich-text#submenu-desk-department-4-category-60-the-north-face-18", //the-north-face
-            "rich-text#submenu-desk-department-4-category-60-artdist-19", //artdist
-            "rich-text#submenu-desk-department-4-category-61", // Devier
-            "rich-text#submenu-desk-department-4-category-62" //blackout
-            
-
-                ],
-        "props":{
-            "blockClass": "contentBlockSubmenu"
-        }
-    },
-
-    "rich-text#submenu-desk-department-1-category-7":{
-        "props":{
-            "text": "MARCAS",
-            "blockClass": "textCategory"
-        }
-    },
-
-    "rich-text#submenu-desk-department-4-category-60-fjallraven-9":{
-        "props":{
-            "text": "[Fjall Raven](/hombre/fjall-raven?map=category-1,marca)",
-            "blockClass": "textSubcategory"
-        }
-    },
-
-    "rich-text#submenu-desk-department-4-category-60-on-8":{
-        "props":{
-            "text": "[ON](/hombre/on?map=category-1,marca)",
-            "blockClass": "textSubcategory"
-        }
-    },
-
-    "rich-text#submenu-desk-department-4-category-60-alpinestar-7":{
-        "props":{
-            "text": "[Alpinestars](/hombre/alpinestars?map=category-1,marca)",
-            "blockClass": "textSubcategory"
-        }
-    },
-
-    "rich-text#submenu-desk-department-4-category-60-ap-crown-6":{
-        "props":{
-            "text": "[Ap Crown](/hombre/ap-crown?map=category-1,marca)",
-            "blockClass": "textSubcategory"
-        }
-    },
-
-    "rich-text#submenu-desk-department-4-category-60-champion-5":{
-        "props":{
-            "text": "[Champion](/champions-hombre)",
-            "blockClass": "textSubcategory"
-        }
-    },
-
-    "rich-text#submenu-desk-department-4-category-60-lacoste-4":{
-        "props":{
-            "text": "[Lacoste](/hombre/lacoste?map=category-1,marca)",
-            "blockClass": "textSubcategory"
-        }
-    },
-
-    "rich-text#submenu-desk-department-4-category-60-new-era-3":{
-        "props":{
-            "text": "[New Era](/hombre/new-era?map=category-1,marca)",
-            "blockClass": "textSubcategory"
-        }
-    },
-
-    "rich-text#submenu-desk-department-4-category-60-vans-2":{
-        "props":{
-            "text": "[Vans](/hombre/vans?map=category-1,marca)",
-            "blockClass": "textSubcategory"
-        }
-    },
-
-    "rich-text#submenu-desk-department-4-category-60-monastery-1":{
-        "props":{
-            "text": "[Monastery](/monastery-hombre)",
-            "blockClass": "textSubcategory"
-        }
-    },
-
-    "rich-text#submenu-desk-department-4-category-60-sprayground-10":{
-        "props":{
-            "text": "[Sprayground](/hombre/sprayground?map=category-1,marca)",
-            "blockClass": "textSubcategory"
-        }
-    },
-
-    "rich-text#submenu-desk-department-4-category-60-calvin-klein-11":{
-        "props":{
-            "text": "[Calvin Klein](/calvin-klein)",
-            "blockClass": "textSubcategory"
-        }
-    },
-
-    "rich-text#submenu-desk-department-4-category-60-ecovessel-12":{
-        "props":{
-            "text": "[Ecovessel](/hombre/ecovessel?map=category-1,marca)",
-            "blockClass": "textSubcategory"
-        }
-    },
-
-    "rich-text#submenu-desk-department-4-category-60-emmirmilano-12":{
-        "props":{
-            "text": "[Emmir Milano](/emmir-milano)",
-            "blockClass": "textSubcategory"
-        }
-    },
-
-    "rich-text#submenu-desk-department-4-category-60-brooks-13":{
-        "props":{
-            "text": "[Brooks](/hombre/brooks?map=category-1,marca)",
-            "blockClass": "textSubcategory"
-        }
-    },
-
-    "rich-text#submenu-desk-department-4-category-60-pepe-jeans-14":{
-        "props":{
-            "text": "[Pepe Jeans](/hombre/pepe-jeans?map=category-1,marca)",
-            "blockClass": "textSubcategory"
-        }
-    },
-
-    "rich-text#submenu-desk-department-4-category-60-superga-15":{
-        "props":{
-            "text": "[Superga](/hombre/superga?map=category-1,marca)",
-            "blockClass": "textSubcategory"
-        }
-    },
-
-    "rich-text#submenu-desk-department-4-category-60-jansport-16":{
-        "props":{
-            "text": "[Jansport](/hombre/jansport?map=category-1,marca)",
-            "blockClass": "textSubcategory"
-        }
-    },
-
-    "rich-text#submenu-desk-department-4-category-60-kappa-17":{
-        "props":{
-            "text": "[Kappa](/hombre/kappa?map=category-1,marca)",
-            "blockClass": "textSubcategory"
-        }
-    },
-
-    "rich-text#submenu-desk-department-4-category-60-the-north-face-18":{
-        "props":{
-            "text": "[The North Face](/hombre/the-north-face?map=category-1,marca)",
-            "blockClass": "textSubcategory"
-        }
-    },
-
-    "rich-text#submenu-desk-department-4-category-60-artdist-19":{
-        "props":{
-            "text": "[Artdist](/artdist)",
-            "blockClass": "textSubcategory"
-        }
-    },
-
-    "rich-text#submenu-desk-department-1-category-7-subcategory-1":{
-        "props":{
-            "text": "[Pilatos](/hombre/pilatos?map=category-1,marca)",
-            "blockClass": [
-                "textSubcategory",
-                "textSubcategoryPilatos"
-            ]
-        }
-    },
-
-    "rich-text#submenu-desk-department-1-category-7-subcategory-2":{
-        "props":{
-            "text": "[Diesel](/hombre/diesel?map=category-1,marca)",
-            "blockClass": "textSubcategory"
-        }
-    },
-
-    "rich-text#submenu-desk-department-1-category-7-subcategory-3":{
-        "props":{
-            "text": "[Superdry](/hombre/superdry?map=category-1,marca)",
-            "blockClass": "textSubcategory"
-        }
-    },
-
-    "rich-text#submenu-desk-department-1-category-7-subcategory-4":{
-        "props":{
-            "text": "[Marithe Francois Girbaud](/hombre/marithe-francois-girbaud?map=category-1,marca)",
-            "blockClass": "textSubcategory"
-        }
-    },
-
-    "rich-text#submenu-desk-department-1-category-7-subcategory-5":{
-        "props":{
-            "text": "[Replay](/hombre/replay?map=category-1,marca)",
-            "blockClass": "textSubcategory"
-        }
-    },
-
-    "rich-text#submenu-desk-department-1-category-7-subcategory-6":{
-        "props":{
-            "text": "[New Balance](/hombre/new-balance?map=category-1,marca)",
-            "blockClass": "textSubcategory"
-        }
-    },
-
-
-    "rich-text#submenu-desk-department-1-category-7-subcategory-10":{
-        "props":{
-            "text": "[Agua Bendita](/hombre/agua-bendita?map=category-1,marca)",
-            "blockClass": "textSubcategory"
-        }
-    },
-
-    "rich-text#submenu-desk-department-1-category-7-subcategory-14":{
-        "props":{
-            "text": "[Goorin Bros](/hombre/goorin-bros?map=category-1,marca)",
-            "blockClass": "textSubcategory"
-        }
-    },
-
-    "rich-text#submenu-desk-department-1-category-7-subcategory-15":{
-        "props":{
-            "text": "[Le Coq Sportif](/hombre/le-coq-sportif?map=category-1,marca)",
-            "blockClass": "textSubcategory"
-        }
-    },
-
-    "rich-text#submenu-desk-department-1-category-7-subcategory-16":{
-        "props":{
-            "text": "[Oakley](/hombre/oakley?map=category-1,marca)",
-            "blockClass": "textSubcategory"
-        }
-    },
-
-    "rich-text#submenu-desk-department-1-category-7-subcategory-17":{
-        "props":{
-            "text": "[Quiksilver](/hombre/quiksilver?map=category-1,marca)",
-            "blockClass": "textSubcategory"
-        }
-    },
-
-    "rich-text#submenu-desk-department-1-category-7-subcategory-18":{
-        "props":{
-            "text": "[Ray Ban](/hombre/ray-ban?map=category-1,marca)",
-            "blockClass": "textSubcategory"
-        }
-    },
-
-    "rich-text#submenu-desk-department-1-category-7-subcategory-19":{
-        "props":{
-            "text": "[Stance](/hombre/stance?map=category-1,marca)",
-            "blockClass": "textSubcategory"
-        }
-    },
-
-    "rich-text#submenu-desk-department-1-category-7-subcategory-20":{
-        "props":{
-            "text": "[Celio](/hombre/celio?map=category-1,marca)",
-            "blockClass": "textSubcategory"
-        }
-    },
-
-
-    "rich-text#submenu-desk-department-1-category-7-subcategory-22":{
-        "props":{
-            "text": "[Nike](/hombre/nike?map=category-1,marca)",
-            "blockClass": "textSubcategory"
-        }
+  "flex-layout.col#submenu-desk-department-1-category-7": {
+    "children": [
+      "flex-layout.col#submenu-desk-department-1-category-7-row-1"
+    ]
+  },
+  "flex-layout.col#submenu-desk-department-1-category-8": {
+    "children": [
+      "flex-layout.col#submenu-desk-department-1-category-7-row-1-1"
+    ]
+  },
+  "flex-layout.col#submenu-desk-department-1-category-9": {
+    "children": [
+      "flex-layout.col#submenu-desk-department-1-category-7-row-1-2"
+    ]
+  },
+  "flex-layout.col#submenu-desk-department-1-category-7-row-1": {
+    "children": [
+      "rich-text#submenu-desk-department-1-category-7",
+      "rich-text#submenu-desk-department-1-category-7-subcategory-1",
+      "rich-text#submenu-desk-department-1-category-7-subcategory-2",
+      "rich-text#submenu-desk-department-1-category-7-subcategory-3",
+      "rich-text#submenu-desk-department-1-category-7-subcategory-3-1",
+      "rich-text#submenu-desk-department-1-category-7-subcategory-4",
+      "rich-text#submenu-desk-department-1-category-7-subcategory-5",
+      "rich-text#submenu-desk-department-1-category-7-subcategory-6"
+    ],
+    "props": {
+      "blockClass": "contentBlockSubmenu"
     }
+  },
+  "flex-layout.col#submenu-desk-department-1-category-7-row-1-1": {
+    "children": [
+      "rich-text#submenu-desk-department-1-category-7-1",
+      "rich-text#submenu-desk-department-1-category-7-subcategory-10", //agua-bendita
+      "rich-text#submenu-desk-department-4-category-60-alpinestar-7", //alpinestar
+      "rich-text#submenu-desk-department-4-category-60-ap-crown-6", //ap-crown
+      "rich-text#submenu-desk-department-4-category-blackout-62", //blackout
+      "rich-text#submenu-desk-department-4-category-60-brooks-13", //brooks
+      "rich-text#submenu-desk-department-4-category-60-calvin-klein-11", //calvin-klein
+      "rich-text#submenu-desk-department-4-category-60-champion-5", //champion
+      "rich-text#submenu-desk-department-4-category-60-converse-20", //Converse
+      /* "rich-text#submenu-desk-department-4-category-60-dcshoes-19", //Dcshoes */
+      "rich-text#submenu-desk-department-4-category-devier-61", // Devier
+      "rich-text#submenu-desk-department-4-category-60-ecovessel-12", //ecovessel/*
+      "rich-text#submenu-desk-department-4-category-60-emmirmilano-12", //emmir milano */
+      "rich-text#submenu-desk-department-4-category-60-fjallraven-9", //Fjallraven
+      "rich-text#submenu-desk-department-4-category-60-francques-2", //Franques
+      "rich-text#submenu-desk-department-1-category-7-subcategory-14", //Goorin-bros
+      "rich-text#submenu-desk-department-4-category-60-jansport-16", //jansport
+      "rich-text#submenu-desk-department-4-category-60-kappa-17" //kappa
+    ],
+    "props": {
+      "blockClass": "contentBlockSubmenu"
+    }
+  },
+
+  "flex-layout.col#submenu-desk-department-1-category-7-row-1-2": {
+    "children": [
+      "rich-text#submenu-desk-department-1-category-7-1",
+      "rich-text#submenu-desk-department-4-category-60-lacoste-4", //Lacoste
+      "rich-text#submenu-desk-department-1-category-7-subcategory-15", //Le-Coq-Sportif
+      "rich-text#submenu-desk-department-4-category-60-monastery-1", //Monastery
+      "rich-text#submenu-desk-department-4-category-60-new-era-3", //New Era
+      "rich-text#submenu-desk-department-1-category-7-subcategory-22", //Nike
+      "rich-text#submenu-desk-department-1-category-7-subcategory-16", //Oakley
+      "rich-text#submenu-desk-department-4-category-60-on-8", //on
+      "rich-text#submenu-desk-department-4-category-60-pepe-jeans-14", //pepe-jeans
+      "rich-text#submenu-desk-department-1-category-7-subcategory-17", //Quicksilver
+      "rich-text#submenu-desk-department-1-category-7-subcategory-18", //ray-ban
+      "rich-text#submenu-desk-department-1-category-7-subcategory-20", //Roxy
+      "rich-text#submenu-desk-department-4-category-60-sprayground-10", //sprayground
+      "rich-text#submenu-desk-department-1-category-7-subcategory-19", //Stance
+      "rich-text#submenu-desk-department-4-category-60-superga-15", //superga
+      "rich-text#submenu-desk-department-4-category-60-the-north-face-18", //the-north-face
+      "rich-text#submenu-desk-department-4-category-60-vans-2" //vans
+    ],
+    "props": {
+      "blockClass": "contentBlockSubmenu"
+    }
+  },
+
+  "rich-text#submenu-desk-department-1-category-7": {
+    "props": {
+      "text": "MARCAS",
+      "blockClass": "textCategory"
+    }
+  },
+  "rich-text#submenu-desk-department-1-category-7-1": {
+    "props": {
+      "text": "MARCAS",
+      "blockClass": ["textCategory", "textNoneColor"]
+    }
+  },
+  "rich-text#submenu-desk-department-4-category-blackout-62": {
+    "props": {
+      "text": "[Blackoud](/blackoud)",
+      "blockClass": [
+        "textSubcategory"
+      ]
+    }
+  },
+  "rich-text#submenu-desk-department-4-category-devier-61": {
+    "props": {
+      "text": "[Devier](/devier)",
+      "blockClass": [
+        "textSubcategory"
+      ]
+    }
+  },
+  "rich-text#submenu-desk-department-4-category-60-fjallraven-9": {
+    "props": {
+      "text": "[Fjall Raven](/hombre/fjall-raven?map=category-1,marca)",
+      "blockClass": "textSubcategory"
+    }
+  },
+  "rich-text#submenu-desk-department-4-category-60-on-8": {
+    "props": {
+      "text": "[ON](/hombre/on?map=category-1,marca)",
+      "blockClass": "textSubcategory"
+    }
+  },
+  "rich-text#submenu-desk-department-4-category-60-alpinestar-7": {
+    "props": {
+      "text": "[Alpinestars](/hombre/alpinestars?map=category-1,marca)",
+      "blockClass": "textSubcategory"
+    }
+  },
+  "rich-text#submenu-desk-department-4-category-60-ap-crown-6": {
+    "props": {
+      "text": "[Ap Crown](/hombre/ap-crown?map=category-1,marca)",
+      "blockClass": "textSubcategory"
+    }
+  },
+  "rich-text#submenu-desk-department-4-category-60-champion-5": {
+    "props": {
+      "text": "[Champion](/champions-hombre)",
+      "blockClass": "textSubcategory"
+    }
+  },
+  "rich-text#submenu-desk-department-4-category-60-lacoste-4": {
+    "props": {
+      "text": "[Lacoste](/hombre/lacoste?map=category-1,marca)",
+      "blockClass": "textSubcategory"
+    }
+  },
+  "rich-text#submenu-desk-department-4-category-60-new-era-3": {
+    "props": {
+      "text": "[New Era](/hombre/new-era?map=category-1,marca)",
+      "blockClass": "textSubcategory"
+    }
+  },
+  "rich-text#submenu-desk-department-4-category-60-vans-2": {
+    "props": {
+      "text": "[Vans](/hombre/vans?map=category-1,marca)",
+      "blockClass": "textSubcategory"
+    }
+  },
+  "rich-text#submenu-desk-department-4-category-60-monastery-1": {
+    "props": {
+      "text": "[Monastery](/monastery-hombre)",
+      "blockClass": "textSubcategory"
+    }
+  },
+  "rich-text#submenu-desk-department-4-category-60-sprayground-10": {
+    "props": {
+      "text": "[Sprayground](/hombre/sprayground?map=category-1,marca)",
+      "blockClass": "textSubcategory"
+    }
+  },
+  "rich-text#submenu-desk-department-4-category-60-calvin-klein-11": {
+    "props": {
+      "text": "[Calvin Klein](/calvin-klein)",
+      "blockClass": "textSubcategory"
+    }
+  },
+  "rich-text#submenu-desk-department-4-category-60-ecovessel-12": {
+    "props": {
+      "text": "[Ecovessel](/hombre/ecovessel?map=category-1,marca)",
+      "blockClass": "textSubcategory"
+    }
+  },
+  "rich-text#submenu-desk-department-4-category-60-emmirmilano-12": {
+    "props": {
+      "text": "[Emmir Milano](/emmir-milano)",
+      "blockClass": "textSubcategory"
+    }
+  },
+  "rich-text#submenu-desk-department-4-category-60-brooks-13": {
+    "props": {
+      "text": "[Brooks](/hombre/brooks?map=category-1,marca)",
+      "blockClass": "textSubcategory"
+    }
+  },
+  "rich-text#submenu-desk-department-4-category-60-pepe-jeans-14": {
+    "props": {
+      "text": "[Pepe Jeans](/hombre/pepe-jeans?map=category-1,marca)",
+      "blockClass": "textSubcategory"
+    }
+  },
+  "rich-text#submenu-desk-department-4-category-60-superga-15": {
+    "props": {
+      "text": "[Superga](/hombre/superga?map=category-1,marca)",
+      "blockClass": "textSubcategory"
+    }
+  },
+  "rich-text#submenu-desk-department-4-category-60-jansport-16": {
+    "props": {
+      "text": "[Jansport](/hombre/jansport?map=category-1,marca)",
+      "blockClass": "textSubcategory"
+    }
+  },
+  "rich-text#submenu-desk-department-4-category-60-kappa-17": {
+    "props": {
+      "text": "[Kappa](/hombre/kappa?map=category-1,marca)",
+      "blockClass": "textSubcategory"
+    }
+  },
+  "rich-text#submenu-desk-department-4-category-60-the-north-face-18": {
+    "props": {
+      "text": "[The North Face](/hombre/the-north-face?map=category-1,marca)",
+      "blockClass": "textSubcategory"
+    }
+  },
+  "rich-text#submenu-desk-department-4-category-60-dcshoes-19": {
+    "props": {
+      "text": "[Dcshoes](/hombre/dcshoes?map=category-1,marca)",
+      "blockClass": "textSubcategory"
+    }
+  },
+  "rich-text#submenu-desk-department-4-category-60-converse-20": {
+    "props": {
+      "text": "[Converse](/hombre/converse?map=category-1,marca)",
+      "blockClass": "textSubcategory"
+    }
+  },
+  "rich-text#submenu-desk-department-1-category-7-subcategory-1": {
+    "props": {
+      "text": "[Pilatos](/hombre/pilatos?map=category-1,marca)",
+      "blockClass": [
+        "textSubcategory",
+        "textSubcategoryPilatos"
+      ]
+    }
+  },
+  "rich-text#submenu-desk-department-1-category-7-subcategory-2": {
+    "props": {
+      "text": "[Diesel](/hombre/diesel?map=category-1,marca)",
+      "blockClass": "textSubcategory"
+    }
+  },
+  "rich-text#submenu-desk-department-1-category-7-subcategory-3-1": {
+    "props": {
+      "text": "[Kipling](/hombre/kipling?map=category-1,marca)",
+      "blockClass": "textSubcategory"
+    }
+  },
+  "rich-text#submenu-desk-department-1-category-7-subcategory-3": {
+    "props": {
+      "text": "[Superdry](/hombre/superdry?map=category-1,marca)",
+      "blockClass": "textSubcategory"
+    }
+  },
+  "rich-text#submenu-desk-department-1-category-7-subcategory-4": {
+    "props": {
+      "text": "[Girbaud](/hombre/marithe-francois-girbaud?map=category-1,marca)",
+      "blockClass": "textSubcategory"
+    }
+  },
+  "rich-text#submenu-desk-department-1-category-7-subcategory-5": {
+    "props": {
+      "text": "[Replay](/hombre/replay?map=category-1,marca)",
+      "blockClass": "textSubcategory"
+    }
+  },
+  "rich-text#submenu-desk-department-1-category-7-subcategory-6": {
+    "props": {
+      "text": "[New Balance](/hombre/new-balance?map=category-1,marca)",
+      "blockClass": "textSubcategory"
+    }
+  },
+  "rich-text#submenu-desk-department-1-category-7-subcategory-10": {
+    "props": {
+      "text": "[Agua Bendita](/hombre/agua-bendita?map=category-1,marca)",
+      "blockClass": "textSubcategory"
+    }
+  },
+  "rich-text#submenu-desk-department-1-category-7-subcategory-14": {
+    "props": {
+      "text": "[Goorin Bros](/hombre/goorin-bros?map=category-1,marca)",
+      "blockClass": "textSubcategory"
+    }
+  },
+  "rich-text#submenu-desk-department-1-category-7-subcategory-15": {
+    "props": {
+      "text": "[Le Coq Sportif](/hombre/le-coq-sportif?map=category-1,marca)",
+      "blockClass": "textSubcategory"
+    }
+  },
+  "rich-text#submenu-desk-department-1-category-7-subcategory-16": {
+    "props": {
+      "text": "[Oakley](/hombre/oakley?map=category-1,marca)",
+      "blockClass": "textSubcategory"
+    }
+  },
+  "rich-text#submenu-desk-department-1-category-7-subcategory-17": {
+    "props": {
+      "text": "[Quiksilver](/hombre/quiksilver?map=category-1,marca)",
+      "blockClass": "textSubcategory"
+    }
+  },
+  "rich-text#submenu-desk-department-1-category-7-subcategory-18": {
+    "props": {
+      "text": "[Ray Ban](/hombre/ray-ban?map=category-1,marca)",
+      "blockClass": "textSubcategory"
+    }
+  },
+  "rich-text#submenu-desk-department-1-category-7-subcategory-19": {
+    "props": {
+      "text": "[Stance](/hombre/stance?map=category-1,marca)",
+      "blockClass": "textSubcategory"
+    }
+  },
+  "rich-text#submenu-desk-department-1-category-7-subcategory-20": {
+    "props": {
+      "text": "[Roxy](/hombre/roxy?map=category-1,marca)",
+      "blockClass": "textSubcategory"
+    }
+  },
+  "rich-text#submenu-desk-department-1-category-7-subcategory-22": {
+    "props": {
+      "text": "[Nike](/hombre/nike?map=category-1,marca)",
+      "blockClass": "textSubcategory"
+    }
+  }
 }
