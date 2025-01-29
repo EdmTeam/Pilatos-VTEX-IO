@@ -9,15 +9,16 @@
     "flex-layout.col#submenu-desk-department-2-category-1-row-1":{
         "children":[
             "rich-text#submenu-desk-department-2-category-1",
-            "rich-text#submenu-desk-department-2-category-1-subcategory-1",
-            "rich-text#submenu-desk-department-2-category-1-subcategory-2",
             "rich-text#submenu-desk-department-2-category-1-subcategory-4",
+            "rich-text#submenu-desk-department-2-category-1-subcategory-2",
+            "rich-text#submenu-desk-department-2-category-1-subcategory-1",
             "rich-text#submenu-desk-department-2-category-1-subcategory-5",
-            "rich-text#submenu-desk-department-2-category-1-subcategory-6",
-            "rich-text#submenu-desk-department-2-category-1-subcategory-7",
-            "rich-text#submenu-desk-department-2-category-1-subcategory-8",
             "rich-text#submenu-desk-department-2-category-1-subcategory-9",
-            "rich-text#submenu-desk-department-2-category-1-subcategory-10"
+            "rich-text#submenu-desk-department-2-category-1-subcategory-11",
+            "rich-text#submenu-desk-department-2-category-1-subcategory-10",
+            /* "rich-text#submenu-desk-department-2-category-1-subcategory-6", */
+            "rich-text#submenu-desk-department-2-category-1-subcategory-8",
+            "rich-text#submenu-desk-department-2-category-1-subcategory-7"
         ],
         "props":{
             "blockClass": "contentBlockSubmenu"
@@ -45,7 +46,7 @@
         }
     },
 
- 
+
 
     "rich-text#submenu-desk-department-2-category-1-subcategory-4":{
         "props":{
@@ -63,7 +64,7 @@
 
     "rich-text#submenu-desk-department-2-category-1-subcategory-6":{
         "props":{
-            "text": "[Pantalones](/mujer/ropa/pantalones)",
+            "text": "[Shorts](/mujer/ropa/shorts)",
             "blockClass": "textSubcategory"
         }
     },
@@ -92,6 +93,12 @@
     "rich-text#submenu-desk-department-2-category-1-subcategory-10":{
         "props":{
             "text": "[Shorts](/mujer/ropa/shorts)",
+            "blockClass": "textSubcategory"
+        }
+    },
+    "rich-text#submenu-desk-department-2-category-1-subcategory-11":{
+        "props":{
+            "text": "[Jeans](/mujer/ropa/jeans)",
             "blockClass": "textSubcategory"
         }
     }

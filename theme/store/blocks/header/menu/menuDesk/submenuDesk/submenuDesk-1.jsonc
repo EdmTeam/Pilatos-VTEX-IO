@@ -26,7 +26,7 @@
 
     "link#submenu-desk-vertodo-row-1":{
         "children":[
-            "flex-layout.row#submenu-desk-vertodo-row-1"        
+            "flex-layout.row#submenu-desk-vertodo-row-1"
         ],
         "props":{
             "blockClass": "submenulink",
@@ -45,7 +45,7 @@
         "props":{
             "text": "VER TODO HOMBRE",
             "blockClass": "submenulink",
-            "width": "21%"
+            "width": "13%"
         }
     },
 
@@ -69,7 +69,9 @@
             "flex-layout.col#submenu-desk-department-1-category-1",
             "flex-layout.col#submenu-desk-department-1-category-2",
             "flex-layout.col#submenu-desk-department-1-category-3",
-            "flex-layout.col#submenu-desk-department-1-category-7"
+            "flex-layout.col#submenu-desk-department-1-category-7",
+            "flex-layout.col#submenu-desk-department-1-category-8",
+            "flex-layout.col#submenu-desk-department-1-category-9"
         ],
         "props":{
             "width": "75%"
@@ -82,7 +84,7 @@
         ],
         "props":{
             "width": "25%",
-            "blockClass": "contentdepartmentImg"     
+            "blockClass": "contentdepartmentImg"
         }
     },
 

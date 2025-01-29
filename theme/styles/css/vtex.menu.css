@@ -230,7 +230,7 @@
 .submenuWrapper--contentSubmenuDesk{
     width: 700px;
     background: #F2F2F2;
-    padding: .75rem 2rem;
+    padding: 15px 20px 30px 76px;
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
@@ -328,7 +328,7 @@
 }
 
 .submenuWrapper--contentSubmenuDesk{
-    height: 470px;
+    height: 472px;
     overflow-y: auto;
 }
 
