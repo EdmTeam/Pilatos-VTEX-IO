@@ -140,7 +140,7 @@ $(window).on("load", function() {
                     const r = document.getElementById("payment-group-WompiCoPaymentGroup");
                     t && r && t.addEventListener("click", () => {
                         r.click();
-                    });
+                    }), "201" === vtexjs.checkout.orderForm.paymentData.payments[0].paymentSystem && r.click();
                 }
                 setTimeout(() => {
                     a || i || s || c(e) ? (console.log("Debe desaparecer contraentrega>>"), 
