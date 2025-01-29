@@ -1942,7 +1942,7 @@ div.checkoutFooter p.copyRight {
   display: inline-flex;
   width: 54%;
   margin: 0;
-  margin-top: 8rem;
+  margin-top: 1rem;
   align-self: flex-start;
 }
 @media screen and (max-width: 1023px) {
