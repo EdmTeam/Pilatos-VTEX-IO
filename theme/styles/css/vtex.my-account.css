@@ -8,6 +8,14 @@
     color: #000;
 }
 
+:global(.vtex-menu-2-x-menuItem--menuAccordionLevel1--isOpen) :global(.overflow-hidden) {
+    height: auto !important;
+}
+
+:global(.vtex-menu-2-x-menuItem--menuAccordionLevel1--isClosed) :global(.overflow-hidden) {
+    height: 0 !important;
+}
+
 :global(.vtex-account__page-body){
     background: #000000;
 }
