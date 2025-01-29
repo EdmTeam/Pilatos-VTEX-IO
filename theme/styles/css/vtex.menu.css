@@ -9,6 +9,10 @@
     background-image: url("/arquivos/icono-menu.png");
 }
 
+.menuItem--menuAccordionLevel1--isOpen :global(.vtex-menu-2-x-submenuAccordion--contentSubMenuAcordeon) {
+    height: auto !important;
+}
+
 .styledLinkContent--item-departmentos{
     color: white;
 }
