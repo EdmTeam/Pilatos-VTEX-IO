@@ -5,9 +5,9 @@
             "experimental__visibility-layout#texto-seo-general",
             "experimental__visibility-layout#banner-landing-general",
             "experimental__visibility-layout#botones-genero-landing-general",
-         "responsive-layout.mobile#botones-categoria-general-mobile",
-         "responsive-layout.desktop#botones-categoria-general-desk",
-          "search-result-layout.customQuery#vitrina-pilatos-general"
+            "experimental__visibility-layout#botones-categoria-landing-general" ,
+          "search-result-layout.customQuery#vitrina-pilatos-general",
+          "experimental__visibility-layout#texto-seo-final-general"
  
             
            
@@ -145,147 +145,6 @@
 
 
 
-  /*BOTONES CATEGORIA*/
-
-"responsive-layout.desktop#botones-categoria-general-desk":{
-
-    "title": "Botones categoría landing general Desktop",
-    "children": [
-        "experimental__visibility-layout#botones-categoria-landing-general"
-    ]
-     },
-
-  "experimental__visibility-layout#botones-categoria-landing-general": {
-    "title": "botones categoria landing general",
-    "children": [
-        "flex-layout.row#categoria-botnes-generales"
-    ],
-    "props": {
-        "visible": true
-    }
-},
-
-"flex-layout.row#categoria-botnes-generales":{
-"title": "CATEGORIA BOTONES",
-"children": [
-
-    "rich-text#categoria-general-1",
-    "rich-text#categoria-general-2",
-    "rich-text#categoria-general-3",
-    "rich-text#categoria-general-4"
-],
-"props": {
-  "blockClass": "contenedor-categorias-general"
-}
-
-},
-
-"rich-text#categoria-general-1": {
-    "props": {
-      "text": "[Camisetas](/pilatos)",
-      "blockClass": "boton-categoria-1"
-    }
-  },
-  "rich-text#categoria-general-2": {
-    "props": {
-      "text": "[Tenis](/pilatos)",
-      "blockClass": "boton-categoria-2"
-    }
-  },
-  "rich-text#categoria-general-3": {
-    "props": {
-      "text": "[Jeans](/pilatos)",
-      "blockClass": "boton-categoria-3"
-    }
-  },
-  "rich-text#categoria-general-4": {
-    "props": {
-      "text": "[Chaquetas](/pilatos)",
-      "blockClass": "boton-categoria-4"
-    }
-  },
-
-  //BOTONES CATEGORIA MOBILE
-
-  "responsive-layout.mobile#botones-categoria-general-mobile":{
-
-    "title": "Botones categoría landing general mobile",
-    "children": [
-        "experimental__visibility-layout#botones-categoria-general-mobile"
-    ]
-},
-
-
-
-"experimental__visibility-layout#botones-categoria-general-mobile": {
-  "title": "Botones categoría landing general",
-  "children": [
-    "flex-layout.row#categoria-botones-responsivo-mobile"
-  ],
-  "props": {
-    "visible": true
-  }
-},
-
-"flex-layout.row#categoria-botones-responsivo-mobile": {
-  "title": "columnas Botones categoría landing general",
-  "children": [
-    "flex-layout.col#categoria-botones-fila-1",
-    "flex-layout.col#categoria-botones-fila-2"
-  ],
-  "props": {
-    "blockClass": "categoria-botones-layout"
-  }
-},
-
-"flex-layout.col#categoria-botones-fila-1": {
-  "title": "Botones categoría 1 y 2",
-  "children": [
-    "rich-text#categoria-general-1-mobile",
-    "rich-text#categoria-general-2-mobile"
-  ],
-  "props": {
-    "blockClass": "categoria-fila-botones"
-  }
-},
-
-"flex-layout.col#categoria-botones-fila-2": {
-  "title": "botones categoria 3 y 4",
-  "children": [
-    "rich-text#categoria-general-3-mobile",
-    "rich-text#categoria-general-4-mobile"
-  ],
-  "props": {
-    "blockClass": "categoria-fila-botones"
-  }
-},
-
-"rich-text#categoria-general-1-mobile": {
-  "props": {
-    "text": "[Camisetas2](/pilatos)",
-    "blockClass": "boton-1-categoria-lgeneral-mobile"
-  }
-},
-"rich-text#categoria-general-2-mobile": {
-  "props": {
-    "text": "[Tenis2](/pilatos)",
-    "blockClass": "boton-2-categoria-lgeneral-mobile"
-  }
-},
-"rich-text#categoria-general-3-mobile": {
-  "props": {
-    "text": "[Jeans2](/pilatos)",
-    "blockClass": "boton-3-categoria-lgeneral-mobile"
-  }
-},
-"rich-text#categoria-general-4-mobile": {
-  "props": {
-    "text": "[Chaquetas2](/pilatos)",
-    "blockClass": "boton-4-categoria-lgeneral-mobile"
-  }
-},
-
-
 // VITRINA LANDING GENERAL
 
  "search-result-layout.customQuery#vitrina-pilatos-general":{
@@ -307,6 +166,66 @@
 
  },
 
+
+ /*BOTONES CATEGORIA*/
+ 
+ "experimental__visibility-layout#botones-categoria-landing-general": {
+  "title": "botones categoria landing general",
+  "children": ["flex-layout.row#categoria-botnes-generales"],
+  "props": {
+    "visible": true
+  }
+},
+
+"flex-layout.row#categoria-botnes-generales": {
+  "title": "CATEGORIA BOTONES",
+  "children": [
+      "flex-layout.col#categoria-botnes-generales"
+  ],
+  "props": {
+    "blockClass": "contenedor-categorias-general"
+  }
+},
+
+"flex-layout.col#categoria-botnes-generales": {
+  "children": [
+      "rich-text#categoria-general-1",
+    "rich-text#categoria-general-2",
+    "rich-text#categoria-general-3",
+    "rich-text#categoria-general-4"
+
+  ],
+  "props": {
+      "blockClass": "contenedor-categorias-general-col"
+  }
+},
+
+"rich-text#categoria-general-1": {
+  "props": {
+    "text": "[Camisetas](/)",
+    "blockClass": "boton-categoria-1"
+  }
+},
+"rich-text#categoria-general-2": {
+  "props": {
+    "text": "[Jeans](/)",
+    "blockClass": "boton-categoria-2"
+  }
+},
+"rich-text#categoria-general-3": {
+  "props": {
+    "text": "[Buzos](/)",
+    "blockClass": "boton-categoria-3"
+  }
+},
+
+"rich-text#categoria-general-4": {
+  "props": {
+    "text": "[chaquetas](/)",
+    "blockClass": "boton-categoria-4"
+  }
+},
+
  // VITRINA DESKTOP
   "search-result-layout.desktop#vitrina-general":{
 "title": "Botones categoría landing general DESKTOP",
@@ -318,7 +237,7 @@
       "flex-layout.row#search-info-desk-new",
       "flex-layout.row#result",
       "flex-layout.row#spacer",
-      "rich-text#filtro-seo",
+      // "rich-text#filtro-seo",
       "back-to-top-button"
         ],
     "props": {
@@ -382,7 +301,7 @@
       "flex-layout.row#fetch-previous",
       "flex-layout.row#content-mobile",
       "flex-layout.row#fetch-more",
-      "rich-text#filtro-seo",
+      // "rich-text#filtro-seo",
       "back-to-top-button"
     ],
     "props": {
@@ -437,6 +356,43 @@
             "mode2": "normal"
         }
     }
-}
+},
+
+// SEO FINAL
+
+"experimental__visibility-layout#texto-seo-final-general":{
+  "title": "texto seo final",
+        "children": [
+            "flex-layout.row#texto-seo-general-final"
+        ],
+        "props": {
+            "visible": true
+        }
+
+},
+
+"flex-layout.row#texto-seo-general-final":{
+
+        "title": "texto seo principal",
+        "children": [
+
+            "rich-text#texto-seo-contenido-final"
+        ],
+        "props": {
+            "blockClass": "seo-texto-general-contenedor"
+        }
+       },
+
+        "rich-text#texto-seo-contenido-final": {
+
+            "props": {
+      "text": "**Texto SEO**  \nis simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+      "blockClass": "seo-content-general",
+      "textAlignment": "CENTER"
+    }
+        }
+
+
+
 
          }
