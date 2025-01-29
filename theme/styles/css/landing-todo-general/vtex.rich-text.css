@@ -1,3 +1,28 @@
+.headingLevel1--seo-content-general{
+
+    font-size: 23px;
+}
+
+.headingLevel2--seo-content-general{
+
+    font-size: 19px;
+}
+
+@media (max-width: 768px) {
+
+    .headingLevel1--seo-content-general{
+
+        font-size: 18px;
+    }
+
+    .paragraph--seo-content-general {
+        padding: 0 12px;
+
+
+ }
+}
+
+
 .link--genero-mujer-boton,
 .link--genero-hombre-boton {
     position: relative;
