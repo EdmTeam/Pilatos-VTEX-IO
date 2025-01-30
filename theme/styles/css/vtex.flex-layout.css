@@ -106,7 +106,7 @@
     margin: 0 auto;
     position: sticky;
     top: 4%;
-   /*  z-index: 2; */
+    z-index: 1;
   }
 
 
