@@ -4008,3 +4008,23 @@ margin: 2px;
   margin-left: 29px;
   margin-right: 29px;
 }
+
+/*topheader texto*/
+
+.wrapper--textTopHeader-nuevo{
+
+  font-size: 14px; 
+  font-weight: bold;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.paragraph--textTopHeader-nuevo {
+
+  width: 100%;
+    align-items: center;
+    text-align: center;
+}

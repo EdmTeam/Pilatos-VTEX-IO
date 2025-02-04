@@ -2,7 +2,8 @@
   "store.custom#page-pilatos-concept": {
     "blocks": [
       "flex-layout.row#banner-department-pilatos",
-      "search-result-layout.customQuery#department-pilatos"
+      "search-result-layout.customQuery#department-pilatos",
+      "segmentify-carrousel"
     ],
     "props": {
       "blockClass": "contentStoreCustom"
@@ -24,6 +25,7 @@
       "responsive-layout.desktop#department-pilatos-banners",
       "responsive-layout.tablet#department-pilatos-banners",
       "responsive-layout.phone#department-pilatos-banners",
+
       "experimental__visibility-layout#boton-giftcard-visible"
       
     ]
