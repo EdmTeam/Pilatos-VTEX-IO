@@ -39,7 +39,8 @@
           "flex-layout.row#search-info-mobile-landing-pilatos-marca",
           "flex-layout.row#fetch-previous",
           "flex-layout.row#content-mobile",
-          "flex-layout.row#fetch-more"
+          "flex-layout.row#fetch-more",
+         "segmentify-carrousel"
           
 
         ],

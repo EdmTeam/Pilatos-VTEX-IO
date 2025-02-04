@@ -2,7 +2,8 @@
     "store.custom#landing-pilatos-marca":{
         "blocks":[
             "flex-layout.row#banner-landing-pilatos-marca",
-            "search-result-layout.customQuery#landing-pilatos-marca"
+            "search-result-layout.customQuery#landing-pilatos-marca",
+             "segmentify-carrousel"
         ],
         "props":{
             "blockClass": "contentStoreCustom"

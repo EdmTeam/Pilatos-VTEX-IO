@@ -2,7 +2,8 @@
     "responsive-layout.phone#landing-new-balance-banners":{
         "children":[
             "flex-layout.col#landing-new-balance-banners-1-mobile",
-            "responsive-layout.phone#landing-new-balance-banners-2-phone"
+            "responsive-layout.phone#landing-new-balance-banners-2-phone",
+            "segmentify-carrousel"
         ]
     },
 

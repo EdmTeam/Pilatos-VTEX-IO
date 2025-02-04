@@ -412,3 +412,20 @@
     margin-left: 8px;
   }
 }
+
+/*slider layout top header*/
+
+
+
+@media (min-width: 1024px) {  
+    .sliderTrackContainer--slider__header__top2 {
+        height: 40px;
+        background: #111111;
+    }
+}
+@media (max-width: 767px) {  
+    .sliderTrackContainer--slider__header__top2 {
+        height: 20px;
+        background: #111111;
+    }
+}
