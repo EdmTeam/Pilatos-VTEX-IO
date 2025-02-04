@@ -1,7 +1,7 @@
 {
   "vendor": "pilatos21",
   "name": "segmentify-div",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "title": "segmentify-div",
   "description": "div de segmentify",
   "builders": {
