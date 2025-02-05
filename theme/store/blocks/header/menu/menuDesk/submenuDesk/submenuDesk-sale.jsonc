@@ -1,0 +1,37 @@
+{
+  "vtex.menu@2.x:submenu#submenu__sale--hover": {
+    "children": [
+      "flex-layout.row#submenu-desk-sale"
+    ],
+    "props": {
+      "blockClass": ""
+    }
+  },
+  "flex-layout.row#submenu-desk-sale": {
+    "children": [
+       "rich-text#submenu__hombre--sale",
+       "rich-text#submenu__mujer--sale"
+    ],
+    "props": {
+      "blockClass": "Submenu-desk-sale"
+    }
+  },
+  "rich-text#submenu__hombre--sale": {
+    "props": {
+      "text": "[Hombre](/sale-hombre)",
+      "blockClass":  [
+        "contentSubMenuAcordeon",
+        "textSubcategoryPilatos"
+    ]
+    }
+  },
+  "rich-text#submenu__mujer--sale": {
+    "props": {
+      "text": "[Mujer](/sale-mujer)",
+      "blockClass":  [
+        "contentSubMenuAcordeon",
+        "textSubcategoryPilatos"
+    ]
+    }
+  }
+}

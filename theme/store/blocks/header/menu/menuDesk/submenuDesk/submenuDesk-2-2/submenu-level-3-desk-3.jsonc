@@ -8,15 +8,17 @@
     "flex-layout.col#submenu-desk-department-2-category-3-row-1":{
         "children":[
             "rich-text#submenu-desk-department-2-category-3",
-            "rich-text#submenu-desk-department-2-category-3-subcategory-2",
-            "rich-text#submenu-desk-department-2-category-3-subcategory-3",
-            "rich-text#submenu-desk-department-2-category-3-subcategory-6",
-            "rich-text#submenu-desk-department-2-category-3-subcategory-7",
-            "rich-text#submenu-desk-department-2-category-3-subcategory-9",
-            "rich-text#submenu-desk-department-2-category-3-subcategory-10",
             "rich-text#submenu-desk-department-2-category-3-subcategory-11",
+            "rich-text#submenu-desk-department-2-category-3-subcategory-3",
+            "rich-text#submenu-desk-department-2-category-3-subcategory-14",
             "rich-text#submenu-desk-department-2-category-3-subcategory-12",
-            "rich-text#submenu-desk-department-2-category-3-subcategory-13"
+            "rich-text#submenu-desk-department-2-category-3-subcategory-15",
+            "rich-text#submenu-desk-department-2-category-3-subcategory-6",
+            "rich-text#submenu-desk-department-2-category-3-subcategory-2",
+            "rich-text#submenu-desk-department-2-category-3-subcategory-10",
+            "rich-text#submenu-desk-department-2-category-3-subcategory-9",
+            "rich-text#submenu-desk-department-2-category-3-subcategory-13",
+            "rich-text#submenu-desk-department-2-category-3-subcategory-7"
         ],
         "props":{
             "blockClass": "contentBlockSubmenu"
@@ -29,8 +31,6 @@
             "blockClass": "textCategory"
         }
     },
-
-   
 
     "rich-text#submenu-desk-department-2-category-3-subcategory-2":{
         "props":{
@@ -45,9 +45,6 @@
             "blockClass": "textSubcategory"
         }
     },
-
- 
-
 
     "rich-text#submenu-desk-department-2-category-3-subcategory-6":{
         "props":{
@@ -94,7 +91,19 @@
 
     "rich-text#submenu-desk-department-2-category-3-subcategory-13":{
         "props":{
-            "text": "[Otros Accesorios](/mujer/accesorios/otros-accesorios)",
+            "text": "[Otros](/mujer/accesorios/otros-accesorios)",
+            "blockClass": "textSubcategory"
+        }
+    },
+    "rich-text#submenu-desk-department-2-category-3-subcategory-14":{
+        "props":{
+            "text": "[Correas](/mujer/accesorios/correas)",
+            "blockClass": "textSubcategory"
+        }
+    },
+    "rich-text#submenu-desk-department-2-category-3-subcategory-15":{
+        "props":{
+            "text": "[Fragancias](/mujer/accesorios/fragancias)",
             "blockClass": "textSubcategory"
         }
     }

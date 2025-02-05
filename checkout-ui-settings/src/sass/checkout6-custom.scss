@@ -1960,7 +1960,7 @@ div.checkoutFooter {
                 display: inline-flex;
                 width: 54%;
                 margin: 0;
-                margin-top: 8rem;
+                margin-top: 1rem;
                 align-self: flex-start;
 
                 @include screen-max-width($breakTabletVert) {
@@ -6967,5 +6967,27 @@ button#payment-data-submit {
   background-repeat: no-repeat;
   background-position: center;
   margin: 15px 0;
-  //background-image: url(/arquivos/TUCUOTA-600X600.png);
+  background-image: url(/arquivos/banner-mediodepago-tucuota.png);
 }
+
+/***Recoger en tienda oculto***/
+.body-order-form .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group.shipping-data .accordion-inner .box-step div#delivery-packages-options > div:last-child {
+  display: none !important;
+}
+
+.srp-toggle__pickup {
+  display: none;
+}
+
+#shipping-option-pickup-in-point {
+  display: none;
+}
+
+#shipping-option-delivery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+optgroup[label="Recogida en tienda"] { display: none; }
+/***Recoger en tienda oculto***/

@@ -130,13 +130,45 @@
 :global(.vtex-flex-layout-0-x-flexRow--contentBarHeaderActive) :global(.vtex-menu-2-x-submenuWrapper--contentSubmenuDesk)
 {
     top: 82px;
-    width: 950px;
+    width: 1050px;
 }
 
 :global(.vtex-flex-layout-0-x-flexRow--contentBarHeaderInactive) :global(.vtex-menu-2-x-submenuWrapper--contentSubmenuDesk)
 {
-    top: 250px;
-    width: 750px;
+    top: 185px;
+    width: 1050px;
+}
+@media only screen and (min-width: 1200px){
+  :global(.vtex-flex-layout-0-x-flexRow--contentBarHeaderInactive) :global(.vtex-menu-2-x-submenuWrapper--contentSubmenuDesk)
+  {
+      top: 200px;
+      width: 1050px;
+  }
+}
+
+@media only screen and (min-width: 1350px){
+  :global(.vtex-flex-layout-0-x-flexRow--contentBarHeaderInactive) :global(.vtex-menu-2-x-submenuWrapper--contentSubmenuDesk)
+  {
+      top: 205px;
+      width: 850px;
+      /* z-index: 999999; */
+  }
+}
+
+@media only screen and (min-width: 1450px){
+  :global(.vtex-flex-layout-0-x-flexRow--contentBarHeaderInactive) :global(.vtex-menu-2-x-submenuWrapper--contentSubmenuDesk)
+  {
+      top: 215px;
+      width: 1100px;
+  }
+}
+
+@media only screen and (min-width: 1650px){
+  :global(.vtex-flex-layout-0-x-flexRow--contentBarHeaderInactive) :global(.vtex-menu-2-x-submenuWrapper--contentSubmenuDesk)
+  {
+      top: 225px;
+      width: 1050px;
+  }
 }
 
 @media only screen and (min-width: 1920px){
@@ -148,8 +180,8 @@
 
     :global(.vtex-flex-layout-0-x-flexRow--contentBarHeaderInactive) :global(.vtex-menu-2-x-submenuWrapper--contentSubmenuDesk)
     {
-        top: 300px;
-        width: 950px;
+        top: 235px;
+        width: 1034px;
     }
 }
 

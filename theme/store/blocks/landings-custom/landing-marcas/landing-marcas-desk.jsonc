@@ -1,0 +1,220 @@
+{
+    "store.custom#landing-marcas-2025": {
+        "blocks": [
+            "flex-layout.row#bread",
+            "responsive-layout.desktop#templateBotonesGenero-desk",
+            "responsive-layout.mobile#templateBotonesGenero-mobile",
+            "flex-layout.row#seo-landing-marcas",
+            "flex-layout.row#contenedor-landing-marcas",
+            "flex-layout.row#marcas-contenido"
+        ]
+    },
+
+    "flex-layout.row#seo-landing-marcas": {
+        "title": "Contenedor seo",
+        "children": [
+            "flex-layout.col#seo-landing-marcas"
+        ],
+        "props": {
+            "marginTop": 6,
+            "marginBottom": 6
+        }
+    },
+
+    "flex-layout.col#seo-landing-marcas": {
+        "title": "Texto seo",
+        "children": [
+            "rich-text#seo-landing-marcas"
+        ]
+    },
+
+    "rich-text#seo-landing-marcas": {
+        "props": {
+            "text": "**¡Encuentra tus marcas favoritas en un solo lugar!** \n Ropa, camisetas, jeans, morrales, chaquetas y más productos para comprar online.",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+
+    /***Contenedor**/
+    "flex-layout.row#contenedor-landing-marcas": {
+        "title": "Contenedor landing marcas",
+        "children": [
+            "rich-text#marcas-titulo"
+        ],
+        "props": {
+            "blockClass": "contenedor-marcas"
+        }
+    },
+    "rich-text#marcas-titulo": {
+        "title": "Titulo marcas",
+        "props": {
+            "text": "#### **Marcas**"
+        }
+    },
+
+    "flex-layout.row#marcas-contenido": {
+        "title": "Contenido marcas",
+        "children": [
+            "flex-layout.col#marcas-contenido"
+        ],
+        "props": {
+            "blockClass": "contenedor-marcas",
+            "marginBottom": 8
+        }
+    },
+
+    "flex-layout.col#marcas-contenido": {
+        "title": "Columnas marcas",
+        "children": [
+            "flex-layout.col#marcas-contenido-columna-1",
+            "flex-layout.col#marcas-contenido-columna-2",
+            "flex-layout.col#marcas-contenido-columna-3"
+        ],
+        "props": {
+            "blockClass": "contenedor-marcas-columnas"
+        }
+    },
+
+    
+    "flex-layout.col#marcas-contenido-columna-1": {
+        "title": "Columna1",
+        "children": [
+            "rich-text#marcas-titulo-a-d",
+            "flex-layout.row#marca-individual",
+            "flex-layout.row#marca-individual-2",
+            "flex-layout.row#marca-individual-3",
+            "flex-layout.row#marca-individual-4",
+            "flex-layout.row#marca-individual-5",
+            "flex-layout.row#marca-individual-6",
+            "flex-layout.row#marca-individual-7",
+            "flex-layout.row#marca-individual-8",
+            "flex-layout.row#marca-individual-9",
+            "flex-layout.row#marca-individual-10",
+            "flex-layout.row#marca-individual-11",
+            "flex-layout.row#marca-individual-24",
+            "flex-layout.row#marca-individual-25",
+            "flex-layout.row#marca-individual-26",
+            "flex-layout.row#marca-individual-27",
+            "rich-text#marcas-titulo-e-h",
+            "flex-layout.row#marca-individual-15",
+            "flex-layout.row#marca-individual-14",
+            "flex-layout.row#marca-individual-18",
+            "flex-layout.row#marca-individual-21",
+            "flex-layout.row#marca-individual-17",
+            "flex-layout.row#marca-individual-12",
+            "flex-layout.row#marca-individual-13",
+            "flex-layout.row#marca-individual-24"
+        ],
+        "props": {
+            "blockClass": "marcas-contenedor-individuales"
+        }
+    },
+
+    "rich-text#marcas-titulo-a-d": {
+        "title": "Titulo columna 1",
+        "props": {
+            "text": "### **A-D**",
+            "blockClass": "titulo-marca"
+        }
+    },
+
+    "rich-text#marcas-titulo-e-h": {
+        "title": "Titulo columna 1.2",
+        "props": {
+            "text": "### **E-H**",
+            "blockClass": "titulo-marca"
+        }
+    },
+
+    "flex-layout.col#marcas-contenido-columna-2": {
+        "title": "Columna 2",
+        "children": [
+            "rich-text#marcas-titulo-l-l",
+            "flex-layout.row#marca-individual-6",
+            "flex-layout.row#marca-individual-12",
+            "flex-layout.row#marca-individual-3",
+            "flex-layout.row#marca-individual-4",
+            "flex-layout.row#marca-individual-5",
+            "flex-layout.row#marca-individual-24",
+            "flex-layout.row#marca-individual-23",
+            "flex-layout.row#marca-individual-22",
+            "flex-layout.row#marca-individual-25",
+            "rich-text#marcas-titulo-m-p",
+            "flex-layout.row#marca-individual",
+            "flex-layout.row#marca-individual-2",
+            "flex-layout.row#marca-individual-13",
+            "flex-layout.row#marca-individual-7",
+            "flex-layout.row#marca-individual-8",
+            "flex-layout.row#marca-individual-9",
+            "flex-layout.row#marca-individual-10",
+            "flex-layout.row#marca-individual-11",
+            "flex-layout.row#marca-individual-15",
+            "flex-layout.row#marca-individual-16",
+            "flex-layout.row#marca-individual-17"
+        ],
+        "props": {
+            "blockClass": "marcas-contenedor-individuales"
+        }
+    },
+
+    "rich-text#marcas-titulo-l-l": {
+        "title": "Titulo columna 2",
+        "props": {
+            "text": "### **I-L**",
+            "blockClass": "titulo-marca"
+        }
+    },
+
+    "rich-text#marcas-titulo-m-p": {
+        "title": "Titulo columna 2.2",
+        "props": {
+            "text": "### **M-P**",
+            "blockClass": "titulo-marca"
+        }
+    },
+
+    "flex-layout.col#marcas-contenido-columna-3": {
+        "title": "Columna 3",
+        "children": [
+            "rich-text#marcas-titulo-q-t",
+            "flex-layout.row#marca-individual-3",
+            "flex-layout.row#marca-individual-2",
+            "flex-layout.row#marca-individual-10",
+            "flex-layout.row#marca-individual-4",
+            "flex-layout.row#marca-individual-5",
+            "flex-layout.row#marca-individual-6",
+            "flex-layout.row#marca-individual-7",
+            "flex-layout.row#marca-individual-8",
+            "flex-layout.row#marca-individual-9",
+            "flex-layout.row#marca-individual-18",
+            "flex-layout.row#marca-individual-19",
+            "flex-layout.row#marca-individual-20",
+            "rich-text#marcas-titulo-u-z",
+            "flex-layout.row#marca-individual-11",
+            "flex-layout.row#marca-individual-21",
+            "flex-layout.row#marca-individual-22",
+            "flex-layout.row#marca-individual-23"
+        ],
+        "props": {
+            "blockClass": "marcas-contenedor-individuales"
+        }
+    },
+
+    "rich-text#marcas-titulo-q-t": {
+        "title": "Titulo columna 3",
+        "props": {
+            "text": "### **Q-T**",
+            "blockClass": "titulo-marca"
+        }
+    },
+
+    "rich-text#marcas-titulo-u-z": {
+        "title": "Titulo columna 3.2",
+        "props": {
+            "text": "### **U-Z**",
+            "blockClass": "titulo-marca"
+        }
+    }
+    /***Contenedor**/
+}

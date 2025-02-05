@@ -1,0 +1,915 @@
+{
+    /**************MARCA****************/
+    "flex-layout.row#marca-individual": {
+        "title": "Marca individual",
+        "children": [
+            "flex-layout.col#marca-individual"
+        ]
+    },
+
+    "flex-layout.col#marca-individual": {
+        "children": [
+            "rich-text#marca-individual",
+            "image#marca-individual"
+        ],
+        "props": {
+            "blockClass": "marca-individual"
+        }
+    },
+
+    "rich-text#marca-individual": {
+        "props": {
+            "text": "[Agua Bendita](/)",
+            "font": "t-body",
+            "blockClass": "marca-individual-texto"
+        }
+    },
+
+    "image#marca-individual": {
+        "props": {
+            "src": "/arquivos/Pilatos-LogosMarcas-AguaBendita.png",
+            "maxHeight": 28
+        }
+    },
+    /**************MARCA****************/
+
+    /**************MARCA****************/
+    "flex-layout.row#marca-individual-2": {
+        "title": "Marca individual",
+        "children": [
+            "flex-layout.col#marca-individual-2"
+        ]
+    },
+
+    "flex-layout.col#marca-individual-2": {
+        "children": [
+            "rich-text#marca-individual-2",
+            "image#marca-individual-2"
+        ],
+        "props": {
+            "blockClass": "marca-individual"
+        }
+    },
+
+    "rich-text#marca-individual-2": {
+        "props": {
+            "text": "[Alpinestars](/)",
+            "font": "t-body",
+            "blockClass": "marca-individual-texto"
+        }
+    },
+
+    "image#marca-individual-2": {
+        "props": {
+            "src": "/arquivos/Pilatos-LogosMarcas-Alpinestars.png",
+            "maxHeight": 28
+        }
+    },
+    /**************MARCA****************/
+
+    /**************MARCA****************/
+    "flex-layout.row#marca-individual-3": {
+        "title": "Marca individual",
+        "children": [
+            "flex-layout.col#marca-individual-3"
+        ]
+    },
+
+    "flex-layout.col#marca-individual-3": {
+        "children": [
+            "rich-text#marca-individual-3",
+            "image#marca-individual-3"
+        ],
+        "props": {
+            "blockClass": "marca-individual"
+        }
+    },
+
+    "rich-text#marca-individual-3": {
+        "props": {
+            "text": "[Ap Crown](/)",
+            "font": "t-body",
+            "blockClass": "marca-individual-texto"
+        }
+    },
+
+    "image#marca-individual-3": {
+        "props": {
+            "src": "/arquivos/Pilatos-LogosMarcas-ApCrown.png",
+            "maxHeight": 28
+        }
+    },
+    /**************MARCA****************/
+
+    /**************MARCA****************/
+    "flex-layout.row#marca-individual-4": {
+        "title": "Marca individual",
+        "children": [
+            "flex-layout.col#marca-individual-4"
+        ]
+    },
+
+    "flex-layout.col#marca-individual-4": {
+        "children": [
+            "rich-text#marca-individual-4",
+            "image#marca-individual-4"
+        ],
+        "props": {
+            "blockClass": "marca-individual"
+        }
+    },
+
+    "rich-text#marca-individual-4": {
+        "props": {
+            "text": "[Artdist](/)",
+            "font": "t-body",
+            "blockClass": "marca-individual-texto"
+        }
+    },
+
+    "image#marca-individual-4": {
+        "props": {
+            "src": "/arquivos/Artdist Logo.png",
+            "maxHeight": 28
+        }
+    },
+    /**************MARCA****************/
+
+    /**************MARCA****************/
+    "flex-layout.row#marca-individual-5": {
+        "title": "Marca individual",
+        "children": [
+            "flex-layout.col#marca-individual-5"
+        ]
+    },
+
+    "flex-layout.col#marca-individual-5": {
+        "children": [
+            "rich-text#marca-individual-5",
+            "image#marca-individual-5"
+        ],
+        "props": {
+            "blockClass": "marca-individual"
+        }
+    },
+
+    "rich-text#marca-individual-5": {
+        "props": {
+            "text": "[Blackoud](/)",
+            "font": "t-body",
+            "blockClass": "marca-individual-texto"
+        }
+    },
+
+    "image#marca-individual-5": {
+        "props": {
+            "src": "/arquivos/Pilatos-LogosMarcas-Blackoud.png",
+            "maxHeight": 28
+        }
+    },
+    /**************MARCA****************/
+
+    /**************MARCA****************/
+    "flex-layout.row#marca-individual-6": {
+        "title": "Marca individual",
+        "children": [
+            "flex-layout.col#marca-individual-6"
+        ]
+    },
+
+    "flex-layout.col#marca-individual-6": {
+        "children": [
+            "rich-text#marca-individual-6",
+            "image#marca-individual-6"
+        ],
+        "props": {
+            "blockClass": "marca-individual"
+        }
+    },
+
+    "rich-text#marca-individual-6": {
+        "props": {
+            "text": "[Brooks](/)",
+            "font": "t-body",
+            "blockClass": "marca-individual-texto"
+        }
+    },
+
+    "image#marca-individual-6": {
+        "props": {
+            "src": "/arquivos/Pilatos-LogosMarcas-Brooks.png",
+            "maxHeight": 28
+        }
+    },
+    /**************MARCA****************/
+
+    /**************MARCA****************/
+    "flex-layout.row#marca-individual-7": {
+        "title": "Marca individual",
+        "children": [
+            "flex-layout.col#marca-individual-7"
+        ]
+    },
+
+    "flex-layout.col#marca-individual-7": {
+        "children": [
+            "rich-text#marca-individual-7",
+            "image#marca-individual-7"
+        ],
+        "props": {
+            "blockClass": "marca-individual"
+        }
+    },
+
+    "rich-text#marca-individual-7": {
+        "props": {
+            "text": "[Calvin Klein](/)",
+            "font": "t-body",
+            "blockClass": "marca-individual-texto"
+        }
+    },
+
+    "image#marca-individual-7": {
+        "props": {
+            "src": "/arquivos/Pilatos-LogosMarcas-CalvinKlein.png",
+            "maxHeight": 28
+        }
+    },
+    /**************MARCA****************/
+
+    /**************MARCA****************/
+    "flex-layout.row#marca-individual-8": {
+        "title": "Marca individual",
+        "children": [
+            "flex-layout.col#marca-individual-8"
+        ]
+    },
+
+    "flex-layout.col#marca-individual-8": {
+        "children": [
+            "rich-text#marca-individual-8",
+            "image#marca-individual-8"
+        ],
+        "props": {
+            "blockClass": "marca-individual"
+        }
+    },
+
+    "rich-text#marca-individual-8": {
+        "props": {
+            "text": "[Celio](/)",
+            "font": "t-body",
+            "blockClass": "marca-individual-texto"
+        }
+    },
+
+    "image#marca-individual-8": {
+        "props": {
+            "src": "/arquivos/Celio's_logo.svg 1.png",
+            "maxHeight": 28
+        }
+    },
+    /**************MARCA****************/
+
+    /**************MARCA****************/
+    "flex-layout.row#marca-individual-9": {
+        "title": "Marca individual",
+        "children": [
+            "flex-layout.col#marca-individual-9"
+        ]
+    },
+
+    "flex-layout.col#marca-individual-9": {
+        "children": [
+            "rich-text#marca-individual-9",
+            "image#marca-individual-9"
+        ],
+        "props": {
+            "blockClass": "marca-individual"
+        }
+    },
+
+    "rich-text#marca-individual-9": {
+        "props": {
+            "text": "[Champion](/)",
+            "font": "t-body",
+            "blockClass": "marca-individual-texto"
+        }
+    },
+
+    "image#marca-individual-9": {
+        "props": {
+            "src": "/arquivos/Pilatos-LogosMarcas-Champion.png",
+            "maxHeight": 28
+        }
+    },
+    /**************MARCA****************/
+
+    /**************MARCA****************/
+    "flex-layout.row#marca-individual-10": {
+        "title": "Marca individual",
+        "children": [
+            "flex-layout.col#marca-individual-10"
+        ]
+    },
+
+    "flex-layout.col#marca-individual-10": {
+        "children": [
+            "rich-text#marca-individual-10",
+            "image#marca-individual-10"
+        ],
+        "props": {
+            "blockClass": "marca-individual"
+        }
+    },
+
+    "rich-text#marca-individual-10": {
+        "props": {
+            "text": "[Devier](/)",
+            "font": "t-body",
+            "blockClass": "marca-individual-texto"
+        }
+    },
+
+    "image#marca-individual-10": {
+        "props": {
+            "src": "/arquivos/Pilatos-LogosMarcas-Devier.png",
+            "maxHeight": 28
+        }
+    },
+    /**************MARCA****************/
+
+    /**************MARCA****************/
+    "flex-layout.row#marca-individual-11": {
+        "title": "Marca individual",
+        "children": [
+            "flex-layout.col#marca-individual-11"
+        ]
+    },
+
+    "flex-layout.col#marca-individual-11": {
+        "children": [
+            "rich-text#marca-individual-11",
+            "image#marca-individual-11"
+        ],
+        "props": {
+            "blockClass": "marca-individual"
+        }
+    },
+
+    "rich-text#marca-individual-11": {
+        "props": {
+            "text": "[Diesel](/)",
+            "font": "t-body",
+            "blockClass": "marca-individual-texto"
+        }
+    },
+
+    "image#marca-individual-11": {
+        "props": {
+            "src": "/arquivos/Pilatos-LogosMarcas-Diesel.png",
+            "maxHeight": 28
+        }
+    },
+    /**************MARCA****************/
+    
+    /**************MARCA SIN INFO****************/
+    "flex-layout.row#marca-individual-12": {
+        "title": "Marca individual",
+        "children": [
+            "flex-layout.col#marca-individual-12"
+        ]
+    },
+
+    "flex-layout.col#marca-individual-12": {
+        "children": [
+            "rich-text#marca-individual-12",
+            "image#marca-individual-12"
+        ],
+        "props": {
+            "blockClass": "marca-individual"
+        }
+    },
+
+    "rich-text#marca-individual-12": {
+        "props": {
+            "text": "",
+            "font": "t-body",
+            "blockClass": "marca-individual-texto"
+        }
+    },
+
+    "image#marca-individual-12": {
+        "props": {
+            "src": "",
+            "maxHeight": 28
+        }
+    },
+    /**************MARCA SIN INFO****************/
+
+    /**************MARCA SIN INFO****************/
+    "flex-layout.row#marca-individual-13": {
+        "title": "Marca individual",
+        "children": [
+            "flex-layout.col#marca-individual-13"
+        ]
+    },
+
+    "flex-layout.col#marca-individual-13": {
+        "children": [
+            "rich-text#marca-individual-13",
+            "image#marca-individual-13"
+        ],
+        "props": {
+            "blockClass": "marca-individual"
+        }
+    },
+
+    "rich-text#marca-individual-13": {
+        "props": {
+            "text": "",
+            "font": "t-body",
+            "blockClass": "marca-individual-texto"
+        }
+    },
+
+    "image#marca-individual-13": {
+        "props": {
+            "src": "",
+            "maxHeight": 28
+        }
+    },
+    /**************MARCA SIN INFO****************/
+
+    /**************MARCA SIN INFO****************/
+    "flex-layout.row#marca-individual-14": {
+        "title": "Marca individual",
+        "children": [
+            "flex-layout.col#marca-individual-14"
+        ]
+    },
+
+    "flex-layout.col#marca-individual-14": {
+        "children": [
+            "rich-text#marca-individual-14",
+            "image#marca-individual-14"
+        ],
+        "props": {
+            "blockClass": "marca-individual"
+        }
+    },
+
+    "rich-text#marca-individual-14": {
+        "props": {
+            "text": "",
+            "font": "t-body",
+            "blockClass": "marca-individual-texto"
+        }
+    },
+
+    "image#marca-individual-14": {
+        "props": {
+            "src": "",
+            "maxHeight": 28
+        }
+    },
+    /**************MARCA SIN INFO****************/
+
+    /**************MARCA SIN INFO****************/
+    "flex-layout.row#marca-individual-15": {
+        "title": "Marca individual",
+        "children": [
+            "flex-layout.col#marca-individual-15"
+        ]
+    },
+
+    "flex-layout.col#marca-individual-15": {
+        "children": [
+            "rich-text#marca-individual-15",
+            "image#marca-individual-15"
+        ],
+        "props": {
+            "blockClass": "marca-individual"
+        }
+    },
+
+    "rich-text#marca-individual-15": {
+        "props": {
+            "text": "",
+            "font": "t-body",
+            "blockClass": "marca-individual-texto"
+        }
+    },
+
+    "image#marca-individual-15": {
+        "props": {
+            "src": "",
+            "maxHeight": 28
+        }
+    },
+    /**************MARCA SIN INFO****************/
+
+    /**************MARCA SIN INFO****************/
+    "flex-layout.row#marca-individual-16": {
+        "title": "Marca individual",
+        "children": [
+            "flex-layout.col#marca-individual-16"
+        ]
+    },
+
+    "flex-layout.col#marca-individual-16": {
+        "children": [
+            "rich-text#marca-individual-16",
+            "image#marca-individual-16"
+        ],
+        "props": {
+            "blockClass": "marca-individual"
+        }
+    },
+
+    "rich-text#marca-individual-16": {
+        "props": {
+            "text": "",
+            "font": "t-body",
+            "blockClass": "marca-individual-texto"
+        }
+    },
+
+    "image#marca-individual-16": {
+        "props": {
+            "src": "",
+            "maxHeight": 28
+        }
+    },
+    /**************MARCA SIN INFO****************/
+
+    /**************MARCA SIN INFO****************/
+    "flex-layout.row#marca-individual-17": {
+        "title": "Marca individual",
+        "children": [
+            "flex-layout.col#marca-individual-17"
+        ]
+    },
+
+    "flex-layout.col#marca-individual-17": {
+        "children": [
+            "rich-text#marca-individual-17",
+            "image#marca-individual-17"
+        ],
+        "props": {
+            "blockClass": "marca-individual"
+        }
+    },
+
+    "rich-text#marca-individual-17": {
+        "props": {
+            "text": "",
+            "font": "t-body",
+            "blockClass": "marca-individual-texto"
+        }
+    },
+
+    "image#marca-individual-17": {
+        "props": {
+            "src": "",
+            "maxHeight": 28
+        }
+    },
+    /**************MARCA SIN INFO****************/
+
+    /**************MARCA SIN INFO****************/
+    "flex-layout.row#marca-individual-18": {
+        "title": "Marca individual",
+        "children": [
+            "flex-layout.col#marca-individual-18"
+        ]
+    },
+
+    "flex-layout.col#marca-individual-18": {
+        "children": [
+            "rich-text#marca-individual-18",
+            "image#marca-individual-18"
+        ],
+        "props": {
+            "blockClass": "marca-individual"
+        }
+    },
+
+    "rich-text#marca-individual-18": {
+        "props": {
+            "text": "",
+            "font": "t-body",
+            "blockClass": "marca-individual-texto"
+        }
+    },
+
+    "image#marca-individual-18": {
+        "props": {
+            "src": "",
+            "maxHeight": 28
+        }
+    },
+    /**************MARCA SIN INFO****************/
+
+    /**************MARCA SIN INFO****************/
+    "flex-layout.row#marca-individual-19": {
+        "title": "Marca individual",
+        "children": [
+            "flex-layout.col#marca-individual-19"
+        ]
+    },
+
+    "flex-layout.col#marca-individual-19": {
+        "children": [
+            "rich-text#marca-individual-19",
+            "image#marca-individual-19"
+        ],
+        "props": {
+            "blockClass": "marca-individual"
+        }
+    },
+
+    "rich-text#marca-individual-19": {
+        "props": {
+            "text": "",
+            "font": "t-body",
+            "blockClass": "marca-individual-texto"
+        }
+    },
+
+    "image#marca-individual-19": {
+        "props": {
+            "src": "",
+            "maxHeight": 28
+        }
+    },
+    /**************MARCA SIN INFO****************/
+
+    /**************MARCA SIN INFO****************/
+    "flex-layout.row#marca-individual-20": {
+        "title": "Marca individual",
+        "children": [
+            "flex-layout.col#marca-individual-20"
+        ]
+    },
+
+    "flex-layout.col#marca-individual-20": {
+        "children": [
+            "rich-text#marca-individual-20",
+            "image#marca-individual-20"
+        ],
+        "props": {
+            "blockClass": "marca-individual"
+        }
+    },
+
+    "rich-text#marca-individual-20": {
+        "props": {
+            "text": "",
+            "font": "t-body",
+            "blockClass": "marca-individual-texto"
+        }
+    },
+
+    "image#marca-individual-20": {
+        "props": {
+            "src": "",
+            "maxHeight": 28
+        }
+    },
+    /**************MARCA SIN INFO****************/
+
+    /**************MARCA SIN INFO****************/
+    "flex-layout.row#marca-individual-21": {
+        "title": "Marca individual",
+        "children": [
+            "flex-layout.col#marca-individual-21"
+        ]
+    },
+
+    "flex-layout.col#marca-individual-21": {
+        "children": [
+            "rich-text#marca-individual-21",
+            "image#marca-individual-21"
+        ],
+        "props": {
+            "blockClass": "marca-individual"
+        }
+    },
+
+    "rich-text#marca-individual-21": {
+        "props": {
+            "text": "",
+            "font": "t-body",
+            "blockClass": "marca-individual-texto"
+        }
+    },
+
+    "image#marca-individual-21": {
+        "props": {
+            "src": "",
+            "maxHeight": 28
+        }
+    },
+    /**************MARCA SIN INFO****************/
+
+    /**************MARCA SIN INFO****************/
+    "flex-layout.row#marca-individual-22": {
+        "title": "Marca individual",
+        "children": [
+            "flex-layout.col#marca-individual-22"
+        ]
+    },
+
+    "flex-layout.col#marca-individual-22": {
+        "children": [
+            "rich-text#marca-individual-22",
+            "image#marca-individual-22"
+        ],
+        "props": {
+            "blockClass": "marca-individual"
+        }
+    },
+
+    "rich-text#marca-individual-22": {
+        "props": {
+            "text": "",
+            "font": "t-body",
+            "blockClass": "marca-individual-texto"
+        }
+    },
+
+    "image#marca-individual-22": {
+        "props": {
+            "src": "",
+            "maxHeight": 28
+        }
+    },
+    /**************MARCA SIN INFO****************/
+
+    /**************MARCA SIN INFO****************/
+    "flex-layout.row#marca-individual-23": {
+        "title": "Marca individual",
+        "children": [
+            "flex-layout.col#marca-individual-23"
+        ]
+    },
+
+    "flex-layout.col#marca-individual-23": {
+        "children": [
+            "rich-text#marca-individual-23",
+            "image#marca-individual-23"
+        ],
+        "props": {
+            "blockClass": "marca-individual"
+        }
+    },
+
+    "rich-text#marca-individual-23": {
+        "props": {
+            "text": "",
+            "font": "t-body",
+            "blockClass": "marca-individual-texto"
+        }
+    },
+
+    "image#marca-individual-23": {
+        "props": {
+            "src": "",
+            "maxHeight": 28
+        }
+    },
+    /**************MARCA SIN INFO****************/
+    /**************MARCA SIN INFO****************/
+    "flex-layout.row#marca-individual-24": {
+        "title": "Marca individual",
+        "children": [
+            "flex-layout.col#marca-individual-24"
+        ]
+    },
+
+    "flex-layout.col#marca-individual-24": {
+        "children": [
+            "rich-text#marca-individual-24",
+            "image#marca-individual-24"
+        ],
+        "props": {
+            "blockClass": "marca-individual"
+        }
+    },
+
+    "rich-text#marca-individual-24": {
+        "props": {
+            "text": "",
+            "font": "t-body",
+            "blockClass": "marca-individual-texto"
+        }
+    },
+
+    "image#marca-individual-24": {
+        "props": {
+            "src": "",
+            "maxHeight": 28
+        }
+    },
+    /**************MARCA SIN INFO****************/
+    /**************MARCA SIN INFO****************/
+    "flex-layout.row#marca-individual-25": {
+        "title": "Marca individual",
+        "children": [
+            "flex-layout.col#marca-individual-25"
+        ]
+    },
+
+    "flex-layout.col#marca-individual-25": {
+        "children": [
+            "rich-text#marca-individual-25",
+            "image#marca-individual-25"
+        ],
+        "props": {
+            "blockClass": "marca-individual"
+        }
+    },
+
+    "rich-text#marca-individual-25": {
+        "props": {
+            "text": "",
+            "font": "t-body",
+            "blockClass": "marca-individual-texto"
+        }
+    },
+
+    "image#marca-individual-25": {
+        "props": {
+            "src": "",
+            "maxHeight": 28
+        }
+    },
+    /**************MARCA SIN INFO****************/
+    /**************MARCA SIN INFO****************/
+    "flex-layout.row#marca-individual-26": {
+        "title": "Marca individual",
+        "children": [
+            "flex-layout.col#marca-individual-26"
+        ]
+    },
+
+    "flex-layout.col#marca-individual-26": {
+        "children": [
+            "rich-text#marca-individual-26",
+            "image#marca-individual-26"
+        ],
+        "props": {
+            "blockClass": "marca-individual"
+        }
+    },
+
+    "rich-text#marca-individual-26": {
+        "props": {
+            "text": "",
+            "font": "t-body",
+            "blockClass": "marca-individual-texto"
+        }
+    },
+
+    "image#marca-individual-26": {
+        "props": {
+            "src": "",
+            "maxHeight": 28
+        }
+    },
+    /**************MARCA SIN INFO****************/
+    /**************MARCA SIN INFO****************/
+    "flex-layout.row#marca-individual-27": {
+        "title": "Marca individual",
+        "children": [
+            "flex-layout.col#marca-individual-27"
+        ]
+    },
+
+    "flex-layout.col#marca-individual-27": {
+        "children": [
+            "rich-text#marca-individual-27",
+            "image#marca-individual-27"
+        ],
+        "props": {
+            "blockClass": "marca-individual"
+        }
+    },
+
+    "rich-text#marca-individual-27": {
+        "props": {
+            "text": "",
+            "font": "t-body",
+            "blockClass": "marca-individual-texto"
+        }
+    },
+
+    "image#marca-individual-27": {
+        "props": {
+            "src": "",
+            "maxHeight": 28
+        }
+    }
+    /**************MARCA SIN INFO****************/
+}

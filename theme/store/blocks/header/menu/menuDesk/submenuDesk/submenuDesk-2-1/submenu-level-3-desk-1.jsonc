@@ -9,13 +9,14 @@
     "flex-layout.col#submenu-desk-department-1-category-1-row-1":{
         "children":[
             "rich-text#submenu-desk-department-1-category-1",
-            "rich-text#submenu-desk-department-1-category-1-subcategory-1",
-            "rich-text#submenu-desk-department-1-category-1-subcategory-2",
-            "rich-text#submenu-desk-department-1-category-1-subcategory-3",
-            "rich-text#submenu-desk-department-1-category-1-subcategory-4",
-            "rich-text#submenu-desk-department-1-category-1-subcategory-5",
-            "rich-text#submenu-desk-department-1-category-1-subcategory-6",
             "rich-text#submenu-desk-department-1-category-1-subcategory-7",
+            "rich-text#submenu-desk-department-1-category-1-subcategory-4",
+            "rich-text#submenu-desk-department-1-category-1-subcategory-2",
+            "rich-text#submenu-desk-department-1-category-1-subcategory-1",
+            "rich-text#submenu-desk-department-1-category-1-subcategory-5",
+            "rich-text#submenu-desk-department-1-category-1-subcategory-9",
+            "rich-text#submenu-desk-department-1-category-1-subcategory-6",
+            "rich-text#submenu-desk-department-1-category-1-subcategory-3",
             "rich-text#submenu-desk-department-1-category-1-subcategory-8"
         ],
         "props":{
@@ -30,23 +31,9 @@
         }
     },
 
-    "rich-text#submenu-desk-department-1-category-1-subcategory-1":{
+    "rich-text#submenu-desk-department-1-category-1-subcategory-7":{
         "props":{
-            "text": "[Camisetas](/hombre/ropa/camisetas)",
-            "blockClass": "textSubcategory"
-        }
-    },
-
-    "rich-text#submenu-desk-department-1-category-1-subcategory-2":{
-        "props":{
-            "text": "[Camisas](/hombre/ropa/camisas)",
-            "blockClass": "textSubcategory"
-        }
-    },
-
-    "rich-text#submenu-desk-department-1-category-1-subcategory-3":{
-        "props":{
-            "text": "[Polos](/hombre/ropa/polos)",
+            "text": "[Bermudas](/hombre/ropa/bermudas)",
             "blockClass": "textSubcategory"
         }
     },
@@ -58,9 +45,31 @@
         }
     },
 
+
+  "rich-text#submenu-desk-department-1-category-1-subcategory-2":{
+      "props":{
+          "text": "[Camisas](/hombre/ropa/camisas)",
+          "blockClass": "textSubcategory"
+      }
+  },
+
+    "rich-text#submenu-desk-department-1-category-1-subcategory-1":{
+        "props":{
+            "text": "[Camisetas](/hombre/ropa/camisetas)",
+            "blockClass": "textSubcategory"
+        }
+    },
+
     "rich-text#submenu-desk-department-1-category-1-subcategory-5":{
         "props":{
             "text": "[Chaquetas](/hombre/ropa/chaquetas)",
+            "blockClass": "textSubcategory"
+        }
+    },
+
+    "rich-text#submenu-desk-department-1-category-1-subcategory-9":{
+        "props":{
+            "text": "[Jeans](/hombre/jeans)",
             "blockClass": "textSubcategory"
         }
     },
@@ -72,9 +81,9 @@
         }
     },
 
-    "rich-text#submenu-desk-department-1-category-1-subcategory-7":{
+    "rich-text#submenu-desk-department-1-category-1-subcategory-3":{
         "props":{
-            "text": "[Bermudas](/hombre/ropa/bermudas)",
+            "text": "[Polos](/hombre/ropa/polos)",
             "blockClass": "textSubcategory"
         }
     },

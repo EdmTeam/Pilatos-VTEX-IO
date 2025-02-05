@@ -106,8 +106,7 @@
     margin: 0 auto;
     position: sticky;
     top: 4%;
-    /*z-index: 1;*/
-    z-index: 2;
+    z-index: 1;
   }
 
 
@@ -532,6 +531,11 @@
   border-radius: 10px;
 }
 
+
+  .flexRowContent--subContenItemsLevel2 :global(.vtex-flex-layout-0-x-flexRowContent--subContenItems1) {
+    height: 352px !important;
+  }
+
 @media only screen and (min-width: 740px){
   .flexRowContent--contentItemsMenu,
   .flexRowContent--subContenItemsLevel2,
@@ -555,6 +559,11 @@
   .flexRowContent--subContenItemsLevel2 .stretchChildrenWidth
   {
     width: 100% !important;
+  }
+
+  .flexRowContent--subContenItemsLevel2 :global(.vtex-flex-layout-0-x-flexRow--subContenItems1),
+  .flexRowContent--subContenItemsLevel2 :global(.vtex-flex-layout-0-x-flexRowContent--subContenItems1) {
+    height: auto !important;
   }
 
   .flexRowContent--contentFooterMenu :global(.vtex-button) :global(.vtex-button__label){
@@ -909,12 +918,18 @@
   width: 100%;
 }
 
-.flexCol--contentBlockSubmenu{
+/* .flexCol--contentBlockSubmenu{
   margin-bottom: .6rem;
+} */
+
+.flexCol--contentdepartmentImg {
+  justify-content: flex-end;
 }
 
-.flexCol--contentdepartmentImg{
-  margin-top: .7rem;
+.flexCol--contentdepartmentImg .flexColChild--contentdepartmentImg :global(.vtex-store-components-3-x-imageElement) {
+  width: 152.37px;
+  height: 190px !important;
+  object-fit: cover;
 }
 
 .flexRowContent--contentBtnClose{
@@ -929,6 +944,10 @@
 .flexRow--contentSearchClose{
   display: none;
   background: #FFFFFF;
+}
+
+.flexRowContent--boxSubmenu .flexRowContent {
+  gap: 40px;
 }
 
 .flexRowContent--contentSearchClose{
@@ -1427,6 +1446,10 @@
 :global(.vtex-search-result-3-x-orderByText){
   display: none;
 }
+
+/* .flexRowContent--contentHeaderMenuActive :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child :global(.vtex-flex-layout-0-x-flexCol) {
+  justify-content: center;
+} */
 
 :global(.vtex-search-result-3-x-filterTitle){
   font-weight: bold;
@@ -3008,7 +3031,8 @@
 
 .flexRowContent--subContenItems1-2{
   height: 420px;
-  margin-top: 1rem;
+  margin-top: 42px;
+  padding: 0;
 }
 
 .flexCol--contentBlockSubmenu2{
@@ -4043,3 +4067,97 @@ width: 88%;
   }
 }
 
+/*******LANDING DEPORTIVA*****/
+.flexCol--botones-landing-deportiva {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.flexCol--botones-deportiva-mob {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.flexRowContent--vitrina-landing-deportiva  :global(.vtex-search-result-3-x-galleryTitle--layout), .flexRowContent--vitrina-landing-deportiva :global(.vtex-breadcrumb-1-x-container) {
+  display: none;
+}
+/*******LANDING DEPORTIVA*****/
+
+
+/*gift card*/
+
+.flexCol--contenedor-botonGiftCard{
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+/*******LANDING MARCAS********/
+.flexRow--contenedor-marcas {
+  width: 80%;
+  margin: 0 auto;
+}
+.flexCol--contenedor-marcas-columnas {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 50px;
+}
+.flexColChild--contenedor-marcas-columnas {
+  width: 100%;
+}
+
+.vtex-rich-text-0-x-container--titulo-marca {
+  border: 1px solid #646262;
+}
+
+.flexCol--marca-individual {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80% !important;
+}
+
+.flexColChild--marca-individual {
+  width: 100%;
+}
+
+.flexColChild--marcas-contenedor-individuales :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  justify-content: left;
+}
+
+@media screen and (max-width: 768px) {
+  .flexCol--contenedor-marcas-columnas {
+    flex-direction: column;
+  }
+}
+/*******LANDING MARCAS********/
+
+.flexRowContent--subContenItems1-2 .stretchChildrenWidth {
+  display: flex;
+  flex-direction: column;
+  padding-left: 23px;
+  padding-right: 23px;
+}
+
+.flexRowContent--subContenItems1-2 :global(.vtex-disclosure-layout-1-x-trigger--content-a-i--hidden) :global(.vtex-store-icons-0-x-caretIcon) {
+  display: none;
+}
+
+.flexRowContent--subContenItems1-2 :global(.vtex-disclosure-layout-1-x-trigger--content-a-i--hidden)::after {
+  content: '\e904';
+  font-family: 'icomoon' !important;
+  color: #3F3F40;
+}
+
+.flexRowContent--subContenItems1-2 :global(.vtex-disclosure-layout-1-x-trigger--content-a-i--visible) :global(.vtex-store-icons-0-x-caretIcon) {
+  display: none;
+}
+
+.flexRowContent--subContenItems1-2 :global(.vtex-disclosure-layout-1-x-trigger--content-a-i--visible)::after {
+  content: '\e920';
+  font-family: 'icomoon' !important;
+  color: #3F3F40;
+}

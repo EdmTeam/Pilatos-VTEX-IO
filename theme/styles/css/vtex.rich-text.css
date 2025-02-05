@@ -771,6 +771,10 @@
   text-decoration: none;
 }
 
+.paragraph--departmentTitle-Home {
+  font-size: 12px;
+}
+
 
 .wrapper--itemMenuLevel1Sale .link--itemMenuLevel1 {
   color: #000000;
@@ -898,11 +902,13 @@
 
 .wrapper--textCategory .paragraph {
   margin: .7rem 0 .6rem 0;
-  /*font-weight: 800;*/
-  font-size: 12px;
-  line-height: 15px;
-  letter-spacing: 0.03em;
   color: #000000;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.8px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
 }
 
 .wrapper--textCategory .link {
@@ -911,11 +917,13 @@
 }
 
 .wrapper--textSubcategory .paragraph {
-  margin: .2rem 0;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 15px;
-  letter-spacing: 0.03em;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17.03px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin: .13rem 0;
 }
 
 .wrapper--textSubcategory .link {
@@ -2446,17 +2454,43 @@ margin: 70px;
 }
 
 .wrapper--contentSubMenuAcordeon .paragraph {
+  align-items: center;
   font-weight: 700;
   font-size: 14px;
   line-height: 13px;
   letter-spacing: .02em;
   color: #000;
   margin: .65rem 0;
+  gap: 9px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.wrapper--textSubcategoryPilatos .image--textSubcategoryPilatos,
+.wrapper--contentSubMenuAcordeon .image--contentSubMenuAcordeon {
+  width: 50%;
+  max-width: 120px;
+}
+
+.wrapper--contentSubMenuAcordeon {
+  width: 100%;
+}
+
+.paragraph--textSubcategoryPilatos,
+.paragraph--contentSubMenuAcordeon {
+  display: flex;
+  justify-content: space-between;
 }
 
 .wrapper--contentSubMenuAcordeon .link {
   text-decoration: none;
-  color: #000;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.4px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #646262;
 }
 
 .wrapper--contentSubMenuAcordeon .link:hover {
@@ -3319,6 +3353,10 @@ margin: 2px;
 
 }
 
+.paragraph--textNoneColor {
+  color: #F2F2F2 !important;
+}
+
 .paragraph--textCategoryGift{
   font-size: 16px;
 }
@@ -3901,4 +3939,92 @@ margin: 2px;
   margin-top: 0px;
   margin-bottom: 0px;
   margin-left: 8px;
+}
+
+/****LANDING DEPORTIVA***/
+.link--btn-landing-deportiva {
+  text-decoration: none;
+  color: #000;
+  width: 150px;
+  height: 36px;
+  background-color: #fff;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.2s ease-out;
+}
+
+.link--btn-landing-deportiva:hover {
+  background-color: #000;
+  color: #fff;
+  transition: background-color 0.2s ease-in;
+}
+/****LANDING DEPORTIVA***/
+
+/*******LANDING MARCAS********/
+.paragraph--marca-individual-texto {
+  font-size: 14px;
+}
+.link--marca-individual-texto {
+  text-decoration: none;
+  color: #000;
+}
+.wrapper--titulo-marca {
+  width: 100%;
+  border-bottom: 1px solid #646262;
+}
+/*******LANDING MARCAS********/
+
+.paragraph--textSubcategory .image--logo-kipling-menu {
+  width: 50px !important;
+}
+
+.paragraph--textSubcategory .image--logo-dcshoes-menu {
+  width: 20px !important;
+}
+
+/* menu mobile  */
+
+.container--content-a-i {
+  width: 95%;
+  justify-content: center;
+}
+
+.paragraph--content-a-i {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 2px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #000000;
+  margin-top: 6px;
+  margin-bottom: 12px;
+}
+
+.container--contentSubMenuAcordeon {
+  margin-left: 29px;
+  margin-right: 29px;
+}
+
+/*topheader texto*/
+
+.wrapper--textTopHeader-nuevo{
+
+  font-size: 14px; 
+  font-weight: bold;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.paragraph--textTopHeader-nuevo {
+
+  width: 100%;
+    align-items: center;
+    text-align: center;
 }

@@ -55,7 +55,8 @@
       "rich-text#submenu-desk-department-4-category-60-superga-15-mobile", // Superga
       "rich-text#submenu-desk-department-4-category-60-jansport-16-mobile", // JANSPORT
       "rich-text#submenu-desk-department-4-category-60-kappa-17-mobile", // KAPPA
-      "rich-text#submenu-desk-department-4-category-60-the-north-face-18-mobile" // THE NORTH FACE
+      "rich-text#submenu-desk-department-4-category-60-the-north-face-18-mobile", // THE NORTH FACE
+      "rich-text#submenu-desk-department-4-category-60-emir-miliano-mobile" // EMIR MILIANO
     ],
     "props": {
       "blockClass": "contentSubMenuAcordeon"
@@ -185,6 +186,13 @@
   "rich-text#submenu-desk-department-4-category-60-the-north-face-18-mobile": {
     "props": {
       "text": "[The North Face](/mujer/kappa?map=category-1,marca)",
+      "blockClass": ["textSubmenuAcordeon", "textSubcategoryPilatos"]
+    }
+  }, 
+
+  "rich-text#submenu-desk-department-4-category-60-emir-miliano-mobile": {
+    "props": {
+      "text": "[Emmir Milano](/emir-milano)",
       "blockClass": ["textSubmenuAcordeon", "textSubcategoryPilatos"]
     }
   }, 

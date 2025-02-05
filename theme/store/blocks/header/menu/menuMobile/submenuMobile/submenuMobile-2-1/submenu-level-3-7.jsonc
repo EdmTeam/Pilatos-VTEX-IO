@@ -61,7 +61,8 @@
             "rich-text#submenu-desk-department-4-category-60-jansport--16-mobile", //jansport
             "rich-text#submenu-desk-department-4-category-60-kappa--17-mobile", //kappa
             "rich-text#submenu-desk-department-4-category-60-the-north-face--18-mobile", //the-north-face
-            "rich-text#submenu-desk-department-4-category-60-artdist-19-mobile" //artdist
+            "rich-text#submenu-desk-department-4-category-60-artdist-19-mobile", //artdist
+            "rich-text#submenu-desk-department-4-category-60-emir-milano-19-mobile" //emmir milano
             ],
         "props": {
             "blockClass": "contentSubMenuAcordeon"
@@ -180,6 +181,12 @@
     "rich-text#submenu-desk-department-4-category-60-artdist-19-mobile": {
         "props": {
             "text": "[Artdist](/artdist)",
+            "blockClass": ["textSubmenuAcordeon", "textSubcategoryPilatos"]
+        }
+    },
+    "rich-text#submenu-desk-department-4-category-60-emir-milano-19-mobile": {
+        "props": {
+            "text": "[Emmir Milano](/emmir-milano)",
             "blockClass": ["textSubmenuAcordeon", "textSubcategoryPilatos"]
         }
     },

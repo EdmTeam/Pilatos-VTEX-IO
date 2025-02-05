@@ -3,7 +3,8 @@
         "blocks":[
             "flex-layout.row#banner-landing-new-balance",
             //"search-result-layout.customQuery#landing-marcas"
-            "search-result-layout.customQuery#landing-new-balance"
+            "search-result-layout.customQuery#landing-new-balance",
+            "segmentify-carrousel"
                 ],
         "props":{
             "blockClass": "contentStoreCustom"

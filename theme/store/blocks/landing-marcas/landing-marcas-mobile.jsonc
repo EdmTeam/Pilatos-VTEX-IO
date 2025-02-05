@@ -160,9 +160,9 @@
             "itemsPerPage": {
                 "desktop": 1,
                 "tablet": 1,
-                "phone": 1
+                "phone": 2
             },
-            "centerMode": "to-the-left",
+            "centerMode": "center",
             "showNavigationArrows": "desktopOnly",
             "showPaginationDots": "mobileOnly"
         }

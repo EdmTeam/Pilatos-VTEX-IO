@@ -4,12 +4,14 @@
       "flex-layout.row#titleReverso",
       "flex-layout.row#descripcionReverso",
       "flex-layout.row#botonesReverso",
-      "responsive-layout.phone#reversoMobile",
+      "responsive-layout.desktop#bloque-reversso-imagenes-desk",
+      "responsive-layout.mobile#bloque-reversso-imagenes-mob",
+      /*"responsive-layout.phone#reversoMobile",
       "responsive-layout.tablet#reversoTable",
       "responsive-layout.desktop#reversoSession1",
       "responsive-layout.desktop#reversoSession2",
       "responsive-layout.desktop#reversoSession3",
-      "responsive-layout.desktop#reversoSession4",
+      "responsive-layout.desktop#reversoSession4",*/
       // "responsive-layout.phone#bannerprincipal-Reversso",
       "flex-layout.row#most-viewed"
     ],
@@ -70,8 +72,36 @@
         "blockClass": "botonReverso"
     }
 },
+
+"responsive-layout.desktop#bloque-reversso-imagenes-desk": {
+        "children": [
+            //"flex-layout.row#bloque-reversso-imagenes"
+            "flex-layout.row#imagen-reversso"
+        ]
+    },
+
+    "flex-layout.row#imagen-reversso": {
+      "title": "Imagen reversso",
+      "children": ["image#reversso"],
+      "props": {
+        "blockClass": "contenedor-imagen-reversso"
+      }
+    },
+  
+    "image#reversso": {
+      "props": {
+        "src": "/arquivos/Pilatos-banner-reversso-desk.jpg",
+        "blockClass": "custom-image-reversso",
+        "link": {
+          "url": "",
+          "noFollow": false,
+          "openNewTab": false
+        }
+      }
+    }
+
   // sesion uno - reverso
-  "responsive-layout.desktop#reversoSession1": {
+  /*"responsive-layout.desktop#reversoSession1": {
     "children": [
       "flex-layout.row#reversoSession1"
     ]
@@ -215,5 +245,5 @@
       "src": "/arquivos/Pilatos-LandingReversso8a.jpg",
       "blockClass": "fraganciayUso-usoSinLin"
     }
-  }
+  }*/
 }

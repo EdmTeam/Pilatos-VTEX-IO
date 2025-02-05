@@ -9,6 +9,10 @@
     background-image: url("/arquivos/icono-menu.png");
 }
 
+.menuItem--menuAccordionLevel1--isOpen :global(.vtex-menu-2-x-submenuAccordion--contentSubMenuAcordeon) {
+    height: auto !important;
+}
+
 .styledLinkContent--item-departmentos{
     color: white;
 }
@@ -226,7 +230,7 @@
 .submenuWrapper--contentSubmenuDesk{
     width: 700px;
     background: #F2F2F2;
-    padding: .75rem 2rem;
+    padding: 15px 20px 30px 76px;
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
@@ -279,6 +283,11 @@
     justify-content: flex-start;
 }
 
+.styledLinkContent--menu__sale-desk {
+    font-size: 12px;
+}
+
+
 .styledLinkContent--menuLinkHeaderHover{
     display: flex;
     align-items: center;
@@ -319,6 +328,11 @@
 }
 
 .submenuWrapper--contentSubmenuDesk{
-    height: 470px;
+    height: 472px;
     overflow-y: auto;
+}
+
+.styledLinkContainer--menu__sale-desk{
+
+    padding-top: 2.1rem;
 }
