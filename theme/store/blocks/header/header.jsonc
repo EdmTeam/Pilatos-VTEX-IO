@@ -16,8 +16,23 @@
       "custom-sticky#header-sticky-inactive",
       "custom-sticky#header-sticky-active",
      // "link#content-chat-whatsapp",
-      "segmentify"
+      "segmentify",
+      "experimental__visibility-layout#modal-component-custom-desk"
     ]
+  },
+
+  "experimental__visibility-layout#modal-component-custom-desk": {
+    "title": "Desk hablador component visibility",
+    "children": ["modal-component"],
+    "props": {
+      "visible": false
+    }
+  },
+
+  "modal-component": {
+    "props": {
+      "blockClass": "modal-promo"
+    }
   },
 
 
@@ -27,8 +42,17 @@
       "responsive-layout.tablet#header-tablet",
       "responsive-layout.phone#header-phone",
       //"link#content-chat-whatsapp",
-      "segmentify"
+      "segmentify",
+      "experimental__visibility-layout#modal-component-custom-mob"
     ]
+  },
+
+  "experimental__visibility-layout#modal-component-custom-mob": {
+    "title": "Mob hablador component visibility",
+    "children": ["modal-component"],
+    "props": {
+      "visible": false
+    }
   },
 
   "responsive-layout.phone#header-phone": {
