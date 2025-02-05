@@ -1,0 +1,20 @@
+.desktopImageModal {
+    display: block;
+    border-radius: 10px;
+}
+
+.mobileImageModal {
+    display: none;
+    border-radius: 10px;
+}
+
+@media (max-width: 1024px) {
+    .desktopImageModal {
+        display: none;
+    }
+
+    .mobileImageModal {
+        display: block;
+        width: 100vw;
+    }
+}

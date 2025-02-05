@@ -1,0 +1,37 @@
+.estrategiaModalDcto {
+  width: 205px;
+  height: auto !important;
+  bottom: 25vh;
+  right: 10px;
+  z-index: 9999;
+  padding: 0;
+  position: fixed;
+}
+
+.estrategiaModalDctoClose {
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .estrategiaModalDcto {
+    width: 90vw;
+    z-index: 9999;
+    overflow: hidden;
+    bottom: 95px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+
+  .estrategiaModalDctoClose {
+    top: 6px;
+  }
+}
