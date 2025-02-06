@@ -4161,3 +4161,7 @@ width: 88%;
   font-family: 'icomoon' !important;
   color: #3F3F40;
 }
+
+.flexColChild--stack-product :global(.vtex-store-components-3-x-skuSelectorContainer) {
+  align-items: start;
+}

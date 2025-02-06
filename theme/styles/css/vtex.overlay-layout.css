@@ -6,3 +6,7 @@
 .container--selector {
   border: 0px;
 }
+
+.trigger--selector {
+    z-index: 1 !important;
+}
