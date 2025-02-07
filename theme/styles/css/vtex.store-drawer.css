@@ -102,9 +102,9 @@
 }
 
 .drawerHeader--contenedorFilterHeader{
-    position: absolute;
-    top: 1rem;
-    left: 0.3rem;
+  width: 100%;
+  justify-content: flex-end;
+  position: absolute;
 }
 
 .drawerHeader--contenedorFilterHeader :global(.vtex-rich-text-0-x-wrapper--closeIco){
