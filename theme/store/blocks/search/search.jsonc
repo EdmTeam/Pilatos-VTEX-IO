@@ -88,8 +88,18 @@
   "flex-layout.row#suggestion": {
     "children": [
       "search-suggestions"
-    ]
+    ],
+    "props": {
+      "blockClass": "search-suggestions"
+    }
   },
+
+  "search-suggestions": {
+    "props": {
+      "blockClass": "search-suggestions"
+    }
+  },
+
   "flex-layout.row#banner-search": {
     "children": [
       // "search-banner#search"

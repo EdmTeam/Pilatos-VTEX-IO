@@ -40,12 +40,12 @@
     ]
   },
 
-  // "rich-text#submenu-close-icono":{
-  //   "props":{
-  //       "text": "",
-  //       "blockClass": "closeIco"
-  //   }
-  // },
+  "rich-text#submenu-close-icono":{
+     "props":{
+         "text": "",
+         "blockClass": "closeIco"
+     }
+   },
 
   "flex-layout.col#minicart-footer": {
     "children": [
