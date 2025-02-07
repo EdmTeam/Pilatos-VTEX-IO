@@ -267,4 +267,6 @@
     display: none;
 }
 
-
+.closeIcon--contentMinicart {
+  color: #000000;
+}

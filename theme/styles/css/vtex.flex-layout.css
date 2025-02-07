@@ -426,7 +426,6 @@
 
 .flexColChild--contentIcoMenu-mobi{
   height: 100% !important;
-  margin-left: 20px;
 }
 
 .flexRowContent--submenu-desk-department-options {
@@ -4152,4 +4151,34 @@ width: 88%;
   content: '\e920';
   font-family: 'icomoon' !important;
   color: #3F3F40;
+}
+
+.flexRowContent--contentHeaderBar {
+  margin: 0 auto;
+  align-items: center;
+  width: 96%;
+  gap: 10px;
+}
+
+.flexRowContent--search-suggestions :global(.vtex-search-2-x-suggestionsList) {
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+.flexRowContent--search-suggestions :global(.vtex-search-2-x-suggestionsListItem)::before {
+  content: "" !important;
+  margin: 0 !important;
+}
+
+.flexRowContent--search-suggestions :global(.vtex-search-2-x-suggestionListWrapper) {
+  width: 90%;
+}
+
+.flexRowContent--search-suggestions :global(.vtex-search-2-x-suggestionsListLink) {
+  border-radius: 5px;
+  padding: 0.3rem;
+  border: 1px solid #000000;
+  color: #000000;
+  display: block;
+  width: 130px;
 }
