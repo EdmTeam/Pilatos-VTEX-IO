@@ -18,3 +18,14 @@
         width: 100vw;
     }
 }
+
+.estrategiaModalDctoClose--modal-promo {
+    color: black !important;
+}
+
+@media screen and (max-width: 1024px) {
+    .estrategiaModalDctoClose {
+        top: 6px;
+        right: 0.3px !important;
+    }
+}
