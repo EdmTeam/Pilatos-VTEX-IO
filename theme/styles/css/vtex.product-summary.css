@@ -167,3 +167,7 @@
   opacity: 0.5;
   background-image: linear-gradient(to top right, transparent 44%, rgba(0, 0, 0, 0.3) 48%, currentColor 48%, currentColor 52%, transparent 52%);
 }
+
+.sliderArrows--sku-selector-color {
+  color: #000000;
+}
