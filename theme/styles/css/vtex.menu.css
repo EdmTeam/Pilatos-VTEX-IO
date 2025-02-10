@@ -336,3 +336,10 @@
 
     padding-top: 2.1rem;
 }
+
+/* Menu Sale */
+
+.submenuWrapper--submenu__sale--hover {
+  height: auto !important;
+  padding: 16px 16px 50px 16px !important;
+}

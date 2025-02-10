@@ -4182,3 +4182,34 @@ width: 88%;
   display: block;
   width: 130px;
 }
+
+/* Menu Sale */
+
+.flexRowContent--submenu-desk-sale-options-row-1 .flexCol--submenu-desk-sale-hombre-row-1 {
+  justify-content: center;
+  align-items: end;
+  width: auto;
+}
+
+.flexRowContent--submenu-desk-sale-options-row-1 .flexCol--submenu-desk-sale-mujer-row-1 {
+  justify-content: center;
+  align-items: start;
+  width: auto;
+}
+
+.flexColChild--submenu-desk-sale-mujer-row-1,
+.flexColChild--submenu-desk-sale-hombre-row-1  {
+  margin: 0 auto;
+}
+
+.flexRowContent--submenu-desk-sale-options-row-1 .stretchChildrenWidth:first-child  {
+  justify-content: end;
+}
+
+.flexRowContent--submenu-desk-sale-options-row-1 .stretchChildrenWidth:last-child  {
+  justify-content: start;
+}
+
+.flexRowContent--submenu-desk-sale-options-row-1 {
+  gap: 24px !important;
+}

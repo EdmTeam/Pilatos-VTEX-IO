@@ -435,7 +435,8 @@
   .container--textTopHeader {
     display: block;
   }
-/* billy pillar tenis mobile*/
+
+  /* billy pillar tenis mobile*/
   .wrapper--departmentTitle .heading {
     font-size: 22px;
     margin: 1.5rem 0 .5rem 0 !important;
@@ -893,11 +894,11 @@
 }
 
 .paragraph--submenulink {
-  font-weight: 800;
-  font-size: 10px;
-  line-height: 13px;
-  letter-spacing: 0.03em;
-  color: #606060;
+  font-weight: 600;
+  font-size: 10.59px;
+  line-height: 15.14px;
+  letter-spacing: 0%;
+  color: #000000;
 }
 
 .wrapper--textCategory .paragraph {
@@ -1128,6 +1129,7 @@
   text-decoration: none;
   transition: all .35s;
 }
+
 /*Boton disandina*/
 .wrapper--boton-landing-disandina {
   background-color: black;
@@ -1143,7 +1145,8 @@
   border-radius: 25px;
   text-decoration: none;
 }
-@media screen and (max-width: 600px){
+
+@media screen and (max-width: 600px) {
   .wrapper--boton-landing-disandina {
     background-color: black;
     border: none;
@@ -1161,6 +1164,7 @@
     top: -100px;
   }
 }
+
 @media screen and (min-width: 600px) and (max-width:1001px) {
   .wrapper--boton-landing-disandina {
     background-color: black;
@@ -1179,10 +1183,12 @@
 
   }
 }
-.wrapper--boton-landing-disandina:hover{
+
+.wrapper--boton-landing-disandina:hover {
   background: #222221
 }
-.wrapper--boton-landing-disandina:active{
+
+.wrapper--boton-landing-disandina:active {
   transform: translate(0em, 0.2em);
 }
 
@@ -1204,6 +1210,7 @@
 
   }
 }
+
 @media screen and (min-width:1200px) and (max-width:1500px) {
   .wrapper--boton-landing-disandina {
     position: relative;
@@ -1211,6 +1218,7 @@
     padding: 1px 90px;
   }
 }
+
 @media screen and (min-width:1501px) and (max-width:1799px) {
   .wrapper--boton-landing-disandina {
     position: relative;
@@ -1218,18 +1226,21 @@
     padding: 1px 90px;
   }
 }
-@media screen and (min-width:2001px){
+
+@media screen and (min-width:2001px) {
   .wrapper--boton-landing-disandina {
     position: relative;
 
     padding: 1px 90px;
   }
 }
+
 .wrapper--boton-landing-disandina .link--boton-landing-disandina {
   color: black;
   text-decoration: none;
   transition: all .35s;
 }
+
 /*boton pilatos denim*/
 .wrapper--botonPilatosDenim {
   background-color: black;
@@ -1242,17 +1253,18 @@
   font-size: 16px;
   margin: 10px 15px;
   left: 30px;
-    position: relative;
+  position: relative;
   cursor: pointer;
   border-radius: 25px;
   text-decoration: none;
 
 }
 
-.wrapper--botonPilatosDenim:hover{
+.wrapper--botonPilatosDenim:hover {
   background: #191c1d
 }
-.wrapper--botonPilatosDenim:active{
+
+.wrapper--botonPilatosDenim:active {
   transform: translate(0em, 0.2em);
 }
 
@@ -1273,6 +1285,7 @@
 
   }
 }
+
 .wrapper--botonPilatosDenim .link--botonPilatosDenim {
   color: black;
   text-decoration: none;
@@ -1296,10 +1309,11 @@
 
 }
 
-.wrapper--botonBeachwear:hover{
+.wrapper--botonBeachwear:hover {
   background: #d3ecf3
 }
-.wrapper--botonBeachwear:active{
+
+.wrapper--botonBeachwear:active {
   transform: translate(0em, 0.2em);
 }
 
@@ -1320,22 +1334,25 @@
 
   }
 }
+
 .wrapper--botonBeachwear .link--botonBeachwear {
   color: black;
   text-decoration: none;
   transition: all .35s;
 }
+
 /*botones champion*/
-.wrapper--botonChampion:hover{
+.wrapper--botonChampion:hover {
   background: #321aae
 }
-.wrapper--botonChampion:active{
+
+.wrapper--botonChampion:active {
   transform: translate(0em, 0.2em);
 }
 
 @media screen and (min-width:620px) {
   .wrapper--botonChampion {
-    background-color:  black;
+    background-color: black;
     border: none;
     font-weight: 700;
     color: white;
@@ -1350,9 +1367,10 @@
 
   }
 }
-@media screen and  (max-width:600px){
+
+@media screen and (max-width:600px) {
   .wrapper--botonChampion {
-    background-color:black;
+    background-color: black;
     border: none;
     font-weight: 700;
     color: white;
@@ -1366,16 +1384,16 @@
     cursor: pointer;
     border-radius: 25px;
     text-decoration: none
-
   }
+
   .wrapper--botonChampion2 {
-    background-color:  black;
+    background-color: black;
     border: none;
     font-weight: 700;
     color: white;
     padding: 1px 20px;
     text-align: center;
-    position:relative;
+    position: relative;
     left: 36px;
     display: grid;
     font-size: 13px;
@@ -1386,11 +1404,13 @@
 
   }
 }
+
 .wrapper--botonChampion .link--botonChampion {
   color: white;
   text-decoration: none;
   transition: all .35s;
 }
+
 /* Estilos botones de guia de regalo */
 
 .wrapper--botonesGeneros {
@@ -1504,25 +1524,29 @@
   font-size: 9px;
   margin-top: .2rem;
 }
+
 .flexCol--intento-prueba-titulo-disandina .paragraph {
   display: flex !important;
   justify-content: center !important;
   position: relative;
   top: 40%;
 }
+
 .wrapper--departmentBreadCrumb .paragraph .link {
   color: #000000;
   text-decoration: none;
 }
+
 .wrapper--titulo-encuentra-productos-disandina .paragraph {
   line-height: 13px;
   font-size: 40px;
   margin-top: .2rem;
-  white-space:pre-line;
+  white-space: pre-line;
   font-weight: 700;
   position: relative;
   top: 0px;
 }
+
 @media (max-width: 599px) {
   .wrapper--titulo-encuentra-productos-disandina .paragraph {
     line-height: 0px;
@@ -1536,47 +1560,51 @@
   }
 
 }
+
 .wrapper--titulo-encuentra-productos-disandina2 .paragraph {
   line-height: 13px;
   font-size: 19px;
   margin-top: .2rem;
-  white-space:pre-line;
+  white-space: pre-line;
   font-weight: 500;
   position: relative;
   top: 0px;
 }
+
 @media screen and (min-width: 768px) {
   .wrapper--titulo-categorias-disandina .paragraph {
     line-height: 13px;
     font-size: 19px;
     margin-top: .2rem;
-    white-space:pre-line;
+    white-space: pre-line;
     font-weight: 500;
     position: relative;
     top: -417px;
 
   }
 }
+
 @media screen and (max-width: 768px) {
   .wrapper--titulo-categorias-disandina .paragraph {
     line-height: 13px;
     font-size: 19px;
     margin-top: .2rem;
-    white-space:pre-line;
+    white-space: pre-line;
     font-weight: 500;
     position: relative;
-    top: -67px!important;
+    top: -67px !important;
     width: 80%;
     left: 20px;
 
   }
 }
+
 @media screen and (max-width: 768px) {
   .wrapper--titulo-encuentra-productos-disandina2 .paragraph {
     line-height: 13px;
     font-size: 19px;
     margin-top: .2rem;
-    white-space:pre-line;
+    white-space: pre-line;
     font-weight: 500;
     position: relative;
     top: -92px;
@@ -1584,25 +1612,28 @@
   }
 }
 
-.wrapper--categorias-disandina-botones-separacion .paragraph{
-margin: 70px;
+.wrapper--categorias-disandina-botones-separacion .paragraph {
+  margin: 70px;
 }
+
 .container--departmentTitle {
   width: 88%;
   margin: 0 auto;
 }
 
 /*Titulo denim pilatos*/
-.wrapper--titulo-denimPilatos .paragraph{
+.wrapper--titulo-denimPilatos .paragraph {
   font-size: 40px !important;
   font-weight: 700;
-  }
+}
+
 @media screen and (max-width:768px) {
-  .wrapper--titulo-denimPilatos .paragraph{
+  .wrapper--titulo-denimPilatos .paragraph {
     font-size: 24px !important;
     font-weight: 700;
-    }
+  }
 }
+
 .wrapper--departmentTitle .paragraph {
   font-weight: bold;
   font-size: 13px;
@@ -2149,8 +2180,8 @@ margin: 70px;
   display: flex;
 
 }
-.headingLevel1--title-statict-reverso
-{
+
+.headingLevel1--title-statict-reverso {
   color: #000;
 }
 
@@ -2179,22 +2210,24 @@ margin: 70px;
   padding: 1px;
   text-align: justify;
 }
+
 @media (max-width: 1064px) {
   .wrapper--title-statict-parrafoReverso {
-  justify-content: center;
-  width: 100%;
-  padding: 0 3% 3% 3%;
-  margin-top: -13px;
+    justify-content: center;
+    width: 100%;
+    padding: 0 3% 3% 3%;
+    margin-top: -13px;
 
-}
-.headingLevel1--title-statict-reverso
-{
-  color: #000;
-  font-size: 20px;
-}
-.paragraph--title--static-parrafoReverso {
-  background: red;
-}
+  }
+
+  .headingLevel1--title-statict-reverso {
+    color: #000;
+    font-size: 20px;
+  }
+
+  .paragraph--title--static-parrafoReverso {
+    background: red;
+  }
 
 }
 
@@ -2522,7 +2555,7 @@ margin: 70px;
 /* LANDING DSI */
 .heading--desc-dsi {
   font-size: 30px;
-    margin: 4px;
+  margin: 4px;
 }
 
 .container--title-dsi {
@@ -2657,6 +2690,7 @@ margin: 70px;
   padding: 0.5rem;
 
 }
+
 .paragraph--producto-lucky {
   font-size: 12px;
 }
@@ -2665,21 +2699,23 @@ margin: 70px;
   margin-bottom: 20px;
 }
 
-.paragraph--texto-regalos-padres{
+.paragraph--texto-regalos-padres {
   padding: 0 6%;
   font-size: 13px;
 }
 
-.paragraph--enlace-texto-regalos-padres{
+.paragraph--enlace-texto-regalos-padres {
   font-size: 14px;
   margin: 0;
 }
+
 @media (max-width: 750px) {
-  .paragraph--enlace-texto-regalos-padres{
+  .paragraph--enlace-texto-regalos-padres {
     font-size: 17px;
     margin-bottom: 5px;
   }
 }
+
 /* seo pillar page*/
 .wrapper--seo-pillar {
   max-width: 80%;
@@ -2688,6 +2724,7 @@ margin: 70px;
   padding: 0.5rem;
 
 }
+
 .paragraph--seo-pillar {
   font-size: 12px;
 }
@@ -2696,7 +2733,7 @@ margin: 70px;
   margin-bottom: 2px;
 }
 
-@media (max-width: 750px){
+@media (max-width: 750px) {
   .wrapper--sanValentin-texto {
     max-width: 80%;
     margin: 5px;
@@ -2707,6 +2744,7 @@ margin: 70px;
   .heading--sanValentin-texto {
     font-size: 16px;
   }
+
   .paragraph--sanValentin-texto {
     font-size: 14px;
 
@@ -2717,9 +2755,11 @@ margin: 70px;
 .heading--sanValentin-texto {
   margin: 0;
 }
+
 .wrapper--sanValentin-texto .paragraph {
   margin: 0;
 }
+
 /* TEXTO SEO LANDING ECO BAG */
 .container--ecobag-textseo-h1 {
   background-color: #ffffff;
@@ -2827,18 +2867,19 @@ margin: 70px;
   font-family: 'Unbounded', cursive;
 }
 
-.paragraph--product-description-pdp{
+.paragraph--product-description-pdp {
   font-weight: 600;
-    font-size: 14px;
-    line-height: 13px;
-    letter-spacing: 0.5px;
-    color: #222221;
-    /* text-transform: uppercase; */
-    margin: 5px 7px;
-    border-bottom: 3px solid #FFD400;
-    font-weight: 800;
-    line-height: 18px;
+  font-size: 14px;
+  line-height: 13px;
+  letter-spacing: 0.5px;
+  color: #222221;
+  /* text-transform: uppercase; */
+  margin: 5px 7px;
+  border-bottom: 3px solid #FFD400;
+  font-weight: 800;
+  line-height: 18px;
 }
+
 @media (max-width: 764px) {
   .wrapper--product-description-pdp {
     margin-left: 30px;
@@ -2846,7 +2887,7 @@ margin: 70px;
 
 }
 
-.container--guiaDeTallas-texto{
+.container--guiaDeTallas-texto {
   border: 4px;
 }
 
@@ -2866,14 +2907,14 @@ margin: 70px;
 
 .paragraph--sneaker-tittle {
   font-family: Poppins;
-font-size: 48px;
-font-weight: 700;
-line-height: 72px;
-letter-spacing: 0em;
-text-align: left;
-color: #000;
-text-transform: uppercase;
-margin: 5px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000;
+  text-transform: uppercase;
+  margin: 5px;
 }
 
 .wrapper--sneaker-buttom {
@@ -2886,39 +2927,40 @@ margin: 5px;
 
 }
 
-.wrapper--sneaker-buttom:hover{
+.wrapper--sneaker-buttom:hover {
   background: #FFD400;
   color: #1d1d1d;
 }
 
-.paragraph--sneaker-buttom{
+.paragraph--sneaker-buttom {
   font-weight: 700;
 }
 
-.paragraph--sneaker-linkBrands{
-color: black;
-font-size: 18px;
-font-weight: 600;
-line-height: 29px;
-letter-spacing: 0em;
-text-align: left;
+.paragraph--sneaker-linkBrands {
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
 
 }
 
 
-.link--sneaker-linkBrands{
+.link--sneaker-linkBrands {
   color: black;
   font-size: 18px;
   font-weight: 600;
-line-height: 29px;
-letter-spacing: 0em;
-text-align: left;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
 
-  }
+}
 
-  .link--sneaker-linkBrands:hover{
-    color: #FFD400;
-  }
+.link--sneaker-linkBrands:hover {
+  color: #FFD400;
+}
+
 .container--title-brandsSneaker {
   margin: 0 auto;
   width: 80%;
@@ -2929,30 +2971,30 @@ text-align: left;
   border: 1px solid #EAE7E7;
 }
 
-.paragraph--sneaker-title-vitrina{
+.paragraph--sneaker-title-vitrina {
   color: #FFF;
-font-family: Poppins;
-font-size: 128px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-text-transform: uppercase;
-margin: 2px;
+  font-family: Poppins;
+  font-size: 128px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin: 2px;
 }
 
-.paragraph--essensialitary-title-vitrina{
+.paragraph--essensialitary-title-vitrina {
   color: #000;
-font-family: Poppins;
-font-size: 30px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-text-transform: uppercase;
-margin: 2px;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin: 2px;
 }
 
 
-.paragraph--sneaker-title-vitrina-dos{
+.paragraph--sneaker-title-vitrina-dos {
   color: #FFF;
   font-size: 24px;
   font-style: normal;
@@ -2960,7 +3002,7 @@ margin: 2px;
   line-height: normal;
 }
 
-.paragraph--essensialitary-title-vitrina-dos{
+.paragraph--essensialitary-title-vitrina-dos {
   color: #000;
   font-size: 20px;
   font-style: normal;
@@ -2969,7 +3011,7 @@ margin: 2px;
   margin: 0 0 16px 0;
 }
 
-.headingLevel2--textejeDeEstilosSneakers{
+.headingLevel2--textejeDeEstilosSneakers {
   color: #000;
   font-size: 24px;
   font-style: normal;
@@ -2977,7 +3019,7 @@ margin: 2px;
   line-height: normal;
 }
 
-.headingLevel3--textejeDeEstilosSneakers{
+.headingLevel3--textejeDeEstilosSneakers {
   color: #000;
   font-size: 20px;
   font-style: normal;
@@ -2985,19 +3027,19 @@ margin: 2px;
   line-height: normal;
 }
 
-.paragraph--textejeDeEstilosSneakers{
+.paragraph--textejeDeEstilosSneakers {
   text-align: justify;
   font-size: 14px;
 }
 
-.container--seoSneaker{
+.container--seoSneaker {
   background-color: white;
-    margin: 0 auto;
-    padding: 1%;
-    width: 70%;
-    text-align: center;
-    align-items: center;
-    font-size: 10px;
+  margin: 0 auto;
+  padding: 1%;
+  width: 70%;
+  text-align: center;
+  align-items: center;
+  font-size: 10px;
 }
 
 /* Sneaker Mobile */
@@ -3020,33 +3062,37 @@ margin: 2px;
     width: 160px;
 
   }
-  .paragraph--sneaker-buttom{
+
+  .paragraph--sneaker-buttom {
     font-size: 13px;
   }
 
-  .link--sneaker-linkBrands{
+  .link--sneaker-linkBrands {
     font-size: 14px;
   }
-  .paragraph--sneaker-title-vitrina{
+
+  .paragraph--sneaker-title-vitrina {
     font-size: 32px;
   }
-  .paragraph--sneaker-title-vitrina-dos{
+
+  .paragraph--sneaker-title-vitrina-dos {
     font-size: 11px;
   }
 
-  .paragraph--essensialitary-title-vitrina{
+  .paragraph--essensialitary-title-vitrina {
     font-size: 20px;
   }
-  .paragraph--essensialitary-title-vitrina-dos{
+
+  .paragraph--essensialitary-title-vitrina-dos {
     font-size: 11px;
   }
 
-  .paragraph--textejeDeEstilosSneakers{
+  .paragraph--textejeDeEstilosSneakers {
     width: 90%;
     margin: 6px auto;
   }
 
-  .container--seoSneaker{
+  .container--seoSneaker {
     width: 91%;
     margin: 2rem auto 0 auto;
     text-align: justify;
@@ -3055,17 +3101,18 @@ margin: 2px;
 
 }
 
-.link--sneaker-buttom-billy{
+.link--sneaker-buttom-billy {
   color: #000;
   cursor: pointer;
 }
 
-.link--sneaker-buttom{
+.link--sneaker-buttom {
   color: white;
-    font-weight: 800;
-    text-decoration: none;
+  font-weight: 800;
+  text-decoration: none;
 }
-.link--sneaker-buttom:hover{
+
+.link--sneaker-buttom:hover {
   color: #000;
 }
 
@@ -3074,6 +3121,7 @@ margin: 2px;
 .wrapper--ritualesH1 {
   margin: 0;
 }
+
 .headingLevel1--ritualesH1 {
   font-size: 75px;
   font-weight: 700;
@@ -3083,14 +3131,14 @@ margin: 2px;
 
 }
 
-.container--ritualesSEO{
+.container--ritualesSEO {
   max-width: 700px;
   margin: 0 auto;
   text-align: center;
 
 }
 
-.container--ritualesSeoLargo{
+.container--ritualesSeoLargo {
   max-width: 80%;
   margin: auto;
   text-align: left;
@@ -3107,7 +3155,8 @@ margin: 2px;
 .headingLevel3--ritualesSeoLargo {
   font-size: 19px;
 }
-.link--btnPrincipal{
+
+.link--btnPrincipal {
   border-radius: 80px;
   background: #FFD400;
   color: #1d1d1d;
@@ -3121,15 +3170,15 @@ margin: 2px;
 
 .link--btnPrincipal:hover {
   color: #fff;
-  background: #1d1d1d ;
+  background: #1d1d1d;
 }
 
-.link--btnSecundarioCart{
+.link--btnSecundarioCart {
   color: #fff;
   text-decoration: none;
 }
 
-.container--btnSecundarioCart{
+.container--btnSecundarioCart {
   justify-content: center;
 }
 
@@ -3145,11 +3194,12 @@ margin: 2px;
   border: 1px solid;
   text-align: center;
 }
+
 .wrapper--btnSecundarioCart {
   width: 90%;
 }
 
-.paragraph--textoFitRituales{
+.paragraph--textoFitRituales {
   font-size: 18px;
   font-weight: 600;
   font-family: 'Poppins', sans-serif;
@@ -3162,18 +3212,19 @@ margin: 2px;
     margin-top: 27px;
     margin-bottom: 10px;
   }
-  .container--ritualesSEO{
+
+  .container--ritualesSEO {
     max-width: 90%;
   }
 
-  .paragraph--textoFitRituales{
+  .paragraph--textoFitRituales {
     font-size: 16px;
     margin: 12px;
     margin-top: 26px;
     text-align: center;
   }
 
-  .container--ritualesSeoLargo{
+  .container--ritualesSeoLargo {
     text-align: center;
   }
 
@@ -3191,7 +3242,7 @@ margin: 2px;
 
 }
 
-.paragraph--seoEssensialitary{
+.paragraph--seoEssensialitary {
   margin: 2px;
   font-size: 12px;
 
@@ -3202,7 +3253,8 @@ margin: 2px;
   margin: 2px;
 
 }
-.link--filtroSeo{
+
+.link--filtroSeo {
   color: #000;
   font-size: 15px;
 }
@@ -3212,90 +3264,97 @@ margin: 2px;
     margin: 10px;
 
   }
-  .link--filtroSeo{
+
+  .link--filtroSeo {
 
     font-size: 17px;
   }
 }
 
 /* GUIA DE REGALO 2023 */
-.headingLevel1--H1GuiaDeRegalo{
+.headingLevel1--H1GuiaDeRegalo {
   font-size: 22px;
   font-weight: 700;
   font-family: 'Poppins', sans-serif;
-    color: #030303;
+  color: #030303;
 }
+
 .link--H1GuiaDeRegalo {
   color: #ffc600;
 }
-.container--paragrapGuiaDeRegalo{
+
+.container--paragrapGuiaDeRegalo {
   color: #030303;
   width: 90% !important;
 }
+
 @media (max-width: 760px) {
-  .container--paragrapGuiaDeRegalo{
+  .container--paragrapGuiaDeRegalo {
     width: 90% !important;
   }
 
 }
 
-.paragraph--btnTercerNivel{
+.paragraph--btnTercerNivel {
   margin-top: 0;
 }
 
-.link--btnTercerNivel{
+.link--btnTercerNivel {
   color: #030303;
   font-weight: 600;
 
 }
 
-.paragraph--textCategoryGift{
-  font-size: 16px;
-}
-.wrapper--textCategoryGift{
+.paragraph--textCategoryGift {
   font-size: 16px;
 }
 
-.container--tittleArmaTuLook{
+.wrapper--textCategoryGift {
+  font-size: 16px;
+}
+
+.container--tittleArmaTuLook {
   margin: 0 auto;
   width: 92%;
   font-size: 18px;
-    font-weight: 700;
-    font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
   width: 88% !important;
 
 }
-.wrapper--tittleArmaTuLook{
+
+.wrapper--tittleArmaTuLook {
   width: 100%;
   margin: 0 auto;
 }
 
-.container--tittleArmaTuLookInsp{
+.container--tittleArmaTuLookInsp {
   margin: 0 auto;
   width: 92% !important;
   font-size: 18px;
-    font-weight: 700;
-    font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
 
 }
-.wrapper--tittleArmaTuLookInsp{
+
+.wrapper--tittleArmaTuLookInsp {
   width: 100%;
   margin: 0 auto;
 }
 
 @media (max-width: 740px) {
-  .wrapper--tittleArmaTuLook{
+  .wrapper--tittleArmaTuLook {
     margin: 0 auto;
   }
 
-  .wrapper--tittleArmaTuLookInsp{
+  .wrapper--tittleArmaTuLookInsp {
     margin: 3% auto;
     width: 90%;
   }
 }
 
-.link--tittleArmaTuLookInsp{
-  color:#3f3f40;
+.link--tittleArmaTuLookInsp {
+  color: #3f3f40;
   border: 1px solid #3f3f40;
   border-radius: 50px;
   padding: 9px;
@@ -3303,51 +3362,55 @@ margin: 2px;
   font-weight: 600;
 }
 
-.link--tittleArmaTuLookInsp:hover{
+.link--tittleArmaTuLookInsp:hover {
   background: #030303;
   color: #fff;
 }
 
 @media (max-width:640px) {
-  .link--tittleArmaTuLookInsp{
-    padding:3px 10px 3px 10px ;
+  .link--tittleArmaTuLookInsp {
+    padding: 3px 10px 3px 10px;
     font-size: 16px;
   }
 
 }
-.headingLevel1--titleH1{
+
+.headingLevel1--titleH1 {
   font-size: 16px;
   font-weight: 600;
   font-family: 'Poppins', sans-serif;
-    color: #030303;
+  color: #030303;
 }
 
 /* GUIA DE REGALO 2023 */
-.headingLevel1--H1GuiaDeRegalo{
+.headingLevel1--H1GuiaDeRegalo {
   font-size: 22px;
   font-weight: 700;
   font-family: 'Poppins', sans-serif;
-    color: #030303;
+  color: #030303;
 }
+
 .link--H1GuiaDeRegalo {
   color: #ffc600;
 }
-.container--paragrapGuiaDeRegalo{
+
+.container--paragrapGuiaDeRegalo {
   color: #030303;
   width: 90% !important;
 }
+
 @media (max-width: 760px) {
-  .container--paragrapGuiaDeRegalo{
+  .container--paragrapGuiaDeRegalo {
     width: 90% !important;
   }
 
 }
 
-.paragraph--btnTercerNivel{
+.paragraph--btnTercerNivel {
   margin-top: 0;
 }
 
-.link--btnTercerNivel{
+.link--btnTercerNivel {
   color: #030303;
   font-weight: 600;
 
@@ -3357,53 +3420,56 @@ margin: 2px;
   color: #F2F2F2 !important;
 }
 
-.paragraph--textCategoryGift{
-  font-size: 16px;
-}
-.wrapper--textCategoryGift{
+.paragraph--textCategoryGift {
   font-size: 16px;
 }
 
-.container--tittleArmaTuLook{
+.wrapper--textCategoryGift {
+  font-size: 16px;
+}
+
+.container--tittleArmaTuLook {
   margin: 0 auto;
   width: 92%;
   font-size: 18px;
-    font-weight: 700;
-    font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
   width: 88% !important;
 
 }
-.wrapper--tittleArmaTuLook{
+
+.wrapper--tittleArmaTuLook {
   width: 100%;
   margin: 0 auto;
 }
 
-.container--tittleArmaTuLookInsp{
+.container--tittleArmaTuLookInsp {
   margin: 0 auto;
   width: 92% !important;
   font-size: 18px;
-    font-weight: 700;
-    font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
 
 }
-.wrapper--tittleArmaTuLookInsp{
+
+.wrapper--tittleArmaTuLookInsp {
   width: 100%;
   margin: 0 auto;
 }
 
 @media (max-width: 740px) {
-  .wrapper--tittleArmaTuLook{
+  .wrapper--tittleArmaTuLook {
     margin: 0 auto;
   }
 
-  .wrapper--tittleArmaTuLookInsp{
+  .wrapper--tittleArmaTuLookInsp {
     margin: 3% auto;
     width: 90%;
   }
 }
 
-.link--tittleArmaTuLookInsp{
-  color:#3f3f40;
+.link--tittleArmaTuLookInsp {
+  color: #3f3f40;
   border: 1px solid #3f3f40;
   border-radius: 50px;
   padding: 9px;
@@ -3411,23 +3477,24 @@ margin: 2px;
   font-weight: 600;
 }
 
-.link--tittleArmaTuLookInsp:hover{
+.link--tittleArmaTuLookInsp:hover {
   background: #030303;
   color: #fff;
 }
 
 @media (max-width:640px) {
-  .link--tittleArmaTuLookInsp{
-    padding:3px 10px 3px 10px ;
+  .link--tittleArmaTuLookInsp {
+    padding: 3px 10px 3px 10px;
     font-size: 16px;
   }
 
 }
-.headingLevel1--titleH1{
+
+.headingLevel1--titleH1 {
   font-size: 16px;
   font-weight: 600;
   font-family: 'Poppins', sans-serif;
-    color: #030303;
+  color: #030303;
 }
 
 
@@ -3441,43 +3508,45 @@ margin: 2px;
 /*template nuevo de género*/
 .link--botonGeneroNuevo {
   text-decoration: none;
-  background-color:  black;
-    border: none;
-    font-weight: 700;
-    color: white;
-    width: 150px;
-    height: 40px;
-    text-align: center;
-    display: inline-block;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 25px;
-    text-decoration: none;
-    transition: background-color 0.2s ease-in-out;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: black;
+  border: none;
+  font-weight: 700;
+  color: white;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: background-color 0.2s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 .link--botonGeneroNuevoFriendsFamily {
   text-decoration: none;
-  background-color:  #F5D400;
+  background-color: #F5D400;
   padding: 15px 17px;
-    border: none;
-    font-weight: 700;
-    color: #000;
-    width: 300px;
-    height: 40px;
-    text-align: center;
-    display: inline-block;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 25px;
-    text-decoration: none;
-    transition: background-color 0.2s ease-in-out;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  border: none;
+  font-weight: 700;
+  color: #000;
+  width: 300px;
+  height: 40px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: background-color 0.2s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 .link--botonGeneroNuevo:hover {
   background-color: #F5D400;
   color: #000;
@@ -3495,7 +3564,7 @@ margin: 2px;
 
 .container--botonEnvioExpress {
   display: flex;
-    justify-content: end;
+  justify-content: end;
 }
 
 @media screen and (max-width: 768px) {
@@ -3546,10 +3615,12 @@ margin: 2px;
   .heading--workwithus-title-pcpal {
     font-size: 30px;
   }
+
   .headingLevel2--work-with-part-one-title-mob {
     font-size: 25px;
     margin: 8px 0 0 0;
   }
+
   .container--politicas-workWithContent {
     height: 6px;
   }
@@ -3558,37 +3629,49 @@ margin: 2px;
 
 
 /*Tu cuota landing*/
-.paragraph--tu-cuota-opc-1, .paragraph--tu-cuota-opc-2, .paragraph--tu-cuota-opc-3, .paragraph--tu-cuota-opc-4, .paragraph--tu-cuota-opc-5 {
+.paragraph--tu-cuota-opc-1,
+.paragraph--tu-cuota-opc-2,
+.paragraph--tu-cuota-opc-3,
+.paragraph--tu-cuota-opc-4,
+.paragraph--tu-cuota-opc-5 {
   margin-top: 0;
   margin-bottom: 0;
 }
+
 .paragraph--tu-cuota-opc-1::before {
   content: "1. ";
   margin-top: 0;
 }
+
 .paragraph--tu-cuota-opc-2::before {
   content: "2. ";
   margin-top: 0;
 }
+
 .paragraph--tu-cuota-opc-3::before {
   content: "3. ";
   margin-top: 0;
 }
+
 .paragraph--tu-cuota-opc-4::before {
   content: "4. ";
   margin-top: 0;
 }
+
 .paragraph--tu-cuota-opc-5::before {
   content: "5. ";
   margin-top: 0;
 }
+
 .headingLevel3--tu-cuota-footer-text {
   font-weight: 300;
 }
+
 @media (max-width: 768px) {
   .headingLevel1--titulo-tu-cuota-nuevo {
     font-size: 32px;
   }
+
   .headingLevel3--tu-cuota-footer-text {
     font-size: 20px;
   }
@@ -3607,6 +3690,7 @@ margin: 2px;
   padding: 20px;
   font-weight: bold;
 }
+
 /***footer redirect de whatsap en CONTÁCTANOS***/
 .link--linkWhatsapFooter {
   text-decoration: none;
@@ -3665,10 +3749,11 @@ margin: 2px;
   .paragraph--registrate-footer-sobrenosotros2024 {
     font-size: 24px;
   }
+
   .paragraph--btn-resgistro-sobreNosotros-2024 {
     background-color: transparent;
     padding: 0px;
-}
+  }
 }
 
 .strong--registrate-footer-sobrenosotros2024 {
@@ -3699,7 +3784,8 @@ margin: 2px;
 }
 
 
-.link--texto-marcas-landing-tenis:hover, .link--texto-marcas-landing-tenis-mob:hover {
+.link--texto-marcas-landing-tenis:hover,
+.link--texto-marcas-landing-tenis-mob:hover {
   font-weight: bold;
   border-bottom: 2px solid #000;
 }
@@ -3794,17 +3880,22 @@ margin: 2px;
   width: 95%;
   margin: 0 auto;
 }
+
 .paragraph--titulo-landing-vacaciones-desk {
   text-align: center;
   width: 95%;
 }
+
 .headingLevel1--titulo-landing-vacaciones-mobile {
   font-size: 1.5rem;
 }
-.paragraph--categorias-vacaciones-landing, .link--categorias-vacaciones-landing {
+
+.paragraph--categorias-vacaciones-landing,
+.link--categorias-vacaciones-landing {
   color: #fff;
   font-size: 1.5rem;
 }
+
 .link--categorias-vacaciones-landing {
   text-decoration: none;
   font-weight: 300;
@@ -3817,6 +3908,7 @@ margin: 2px;
 .link--categorias-vacaciones-landing .strong--categorias-vacaciones-landing {
   font-weight: 300;
 }
+
 .container--categorias-vacaciones-landing {
   width: 100%;
   margin: 5rem 0 7rem 30px;
@@ -3826,6 +3918,7 @@ margin: 2px;
   .container--categorias-vacaciones-landing {
     margin: 0;
   }
+
   .wrapper--categorias-vacaciones-landing {
     margin: 0 0 0 3rem;
   }
@@ -3870,20 +3963,24 @@ margin: 2px;
 }
 
 .headingLevel2--ritualesSeoLargo {
-  text-align: center!important;
+  text-align: center !important;
   font-size: 25px;
 }
+
 /***Friends & Family***/
 .paragraph--los-esperamos-friends-family {
   font-weight: 900;
 }
+
 .paragraph--inputs-titulo-friends-family {
   font-weight: 300;
 }
+
 .paragraph--registrate-invitacion-primera-compra {
   line-height: 1;
   font-weight: bold;
 }
+
 .link--registrate-cta-primera-compra {
   color: #fff;
   text-decoration: none;
@@ -3895,14 +3992,17 @@ margin: 2px;
   align-items: center;
   cursor: pointer;
 }
+
 .link--registrate-cta-primera-compra:hover {
   background: #FAD91F;
   color: #000;
   transition: background 1s;
 }
+
 .paragraph--terminos-texto-friends-family {
   font-size: 11px;
 }
+
 .headingLevel3--filtro-seo-tribu {
   margin-bottom: 0;
   font-size: 0.8rem;
@@ -3926,7 +4026,7 @@ margin: 2px;
 }
 
 .paragraph--textSubcategory .image--textSubcategory {
- max-width: 90px;
+  max-width: 90px;
 }
 
 /*Valor Offer PDP*/
@@ -3960,20 +4060,24 @@ margin: 2px;
   color: #fff;
   transition: background-color 0.2s ease-in;
 }
+
 /****LANDING DEPORTIVA***/
 
 /*******LANDING MARCAS********/
 .paragraph--marca-individual-texto {
   font-size: 14px;
 }
+
 .link--marca-individual-texto {
   text-decoration: none;
   color: #000;
 }
+
 .wrapper--titulo-marca {
   width: 100%;
   border-bottom: 1px solid #646262;
 }
+
 /*******LANDING MARCAS********/
 
 .paragraph--textSubcategory .image--logo-kipling-menu {
@@ -4011,9 +4115,9 @@ margin: 2px;
 
 /*topheader texto*/
 
-.wrapper--textTopHeader-nuevo{
+.wrapper--textTopHeader-nuevo {
 
-  font-size: 14px; 
+  font-size: 14px;
   font-weight: bold;
   color: #ffffff;
   text-transform: uppercase;
@@ -4025,6 +4129,18 @@ margin: 2px;
 .paragraph--textTopHeader-nuevo {
 
   width: 100%;
-    align-items: center;
-    text-align: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Menu Sale */
+
+.link--submenu__hombre--sale {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #000000;
+
 }
