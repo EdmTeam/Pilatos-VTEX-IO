@@ -68,8 +68,7 @@
 
     "flex-layout.row#close-drawer-row-9": {
         "children": [
-            "drawer-close-button",
-            "close-menu-mobile#close-drawer-row-9"
+            "drawer-close-button#menu"
         ],
         "props":{
             "preserveLayoutOnMobile":true,

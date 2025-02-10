@@ -270,6 +270,9 @@
 
 :global(.vtex-rich-text-0-x-wrapper--icoSearch)::before {
   content: '\e918';
+    content: '\e918';
+    font-size: 1.6rem;
+    color: #000;
 }
 
 :global(.vtex-flex-layout-0-x-flexColChild--icoLogin) :global(.vtex-login-2-x-label) {
