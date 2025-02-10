@@ -268,8 +268,7 @@
   content: '\e903';
 }
 
-:global(.vtex-rich-text-0-x-wrapper--icoSearch)::before {
-  content: '\e918';
+:global(.vtex-rich-text-0-x-wrapper--icoSearch)::before{
     content: '\e918';
     font-size: 1.6rem;
     color: #000;
