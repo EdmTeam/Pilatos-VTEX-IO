@@ -77,8 +77,8 @@
       "sliderDisplayThreshold": 4,
       "sliderItemsPerPage": {
         "desktop": 4,
-        "tablet": 4,
-        "phone": 4
+        "tablet": 3,
+        "phone": 3
       },
       "blockClass": "sku-selector-color",
       "hideImpossibleCombinations": true,
