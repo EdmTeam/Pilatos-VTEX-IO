@@ -3,12 +3,12 @@
     "blocks": [
       "pa-widget",
       "livestreaming",
-      // "modal-trigger#welcome",
+      //no va  "modal-trigger#welcome",
       "flex-layout.row#congtent-slider",
       "flex-layout.row#bannersInfoCard",
       "flex-layout.row#bannerDescuento",
       "flex-layout.row#bannersCategorias",
-      /*Carrusel live shopping,  eliminar una vez termine el evento*/
+      /*no va Carrusel live shopping,  eliminar una vez termine el evento*/
       "flex-layout.row#carrusel-productos-colombiamoda-home-live-shopping-1",
       "flex-layout.row#texto-SEO",
       "rich-text#h1-pilatoshome",
@@ -16,23 +16,23 @@
       "responsive-layout.tablet#brands-promise",
       "responsive-layout.desktop#brands-promise",
       "__fold__.mobile",
-      //"flex-layout.row#brands",
-      // "rich-text#brands-title",
-      // "flex-layout.row#marcas-sobrenosotros2024-slider",
+      //no va "flex-layout.row#brands",
+      //no va  "rich-text#brands-title",
+      //no va  "flex-layout.row#marcas-sobrenosotros2024-slider",
       "link#content-chat-whatsapp",
       "__fold__.desktop",
       "responsive-layout.phone#category-banners",
       "responsive-layout.tablet#category-banners",
       "responsive-layout.desktop#category-banners",
-      // "flex-layout.row#most-viewed",
-      // "responsive-layout.phone#promotional-banners-2-abtest",
-      // "responsive-layout.desktop#promotional-banners-2-abtest",
-      // "responsive-layout.tablet#promotional-banners-2-abtest",
+      //no va  "flex-layout.row#most-viewed",
+      //no va  "responsive-layout.phone#promotional-banners-2-abtest",
+      //no va  "responsive-layout.desktop#promotional-banners-2-abtest",
+      //no va  "responsive-layout.tablet#promotional-banners-2-abtest",
       "flex-layout.row#cambio-devolucionesHome"
-      //"flex-layout.row#Recently-viewed",
-      /*"responsive-layout.phone#promotional-banners",
-      "responsive-layout.tablet#promotional-banners",
-      "responsive-layout.desktop#promotional-banners"*/
+      //no va "flex-layout.row#Recently-viewed",
+      /*no va "responsive-layout.phone#promotional-banners",
+      "no va responsive-layout.tablet#promotional-banners",
+      "no va responsive-layout.desktop#promotional-banners"*/
     ]
   },
 
