@@ -73,9 +73,9 @@
       }
     }
   },
-  "product-summary-sku-selector": {
+ /*  "product-summary-sku-selector": {
     "component": "ProductSummarySKUSelector"
-  },
+  }, */
   "product-summary-specification-badges": {
     "component": "ProductSummarySpecificationBadges"
   },

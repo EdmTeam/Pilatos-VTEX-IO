@@ -109,13 +109,10 @@
 
 @media only screen and (min-width: 1180px){
     .itemMenuBuy span::after{
-        content: ' AHORA';
+        content: ' Ahora';
     }
 }
 
-.showTalla{
-    display: flex !important;
-}
 
 .hideElement{
     display: none;
