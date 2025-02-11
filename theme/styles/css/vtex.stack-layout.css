@@ -19,6 +19,7 @@
 .stackItem--collection-flag {
   right: 0;
   left: auto;
+  z-index: 1 !important;
 }
 @media only screen and (min-width: 1180px){
   .stackItem--imageShelf--addWishList{

@@ -1039,3 +1039,11 @@
   margin-bottom: 2%;
   margin-top: 2%;
 }
+
+/* Menu Sale */
+
+.imageElement--submenu__hombre--sale,
+.imageElement--submenu__mujer--sale  {
+  max-width: 211px;
+  max-height: 272px;
+}

@@ -4,34 +4,121 @@
       "flex-layout.row#submenu-desk-sale"
     ],
     "props": {
-      "blockClass": ""
+      "blockClass": [
+        "contentSubmenuDesk",
+        "submenu__sale--hover"
+      ]
     }
   },
   "flex-layout.row#submenu-desk-sale": {
     "children": [
-       "rich-text#submenu__hombre--sale",
-       "rich-text#submenu__mujer--sale"
+      "flex-layout.col#submenu-desk-salecol-1"
+    ],
+    "props": {
+      "blockClass": "boxSubmenu"
+    }
+  },
+  "flex-layout.col#submenu-desk-salecol-1": {
+    "children": [
+      "link#submenu-desk-vertodo-sale-row-1",
+      "flex-layout.row#submenu-desk-sale-options-row-1"
     ],
     "props": {
       "blockClass": "Submenu-desk-sale"
     }
   },
+  "flex-layout.row#submenu-desk-sale-options-row-1": {
+    "children": [
+      "flex-layout.col#submenu-desk-sale-hombre-row-1",
+      "flex-layout.col#submenu-desk-sale-mujer-row-1"
+    ],
+    "props": {
+      "blockClass": "submenu-desk-sale-options-row-1"
+    }
+  },
+  "link#submenu-desk-vertodo-sale-row-1": {
+    "children": [
+      "flex-layout.row#submenu-desk-sale-vertodo-row-1"
+    ],
+    "props": {
+      "blockClass": "submenulink",
+      "href": "/sale"
+    }
+  },
+  "flex-layout.col#submenu-desk-sale-hombre-row-1": {
+    "children": [
+      "rich-text#submenu__hombre--sale",
+      "image#submenu__hombre--sale"
+    ],
+    "props": {
+      "blockClass": "submenu-desk-sale-hombre-row-1"
+    }
+  },
+  "flex-layout.col#submenu-desk-sale-mujer-row-1": {
+    "children": [
+      "rich-text#submenu__mujer--sale",
+      "image#submenu__mujer--sale"
+    ],
+    "props": {
+      "blockClass": "submenu-desk-sale-mujer-row-1"
+    }
+  },
+  "flex-layout.row#submenu-desk-sale-vertodo-row-1": {
+    "children": [
+      "rich-text#submenu-desk-vertodo-sale-row-1",
+      "rich-text#submenu-desk-ico-sale-row-1"
+    ]
+  },
+  "rich-text#submenu-desk-vertodo-sale-row-1": {
+    "props": {
+      "text": "VER TODO SALE",
+      "blockClass": "submenulink",
+      "width": "13%"
+    }
+  },
+  "rich-text#submenu-desk-ico-sale-row-1": {
+    "props": {
+      "text": "",
+      "blockClass": "submenuIco",
+      "width": "4%"
+    }
+  },
   "rich-text#submenu__hombre--sale": {
     "props": {
-      "text": "[Hombre](/sale-hombre)",
-      "blockClass":  [
-        "contentSubMenuAcordeon",
-        "textSubcategoryPilatos"
-    ]
+      "text": "[Sale hombre](/sale-hombre)",
+      "blockClass": [
+        "submenu__hombre--sale"
+      ]
+    }
+  },
+  "image#submenu__hombre--sale": {
+    "props": {
+      "src": "https://pilatos21.vtexassets.com/assets/vtex.file-manager-graphql/images/17e305fe-280a-4941-ab56-26ab98834133___187c6988f2289b67521deb363dcb7d01.png",
+      "link": {
+        "url": "/sale-hombre"
+      },
+      "blockClass": [
+        "submenu__hombre--sale"
+      ]
     }
   },
   "rich-text#submenu__mujer--sale": {
     "props": {
-      "text": "[Mujer](/sale-mujer)",
-      "blockClass":  [
-        "contentSubMenuAcordeon",
-        "textSubcategoryPilatos"
-    ]
+      "text": "[Sale mujer](/sale-mujer)",
+      "blockClass": [
+        "submenu__hombre--sale"
+      ]
+    }
+  },
+  "image#submenu__mujer--sale": {
+    "props": {
+      "src": "https://pilatos21.vtexassets.com/assets/vtex.file-manager-graphql/images/8cd6900a-29c3-44cb-8e88-41b34e2d185f___7a550ab7fd7acfa53ee90c25b5f335c3.png",
+      "link": {
+        "url": "/sale-mujer"
+      },
+      "blockClass": [
+        "submenu__mujer--sale"
+      ]
     }
   }
 }
