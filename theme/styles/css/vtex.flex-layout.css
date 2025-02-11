@@ -628,6 +628,25 @@
   margin-top: 2%;
 }
 
+.flexCol--contentButton :global(.vtex-button){
+  width: 100% !important;
+  max-width: 234px;
+  height: 40px !important;
+  border: 0px !important;
+  border-radius: 50px;
+}
+
+.flexCol--contentButton :global(.vtex-button):hover {
+ background: #aaa9a9;
+}
+
+@media only screen and (max-width: 1024px){
+  .flexCol--contentButton :global(.vtex-button){
+    height: 30px !important;
+    min-height: 30px;
+  }
+}
+
 @media only screen and (min-width: 1180px){
   .flexRow--sliderContentShelf{
     width: 84%;
@@ -700,25 +719,19 @@
 
   .flexColChild--contentButton{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-  }
-
-  .flexRow--contentPrice{
-    margin-bottom: 1.2rem;
   }
 
   .flexRowContent--contentSkuBtn{
     align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    visibility: hidden;
   }
 
   .flexCol--contentButton{
     margin-right: 0;
-  }
-
-  .flexCol--contentButton :global(.vtex-button){
-    width: 40px !important;
-    height: 40px !important;
   }
 
   .flexRow--sliderContentShelf :global(.vtex-product-price-1-x-savings){
@@ -1973,11 +1986,6 @@
 @media only screen and (min-width: 740px){
   .flexCol--contentButton{
     justify-content: center;
-  }
-
-  .flexCol--contentButton :global(.vtex-button){
-    width: 40px !important;
-    height: 40px !important;
   }
 
   .flexRow--contentProductInfo{
@@ -4151,6 +4159,10 @@ width: 88%;
   content: '\e920';
   font-family: 'icomoon' !important;
   color: #3F3F40;
+}
+
+.flexColChild--stack-product :global(.vtex-store-components-3-x-skuSelectorContainer) {
+  align-items: start;
 }
 
 .flexRowContent--contentHeaderBar {

@@ -1,0 +1,12 @@
+.popper--selector {
+  width: 100%;
+  transform: 0 !important;
+}
+
+.container--selector {
+  border: 0px;
+}
+
+.trigger--selector {
+    z-index: 1 !important;
+}

@@ -1,7 +1,7 @@
 {
   "vendor": "pilatos21",
   "name": "theme",
-  "version": "6.0.51",
+  "version": "6.0.56",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
@@ -15,7 +15,6 @@
   "dependencies": {
     "vtex.store": "2.x",
     "vtex.store-header": "2.x",
-    "pilatos21.product-summary": "0.x",
     "vtex.product-summary": "2.x",
     "vtex.store-footer": "2.x",
     "vtex.store-components": "3.x",
@@ -65,6 +64,7 @@
     "vtex.product-specifications": "1.x",
     "vtex.list-context": "0.x",
     "vtex.add-to-cart-button": "0.x",
+    "vtex.overlay-layout": "0.x",
     "pilatos21.add-to-cart-button": "0.x",
     "pilatos21.custom-sticky": "0.x",
     "pilatos21.free-shipping": "0.x",
@@ -80,6 +80,7 @@
     "pilatos21.seo-tags": "0.x",
     "pilatos21.sellers-collection": "0.x",
     "vtex.visibility-layout": "0.x",
+    "pilatos21.head-segmentify": "0.x",
     "pilatos21.segmentify-div": "0.x",
     "pilatos21.modal-component": "0.x"
   },

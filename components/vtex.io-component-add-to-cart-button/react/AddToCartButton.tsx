@@ -299,7 +299,7 @@ function AddToCartButton(props: Props) {
                 if(allSkuVariationsSelected){
                   setShowButton(true);
                 }
-  
+
                 //Agregar label sku talla
                 (talla as Element).childNodes[0].childNodes.forEach(label => {
                   if(
@@ -349,7 +349,7 @@ function AddToCartButton(props: Props) {
                 args: { clicked: true },
               });
             }
-        
+
             if (allSkuVariationsSelected) {
               handleAddToCart(e);
             }
@@ -414,7 +414,7 @@ function AddToCartButton(props: Props) {
               (talla as Element).classList.contains('pilatos21-add-to-cart-button-0-x-showTalla')
             ){
               (talla as Element).classList.remove(handles.showTalla);
-  
+
               //Quitar label sku talla
               (talla as Element).childNodes[0].childNodes.forEach(label => {
                 if(
@@ -491,7 +491,7 @@ function AddToCartButton(props: Props) {
   const availableButtonContent = (
     <Fragment>
       {text ? (
-        <div className={`${handles.itemMenuBuy} icon-Cart`}><span>AGREGAR</span></div>
+        <div className={`${handles.itemMenuBuy} icon-Cart`}><span>Comprar</span></div>
       ) : (
         <FormattedMessage id="store/add-to-cart.add-to-cart">
           {message => <span className={handles.buttonText}>{message}</span>}

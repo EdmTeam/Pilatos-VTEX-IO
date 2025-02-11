@@ -4118,6 +4118,7 @@
 .wrapper--textTopHeader-nuevo {
 
   font-size: 14px;
+  font-size: 14px;
   font-weight: bold;
   color: #ffffff;
   text-transform: uppercase;
@@ -4132,6 +4133,36 @@
   align-items: center;
   text-align: center;
 }
+
+/*Compra Rapida Mobile*/
+.container--buy-fast {
+  position: absolute;
+  right: 0;
+  bottom: 125px;
+  padding: 0 2px;
+  background: #fff;
+  padding: 5px 3px;
+  border-radius: 4px;
+}
+
+.paragraph--buy-fast {
+  margin: 0;
+  font-size: 9px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.paragraph--buy-fast::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-image: url('/arquivos/bag-summary.svg');
+  background-size: cover;
+}
+
 
 /* Menu Sale */
 
