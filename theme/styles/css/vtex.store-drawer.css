@@ -26,9 +26,18 @@
 }
 
 .closeIcon{
-    height: 40px !important;
-    width: 40px !important;
+    height: 35px !important;
+    width: 35px !important;
     color: transparent;
+}
+
+.closeIcon--drawer-menu-close-button {
+  color: #000000;
+}
+
+.drawerHeader--contenedorMenuHeader {
+  margin: 0;
+  justify-content: right;
 }
 
 .drawerContent--menu-drawer, .drawerContent--menuDrawerLevel1{
@@ -93,9 +102,9 @@
 }
 
 .drawerHeader--contenedorFilterHeader{
-    position: absolute;
-    top: 1rem;
-    left: 0.3rem;
+  width: 100%;
+  justify-content: flex-end;
+  position: absolute;
 }
 
 .drawerHeader--contenedorFilterHeader :global(.vtex-rich-text-0-x-wrapper--closeIco){

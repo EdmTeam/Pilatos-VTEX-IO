@@ -2,7 +2,8 @@
     "store.custom#page-nuevo":{
         "blocks":[
             "flex-layout.row#banner-department-nuevo",
-            "search-result-layout.customQuery#department-nuevo"
+            "search-result-layout.customQuery#department-nuevo",
+              "segmentify-carrousel"
         ],
         "props":{
             "blockClass": "contentStoreCustom"

@@ -6,12 +6,8 @@ const SegmentifyHead = () => {
   return (
     <>
       <Helmet>
-        <link rel="stylesheet" href="//cdn.segmentify.com/454787be-312f-4804-a4a7-972f960481c6/search.css" />
-
-        <script src="//cdn.segmentify.com/454787be-312f-4804-a4a7-972f960481c6/search.js"></script>
-
-        <script src="//cdn.segmentify.com/454787be-312f-4804-a4a7-972f960481c6/segmentify.js"></script>
-
+        <link rel="stylesheet" href="//cdn.segmentify.com/20818070-a3ae-474a-bf22-2e32619ecefb/search.css" />
+        <script src="//cdn.segmentify.com/20818070-a3ae-474a-bf22-2e32619ecefb/search.js"></script>
       </Helmet>
     </>
   );

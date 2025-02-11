@@ -6,6 +6,12 @@
     padding-left: 2.1rem;
 }
 
+.filter__container--ocasion-de-uso,
+.filter__container--siluetas-iconicas {
+    display: none;
+}
+
+
 .searchResultContainer{
     width: 100%
 }
