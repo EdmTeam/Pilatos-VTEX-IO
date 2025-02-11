@@ -9,6 +9,10 @@
     }
 }
 
+.opened--contentMinicart {
+    z-index: 9999 !important;
+}
+
 .minicartQuantityBadge{
     top: -0.35rem;
     right: -0.5rem;
