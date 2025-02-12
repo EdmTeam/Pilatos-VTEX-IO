@@ -532,7 +532,7 @@
 
 
   .flexRowContent--subContenItemsLevel2 :global(.vtex-flex-layout-0-x-flexRowContent--subContenItems1) {
-    height: 352px !important;
+    height: 446px !important;
   }
 
 @media only screen and (min-width: 740px){
