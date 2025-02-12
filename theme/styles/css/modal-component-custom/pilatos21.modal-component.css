@@ -31,5 +31,6 @@
 
     .estrategiaModalDcto--modal-promo {
         bottom: 7% !important;
+        z-index: 3 !important;
     }
 }
