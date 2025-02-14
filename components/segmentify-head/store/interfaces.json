@@ -1,5 +1,8 @@
 {
   "head-segmentify": {
     "component": "SegmentifyHead"
+  },
+  "segmentify-div-search": {
+    "component": "SegmentifyDivSearch"
   }
 }
