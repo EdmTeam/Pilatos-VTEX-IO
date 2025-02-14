@@ -1,7 +1,7 @@
 {
     "store.custom#landing-prueba-segmentify-head": {
         "blocks": [
-            
+            "segmentify-div-search"
         ]
     }
 }
