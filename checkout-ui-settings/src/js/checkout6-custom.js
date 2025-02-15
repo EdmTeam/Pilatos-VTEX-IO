@@ -315,6 +315,15 @@ const CustomCheckoutExpress = (function () {
 
   // Inicializa la personalización del checkout
   const init = function () {
+
+    (function () {
+      var script = document.createElement("script");
+      script.src = "https://www.mercadopago.com/v2/security.js";
+      script.setAttribute("output", "vtex.deviceFingerprint");
+      script.setAttribute("view", "checkout");
+      document.body.appendChild(script);
+    })();
+
     $(window).on('hashchange load', function () {
       // Verifica si la página actual es la página de pago
       if (location.hash === '#/payment' || location.hash === '#payment') {
@@ -657,3 +666,5 @@ const fillShippingDetails = () => {
   const clickGoToPaymentButton = () => $('#btn-go-to-payment').click();
   scheduleDelayedExcecutions(clickGoToPaymentButton);
 };
+
+
