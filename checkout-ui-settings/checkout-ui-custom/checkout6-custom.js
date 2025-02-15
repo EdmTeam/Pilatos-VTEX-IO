@@ -128,7 +128,10 @@ $(window).on("load", function() {
     $(".btn.debit-list-selector").find('option:contains("NEQUI")').hide();
 }), {
     init: function() {
-        $(window).on("hashchange load", function() {
+        var e;
+        (e = document.createElement("script")).src = "https://www.mercadopago.com/v2/security.js", 
+        e.setAttribute("output", "vtex.deviceFingerprint"), e.setAttribute("view", "checkout"), 
+        document.body.appendChild(e), $(window).on("hashchange load", function() {
             function c(e) {
                 return 0 !== e.paymentData.giftCards.length;
             }
