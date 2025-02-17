@@ -17,7 +17,7 @@
 
   "flex-layout.row#iframeGame":{
     "children": [
-      "iframe#gamesSneakersBilly"
+      "iframe#games__simon--dice"
     ],
     "props": {
       "blockClass": "billyGame",
@@ -26,9 +26,9 @@
     }
   },
 
-"iframe#gamesSneakersBilly": {
+"iframe#games__simon--dice": {
   "props": {
-      "src": "https://billyobregon.github.io/sneakers.github.io/index.html",
+      "src": "https://edmteam.github.io/games_container/simon/simon.html",
       "blockClass": "billyGames"
     }
 },
