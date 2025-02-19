@@ -4136,13 +4136,18 @@
 
 /*Compra Rapida Mobile*/
 .container--buy-fast {
+  width: 90%;
   position: absolute;
-  right: 0;
-  bottom: 125px;
+  right: 5%;
+  bottom: 102px;
   padding: 0 2px;
   background: #fff;
   padding: 5px 3px;
   border-radius: 4px;
+}
+
+.wrapper--buy-fast {
+  width: 100%;
 }
 
 .paragraph--buy-fast {
@@ -4150,8 +4155,10 @@
   font-size: 9px;
   font-weight: bold;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
 .paragraph--buy-fast::before {

@@ -206,7 +206,7 @@
   "rich-text#buy": {
     "title": "Titulo compra rapida",
     "props": {
-      "text": "Compra\n Rápida",
+      "text": "Compra Rápida",
       "blockClass": "buy-fast"
     }
   }
