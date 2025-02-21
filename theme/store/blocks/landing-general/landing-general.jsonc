@@ -350,11 +350,10 @@
       "flex-layout.row#bread-crumb",
       "flex-layout.row#suggestion",
       "flex-layout.row#product-count-mobile",
-      //"flex-layout.row#search-info-mobile-pilatos",
+      "flex-layout.row#search-info-mobile-pilatos",
       "flex-layout.row#fetch-previous",
       "flex-layout.row#content-mobile",
       "flex-layout.row#fetch-more",
-      // "rich-text#filtro-seo",
       "back-to-top-button"
     ],
     "props": {
