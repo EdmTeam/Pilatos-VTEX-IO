@@ -1,0 +1,123 @@
+
+/****NUEVOS***/
+.listItem--boton-fit-jeans-genero-tab {
+    margin: 0;
+    padding: 0;
+}
+
+.listContainer--botones-fit-jeans-genero-tab :global(.vtex-tab-layout-0-x-listItem) {
+    background-color: #fff;
+    color: #fff !important;
+    cursor: pointer;
+    border: 1px solid #000;
+    border-radius: 0;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.listContainer--botones-fit-jeans-genero-tab :global(.vtex-tab-layout-0-x-listItemActive) {
+    background-color: #000;
+    color: #fff;
+    height: auto;
+    transition: background-color 0.2s ease-in;
+}
+
+:global(.vtex-tab-layout-0-x-listItemActive--boton-fit-jeans-genero-tab) :global(.vtex-button) {
+    color: #fff;
+}
+
+:global(.vtex-tab-layout-0-x-listItemActive) :global(.vtex-button) {
+    color: #fff;
+}
+
+:global(.vtex-tab-layout-0-x-container--botones-fit-jeans-genero-tab) :global(.vtex-tab-layout-0-x-listContainer) {
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+/****************+IMagen fits**************/
+.listItem--prueba-fit-jeans {
+    background-image: url('/arquivos/Diesel-Fits-Slim-Desk.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 438px;
+    width: 238px;
+    position: relative;
+}
+.listItem--prueba-fit-jeans :global(.vtex-button), 
+.listItem--prueba-fit-jeans-2 :global(.vtex-button), 
+.listItem--prueba-fit-jeans-3 :global(.vtex-button), 
+.listItem--prueba-fit-jeans-4 :global(.vtex-button), 
+.listItem--prueba-fit-jeans-5 :global(.vtex-button) 
+{
+    position: absolute;
+    bottom: -8%;
+    right: 0;
+    left: 0;
+    background-color: #fff;
+    border-radius: 0;
+    border: 1.5px solid #e4002b;
+}
+
+.listItem--prueba-fit-jeans :global(.vtex-button) :global(.vtex-button__label), 
+.listItem--prueba-fit-jeans-2 :global(.vtex-button) :global(.vtex-button__label), 
+.listItem--prueba-fit-jeans-3 :global(.vtex-button) :global(.vtex-button__label), 
+.listItem--prueba-fit-jeans-4 :global(.vtex-button) :global(.vtex-button__label), 
+.listItem--prueba-fit-jeans-5 :global(.vtex-button) :global(.vtex-button__label) 
+{
+    white-space: pre-line !important;
+    color: #e4002b;
+    cursor: pointer;
+    height: 50px;
+}
+
+.listItem--prueba-fit-jeans :global(.vtex-button) :global(.vtex-button__label):hover,
+.listItem--prueba-fit-jeans-2 :global(.vtex-button) :global(.vtex-button__label):hover, 
+.listItem--prueba-fit-jeans-3 :global(.vtex-button) :global(.vtex-button__label):hover, 
+.listItem--prueba-fit-jeans-4 :global(.vtex-button) :global(.vtex-button__label):hover, 
+.listItem--prueba-fit-jeans-5 :global(.vtex-button) :global(.vtex-button__label):hover 
+{
+    background-color: #e4002b;
+    color: #fff;
+}
+
+/****************+IMagen fits**************/
+.listItem--prueba-fit-jeans-2 {
+    background-image: url('/arquivos/Diesel-Fits-Skinny-Desk.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 438px;
+    width: 238px;
+    position: relative;
+}
+.listItem--prueba-fit-jeans-3 {
+    background-image: url('/arquivos/Diesel-Fits-Tapered-Desk.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 438px;
+    width: 238px;
+    position: relative;
+}
+.listItem--prueba-fit-jeans-4 {
+    background-image: url('/arquivos/Diesel-Fits-Straight-Desk.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 438px;
+    width: 238px;
+    position: relative;
+}
+.listItem--prueba-fit-jeans-5 {
+    background-image: url('/arquivos/Diesel-Fits-Bootcut-Desk.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 438px;
+    width: 238px;
+    position: relative;
+}

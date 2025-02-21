@@ -1,0 +1,259 @@
+{
+
+    "tab-layout#fits-jeans-info": {
+        "children": [
+          "tab-list#fits-jeans-list",
+          "tab-content#fits-jeans-content"
+        ],
+        "props": {
+          "blockClass": "fits-jeans",
+          "defaultActiveTabId": "fits-jeans1"
+        }
+      },
+      "tab-list#fits-jeans-list": {
+        "children": [
+          "tab-list.item#fits-jeans1",
+          "tab-list.item#fits-jeans2",
+          "tab-list.item#fits-jeans3",
+          "tab-list.item#fits-jeans4",
+          "tab-list.item#fits-jeans5"
+        ]
+      },
+      "tab-list.item#fits-jeans1": {
+        "props": {
+          "tabId": "fits-jeans1",
+          "label": "SKINNY \n Pierna super ajustada",
+          "blockClass": "prueba-fit-jeans",
+          "defaultActiveTab": true
+        }
+      },
+      "tab-list.item#fits-jeans2": {
+        "props": {
+          "tabId": "fits-jeans2",
+          "label": "SLIM \n Pierna ajustada",
+          "blockClass": "prueba-fit-jeans-2"
+        }
+      },
+      "tab-list.item#fits-jeans3": {
+        "props": {
+          "tabId": "fits-jeans3",
+          "label": "TAPERED \n Pierna cónica",
+          "blockClass": "prueba-fit-jeans-3"
+        }
+      },
+      "tab-list.item#fits-jeans4": {
+        "props": {
+          "tabId": "fits-jeans4",
+          "label": "STRAIGHT \n Pierna recta",
+          "blockClass": "prueba-fit-jeans-4"
+        }
+      },
+      "tab-list.item#fits-jeans5": {
+        "props": {
+          "tabId": "fits-jeans5",
+          "label": "BOOTCUT \n Pierna ligeramente amplia",
+          "blockClass": "prueba-fit-jeans-5"
+        }
+      },
+
+      "tab-content#fits-jeans-content": {
+        "children": [
+          "tab-content.item#fits-jeans-display",
+          "tab-content.item#fits-jeans-vitrina",
+          "tab-content.item#fits-jeans-vitrina-3",
+          "tab-content.item#fits-jeans-vitrina-4",
+          "tab-content.item#fits-jeans-vitrina-5"
+        ]
+      },
+      "tab-content.item#fits-jeans-display": {
+        "children": [
+          "search-result-layout.customQuery#vitrina-pilatos-fits-jeans"
+        ],
+        "props": {
+          "tabId": "fits-jeans1"
+        }
+      },
+      "tab-content.item#fits-jeans-vitrina": {
+        "children": [
+          "search-result-layout.customQuery#vitrina-pilatos-fits-jeans"
+        ],
+        "props": {
+          "tabId": "fits-jeans2"
+        }
+      },
+      "tab-content.item#fits-jeans-vitrina-3": {
+        "children": [
+          "search-result-layout.customQuery#vitrina-pilatos-fits-jeans"
+        ],
+        "props": {
+          "tabId": "fits-jeans3"
+        }
+      },
+      "tab-content.item#fits-jeans-vitrina-4": {
+        "children": [
+          "search-result-layout.customQuery#vitrina-pilatos-fits-jeans"
+        ],
+        "props": {
+          "tabId": "fits-jeans4"
+        }
+      },
+      "tab-content.item#fits-jeans-vitrina-5": {
+        "children": [
+          "search-result-layout.customQuery#vitrina-pilatos-fits-jeans"
+        ],
+        "props": {
+          "tabId": "fits-jeans5"
+        }
+      },
+    
+
+      ///VITRINA
+
+    "search-result-layout.customQuery#vitrina-pilatos-fits-jeans": {
+        "title": "Vitrina fits-jeans productos",
+        "blocks": [
+          "search-result-layout.desktop#landing-fits-jeans",
+          "search-result-layout.mobile#landing-fits-jeans"
+        ],
+        "props": {
+          "querySchema": {
+            "orderByField": "OrderByScoreDESC",
+            "hideUnavailableItems": true,
+            "maxItemsPerPage": 48,
+            "queryField": "2022",
+            "mapField": "productClusterIds"
+          }
+        }
+      },
+
+    // VITRINA DESKTOP
+  "search-result-layout.desktop#landing-fits-jeans": {
+    "title": "Botones categoría landing fits-jeans DESKTOP",
+    "children": [
+      "seo-schema-plp",
+      "flex-layout.row#banner-search",
+      "flex-layout.row#bread-crumb",
+      //"flex-layout.row#search-info",
+      "flex-layout.row#search-info-desk-new",
+      "flex-layout.row#result",
+      "flex-layout.row#spacer",
+      // "rich-text#filtro-seo",
+      "back-to-top-button"
+    ],
+    "props": {
+      "preventRouteChange": true,
+      "hideUnavailableItems": true,
+      "showFacetQuantity": true,
+      "showProductsCount": true,
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      },
+      "__unstableProductOriginVtex": true,
+      "hiddenFacets": {
+        "specificationFilters": {
+          "hiddenFilters": [
+            {
+              "name": "Material"
+            },
+
+            {
+              "name": "Alto (Cm)"
+            },
+            {
+              "name": "Ancho (Cm)"
+            },
+            {
+              "name": "Breve Descripción"
+            },
+            {
+              "name": "Descripción"
+            },
+            {
+              "name": "Color"
+            },
+            {
+              "name": "Tipo"
+            },
+            {
+              "name": "Categoría"
+            },
+            {
+              "name": "Colores"
+            }
+          ]
+        }
+      }
+    }
+  },
+
+  // VITRINA MOBILE
+
+  "search-result-layout.mobile#landing-fits-jeans": {
+    "title": "Botones categoría landing fits-jeans MOBILE",
+    "children": [
+      "flex-layout.row#banner-search-mobile",
+      "flex-layout.row#bread-crumb",
+      "flex-layout.row#suggestion",
+      "flex-layout.row#product-count-mobile",
+      //"flex-layout.row#search-info-mobile-pilatos",
+      "flex-layout.row#fetch-previous",
+      "flex-layout.row#content-mobile",
+      "flex-layout.row#fetch-more",
+      // "rich-text#filtro-seo",
+      "back-to-top-button"
+    ],
+    "props": {
+      "showProductsCount": true,
+      "blockClass": "searchResultMobile",
+      "preventRouteChange": true,
+      "hiddenFacets": {
+        "specificationFilters": {
+          "hiddenFilters": [
+            {
+              "name": "Brand"
+            },
+            {
+              "name": "Department"
+            },
+            {
+              "name": "Category"
+            },
+            {
+              "name": "Subcategory"
+            },
+            {
+              "name": "Material"
+            },
+            {
+              "name": "Alto (Cm)"
+            },
+            {
+              "name": "Ancho (Cm)"
+            },
+            {
+              "name": "Breve Descripción"
+            },
+            {
+              "name": "Descripción"
+            },
+            {
+              "name": "Material"
+            },
+            {
+              "name": "Color"
+            },
+            {
+              "name": "Categoría"
+            }
+          ]
+        }
+      },
+      "__unstableProductOriginVtex": true,
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      }
+    }
+  }
+}

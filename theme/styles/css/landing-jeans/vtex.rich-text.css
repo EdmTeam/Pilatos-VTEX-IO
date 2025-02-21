@@ -1,0 +1,23 @@
+:global(.vtex-rich-text-0-x-wrapper--tab-layout-fits-info) {
+    border: 1.5px solid #e4002b;
+    width: 238px;
+    transition: background-color 0.2s ease-in, color 0.2s ease-in;
+    cursor: pointer;
+    color: #000; /* Color inicial del texto normal */
+}
+
+:global(.vtex-rich-text-0-x-strong--tab-layout-fits-info) {
+    color: #e4002b; /* Color inicial del texto en negrita */
+}
+
+/* Cambia el color de TODO el texto al hacer hover */
+:global(.vtex-rich-text-0-x-wrapper--tab-layout-fits-info):hover {
+    background-color: #e4002b;
+    color: #fff; /* Cambia el color del texto normal */
+}
+
+/* También cambia el color del strong */
+:global(.vtex-rich-text-0-x-wrapper--tab-layout-fits-info):hover 
+:global(.vtex-rich-text-0-x-strong--tab-layout-fits-info) {
+    color: #fff;
+}
