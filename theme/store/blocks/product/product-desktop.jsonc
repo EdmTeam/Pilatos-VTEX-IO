@@ -35,7 +35,7 @@
             "product-price#product",
             "flex-layout.col#sku",
             "flex-layout.col#btn-mi-talla",
-            "product-availability#uno",
+            "product-availability-custom#pdp_availability",
             "flex-layout.row#product-button-quantity",
             //"addi-infos",
             "flex-layout.row#logosPagos",
