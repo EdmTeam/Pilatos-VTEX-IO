@@ -20,17 +20,38 @@
 }
 
 .estrategiaModalDctoClose--modal-promo {
-    color: black !important;
+    top: -8px;
+    right: -8px !important;
+    background: rgba(0, 0, 0, 0.55);
+    border-radius: 4px;
+    color: #fff !important;
+    transition: background-color 0.2s ease-in;
+}
+
+.estrategiaModalDctoClose--modal-promo:hover {
+    background-color: #ffd400;
 }
 
 @media screen and (max-width: 1024px) {
     .estrategiaModalDctoClose {
-        top: 6px;
-        right: 0.3px !important;
+        top: -8px;
+        right: -8px !important;
+        background: rgba(0, 0, 0, 0.55);
+        border-radius: 4px;
+        color: #fff !important;
+        transition: background-color 0.2s ease-in;
+    }
+
+    .estrategiaModalDctoClose:hover {
+        background-color: #ffd400;
+    }
+
+    .estrategiaModalDcto {
+        overflow: visible !important;
     }
 
     .estrategiaModalDcto--modal-promo {
-        bottom: 7% !important;
+        bottom: 7px !important;
         z-index: 3 !important;
     }
 }

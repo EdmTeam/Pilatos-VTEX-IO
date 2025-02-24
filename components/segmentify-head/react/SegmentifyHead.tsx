@@ -1,7 +1,14 @@
 import React from 'react';
 import { Helmet } from 'vtex.render-runtime'
+import { useRuntime } from 'vtex.render-runtime';
 
 const SegmentifyHead = () => {
+  const runtime = useRuntime();
+
+  if(runtime.page !== "vtex.store@2.x:store.custom#prueba-head-segmentify") {
+    return null
+  }
+  
 
   return (
     <>
