@@ -1,0 +1,26 @@
+:global(.vtex-slider-layout-0-x-slide--carousel) {
+    margin: 0;
+}
+
+:global(.vtex-slider-layout-0-x-sliderTrackContainer--carousel) {
+    width: 90%;
+    margin: 0 auto;
+}
+
+:global(.vtex-slider-layout-0-x-sliderTrack--slider-fits) {
+    display: flex;
+    gap: 10px;
+}
+
+.flexRow--fits-contenido-6 {
+    height: 100%;
+}
+
+.flexRowContent--fits-contenido-6 :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    height: 100%;
+}
+
+:global(.vtex-slider-layout-0-x-sliderArrows--slider-fits) {
+    background-color: #000 !important;
+    color: #fff;
+}

@@ -1,0 +1,42 @@
+
+/****NUEVOS***/
+.listItem--boton-fit-jeans-genero-tab {
+    margin: 0;
+    padding: 0;
+}
+
+.listContainer--botones-fit-jeans-genero-tab :global(.vtex-tab-layout-0-x-listItem) {
+    background-color: #fff;
+    color: #fff !important;
+    cursor: pointer;
+    border: 1px solid #000;
+    border-radius: 0;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.listContainer--botones-fit-jeans-genero-tab :global(.vtex-tab-layout-0-x-listItemActive) {
+    background-color: #000;
+    color: #fff;
+    height: auto;
+    transition: background-color 0.2s ease-in;
+}
+
+.listItem--boton-fit-jeans-genero-tab :global(.vtex-button):hover {
+    background-color: transparent !important;
+}
+
+:global(.vtex-tab-layout-0-x-listItemActive--boton-fit-jeans-genero-tab) :global(.vtex-button) {
+    color: #fff;
+}
+
+:global(.vtex-tab-layout-0-x-listItemActive) :global(.vtex-button) {
+    color: #fff;
+}
+
+:global(.vtex-tab-layout-0-x-container--botones-fit-jeans-genero-tab) :global(.vtex-tab-layout-0-x-listContainer) {
+    justify-content: center;
+    margin-bottom: 20px;
+}

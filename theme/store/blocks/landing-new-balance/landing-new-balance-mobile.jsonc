@@ -46,8 +46,7 @@
 
     "responsive-layout.phone#landing-new-balance-banners-2-phone":{
         "children":[
-            "list-context.image-list#department-banner-mobile-landing-new-balance",
-            "flex-layout.row#landing-new-balance-banners-3",
+           "flex-layout.row#banners-genero-new-balance",
             "flex-layout.col#landing-new-balance-banners-top-mobi",
             "flex-layout.row#recomendadorNewBalanceOne",
             "flex-layout.col#landing-new-balance-banners-nuevo-mobi"
@@ -55,6 +54,25 @@
            // "flex-layout.row#recomendadorNewBalanceTwo"
 
         ]
+    },
+
+    "flex-layout.row#banners-genero-new-balance": {
+        "children": [
+            "flex-layout.col#banners-genero-new-balance"
+        ],
+        "props": {
+            "blockClass": "new-balance-genero-landing"
+        }
+    },
+
+    "flex-layout.col#banners-genero-new-balance": {
+        "children": [
+            "image#landing-new-balance-banners-2-img-1-b",
+            "image#landing-new-balance-banners-2-img-2-b"
+        ],
+        "props": {
+            "blockClass": "new-balance-generos-banners"
+        }
     },
 
     "list-context.image-list#department-banner-mobile-landing-new-balance": {
@@ -79,24 +97,6 @@
                     "description": "Promotional Banner",
                     "link": {
                         "url": "/1283?map=productClusterIds",
-                        "attributeTitle": ""
-                    },
-                    "title": ""
-                },
-                {
-                    "image": "/arquivos/BANNER-NInOS-newbalance.png",
-                    "description": "Promotional Banner",
-                    "link": {
-                        "url": "/1284?map=productClusterIds",
-                        "attributeTitle": ""
-                    },
-                    "title": ""
-                },
-                {
-                    "image": "/arquivos/BANNER-ESTILO-DE-VIDA-newbalance.png",
-                    "description": "Promotional Banner",
-                    "link": {
-                        "url": "/1306?map=productClusterIds",
                         "attributeTitle": ""
                     },
                     "title": ""

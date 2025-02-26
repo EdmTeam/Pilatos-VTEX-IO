@@ -1340,9 +1340,10 @@
 }
 
 .flexRowContent--contentBanners-new-balance{
-  justify-content: space-between;
+  justify-content: center;
   margin-top: 2rem !important;
   width: 80%;
+  margin: 0 auto;
 }
 
 .flexRowContent--contentBanners-new-balance-secundario{
@@ -4224,4 +4225,14 @@ width: 88%;
 
 .flexRowContent--submenu-desk-sale-options-row-1 {
   gap: 24px !important;
+}
+
+
+/****Landing new balance***/
+.flexCol--new-balance-generos-banners {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  width: 80% !important;
+  margin: 20px auto;
 }
