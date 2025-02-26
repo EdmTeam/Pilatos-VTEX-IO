@@ -96,10 +96,8 @@
 
     "flex-layout.row#landing-new-balance-banners-2":{
         "children":[
-            "flex-layout.col#landing-new-balance-banners-2-img-1a",
-            "flex-layout.col#landing-new-balance-banners-2-img-2a",
-            "flex-layout.col#landing-new-balance-banners-2-img-3a",
-            "flex-layout.col#landing-new-balance-banners-2-img-4a"
+            "flex-layout.col#landing-new-balance-banners-2-img-1b",
+            "flex-layout.col#landing-new-balance-banners-2-img-2b"
 
         ],
         "props":{
@@ -109,16 +107,16 @@
 
 
 
-    "flex-layout.col#landing-new-balance-banners-2-img-1a":{
+    "flex-layout.col#landing-new-balance-banners-2-img-1b":{
         "children":[
-            "image#landing-new-balance-banners-2-img-1"
+            "image#landing-new-balance-banners-2-img-1-b"
         ],
         "props":{
             "width": "20%"
         }
     },
 
-    "image#landing-new-balance-banners-2-img-1": {
+    "image#landing-new-balance-banners-2-img-1-b": {
         "props": {
             "src": "/arquivos/BANNER-HOMBRE-newbalance.png",
             "link": {
@@ -129,16 +127,16 @@
         }
     },
 
-    "flex-layout.col#landing-new-balance-banners-2-img-2a":{
+    "flex-layout.col#landing-new-balance-banners-2-img-2b":{
         "children":[
-            "image#landing-new-balance-banners-2-img-2"
+            "image#landing-new-balance-banners-2-img-2-b"
         ],
         "props":{
             "width": "20%"
         }
     },
 
-    "image#landing-new-balance-banners-2-img-2": {
+    "image#landing-new-balance-banners-2-img-2-b": {
         "props": {
             "src": "/arquivos/BANNER-MUJER-newbalance.png",
             "link": {

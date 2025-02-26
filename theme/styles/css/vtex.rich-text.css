@@ -4175,3 +4175,10 @@
   color: #000000;
 
 }
+
+/****Linea etica***/
+@media screen and (max-width: 1024px ) {
+  .paragraph--linkFooterEtica {
+    margin: 0;
+  }
+}
