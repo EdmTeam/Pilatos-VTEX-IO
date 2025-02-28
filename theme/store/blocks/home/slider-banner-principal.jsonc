@@ -125,6 +125,7 @@
     //Banner 1 mobile
     "image#banner-mobile-1-img-1":{
         "props":{
+            "alt": "Banner1-1",
             "src": "/arquivos/Pilatos-FranjaWhatsApp-MobileNegro.jpg",
             "link": {
                 "url": "/",

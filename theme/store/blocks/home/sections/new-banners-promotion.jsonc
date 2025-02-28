@@ -35,7 +35,7 @@
       "imageUrl": "/arquivos/Pilatos-CambioHome-Hombre-Desk.jpg",
       "mobileImageUrl": "/arquivos/Pilatos-CambioHome-Hombre-Mob.jpg",
       "callToActionUrl": "/",
-      "blockClass": "infocardBanner",
+      "blockClass": ["infocardBanner", "banner2-1"],
       "textAlignment": "center",
       "fetchpriority": "auto",
       "preload": true
@@ -50,7 +50,7 @@
       "imageUrl": "/arquivos/Pilatos-CambioHome-Mujer-Desk.jpg",
       "mobileImageUrl": "/arquivos/Pilatos-CambioHome-Mujer-Mob.jpg",
       "callToActionUrl": "/",
-      "blockClass": "infocardBanner",
+      "blockClass": ["infocardBanner", "banner2-2"],
       "textAlignment": "center",
       "fetchpriority": "auto",
       "preload": true

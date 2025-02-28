@@ -530,6 +530,32 @@
   border-radius: 10px;
 }
 
+.flexRowContent--section2__images--departments-mobile {
+  display: flex;
+}
+
+.flexRowContent--section2__images--departments-mobile :global(.vtex-store-components-3-x-imageElement--image_departments) {
+  max-width: 100% !important;
+}
+
+.flexRowContent--section2__images--departments-mobile :first-child {
+  margin-right: 4px;
+}
+
+.flexRowContent--section2__images--departments-mobile :last-child {
+  margin-left: 4px;
+}
+
+.flexRowContent--section2__images--departments :first-child {
+  margin-left: 15px;
+  margin-right: 7.5px;
+}
+
+.flexRowContent--section2__images--departments :last-child {
+  margin-left: 7.5px;
+  margin-right: 15px;
+}
+
 
   .flexRowContent--subContenItemsLevel2 :global(.vtex-flex-layout-0-x-flexRowContent--subContenItems1) {
     height: 446px !important;
