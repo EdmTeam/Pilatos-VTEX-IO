@@ -40,8 +40,6 @@
     "props": {
       "src": "",
       "alt": "Banner2-1",
-      "maxHeight": 674,
-      "maxWidth": 263,
       "blockClass": "image_departments",
       "link": {
         "props": {
@@ -56,8 +54,6 @@
     "props": {
       "src": "",
       "alt": "Banner2-2",
-      "maxHeight": 674,
-      "maxWidth": 263,
       "blockClass": "image_departments",
       "link": {
         "props": {
