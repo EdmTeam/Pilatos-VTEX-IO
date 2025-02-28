@@ -538,6 +538,10 @@
   max-width: 100% !important;
 }
 
+.flexRowContent--section2__images--departments :global(.vtex-store-components-3-x-imageElement--image_departments) {
+  max-width: 100% !important;
+}
+
 .flexRowContent--section2__images--departments-mobile :first-child {
   margin-right: 4px;
 }
