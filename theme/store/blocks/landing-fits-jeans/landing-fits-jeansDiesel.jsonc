@@ -250,7 +250,7 @@
     "props": {
       "src": "/arquivos/Diesel-Fits-Slim-Desk.webp",
       "link": {
-        "url": "/hombre-slim"
+        "url": "/hombre-slim-fits-diesel"
       },
       "blockClass": "fits-contenido-img"
     }
@@ -258,7 +258,7 @@
 
   "rich-text#info-fits-1-diesel": {
     "props": {
-      "text": "[**SLIM** \n Pierna ajustada](/hombre-slim)",
+      "text": "[**SLIM** \n Pierna ajustada](/hombre-slim-fits-diesel)",
       "blockClass": "fits-contenido-texto"
     }
   },
@@ -269,7 +269,7 @@
     "props": {
       "src": "/arquivos/Diesel-Fits-Skinny-Desk.webp",
       "link": {
-        "url": "/hombre-skinny"
+        "url": "/hombre-skinny-fits-diesel"
       },
       "blockClass": "fits-contenido-img"
     }
@@ -277,7 +277,7 @@
 
   "rich-text#info-fits-2-diesel": {
     "props": {
-      "text": "[**SKINNY** \n Pierna super ajustada](/hombre-skinny)",
+      "text": "[**SKINNY** \n Pierna super ajustada](/hombre-skinny-fits-diesel)",
       "blockClass": "fits-contenido-texto"
     }
   },
@@ -288,7 +288,7 @@
     "props": {
       "src": "/arquivos/Diesel-Fits-Tapered-Desk.webp",
       "link": {
-        "url": "/hombre-tapered"
+        "url": "/hombre-tapered-fits-diesel"
       },
       "blockClass": "fits-contenido-img"
     }
@@ -296,7 +296,7 @@
 
   "rich-text#info-fits-3-diesel": {
     "props": {
-      "text": "[**TAPERED** \n Pierna cónica](/hombre-tapered)",
+      "text": "[**TAPERED** \n Pierna cónica](/hombre-tapered-fits-diesel)",
       "blockClass": "fits-contenido-texto"
     }
   },
@@ -307,7 +307,7 @@
     "props": {
       "src": "/arquivos/Diesel-Fits-Straight-Desk.webp",
       "link": {
-        "url": "/hombre-straight"
+        "url": "/hombre-straight-fits-diesel"
       },
       "blockClass": "fits-contenido-img"
     }
@@ -315,7 +315,7 @@
 
   "rich-text#info-fits-4-diesel": {
     "props": {
-      "text": "[**STRAIGHT** \n Pierna recta](/hombre-straight)",
+      "text": "[**STRAIGHT** \n Pierna recta](/hombre-straight-fits-diesel)",
       "blockClass": "fits-contenido-texto"
     }
   },
@@ -326,7 +326,7 @@
       "props": {
         "src": "/arquivos/Diesel-Fits-Bootcut-Desk.webp",
         "link": {
-          "url": "/hombre-bootcut"
+          "url": "/hombre-bootcut-fits-diesel"
         },
         "blockClass": "fits-contenido-img"
       }
@@ -334,7 +334,7 @@
   
     "rich-text#info-fits-5-diesel": {
       "props": {
-        "text": "[**BOOTCUT** \n Pierna ligeramente amplia](/hombre-bootcut)",
+        "text": "[**BOOTCUT** \n Pierna ligeramente amplia](/hombre-bootcut-fits-diesel)",
         "blockClass": "fits-contenido-texto"
       }
     },
@@ -342,7 +342,7 @@
     /********FIT*******/
     "rich-text#info-fits-6-diesel": {
       "props": {
-        "text": "[Ver todo](/hombre-ver-todo)",
+        "text": "[Ver todo](/fits-diesel)",
         "blockClass": "ver-todo-fits"
       }
     },
@@ -419,7 +419,7 @@
     "props": {
       "src": "/arquivos/Diesel-Fits-SuperSkinny-Mujer-Desk.webp",
       "link": {
-        "url": "/mujer-super-skinny"
+        "url": "/mujer-super-skinny-fits-diesel"
       },
       "blockClass": "fits-contenido-img"
     }
@@ -427,7 +427,7 @@
 
   "rich-text#info-fits-1-diesel-mujer": {
     "props": {
-      "text": "[**SUPER SKINNY** \n Pierna super ajustada](/mujer-super-skinny)",
+      "text": "[**SUPER SKINNY** \n Pierna super ajustada](/mujer-super-skinny-fits-diesel)",
       "blockClass": "fits-contenido-texto"
     }
   },
@@ -438,7 +438,7 @@
     "props": {
       "src": "/arquivos/Diesel-Fits-Skinny-Mujer-Desk.webp",
       "link": {
-        "url": "/mujer-skinny"
+        "url": "/mujer-skinny-fits-diesel"
       },
       "blockClass": "fits-contenido-img"
     }
@@ -446,7 +446,7 @@
 
   "rich-text#info-fits-2-diesel-mujer": {
     "props": {
-      "text": "[**SKINNY** \n Pierna ajustada](/mujer-skinny)",
+      "text": "[**SKINNY** \n Pierna ajustada](/mujer-skinny-fits-diesel)",
       "blockClass": "fits-contenido-texto"
     }
   },
@@ -457,7 +457,7 @@
     "props": {
       "src": "/arquivos/Diesel-Fits-Mujer-Slim-Desk.webp",
       "link": {
-        "url": "/mujer-slim"
+        "url": "/mujer-slim-fits-diesel"
       },
       "blockClass": "fits-contenido-img"
     }
@@ -465,7 +465,7 @@
 
   "rich-text#info-fits-3-diesel-mujer": {
     "props": {
-      "text": "[**SLIM** \n Pierna cónica](/mujer-slim)",
+      "text": "[**SLIM** \n Pierna cónica](/mujer-slim-fits-diesel)",
       "blockClass": "fits-contenido-texto"
     }
   },
@@ -476,7 +476,7 @@
     "props": {
       "src": "/arquivos/Diesel-Fits-Straight-Mujer-Desk.webp",
       "link": {
-        "url": "/mujer-straight"
+        "url": "/mujer-straight-fits-diesel"
       },
       "blockClass": "fits-contenido-img"
     }
@@ -484,7 +484,7 @@
 
   "rich-text#info-fits-4-diesel-mujer": {
     "props": {
-      "text": "[**STRAIGHT** \n Pierna recta](/mujer-straight)",
+      "text": "[**STRAIGHT** \n Pierna recta](/mujer-straight-fits-diesel)",
       "blockClass": "fits-contenido-texto"
     }
   },
@@ -495,7 +495,7 @@
       "props": {
         "src": "/arquivos/Diesel-Fits-Boyfriend-Mujer-Desk.webp",
         "link": {
-          "url": "/mujer-boyfriend"
+          "url": "/mujer-boyfriend-fits-diesel"
         },
         "blockClass": "fits-contenido-img"
       }
@@ -503,7 +503,7 @@
   
     "rich-text#info-fits-5-diesel-mujer": {
       "props": {
-        "text": "[**BOYFRIEND** \n Silueta oversize y tiro largo](/mujer-boyfriend)",
+        "text": "[**BOYFRIEND** \n Silueta oversize y tiro largo](/mujer-boyfriend-fits-diesel)",
         "blockClass": "fits-contenido-texto"
       }
     },
@@ -513,7 +513,7 @@
       "props": {
         "src": "/arquivos/Diesel-Fits-Bootcut-Mujer-Desk.webp",
         "link": {
-          "url": "/mujer-bootcut"
+          "url": "/mujer-bootcut-fits-diesel"
         },
         "blockClass": "fits-contenido-img"
       }
@@ -521,7 +521,7 @@
   
     "rich-text#info-fits-5.2-diesel-mujer": {
       "props": {
-        "text": "[**BOOTCUT-FLARE** \n Pierna amplia](/mujer-bootcut)",
+        "text": "[**BOOTCUT-FLARE** \n Pierna amplia](/mujer-bootcut-fits-diesel)",
         "blockClass": "fits-contenido-texto"
       }
     },
@@ -529,7 +529,7 @@
     /********FIT*******/
     "rich-text#info-fits-6-diesel-mujer": {
       "props": {
-        "text": "[Ver todo](/mujer-ver-todo)",
+        "text": "[Ver todo](/mujer-fits-diesel)",
         "blockClass": "ver-todo-fits"
       }
     }
