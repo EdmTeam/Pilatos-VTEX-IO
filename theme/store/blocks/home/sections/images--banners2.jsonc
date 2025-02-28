@@ -1,0 +1,101 @@
+{
+  "responsive-layout.desktop#images__department--desk": {
+    "title": "Section Banners 2 desktop",
+    "children": [
+      "flex-layout.row#section2__images--departments"
+    ]
+  },
+
+  "responsive-layout.mobile#images__department--mob": {
+    "title": "Section Banners 2 mobile",
+    "children": [
+      "flex-layout.row#section2__images--departments-mobile"
+    ]
+  },
+
+  "flex-layout.row#section2__images--departments-mobile":{
+    "title": "Banner 2 mobile",
+    "children": [
+      "image#banner2__first--image-mob",
+      "image#banner2__second--image-mob"
+    ],
+    "props": {
+      "blockClass": "section2__images--departments-mobile"
+    }
+  },
+
+  "flex-layout.row#section2__images--departments":{
+    "title": "Banner 2 desk",
+    "children": [
+      "image#banner2__first--image-desk",
+      "image#banner2__second--image-desk"
+    ],
+    "props": {
+      "blockClass": "section2__images--departments"
+    }
+  },
+
+  "image#banner2__first--image-desk":{
+    "title": "banner 2-1 desk",
+    "props": {
+      "src": "",
+      "alt": "Banner2-1",
+      "maxHeight": 674,
+      "maxWidth": 263,
+      "blockClass": "image_departments",
+      "link": {
+        "props": {
+          "label": "",
+          "url": "/"
+         }
+      }
+    }
+  },
+  "image#banner2__second--image-desk": {
+    "title": "banner 2-2 desk",
+    "props": {
+      "src": "",
+      "alt": "Banner2-2",
+      "maxHeight": 674,
+      "maxWidth": 263,
+      "blockClass": "image_departments",
+      "link": {
+        "props": {
+          "label": "",
+          "url": "/"
+         }
+      }
+    }
+  },
+
+  "image#banner2__first--image-mob":{
+    "title": "banner 2-1 desk",
+    "props": {
+      "src": "",
+      "alt": "Banner2-1",
+      "maxHeight": 430,
+      "blockClass": "image_departments",
+      "link": {
+        "props": {
+          "label": "",
+          "url": "/"
+         }
+      }
+    }
+  },
+  "image#banner2__second--image-mob": {
+    "title": "banner 2-2 desk",
+    "props": {
+      "src": "",
+      "alt": "Banner2-2",
+      "maxHeight": 430,
+      "blockClass": "image_departments",
+      "link": {
+        "props": {
+          "label": "",
+          "url": "/"
+         }
+      }
+    }
+  }
+}

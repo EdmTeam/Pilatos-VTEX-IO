@@ -5,7 +5,9 @@
       "livestreaming",
       //no va  "modal-trigger#welcome",
       "flex-layout.row#congtent-slider",
-      "flex-layout.row#bannersInfoCard",
+      // "flex-layout.row#bannersInfoCard",
+      "responsive-layout.desktop#images__department--desk",
+      "responsive-layout.mobile#images__department--mob",
       "flex-layout.row#bannerDescuento",
       "flex-layout.row#bannersCategorias",
       /*no va Carrusel live shopping,  eliminar una vez termine el evento*/
