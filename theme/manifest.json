@@ -83,7 +83,8 @@
     "pilatos21.head-segmentify": "0.x",
     "pilatos21.segmentify-div": "0.x",
     "pilatos21.modal-component": "0.x",
-    "pilatos21.product-availability": "0.x"
+    "pilatos21.product-availability": "0.x",
+    "pilatos21.contador-promociones-general": "0.x"
   },
   "peerDependencies": {
     "pilatos21.wishlist": "0.x",

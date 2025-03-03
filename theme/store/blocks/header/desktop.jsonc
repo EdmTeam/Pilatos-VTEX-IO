@@ -1,5 +1,6 @@
 {
   "flex-layout.row#header-sticky-inactive-desk": {
+    "title": "MENU HEADER 1",
     "children": [
       "flex-layout.col#header-sticky-inactive-desk"
     ],
@@ -18,8 +19,10 @@
   },
 
   "flex-layout.col#header-sticky-inactive-desk": {
+    "title": "COMPONENTES MENU HEADER 1",
     "children": [
-      "flex-layout.col#top-header-desk",
+      "experimental__visibility-layout#contador-component-custom",
+       "experimental__visibility-layout#top-header",
       "flex-layout.col#header-desk",
       "flex-layout.col#menu-desk"
     ],
@@ -29,16 +32,49 @@
   },
 
   "flex-layout.col#header-sticky-active-desk": {
+    "title": "MENU HEADER 2",
     "children": [
-      "flex-layout.col#header-active-desk"
+       "experimental__visibility-layout#contador-component-custom","flex-layout.col#header-active-desk"
     ],
     "props": {
       "blockClass": "contenedorHeader"
     }
   },
 
+
+          /* "CONTADOR" */
+
+          "experimental__visibility-layout#contador-component-custom": {
+            "title": "contador component visibility",
+            "children": ["promocion-contador#contador-promocion"],
+            "props": {
+              "visible": false
+            }
+          },
+
+          "promocion-contador#contador-promocion":{
+
+  "props":{
+
+    "blockClass": "contador-promocion-contenedor"
+  }
+
+
+},
+
   // Top header
+
+  "experimental__visibility-layout#top-header": {
+    "title": "Top header visibility",
+    "children": ["flex-layout.col#top-header-desk"],
+    "props": {
+      "visible": true
+    }
+  },
+
+
   "flex-layout.col#top-header-desk": {
+    "title": "TOP BAR HEADER",
     "children": [
       "rich-text#top-header-desk"
     ],
@@ -49,7 +85,7 @@
 
   "rich-text#top-header-desk": {
     "props": {
-        "text": "OBTÉN ENVÍO GRATUITO POR COMPRAS SUPERIORES A $250.000  |  TIEMPO DE ENTREGA 5 - 15 DÍAS HÁBILES",
+        "text": "ENVIO GRATIS POR COMPRAS SUPERIORES A $350.000",
         "blockClass": "textTopHeader"
     }
   },
