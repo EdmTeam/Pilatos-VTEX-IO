@@ -1,0 +1,208 @@
+
+.contadorcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    color: white;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    width: 100%;
+  }
+  
+  .saletext {
+    font-size: 21px;
+    font-weight: bold;
+    margin-right: 8px;
+  }
+  
+  .ultimosdias {
+    font-size: 18px;
+
+  }
+  
+  .contador {
+    display: flex;
+    align-items: center;
+    padding-right: 4%;
+  }
+  
+  .numero {
+    font-size: 21px;
+    font-weight: bold;
+    background: red;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 4px;
+    margin: 0 4px;
+  }
+  
+  .ver-tyc {
+    position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 12px;
+
+  cursor: pointer;
+
+  }
+
+  .vertyc--contador-promocion-contenedor{
+    color: white !important;
+    text-decoration: unset;
+    border-bottom: 1px solid white;
+}
+  .contenedortyc{
+
+    
+    position: absolute !important;
+    right: 8% !important;
+    transform: translateY(-2%)!important;
+   
+  }
+
+  .grupotextos{
+    margin-right: 5%;
+  }
+
+
+  .botonComprarContainer {
+    position: relative;
+    display: flex;
+    font-size: 12px;
+    padding-left: 2%;
+
+  }
+
+  
+  .botonComprar {
+    background-color: red;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background 0.3s;
+  }
+
+    /*DESARROLLO TABLETS*/
+
+  @media (max-width: 1024px) and (min-width: 768px) {
+    .saletext {
+        font-size: 17px;
+     
+    }
+
+
+    .numero {
+      font-size: 17px;
+
+    }
+
+    .botonComprar {
+      padding: 6px 10px;
+      font-size: 13px;
+    }
+
+    .botonComprarContainer{
+
+      font-size: 12px;
+      padding-right: 18%;
+    }
+    .grupotextos {
+  padding-left: 1%;
+  }
+    
+    
+}
+
+
+
+
+  /*DESARROLLO MOBILE*/
+  @media (max-width: 768px) {
+    .contadorcontainer {
+      flex-direction: column !important;
+      text-align: center !important;
+      width: 100% !important;
+      align-items: center !important; 
+    }
+  
+    .grupotextos {
+      position: relative !important;
+      width: 100%;
+      text-align: center;
+      margin-bottom: 2%;
+      font-size: 12px;
+    }
+  
+    .saletext{
+      display: block;
+      font-size: 14px;
+      text-align: center;
+      
+    }
+  
+        .contador {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 14%;
+          margin-right: 34%;
+          margin-top: 3%;
+        }
+    .numero {
+      font-size: 12px;
+      padding: 3px 6px;
+    }
+  
+
+
+    .botonComprarContainer {
+      width: 58%;
+      position: absolute !important;
+      padding-left: 47%;
+      text-align: right;
+      padding-top: 8%;
+    }
+  
+    .botonComprar {
+      background-color: red;
+      color: white;
+      padding: 6px 7px;
+      border-radius: 5px;
+      font-size: 11px;
+      font-weight: bold;
+      text-decoration: none;
+      display: inline-block;
+      margin-right: 6%;
+    }
+  
+    .contenedortyc {
+      
+      width: 13%;
+      font-size: 11px !important;
+      position: absolute !important;
+      right: 10px !important;
+      font-size: 12px;
+      text-align: right;
+      bottom: 56%;
+  
+  
+    }
+  
+    .ver-tyc {
+      position: relative;
+      right: 0;
+      font-size: 10px;
+ 
+    }
+
+    .label--contador-promocion-contenedor{
+
+      font-size: 14px;
+    }
+  }
+  

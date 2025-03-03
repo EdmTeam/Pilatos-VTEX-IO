@@ -1,5 +1,6 @@
 {
     "footer-layout.desktop": {
+        "title": "Footer DESK",
         "children": [
             "flex-layout.row#desk-menu-item",
             "flex-layout.row#legal-medios-pago-desk"
@@ -16,7 +17,10 @@
     },
 
     "flex-layout.row#desk-menu-item": {
+      "title": "Footer menu DESK",
         "children": [
+     
+        
             "flex-layout.col#news-letter-desk",
             "flex-layout.col#desk-menu-item-col-1",
             "flex-layout.col#desk-menu-item-col-2",
