@@ -1,6 +1,12 @@
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
     .link--contentIcoWhatsApp {
-        bottom: 9rem;
-        right: 5px;
+        bottom: 1rem;
+        /*right: 5px;*/
+        right: 20px;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .link--contentIcoWhatsApp {
+        right: 2.7rem;
     }
 }

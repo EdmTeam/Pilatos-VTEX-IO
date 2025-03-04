@@ -15,7 +15,17 @@
 
     .mobileImageModal {
         display: block;
-        width: 100vw;
+        /* width: 100vw; */
+        width: 200px;
+        position: fixed;
+        right: 4%;
+        top: 75%;
+    }
+}
+
+@media (max-width: 600px) {
+    .mobileImageModal {
+        width: 40%;
     }
 }
 
@@ -34,12 +44,13 @@
 
 @media screen and (max-width: 1024px) {
     .estrategiaModalDctoClose {
-        top: -8px;
+        top: 38px;
         right: -8px !important;
         background: rgba(0, 0, 0, 0.55);
         border-radius: 4px;
         color: #fff !important;
         transition: background-color 0.2s ease-in;
+        z-index: 3;
     }
 
     .estrategiaModalDctoClose:hover {
@@ -51,7 +62,9 @@
     }
 
     .estrategiaModalDcto--modal-promo {
-        bottom: 7px !important;
+        /* bottom: 7px !important; */
         z-index: 3 !important;
+        top: 70%;
+        right: 2%;
     }
 }
