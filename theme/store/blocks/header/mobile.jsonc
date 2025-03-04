@@ -1,5 +1,6 @@
 {
   "flex-layout.row#header-sticky-mobile": {
+
     "children": [
       "flex-layout.col#header-sticky-mobile",
       "flex-layout.row#header-search-mobile"
@@ -9,8 +10,10 @@
     }
   },
   "flex-layout.col#header-sticky-mobile": {
+    "title": "MENU HEADER MOBILE",
     "children": [
-      "flex-layout.col#top-header-mobile",
+      "experimental__visibility-layout#contador-component-custom",
+      "experimental__visibility-layout#top-header-mobile",
       "responsive-layout.phone#header-mobile-col",
       "responsive-layout.tablet#header-mobile-col"
     ],
@@ -20,6 +23,14 @@
     }
   },
   // Top header
+     "experimental__visibility-layout#top-header-mobile":{
+      "title": "Top header mobile visibility",
+    "children": [ "flex-layout.col#top-header-mobile"],
+    "props": {
+      "visible": true
+    }
+     },
+
   "flex-layout.col#top-header-mobile": {
     "children": [
       "rich-text#top-header-mobile"
@@ -30,7 +41,7 @@
   },
   "rich-text#top-header-mobile": {
     "props": {
-      "text": "OBTÉN ENVÍO GRATUITO POR COMPRAS SUPERIORES A $250.000",
+      "text": "ENVIO GRATIS POR COMPRAS SUPERIORES A $350.000",
       "blockClass": "textTopHeader"
     }
   },
