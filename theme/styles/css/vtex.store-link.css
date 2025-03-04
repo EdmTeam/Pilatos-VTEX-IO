@@ -1,7 +1,7 @@
 .link--contentIcoWhatsApp{
     position: fixed;
     bottom: 6rem;
-    right: 2.7rem;
+    /*right: 2.7rem;*/
     z-index: 1000;
 }
 
