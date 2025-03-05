@@ -45,7 +45,7 @@
       "head-segmentify",
       //"link#content-chat-whatsapp",
       "segmentify",
-      "modal-component"
+      "experimental__visibility-layout#modal-component-custom-mob"
     ]
   },
 
