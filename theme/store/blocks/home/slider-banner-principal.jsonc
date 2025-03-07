@@ -1,285 +1,169 @@
 {
-
-    "flex-layout.row#congtent-slider":{
-        "children":[
-            "flex-layout.col#congtent-slider"
-        ]
-    },
-
-    "flex-layout.col#congtent-slider":{
-        "children":[
-            "responsive-layout.phone#banner-principal",
-            "responsive-layout.tablet#banner-principal",
-            "responsive-layout.desktop#banner-principal",
-            "list-context.image-list#banner-principal"
-            //codigo dsi
-            /*"responsive-layout.desktop#banner-principal-dsi",
-            "responsive-layout.phone#banner-principal-dsi",
-            "responsive-layout.tablet#banner-principal-dsi"*/
-        ]
-    },
-
-    "list-context.image-list#banner-principal": {
-        "children": ["slider-layout#banner-principal-desktop"],
-        "props": {
-
-            "height": 600,
-            "images": [
-                {
-                    "image": "/arquivos/Banner_Principal_Desktop_01.jpg",
-                    "mobileImage": "/arquivos/Banner_Principal_Mobile_01.jpg",
-                    "description": "Banner principal"
-                }
-            ]
-
+  "flex-layout.row#content-slider": {
+    "children": [
+      "flex-layout.col#content-slider"
+    ]
+  },
+  "flex-layout.col#content-slider": {
+    "children": [
+      "responsive-layout.phone#banner-principal",
+      "responsive-layout.tablet#banner-principal",
+      "responsive-layout.desktop#banner-principal",
+      "list-context.image-list#banner-principal"
+    ]
+  },
+  "list-context.image-list#banner-principal": {
+    "children": [
+      "slider-layout#banner-principal-desktop"
+    ],
+    "props": {
+      "height": 600,
+      "images": [
+        {
+          "image": "/arquivos/Banner_Principal_Desktop_01.jpg",
+          "mobileImage": "/arquivos/Banner_Principal_Mobile_01.jpg",
+          "description": "Banner principal"
         }
-    },
-    "responsive-layout.phone#banner-principal": {
-        "children":[
-            "image#banner-mobile-1-img-1"
-        ]
-    },
-
-    "responsive-layout.tablet#banner-principal": {
-        "children":[
-            "image#banner-tablet-1-img-1"
-        ]
-    },
-
-    "responsive-layout.desktop#banner-principal": {
-        "children":[
-            "image#banner-mobile-1-img-1"
-        ]
-    },
-
-    // inicio dsi
-    "responsive-layout.phone#banner-principal-dsi": {
-        "children":[
-            "image#banner-mobile-1-img-1-dsi"
-        ]
-    },
-
-    "responsive-layout.tablet#banner-principal-dsi": {
-        "children":[
-            "image#banner-tablet-1-img-1-dsi"
-        ]
-    },
-
-    "responsive-layout.desktop#banner-principal-dsi": {
-        "children":[
-            "image#banner-desktop-1-img-1-dsi"
-        ]
-    },
-    // fin dsi
-
-    "slider-layout#banner-principal-desktop": {
-        "props": {
-            "blockClass": "contentBanner",
-
-            "itemsPerPage": {
-                "desktop": 1,
-                "tablet": 1,
-                "phone": 1
-            },
-            "autoplay": {
-                    "timeout": 6000,
-                    "stopOnHover": true
-
-            },
-            "infinite": true,
-            "showNavigationArrows": "always",
-            "showPaginationDots": "always"
-        }
-    },
-
-    //Banner 1 desktop
-    "image#banner-desktop-1-img-1":{
-        "props":{
-            "src": "/arquivos/Pilatos-FranjaWhatsApp-DesktopNegro.jpg",
-            "link": {
-                "url": "/",
-                "attributeTitle": ""
-            }
-        }
-    },
-    "image#banner-desktop-1-img-1-dsi":{
-        "props":{
-            "src": "/arquivos/Pilatos-FranjaWhatsApp-DesktopNegro.jpg",
-            "link": {
-                "url": "/",
-                "attributeTitle": ""
-            }
-        }
-    },
-
-    "image#banner-desktop-1-img-2":{
-        "props":{
-            "src": "/arquivos/Banner_Principal_Desktop_01.jpg",
-            "link": {
-                "url": "/sobre-pilatos",
-                "attributeTitle": ""
-            }
-        }
-    },
-
-    //Banner 1 mobile
-    "image#banner-mobile-1-img-1":{
-        "props":{
-            "alt": "Banner1-1",
-            "src": "/arquivos/Pilatos-FranjaWhatsApp-MobileNegro.jpg",
-            "link": {
-                "url": "/",
-                "attributeTitle": ""
-            },
-            "blockClass": "departmentBannerImg-topHome"
-        }
-
-
-    },
-
-    "image#banner-mobile-1-img-1-dsi":{
-        "props":{
-            "src": "/arquivos/Pilatos-FranjaWhatsApp-MobileNegro.jpg",
-            "link": {
-                "url": "/",
-                "attributeTitle": ""
-            }
-        }
-    },
-
-    "image#banner-mobile-1-img-2":{
-        "props":{
-            "src": "/arquivos/Banner_Principal_Mobile_01.jpg",
-            "link": {
-                "url": "/sobre-pilatos",
-                "attributeTitle": ""
-            }
-        }
-    },
-
-    //Banner 1 tablet
-    "image#banner-tablet-1-img-1":{
-        "props":{
-            "src": "/arquivos/Pilatos-FranjaWhatsApp-MobileNegro.jpg",
-            "link": {
-                "url": "/",
-                "attributeTitle": ""
-            }
-        }
-    },
-
-    "image#banner-tablet-1-img-1-dsi":{
-        "props":{
-            "src": "/arquivos/Pilatos-FranjaWhatsApp-MobileNegro.jpg",
-            "link": {
-                "url": "/",
-                "attributeTitle": ""
-            }
-        }
-    },
-
-    "image#banner-tablet-1-img-2":{
-        "props":{
-            "src": "/arquivos/Banner_Principal_Tablet_01.jpg",
-            "link": {
-                "url": "/sobre-pilatos",
-                "attributeTitle": ""
-            }
-        }
-    },
-
-    // BANNER CAMBIO Y DEVOLUCIONES HOME
-
-    "flex-layout.row#cambio-devolucionesHome":{
-        "children":[
-            "flex-layout.col#cambio-devolucionesHome"
-        ]
-    },
-
-    "flex-layout.col#cambio-devolucionesHome":{
-        "children":[
-            "responsive-layout.desktop#banner-devolucionesHome",
-            "responsive-layout.phone#banner-devolucionesHome",
-            "responsive-layout.tablet#banner-devolucionesHome",
-            "flex-layout.col#contenedor-banner-reverso"
-        ]
-    },
-
-    /*banner reversso footer*/
-    "flex-layout.col#contenedor-banner-reverso": {
-        "children": [
-            "responsive-layout.phone#banner-principal",
-            "responsive-layout.tablet#banner-principal",
-            "responsive-layout.desktop#banner-principal"
-        ],
-        "props": {
-            "width": "grow",
-            "blockClass": "banner-reversso-footer"
-        }
-    },
-    /*banner reversso footer*/
-
-
-    "responsive-layout.phone#banner-devolucionesHome": {
-        "children":[
-            "image#banner-mobile-1-img-1-devolucionesHome"
-        ],
-        "props":{
-            "blockClass":"contentBannersDeskDevoluciones"
-        }
-    },
-
-    "responsive-layout.tablet#banner-devolucionesHome": {
-        "children":[
-            "image#banner-tablet-1-img-1-devolucionesHome"
-        ],
-        "props":{
-            "blockClass":"contentBannersDeskDevoluciones"
-        }
-    },
-
-    "responsive-layout.desktop#banner-devolucionesHome": {
-        "children":[
-            "image#banner-desktop-1-img-1-devolucionesHome"
-        ],
-        "props":{
-            "blockClass":"contentBannersDeskDevoluciones"
-        }
-    },
-
-    "image#banner-mobile-1-img-1-devolucionesHome":{
-        "props":{
-            "src": "/arquivos/Pilatos-BannerCambiosYdevoluciones.jpg",
-            "link": {
-                "url": "/cambios-devoluciones",
-                "attributeTitle": ""
-            },
-            "blockClass": "departmentBannerImg-devolucion"
-
-        }
-    },
-
-    "image#banner-tablet-1-img-1-devolucionesHome":{
-        "props":{
-            "src": "/arquivos/Pilatos-BannerCambiosYdevoluciones.jpg",
-            "link": {
-                "url": "/cambios-devoluciones",
-                "attributeTitle": ""
-            },
-            "blockClass": "departmentBannerImg-devolucion"
-
-        }
-    },
-
-    "image#banner-desktop-1-img-1-devolucionesHome":{
-        "props":{
-            "src": "/arquivos/Pilatos-BannerCambiosYdevoluciones.jpg",
-            "link": {
-                "url": "/cambios-devoluciones",
-                "attributeTitle": ""
-            },
-            "blockClass": "departmentBannerImg-devolucion"
-
-        }
+      ]
     }
+  },
+  "responsive-layout.phone#banner-principal": {
+    "children": [
+      "image#banner-mobile-1-img-1"
+    ]
+  },
+  "responsive-layout.tablet#banner-principal": {
+    "children": [
+      "image#banner-tablet-1-img-1"
+    ]
+  },
+  "responsive-layout.desktop#banner-principal": {
+    "children": [
+      "image#banner-desktop-1-img-1"
+    ]
+  },
+  "slider-layout#banner-principal-desktop": {
+    "props": {
+      "blockClass": "contentBanner",
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "autoplay": {
+        "timeout": 6000,
+        "stopOnHover": true
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "showPaginationDots": "always"
+    }
+  },
+  "image#banner-desktop-1-img-1": {
+    "props": {
+      "src": "/arquivos/Pilatos-FranjaWhatsApp-DesktopNegro.jpg",
+      "width": "100%",
+      "height": "auto",
+      "link": {
+        "url": "/",
+        "attributeTitle": ""
+      }
+    }
+  },
+  "image#banner-mobile-1-img-1": {
+    "props": {
+      "alt": "Banner1-1",
+      "src": "/arquivos/Pilatos-FranjaWhatsApp-MobileNegro.jpg",
+      "width": "100%",
+      "height": "auto",
+      "link": {
+        "url": "/",
+        "attributeTitle": ""
+      },
+      "blockClass": "departmentBannerImg-topHome"
+    }
+  },
+  "image#banner-tablet-1-img-1": {
+    "props": {
+      "src": "/arquivos/Pilatos-FranjaWhatsApp-MobileNegro.jpg",
+      "width": "100%",
+      "height": "auto",
+      "link": {
+        "url": "/",
+        "attributeTitle": ""
+      }
+    }
+  },
+  "flex-layout.row#cambio-devolucionesHome": {
+    "children": [
+      "flex-layout.col#cambio-devolucionesHome"
+    ]
+  },
+  "flex-layout.col#cambio-devolucionesHome": {
+    "children": [
+      "responsive-layout.desktop#banner-devolucionesHome",
+      "responsive-layout.phone#banner-devolucionesHome",
+      "responsive-layout.tablet#banner-devolucionesHome"
+    ]
+  },
+  "responsive-layout.phone#banner-devolucionesHome": {
+    "children": [
+      "image#banner-mobile-1-img-1-devolucionesHome"
+    ],
+    "props": {
+      "blockClass": "contentBannersDeskDevoluciones"
+    }
+  },
+  "responsive-layout.tablet#banner-devolucionesHome": {
+    "children": [
+      "image#banner-tablet-1-img-1-devolucionesHome"
+    ],
+    "props": {
+      "blockClass": "contentBannersDeskDevoluciones"
+    }
+  },
+  "responsive-layout.desktop#banner-devolucionesHome": {
+    "children": [
+      "image#banner-desktop-1-img-1-devolucionesHome"
+    ],
+    "props": {
+      "blockClass": "contentBannersDeskDevoluciones"
+    }
+  },
+  "image#banner-mobile-1-img-1-devolucionesHome": {
+    "props": {
+      "src": "/arquivos/Pilatos-BannerCambiosYdevoluciones.jpg",
+      "width": "100%",
+      "height": "auto",
+      "link": {
+        "url": "/cambios-devoluciones",
+        "attributeTitle": ""
+      },
+      "blockClass": "departmentBannerImg-devolucion"
+    }
+  },
+  "image#banner-tablet-1-img-1-devolucionesHome": {
+    "props": {
+      "src": "/arquivos/Pilatos-BannerCambiosYdevoluciones.jpg",
+      "width": "100%",
+      "height": "auto",
+      "link": {
+        "url": "/cambios-devoluciones",
+        "attributeTitle": ""
+      },
+      "blockClass": "departmentBannerImg-devolucion"
+    }
+  },
+  "image#banner-desktop-1-img-1-devolucionesHome": {
+    "props": {
+      "src": "/arquivos/Pilatos-BannerCambiosYdevoluciones.jpg",
+      "width": "100%",
+      "height": "auto",
+      "link": {
+        "url": "/cambios-devoluciones",
+        "attributeTitle": ""
+      },
+      "blockClass": "departmentBannerImg-devolucion"
+    }
+  }
 }
