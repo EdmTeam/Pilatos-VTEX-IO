@@ -43,7 +43,7 @@
       "responsive-layout.phone#header-phone",
       "head-segmentify",
       "segmentify",
-      "modal-component"
+      "experimental__visibility-layout#modal-component-custom-mob"
     ]
   },
 
