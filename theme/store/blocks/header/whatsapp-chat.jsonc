@@ -1,28 +1,26 @@
 {
-    "link#content-chat-whatsapp":{
-        "children":[
-            "flex-layout.row#content-chat-whatsapp"
-        ],
-        "props":{
-            "blockClass": "contentIcoWhatsApp",
-            "href": "https://api.whatsapp.com/send?phone=573215282745",
-            "target": "_blank"
-        }
-    },
-
-    "flex-layout.row#content-chat-whatsapp":{
-        "children":[
-            "rich-text#content-chat-whatsapp"
-        ],
-        "props":{
-            "blockClass": "contentIcoWhatsApp"
-        }
-    },
-
-    "rich-text#content-chat-whatsapp":{
-        "props":{
-            "text": "",
-            "blockClass": "contentIcoWhatsApp"
-        }
+  "link#content-chat-whatsapp": {
+    "children": [
+      "flex-layout.row#content-chat-whatsapp"
+    ],
+    "props": {
+      "blockClass": "contentIcoWhatsApp",
+      "href": "https://api.whatsapp.com/send?phone=573215282745",
+      "target": "_blank"
     }
+  },
+  "flex-layout.row#content-chat-whatsapp": {
+    "children": [
+      "rich-text#content-chat-whatsapp"
+    ],
+    "props": {
+      "blockClass": "contentIcoWhatsApp"
+    }
+  },
+  "rich-text#content-chat-whatsapp": {
+    "props": {
+      "text": "",
+      "blockClass": "contentIcoWhatsApp"
+    }
+  }
 }

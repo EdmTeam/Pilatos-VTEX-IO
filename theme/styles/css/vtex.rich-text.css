@@ -55,14 +55,6 @@
   text-transform: uppercase;
 }
 
-@media only screen and (min-width: 1180px) {
-  .container--colorPromise .paragraph {
-    margin: 0 0 0 1rem;
-    font-size: 11px;
-    text-align: left;
-  }
-}
-
 .container--colorPromise2 {
   color: #00A2DC;
 }
@@ -77,16 +69,6 @@
 
 .strong--colorPromise {
   color: #F2A922;
-}
-
-@media only screen and (min-width: 1180px) {
-  .container--colorPromise2 .paragraph {
-    font-size: 13px;
-  }
-
-  .container--colorPromise .paragraph {
-    font-size: 13px;
-  }
 }
 
 .paragraph--titleOfertasUnicas {
@@ -112,44 +94,9 @@
   color: #000000;
 }
 
-@media only screen and (min-width: 740px) {
-
-  .container--titleOfertasUnicas,
-  .container--textOfertasUnicas {
-    justify-content: flex-start;
-    padding-left: 1rem;
-  }
-
-  .paragraph--titleOfertasUnicas {
-    font-size: 18px;
-    margin: .5rem 0;
-    line-height: 20px
-  }
-
-  .paragraph--textOfertasUnicas {
-    font-size: 13px;
-    text-align: left;
-  }
-}
-
-@media only screen and (min-width: 1180px) {
-  .paragraph--titleOfertasUnicas {
-    font-size: 30px;
-    margin: 1rem 0;
-    line-height: 35px
-  }
-
-  .paragraph--textOfertasUnicas {
-    font-size: 15px;
-    margin: .2rem 0;
-    text-align: left;
-  }
-}
-
 /* Estiolos personalizados footer*/
 .container--titleItemsfooter {
   justify-content: center;
-  /*margin-top: 11.3rem;*/
   margin-top: 13rem;
 }
 
@@ -277,144 +224,6 @@
   cursor: pointer;
 }
 
-@media only screen and (min-width: 740px) {
-
-  .wrapper--mailItemsfooter,
-  .wrapper--telItemsfooter,
-  .wrapper--whatsappItemsfooter {
-    font-size: 1.2rem
-  }
-}
-
-@media only screen and (min-width: 1180px) {
-
-  .wrapper--mailItemsfooter,
-  .wrapper--telItemsfooter,
-  .wrapper--whatsappItemsfooter,
-  .wrapper--locatorItemsfooter {
-    font-size: 1.4rem
-  }
-
-  .container--titleItemsfooter {
-    justify-content: flex-start;
-  }
-
-  .paragraph--titleItemsfooter {
-    font-weight: 800;
-    font-size: 12px;
-    line-height: 19px;
-    color: #FFFFFF;
-    text-transform: uppercase;
-    margin: 0 0 5px 0;
-  }
-
-  .container--descriptionItemsfooter {
-    justify-content: flex-start;
-  }
-
-  .wrapper--descriptionItemsfooter {
-    text-align: left;
-  }
-
-  .paragraph--descriptionItemsfooter {
-    font-weight: normal;
-    font-size: 11px;
-    line-height: 13px;
-    letter-spacing: 0.02em;
-    margin: 0 0 1.2rem 0;
-  }
-
-  .wrapper--mailItemsfooter,
-  .wrapper--telItemsfooter,
-  .wrapper--whatsappItemsfooter {
-    font-size: 1.1rem;
-  }
-
-  .paragraph--linkFooter {
-    margin: 0 0 .6rem 0;
-  }
-
-  .paragraph--linkFooterEtica {
-    margin: 0 0 .6rem 0;
-    font-weight: normal;
-    font-size: 11px;
-    line-height: 10px;
-    letter-spacing: 0.02em;
-    color: #ffffff;
-  }
-
-  .link--linkFooter {
-    font-weight: normal;
-    font-size: 11px;
-    line-height: 10px;
-    letter-spacing: 0.02em;
-  }
-
-  .wrapper--textSchedule .paragraph {
-    width: 100%;
-  }
-
-  .container--static-top-title-terms {
-    justify-content: center;
-  }
-
-  .wrapper--legalRights .paragraph {
-    font-style: normal;
-    font-weight: 300;
-    font-size: 10px;
-    line-height: 19px;
-    color: #000000;
-    margin: 0 0 0 2.14rem;
-  }
-
-  .wrapper--icoBlacksip {
-    font-size: 3rem;
-    height: 20px;
-    display: flex;
-    align-items: center;
-    color: #000000;
-  }
-
-  .wrapper--icoVtex {
-    font-size: 3rem;
-    height: 20px;
-    display: flex;
-    align-items: center;
-    color: #F71963;
-  }
-
-  .wrapper--icoSsl {
-    background-image: url("data:image/svg+xml,%3Csvg width='70' height='16' viewBox='0 0 70 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='0.5' y='0.5' width='69' height='15' rx='7.5' stroke='black'/%3E%3Cg clip-path='url(%23clip0)'%3E%3Cpath d='M13.4954 7.29642V5.27259C13.4954 3.76547 12.4189 2.68896 10.9117 2.68896C9.40463 2.68896 8.32813 3.76547 8.32813 5.27259V7.29642C7.76834 7.94233 7.46692 8.71741 7.46692 9.57862C7.46692 10.4829 7.8114 11.3441 8.45731 12.0331C9.14627 12.679 10.0075 13.0234 10.9117 13.0234C11.816 13.0234 12.6772 12.679 13.3662 12.0331C14.0121 11.3872 14.3566 10.5259 14.3566 9.57862C14.3566 8.71741 14.0552 7.94233 13.4954 7.29642ZM10.9117 3.55017C11.9452 3.55017 12.6342 4.23914 12.6342 5.27259V6.60746C12.1174 6.30603 11.5146 6.13379 10.9117 6.13379C10.3089 6.13379 9.70606 6.30603 9.18933 6.60746V5.27259C9.18933 4.23914 9.8783 3.55017 10.9117 3.55017ZM12.7203 11.3872C12.2466 11.9039 11.6007 12.1622 10.9117 12.1622C10.2228 12.1622 9.57688 11.9039 9.10321 11.3872C8.58649 10.9135 8.32813 10.2676 8.32813 9.57862C8.32813 8.88965 8.58649 8.24375 9.10321 7.77009C9.57688 7.25336 10.2228 6.995 10.9117 6.995C11.6007 6.995 12.2466 7.25336 12.7203 7.77009C13.1939 8.24375 13.4954 8.88965 13.4954 9.57862C13.4954 10.2676 13.237 10.9135 12.7203 11.3872Z' fill='black'/%3E%3Cpath d='M10.3089 8.54523C10.1367 8.71747 10.0505 8.93277 10.0505 9.14807C10.0505 9.36337 10.1367 9.57867 10.3089 9.75092C10.352 9.79398 10.4381 9.83704 10.4811 9.8801V10.8705H11.3423V9.8801C11.3854 9.83704 11.4715 9.79398 11.5146 9.75092C11.6868 9.57867 11.773 9.36337 11.773 9.14807C11.773 8.93277 11.6868 8.71747 11.5146 8.54523C11.2132 8.20074 10.6103 8.20074 10.3089 8.54523Z' fill='black'/%3E%3C/g%3E%3Cpath d='M19.5633 9.48828C19.5633 9.28776 19.4917 9.13151 19.3484 9.01953C19.2078 8.90755 18.9591 8.79167 18.6024 8.67188C18.2456 8.55208 17.9539 8.4362 17.7274 8.32422C16.9904 7.96224 16.6219 7.46484 16.6219 6.83203C16.6219 6.51693 16.713 6.23958 16.8953 6C17.0802 5.75781 17.3406 5.57031 17.6766 5.4375C18.0125 5.30208 18.3901 5.23438 18.8094 5.23438C19.2182 5.23438 19.5841 5.30729 19.907 5.45312C20.2326 5.59896 20.4852 5.80729 20.6649 6.07812C20.8445 6.34635 20.9344 6.65365 20.9344 7H19.5672C19.5672 6.76823 19.4956 6.58854 19.3524 6.46094C19.2117 6.33333 19.0203 6.26953 18.7781 6.26953C18.5333 6.26953 18.3393 6.32422 18.1961 6.43359C18.0555 6.54036 17.9852 6.67708 17.9852 6.84375C17.9852 6.98958 18.0633 7.1224 18.2195 7.24219C18.3758 7.35938 18.6505 7.48177 19.0438 7.60938C19.437 7.73438 19.7599 7.86979 20.0125 8.01562C20.6271 8.36979 20.9344 8.85807 20.9344 9.48047C20.9344 9.97786 20.7469 10.3685 20.3719 10.6523C19.9969 10.9362 19.4826 11.0781 18.8289 11.0781C18.368 11.0781 17.95 10.9961 17.575 10.832C17.2026 10.6654 16.9214 10.4388 16.7313 10.1523C16.5438 9.86328 16.45 9.53125 16.45 9.15625H17.825C17.825 9.46094 17.9031 9.6862 18.0594 9.83203C18.2182 9.97526 18.4748 10.0469 18.8289 10.0469C19.0555 10.0469 19.2339 9.9987 19.3641 9.90234C19.4969 9.80339 19.5633 9.66536 19.5633 9.48828ZM24.5711 9.48828C24.5711 9.28776 24.4995 9.13151 24.3563 9.01953C24.2156 8.90755 23.9669 8.79167 23.6102 8.67188C23.2534 8.55208 22.9617 8.4362 22.7352 8.32422C21.9982 7.96224 21.6297 7.46484 21.6297 6.83203C21.6297 6.51693 21.7208 6.23958 21.9031 6C22.088 5.75781 22.3484 5.57031 22.6844 5.4375C23.0203 5.30208 23.3979 5.23438 23.8172 5.23438C24.2261 5.23438 24.5919 5.30729 24.9149 5.45312C25.2404 5.59896 25.493 5.80729 25.6727 6.07812C25.8524 6.34635 25.9422 6.65365 25.9422 7H24.575C24.575 6.76823 24.5034 6.58854 24.3602 6.46094C24.2195 6.33333 24.0281 6.26953 23.7859 6.26953C23.5412 6.26953 23.3471 6.32422 23.2039 6.43359C23.0633 6.54036 22.993 6.67708 22.993 6.84375C22.993 6.98958 23.0711 7.1224 23.2274 7.24219C23.3836 7.35938 23.6583 7.48177 24.0516 7.60938C24.4448 7.73438 24.7677 7.86979 25.0203 8.01562C25.6349 8.36979 25.9422 8.85807 25.9422 9.48047C25.9422 9.97786 25.7547 10.3685 25.3797 10.6523C25.0047 10.9362 24.4904 11.0781 23.8367 11.0781C23.3758 11.0781 22.9578 10.9961 22.5828 10.832C22.2104 10.6654 21.9292 10.4388 21.7391 10.1523C21.5516 9.86328 21.4578 9.53125 21.4578 9.15625H22.8328C22.8328 9.46094 22.9109 9.6862 23.0672 9.83203C23.2261 9.97526 23.4826 10.0469 23.8367 10.0469C24.0633 10.0469 24.2417 9.9987 24.3719 9.90234C24.5047 9.80339 24.5711 9.66536 24.5711 9.48828ZM28.0164 9.94531H30.4031V11H26.6453V5.3125H28.0164V9.94531ZM35.907 9.48828C35.907 9.28776 35.8354 9.13151 35.6922 9.01953C35.5516 8.90755 35.3029 8.79167 34.9461 8.67188C34.5893 8.55208 34.2977 8.4362 34.0711 8.32422C33.3341 7.96224 32.9656 7.46484 32.9656 6.83203C32.9656 6.51693 33.0568 6.23958 33.2391 6C33.424 5.75781 33.6844 5.57031 34.0203 5.4375C34.3563 5.30208 34.7339 5.23438 35.1531 5.23438C35.562 5.23438 35.9279 5.30729 36.2508 5.45312C36.5763 5.59896 36.8289 5.80729 37.0086 6.07812C37.1883 6.34635 37.2781 6.65365 37.2781 7H35.9109C35.9109 6.76823 35.8393 6.58854 35.6961 6.46094C35.5555 6.33333 35.3641 6.26953 35.1219 6.26953C34.8771 6.26953 34.6831 6.32422 34.5399 6.43359C34.3992 6.54036 34.3289 6.67708 34.3289 6.84375C34.3289 6.98958 34.407 7.1224 34.5633 7.24219C34.7195 7.35938 34.9943 7.48177 35.3875 7.60938C35.7807 7.73438 36.1037 7.86979 36.3563 8.01562C36.9708 8.36979 37.2781 8.85807 37.2781 9.48047C37.2781 9.97786 37.0906 10.3685 36.7156 10.6523C36.3406 10.9362 35.8263 11.0781 35.1727 11.0781C34.7117 11.0781 34.2938 10.9961 33.9188 10.832C33.5464 10.6654 33.2651 10.4388 33.075 10.1523C32.8875 9.86328 32.7938 9.53125 32.7938 9.15625H34.1688C34.1688 9.46094 34.2469 9.6862 34.4031 9.83203C34.562 9.97526 34.8185 10.0469 35.1727 10.0469C35.3992 10.0469 35.5776 9.9987 35.7078 9.90234C35.8406 9.80339 35.907 9.66536 35.907 9.48828ZM41.5086 8.58984H39.3524V9.94531H41.8992V11H37.9813V5.3125H41.907V6.37109H39.3524V7.57031H41.5086V8.58984ZM47.0594 9.07422C47.0412 9.47005 46.9344 9.82031 46.7391 10.125C46.5438 10.4271 46.269 10.6615 45.9149 10.8281C45.5633 10.9948 45.1609 11.0781 44.7078 11.0781C43.9604 11.0781 43.3719 10.8346 42.9422 10.3477C42.5125 9.86068 42.2977 9.17318 42.2977 8.28516V8.00391C42.2977 7.44661 42.394 6.95964 42.5867 6.54297C42.782 6.1237 43.062 5.80078 43.4266 5.57422C43.7912 5.34505 44.213 5.23047 44.6922 5.23047C45.3823 5.23047 45.937 5.41276 46.3563 5.77734C46.7755 6.13932 47.0138 6.63932 47.0711 7.27734H45.7039C45.6935 6.93099 45.6063 6.68229 45.4422 6.53125C45.2781 6.38021 45.0281 6.30469 44.6922 6.30469C44.3511 6.30469 44.1011 6.43229 43.9422 6.6875C43.7833 6.94271 43.7 7.35026 43.6922 7.91016V8.3125C43.6922 8.91927 43.7677 9.35286 43.9188 9.61328C44.0724 9.8737 44.3354 10.0039 44.7078 10.0039C45.0229 10.0039 45.2638 9.92969 45.4305 9.78125C45.5971 9.63281 45.6857 9.39714 45.6961 9.07422H47.0594ZM52.1688 5.3125V9.03516C52.1688 9.45703 52.0789 9.82292 51.8992 10.1328C51.7195 10.4401 51.4617 10.6745 51.1258 10.8359C50.7899 10.9974 50.3927 11.0781 49.9344 11.0781C49.2417 11.0781 48.6961 10.8984 48.2977 10.5391C47.8992 10.1797 47.6961 9.6875 47.6883 9.0625V5.3125H49.0672V9.08984C49.0828 9.71224 49.3719 10.0234 49.9344 10.0234C50.2182 10.0234 50.4331 9.94531 50.5789 9.78906C50.7248 9.63281 50.7977 9.37891 50.7977 9.02734V5.3125H52.1688ZM55.1414 8.99219H54.3992V11H53.0281V5.3125H55.2664C55.9409 5.3125 56.4682 5.46224 56.8484 5.76172C57.2287 6.0612 57.4188 6.48438 57.4188 7.03125C57.4188 7.42708 57.338 7.75521 57.1766 8.01562C57.0177 8.27604 56.7677 8.48698 56.4266 8.64844L57.6141 10.9414V11H56.1453L55.1414 8.99219ZM54.3992 7.93359H55.2664C55.5268 7.93359 55.7221 7.86589 55.8524 7.73047C55.9852 7.59245 56.0516 7.40104 56.0516 7.15625C56.0516 6.91146 55.9852 6.72005 55.8524 6.58203C55.7195 6.44141 55.5242 6.37109 55.2664 6.37109H54.3992V7.93359ZM61.7742 8.58984H59.618V9.94531H62.1649V11H58.2469V5.3125H62.1727V6.37109H59.618V7.57031H61.7742V8.58984Z' fill='black'/%3E%3Cdefs%3E%3CclipPath id='clip0'%3E%3Crect width='11.0234' height='11.0234' fill='black' transform='translate(5.40002 2)'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A");
-  }
-
-  .wrapper--icoSsl {
-    font-size: 3rem;
-    height: 16px;
-    width: 70px;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-}
-
-@media only screen and (min-width: 1300px) {
-  .wrapper--legalRights .paragraph {
-    margin: 0 0 0 2.5rem;
-  }
-}
-
-@media only screen and (min-width: 1910px) {
-  .wrapper--legalRights .paragraph {
-    font-size: 14.5px;
-    line-height: 20px;
-  }
-
-  .wrapper--icoBlacksip,
-  .wrapper--icoVtex {
-    font-size: 4.5rem;
-    height: 25px;
-  }
-}
-
 /* Estilos Header */
 
 .container--textTopHeader {
@@ -423,35 +232,6 @@
   justify-content: center;
   background: #000000;
   height: 50px;
-}
-
-@media screen and (max-width: 768px) {
-  .container--textTopHeader {
-    height: auto;
-  }
-}
-
-@media only screen and (max-width: 740px) {
-  .container--textTopHeader {
-    display: block;
-  }
-
-  /* billy pillar tenis mobile*/
-  .wrapper--departmentTitle .heading {
-    font-size: 22px;
-    margin: 1.5rem 0 .5rem 0 !important;
-  }
-
-  .wrapper--seo-pillar {
-    margin: 0.1rem 0;
-    padding: 0 !important;
-
-  }
-
-  .paragraph--textTopHeader {
-    padding: 4px 2rem !important;
-    margin-top: 0 !important;
-  }
 }
 
 .container--paddingActive {
@@ -477,13 +257,6 @@
 
 }
 
-@media only screen and (min-width: 740px) {
-  .paragraph--textTopHeader {
-    padding: 0;
-    font-size: 12px;
-  }
-}
-
 .container--icoWishlist {
   display: flex;
   justify-content: center;
@@ -492,12 +265,6 @@
 
 .wrapper--icoSearch {
   font-size: 1.3rem;
-}
-
-@media only screen and (min-width: 740px) {
-  .container--icoSearch .wrapper--icoSearch {
-    font-size: 1.6rem;
-  }
 }
 
 .paragraph--icoWishlist {
@@ -559,21 +326,6 @@
   color: #000000;
 }
 
-@media screen and (max-width: 767px) {
-  .wrapper--titlePromotionalBanners-sneaker {
-    background: #000;
-    text-align: center;
-  }
-
-  .strong--titlePromotionalBanners-sneaker {
-    color: #fff;
-
-  }
-
-
-
-}
-
 /* Estilos titulo banner marcas */
 .container--tittleBannersMarcas {
   display: flex;
@@ -605,15 +357,6 @@
   color: #000000;
   text-transform: uppercase;
 }
-
-@media (max-width: 640px) {
-  .strong--tittleBannersMarcasTop {
-    font-size: 15px;
-  }
-
-}
-
-
 
 .container--titleCategoryBanners {
   justify-content: center;
@@ -687,78 +430,6 @@
   text-align: justify;
 }
 
-@media screen and (max-width: 767px) {
-  .paragraph--textModalLineaEticaMobil {
-    padding: 4%;
-    text-align: justify;
-  }
-
-  .paragraph--textSubmenuEtica {
-    color: #FFFFFF;
-    text-decoration: none;
-    font-weight: normal;
-    font-size: 11px;
-    line-height: 22px;
-    letter-spacing: 0.02em;
-    margin: 0;
-  }
-}
-
-
-@media (max-width: 600px) {
-  .wrapper--botonesGeneros {
-    margin: 5% !important;
-    text-align: center;
-  }
-}
-
-
-@media only screen and (min-width: 740px) {
-  .wrapper--titleCategoryBanners .paragraph {
-    font-size: 25px;
-  }
-
-  .container--desPromotionalBanners,
-  .container--desPromotionalBannersCenter {
-    bottom: 160px;
-    justify-content: left;
-    width: 90%;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-
-  .container--desPromotionalBannersCenter {
-    justify-content: center;
-  }
-
-  .paragraph--desPromotionalBanners,
-  .paragraph--desPromotionalBannersCenter {
-    font-size: 28px;
-    letter-spacing: 0.03em;
-    color: #000000;
-  }
-
-  .container--linkPromotionalBanners {
-    justify-content: left;
-    width: 90%;
-    margin: 0 auto;
-  }
-
-  .container--linkPromotionalBannersCenter {
-    justify-content: center;
-    width: 90%;
-    margin: 0 auto;
-  }
-
-  .paragraph--linkPromotionalBanners {
-    margin-top: 1rem;
-  }
-
-  .paragraph--desBannersCenter {
-    text-align: center;
-  }
-}
-
 /* Estilos al menu mobile */
 .paragraph--itemMenuLevel1,
 .link--itemMenuLevel1 {
@@ -784,17 +455,10 @@
 /*DIA SIN IVA MENU*/
 .paragraph--itemMenuLevelDSI,
 .link--itemMenuLevelDSI {
-  /* font-weight: 700;
-  line-height: 11px;
-  letter-spacing: 0.05em;
-  text-transform: uppercase; */
   color: #000;
   font-size: 12px;
-  /* margin: 1.4rem 0; */
   text-decoration: none;
   font-weight: 700;
-  /* padding: 5px;
-  border-radius: 5px; */
 }
 
 .container--icoMenuLevel1 {
@@ -969,16 +633,6 @@
   color: #FFFFFF;
 }
 
-@media only screen and (min-width: 1180px) {
-  .container--closeIco {
-    display: flex;
-  }
-
-  .container--keepBuying {
-    display: flex;
-  }
-}
-
 /* Estilos al Newsletter */
 .container--titleNewsletter {
   justify-content: center;
@@ -1037,54 +691,6 @@
 
 .wrapper--desPromotionalBanners {
   display: none;
-}
-
-@media only screen and (min-width: 740px) {
-  .container--titleItemsfooter {
-    margin-top: 12.7rem;
-  }
-
-  .paragraph--titleNewsletter {
-    font-weight: 900;
-    font-size: 35px;
-    line-height: 13px;
-    letter-spacing: 0.075em;
-    margin: 1.2rem 0;
-  }
-
-  .container--desNewsletter {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .paragraph--desNewsletter {
-    font-size: 15px;
-  }
-
-  .strong--desNewsletter {
-    font-size: 20px;
-  }
-
-  .container--icoFacebook .paragraph,
-  .container--icoInstagram .paragraph,
-  .container--icoWhatsapp .paragraph {
-    margin: 1.7rem 0 0 0;
-  }
-
-  .container--icoFacebook .link,
-  .container--icoInstagram .link,
-  .container--icoWhatsapp .link {
-    font-size: 1.2rem;
-    color: #000000;
-    text-decoration: none;
-  }
-}
-
-@media only screen and (min-width: 1180px) {
-  .container--titleItemsfooter {
-    margin-top: 6.7rem;
-  }
 }
 
 .container--titleShelf {
@@ -1146,93 +752,12 @@
   text-decoration: none;
 }
 
-@media screen and (max-width: 600px) {
-  .wrapper--boton-landing-disandina {
-    background-color: black;
-    border: none;
-    font-weight: 700;
-    color: white;
-    padding: 0px 108px;
-    text-align: center;
-    display: inline-block;
-    font-size: 13px;
-    margin: 12px 14px;
-    cursor: pointer;
-    border-radius: 25px;
-    text-decoration: none;
-    position: relative;
-    top: -100px;
-  }
-}
-
-@media screen and (min-width: 600px) and (max-width:1001px) {
-  .wrapper--boton-landing-disandina {
-    background-color: black;
-    border: none;
-    font-weight: 700;
-    color: white;
-    padding: 1px 90px;
-    text-align: center;
-    display: inline-block;
-    font-size: 16px;
-    margin: 12px 90px;
-    cursor: pointer;
-    border-radius: 25px;
-    text-decoration: none;
-    position: relative;
-
-  }
-}
-
 .wrapper--boton-landing-disandina:hover {
   background: #222221
 }
 
 .wrapper--boton-landing-disandina:active {
   transform: translate(0em, 0.2em);
-}
-
-@media screen and (min-width:1800px) and (max-width:2000px) {
-  .wrapper--boton-landing-disandina {
-    background-color: black;
-    border: none;
-    font-weight: 700;
-    color: white;
-    padding: 1px 90px;
-    text-align: center;
-    display: inline-block;
-    font-size: 16px;
-    margin: 12px 90px;
-    cursor: pointer;
-    border-radius: 25px;
-    text-decoration: none;
-    position: relative;
-
-  }
-}
-
-@media screen and (min-width:1200px) and (max-width:1500px) {
-  .wrapper--boton-landing-disandina {
-    position: relative;
-
-    padding: 1px 90px;
-  }
-}
-
-@media screen and (min-width:1501px) and (max-width:1799px) {
-  .wrapper--boton-landing-disandina {
-    position: relative;
-
-    padding: 1px 90px;
-  }
-}
-
-@media screen and (min-width:2001px) {
-  .wrapper--boton-landing-disandina {
-    position: relative;
-
-    padding: 1px 90px;
-  }
 }
 
 .wrapper--boton-landing-disandina .link--boton-landing-disandina {
@@ -1268,24 +793,6 @@
   transform: translate(0em, 0.2em);
 }
 
-@media screen and (min-width:1080px) {
-  .wrapper--botonPilatosDenim {
-    background-color: black;
-    border: none;
-    font-weight: 700;
-    color: white;
-    padding: 1px 20px;
-    text-align: center;
-    display: inline-block;
-    font-size: 16px;
-    margin: 10px 80px;
-    cursor: pointer;
-    border-radius: 25px;
-    text-decoration: none;
-
-  }
-}
-
 .wrapper--botonPilatosDenim .link--botonPilatosDenim {
   color: black;
   text-decoration: none;
@@ -1317,24 +824,6 @@
   transform: translate(0em, 0.2em);
 }
 
-@media screen and (min-width:1080px) {
-  .wrapper--botonBeachwear {
-    background-color: #35bcd1;
-    border: none;
-    font-weight: 700;
-    color: black;
-    padding: 1px 20px;
-    text-align: center;
-    display: inline-block;
-    font-size: 16px;
-    margin: 10px 80px;
-    cursor: pointer;
-    border-radius: 25px;
-    text-decoration: none;
-
-  }
-}
-
 .wrapper--botonBeachwear .link--botonBeachwear {
   color: black;
   text-decoration: none;
@@ -1348,61 +837,6 @@
 
 .wrapper--botonChampion:active {
   transform: translate(0em, 0.2em);
-}
-
-@media screen and (min-width:620px) {
-  .wrapper--botonChampion {
-    background-color: black;
-    border: none;
-    font-weight: 700;
-    color: white;
-    padding: 1px 20px;
-    text-align: center;
-    display: inline-block;
-    font-size: 16px;
-    margin: 10px 80px;
-    cursor: pointer;
-    border-radius: 25px;
-    text-decoration: none;
-
-  }
-}
-
-@media screen and (max-width:600px) {
-  .wrapper--botonChampion {
-    background-color: black;
-    border: none;
-    font-weight: 700;
-    color: white;
-    padding: 1px 33px;
-    text-align: center;
-    position: relative;
-    left: -36px;
-    display: grid;
-    font-size: 13px;
-    margin: 6px 51px;
-    cursor: pointer;
-    border-radius: 25px;
-    text-decoration: none
-  }
-
-  .wrapper--botonChampion2 {
-    background-color: black;
-    border: none;
-    font-weight: 700;
-    color: white;
-    padding: 1px 20px;
-    text-align: center;
-    position: relative;
-    left: 36px;
-    display: grid;
-    font-size: 13px;
-    margin: 10px 80px;
-    cursor: pointer;
-    border-radius: 25px;
-    text-decoration: none;
-
-  }
 }
 
 .wrapper--botonChampion .link--botonChampion {
@@ -1442,10 +876,6 @@
   text-decoration: none;
   transition: all .35s;
 }
-
-
-
-
 
 /* Estilos botones para San Valentin */
 
@@ -1547,20 +977,6 @@
   top: 0px;
 }
 
-@media (max-width: 599px) {
-  .wrapper--titulo-encuentra-productos-disandina .paragraph {
-    line-height: 0px;
-    font-size: 34px;
-    margin-top: 0.2rem;
-    white-space: pre-line;
-    font-weight: 700;
-    position: relative;
-    top: -93px;
-    left: 16px;
-  }
-
-}
-
 .wrapper--titulo-encuentra-productos-disandina2 .paragraph {
   line-height: 13px;
   font-size: 19px;
@@ -1569,47 +985,6 @@
   font-weight: 500;
   position: relative;
   top: 0px;
-}
-
-@media screen and (min-width: 768px) {
-  .wrapper--titulo-categorias-disandina .paragraph {
-    line-height: 13px;
-    font-size: 19px;
-    margin-top: .2rem;
-    white-space: pre-line;
-    font-weight: 500;
-    position: relative;
-    top: -417px;
-
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .wrapper--titulo-categorias-disandina .paragraph {
-    line-height: 13px;
-    font-size: 19px;
-    margin-top: .2rem;
-    white-space: pre-line;
-    font-weight: 500;
-    position: relative;
-    top: -67px !important;
-    width: 80%;
-    left: 20px;
-
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .wrapper--titulo-encuentra-productos-disandina2 .paragraph {
-    line-height: 13px;
-    font-size: 19px;
-    margin-top: .2rem;
-    white-space: pre-line;
-    font-weight: 500;
-    position: relative;
-    top: -92px;
-    left: 16px;
-  }
 }
 
 .wrapper--categorias-disandina-botones-separacion .paragraph {
@@ -1625,13 +1000,6 @@
 .wrapper--titulo-denimPilatos .paragraph {
   font-size: 40px !important;
   font-weight: 700;
-}
-
-@media screen and (max-width:768px) {
-  .wrapper--titulo-denimPilatos .paragraph {
-    font-size: 24px !important;
-    font-weight: 700;
-  }
 }
 
 .wrapper--departmentTitle .paragraph {
@@ -1701,63 +1069,6 @@
   color: #000000;
   width: 100%;
   margin: 0 0 1rem 0;
-}
-
-@media only screen and (min-width: 640px) {
-  .container--filtroSeo-mobile {
-    width: 88%;
-    margin: 0 auto;
-    margin-top: 4%;
-  }
-
-  .wrapper--filtroSeo-mobile .paragraph {
-    font-weight: normal;
-    font-size: 10px;
-    line-height: 13px;
-    color: #000000;
-    width: 100%;
-    margin: 0 0 1rem 0;
-  }
-
-  .wrapper--filtroSeo .paragraph {
-    font-size: 12px;
-  }
-}
-
-@media only screen and (min-width: 1180px) {
-
-  .wrapper--departmentBreadCrumb,
-  .container--departmentTitle,
-  .container--departmentDescription {
-    width: 100%;
-  }
-
-  .container--filtroSeo {
-
-    margin-top: 4%;
-  }
-
-  .wrapper--departmentBreadCrumb .paragraph {
-    font-size: 10px;
-    margin-top: 9px;
-  }
-
-  .wrapper--departmentTitle .paragraph {
-    font-size: 22px;
-    margin: 1rem 0 .5rem 0;
-  }
-
-  .wrapper--departmentTitle .heading {
-    font-size: 22px;
-    margin: 1rem 0 .5rem 0;
-  }
-
-  .wrapper--departmentDescription .paragraph {
-    font-size: 12px;
-    width: 100%;
-    margin: 0 0 1.3rem 0;
-    text-align: justify;
-  }
 }
 
 .wrapper--textOrderBy .paragraph {
@@ -1987,16 +1298,6 @@
   font-weight: 800;
 }
 
-@media only screen and (min-width: 1180px) {
-  .wrapper--btnLink .paragraph {
-    margin: .3rem .7rem;
-  }
-
-  .container--tabArrow {
-    margin-left: 0;
-  }
-}
-
 /* Estilos a pagina de wishList */
 .wrapper--wishlistTitle .paragraph {
   font-weight: bold;
@@ -2015,52 +1316,6 @@
   top: 0;
   left: 0;
   background-image: url("data:image/svg+xml,%3Csvg width='24' height='23' viewBox='0 0 24 23' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M18.0169 2.39369L18.0176 2.3944C19.932 4.39293 19.9457 7.56759 18.011 9.6554L10.5547 17.5379C10.496 17.5892 10.3391 17.6658 10.1538 17.6658C9.94514 17.6658 9.84326 17.624 9.67993 17.4669L2.29673 9.65544C0.362005 7.56762 0.375726 4.39295 2.29008 2.3944L2.29988 2.38417L2.30933 2.37362C3.21838 1.35899 4.44785 0.85 5.76091 0.85C7.04982 0.85 8.29784 1.41718 9.23106 2.39369L9.24119 2.40429L9.25168 2.41453L9.55995 2.7156L10.1538 3.29561L10.7477 2.7156L11.056 2.41453L11.0763 2.39473L11.0952 2.37362C12.0043 1.35899 13.2337 0.85 14.5468 0.85C15.8357 0.85 17.0837 1.41718 18.0169 2.39369Z' fill='white' stroke='%23222221' stroke-width='1.7'/%3E%3Cpath d='M22.058 8.80611L22.0587 8.80682C23.5082 10.3557 23.5216 12.8269 22.0522 14.4506L16.1866 20.7978C16.1802 20.8023 16.1629 20.8137 16.1322 20.8257C16.0889 20.8425 16.0413 20.8514 16 20.8514C15.917 20.8514 15.8858 20.8385 15.8745 20.8335C15.8603 20.8272 15.8258 20.8092 15.7613 20.7463L9.94793 14.4507C8.47845 12.827 8.49181 10.3557 9.94131 8.80682L9.95097 8.7965L9.96028 8.78587C10.6426 8.00631 11.5597 7.61923 12.5389 7.61923C13.4939 7.61923 14.4294 8.04951 15.1358 8.80611L15.1458 8.81682L15.1562 8.82717L15.3991 9.06997L16 9.67069L16.6009 9.06997L16.8438 8.82718L16.8638 8.80717L16.8825 8.78587C17.5648 8.00631 18.4819 7.61923 19.4611 7.61923C20.4161 7.61923 21.3516 8.04951 22.058 8.80611Z' fill='%23FFD400' stroke='%23FFD400' stroke-width='1.7'/%3E%3C/svg%3E%0A");
-}
-
-@media only screen and (min-width: 1180px) {
-  .wrapper--wishlistTitle .paragraph {
-    font-size: 22px;
-    line-height: 28px;
-    padding: 0 2.5rem;
-  }
-
-  .container--titleShelfProduct {
-    margin: 2.5rem 0 2rem 0;
-  }
-
-  .wrapper--titleShelfProduct .paragraph {
-    font-size: 25px;
-    line-height: 31px;
-    margin-bottom: .5rem;
-  }
-
-  .wrapper--wishlistTitle .paragraph::before {
-    width: 34px;
-    height: 31px;
-    background-image: url("data:image/svg+xml,%3Csvg width='34' height='32' viewBox='0 0 24 23' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M18.0169 2.39369L18.0176 2.3944C19.932 4.39293 19.9457 7.56759 18.011 9.6554L10.5547 17.5379C10.496 17.5892 10.3391 17.6658 10.1538 17.6658C9.94514 17.6658 9.84326 17.624 9.67993 17.4669L2.29673 9.65544C0.362005 7.56762 0.375726 4.39295 2.29008 2.3944L2.29988 2.38417L2.30933 2.37362C3.21838 1.35899 4.44785 0.85 5.76091 0.85C7.04982 0.85 8.29784 1.41718 9.23106 2.39369L9.24119 2.40429L9.25168 2.41453L9.55995 2.7156L10.1538 3.29561L10.7477 2.7156L11.056 2.41453L11.0763 2.39473L11.0952 2.37362C12.0043 1.35899 13.2337 0.85 14.5468 0.85C15.8357 0.85 17.0837 1.41718 18.0169 2.39369Z' fill='white' stroke='%23222221' stroke-width='1.7'/%3E%3Cpath d='M22.058 8.80611L22.0587 8.80682C23.5082 10.3557 23.5216 12.8269 22.0522 14.4506L16.1866 20.7978C16.1802 20.8023 16.1629 20.8137 16.1322 20.8257C16.0889 20.8425 16.0413 20.8514 16 20.8514C15.917 20.8514 15.8858 20.8385 15.8745 20.8335C15.8603 20.8272 15.8258 20.8092 15.7613 20.7463L9.94793 14.4507C8.47845 12.827 8.49181 10.3557 9.94131 8.80682L9.95097 8.7965L9.96028 8.78587C10.6426 8.00631 11.5597 7.61923 12.5389 7.61923C13.4939 7.61923 14.4294 8.04951 15.1358 8.80611L15.1458 8.81682L15.1562 8.82717L15.3991 9.06997L16 9.67069L16.6009 9.06997L16.8438 8.82718L16.8638 8.80717L16.8825 8.78587C17.5648 8.00631 18.4819 7.61923 19.4611 7.61923C20.4161 7.61923 21.3516 8.04951 22.058 8.80611Z' fill='%23FFD400' stroke='%23FFD400' stroke-width='1.7'/%3E%3C/svg%3E%0A");
-  }
-}
-
-@media only screen and (min-width: 740px) {
-  .wrapper--colorPromise {
-    padding-left: 1rem;
-  }
-
-  .wrapper--titleCategoryBanners .paragraph {
-    font-size: 15px;
-    line-height: 19px;
-    letter-spacing: 0.03em;
-  }
-}
-
-@media only screen and (min-width: 1180px) {
-  .wrapper--colorPromise {
-    padding-left: 0;
-  }
-
-  .wrapper--titleCategoryBanners .paragraph {
-    font-size: 25px;
-  }
 }
 
 /* Estilos pagina de agradecimiento y confirmacion */
@@ -2096,21 +1351,6 @@
   margin-bottom: 1rem;
 }
 
-@media only screen and (min-width: 750px) {
-  .wrapper--titleConfirmedDetail .paragraph {
-    margin: 0 0 1.2rem 0;
-  }
-
-  .wrapper--linkBtnNew {
-    width: 100%;
-  }
-
-  .container--linkBtnNew,
-  .container--linkBtnOrder {
-    justify-content: flex-end !important;
-    margin: 0;
-  }
-}
 
 .wrapper--confirmedDetail .paragraph {
   margin: 0;
@@ -2209,26 +1449,6 @@
   color: #000;
   padding: 1px;
   text-align: justify;
-}
-
-@media (max-width: 1064px) {
-  .wrapper--title-statict-parrafoReverso {
-    justify-content: center;
-    width: 100%;
-    padding: 0 3% 3% 3%;
-    margin-top: -13px;
-
-  }
-
-  .headingLevel1--title-statict-reverso {
-    color: #000;
-    font-size: 20px;
-  }
-
-  .paragraph--title--static-parrafoReverso {
-    background: red;
-  }
-
 }
 
 
@@ -2368,26 +1588,6 @@
   color: #000000;
 }
 
-@media screen and (max-width: 767px) {
-  .paragraph--event-message {
-    font-size: 12px;
-  }
-
-  .container--title-sub-banners {
-    justify-content: flex-start;
-    padding: 0 5%;
-    margin-bottom: 25px;
-  }
-
-  .container--title-tabs {
-    margin-bottom: 20px;
-  }
-
-  .wrapper--title-tabs .paragraph--section-title {
-    font-size: 13px;
-  }
-}
-
 /* Estilos estáticos */
 .wrapper--static-text-politics {
   width: 90%;
@@ -2450,25 +1650,6 @@
   margin-bottom: .1rem;
 }
 
-@media screen and (min-width: 740px) {
-  .wrapper--titleAboutUs .paragraph {
-    font-size: 21px;
-  }
-
-  .wrapper--descriptionAboutUs .paragraph {
-    font-size: 11px;
-    line-height: 12px;
-  }
-
-  .wrapper--subTitleAboutUs .paragraph {
-    font-size: 13px;
-  }
-
-  .wrapper--brandsPilatosItem .list .listItem {
-    font-size: 11px;
-  }
-}
-
 .wrapper--contentIcoWhatsApp::before {
   content: '\e923';
   font-size: 1.5rem;
@@ -2478,12 +1659,6 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-
-@media screen and (min-width: 1080px) {
-  .wrapper--contentIcoWhatsApp::before {
-    font-size: 2rem;
-  }
 }
 
 .wrapper--contentSubMenuAcordeon .paragraph {
@@ -2606,20 +1781,6 @@
   font-size: 1.5rem;
 }
 
-@media screen and (max-width: 640px) {
-  .container--title-dsi {
-    justify-content: center;
-  }
-
-  .container--subtitle-dsi {
-    text-align: center;
-  }
-
-  .link--button-to-event-dsi {
-    padding: 15px 10px;
-  }
-}
-
 /* TEXTO SEO HOME */
 .paragraph--texto-seo-home {
   margin: 1rem;
@@ -2709,13 +1870,6 @@
   margin: 0;
 }
 
-@media (max-width: 750px) {
-  .paragraph--enlace-texto-regalos-padres {
-    font-size: 17px;
-    margin-bottom: 5px;
-  }
-}
-
 /* seo pillar page*/
 .wrapper--seo-pillar {
   max-width: 80%;
@@ -2731,25 +1885,6 @@
 
 .container--seo-pillar {
   margin-bottom: 2px;
-}
-
-@media (max-width: 750px) {
-  .wrapper--sanValentin-texto {
-    max-width: 80%;
-    margin: 5px;
-    border: 2px dashed #f690af;
-    padding: 5px;
-  }
-
-  .heading--sanValentin-texto {
-    font-size: 16px;
-  }
-
-  .paragraph--sanValentin-texto {
-    font-size: 14px;
-
-  }
-
 }
 
 .heading--sanValentin-texto {
@@ -2785,12 +1920,6 @@
   margin: 0;
 }
 
-@media screen and (max-width: 560px) {
-  .headingLevel1--ecobag-textseo-h1 {
-    font-size: 1.2rem !important;
-  }
-}
-
 /* TEXTO SEO LANDING FRAGANCIA JUEGO */
 .container--texto-memorama-textseo-h1 {
   /* background-color: #ffc600; */
@@ -2811,31 +1940,6 @@
   text-transform: uppercase;
   font-weight: 800;
   margin: 0.35rem 0;
-}
-
-@media screen and (max-width: 640px) {
-
-  .headingLevel1--texto-memorama-textseo-h1 {
-    color: #ffc600;
-    font-size: 15px !important;
-    text-transform: uppercase;
-    font-weight: 800;
-    margin: 0.35rem 0;
-  }
-
-  .headingLevel3--texto-memorama-textseo-h1 {
-    color: #ffc600;
-    font-size: 15px !important;
-    text-transform: uppercase;
-    font-weight: 800;
-    margin: 0.35rem 0;
-  }
-
-  .paragraph--texto-memorama-textseo-seo-mobile {
-    margin-right: 1%;
-    margin-left: 1%;
-  }
-
 }
 
 /*Memorama*/
@@ -2873,18 +1977,10 @@
   line-height: 13px;
   letter-spacing: 0.5px;
   color: #222221;
-  /* text-transform: uppercase; */
   margin: 5px 7px;
   border-bottom: 3px solid #FFD400;
   font-weight: 800;
   line-height: 18px;
-}
-
-@media (max-width: 764px) {
-  .wrapper--product-description-pdp {
-    margin-left: 30px;
-  }
-
 }
 
 .container--guiaDeTallas-texto {
@@ -2903,7 +1999,6 @@
 }
 
 /* Sneaker City CSS*/
-
 
 .paragraph--sneaker-tittle {
   font-family: Poppins;
@@ -3044,63 +2139,6 @@
 
 /* Sneaker Mobile */
 
-
-@media (max-width: 768px) {
-  .paragraph--sneaker-tittle {
-    font-size: 28px;
-    line-height: 27px;
-    margin-top: 10px;
-  }
-
-  .wrapper--manifiestoSneakers {
-    width: 90%;
-    text-align: justify;
-    font-size: 14px;
-  }
-
-  .wrapper--sneaker-buttom {
-    width: 160px;
-
-  }
-
-  .paragraph--sneaker-buttom {
-    font-size: 13px;
-  }
-
-  .link--sneaker-linkBrands {
-    font-size: 14px;
-  }
-
-  .paragraph--sneaker-title-vitrina {
-    font-size: 32px;
-  }
-
-  .paragraph--sneaker-title-vitrina-dos {
-    font-size: 11px;
-  }
-
-  .paragraph--essensialitary-title-vitrina {
-    font-size: 20px;
-  }
-
-  .paragraph--essensialitary-title-vitrina-dos {
-    font-size: 11px;
-  }
-
-  .paragraph--textejeDeEstilosSneakers {
-    width: 90%;
-    margin: 6px auto;
-  }
-
-  .container--seoSneaker {
-    width: 91%;
-    margin: 2rem auto 0 auto;
-    text-align: justify;
-  }
-
-
-}
-
 .link--sneaker-buttom-billy {
   color: #000;
   cursor: pointer;
@@ -3203,72 +2241,20 @@
   font-size: 18px;
   font-weight: 600;
   font-family: 'Poppins', sans-serif;
-
-}
-
-@media (max-width: 768px) {
-  .headingLevel1--ritualesH1 {
-    font-size: 24px;
-    margin-top: 27px;
-    margin-bottom: 10px;
-  }
-
-  .container--ritualesSEO {
-    max-width: 90%;
-  }
-
-  .paragraph--textoFitRituales {
-    font-size: 16px;
-    margin: 12px;
-    margin-top: 26px;
-    text-align: center;
-  }
-
-  .container--ritualesSeoLargo {
-    text-align: center;
-  }
-
-  .wrapper--ritualesSeoLargo {
-    text-align: left;
-  }
-
-  .headingLevel3--ritualesSeoLargo {
-    font-size: 16px;
-  }
-
-  .paragraph--ritualesSeoLargo {
-    font-size: 14px;
-  }
-
 }
 
 .paragraph--seoEssensialitary {
   margin: 2px;
   font-size: 12px;
-
-
 }
 
 .headingLevel2--filtroSeo {
   margin: 2px;
-
 }
 
 .link--filtroSeo {
   color: #000;
   font-size: 15px;
-}
-
-@media (max-width: 764px) {
-  .headingLevel2--filtroSeo {
-    margin: 10px;
-
-  }
-
-  .link--filtroSeo {
-
-    font-size: 17px;
-  }
 }
 
 /* GUIA DE REGALO 2023 */
@@ -3286,13 +2272,6 @@
 .container--paragrapGuiaDeRegalo {
   color: #030303;
   width: 90% !important;
-}
-
-@media (max-width: 760px) {
-  .container--paragrapGuiaDeRegalo {
-    width: 90% !important;
-  }
-
 }
 
 .paragraph--btnTercerNivel {
@@ -3342,17 +2321,6 @@
   margin: 0 auto;
 }
 
-@media (max-width: 740px) {
-  .wrapper--tittleArmaTuLook {
-    margin: 0 auto;
-  }
-
-  .wrapper--tittleArmaTuLookInsp {
-    margin: 3% auto;
-    width: 90%;
-  }
-}
-
 .link--tittleArmaTuLookInsp {
   color: #3f3f40;
   border: 1px solid #3f3f40;
@@ -3365,14 +2333,6 @@
 .link--tittleArmaTuLookInsp:hover {
   background: #030303;
   color: #fff;
-}
-
-@media (max-width:640px) {
-  .link--tittleArmaTuLookInsp {
-    padding: 3px 10px 3px 10px;
-    font-size: 16px;
-  }
-
 }
 
 .headingLevel1--titleH1 {
@@ -3397,13 +2357,6 @@
 .container--paragrapGuiaDeRegalo {
   color: #030303;
   width: 90% !important;
-}
-
-@media (max-width: 760px) {
-  .container--paragrapGuiaDeRegalo {
-    width: 90% !important;
-  }
-
 }
 
 .paragraph--btnTercerNivel {
@@ -3457,17 +2410,6 @@
   margin: 0 auto;
 }
 
-@media (max-width: 740px) {
-  .wrapper--tittleArmaTuLook {
-    margin: 0 auto;
-  }
-
-  .wrapper--tittleArmaTuLookInsp {
-    margin: 3% auto;
-    width: 90%;
-  }
-}
-
 .link--tittleArmaTuLookInsp {
   color: #3f3f40;
   border: 1px solid #3f3f40;
@@ -3480,14 +2422,6 @@
 .link--tittleArmaTuLookInsp:hover {
   background: #030303;
   color: #fff;
-}
-
-@media (max-width:640px) {
-  .link--tittleArmaTuLookInsp {
-    padding: 3px 10px 3px 10px;
-    font-size: 16px;
-  }
-
 }
 
 .headingLevel1--titleH1 {
@@ -3567,12 +2501,6 @@
   justify-content: end;
 }
 
-@media screen and (max-width: 768px) {
-  .container--botonEnvioExpress {
-    justify-content: start;
-  }
-}
-
 .paragraph--read-politics-dsi-envio-express {
   margin: 20px 0;
   font-size: 14px;
@@ -3588,16 +2516,6 @@
   font-weight: bold;
 }
 
-@media (max-width:768px) {
-  .paragraph--titulo-envio-express {
-    font-size: 26px;
-  }
-
-  .paragraph--titulo-pickit-productos {
-    font-size: 16px;
-  }
-}
-
 /*trabaja con nosotros*/
 .paragraph--work-with-part-one-title {
   margin: 0;
@@ -3610,23 +2528,6 @@
 .headingLevel1--workwithus-title-pcpal {
   font-size: 35px;
 }
-
-@media (max-width:600px) {
-  .heading--workwithus-title-pcpal {
-    font-size: 30px;
-  }
-
-  .headingLevel2--work-with-part-one-title-mob {
-    font-size: 25px;
-    margin: 8px 0 0 0;
-  }
-
-  .container--politicas-workWithContent {
-    height: 6px;
-  }
-}
-
-
 
 /*Tu cuota landing*/
 .paragraph--tu-cuota-opc-1,
@@ -3666,17 +2567,6 @@
 .headingLevel3--tu-cuota-footer-text {
   font-weight: 300;
 }
-
-@media (max-width: 768px) {
-  .headingLevel1--titulo-tu-cuota-nuevo {
-    font-size: 32px;
-  }
-
-  .headingLevel3--tu-cuota-footer-text {
-    font-size: 20px;
-  }
-}
-
 
 /*Mighty dragon*/
 .paragraph--titulo-mighty-dragon {
@@ -3723,12 +2613,6 @@
   margin-top: 20px;
 }
 
-@media screen and (max-width: 600px) {
-  .paragraph--main-sobre-nosotros-2024-title {
-    font-size: 24px;
-  }
-}
-
 .paragraph--registrate-footer-sobrenosotros2024 {
   color: #fff;
   font-size: 32px;
@@ -3743,17 +2627,6 @@
   border-radius: 80px;
   padding: 12px 30px;
   cursor: pointer;
-}
-
-@media screen and (max-width: 600px) {
-  .paragraph--registrate-footer-sobrenosotros2024 {
-    font-size: 24px;
-  }
-
-  .paragraph--btn-resgistro-sobreNosotros-2024 {
-    background-color: transparent;
-    padding: 0px;
-  }
 }
 
 .strong--registrate-footer-sobrenosotros2024 {
@@ -3811,12 +2684,6 @@
   font-size: 32px;
 }
 
-/*.paragraph--titulo-landing-tenis::after {
-  content: "$250.000";
-  color: #000;
-  margin-left: 1.5rem;
-}*/
-
 .paragraph--descripcion-landing-tenis {
   color: #616161;
   margin: 0 0 1rem 0;
@@ -3846,12 +2713,6 @@
   margin: 2rem 0 0 0;
   line-height: 1.2;
 }
-
-/*.paragraph--titulo-landing-tenis-mob::after {
-  content: "$250.000";
-  color: #000;
-  margin-left: 1rem;
-}*/
 
 .paragraph--descripcion-landing-tenis-mob {
   color: #616161;
@@ -3912,23 +2773,6 @@
 .container--categorias-vacaciones-landing {
   width: 100%;
   margin: 5rem 0 7rem 30px;
-}
-
-@media screen and (max-width: 768px) {
-  .container--categorias-vacaciones-landing {
-    margin: 0;
-  }
-
-  .wrapper--categorias-vacaciones-landing {
-    margin: 0 0 0 3rem;
-  }
-}
-
-/***LANDING SNEAKERS CITY***/
-@media screen and (max-width: 450px) {
-  .paragraph--manifesto-sneakers-city {
-    font-size: 12px;
-  }
 }
 
 /***Corrección tamaños h2 del SEO**/
@@ -4176,9 +3020,1048 @@
 
 }
 
+
+/* ==========================================================================
+   MEDIA QUERIES (A PARTIR DE AQUÍ)
+   Esta sección contiene los estilos responsivos.
+   Se sigue un enfoque mobile-first: primero se definen los estilos base y luego
+   se aplican las media queries para sobrescribir o complementar dichos estilos.
+   Mantén esta estructura para asegurar la correcta cascada y aplicación de los estilos.
+   ==========================================================================
+*/
+
+/* Estilos para pantallas con ancho mínimo de 620px (tablet y dispositivos superiores) */
+
+@media only screen and (min-width: 2001px) {
+  .wrapper--boton-landing-disandina {
+    position: relative;
+
+    padding: 1px 90px;
+  }
+}
+
+@media only screen and (min-width: 1910px) {
+  .wrapper--legalRights .paragraph {
+    font-size: 14.5px;
+    line-height: 20px;
+  }
+
+  .wrapper--icoBlacksip,
+  .wrapper--icoVtex {
+    font-size: 4.5rem;
+    height: 25px;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+.wrapper--legalRights .paragraph {
+  margin: 0 0 0 2.5rem;
+}
+}
+
+@media only screen and (min-width: 1180px) {
+  .container--colorPromise .paragraph {
+    margin: 0 0 0 1rem;
+    font-size: 11px;
+    text-align: left;
+  }
+
+  .container--colorPromise2 .paragraph {
+    font-size: 13px;
+  }
+
+  .container--colorPromise .paragraph {
+    font-size: 13px;
+  }
+
+  .paragraph--titleOfertasUnicas {
+    font-size: 30px;
+    margin: 1rem 0;
+    line-height: 35px
+  }
+
+  .paragraph--textOfertasUnicas {
+    font-size: 15px;
+    margin: .2rem 0;
+    text-align: left;
+  }
+  .wrapper--mailItemsfooter,
+  .wrapper--telItemsfooter,
+  .wrapper--whatsappItemsfooter,
+  .wrapper--locatorItemsfooter {
+    font-size: 1.4rem
+  }
+
+  .container--titleItemsfooter {
+    justify-content: flex-start;
+  }
+
+  .paragraph--titleItemsfooter {
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin: 0 0 5px 0;
+  }
+
+  .container--descriptionItemsfooter {
+    justify-content: flex-start;
+  }
+
+  .wrapper--descriptionItemsfooter {
+    text-align: left;
+  }
+
+  .paragraph--descriptionItemsfooter {
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0.02em;
+    margin: 0 0 1.2rem 0;
+  }
+
+  .wrapper--mailItemsfooter,
+  .wrapper--telItemsfooter,
+  .wrapper--whatsappItemsfooter {
+    font-size: 1.1rem;
+  }
+
+  .paragraph--linkFooter {
+    margin: 0 0 .6rem 0;
+  }
+
+  .paragraph--linkFooterEtica {
+    margin: 0 0 .6rem 0;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 10px;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+  }
+
+  .link--linkFooter {
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 10px;
+    letter-spacing: 0.02em;
+  }
+
+  .wrapper--textSchedule .paragraph {
+    width: 100%;
+  }
+
+  .container--static-top-title-terms {
+    justify-content: center;
+  }
+
+  .wrapper--legalRights .paragraph {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 19px;
+    color: #000000;
+    margin: 0 0 0 2.14rem;
+  }
+
+  .wrapper--icoBlacksip {
+    font-size: 3rem;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+  }
+
+  .wrapper--icoVtex {
+    font-size: 3rem;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    color: #F71963;
+  }
+
+  .wrapper--icoSsl {
+    background-image: url("data:image/svg+xml,%3Csvg width='70' height='16' viewBox='0 0 70 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='0.5' y='0.5' width='69' height='15' rx='7.5' stroke='black'/%3E%3Cg clip-path='url(%23clip0)'%3E%3Cpath d='M13.4954 7.29642V5.27259C13.4954 3.76547 12.4189 2.68896 10.9117 2.68896C9.40463 2.68896 8.32813 3.76547 8.32813 5.27259V7.29642C7.76834 7.94233 7.46692 8.71741 7.46692 9.57862C7.46692 10.4829 7.8114 11.3441 8.45731 12.0331C9.14627 12.679 10.0075 13.0234 10.9117 13.0234C11.816 13.0234 12.6772 12.679 13.3662 12.0331C14.0121 11.3872 14.3566 10.5259 14.3566 9.57862C14.3566 8.71741 14.0552 7.94233 13.4954 7.29642ZM10.9117 3.55017C11.9452 3.55017 12.6342 4.23914 12.6342 5.27259V6.60746C12.1174 6.30603 11.5146 6.13379 10.9117 6.13379C10.3089 6.13379 9.70606 6.30603 9.18933 6.60746V5.27259C9.18933 4.23914 9.8783 3.55017 10.9117 3.55017ZM12.7203 11.3872C12.2466 11.9039 11.6007 12.1622 10.9117 12.1622C10.2228 12.1622 9.57688 11.9039 9.10321 11.3872C8.58649 10.9135 8.32813 10.2676 8.32813 9.57862C8.32813 8.88965 8.58649 8.24375 9.10321 7.77009C9.57688 7.25336 10.2228 6.995 10.9117 6.995C11.6007 6.995 12.2466 7.25336 12.7203 7.77009C13.1939 8.24375 13.4954 8.88965 13.4954 9.57862C13.4954 10.2676 13.237 10.9135 12.7203 11.3872Z' fill='black'/%3E%3Cpath d='M10.3089 8.54523C10.1367 8.71747 10.0505 8.93277 10.0505 9.14807C10.0505 9.36337 10.1367 9.57867 10.3089 9.75092C10.352 9.79398 10.4381 9.83704 10.4811 9.8801V10.8705H11.3423V9.8801C11.3854 9.83704 11.4715 9.79398 11.5146 9.75092C11.6868 9.57867 11.773 9.36337 11.773 9.14807C11.773 8.93277 11.6868 8.71747 11.5146 8.54523C11.2132 8.20074 10.6103 8.20074 10.3089 8.54523Z' fill='black'/%3E%3C/g%3E%3Cpath d='M19.5633 9.48828C19.5633 9.28776 19.4917 9.13151 19.3484 9.01953C19.2078 8.90755 18.9591 8.79167 18.6024 8.67188C18.2456 8.55208 17.9539 8.4362 17.7274 8.32422C16.9904 7.96224 16.6219 7.46484 16.6219 6.83203C16.6219 6.51693 16.713 6.23958 16.8953 6C17.0802 5.75781 17.3406 5.57031 17.6766 5.4375C18.0125 5.30208 18.3901 5.23438 18.8094 5.23438C19.2182 5.23438 19.5841 5.30729 19.907 5.45312C20.2326 5.59896 20.4852 5.80729 20.6649 6.07812C20.8445 6.34635 20.9344 6.65365 20.9344 7H19.5672C19.5672 6.76823 19.4956 6.58854 19.3524 6.46094C19.2117 6.33333 19.0203 6.26953 18.7781 6.26953C18.5333 6.26953 18.3393 6.32422 18.1961 6.43359C18.0555 6.54036 17.9852 6.67708 17.9852 6.84375C17.9852 6.98958 18.0633 7.1224 18.2195 7.24219C18.3758 7.35938 18.6505 7.48177 19.0438 7.60938C19.437 7.73438 19.7599 7.86979 20.0125 8.01562C20.6271 8.36979 20.9344 8.85807 20.9344 9.48047C20.9344 9.97786 20.7469 10.3685 20.3719 10.6523C19.9969 10.9362 19.4826 11.0781 18.8289 11.0781C18.368 11.0781 17.95 10.9961 17.575 10.832C17.2026 10.6654 16.9214 10.4388 16.7313 10.1523C16.5438 9.86328 16.45 9.53125 16.45 9.15625H17.825C17.825 9.46094 17.9031 9.6862 18.0594 9.83203C18.2182 9.97526 18.4748 10.0469 18.8289 10.0469C19.0555 10.0469 19.2339 9.9987 19.3641 9.90234C19.4969 9.80339 19.5633 9.66536 19.5633 9.48828ZM24.5711 9.48828C24.5711 9.28776 24.4995 9.13151 24.3563 9.01953C24.2156 8.90755 23.9669 8.79167 23.6102 8.67188C23.2534 8.55208 22.9617 8.4362 22.7352 8.32422C21.9982 7.96224 21.6297 7.46484 21.6297 6.83203C21.6297 6.51693 21.7208 6.23958 21.9031 6C22.088 5.75781 22.3484 5.57031 22.6844 5.4375C23.0203 5.30208 23.3979 5.23438 23.8172 5.23438C24.2261 5.23438 24.5919 5.30729 24.9149 5.45312C25.2404 5.59896 25.493 5.80729 25.6727 6.07812C25.8524 6.34635 25.9422 6.65365 25.9422 7H24.575C24.575 6.76823 24.5034 6.58854 24.3602 6.46094C24.2195 6.33333 24.0281 6.26953 23.7859 6.26953C23.5412 6.26953 23.3471 6.32422 23.2039 6.43359C23.0633 6.54036 22.993 6.67708 22.993 6.84375C22.993 6.98958 23.0711 7.1224 23.2274 7.24219C23.3836 7.35938 23.6583 7.48177 24.0516 7.60938C24.4448 7.73438 24.7677 7.86979 25.0203 8.01562C25.6349 8.36979 25.9422 8.85807 25.9422 9.48047C25.9422 9.97786 25.7547 10.3685 25.3797 10.6523C25.0047 10.9362 24.4904 11.0781 23.8367 11.0781C23.3758 11.0781 22.9578 10.9961 22.5828 10.832C22.2104 10.6654 21.9292 10.4388 21.7391 10.1523C21.5516 9.86328 21.4578 9.53125 21.4578 9.15625H22.8328C22.8328 9.46094 22.9109 9.6862 23.0672 9.83203C23.2261 9.97526 23.4826 10.0469 23.8367 10.0469C24.0633 10.0469 24.2417 9.9987 24.3719 9.90234C24.5047 9.80339 24.5711 9.66536 24.5711 9.48828ZM28.0164 9.94531H30.4031V11H26.6453V5.3125H28.0164V9.94531ZM35.907 9.48828C35.907 9.28776 35.8354 9.13151 35.6922 9.01953C35.5516 8.90755 35.3029 8.79167 34.9461 8.67188C34.5893 8.55208 34.2977 8.4362 34.0711 8.32422C33.3341 7.96224 32.9656 7.46484 32.9656 6.83203C32.9656 6.51693 33.0568 6.23958 33.2391 6C33.424 5.75781 33.6844 5.57031 34.0203 5.4375C34.3563 5.30208 34.7339 5.23438 35.1531 5.23438C35.562 5.23438 35.9279 5.30729 36.2508 5.45312C36.5763 5.59896 36.8289 5.80729 37.0086 6.07812C37.1883 6.34635 37.2781 6.65365 37.2781 7H35.9109C35.9109 6.76823 35.8393 6.58854 35.6961 6.46094C35.5555 6.33333 35.3641 6.26953 35.1219 6.26953C34.8771 6.26953 34.6831 6.32422 34.5399 6.43359C34.3992 6.54036 34.3289 6.67708 34.3289 6.84375C34.3289 6.98958 34.407 7.1224 34.5633 7.24219C34.7195 7.35938 34.9943 7.48177 35.3875 7.60938C35.7807 7.73438 36.1037 7.86979 36.3563 8.01562C36.9708 8.36979 37.2781 8.85807 37.2781 9.48047C37.2781 9.97786 37.0906 10.3685 36.7156 10.6523C36.3406 10.9362 35.8263 11.0781 35.1727 11.0781C34.7117 11.0781 34.2938 10.9961 33.9188 10.832C33.5464 10.6654 33.2651 10.4388 33.075 10.1523C32.8875 9.86328 32.7938 9.53125 32.7938 9.15625H34.1688C34.1688 9.46094 34.2469 9.6862 34.4031 9.83203C34.562 9.97526 34.8185 10.0469 35.1727 10.0469C35.3992 10.0469 35.5776 9.9987 35.7078 9.90234C35.8406 9.80339 35.907 9.66536 35.907 9.48828ZM41.5086 8.58984H39.3524V9.94531H41.8992V11H37.9813V5.3125H41.907V6.37109H39.3524V7.57031H41.5086V8.58984ZM47.0594 9.07422C47.0412 9.47005 46.9344 9.82031 46.7391 10.125C46.5438 10.4271 46.269 10.6615 45.9149 10.8281C45.5633 10.9948 45.1609 11.0781 44.7078 11.0781C43.9604 11.0781 43.3719 10.8346 42.9422 10.3477C42.5125 9.86068 42.2977 9.17318 42.2977 8.28516V8.00391C42.2977 7.44661 42.394 6.95964 42.5867 6.54297C42.782 6.1237 43.062 5.80078 43.4266 5.57422C43.7912 5.34505 44.213 5.23047 44.6922 5.23047C45.3823 5.23047 45.937 5.41276 46.3563 5.77734C46.7755 6.13932 47.0138 6.63932 47.0711 7.27734H45.7039C45.6935 6.93099 45.6063 6.68229 45.4422 6.53125C45.2781 6.38021 45.0281 6.30469 44.6922 6.30469C44.3511 6.30469 44.1011 6.43229 43.9422 6.6875C43.7833 6.94271 43.7 7.35026 43.6922 7.91016V8.3125C43.6922 8.91927 43.7677 9.35286 43.9188 9.61328C44.0724 9.8737 44.3354 10.0039 44.7078 10.0039C45.0229 10.0039 45.2638 9.92969 45.4305 9.78125C45.5971 9.63281 45.6857 9.39714 45.6961 9.07422H47.0594ZM52.1688 5.3125V9.03516C52.1688 9.45703 52.0789 9.82292 51.8992 10.1328C51.7195 10.4401 51.4617 10.6745 51.1258 10.8359C50.7899 10.9974 50.3927 11.0781 49.9344 11.0781C49.2417 11.0781 48.6961 10.8984 48.2977 10.5391C47.8992 10.1797 47.6961 9.6875 47.6883 9.0625V5.3125H49.0672V9.08984C49.0828 9.71224 49.3719 10.0234 49.9344 10.0234C50.2182 10.0234 50.4331 9.94531 50.5789 9.78906C50.7248 9.63281 50.7977 9.37891 50.7977 9.02734V5.3125H52.1688ZM55.1414 8.99219H54.3992V11H53.0281V5.3125H55.2664C55.9409 5.3125 56.4682 5.46224 56.8484 5.76172C57.2287 6.0612 57.4188 6.48438 57.4188 7.03125C57.4188 7.42708 57.338 7.75521 57.1766 8.01562C57.0177 8.27604 56.7677 8.48698 56.4266 8.64844L57.6141 10.9414V11H56.1453L55.1414 8.99219ZM54.3992 7.93359H55.2664C55.5268 7.93359 55.7221 7.86589 55.8524 7.73047C55.9852 7.59245 56.0516 7.40104 56.0516 7.15625C56.0516 6.91146 55.9852 6.72005 55.8524 6.58203C55.7195 6.44141 55.5242 6.37109 55.2664 6.37109H54.3992V7.93359ZM61.7742 8.58984H59.618V9.94531H62.1649V11H58.2469V5.3125H62.1727V6.37109H59.618V7.57031H61.7742V8.58984Z' fill='black'/%3E%3Cdefs%3E%3CclipPath id='clip0'%3E%3Crect width='11.0234' height='11.0234' fill='black' transform='translate(5.40002 2)'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A");
+  }
+
+  .wrapper--icoSsl {
+    font-size: 3rem;
+    height: 16px;
+    width: 70px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .container--closeIco {
+    display: flex;
+  }
+
+  .container--keepBuying {
+    display: flex;
+  }
+
+  .container--titleItemsfooter {
+    margin-top: 6.7rem;
+  }
+
+  .wrapper--colorPromise {
+    padding-left: 0;
+  }
+
+  .wrapper--titleCategoryBanners .paragraph {
+    font-size: 25px;
+  }
+
+  .wrapper--wishlistTitle .paragraph {
+    font-size: 22px;
+    line-height: 28px;
+    padding: 0 2.5rem;
+  }
+
+  .container--titleShelfProduct {
+    margin: 2.5rem 0 2rem 0;
+  }
+
+  .wrapper--titleShelfProduct .paragraph {
+    font-size: 25px;
+    line-height: 31px;
+    margin-bottom: .5rem;
+  }
+
+  .wrapper--wishlistTitle .paragraph::before {
+    width: 34px;
+    height: 31px;
+    background-image: url("data:image/svg+xml,%3Csvg width='34' height='32' viewBox='0 0 24 23' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M18.0169 2.39369L18.0176 2.3944C19.932 4.39293 19.9457 7.56759 18.011 9.6554L10.5547 17.5379C10.496 17.5892 10.3391 17.6658 10.1538 17.6658C9.94514 17.6658 9.84326 17.624 9.67993 17.4669L2.29673 9.65544C0.362005 7.56762 0.375726 4.39295 2.29008 2.3944L2.29988 2.38417L2.30933 2.37362C3.21838 1.35899 4.44785 0.85 5.76091 0.85C7.04982 0.85 8.29784 1.41718 9.23106 2.39369L9.24119 2.40429L9.25168 2.41453L9.55995 2.7156L10.1538 3.29561L10.7477 2.7156L11.056 2.41453L11.0763 2.39473L11.0952 2.37362C12.0043 1.35899 13.2337 0.85 14.5468 0.85C15.8357 0.85 17.0837 1.41718 18.0169 2.39369Z' fill='white' stroke='%23222221' stroke-width='1.7'/%3E%3Cpath d='M22.058 8.80611L22.0587 8.80682C23.5082 10.3557 23.5216 12.8269 22.0522 14.4506L16.1866 20.7978C16.1802 20.8023 16.1629 20.8137 16.1322 20.8257C16.0889 20.8425 16.0413 20.8514 16 20.8514C15.917 20.8514 15.8858 20.8385 15.8745 20.8335C15.8603 20.8272 15.8258 20.8092 15.7613 20.7463L9.94793 14.4507C8.47845 12.827 8.49181 10.3557 9.94131 8.80682L9.95097 8.7965L9.96028 8.78587C10.6426 8.00631 11.5597 7.61923 12.5389 7.61923C13.4939 7.61923 14.4294 8.04951 15.1358 8.80611L15.1458 8.81682L15.1562 8.82717L15.3991 9.06997L16 9.67069L16.6009 9.06997L16.8438 8.82718L16.8638 8.80717L16.8825 8.78587C17.5648 8.00631 18.4819 7.61923 19.4611 7.61923C20.4161 7.61923 21.3516 8.04951 22.058 8.80611Z' fill='%23FFD400' stroke='%23FFD400' stroke-width='1.7'/%3E%3C/svg%3E%0A");
+  }
+
+  .wrapper--btnLink .paragraph {
+    margin: .3rem .7rem;
+  }
+
+  .container--tabArrow {
+    margin-left: 0;
+  }
+
+  .wrapper--departmentBreadCrumb,
+  .container--departmentTitle,
+  .container--departmentDescription {
+    width: 100%;
+  }
+
+  .container--filtroSeo {
+
+    margin-top: 4%;
+  }
+
+  .wrapper--departmentBreadCrumb .paragraph {
+    font-size: 10px;
+    margin-top: 9px;
+  }
+
+  .wrapper--departmentTitle .paragraph {
+    font-size: 22px;
+    margin: 1rem 0 .5rem 0;
+  }
+
+  .wrapper--departmentTitle .heading {
+    font-size: 22px;
+    margin: 1rem 0 .5rem 0;
+  }
+
+  .wrapper--departmentDescription .paragraph {
+    font-size: 12px;
+    width: 100%;
+    margin: 0 0 1.3rem 0;
+    text-align: justify;
+  }
+}
+
+@media only screen and (min-width: 1080px) {
+  .wrapper--botonPilatosDenim {
+    background-color: black;
+    border: none;
+    font-weight: 700;
+    color: white;
+    padding: 1px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 80px;
+    cursor: pointer;
+    border-radius: 25px;
+    text-decoration: none;
+
+  }
+  .wrapper--botonBeachwear {
+    background-color: #35bcd1;
+    border: none;
+    font-weight: 700;
+    color: black;
+    padding: 1px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 80px;
+    cursor: pointer;
+    border-radius: 25px;
+    text-decoration: none;
+
+  }
+
+  .wrapper--contentIcoWhatsApp::before {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .wrapper--titulo-categorias-disandina .paragraph {
+    line-height: 13px;
+    font-size: 19px;
+    margin-top: .2rem;
+    white-space: pre-line;
+    font-weight: 500;
+    position: relative;
+    top: -417px;
+
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  .wrapper--titleConfirmedDetail .paragraph {
+    margin: 0 0 1.2rem 0;
+  }
+
+  .wrapper--linkBtnNew {
+    width: 100%;
+  }
+
+  .container--linkBtnNew,
+  .container--linkBtnOrder {
+    justify-content: flex-end !important;
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 740px) {
+
+  .container--titleOfertasUnicas,
+  .container--textOfertasUnicas {
+    justify-content: flex-start;
+    padding-left: 1rem;
+  }
+
+  .paragraph--titleOfertasUnicas {
+    font-size: 18px;
+    margin: .5rem 0;
+    line-height: 20px
+  }
+
+  .paragraph--textOfertasUnicas {
+    font-size: 13px;
+    text-align: left;
+  }
+
+  .wrapper--mailItemsfooter,
+  .wrapper--telItemsfooter,
+  .wrapper--whatsappItemsfooter {
+    font-size: 1.2rem
+  }
+
+  .paragraph--textTopHeader {
+    padding: 0;
+    font-size: 12px;
+  }
+
+  .container--icoSearch .wrapper--icoSearch {
+    font-size: 1.6rem;
+  }
+
+  .wrapper--titleCategoryBanners .paragraph {
+    font-size: 25px;
+  }
+
+  .container--desPromotionalBanners,
+  .container--desPromotionalBannersCenter {
+    bottom: 160px;
+    justify-content: left;
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .container--desPromotionalBannersCenter {
+    justify-content: center;
+  }
+
+  .paragraph--desPromotionalBanners,
+  .paragraph--desPromotionalBannersCenter {
+    font-size: 28px;
+    letter-spacing: 0.03em;
+    color: #000000;
+  }
+
+  .container--linkPromotionalBanners {
+    justify-content: left;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .container--linkPromotionalBannersCenter {
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .paragraph--linkPromotionalBanners {
+    margin-top: 1rem;
+  }
+
+  .paragraph--desBannersCenter {
+    text-align: center;
+  }
+
+  .container--titleItemsfooter {
+    margin-top: 12.7rem;
+  }
+
+  .paragraph--titleNewsletter {
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 13px;
+    letter-spacing: 0.075em;
+    margin: 1.2rem 0;
+  }
+
+  .container--desNewsletter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .paragraph--desNewsletter {
+    font-size: 15px;
+  }
+
+  .strong--desNewsletter {
+    font-size: 20px;
+  }
+
+  .container--icoFacebook .paragraph,
+  .container--icoInstagram .paragraph,
+  .container--icoWhatsapp .paragraph {
+    margin: 1.7rem 0 0 0;
+  }
+
+  .container--icoFacebook .link,
+  .container--icoInstagram .link,
+  .container--icoWhatsapp .link {
+    font-size: 1.2rem;
+    color: #000000;
+    text-decoration: none;
+  }
+
+  .wrapper--titleAboutUs .paragraph {
+    font-size: 21px;
+  }
+
+  .wrapper--descriptionAboutUs .paragraph {
+    font-size: 11px;
+    line-height: 12px;
+  }
+
+  .wrapper--subTitleAboutUs .paragraph {
+    font-size: 13px;
+  }
+
+  .wrapper--brandsPilatosItem .list .listItem {
+    font-size: 11px;
+  }
+
+  .wrapper--colorPromise {
+    padding-left: 1rem;
+  }
+
+  .wrapper--titleCategoryBanners .paragraph {
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+  }
+}
+
+@media only screen and (min-width: 640px) {
+  .container--filtroSeo-mobile {
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 4%;
+  }
+
+  .wrapper--filtroSeo-mobile .paragraph {
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 13px;
+    color: #000000;
+    width: 100%;
+    margin: 0 0 1rem 0;
+  }
+
+  .wrapper--filtroSeo .paragraph {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width:620px) {
+  .wrapper--botonChampion {
+    background-color: black;
+    border: none;
+    font-weight: 700;
+    color: white;
+    padding: 1px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 80px;
+    cursor: pointer;
+    border-radius: 25px;
+    text-decoration: none;
+
+  }
+}
+
+
+/* Estilos para pantallas con ancho maximo de 1024px (tablet y dispositivos superiores) */
+
 /****Linea etica***/
-@media screen and (max-width: 1024px ) {
+@media only screen and (max-width: 1024px) {
   .paragraph--linkFooterEtica {
     margin: 0;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .container--textTopHeader {
+    height: auto;
+  }
+  .wrapper--titulo-categorias-disandina .paragraph {
+    line-height: 13px;
+    font-size: 19px;
+    margin-top: .2rem;
+    white-space: pre-line;
+    font-weight: 500;
+    position: relative;
+    top: -67px !important;
+    width: 80%;
+    left: 20px;
+
+  }
+  .wrapper--titulo-encuentra-productos-disandina2 .paragraph {
+    line-height: 13px;
+    font-size: 19px;
+    margin-top: .2rem;
+    white-space: pre-line;
+    font-weight: 500;
+    position: relative;
+    top: -92px;
+    left: 16px;
+  }
+
+  .wrapper--titulo-denimPilatos .paragraph {
+    font-size: 24px !important;
+    font-weight: 700;
+  }
+
+  .container--botonEnvioExpress {
+    justify-content: start;
+  }
+
+  .container--categorias-vacaciones-landing {
+    margin: 0;
+  }
+
+  .wrapper--categorias-vacaciones-landing {
+    margin: 0 0 0 3rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .wrapper--titlePromotionalBanners-sneaker {
+    background: #000;
+    text-align: center;
+  }
+
+  .strong--titlePromotionalBanners-sneaker {
+    color: #fff;
+
+  }
+  .paragraph--textModalLineaEticaMobil {
+    padding: 4%;
+    text-align: justify;
+  }
+
+  .paragraph--textSubmenuEtica {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    margin: 0;
+  }
+
+  .paragraph--event-message {
+    font-size: 12px;
+  }
+
+  .container--title-sub-banners {
+    justify-content: flex-start;
+    padding: 0 5%;
+    margin-bottom: 25px;
+  }
+
+  .container--title-tabs {
+    margin-bottom: 20px;
+  }
+
+  .wrapper--title-tabs .paragraph--section-title {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 740px) {
+  .container--textTopHeader {
+    display: block;
+  }
+
+  /* billy pillar tenis mobile*/
+  .wrapper--departmentTitle .heading {
+    font-size: 22px;
+    margin: 1.5rem 0 .5rem 0 !important;
+  }
+
+  .wrapper--seo-pillar {
+    margin: 0.1rem 0;
+    padding: 0 !important;
+
+  }
+
+  .paragraph--textTopHeader {
+    padding: 4px 2rem !important;
+    margin-top: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .container--title-dsi {
+    justify-content: center;
+  }
+
+  .container--subtitle-dsi {
+    text-align: center;
+  }
+
+  .link--button-to-event-dsi {
+    padding: 15px 10px;
+  }
+
+  .headingLevel1--texto-memorama-textseo-h1 {
+    color: #ffc600;
+    font-size: 15px !important;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin: 0.35rem 0;
+  }
+
+  .headingLevel3--texto-memorama-textseo-h1 {
+    color: #ffc600;
+    font-size: 15px !important;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin: 0.35rem 0;
+  }
+
+  .paragraph--texto-memorama-textseo-seo-mobile {
+    margin-right: 1%;
+    margin-left: 1%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .wrapper--boton-landing-disandina {
+    background-color: black;
+    border: none;
+    font-weight: 700;
+    color: white;
+    padding: 0px 108px;
+    text-align: center;
+    display: inline-block;
+    font-size: 13px;
+    margin: 12px 14px;
+    cursor: pointer;
+    border-radius: 25px;
+    text-decoration: none;
+    position: relative;
+    top: -100px;
+  }
+
+  .wrapper--botonChampion {
+    background-color: black;
+    border: none;
+    font-weight: 700;
+    color: white;
+    padding: 1px 33px;
+    text-align: center;
+    position: relative;
+    left: -36px;
+    display: grid;
+    font-size: 13px;
+    margin: 6px 51px;
+    cursor: pointer;
+    border-radius: 25px;
+    text-decoration: none
+  }
+
+  .wrapper--botonChampion2 {
+    background-color: black;
+    border: none;
+    font-weight: 700;
+    color: white;
+    padding: 1px 20px;
+    text-align: center;
+    position: relative;
+    left: 36px;
+    display: grid;
+    font-size: 13px;
+    margin: 10px 80px;
+    cursor: pointer;
+    border-radius: 25px;
+    text-decoration: none;
+
+  }
+
+  .paragraph--registrate-footer-sobrenosotros2024 {
+    font-size: 24px;
+  }
+
+  .paragraph--btn-resgistro-sobreNosotros-2024 {
+    background-color: transparent;
+    padding: 0px;
+  }
+  .paragraph--main-sobre-nosotros-2024-title {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .headingLevel1--ecobag-textseo-h1 {
+    font-size: 1.2rem !important;
+  }
+}
+
+/***LANDING SNEAKERS CITY***/
+@media only screen and (max-width: 450px) {
+  .paragraph--manifesto-sneakers-city {
+    font-size: 12px;
+  }
+}
+
+/* Estilos para pantallas con ancho maximo de 1064px (tablet y dispositivos superiores) */
+
+@media (max-width: 1064px) {
+  .wrapper--title-statict-parrafoReverso {
+    justify-content: center;
+    width: 100%;
+    padding: 0 3% 3% 3%;
+    margin-top: -13px;
+
+  }
+
+  .headingLevel1--title-statict-reverso {
+    color: #000;
+    font-size: 20px;
+  }
+
+  .paragraph--title--static-parrafoReverso {
+    background: red;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .paragraph--sneaker-tittle {
+    font-size: 28px;
+    line-height: 27px;
+    margin-top: 10px;
+  }
+
+  .wrapper--manifiestoSneakers {
+    width: 90%;
+    text-align: justify;
+    font-size: 14px;
+  }
+
+  .wrapper--sneaker-buttom {
+    width: 160px;
+
+  }
+
+  .paragraph--sneaker-buttom {
+    font-size: 13px;
+  }
+
+  .link--sneaker-linkBrands {
+    font-size: 14px;
+  }
+
+  .paragraph--sneaker-title-vitrina {
+    font-size: 32px;
+  }
+
+  .paragraph--sneaker-title-vitrina-dos {
+    font-size: 11px;
+  }
+
+  .paragraph--essensialitary-title-vitrina {
+    font-size: 20px;
+  }
+
+  .paragraph--essensialitary-title-vitrina-dos {
+    font-size: 11px;
+  }
+
+  .paragraph--textejeDeEstilosSneakers {
+    width: 90%;
+    margin: 6px auto;
+  }
+
+  .container--seoSneaker {
+    width: 91%;
+    margin: 2rem auto 0 auto;
+    text-align: justify;
+  }
+  .headingLevel1--ritualesH1 {
+    font-size: 24px;
+    margin-top: 27px;
+    margin-bottom: 10px;
+  }
+
+  .container--ritualesSEO {
+    max-width: 90%;
+  }
+
+  .paragraph--textoFitRituales {
+    font-size: 16px;
+    margin: 12px;
+    margin-top: 26px;
+    text-align: center;
+  }
+
+  .container--ritualesSeoLargo {
+    text-align: center;
+  }
+
+  .wrapper--ritualesSeoLargo {
+    text-align: left;
+  }
+
+  .headingLevel3--ritualesSeoLargo {
+    font-size: 16px;
+  }
+
+  .paragraph--ritualesSeoLargo {
+    font-size: 14px;
+  }
+
+  .paragraph--titulo-envio-express {
+    font-size: 26px;
+  }
+
+  .paragraph--titulo-pickit-productos {
+    font-size: 16px;
+  }
+
+  .headingLevel1--titulo-tu-cuota-nuevo {
+    font-size: 32px;
+  }
+
+  .headingLevel3--tu-cuota-footer-text {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 764px) {
+  .wrapper--product-description-pdp {
+    margin-left: 30px;
+  }
+
+  .headingLevel2--filtroSeo {
+    margin: 10px;
+
+  }
+
+  .link--filtroSeo {
+
+    font-size: 17px;
+  }
+
+}
+
+@media (max-width: 760px) {
+  .container--paragrapGuiaDeRegalo {
+    width: 90% !important;
+  }
+
+  .container--paragrapGuiaDeRegalo {
+    width: 90% !important;
+  }
+
+}
+
+@media (max-width: 750px) {
+  .paragraph--enlace-texto-regalos-padres {
+    font-size: 17px;
+    margin-bottom: 5px;
+  }
+
+  .wrapper--sanValentin-texto {
+    max-width: 80%;
+    margin: 5px;
+    border: 2px dashed #f690af;
+    padding: 5px;
+  }
+
+  .heading--sanValentin-texto {
+    font-size: 16px;
+  }
+
+  .paragraph--sanValentin-texto {
+    font-size: 14px;
+
+  }
+}
+
+@media (max-width: 740px) {
+  .wrapper--tittleArmaTuLook {
+    margin: 0 auto;
+  }
+
+  .wrapper--tittleArmaTuLookInsp {
+    margin: 3% auto;
+    width: 90%;
+  }
+
+  .wrapper--tittleArmaTuLook {
+    margin: 0 auto;
+  }
+
+  .wrapper--tittleArmaTuLookInsp {
+    margin: 3% auto;
+    width: 90%;
+  }
+}
+
+@media (max-width: 640px) {
+  .strong--tittleBannersMarcasTop {
+    font-size: 15px;
+  }
+
+  .link--tittleArmaTuLookInsp {
+    padding: 3px 10px 3px 10px;
+    font-size: 16px;
+  }
+
+  .link--tittleArmaTuLookInsp {
+    padding: 3px 10px 3px 10px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  .wrapper--botonesGeneros {
+    margin: 5% !important;
+    text-align: center;
+  }
+
+  .heading--workwithus-title-pcpal {
+    font-size: 30px;
+  }
+
+  .headingLevel2--work-with-part-one-title-mob {
+    font-size: 25px;
+    margin: 8px 0 0 0;
+  }
+
+  .container--politicas-workWithContent {
+    height: 6px;
+  }
+}
+
+@media (max-width: 599px) {
+  .wrapper--titulo-encuentra-productos-disandina .paragraph {
+    line-height: 0px;
+    font-size: 34px;
+    margin-top: 0.2rem;
+    white-space: pre-line;
+    font-weight: 700;
+    position: relative;
+    top: -93px;
+    left: 16px;
+  }
+
+}
+
+/* Estilos para pantallas con ancho maximo de 2000px y minimo de 600px (tablet y dispositivos superiores) */
+
+@media screen and (min-width: 600px) and (max-width:1001px) {
+  .wrapper--boton-landing-disandina {
+    background-color: black;
+    border: none;
+    font-weight: 700;
+    color: white;
+    padding: 1px 90px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 12px 90px;
+    cursor: pointer;
+    border-radius: 25px;
+    text-decoration: none;
+    position: relative;
+
+  }
+}
+
+@media screen and (min-width:1200px) and (max-width:1500px) {
+  .wrapper--boton-landing-disandina {
+    position: relative;
+
+    padding: 1px 90px;
+  }
+}
+
+@media screen and (min-width:1501px) and (max-width:1799px) {
+  .wrapper--boton-landing-disandina {
+    position: relative;
+
+    padding: 1px 90px;
+  }
+}
+
+@media screen and (min-width:1800px) and (max-width:2000px) {
+  .wrapper--boton-landing-disandina {
+    background-color: black;
+    border: none;
+    font-weight: 700;
+    color: white;
+    padding: 1px 90px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 12px 90px;
+    cursor: pointer;
+    border-radius: 25px;
+    text-decoration: none;
+    position: relative;
+
+  }
+}
+
+

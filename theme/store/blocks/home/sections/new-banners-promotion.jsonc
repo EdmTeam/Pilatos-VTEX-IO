@@ -1,75 +1,18 @@
 {
-  /*New Banners InfoCard*/
-  "flex-layout.row#bannersInfoCard": {
-    "children": [
-      "flex-layout.col#bannersInfoCardLeft",
-      "flex-layout.col#bannersInfoCardRight"
-    ],
-    "title": "Banners InfoCard",
-    "props": {
-      "blockClass": "bannersInfoCard"
-    }
-  },
-
-  "flex-layout.col#bannersInfoCardLeft": {
-    "children": [
-      "info-card#bannerLeft"
-    ],
-    "props": {
-      "blockClass": "bannersInfoCardLeft"
-    }
-  },
-  "flex-layout.col#bannersInfoCardRight": {
-    "children": [
-      "info-card#bannerRight"
-    ],
-    "props": {
-      "blockClass": "bannersInfoCardRight"
-    }
-  },
-  "info-card#bannerLeft": {
-    "props": {
-      "id": "bannerLeft",
-      "isFullModeStyle": false,
-      "textPosition": "left",
-      "imageUrl": "/arquivos/Pilatos-CambioHome-Hombre-Desk.jpg",
-      "mobileImageUrl": "/arquivos/Pilatos-CambioHome-Hombre-Mob.jpg",
-      "callToActionUrl": "/",
-      "blockClass": ["infocardBanner", "banner2-1"],
-      "textAlignment": "center",
-      "fetchpriority": "auto",
-      "preload": true
-    }
-  },
-
-  "info-card#bannerRight": {
-    "props": {
-      "id": "bannerRight",
-      "isFullModeStyle": false,
-      "textPosition": "left",
-      "imageUrl": "/arquivos/Pilatos-CambioHome-Mujer-Desk.jpg",
-      "mobileImageUrl": "/arquivos/Pilatos-CambioHome-Mujer-Mob.jpg",
-      "callToActionUrl": "/",
-      "blockClass": ["infocardBanner", "banner2-2"],
-      "textAlignment": "center",
-      "fetchpriority": "auto",
-      "preload": true
-    }
-  },
-
-  /*Banner Promotion*/
   "flex-layout.row#bannerDescuento": {
     "title": "Banner Horizontal",
     "children": [
       "list-context.image-list#bannerDescuento"
     ],
     "props": {
-      "blockClass": "bannerDescuento"
+      "blockClass": "bannerDescuento",
+      "min-height": "300px"
     }
   },
-
   "list-context.image-list#bannerDescuento": {
-    "children": ["slider-layout#bannerDescuento"],
+    "children": [
+      "slider-layout#bannerDescuento"
+    ],
     "props": {
       "height": 300,
       "images": [
@@ -84,97 +27,95 @@
       ]
     }
   },
-
   "slider-layout#bannerDescuento": {
     "props": {
-        "blockClass": "contentBanner",
-        "itemsPerPage": {
-            "desktop": 1,
-            "tablet": 1,
-            "phone": 1
-        },
-        "infinite": false,
-        "showNavigationArrows": "never",
-        "showPaginationDots": "never"
+      "blockClass": "contentBanner",
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": false,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never"
     }
   },
-
-    /*Banners Categorias*/
-    "flex-layout.row#bannersCategorias": {
-      "title": "Banner Horizontal",
-      "children": [
-        "list-context.image-list#bannersCategorias"
-      ],
-      "props": {
-        "blockClass": "bannersCategorias"
-      }
-    },
-
-    "list-context.image-list#bannersCategorias": {
-      "children": ["slider-layout#bannersCategorias"],
-      "props": {
-        "height": 333,
-        "images": [
-          {
-            "image": "/arquivos/Pilatos-CambioHome-Categorias-Camisetas-Desk.png",
-            "mobileImage": "/arquivos/Pilatos-CambioHome-Categorias-Camisetas-Desk.png",
-            "link": {
-              "url": "/camisetas"
-            }
-          },
-          {
-            "image": "/arquivos/Pilatos-CambioHome-Categorias-Jeans-Desk.png",
-            "mobileImage": "/arquivos/Pilatos-CambioHome-Categorias-Jeans-Desk.png",
-            "link": {
-              "url": "/jeans"
-            }
-          },
-          {
-            "image": "/arquivos/Pilatos-CambioHome-Categorias-Gorras-Desk.png",
-            "mobileImage": "/arquivos/Pilatos-CambioHome-Categorias-Gorras-Desk.png",
-            "link": {
-              "url": "/gorras"
-            }
-          },
-          {
-            "image": "/arquivos/Pilatos-CambioHome-Categorias-Tenis-Desk.png",
-            "mobileImage": "/arquivos/Pilatos-CambioHome-Categorias-Tenis-Desk.png"
-          },
-          {
-            "image": "/arquivos/Pilatos-CambioHome-Categorias-Accesorios-Desk.png",
-            "mobileImage": "/arquivos/Pilatos-CambioHome-Categorias-Accesorios-Desk.png"
-          },
-          {
-            "image": "/arquivos/Pilatos-CambioHome-Categorias-Deportivo-Desk.png",
-            "mobileImage": "/arquivos/Pilatos-CambioHome-Categorias-Deportivo-Desk.png"
-          },
-          {
-            "image": "/arquivos/Pilatos-CambioHome-Categorias-Buzos-Desk.png",
-            "mobileImage": "/arquivos/Pilatos-CambioHome-Categorias-Buzos-Desk.png"
-          },
-          {
-            "image": "/arquivos/Pilatos-CambioHome-Categorias-Chaquetas-Desk.png",
-            "mobileImage": "/arquivos/Pilatos-CambioHome-Categorias-Chaquetas-Desk.png"
-          }
-        ]
-      }
-    },
-
-    "slider-layout#bannersCategorias": {
-      "props": {
-          "blockClass": "bannersCategorias",
-          "itemsPerPage": {
-              "desktop": 5,
-              "tablet": 3,
-              "phone": 3
-          },
-          "autoplay": {
-            "timeout": 8000,
-            "stopOnHover": true
-           },
-          "infinite": true,
-          "showNavigationArrows": "never",
-          "showPaginationDots": "never"
-      }
+  "flex-layout.row#bannersCategorias": {
+    "title": "Banner Horizontal",
+    "children": [
+      "list-context.image-list#bannersCategorias"
+    ],
+    "props": {
+      "blockClass": "bannersCategorias",
+      "min-height": "333px"
     }
+  },
+  "list-context.image-list#bannersCategorias": {
+    "children": [
+      "slider-layout#bannersCategorias"
+    ],
+    "props": {
+      "height": 333,
+      "images": [
+        {
+          "image": "/arquivos/Pilatos-CambioHome-Categorias-Camisetas-Desk.png",
+          "mobileImage": "/arquivos/Pilatos-CambioHome-Categorias-Camisetas-Desk.png",
+          "link": {
+            "url": "/camisetas"
+          }
+        },
+        {
+          "image": "/arquivos/Pilatos-CambioHome-Categorias-Jeans-Desk.png",
+          "mobileImage": "/arquivos/Pilatos-CambioHome-Categorias-Jeans-Desk.png",
+          "link": {
+            "url": "/jeans"
+          }
+        },
+        {
+          "image": "/arquivos/Pilatos-CambioHome-Categorias-Gorras-Desk.png",
+          "mobileImage": "/arquivos/Pilatos-CambioHome-Categorias-Gorras-Desk.png",
+          "link": {
+            "url": "/gorras"
+          }
+        },
+        {
+          "image": "/arquivos/Pilatos-CambioHome-Categorias-Tenis-Desk.png",
+          "mobileImage": "/arquivos/Pilatos-CambioHome-Categorias-Tenis-Desk.png"
+        },
+        {
+          "image": "/arquivos/Pilatos-CambioHome-Categorias-Accesorios-Desk.png",
+          "mobileImage": "/arquivos/Pilatos-CambioHome-Categorias-Accesorios-Desk.png"
+        },
+        {
+          "image": "/arquivos/Pilatos-CambioHome-Categorias-Deportivo-Desk.png",
+          "mobileImage": "/arquivos/Pilatos-CambioHome-Categorias-Deportivo-Desk.png"
+        },
+        {
+          "image": "/arquivos/Pilatos-CambioHome-Categorias-Buzos-Desk.png",
+          "mobileImage": "/arquivos/Pilatos-CambioHome-Categorias-Buzos-Desk.png"
+        },
+        {
+          "image": "/arquivos/Pilatos-CambioHome-Categorias-Chaquetas-Desk.png",
+          "mobileImage": "/arquivos/Pilatos-CambioHome-Categorias-Chaquetas-Desk.png"
+        }
+      ]
+    }
+  },
+  "slider-layout#bannersCategorias": {
+    "props": {
+      "blockClass": "bannersCategorias",
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 3
+      },
+      "autoplay": {
+        "timeout": 8000,
+        "stopOnHover": true
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never"
+    }
+  }
 }
