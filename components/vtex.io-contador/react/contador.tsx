@@ -5,9 +5,10 @@ import './styles.css';
 interface HeaderComponentProps {
   saletext: string;
   redireccion: string;
+  redireccionTexto: string; // Nuevo campo para el enlace en "aqui"
+  campotextoaqui: string;
   finalDate: string; 
   vertyc: string;
-  botonComprar: string;
   redireccionBoton: string;
 }
 
@@ -24,10 +25,11 @@ const CSS_HANDLES = [
   'contenedortyc',
   'vertyc',
   'botonComprarContainer',
-  'botonComprar'
+  'campotextoaqui'
+  
 ] as const
 
-const Contador = ({saletext, redireccion,finalDate,vertyc,botonComprar, redireccionBoton}: HeaderComponentProps ) => {
+const Contador = ({saletext, redireccion,redireccionTexto,finalDate,vertyc, campotextoaqui}: HeaderComponentProps ) => {
   const handles = useCssHandles(CSS_HANDLES)
 
 
@@ -40,11 +42,11 @@ const Contador = ({saletext, redireccion,finalDate,vertyc,botonComprar, redirecc
     const diferencia = fechaObjetivo - ahora;
 
     if (diferencia <= 0) {
-      return { dias: 0, horas: 0, minutos: 0, segundos: 0 };
+      return {horas: 0, minutos: 0, segundos: 0 };
     }
 
     return {
-      dias: Math.floor(diferencia / (1000 * 60 * 60 * 24)),
+
       horas: Math.floor((diferencia / (1000 * 60 * 60)) % 24),
       minutos: Math.floor((diferencia / (1000 * 60)) % 60),
       segundos: Math.floor((diferencia / 1000) % 60),
@@ -62,16 +64,24 @@ const Contador = ({saletext, redireccion,finalDate,vertyc,botonComprar, redirecc
   return (
     <div className={handles.contadorcontainer}>
       <div className={handles.grupotextos}>
-      <span className={handles.saletext}>{saletext}</span>
+      <span className={handles.saletext}>
+          {saletext.split("aqui").map((part, index, array) => (
+            <React.Fragment key={index}>
+              {part}
+              {index !== array.length - 1 && (
+                <a href={redireccionTexto} className={handles.saletext}  rel="noopener noreferrer">
+                  <span className={handles.campotextoaqui}>{ campotextoaqui}</span>
+                </a>
+              )}
+            </React.Fragment>
+          ))}
+        </span>
 
       </div>
  
 
     <div className={handles.contador}>
-      <div className={handles.item}>
-        <span className={handles.numero}>{String(tiempoRestante.dias).padStart(2, '0')}</span>
-        <span className={handles.label}>Días</span>
-      </div>
+    
       <div className={handles.item}>
         <span className={handles.numero}>{String(tiempoRestante.horas).padStart(2, '0')}</span>
         <span className={handles.label}>Horas</span>
@@ -86,9 +96,7 @@ const Contador = ({saletext, redireccion,finalDate,vertyc,botonComprar, redirecc
       </div>
     </div>
 
-    <div className={handles.botonComprarContainer}>
-      <a href={redireccionBoton} className={handles.botonComprar}>{botonComprar}</a>
-    </div>
+
 
 
     <div className={handles.contenedortyc}>
@@ -103,10 +111,13 @@ const Contador = ({saletext, redireccion,finalDate,vertyc,botonComprar, redirecc
 };
 
 Contador.defaultProps = {
-  saletext: "VTEX",
+  saletext: "Aprovecha antes de que se acabe y compra aqui",
   finalDate: new Date().toISOString(),
-  vertyc: "Ver TYC" ,
-  botonComprar: "Comprar"
+  vertyc: "Aplican TyC" ,
+  redireccion: "#",
+  redireccionTexto: "#" , // Nuevo valor por defecto para el enlace en "aqui"
+  campotextoaqui: "aqui" // Nuevo valor por defecto para el enlace en "aqui"
+
 };
 
 Contador.schema = {
@@ -127,15 +138,6 @@ Contador.schema = {
         "ui:widget": "datetime"
       },
     },
-    botonComprar: {
-      type: 'string',
-      title: 'Texto del boton comprar',
-  },
-
-  redireccionBoton: {
-    type: 'string',
-    title: 'URL boton comprar',
-  },
 
 
     vertyc: {
@@ -146,7 +148,17 @@ Contador.schema = {
     redireccion: {
       type: 'string',
       title: 'URL boton tyc',
-    }
+    },
+
+    redireccionTexto: {
+      type: 'string',
+      title: 'URL de la palabra "aqui"',
+    },
+
+    campotextoaqui: {
+      type: 'string',
+      title: 'Texto del enlace en "aqui"',
+    },
   
 
 
