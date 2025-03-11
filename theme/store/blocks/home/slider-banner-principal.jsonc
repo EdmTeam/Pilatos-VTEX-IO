@@ -18,6 +18,7 @@
     ],
     "props": {
       "height": 600,
+      "preload": true,
       "images": [
         {
           "image": "/arquivos/Banner_Principal_Desktop_01.jpg",
@@ -62,20 +63,21 @@
   "image#banner-desktop-1-img-1": {
     "props": {
       "src": "/arquivos/Pilatos-FranjaWhatsApp-DesktopNegro.jpg",
-      "width": "100%",
-      "height": "auto",
+      "maxWidth": 1920,
+      "maxHeight": 100,
       "link": {
         "url": "/",
         "attributeTitle": ""
-      }
+      },
+      "blockClass": "departmentBannerImg-topHome-Desktop"
     }
   },
   "image#banner-mobile-1-img-1": {
     "props": {
       "alt": "Banner1-1",
       "src": "/arquivos/Pilatos-FranjaWhatsApp-MobileNegro.jpg",
-      "width": "100%",
-      "height": "auto",
+      "maxWidth": 720,
+      "maxHeight": 80,
       "link": {
         "url": "/",
         "attributeTitle": ""
