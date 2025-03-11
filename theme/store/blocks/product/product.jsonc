@@ -348,20 +348,12 @@
     }
   },
 
-  "product-availability-custom#pdp_availability": {
-    "title": "Disponibilidad",
-    "props": {
-      "threshold": 5,
-      "lowStockMessage": ".",
-      "highStockMessage": "",
-      "blockClass": "product-availability"
-    }
-  },
+ 
   // producto disponibles
   "product-availability#uno": {
     "props": {
-      "threshold": 5,
-      "lowStockMessage": "¡Últimas {quantity} unidades!"
+      "threshold": 15000,
+      "lowStockMessage": "¡Stock disponible: {quantity} unidades!"
         }
   },
 
@@ -566,7 +558,7 @@
   "flex-layout.row#product-quantity-size-guide": {
     "children": [
       "flex-layout.col#product-size-guide",
-      "product-availability-custom#pdp_availability",
+      "product-availability#uno",
       "flex-layout.col#product-quantity-size-guide"
     ],
     "props": {
