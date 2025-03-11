@@ -5,15 +5,13 @@
       "flex-layout.row#section2__images--departments"
     ]
   },
-
   "responsive-layout.mobile#images__department--mob": {
     "title": "Section Banners 2 mobile",
     "children": [
       "flex-layout.row#section2__images--departments-mobile"
     ]
   },
-
-  "flex-layout.row#section2__images--departments-mobile":{
+  "flex-layout.row#section2__images--departments-mobile": {
     "title": "Banner 2 mobile",
     "children": [
       "image#banner2__first--image-mob",
@@ -23,8 +21,7 @@
       "blockClass": "section2__images--departments-mobile"
     }
   },
-
-  "flex-layout.row#section2__images--departments":{
+  "flex-layout.row#section2__images--departments": {
     "title": "Banner 2 desk",
     "children": [
       "image#banner2__first--image-desk",
@@ -34,8 +31,7 @@
       "blockClass": "section2__images--departments"
     }
   },
-
-  "image#banner2__first--image-desk":{
+  "image#banner2__first--image-desk": {
     "title": "banner 2-1 desk",
     "props": {
       "src": "",
@@ -45,7 +41,7 @@
         "props": {
           "label": "",
           "url": "/"
-         }
+        }
       }
     }
   },
@@ -59,12 +55,11 @@
         "props": {
           "label": "",
           "url": "/"
-         }
+        }
       }
     }
   },
-
-  "image#banner2__first--image-mob":{
+  "image#banner2__first--image-mob": {
     "title": "banner 2-1 desk",
     "props": {
       "src": "",
@@ -75,7 +70,7 @@
         "props": {
           "label": "",
           "url": "/"
-         }
+        }
       }
     }
   },
@@ -90,7 +85,7 @@
         "props": {
           "label": "",
           "url": "/"
-         }
+        }
       }
     }
   }

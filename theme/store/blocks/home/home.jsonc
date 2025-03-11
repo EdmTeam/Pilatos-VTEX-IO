@@ -3,14 +3,12 @@
     "blocks": [
       "pa-widget",
       "livestreaming",
-      //no va  "modal-trigger#welcome",
-      "flex-layout.row#congtent-slider",
-      // "flex-layout.row#bannersInfoCard",
+      "flex-layout.row#content-slider",
       "responsive-layout.desktop#images__department--desk",
       "responsive-layout.mobile#images__department--mob",
       "flex-layout.row#bannerDescuento",
       "flex-layout.row#bannersCategorias",
-      /*no va Carrusel live shopping,  eliminar una vez termine el evento*/
+      // [TEMPORAL] Activado para evento live shopping – eliminar tras finalizar el evento.
       "flex-layout.row#carrusel-productos-colombiamoda-home-live-shopping-1",
       "flex-layout.row#texto-SEO",
       "rich-text#h1-pilatoshome",
@@ -18,39 +16,24 @@
       "responsive-layout.tablet#brands-promise",
       "responsive-layout.desktop#brands-promise",
       "__fold__.mobile",
-      //no va "flex-layout.row#brands",
-      //no va  "rich-text#brands-title",
-      //no va  "flex-layout.row#marcas-sobrenosotros2024-slider",
       "link#content-chat-whatsapp",
       "__fold__.desktop",
       "responsive-layout.phone#category-banners",
       "responsive-layout.tablet#category-banners",
       "responsive-layout.desktop#category-banners",
-      //no va  "flex-layout.row#most-viewed",
-      //no va  "responsive-layout.phone#promotional-banners-2-abtest",
-      //no va  "responsive-layout.desktop#promotional-banners-2-abtest",
-      //no va  "responsive-layout.tablet#promotional-banners-2-abtest",
       "flex-layout.row#cambio-devolucionesHome"
-      //no va "flex-layout.row#Recently-viewed",
-      /*no va "responsive-layout.phone#promotional-banners",
-      "no va responsive-layout.tablet#promotional-banners",
-      "no va responsive-layout.desktop#promotional-banners"*/
     ]
   },
-
-  /*******************************/
-
-  /*Carrusel live shopping,
-    eliminar una vez termine el evento*/
   "flex-layout.row#carrusel-productos-colombiamoda-home-live-shopping-1": {
-    "children": ["flex-layout.col#carrusel-productos-colombiamoda-home-live-shopping-1"],
+    "children": [
+      "flex-layout.col#carrusel-productos-colombiamoda-home-live-shopping-1"
+    ],
     "title": "Carrusel Live Shopping",
     "props": {
       "marginTop": 6,
       "marginBottom": 6
     }
   },
-
   "flex-layout.col#carrusel-productos-colombiamoda-home-live-shopping-1": {
     "children": [
       "rich-text#recomendador-carrusel-productos-colombiamoda-home",
@@ -60,17 +43,19 @@
       "blockClass": "carrusel-productos-live-shopping"
     }
   },
-
   "rich-text#recomendador-carrusel-productos-colombiamoda-home": {
     "props": {
       "text": "Recomendados Colombiamoda 2024",
       "blockClass": "titulo-recomendador-colombiamoda"
     }
   },
-
   "vtex.product-summary:list-context.product-list#carrusel-productos-colombiamoda-home": {
-    "blocks": ["vtex.product-summary:product-summary.shelf#most-viewed"],
-    "children": ["slider-layout#home-shelf-most-viewedeee"],
+    "blocks": [
+      "vtex.product-summary:product-summary.shelf#most-viewed"
+    ],
+    "children": [
+      "slider-layout#home-shelf-most-viewedeee"
+    ],
     "props": {
       "orderBy": "OrderByTopSaleDESC",
       "collection": "1281",

@@ -1,201 +1,179 @@
 {
-    "responsive-layout.phone#category-banners": {
-        "children":[
-            "flex-layout.row#mobile-category-banners"
-        ]
-    },
-
-    "flex-layout.row#mobile-category-banners": {
-        "children":[
-            "flex-layout.row#category-banners-title",
-            "list-context.image-list#category-banner"
-        ]
-    },
-
-    "flex-layout.row#category-banners-title": {
-        "children": [
-            "flex-layout.col#mobile-category-banners-title-col-1"
-            // "flex-layout.col#mobile-category-banners-title-col-2"
-        ],
-        "props":{
-            "blockClass": "contentTitle"
-        }
-    },
-
-    "flex-layout.col#mobile-category-banners-title-col-1": {
-        "children": [
-            "rich-text#title-category-banners"
-        ],
-        "props":{
-            "blockClass": "contentTitleText"
-        }
-    },
-
-    "flex-layout.col#mobile-category-banners-title-col-2": {
-        "children": [
-            "rich-text#title-line-category-banners"
-        ],
-        "props":{
-            "blockClass": "contentTitleLine"
-        }
-    },
-
-    "rich-text#title-category-banners": {
-        "props": {
-            "text": "CATEGORÍAS DESTACADAS",
-            "blockClass": "titleCategoryBanners"
-        }
-    },
-
-    "rich-text#title-line-category-banners": {
-        "props": {
-            "text": ""
-        }
-    },
-
-    "list-context.image-list#category-banner": {
-        "children": [
-            "slider-layout#category-banner"
-        ],
-        "props": {
-            "images": [
-                {
-                    "image": "/arquivos/Banner_Categorías_Mobile_01.jpg",
-                    "description": "Promotional Banner",
-                    "link": {
-                        "url": "/camisetas",
-                        "attributeTitle": ""
-                    },
-                    "title": ""
-                },
-                {
-                    "image": "/arquivos/Banner_Categorias_Mobile_02.jpg",
-                    "description": "Promotional Banner",
-                    "link": {
-                        "url": "/jeans",
-                        "attributeTitle": ""
-                    },
-                    "title": ""
-                },
-                {
-                    "image": "/arquivos/Banner_Categorias_Mobile_03.jpg",
-                    "description": "Promotional Banner",
-                    "link": {
-                        "url": "/zapatos",
-                        "attributeTitle": ""
-                    },
-                    "title": ""
-                }
-            ]
-        }
-    },
-
-    "slider-layout#category-banner": {
-        "props": {
-            "blockClass": "contentCategoryBanner",
-            "itemsPerPage": {
-                "desktop": 1,
-                "tablet": 1,
-                "phone": 1
-            },
-            "centerMode": "to-the-left",
-            "showNavigationArrows": "desktopOnly",
-            "showPaginationDots": "never"
-        }
-    },
-
-    //Category Banners desktop
-    "responsive-layout.desktop#category-banners": {
-        "children":[
-            "flex-layout.row#category-banners-title",
-            "flex-layout.row#desk-category-banners"
-        ]
-    },
-
-    "responsive-layout.tablet#category-banners": {
-        "children":[
-            "flex-layout.row#category-banners-title",
-            "flex-layout.row#desk-category-banners"
-        ]
-    },
-
-    "flex-layout.row#desk-category-banners": {
-        "children":[
-            "flex-layout.row#desk-category-banners-img"
-        ],
-        "props":{
-            "blockClass":"contentCategoryBannerDesk"
-        }
-    },
-
-    "flex-layout.row#desk-category-banners-img": {
-        "children":[
-            "flex-layout.col#desk-category-banners-col-1",
-            "flex-layout.col#desk-category-banners-col-2",
-            "flex-layout.col#desk-category-banners-col-3"
-        ],
-        "props":{
-            "blockClass": "contentCategoryCol"
-        }
-    },
-
-    "flex-layout.col#desk-category-banners-col-1":{
-        "children":[
-            "image#desk-category-banners-img-1"
-        ],
-        "props":{
-            "blockClass": "categoryBannerConterImg"
-        }
-    },
-
-    "image#desk-category-banners-img-1": {
-        "props": {
-            "src": "/arquivos/Banner_Categorias_Desktop_01.jpg",
-            "link": {
-                "url": "/camisetas",
-                "attributeTitle": ""
-            },
-            "blockClass": "PromotionalBannerImg"
-        }
-    },
-
-    "flex-layout.col#desk-category-banners-col-2":{
-        "children":[
-            "image#desk-category-banners-img-2"
-        ],
-        "props":{
-            "blockClass": "categoryBannerConterImg"
-        }
-    },
-
-    "image#desk-category-banners-img-2": {
-        "props": {
-            "src": "/arquivos/Banner_Categorias_Desktop_02.jpg",
-            "link": {
-                "url": "/jeans",
-                "attributeTitle": ""
-            },
-            "blockClass": "PromotionalBannerImg"
-        }
-    },
-
-    "flex-layout.col#desk-category-banners-col-3":{
-        "children":[
-            "image#desk-category-banners-img-3"
-        ],
-        "props":{
-            "blockClass": "categoryBannerConterImg"
-        }
-    },
-
-    "image#desk-category-banners-img-3": {
-        "props": {
-            "src": "/arquivos/Banner_Categorias_Desktop_03.jpg",
-            "link": {
-                "url": "/zapatos",
-                "attributeTitle": ""
-            },
-            "blockClass": "PromotionalBannerImg"
-        }
+  "responsive-layout.phone#category-banners": {
+    "children": [
+      "flex-layout.row#mobile-category-banners"
+    ]
+  },
+  "flex-layout.row#mobile-category-banners": {
+    "children": [
+      "flex-layout.row#category-banners-title",
+      "list-context.image-list#category-banner"
+    ]
+  },
+  "flex-layout.row#category-banners-title": {
+    "children": [
+      "flex-layout.col#mobile-category-banners-title-col-1"
+    ],
+    "props": {
+      "blockClass": "contentTitle"
     }
+  },
+  "flex-layout.col#mobile-category-banners-title-col-1": {
+    "children": [
+      "rich-text#title-category-banners"
+    ],
+    "props": {
+      "blockClass": "contentTitleText"
+    }
+  },
+  "rich-text#title-category-banners": {
+    "props": {
+      "text": "CATEGORÍAS DESTACADAS",
+      "blockClass": "titleCategoryBanners"
+    }
+  },
+  "list-context.image-list#category-banner": {
+    "children": [
+      "slider-layout#category-banner"
+    ],
+    "props": {
+      "height": 333,
+      "images": [
+        {
+          "image": "/arquivos/Banner_Categorías_Mobile_01.jpg",
+          "mobileImage": "/arquivos/Banner_Categorías_Mobile_01.jpg",
+          "link": {
+            "url": "/camisetas"
+          },
+          "width": "100%",
+          "aspect-ratio": "16/9",
+          "loading": "lazy"
+        },
+        {
+          "image": "/arquivos/Banner_Categorias_Mobile_02.jpg",
+          "mobileImage": "/arquivos/Banner_Categorias_Mobile_02.jpg",
+          "link": {
+            "url": "/jeans"
+          },
+          "width": "100%",
+          "aspect-ratio": "16/9",
+          "loading": "lazy"
+        },
+        {
+          "image": "/arquivos/Banner_Categorias_Mobile_03.jpg",
+          "mobileImage": "/arquivos/Banner_Categorias_Mobile_03.jpg",
+          "link": {
+            "url": "/zapatos"
+          },
+          "width": "100%",
+          "aspect-ratio": "16/9",
+          "loading": "lazy"
+        }
+      ]
+    }
+  },
+  "slider-layout#category-banner": {
+    "props": {
+      "blockClass": "contentCategoryBanner",
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "centerMode": "to-the-left",
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "never",
+      "min-height": "333px"
+    }
+  },
+  "responsive-layout.desktop#category-banners": {
+    "children": [
+      "flex-layout.row#category-banners-title",
+      "flex-layout.row#desk-category-banners"
+    ]
+  },
+  "responsive-layout.tablet#category-banners": {
+    "children": [
+      "flex-layout.row#category-banners-title",
+      "flex-layout.row#desk-category-banners"
+    ]
+  },
+  "flex-layout.row#desk-category-banners": {
+    "children": [
+      "flex-layout.row#desk-category-banners-img"
+    ],
+    "props": {
+      "blockClass": "contentCategoryBannerDesk"
+    }
+  },
+  "flex-layout.row#desk-category-banners-img": {
+    "children": [
+      "flex-layout.col#desk-category-banners-col-1",
+      "flex-layout.col#desk-category-banners-col-2",
+      "flex-layout.col#desk-category-banners-col-3"
+    ],
+    "props": {
+      "blockClass": "contentCategoryCol"
+    }
+  },
+  "flex-layout.col#desk-category-banners-col-1": {
+    "children": [
+      "image#desk-category-banners-img-1"
+    ],
+    "props": {
+      "blockClass": "categoryBannerConterImg"
+    }
+  },
+  "image#desk-category-banners-img-1": {
+    "props": {
+      "src": "/arquivos/Banner_Categorias_Desktop_01.jpg",
+      "link": {
+        "url": "/camisetas",
+        "attributeTitle": ""
+      },
+      "blockClass": "PromotionalBannerImg",
+      "width": "100%",
+      "aspect-ratio": "16/9"
+    }
+  },
+  "flex-layout.col#desk-category-banners-col-2": {
+    "children": [
+      "image#desk-category-banners-img-2"
+    ],
+    "props": {
+      "blockClass": "categoryBannerConterImg"
+    }
+  },
+  "image#desk-category-banners-img-2": {
+    "props": {
+      "src": "/arquivos/Banner_Categorias_Desktop_02.jpg",
+      "link": {
+        "url": "/jeans",
+        "attributeTitle": ""
+      },
+      "blockClass": "PromotionalBannerImg",
+      "width": "100%",
+      "aspect-ratio": "16/9"
+    }
+  },
+  "flex-layout.col#desk-category-banners-col-3": {
+    "children": [
+      "image#desk-category-banners-img-3"
+    ],
+    "props": {
+      "blockClass": "categoryBannerConterImg"
+    }
+  },
+  "image#desk-category-banners-img-3": {
+    "props": {
+      "src": "/arquivos/Banner_Categorias_Desktop_03.jpg",
+      "link": {
+        "url": "/zapatos",
+        "attributeTitle": ""
+      },
+      "blockClass": "PromotionalBannerImg",
+      "width": "100%",
+      "aspect-ratio": "16/9"
+    }
+  }
 }

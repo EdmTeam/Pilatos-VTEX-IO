@@ -343,3 +343,17 @@
   height: auto !important;
   padding: 16px 16px 50px 16px !important;
 }
+
+/* Negrilla tenis desk y mobile */
+
+.styledLinkContent--menuLinkHeaderPilatos {
+    font-weight: 900;
+    color: black;
+  }
+
+.styledLinkContent--itemMenuLevelIconMobile{
+
+    font-weight: 900;
+    color: black;
+}
+  

@@ -16,7 +16,6 @@
       "custom-sticky#header-sticky-inactive",
       "custom-sticky#header-sticky-active",
       "head-segmentify",
-     // "link#content-chat-whatsapp",
       "segmentify",
       "experimental__visibility-layout#modal-component-custom-desk"
     ]
@@ -43,7 +42,6 @@
       "responsive-layout.tablet#header-tablet",
       "responsive-layout.phone#header-phone",
       "head-segmentify",
-      //"link#content-chat-whatsapp",
       "segmentify",
       "experimental__visibility-layout#modal-component-custom-mob"
     ]
