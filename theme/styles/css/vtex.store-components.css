@@ -306,14 +306,6 @@
   justify-content: center;
 }
 
-@media only screen and (min-width: 740px) {
-  .imageElementLink .imageElement {
-    width: 100%;
-    max-height: 100% !important;
-
-  }
-}
-
 .imageElement--imgLogoFooter1 {
   width: 100% !important;
   margin-top: 7px;
@@ -1046,4 +1038,24 @@
 .imageElement--submenu__mujer--sale  {
   max-width: 211px;
   max-height: 272px;
+}
+
+
+.imageElement--departmentBannerImg-topHome {
+  width: 100%;
+  aspect-ratio: 9/1;
+  object-fit: cover;
+}
+
+.imageElement--departmentBannerImg-topHome-Desktop {
+  width: 100%;
+  aspect-ratio: 96/5;
+  object-fit: cover;
+  max-height: 100% !important;
+}
+
+.imageElement--contentBanner {
+  max-width: 1992px;
+  max-height: 600px;
+  object-fit: cover;
 }
