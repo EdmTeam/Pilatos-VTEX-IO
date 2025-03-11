@@ -35,7 +35,7 @@
             "product-price#product",
             "flex-layout.col#sku",
             "flex-layout.col#btn-mi-talla",
-            "product-availability-custom#pdp_availability",
+            "product-availability#uno",
             "flex-layout.row#product-button-quantity",
             //"addi-infos",
             "flex-layout.row#logosPagos",
@@ -169,6 +169,7 @@
             "condition-layout.product#garment-care-newbalance-vestidos",
             //"link#scrollLink",
             "disclosure-layout#masDetallesSellers",
+            
             "share#default",
             "flex-layout.row#add-to-list-btn",
             "pilatos21.add-to-cart-button:add-to-cart-button",
@@ -436,7 +437,8 @@
       "children": [
         "flex-layout.col#seller-table#seller-product",
         // "rich-text#nitysic"
-        "sellers-data"
+        "sellers-data",
+        "product-specification-group#table"
       ]
     },
 
