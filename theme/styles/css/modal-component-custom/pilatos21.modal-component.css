@@ -19,7 +19,8 @@
         width: 200px;
         position: fixed;
         right: 4%;
-        top: 65%;
+        /*top: 65%;*/
+        top: 60%;
     }
 }
 
@@ -39,13 +40,13 @@
 }
 
 .estrategiaModalDctoClose--modal-promo:hover {
-    background-color: #ffd400;
+    background-color: #FFD400;
 }
 
 @media screen and (max-width: 1024px) {
     .estrategiaModalDctoClose {
-        top: -34px;
-        right: -8px !important;
+        top: -70px;
+        right: -16px !important;
         background: rgba(0, 0, 0, 0.55);
         border-radius: 4px;
         color: #fff !important;
@@ -54,7 +55,7 @@
     }
 
     .estrategiaModalDctoClose:hover {
-        background-color: #ffd400;
+        background-color: #FFD400;
     }
 
     .estrategiaModalDcto {
@@ -66,5 +67,11 @@
         z-index: 3 !important;
         top: 70%;
         right: 2%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .estrategiaModalDcto {
+        width: 240px !important;
     }
 }
