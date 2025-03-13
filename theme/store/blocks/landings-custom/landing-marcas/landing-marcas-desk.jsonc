@@ -1,6 +1,7 @@
 {
     "store.custom#landing-marcas-2025": {
         "blocks": [
+            "experimental__visibility-layout#banner-landing-general",
             "flex-layout.row#bread",
             "responsive-layout.desktop#templateBotonesGenero-desk",
             "responsive-layout.mobile#templateBotonesGenero-mobile",
