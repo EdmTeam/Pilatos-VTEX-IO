@@ -10,8 +10,8 @@
 }
 
 .saletext {
-  font-size: 18px;
-  font-weight: bold;
+  font-size: 17px;
+  /* font-weight: bold; */
   margin-right: 8px;
 }
 
@@ -26,12 +26,14 @@
 
 .contador {
   display: flex;
-  align-items: center;
-  margin-left: 5%;
+          align-items: center;
+          margin-right: 33%;
+          width: 40%;
 }
 
 .grupotextos--contador-promocion-contenedor {
-  width: 36%;
+  width: 45%;
+  margin-left: 6%;
 }
 
 .numero {
@@ -72,9 +74,10 @@
 .contenedortyc {
 
   position: absolute !important;
-  right: 8% !important;
+  right: 13% !important;
   transform: translateY(-2%) !important;
   font-size: 14px;
+  width: 15%;
 
 }
 
@@ -85,12 +88,13 @@
   .contador {
     display: flex;
     align-items: center;
-    margin-left: 7%;
+    margin-right: 32%;
+
   }
 
 
   .saletext {
-    font-size: 21px;
+    font-size: 23px;
 
   }
 
@@ -109,8 +113,15 @@
 
 
     font-size: 17px;
+    width: 19%;
   
   }
+
+  .grupotextos--contador-promocion-contenedor {
+    width: 44%;
+    margin-left: 12%;
+  }
+  
   
 
 
@@ -136,6 +147,14 @@
     padding-left: 1%;
   }
 
+  .contenedortyc{
+
+    right: 0% !important;
+  }
+  .contador{
+
+    width: 28%;
+  }
 
 }
 
@@ -159,7 +178,7 @@
     position: relative !important;
     width: 100%;
     text-align: center;
-
+    margin-left: 0;
     font-size: 12px;
   }
 
@@ -176,7 +195,7 @@
     justify-content: center;
     align-items: center;
     width: 27%;
-    margin-right: 13%;
+    margin-right: 5%;
     margin-top: 3%;
     gap: 6px;
   }
@@ -191,9 +210,9 @@
     width: 19%;
     font-size: 11px !important;
     position: absolute !important;
-    right: 10px !important;
+    right: 1% !important;
     text-align: right;
-    bottom: 55%;
+    bottom: 54%;
 
 
   }
@@ -207,9 +226,17 @@
 
   .label--contador-promocion-contenedor {
 
-    font-size: 14px;
+    font-size: 13px;
   }
 
 
   
+}
+
+
+@media (max-width: 360px) {
+  .contador {
+    margin-right: 17%;
+    gap: 3px;
+  }
 }
