@@ -42,11 +42,11 @@ const Contador = ({saletext, redireccion,redireccionTexto,finalDate,vertyc, camp
     const diferencia = fechaObjetivo - ahora;
 
     if (diferencia <= 0) {
-      return {horas: 0, minutos: 0, segundos: 0 };
+      return { dias: 0,horas: 0, minutos: 0, segundos: 0 };
     }
 
     return {
-
+      dias: Math.floor(diferencia / (1000 * 60 * 60 * 24)),
       horas: Math.floor((diferencia / (1000 * 60 * 60)) % 24),
       minutos: Math.floor((diferencia / (1000 * 60)) % 60),
       segundos: Math.floor((diferencia / 1000) % 60),
@@ -81,6 +81,11 @@ const Contador = ({saletext, redireccion,redireccionTexto,finalDate,vertyc, camp
  
 
     <div className={handles.contador}>
+
+    <div className={handles.item}>
+  <span className={handles.numero}>{String(tiempoRestante.dias).padStart(2, '0')}</span>
+  <span className={handles.label}>Días</span>
+  </div>
     
       <div className={handles.item}>
         <span className={handles.numero}>{String(tiempoRestante.horas).padStart(2, '0')}</span>
@@ -168,3 +173,5 @@ Contador.schema = {
 
 
 export default Contador;
+
+
