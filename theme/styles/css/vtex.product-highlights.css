@@ -128,6 +128,8 @@
 }
 /* Flag envio gratis */
 .productHighlightWrapper [data-highlight-id="1590"],
+/**Sellers**/
+.productHighlightWrapper [data-highlight-id="1805"],
 /*eliminar despues del 18 de agosto*/
 .productHighlightWrapper [data-highlight-id="1835"]{
     width: 35px;
