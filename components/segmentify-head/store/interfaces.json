@@ -4,5 +4,15 @@
   },
   "segmentify-div-search": {
     "component": "SegmentifyDivSearch"
+  },
+
+  "productNameh1": {
+    "component": "ProductNameH1"
   }
+
+  
+
+
+
 }
+

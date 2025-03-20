@@ -3,6 +3,7 @@
     "blocks": [
       "flex-layout.row#banner-department-pilatos",
       "search-result-layout.customQuery#department-pilatos",
+     
       "segmentify-carrousel"
     ],
     "props": {

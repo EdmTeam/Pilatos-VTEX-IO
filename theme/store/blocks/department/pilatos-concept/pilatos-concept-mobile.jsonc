@@ -35,6 +35,7 @@
           "flex-layout.row#fetch-previous",
           "flex-layout.row#content-mobile",
           "flex-layout.row#fetch-more",
+          "experimental__visibility-layout#banner-landing-concept",
           "rich-text#filtro-seo",
           "back-to-top-button"
         ],
@@ -130,5 +131,55 @@
             },
             "blockClass": "departmentBannerImg-1"
         }
-    }
+    },
+
+    /*landing final*/
+
+    "experimental__visibility-layout#banner-landing-concept": {
+        "title": "banner landing concept",
+        "children": ["flex-layout.row#bannerActivaciones-concept"],
+        "props": {
+          "visible": false
+        }
+      },
+
+      "flex-layout.row#bannerActivaciones-concept": {
+        "title": "BANNER LANDING",
+        "children": ["list-context.image-list#bannerActivaciones-concept"],
+        "props": {
+          "blockClass": "banner-activaciones-imagen-form"
+        }
+      },
+    
+      "list-context.image-list#bannerActivaciones-concept": {
+        "children": ["slider-layout#bannerActivaciones-concept"],
+        "props": {
+          "height": 570,
+          "preload": true,
+          "images": [
+            {
+              "image": "https://replaycolombia.vtexassets.com/assets/vtex.file-manager-graphql/images/e4638487-8fc3-40a1-bab9-112d1c4c94fd___823e0ae2368120ce9380a7913ee46296.jpg",
+              "mobileImage": "https://replaycolombia.vtexassets.com/assets/vtex.file-manager-graphql/images/5d63dd47-a0ee-41d4-a38d-3fdf1d9d2fe3___9bb528b46541f7614caf5968ff1a7ec4.jpg"
+            }
+          ]
+        }
+      },
+    
+      "slider-layout#bannerActivaciones-concept": {
+        "title": "Productos",
+        "props": {
+          "itemsPerPage": {
+            "desktop": 30,
+            "tablet": 30,
+            "phone": 30
+          },
+          "showNavigationArrows": "desktopOnly",
+          "showPaginationDots": "never",
+          "infinite": false,
+          "fullWidth": true,
+          "blockClass": "slide__banner"
+        }
+      }
+    
+    
 }
