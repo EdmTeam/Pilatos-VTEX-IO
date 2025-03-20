@@ -166,7 +166,8 @@
   "flex-layout.col#product-description":{
     "children":[
       "vtex.store-components:product-brand",
-      "vtex.store-components:product-name",
+      "productNameh1",
+      // "vtex.store-components:product-name",
       "flex-layout.row#product-identifier-rating"
 
     ],
@@ -353,7 +354,8 @@
   "product-availability#uno": {
     "props": {
       "threshold": 15000,
-      "lowStockMessage": "¡Stock disponible: {quantity} unidades!"
+      "lowStockMessage": "¡Stock disponible: {quantity} unidad(es)!",
+      "blockClass": "productAvailability-uno"
         }
   },
 

@@ -28,6 +28,7 @@
   },
   "search-result-layout.desktop": {
     "children": [
+      
       "seo-schema-plp",
       "flex-layout.row#banner-search",
       "flex-layout.row#bread-crumb",
@@ -36,6 +37,7 @@
       //"flex-layout.row#fetch-previous",
       "flex-layout.row#result",
       "flex-layout.row#spacer",
+      "experimental__visibility-layout#banner-landing-concept",
       "rich-text#filtro-seo",
       "back-to-top-button"
         ],
@@ -323,6 +325,7 @@
   },
   "flex-layout.row#content-mobile": {
     "children": [
+      
       "search-content"
     ],
     "props": {

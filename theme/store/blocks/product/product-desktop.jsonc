@@ -29,7 +29,8 @@
     "flex-layout.col#product-description-tablet": {
         "children": [
             "vtex.store-components:product-brand",
-            "vtex.store-components:product-name",
+            "productNameh1",
+            // "vtex.store-components:product-name",
             "flex-layout.row#product-identifier-rating",
             "vtex.product-highlights@2.x:product-highlights#collection",
             "product-price#product",
