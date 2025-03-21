@@ -7281,3 +7281,6 @@ optgroup[label="Recogida en tienda"] {
 }
 
 /***Recoger en tienda oculto***/
+.all-gifts-were-chosen::after {
+  content: " Si prefieres otra opción, desmarca el actual y elige tu favorito.";
+}
