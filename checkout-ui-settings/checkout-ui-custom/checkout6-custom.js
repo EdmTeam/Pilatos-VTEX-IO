@@ -132,6 +132,7 @@ $(window).on("load", function() {
         (e = document.createElement("script")).src = "https://www.mercadopago.com/v2/security.js", 
         e.setAttribute("output", "vtex.deviceFingerprint"), e.setAttribute("view", "checkout"), 
         document.body.appendChild(e), $(window).on("hashchange load", function() {
+            var e;
             function c(e) {
                 return 0 !== e.paymentData.giftCards.length;
             }
@@ -151,6 +152,7 @@ $(window).on("load", function() {
                     n.removeClass("hidden"));
                 }, 500);
             }
+            "#/cart" === location.hash && (e = document.querySelector(".select-gift")) && e.click(), 
             "#/payment" !== location.hash && "#payment" !== location.hash || ($(window).on("orderFormUpdated.vtex", function(e, t) {
                 console.log("El orderForm ha sido actualizado:", t), o(t);
             }), vtexjs.checkout.getOrderForm().then(function(e) {

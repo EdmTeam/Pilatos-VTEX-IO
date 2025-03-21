@@ -325,6 +325,17 @@ const CustomCheckoutExpress = (function () {
     })();
 
     $(window).on('hashchange load', function () {
+
+      if (location.hash === '#/cart') {
+
+        const firstSelectGift = document.querySelector('.select-gift')
+
+        if (firstSelectGift) {
+          // firstSelectGift.classList.remove('inactive')
+          // firstSelectGift.classList.add('active')
+          firstSelectGift.click()
+        }
+      }
       // Verifica si la página actual es la página de pago
       if (location.hash === '#/payment' || location.hash === '#payment') {
 
