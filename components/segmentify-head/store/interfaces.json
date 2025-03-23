@@ -6,8 +6,8 @@
     "component": "SegmentifyDivSearch"
   },
 
-  "productNameh1": {
-    "component": "ProductNameH1"
+  "ProductNameh1": {
+    "component": "ProductName"
   }
 
   
