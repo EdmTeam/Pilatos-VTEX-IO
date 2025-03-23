@@ -29,14 +29,15 @@
     "flex-layout.col#product-description-tablet": {
         "children": [
             "vtex.store-components:product-brand",
-            "ProductNameh1",
+            "ProductName",
             // "vtex.store-components:product-name",
             "flex-layout.row#product-identifier-rating",
             "vtex.product-highlights@2.x:product-highlights#collection",
             "product-price#product",
             "flex-layout.col#sku",
             "flex-layout.col#btn-mi-talla",
-            "product-availability#uno",
+             "product-availability#pdp_availability",
+            // "product-availability#uno",
             "flex-layout.row#product-button-quantity",
             //"addi-infos",
             "flex-layout.row#logosPagos",
@@ -184,6 +185,17 @@
             "width": "40%"
         }
     },
+
+    // contador stock
+    "product-availability#pdp_availability": {
+        "props": {
+          "threshold": 1000000,
+          "lowStockMessage": "Stock disponible {quantity} unidad(es)",
+          "highStockMessage": "",
+          "blockClass": "product-availability"
+        }
+      },
+      
 
     "flex-layout.row#product-button-quantity": {
         "children": [
