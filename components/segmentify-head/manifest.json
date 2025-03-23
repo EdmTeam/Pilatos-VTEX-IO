@@ -1,7 +1,7 @@
 {
   "vendor": "pilatos21",
   "name": "head-segmentify",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "title": "head-segmentify",
   "description": "head de segmentify",
   "builders": {
