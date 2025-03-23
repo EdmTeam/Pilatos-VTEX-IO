@@ -166,8 +166,8 @@
   "flex-layout.col#product-description":{
     "children":[
       "vtex.store-components:product-brand",
-      "productNameh1",
-      // "vtex.store-components:product-name",
+   
+      "vtex.store-components:product-name",
       "flex-layout.row#product-identifier-rating"
 
     ],
