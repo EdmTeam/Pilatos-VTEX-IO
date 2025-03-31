@@ -201,6 +201,10 @@
   width: 70%;
 }
 
+.wrapper--textSchedule .link--textSchedule {
+  color: #fff;
+}
+
 .link--linkFooter {
   color: #FFFFFF;
   text-decoration: none;
