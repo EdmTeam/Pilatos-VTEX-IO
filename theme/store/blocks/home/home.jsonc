@@ -9,7 +9,7 @@
       "flex-layout.row#bannerDescuento",
       "flex-layout.row#bannersCategorias",
       // [TEMPORAL] Activado para evento live shopping – eliminar tras finalizar el evento.
-      "flex-layout.row#carrusel-productos-colombiamoda-home-live-shopping-1",
+      //"flex-layout.row#carrusel-productos-colombiamoda-home-live-shopping-1",
       "flex-layout.row#texto-SEO",
       "rich-text#h1-pilatoshome",
       "responsive-layout.phone#brands-promise",
