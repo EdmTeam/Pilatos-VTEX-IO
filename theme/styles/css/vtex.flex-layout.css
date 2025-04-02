@@ -4199,3 +4199,23 @@
     height: 550px;
   }
 }
+
+/*****Estilos cuidados de prendas****/
+.flexColChild--contenedor-primera-compra-icons  {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+.flexCol--contenedor-primera-compra-icons 
+.flexColChild--contenedor-primera-compra-icons:first-child {
+  display: none;
+}
+
+.flexCol--contenedor-primera-compra-icons 
+.flexColChild--contenedor-primera-compra-icons:last-child::before {
+  content: "•";
+  display: flex;
+}
+/*****Estilos cuidados de prendas****/
