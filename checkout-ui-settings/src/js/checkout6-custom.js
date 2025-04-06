@@ -492,9 +492,20 @@ $(window).on('orderFormUpdated.vtex', function (e, orderForm) {
 })
 
 // Llamar a la función por primera vez para mostrar el método de pago actual
-vtexjs.checkout.getOrderForm().done(function (orderForm) {
-  handlePaymentMethodChange(orderForm)
-})
+
+function waitForVTEXJS(callback) {
+  if (typeof vtexjs !== "undefined" && vtexjs.checkout) {
+    callback();
+  } else {
+    setTimeout(() => waitForVTEXJS(callback), 100);
+  }
+}
+
+waitForVTEXJS(() => {
+  vtexjs.checkout.getOrderForm().done(function (orderForm) {
+    handlePaymentMethodChange(orderForm);
+  });
+});
 
 // Recoger en tienda que oculte el metodo de pago contra entrega
 //const hideContraEntregaStore = (location) => {
