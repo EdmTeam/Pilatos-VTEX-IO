@@ -186,12 +186,18 @@ function handlePaymentMethodChange(e) {
     isInPaymentRoute() && (e = e.paymentData.payments[0]?.paymentSystem) && ("201" === e ? $("#show-gift-card-group").hide() : $("#show-gift-card-group").show());
 }
 
+function waitForVTEXJS(e) {
+    "undefined" != typeof vtexjs && vtexjs.checkout ? e() : setTimeout(() => waitForVTEXJS(e), 100);
+}
+
 $(document).ready(function() {
     CustomCheckoutExpress.init();
 }), $(window).on("orderFormUpdated.vtex", function(e, t) {
     handlePaymentMethodChange(t);
-}), vtexjs.checkout.getOrderForm().done(function(e) {
-    handlePaymentMethodChange(e);
+}), waitForVTEXJS(() => {
+    vtexjs.checkout.getOrderForm().done(function(e) {
+        handlePaymentMethodChange(e);
+    });
 });
 
 const getScreenEndpoint = () => {

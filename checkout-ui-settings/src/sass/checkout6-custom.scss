@@ -6695,7 +6695,8 @@ body {
 
 #payment-data .steps-view[data-bind="visible: showPaymentOptions"] .SisteCreditoPaymentGroup .payment-description:after {
   content: " ";
-  background-image: url(/arquivos/SISTECREDITO-600X600_2.jpg);
+  background-image: url(/arquivos/banner-mediodepago-sistecredito.jpg
+  );
   width: 100%;
   height: 400px;
   display: block;
@@ -6763,7 +6764,8 @@ body {
 
 #payment-data .steps-view[data-bind="visible: showPaymentOptions"] .WompiCoPaymentGroup .payment-description:after {
   content: " ";
-  background-image: url(/arquivos/WOMPICO-600X600_2.jpg);
+  background-image: url(/arquivos/banner-mediodepago-wompi-new.jpg
+  );
   width: 100%;
   height: 400px;
   display: block;
@@ -6994,4 +6996,8 @@ optgroup[label="Recogida en tienda"] { display: none; }
 
 .all-gifts-were-chosen::after {
   content: " Si prefieres otra opción, desmarca el actual y elige tu favorito.";
+}
+
+.srp-delivery-current-many__sla {
+  display: none !important;
 }
