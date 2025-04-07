@@ -7258,10 +7258,6 @@ button#payment-data-submit {
 }
 
 /***Recoger en tienda oculto***/
-.body-order-form .container-main.container-order-form .orderform-active .orderform-template .orderform-template-holder .step.accordion-group.shipping-data .accordion-inner .box-step div#delivery-packages-options > div:last-child {
-  display: none !important;
-}
-
 .srp-toggle__pickup {
   display: none;
 }
@@ -7285,6 +7281,6 @@ optgroup[label="Recogida en tienda"] {
   content: " Si prefieres otra opción, desmarca el actual y elige tu favorito.";
 }
 
-.srp-delivery-current-many__sla {
+.vtex-omnishipping-1-x-leanShippingGroupList span {
   display: none !important;
 }
