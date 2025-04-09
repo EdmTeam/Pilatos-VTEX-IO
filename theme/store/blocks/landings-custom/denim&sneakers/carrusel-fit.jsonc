@@ -1,0 +1,48 @@
+{
+  "vtex.product-summary:list-context.product-list#landing-denimsneakers": {
+    "blocks": ["vtex.product-summary:product-summary.shelf#most-viewed"],
+    "children": ["slider-layout#landing-denimsneakers-recomendador"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "blockClass": "slider-denimsneakers", 
+      "collection": "1586",
+      "maxItems": 30
+    }
+  },
+  "slider-layout#landing-denimsneakers-recomendador": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 2,
+        "tablet": 2,
+        "phone": 1
+      },
+      "blockClass": "slider-denimsneakers",
+      "infinite": false,
+      "showNavigationArrows": "always",
+      "showPaginationDots": "mobileOnly"
+    }
+  },
+  "vtex.product-summary:list-context.product-list#landing-denimsneakers-mujer": {
+    "blocks": ["vtex.product-summary:product-summary.shelf#most-viewed"],
+    "children": ["slider-layout#landing-denimsneakers-recomendador-mujer"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "blockClass": "slider-denimsneakers", 
+      "collection": "1586",
+      "maxItems": 30
+    }
+  },
+  "slider-layout#landing-denimsneakers-recomendador-mujer": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 2,
+        "tablet": 2,
+        "phone": 1
+      },
+      "blockClass": "slider-denimsneakers",
+      "infinite": false,
+      "showNavigationArrows": "always",
+      "showPaginationDots": "mobileOnly"
+    }
+  }
+}
