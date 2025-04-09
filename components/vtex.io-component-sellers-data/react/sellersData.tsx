@@ -5,7 +5,7 @@ import { useCssHandles } from 'vtex.css-handles'
 const sellers = [
   { sellerName: "bscolombia", nit: "805.005.865-7", sic: "805.005.865-7" },
   { sellerName: "AGUA BENDITA S.A.S.", nit: "811044893-1", sic: "811044893-1" },
-  { sellerName: "DOPPLER", nit: "800164923-9", sic: "800164923-9" },
+  { sellerName: "Disandina S.A.S", nit: "800164923-9", sic: "800164923-9" },
   { sellerName: "vans", nit: "900.460.312-0", sic: "900.460.312-0" },
   { sellerName: "new era", nit: "900.460.312-0", sic: "900.460.312-0" },
   { sellerName: "jansportc", nit: "900.460.312-0", sic: "900.460.312-0" },
@@ -24,8 +24,11 @@ const SellersData = () => {
   const handles = useCssHandles(CSS_HANDLES)
   const context = useProduct();
   const [isOwnSeller, setIsOwnSeller] = useState(false);
+  
 
   const sellerName = context?.selectedItem?.sellers[0].sellerName;
+
+  console.log("sellerName", sellerName)
 
 
   const findSellerDetails = (name: string) => {
