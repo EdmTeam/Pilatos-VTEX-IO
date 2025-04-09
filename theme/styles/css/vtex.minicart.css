@@ -64,8 +64,21 @@
 }
 
 .minicartSideBarContentWrapper--contentMinicart{
-    height: 100% !important;
+    height:100% !important;
 }
+
+/*pantalla normal*/
+@media (min-width: 1024px) {
+    .minicartSideBarContentWrapper--contentMinicart{
+        height: 323px !important;
+    }
+  }
+/*pantalla extragrandes*/
+  @media (min-width: 1440px) {
+    .minicartSideBarContentWrapper--contentMinicart{
+        height:100% !important;
+    }
+  }
 
 .closeIconButton--contentMinicart{
     position: absolute;
@@ -208,6 +221,11 @@
     color: #848484;
 }
 
+@media (min-width: 1024px) {
+    .minicartContentContainer {
+      overflow-y: auto;
+    }
+  }
 .portalContainer--contentMinicart{
     top: 5px !important;
     left: -3px !important;

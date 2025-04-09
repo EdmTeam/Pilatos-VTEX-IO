@@ -4068,4 +4068,32 @@
   }
 }
 
+/*menu mobile sale*/
+.paragraph--submenuSaleItem {
+  font-weight: bold;
+  padding-left: 1rem;
+  padding-bottom: 0.25rem;
+  display: inline-block;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.3s ease;
+  cursor: pointer;
+}
 
+.paragraph--submenuSaleItem:hover {
+  border-bottom: 2px solid #FFD700;
+}
+/*FIN menu mobile sale*/
+
+
+/*medios de pago PDP */
+.paragraph--texto-medio-de-pago-pdp {
+  color: #525050;
+font-size: 13px;
+margin: 0;
+}
+
+
+
+
+
+/*Fin medios de pago PDP */

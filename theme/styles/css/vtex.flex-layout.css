@@ -455,7 +455,7 @@
 }
 
 .flexRow--contentFooterMenu {
-  position: fixed;
+  /* position: fixed; */
   bottom: 0;
   left: 0;
   margin-bottom: 2rem;
@@ -4219,3 +4219,33 @@
   display: flex;
 }
 /*****Estilos cuidados de prendas****/
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .flexRowContent--submenuSaleContent{
+
+    display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1rem;
+    }
+
+}
+
+
+/*medios de pago PDP*/
+.flexRow--medios-de-pagos-pdp {
+  margin-top: 2%;
+}
+
+
+
+@media (max-width: 767px) {
+  .flexRowContent--medios-de-pagos-pdp {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+

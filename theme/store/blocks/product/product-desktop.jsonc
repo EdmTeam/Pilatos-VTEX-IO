@@ -35,12 +35,15 @@
             "vtex.product-highlights@2.x:product-highlights#collection",
             "product-price#product",
             "flex-layout.col#sku",
+            "script-html",
+            "script-sizebay",
             "flex-layout.col#btn-mi-talla",
              "product-availability#pdp_availability",
             // "product-availability#uno",
             "flex-layout.row#product-button-quantity",
             //"addi-infos",
-            "flex-layout.row#logosPagos",
+            // "flex-layout.row#logosPagos",
+              "flex-layout.row#medios-de-pago-pdp",
             "flex-layout.row#productValorOffer",
             // "rich-text#title-descripcionProducto",
             // "flex-layout.row#productDescripcion",
@@ -185,6 +188,33 @@
             "width": "40%"
         }
     },
+
+
+      //LOGOS PAGOS NUEVOS
+      "flex-layout.row#medios-de-pago-pdp": {
+        "title": "Medios de pago",
+        "children": [
+          "rich-text#texto-medio-de-pago",
+          "image#medios-de-pago-pdp"
+        ],
+        "props": {
+          "blockClass": "medios-de-pagos-pdp"
+        }
+      },
+     
+      "rich-text#texto-medio-de-pago": {
+        "props": {
+          "text": "Paga a crédito con",
+          "blockClass": "texto-medio-de-pago-pdp"
+        }
+      },
+     
+      "image#medios-de-pago-pdp": {
+        "props": {
+          "src": "/arquivos/medios-e-pago-pdp-diesel.png",
+          "blockClass": "imagen-mdeios-de-pago-pdp"
+        }
+      },
 
     // contador stock
     "product-availability#pdp_availability": {
