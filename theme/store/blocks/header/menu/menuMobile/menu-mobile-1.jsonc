@@ -1,5 +1,6 @@
 {
     "flex-layout.row#submenu-level-1-row-1": {
+        "title": "menu mobile hombre",
         "children": [
             "flex-layout.row#submenu-level-1-texto-row-1",
             "drawer#submenu-level-1-row-1"
@@ -97,5 +98,169 @@
             "text": "",
             "blockClass": "closeIco"
         }
-    }
+    },
+
+
+    //sale
+
+    "flex-layout.row#submenu-level-1-row-sale": {
+        "title": "menu mobile sale",
+  "children": [
+    "flex-layout.row#submenu-level-1-texto-row-sale",
+    "drawer#submenu-level-1-row-sale"
+  ],
+  "props": {
+    "blockClass": "contenItemsLevel1"
+  }
+},
+
+"flex-layout.row#submenu-level-1-texto-row-sale": {
+  "children": [
+    "rich-text#submenu-level-1-texto-row-sale",
+    "rich-text#submenu-level-1-icono-row-sale"
+  ],
+  "props": {
+    "preserveLayoutOnMobile": true
+  }
+},
+
+"rich-text#submenu-level-1-texto-row-sale": {
+    "title": "menu sale",
+  "props": {
+    "text": "SALE",
+    "blockClass": "itemMenuLevel1",
+    "width": "90%"
+  }
+},
+
+"rich-text#submenu-level-1-icono-row-sale": {
+  "props": {
+    "text": "",
+    "blockClass": "icoMenuLevel1",
+    "width": "10%"
+  }
+},
+
+"drawer#submenu-level-1-row-sale": {
+  "props": {
+    "blockClass": "menuDrawerLevel1",
+    "slideDirection": "leftToRight",
+    "maxWidth": 315,
+    "width": "90%"
+  },
+  "blocks": [
+    "drawer-header#submenu-level-1-row-sale"
+  ],
+  "children": [
+    "flex-layout.row#submenu-level-2-sale"
+  ]
+},
+
+"drawer-header#submenu-level-1-row-sale": {
+  "children": [
+    "flex-layout.row#submenu-level-1-items-row-sale"
+  ],
+  "props": {
+    "blockClass": "contenedorMenuHeader"
+  }
+},
+
+"flex-layout.row#submenu-level-1-items-row-sale": {
+  "children": [
+    "flex-layout.row#close-drawer-row-sale"
+  ]
+},
+
+"flex-layout.row#close-drawer-row-sale": {
+  "children": [
+    "drawer-close-button#menu"
+  ],
+  "props": {
+    "preserveLayoutOnMobile": true,
+    "preventHorizontalStretch": true,
+    "blockClass": "contentBtnClose"
+  }
+},
+
+"close-menu-mobile#close-drawer-row-sale": {
+  "children": [
+    "rich-text#submenu-close-icono-sale"
+  ]
+},
+
+"rich-text#submenu-close-icono-sale": {
+  "props": {
+    "text": "",
+    "blockClass": "closeIco"
+  }
+},
+
+"flex-layout.row#submenu-level-2-sale": {
+  "children": [
+    "flex-layout.row#submenu-level-2-row-sale"
+  ],
+  "props": {
+    "blockClass": "contenItemsLevel2"
+  }
+},
+
+"flex-layout.row#submenu-level-2-row-sale": {
+  "children": [
+    "image#submenu-sale-img",
+    "rich-text#submenu-sale-hombre",
+    "rich-text#submenu-sale-mujer",
+    "rich-text#submenu-ver-todo-sale"
+  ],
+  "props": {
+    "blockClass": "submenuSaleContent",
+    "horizontalAlign": "left",
+    "preventHorizontalStretch": true
+  }
+},
+"image#submenu-sale-img": {
+  "props": {
+    "src": "https://pilatos21.vtexassets.com/assets/vtex.file-manager-graphql/images/c087999e-3012-42a3-bfd0-413b0c281782___d066fd9c1337c347582a9fb682488dea.png",  
+    "alt": "Imagen de Sale",
+    "blockClass": "submenuSaleImage"
+  }
+},
+
+"rich-text#submenu-sale-hombre": {
+    "title": "Sale hombre",
+  "props": {
+    "text": "Sale hombre",
+    "link": {
+      "url": "/sale-hombre"
+    },
+    "blockClass": "submenuSaleItem"
+  }
+},
+
+"rich-text#submenu-sale-mujer": {
+    "title": "Sale mujer",
+  "props": {
+    "text": "Sale mujer",
+    "link": {
+      "url": "/sale-mujer"
+    },
+    "blockClass": "submenuSaleItem"
+  }
+},
+
+ "rich-text#submenu-ver-todo-sale":{
+    "title": "Ver todo",
+    "props": {
+        "text": "Ver todo",
+        "link": {
+          "url": "/sale"
+        },
+        "blockClass": "submenuSaleItem"
+      }
+
+ }
+
+
+
+
+    // fin sale
 }

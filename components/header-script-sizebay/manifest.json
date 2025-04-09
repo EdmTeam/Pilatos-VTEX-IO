@@ -1,0 +1,21 @@
+{
+  "vendor": "pilatos21",
+  "name": "script-sizebay",
+  "version": "0.0.1",
+  "title": "Script sizebay",
+  "defaultLocale": "en-EN",
+  "builders": {
+    "store": "0.x",
+    "react": "3.x"
+  },
+  "mustUpdateAt": "2019-04-02",
+  "scripts": {
+    "postreleasy": "vtex publish --verbose"
+  },
+  "dependencies": {
+    "vtex.store-components": "3.x",
+    "vtex.slider": "0.x",
+    "vtex.store-icons": "0.x"
+  },
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}

@@ -1,14 +1,40 @@
 {
     "flex-layout.row#submenu-level-1-row-9": {
+        "title": "menu mobile bolos y cambios y dev",
         "children": [
             "flex-layout.row#submenu-level-1-texto-row-9",
             "rich-text#cambiosdev"
+           
             // "drawer#submenu-level-1-row-6"
         ],
         "props": {
             "blockClass": "contenItemsLevel1"
         }
     },
+
+    //imagen mobile
+
+    "flex-layout.row#submenu-level-1-row-10-imagen": {
+        "title": "imagen menu mobile",
+    "children": [
+      "image#submenu-level-1-img"
+    ],
+    "props": {
+      "blockClass": "submenu-mobile-row"
+    }
+  },
+  "image#submenu-level-1-img": {
+    "props": {
+      "src": "https://pilatos21.vtexassets.com/assets/vtex.file-manager-graphql/images/c087999e-3012-42a3-bfd0-413b0c281782___d066fd9c1337c347582a9fb682488dea.png",
+      "alt": "imagen-mobile-menu",
+      "link": {
+        "url": "/ruta-del-menu",
+        "noFollow": false
+      }
+    }
+  },
+    // fin imagen mobile
+
 
     //Texto del menu
     "flex-layout.row#submenu-level-1-texto-row-9": {

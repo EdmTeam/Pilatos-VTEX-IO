@@ -1,0 +1,8 @@
+{
+  "script-sizebay": {
+    "component": "SizebayScript"
+  },
+  "script-html": {
+    "component": "SizebayHtml"
+  }
+}
