@@ -1,0 +1,42 @@
+.flexRow--carrusel-productos-denimsneakers {
+    width: 80%;
+    margin: 0 auto;
+}
+.flexRow--contenedor-titulo-denimsneakers {
+    width: 85%;
+    margin: 0 auto;
+}
+.flexCol--carrusel-productos-denimsneakers {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+/***MOBILE***/
+.flexRow--contenedor-principal-denimsneakers-mujer-row {
+    background-color: #E9E9E9;
+}
+.flexRowContent--contenedor-principal-denimsneakers-mujer-row {
+    padding: 25px 0;
+    margin-top: 30px;
+}
+@media screen and (max-width:768px) {
+    .flexRowContent--carrusel-productos-denimsneakers {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 15px;
+        width: 100%;
+    }
+    .flexRowContent--carrusel-productos-denimsneakers :global(.vtex-flex-layout-0-x-stretchChildrenWidth)  {
+        width: 50% !important;
+    }
+    .flexRow--carrusel-productos-denimsneakers {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .flexRow--contenedor-titulo-denimsneakers {
+        width: 95%;
+        margin: 0 auto;
+    }
+}

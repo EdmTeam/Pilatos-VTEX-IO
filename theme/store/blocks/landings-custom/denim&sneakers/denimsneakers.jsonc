@@ -1,0 +1,242 @@
+{
+  "store.custom#landing-denimsneakers": {
+    "blocks": [
+        "experimental__visibility-layout#texto-seo-landing-denimsneakers",
+        "experimental__visibility-layout#banner-landing-denimsneakers",
+        "experimental__visibility-layout#carrusel-hombre-landing-denimsneakers",
+        "experimental__visibility-layout#carrusel-mujer-landing-denimsneakers",
+        "search-result-layout.customQuery#vitrina-pilatos-general",
+      "experimental__visibility-layout#texto-seo-final-general"
+    ]
+  },
+
+  //SEO CORTO
+  "experimental__visibility-layout#texto-seo-landing-denimsneakers": {
+    "title": "texto seo general",
+    "children": ["flex-layout.row#texto-seo-landing-denimsneakers"],
+    "props": {
+      "visible": true
+    }
+  },
+  "flex-layout.row#texto-seo-landing-denimsneakers": {
+    "title": "texto seo principal",
+    "children": ["rich-text#texto-seo-landing-denimsneakers"],
+    "props": {
+      "blockClass": "seo-texto-general-contenedor-landing-denimsneakers"
+    }
+  },
+  "rich-text#texto-seo-landing-denimsneakers": {
+    "props": {
+      "text": "# **Renueva tu Estilo con la colección INDIGO VIBES PILATOS**  \n Disfruta de una selección exclusiva de Denim y Sneakers de las mejores marcas desde 10 de abril 2025. ¡No te pierdas la colección INDIGO VIBES de Pilatos!",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "contenido-seo-landing-denimsneakers"
+    }
+  },
+
+  //BANNER LANDING
+  "experimental__visibility-layout#banner-landing-denimsneakers": {
+    "title": "Banner landing",
+    "children": ["flex-layout.row#banner-denimsneakers"],
+    "props": {
+      "visible": true
+    }
+  },
+  "flex-layout.row#banner-denimsneakers": {
+    "title": "BANNER LANDING",
+    "children": ["list-context.image-list#banner-denimsneakers"],
+    "props": {
+      "blockClass": "banner-activaciones-imagen-form",
+      "marginBottom": 6
+    }
+  },
+  "list-context.image-list#banner-denimsneakers": {
+    "children": ["slider-layout#banner-denimsneakers"],
+    "props": {
+      "height": 570,
+      "preload": true,
+      "images": [
+        {
+          "image": "/arquivos/PILATOS Indigo_Banner Landing Escritorio.png",
+          "mobileImage": "/arquivos/PILATOS Indigo_Banner Landing Mobile.png"
+        }
+      ]
+    }
+  },
+  "slider-layout#banner-denimsneakers": {
+    "title": "Slier denimsneakers",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "never",
+      "infinite": false,
+      "fullWidth": true,
+      "blockClass": "slide__banner"
+    }
+  },
+
+  //CARRUSEL HOMBRE
+  "experimental__visibility-layout#carrusel-hombre-landing-denimsneakers": {
+    "title": "Crrusel de productos hombre",
+    "children": [
+        "flex-layout.row#title-denimsneakers",
+        "flex-layout.row#carrusel-hombre-landing-denimsneakers"
+    ],
+    "props": {
+      "visible": true
+    }
+  },
+  "flex-layout.row#title-denimsneakers": {
+    "children": [
+        "rich-text#hombre-titulo-denimsneakers"
+    ],
+    "props": {
+        "blockClass": "contenedor-titulo-denimsneakers"
+    }
+  },
+  "rich-text#hombre-titulo-denimsneakers": {
+    "props": {
+        "text": "Man Outfits",
+        "blockClass": "titulo-denimsneakers"
+    }
+  },
+  "flex-layout.row#carrusel-hombre-landing-denimsneakers": {
+    "title": "Carrusel video y productos hombre",
+    "children": [
+        "flex-layout.col#video-hombre-landing-denimsneakers",
+        "flex-layout.col#carrusel-productos-hombre-landing-denimsneakers"
+    ],
+    "props": {
+        "blockClass": "carrusel-productos-denimsneakers",
+        "horizontalAlign": "center",
+        "rowGap": 4,
+        "colGap": 4,
+        "marginBottom": 6
+    }
+  },
+  "flex-layout.col#video-hombre-landing-denimsneakers": {
+    "children": [
+        "video#landing-denimsneakers-video-hombre"
+    ],
+    "props": {
+        "blockClass": "video-productos--denimsneakers",
+        "width": "30%"
+    }
+  },
+  "video#landing-denimsneakers-video-hombre": {
+    "props": {
+        "width": "100%",
+        "loop": false,
+        "autoPlay": true,
+        "muted": false,
+        "src": "https://estudiodemoda.co/wp-content/uploads/2025/04/PILATOS-Indigo_Escritorio-Landing-Hombre.mp4",
+        "blockClass": "video-carrusel-productos--denimsneakers"
+    }
+  },
+
+  //CARUSEL
+  "flex-layout.col#carrusel-productos-hombre-landing-denimsneakers": {
+    "children": [
+        "vtex.product-summary:list-context.product-list#landing-denimsneakers"
+    ],
+    "props": {
+        "blockClass": "carrusel-productos--denimsneakers",
+        "width": "70%"
+    }
+  },
+
+
+  //MUJER
+  //CARRUSEL MUJER
+  "experimental__visibility-layout#carrusel-mujer-landing-denimsneakers": {
+    "title": "Crrusel de productos mujer",
+    "children": [
+        "flex-layout.row#contenedor-principal-denimsneakers-mujer"
+    ],
+    "props": {
+      "visible": true
+    }
+  },
+  "flex-layout.row#contenedor-principal-denimsneakers-mujer": {
+    "title": "Contenedor principal denimsneakers mujer",
+    "children": [
+        "flex-layout.col#contenedor-principal-denimsneakers-mujer"
+    ],
+    "props": {
+        "blockClass": "contenedor-principal-denimsneakers-mujer-row",
+        "marginBottom": 4
+    }
+  },
+
+  "flex-layout.col#contenedor-principal-denimsneakers-mujer": {
+    "children": [
+        "flex-layout.row#title-denimsneakers-mujer",
+        "flex-layout.row#carrusel-mujer-landing-denimsneakers"
+    ],
+    "props": {
+        "blockClass": "contenedor-principal-denimsneakers-mujer-col"
+    }
+  },
+
+  "flex-layout.row#title-denimsneakers-mujer": {
+    "children": [
+        "rich-text#mujer-titulo-denimsneakers"
+    ],
+    "props": {
+        "blockClass": "contenedor-titulo-denimsneakers"
+    }
+  },
+  "rich-text#mujer-titulo-denimsneakers": {
+    "props": {
+        "text": "Woman Outfits",
+        "blockClass": "titulo-denimsneakers"
+    }
+  },
+  "flex-layout.row#carrusel-mujer-landing-denimsneakers": {
+    "title": "Carrusel video y productos mujer",
+    "children": [
+        "flex-layout.col#video-mujer-landing-denimsneakers",
+        "flex-layout.col#carrusel-productos-mujer-landing-denimsneakers"
+    ],
+    "props": {
+        "blockClass": "carrusel-productos-denimsneakers",
+        "horizontalAlign": "center",
+        "rowGap": 4,
+        "colGap": 4
+    }
+  },
+  "flex-layout.col#video-mujer-landing-denimsneakers": {
+    "children": [
+        "video#landing-denimsneakers-video-mujer"
+    ],
+    "props": {
+        "blockClass": "video-productos--denimsneakers",
+        "width": "30%"
+    }
+  },
+  "video#landing-denimsneakers-video-mujer": {
+    "props": {
+        "width": "100%",
+        "loop": false,
+        "autoPlay": true,
+        "muted": false,
+        "src": "https://estudiodemoda.co/wp-content/uploads/2025/04/PILATOS-Indigo_Escritorio-Landing-Mujer.mp4",
+        "blockClass": "video-carrusel-productos--denimsneakers"
+    }
+  },
+
+  //CARUSEL
+  "flex-layout.col#carrusel-productos-mujer-landing-denimsneakers": {
+    "children": [
+        "vtex.product-summary:list-context.product-list#landing-denimsneakers-mujer"
+    ],
+    "props": {
+        "blockClass": "carrusel-productos--denimsneakers",
+        "width": "70%"
+    }
+  }
+}
