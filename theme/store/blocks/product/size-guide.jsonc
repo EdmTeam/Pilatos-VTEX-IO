@@ -1,4 +1,75 @@
 {
+"size-guide#tenis__converse--hombre": {
+        "props": {
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000139"
+                    ],
+                    "categories": [
+                        "3"
+                    ],
+                    "imageDesktop": "/arquivos/Converse-ZapatosHombre-GuiaTallas-2025.jpg",
+                    "imageTablet": "/arquivos/Converse-ZapatosHombre-GuiaTallas-2025.jpg",
+                    "imagePhone": "/arquivos/Converse-ZapatosHombre-GuiaTallas-2025.jpg"
+                }
+            ]
+        }
+    },
+    "size-guide#tenis__converse--mujer": {
+        "props": {
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000139"
+                    ],
+                    "categories": [
+                        "44",
+                        "47"
+                    ],
+                    "imageDesktop": "/arquivos/Converse-ZapatosMujer-GuiaTallas-2025.jpg",
+                    "imageTablet": "/arquivos/Converse-ZapatosMujer-GuiaTallas-2025.jpg",
+                    "imagePhone": "/arquivos/Converse-ZapatosMujer-GuiaTallas-2025.jpg"
+                }
+            ]
+        }
+    },
+    "size-guide#tenis__dcShoes--hombre": {
+        "props": {
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000141"
+                    ],
+                    "categories": [
+                        "3"
+                    ],
+                    "imageDesktop": "/arquivos/DC-Zapatoshombre-GuiaTallas-2025.jpg",
+                    "imageTablet": "/arquivos/DC-Zapatoshombre-GuiaTallas-2025.jpg",
+                    "imagePhone": "/arquivos/DC-Zapatoshombre-GuiaTallas-2025.jpg"
+                }
+            ]
+        }
+    },
+    "size-guide#tenis__dcShoes--mujer": {
+        "props": {
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000141"
+                    ],
+                    "categories": [
+                        "44",
+                        "47"
+                    ],
+                    "imageDesktop": "/arquivos/DC-Zapatosmujer-GuiaTallas-2025.jpg",
+                    "imageTablet": "/arquivos/DC-Zapatosmujer-GuiaTallas-2025.jpg",
+                    "imagePhone": "/arquivos/DC-Zapatosmujer-GuiaTallas-2025.jpg"
+                }
+            ]
+        }
+    },
+    
     "size-guide#zapatos-mujer-adidas": {
         "props": {
             "conditionals": [
