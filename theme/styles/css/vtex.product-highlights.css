@@ -2,6 +2,29 @@
     font-size: 0;
 }
 
+/*flag addi abril 2025*/
+
+.productHighlightWrapper [data-highlight-id="2090"]{
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(/arquivos/PILATOS_ADDI_FLAG.png);
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .productHighlightWrapper [data-highlight-id="2090"]{
+        position: absolute !important;
+        top: 0;
+        left: 0 !important;
+      
+    }
+    
+  }
+
+ 
+
 /* hotdays */
 
 .productHighlightWrapper [data-highlight-id="2072"]{
@@ -25,7 +48,6 @@
 
 
 
- 
 /* sale enero 2025 */
 
 .productHighlightWrapper [data-highlight-id="2022"]{
