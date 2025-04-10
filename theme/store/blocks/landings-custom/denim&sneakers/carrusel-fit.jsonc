@@ -19,7 +19,7 @@
       "blockClass": "slider-denimsneakers",
       "infinite": false,
       "showNavigationArrows": "always",
-      "showPaginationDots": "mobileOnly"
+      "showPaginationDots": "never"
     }
   },
   "vtex.product-summary:list-context.product-list#landing-denimsneakers-mujer": {
@@ -42,7 +42,7 @@
       "blockClass": "slider-denimsneakers",
       "infinite": false,
       "showNavigationArrows": "always",
-      "showPaginationDots": "mobileOnly"
+      "showPaginationDots": "never"
     }
   }
 }
