@@ -3,15 +3,14 @@ import { useProduct } from 'vtex.product-context';
 import { useCssHandles } from 'vtex.css-handles'
 
 const sellers = [
-  { sellerName: "bscolombia", nit: "805.005.865-7", sic: "805.005.865-7" },
+  { sellerName: "Bancolombia", nit: "805.005.865-7", sic: "805.005.865-7" },
   { sellerName: "AGUA BENDITA S.A.S.", nit: "811044893-1", sic: "811044893-1" },
   { sellerName: "Disandina S.A.S", nit: "800164923-9", sic: "800164923-9" },
-  { sellerName: "vans", nit: "900.460.312-0", sic: "900.460.312-0" },
-  { sellerName: "new era", nit: "900.460.312-0", sic: "900.460.312-0" },
+  { sellerName: "Dynamo Distribution S.A.S", nit: "900.460.312-0", sic: "900.460.312-0" },
   { sellerName: "jansportc", nit: "900.460.312-0", sic: "900.460.312-0" },
-  { sellerName: "The North Face", nit: "900.017.250-4", sic: "900.017.250-4" },
+  { sellerName: "Pernine Ltda.", nit: "900.017.250-4", sic: "900.017.250-4" },
   { sellerName: "Kappa", nit: "900.017.250-4", sic: "900.017.250-4" },
-  { sellerName: "Estudio de Moda S.A.", nit: "890926803", sic: "890.926.803" }
+  { sellerName: "Estudio de Moda S.A.S", nit: "890926803", sic: "890.926.803" }
 ];
 
 const CSS_HANDLES = [
@@ -39,7 +38,7 @@ const SellersData = () => {
   const sellerDetails = sellerName ? findSellerDetails(sellerName): null
 
   useEffect (()=> {
-      setIsOwnSeller(sellerName === "Estudio de Moda S.A.");
+      setIsOwnSeller(sellerName === "Estudio de Moda S.A.S");
       console.log("Este es el estado >>", isOwnSeller);
   }, [sellerName])
 

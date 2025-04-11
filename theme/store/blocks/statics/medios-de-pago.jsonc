@@ -31,7 +31,7 @@
     },
     "rich-text#descripcion-pagos": {
         "props": {
-            "text": " En Pilatos ofrecemos múltiples opciones de medios de pago, puedes comprar con una o más tarjetas de crédito, con tarjeta de débito, en efectivo, con Nequi o si prefieres realizar tus pagos a cuotas con ADDI o Sistecrédito. Compra de manera segura, paga con tu método de pago de preferencia y recibe en casa. ¡Aprovecha y estrena!",
+            "text": " En Pilatos ofrecemos múltiples opciones de medios de pago compra de manera segura, paga con tu método de pago de preferencia y recibe en casa. ¡Aprovecha y estrena! ",
             "blockClass": "title-statict-parrafo"
         }
     },
@@ -40,21 +40,101 @@
             "orientation": "vertical"
         },
         "children": [
-            "menu-item#tarjeta-credito",
-            "menu-item#tarjeta-debito",
-            "menu-item#tarjeta-pse",
-            "menu-item#tarjeta-addi",
-            "menu-item#tarjeta-boton-bancolombia",
-            "menu-item#tarjeta-nequi",
-            "menu-item#tarjeta-codensa",
-            "menu-item#tarjeta-contraentrega",
-            "menu-item#tarjeta-sistecredito",
-            "menu-item#tarjeta-boleto-banco"
+     // Tarjetas y cuotas
+  "menu-item#tarjeta-credito",
+  "menu-item#tu-cuota",
+  "menu-item#tarjeta-codensa",
+  "menu-item#tarjeta-sistecredito",
+
+  //Pagos digitales / billeteras
+  "menu-item#google-pay",
+  "menu-item#tarjeta-nequi",
+  "menu-item#tarjeta-addi",
+
+  //Pagos bancarios
+  "menu-item#tarjeta-pse",
+  "menu-item#tarjeta-boton-bancolombia",
+  "menu-item#tarjeta-boleto-banco",
+
+  //Otros medios
+  "menu-item#vale-recompra",
+  "menu-item#tarjeta-contraentrega"
            
            
 
         ]
     },
+
+
+    // Vale Recompra
+"menu-item#vale-recompra": {
+    "props": {
+      "id": "menu-item-vale-recompra",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "accordion-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "text": "Vale recompra"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#static-accordion-content-vale-recompra"
+    ]
+  },
+  "submenu.accordion#static-accordion-content-vale-recompra": {
+    "props": {
+      "blockClass": "static-accordion-content-medios"
+    },
+    "children": [
+      "rich-text#static-accordion-content-vale-recompra"
+    ]
+  },
+  "rich-text#static-accordion-content-vale-recompra": {
+    "props": {
+      "text": "",
+      "blockClass": "static-accordion-content-medios"
+    }
+  },
+
+
+"menu-item#google-pay": {
+  "props": {
+    "id": "menu-item-google-pay",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "blockClass": "accordion-item",
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "text": "Google Pay"
+    }
+  },
+  "blocks": [
+    "submenu.accordion#static-accordion-content-google-pay"
+  ]
+},
+"submenu.accordion#static-accordion-content-google-pay": {
+  "props": {
+    "blockClass": "static-accordion-content-medios"
+  },
+  "children": [
+    "rich-text#static-accordion-content-google-pay"
+  ]
+},
+"rich-text#static-accordion-content-google-pay": {
+  "props": {
+    "text": "Es una plataforma desarrollada por Google para su uso en sistemas de pago desde dispositivos móviles, la cual ofrece a los usuarios la capacidad de hacer pagos con dispositivos Android, tabletas o smartwatches.",
+    "blockClass": "static-accordion-content-medios"
+  }
+},
+
+  
     "menu-item#tarjeta-credito": {
         "props": {
             "id": "menu-item-tarjeta-credito",
@@ -74,9 +154,9 @@
         ]
     },
    
-    "menu-item#tarjeta-debito": {
+    "menu-item#tu-cuota": {
         "props": {
-            "id": "menu-item-tarjeta-debito",
+            "id": "menu-item-tu-cuota",
             "type": "custom",
             "iconId": null,
             "highlight": false,
@@ -85,11 +165,11 @@
                 "type": "internal",
                 "href": "#",
                 "noFollow": false,
-                "text": "Tarjeta de débito"
+                "text": "Tu cuota"
             }
         },
         "blocks": [
-            "submenu.accordion#static-accordion-content-tarjeta-debito"
+            "submenu.accordion#static-accordion-content-tu-cuota"
         ]
     },
 
@@ -218,7 +298,7 @@
                 "type": "internal",
                 "href": "#",
                 "noFollow": false,
-                "text": "Botón Bancolombia"
+                "text": "Bancolombia"
             }
         },
         "blocks": [
@@ -260,18 +340,18 @@
             "blockClass": "static-accordion-content-medios"
         }
     },
-    "submenu.accordion#static-accordion-content-tarjeta-debito": {
+    "submenu.accordion#static-accordion-content-tu-cuota": {
         "props": {
             "blockClass": "static-accordion-content-medios"
         },
         "children": [
-            "rich-text#static-accordion-content-tarjeta-debito"
+            "rich-text#static-accordion-content-tu-cuota"
         ]
     },
    
-    "rich-text#static-accordion-content-tarjeta-debito": {
+    "rich-text#static-accordion-content-tu-cuota": {
         "props": {
-            "text": "Para que realices tus compras aceptamos tarjera Debito VISA y Mastercard, éstas se utilizan para poder efectuar diferentes operaciones financieras y están ligadas a una clave o PIN que permite autorizar dichas transacciones. En este tipo de tarjeta, el dinero es aquel que dispone el titular en su cuenta bancaria y para realizar el pago se solicita un código de seguridad, fecha de vencimiento y número de cuotas.",
+            "text": "Pagando con TuCuota estas un paso más cerca del outfit que quieres. Difiere tus compras hasta 12 cuotas. Disponible en tiendas físicas y página web. Sujeto a estudio previo de crédito. Aplican términos y condiciones.",
             "blockClass": "static-accordion-content-medios"
         }
     },
@@ -411,7 +491,7 @@
     },
     "rich-text#static-accordion-content-tarjeta-boton-bancolombia": {
         "props": {
-            "text": "Selecciona el botón bancolombia como método de pago, verifica los datos de la transacción, digita tu usuario y clave Bancolombia, ingresa la clave dinámica, visualiza el resumen de la compra y da clic en transferir, ¡Y listo! solo en seis clics finaliza la compra. ",
+            "text": "Selecciona bancolombia como método de pago, verifica los datos de la transacción, digita tu usuario y clave Bancolombia, ingresa la clave dinámica, visualiza el resumen de la compra y da clic en transferir, ¡Y listo! solo en seis clics finaliza la compra. ",
             "blockClass": "static-accordion-content-medios"
         }
     }
