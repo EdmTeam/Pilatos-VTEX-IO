@@ -343,6 +343,28 @@
 /*FIN Flag blackdays PARTE 2 2024-2*/
 
 
+/******FLAG 30% PEPE JEANS****/
+.productHighlightWrapper [data-highlight-id="1663"]{
+    width: 46px;
+    height: 46px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(/arquivos/FlagnuevoPilatos.png);
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .productHighlightWrapper [data-highlight-id="1663"] {
+      width: 45px; /* Ajusta el tamaño para mobile */
+      height: 45px;
+
+    }
+  }
+
+/******FLAG 30% PEPE JEANS****/
+
+
+
 .productHighlightWrapper [data-highlight-id="1189"]{
     font-size: 0;
 }
