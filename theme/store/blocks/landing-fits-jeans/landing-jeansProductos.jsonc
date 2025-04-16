@@ -21,6 +21,7 @@
   "search-result-layout.desktop#landing-fits-jeans": {
     "title": "Botones categoría landing fits-jeans DESKTOP",
     "children": [
+      "experimental__visibility-layout#name_vitrina_fitsjeans",
       "seo-schema-plp",
       "flex-layout.row#banner-search",
       "flex-layout.row#bread-crumb",
@@ -83,6 +84,7 @@
   "search-result-layout.mobile#landing-fits-jeans": {
     "title": "Botones categoría landing fits-jeans MOBILE",
     "children": [
+      "experimental__visibility-layout#name_vitrina_fitsjeans",
       "flex-layout.row#banner-search-mobile",
       "flex-layout.row#bread-crumb",
       "flex-layout.row#suggestion",

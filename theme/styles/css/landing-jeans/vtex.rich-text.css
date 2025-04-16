@@ -3,7 +3,8 @@
     width: 238px;
     transition: background-color 0.2s ease-in, color 0.2s ease-in;
     cursor: pointer;
-    color: #000; /* Color inicial del texto normal */
+    color: #000;
+    /* Color inicial del texto normal */
 }
 
 .container--fits-contenido-texto {
@@ -74,4 +75,35 @@
     align-items: center;
     width: 100%;
     height: 100%;
+}
+
+.link--boton-fits-jeans-diesel-genero {
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    border: 1px solid #000;
+    border-radius: 0;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: background-color 0.8 ease-in;
+}
+
+.link--boton-fits-jeans-diesel-hombre-active {
+    background-color: #000;
+    color: #fff;
+}
+
+.link--boton-fits-jeans-diesel-mujer-active {
+    background-color: #000;
+    color: #fff;
+}
+
+
+
+.paragraph--titulo-vitrina-fits-jeans {
+    font-weight: bold;
 }
