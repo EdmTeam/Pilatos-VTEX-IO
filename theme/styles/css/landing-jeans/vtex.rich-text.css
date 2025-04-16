@@ -102,7 +102,11 @@
     color: #fff;
 }
 
-
+@media screen and (max-width: 768px) {
+    .container--titulo-vitrina-fits-jeans {
+        width: 90%;
+    }
+}
 
 .paragraph--titulo-vitrina-fits-jeans {
     font-weight: bold;
