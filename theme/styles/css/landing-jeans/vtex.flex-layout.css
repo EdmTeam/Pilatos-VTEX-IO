@@ -34,3 +34,9 @@
 .flexRowContent--fits-contenido-6 :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
     height: 100%;
 }
+.flexCol--botones-fits-jeans-genero {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
