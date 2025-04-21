@@ -4069,7 +4069,8 @@
 }
 
 /*menu mobile sale*/
-.paragraph--submenuSaleItem {
+
+.link--submenuSaleItem{
   font-weight: bold;
   padding-left: 1rem;
   padding-bottom: 0.25rem;
@@ -4077,11 +4078,18 @@
   border-bottom: 2px solid transparent;
   transition: border-color 0.3s ease;
   cursor: pointer;
+  text-decoration: none;
+  color: black;
+
 }
 
-.paragraph--submenuSaleItem:hover {
+.link--submenuSaleItem:hover{
+
   border-bottom: 2px solid #FFD700;
 }
+
+
+
 /*FIN menu mobile sale*/
 
 
