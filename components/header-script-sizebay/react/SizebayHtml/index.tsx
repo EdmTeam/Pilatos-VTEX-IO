@@ -16,21 +16,26 @@ function SizebayHtml() {
   ]
 
   useEffect(() => {
+    // Inyectar el script una sola vez
+    if (!document.getElementById('sizebay-vfr-v4')) {
+      const script = document.createElement('script')
+      script.id = 'sizebay-vfr-v4'
+      script.src = 'https://static.sizebay.technology/5885/prescript.js'
+      script.defer = true
+      document.body.appendChild(script)
+    }
+  }, []) // Se ejecuta solo una vez cuando se monta el componente
+
+  useEffect(() => {
     if (!context?.product) return
 
     const brand = context.product.brand
-
     const isAllowed = allowedBrands.includes(brand)
 
     setShowSizebay(isAllowed)
-
-
-
   }, [context])
 
-  if (!showSizebay) return null // No renderiza nada si no aplica
-
-  return <div id="sizebay-container"></div>
+  return showSizebay ? <div id="sizebay-container"></div> : null
 }
 
 export default SizebayHtml
