@@ -1,9 +1,8 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect } from 'react'
 import { useProduct } from 'vtex.product-context'
 
 function SizebayHtml() {
   const context = useProduct()
-  const [showSizebay, setShowSizebay] = useState(false)
 
   const allowedBrands: string[] = [
     'PILATOS',
@@ -15,8 +14,8 @@ function SizebayHtml() {
     'Replay',
   ]
 
+  // Cargar el script solo una vez
   useEffect(() => {
-    // Inyectar el script una sola vez
     if (!document.getElementById('sizebay-vfr-v4')) {
       const script = document.createElement('script')
       script.id = 'sizebay-vfr-v4'
@@ -24,18 +23,31 @@ function SizebayHtml() {
       script.defer = true
       document.body.appendChild(script)
     }
-  }, []) // Se ejecuta solo una vez cuando se monta el componente
+  }, [])
 
+  // Manejar el div según la marca
   useEffect(() => {
     if (!context?.product) return
 
     const brand = context.product.brand
     const isAllowed = allowedBrands.includes(brand)
+    const existingDiv = document.getElementById('sizebay-container')
 
-    setShowSizebay(isAllowed)
+    if (isAllowed) {
+      if (!existingDiv) {
+        const div = document.createElement('div')
+        div.id = 'sizebay-container'
+        document.body.appendChild(div)
+      }
+    } else {
+      // Si la marca no es válida, eliminamos el div si existe
+      if (existingDiv) {
+        existingDiv.remove()
+      }
+    }
   }, [context])
 
-  return showSizebay ? <div id="sizebay-container"></div> : null
+  return null
 }
 
 export default SizebayHtml
