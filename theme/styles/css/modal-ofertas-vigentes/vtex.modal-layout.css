@@ -1,0 +1,73 @@
+.triggerContainer--modal-ofertas-vigentes {
+    display: flex;
+    justify-content: end;
+    width: max-content;
+    cursor: pointer;
+}
+:global(.vtex-modal-layout-0-x-paper--modal-layout-ofertas-vigentes) {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+:global(.vtex-modal-layout-0-x-paper--modal-layout-ofertas-vigentes) {
+    overflow-y: hidden;
+}
+:global(.vtex-modal-layout-0-x-paper--modal-layout-ofertas-vigentes) :global(.vtex-modal-layout-0-x-headerContainer) {
+    border: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .triggerContainer--modal-ofertas-vigentes {
+        justify-content: center;
+    }
+    :global(.vtex-modal-layout-0-x-triggerContainer--modal-trigger-ofertas-vigentes) {
+        width: 85%;
+        margin: 0 auto;
+        padding: 0 1.5rem;
+        margin: .3rem auto;
+        border: 1px solid #000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    :global(.vtex-modal-layout-0-x-paper--modal-layout-ofertas-vigentes) {
+        top: 5px;
+        left: 10px;
+        right: auto;
+    }
+}
+
+/* Animación para abrir el modal */
+@keyframes fadeInScale {
+    0% {
+      opacity: 0;
+      transform: scale(0.95);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  /* Animación para cerrar el modal */
+  @keyframes fadeOutScale {
+    0% {
+      opacity: 1;
+      transform: scale(1);
+    }
+    100% {
+      opacity: 0;
+      transform: scale(0.95);
+    }
+  }
+  
+  /* Aplicar transición general */
+  :global(.vtex-modal-layout-0-x-container--modal-layout-ofertas-vigentes) {
+    animation: fadeInScale 300ms ease-out;
+    transition: opacity 250ms ease, transform 250ms ease;
+    will-change: opacity, transform;
+  }
+  
+  /* Al estar cerrado, VTEX le pone style="opacity: 0" automáticamente. 
+     Como NO podemos usar [style*="opacity: 0"], dejamos que el fadeOut actúe por defecto. */
+  

@@ -140,6 +140,7 @@
   // Footer del menu favoritos y login
   "flex-layout.row#submenu-level-1-footer": {
     "children": [
+      "modal-trigger#ofertas-vigentes-header",
       "link#submenu-level-1-footer-row-1",
       "flex-layout.row#submenu-level-1-footer-row-2"
     ],

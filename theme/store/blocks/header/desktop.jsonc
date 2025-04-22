@@ -186,7 +186,8 @@
 
   "flex-layout.row#header-items-desk": {
     "children": [
-      "flex-layout.col#content-reversso-header",
+      //Cambios y devol "flex-layout.col#content-reversso-header",
+      "modal-trigger#ofertas-vigentes-header",
       "flex-layout.col#header-items-desk-col-2"
     ],
     "props": {
