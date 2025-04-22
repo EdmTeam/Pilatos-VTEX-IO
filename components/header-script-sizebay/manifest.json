@@ -1,7 +1,7 @@
 {
   "vendor": "pilatos21",
   "name": "script-sizebay",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "title": "Script sizebay",
   "defaultLocale": "en-EN",
   "builders": {
