@@ -22,6 +22,7 @@
     "title": "Botones categoría landing fits-jeans DESKTOP",
     "children": [
       "experimental__visibility-layout#name_vitrina_fitsjeans",
+      "experimental__visibility-layout#name_vitrina_fitsjeansGirbaud",
       "seo-schema-plp",
       "flex-layout.row#banner-search",
       "flex-layout.row#bread-crumb",
@@ -85,6 +86,7 @@
     "title": "Botones categoría landing fits-jeans MOBILE",
     "children": [
       "experimental__visibility-layout#name_vitrina_fitsjeans",
+      "experimental__visibility-layout#name_vitrina_fitsjeansGirbaud",
       "flex-layout.row#banner-search-mobile",
       "flex-layout.row#bread-crumb",
       "flex-layout.row#suggestion",
