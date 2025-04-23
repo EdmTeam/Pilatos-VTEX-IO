@@ -3498,11 +3498,6 @@
     display: block;
   }
 
-  :global(.vtex-search-result-3-x-orderByButton) {
-    border: 1px solid #D3D1D1;
-    padding: .8rem 0;
-  }
-
   .flexRowContent--search-in-mobile {
     width: 100%;
   }
@@ -4208,12 +4203,12 @@
   gap: 8px;
 }
 
-.flexCol--contenedor-primera-compra-icons 
+.flexCol--contenedor-primera-compra-icons
 .flexColChild--contenedor-primera-compra-icons:first-child {
   display: none;
 }
 
-.flexCol--contenedor-primera-compra-icons 
+.flexCol--contenedor-primera-compra-icons
 .flexColChild--contenedor-primera-compra-icons:last-child::before {
   content: "•";
   display: flex;
