@@ -141,7 +141,7 @@
       "flex-layout.row#fits-3-girbaud-mujer-v2",
       "flex-layout.row#fits-4-girbaud-mujer-v2",
       "flex-layout.row#fits-5-girbaud-mujer-v2",
-      "flex-layout.row#fits-5.2-girbaud-mujer-v2",
+      //"flex-layout.row#fits-5.2-girbaud-mujer-v2",
       "flex-layout.row#fits-6-girbaud-mujer-v2"
     ]
   },
@@ -151,8 +151,8 @@
     //FITS MUJER
   "flex-layout.row#fits-1-girbaud-mujer-v2": {
     "children": [
-      "image#fits-1-girbaud-mujer-v2",
-      "rich-text#info-fits-1-girbaud-mujer-v2"
+      "image#fits-1-girbaud-mujer-v2"
+      //"rich-text#info-fits-1-girbaud-mujer-v2"
     ],
     "props": {
       "blockClass": "fits-contenido"
@@ -215,9 +215,9 @@
   /********FIT*******/
   "image#fits-1-girbaud-mujer-v2": {
     "props": {
-      "src": "/arquivos/Diesel-Fits-SuperSkinny-Mujer-Desk.webp",
+      "src": "/arquivos/Fits-jeans-MFG-mujer-fitfavorito.jpg",
       "link": {
-        "url": "/mujer-super-skinny-fits-girbaud"
+        "url": "/fits-girbaud-mujer"
       },
       "blockClass": "fits-contenido-img"
     }
@@ -234,9 +234,9 @@
   /********FIT*******/
   "image#fits-2-girbaud-mujer-v2": {
     "props": {
-      "src": "/arquivos/Diesel-Fits-Skinny-Mujer-Desk.webp",
+      "src": "/arquivos/MFG-mujer-regularbaggy.jpg",
       "link": {
-        "url": "/mujer-skinny-fits-girbaud"
+        "url": "/mujer-regularbaggy-fits-girbaud"
       },
       "blockClass": "fits-contenido-img"
     }
@@ -244,7 +244,7 @@
 
   "rich-text#info-fits-2-girbaud-mujer-v2": {
     "props": {
-      "text": "[**SKINNY** \n Pierna ajustada](/mujer-skinny-fits-girbaud)",
+      "text": "[**REGULAR BAGGY** \n Tiro alto y bota recta](/mujer-regularbaggy-fits-girbaud)",
       "blockClass": "fits-contenido-texto-girbaud"
     }
   },
@@ -253,9 +253,9 @@
   /********FIT*******/
   "image#fits-3-girbaud-mujer-v2": {
     "props": {
-      "src": "/arquivos/Diesel-Fits-Mujer-Slim-Desk.webp",
+      "src": "/arquivos/MFG-mujer-regularwide.jpg",
       "link": {
-        "url": "/mujer-slim-fits-girbaud"
+        "url": "/mujer-regularwide-fits-girbaud"
       },
       "blockClass": "fits-contenido-img"
     }
@@ -263,7 +263,7 @@
 
   "rich-text#info-fits-3-girbaud-mujer-v2": {
     "props": {
-      "text": "[**SLIM** \n Pierna cónica](/mujer-slim-fits-girbaud)",
+      "text": "[**REGULAS WIDE** \n Tiro alto y bota ancha](/mujer-regularwide-fits-girbaud)",
       "blockClass": "fits-contenido-texto-girbaud"
     }
   },
@@ -272,9 +272,9 @@
   /********FIT*******/
   "image#fits-4-girbaud-mujer-v2": {
     "props": {
-      "src": "/arquivos/Diesel-Fits-Straight-Mujer-Desk.webp",
+      "src": "/arquivos/MFG-mujer-skinny.jpg",
       "link": {
-        "url": "/mujer-straight-fits-girbaud"
+        "url": "/mujer-skinny-fits-girbaud"
       },
       "blockClass": "fits-contenido-img"
     }
@@ -282,7 +282,7 @@
 
   "rich-text#info-fits-4-girbaud-mujer-v2": {
     "props": {
-      "text": "[**STRAIGHT** \n Pierna recta](/mujer-straight-fits-girbaud)",
+      "text": "[**SKINNY** \n Tiro bajo y bota ajustada](/mujer-skinny-fits-girbaud)",
       "blockClass": "fits-contenido-texto-girbaud"
     }
   },
@@ -291,9 +291,9 @@
     /********FIT*******/
     "image#fits-5-girbaud-mujer-v2": {
       "props": {
-        "src": "/arquivos/Diesel-Fits-Boyfriend-Mujer-Desk.webp",
+        "src": "/arquivos/MFG-mujer-slim.jpg",
         "link": {
-          "url": "/mujer-boyfriend-fits-girbaud"
+          "url": "/mujer-slim-fits-girbaud"
         },
         "blockClass": "fits-contenido-img"
       }
@@ -301,7 +301,7 @@
   
     "rich-text#info-fits-5-girbaud-mujer-v2": {
       "props": {
-        "text": "[**BOYFRIEND** \n Silueta oversize y tiro largo](/mujer-boyfriend-fits-girbaud)",
+        "text": "[**SLIM** \n Tiro medio y bota semiajustada](/mujer-slim-fits-girbaud)",
         "blockClass": "fits-contenido-texto-girbaud"
       }
     },

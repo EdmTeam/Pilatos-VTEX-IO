@@ -108,13 +108,14 @@
       },
       "infinite": true,
       "showNavigationArrows": "always",
-      "blockClass": ["carousel", "slider-fits"]
+      "blockClass": ["carousel", "slider-fits", "slider-fits-girbaud", "slider-fits-girbaud-hombre"]
     },
     "children": [
       "flex-layout.row#fits-1-girbaud",
       "flex-layout.row#fits-2-girbaud",
       "flex-layout.row#fits-3-girbaud",
       "flex-layout.row#fits-4-girbaud",
+      //"flex-layout.row#fits-5-girbaud",
       "flex-layout.row#fits-6-girbaud"
     ]
   },
@@ -126,7 +127,7 @@
       //"rich-text#info-fits-1-girbaud"
     ],
     "props": {
-      "blockClass": ["fits-contenido", "fits-contenido-1-girbaud"]
+      "blockClass": ["fits-contenido", "fits-contenido-1-girbaud", "fits-contenido-girbaud"]
     }
   },
   "flex-layout.row#fits-2-girbaud": {
@@ -135,7 +136,7 @@
       "rich-text#info-fits-2-girbaud"
     ],
     "props": {
-      "blockClass": "fits-contenido"
+      "blockClass": ["fits-contenido", "fits-contenido-girbaud"]
     }
   },
   "flex-layout.row#fits-3-girbaud": {
@@ -144,13 +145,22 @@
       "rich-text#info-fits-3-girbaud"
     ],
     "props": {
-      "blockClass": "fits-contenido"
+      "blockClass": ["fits-contenido", "fits-contenido-girbaud"]
     }
   },
   "flex-layout.row#fits-4-girbaud": {
     "children": [
       "image#fits-4-girbaud",
       "rich-text#info-fits-4-girbaud"
+    ],
+    "props": {
+      "blockClass": ["fits-contenido", "fits-contenido-girbaud"]
+    }
+  },
+  "flex-layout.row#fits-5-girbaud": {
+    "children": [
+      "image#fits-5-girbaud",
+      "rich-text#info-fits-5-girbaud"
     ],
     "props": {
       "blockClass": "fits-contenido"
@@ -170,7 +180,7 @@
     "props": {
       "src": "/arquivos/Fits-jeans-MFG-hombre-fitfavorito.jpg",
       "link": {
-        "url": "/hombre-slim-fits-girbaud"
+        "url": "/fits-girbaud"
       },
       "blockClass": "fits-contenido-img"
     }
@@ -206,7 +216,7 @@
   /********FIT*******/
   "image#fits-3-girbaud": {
     "props": {
-      "src": "/arquivos/Fits-jeans-MFG-hombre-regulartapered.jpg",
+      "src": "/arquivos/MFG-hombre-regulartapered.jpg",
       "link": {
         "url": "/hombre-tapered-fits-girbaud"
       },
@@ -225,7 +235,7 @@
   /********FIT*******/
   "image#fits-4-girbaud": {
     "props": {
-      "src": "/arquivos/Fits-jeans-MFG-hombre-slim.jpg",
+      "src": "/arquivos/MFG-hombre-slim.jpg",
       "link": {
         "url": "/hombre-straight-fits-girbaud"
       },
@@ -236,6 +246,24 @@
   "rich-text#info-fits-4-girbaud": {
     "props": {
       "text": "[**SLIM** \n Tiro medio y bota semiajustada](/hombre-straight-fits-girbaud)",
+      "blockClass": "fits-contenido-texto-girbaud"
+    }
+  },
+  /********FIT*******/
+   /********FIT*******/
+   "image#fits-5-girbaud": {
+    "props": {
+      "src": "/arquivos/MFG-mujer-regularbaggy.jpg",
+      "link": {
+        "url": "/hombre-regularbaggy-fits-girbaud"
+      },
+      "blockClass": "fits-contenido-img"
+    }
+  },
+
+  "rich-text#info-fits-5-girbaud": {
+    "props": {
+      "text": "[**Regular Baggy** \n Tiro medio y bota semiajustada](/hombre-straight-fits-girbaud)",
       "blockClass": "fits-contenido-texto-girbaud"
     }
   },
