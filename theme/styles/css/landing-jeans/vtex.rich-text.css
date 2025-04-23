@@ -27,6 +27,26 @@
     text-align: center;
 }
 
+.container--fits-contenido-texto-girbaud {
+    border: 1.8px solid #000;
+    border-top: 0;
+    padding: 2px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.2s ease-in;
+}
+
+.strong--fits-contenido-texto-girbaud {
+    font-size: 13px;
+    color: #000;
+}
+
+.wrapper--fits-contenido-texto-girbaud {
+    text-align: center;
+}
+
 .wrapper--ver-todo-fits {
     height: 100%;
     width: 100%;
@@ -53,7 +73,7 @@
 }
 
 .container--fits-contenido-texto:hover {
-    background-color: #e4002b;
+    background-color: #001489;
 }
 
 .container--fits-contenido-texto:hover .link--fits-contenido-texto {
@@ -61,6 +81,29 @@
 }
 
 .container--fits-contenido-texto:hover .strong--fits-contenido-texto {
+    color: #fff;
+}
+
+.link--fits-contenido-texto-girbaud {
+    color: #000;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.paragraph--fits-contenido-texto-girbaud {
+    margin: 0;
+    line-height: 12px;
+}
+
+.container--fits-contenido-texto-girbaud:hover {
+    background-color: #001489;
+}
+
+.container--fits-contenido-texto-girbaud:hover .link--fits-contenido-texto-girbaud {
+    color: #fff;
+}
+
+.container--fits-contenido-texto-girbaud:hover .strong--fits-contenido-texto-girbaud {
     color: #fff;
 }
 

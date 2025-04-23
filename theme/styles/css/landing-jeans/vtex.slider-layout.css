@@ -24,3 +24,8 @@
     background-color: #000 !important;
     color: #fff;
 }
+
+.sliderTrackContainer--slider-fits-girbaud-hombre {
+    width: 80%;
+    margin: 0 auto;
+}
