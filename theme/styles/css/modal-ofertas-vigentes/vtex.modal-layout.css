@@ -10,11 +10,6 @@
   top: 5px;
   right: 10px;
 }
-
-:global(.vtex-modal-layout-0-x-paper--modal-layout-ofertas-vigentes) {
-  overflow-y: hidden;
-}
-
 :global(.vtex-modal-layout-0-x-paper--modal-layout-ofertas-vigentes) :global(.vtex-modal-layout-0-x-headerContainer) {
   border: 0;
 }
