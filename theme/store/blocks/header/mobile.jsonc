@@ -140,14 +140,21 @@
   // Footer del menu favoritos y login
   "flex-layout.row#submenu-level-1-footer": {
     "children": [
-      "modal-trigger#ofertas-vigentes-header",
-      "link#submenu-level-1-footer-row-1",
+      "experimental__visibility-layout#ofertas-vigentes-header-mob",
+      //"link#submenu-level-1-footer-row-1",
       "flex-layout.row#submenu-level-1-footer-row-2"
     ],
     "props": {
       "blockClass": "contentFooterMenu"
     }
   },
+  "experimental__visibility-layout#ofertas-vigentes-header-mob": {
+        "title": "Modal ofertas vigentes visibility mob",
+        "children": ["modal-trigger#ofertas-vigentes-header"],
+        "props": {
+          "visible": false
+        }
+      },
   "link#submenu-level-1-footer-row-1": {
     "children": [
       "flex-layout.row#submenu-level-1-footer-row-1"
