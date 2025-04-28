@@ -3,34 +3,41 @@
 }
 
 .filterContainer {
+  min-width: 100px;
   position: relative;
   margin: 0 0.75rem;
+  border: 1px solid #BDBDBD;
+  padding: 7px 12px 4px 12px;
 }
 
 .filterTitle {
-  font-size: 12px;
+  font-size: 14px;
   display: inline-block;
   cursor: pointer;
-  font-weight: 700;
+  font-weight: 400;
   text-transform: capitalize;
   line-height: 18px;
   color: #000;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 4px;
 }
 
 .filterTitle:hover {
-  border-bottom: 1px solid #ffd400;
+  border-bottom: 1px solid #000000;
 }
 
 .filterIconContainer {
   display: flex;
   align-items: center;
-  padding-left: 1.25rem;
-  height: 11px;
-  width: 11px;
-  color: #ffd400;
+  font-family: Plus Jakarta Sans;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  padding-left: 4px;
+  width: 12px;
+  color: #000000;
 }
 
 .filterIcon {
@@ -56,6 +63,8 @@
   margin: 0;
   max-height: 400px !important;
   width: 221px;
+  top: 35px;
+  left: 0px;
 }
 
 .filterOpen {
@@ -117,7 +126,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--color-action-primary);
+  color: #000000;
 }
 
 .filterCheckboxInput {
@@ -144,9 +153,9 @@
   margin-left: 0.25rem;
 }
 
-.filterCheckboxBoxSelected  {
-  background-color: #ffd400;
-  border: 1px solid #e3e4e6;
+.filterCheckboxBoxSelected {
+  background-color: #000000;
+  border: 1px solid #000000;
   border-radius: 0.25rem;
 }
 
@@ -162,5 +171,5 @@
 
 .filterContainer--sub-categoría .filterFaceContainer::before {
   content: 'Categoría';
-  font-size: 12px;
+  font-size: 14px;
 }

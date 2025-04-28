@@ -397,7 +397,7 @@
   },
   "flex-layout.col#order-by-desk-2": {
     "children": [
-      "rich-text#order-by-desk-2",
+      /* "rich-text#order-by-desk-2", */
       "order-by.v2"
     ],
     "props": {
