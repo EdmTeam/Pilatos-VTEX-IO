@@ -1,0 +1,24 @@
+{
+  "vendor": "pilatos21",
+  "name": "component-custom-filter-navigator",
+  "version": "0.0.1",
+  "title": "component-filter-custom",
+  "description": "component-filter-custom",
+  "builders": {
+    "react": "3.x",
+    "docs": "0.x",
+    "store": "0.x"
+  },
+  "dependencies": {
+    "vtex.css-handles": "0.x",
+    "vtex.styleguide": "9.x",
+    "vtex.search-page-context": "0.x",
+    "vtex.render-runtime": "8.x",
+    "vtex.slider": "0.x"
+  },
+  "registries": [
+    "smartcheckout"
+  ],
+  "policies": [],
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}

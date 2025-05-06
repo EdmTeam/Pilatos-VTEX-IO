@@ -1,0 +1,175 @@
+.filtersWrapper {
+  display: flex;
+}
+
+.filterContainer {
+  min-width: 100px;
+  position: relative;
+  margin: 0 0.75rem;
+  border: 1px solid #BDBDBD;
+  padding: 7px 12px 4px 12px;
+}
+
+.filterTitle {
+  font-size: 14px;
+  display: inline-block;
+  cursor: pointer;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 18px;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.filterTitle:hover {
+  border-bottom: 1px solid #000000;
+}
+
+.filterIconContainer {
+  display: flex;
+  align-items: center;
+  font-family: Plus Jakarta Sans;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  padding-left: 4px;
+  width: 12px;
+  color: #000000;
+}
+
+.filterIcon {
+  transform: rotate(180deg);
+  transition: transform 0.3s ease;
+}
+
+.filterIconHover {
+  transform: rotate(0deg);
+}
+
+.filterDropdown::-webkit-scrollbar {
+  width: 6px;
+  background: #fff;
+}
+
+.filterDropdown {
+  position: absolute;
+  z-index: 999;
+  background-color: #fff;
+  box-shadow: 5px 5px 40px 0 rgba(0, 0, 0, .1);
+  padding: 30px;
+  margin: 0;
+  max-height: 400px !important;
+  width: 221px;
+  top: 35px;
+  left: 0px;
+}
+
+.filterOpen {
+  display: block;
+}
+
+.filterContent {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.filterItem {
+  line-height: 1.5;
+  width: 100%;
+  word-break: break-word;
+  hyphens: auto;
+}
+
+.filterCheckboxLine {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  cursor: pointer;
+}
+
+.filterCheckboxContainer {
+  position: relative;
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.75rem;
+}
+
+.filterCheckboxInner {
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  border: 1px solid #e3e4e6;
+  border-radius: 0.25rem;
+  background: #fff;
+}
+
+.filterCheckboxBoxWrapper {
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  display: flex;
+  opacity: 1;
+  left: 0;
+}
+
+.filterCheckboxBox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+}
+
+.filterCheckboxInput {
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.filterCheckboxLabel {
+  width: 100%;
+  cursor: pointer;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: .03em;
+  color: #000;
+}
+
+.filterCount {
+  color: #999;
+  font-size: 0.85rem;
+  margin-left: 0.25rem;
+}
+
+.filterCheckboxBoxSelected {
+  background-color: #000000;
+  border: 1px solid #000000;
+  border-radius: 0.25rem;
+}
+
+.filterContainer--categoría,
+.filterContainer--siluetas-icónicas,
+.filterContainer--ocasion-de-uso {
+  display: none;
+}
+
+.filterContainer--sub-categoría .filterFaceContainer {
+  font-size: 0;
+}
+
+.filterContainer--sub-categoría .filterFaceContainer::before {
+  content: 'Categoría';
+  font-size: 14px;
+}

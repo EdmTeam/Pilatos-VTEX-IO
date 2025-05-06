@@ -1,0 +1,20 @@
+.flexRow--filter-customw {
+  height: 64.0938px !important;
+  background-color: #fff;
+}
+
+.flexRowContent--filter-customw {
+  height: 64.0938px !important;
+  align-items: center;
+}
+
+.flexCol--orderByMobileCol2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.flexColChild--orderByMobileCol2 {
+  display: flex;
+  align-items: center;
+}

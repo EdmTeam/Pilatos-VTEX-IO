@@ -798,14 +798,23 @@
 
 :global(.vtex-search-result-3-x-orderByButton) {
   justify-content: center;
+  align-items: center;
   padding: .5rem 0;
   border: none;
   border-radius: 0;
+  min-width: 150px;
+  gap: 4px;
+  border: 1px solid #BDBDBD;
+  padding-top: 10px;
+  padding-right: 4px;
+  padding-bottom: 10px;
+  padding-left: 4px;
+
 }
 
 :global(.vtex-search-result-3-x-filterPopupArrowIcon) {
-  padding: 0 1rem;
-  width: 5%;
+  padding: 0;
+  padding-left: 4px;
   display: none;
 }
 
@@ -827,17 +836,25 @@
 }
 
 :global(.vtex-search-result-3-x-filterPopupTitle) {
+  font-size: 0px;
   text-transform: capitalize;
-  width: 95%;
-  font-weight: bold;
-  font-size: 12px;
-  line-height: 15px;
-  letter-spacing: 0.025em;
+  font-weight: 400;
   color: #000000;
 }
 
 :global(.vtex-search-result-3-x-orderByText) {
-  display: none;
+  font-size: 14px;
+  display: inline-block;
+  cursor: pointer;
+  font-weight: 400;
+  text-transform: math-auto;
+  line-height: 18px;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+
 }
 
 :global(.vtex-search-result-3-x-filterTitle) {
@@ -851,7 +868,7 @@
 :global(.vtex-search-result-3-x-caretIcon) {
   height: 11px;
   width: 11px;
-  color: #FFD400;
+  color: #000000;
 }
 
 :global(.vtex-checkbox__label) {
@@ -3498,11 +3515,6 @@
     display: block;
   }
 
-  :global(.vtex-search-result-3-x-orderByButton) {
-    border: 1px solid #D3D1D1;
-    padding: .8rem 0;
-  }
-
   .flexRowContent--search-in-mobile {
     width: 100%;
   }
@@ -4201,33 +4213,32 @@
 }
 
 /*****Estilos cuidados de prendas****/
-.flexColChild--contenedor-primera-compra-icons  {
+.flexColChild--contenedor-primera-compra-icons {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 8px;
 }
 
-.flexCol--contenedor-primera-compra-icons 
-.flexColChild--contenedor-primera-compra-icons:first-child {
+.flexCol--contenedor-primera-compra-icons .flexColChild--contenedor-primera-compra-icons:first-child {
   display: none;
 }
 
-.flexCol--contenedor-primera-compra-icons 
-.flexColChild--contenedor-primera-compra-icons:last-child::before {
+.flexCol--contenedor-primera-compra-icons .flexColChild--contenedor-primera-compra-icons:last-child::before {
   content: "•";
   display: flex;
 }
+
 /*****Estilos cuidados de prendas****/
 
 @media (min-width: 768px) and (max-width: 1023px) {
-  .flexRowContent--submenuSaleContent{
+  .flexRowContent--submenuSaleContent {
 
     display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      gap: 1rem;
-    }
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
 
 }
 
@@ -4247,5 +4258,3 @@
     margin: 0 auto;
   }
 }
-
-

@@ -1,0 +1,9 @@
+.paragraph--textOrderBy2 {
+  font-weight: 700;
+  font-size: 14px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  height: 30px;
+  color: #000;
+}
