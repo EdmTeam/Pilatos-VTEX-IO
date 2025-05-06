@@ -1,0 +1,115 @@
+{
+  "modal-trigger#ofertas-vigentes-header": {
+    "children": ["modal-trigger#ofertas-vigentes"],
+    "props": {
+        "blockClass": "modal-ofertas-vigentes"
+    }
+  },
+  "modal-trigger#ofertas-vigentes": {
+    "children": ["rich-text#ofertas-vigentes-btn", "modal-layout#ofertas-vigentes-contenedor"],
+    "props": {
+        "blockClass": "modal-trigger-ofertas-vigentes"
+    }
+  },
+  "rich-text#ofertas-vigentes-btn": {
+    "props": {
+      "text": "Ver aquí ofertas",
+      "blockClass": "btn-ver-ofertas-vigentes"
+    }
+  },
+  "modal-layout#ofertas-vigentes-contenedor": {
+    "children": [
+        "modal-header#ofertas-vigentes", 
+        "flex-layout.row#ofertas-vigenter-contenido"
+    ],
+    "props": {
+      "blockClass": "modal-layout-ofertas-vigentes"
+    }
+  },
+  "modal-header#ofertas-vigentes": {
+    "props": {
+        "showCloseButton": true,
+        "iconCloseSize": 24
+    }
+  },
+  "flex-layout.row#ofertas-vigenter-contenido": {
+    "title": "Contenido modal row",
+    "children": [
+        "flex-layout.col#ofertas-vigenter-contenido"
+    ],
+    "props": {
+        "blockClass": "Ofertas-vigentes-flex-row"
+    }
+  },
+  "flex-layout.col#ofertas-vigenter-contenido": {
+    "title": "Contenido modal col",
+    "children": [
+        "list-context.image-list#ofertas-vigentes-1",
+        "list-context.image-list#ofertas-vigentes-2",
+        "list-context.image-list#ofertas-vigentes-3"
+    ],
+    "props": {
+        "blockClass": "Ofertas-vigentes-flex-col"
+    }
+  },
+
+  //IMAGEN//
+  "list-context.image-list#ofertas-vigentes-1": {
+    "children": ["slider-layout#ofertas-vigentes-images"],
+    "props": {
+      "preload": true,
+      "height": 300,
+      "images": [
+        {
+          "loading": "eager",
+          "image": "/arquivos/Frame-871.png",
+          "mobileImage": "/arquivos/Frame-871.png",
+          "description": "Imagen modal ofertas vigentes"
+        }
+      ]
+    }
+  },
+  "list-context.image-list#ofertas-vigentes-2": {
+    "children": ["slider-layout#ofertas-vigentes-images"],
+    "props": {
+      "preload": true,
+      "height": 300,
+      "images": [
+        {
+            "loading": "lazy",
+            "image": "/arquivos/Frame-869.png",
+            "mobileImage": "/arquivos/Frame-869.png",
+            "description": "Imagen modal ofertas vigentes"
+          }
+      ]
+    }
+  },
+  "list-context.image-list#ofertas-vigentes-3": {
+    "children": ["slider-layout#ofertas-vigentes-images"],
+    "props": {
+      "preload": true,
+      "height": 300,
+      "images": [
+        {
+            "loading": "lazy",
+            "image": "/arquivos/Frame-868.png",
+            "mobileImage": "/arquivos/Frame-868.png",
+            "description": "Imagen modal ofertas vigentes"
+          }
+      ]
+    }
+  },
+
+  "slider-layout#ofertas-vigentes-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "blockClass": "images-ofertas-vigentes"
+    }
+  }
+  //IMAGEN//
+}

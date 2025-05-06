@@ -1,0 +1,76 @@
+.wrapper--btn-ver-ofertas-vigentes :global(.vtex-rich-text-0-x-paragraph) {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  margin: 0;
+  font-weight: bold;
+  border: 0.5px solid #000;
+  padding: 5px 12px;
+  font-size: 14px;
+  color: #000;
+  z-index: 1;
+}
+
+/* capa de fondo que se anima de derecha a izquierda */
+.wrapper--btn-ver-ofertas-vigentes :global(.vtex-rich-text-0-x-paragraph)::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #000;
+  z-index: -1;
+  animation: fillRightToLeft 6s ease-in-out infinite;
+}
+
+/* animamos el color del texto también */
+.wrapper--btn-ver-ofertas-vigentes :global(.vtex-rich-text-0-x-paragraph--btn-ver-ofertas-vigentes) {
+  animation: textToWhite 6s ease-in-out infinite !important;
+}
+
+
+/* fondo negro se expande de derecha a izquierda */
+@keyframes fillRightToLeft {
+
+  0%,
+  100% {
+    width: 0%;
+  }
+
+  50% {
+    width: 100%;
+  }
+}
+
+/* color del texto cambia a blanco cuando el fondo lo cubre */
+@keyframes textToWhite {
+
+  0%,
+  100% {
+    color: #000;
+  }
+
+  50% {
+    color: #fff;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .wrapper--btn-ver-ofertas-vigentes :global(.vtex-rich-text-0-x-paragraph) {
+    border: 0;
+    margin: 0.5rem 0;
+    animation: none;
+  }
+
+  .wrapper--btn-ver-ofertas-vigentes :global(.vtex-rich-text-0-x-paragraph)::before {
+    animation: none;
+    /* Detiene la animación del fondo */
+    display: none;
+    /* Opcional: oculta el pseudo-elemento */
+  }
+
+  .paragraph--btn-ver-ofertas-vigentes {
+    margin: 0 !important;
+  }
+}

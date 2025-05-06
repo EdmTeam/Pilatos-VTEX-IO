@@ -1,0 +1,279 @@
+{
+  "store.custom#landingJeansGirbaud": {
+    "blocks": [
+      "experimental__visibility-layout#texto-seo-general-Landing-fits-jeans-girbaud",
+      "experimental__visibility-layout#tab-layout-genero-girbaud",
+      "search-result-layout.customQuery#vitrina-pilatos-fits-jeans"
+    ]
+  },
+
+  /********SEO LANDING********/
+  "experimental__visibility-layout#texto-seo-general-Landing-fits-jeans-girbaud": {
+    "title": "texto seo general",
+    "children": ["flex-layout.row#texto-seo-general-fits-jeans-girbaud"],
+    "props": {
+      "visible": true
+    }
+  },
+
+  "flex-layout.row#texto-seo-general-fits-jeans-girbaud": {
+    "title": "texto seo principal",
+    "children": ["rich-text#texto-seo-contenido-fits-jeans-girbaud"],
+    "props": {
+      "blockClass": "seo-texto-general-fits-jeans"
+    }
+  },
+
+  "rich-text#texto-seo-contenido-fits-jeans-girbaud": {
+    "props": {
+      "text": "**Elige el fit de tu jean Diesel**  \n Ropa, camisetas, jeans, morrales, chaquetas y más productos para comprar online.",
+      "textAlignment": "LEFT"
+    }
+  },
+  /********SEO LANDING********/
+
+  /*******Filtrado genero****/
+  "experimental__visibility-layout#tab-layout-genero-girbaud": {
+    "title": "Tab Género Hombre y Mujer",
+    "children": [
+      "flex-layout.row#tab-layout-genero-girbaud"
+    ],
+    "props": {
+      "visible": true
+    }
+  },
+
+  "flex-layout.row#tab-layout-genero-girbaud": {
+    "children": [
+      "flex-layout.col#tab-layout-genero-girbaud"
+    ],
+    "props": {
+      "marginBottom": 8,
+      "marginTop": 4
+    }
+  },
+
+  "flex-layout.col#tab-layout-genero-girbaud": {
+    "children": [
+      "flex-layout.col#botones-genero-fits-jeans-girbaud",
+      "experimental__visibility-layout#tab-layout-fits-creativos-girbaud"
+    ],
+    "props": {
+      "blockClass": "botones-fit-jeans-genero"
+    }
+  },
+
+  "flex-layout.col#botones-genero-fits-jeans-girbaud": {
+    "children": [
+      "rich-text#boton-hombre-fits-jeans-girbaud",
+      "rich-text#boton-mujer-fits-jeans-girbaud"
+    ],
+    "props": {
+      "blockClass": "botones-fits-jeans-genero"
+    }
+  },
+
+  "rich-text#boton-hombre-fits-jeans-girbaud": {
+    "props": {
+      "text": "[Hombre](/fits-girbaud)",
+      "blockClass": ["boton-fits-jeans-diesel-genero", "boton-fits-jeans-diesel-hombre-active"]
+    }
+  },
+  "rich-text#boton-mujer-fits-jeans-girbaud": {
+    "props": {
+      "text": "[Mujer](/fits-girbaud-mujer)",
+      "blockClass": "boton-fits-jeans-diesel-genero"
+    }
+  },
+  
+
+  /*************FITS CREATIVOS************/
+  "experimental__visibility-layout#tab-layout-fits-creativos-girbaud": {
+    "title": "Tab Género Fits creativos",
+    "children": [
+      "slider-layout#tab-layout-fits-creativos-girbaud"
+    ],
+    "props": {
+      "visible": true
+    }
+  },
+
+
+  "slider-layout#tab-layout-fits-creativos-girbaud": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 7,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "blockClass": ["carousel", "slider-fits", "slider-fits-girbaud", "slider-fits-girbaud-hombre"]
+    },
+    "children": [
+      "flex-layout.row#fits-1-girbaud",
+      "flex-layout.row#fits-2-girbaud",
+      "flex-layout.row#fits-3-girbaud",
+      "flex-layout.row#fits-4-girbaud",
+      //"flex-layout.row#fits-5-girbaud",
+      "flex-layout.row#fits-6-girbaud"
+    ]
+  },
+  
+  //FITS
+  "flex-layout.row#fits-1-girbaud": {
+    "children": [
+      "image#fits-1-girbaud"
+      //"rich-text#info-fits-1-girbaud"
+    ],
+    "props": {
+      "blockClass": ["fits-contenido", "fits-contenido-1-girbaud", "fits-contenido-girbaud"]
+    }
+  },
+  "flex-layout.row#fits-2-girbaud": {
+    "children": [
+      "image#fits-2-girbaud",
+      "rich-text#info-fits-2-girbaud"
+    ],
+    "props": {
+      "blockClass": ["fits-contenido", "fits-contenido-girbaud"]
+    }
+  },
+  "flex-layout.row#fits-3-girbaud": {
+    "children": [
+      "image#fits-3-girbaud",
+      "rich-text#info-fits-3-girbaud"
+    ],
+    "props": {
+      "blockClass": ["fits-contenido", "fits-contenido-girbaud"]
+    }
+  },
+  "flex-layout.row#fits-4-girbaud": {
+    "children": [
+      "image#fits-4-girbaud",
+      "rich-text#info-fits-4-girbaud"
+    ],
+    "props": {
+      "blockClass": ["fits-contenido", "fits-contenido-girbaud"]
+    }
+  },
+  "flex-layout.row#fits-5-girbaud": {
+    "children": [
+      "image#fits-5-girbaud",
+      "rich-text#info-fits-5-girbaud"
+    ],
+    "props": {
+      "blockClass": "fits-contenido"
+    }
+  },
+  "flex-layout.row#fits-6-girbaud": {
+    "children": [
+      "rich-text#info-fits-6-girbaud"
+    ],
+    "props": {
+      "blockClass": "fits-contenido-6"
+    }
+  },
+
+  /********FIT*******/
+  "image#fits-1-girbaud": {
+    "props": {
+      "src": "/arquivos/Fits-jeans-MFG-hombre-fitfavorito.jpg",
+      "link": {
+        "url": "/fits-girbaud"
+      },
+      "blockClass": "fits-contenido-img"
+    }
+  },
+
+  "rich-text#info-fits-1-girbaud": {
+    "props": {
+      "text": "[**SLIM** \n Pierna ajustada](/hombre-slim-fits-girbaud)",
+      "blockClass": "fits-contenido-texto-girbaud"
+    }
+  },
+  /********FIT*******/
+
+  /********FIT*******/
+  "image#fits-2-girbaud": {
+    "props": {
+      "src": "/arquivos/Fits-jeans-MFG-hombre-regularstraight.jpg",
+      "link": {
+        "url": "/hombre-skinny-fits-girbaud"
+      },
+      "blockClass": "fits-contenido-img"
+    }
+  },
+
+  "rich-text#info-fits-2-girbaud": {
+    "props": {
+      "text": "[**REGULAR STRAIGHT** \n Tiro medio y bota recta](/hombre-skinny-fits-girbaud)",
+      "blockClass": "fits-contenido-texto-girbaud"
+    }
+  },
+  /********FIT*******/
+
+  /********FIT*******/
+  "image#fits-3-girbaud": {
+    "props": {
+      "src": "/arquivos/MFG-hombre-regulartapered.jpg",
+      "link": {
+        "url": "/hombre-tapered-fits-girbaud"
+      },
+      "blockClass": "fits-contenido-img"
+    }
+  },
+
+  "rich-text#info-fits-3-girbaud": {
+    "props": {
+      "text": "[**REGULAR TAPERED** \n Tiro medio y bota ajustada](/hombre-tapered-fits-girbaud)",
+      "blockClass": "fits-contenido-texto-girbaud"
+    }
+  },
+  /********FIT*******/
+
+  /********FIT*******/
+  "image#fits-4-girbaud": {
+    "props": {
+      "src": "/arquivos/MFG-hombre-slim.jpg",
+      "link": {
+        "url": "/hombre-straight-fits-girbaud"
+      },
+      "blockClass": "fits-contenido-img"
+    }
+  },
+
+  "rich-text#info-fits-4-girbaud": {
+    "props": {
+      "text": "[**SLIM** \n Tiro medio y bota semiajustada](/hombre-straight-fits-girbaud)",
+      "blockClass": "fits-contenido-texto-girbaud"
+    }
+  },
+  /********FIT*******/
+   /********FIT*******/
+   "image#fits-5-girbaud": {
+    "props": {
+      "src": "/arquivos/MFG-mujer-regularbaggy.jpg",
+      "link": {
+        "url": "/hombre-regularbaggy-fits-girbaud"
+      },
+      "blockClass": "fits-contenido-img"
+    }
+  },
+
+  "rich-text#info-fits-5-girbaud": {
+    "props": {
+      "text": "[**Regular Baggy** \n Tiro medio y bota semiajustada](/hombre-straight-fits-girbaud)",
+      "blockClass": "fits-contenido-texto-girbaud"
+    }
+  },
+  /********FIT*******/
+    /********FIT*******/
+    "rich-text#info-fits-6-girbaud": {
+      "props": {
+        "text": "[Ver todo](/fits-girbaud)",
+        "blockClass": "ver-todo-fits"
+      }
+    }
+    /********FIT*******/
+}

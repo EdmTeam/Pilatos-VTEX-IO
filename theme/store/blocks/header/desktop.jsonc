@@ -186,13 +186,24 @@
 
   "flex-layout.row#header-items-desk": {
     "children": [
-      "flex-layout.col#content-reversso-header",
+      //Cambios y devol "flex-layout.col#content-reversso-header",
+      "experimental__visibility-layout#ofertas-vigentes-header",
       "flex-layout.col#header-items-desk-col-2"
     ],
     "props": {
       "blockClass": "contenedor-iconos-menu-header"
     }
   },
+
+  "experimental__visibility-layout#ofertas-vigentes-header": {
+        "title": "Modal ofertas vigentes visibility",
+        "children": [
+          "modal-trigger#ofertas-vigentes-header"
+        ],
+        "props": {
+          "visible": false
+        }
+      },
 
   "flex-layout.col#content-reversso-header": {
     "children": [

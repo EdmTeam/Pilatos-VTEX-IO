@@ -1,0 +1,122 @@
+{
+    "store.custom#landing-envio-express-2025": {
+    "title": "Landing Envio Express",
+      "blocks": [
+        "flex-layout.row#envio-express",
+        "experimental__visibility-layout#banner-landing-general",
+        
+"experimental__visibility-layout#titulo-vitrina-general",
+        "search-result-layout.customQuery#vitrina-pilatos-general"
+      ]
+    },
+
+    /*Titulo vitrina*/
+
+"experimental__visibility-layout#titulo-vitrina-general": {
+    "title": "título vitrina general",
+    "children": ["flex-layout.row#titulo-vitrina-general"],
+    "props": {
+      "visible": true
+    }
+  },
+  
+  "flex-layout.row#titulo-vitrina-general": {
+    "title": "título vitrina principal",
+    "children": ["rich-text#titulo-vitrina-contenido"],
+    "props": {
+      "blockClass": "seo-texto-general-contenedor"
+    }
+  },
+  
+  "rich-text#titulo-vitrina-contenido": {
+    "props": {
+      "text": "**¡Compra ahora y recibe tu pedido express!**",  
+      "blockClass": ["seo-content-general","titulo-vitrina-general"],
+      "textAlignment": "CENTER"
+    }
+  },
+  
+
+  /*Texto e imagen envio express*/
+    "flex-layout.row#envio-express": {
+      "children": [
+        "flex-layout.col#envio-express-texto",
+        "flex-layout.col#envio-express-imagen"
+      ],"props": {
+
+        "blockClass": "contenedor-texto-imagen-envio-express"
+      }
+    },
+  
+    "flex-layout.col#envio-express-texto": {
+        "title": "textos envio express",
+      "children": [
+        "rich-text#envio-express-titulo",
+        "rich-text#envio-express-texto"
+      ],
+      "props": {
+        "blockClass": "envio-express-texto",
+        "horizontalAlign": "left"
+  
+      }
+    },
+  
+    "flex-layout.col#envio-express-imagen": {
+        "title": "envio-express-imagen 1",
+      "children": [
+        "list-context.image-list#envio-express"
+      ],
+      "props": {
+        "blockClass": "envio-express-imagen",
+        "horizontalAlign": "right"
+
+      }
+    },
+  
+    "rich-text#envio-express-titulo": {
+        "title": "titulo-envio-express",
+      "props": {
+        "text": "# ¡Disfruta tu compra más rápido!",
+        "blockClass": "envio-express-titulo"
+
+      }
+    },
+  
+    "rich-text#envio-express-texto": {
+        "title": "texto envio express",
+      "props": {
+        "text": "Recibe tu paquete en 48 horas o menos, en **Bogotá, Medellín y Cali.**",
+        "blockClass": "envio-express-texto"
+
+      }
+    },
+  
+    "list-context.image-list#envio-express": {
+      "children": ["slider-layout#envio-express"],
+      "props": {
+        "images": [
+          {
+            "image": "https://replaycolombia.vtexassets.com/assets/vtex.file-manager-graphql/images/5b7e516d-aec2-4139-a91e-0894034308a7___some-image.jpg",
+            "mobileImage": "https://replaycolombia.vtexassets.com/assets/vtex.file-manager-graphql/images/xxx-mobile-version.jpg",
+            "description": "Entrega express"
+          }
+        ],
+        "blockClass": "envio-express-imagen"
+      }
+    },
+  
+    "slider-layout#envio-express": {
+      "props": {
+        "itemsPerPage": {
+          "desktop": 1,
+          "tablet": 1,
+          "phone": 1
+        },
+        "showNavigationArrows": "never",
+        "showPaginationDots": "never",
+        "infinite": false,
+        "fullWidth": true
+      }
+    }
+  }
+  
