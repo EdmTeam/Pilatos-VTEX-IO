@@ -429,3 +429,9 @@
         background: #111111;
     }
 }
+
+/****SLIDER DE MARCAS EN TENIS****/
+.sliderArrows--slider-marcas-tenis {
+    height: 30px !important;
+    width: 30px !important;
+}
