@@ -78,7 +78,7 @@
     "responsive-layout.desktop#pillar-tenis-banners": {
         "children": [
             "flex-layout.col#department-pilatos-banners-1a",
-            "list-context.image-list#demo-pillar"
+            "list-context.image-list#demo-pillar-new"
             
         ]
     },
@@ -144,7 +144,7 @@
     "responsive-layout.phone#pillar-tenis-banners": {
         "children": [
             "flex-layout.col#department-pilatos-banners-1b",
-            "list-context.image-list#demo-pillar"
+            "list-context.image-list#demo-pillar-new"
             
         ]
     },
@@ -152,7 +152,7 @@
     "responsive-layout.tablet#pillar-tenis-banners": {
         "children": [
             "flex-layout.col#department-pilatos-banners-1a",
-            "list-context.image-list#demo-pillar"
+            "list-context.image-list#demo-pillar-new"
             
         ]
     },
@@ -214,7 +214,7 @@
         }
     },
     // Marca imagenes 
-    "list-context.image-list#demo-pillar": {
+    "list-context.image-list#demo-pillar-new": {
         "children": [
             "rich-text#pillar-tenis-title-marca",
             "slider-layout#demo-images-pillar"
@@ -276,7 +276,66 @@
                     "link": {
                         "url": "/oakley%20tenis?_q=oakley%20tenis&fuzzy=0&initialMap=ft&initialQuery=oakley%20tenis&map=category-3,ft&operator=and&query=/tenis/oakley%20tenis&searchState"
                     }
+                },
+                /***nuevas marcas***/
+                {   
+                    "image": "/arquivos/LogoPepeJeans-150x150px.png",
+                    "link": {
+                        "title": "pepe jeans",
+                        "url": "/tenis?initialMap=productClusterIds&initialQuery=1770&map=brand,productClusterIds&query=/pepe-jeans/1770&searchState="
+                    }
+                },
+                {
+                    "image": "/arquivos/dc-logo-nuevo.png",
+                    "width": "50%",
+                    "link": {
+                        "title": "dc shoes",
+                        "url": "/tenis?initialMap=productClusterIds&initialQuery=1770&map=brand,productClusterIds&query=/dcshoes/1770&searchState="
+                    }
+                },
+                {
+                    "image": "/arquivos/logo-the-north-face-new.jpg",
+                    "link": {
+                        "title": "the north face",
+                        "url": "/tenis?initialMap=productClusterIds&initialQuery=1770&map=brand,productClusterIds&query=/the-north-face/1770&searchState="
+                    }
+                },
+                {
+                    "image": "/arquivos/Logo_Converse.png",
+                    "link": {
+                        "title": "Converse",
+                        "url": "/tenis?initialMap=productClusterIds&initialQuery=1770&map=brand,productClusterIds&query=/converse/1770&searchState="
+                    }
+                },
+                {
+                    "image": "/arquivos/LogoBrooks-125x125px.png",
+                    "link": {
+                        "title": "Brooks",
+                        "url": "/tenis?initialMap=productClusterIds&initialQuery=1770&map=brand,productClusterIds&query=/brooks/1770&searchState="
+                    }
+                },
+                {
+                    "image": "/arquivos/LogoON-125x125px.png",
+                    "link": {
+                        "title": "ON",
+                        "url": "/tenis?initialMap=productClusterIds&initialQuery=1770&map=brand,productClusterIds&query=/on/1770&searchState="
+                    }
+                },
+                {
+                    "image": "/arquivos/Logo_MFG.png",
+                    "link": {
+                        "title": "Girbaud",
+                        "url": "/tenis?initialMap=productClusterIds&initialQuery=1770&map=brand,productClusterIds&query=/marithe-francois-girbaud/1770&searchState="
+                    }
+                },
+                {
+                    "image": "/arquivos/LogoMonastery-125x125px.png",
+                    "link": {
+                        "title": "Monastery",
+                        "url": "/tenis?initialMap=productClusterIds&initialQuery=1770&map=brand,productClusterIds&query=/monastery/1770&searchState="
+                    }
                 }
+                /***nuevas marcas***/
                
             ]
         }
@@ -288,7 +347,8 @@
                 "tablet": 4,
                 "phone": 3
             },
-            "infinite": true
+            "infinite": true,
+            "blockClass": "slider-marcas-tenis"
         }
     },
 
