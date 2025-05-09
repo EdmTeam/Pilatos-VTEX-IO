@@ -365,8 +365,8 @@
 
 /******FLAG Quick Sale****/
 .productHighlightWrapper [data-highlight-id="2108"]{
-    width: 46px;
-    height: 46px;
+    width: 40px;
+    height: 40px;
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url(/arquivos/Pilatos-quicksale-mayo-2025-flag.jpg);
@@ -375,8 +375,8 @@
 
 @media (max-width: 768px) {
     .productHighlightWrapper [data-highlight-id="2108"] {
-      width: 45px; /* Ajusta el tamaño para mobile */
-      height: 45px;
+      width: 35px; /* Ajusta el tamaño para mobile */
+      height: 35px;
 
     }
   }
