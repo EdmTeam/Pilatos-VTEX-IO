@@ -12,6 +12,13 @@
     }
 }
 
+@media screen and (max-width: 767px) {
+  .link--contentIcoWhatsApp {
+        bottom: 6rem !important;
+        right: 27px;
+  }
+}
+
 /*gift card*/
 
 .link--giftCard-boton{
