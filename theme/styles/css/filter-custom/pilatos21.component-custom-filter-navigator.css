@@ -173,3 +173,12 @@
   content: 'Categoría';
   font-size: 14px;
 }
+
+.filterContainer--departamento .filterFaceContainer {
+  font-size: 0;
+}
+
+.filterContainer--departamento .filterFaceContainer::before {
+  content: 'Género';
+  font-size: 14px;
+}
