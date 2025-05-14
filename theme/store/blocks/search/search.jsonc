@@ -31,7 +31,7 @@
       "flex-layout.row#banner-search",
       "flex-layout.row#bread-crumb",
       "flex-layout.row#search-info",
-      "flex-layout.row#search-info-desk-new",
+      /* "flex-layout.row#search-info-desk-new", */
       "flex-layout.row#filter-custom-navigator",
       //"flex-layout.row#fetch-previous",
       "flex-layout.row#result",
