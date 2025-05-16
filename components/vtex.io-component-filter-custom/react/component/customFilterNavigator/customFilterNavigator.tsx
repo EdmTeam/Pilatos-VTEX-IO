@@ -34,37 +34,58 @@ const CustomFilterNavigator = () => {
   const handles = useCssHandles(CSS_HANDLES)
 
   const filters = (searchQuery?.data?.facets?.specificationFilters ?? []) as any[]
-  const initialQueryRef = useRef(searchQuery?.variables?.query ?? '')
-  const initialMapRef = useRef(searchQuery?.variables?.map ?? '')
 
-  console.log(searchQuery?.data?.facets)
+  // 🔍 Obtener datos de query y map
+  const queryFromArgs = searchQuery?.data?.facets?.queryArgs?.query ?? ''
+  const mapFromArgs = searchQuery?.data?.facets?.queryArgs?.map ?? ''
+
+  const querySegments = queryFromArgs.split('/').filter(Boolean)
+  const mapSegments = mapFromArgs.split(',').filter(Boolean)
+
+  const initialQuery = querySegments.join('/')
+  const initialMap = mapSegments.slice(0, querySegments.length).join(',')
+
+  const initialQueryRef = useRef(initialQuery)
+  const initialMapRef = useRef(initialMap)
 
   const [openIndex, setOpenIndex] = useState<number | null>(null)
 
   const handleFilterToggle = (map: string, value: string, selected: boolean) => {
-    const currentQuery = searchQuery?.variables?.query?.split('/') ?? []
-    const currentMap = searchQuery?.variables?.map?.split(',') ?? []
+    const baseQuery = initialQueryRef.current.split('/').filter(Boolean)
+    const baseMap = initialMapRef.current.split(',').filter(Boolean)
 
-    const index = currentQuery.findIndex((q: string, i: number) => q === value && currentMap[i] === map)
+    const activeFilters = searchQuery?.variables?.query?.split('/') ?? []
+    const activeMaps = searchQuery?.variables?.map?.split(',') ?? []
 
-    const newQuery = [...currentQuery]
-    const newMap = [...currentMap]
+    const extraFilters = activeFilters.slice(baseQuery.length)
+    const extraMaps = activeMaps.slice(baseMap.length)
+
+    let additionalQuery = [...extraFilters]
+    let additionalMap = [...extraMaps]
+
+    const index = additionalQuery.findIndex((q, i) => q === value && additionalMap[i] === map)
 
     if (selected && index === -1) {
-      newQuery.push(value)
-      newMap.push(map)
+      additionalQuery.push(value)
+      additionalMap.push(map)
     } else if (!selected && index > -1) {
-      newQuery.splice(index, 1)
-      newMap.splice(index, 1)
+      additionalQuery.splice(index, 1)
+      additionalMap.splice(index, 1)
     }
 
-    setQuery({
-      query: `/${newQuery.join('/')}`,
-      map: newMap.join(','),
-      initialQuery: initialQueryRef.current,
-      initialMap: initialMapRef.current,
-      searchState: '',
-    }, { replace: true })
+    const finalQuery = [...baseQuery, ...additionalQuery]
+    const finalMap = [...baseMap, ...additionalMap]
+
+    setQuery(
+      {
+        query: `/${finalQuery.join('/')}`,
+        map: finalMap.join(','),
+        initialQuery: initialQueryRef.current,
+        initialMap: initialMapRef.current,
+        searchState: '',
+      },
+      { replace: true }
+    )
   }
 
   if (!Array.isArray(filters) || filters.length === 0) return null
@@ -81,10 +102,7 @@ const CustomFilterNavigator = () => {
             onMouseEnter={() => setOpenIndex(index)}
             onMouseLeave={() => setOpenIndex(null)}
           >
-            <div
-              role="button"
-              className={`${handles.filterTitle}`}
-            >
+            <div role="button" className={handles.filterTitle}>
               <span className={handles.filterFaceContainer}>{facet.name}</span>
               <span className={handles.filterIconContainer}>
                 <svg
@@ -95,7 +113,7 @@ const CustomFilterNavigator = () => {
                   viewBox="0 0 16 16"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <use href="#nav-caret--up" xlinkHref="#nav-caret--up"></use>
+                  <use href="#nav-caret--up" xlinkHref="#nav-caret--up" />
                 </svg>
               </span>
             </div>
@@ -116,7 +134,9 @@ const CustomFilterNavigator = () => {
                         <div className={handles.filterCheckboxInner}></div>
                         <div className={handles.filterCheckboxBoxWrapper}>
                           <div
-                            className={`${handles.filterCheckboxBox} ${value.selected ? handles.filterCheckboxBoxSelected : ''}`}
+                            className={`${handles.filterCheckboxBox} ${
+                              value.selected ? handles.filterCheckboxBoxSelected : ''
+                            }`}
                           />
                         </div>
                         <input
@@ -136,7 +156,8 @@ const CustomFilterNavigator = () => {
                         className={handles.filterCheckboxLabel}
                         htmlFor={`${facet.name}-${value.value}`}
                       >
-                        {value.name} <span className={handles.filterCount}>({value.quantity})</span>
+                        {value.name}{' '}
+                        <span className={handles.filterCount}>({value.quantity})</span>
                       </label>
                     </div>
                   </div>
