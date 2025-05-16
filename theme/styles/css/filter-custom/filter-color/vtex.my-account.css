@@ -1,0 +1,2516 @@
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-gris"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-gris"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #808080;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-negro"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-negro"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #000000;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-multicolor"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-multicolor"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(45deg, #FF0000, #FF7F00, #FFFF00, #00FF00, #0000FF, #4B0082, #8B00FF);
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-azul"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-azul"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #0000ff;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-blanco"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-blanco"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #FFFFFF; 
+  border: 1px solid #000000; 
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-verde"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-verde"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #2E8B57;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-rojo"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-rojo"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #FF0000;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-cafe"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-cafe"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #8B4513;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-amarillo"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-amarillo"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #FFFF00;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-blanco-negro"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-blanco-negro"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(45deg, #000000 50%, #FFFFFF 50%); 
+  border: 1px solid #000000; 
+  border-radius: 50%; 
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-morado"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-morado"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #800080;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-rosado"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-rosado"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #FFC0CB;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-bronce"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-bronce"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(135deg, #cd7f32, #b87333, #d4af37);
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-vinotinto"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-vinotinto"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #800000;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-natural"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-natural"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #CDC0A2;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-dorado"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-dorado"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(
+    135deg,
+    #fff8dc,
+    #d4af37,
+    #ffd700,
+    #b8860b,
+    #fff8dc
+  );
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-naranja"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-naranja"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #FFA500;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-coral"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-coral"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #FF7F50;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-negro-blanco"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-negro-blanco"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(45deg, #FFFFFF 50%, #000000 50%); 
+  border: 1px solid #000000; 
+  border-radius: 50%; 
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-beige"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-beige"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #F5F5DC;
+  border: 1px solid #000000; 
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-azul-gris"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-azul-gris"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(
+    45deg,
+    #0000FF 0%,
+    #0000FF 50%,
+    #808080 50%,
+    #808080 100%
+  );
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-ocre"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-ocre"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #DDAA33;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-caqui"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-caqui"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #F0E68C;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-transparente"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-transparente"]::before {
+  content: 'Transparente';
+  font-size: 12px;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-negro-verde"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-negro-verde"]::before {
+  content: 'Transparente';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(
+    45deg,
+    #000000 0%,
+    #000000 50%,
+    #008000 50%,
+    #008000 100%
+  );
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-negro-gris"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-negro-gris"]::before {
+  content: 'Transparente';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(
+    45deg,
+    #000000 0%,
+    #000000 50%,
+    #808080 50%,
+    #808080 100%
+  );
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-negro-azul"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-negro-azul"]::before {
+  content: 'Transparente';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(
+    45deg,
+    #000000 0%,
+    #000000 50%,
+    #0000FF 50%,
+    #0000FF 100%
+  );
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-negro-rojo"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-negro-rojo"]::before {
+  content: 'Transparente';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(
+    45deg,
+    #000000 0%,
+    #000000 50%,
+    #FF0000 50%,
+    #FF0000 100%
+  );
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-negro-menta"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-negro-menta"]::before {
+  content: 'Transparente';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(
+    45deg,
+    #000000 0%,
+    #000000 50%,
+    #98FF98 50%,
+    #98FF98 100%
+  );
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-negro-dorado"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-negro-dorado"]::before {
+  content: 'Transparente';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(
+    45deg,
+    #000000 0%,
+    #000000 50%,
+    #d4af37 50%,
+    #ffd700 70%,
+    #b8860b 90%,
+    #fff8dc 100%
+  );
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-khaki"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-khaki"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #F0E68C;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-negro-negro"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-negro-negro"]::before {
+  content: 'Transparente';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(
+    45deg,
+    #000000 0%,
+    #000000 50%,
+    #222222 50%,
+    #222222 100%
+  );
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-azul-naranja"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-azul-naranja"]::before {
+  content: 'Transparente';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(
+    45deg,
+    #0000FF 0%,
+    #0000FF 50%,
+    #FFA500 50%,
+    #FFA500 100%
+  );
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-gris-negro"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-gris-negro"]::before {
+  content: 'Transparente';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(
+    45deg,
+    #808080 0%,
+    #808080 50%,
+    #000000 50%,
+    #000000 100%
+  );
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-gris-amarillo"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-gris-amarillo"]::before {
+  content: 'Transparente';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(
+    45deg,
+    #808080 0%,
+    #808080 50%,
+    #FFFF00 50%,
+    #FFFF00 100%
+  );
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-lila"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-lila"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #C8A2C8;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--9370db"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--9370db"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #9370db;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--800080"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--800080"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #800080;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--008000"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--008000"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #008000;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--f5f5dc"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--f5f5dc"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #f5f5dc;
+  border: 1px solid #000000;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--696969"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--696969"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #696969;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--00008b"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--00008b"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #00008b;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--8b0000"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--8b0000"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #8b0000;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--ffff00"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--ffff00"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #ffff00;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--0000ff"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--0000ff"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #0000ff;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--808080"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--808080"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #808080;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--ffc0cb"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--ffc0cb"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #ffc0cb;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--add8e6"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--add8e6"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #add8e6;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--90ee90"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--90ee90"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #90ee90;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--ff0000"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--ff0000"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #ff0000;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--ffa500"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--ffa500"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #ffa500;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--8b4513"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--8b4513"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #8b4513;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--006400"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--006400"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #006400;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--ff69b4"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--ff69b4"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #ff69b4;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--778899"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--778899"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #778899;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--ffffe0"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--ffffe0"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #ffffe0;
+  border: 1px solid #000000;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--eee8aa"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--eee8aa"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #eee8aa;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--daa520"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--daa520"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #daa520;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--ff4500"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--ff4500"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #ff4500;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--dcdcdc"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--dcdcdc"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #dcdcdc;
+  border: 1px solid #000000;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--ff1493"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--ff1493"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #ff1493;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--800000"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--800000"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #800000;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--ff00ff"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--ff00ff"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #ff00ff;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--c0c0c0"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--c0c0c0"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #c0c0c0;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--ffe4b5"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--ffe4b5"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #ffe4b5;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--a9a9a9"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--a9a9a9"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #a9a9a9;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--fa8072"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--fa8072"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #fa8072;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--ffd700"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--ffd700"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #ffd700;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--adff2f"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--adff2f"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #adff2f;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--663399"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--663399"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #663399;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--ee82ee"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--ee82ee"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #ee82ee;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--a52a2a"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--a52a2a"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #a52a2a;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-azul-morado"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-azul-morado"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(
+    45deg,
+    #0000FF 0%,     
+    #0000FF 50%,
+    #800080 50%,   
+    #800080 100%
+  );
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-azul-rojo"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-azul-rojo"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(
+    45deg,
+    #0000FF 0%,     
+    #0000FF 50%,
+    #FF0000 50%,    
+    #FF0000 100%
+  );
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-gris-claro"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-gris-claro"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #D3D3D3;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-gris-oscuro"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-gris-oscuro"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #4B4B4B;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-verde-oscuro"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-verde-oscuro"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #006400;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-azul-claro"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-azul-claro"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #ADD8E6;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-azul-oscuro"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-azul-oscuro"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #00008B;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-rojo-oscuro"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-rojo-oscuro"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #8B0000;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-cafe-oscuro"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-cafe-oscuro"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #654321;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-verde-negro"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-verde-negro"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(45deg, #008000 0%, #008000 50%, #000000 50%, #000000 100%);
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-militar"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-militar"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #4B5320;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-negro-mate"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-negro-mate"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #000000;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-azul-blanco"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-azul-blanco"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(45deg, #0000FF 0%, #0000FF 50%, #FFFFFF 50%, #FFFFFF 100%);
+  border: 1px solid #000000;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-blanco-azul"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-blanco-azul"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(45deg,#FFFFFF 0%, #FFFFFF 50%, #0000FF 50%, #0000FF 100%);
+  border: 1px solid #000000;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-gris-azul"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-gris-azul"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(45deg, #808080 0%, #808080 50%, #0000FF 50%, #0000FF 100%);
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-negro-naranja"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-negro-naranja"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(45deg, #000000 0%, #000000 50%, #FFA500 50%, #FFA500 100%);
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-negro-amarillo"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-negro-amarillo"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(45deg, #000000 0%, #000000 50%, #FFFF00 50%, #FFFF00 100%);
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-verde-oliva"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-verde-oliva"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #808000;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-mostaza"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-mostaza"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #FFDB58;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-celeste"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-celeste"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #87CEEB;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-verde-neon"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-verde-neon"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #39FF14;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-rosa-neon"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-rosa-neon"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #FF69B4;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-naranja-neon"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-naranja-neon"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #FF5F1F;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-azul-amarillo"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-azul-amarillo"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(45deg, #0000FF 0%, #0000FF 50%, #FFFF00 50%, #FFFF00 100%);
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-trasparente"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-trasparente"]::before {
+  content: 'Transparente';
+  font-size: 12px;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-azul-negro"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-azul-negro"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(45deg, #0000FF 0%, #0000FF 50%, #000000 50%, #000000 100%);
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-blanco-naranja"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-blanco-naranja"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(45deg, #FFFFFF 0%, #FFFFFF 50%, #FFA500 50%, #FFA500 100%);
+  border: 1px solid #000000;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-gris-negro-negro"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-gris-negro-negro"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(45deg, #808080 0%, #808080 50%, #000000 50%, #000000 100%);
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-verde-gris"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-verde-gris"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+ background: linear-gradient(45deg, #008000 0%, #008000 50%, #808080 50%, #808080 100%);
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-rojo-negro"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-rojo-negro"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+ background: linear-gradient(45deg,#FF0000 0%, #FF0000 50%, #000000 50%, #000000 100%);
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-rojo-blanco"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-rojo-blanco"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+ background: linear-gradient(45deg, #FF0000 0%, #FF0000 50%, #FFFFFF 50%, #FFFFFF 100%);
+ border: 1px solid #000000;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-khaki-negro"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-khaki-negro"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+ background: linear-gradient(45deg, #C3B091 0%, #C3B091 50%, #000000 50%, #000000 100%);
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-blanco-rojo"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-blanco-rojo"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+ background: linear-gradient(45deg, #FFFFFF 0%, #FFFFFF 50%, #FF0000 50%, #FF0000 100%);
+ border: 1px solid #000000;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-azul-verde"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-azul-verde"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+ background: linear-gradient(45deg, #0000FF 0%, #0000FF 50%, #008000 50%, #008000 100%);
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-verde-camuflado"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-verde-camuflado"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: repeating-linear-gradient(
+  45deg,
+  #4B5320, #4B5320 5px,
+  #3B3C36 5px, #3B3C36 10px,
+  #6B8E23 10px, #6B8E23 15px,
+  #3B3C36 15px, #3B3C36 20px
+  );
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-negro-gris-negro"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-negro-gris-negro"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(45deg, #000000 0%, #000000 50%, #808080 50%, #808080 100%);
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-azul-dorado"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-azul-dorado"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(45deg, #0000FF 0%, #0000FF 50%, #FFD700 50%, #FFD700 100%);
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-gris-blanco"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-gris-blanco"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(45deg, #808080 0%, #808080 50%, #FFFFFF 50%, #FFFFFF 100%);
+  border: 1px solid #000000;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-blanco-verde"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-blanco-verde"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(45deg, #FFFFFF 0%, #FFFFFF 50%, #008000 50%, #008000 100%);
+  border: 1px solid #000000;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-blanco-gris"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-blanco-gris"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(45deg, #FFFFFF 0%, #FFFFFF 50%, #808080 50%, #808080 100%);
+  border: 1px solid #000000;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-gris-naranja"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-gris-naranja"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(45deg, #808080 0%, #808080 50%, #FFA500 50%, #FFA500 100%);
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-cafe-negro"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-cafe-negro"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(45deg, #6F4E37 0%, #6F4E37 50%, #000000 50%, #000000 100%);
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-negro-negro-perlado-blanco"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-negro-negro-perlado-blanco"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(45deg,#1C1C1C 0%,
+  #2E2E2E 25%,
+  #4D4D4D 50%,
+  #F8F8F8 50%,
+  #EDEDED 75%,
+  #FFFFFF 100%);
+  border: 1px solid #000000;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-negro-blanco-gris"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-negro-blanco-gris"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(45deg, #000000 0%, #FFFFFF 33.33%, #808080 66.66%, #808080 100%);
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-gris-negro-blanco"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-gris-negro-blanco"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(45deg, #808080 0%, #000000 33.33%, #FFFFFF 66.66%, #FFFFFF 100%);
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-gris-azul-web-amarillo-azufre"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-gris-azul-web-amarillo-azufre"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(45deg, #808080 0%, #0000FF 33.33%, #FFD700 66.66%, #FFD700 100%);
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-verde-azul"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-verde-azul"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(45deg, #228B22 0%, #228B22 50%, #0000FF 50%, #0000FF 100%);
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-verde-mate"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-verde-mate"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #556B2F;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-verde-oliva-mate"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-verde-oliva-mate"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #6B8E23;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-camuflado"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-camuflado"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: repeating-linear-gradient(
+  45deg,
+  #4B5320, #4B5320 5px,
+  #3B3C36 5px, #3B3C36 10px,
+  #6B8E23 10px, #6B8E23 15px,
+  #3B3C36 15px, #3B3C36 20px
+  );
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-gris-cafe"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-gris-cafe"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(45deg, #808080 0%, #808080 50%, #6F4E37 50%, #6F4E37 100%);
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-negro-blanco-rojo"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-negro-blanco-rojo"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(45deg, #000000 0%, #FFFFFF 33.33%, #FF0000 66.66%, #FF0000 100%);
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-verde-militar"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-verde-militar"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #4B5320;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-carbon"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-carbon"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #2B2B2B;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-camel"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-camel"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #C19A6B;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-negro-cafe"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-negro-cafe"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(45deg, #000000 0%, #000000 50%, #6F4E37 50%, #6F4E37 100%);
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-chai"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-chai"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #B1835C;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-pale-mauve"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-pale-mauve"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #F4E1E6;
+  border: 1px solid #000000;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-sunrise"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-sunrise"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(45deg, #FFB347, #FFDAB9, #E6E6FA);
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--000000"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--000000"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #000000;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--ffffff"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--ffffff"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--e6e6fa"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--e6e6fa"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #e6e6fa;
+  border: 1px solid #000000;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-fucsia"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-fucsia"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #FF00FF;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--b8860b"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--b8860b"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #b8860b;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--32cd32"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color--32cd32"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #32cd32;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-gris-verde"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-gris-verde"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(45deg, #808080 0%, #808080 50%, #228B22 50%, #228B22 100%);
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-gris-metalizado"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-gris-metalizado"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #A9A9A9;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-azul-metalizado"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-azul-metalizado"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #4169E1;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-azul-rosado"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-azul-rosado"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(45deg, #0000FF 0%, #0000FF 50%, #FFC0CB 50%, #FFC0CB 100%);
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-rosado-naranja"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-rosado-naranja"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(45deg, #FFC0CB 0%, #FFC0CB 50%, #FFA500 50%, #FFA500 100%);
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-lila-verde"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-lila-verde"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(45deg, #C8A2C8 0%, #C8A2C8 50%, #228B22 50%, #228B22 100%);
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-amarillo-naranja"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-amarillo-naranja"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(45deg, #FFFF00 0%, #FFFF00 50%, #FFA500 50%, #FFA500 100%);
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-blanco-perla"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-blanco-perla"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #F8F8FF;
+  border: 1px solid #000000;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-verde-menta"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-verde-menta"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #98FF98;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-gris-morado"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-gris-morado"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(45deg, #808080 0%, #808080 50%, #800080 50%, #800080 100%);
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-gris-negro-morado"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-gris-negro-morado"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(45deg, #808080 0%, #000000 33.33%, #800080 66.66%, #800080 100%);
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-azul-marinero-azul-rosado-glo"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-azul-marinero-azul-rosado-glo"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(45deg, #000080 0%, #FFC0CB 33.33%, #FF00FF 66.66%, #FF00FF 100%);
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-blanco-arena-atardecer-fucsia"] {
+  font-size: 0 !important;
+  display: flex !important;
+}
+
+:global(.pilatos21-component-custom-filter-navigator-0-x-filterItem) label[for="Color-blanco-arena-atardecer-fucsia"]::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(45deg, #FFFFFF 0%, #FFFFFF 50%, #FF00FF 50%, #FF00FF 100%);
+  border: 1px solid #000000;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+
+
