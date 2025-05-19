@@ -3,6 +3,7 @@
     "blocks": [
       "pa-widget",
       "livestreaming",
+      // "modal-trigger#welcome",
       "flex-layout.row#content-slider",
       "responsive-layout.desktop#images__department--desk",
       "responsive-layout.mobile#images__department--mob",

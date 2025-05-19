@@ -56,7 +56,12 @@
       "rich-text#submenu-desk-department-4-category-60-jansport-16-mobile", // JANSPORT
       "rich-text#submenu-desk-department-4-category-60-kappa-17-mobile", // KAPPA
       "rich-text#submenu-desk-department-4-category-60-the-north-face-18-mobile", // THE NORTH FACE
-      "rich-text#submenu-desk-department-4-category-60-emir-miliano-mobile" // EMIR MILIANO
+      "rich-text#submenu-desk-department-4-category-60-emir-miliano-mobile", // EMIR MILIANO
+       "rich-text#submenu-desk-department-4-category-60-billabong-mujer-19-mobile", // BILLABONG
+      "rich-text#submenu-desk-department-4-category-60-element-mujer-20-mobile", // ELEMENT
+      "rich-text#submenu-desk-department-4-category-60-rvca-mujer-21-mobile" // RVCA
+      
+      
     ],
     "props": {
       "blockClass": "contentSubMenuAcordeon"
@@ -197,6 +202,28 @@
     }
   }, 
 
+    "rich-text#submenu-desk-department-4-category-60-billabong-mujer-19-mobile":{
+        "props": {
+            "text": "[Billabong](/mujer/billabong?map=category-1,marca)",
+            "blockClass": ["textSubmenuAcordeon", "textSubcategoryPilatos"]
+        }
+       }, //billabongS
+
+       "rich-text#submenu-desk-department-4-category-60-element-mujer-20-mobile": {
+        "props": {
+            "text": "[Element](/mujer/element?map=category-1,marca)",
+            "blockClass": ["textSubmenuAcordeon", "textSubcategoryPilatos"]
+        }
+       }, //element
+
+         "rich-text#submenu-desk-department-4-category-60-rvca-mujer-21-mobile": {
+          "props": {
+                "text": "[Rvca](/mujer/rvca?map=category-1,marca)",
+                "blockClass": ["textSubmenuAcordeon", "textSubcategoryPilatos"]
+          }
+         }, //rvca
+
+
   //Franques
   "rich-text#submenu-desk-department-4-category-60-francques-2-mobile": {
     "props": {
@@ -302,4 +329,7 @@
       "blockClass": "textSubmenuAcordeon"
     }
   }
+
+
+  
 }
