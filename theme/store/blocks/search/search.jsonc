@@ -68,18 +68,18 @@
             {
               "name": "Descripción"
             },
-            {
-              "name": "Color"
-            },
+            // {
+            //   "name": "Color"
+            // },
             {
               "name": "Tipo"
             },
             {
               "name": "Categoría"
-            },
-            {
-              "name": "Colores"
             }
+            // {
+            //   "name": "Colores"
+            // }
           ]
         }
       }
@@ -285,9 +285,9 @@
             {
               "name": "Material"
             },
-            {
-              "name": "Color"
-            },
+            // {
+            //   "name": "Color"
+            // },
             {
               "name": "Tipo"
             },
@@ -353,7 +353,7 @@
   },
   "flex-layout.col#filterMobile-desk": {
     "children": [
-      // "filter-navigator.v3#filterMobile"
+      // "filter-navigator.v3#filterMobile",
       "drawer#filter-mobile-desk"
     ],
     "props": {
@@ -539,10 +539,5 @@
       "product-selling-price#summary"
       //"flex-layout.row#add-to-cart"
     ]
-  },
-  "back-to-top-button": {
-    "props": {
-      "display": "caret-icon"
-    }
   }
 }

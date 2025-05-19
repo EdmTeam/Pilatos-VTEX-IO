@@ -8,6 +8,10 @@
     color: #000;
 }
 
+:global(.vtex-search-result-3-x-container--layout--contentStoreCustom) :global(.bottom-2) {
+    bottom: 7rem !important;
+}
+
 :global(.vtex-menu-2-x-menuItem--menuAccordionLevel1--isOpen) :global(.overflow-hidden) {
     height: auto !important;
 }

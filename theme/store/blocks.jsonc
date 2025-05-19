@@ -87,8 +87,9 @@
   },
   "back-to-top-button": {
     "props": {
-      "displayThreshold": "400",
-      "display": "caret-icon"
+      "displayThreshold": 400,
+      "display": "caret-icon",
+      "blockClass": "back_to--top"
     }
   },
   "vtex.add-to-cart-button:add-to-cart-button": {
