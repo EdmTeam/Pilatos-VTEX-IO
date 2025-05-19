@@ -21,19 +21,25 @@
         "rich-text#submenu-desk-department-4-category-59", //ARTDIST
         "rich-text#submenu-desk-department-4-category-62", //Blackoud
         "rich-text#submenu-desk-department-4-category-43", //brooks
+          "rich-text#submenu-desk-department-4-category-64", //Billabong
+         
+   
         "rich-text#submenu-desk-department-4-category-40", //calvin kley
         "rich-text#submenu-desk-department-4-category-23", //Celio
         "rich-text#submenu-desk-department-4-category-33", //champions
+       
         "rich-text#converse__marcas--menu", //converse
         "rich-text#dcshoes-1__marcas--menu", //dcshoes
         "rich-text#submenu-desk-department-4-category-61", //Devier
         "rich-text#submenu-desk-department-4-category-32", //ecovessel
+       "rich-text#submenu-desk-department-4-category-66", //Element
         "rich-text#submenu-desk-department-4-category-32.1", //Emmir Miliano
         "rich-text#submenu-desk-department-4-category-63", //Franques
         "rich-text#submenu-desk-department-4-category-31", //FJALL
         "rich-text#submenu-desk-department-4-category-17", //goorin
         "rich-text#submenu-desk-department-4-category-47", //jansport
         "rich-text#submenu-desk-department-4-category-57" //kappa
+     
     ],
     "props":{
         "blockClass": [
@@ -67,6 +73,7 @@
       "rich-text#submenu-desk-department-4-category-20", //quiksilver
       "rich-text#submenu-desk-department-4-category-21", //ray ban
       "rich-text#submenu-desk-department-4-category-14", //Roxy
+          "rich-text#submenu-desk-department-4-category-65", //Rvca
       "rich-text#submenu-desk-department-4-category-56", //superga
       "rich-text#submenu-desk-department-4-category-35", //sprayground
       "rich-text#submenu-desk-department-4-category-22", //stance
@@ -244,7 +251,7 @@
     },
     "rich-text#submenu-desk-department-4-category-30":{
         "props":{
-            "text": "[New Era](/new-era) ![New Era](/arquivos/Pilatos-LogosMarcas-NewEra.png)",
+            "text": "[New Era](/new-era) ![New Era](/arquivos/new-era-logo.png)",
             "blockClass": "textSubcategory"
         }
     },
@@ -441,6 +448,26 @@
             "text": "[Champion](/champion) ![Champion](/arquivos/Pilatos-LogosMarcas-Champion.png)",
             "blockClass": "textSubcategory"
         }
-    }
+    },
 
+    "rich-text#submenu-desk-department-4-category-64":{
+        "props":{
+            "text": "[Billabong](/billabong) ![Billabong](/arquivos/Billabong.jpg)",
+            "blockClass": "textSubcategory"
+        }
+    },
+
+    "rich-text#submenu-desk-department-4-category-65":{
+         "props": {
+      "text": "[Rvca](/rvca) ![Rvca](/arquivos/rvca-logo.jpg)",
+       "blockClass": "textSubcategory"
+    }
+    },
+
+        "rich-text#submenu-desk-department-4-category-66":{
+         "props": {
+      "text": "[Element](/element) ![Element](/arquivos/element-logo.jpg)",
+       "blockClass": "textSubcategory"
+    }
+    }
 }

@@ -26,6 +26,7 @@
     },
 
     "vtex.menu@2.x:submenu.accordion#submenu-level-3-row-7": {
+        "title": "submenu-mobile",
         "children": [
             "rich-text#submenu-level-3-text-1-row-7",
             "rich-text#submenu-level-3-text-2-row-7",
@@ -62,7 +63,10 @@
             "rich-text#submenu-desk-department-4-category-60-kappa--17-mobile", //kappa
             "rich-text#submenu-desk-department-4-category-60-the-north-face--18-mobile", //the-north-face
             "rich-text#submenu-desk-department-4-category-60-artdist-19-mobile", //artdist
-            "rich-text#submenu-desk-department-4-category-60-emir-milano-19-mobile" //emmir milano
+            "rich-text#submenu-desk-department-4-category-60-emir-milano-19-mobile", //emmir milano
+             "rich-text#submenu-desk-department-4-category-60-billabong-19-mobile", //billabong
+             "rich-text#submenu-desk-department-4-category-60-element-19-mobile", //element
+                  "rich-text#submenu-desk-department-4-category-60-rvca-19-mobile" //rvca
             ],
         "props": {
             "blockClass": "contentSubMenuAcordeon"
@@ -190,6 +194,27 @@
             "blockClass": ["textSubmenuAcordeon", "textSubcategoryPilatos"]
         }
     },
+
+       "rich-text#submenu-desk-department-4-category-60-billabong-19-mobile":{
+        "props": {
+            "text": "[Billabong](/hombre/billabong?map=category-1,marca)",
+            "blockClass": ["textSubmenuAcordeon", "textSubcategoryPilatos"]
+        }
+       }, //billabongS
+
+       "rich-text#submenu-desk-department-4-category-60-element-19-mobile": {
+        "props": {
+            "text": "[Element](/hombre/element?map=category-1,marca)",
+            "blockClass": ["textSubmenuAcordeon", "textSubcategoryPilatos"]
+        }
+       }, //element
+
+         "rich-text#submenu-desk-department-4-category-60-rvca-19-mobile": {
+          "props": {
+                "text": "[Rvca](/hombre/rvca?map=category-1,marca)",
+                "blockClass": ["textSubmenuAcordeon", "textSubcategoryPilatos"]
+          }
+         }, //rvca
 
     ////////////////////////////////////
 

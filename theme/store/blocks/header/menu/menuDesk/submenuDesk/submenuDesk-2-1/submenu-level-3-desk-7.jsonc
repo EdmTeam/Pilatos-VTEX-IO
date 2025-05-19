@@ -37,6 +37,7 @@
       "rich-text#submenu-desk-department-4-category-60-ap-crown-6", //ap-crown
       "rich-text#submenu-desk-department-4-category-blackout-62", //blackout
       "rich-text#submenu-desk-department-4-category-60-brooks-13", //brooks
+         "rich-text#submenu-desk-department-4-category-64-billabong-13", //Billabong
       "rich-text#submenu-desk-department-4-category-60-calvin-klein-11", //calvin-klein
       "rich-text#submenu-desk-department-4-category-60-champion-5", //champion
       "rich-text#submenu-desk-department-4-category-60-converse-20", //Converse
@@ -44,6 +45,7 @@
       "rich-text#submenu-desk-department-4-category-devier-61", // Devier
       "rich-text#submenu-desk-department-4-category-60-ecovessel-12", //ecovessel/*
       "rich-text#submenu-desk-department-4-category-60-emmirmilano-12", //emmir milano */
+        "rich-text#submenu-desk-department-4-category-100-element-13", //Element
       "rich-text#submenu-desk-department-4-category-60-fjallraven-9", //Fjallraven
       "rich-text#submenu-desk-department-4-category-60-francques-2", //Franques
       "rich-text#submenu-desk-department-1-category-7-subcategory-14", //Goorin-bros
@@ -69,6 +71,7 @@
       "rich-text#submenu-desk-department-1-category-7-subcategory-17", //Quicksilver
       "rich-text#submenu-desk-department-1-category-7-subcategory-18", //ray-ban
       "rich-text#submenu-desk-department-1-category-7-subcategory-20", //Roxy
+         "rich-text#submenu-desk-department-4-category-67-rvca-13", //Rvca
       "rich-text#submenu-desk-department-4-category-60-sprayground-10", //sprayground
       "rich-text#submenu-desk-department-1-category-7-subcategory-19", //Stance
       "rich-text#submenu-desk-department-4-category-60-superga-15", //superga
@@ -192,6 +195,32 @@
       "blockClass": "textSubcategory"
     }
   },
+    "rich-text#submenu-desk-department-4-category-64-billabong-13": {
+
+    "props": {
+      "text": "[Billabong](/hombre/billabong?map=category-1,marca)",
+      "blockClass": "textSubcategory"
+    }
+
+     },
+
+        "rich-text#submenu-desk-department-4-category-100-element-13":{
+
+    "props": {
+      "text": "[Element](/hombre/element?map=category-1,marca)",
+        "blockClass": "textSubcategory"
+        }
+
+         },
+
+          "rich-text#submenu-desk-department-4-category-67-rvca-13":{
+    "props": {
+      "text": "[Rvca](/hombre/rvca?map=category-1,marca)",
+          "blockClass": "textSubcategory"
+
+       }
+
+          },
   "rich-text#submenu-desk-department-4-category-60-pepe-jeans-14": {
     "props": {
       "text": "[Pepe Jeans](/hombre/pepe-jeans?map=category-1,marca)",
