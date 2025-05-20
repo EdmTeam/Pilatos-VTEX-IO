@@ -88,10 +88,12 @@
             "flex-layout.row#marca-individual-4",
             "flex-layout.row#marca-individual-5",
             "flex-layout.row#marca-individual-6",
+               "flex-layout.row#marca-individual-12",
             "flex-layout.row#marca-individual-7",
             "flex-layout.row#marca-individual-8",
             "flex-layout.row#marca-individual-9",
             "flex-layout.row#marca-individual-10",
+            
             "flex-layout.row#marca-individual-11",
             "flex-layout.row#marca-individual-24",
             "flex-layout.row#marca-individual-25",
@@ -99,12 +101,13 @@
             "flex-layout.row#marca-individual-27",
             "rich-text#marcas-titulo-e-h",
             "flex-layout.row#marca-individual-15",
-            "flex-layout.row#marca-individual-14",
+               "flex-layout.row#marca-individual-13",
+         
             "flex-layout.row#marca-individual-18",
             "flex-layout.row#marca-individual-21",
             "flex-layout.row#marca-individual-17",
-            "flex-layout.row#marca-individual-12",
-            "flex-layout.row#marca-individual-13",
+         
+         
             "flex-layout.row#marca-individual-24"
         ],
         "props": {
@@ -147,6 +150,7 @@
             "flex-layout.row#marca-individual-13",
             "flex-layout.row#marca-individual-7",
             "flex-layout.row#marca-individual-8",
+             
             "flex-layout.row#marca-individual-9",
             "flex-layout.row#marca-individual-10",
             "flex-layout.row#marca-individual-11",
@@ -183,8 +187,10 @@
             "flex-layout.row#marca-individual-2",
             "flex-layout.row#marca-individual-10",
             "flex-layout.row#marca-individual-4",
+                "flex-layout.row#marca-individual-14",
             "flex-layout.row#marca-individual-5",
             "flex-layout.row#marca-individual-6",
+          
             "flex-layout.row#marca-individual-7",
             "flex-layout.row#marca-individual-8",
             "flex-layout.row#marca-individual-9",
