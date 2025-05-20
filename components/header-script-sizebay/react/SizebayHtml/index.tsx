@@ -42,7 +42,7 @@ function SizebayHtml() {
     } else {
       // Si la marca no es válida, eliminamos el div si existe
       if (existingDiv) {
-        existingDiv.remove()
+        existingDiv.style.display = 'none'
       }
     }
   }, [context])

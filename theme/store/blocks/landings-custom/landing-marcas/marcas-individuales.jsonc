@@ -203,6 +203,41 @@
     },
     /**************MARCA****************/
 
+
+        /**************MARCA SIN INFO****************/
+    "flex-layout.row#marca-individual-12": {
+        "title": "Marca individual",
+        "children": [
+            "flex-layout.col#marca-individual-12"
+        ]
+    },
+
+    "flex-layout.col#marca-individual-12": {
+        "children": [
+            "rich-text#marca-individual-12",
+            "image#marca-individual-12"
+        ],
+        "props": {
+            "blockClass": "marca-individual"
+        }
+    },
+
+    "rich-text#marca-individual-12": {
+        "props": {
+            "text": "[Billabong](/billabong)",
+            "font": "t-body",
+            "blockClass": "marca-individual-texto"
+        }
+    },
+
+    "image#marca-individual-12": {
+        "props": {
+            "src": "/arquivos/Billabong.jpg",
+            "maxHeight": 28
+        }
+    },
+    /**************MARCA SIN INFO****************/
+
     /**************MARCA****************/
     "flex-layout.row#marca-individual-7": {
         "title": "Marca individual",
@@ -373,39 +408,7 @@
     },
     /**************MARCA****************/
     
-    /**************MARCA SIN INFO****************/
-    "flex-layout.row#marca-individual-12": {
-        "title": "Marca individual",
-        "children": [
-            "flex-layout.col#marca-individual-12"
-        ]
-    },
 
-    "flex-layout.col#marca-individual-12": {
-        "children": [
-            "rich-text#marca-individual-12",
-            "image#marca-individual-12"
-        ],
-        "props": {
-            "blockClass": "marca-individual"
-        }
-    },
-
-    "rich-text#marca-individual-12": {
-        "props": {
-            "text": "",
-            "font": "t-body",
-            "blockClass": "marca-individual-texto"
-        }
-    },
-
-    "image#marca-individual-12": {
-        "props": {
-            "src": "",
-            "maxHeight": 28
-        }
-    },
-    /**************MARCA SIN INFO****************/
 
     /**************MARCA SIN INFO****************/
     "flex-layout.row#marca-individual-13": {
@@ -427,7 +430,7 @@
 
     "rich-text#marca-individual-13": {
         "props": {
-            "text": "",
+            "text": "[Element](/element)",
             "font": "t-body",
             "blockClass": "marca-individual-texto"
         }
@@ -435,7 +438,7 @@
 
     "image#marca-individual-13": {
         "props": {
-            "src": "",
+            "src": "/arquivos/element-logo.jpg",
             "maxHeight": 28
         }
     },
@@ -461,7 +464,7 @@
 
     "rich-text#marca-individual-14": {
         "props": {
-            "text": "",
+            "text": "[Rvca](/rvca)",
             "font": "t-body",
             "blockClass": "marca-individual-texto"
         }
@@ -469,7 +472,7 @@
 
     "image#marca-individual-14": {
         "props": {
-            "src": "",
+            "src": "/arquivos/rvca-logo.jpg",
             "maxHeight": 28
         }
     },
