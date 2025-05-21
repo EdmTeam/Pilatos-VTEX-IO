@@ -6,6 +6,7 @@
         "experimental__visibility-layout#carrusel-hombre-landing-denimsneakers",
         "experimental__visibility-layout#carrusel-mujer-landing-denimsneakers",
         "search-result-layout.customQuery#vitrina-pilatos-general",
+        "experimental__visibility-layout#banner-cinta-denimsneakers",
       "experimental__visibility-layout#texto-seo-final-general"
     ]
   },
@@ -237,6 +238,36 @@
     "props": {
         "blockClass": "carrusel-productos--denimsneakers",
         "width": "70%"
+    }
+  },
+
+  //BANNER CINTA
+  "experimental__visibility-layout#banner-cinta-denimsneakers": {
+    "title": "Banner cinta",
+    "children": ["flex-layout.row#banner-denimsneakers-cinta"],
+    "props": {
+      "visible": false
+    }
+  },
+  "flex-layout.row#banner-denimsneakers-cinta": {
+    "title": "BANNER CINTA",
+    "children": ["list-context.image-list#banner-denimsneakers-cinta"],
+    "props": {
+      "blockClass": "banner-activaciones-imagen-form",
+      "marginBottom": 6
+    }
+  },
+  "list-context.image-list#banner-denimsneakers-cinta": {
+    "children": ["slider-layout#banner-denimsneakers"],
+    "props": {
+      "height": 570,
+      "preload": true,
+      "images": [
+        {
+          "image": "/arquivos/PILATOS Indigo_Banner Landing Escritorio.png",
+          "mobileImage": "/arquivos/PILATOS Indigo_Banner Landing Mobile.png"
+        }
+      ]
     }
   }
 }
