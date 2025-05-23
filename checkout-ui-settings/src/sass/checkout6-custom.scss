@@ -14,6 +14,7 @@ $gray3: #848484;
 $gray4: #bdbdbd;
 $gris5: #757575;
 $gray6: #f2f2f2;
+$gray7: #565656;
 $yellow: #ffd400;
 $dark-yellow: #f2a922;
 $dark-brown: #b5690c;
@@ -27,6 +28,7 @@ $green: #31af31;
 $yellow-cat: #eac428;
 $orange: #e25e1b;
 $red: #d31822;
+$graynew: #7C7C7C;
 
 $mini: 90%;
 $maxi: 1440px;
@@ -576,7 +578,10 @@ ul.checkoutPasos {
 
     @include screen-max-width($breakMobile) {
       width: 100%;
-      display: none;
+
+      .nameStep {
+        font-size: 10px !important;
+      }
 
       &::before {
         display: none;
@@ -591,14 +596,14 @@ ul.checkoutPasos {
 
     &.pasoActivo {
       &::before {
-        background-color: $yellow;
+        background-color: $negro;
       }
 
       div.icon {
-        background-color: $yellow;
+        background-color: $negro;
 
         i {
-          color: $negro;
+          color: $blanco;
           @include fontSize(25);
         }
       }
@@ -629,10 +634,11 @@ ul.checkoutPasos {
     p.nameStep {
       margin-top: 9px;
       cursor: pointer;
-      @include popins(11, 700, 0.07, none, uppercase);
+      @include popins(18, 600, 0.07, none, uppercase);
       text-align: center;
-      line-height: 15px;
-      color: $gray3;
+      line-height: 100%;
+      letter-spacing: 0;
+      color: $gray7;
       text-transform: none;
     }
   }
@@ -1659,7 +1665,7 @@ div.checkoutFooter {
                           position: static;
                           padding: 0;
                           line-height: 40px;
-                          background-color: $yellow;
+                          background-color: $graynew;
                           @include transition(background 0.3s ease 0s);
                           cursor: pointer;
 
@@ -1683,7 +1689,7 @@ div.checkoutFooter {
 
                           i {
                             @include fontSize(7);
-                            color: $negro;
+                            color: $blanco;
 
                             &.icon-minus-sign {
                               &:before {
@@ -1713,7 +1719,7 @@ div.checkoutFooter {
                           outline: none;
                           box-shadow: none;
                           background: transparent;
-                          @include popins(12, 400, 0.045);
+                          @include popins(12, 600, 0.045);
                           color: $negro;
                           line-height: 40px;
                           pointer-events: none;
@@ -1825,15 +1831,22 @@ div.checkoutFooter {
                             text-indent: -9999px;
 
                             @include screen-max-width($breakTabletVert) {
-                              text-align: center;
+                              text-align: left;
+                              margin-bottom: 4px;
                             }
 
                             &:before {
-                              content: "AGREGAR CUPÓN DE DESCUENTO";
+                              content: "Usar cupón de descuento";
                               text-indent: 0;
                               float: left;
                               display: block;
                               width: 100%;
+                              font-weight: 400;
+                              font-size: 14px;
+
+                               @include screen-max-width($breakTabletVert) {
+                                font-weight: 600;
+                              }
                             }
                           }
                         }
@@ -1866,6 +1879,7 @@ div.checkoutFooter {
                             @include screen-max-width($breakTabletVert) {
                               justify-content: center;
                               width: 100%;
+                              flex-direction: row;
                             }
 
                             i {
@@ -1882,20 +1896,20 @@ div.checkoutFooter {
                             }
 
                             input[type="text"] {
-                              width: 150px;
+                              width: 218px;
                               height: 35px;
                               border-radius: 0px;
                               border: 1px solid $middlegray;
                               outline: none;
                               box-shadow: none;
                               padding: 8px 10px;
-                              margin-right: 4px;
+                              text-align: center;
+                              color: $negro;
                               @include popins(14, 400, 0.01, none);
 
                               @include screen-max-width($breakMobile) {
                                 width: 100%;
                                 margin-right: 0px;
-                                margin-bottom: 5px;
                               }
 
                               // @include screen-max-width($breakTabletVert) {
@@ -1904,19 +1918,18 @@ div.checkoutFooter {
                             }
 
                             button[type="submit"] {
-                              margin-left: 4px;
                               border: none;
                               outline: none;
                               text-shadow: none;
-                              box-shadow: mone;
+                              box-shadow: none;
                               border-radius: 0px;
-                              background: $yellow;
+                              background: $negro;
                               padding: 5px 10px;
-                              width: 95px;
+                              width: 107px;
                               height: 35px;
-                              color: $negro;
-                              font-size: 14px;
-                              @include popins(17, 700, 0, none, uppercase);
+                              color: $blanco;
+                              font-size: 10px;
+                              @include popins(17, 400, 0, none, uppercase);
                               text-indent: -9999px;
                               @include transition(background, 0.3s ease 0s);
 
@@ -1926,6 +1939,8 @@ div.checkoutFooter {
                                 float: left;
                                 display: block;
                                 width: 100%;
+                                font-size: 10px;
+                                font-weight: 400;
                               }
 
                               @include screen-min-width($breakDesktop) {
@@ -1936,9 +1951,8 @@ div.checkoutFooter {
                               }
 
                               @include screen-max-width($breakMobile) {
-                                width: 100%;
+                                width: 40%;
                                 margin-left: 0px;
-                                margin-top: 5px;
                               }
 
                               // @include screen-max-width($breakTabletVert) {
@@ -1973,7 +1987,6 @@ div.checkoutFooter {
 
                   @include screen-max-width($breakTabletVert) {
                     margin-right: 0px;
-                    margin-bottom: 40px;
                   }
                 }
 
@@ -1984,7 +1997,7 @@ div.checkoutFooter {
 
                   h2.srp-main-title {
                     margin-bottom: 10px;
-                    @include popins(18, 600, 0, none, uppercase);
+                    @include popins(18, 600, 0, none);
                     color: $negro !important;
                     line-height: 23px;
 
@@ -2016,8 +2029,12 @@ div.checkoutFooter {
                       text-indent: -9999px;
                       margin-bottom: 18px;
 
+                      @include screen-max-width($breakMobile) {
+                        padding-right: 0px;
+                      }
+
                       &:before {
-                        content: "Conoce todas las opciones de entrega para tus productos, incluidas tarifas de costos y envíos.";
+                        content: "Conoce aquí las tarifas y costos de envío.";
                         text-indent: 0px;
                         float: left;
                         display: block;
@@ -2027,7 +2044,7 @@ div.checkoutFooter {
                   }
 
                   .srp-description {
-                    padding-right: 3rem !important;
+                    padding-right: 3rem;
                   }
 
                   label[class*="srp"],
@@ -2402,6 +2419,10 @@ div.checkoutFooter {
                     border: none;
                     margin-bottom: 8px;
 
+                    @include screen-max-width($breakMobile) {
+                      background: $blanco;
+                    }
+
                     span {
                       @include popins(18, 600, 0.07, none, uppercase);
                       color: $negro;
@@ -2411,6 +2432,11 @@ div.checkoutFooter {
                       font-size: 15px !important;
                       line-height: 27px;
                       letter-spacing: 0.07em;
+
+                      @include screen-max-width($breakMobile) {
+                        font-size: 16px !important;
+                        text-transform: initial;
+                      }
                     }
                   }
 
@@ -2535,7 +2561,8 @@ div.checkoutFooter {
           .cart-links-bottom {
             width: 45%;
             padding: 0 0px;
-            // display: flex !important;
+            display: flex !important;
+            flex-direction: column-reverse;
             align-items: center;
             justify-content: space-between;
 
@@ -2567,31 +2594,42 @@ div.checkoutFooter {
                   width: 100%;
                   height: 40px;
                   margin: 0;
-                  padding: 10px 10px;
+                  padding: 7px 10px;
                   border: none;
-                  @include popins(13, 400, 0.025, none, uppercase);
-                  font-weight: bold;
+                  @include popins(14, 600, 0.025, none);
                   color: $negro;
                   text-align: center;
+                  border: 1px solid #B1ABAB;
+                  border-radius: 16px;
+                  margin-top: 19px;
                   // line-height: 40px;
                   // text-indent: -9999px;
-                  text-decoration-line: underline;
                 }
               }
             }
 
             .btn-place-order-wrapper {
-              width: 50%;
-              padding-left: 9px;
+              width: 100%;
               display: inline-flex;
               justify-content: flex-end;
               float: left;
 
               @include screen-max-width($breakMobile) {
-                padding-left: 0;
-                justify-content: center;
+                position: fixed;
+                bottom: 0;
+                left: 0;
                 width: 100%;
-                float: none;
+                background: #fff;
+                padding: 20px 10px;
+                box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
+                z-index: 9999;
+                text-align: center;
+                justify-content: center;
+
+                .btn-place-order {
+                  width: 90%;
+                  max-width: 400px;
+                }
               }
 
               a {
@@ -2602,12 +2640,12 @@ div.checkoutFooter {
                   width: 100%;
                   height: 40px;
                   background: $negro;
-                  padding: 10px 10px;
+                  padding: 13.5px 10px;
                   border: none;
                   outline: none;
-                  border-radius: 100px !important;
+                  border-radius: 0px !important;
                   float: right;
-                  @include popins(13, 800, 0.025, none, uppercase);
+                  @include popins(18, 700, 0.025, none, uppercase);
                   color: $blanco;
                   text-align: center;
                   text-shadow: none;
@@ -2616,8 +2654,8 @@ div.checkoutFooter {
 
                   @include screen-min-width($breakDesktop) {
                     &:hover {
-                      background-color: $yellow;
-                      color: $negro;
+                      background-color: $negro;
+                      color: $blanco;
                     }
                   }
 
@@ -7000,4 +7038,95 @@ optgroup[label="Recogida en tienda"] { display: none; }
 
 .vtex-omnishipping-1-x-leanShippingGroupList span {
   display: none !important;
+}
+
+.title-mid-size {
+  line-height: 100%;
+}
+
+.available-gift-item.active {
+  background-color: $lightgray !important;
+}
+
+.label-vertical-group.active {
+  color: $negro;
+}
+
+.available-gift-quantity  {
+  max-width: 430px;
+}
+
+.available-gift-item.inactive:hover {
+  color: $negro;
+}
+
+.vtex-social-selling {
+  .sb-bar {
+    display: flex;
+    flex-direction: column-reverse;
+
+    @include screen-max-width($breakMobile) {
+      left: 4px !important;
+      gap: 4px;
+      bottom: 50% !important;
+    }
+
+    .sb-b-erasecart {
+      display: none;
+    }
+
+    .sb-b-link {
+      .sb-mask {
+        width: 50px !important;
+
+        .sb-icon {
+          background-color: #656363;
+          border-radius: 6.08px;
+          margin-left: 6.7px;
+        }
+
+        .sb-label {
+          background-color: #656363;
+        }
+      }
+
+      @include screen-max-width($breakMobile) {
+        .sb-icon {
+          background-color: #656363;
+          border-radius: 6.08px;
+          margin-left: 6.7px;
+        }
+
+        .sb-label {
+          background-color: #656363;
+        }
+      }
+    }
+
+    .sb-b-codigovendedor {
+      .sb-mask {
+        width: 50px !important;
+
+        .sb-icon {
+          background-color: #898787;
+          border-radius: 6.08px;
+          margin-left: 6.7px;
+        }
+        .sb-label {
+          background-color: #898787;
+        }
+      }
+
+       @include screen-max-width($breakMobile) {
+          .sb-icon {
+            background-color: #898787;
+            border-radius: 6.08px;
+            margin-left: 6.7px;
+          }
+          .sb-label {
+            background-color: #898787;
+          }
+       }
+    }
+  }
 }
