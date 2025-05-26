@@ -23,6 +23,7 @@
     "children": [
       "experimental__visibility-layout#contador-component-custom",
        "experimental__visibility-layout#top-header",
+       "experimental__visibility-layout#top-header-estatico",
       "flex-layout.col#header-desk",
       "flex-layout.col#menu-desk"
     ],
@@ -65,16 +66,51 @@
   // Top header
 
   "experimental__visibility-layout#top-header": {
-    "title": "Top header visibility",
-    "children": ["flex-layout.col#top-header-desk"],
+    "title": "Top header visibility rotativo",
+    "children": ["flex-layout.col#top-header"],
     "props": {
       "visible": true
     }
   },
 
+  "experimental__visibility-layout#top-header-estatico": {
+    "title": "Top header visibility estatico",
+    "children": ["flex-layout.col#top-header-estatico"],
+    "props": {
+      "visible": false
+    }
+  },
 
-  "flex-layout.col#top-header-desk": {
-    "title": "TOP BAR HEADER",
+
+  "flex-layout.col#top-header": {
+    "title": "TOP BAR HEADER ROTATIVO",
+    "children": [
+      "slider-layout#top-header"
+    ],
+    "props": {
+      "width": "100%"
+    }
+  },
+
+  "slider-layout#top-header": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "autoplay": {"timeout": "6000"},
+      "fullWidth": true,
+      "blockClass": "topbar-pilatos"
+    },
+    "children": ["rich-text#top-header-desk-1", "rich-text#top-header-desk-2"]
+  },
+
+  "flex-layout.col#top-header-estatico": {
+    "title": "TOP BAR HEADER ESTATICO",
     "children": [
       "rich-text#top-header-desk"
     ],
@@ -83,10 +119,23 @@
     }
   },
 
+
   "rich-text#top-header-desk": {
     "props": {
         "text": "ENVIO GRATIS POR COMPRAS SUPERIORES A $350.000",
-        "blockClass": "textTopHeader"
+        "blockClass": ["textTopHeader", "topHeaderPilatos"]
+    }
+  },
+  "rich-text#top-header-desk-1": {
+    "props": {
+        "text": "[¡ENVÍO EXPRESS GRATIS! Aplican TYC ](/envio-express-gratis)",
+        "blockClass": ["textTopHeader", "topHeaderPilatos"]
+    }
+  },
+  "rich-text#top-header-desk-2": {
+    "props": {
+        "text": "[¡RECIBE 10% OFF EN TU PRIMERA COMPRA! HAZ CLICK AQUÍ](/primera-compra)",
+        "blockClass": ["textTopHeader", "topHeaderPilatos"]
     }
   },
 
@@ -237,7 +286,7 @@
 
     "modal-trigger#buscador-header": {
       "children": [
-        "image#icono-buscador-nuevo-header", "modal-layout#buscador-header"
+        "image#icono-buscador-nuevo-header" //"modal-layout#buscador-header"
       ]
     },
     "image#icono-buscador-nuevo-header": {
@@ -250,7 +299,7 @@
     },
     "modal-layout#buscador-header": {
       "children": [
-        "modal-header#buscador-header",
+        //"modal-header#buscador-header",
         "flex-layout.col#header-items-desk-col-1"
       ],
       "props": {
@@ -279,7 +328,7 @@
 
   "search-bar": {
     "blocks": [
-      "autocomplete-result-list.v2#desktop"
+      //"autocomplete-result-list.v2#desktop"
     ],
     "props": {
       "openAutocompleteOnFocus": true,

@@ -9,6 +9,7 @@
       "experimental__visibility-layout#botones-genero-landing-general",
       "experimental__visibility-layout#boton-devolver",
       "experimental__visibility-layout#botones-categoria-landing-general",
+      "experimental__visibility-layout#banner-cinta-denimsneakers",
       "search-result-layout.customQuery#vitrina-pilatos-general",
       "experimental__visibility-layout#texto-seo-final-general"
     ]
@@ -287,6 +288,7 @@
       "seo-schema-plp",
       "flex-layout.row#banner-search",
       "flex-layout.row#bread-crumb",
+      "search-products-count-per-page",
       //"flex-layout.row#search-info",
       //"flex-layout.row#search-info-desk-new",
       "flex-layout.row#filter-custom-navigator",
