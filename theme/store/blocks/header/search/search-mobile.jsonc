@@ -13,7 +13,7 @@
 
     "flex-layout.col#header-search-mobile-col-1":{
         "children":[
-          "open-search-bar-mobile"
+          //"open-search-bar-mobile"
         ],
         "props":{
           "width": "10%",
@@ -46,7 +46,7 @@
     "search-bar#mobile": {
         "blocks": [
             // "autocomplete-result-list.v2#mobile"
-            "autocomplete-result-list.v2"
+            //"autocomplete-result-list.v2"
         ],
         "props": {
             "openAutocompleteOnFocus": true,
