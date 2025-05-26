@@ -13,7 +13,8 @@
     "title": "MENU HEADER MOBILE",
     "children": [
       "experimental__visibility-layout#contador-component-custom",
-      "experimental__visibility-layout#top-header-mobile",
+      "experimental__visibility-layout#top-header",
+      "experimental__visibility-layout#top-header-estatico",
       "responsive-layout.phone#header-mobile-col",
       "responsive-layout.tablet#header-mobile-col"
     ],

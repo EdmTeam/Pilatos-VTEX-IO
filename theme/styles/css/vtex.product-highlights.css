@@ -383,6 +383,26 @@
 
 /******FLAG Quick Sale****/
 
+/******FLAG BLACKDAYS****/
+.productHighlightWrapper [data-highlight-id="2120"]{
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(/arquivos/Pilatos-BlackDays-mayo-2025-flag.jpg);
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .productHighlightWrapper [data-highlight-id="2120"] {
+      width: 35px; /* Ajusta el tamaño para mobile */
+      height: 35px;
+
+    }
+  }
+
+/******FLAG BLACKDAYS****/
+
 
 .productHighlightWrapper [data-highlight-id="1189"]{
     font-size: 0;
