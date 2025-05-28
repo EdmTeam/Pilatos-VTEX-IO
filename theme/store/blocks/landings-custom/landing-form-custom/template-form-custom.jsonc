@@ -1,0 +1,17 @@
+{
+  "store.custom#formulario-pueba": {
+    "children": [
+      "flex-layout.row#form-custom"
+    ]
+  },
+  "flex-layout.row#form-custom": {
+    "children": [
+      "flex-layout.col#form-custom"
+    ]
+  },
+  "flex-layout.col#form-custom": {
+    "children": [
+      "component-custom-form"
+    ]
+  }
+}
