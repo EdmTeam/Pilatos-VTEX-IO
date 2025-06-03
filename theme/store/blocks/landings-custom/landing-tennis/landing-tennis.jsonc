@@ -1,0 +1,82 @@
+{
+  "store.custom#landing-marca-tennis": {
+    "blocks": [
+      "experimental__visibility-layout#texto-seo-general",
+      "experimental__visibility-layout#banner-landing-general",
+      "flex-layout.row#banners-categorias-tennis",
+      "search-result-layout.customQuery#vitrina-pilatos-general",
+      "experimental__visibility-layout#texto-seo-final-general"
+    ]
+  },
+
+  "flex-layout.row#banners-categorias-tennis": {
+    "title": "Banners categorías tennis",
+    "children": [
+      "list-context.image-list#banner-categoria-tennis-1",
+      "list-context.image-list#banner-categoria-tennis-2",
+      "list-context.image-list#banner-categoria-tennis-3"
+    ],
+    "props": {
+        "marginTop": 4,
+        "colGap": 2,
+        "rowGap": 2
+    }
+  },
+
+  "list-context.image-list#banner-categoria-tennis-1": {
+    "children": ["slider-layout#marca-tennis-images"],
+    "props": {
+      "preload": true,
+      "height": 650,
+      "images": [
+        {
+          "loading": "eager",
+          "image": "/arquivos/Sub banner landing desk 1.jpg",
+          "mobileImage": "/arquivos/Sub banner landing mob 1.jpg",
+          "description": "something something"
+        }
+      ]
+    }
+  },
+  "list-context.image-list#banner-categoria-tennis-2": {
+    "children": ["slider-layout#marca-tennis-images"],
+    "props": {
+      "preload": true,
+      "height": 650,
+      "images": [
+        {
+          "loading": "eager",
+          "image": "/arquivos/Sub banner landing desk 3.jpg",
+          "mobileImage": "/arquivos/Sub banner landing mob 3.jpg",
+          "description": "something something"
+        }
+      ]
+    }
+  },
+  "list-context.image-list#banner-categoria-tennis-3": {
+    "children": ["slider-layout#marca-tennis-images"],
+    "props": {
+      "preload": true,
+      "height": 650,
+      "images": [
+        {
+          "loading": "eager",
+          "image": "/arquivos/Sub banner landing desk 2.jpg",
+          "mobileImage": "/arquivos/Sub banner landing mob 2.jpg",
+          "description": "something something"
+        }
+      ]
+    }
+  },
+
+  "slider-layout#marca-tennis-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true
+    }
+  }
+}
