@@ -1,0 +1,6 @@
+{
+  "store.custom#landing-verano-abril-2025": {
+    "blocks": [    "experimental__visibility-layout#texto-seo-general",
+      "experimental__visibility-layout#banner-landing-general"]
+  }
+}

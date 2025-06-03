@@ -9,10 +9,10 @@
 
 .flexRow--contenedor-genero-botnes {
     display: flex;
- 
+
 }
 
-.flexRowContent--contenedor-genero-botnes{
+.flexRowContent--contenedor-genero-botnes {
     gap: 2rem;
 
 }
@@ -38,50 +38,66 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
-.flexRowContent--contenedor-categorias-general{
+.flexRowContent--contenedor-categorias-general {
 
     gap: 2rem;
 }
 
 @media (max-width: 768px) {
     .flexRow--contenedor-categorias-general {
-        Flex-wrap:wrap
+        Flex-wrap: wrap
     }
 
-    .flexRow--categoria-botones-layout{ 
+    .flexRow--categoria-botones-layout {
 
         display: flex;
     }
 
-    .flexRowContent--categoria-botones-layout{
+    .flexRowContent--categoria-botones-layout {
         display: flex;
         gap: 2rem;
-      
+
     }
 
 
-     }
-    
-    .flexRowContent--categoria-botones-layout{
-        display: flex;
-      
-    }
+}
 
-    .flexCol--categoria-fila-botones{
-        justify-content: center;
-        align-items: center;
-    }
+.flexRowContent--categoria-botones-layout {
+    display: flex;
 
-    
-    .flexCol--contenedor-categorias-general-col {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
-        flex-wrap: wrap;
-        /*margin: 20px 0;*/
-    }
+}
+
+.flexCol--categoria-fila-botones {
+    justify-content: center;
+    align-items: center;
+}
+
+
+.flexCol--contenedor-categorias-general-col {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    /*margin: 20px 0;*/
+}
+
+
+.flexRowContent--fila-imagenes-mobile {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    gap: 10px;
+}
+
+.flexRow--fila-imagenes {
+
+    margin-top: 1%;
+}
