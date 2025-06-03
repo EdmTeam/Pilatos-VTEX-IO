@@ -44,14 +44,42 @@
   "flex-layout.col#ofertas-vigenter-contenido": {
     "title": "Contenido modal col",
     "children": [
-        "list-context.image-list#ofertas-vigentes-1",
-        "list-context.image-list#ofertas-vigentes-2",
-        "list-context.image-list#ofertas-vigentes-3"
+        "experimental__visibility-layout#ofertas-vigentes-1",
+        "experimental__visibility-layout#ofertas-vigentes-2",
+        "experimental__visibility-layout#ofertas-vigentes-3"
     ],
     "props": {
         "blockClass": "Ofertas-vigentes-flex-col"
     }
   },
+
+  "experimental__visibility-layout#ofertas-vigentes-1": {
+        "title": "Modal ofertas vigentes  1",
+        "children": [
+          "list-context.image-list#ofertas-vigentes-1"
+        ],
+        "props": {
+          "visible": true
+        }
+      },
+  "experimental__visibility-layout#ofertas-vigentes-2": {
+        "title": "Modal ofertas vigentes 2",
+        "children": [
+          "list-context.image-list#ofertas-vigentes-2"
+        ],
+        "props": {
+          "visible": true
+        }
+      },
+  "experimental__visibility-layout#ofertas-vigentes-3": {
+        "title": "Modal ofertas vigentes 3",
+        "children": [
+          "list-context.image-list#ofertas-vigentes-3"
+        ],
+        "props": {
+          "visible": false
+        }
+      },
 
   //IMAGEN//
   "list-context.image-list#ofertas-vigentes-1": {
