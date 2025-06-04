@@ -87,7 +87,8 @@
     "pilatos21.product-availability": "0.x",
     "pilatos21.contador-promociones-general": "0.x",
     "pilatos21.script-sizebay": "0.x",
-    "pilatos21.component-custom-filter-navigator": "0.x"
+    "pilatos21.component-custom-filter-navigator": "0.x",
+    "pilatos21.component-custom-form": "0.x"
   },
   "peerDependencies": {
     "pilatos21.wishlist": "0.x",
