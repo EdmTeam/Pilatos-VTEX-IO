@@ -63,8 +63,6 @@
     padding: 2% 3%;
     border: none;
     border-radius: 12px;
-    background: #299C43;
-    color: #fff;
     font-weight: 700;
     font-size: 1rem;
     line-height: 1.5;
@@ -89,27 +87,24 @@
 }
 
 .checkboxInput {
-    appearance: none;
-    width: 24px;
-    height: 24px;
-    border-radius: 3px;
-    border: 1px solid #595656;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-.checkboxInput:checked {
-    background-color: #fff;
-    border-color: #fff;
-    border: 1px solid #595656;
+  appearance: none;
+  -webkit-appearance: none;
+  width: 24px;
+  height: 24px;
+  border: 1px solid #595656;
+  border-radius: 3px;
+  position: relative;
+  background-color: white;
+  cursor: pointer;
 }
 
 .checkboxInput:checked::after {
-    content: url("/arquivos/fi_check.png");
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
+  content: '✔';
+  color: green;
+  font-size: 18px;
+  position: absolute;
+  top: 0;
+  left: 5px;
 }
 
 .checkboxContainer {
@@ -190,14 +185,15 @@
         border-radius: 1.36px;
     }
 
-    .checkboxInput:checked::after {
-        content: url("/arquivos/fi_check_mobile.png");
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100%;
-    }
+.checkboxInput:checked::after {
+    content: '✔';
+    color: green;
+    font-size: 0.8em;
+    position: absolute;
+    top: -3px;
 
+    left: 0.1em;
+}
     .submitButton {
         display: block;
         margin: 0 auto;
@@ -227,4 +223,64 @@
     .inputLabelRegister {
         font-size: 20px;
     }
+
+
 }
+
+.successMessageContainer {
+  margin-top: 20px;
+  padding: 10px;
+  border: 2px solid #28a745;
+  border-radius: 8px;
+  text-align: center;
+  background-color: #eaf9f0;
+}
+
+.successMessage {
+  color: #141414;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+
+@media screen and (max-width: 600px) {
+  .successMessageContainer {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+        width: 88%;
+  }
+  .successMessage {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+}
+
+
+.successMessageWrapper {
+  background-color: #e6f6ea;
+  border-radius: 6px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.successMessage {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #000;
+  margin: 0;
+}
+
+.successButtonContainer {
+  margin-top: 12px;
+}
+
+.successButton {
+  padding: 6px 16px;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  text-decoration: none;
+  display: inline-block;
+}
+
