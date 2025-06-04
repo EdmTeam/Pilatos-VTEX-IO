@@ -4,6 +4,9 @@
     "blocks": [
       "experimental__visibility-layout#texto-seo-general",
       "experimental__visibility-layout#banner-landing-general",
+       "experimental__visibility-layout#banner-cinta-general",
+          "responsive-layout.desktop#banner-desktop-lado-a-lado",
+            "responsive-layout.mobile#banner-mobile-lado-a-lado",
       "experimental__visibility-layout#button-cta-landing-general",
       "experimental__visibility-layout#texto-landing-general",
       "experimental__visibility-layout#botones-genero-landing-general",
@@ -86,6 +89,174 @@
       "infinite": false,
       "fullWidth": true,
       "blockClass": "slide__banner"
+    }
+  },
+
+
+  // banner cinta general
+
+   "experimental__visibility-layout#banner-cinta-general": {
+    "title": "banner cinta general",
+    "children": ["flex-layout.row#bannerCinta-general"],
+    "props": {
+      "visible": false
+    }
+  },
+
+  "flex-layout.row#bannerCinta-general": {
+    "title": "BANNER CINTA",
+    "children": ["list-context.image-list#bannerCinta-general"],
+    "props": {
+      "blockClass": "banner-activaciones-imagen-form"
+    }
+  },
+
+  "list-context.image-list#bannerCinta-general": {
+    "children": ["slider-layout#bannerCinta-general"],
+    "props": {
+      "height": 570,
+      "preload": true,
+      "images": [
+        {
+          "image": "https://replaycolombia.vtexassets.com/assets/vtex.file-manager-graphql/images/e4638487-8fc3-40a1-bab9-112d1c4c94fd___823e0ae2368120ce9380a7913ee46296.jpg",
+          "mobileImage": "https://replaycolombia.vtexassets.com/assets/vtex.file-manager-graphql/images/5d63dd47-a0ee-41d4-a38d-3fdf1d9d2fe3___9bb528b46541f7614caf5968ff1a7ec4.jpg"
+        }
+      ]
+    }
+  },
+
+  "slider-layout#bannerCinta-general": {
+    "title": "Productos",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 30,
+        "tablet": 30,
+        "phone": 30
+      },
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "never",
+      "infinite": false,
+      "fullWidth": true,
+      "blockClass": "slide__banner"
+    }
+  },
+
+  // Banner lado a lado
+
+
+    // SOLO DESKTOP
+     "responsive-layout.desktop#banner-desktop-lado-a-lado": {
+    "title": "Banner desktop lado a lado",
+    "children": [ "experimental__visibility-layout#imagen-lado-lado-desk"]
+  },
+
+  "experimental__visibility-layout#imagen-lado-lado-desk": {
+    "title": "Imagen lado a lado",
+    "children": ["flex-layout.row#imagenes-lado-a-lado"],
+    "props": {
+      "visible": false
+    }
+  },
+
+  "flex-layout.row#imagenes-lado-a-lado": {
+    "children": [
+      "flex-layout.col#imagen-1",
+      "flex-layout.col#imagen-2"
+    ],
+    "props": {
+      "blockClass": "fila-imagenes"
+    }
+  },
+
+  "flex-layout.col#imagen-1": {
+    "children": [
+      "image#imagen-izquierda"
+    ],
+    "props": {
+      "blockClass": "columna-imagen"
+    }
+  },
+
+  "flex-layout.col#imagen-2": {
+    "children": [
+      "image#imagen-derecha"
+    ],
+    "props": {
+      "blockClass": "columna-imagen"
+    }
+  },
+
+  "image#imagen-izquierda": {
+    "props": {
+      "src": "https://www.tusitio.com/imagen1.jpg",
+      "alt": "Imagen izquierda",
+      "blockClass": "imagen-lado-lado-general"
+    }
+  },
+
+  "image#imagen-derecha": {
+    "props": {
+      "src": "https://www.tusitio.com/imagen2.jpg",
+      "alt": "Imagen derecha",
+      "blockClass": "imagen-lado-lado-general"
+    }
+  },
+
+
+
+    // SOLO MOBILE
+  "responsive-layout.mobile#banner-mobile-lado-a-lado": {
+    "title": "Banner mobile lado a lado",
+    "children": ["experimental__visibility-layout#imagen-lado-lado-mob"]
+  },
+
+
+  
+  "experimental__visibility-layout#imagen-lado-lado-mob": {
+    "title": "Imagen lado a lado mobile",
+    "children": [  "flex-layout.row#imagenes-lado-a-lado-mobile"],
+    "props": {
+      "visible": false
+    }
+  },
+
+  "flex-layout.row#imagenes-lado-a-lado-mobile": {
+    "children": [
+      "flex-layout.col#imagen-mob-1",
+      "flex-layout.col#imagen-mob-2"
+    ],
+    "props": {
+      "blockClass": "fila-imagenes-mobile"
+    }
+  },
+
+  "flex-layout.col#imagen-mob-1": {
+    "children": ["image#imagen-mobile-1"],
+    "props": {
+      "blockClass": "columna-imagen-mobile"
+    }
+  },
+
+  "flex-layout.col#imagen-mob-2": {
+    "children": ["image#imagen-mobile-2"],
+    "props": {
+      "blockClass": "columna-imagen-mobile"
+    }
+  },
+
+  "image#imagen-mobile-1": {
+    "props": {
+      "src": "https://www.tusitio.com/imagen-mobile-1.jpg",
+      "alt": "Imagen Mobile 1",
+      "blockClass": "imagen-mobile"
+    }
+  },
+
+  "image#imagen-mobile-2": {
+    "props": {
+      "src": "https://www.tusitio.com/imagen-mobile-2.jpg",
+      "alt": "Imagen Mobile 2",
+      "blockClass": "imagen-mobile"
     }
   },
 
