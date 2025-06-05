@@ -18,7 +18,7 @@
       "image#banner2__second--image-mob"
     ],
     "props": {
-      "blockClass": "section2__images--departments-mobile"
+      "blockClass": ["section2__images--departments-mobile", "seccion-2-departamentos-home-mobile"]
     }
   },
   "flex-layout.row#section2__images--departments": {
@@ -28,7 +28,7 @@
       "image#banner2__second--image-desk"
     ],
     "props": {
-      "blockClass": "section2__images--departments"
+      "blockClass":[ "section2__images--departments", "seccion-2-departamentos-home-desk"]
     }
   },
   "image#banner2__first--image-desk": {

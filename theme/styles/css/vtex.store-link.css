@@ -1,20 +1,23 @@
 .link--contentIcoWhatsApp{
     position: fixed;
-    bottom: 6rem;
+    /*bottom: 6rem;*/
+    bottom: 2rem;
     /*right: 2.7rem;*/
     z-index: 1000;
 }
 
 @media screen and (min-width: 1080px){
     .link--contentIcoWhatsApp{
-        bottom: 6.5rem;
+        /*bottom: 6.5rem;*/
+        bottom: 2rem;
         right: 2.5rem;
     }
 }
 
 @media screen and (max-width: 767px) {
   .link--contentIcoWhatsApp {
-        bottom: 6rem !important;
+        /*bottom: 6rem !important;*/
+        bottom: 2rem !important;
         right: 27px;
   }
 }

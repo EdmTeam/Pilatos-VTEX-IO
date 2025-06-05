@@ -6,6 +6,7 @@
       "vtex.product-summary:product-summary-brand",
       "vtex.product-summary:product-summary-name",
       "flex-layout.row#price",
+      "experimental__visibility-layout#name_vitrina_fitsjeans",
       "vtex.product-summary:product-summary-space",
       "responsive-layout.desktop#selectorSkuDesktop",
       "responsive-layout.mobile#selectorSkuMobile"
@@ -14,6 +15,82 @@
       "blockClass": "shelfSlide"
     }
   },
+  /***MERCADO PAGO***/
+  "experimental__visibility-layout#name_vitrina_fitsjeans": {
+    "title": "Texto y modal de mercado pago",
+    "children": ["flex-layout.col#text-mercado-pago"],
+    "props": {
+      "visible": false
+    }
+  },
+  "flex-layout.row#text-mercado-pago": {
+    "title": "Estrategia mercado pago",
+    "children": [
+      "flex-layout.col#text-mercado-pago"
+    ],
+    "props": {
+      "blockClass": "estrategia-mercado-pago-row"
+    }
+  },
+  "flex-layout.col#text-mercado-pago": {
+    "title": "Col texto mercado pago",
+    "children": [
+      //"rich-text#porcentaje-estrategia-mercado-pago",
+      "modal-trigger#porcentaje-estrategia-mercado-pago"
+    ],
+    "props": {
+      "blockClass": "estrategia-mercado-pago-col"
+    }
+  },
+  "modal-trigger#porcentaje-estrategia-mercado-pago": {
+    "title": "Modal mercado pago",
+    "children": ["rich-text#porcentaje-estrategia-mercado-pago", "modal-layout#porcentaje-estrategia-mercado-pago"]
+  },
+
+  "rich-text#porcentaje-estrategia-mercado-pago": {
+    "title": "Porcentaje texto mercado pago",
+    "props": {
+      "text": "**0% de interés** hasta 3 coutas [ver bancos](/)",
+      "blockClass": "texto-mercado-pago-plp"
+    }
+  },
+
+  "modal-layout#porcentaje-estrategia-mercado-pago": {
+    "children": ["list-context.image-list#modal-content"],
+    "props": {
+      "blockClass": "modal-contenido-mercado-pago-plp"
+    }
+  },
+   "list-context.image-list#modal-content": {
+    "children": ["slider-layout#modal-content"],
+    "props": {
+      "preload": true,
+      "height": 650,
+      "images": [
+        {
+          "loading": "eager",
+          "image": "/arquivos/modal_mercadopago_desk_prueba.jpg",
+          "mobileImage": "/arquivos/modal_mercadopago_mob_prueba.jpg.jpg",
+          "description": "Banner PLP mercado pago"
+        }
+      ]
+    }
+  },
+
+  "slider-layout#modal-content": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "blockClass": "banner-plp-mercado-pago"
+    }
+  },
+
+  /***MERCADO PAGO***/
+
   "flex-layout.row#price": {
     "children": [
       "flex-layout.col#selling-price",

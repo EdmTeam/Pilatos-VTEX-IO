@@ -2,7 +2,10 @@
   "flex-layout.row#texto-SEO": {
     "children": [
       "rich-text#texto-seo-home"
-    ]
+    ],
+    "props": {
+      "blockClass": "texto-seo-home-principal"
+    }
   },
   "rich-text#texto-seo-home": {
     "props": {
@@ -16,7 +19,7 @@
   "rich-text#h1-pilatoshome": {
     "props": {
       "text": "# PILATOS",
-      "blockClass": "departmentTitle-Home",
+      "blockClass": ["departmentTitle-Home", "departamento-titulo-home-principal"],
       "textPosition": "CENTER",
       "textAlignment": "CENTER"
     }
