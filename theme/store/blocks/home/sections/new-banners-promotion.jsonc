@@ -5,7 +5,7 @@
       "list-context.image-list#bannerDescuento"
     ],
     "props": {
-      "blockClass": "bannerDescuento",
+      "blockClass": ["bannerDescuento", "banner-descuento-home"],
       "min-height": "300px"
     }
   },
@@ -46,7 +46,7 @@
       "list-context.image-list#bannersCategorias"
     ],
     "props": {
-      "blockClass": "bannersCategorias",
+      "blockClass": ["bannersCategorias", "banners-categorias-home"],
       "min-height": "333px"
     }
   },

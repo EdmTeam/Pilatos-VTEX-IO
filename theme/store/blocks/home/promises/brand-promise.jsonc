@@ -21,7 +21,7 @@
       "flex-layout.col#mobile-brands-promise-col3"
     ],
     "props": {
-      "blockClass": "contentPromeses",
+      "blockClass": ["contentPromeses", "contenedor-marcas-mobile-home"],
       "preserveLayoutOnMobile": true,
       "rowGap": 2
     }
@@ -33,7 +33,7 @@
       "flex-layout.col#desk-brands-promise-col3"
     ],
     "props": {
-      "blockClass": "contentPromeses",
+      "blockClass": ["contentPromeses",  "contenedor-marcas-desk-home"],
       "preserveLayoutOnMobile": true,
       "rowGap": 2
     }

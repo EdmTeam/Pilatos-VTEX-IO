@@ -2,7 +2,10 @@
   "flex-layout.row#content-slider": {
     "children": [
       "flex-layout.col#content-slider"
-    ]
+    ],
+    "props": {
+      "blockClass": "slider-principal-home"
+    }
   },
   "flex-layout.col#content-slider": {
     "children": [
@@ -99,7 +102,10 @@
   "flex-layout.row#cambio-devolucionesHome": {
     "children": [
       "flex-layout.col#cambio-devolucionesHome"
-    ]
+    ],
+    "props": {
+      "blockClass": "cambio-devoluciones-home"
+    }
   },
   "flex-layout.col#cambio-devolucionesHome": {
     "children": [
@@ -113,7 +119,7 @@
       "image#banner-mobile-1-img-1-devolucionesHome"
     ],
     "props": {
-      "blockClass": "contentBannersDeskDevoluciones"
+      "blockClass": ["contentBannersDeskDevoluciones", "contentBannersMobDevoluciones"]
     }
   },
   "responsive-layout.tablet#banner-devolucionesHome": {
@@ -121,7 +127,7 @@
       "image#banner-tablet-1-img-1-devolucionesHome"
     ],
     "props": {
-      "blockClass": "contentBannersDeskDevoluciones"
+      "blockClass": ["contentBannersDeskDevoluciones", "contentBannersTabletDevoluciones"]
     }
   },
   "responsive-layout.desktop#banner-devolucionesHome": {

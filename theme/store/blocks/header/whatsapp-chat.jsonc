@@ -4,7 +4,7 @@
       "flex-layout.row#content-chat-whatsapp"
     ],
     "props": {
-      "blockClass": "contentIcoWhatsApp",
+      "blockClass": ["contentIcoWhatsApp", "icono-whatsapp-home"],
       "href": "https://api.whatsapp.com/send?phone=573215282745",
       "target": "_blank"
     }
