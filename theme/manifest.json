@@ -1,7 +1,7 @@
 {
   "vendor": "pilatos21",
   "name": "theme",
-  "version": "6.0.121",
+  "version": "6.0.123",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
@@ -87,7 +87,8 @@
     "pilatos21.product-availability": "0.x",
     "pilatos21.contador-promociones-general": "0.x",
     "pilatos21.script-sizebay": "0.x",
-    "pilatos21.component-custom-filter-navigator": "0.x"
+    "pilatos21.component-custom-filter-navigator": "0.x",
+    "pilatos21.component-custom-form": "0.x"
   },
   "peerDependencies": {
     "pilatos21.wishlist": "0.x",
