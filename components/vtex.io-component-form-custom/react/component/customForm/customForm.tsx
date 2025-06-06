@@ -51,35 +51,58 @@ const customForm: FC<FormularioPruebaProps> = ({
   const [terms, setTerms] = useState<boolean>(false)
   const [registroExitoso, setRegistroExitoso] = useState<boolean>(false)
   const [loading, setLoading] = useState<boolean>(false)
+  const [errorMessage, setErrorMessage] = useState<string>("")
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setFormData({
       ...formData,
       [e.target.name]: e.target.value,
     })
+    setErrorMessage("")
   }
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
     setLoading(true)
+    setErrorMessage("")
 
-    const newUser = { ...formData, terms }
+    const mail = formData.mail
 
-    axios
-      .post(`/api/dataentities/${entity}/documents`, newUser, {
-        headers: { "Content-Type": "application/json; charset=utf-8" },
-      })
-      .then(() => {
-        setRegistroExitoso(true)
-        setFormData({})
-        setTerms(false)
-      })
-      .catch((error) => {
-        console.error("Error al enviar los datos:", error)
-      })
-      .finally(() => {
+    try {
+      const searchRes = await axios.get(
+        `/api/dataentities/${entity}/search?_where=mail=${mail}&_fields=mail`,
+        {
+          headers: {
+            'Content-Type': 'application/json',
+            Accept: 'application/vnd.vtex.ds.v10+json',
+          },
+        }
+      )
+
+      if (searchRes.data.length > 0) {
+        setErrorMessage("⚠️ Este correo ya está registrado.")
         setLoading(false)
+        return
+      }
+
+      await axios.post(`/api/dataentities/${entity}/documents`, {
+        ...formData,
+        terms,
+      }, {
+        headers: {
+          "Content-Type": "application/json; charset=utf-8",
+        }
       })
+
+      setRegistroExitoso(true)
+      setFormData({})
+      setTerms(false)
+    } catch (err) {
+      console.error("Error:", err.response?.data || err.message)
+      setErrorMessage("❌ Hubo un error al registrar.")
+    } finally {
+      setLoading(false)
+    }
   }
 
   return (
@@ -151,6 +174,12 @@ const customForm: FC<FormularioPruebaProps> = ({
             <label className={styles.checkboxLabel}>{termsText}</label>
           </div>
 
+          {errorMessage && (
+            <p className={styles.errorMessage} style={{ color: "red", marginBottom: "12px" }}>
+              {errorMessage}
+            </p>
+          )}
+
           <div className={styles.containerButton}>
             <button
               type="submit"
@@ -175,53 +204,44 @@ const customForm: FC<FormularioPruebaProps> = ({
 }
 
 ;(customForm as any).schema = {
-  title: "Formulario de Custom",
-  description:
-    "Formulario con logo, texto, campos dinámicos, botón editable y mensaje de éxito",
+  title: "Formulario Custom",
+  description: "Formulario editable desde el Site Editor",
   type: "object",
   properties: {
     entity: {
-      title: "Entidad de VTEX Data Entities (Acronym)",
+      title: "Entidad (acronym)",
       type: "string",
       default: "FE",
     },
     logo: {
-      title: "URL del Logo",
+      title: "URL del logo",
       type: "string",
       widget: {
         "ui:widget": "image-uploader",
       },
     },
     text: {
-      title: "Texto personalizado",
+      title: "Texto superior del formulario",
       type: "string",
-      widget: {
-        "ui:widget": "textarea",
-      },
     },
     promoCode: {
       title: "Código de promoción",
       type: "string",
-      default: "F455GF",
     },
     successText: {
-      title: "Texto de confirmación (puede contener HTML)",
+      title: "Texto de éxito (HTML permitido)",
       type: "string",
       widget: {
         "ui:widget": "textarea",
       },
-      default:
-        "✅ REGISTRO EXITOSO. ESTE ES TU CÓDIGO PARA PRIMERA COMPRA:",
     },
     successButtonText: {
       title: "Texto del botón de éxito",
       type: "string",
-      default: "Usar código",
     },
     successButtonColor: {
       title: "Color de fondo del botón de éxito",
       type: "string",
-      default: "#000000",
       widget: {
         "ui:widget": "color",
       },
@@ -229,25 +249,21 @@ const customForm: FC<FormularioPruebaProps> = ({
     successButtonTextColor: {
       title: "Color del texto del botón de éxito",
       type: "string",
-      default: "#ffffff",
       widget: {
         "ui:widget": "color",
       },
     },
     successButtonUrl: {
-      title: "URL del botón de éxito",
+      title: "Link del botón de éxito",
       type: "string",
-      default: "/",
     },
     submitButtonText: {
       title: "Texto del botón de registro",
       type: "string",
-      default: "Registrarse",
     },
     submitButtonColor: {
       title: "Color de fondo del botón de registro",
       type: "string",
-      default: "#28a745",
       widget: {
         "ui:widget": "color",
       },
@@ -255,10 +271,21 @@ const customForm: FC<FormularioPruebaProps> = ({
     submitButtonTextColor: {
       title: "Color del texto del botón de registro",
       type: "string",
-      default: "#ffffff",
       widget: {
         "ui:widget": "color",
       },
+    },
+    termsText: {
+      title: "Texto de términos y condiciones",
+      type: "string",
+    },
+    cancelText: {
+      title: "Texto de cancelación",
+      type: "string",
+    },
+    cancelUrl: {
+      title: "Link de cancelación",
+      type: "string",
     },
     fields: {
       title: "Campos del formulario",
@@ -273,37 +300,22 @@ const customForm: FC<FormularioPruebaProps> = ({
           type: {
             title: "Tipo de campo",
             type: "string",
-            enum: ["text", "email", "tel", "number", "password", "date"],
+            enum: ["text", "email", "tel", "number", "date"],
             default: "text",
           },
           name: {
-            title: "Nombre del campo",
+            title: "Nombre (name) del campo",
             type: "string",
           },
           required: {
-            title: "Campo obligatorio",
+            title: "¿Es obligatorio?",
             type: "boolean",
             default: true,
           },
         },
       },
     },
-    termsText: {
-      title: "Texto de términos y condiciones",
-      type: "string",
-      default: "Acepto política de privacidad y términos y condiciones",
-    },
-    cancelText: {
-      title: "Texto del enlace de cancelación",
-      type: "string",
-      default: "¡Gracias, NO deseo participar!",
-    },
-    cancelUrl: {
-      title: "URL del enlace de cancelación",
-      type: "string",
-      default: "/",
-    },
   },
 }
 
-export default customForm
+export default customForm;

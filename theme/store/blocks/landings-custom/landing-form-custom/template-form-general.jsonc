@@ -1,0 +1,19 @@
+{
+  "store.custom#formulario-general-2025": {
+    "children": [
+      "experimental__visibility-layout#banner-landing-general",
+      "flex-layout.row#form-custom-general"
+    ]
+  },
+  "flex-layout.row#form-custom-general": {
+    "title": "Form Custom",
+    "children": [
+      "flex-layout.col#form-custom-general"
+    ]
+  },
+  "flex-layout.col#form-custom-general": {
+    "children": [
+      "component-custom-form"
+    ]
+  }
+}
