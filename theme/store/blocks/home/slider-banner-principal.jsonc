@@ -9,12 +9,21 @@
   },
   "flex-layout.col#content-slider": {
     "children": [
-      "responsive-layout.phone#banner-principal",
-      "responsive-layout.tablet#banner-principal",
-      "responsive-layout.desktop#banner-principal",
+      "experimental__visibility-layout#content-slider",
       "list-context.image-list#banner-principal"
     ]
   },
+  
+  "experimental__visibility-layout#content-slider": {
+    "title": "banner cinta estatico visibility",
+    "children": ["responsive-layout.phone#banner-principal",
+      "responsive-layout.tablet#banner-principal",
+      "responsive-layout.desktop#banner-principal"],
+    "props": {
+      "visible": true
+    }
+  },
+
   "list-context.image-list#banner-principal": {
     "children": [
       "slider-layout#banner-principal-desktop"

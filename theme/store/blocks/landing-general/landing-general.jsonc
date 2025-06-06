@@ -4,9 +4,10 @@
     "blocks": [
       "experimental__visibility-layout#texto-seo-general",
       "experimental__visibility-layout#banner-landing-general",
-       "experimental__visibility-layout#banner-cinta-general",
-          "responsive-layout.desktop#banner-desktop-lado-a-lado",
-            "responsive-layout.mobile#banner-mobile-lado-a-lado",
+      "experimental__visibility-layout#carrusel-secundario-multibanner", //carrusel debajo banner landing
+      "experimental__visibility-layout#banner-cinta-general",
+      "responsive-layout.desktop#banner-desktop-lado-a-lado",
+      "responsive-layout.mobile#banner-mobile-lado-a-lado",
       "experimental__visibility-layout#button-cta-landing-general",
       "experimental__visibility-layout#texto-landing-general",
       "experimental__visibility-layout#botones-genero-landing-general",

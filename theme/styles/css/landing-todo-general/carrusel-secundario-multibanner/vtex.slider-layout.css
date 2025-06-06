@@ -1,0 +1,24 @@
+.sliderTrack--slider-secundario-multibanner {
+  gap: 20px;
+}
+
+.sliderArrows--slider-secundario-multibanner {
+    background-color: black !important;
+    color: #fff !important;
+    width: 30px;
+    height: 30px;
+}
+
+.sliderRightArrow--slider-secundario-multibanner {
+    right: -20px;
+}
+
+.sliderLeftArrow--slider-secundario-multibanner {
+    left: -20px;
+}
+
+@media screen and (max-width: 768px) {
+  .sliderTrack--slider-secundario-multibanner {
+    gap: 8px;
+  }
+}
