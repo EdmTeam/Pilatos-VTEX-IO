@@ -4,6 +4,7 @@
       "pa-widget",
       "livestreaming",
       // "modal-trigger#welcome",
+      "experimental__visibility-layout#slider-cinta-multibanner-home", // banner cinta slider
       "flex-layout.row#content-slider",
       "responsive-layout.desktop#images__department--desk",
       "responsive-layout.mobile#images__department--mob",

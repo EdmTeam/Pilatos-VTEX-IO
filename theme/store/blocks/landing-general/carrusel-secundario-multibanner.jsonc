@@ -1,0 +1,61 @@
+{
+  "experimental__visibility-layout#carrusel-secundario-multibanner": {
+    "title": "Carrusel secundario",
+    "children": ["flex-layout.row#carrusel-secundario-multibanner"],
+    "props": {
+      "visible": false
+    }
+  },
+  "flex-layout.row#carrusel-secundario-multibanner": {
+    "title": "Carrusel secundario",
+    "children": ["list-context.image-list#carrusel-secundario-multibanner"],
+    "props": {
+        "blockClass": "carrusel-secundario-multibanner",
+        "colGap": 4,
+        "rowGap": 4
+    }
+  },
+    "list-context.image-list#carrusel-secundario-multibanner": {
+    "children": ["slider-layout#carrusel-secundario-multibanner"],
+    "props": {
+      "preload": true,
+      "height": 650,
+      "images": [
+        {
+          "loading": "eager",
+          "image": "/arquivos/aliado-quicksale-template.png",
+          "mobileImage": "/arquivos/Rectangle 16978.png",
+          "description": "imagen aliado 1"
+        },
+        {
+          "loading": "eager",
+          "image": "/arquivos/aliado-quicksale-template.png",
+          "mobileImage": "/arquivos/Rectangle 16978.png",
+          "description": "Imagen aliado 2"
+        },
+        {
+          "loading": "eager",
+          "image": "/arquivos/aliado-quicksale-template.png",
+          "mobileImage": "/arquivos/Rectangle 16978.png",
+          "description": "Imagen aliado 3"
+        }
+      ]
+    }
+  },
+
+  "slider-layout#carrusel-secundario-multibanner": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "autoplay": {
+        "timeout": "3000"
+      },
+      "blockClass": "slider-secundario-multibanner",
+      "showPaginationDots": "never"
+    }
+  }
+}

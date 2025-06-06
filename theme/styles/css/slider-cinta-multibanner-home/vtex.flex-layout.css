@@ -1,0 +1,20 @@
+.flexRow--slider-cinta-home-multibanner {
+  position: relative;
+}
+.flexRow--slider-cinta-home-multibanner
+  :global(
+    .vtex-slider-layout-0-x-paginationDotsContainer--slider-cinta-multibanner
+  ) {
+  position: absolute;
+  bottom: 8%;
+  left: -80%;
+}
+@media screen and (max-width: 768px) {
+  .flexRow--slider-cinta-home-multibanner
+    :global(
+      .vtex-slider-layout-0-x-paginationDotsContainer--slider-cinta-multibanner
+    ) {
+    bottom: 4%;
+    left: 0%;
+  }
+}
