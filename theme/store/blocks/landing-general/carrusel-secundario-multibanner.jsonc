@@ -3,7 +3,7 @@
     "title": "Carrusel secundario",
     "children": ["flex-layout.row#carrusel-secundario-multibanner"],
     "props": {
-      "visible": true
+      "visible": false
     }
   },
   "flex-layout.row#carrusel-secundario-multibanner": {
