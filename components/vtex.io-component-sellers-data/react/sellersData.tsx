@@ -10,7 +10,8 @@ const sellers = [
   { sellerName: "jansportc", nit: "900.460.312-0", sic: "900.460.312-0" },
   { sellerName: "Pernine Ltda.", nit: "900.017.250-4", sic: "900.017.250-4" },
   { sellerName: "Kappa", nit: "900.017.250-4", sic: "900.017.250-4" },
-  { sellerName: "Estudio de Moda S.A.S", nit: "890926803", sic: "890.926.803" }
+  { sellerName: "Estudio de Moda S.A.S", nit: "890926803", sic: "890.926.803" },
+  { sellerName: "Tennis SA", nit: "890920043-3", sic: "890920043-3" }
 ];
 
 const CSS_HANDLES = [
@@ -27,7 +28,7 @@ const SellersData = () => {
 
   const sellerName = context?.selectedItem?.sellers[0].sellerName;
 
-  console.log("sellerName", sellerName)
+  console.log("sellerName", context?.selectedItem)
 
 
   const findSellerDetails = (name: string) => {
