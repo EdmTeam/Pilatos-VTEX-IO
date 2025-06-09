@@ -1628,7 +1628,7 @@ div.checkoutFooter p.copyRight {
   position: static;
   padding: 0;
   line-height: 40px;
-  background-color: #7C7C7C;
+  background-color: #7c7c7c;
   -webkit-transition: background 0.3s ease 0s;
   -moz-transition: background 0.3s ease 0s;
   -ms-transition: background 0.3s ease 0s;
@@ -2039,6 +2039,10 @@ div.checkoutFooter p.copyRight {
   .body-order-form .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .cart-more-options #shipping-preview-container p[id*=shp],
   .body-order-form .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .cart-more-options #shipping-preview-container p[class*=ship],
   .body-order-form .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .cart-more-options #shipping-preview-container p[id*=ship] {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
   }
 }
@@ -2182,7 +2186,7 @@ div.checkoutFooter p.copyRight {
 .body-order-form .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .cart-more-options #shipping-preview-container select[id*=shp]:focus,
 .body-order-form .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .cart-more-options #shipping-preview-container select[class*=ship]:focus,
 .body-order-form .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .cart-more-options #shipping-preview-container select[id*=ship]:focus {
-  border: 1px solid #ffd400;
+  border: 1px solid #000;
 }
 .body-cart .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .cart-more-options #shipping-preview-container span.error,
 .body-order-form .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .cart-more-options #shipping-preview-container span.error {
@@ -2337,8 +2341,8 @@ div.checkoutFooter p.copyRight {
   .body-order-form .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .cart-more-options #shipping-preview-container button[class*=ship]#shipping-calculate-link:hover,
   .body-order-form .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .cart-more-options #shipping-preview-container button[id*=ship]#cart-shipping-calculate:hover,
   .body-order-form .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .cart-more-options #shipping-preview-container button[id*=ship]#shipping-calculate-link:hover {
-    background-color: #ffd400;
-    color: #000;
+    background-color: #000;
+    color: #fff;
   }
   .body-cart .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .cart-more-options #shipping-preview-container button[class*=srp]:hover, .body-cart .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .cart-more-options #shipping-preview-container button[id*=srp]:hover, .body-cart .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .cart-more-options #shipping-preview-container button[class*=shp]:hover, .body-cart .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .cart-more-options #shipping-preview-container button[id*=shp]:hover, .body-cart .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .cart-more-options #shipping-preview-container button[class*=ship]:hover, .body-cart .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .cart-more-options #shipping-preview-container button[id*=ship]:hover,
   .body-order-form .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .cart-more-options #shipping-preview-container button[class*=srp]:hover,
@@ -2858,7 +2862,7 @@ div.checkoutFooter p.copyRight {
   text-transform: unset;
   color: #000;
   text-align: center;
-  border: 1px solid #B1ABAB;
+  border: 1px solid #b1abab;
   border-radius: 16px;
   margin-top: 19px;
 }
@@ -6929,6 +6933,11 @@ body {
   color: #fff;
   padding: 1rem 2rem;
 }
+@media screen and (max-width: 767px) {
+  .content-checkout-footer {
+    margin-bottom: 20%;
+  }
+}
 
 .orderform-template-holder .vtex-omnishipping-1-x-shippingDataDev {
   background-color: transparent;
@@ -7177,6 +7186,7 @@ button#payment-data-submit {
 @media (max-width: 760px) {
   button#payment-data-submit {
     width: 85%;
+    margin: 0 auto;
   }
 }
 /* Descripcion texto sistecredito */
@@ -7276,7 +7286,7 @@ button#payment-data-submit {
 
 #payment-group-KaiowaPaymentGroup .payment-group-item-text::after {
   content: "TuCouta";
-  font-size: 13PX;
+  font-size: 13px;
   padding-right: 2rem !important;
   padding-left: 44px !important;
   color: #000000 !important;
@@ -7366,8 +7376,11 @@ optgroup[label="Recogida en tienda"] {
 @media screen and (max-width: 767px) {
   .vtex-social-selling .sb-bar {
     left: 4px !important;
-    gap: 4px;
+    gap: 2px;
     bottom: 50% !important;
+  }
+  .vtex-social-selling .sb-bar .sb-divider {
+    margin-bottom: 0px;
   }
 }
 .vtex-social-selling .sb-bar .sb-b-erasecart {
@@ -7379,17 +7392,25 @@ optgroup[label="Recogida en tienda"] {
 .vtex-social-selling .sb-bar .sb-b-link .sb-mask .sb-icon {
   background-color: #656363;
   border-radius: 6.08px;
-  margin-left: 6.7px;
+  margin-left: 6px;
+}
+@media screen and (max-width: 767px) {
+  .vtex-social-selling .sb-bar .sb-b-link .sb-mask .sb-icon {
+    display: flex;
+    font-size: 13px;
+    background-color: #656363;
+    border-radius: 6.08px;
+    margin-left: 0px;
+    width: 32px;
+    height: 32px;
+    align-items: center;
+    justify-content: center;
+  }
 }
 .vtex-social-selling .sb-bar .sb-b-link .sb-mask .sb-label {
   background-color: #656363;
 }
 @media screen and (max-width: 767px) {
-  .vtex-social-selling .sb-bar .sb-b-link .sb-icon {
-    background-color: #656363;
-    border-radius: 6.08px;
-    margin-left: 6.7px;
-  }
   .vtex-social-selling .sb-bar .sb-b-link .sb-label {
     background-color: #656363;
   }
@@ -7400,17 +7421,25 @@ optgroup[label="Recogida en tienda"] {
 .vtex-social-selling .sb-bar .sb-b-codigovendedor .sb-mask .sb-icon {
   background-color: #898787;
   border-radius: 6.08px;
-  margin-left: 6.7px;
+  margin-left: 6px;
+}
+@media screen and (max-width: 767px) {
+  .vtex-social-selling .sb-bar .sb-b-codigovendedor .sb-mask .sb-icon {
+    display: flex;
+    font-size: 13px;
+    background-color: #656363;
+    border-radius: 6.08px;
+    margin-left: 0px;
+    width: 32px;
+    height: 32px;
+    align-items: center;
+    justify-content: center;
+  }
 }
 .vtex-social-selling .sb-bar .sb-b-codigovendedor .sb-mask .sb-label {
   background-color: #898787;
 }
 @media screen and (max-width: 767px) {
-  .vtex-social-selling .sb-bar .sb-b-codigovendedor .sb-icon {
-    background-color: #898787;
-    border-radius: 6.08px;
-    margin-left: 6.7px;
-  }
   .vtex-social-selling .sb-bar .sb-b-codigovendedor .sb-label {
     background-color: #898787;
   }

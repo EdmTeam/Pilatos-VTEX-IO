@@ -1,7 +1,7 @@
 @import url("/arquivos/font-icommon.css");
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&display=swap");
 /*libreria de icon*/
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
 
 // COLORES
 $negro: #000;
@@ -28,7 +28,7 @@ $green: #31af31;
 $yellow-cat: #eac428;
 $orange: #e25e1b;
 $red: #d31822;
-$graynew: #7C7C7C;
+$graynew: #7c7c7c;
 
 $mini: 90%;
 $maxi: 1440px;
@@ -154,16 +154,14 @@ $icom-logo-CE-path24: "\e92d";
 
 @function calculateRem($size) {
   // $remSize: $size / $font_size_default;
-  $remSize: (
-    $size) / 16;
+  $remSize: ($size) / 16;
   // $remSize: ($size + 1) * 0.0625;
   @return #{$remSize}rem;
 }
 
 @mixin fontSize($size) {
-  font-size: calculateRem($size
-  );
-font-size: #{$size}px; //Fallback in px
+  font-size: calculateRem($size);
+  font-size: #{$size}px; //Fallback in px
 }
 
 @mixin barlow($fontSize: 12, $weight: 300, $letterSpace: 0, $decoration: none, $transform: unset) {
@@ -225,7 +223,7 @@ $min_font: 14px;
 $max_font: 50px;
 
 @function css-function($function, $values...) {
-  @return $function +unquote("(")+$values +unquote(")");
+  @return $function + unquote("(") + $values + unquote(")");
 }
 
 @function css-min($values...) {
@@ -740,7 +738,7 @@ div.checkoutFooter {
             width: 100%;
             margin-bottom: 13px;
 
-            >p {
+            > p {
               @include barlow(13, 400, 0.025);
               color: $negro;
               margin-bottom: 10px;
@@ -761,7 +759,7 @@ div.checkoutFooter {
               visibility: hidden;
               appearance: checkbox;
 
-              &:checked~.checkSlide {
+              &:checked ~ .checkSlide {
                 &:after {
                   left: 0;
                 }
@@ -1287,7 +1285,7 @@ div.checkoutFooter {
           }
         }
 
-        >svg {
+        > svg {
           display: block;
           width: 22px;
           height: auto;
@@ -1346,7 +1344,6 @@ div.checkoutFooter {
     */
 
   svg.vtex-pickup-points-modal-13-x-searchOverlay {
-
     path,
     rect,
     polygon,
@@ -1394,10 +1391,8 @@ div.checkoutFooter {
 
       .checkout-container {
         .cart-template {
-
           // padding: 0 15px;
           .cart-template-holder {
-
             /* CARRITO VACIO */
             .empty-cart-content {
               h2.empty-cart-title {
@@ -1458,7 +1453,6 @@ div.checkoutFooter {
           }
 
           #cartLoadedDiv {
-
             /* LISTA DE PRODUCTOS DEL CARRITO */
             .cart {
               border-radius: 0px;
@@ -1807,7 +1801,7 @@ div.checkoutFooter {
 
                   form {
                     fieldset {
-                      >div {
+                      > div {
                         display: block !important;
                       }
 
@@ -1844,7 +1838,7 @@ div.checkoutFooter {
                               font-weight: 400;
                               font-size: 14px;
 
-                               @include screen-max-width($breakTabletVert) {
+                              @include screen-max-width($breakTabletVert) {
                                 font-weight: 600;
                               }
                             }
@@ -2022,6 +2016,10 @@ div.checkoutFooter {
                     line-height: 16px;
 
                     @include screen-max-width($breakMobile) {
+                      display: flex;
+                      flex-direction: column;
+                      justify-content: center;
+                      align-items: center;
                       text-align: center;
                     }
 
@@ -2082,7 +2080,7 @@ div.checkoutFooter {
                     box-shadow: none;
 
                     &:focus {
-                      border: 1px solid $yellow;
+                      border: 1px solid $negro;
                     }
                   }
 
@@ -2095,7 +2093,6 @@ div.checkoutFooter {
                   }
 
                   button {
-
                     &[class*="srp"],
                     &[id*="srp"],
                     &[class*="shp"],
@@ -2174,8 +2171,8 @@ div.checkoutFooter {
                         &#cart-shipping-calculate,
                         &#shipping-calculate-link {
                           &:hover {
-                            background-color: $yellow;
-                            color: $negro;
+                            background-color: $negro;
+                            color: $blanco;
                           }
                         }
 
@@ -2446,7 +2443,6 @@ div.checkoutFooter {
                         border: none;
 
                         tbody {
-
                           // padding: 20px 25px 10px;
                           &.shipping-calculate {
                             display: none !important;
@@ -2502,7 +2498,6 @@ div.checkoutFooter {
                         }
 
                         tfoot {
-
                           // padding: 10px 25px 20px;
                           tr {
                             border: none;
@@ -2599,7 +2594,7 @@ div.checkoutFooter {
                   @include popins(14, 600, 0.025, none);
                   color: $negro;
                   text-align: center;
-                  border: 1px solid #B1ABAB;
+                  border: 1px solid #b1abab;
                   border-radius: 16px;
                   margin-top: 19px;
                   // line-height: 40px;
@@ -2695,7 +2690,6 @@ div.checkoutFooter {
           }
 
           .orderform-template-holder {
-
             /* AGREGAR EMAIL */
             form {
               border: 0px;
@@ -2970,11 +2964,11 @@ div.checkoutFooter {
                   span.accordion-toggle {
                     color: $negro;
 
-                    >i {
+                    > i {
                       color: $negro;
                     }
 
-                    >span {
+                    > span {
                       color: $negro;
                     }
                   }
@@ -2986,7 +2980,6 @@ div.checkoutFooter {
                   }
 
                   .box-info {
-
                     div,
                     span {
                       color: $negro;
@@ -3008,14 +3001,14 @@ div.checkoutFooter {
                   line-height: 14px;
                   color: $middlegray;
 
-                  >span {
+                  > span {
                     @include popins(12, 700, 0.01, none, uppercase);
                     color: $middlegray;
                     // display: initial;
                     float: left;
                   }
 
-                  >i {
+                  > i {
                     display: none;
                     // display: initial;
                     @include fontSize(20);
@@ -3033,7 +3026,6 @@ div.checkoutFooter {
                 }
 
                 .box-info {
-
                   div,
                   span {
                     @include barlow(11, 400, 0.01);
@@ -3105,7 +3097,6 @@ div.checkoutFooter {
 
                     .box-step {
                       .box-info {
-
                         /* BOTON DE CAMBIAR USUARIO */
                         .client-profile-email {
                           margin-bottom: 15px;
@@ -3177,7 +3168,7 @@ div.checkoutFooter {
                                   width: 100%;
 
                                   // margin-bottom: 0;
-                                  >span {
+                                  > span {
                                     @include barlow(11, 400, 0.01);
                                     border-radius: 5px;
                                     background-position: right center;
@@ -3227,7 +3218,7 @@ div.checkoutFooter {
                                     }
                                   }
 
-                                  +div {
+                                  + div {
                                     order: 3;
                                     width: 100%;
 
@@ -3244,13 +3235,12 @@ div.checkoutFooter {
 
                                   // @include screen-max-width($breakTabletVert) {
                                   // }
-                                  +.client-phone {
+                                  + .client-phone {
                                     display: none;
                                   }
                                 }
 
                                 &.client-document {
-
                                   // display: none;
                                   // display: block !important;
                                   label {
@@ -3265,7 +3255,7 @@ div.checkoutFooter {
                                     }
                                   }
 
-                                  +div {
+                                  + div {
                                     order: 4;
                                     width: 50%;
 
@@ -3290,7 +3280,7 @@ div.checkoutFooter {
                                     height: 0;
                                     border: 0;
 
-                                    +span.help.error {
+                                    + span.help.error {
                                       display: none !important;
 
                                       &.showError {
@@ -3348,7 +3338,6 @@ div.checkoutFooter {
 
                               /* CAMPOS DE EMPRESA */
                               &.box-client-info-pj {
-
                                 // display: none;
                                 h5 {
                                   display: none;
@@ -3419,7 +3408,7 @@ div.checkoutFooter {
                                     &.client-company-ie {
                                       padding-right: 12px;
 
-                                      @include screen-max-width($breakTabletVert ) {
+                                      @include screen-max-width($breakTabletVert) {
                                         width: 100%;
                                         padding-right: 0;
                                       }
@@ -3430,7 +3419,7 @@ div.checkoutFooter {
                                       padding-left: 12px;
                                       margin-right: 0;
 
-                                      @include screen-max-width($breakTabletVert ) {
+                                      @include screen-max-width($breakTabletVert) {
                                         width: 100%;
                                         padding-left: 0;
                                       }
@@ -3782,7 +3771,6 @@ div.checkoutFooter {
                           appearance: none;
 
                           &:checked {
-
                             // border 6px solid $rojo
                             &:before {
                               background-color: $brown;
@@ -3863,7 +3851,7 @@ div.checkoutFooter {
 
                     /* TITLES */
 
-                    >div {
+                    > div {
                       width: 100%;
 
                       /* SWITCH RECOGIDA Y DOMICILIOS */
@@ -3871,7 +3859,7 @@ div.checkoutFooter {
                       &#postalCode-finished-loading {
                         order: 1;
 
-                        >div {
+                        > div {
                           width: 100%;
                           border-radius: 0px !important;
                           border: none !important;
@@ -3998,7 +3986,7 @@ div.checkoutFooter {
                         }
 
                         div.vtex-omnishipping-1-x-address {
-                          >div {
+                          > div {
                             width: 100%;
                             display: flex;
                             flex-wrap: wrap;
@@ -5366,7 +5354,7 @@ div.checkoutFooter {
             opacity: 0;
             appearance: checkbox;
 
-            &:checked~span.btnCheckbox {
+            &:checked ~ span.btnCheckbox {
               &:before {
                 color: black;
               }
@@ -5456,7 +5444,7 @@ div.checkoutFooter {
         padding: 0 15px;
       }
 
-      >div {
+      > div {
         &:first-child {
           // display: none;
           margin-bottom: 20px;
@@ -5534,7 +5522,7 @@ div.checkoutFooter {
                 content: "\00a0los detalles de la compra.";
               }
 
-              +span {
+              + span {
                 display: block;
                 width: 100%;
 
@@ -5569,8 +5557,8 @@ div.checkoutFooter {
         display: none;
       }
 
-      >div.cf {
-        >div {
+      > div.cf {
+        > div {
           &:nth-child(2) {
             display: flex;
             align-items: stretch;
@@ -5596,7 +5584,6 @@ div.checkoutFooter {
           color: $brown;
 
           &.fw4 {
-
             // color: $gris8;
             span {
               &:nth-child(2) {
@@ -5656,7 +5643,6 @@ div.checkoutFooter {
           }
 
           span {
-
             // @include barlow(11, 400, 0.01);
             &:first-child {
               width: 65%;
@@ -5748,8 +5734,8 @@ div.checkoutFooter {
                   display: none;
                 }
 
-                &+div,
-                &+span {
+                & + div,
+                & + span {
                   margin-right: 8px;
 
                   span {
@@ -5761,7 +5747,7 @@ div.checkoutFooter {
                   }
                 }
 
-                &+span {
+                & + span {
                   &:after {
                     content: "\00a0 el";
                   }
@@ -5804,7 +5790,6 @@ div.checkoutFooter {
                   width: 75%;
 
                   div {
-
                     // display: inline-flex;
                     // width: 100%;
                     &:first-child {
@@ -5831,7 +5816,6 @@ div.checkoutFooter {
 
                       span {
                         &:first-child {
-
                           // display: none;
                           &:before {
                             content: "\00a0";
@@ -6131,7 +6115,6 @@ body {
             appearance: none;
 
             &:checked {
-
               // border 6px solid $rojo
               &:before {
                 background-color: $yellow;
@@ -6175,7 +6158,7 @@ body {
       width: 100%;
       margin: 10px 0;
 
-      >p {
+      > p {
         display: flex;
       }
 
@@ -6298,7 +6281,6 @@ body {
           }
 
           &:checked {
-
             // border 6px solid $rojo
             &:before {
               display: flex;
@@ -6510,7 +6492,6 @@ body {
         }
 
         .best-price {
-
           .new-product-real-price,
           .new-product-price {
             font-weight: 800 !important;
@@ -6588,6 +6569,10 @@ body {
       color: $blanco;
       padding: 1rem 2rem;
     }
+  }
+
+  @include screen-max-width($breakMobile) {
+    margin-bottom: 20%;
   }
 }
 
@@ -6670,7 +6655,6 @@ body {
       }
     }
 
-
     a#payment-group-debitPaymentGroup {
       span {
         background-image: url("/arquivos/pse.png") !important;
@@ -6731,10 +6715,12 @@ body {
   color: #000000 !important;
 }
 
-#payment-data .steps-view[data-bind="visible: showPaymentOptions"] .SisteCreditoPaymentGroup .payment-description:after {
+#payment-data
+  .steps-view[data-bind="visible: showPaymentOptions"]
+  .SisteCreditoPaymentGroup
+  .payment-description:after {
   content: " ";
-  background-image: url(/arquivos/banner-mediodepago-sistecredito.jpg
-  );
+  background-image: url(/arquivos/banner-mediodepago-sistecredito.jpg);
   width: 100%;
   height: 400px;
   display: block;
@@ -6802,8 +6788,7 @@ body {
 
 #payment-data .steps-view[data-bind="visible: showPaymentOptions"] .WompiCoPaymentGroup .payment-description:after {
   content: " ";
-  background-image: url(/arquivos/banner-mediodepago-wompi-new.jpg
-  );
+  background-image: url(/arquivos/banner-mediodepago-wompi-new.jpg);
   width: 100%;
   height: 400px;
   display: block;
@@ -6837,7 +6822,6 @@ body {
   padding-left: 42px !important;
 }
 
-
 [id="payment-group-WH Google PayPaymentGroup"] .payment-group-item-text {
   background-image: url(/arquivos/google-ws.png) !important;
   background-size: 36px;
@@ -6865,6 +6849,7 @@ button#payment-data-submit {
 @media (max-width: 760px) {
   button#payment-data-submit {
     width: 85%;
+    margin: 0 auto;
   }
 }
 
@@ -6956,7 +6941,6 @@ button#payment-data-submit {
       text-decoration: underline;
     }
   }
-
 }
 
 // .payment-group .payment-group-list-btn a#payment-group-custom201PaymentGroupPaymentGroup {
@@ -6974,7 +6958,7 @@ button#payment-data-submit {
 
 #payment-group-KaiowaPaymentGroup .payment-group-item-text::after {
   content: "TuCouta";
-  font-size: 13PX;
+  font-size: 13px;
   padding-right: 2rem !important;
   padding-left: 44px !important;
   color: #000000 !important;
@@ -7029,7 +7013,9 @@ button#payment-data-submit {
   justify-content: center;
 }
 
-optgroup[label="Recogida en tienda"] { display: none; }
+optgroup[label="Recogida en tienda"] {
+  display: none;
+}
 /***Recoger en tienda oculto***/
 
 .all-gifts-were-chosen::after {
@@ -7052,7 +7038,7 @@ optgroup[label="Recogida en tienda"] { display: none; }
   color: $negro;
 }
 
-.available-gift-quantity  {
+.available-gift-quantity {
   max-width: 430px;
 }
 
@@ -7067,8 +7053,12 @@ optgroup[label="Recogida en tienda"] { display: none; }
 
     @include screen-max-width($breakMobile) {
       left: 4px !important;
-      gap: 4px;
+      gap: 2px;
       bottom: 50% !important;
+
+      .sb-divider {
+        margin-bottom: 0px;
+      }
     }
 
     .sb-b-erasecart {
@@ -7082,7 +7072,19 @@ optgroup[label="Recogida en tienda"] { display: none; }
         .sb-icon {
           background-color: #656363;
           border-radius: 6.08px;
-          margin-left: 6.7px;
+          margin-left: 6px;
+
+          @include screen-max-width($breakMobile) {
+            display: flex;
+            font-size: 13px;
+            background-color: #656363;
+            border-radius: 6.08px;
+            margin-left: 0px;
+            width: 32px;
+            height: 32px;
+            align-items: center;
+            justify-content: center;
+          }
         }
 
         .sb-label {
@@ -7091,12 +7093,6 @@ optgroup[label="Recogida en tienda"] { display: none; }
       }
 
       @include screen-max-width($breakMobile) {
-        .sb-icon {
-          background-color: #656363;
-          border-radius: 6.08px;
-          margin-left: 6.7px;
-        }
-
         .sb-label {
           background-color: #656363;
         }
@@ -7110,23 +7106,30 @@ optgroup[label="Recogida en tienda"] { display: none; }
         .sb-icon {
           background-color: #898787;
           border-radius: 6.08px;
-          margin-left: 6.7px;
+          margin-left: 6px;
+
+          @include screen-max-width($breakMobile) {
+            display: flex;
+            font-size: 13px;
+            background-color: #656363;
+            border-radius: 6.08px;
+            margin-left: 0px;
+            width: 32px;
+            height: 32px;
+            align-items: center;
+            justify-content: center;
+          }
         }
         .sb-label {
           background-color: #898787;
         }
       }
 
-       @include screen-max-width($breakMobile) {
-          .sb-icon {
-            background-color: #898787;
-            border-radius: 6.08px;
-            margin-left: 6.7px;
-          }
-          .sb-label {
-            background-color: #898787;
-          }
-       }
+      @include screen-max-width($breakMobile) {
+        .sb-label {
+          background-color: #898787;
+        }
+      }
     }
   }
 }
