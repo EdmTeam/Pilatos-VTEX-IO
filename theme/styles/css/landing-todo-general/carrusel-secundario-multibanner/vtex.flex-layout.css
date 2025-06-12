@@ -2,3 +2,11 @@
   width: 90%;
   margin: 20px auto 0 auto;
 }
+@media screen and (min-width: 768px) {
+  .flexRow--carrusel-secundario-multibanner {
+    width: 65%;
+  }
+  .flexRowContent--carrusel-secundario-multibanner :global(.vtex-slider-layout-0-x-imageElement--slider-secundario-multibanner) {
+    width: 80% !important;
+  }
+}
