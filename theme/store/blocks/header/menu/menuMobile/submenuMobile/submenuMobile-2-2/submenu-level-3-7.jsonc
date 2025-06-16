@@ -40,6 +40,7 @@
       "rich-text#submenu-desk-department-4-category-60-francques-2-mobile", //Franques,
       "rich-text#submenu-desk-department-4-category-60-monastery-1-mobile", //Monastery
       "rich-text#submenu-desk-department-4-category-60-vans-2-mobile", //vans
+      "rich-text#submenu-desk-department-4-category-60-veja-2-mobile", //veja
       "rich-text#submenu-desk-department-4-category-60-goring-3-mobile", //Goring bros
       "rich-text#submenu-desk-department-4-category-60-new-era-4-mobile", // New era
       "rich-text#submenu-desk-department-4-category-60-lacoste-5-mobile", // Lacoste
@@ -78,6 +79,12 @@
   "rich-text#submenu-desk-department-4-category-60-vans-2-mobile": {
     "props": {
       "text": "[Vans](/mujer/vans?map=category-1,marca)",
+      "blockClass": ["textSubmenuAcordeon", "textSubcategoryPilatos"]
+    }
+  },
+  "rich-text#submenu-desk-department-4-category-60-veja-2-mobile": {
+    "props": {
+      "text": "[Veja](/veja?initialMap=b&initialQuery=veja&map=category-1,b&query=/mujer/veja&searchState=)",
       "blockClass": ["textSubmenuAcordeon", "textSubcategoryPilatos"]
     }
   },

@@ -1,0 +1,189 @@
+{
+    "condition-layout.product#garment-care-converse": {
+        "props": {
+            "conditions": [
+                {
+                    "subject": "brandId",
+                    "arguments": {
+                        "id": "2000139"
+                    }
+                }
+            ],
+            "Then": "disclosure-layout#product-garment-care-converse"
+        }
+    },
+
+    "disclosure-layout#product-garment-care-converse": {
+        "children": [
+            "disclosure-trigger#product-content-garment-care-converse",
+            "disclosure-content#product-description-garment-care-converse"
+        ]
+    },
+
+    "disclosure-trigger#product-content-garment-care-converse": {
+        "children": [
+            "rich-text#garment-care-converse",
+            "disclosure-state-indicator#garment-care"
+        ],
+        "props": {
+            "blockClass": ["container-products", "disclosure-indicator-garment-care"]
+        }
+    },
+
+    "rich-text#garment-care-converse": {
+        "props": {
+            "text": "**Cuidados de la prenda**"
+            //"blockClass": "product-description-pdp"
+        }
+    },
+    "disclosure-content#product-description-garment-care-converse": {
+        "children": [
+            "rich-text#garment-care-use-converse",
+            "flex-layout.row#garment-use-converse"
+        ],
+        "props": {
+            "blockClass": "garment-use-product-pdp"
+        }
+    },
+    
+    "rich-text#garment-care-use-converse": {
+        "props": {
+            "text": "**Recomendaciones de uso**"
+        }
+    },
+    "flex-layout.row#garment-use-converse": {
+        "children": [
+            "flex-layout.col#garment-use-converse"
+        ]
+    },
+
+    "flex-layout.col#garment-use-converse": {
+        "children": [
+            "flex-layout.col#garment-use-1-converse",
+            "flex-layout.col#garment-use-2-converse",
+            "flex-layout.col#garment-use-3-converse",
+            "flex-layout.col#garment-use-4-converse",
+            "flex-layout.col#garment-use-5-converse"
+        ]
+    },
+    
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-1-converse": {
+        "children": [
+            "image#garment-care-cleaning-use-1-converse",
+            "rich-text#garment-care-cleaning-use-1-converse"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-1-converse": {
+        "props": {
+            "text": "Con un paño húmedo, frotar suavemente con agua tibia y jabón suave"
+        }
+    },
+    "image#garment-care-cleaning-use-1-converse": {
+        "props": {
+            "src": "/arquivos/secar-a-la-sombra.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-2-converse": {
+        "children": [
+            "image#garment-care-cleaning-use-2-converse",
+            "rich-text#garment-care-cleaning-use-2-converse"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-2-converse": {
+        "props": {
+            "text": "NO LAVAR NI SECAR A MÁQUINA"
+        }
+    },
+    "image#garment-care-cleaning-use-2-converse": {
+        "props": {
+            "src": "/arquivos/do-not-dry.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-3-converse": {
+        "children": [
+            "image#garment-care-cleaning-use-3-converse",
+            "rich-text#garment-care-cleaning-use-3-converse"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-3-converse": {
+        "props": {
+            "text": "Secar a temperatura ambiente, rellenar con papel para ayudar a mantener su forma"
+        }
+    },
+    "image#garment-care-cleaning-use-3-converse": {
+        "props": {
+            "src": "/arquivos/no-lejia.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-4-converse": {
+        "children": [
+            "image#garment-care-cleaning-use-4-converse",
+            "rich-text#garment-care-cleaning-use-4-converse"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-4-converse": {
+        "props": {
+            "text": "Cambiar el papel de vez en cuando durante el proceso de secado"
+        }
+    },
+    "image#garment-care-cleaning-use-4-converse": {
+        "props": {
+            "src": "/arquivos/lavar-a-mano-new.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-5-converse": {
+        "children": [
+            "image#garment-care-cleaning-use-5-converse",
+            "rich-text#garment-care-cleaning-use-5-converse"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-5-converse": {
+        "props": {
+            "text": "Para prolongar la vida útil, NO APLICAR CALOR DIRECTO"
+        }
+    },
+    "image#garment-care-cleaning-use-5-converse": {
+        "props": {
+            "src": "/arquivos/image-saturation.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    }
+    /******* item completo recomendación de uso****/
+}
