@@ -78,7 +78,8 @@
       "rich-text#submenu-desk-department-4-category-35", //sprayground
       "rich-text#submenu-desk-department-4-category-22", //stance
       "rich-text#submenu-desk-department-4-category-58", //THE NORTH FACE
-      "rich-text#submenu-desk-department-4-category-27" //vans
+      "rich-text#submenu-desk-department-4-category-27", //vans
+      "rich-text#submenu-desk-department-4-category-28-veja" //veja
     ],
     "props":{
         "blockClass": [
@@ -425,6 +426,13 @@
     "rich-text#submenu-desk-department-4-category-27":{
         "props":{
             "text": "[Vans](/vans) ![Vans](/arquivos/Pilatos-LogosMarcas-Vans.png) ",
+            "blockClass": "textSubcategory"
+        }
+    },
+
+    "rich-text#submenu-desk-department-4-category-28-veja":{
+        "props":{
+            "text": "[Veja](/veja) ![Veja](/arquivos/veja-logo-brand.png) ",
             "blockClass": "textSubcategory"
         }
     },

@@ -2169,6 +2169,43 @@
                 }
             ]
         }
+    },
+
+    //VEJA
+    "size-guide#sandalias-hombre-VEJA": {
+        "props": {
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000145"
+                    ],
+                    "categories": [
+                        "3"
+                    ],
+                    "imageDesktop": "/arquivos/veja-guia-de-tallas-masculino.png",
+                    "imageTablet": "/arquivos/veja-guia-de-tallas-masculino.png",
+                    "imagePhone": "/arquivos/veja-guia-de-tallas-masculino.png"
+                }
+            ]
+        }
+    },
+    "size-guide#sandalias-mujer-VEJA": {
+        "props": {
+            "conditionals": [
+                {
+                    "brands": [
+                        "2000145"
+                    ],
+                    "categories": [
+                        "44"
+                    ],
+                    "imageDesktop": "/arquivos/veja-guia-de-tallas-femenino.png",
+                    "imageTablet": "/arquivos/veja-guia-de-tallas-femenino.png",
+                    "imagePhone": "/arquivos/veja-guia-de-tallas-femenino.png"
+                }
+            ]
+        }
     }
+    //VEJA
     
 }

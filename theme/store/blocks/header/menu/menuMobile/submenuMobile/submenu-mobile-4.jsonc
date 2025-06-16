@@ -348,7 +348,8 @@
       "rich-text#submenu-level-2-item-3-row-7",
       "rich-text#submenu-level-2-item-40-row-7",
       "rich-text#submenu-level-2-item-43-1-row-7",
-      "rich-text#submenu-level-2-item-25-row-7"
+      "rich-text#submenu-level-2-item-25-row-7",
+      "rich-text#submenu-level-2-item-26-row-8"
     ],
     "props": {
       "blockClass": "content-a-i"
@@ -400,6 +401,12 @@
     "props": {
       "text": "[Vans](/vans) ![Vans](/arquivos/Pilatos-LogosMarcas-Vans.png)",
       "blockClass": "contentSubMenuAcordeon"
+    }
+  },
+  "rich-text#submenu-level-2-item-26-row-8": {
+    "props": {
+      "text": "[Veja](/veja) ![Veja](/arquivos/veja-logo-brand.png)",
+      "blockClass": ["contentSubMenuAcordeon", "textSubcategoryPilatos"]
     }
   },
   "flex-layout.row#submenu-level-2-items-7": {

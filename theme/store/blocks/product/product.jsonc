@@ -335,6 +335,7 @@
       "condition-layout.product#garment-care-superdry-gorras-mujer",
       "condition-layout.product#garment-care-superdry-correa-hombre",
       "condition-layout.product#garment-care-superdry-correa-mujer",
+      "condition-layout.product#garment-care-converse",
       //"link#scrollLink",
       "disclosure-layout#masDetallesSellers",
       "share#default",
@@ -690,7 +691,9 @@
       //"size-guide#zapatos-hombre-Superdry",
       "size-guide#correa",
       "size-guide#mujer-hombre-vans",
-      "size-guide#pantalon-ap-crown"
+      "size-guide#pantalon-ap-crown",
+      "size-guide#sandalias-hombre-VEJA",
+            "size-guide#sandalias-mujer-VEJA"
     ],
     "props": {
       "blockClass": "product-size-guide-btn"

@@ -76,7 +76,8 @@
       "rich-text#submenu-desk-department-1-category-7-subcategory-19", //Stance
       "rich-text#submenu-desk-department-4-category-60-superga-15", //superga
       "rich-text#submenu-desk-department-4-category-60-the-north-face-18", //the-north-face
-      "rich-text#submenu-desk-department-4-category-60-vans-2" //vans
+      "rich-text#submenu-desk-department-4-category-60-vans-2", //vans
+      "rich-text#submenu-desk-department-4-category-60-veja-2" //veja
     ],
     "props": {
       "blockClass": "contentBlockSubmenu"
@@ -156,6 +157,12 @@
   "rich-text#submenu-desk-department-4-category-60-vans-2": {
     "props": {
       "text": "[Vans](/hombre/vans?map=category-1,marca)",
+      "blockClass": "textSubcategory"
+    }
+  },
+  "rich-text#submenu-desk-department-4-category-60-veja-2": {
+    "props": {
+      "text": "[Veja](/veja?initialMap=b&initialQuery=veja&map=category-1,b&query=/hombre/veja&searchState=)",
       "blockClass": "textSubcategory"
     }
   },

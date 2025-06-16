@@ -46,6 +46,7 @@
             "rich-text#submenu-desk-department-4-category-60-francques-2-mobile", //Franques
             "rich-text#submenu-desk-department-4-category-60-monastery--1-mobile", //monastery
             "rich-text#submenu-desk-department-4-category-60-vans--2-mobile", //vans
+            "rich-text#submenu-desk-department-4-category-60-veja--2-mobile", //Veja
             "rich-text#submenu-desk-department-4-category-60-new-era--3-mobile", //new-era
             "rich-text#submenu-desk-department-4-category-60-lacoste-4-mobile", //lacoste
             "rich-text#submenu-desk-department-4-category-60-champion-5-mobile", //champion
@@ -83,6 +84,12 @@
     "rich-text#submenu-desk-department-4-category-60-vans--2-mobile": {
         "props": {
             "text": "[Vans](/hombre/vans?map=category-1,marca)",
+            "blockClass": ["textSubmenuAcordeon", "textSubcategoryPilatos"]
+        }
+    },
+    "rich-text#submenu-desk-department-4-category-60-veja--2-mobile": {
+        "props": {
+            "text": "[Veja](/veja?initialMap=b&initialQuery=veja&map=category-1,b&query=/hombre/veja&searchState=)",
             "blockClass": ["textSubmenuAcordeon", "textSubcategoryPilatos"]
         }
     },
