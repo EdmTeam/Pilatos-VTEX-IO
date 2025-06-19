@@ -1393,6 +1393,19 @@ div.checkoutFooter {
         .cart-template {
           // padding: 0 15px;
           .cart-template-holder {
+            .cart {
+              .cart-items {
+                @include screen-max-width($breakMobile) {
+                  display: block;
+                  margin-top: 0 !important;
+                }
+                tbody {
+                  @include screen-max-width($breakMobile) {
+                    display: block;
+                  }
+                }
+              }
+            }
             /* CARRITO VACIO */
             .empty-cart-content {
               h2.empty-cart-title {
@@ -6560,6 +6573,10 @@ body {
     align-items: center;
     justify-content: center;
 
+    @include screen-max-width($breakMobile) {
+      background: $blanco;
+    }
+
     .text-allied-rights {
       text-align: center;
       font-weight: normal;
@@ -6568,6 +6585,10 @@ body {
       letter-spacing: 0.025em;
       color: $blanco;
       padding: 1rem 2rem;
+
+      @include screen-max-width($breakMobile) {
+        color: $negro;
+      }
     }
   }
 
@@ -7051,8 +7072,36 @@ optgroup[label="Recogida en tienda"] {
     display: flex;
     flex-direction: column-reverse;
 
+    .sb-b-codigovendedor {
+      .sb-icon {
+        display: flex;
+        font-size: 15px;
+        background-color: #656363;
+        border-radius: 6.08px;
+        margin-left: 0px;
+        width: 35px;
+        height: 35px;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+
+    .sb-b-link {
+      .sb-icon {
+        display: flex;
+        font-size: 15px;
+        background-color: #656363;
+        border-radius: 6.08px;
+        margin-left: 0px;
+        width: 35px;
+        height: 35px;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+
     @include screen-max-width($breakMobile) {
-      left: 4px !important;
+      left: 8px !important;
       gap: 2px;
       bottom: 50% !important;
 
@@ -7067,8 +7116,8 @@ optgroup[label="Recogida en tienda"] {
 
     .sb-b-link {
       .sb-mask {
-        width: 50px !important;
-
+        /* width: 50px !important;
+ */
         .sb-icon {
           background-color: #656363;
           border-radius: 6.08px;
@@ -7089,6 +7138,11 @@ optgroup[label="Recogida en tienda"] {
 
         .sb-label {
           background-color: #656363;
+          height: 35px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 6.08px;
         }
       }
 
@@ -7101,7 +7155,7 @@ optgroup[label="Recogida en tienda"] {
 
     .sb-b-codigovendedor {
       .sb-mask {
-        width: 50px !important;
+        /*  width: 50px !important; */
 
         .sb-icon {
           background-color: #898787;
@@ -7122,6 +7176,11 @@ optgroup[label="Recogida en tienda"] {
         }
         .sb-label {
           background-color: #898787;
+          height: 35px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 6.08px;
         }
       }
 
