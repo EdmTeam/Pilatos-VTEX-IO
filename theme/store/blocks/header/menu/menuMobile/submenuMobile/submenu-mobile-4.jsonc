@@ -348,6 +348,7 @@
       "rich-text#submenu-level-2-item-3-row-7",
       "rich-text#submenu-level-2-item-40-row-7",
       "rich-text#submenu-level-2-item-43-1-row-7",
+      "rich-text#submenu-level-2-item-44-1-row-7",
       "rich-text#submenu-level-2-item-25-row-7",
       "rich-text#submenu-level-2-item-26-row-8"
     ],
@@ -394,6 +395,12 @@
   "rich-text#submenu-level-2-item-43-1-row-7": {
     "props": {
       "text": "[The north face](/the-north-face) ![The north face](/arquivos/Pilatos-LogosMarcas-TheNorthFace2.png)",
+      "blockClass": ["contentSubMenuAcordeon", "textSubcategoryPilatos"]
+    }
+  },
+  "rich-text#submenu-level-2-item-44-1-row-7": {
+    "props": {
+      "text": "[Tennis](/tennis) ![Tennis](/arquivos/Pilatos-LogosMarcas-tenniss.png)",
       "blockClass": ["contentSubMenuAcordeon", "textSubcategoryPilatos"]
     }
   },
