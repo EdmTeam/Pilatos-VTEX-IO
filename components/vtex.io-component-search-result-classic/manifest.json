@@ -1,0 +1,36 @@
+{
+  "vendor": "pilatos21",
+  "name": "component-custom-result-pagination",
+  "version": "0.0.1",
+  "title": "VTEX Search Result Classic Pagination",
+  "description": "A classic pagination component",
+  "builders": {
+    "react": "3.x",
+    "store": "0.x",
+    "messages": "1.x",
+    "docs": "0.x"
+  },
+  "dependencies": {
+    "vtex.store-graphql": "2.x",
+    "vtex.store-resources": "0.x",
+    "vtex.store-components": "3.x",
+    "vtex.native-types": "0.x",
+    "vtex.styleguide": "9.x",
+    "vtex.store-icons": "0.x",
+    "vtex.shop-review-interfaces": "0.x",
+    "vtex.pixel-manager": "1.x",
+    "vtex.search-page-context": "0.x",
+    "vtex.responsive-values": "0.x",
+    "vtex.css-handles": "0.x",
+    "vtex.store-drawer": "0.x",
+    "vtex.product-list-context": "0.x",
+    "vtex.structured-data": "0.x",
+    "vtex.slider-layout": "0.x",
+    "vtex.slider": "0.x"
+  },
+  "registries": [
+    "smartcheckout"
+  ],
+  "policies": [],
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}

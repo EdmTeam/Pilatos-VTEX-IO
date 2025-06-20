@@ -1,0 +1,25 @@
+{
+  "definitions": {
+    "Paginator": {
+      "title": "admin/editor.search-result.fetch-more",
+      "type": "object",
+      "properties": {
+        "htmlElementForButton": {
+          "title": "admin/editor.search-result.fetch-button.button-behavior",
+          "enum": [
+            "button",
+            "a"
+          ],
+          "enumNames": [
+            "admin/editor.search-result.fetch-button.button-behavior.button",
+            "admin/editor.search-result.fetch-button.button-behavior.link-to-page"
+          ],
+          "widget": {
+            "ui:widget": "radio"
+          },
+          "default": "button"
+        }
+      }
+    }
+  }
+}

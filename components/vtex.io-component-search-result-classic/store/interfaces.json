@@ -1,0 +1,8 @@
+{
+  "search-result-pagination": {
+    "component": "Paginator",
+    "content": {
+      "$ref": "app:pilatos21.component-custom-result-pagination#/definitions/Paginator"
+    }
+  }
+}

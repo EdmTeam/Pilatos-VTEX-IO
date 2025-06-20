@@ -35,6 +35,7 @@
       "flex-layout.row#filter-custom-navigator",
       //"flex-layout.row#fetch-previous",
       "flex-layout.row#result",
+      "search-result-pagination",
       "flex-layout.row#spacer",
       "experimental__visibility-layout#banner-landing-concept",
       "rich-text#filtro-seo",

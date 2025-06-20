@@ -1,0 +1,133 @@
+.buttonShowMore--layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.buttonShowMore--layout div div ul {
+  gap: 3px
+}
+
+.buttonPerPage {
+  border-radius: 4px;
+  padding: 10px 14px;
+  cursor: pointer;
+  font-weight: bold;
+  color: var(--muted-3);
+  background-color: transparent;
+  border: 1px solid var(--muted-3);
+  margin-bottom: 2px;
+  height: 41px;
+  width: 46px;
+}
+
+.buttonPerPage:hover {
+  background-color: #AF1212;
+  border: 1px solid #AF1212;
+  color: var(--white);
+}
+
+:global(.vtex-slider-0-x-sliderFrame)>li>button[id="active"] {
+  background-color: #AF1212;
+  border: 1px solid #AF1212;
+  color: var(--white);
+}
+
+.sliderLayoutContainer {
+  width: 350px !important;
+  margin-bottom: 2px;
+  padding: 2px;
+}
+
+.sliderTrackContainer {
+  height: 44px;
+}
+
+.sliderTrack {
+  justify-content: center !important;
+}
+
+.arrowPrev {
+  transform: rotate(180deg);
+}
+
+.contentSvg:hover,
+.contentSvg {
+  width: 40px;
+  height: 40px;
+  margin: 0px !important;
+  margin-top: 6px !important;
+  margin: 5px 14px;
+  fill: var(--muted-2);
+}
+
+.contentSvg:hover {
+  fill: var(--white);
+}
+
+.arrowNext,
+.arrowPrev {
+  background-color: var(--white);
+  height: 40px;
+  width: 40px;
+  border: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.arrowNext:hover,
+.arrowPrev:hover {
+  background-color: #AF1212 !important;
+  border-radius: 4px;
+  color: var(--white);
+}
+
+div[class="w-60 justify-center flex"]>div:last-child {
+  width: 275px;
+}
+
+.sliderLeftArrow[disabled] {
+  display: none;
+}
+
+.arrowPrev>svg>path:hover,
+.arrowNext>svg>path:hover {
+  fill: var(--white) !important;
+}
+
+.sliderLeftArrow[disabled] {
+  display: none;
+}
+
+.sliderRightArrow[disabled] {
+  display: none;
+}
+
+.container-dropdown :global(.vtex-dropdown__container) {
+  font-size: 0.8rem;
+}
+
+.container-dropdown :global(.vtex-dropdown__button) {
+  color: var(--text-color);
+}
+
+.slide {
+  width: 20% !important;
+}
+
+:global(.vtex-styleguide-9-x-container) select {
+  background-color: #f4f4f4;
+  width: 120px;
+  padding: 15px 16px 8px;
+  max-height: 220px;
+}
+
+
+@media (max-width:1040px) {
+
+  div[class="w-60 justify-center flex"] {
+    width: 80% !important;
+  }
+
+}
