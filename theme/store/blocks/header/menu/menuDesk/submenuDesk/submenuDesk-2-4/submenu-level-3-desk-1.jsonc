@@ -78,6 +78,7 @@
       "rich-text#submenu-desk-department-4-category-35", //sprayground
       "rich-text#submenu-desk-department-4-category-22", //stance
       "rich-text#submenu-desk-department-4-category-58", //THE NORTH FACE
+      "rich-text#submenu-desk-department-4-category-58-tennis", //Tennis
       "rich-text#submenu-desk-department-4-category-27", //vans
       "rich-text#submenu-desk-department-4-category-28-veja" //veja
     ],
@@ -200,6 +201,14 @@
     "rich-text#submenu-desk-department-4-category-58":{
         "props":{
             "text": "[The north face](/the-north-face) ![The north face](/arquivos/Pilatos-LogosMarcas-TheNorthFace2.png)",
+            "blockClass": [
+              "textSubcategory"
+            ]
+        }
+    },
+    "rich-text#submenu-desk-department-4-category-58-tennis":{
+        "props":{
+            "text": "[Tennis](/the-north-face) ![Tennis](/arquivos/Pilatos-LogosMarcas-tenniss.png)",
             "blockClass": [
               "textSubcategory"
             ]

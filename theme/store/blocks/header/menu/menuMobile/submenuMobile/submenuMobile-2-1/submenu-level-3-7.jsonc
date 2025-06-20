@@ -63,6 +63,7 @@
             "rich-text#submenu-desk-department-4-category-60-jansport--16-mobile", //jansport
             "rich-text#submenu-desk-department-4-category-60-kappa--17-mobile", //kappa
             "rich-text#submenu-desk-department-4-category-60-the-north-face--18-mobile", //the-north-face
+            "rich-text#submenu-desk-department-4-category-60-tennis--18-mobile", //tennis
             "rich-text#submenu-desk-department-4-category-60-artdist-19-mobile", //artdist
             "rich-text#submenu-desk-department-4-category-60-emir-milano-19-mobile", //emmir milano
              "rich-text#submenu-desk-department-4-category-60-billabong-19-mobile", //billabong
@@ -186,6 +187,12 @@
     "rich-text#submenu-desk-department-4-category-60-the-north-face--18-mobile": {
         "props": {
             "text": "[The North Face](/hombre/the-north-face?map=category-1,marca)",
+            "blockClass": ["textSubmenuAcordeon", "textSubcategoryPilatos"]
+        }
+    },
+    "rich-text#submenu-desk-department-4-category-60-tennis--18-mobile": {
+        "props": {
+            "text": "[Tennis](/tennis?initialMap=b&initialQuery=tennis&map=category-1,b&query=/hombre/tennis&searchState=)",
             "blockClass": ["textSubmenuAcordeon", "textSubcategoryPilatos"]
         }
     },

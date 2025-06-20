@@ -784,6 +784,39 @@
     },
     /**************MARCA SIN INFO****************/
     /**************MARCA SIN INFO****************/
+    "flex-layout.row#marca-individual-28": {
+        "title": "Marca individual",
+        "children": [
+            "flex-layout.col#marca-individual-28"
+        ]
+    },
+
+    "flex-layout.col#marca-individual-28": {
+        "children": [
+            "rich-text#marca-individual-28",
+            "image#marca-individual-28"
+        ],
+        "props": {
+            "blockClass": "marca-individual"
+        }
+    },
+
+    "rich-text#marca-individual-28": {
+        "props": {
+            "text": "[Tennis](/tennis)",
+            "font": "t-body",
+            "blockClass": "marca-individual-texto"
+        }
+    },
+
+    "image#marca-individual-28": {
+        "props": {
+            "src": "/arquivos/Pilatos-LogosMarcas-tenniss.png",
+            "maxHeight": 28
+        }
+    },
+    /**************MARCA SIN INFO****************/
+    /**************MARCA SIN INFO****************/
     "flex-layout.row#marca-individual-24": {
         "title": "Marca individual",
         "children": [
