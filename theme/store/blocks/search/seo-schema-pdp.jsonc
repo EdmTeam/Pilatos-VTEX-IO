@@ -1,0 +1,41 @@
+{
+
+"seo-schema-pdp": {
+  "props": {
+    "schemas": [
+      {
+        "skuId": "319937",  // Aquí el skuId del producto
+        "htmlId": "schema-nike-airforce1-sku",
+        "data": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Nike Air Force 1 Mid 07 LE para Hombre",
+          "image": "https://pilatos21.vtexassets.com/arquivos/ids/1270530-1200-auto?v=638374865173400000&width=1200&height=auto&aspect=true",
+          "description": "Los Nike Air Force 1 Mid 07 LE para hombre ofrecen un diseño icónico y comodidad excepcional. Con un corte de cuero 100% y suela de goma, estos tenis son perfectos para todo el día.",
+          "brand": {
+            "@type": "Brand",
+            "name": "Nike"
+          },
+          "sku": "CW2289",
+          "offers": {
+            "@type": "Offer",
+            "url": "https://www.pilatos.com/tenis-para-hombre-air-force-1-mid-07-le-nike-cw2289/p",
+            "priceCurrency": "COP",
+            "price": "769950",
+            "priceValidUntil": "1/1/2026",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock",
+            "seller": {
+              "@type": "Organization",
+              "name": "Pilatos"
+            }
+          }
+        }
+      }
+    ]
+  }
+}
+
+
+}
+

@@ -1,4 +1,8 @@
 {
+
+  /*Datos estructurados*/  
+
+
   "seo-schema-plp": {
     "props": {
       "schemas": [
@@ -484,7 +488,276 @@
                 }
               ]
             }
-          }
+          },
+
+
+          // Nike breadcrumb simple
+{
+  "url": "/nike",
+  "htmlId": "schema-nike",
+  "data": {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.pilatos.com"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Nike",
+        "item": "https://www.pilatos.com/nike"
+      }
+    ]
+  }
+},
+
+// Hombre Nike
+{
+  "url": "/nike?initialMap=b&initialQuery=nike&map=category-1,brand&query=/hombre/nike&searchState",
+  "htmlId": "schema-hombre-nike",
+  "data": {
+    "@context": "https://schema.org/",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.pilatos.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Nike",
+        "item": "https://www.pilatos.com/nike"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Hombre",
+        "item": "https://www.pilatos.com/hombre"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Nike para Hombre",
+        "item": "https://www.pilatos.com/nike?initialMap=b&initialQuery=nike&map=category-1,brand&query=/hombre/nike&searchState"
+      }
+    ]
+  }
+},
+
+// Mujer Nike
+{
+  "url": "/mujer/nike?map=category-1,marca",
+  "htmlId": "schema-mujer-nike",
+  "data": {
+    "@context": "https://schema.org/",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.pilatos.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Nike",
+        "item": "https://www.pilatos.com/nike"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Mujer",
+        "item": "https://www.pilatos.com/mujer"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Nike para Mujer",
+        "item": "https://www.pilatos.com/mujer/nike?map=category-1,marca"
+      }
+    ]
+  }
+},
+
+// New Balance
+{
+  "url": "/new-balance",
+  "htmlId": "schema-new-balance",
+  "data": {
+    "@context": "https://schema.org/",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.pilatos.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "New Balance en Pilatos",
+        "item": "https://www.pilatos.com/new-balance"
+      }
+    ]
+  }
+},
+
+// Girbaud
+{
+  "url": "/girbaud",
+  "htmlId": "schema-girbaud",
+  "data": {
+    "@context": "https://schema.org/",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.pilatos.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Girbaud en Pilatos",
+        "item": "https://www.pilatos.com/girbaud"
+      }
+    ]
+  }
+},
+
+// Kipling
+{
+  "url": "/kipling",
+  "htmlId": "schema-kipling",
+  "data": {
+    "@context": "https://schema.org/",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.pilatos.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Kipling en Pilatos",
+        "item": "https://www.pilatos.com/kipling"
+      }
+    ]
+  }
+},
+
+// Pilatos propia colección
+{
+  "url": "/pilatos",
+  "htmlId": "schema-pilatos",
+  "data": {
+    "@context": "https://schema.org/",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.pilatos.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Nuestra propia colección",
+        "item": "https://www.pilatos.com/pilatos"
+      }
+    ]
+  }
+},
+
+// Replay
+{
+  "url": "/replay",
+  "htmlId": "schema-replay",
+  "data": {
+    "@context": "https://schema.org/",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.pilatos.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Replay en Pilatos",
+        "item": "https://www.pilatos.com/replay"
+      }
+    ]
+  }
+},
+
+// Superdry
+{
+  "url": "/superdry",
+  "htmlId": "schema-superdry",
+  "data": {
+    "@context": "https://schema.org/",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.pilatos.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Superdry en Pilatos",
+        "item": "https://www.pilatos.com/superdry"
+      }
+    ]
+  }
+},
+
+// Diesel
+{
+  "url": "/diesel",
+  "htmlId": "schema-diesel",
+  "data": {
+    "@context": "https://schema.org/",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.pilatos.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Diesel en Pilatos",
+        "item": "https://www.pilatos.com/diesel"
+      }
+    ]
+  }
+}
+
+
+
+
         ]
         ]
        }

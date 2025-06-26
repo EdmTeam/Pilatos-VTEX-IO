@@ -28,6 +28,7 @@
     },
     "flex-layout.col#product-description-tablet": {
         "children": [
+             "seo-schema-pdp",
             "vtex.store-components:product-brand",
             "ProductName",
             // "vtex.store-components:product-name",
