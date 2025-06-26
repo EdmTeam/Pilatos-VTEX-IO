@@ -2,6 +2,31 @@
     font-size: 0;
 }
 
+
+
+
+  /*flag primaton abril 2025*/
+
+.productHighlightWrapper [data-highlight-id="2151"]{
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(/arquivos/Pilatos-2025-primaton-flag.jpg);
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .productHighlightWrapper [data-highlight-id="2151"]{
+        position: absolute !important;
+        top: 0;
+        left: 0 !important;
+
+    }
+
+  }
+
+
 /*flag addi abril 2025*/
 
 .productHighlightWrapper [data-highlight-id="2090"]{
@@ -24,26 +49,7 @@
   }
 
 
-  /*flag primaton abril 2025*/
 
-.productHighlightWrapper [data-highlight-id="2151"]{
-    width: 40px;
-    height: 40px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-image: url(/arquivos/Pilatos-2025-primaton-flag.jpg);
-    display: block;
-}
-
-@media (max-width: 768px) {
-    .productHighlightWrapper [data-highlight-id="2151"]{
-        position: absolute !important;
-        top: 0;
-        left: 0 !important;
-      
-    }
-    
-  }
 
 
  

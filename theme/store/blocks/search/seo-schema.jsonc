@@ -1,8 +1,4 @@
 {
-
-  /*Datos estructurados*/  
-
-
   "seo-schema-plp": {
     "props": {
       "schemas": [
@@ -491,7 +487,8 @@
           },
 
 
-          // Nike breadcrumb simple
+
+                // Nike breadcrumb simple
 {
   "url": "/nike",
   "htmlId": "schema-nike",
@@ -754,10 +751,6 @@
     ]
   }
 }
-
-
-
-
         ]
         ]
        }
