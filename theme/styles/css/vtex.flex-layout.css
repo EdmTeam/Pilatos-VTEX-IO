@@ -4221,12 +4221,15 @@
 }
 
 .flexCol--contenedor-primera-compra-icons .flexColChild--contenedor-primera-compra-icons:first-child {
-  display: none;
+  /*display: none;*/
 }
 
 .flexCol--contenedor-primera-compra-icons .flexColChild--contenedor-primera-compra-icons:last-child::before {
-  content: "•";
-  display: flex;
+  /*content: "•";
+*/  /*display: flex;*/
+}
+.flexColChild--contenedor-primera-compra-icons :global(.vtex-store-components-3-x-imageElement) {
+  display: none;
 }
 
 /*****Estilos cuidados de prendas****/
