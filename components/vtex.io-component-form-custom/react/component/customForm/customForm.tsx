@@ -53,7 +53,7 @@ const customForm: FC<FormularioPruebaProps> = ({
   const [loading, setLoading] = useState<boolean>(false)
   const [errorMessage, setErrorMessage] = useState<string>("")
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData({
       ...formData,
       [e.target.name]: e.target.value,
@@ -150,15 +150,27 @@ const customForm: FC<FormularioPruebaProps> = ({
                 {field.label}
                 {field.required && <span style={{ color: "red" }}>*</span>}
               </h3>
-              <input
-                type={field.type}
-                name={field.name}
-                required={field.required}
-                value={formData[field.name] || ""}
-                onChange={handleChange}
-                className={styles.inputField}
-                disabled={loading}
-              />
+              {field.type === "textarea" ? (
+                <textarea
+                  name={field.name}
+                  required={field.required}
+                  value={formData[field.name] || ""}
+                  onChange={handleChange}
+                   className={`${styles.inputField} ${styles.textareaField}`}
+                  disabled={loading}
+                  rows={4}
+                />
+              ) : (
+                <input
+                  type={field.type}
+                  name={field.name}
+                  required={field.required}
+                  value={formData[field.name] || ""}
+                  onChange={handleChange}
+                  className={styles.inputField}
+                  disabled={loading}
+                />
+              )}
             </div>
           ))}
 
@@ -300,7 +312,7 @@ const customForm: FC<FormularioPruebaProps> = ({
           type: {
             title: "Tipo de campo",
             type: "string",
-            enum: ["text", "email", "tel", "number", "date"],
+            enum: ["text", "email", "tel", "number", "date", "textarea"],
             default: "text",
           },
           name: {
@@ -318,4 +330,4 @@ const customForm: FC<FormularioPruebaProps> = ({
   },
 }
 
-export default customForm;
+export default customForm
