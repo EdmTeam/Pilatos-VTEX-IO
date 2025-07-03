@@ -31,6 +31,12 @@
     margin-bottom: 10px;
 }
 
+.textareaField {
+  width: 100%;
+  min-height: 180px; /* Ajusta la altura predeterminada */
+  resize: vertical; /* O 'none' si no quieres que el usuario cambie el tamaño */
+}
+
 .inputField {
     margin-bottom: 18px;
     font-family: Montserrat-Regular;
