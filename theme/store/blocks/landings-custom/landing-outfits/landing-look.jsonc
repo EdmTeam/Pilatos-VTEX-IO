@@ -27,20 +27,6 @@
   },
 
   "flex-layout.row#carrusel-productos-look": {
-    "title": "Carrusel",
-    "children": [
-        "flex-layout.col#carrusel-productos-look"
-    ],
-    "props": {
-        "fullWidth": false,
-        "preventHorizontalStretch": true,
-        "marginBottom": 10,
-        "marginTop": 8,
-        "blockClass": "sliderLook"
-    }
-  },
-
-  "flex-layout.col#carrusel-productos-look": {
     "children": [
         "flex-layout.col#imagen-carrusel-look",
         "flex-layout.col#carruselLook-fit"
@@ -90,10 +76,12 @@
       "itemsPerPage": {
         "desktop": 3,
         "tablet": 3,
-        "phone": 2
+        "phone": 1
       },
       "infinite": false,
-      "showNavigationArrows": "always"
+      "showNavigationArrows": "always",
+      "showPaginationDots": "never",
+      "blockClass": "colombiamoda-slider-2025"
       //"showPaginationDots": "always"
       //   "centerMode": {
       //     "mobile": "to-the-left",

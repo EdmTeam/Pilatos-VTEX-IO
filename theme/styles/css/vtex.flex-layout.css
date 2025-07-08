@@ -4251,8 +4251,6 @@
   margin-top: 2%;
 }
 
-
-
 @media (max-width: 767px) {
   .flexRowContent--medios-de-pagos-pdp {
     display: flex;
@@ -4260,4 +4258,14 @@
     width: 80%;
     margin: 0 auto;
   }
+}
+
+/*Icono x de cerrar en los filtros de la plp*/
+.flexRowContent--contentBtnClose :global(.vtex-store-drawer-0-x-closeIcon--drawer-menu-close-button) {
+  width: 25px !important;
+  height: 25px !important;
+}
+
+.flexColChild--formContainer-dsi :global(.vtex-styleguide-9-x-input)::placeholder {
+  color: #000 !important;
 }

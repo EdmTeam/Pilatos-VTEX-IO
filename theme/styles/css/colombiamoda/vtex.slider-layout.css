@@ -1,0 +1,18 @@
+.sliderTrackContainer--colombiamoda-slider {
+    width: 100% !important;
+}
+.sliderTrack--colombiamoda-slider {
+    gap: 15px;
+}
+.slide--colombiamoda-slider-2025 :global(.vtex-store-components-3-x-skuSelectorOptionsList) {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+@media screen and (max-width: 768px) {
+  .sliderTrack--colombiamoda-slider {
+    gap: 2px;
+  }
+}

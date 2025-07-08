@@ -1,0 +1,54 @@
+.flexRowContent--colombiamoda-content {
+  width: 90%;
+  margin: 0 auto;
+}
+.flexRowContent--colombiamoda-content {
+  margin-bottom: 30px;
+}
+.flexRowContent--sliderLookcolombiamoda {
+  display: flex;
+  flex-direction: row;
+}
+.flexRowContent--sliderLookcolombiamoda
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+  width: 30% !important;
+}
+.flexRowContent--sliderLookcolombiamoda
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+  width: 70% !important;
+}
+.flexRowContent--sliderLookcolombiamoda {
+  width: 90%;
+  margin: 0 auto;
+}
+.flexCol--carrouselFit :global(.vtex-slider-layout-0-x-sliderArrows) {
+  background-color: #ffd400 !important;
+  color: #000;
+  height: 30px;
+  width: 30px;
+}
+.flexRow--sliderLookcolombiamoda {
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 768px) {
+  .flexRowContent--colombiamoda-content {
+    width: 100%;
+  }
+  .flexRowContent--sliderLookcolombiamoda
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+  width: 50% !important;
+}
+.flexRowContent--sliderLookcolombiamoda
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+  width: 50% !important;
+}
+.flexRowContent--sliderLookcolombiamoda :global(.vtex-slider-layout-0-x-slide--colombiamoda-slider-2025) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: 100% !important;
+}
+.flexRowContent--sliderLookcolombiamoda {
+  width: auto;
+}
+.flexRow--sliderLookcolombiamoda {
+  margin-bottom: 0;
+}
+}
