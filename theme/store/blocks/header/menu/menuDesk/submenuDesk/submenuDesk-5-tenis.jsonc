@@ -1,0 +1,74 @@
+{
+    "vtex.menu@2.x:submenu#submenu-level-2-desk-row-5": {
+        "children": [
+            "flex-layout.row#submenu-desk-row-5"
+        ],
+        "props":{
+            "blockClass": [
+                "contentSubmenuDesk",
+                "contentSubmenuDesk2"
+            ]
+        }
+    },
+
+    "flex-layout.row#submenu-desk-row-5":{
+        "children":[
+            "flex-layout.col#submenu-desk-col-1-row-5"
+        ],
+        "props":{
+            "blockClass": "boxSubmenu"
+        }
+    },
+
+    "flex-layout.col#submenu-desk-col-1-row-5": {
+      "props":{
+          "blockClass": "submenu-desk-col-marcas"
+        },
+        "children":[
+          //"flex-layout.row#submenu-desk-vertodo-row-5",
+          "flex-layout.row#submenu-desk-department-options-row-5"
+        ]
+    },
+
+    "flex-layout.row#submenu-desk-department-options-row-5":{
+      "props":{
+          "blockClass": "submenu-desk-department-options"
+        },
+        "children":[
+            "flex-layout.row#submenu-desk-category-options-col-1-row-5-propias",
+            "flex-layout.row#submenu-desk-category-options-col-1-row-5",
+            "flex-layout.row#submenu-desk-category-options-col-2-row-5-propias"
+
+            // "flex-layout.col#submenu-desk-category-options-col-2-row-5"
+        ]
+    },
+
+    "flex-layout.row#submenu-desk-category-options-col-1-row-5-propias":{
+      "children": [
+        "flex-layout.col#submenu-desk-department-4-category-1-propias"
+      ],
+      "props":{
+        "width": "100%",
+        "blockClass": "submenu-desk-department-marcas"
+      }
+    },
+
+    "flex-layout.row#submenu-desk-category-options-col-2-row-5-propias":{
+      "children": [
+        "flex-layout.col#submenu-desk-department-4-category-2-propias"
+      ],
+      "props":{
+        "width": "100%",
+        "blockClass": "submenu-desk-department-marcas"
+      }
+    },
+
+    "flex-layout.row#submenu-desk-category-options-col-1-row-5":{
+        "children":[
+            "flex-layout.col#submenu-desk-department-4-category-1"
+        ],
+        "props":{
+            "width": "100%"
+        }
+    }
+}

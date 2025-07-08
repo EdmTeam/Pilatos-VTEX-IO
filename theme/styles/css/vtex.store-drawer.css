@@ -138,10 +138,17 @@
     width: 221px;
     padding-left: 1.5rem;
 }
-
+/*FILTRO MOBILE MÁS ALTO**/
+@media screen and (max-width: 768px) {
+  .drawerContent--filterDrawer :global(.vtex-search-result-3-x-filterTemplateOverflow) {
+    max-height: 400px !important;
+  }
+}
+/*FILTRO MOBILE MÁS ALTO**/
 .opened--filterDrawer{
-    left: 50%;
-    transform: translateX(-50%) !important;
+    left: 0;
+    /*left: 50%;
+    transform: translateX(-50%) !important;*/
 }
 
 

@@ -4104,9 +4104,8 @@
 font-size: 13px;
 margin: 0;
 }
-
-
-
-
-
 /*Fin medios de pago PDP */
+
+.strong--tenis-mobile-menu {
+  font-weight: 900;
+}

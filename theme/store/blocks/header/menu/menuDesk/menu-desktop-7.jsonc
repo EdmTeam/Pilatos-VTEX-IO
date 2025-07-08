@@ -41,6 +41,9 @@
         "menuLinkHeader",
         "menuLinkHeaderPilatos"
       ]
-    }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#submenu-level-2-desk-row-5"
+    ]
   }
 }
