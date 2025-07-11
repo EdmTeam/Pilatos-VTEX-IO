@@ -13,6 +13,8 @@ interface Field {
 interface FormularioPruebaProps {
   logo?: string
   text?: string
+  italicSubtitle?: boolean
+  subtitle?: string
   fields?: Field[]
   termsText?: string
   cancelText?: string
@@ -32,6 +34,8 @@ interface FormularioPruebaProps {
 const customForm: FC<FormularioPruebaProps> = ({
   logo,
   text,
+  subtitle,
+   italicSubtitle,
   fields = [],
   termsText = "Acepto política de privacidad y términos y condiciones",
   cancelText = "¡Gracias, NO deseo participar!",
@@ -60,6 +64,9 @@ const customForm: FC<FormularioPruebaProps> = ({
     })
     setErrorMessage("")
   }
+
+
+  
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
@@ -94,6 +101,8 @@ const customForm: FC<FormularioPruebaProps> = ({
         }
       })
 
+      
+
       setRegistroExitoso(true)
       setFormData({})
       setTerms(false)
@@ -109,7 +118,15 @@ const customForm: FC<FormularioPruebaProps> = ({
     <div className={styles.formContainer}>
       {logo && <img src={logo} alt="Logo" className={styles.logoImage} />}
       {text && <p className={styles.customText}>{text}</p>}
-
+   {subtitle && (
+  <p
+    className={`${styles.subtitleText} ${
+      italicSubtitle ? styles.italicText : ""
+    }`}
+  >
+    {subtitle}
+  </p>
+)}
       {registroExitoso ? (
         <div className={styles.successMessageContainer}>
           <div className={styles.successMessageWrapper}>
@@ -236,6 +253,16 @@ const customForm: FC<FormularioPruebaProps> = ({
       title: "Texto superior del formulario",
       type: "string",
     },
+    subtitle: {
+  title: "Subtítulo del formulario",
+  type: "string",
+},
+
+italicSubtitle: {
+  title: "¿Mostrar subtítulo en cursiva?",
+  type: "boolean",
+  default: false,
+},
     promoCode: {
       title: "Código de promoción",
       type: "string",
