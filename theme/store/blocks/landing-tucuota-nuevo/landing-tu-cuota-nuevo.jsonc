@@ -1,0 +1,102 @@
+{
+  "store.custom#landing-tu-cuota-2025": {
+    "title": "Landing tu cuota",
+    "blocks": [
+      "experimental__visibility-layout#texto-seo-general",
+      "experimental__visibility-layout#banner-landing-general",
+      "experimental__visibility-layout#banner-landing-general-tu-cuota-2025",
+      "experimental__visibility-layout#texto-y-boton",
+      "experimental__visibility-layout#titulo-vitrina-general",
+      "vtex.product-summary:list-context.product-list#carrusel-productos-colombiamoda-home",
+      "experimental__visibility-layout#texto-seo-final-general"
+    ]
+  },
+
+  // banner  tu cuota
+
+  "experimental__visibility-layout#banner-landing-general-tu-cuota-2025": {
+    "title": "banner landing tu cuota 2025",
+    "children": ["flex-layout.row#bannerActivaciones-general-tu-cuota-2025"],
+    "props": {
+      "visible": false
+    }
+  },
+
+  "flex-layout.row#bannerActivaciones-general-tu-cuota-2025": {
+    "title": "BANNER LANDING TU CUOTA 2025",
+    "children": [
+      "list-context.image-list#bannerActivaciones-general-tu-cuota-2025"
+    ],
+    "props": {
+      "blockClass": ["banner-activaciones-imagen-form", "banner-tu-cuota-pasos"]
+    }
+  },
+
+  "list-context.image-list#bannerActivaciones-general-tu-cuota-2025": {
+    "children": ["slider-layout#bannerActivaciones-general-tu-cuota-2025"],
+    "props": {
+      "height": 570,
+      "preload": true,
+      "images": [
+        {
+          "image": "",
+          "mobileImage": ""
+        }
+      ]
+    }
+  },
+
+  "slider-layout#bannerActivaciones-general-tu-cuota-2025": {
+    "title": "Productos",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 30,
+        "tablet": 30,
+        "phone": 30
+      },
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "never",
+      "infinite": false,
+      "fullWidth": true,
+      "blockClass": ["slide__banner", "banner-tu-cuota-pasos"]
+    }
+  },
+
+  // texto y boton
+  "experimental__visibility-layout#texto-y-boton": {
+    "title": "Texto y botón",
+    "children": ["flex-layout.row#texto-y-boton"],
+    "props": {
+      "visible": false
+    }
+  },
+
+  "flex-layout.row#texto-y-boton": {
+    "children": ["flex-layout.col#tu-cuota-columna"],
+    "props": {
+      "blockClass": "tu-cuota-fila"
+    }
+  },
+
+  "flex-layout.col#tu-cuota-columna": {
+    "children": ["rich-text#tu-cuota-texto", "rich-text#tu-cuota-boton"],
+    "props": {
+      "blockClass": "tu-cuota-columna",
+      "horizontalAlign": "center"
+    }
+  },
+
+  "rich-text#tu-cuota-texto": {
+    "props": {
+      "text": "**Si ya cuentas con crédito Tu Cuota, págalo aquí**",
+      "blockClass": "tu-cuota-texto-nuevo"
+    }
+  },
+
+  "rich-text#tu-cuota-boton": {
+    "props": {
+      "text": "[Pagar mi cuota](https://tu-enlace-aqui.com)",
+      "blockClass": "tu-cuota-boton"
+    }
+  }
+}
