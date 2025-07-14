@@ -3305,13 +3305,17 @@
   }
 
   .flexRow--sliderContentShelf :global(.vtex-product-price-1-x-savings) {
-    top: 0;
-    left: 16px;
+    /*top: 0;
+    left: 16px;*/
+    top: 7%;
+    left: 0;
   }
 
   .flexRow--sliderContentShelf :global(.vtex-product-price-1-x-savings) :global(.vtex-product-price-1-x-savingsPercentage) {
-    width: 28px;
-    height: 28px;
+    /*width: 28px;
+    height: 28px;*/
+    height: 21px;
+    width: 37px;
   }
 
   /* Footer desktop */
