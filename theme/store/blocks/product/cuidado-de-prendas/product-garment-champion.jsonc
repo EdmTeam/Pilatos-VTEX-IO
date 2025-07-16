@@ -1,0 +1,139 @@
+{
+    "condition-layout.product#garment-care-champion": {
+        "props": {
+            "conditions": [
+                {
+                    "subject": "brandId",
+                    "arguments": {
+                        "id": "2000120"
+                    }
+                }
+            ],
+            "Then": "disclosure-layout#product-garment-care-champion"
+        }
+    },
+
+    "disclosure-layout#product-garment-care-champion": {
+        "children": [
+            "disclosure-trigger#product-content-garment-care-champion",
+            "disclosure-content#product-description-garment-care-champion"
+        ]
+    },
+
+    "disclosure-trigger#product-content-garment-care-champion": {
+        "children": [
+            "rich-text#garment-care-champion",
+            "disclosure-state-indicator#garment-care"
+        ],
+        "props": {
+            "blockClass": ["container-products", "disclosure-indicator-garment-care"]
+        }
+    },
+
+    "rich-text#garment-care-champion": {
+        "props": {
+            "text": "**Cuidados de la prenda**"
+            //"blockClass": "product-description-pdp"
+        }
+    },
+    "disclosure-content#product-description-garment-care-champion": {
+        "children": [
+            "rich-text#garment-care-use-champion",
+            "flex-layout.row#garment-use-champion"
+        ],
+        "props": {
+            "blockClass": "garment-use-product-pdp"
+        }
+    },
+    
+    "rich-text#garment-care-use-champion": {
+        "props": {
+            "text": "**Recomendaciones de uso**"
+        }
+    },
+    "flex-layout.row#garment-use-champion": {
+        "children": [
+            "flex-layout.col#garment-use-champion"
+        ]
+    },
+
+    "flex-layout.col#garment-use-champion": {
+        "children": [
+            "flex-layout.col#garment-use-1-champion",
+            "flex-layout.col#garment-use-2-champion",
+            "flex-layout.col#garment-use-3-champion"
+        ]
+    },
+    
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-1-champion": {
+        "children": [
+            "image#garment-care-cleaning-use-1-champion",
+            "rich-text#garment-care-cleaning-use-1-champion"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-1-champion": {
+        "props": {
+            "text": "**Materiales con Poliéster:** \n Lavar a máquina en temperatura fría y en ciclo delicado \n Lavar con jabón suave \n No usar blanqueador \n No lavar en seco \n No planchar \n No usar secadora \n No exprimir \n Prenda adecuada para práctica deportiva "
+        }
+    },
+    "image#garment-care-cleaning-use-1-champion": {
+        "props": {
+            "src": "/arquivos/secar-a-la-sombra.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-2-champion": {
+        "children": [
+            "image#garment-care-cleaning-use-2-champion",
+            "rich-text#garment-care-cleaning-use-2-champion"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-2-champion": {
+        "props": {
+            "text": "**Materiales Algodón:** \n Lavar a máquina por el revés en temperatura fría \n Lavar con colores similares  \n Lavar con jabón suave \n No usar blanqueador \n No usar secadora \n Planchar por el revés a temperatura baja o media \n Prenda no adecuada para práctica deportiva"
+        }
+    },
+    "image#garment-care-cleaning-use-2-champion": {
+        "props": {
+            "src": "/arquivos/do-not-dry.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-3-champion": {
+        "children": [
+            "image#garment-care-cleaning-use-3-champion",
+            "rich-text#garment-care-cleaning-use-3-champion"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-3-champion": {
+        "props": {
+            "text": "**Materiales con Poliéster:** \n Lavar a máquina por el revés en temperatura fría \n Lavar con colores similares \n Lavar con jabón suave \n No usar blanqueador \n No usar secadora \n No Planchar \n Prenda no adecuada para práctica deportiva"
+        }
+    },
+    "image#garment-care-cleaning-use-3-champion": {
+        "props": {
+            "src": "/arquivos/no-lejia.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    }
+    /******* item completo recomendación de uso****/
+}
