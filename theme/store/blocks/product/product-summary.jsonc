@@ -50,7 +50,7 @@
   "rich-text#porcentaje-estrategia-mercado-pago": {
     "title": "Porcentaje texto mercado pago",
     "props": {
-      "text": "**0% de interés** hasta 3 coutas [ver bancos](/)",
+      "text": "**0% de interés** hasta 3 cuotas [ver bancos](/)",
       "blockClass": "texto-mercado-pago-plp"
     }
   },

@@ -28,8 +28,10 @@ const SellersData = () => {
 
   const sellerName = context?.selectedItem?.sellers[0].sellerName;
   const sellerTennis = context?.product?.properties?.[0]?.values?.[0];
+  const sellerTennisOther = context?.product?.properties?.[1]?.values?.[0];
 
   console.log("sellerName", context?.selectedItem)
+  console.log("sellerTennis", sellerTennisOther)
 
 
   const findSellerDetails = (name: string) => {
@@ -46,7 +48,7 @@ const SellersData = () => {
 
 
  useEffect(() => {
-    if (sellerTennis === "Grupo 13") {
+    if (sellerTennis === "Grupo 13" || sellerTennisOther === "Grupo 13") {
       setTimeout(() => {
         const replaceGrupo13 = document.querySelector(
           ".vtex-product-specifications-1-x-specificationValue--last"
