@@ -68,7 +68,8 @@
             "rich-text#submenu-desk-department-4-category-60-emir-milano-19-mobile", //emmir milano
              "rich-text#submenu-desk-department-4-category-60-billabong-19-mobile", //billabong
              "rich-text#submenu-desk-department-4-category-60-element-19-mobile", //element
-                  "rich-text#submenu-desk-department-4-category-60-rvca-19-mobile" //rvca
+                  "rich-text#submenu-desk-department-4-category-60-rvca-19-mobile", //rvca
+                  "rich-text#submenu-desk-department-4-category-60-remanence-19-mobile" //remanence
             ],
         "props": {
             "blockClass": "contentSubMenuAcordeon"
@@ -226,6 +227,12 @@
          "rich-text#submenu-desk-department-4-category-60-rvca-19-mobile": {
           "props": {
                 "text": "[Rvca](/hombre/rvca?map=category-1,marca)",
+                "blockClass": ["textSubmenuAcordeon", "textSubcategoryPilatos"]
+          }
+         }, //rvca
+         "rich-text#submenu-desk-department-4-category-60-remanence-19-mobile": {
+          "props": {
+                "text": "[Remanence](/remanence)",
                 "blockClass": ["textSubmenuAcordeon", "textSubcategoryPilatos"]
           }
          }, //rvca
