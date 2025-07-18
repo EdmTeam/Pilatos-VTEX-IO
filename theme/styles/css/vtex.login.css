@@ -1,442 +1,450 @@
-.options .formTitle, .accountOptionsSectionTitle{
-    font-weight: 800;
-    font-size: 16px;
-    line-height: 15px;
-    letter-spacing: -0.015em;
-    color: #000000;
-    position: relative;
-    z-index: 2;
-    text-align: center;
+.options .formTitle,
+.accountOptionsSectionTitle {
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 15px;
+  letter-spacing: -0.015em;
+  color: #000000;
+  position: relative;
+  z-index: 2;
+  text-align: center;
 }
 
-.accountOptionsSectionTitle{
-    padding: .25rem 0;
-    width: 60%;
-    margin: 0 auto 1.8rem auto;
+.accountOptionsSectionTitle {
+  padding: .25rem 0;
+  width: 60%;
+  margin: 0 auto 1.8rem auto;
 }
 
-.options .formTitle::before, .accountOptionsSectionTitle::before{
-    position: absolute;
-    content: '';
-    height: 6px;
-    width: 62%;
-    background: #FFD400;
-    bottom: 3px;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: -1;
+.options .formTitle::before,
+.accountOptionsSectionTitle::before {
+  position: absolute;
+  content: '';
+  height: 6px;
+  width: 62%;
+  background: #FFD400;
+  bottom: 3px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
 }
 
-.arrowUp{
-    background: #FFD400;
+.arrowUp {
+  background: #FFD400;
 }
 
-.optionsListItem{
-    margin-bottom: 1rem;
+.optionsListItem {
+  margin-bottom: 1rem;
 }
 
-.optionsListItem .button{
-    width: 95%;
-    margin: 0 auto;
-    border: 1px solid #000000;
-    border-radius: 16px;
+.optionsListItem .button {
+  width: 95%;
+  margin: 0 auto;
+  border: 1px solid #000000;
+  border-radius: 16px;
 }
 
-.optionsListItem .button :global(.vtex-button){
-    font-size: 10px;
-    line-height: 18px;
-    text-transform: uppercase;
-    color: #000000;
-    background: transparent;
-    border: none;
-    outline: none;
-    min-height: 2rem;
+.optionsListItem .button :global(.vtex-button) {
+  font-size: 10px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #000000;
+  background: transparent;
+  border: none;
+  outline: none;
+  min-height: 2rem;
 }
 
-.formTitle{
-    font-weight: 800;
-    font-size: 12px;
-    line-height: 15px;
-    letter-spacing: -0.015em;
-    color: #000000;
-    position: relative;
-    z-index: 2;
+.formTitle {
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: -0.015em;
+  color: #000000;
+  position: relative;
+  z-index: 2;
 }
 
 .inputContainerEmail :global(.vtex-styleguide-9-x-input)::placeholder,
-.inputContainerAccessCode :global(.vtex-styleguide-9-x-input)::placeholder{
-    font-weight: 300;
-    font-size: 10px;
-    line-height: 13px;
-    letter-spacing: 0.025em;
-    color: #606060;
+.inputContainerAccessCode :global(.vtex-styleguide-9-x-input)::placeholder {
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 13px;
+  letter-spacing: 0.025em;
+  color: #606060;
 }
 
-.inputContainerAccessCode :global(.vtex-input-prefix__group){
-    width: 70%;
-    margin: 0 auto;
+.inputContainerAccessCode :global(.vtex-input-prefix__group) {
+  width: 70%;
+  margin: 0 auto;
 }
 
-.inputContainerAccessCode :global(.vtex-styleguide-9-x-input){
-    font-weight: 300;
-    font-size: 20px;
-    line-height: 25px;
-    letter-spacing: 0.23em;
-    color: #606060;
-    text-align: center;
-    padding: 0;
+.inputContainerAccessCode :global(.vtex-styleguide-9-x-input) {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.23em;
+  color: #606060;
+  text-align: center;
+  padding: 0;
 }
 
-.formFooter{
-    border: none;
-    display: flex;
-    align-items: center;
+.formFooter {
+  border: none;
+  display: flex;
+  align-items: center;
 }
 
-.arrowBackIcon{
-    display: none;
+.arrowBackIcon {
+  display: none;
 }
 
-.backButton :global(.vtex-button){
-    padding: 0 2.5rem;
-    outline: none;
-    border: none;
+.backButton :global(.vtex-button) {
+  padding: 0 2.5rem;
+  outline: none;
+  border: none;
 }
 
-.backButton :global(.vtex-button):hover{
-    background: transparent;
+.backButton :global(.vtex-button):hover {
+  background: transparent;
 }
 
-.backButton :global(.vtex-button)::before{
-    content: 'Volver';
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 11px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #000000;
+.backButton :global(.vtex-button)::before {
+  content: 'Volver';
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 11px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #000000;
 }
 
-.backButton :global(.vtex-button__label){
-    display: none;
+.backButton :global(.vtex-button__label) {
+  display: none;
 }
 
-.sendButton :global(.vtex-button){
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 11%;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    background: #000000;
-    border-radius: 50px;
-    padding: 1.2rem 2.5rem;
-    outline: none;
-    border: none;
+.sendButton :global(.vtex-button) {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 11%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #000000;
+  border-radius: 50px;
+  padding: 1.2rem 2.5rem;
+  outline: none;
+  border: none;
 }
 
-.sendButton :global(.vtex-button):hover{
-    background: #000000;
+.sendButton :global(.vtex-button):hover {
+  background: #000000;
 }
 
-.sendButton :global(.vtex-button)::before{
-    content: 'Ingresar';
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 11%;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #FFFFFF;
+.sendButton :global(.vtex-button)::before {
+  content: 'Ingresar';
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 11%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #FFFFFF;
 }
 
-.sendButton :global(.vtex-button__label){
-    display: none;
+.sendButton :global(.vtex-button__label) {
+  display: none;
 }
 
 .emailAndPasswordForm .inputContainerEmail,
-.emailAndPasswordForm .inputContainerPassword
-{
-    padding-top: 1.2rem;
-    position: relative;
-    margin-bottom: 1.5rem;
-    margin-top: .7rem;
+.emailAndPasswordForm .inputContainerPassword {
+  padding-top: 1.2rem;
+  position: relative;
+  margin-bottom: 1.5rem;
+  margin-top: .7rem;
 }
 
-.emailAndPasswordForm .inputContainerPassword{
-    margin-bottom: 0;
+.emailAndPasswordForm .inputContainerPassword {
+  margin-bottom: 0;
 }
 
 .emailAndPasswordForm .inputContainerEmail::before,
-.emailAndPasswordForm .inputContainerPassword::before
-{
-    position: absolute;
-    content: 'Email';
-    top: 0;
-    left: 0;
-    font-weight: 800;
-    font-size: 13px;
-    line-height: 16px;
-    letter-spacing: 0.055em;
-    color: #000000;
+.emailAndPasswordForm .inputContainerPassword::before {
+  position: absolute;
+  content: 'Email';
+  top: 0;
+  left: 0;
+  font-weight: 800;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.055em;
+  color: #000000;
 }
 
-.emailAndPasswordForm .inputContainerPassword::before{
-    content: 'Contraseña';
+.emailAndPasswordForm .inputContainerPassword::before {
+  content: 'Contraseña';
 }
 
-.emailAndPasswordForm .forgotPasswordLink{
+.emailAndPasswordForm .forgotPasswordLink {
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 13px;
+  letter-spacing: 0.005em;
+  text-decoration-line: underline;
+  color: #000000;
+}
+
+.emailAndPasswordForm :global(.vtex-styleguide-9-x-input)::placeholder {
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 13px;
+  letter-spacing: 0.025em;
+  color: #606060;
+}
+
+.emailAndPasswordForm .dontHaveAccount {
+  font-size: 10px;
+  line-height: 13px;
+  text-align: center;
+  letter-spacing: 0.005em;
+  color: #000000;
+  margin-bottom: .5rem;
+}
+
+.accountOptions .profile-link {
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.055em;
+  color: #000000;
+}
+
+.accountOptions .logoutButton {
+  width: 100%;
+  color: transparent;
+  position: relative;
+}
+
+.accountOptions .logoutButton::before {
+  content: 'Cerrar Sesión';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 11px;
+  letter-spacing: 0.03em;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+:global(.vtex-account_menu-link) {
+  padding: .9rem .5rem;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.01em;
+  color: #606060;
+}
+
+:global(.vtex-pageHeader__children) :global(.vtex-button),
+:global(.vtex-my-account-1-x-passwordBoxContainer) :global(.vtex-my-account-1-x-boxContainerFooter) :global(.vtex-button) {
+  background: #FFD400;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 13px;
+  letter-spacing: 0.01em;
+  color: #000000;
+  padding: .2rem 2rem;
+}
+
+:global(.vtex-my-account-1-x-profileBoxContainer) :global(.vtex-my-account-1-x-boxContainerFooter) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+:global(.vtex-my-account-1-x-profileBoxContainer) :global(.vtex-button) {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.01em;
+  color: #000000;
+  border: 1px solid #000000;
+  border-radius: 16px;
+  padding: .2rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.oauthLabel {
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+/* ==========================================================================
+   MEDIA QUERIES (DESDE AQUÍ)
+   Se sigue el enfoque mobile-first. Mantén esta estructura y el orden
+   para asegurar que las reglas específicas sobrescriban correctamente los estilos base.
+   ========================================================================== */
+
+/* Estilos para pantallas(tablet y dispositivos superiores) */
+/* === MAX-WIDTH === */
+
+@media only screen and (max-width: 1180px) {
+  .content--emailAndPassword {
+    display: block;
+  }
+
+  .optionsSticky .formTitle {
     font-weight: normal;
-    font-size: 10px;
-    line-height: 13px;
-    letter-spacing: 0.005em;
-    text-decoration-line: underline;
-    color: #000000;
-}
-
-.emailAndPasswordForm :global(.vtex-styleguide-9-x-input)::placeholder{
-    font-weight: 300;
-    font-size: 10px;
-    line-height: 13px;
-    letter-spacing: 0.025em;
-    color: #606060;
-}
-
-.emailAndPasswordForm .dontHaveAccount{
-    font-size: 10px;
-    line-height: 13px;
-    text-align: center;
-    letter-spacing: 0.005em;
-    color: #000000;
-    margin-bottom: .5rem;
-}
-
-.accountOptions .profile-link{
-    font-weight: bold;
-    font-size: 13px;
-    line-height: 16px;
-    letter-spacing: 0.055em;
-    color: #000000;
-}
-
-.accountOptions .logoutButton{
-    width: 100%;
-    color: transparent;
-    position: relative;
-}
-
-.accountOptions .logoutButton::before{
-    content: 'Cerrar Sesión';
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 11px;
-    letter-spacing: 0.03em;
-    color: #000000;
-    text-transform: uppercase;
-}
-
-:global(.vtex-account_menu-link){
-    padding: .9rem .5rem;
     font-size: 14px;
     line-height: 18px;
-    letter-spacing: 0.01em;
-    color: #606060;
-}
-
-:global(.vtex-pageHeader__children) :global(.vtex-button), :global(.vtex-my-account-1-x-passwordBoxContainer) :global(.vtex-my-account-1-x-boxContainerFooter) :global(.vtex-button){
-    background: #FFD400;
-    border-radius: 30px;
-    font-weight: 600;
-    font-size: 10px;
-    line-height: 13px;
-    letter-spacing: 0.01em;
+    text-align: center;
     color: #000000;
-    padding: .2rem 2rem;
-}
+    margin-bottom: 2rem;
+  }
 
-:global(.vtex-my-account-1-x-profileBoxContainer) :global(.vtex-my-account-1-x-boxContainerFooter){
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+  .optionsSticky .formTitle::before {
+    display: none;
+  }
 
-:global(.vtex-my-account-1-x-profileBoxContainer) :global(.vtex-button){
-    font-weight: 700;
+  .emailVerification .formTitle {
+    margin: 2rem 0 .7rem 0;
+  }
+
+  .content--emailAndPassword .options {
+    min-width: auto;
+    width: 100%;
+  }
+
+  .contentAlwaysWithOptions .button {
+    border: none;
+  }
+
+  .contentAlwaysWithOptions .button :global(.vtex-button) {
+    background: #000000;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    border: none;
+    border-radius: 100px;
+  }
+
+  .emailAndPasswordForm .formTitle {
+    font-weight: normal;
     font-size: 12px;
     line-height: 15px;
-    letter-spacing: 0.01em;
     color: #000000;
+  }
+
+  .emailAndPasswordForm .inputContainerEmail,
+  .emailAndPasswordForm .inputContainerPassword {
+    padding: 0;
+    margin: 1rem 0;
+  }
+
+  .emailAndPasswordForm .inputContainerEmail :global(.vtex-input-prefix__group),
+  .emailAndPasswordForm .inputContainerPassword :global(.vtex-input-prefix__group) {
     border: 1px solid #000000;
-    border-radius: 16px;
-    padding: .2rem 1rem;
-    margin-bottom: 1rem;
-}
+    padding: 0 .5rem;
+    height: 2rem;
+  }
 
-@media only screen and (max-width: 1180px){
-    .content--emailAndPassword{
-        display: block;
-    }
+  .emailAndPasswordForm .inputContainerEmail::before,
+  .emailAndPasswordForm .inputContainerPassword::before {
+    display: none;
+  }
 
-    .optionsSticky .formTitle{
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 18px;
-        text-align: center;
-        color: #000000;
-        margin-bottom: 2rem;
-    }
-
-    .optionsSticky .formTitle::before{
-        display: none;
-    }
-
-    .emailVerification .formTitle{
-        margin: 2rem 0 .7rem 0;
-    }
-
-    .content--emailAndPassword .options{
-        min-width: auto;
-        width: 100%;
-    }
-
-    .contentAlwaysWithOptions .button{
-        border: none;
-    }
-
-    .contentAlwaysWithOptions .button :global(.vtex-button){
-        background: #000000;
-        color: #FFFFFF;
-        font-weight: bold;
-        font-size: 11px;
-        line-height: 16px;
-        letter-spacing: 0.02em;
-        border: none;
-        border-radius: 100px;
-    }
-
-    .emailAndPasswordForm .formTitle{
-        font-weight: normal;
-        font-size: 12px;
-        line-height: 15px;
-        color: #000000;
-    }
-
-    .emailAndPasswordForm .inputContainerEmail,
-    .emailAndPasswordForm .inputContainerPassword{
-        padding: 0;
-        margin: 1rem 0;
-    }
-
-    .emailAndPasswordForm .inputContainerEmail :global(.vtex-input-prefix__group),
-    .emailAndPasswordForm .inputContainerPassword :global(.vtex-input-prefix__group){
-        border: 1px solid #000000;
-        padding: 0 .5rem;
-        height: 2rem;
-    }
-
-    .emailAndPasswordForm .inputContainerEmail::before,
-    .emailAndPasswordForm .inputContainerPassword::before
-    {
-        display: none;
-    }
-
-    .emailAndPasswordForm .forgotPasswordLink{
-        font-weight: normal;
-        font-size: 11px;
-        line-height: 14px;
-        letter-spacing: 0.02em;
-        text-decoration-line: underline;
-        color: #000000;
-    }
-}
-
-@media only screen and (min-width: 1180px){
-    .contentAlwaysWithOptions{
-        position: relative;
-        padding-top: 3.5rem;
-    }
-
-    .optionsSticky .formTitle{
-        position: absolute;
-        left: 50%;
-        top: 0;
-        transform: translateX(-50%);
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 18px;
-        text-align: center;
-        color: #000000;
-    }
-
-    .optionsSticky .formTitle::before{
-        display: none;
-    }
-
-    .contentAlwaysWithOptions .button :global(.vtex-button){
-        background: #000000;
-        color: #FFFFFF;
-        font-weight: bold;
-        font-size: 13px;
-        line-height: 16px;
-        letter-spacing: 0.02em;
-        border: none;
-        border-radius: 100px;
-    }
-
-    .emailAndPasswordForm .formTitle{
-        font-weight: normal;
-        font-size: 12px;
-        line-height: 15px;
-        color: #000000;
-    }
-
-    .emailAndPasswordForm .inputContainerEmail,
-    .emailAndPasswordForm .inputContainerPassword{
-        padding: 0;
-        margin: 1rem 0;
-    }
-
-    .emailAndPasswordForm .inputContainerEmail :global(.vtex-input-prefix__group),
-    .emailAndPasswordForm .inputContainerPassword :global(.vtex-input-prefix__group){
-        border: 1px solid #000000;
-        padding: 0 .5rem;
-        height: 2rem;
-    }
-
-    .emailAndPasswordForm .inputContainerEmail::before,
-    .emailAndPasswordForm .inputContainerPassword::before
-    {
-        display: none;
-    }
-
-    .emailAndPasswordForm .forgotPasswordLink{
-        font-weight: normal;
-        font-size: 11px;
-        line-height: 14px;
-        letter-spacing: 0.02em;
-        text-decoration-line: underline;
-        color: #000000;
-    }
-}
-
-@media only screen and (min-width: 1180px){
-    .content--emailAndPassword .contentFormVisible{
-        padding-left: 2rem;
-        border-left: 1px solid #AAA9A9;   
-    }
-
-    .contentAlwaysWithOptions{
-        max-width: 41.7rem;
-    }
-}
-
-.oauthLabel{
+  .emailAndPasswordForm .forgotPasswordLink {
     font-weight: normal;
-    font-size: 10px;
-    line-height: 18px;
-    text-transform: uppercase;
+    font-size: 11px;
+    line-height: 14px;
+    letter-spacing: 0.02em;
+    text-decoration-line: underline;
     color: #000000;
+  }
+}
+
+/* === MIN-WIDTH === */
+
+@media only screen and (min-width: 1180px) {
+  .contentAlwaysWithOptions {
+    position: relative;
+    padding-top: 3.5rem;
+  }
+
+  .optionsSticky .formTitle {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #000000;
+  }
+
+  .optionsSticky .formTitle::before {
+    display: none;
+  }
+
+  .contentAlwaysWithOptions .button :global(.vtex-button) {
+    background: #000000;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    border: none;
+    border-radius: 100px;
+  }
+
+  .emailAndPasswordForm .formTitle {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+  }
+
+  .emailAndPasswordForm .inputContainerEmail,
+  .emailAndPasswordForm .inputContainerPassword {
+    padding: 0;
+    margin: 1rem 0;
+  }
+
+  .emailAndPasswordForm .inputContainerEmail :global(.vtex-input-prefix__group),
+  .emailAndPasswordForm .inputContainerPassword :global(.vtex-input-prefix__group) {
+    border: 1px solid #000000;
+    padding: 0 .5rem;
+    height: 2rem;
+  }
+
+  .emailAndPasswordForm .inputContainerEmail::before,
+  .emailAndPasswordForm .inputContainerPassword::before {
+    display: none;
+  }
+
+  .emailAndPasswordForm .forgotPasswordLink {
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 14px;
+    letter-spacing: 0.02em;
+    text-decoration-line: underline;
+    color: #000000;
+  }
+
+  .content--emailAndPassword .contentFormVisible {
+    padding-left: 2rem;
+    border-left: 1px solid #AAA9A9;
+  }
+
+  .contentAlwaysWithOptions {
+    max-width: 41.7rem;
+  }
 }

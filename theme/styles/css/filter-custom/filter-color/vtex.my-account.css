@@ -72,8 +72,8 @@
   display: inline-block;
   width: 16px;
   height: 16px;
-  background-color: #FFFFFF; 
-  border: 1px solid #000000; 
+  background-color: #FFFFFF;
+  border: 1px solid #000000;
   border-radius: 50%;
   margin-right: 8px;
   vertical-align: middle;
@@ -153,9 +153,9 @@
   display: inline-block;
   width: 16px;
   height: 16px;
-  background: linear-gradient(45deg, #000000 50%, #FFFFFF 50%); 
-  border: 1px solid #000000; 
-  border-radius: 50%; 
+  background: linear-gradient(45deg, #000000 50%, #FFFFFF 50%);
+  border: 1px solid #000000;
+  border-radius: 50%;
   margin-right: 8px;
   vertical-align: middle;
 }
@@ -250,14 +250,12 @@
   display: inline-block;
   width: 16px;
   height: 16px;
-  background: linear-gradient(
-    135deg,
-    #fff8dc,
-    #d4af37,
-    #ffd700,
-    #b8860b,
-    #fff8dc
-  );
+  background: linear-gradient(135deg,
+      #fff8dc,
+      #d4af37,
+      #ffd700,
+      #b8860b,
+      #fff8dc);
   border-radius: 50%;
   margin-right: 8px;
   vertical-align: middle;
@@ -305,9 +303,9 @@
   display: inline-block;
   width: 16px;
   height: 16px;
-  background: linear-gradient(45deg, #FFFFFF 50%, #000000 50%); 
-  border: 1px solid #000000; 
-  border-radius: 50%; 
+  background: linear-gradient(45deg, #FFFFFF 50%, #000000 50%);
+  border: 1px solid #000000;
+  border-radius: 50%;
   margin-right: 8px;
   vertical-align: middle;
 }
@@ -323,7 +321,7 @@
   width: 16px;
   height: 16px;
   background-color: #F5F5DC;
-  border: 1px solid #000000; 
+  border: 1px solid #000000;
   border-radius: 50%;
   margin-right: 8px;
   vertical-align: middle;
@@ -339,13 +337,11 @@
   display: inline-block;
   width: 16px;
   height: 16px;
-  background: linear-gradient(
-    45deg,
-    #0000FF 0%,
-    #0000FF 50%,
-    #808080 50%,
-    #808080 100%
-  );
+  background: linear-gradient(45deg,
+      #0000FF 0%,
+      #0000FF 50%,
+      #808080 50%,
+      #808080 100%);
   border-radius: 50%;
   margin-right: 8px;
   vertical-align: middle;
@@ -403,13 +399,11 @@
   display: inline-block;
   width: 16px;
   height: 16px;
-  background: linear-gradient(
-    45deg,
-    #000000 0%,
-    #000000 50%,
-    #008000 50%,
-    #008000 100%
-  );
+  background: linear-gradient(45deg,
+      #000000 0%,
+      #000000 50%,
+      #008000 50%,
+      #008000 100%);
   border-radius: 50%;
   margin-right: 8px;
   vertical-align: middle;
@@ -425,13 +419,11 @@
   display: inline-block;
   width: 16px;
   height: 16px;
-  background: linear-gradient(
-    45deg,
-    #000000 0%,
-    #000000 50%,
-    #808080 50%,
-    #808080 100%
-  );
+  background: linear-gradient(45deg,
+      #000000 0%,
+      #000000 50%,
+      #808080 50%,
+      #808080 100%);
   border-radius: 50%;
   margin-right: 8px;
   vertical-align: middle;
@@ -448,13 +440,11 @@
   display: inline-block;
   width: 16px;
   height: 16px;
-  background: linear-gradient(
-    45deg,
-    #000000 0%,
-    #000000 50%,
-    #0000FF 50%,
-    #0000FF 100%
-  );
+  background: linear-gradient(45deg,
+      #000000 0%,
+      #000000 50%,
+      #0000FF 50%,
+      #0000FF 100%);
   border-radius: 50%;
   margin-right: 8px;
   vertical-align: middle;
@@ -470,13 +460,11 @@
   display: inline-block;
   width: 16px;
   height: 16px;
-  background: linear-gradient(
-    45deg,
-    #000000 0%,
-    #000000 50%,
-    #FF0000 50%,
-    #FF0000 100%
-  );
+  background: linear-gradient(45deg,
+      #000000 0%,
+      #000000 50%,
+      #FF0000 50%,
+      #FF0000 100%);
   border-radius: 50%;
   margin-right: 8px;
   vertical-align: middle;
@@ -492,13 +480,11 @@
   display: inline-block;
   width: 16px;
   height: 16px;
-  background: linear-gradient(
-    45deg,
-    #000000 0%,
-    #000000 50%,
-    #98FF98 50%,
-    #98FF98 100%
-  );
+  background: linear-gradient(45deg,
+      #000000 0%,
+      #000000 50%,
+      #98FF98 50%,
+      #98FF98 100%);
   border-radius: 50%;
   margin-right: 8px;
   vertical-align: middle;
@@ -514,15 +500,13 @@
   display: inline-block;
   width: 16px;
   height: 16px;
-  background: linear-gradient(
-    45deg,
-    #000000 0%,
-    #000000 50%,
-    #d4af37 50%,
-    #ffd700 70%,
-    #b8860b 90%,
-    #fff8dc 100%
-  );
+  background: linear-gradient(45deg,
+      #000000 0%,
+      #000000 50%,
+      #d4af37 50%,
+      #ffd700 70%,
+      #b8860b 90%,
+      #fff8dc 100%);
   border-radius: 50%;
   margin-right: 8px;
   vertical-align: middle;
@@ -554,13 +538,11 @@
   display: inline-block;
   width: 16px;
   height: 16px;
-  background: linear-gradient(
-    45deg,
-    #000000 0%,
-    #000000 50%,
-    #222222 50%,
-    #222222 100%
-  );
+  background: linear-gradient(45deg,
+      #000000 0%,
+      #000000 50%,
+      #222222 50%,
+      #222222 100%);
   border-radius: 50%;
   margin-right: 8px;
   vertical-align: middle;
@@ -576,13 +558,11 @@
   display: inline-block;
   width: 16px;
   height: 16px;
-  background: linear-gradient(
-    45deg,
-    #0000FF 0%,
-    #0000FF 50%,
-    #FFA500 50%,
-    #FFA500 100%
-  );
+  background: linear-gradient(45deg,
+      #0000FF 0%,
+      #0000FF 50%,
+      #FFA500 50%,
+      #FFA500 100%);
   border-radius: 50%;
   margin-right: 8px;
   vertical-align: middle;
@@ -598,13 +578,11 @@
   display: inline-block;
   width: 16px;
   height: 16px;
-  background: linear-gradient(
-    45deg,
-    #808080 0%,
-    #808080 50%,
-    #000000 50%,
-    #000000 100%
-  );
+  background: linear-gradient(45deg,
+      #808080 0%,
+      #808080 50%,
+      #000000 50%,
+      #000000 100%);
   border-radius: 50%;
   margin-right: 8px;
   vertical-align: middle;
@@ -620,13 +598,11 @@
   display: inline-block;
   width: 16px;
   height: 16px;
-  background: linear-gradient(
-    45deg,
-    #808080 0%,
-    #808080 50%,
-    #FFFF00 50%,
-    #FFFF00 100%
-  );
+  background: linear-gradient(45deg,
+      #808080 0%,
+      #808080 50%,
+      #FFFF00 50%,
+      #FFFF00 100%);
   border-radius: 50%;
   margin-right: 8px;
   vertical-align: middle;
@@ -1237,13 +1213,11 @@
   display: inline-block;
   width: 16px;
   height: 16px;
-  background: linear-gradient(
-    45deg,
-    #0000FF 0%,     
-    #0000FF 50%,
-    #800080 50%,   
-    #800080 100%
-  );
+  background: linear-gradient(45deg,
+      #0000FF 0%,
+      #0000FF 50%,
+      #800080 50%,
+      #800080 100%);
   border-radius: 50%;
   margin-right: 8px;
   vertical-align: middle;
@@ -1259,13 +1233,11 @@
   display: inline-block;
   width: 16px;
   height: 16px;
-  background: linear-gradient(
-    45deg,
-    #0000FF 0%,     
-    #0000FF 50%,
-    #FF0000 50%,    
-    #FF0000 100%
-  );
+  background: linear-gradient(45deg,
+      #0000FF 0%,
+      #0000FF 50%,
+      #FF0000 50%,
+      #FF0000 100%);
   border-radius: 50%;
   margin-right: 8px;
   vertical-align: middle;
@@ -1458,7 +1430,7 @@
   display: inline-block;
   width: 16px;
   height: 16px;
-  background: linear-gradient(45deg,#FFFFFF 0%, #FFFFFF 50%, #0000FF 50%, #0000FF 100%);
+  background: linear-gradient(45deg, #FFFFFF 0%, #FFFFFF 50%, #0000FF 50%, #0000FF 100%);
   border: 1px solid #000000;
   border-radius: 50%;
   margin-right: 8px;
@@ -1694,7 +1666,7 @@
   display: inline-block;
   width: 16px;
   height: 16px;
- background: linear-gradient(45deg, #008000 0%, #008000 50%, #808080 50%, #808080 100%);
+  background: linear-gradient(45deg, #008000 0%, #008000 50%, #808080 50%, #808080 100%);
   border-radius: 50%;
   margin-right: 8px;
   vertical-align: middle;
@@ -1710,7 +1682,7 @@
   display: inline-block;
   width: 16px;
   height: 16px;
- background: linear-gradient(45deg,#FF0000 0%, #FF0000 50%, #000000 50%, #000000 100%);
+  background: linear-gradient(45deg, #FF0000 0%, #FF0000 50%, #000000 50%, #000000 100%);
   border-radius: 50%;
   margin-right: 8px;
   vertical-align: middle;
@@ -1726,8 +1698,8 @@
   display: inline-block;
   width: 16px;
   height: 16px;
- background: linear-gradient(45deg, #FF0000 0%, #FF0000 50%, #FFFFFF 50%, #FFFFFF 100%);
- border: 1px solid #000000;
+  background: linear-gradient(45deg, #FF0000 0%, #FF0000 50%, #FFFFFF 50%, #FFFFFF 100%);
+  border: 1px solid #000000;
   border-radius: 50%;
   margin-right: 8px;
   vertical-align: middle;
@@ -1743,7 +1715,7 @@
   display: inline-block;
   width: 16px;
   height: 16px;
- background: linear-gradient(45deg, #C3B091 0%, #C3B091 50%, #000000 50%, #000000 100%);
+  background: linear-gradient(45deg, #C3B091 0%, #C3B091 50%, #000000 50%, #000000 100%);
   border-radius: 50%;
   margin-right: 8px;
   vertical-align: middle;
@@ -1759,8 +1731,8 @@
   display: inline-block;
   width: 16px;
   height: 16px;
- background: linear-gradient(45deg, #FFFFFF 0%, #FFFFFF 50%, #FF0000 50%, #FF0000 100%);
- border: 1px solid #000000;
+  background: linear-gradient(45deg, #FFFFFF 0%, #FFFFFF 50%, #FF0000 50%, #FF0000 100%);
+  border: 1px solid #000000;
   border-radius: 50%;
   margin-right: 8px;
   vertical-align: middle;
@@ -1776,7 +1748,7 @@
   display: inline-block;
   width: 16px;
   height: 16px;
- background: linear-gradient(45deg, #0000FF 0%, #0000FF 50%, #008000 50%, #008000 100%);
+  background: linear-gradient(45deg, #0000FF 0%, #0000FF 50%, #008000 50%, #008000 100%);
   border-radius: 50%;
   margin-right: 8px;
   vertical-align: middle;
@@ -1792,13 +1764,11 @@
   display: inline-block;
   width: 16px;
   height: 16px;
-  background: repeating-linear-gradient(
-  45deg,
-  #4B5320, #4B5320 5px,
-  #3B3C36 5px, #3B3C36 10px,
-  #6B8E23 10px, #6B8E23 15px,
-  #3B3C36 15px, #3B3C36 20px
-  );
+  background: repeating-linear-gradient(45deg,
+      #4B5320, #4B5320 5px,
+      #3B3C36 5px, #3B3C36 10px,
+      #6B8E23 10px, #6B8E23 15px,
+      #3B3C36 15px, #3B3C36 20px);
   border-radius: 50%;
   margin-right: 8px;
   vertical-align: middle;
@@ -1929,12 +1899,12 @@
   display: inline-block;
   width: 16px;
   height: 16px;
-  background: linear-gradient(45deg,#1C1C1C 0%,
-  #2E2E2E 25%,
-  #4D4D4D 50%,
-  #F8F8F8 50%,
-  #EDEDED 75%,
-  #FFFFFF 100%);
+  background: linear-gradient(45deg, #1C1C1C 0%,
+      #2E2E2E 25%,
+      #4D4D4D 50%,
+      #F8F8F8 50%,
+      #EDEDED 75%,
+      #FFFFFF 100%);
   border: 1px solid #000000;
   border-radius: 50%;
   margin-right: 8px;
@@ -2047,13 +2017,11 @@
   display: inline-block;
   width: 16px;
   height: 16px;
-  background: repeating-linear-gradient(
-  45deg,
-  #4B5320, #4B5320 5px,
-  #3B3C36 5px, #3B3C36 10px,
-  #6B8E23 10px, #6B8E23 15px,
-  #3B3C36 15px, #3B3C36 20px
-  );
+  background: repeating-linear-gradient(45deg,
+      #4B5320, #4B5320 5px,
+      #3B3C36 5px, #3B3C36 10px,
+      #6B8E23 10px, #6B8E23 15px,
+      #3B3C36 15px, #3B3C36 20px);
   border-radius: 50%;
   margin-right: 8px;
   vertical-align: middle;
@@ -2512,5 +2480,12 @@
   vertical-align: middle;
 }
 
+/* ==========================================================================
+   MEDIA QUERIES (DESDE AQUÍ)
+   Se sigue el enfoque mobile-first. Mantén esta estructura y el orden
+   para asegurar que las reglas específicas sobrescriban correctamente los estilos base.
+   ========================================================================== */
 
-
+/* Estilos para pantallas(tablet y dispositivos superiores) */
+/* === MAX-WIDTH === */
+/* === MIN-WIDTH === */

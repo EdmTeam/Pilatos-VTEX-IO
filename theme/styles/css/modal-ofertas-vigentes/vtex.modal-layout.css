@@ -11,9 +11,55 @@
   right: 10px;
   overflow-y: hidden;
 }
+
 :global(.vtex-modal-layout-0-x-paper--modal-layout-ofertas-vigentes) :global(.vtex-modal-layout-0-x-headerContainer) {
   border: 0;
 }
+
+/* Animación para abrir el modal */
+@keyframes fadeInScale {
+  0% {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Animación para cerrar el modal */
+@keyframes fadeOutScale {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+}
+
+/* Aplicar transición general */
+:global(.vtex-modal-layout-0-x-container--modal-layout-ofertas-vigentes) {
+  animation: fadeInScale 300ms ease-out;
+  transition: opacity 250ms ease, transform 250ms ease;
+  will-change: opacity, transform;
+}
+
+/* Al estar cerrado, VTEX le pone style="opacity: 0" automáticamente.
+     Como NO podemos usar [style*="opacity: 0"], dejamos que el fadeOut actúe por defecto. */
+
+/* ==========================================================================
+   MEDIA QUERIES (DESDE AQUÍ)
+   Se sigue el enfoque mobile-first. Mantén esta estructura y el orden
+   para asegurar que las reglas específicas sobrescriban correctamente los estilos base.
+   ========================================================================== */
+
+/* Estilos para pantallas(tablet y dispositivos superiores) */
+/* === MAX-WIDTH === */
 
 @media screen and (max-width: 1024px) {
   .triggerContainer--modal-ofertas-vigentes {
@@ -91,38 +137,4 @@
   }
 }
 
-/* Animación para abrir el modal */
-@keyframes fadeInScale {
-  0% {
-    opacity: 0;
-    transform: scale(0.95);
-  }
-
-  100% {
-    opacity: 1;
-    transform: scale(1);
-  }
-}
-
-/* Animación para cerrar el modal */
-@keyframes fadeOutScale {
-  0% {
-    opacity: 1;
-    transform: scale(1);
-  }
-
-  100% {
-    opacity: 0;
-    transform: scale(0.95);
-  }
-}
-
-/* Aplicar transición general */
-:global(.vtex-modal-layout-0-x-container--modal-layout-ofertas-vigentes) {
-  animation: fadeInScale 300ms ease-out;
-  transition: opacity 250ms ease, transform 250ms ease;
-  will-change: opacity, transform;
-}
-
-/* Al estar cerrado, VTEX le pone style="opacity: 0" automáticamente. 
-     Como NO podemos usar [style*="opacity: 0"], dejamos que el fadeOut actúe por defecto. */
+/* === MIN-WIDTH === */

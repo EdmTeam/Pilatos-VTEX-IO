@@ -1,42 +1,53 @@
 .flexRowContent--seo-texto-general-fits-jeans {
-    width: 88%;
-    margin: 0 auto;
+  width: 88%;
+  margin: 0 auto;
 }
 
 .flexRowContent--fits-contenido {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .flexRowContent--fits-contenido :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
-    width: auto;
-}
-
-@media screen and (min-width: 640px) {
-    .flexRowContent--fits-contenido :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
-        width: 100% !important;
-    }
+  width: auto;
 }
 
 .flexRowContent--fits-contenido-6 {
-    background-color: #000;
-    height: 100%;
-    width: 132px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} 
+  background-color: #000;
+  height: 100%;
+  width: 132px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .flexRow--fits-contenido-6 {
-    height: 100%;
+  height: 100%;
 }
 
 .flexRowContent--fits-contenido-6 :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
-    height: 100%;
+  height: 100%;
 }
+
 .flexCol--botones-fits-jeans-genero {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ==========================================================================
+   MEDIA QUERIES (DESDE AQUÍ)
+   Se sigue el enfoque mobile-first. Mantén esta estructura y el orden
+   para asegurar que las reglas específicas sobrescriban correctamente los estilos base.
+   ========================================================================== */
+
+/* Estilos para pantallas(tablet y dispositivos superiores) */
+/* === MAX-WIDTH === */
+/* === MIN-WIDTH === */
+
+@media screen and (min-width: 640px) {
+  .flexRowContent--fits-contenido :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: 100% !important;
+  }
 }

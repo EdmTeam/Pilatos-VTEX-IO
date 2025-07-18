@@ -1,227 +1,233 @@
 .galleryTitle--layout {
-    margin: 16px 5px 30px;
-    font-size: 0.875rem;
-    font-weight: 700;
-    letter-spacing: 1px;
-    padding-left: 2.1rem;
+  margin: 16px 5px 30px;
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding-left: 2.1rem;
 }
 
 .filter__container--ocasion-de-uso,
 .filter__container--siluetas-iconicas {
-    display: none;
+  display: none;
 }
 
-
-.searchResultContainer{
-    width: 100%
+.searchResultContainer {
+  width: 100%;
 }
 
-.productCount{
-    color: #D1D1D1;
+.productCount {
+  color: #d1d1d1;
 }
 
-:global(.vtex__icon-check){
-    background: #000000;
-    color: #000000;
+:global(.vtex__icon-check) {
+  background: #000000;
+  color: #000000;
 }
 
-:global(.vtex-checkbox__box){
-    border: 1px solid #FFFFFF;
+:global(.vtex-checkbox__box) {
+  border: 1px solid #ffffff;
 }
 
-:global(.vtex-checkbox__box-wrapper){
-    border: 1px solid #828282;
-    border-radius: 3px;
+:global(.vtex-checkbox__box-wrapper) {
+  border: 1px solid #828282;
+  border-radius: 3px;
 }
 
-.filter__container--selectedFilters .productCount{
-    display: none;
-    background: red;
+.filter__container--selectedFilters .productCount {
+  display: none;
+  background: red;
 }
 
-
-.filter__container--selectedFilters :global(.vtex-checkbox__container){
-    opacity: 0;
+.filter__container--selectedFilters :global(.vtex-checkbox__container) {
+  opacity: 0;
 }
 
-.filter__container--selectedFilters .filterTemplateOverflow{
-    padding-left: .2rem;
-    display: flex;
-    flex-wrap: wrap;
+.filter__container--selectedFilters .filterTemplateOverflow {
+  padding-left: 0.2rem;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.filter__container--selectedFilters .filterTemplateOverflow .filterItem{
-    width: auto;
+.filter__container--selectedFilters .filterTemplateOverflow .filterItem {
+  width: auto;
 }
 
-.filter__container--selectedFilters .filterTemplateOverflow .filterItem :global(.vtex-checkbox__line-container){
-    border: 1px solid #000000;
-    margin: .3rem .3rem .3rem 0;
+.filter__container--selectedFilters .filterTemplateOverflow .filterItem :global(.vtex-checkbox__line-container) {
+  border: 1px solid #000000;
+  margin: 0.3rem 0.3rem 0.3rem 0;
 }
 
-.filter__container--selectedFilters .filterTemplateOverflow .filterItem :global(.vtex-checkbox__line-container) :global(.vtex-checkbox__label){
-    padding: .35rem 2rem .35rem 0;
-    position: relative;
-    display: block;
+.filter__container--selectedFilters .filterTemplateOverflow .filterItem :global(.vtex-checkbox__line-container) :global(.vtex-checkbox__label) {
+  padding: 0.35rem 2rem 0.35rem 0;
+  position: relative;
+  display: block;
 }
 
-.filter__container--selectedFilters .filterTemplateOverflow .filterItem :global(.vtex-checkbox__line-container) :global(.vtex-checkbox__label)::after{
-    content: 'X';
-    position: absolute;
-    right: .5rem;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 1.3rem;
+.filter__container--selectedFilters .filterTemplateOverflow .filterItem :global(.vtex-checkbox__line-container) :global(.vtex-checkbox__label)::after {
+  content: "X";
+  position: absolute;
+  right: 0.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.3rem;
 }
 
-.filter__container--marca{
-    display: none;
+.filter__container--marca {
+  display: none;
 }
 
 .container--layout--contentStoreCustom :global(.vtex-breadcrumb-1-x-container),
-.container--layout--contentStoreCustom .galleryTitle--layout
-{
-    display: none;
+.container--layout--contentStoreCustom .galleryTitle--layout {
+  display: none;
 }
 
-.galleryTitle--layout{
-    margin: 0 auto;
-    width: 88%;
-    padding: 0;
-    margin-top: 1rem;
-    margin-bottom: .5rem;
-    font-weight: bold;
-    font-size: 13px;
-    line-height: 16px;
-    color: #000000;
-    text-transform: capitalize;
+.galleryTitle--layout {
+  margin: 0 auto;
+  width: 88%;
+  padding: 0;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 16px;
+  color: #000000;
+  text-transform: capitalize;
 }
 
-.galleryTitle--layout::before{
-    content: 'Búsqueda: ';
+.galleryTitle--layout::before {
+  content: "Búsqueda: ";
 }
 
-.searchResultContainer :global(.vtex-breadcrumb-1-x-container){
-    width: 88%;
-    margin: 0 auto;
+.searchResultContainer :global(.vtex-breadcrumb-1-x-container) {
+  width: 88%;
+  margin: 0 auto;
 }
 
-.searchResultContainer .totalProducts--layout{
-    display: inline;
-    color: #828282;
-    text-transform: capitalize;
-    font-size: 12px;
+.searchResultContainer .totalProducts--layout {
+  display: inline;
+  color: #828282;
+  text-transform: capitalize;
+  font-size: 12px;
 }
 
-@media (max-width: 700px){
-    .vtex-search-result-3-x-totalProducts--layout {
-        justify-content: normal;
-        display: flex;
-        padding: 0 3%;
-        background: red;
-        width: 800px;
-    }
-
+.searchResultContainer :global(.vtex-breadcrumb-1-x-homeLink) {
+  padding: 0.125rem 0;
 }
 
+.searchResultContainer :global(.vtex-breadcrumb-1-x-homeLink)::before {
+  content: "Home";
+}
 
-.searchResultContainer :global(.vtex-breadcrumb-1-x-homeLink){
-    padding: .125rem 0;
-}
-  
-.searchResultContainer :global(.vtex-breadcrumb-1-x-homeLink)::before{
-    content: 'Home';
-}
-  
 .searchResultContainer :global(.vtex-breadcrumb-1-x-homeLink),
-.searchResultContainer :global(.vtex-breadcrumb-1-x-arrow) :global(.vtex-breadcrumb-1-x-link){
-    font-weight: normal;
-    font-size: 9px;
-    line-height: 11px;
-    color: #000000;
+.searchResultContainer :global(.vtex-breadcrumb-1-x-arrow) :global(.vtex-breadcrumb-1-x-link) {
+  font-weight: normal;
+  font-size: 9px;
+  line-height: 11px;
+  color: #000000;
 }
 
-.searchResultContainer :global(.vtex-breadcrumb-1-x-arrow) :global(.vtex-breadcrumb-1-x-caretIcon){
-    display: none;
+.searchResultContainer :global(.vtex-breadcrumb-1-x-arrow) :global(.vtex-breadcrumb-1-x-caretIcon) {
+  display: none;
 }
-  
-.searchResultContainer :global(.vtex-breadcrumb-1-x-arrow){
-    padding: 0;
+
+.searchResultContainer :global(.vtex-breadcrumb-1-x-arrow) {
+  padding: 0;
 }
-  
-.searchResultContainer :global(.vtex-breadcrumb-1-x-term){
-    padding-left: .15rem;
-    padding-right: .1rem;
+
+.searchResultContainer :global(.vtex-breadcrumb-1-x-term) {
+  padding-left: 0.15rem;
+  padding-right: 0.1rem;
 }
-  
-.searchResultContainer :global(.vtex-breadcrumb-1-x-term){
-    font-weight: bold;
-    font-size: 9px;
-    line-height: 11px;
-    color: #000000;
+
+.searchResultContainer :global(.vtex-breadcrumb-1-x-term) {
+  font-weight: bold;
+  font-size: 9px;
+  line-height: 11px;
+  color: #000000;
 }
-  
-.searchResultContainer :global(.vtex-breadcrumb-1-x-arrow) :global(.vtex-breadcrumb-1-x-link){
-    padding-left: 0;
-    padding-right: 0;
-    font-weight: bold;
+
+.searchResultContainer :global(.vtex-breadcrumb-1-x-arrow) :global(.vtex-breadcrumb-1-x-link) {
+  padding-left: 0;
+  padding-right: 0;
+  font-weight: bold;
 }
-  
+
 .searchResultContainer :global(.vtex-breadcrumb-1-x-arrow) :global(.vtex-breadcrumb-1-x-link)::before,
-.searchResultContainer :global(.vtex-breadcrumb-1-x-term)::before{
-    content: '/';
-    margin: 0 .15rem;
-    font-weight: normal;
-}
-  
-.searchResultContainer :global(.vtex-breadcrumb-1-x-homeLink) :global(.vtex-breadcrumb-1-x-homeIcon){
-    display: none;
+.searchResultContainer :global(.vtex-breadcrumb-1-x-term)::before {
+  content: "/";
+  margin: 0 0.15rem;
+  font-weight: normal;
 }
 
-@media only screen and (min-width: 1180px){
-    .searchResultContainer{
-        width: 100%;
-    }
-
-    .searchResultContainer{
-        width: 88%;
-        margin: 0 auto;
-    }
-
-    .searchResultContainer :global(.vtex-breadcrumb-1-x-container){
-        width: 100%;
-    }
-
-    .galleryTitle--layout{
-        margin: 0;
-        font-size: 22px;
-        line-height: 28px;
-        width: 100%;
-    }
+.searchResultContainer :global(.vtex-breadcrumb-1-x-homeLink) :global(.vtex-breadcrumb-1-x-homeIcon) {
+  display: none;
 }
 
 /* Cambio de texto Filtro */
 .filter__container--category-1 .filterTitle {
-    font-size: 0;
+  font-size: 0;
 }
 
 .filter__container--category-1 .filterTitle::before {
-    content: 'Género';
-    font-size: 12px;
-    display: inline-block;
+  content: "Género";
+  font-size: 12px;
+  display: inline-block;
 }
 
 .filter__container--category-3 .filterTitle {
-    font-size: 0;
+  font-size: 0;
 }
 
 .filter__container--category-3 .filterTitle::before {
-    content: 'Categoría';
-    font-size: 12px;
-    display: inline-block;
-}
-/* se ocultó gama de precios */
-.filter__container--priceRange {
-display: none;
+  content: "Categoría";
+  font-size: 12px;
+  display: inline-block;
 }
 
+/* se ocultó gama de precios */
+.filter__container--priceRange {
+  display: none;
+}
+
+/* ==========================================================================
+   MEDIA QUERIES (DESDE AQUÍ)
+   Se sigue el enfoque mobile-first. Mantén esta estructura y el orden
+   para asegurar que las reglas específicas sobrescriban correctamente los estilos base.
+   ========================================================================== */
+
+/* Estilos para pantallas(tablet y dispositivos superiores) */
+/* === MAX-WIDTH === */
+
+@media (max-width: 700px) {
+  .vtex-search-result-3-x-totalProducts--layout {
+    justify-content: normal;
+    display: flex;
+    padding: 0 3%;
+    background: red;
+    width: 800px;
+  }
+}
+
+/* === MIN-WIDTH === */
+
+@media only screen and (min-width: 1180px) {
+  .searchResultContainer {
+    width: 100%;
+  }
+
+  .searchResultContainer {
+    width: 88%;
+    margin: 0 auto;
+  }
+
+  .searchResultContainer :global(.vtex-breadcrumb-1-x-container) {
+    width: 100%;
+  }
+
+  .galleryTitle--layout {
+    margin: 0;
+    font-size: 22px;
+    line-height: 28px;
+    width: 100%;
+  }
+}

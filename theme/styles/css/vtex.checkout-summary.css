@@ -1,36 +1,36 @@
-.summarySmallDisclaimer{
-   font-size: 0px;
-   margin-top: 0px !important;
+.summarySmallDisclaimer {
+  font-size: 0px;
+  margin-top: 0px !important;
 }
 
-.summarySmallDisclaimer::after{
+.summarySmallDisclaimer::after {
   content: "Envío e impuestos calculados en el checkout.";
   font-size: .875rem;
   color: white;
 }
 
-.summaryItemContainer:nth-child(odd) .summaryItemLabel{
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 15px;
-    color: #FFFFFF;
-    position: relative;
+.summaryItemContainer:nth-child(odd) .summaryItemLabel {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FFFFFF;
+  position: relative;
 }
 
-.summaryItemContainer:nth-child(odd) .summaryItemLabel::before{
+.summaryItemContainer:nth-child(odd) .summaryItemLabel::before {
   display: none;
-    content: 'Envío:';
-    position: absolute;
-    left: 0;
-    top: 1.6rem;
-    color: #FFFFFF;
+  content: 'Envío:';
+  position: absolute;
+  left: 0;
+  top: 1.6rem;
+  color: #FFFFFF;
 }
 
-.summaryItemContainer:nth-child(odd) .summaryItemPrice .price{
-    position: relative;
+.summaryItemContainer:nth-child(odd) .summaryItemPrice .price {
+  position: relative;
 }
 
-.summaryItemContainer:nth-child(odd) .summaryItemPrice .price::before{
+.summaryItemContainer:nth-child(odd) .summaryItemPrice .price::before {
   display: none;
   content: 'A calcular';
   position: absolute;
@@ -39,52 +39,62 @@
   color: #FFFFFF;
 }
 
-.summaryItemContainer:nth-child(even) .summaryItemLabel{
-    font-weight: 800;
-    font-size: 17px;
-    line-height: 20px;
-    color: #FFFFFF;
+.summaryItemContainer:nth-child(even) .summaryItemLabel {
+  font-weight: 800;
+  font-size: 17px;
+  line-height: 20px;
+  color: #FFFFFF;
 }
 
-:global(.vtex-flex-layout-0-x-flexRowContent--contentFooterCart) .summaryItemContainer:nth-child(n + 3){
-    margin: .5rem 0;
-    margin-bottom: 1rem !important;
+:global(.vtex-flex-layout-0-x-flexRowContent--contentFooterCart) .summaryItemContainer:nth-child(n + 3) {
+  margin: .5rem 0;
+  margin-bottom: 1rem !important;
 }
 
-.summaryItemLabel::after{
-    content: ':';
+.summaryItemLabel::after {
+  content: ':';
 }
 
-.price{
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 15px;
-    text-align: right;
-    color: #FFFFFF;
+.price {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: right;
+  color: #FFFFFF;
 }
 
-.summaryItemContainer:nth-child(even){
-    margin: 1.4rem 0 0 0;
+.summaryItemContainer:nth-child(even) {
+  margin: 1.4rem 0 0 0;
 }
 
-.summaryItemContainer:nth-child(odd){
-    margin: .5rem 0 0 0 !important;
+.summaryItemContainer:nth-child(odd) {
+  margin: .5rem 0 0 0 !important;
 }
 
-.summaryItemContainer:nth-child(even) .price{
-    font-weight: 800;
-    font-size: 16px;
-    line-height: 20px;
-    text-align: right;
-    color: #FFFFFF;
+.summaryItemContainer:nth-child(even) .price {
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: right;
+  color: #FFFFFF;
 }
 
-@media only screen and (min-width: 1180px){
-    .summaryItemContainer:nth-child(odd) .summaryItemLabel::before{
-        top: 1.7rem;
-    }
+/* ==========================================================================
+   MEDIA QUERIES (DESDE AQUÍ)
+   Se sigue el enfoque mobile-first. Mantén esta estructura y el orden
+   para asegurar que las reglas específicas sobrescriban correctamente los estilos base.
+   ========================================================================== */
 
-    .summaryItemContainer:nth-child(odd){
-        margin: .5rem 0 3rem 0;
-    }
+/* Estilos para pantallas(tablet y dispositivos superiores) */
+/* === MAX-WIDTH === */
+/* === MIN-WIDTH === */
+
+@media only screen and (min-width: 1180px) {
+  .summaryItemContainer:nth-child(odd) .summaryItemLabel::before {
+    top: 1.7rem;
+  }
+
+  .summaryItemContainer:nth-child(odd) {
+    margin: .5rem 0 3rem 0;
+  }
 }

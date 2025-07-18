@@ -1,9 +1,22 @@
 :global(.vtex-modal-layout-0-x-paper--modal-contenido-mercado-pago-plp) {
-    width: 80%;
-    margin: 0 auto;
+  width: 80%;
+  margin: 0 auto;
 }
+
+/* ==========================================================================
+   MEDIA QUERIES (DESDE AQUÍ)
+   Se sigue el enfoque mobile-first. Mantén esta estructura y el orden
+   para asegurar que las reglas específicas sobrescriban correctamente los estilos base.
+   ========================================================================== */
+
+/* Estilos para pantallas(tablet y dispositivos superiores) */
+/* === MAX-WIDTH === */
+
 @media screen and (max-width: 768px) {
-    .vtex-modal-layout-0-x-paper--modal-contenido-mercado-pago-plp {
-        width: 90%;
-    }
+  .vtex-modal-layout-0-x-paper--modal-contenido-mercado-pago-plp {
+    width: 90%;
+  }
 }
+
+
+/* === MIN-WIDTH === */

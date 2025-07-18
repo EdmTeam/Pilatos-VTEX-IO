@@ -1,354 +1,192 @@
-/* @media only screen and (max-width: 768px) {
-    .slide--contentSlide{
-        margin-left: 0.6% !important;
-        margin-right: 0.6% !important;
-    }
-} */
-.imageElement--ingredienteFragancia{
-    margin-bottom: 2%;
-}
-.sliderLayoutContainer--contentSlide{
-    width: 100% !important;
+.imageElement--ingredienteFragancia {
+  margin-bottom: 2%;
 }
 
-@media only screen and (max-width: 760px){
-    .slide--contentSlide{
-        width: 7.21% !important;
-        margin-left: 0.32125% !important;
-        margin-right: 0.32125% !important;
-    }
-
-    .sliderArrows--contentBanner{
-        display: none;
-    }
-
-
-
+.sliderLayoutContainer--contentSlide {
+  width: 100% !important;
 }
 
-@media only screen and (min-width: 740px) {
-    .sliderLayoutContainer--contentSlide{
-        width: 85% !important;
-    }
+.sliderLayoutContainer--contentBanner {
+  margin-bottom: 2rem;
 }
 
-
-.sliderLayoutContainer--contentBanner{
-    margin-bottom: 2rem;
+.imageElementLink--contentBanner {
+  width: 100%;
 }
 
-.imageElementLink--contentBanner{
-    width: 100%;
+.paginationDotsContainer--contentBanner {
+  bottom: -10px;
 }
 
-.paginationDotsContainer--contentBanner{
-    bottom: -10px;
-}
-
-.paginationDot--contentBanner{
-    padding: 0;
+.paginationDot--contentBanner {
+  padding: 0;
 }
 
 /*boton slider sneakers party */
-.paginationDot--isActive{
+.paginationDot--isActive {
   background: #FFD400;
 }
 
-.sliderArrows{
-    height: 40px;
-    width: 40px;
-    padding: 10px;
-    background: #E2E8F0 !important;
-    border-radius: 50%;
+.sliderArrows {
+  height: 40px;
+  width: 40px;
+  padding: 10px;
+  background: #E2E8F0 !important;
+  border-radius: 50%;
 }
 
-.paginationDotsContainer{
-    bottom: -1rem;
+.paginationDotsContainer {
+  bottom: -1rem;
 }
 
-.sliderLeftArrow--contentBanner{
-    left: 4%;
+.sliderLeftArrow--contentBanner {
+  left: 4%;
 }
 
-.sliderRightArrow--contentBanner{
-    right: 4%;
+.sliderRightArrow--contentBanner {
+  right: 4%;
 }
 
 /* Baner secundarios */
-.sliderLayoutContainer--contentPromotionalBanner{
-    width: 100% !important;
-    margin: 1.4rem 0;
+.sliderLayoutContainer--contentPromotionalBanner {
+  width: 100% !important;
+  margin: 1.4rem 0;
 }
 
-.paginationDotsContainer--contentPromotionalBanner{
-    bottom: -1.8rem;
+.paginationDotsContainer--contentPromotionalBanner {
+  bottom: -1.8rem;
 }
 
-.paginationDot--contentPromotionalBanner{
-    margin: 0 .5rem
+.paginationDot--contentPromotionalBanner {
+  margin: 0 .5rem
 }
 
-@media only screen and (max-width: 759px){
-    .sliderLayoutContainer--contentPromotionalBanner{
-        justify-content: flex-end;
-    }
-
-    .sliderTrackContainer--contentPromotionalBanner{
-        width: 96%;
-    }
-
-    .sliderLayoutContainer--contentBanner{
-      margin-bottom: 10px;
-  }
+.imageElementLink--contentPromotionalBanner {
+  width: 100%;
 }
 
-@media only screen and (min-width: 740px){
-    .sliderLayoutContainer--contentPromotionalBanner{
-        width: 93% !important;
-    }
+.slide--contentPromotionalBanner {
+  width: 9% !important;
+  margin-left: 0 !important;
+  margin-right: 1.3% !important;
 }
 
-.imageElementLink--contentPromotionalBanner{
-    width: 100%;
+.sliderLayoutContainer--contentCategoryBanner {
+  width: 100% !important;
+  margin: 1.4rem 0;
 }
 
-.slide--contentPromotionalBanner{
-    width: 9% !important;
-    margin-left: 0 !important;
-    margin-right: 1.3% !important;
+.imageElementLink--contentCategoryBanner {
+  width: 100%;
 }
 
-.sliderLayoutContainer--contentCategoryBanner{
-    width: 100% !important;
-    margin: 1.4rem 0;
+.slide--contentCategoryBanner {
+  width: 11.5% !important;
+  margin-left: 0 !important;
+  margin-right: 1% !important;
 }
 
-@media only screen and (max-width: 759px){
-    .sliderLayoutContainer--contentCategoryBanner{
-        justify-content: flex-end;
-    }
-    .sliderTrackContainer--contentCategoryBanner{
-        width: 93%;
-    }
+.paginationDotsContainer--contentBanner {
+  bottom: 8%;
+  left: -80%;
 }
 
-@media only screen and (min-width: 740px){
-    .sliderLayoutContainer--contentCategoryBanner{
-        width: 93% !important;
-    }
+.caretIcon {
+  height: 10px !important;
+  width: 10px !important;
 }
 
-.imageElementLink--contentCategoryBanner{
-    width: 100%;
+:global(.vtex-flex-layout-0-x-flexRowContent--sliderContentShelf) .sliderArrows {
+  top: 25%;
 }
 
-.slide--contentCategoryBanner{
-    width: 11.5% !important;
-    margin-left: 0 !important;
-    margin-right: 1% !important;
+:global(.vtex-flex-layout-0-x-flexRowContent--sliderContentShelf) .sliderRightArrow {
+  right: -1%;
 }
 
-.paginationDotsContainer--contentBanner{
-    bottom: 8%;
-    left: -80%;
-}
-
-.caretIcon{
-    height: 10px !important;
-    width: 10px !important;
-}
-
-:global(.vtex-flex-layout-0-x-flexRowContent--sliderContentShelf) .sliderArrows{
-    top: 25%;
-}
-
-:global(.vtex-flex-layout-0-x-flexRowContent--sliderContentShelf) .sliderRightArrow{
-    right: -1%;
-}
-
-:global(.vtex-flex-layout-0-x-flexRowContent--sliderContentShelf) .sliderLeftArrow{
-    left: -1%;
+:global(.vtex-flex-layout-0-x-flexRowContent--sliderContentShelf) .sliderLeftArrow {
+  left: -1%;
 }
 
 
-.sliderLayoutContainer--slider-new-balance{
-    margin: .3rem 0 3rem 0;
+.sliderLayoutContainer--slider-new-balance {
+  margin: .3rem 0 3rem 0;
 }
 
-.slide--slider-new-balance{
-    margin-right: 1% !important;
-    margin-left: 0 !important;
-    width: 9% !important;
+.slide--slider-new-balance {
+  margin-right: 1% !important;
+  margin-left: 0 !important;
+  width: 9% !important;
 }
 
-.paginationDotsContainer--slider-new-balance{
-    bottom: -1.5rem;
+.paginationDotsContainer--slider-new-balance {
+  bottom: -1.5rem;
 }
 
-.sliderTrack--slider-new-balance{
-    margin-top: .2rem;
-    margin-left: 1.5rem;
+.sliderTrack--slider-new-balance {
+  margin-top: .2rem;
+  margin-left: 1.5rem;
 
 }
 
 
-.sliderLayoutContainer--departmenBannerSlide{
-    margin: .3rem 0 3rem 0;
+.sliderLayoutContainer--departmenBannerSlide {
+  margin: .3rem 0 3rem 0;
 }
 
-.slide--departmenBannerSlide{
-    margin-right: 1% !important;
-    margin-left: 0 !important;
-    width: 9% !important;
+.slide--departmenBannerSlide {
+  margin-right: 1% !important;
+  margin-left: 0 !important;
+  width: 9% !important;
 }
 
-.slide--departmenBannerSlide-ecobag{
-    margin-right: 0.3625%!important;
-    margin-left: 0 !important;
-    width: 12% !important;
+.slide--departmenBannerSlide-ecobag {
+  margin-right: 0.3625% !important;
+  margin-left: 0 !important;
+  width: 12% !important;
 }
 
-.sliderTrack--departmenBannerSlide-ecobag{
-    margin-top: .2rem;
-    margin-left: 3.6rem;
+.sliderTrack--departmenBannerSlide-ecobag {
+  margin-top: .2rem;
+  margin-left: 3.6rem;
 }
 
-.paginationDotsContainer--departmenBannerSlide-ecobag{
-    bottom: -1.5rem;
-    display: none  !important;
+.paginationDotsContainer--departmenBannerSlide-ecobag {
+  bottom: -1.5rem;
+  display: none !important;
 }
 
-.paginationDotsContainer--departmenBannerSlide{
-    bottom: -1.5rem;
+.paginationDotsContainer--departmenBannerSlide {
+  bottom: -1.5rem;
 }
 
-.sliderTrack--departmenBannerSlide{
-    margin-top: .2rem;
-    margin-left: 1.5rem;
+.sliderTrack--departmenBannerSlide {
+  margin-top: .2rem;
+  margin-left: 1.5rem;
 }
 
-@media only screen and (max-width: 1020px){
-  .paginationDotsContainer--contentBanner{
-    bottom: 4%;
-    left: 0%;
-  }
+.sliderLayoutContainer--contentSlideBrand {
+  width: 90% !important;
+  margin: 1rem auto 1rem auto;
 }
 
-@media only screen and (min-width: 740px){
-    .sliderLayoutContainer--departmenBannerSlide{
-        margin: 1rem 0 2rem 0;
-    }
-
-    .sliderLayoutContainer--slider-new-balance{
-        margin: 1rem 0 2rem 0;
-        background-color: #f0eced;
-    }
-
-    .slide--promBannerContent:nth-child(odd){
-        width: 14.15% !important;
-        margin-left: 1% !important;
-        margin-right: 0 !important;
-    }
-
-    .slide--promBannerContent:nth-child(even){
-        width: 9% !important;
-        margin-left: 1% !important;
-        margin-right: 0 !important;
-    }
-
-    .sliderLeftArrow--promBannerContent{
-        left: 15px;
-        top: 13rem;
-    }
-
-    .sliderRightArrow--promBannerContent{
-        right: 15px;
-        top: 13rem;
-    }
-
-    .paginationDot--promBannerContent{
-        height: 1rem !important;
-        width: 1rem !important;
-        margin: 0 .7rem;
-    }
+.sliderLeftArrow--contentSlideBrand {
+  left: -15px;
 }
 
-@media only screen and (min-width: 1180px){
-    .slide--promBannerContent:nth-child(odd){
-        width: 26% !important;
-        margin-left: .8% !important;
-        margin-right: 0 !important;
-    }
-
-    .slide--promBannerContent:nth-child(even){
-        width: 16.5% !important;
-        margin-left: .8% !important;
-        margin-right: 0 !important;
-    }
+.sliderRightArrow--contentSlideBrand {
+  right: -15px;
 }
 
-.sliderLayoutContainer--contentSlideBrand{
-    width: 90% !important;
-    margin: 1rem auto 1rem auto;
-  }
-
-.sliderLeftArrow--contentSlideBrand{
-    left: -15px;
-}
-
-.sliderRightArrow--contentSlideBrand{
-    right: -15px;
-}
-
-.sliderArrows--contentSlideBrand{
-    padding: 0;
-    background: transparent !important;
+.sliderArrows--contentSlideBrand {
+  padding: 0;
+  background: transparent !important;
 }
 
 
-.sliderArrows--contentSlideBrand .caretIcon{
-    height: 23px !important;
-    width: 23px !important;
-}
-
-@media only screen and (min-width: 740px){
-    .sliderLayoutContainer--contentSlideBrand{
-        width: 92% !important;
-    }
-
-    .sliderLeftArrow--contentSlideBrand{
-        left: -17px;
-    }
-
-    .sliderRightArrow--contentSlideBrand{
-        right: -17px;
-    }
-}
-
-@media only screen and (min-width: 740px){
-    .sliderLayoutContainer--contentSlideBrand{
-        width: 76% !important;
-    }
-
-    .sliderLeftArrow--contentSlideBrand{
-        left: -35px;
-    }
-
-    .sliderRightArrow--contentSlideBrand{
-        right: -35px;
-    }
-}
-
-
-@media screen and (max-width: 768px) {
-  .sliderTrack--vitrine-sale {
-    flex-wrap: wrap;
-  }
-
-  .slide--vitrine-sale {
-    width: 50% !important;
-    margin-bottom: 1rem;
-  }
+.sliderArrows--contentSlideBrand .caretIcon {
+  height: 23px !important;
+  width: 23px !important;
 }
 
 .sliderTrackContainer--sub-banners-sale {
@@ -364,7 +202,7 @@
 }
 
 .slide--carrouselFragancias {
-    margin-bottom: 1%;
+  margin-bottom: 1%;
 }
 
 .sneaker-recomendador {
@@ -376,27 +214,101 @@
 
 }
 
-.imageElementLink--colecciones{
+.imageElementLink--colecciones {
   width: 100%;
 }
 
 /***landing sobre nosotros**/
 .slide--marca-sobre-nosotros-2024 {
-    border: 1px solid #EAE7E7;
-    border-radius: 12px;
-    margin-right: 10px;
+  border: 1px solid #EAE7E7;
+  border-radius: 12px;
+  margin-right: 10px;
 }
+
 .slide--marca-sobre-nosotros-2024 {
-    background-color: #fff;
+  background-color: #fff;
 }
+
 /*****OUTFITS****/
-.slide--outfits--lastVisible, .slide--outfits--visible {
-    margin: 0 7px;
+.slide--outfits--lastVisible,
+.slide--outfits--visible {
+  margin: 0 7px;
 }
 
 /*Banners Categorias Home*/
 .slide--bannersCategorias {
   max-width: 291px !important;
+}
+
+/*slider layout top header*/
+
+/****SLIDER DE MARCAS EN TENIS****/
+.sliderArrows--slider-marcas-tenis {
+  height: 30px !important;
+  width: 30px !important;
+}
+
+/* ==========================================================================
+   MEDIA QUERIES (DESDE AQUÍ)
+   Se sigue el enfoque mobile-first. Mantén esta estructura y el orden
+   para asegurar que las reglas específicas sobrescriban correctamente los estilos base.
+   ========================================================================== */
+
+/* Estilos para pantallas(tablet y dispositivos superiores) */
+/* === MAX-WIDTH === */
+
+@media only screen and (max-width: 760px) {
+  .slide--contentSlide {
+    width: 7.21% !important;
+    margin-left: 0.32125% !important;
+    margin-right: 0.32125% !important;
+  }
+
+  .sliderArrows--contentBanner {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 759px) {
+  .sliderLayoutContainer--contentPromotionalBanner {
+    justify-content: flex-end;
+  }
+
+  .sliderTrackContainer--contentPromotionalBanner {
+    width: 96%;
+  }
+
+  .sliderLayoutContainer--contentBanner {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 759px) {
+  .sliderLayoutContainer--contentCategoryBanner {
+    justify-content: flex-end;
+  }
+
+  .sliderTrackContainer--contentCategoryBanner {
+    width: 93%;
+  }
+}
+
+@media only screen and (max-width: 1020px) {
+  .paginationDotsContainer--contentBanner {
+    bottom: 4%;
+    left: 0%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .sliderTrack--vitrine-sale {
+    flex-wrap: wrap;
+  }
+
+  .slide--vitrine-sale {
+    width: 50% !important;
+    margin-bottom: 1rem;
+  }
 }
 
 @media screen and (max-width: 1366px) {
@@ -413,25 +325,117 @@
   }
 }
 
-/*slider layout top header*/
-
-
-
-@media (min-width: 1024px) {  
-    .sliderTrackContainer--slider__header__top2 {
-        height: 40px;
-        background: #111111;
-    }
-}
-@media (max-width: 767px) {  
-    .sliderTrackContainer--slider__header__top2 {
-        height: 20px;
-        background: #111111;
-    }
+@media (min-width: 1024px) {
+  .sliderTrackContainer--slider__header__top2 {
+    height: 40px;
+    background: #111111;
+  }
 }
 
-/****SLIDER DE MARCAS EN TENIS****/
-.sliderArrows--slider-marcas-tenis {
-    height: 30px !important;
-    width: 30px !important;
+/* === MIN-WIDTH === */
+
+@media only screen and (min-width: 740px) {
+  .sliderLayoutContainer--contentSlide {
+    width: 85% !important;
+  }
+}
+
+@media only screen and (min-width: 740px) {
+  .sliderLayoutContainer--contentPromotionalBanner {
+    width: 93% !important;
+  }
+}
+
+@media only screen and (min-width: 740px) {
+  .sliderLayoutContainer--contentCategoryBanner {
+    width: 93% !important;
+  }
+}
+
+@media only screen and (min-width: 740px) {
+  .sliderLayoutContainer--departmenBannerSlide {
+    margin: 1rem 0 2rem 0;
+  }
+
+  .sliderLayoutContainer--slider-new-balance {
+    margin: 1rem 0 2rem 0;
+    background-color: #f0eced;
+  }
+
+  .slide--promBannerContent:nth-child(odd) {
+    width: 14.15% !important;
+    margin-left: 1% !important;
+    margin-right: 0 !important;
+  }
+
+  .slide--promBannerContent:nth-child(even) {
+    width: 9% !important;
+    margin-left: 1% !important;
+    margin-right: 0 !important;
+  }
+
+  .sliderLeftArrow--promBannerContent {
+    left: 15px;
+    top: 13rem;
+  }
+
+  .sliderRightArrow--promBannerContent {
+    right: 15px;
+    top: 13rem;
+  }
+
+  .paginationDot--promBannerContent {
+    height: 1rem !important;
+    width: 1rem !important;
+    margin: 0 .7rem;
+  }
+}
+
+@media only screen and (min-width: 1180px) {
+  .slide--promBannerContent:nth-child(odd) {
+    width: 26% !important;
+    margin-left: .8% !important;
+    margin-right: 0 !important;
+  }
+
+  .slide--promBannerContent:nth-child(even) {
+    width: 16.5% !important;
+    margin-left: .8% !important;
+    margin-right: 0 !important;
+  }
+}
+
+@media only screen and (min-width: 740px) {
+  .sliderLayoutContainer--contentSlideBrand {
+    width: 92% !important;
+  }
+
+  .sliderLeftArrow--contentSlideBrand {
+    left: -17px;
+  }
+
+  .sliderRightArrow--contentSlideBrand {
+    right: -17px;
+  }
+}
+
+@media only screen and (min-width: 740px) {
+  .sliderLayoutContainer--contentSlideBrand {
+    width: 76% !important;
+  }
+
+  .sliderLeftArrow--contentSlideBrand {
+    left: -35px;
+  }
+
+  .sliderRightArrow--contentSlideBrand {
+    right: -35px;
+  }
+}
+
+@media (max-width: 767px) {
+  .sliderTrackContainer--slider__header__top2 {
+    height: 20px;
+    background: #111111;
+  }
 }

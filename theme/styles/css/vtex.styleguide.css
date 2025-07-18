@@ -1,22 +1,32 @@
-.progressHeight{
-    overflow: visible;
-    height: 5px;
+.progressHeight {
+  overflow: visible;
+  height: 5px;
 }
 
-.progressHeight .progressHeight{
-    background: #DD0B3D;
-    position: relative;
+.progressHeight .progressHeight {
+  background: #DD0B3D;
+  position: relative;
 }
 
-.progressHeight .progressHeight::after{
-    content: '';
-    top: 50%;
-    right: -6px;
-    transform: translateY(-50%);
-    width: 13px;
-    height: 13px;
-    background: #DD0B3D;
-    position: absolute;
-    z-index: 5;
-    border-radius: 50%;
+.progressHeight .progressHeight::after {
+  content: '';
+  top: 50%;
+  right: -6px;
+  transform: translateY(-50%);
+  width: 13px;
+  height: 13px;
+  background: #DD0B3D;
+  position: absolute;
+  z-index: 5;
+  border-radius: 50%;
 }
+
+/* ==========================================================================
+   MEDIA QUERIES (DESDE AQUÍ)
+   Se sigue el enfoque mobile-first. Mantén esta estructura y el orden
+   para asegurar que las reglas específicas sobrescriban correctamente los estilos base.
+   ========================================================================== */
+
+/* Estilos para pantallas(tablet y dispositivos superiores) */
+/* === MAX-WIDTH === */
+/* === MIN-WIDTH === */

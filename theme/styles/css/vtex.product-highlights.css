@@ -1,447 +1,326 @@
 .productHighlightWrapper {
-    font-size: 0;
+  font-size: 0;
 }
 
-
-
-
-  /*flag primaton abril 2025*/
-
-.productHighlightWrapper [data-highlight-id="2151"]{
-    width: 40px;
-    height: 40px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-image: url(/arquivos/Pilatos-2025-primaton-flag.jpg);
-    display: block;
+/*flag primaton abril 2025*/
+.productHighlightWrapper [data-highlight-id="2151"] {
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(/arquivos/Pilatos-2025-primaton-flag.jpg);
+  display: block;
 }
-
-@media (max-width: 768px) {
-    .productHighlightWrapper [data-highlight-id="2151"]{
-        position: absolute !important;
-        top: 0;
-        left: 0 !important;
-
-    }
-
-  }
-
 
 /*flag addi abril 2025*/
-
-.productHighlightWrapper [data-highlight-id="2090"]{
-    width: 40px;
-    height: 40px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-image: url(/arquivos/PILATOS_ADDI_FLAG.png);
-    display: block;
+.productHighlightWrapper [data-highlight-id="2090"] {
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(/arquivos/PILATOS_ADDI_FLAG.png);
+  display: block;
 }
-
-@media (max-width: 768px) {
-    .productHighlightWrapper [data-highlight-id="2090"]{
-        position: absolute !important;
-        top: 0;
-        left: 0 !important;
-      
-    }
-    
-  }
-
-
-
-
-
- 
 
 /* hotdays */
-
-.productHighlightWrapper [data-highlight-id="2072"]{
-    width: 40px;
-    height: 40px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-image: url(/arquivos/Pilatos-HotDays-Febrero-2025-flag.jpg);
-    display: block;
+.productHighlightWrapper [data-highlight-id="2072"] {
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(/arquivos/Pilatos-HotDays-Febrero-2025-flag.jpg);
+  display: block;
 }
 
-@media (max-width: 768px) {
-    .productHighlightWrapper [data-highlight-id="2072"]{
-        position: absolute !important;
-        top: 0;
-        left: 0 !important;
-      
-    }
-    
-  }
-
-
-
 /* sale enero 2025 */
-
-.productHighlightWrapper [data-highlight-id="2022"]{
-    width: 40px;
-    height: 40px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-image: url(/arquivos/PILATOS-SALE_Flag.png);
-    display: block;
+.productHighlightWrapper [data-highlight-id="2022"] {
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(/arquivos/PILATOS-SALE_Flag.png);
+  display: block;
 }
 
 /* Bancolombia diciembre 2024 */
-
-.productHighlightWrapper [data-highlight-id="2000"]{
-    width: 40px;
-    height: 40px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-image: url(/arquivos/Flag-Bancolombia_Dic2024.png);
-    display: block;
+.productHighlightWrapper [data-highlight-id="2000"] {
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(/arquivos/Flag-Bancolombia_Dic2024.png);
+  display: block;
 }
-
-/* .productHighlightWrapper [data-highlight-id="2001"]{
-    width: 40px;
-    height: 40px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-image: url(/arquivos/Flag-Bancolombia_Dic2024.png);
-    display: block;
-}
-
-.productHighlightWrapper [data-highlight-id="2002"]{
-    width: 40px;
-    height: 40px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-image: url(/arquivos/Flag-Bancolombia_Dic2024.png);
-    display: block;
-} */
-
-
 
 /*flag dia sin iva*/
-
-.productHighlightWrapper [data-highlight-id="1171"]{
-    font-size: 0;
-    /*width: 40px;
-    height: 40px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-image: url(/arquivos/flag-dsi-Pilatos.png);
-    display: block;*/
+.productHighlightWrapper [data-highlight-id="1171"] {
+  font-size: 0;
 }
 
-/* .productHighlightWrapper [data-highlight-id="1341"]{
-    width: 40px;
-    height: 40px;
-    background-size: contain;
-    background-repeat: no-repeat;
-   background-image: url(/arquivos/Pilatos-BlackFriday-Flag.jpg);
-    display: block;
-} */
-
-.productHighlightWrapper [data-highlight-id="1291"]{
-    width: 26px;
-    height: 70px;
-    background-size: contain;
-    background-repeat: no-repeat;
-   background-image: url(/arquivos/Pilatos-BlackFriday-Flag.jpg);
-    display: none;
+.productHighlightWrapper [data-highlight-id="1291"] {
+  width: 26px;
+  height: 70px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(/arquivos/Pilatos-BlackFriday-Flag.jpg);
+  display: none;
 }
 
-
-.productHighlightWrapper [data-highlight-id="1661"]{
-    width: 35px;
-    height: 35px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    /*background-image: url(/arquivos/Pilatos-FlagNuevo-Circular.png);*/
-    background-image: url(/arquivos/Pilatos-FlagNuevo1.png);
-    display: block;
-}
-/* Dragon flag 2024 */
-/*.productHighlightWrapper [data-highlight-id="1681"]{
+.productHighlightWrapper [data-highlight-id="1661"] {
   width: 35px;
   height: 35px;
   background-size: contain;
   background-repeat: no-repeat;
-  background-image: url(/arquivos/Pilatos-MightyDragon-Flag.jpg);
+  /*background-image: url(/arquivos/Pilatos-FlagNuevo-Circular.png);*/
+  background-image: url(/arquivos/Pilatos-FlagNuevo1.png);
   display: block;
-}*/
-
-.productHighlightWrapper [data-highlight-id="1654"]{
-    width: 35px;
-    height: 35px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-image: url(/arquivos/FlagBancolombia-Negro.png);
-    display: none;
 }
+
+.productHighlightWrapper [data-highlight-id="1654"] {
+  width: 35px;
+  height: 35px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(/arquivos/FlagBancolombia-Negro.png);
+  display: none;
+}
+
 /* Flag envio gratis */
 .productHighlightWrapper [data-highlight-id="1590"],
 /**Sellers**/
 .productHighlightWrapper [data-highlight-id="1805"],
 /*eliminar despues del 18 de agosto*/
-.productHighlightWrapper [data-highlight-id="1835"]{
-    width: 35px;
-    height: 35px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-image: url(/arquivos/flag-heritage-pilatos.png);
-    display: block;
+.productHighlightWrapper [data-highlight-id="1835"] {
+  width: 35px;
+  height: 35px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(/arquivos/flag-heritage-pilatos.png);
+  display: block;
 }
 
-.productHighlightWrapper [data-highlight-id="1618"]{
-    width: 35px;
-    height: 35px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-image: url(/arquivos/flag-heritage-pilatos.png);
-    display: block;
+.productHighlightWrapper [data-highlight-id="1618"] {
+  width: 35px;
+  height: 35px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(/arquivos/flag-heritage-pilatos.png);
+  display: block;
 }
 
 /* activar cuando se acabe bancolombia de octubre 2023 */
-.productHighlightWrapper [data-highlight-id="1482"]{
-    width: 35px;
-    height: 35px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-image: url(/arquivos/pilatos-flag-sostenible-new-balance.png);
-    display: block;
-}
-.productHighlightWrapper [data-highlight-id="1799"]{
-    width: 35px;
-    height: 35px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-image: url(/arquivos/FlagBancolombia-Negro.png);
-    display:none
+.productHighlightWrapper [data-highlight-id="1482"] {
+  width: 35px;
+  height: 35px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(/arquivos/pilatos-flag-sostenible-new-balance.png);
+  display: block;
 }
 
+.productHighlightWrapper [data-highlight-id="1799"] {
+  width: 35px;
+  height: 35px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(/arquivos/FlagBancolombia-Negro.png);
+  display: none;
+}
 
 /* FLAG DESACTIVADOS POR EL BLACK BANCOLOMBIA*/
-.productHighlightWrapper [data-highlight-id="1219"]{
-    width: 40px;
-    height: 40px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-image: url(/arquivos/BTS-FLAGS-VERD-KIPLING.png);
-    display: none;
+.productHighlightWrapper [data-highlight-id="1219"] {
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(/arquivos/BTS-FLAGS-VERD-KIPLING.png);
+  display: none;
 }
 
-.productHighlightWrapper [data-highlight-id="1240"]{
-    width: 40px;
-    height: 40px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-image: url(/arquivos/Pilatos-Camuflaje-Flag.png);
-    display: none;
+.productHighlightWrapper [data-highlight-id="1240"] {
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(/arquivos/Pilatos-Camuflaje-Flag.png);
+  display: none;
 }
 
-.productHighlightWrapper [data-highlight-id="1242"]{
-    width: 40px;
-    height: 40px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-image: url(/arquivos/Pilatos-Sostenible-Flag2.png);
-    display: none;
+.productHighlightWrapper [data-highlight-id="1242"] {
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(/arquivos/Pilatos-Sostenible-Flag2.png);
+  display: none;
 }
 
-.productHighlightWrapper [data-highlight-id="1263"]{
-    width: 40px;
-    height: 40px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-image: url(/arquivos/Pilatos-AnimalPrint-Flag.png);
-    display: none;
+.productHighlightWrapper [data-highlight-id="1263"] {
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(/arquivos/Pilatos-AnimalPrint-Flag.png);
+  display: none;
 }
 
-.productHighlightWrapper [data-highlight-id="1260"]{
-    width: 40px;
-    height: 40px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-image: url(/arquivos/flag-pride.png);
-    display: none;
-    border-radius: 50%;
+.productHighlightWrapper [data-highlight-id="1260"] {
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(/arquivos/flag-pride.png);
+  display: none;
+  border-radius: 50%;
 }
 
 /*Flag exclusivo online**/
-.productHighlightWrapper [data-highlight-id="1717"]{
-    width: 40px;
-    height: 40px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-image: url(/arquivos/Pilatos-FlagExclusivoOnlineNuevo.jpg);
-    display: block;
+.productHighlightWrapper [data-highlight-id="1717"] {
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(/arquivos/Pilatos-FlagExclusivoOnlineNuevo.jpg);
+  display: block;
 }
-
-/* .productHighlightWrapper [data-highlight-id="1906"]{
-    width: 35px;
-    height: 35px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-image: url(/arquivos/Pilatos-Flag3X2.png);
-    display: block;
-} */
-
-/*
-.productHighlightWrapper [data-highlight-id="1227"]{
-    width: 50px;
-    height: 50px;
-    background-size: contain;
-    background-repeat: no-repeat;
-   background-image: url(/arquivos/PILATOS-dsi.png);
-    display: block;
-}
-.productHighlightWrapper [data-highlight-id="1151"]{
-    font-size: 9px;
-    background: #ffc600;
-    padding: 5px 5px;
-    font-weight: 800;
-} */
-
 
 /*Flag bancolombia 2024-2*/
-
-.productHighlightWrapper [data-highlight-id="1932"]{
-    width: 46px;
-    height: 46px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-image: url(/arquivos/Diesel-Flag-Bancolombia-3.png);
-    display: block;
+.productHighlightWrapper [data-highlight-id="1932"] {
+  width: 46px;
+  height: 46px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(/arquivos/Diesel-Flag-Bancolombia-3.png);
+  display: block;
 }
-
-@media (max-width: 768px) {
-    .productHighlightWrapper [data-highlight-id="1932"] {
-      width: 35px; /* Ajusta el tamaño para mobile */
-      height: 35px;
-
-    }
-  }
-
 
 /*FIN bancolombia 2024-2*/
 
-
 /*Flag blackdays 2024-2*/
-
-.productHighlightWrapper [data-highlight-id="1956"]{
-    width: 46px;
-    height: 46px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-image: url(/arquivos/FLAG-blakcdays-todas.jpg);
-    display: block;
+.productHighlightWrapper [data-highlight-id="1956"] {
+  width: 46px;
+  height: 46px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(/arquivos/FLAG-blakcdays-todas.jpg);
+  display: block;
 }
-
-@media (max-width: 768px) {
-    .productHighlightWrapper [data-highlight-id="1956"] {
-      width: 45px; /* Ajusta el tamaño para mobile */
-      height: 45px;
-
-    }
-  }
-
 
 /*FIN Flag blackdays 2024-2*/
 
-
-
 /*Flag blackdays PARTE 2 2024-2*/
-
-.productHighlightWrapper [data-highlight-id="1967"]{
-    width: 46px;
-    height: 46px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-image: url(/arquivos/FLAG-blakcdays-todas.jpg);
-    display: block;
+.productHighlightWrapper [data-highlight-id="1967"] {
+  width: 46px;
+  height: 46px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(/arquivos/FLAG-blakcdays-todas.jpg);
+  display: block;
 }
-
-@media (max-width: 768px) {
-    .productHighlightWrapper [data-highlight-id="1967"] {
-      width: 45px; /* Ajusta el tamaño para mobile */
-      height: 45px;
-
-    }
-  }
-
 
 /*FIN Flag blackdays PARTE 2 2024-2*/
 
-
 /******FLAG 30% PEPE JEANS****/
-.productHighlightWrapper [data-highlight-id="1663"]{
-    width: 46px;
-    height: 46px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-image: url(/arquivos/FlagnuevoPilatos.png);
-    display: block;
+.productHighlightWrapper [data-highlight-id="1663"] {
+  width: 46px;
+  height: 46px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(/arquivos/FlagnuevoPilatos.png);
+  display: block;
 }
-
-@media (max-width: 768px) {
-    .productHighlightWrapper [data-highlight-id="1663"] {
-      width: 45px; /* Ajusta el tamaño para mobile */
-      height: 45px;
-
-    }
-  }
 
 /******FLAG 30% PEPE JEANS****/
 
 /******FLAG Quick Sale****/
-.productHighlightWrapper [data-highlight-id="2120"]{
-    width: 40px;
-    height: 40px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-image: url(/arquivos/quicksale-jun-Flag.jpg);
-    display: block;
+.productHighlightWrapper [data-highlight-id="2120"] {
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(/arquivos/quicksale-jun-Flag.jpg);
+  display: block;
 }
-
-@media (max-width: 768px) {
-    .productHighlightWrapper [data-highlight-id="2120"] {
-      width: 35px; /* Ajusta el tamaño para mobile */
-      height: 35px;
-
-    }
-  }
 
 /******FLAG Quick Sale****/
 
 /******FLAG BLACKDAYS****/
-/*.productHighlightWrapper [data-highlight-id="2120"]{
-    width: 40px;
-    height: 40px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-image: url(/arquivos/Pilatos-BlackDays-mayo-2025-flag.jpg);
-    display: block;
-}
-
-@media (max-width: 768px) {
-    .productHighlightWrapper [data-highlight-id="2120"] {
-      width: 35px;
-      height: 35px;
-
-    }
-  }*/
 
 /******FLAG BLACKDAYS****/
 
+.productHighlightWrapper [data-highlight-id="1189"] {
+  font-size: 0;
+}
 
-.productHighlightWrapper [data-highlight-id="1189"]{
-    font-size: 0;
+.productHighlightWrapper [data-highlight-id="1190"] {
+  font-size: 0;
 }
-.productHighlightWrapper [data-highlight-id="1190"]{
-    font-size: 0;
+
+.productHighlightWrapper [data-highlight-id="1191"] {
+  font-size: 0;
 }
-.productHighlightWrapper [data-highlight-id="1191"]{
-    font-size: 0;
+
+.productHighlightWrapper [data-highlight-id="1192"] {
+  font-size: 0;
 }
-.productHighlightWrapper [data-highlight-id="1192"]{
-    font-size: 0;
+
+/* ==========================================================================
+   MEDIA QUERIES (DESDE AQUÍ)
+   Se sigue el enfoque mobile-first. Mantén esta estructura y el orden
+   para asegurar que las reglas específicas sobrescriban correctamente los estilos base.
+   ========================================================================== */
+
+/* Estilos para pantallas(tablet y dispositivos superiores) */
+/* === MAX-WIDTH === */
+
+@media (max-width: 768px) {
+  .productHighlightWrapper [data-highlight-id="2151"] {
+    position: absolute !important;
+    top: 0;
+    left: 0 !important;
+  }
+
+  .productHighlightWrapper [data-highlight-id="2090"] {
+    position: absolute !important;
+    top: 0;
+    left: 0 !important;
+  }
+
+  .productHighlightWrapper [data-highlight-id="2072"] {
+    position: absolute !important;
+    top: 0;
+    left: 0 !important;
+  }
+
+  .productHighlightWrapper [data-highlight-id="1932"] {
+    width: 35px;
+    /* Ajusta el tamaño para mobile */
+    height: 35px;
+  }
+
+  .productHighlightWrapper [data-highlight-id="1956"] {
+    width: 45px;
+    /* Ajusta el tamaño para mobile */
+    height: 45px;
+  }
+
+  .productHighlightWrapper [data-highlight-id="1967"] {
+    width: 45px;
+    /* Ajusta el tamaño para mobile */
+    height: 45px;
+  }
+
+  .productHighlightWrapper [data-highlight-id="1663"] {
+    width: 45px;
+    /* Ajusta el tamaño para mobile */
+    height: 45px;
+  }
+
+  .productHighlightWrapper [data-highlight-id="2120"] {
+    width: 35px;
+    /* Ajusta el tamaño para mobile */
+    height: 35px;
+  }
 }
+
+/* === MIN-WIDTH === */
