@@ -52,3 +52,6 @@
   margin-bottom: 0;
 }
 }
+.flexRowContent--video-container-colombiamoda :global(.vtex-store-video-1-x-videoContainer--videoEl) {
+  border: 0;
+}

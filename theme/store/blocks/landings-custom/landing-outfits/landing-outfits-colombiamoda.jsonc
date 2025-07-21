@@ -24,7 +24,8 @@
         "video#video-principal-colombiamoda"
     ],
     "props": {
-        "marginBottom": 4
+        "marginBottom": 4,
+        "blockClass": "video-container-colombiamoda"
     }
   },
   "video#video-principal-colombiamoda": {
@@ -33,9 +34,11 @@
       "height": "600px",
       "loop": false,
       "autoPlay": true,
-      "muted": false,
+      "muted": true,
       "src": "https://www.youtube.com/watch?v=HAFlgha8KYo",
-      "blockClass": "videoEl"
+      "blockClass": "videoEl",
+      "controlsType": "native",
+      "playsInline": true
     }
   },
   /////VIDEO
@@ -185,7 +188,7 @@
         "phone": 2
       },
       "infinite": true,
-      "showNavigationArrows": "desktopOnly",
+      "showNavigationArrows": "always",
       "blockClass": ["carousel", "colombiamoda-slider"]
     }
   }
