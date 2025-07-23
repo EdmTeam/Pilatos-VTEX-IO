@@ -8,7 +8,7 @@
     },
     "flex-layout.row#content-footer-mobile": {
         "children": [
-            "flex-layout.col#news-letter",
+            "experimental__visibility-layout#newsletter-mob",
             "flex-layout.col#menu-item",
             "flex-layout.col#content-footer-mobile",
             "flex-layout.row#logos-mobile"
@@ -18,6 +18,16 @@
             "preserveLayoutOnMobile": false
         }
     },
+
+    "experimental__visibility-layout#newsletter-mob": {
+    "title": "Newsletter MOB",
+    "children": [
+        "flex-layout.col#news-letter"
+    ],
+    "props": {
+      "visible": true
+    }
+  },
 
     "flex-layout.col#news-letter":{
         "children":[

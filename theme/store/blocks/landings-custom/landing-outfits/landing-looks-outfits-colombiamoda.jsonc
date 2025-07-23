@@ -2,6 +2,7 @@
   "store.custom#landing-looks-outfits-colombiamoda": {
     "blocks": [
         "flex-layout.row#seo-outfits-colombiamoda",
+        "flex-layout.row#botones-genero-outfits-colombiamoda",
         "experimental__visibility-layout#carrusel-fits-1-colombiamoda",
         "experimental__visibility-layout#carrusel-fits-2-colombiamoda",
         "experimental__visibility-layout#carrusel-fits-3-colombiamoda",
@@ -9,12 +10,10 @@
         "experimental__visibility-layout#carrusel-fits-5-colombiamoda",
         "experimental__visibility-layout#carrusel-fits-6-colombiamoda",
         "experimental__visibility-layout#carrusel-fits-7-colombiamoda",
-        "experimental__visibility-layout#carrusel-fits-8-colombiamoda",
-        "experimental__visibility-layout#carrusel-fits-9-colombiamoda",
-        "experimental__visibility-layout#carrusel-fits-10-colombiamoda",
         "rich-text#filtro-seo" 
     ]
   },
+
 
     //TEXTO SEO
   "flex-layout.row#seo-outfits-colombiamoda": {
@@ -46,6 +45,37 @@
     }
   },
   //TEXTO SEO
+
+
+  //BOTONES GÉNERO
+  "flex-layout.row#botones-genero-outfits-colombiamoda": {
+    "children": [
+      "flex-layout.col#botones-genero-outfits-colombiamoda"
+    ]
+  },
+  "flex-layout.col#botones-genero-outfits-colombiamoda": {
+    "children": [
+      "rich-text#boton-hombre-fits-outfits-colombiamoda",
+      "rich-text#boton-mujer-fits-outfits-colombiamoda"
+    ],
+    "props": {
+      "blockClass": "botones-fits-jeans-genero"
+    }
+  },
+
+  "rich-text#boton-hombre-fits-outfits-colombiamoda": {
+    "props": {
+      "text": "[Hombre](/)",
+      "blockClass": ["boton-fits-jeans-diesel-genero", "boton-fits-jeans-diesel-hombre-active"]
+    }
+  },
+  "rich-text#boton-mujer-fits-outfits-colombiamoda": {
+    "props": {
+      "text": "[Mujer](/)",
+      "blockClass": ["boton-fits-jeans-diesel-genero"]
+    }
+  },
+  //BOTONES GÉNERO
 
   "experimental__visibility-layout#carrusel-fits-1-colombiamoda": {
     "title": "Crrusel de productos colombia moda fit 1",
@@ -132,6 +162,24 @@
     "title": "Crrusel de productos colombia moda fit 10",
     "children": [
         "flex-layout.row#carrusel-productos-look-colombiamoda-10"
+    ],
+    "props": {
+      "visible": true
+    }
+  },
+  "experimental__visibility-layout#carrusel-fits-11-colombiamoda": {
+    "title": "Crrusel de productos colombia moda fit 11",
+    "children": [
+        "flex-layout.row#carrusel-productos-look-colombiamoda-11"
+    ],
+    "props": {
+      "visible": true
+    }
+  },
+  "experimental__visibility-layout#carrusel-fits-12-colombiamoda": {
+    "title": "Crrusel de productos colombia moda fit 12",
+    "children": [
+        "flex-layout.row#carrusel-productos-look-colombiamoda-12"
     ],
     "props": {
       "visible": true
@@ -235,6 +283,26 @@
         "blockClass": "sliderLookcolombiamoda"
     }
   },
+  "flex-layout.row#carrusel-productos-look-colombiamoda-11": {
+    "children": [
+        "flex-layout.col#imagen-carrusel-look-colombiamoda",
+        "flex-layout.col#carruselLook-fit-colombiamoda"
+    ],
+    "props": {
+        "blockClass": "sliderLookcolombiamoda"
+    }
+  },
+
+  "flex-layout.row#carrusel-productos-look-colombiamoda-12": {
+    "children": [
+        "flex-layout.col#imagen-carrusel-look-colombiamoda",
+        "flex-layout.col#carruselLook-fit-colombiamoda"
+    ],
+    "props": {
+        "blockClass": "sliderLookcolombiamoda"
+    }
+  },
+
 
   "flex-layout.col#imagen-carrusel-look-colombiamoda": {
     "children": [
@@ -254,7 +322,7 @@
   "flex-layout.col#carruselLook-fit-colombiamoda": {
     "title": "carrousel Look",
     "children": [
-      "vtex.product-summary:list-context.product-list#look-recomendador-colombiamoda"
+      "list-context.product-list#look-recomendador-colombiamoda"
     ],
     "props": {
       "blockClass": ["carrouselFit", "sliderLookcolombiamoda-2"],
@@ -262,7 +330,7 @@
     }
   },
 
-  "vtex.product-summary:list-context.product-list#look-recomendador-colombiamoda": {
+  "list-context.product-list#look-recomendador-colombiamoda": {
     "blocks": ["vtex.product-summary:product-summary.shelf#most-viewed"],
     "children": ["slider-layout#home-look-recomendador-colombiamoda"],
     "props": {
@@ -271,6 +339,8 @@
       "maxItems": 10
     }
   },
+  
+
   "slider-layout#home-look-recomendador-colombiamoda": {
     "props": {
       "itemsPerPage": {
