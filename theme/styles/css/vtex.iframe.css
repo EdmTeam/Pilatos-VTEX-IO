@@ -21,10 +21,11 @@
     overflow: hidden;
     width: 100%;
     padding-top: 56.25%;
-    height: 500px;
+    /*height: 500px;*/
+    height: 900px;
 }
 
-@media(max-height: 740px){
+@media(max-height: 768px){
   .container--billyGames {
     height: 700px;
         overflow: hidden;
