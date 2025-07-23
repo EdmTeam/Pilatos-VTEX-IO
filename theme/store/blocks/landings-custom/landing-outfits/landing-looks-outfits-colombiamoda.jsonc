@@ -10,6 +10,7 @@
         "experimental__visibility-layout#carrusel-fits-5-colombiamoda",
         "experimental__visibility-layout#carrusel-fits-6-colombiamoda",
         "experimental__visibility-layout#carrusel-fits-7-colombiamoda",
+        "experimental__visibility-layout#carrusel-fits-8-colombiamoda",
         "rich-text#filtro-seo" 
     ]
   },
@@ -146,7 +147,7 @@
         "flex-layout.row#carrusel-productos-look-colombiamoda-8"
     ],
     "props": {
-      "visible": true
+      "visible": false
     }
   },
   "experimental__visibility-layout#carrusel-fits-9-colombiamoda": {
