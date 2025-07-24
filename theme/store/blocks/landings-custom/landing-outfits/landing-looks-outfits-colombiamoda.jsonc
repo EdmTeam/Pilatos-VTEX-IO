@@ -10,7 +10,7 @@
         "experimental__visibility-layout#carrusel-fits-5-colombiamoda",
         "experimental__visibility-layout#carrusel-fits-6-colombiamoda",
         "experimental__visibility-layout#carrusel-fits-7-colombiamoda",
-        "experimental__visibility-layout#carrusel-fits-8-colombiamoda",
+        "experimental__visibility-layout#carrusel-fits-8--colombiamoda",
         "rich-text#filtro-seo" 
     ]
   },
@@ -141,7 +141,7 @@
       "visible": true
     }
   },
-  "experimental__visibility-layout#carrusel-fits-8-colombiamoda": {
+  "experimental__visibility-layout#carrusel-fits-8--colombiamoda": {
     "title": "Crrusel de productos colombia moda fit 8",
     "children": [
         "flex-layout.row#carrusel-productos-look-colombiamoda-8"
