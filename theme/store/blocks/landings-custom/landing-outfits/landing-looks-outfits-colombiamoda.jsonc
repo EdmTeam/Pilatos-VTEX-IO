@@ -186,6 +186,33 @@
       "visible": true
     }
   },
+  "experimental__visibility-layout#carrusel-fits-13-colombiamoda": {
+    "title": "Crrusel de productos colombia moda fit 13",
+    "children": [
+        "flex-layout.row#carrusel-productos-look-colombiamoda-13"
+    ],
+    "props": {
+      "visible": false
+    }
+  },
+  "experimental__visibility-layout#carrusel-fits-14-colombiamoda": {
+    "title": "Crrusel de productos colombia moda fit 14",
+    "children": [
+        "flex-layout.row#carrusel-productos-look-colombiamoda-14"
+    ],
+    "props": {
+      "visible": false
+    }
+  },
+  "experimental__visibility-layout#carrusel-fits-15-colombiamoda": {
+    "title": "Crrusel de productos colombia moda fit 15",
+    "children": [
+        "flex-layout.row#carrusel-productos-look-colombiamoda-15"
+    ],
+    "props": {
+      "visible": false
+    }
+  },
 
 
 
@@ -295,6 +322,33 @@
   },
 
   "flex-layout.row#carrusel-productos-look-colombiamoda-12": {
+    "children": [
+        "flex-layout.col#imagen-carrusel-look-colombiamoda",
+        "flex-layout.col#carruselLook-fit-colombiamoda"
+    ],
+    "props": {
+        "blockClass": "sliderLookcolombiamoda"
+    }
+  },
+  "flex-layout.row#carrusel-productos-look-colombiamoda-13": {
+    "children": [
+        "flex-layout.col#imagen-carrusel-look-colombiamoda",
+        "flex-layout.col#carruselLook-fit-colombiamoda"
+    ],
+    "props": {
+        "blockClass": "sliderLookcolombiamoda"
+    }
+  },
+  "flex-layout.row#carrusel-productos-look-colombiamoda-14": {
+    "children": [
+        "flex-layout.col#imagen-carrusel-look-colombiamoda",
+        "flex-layout.col#carruselLook-fit-colombiamoda"
+    ],
+    "props": {
+        "blockClass": "sliderLookcolombiamoda"
+    }
+  },
+  "flex-layout.row#carrusel-productos-look-colombiamoda-15": {
     "children": [
         "flex-layout.col#imagen-carrusel-look-colombiamoda",
         "flex-layout.col#carruselLook-fit-colombiamoda"
