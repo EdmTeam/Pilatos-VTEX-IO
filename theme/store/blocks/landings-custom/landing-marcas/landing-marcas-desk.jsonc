@@ -185,9 +185,10 @@
             "rich-text#marcas-titulo-q-t",
             "flex-layout.row#marca-individual-3",
             "flex-layout.row#marca-individual-2",
+            "flex-layout.row#marca-individual-remanence",
             "flex-layout.row#marca-individual-10",
             "flex-layout.row#marca-individual-4",
-                "flex-layout.row#marca-individual-14",
+            "flex-layout.row#marca-individual-14",
             "flex-layout.row#marca-individual-5",
             "flex-layout.row#marca-individual-6",
             

@@ -449,7 +449,7 @@
 
     "rich-text#submenu-desk-department-4-category-28-remanence":{
         "props":{
-            "text": "[Remanence](/remanence)",
+            "text": "[Remanence](/remanence) ![Remanence](/arquivos/logo-remanence.png)",
             "blockClass": "textSubcategory"
         }
     },
