@@ -1,0 +1,61 @@
+{
+  "experimental__visibility-layout#slider-cinta-multibanner-home": {
+    "title": "Slider cinta visibility",
+    "children": ["flex-layout.row#slider-cinta-multibanner-home"],
+    "props": {
+      "visible": false
+    }
+  },
+  "flex-layout.row#slider-cinta-multibanner-home": {
+    "title": "Slider cinta",
+    "children": ["list-context.image-list#slider-cinta-multibanner-home"],
+    "props": {
+        "blockClass": "slider-cinta-home-multibanner",
+        "marginBottom": 2
+    }
+  },
+    "list-context.image-list#slider-cinta-multibanner-home": {
+    "children": ["slider-layout#slider-cinta-multibanner-home"],
+    "props": {
+      "preload": true,
+      "height": 650,
+      "images": [
+        {
+          "loading": "eager",
+          "image": "/arquivos/tu-cuota-desk-prueba.jpg",
+          "mobileImage": "/arquivos/tu-cuota-mob-prueba.png",
+          "description": "imagen aliado 1"
+        },
+        {
+          "loading": "eager",
+          "image": "/arquivos/tu-cuota-desk-prueba.jpg",
+          "mobileImage": "/arquivos/tu-cuota-mob-prueba.png",
+          "description": "imagen aliado 1"
+        },
+        {
+          "loading": "eager",
+          "image": "/arquivos/tu-cuota-desk-prueba.jpg",
+          "mobileImage": "/arquivos/tu-cuota-mob-prueba.png",
+          "description": "imagen aliado 1"
+        }
+      ]
+    }
+  },
+
+  "slider-layout#slider-cinta-multibanner-home": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "autoplay": {
+        "timeout": "3000"
+      },
+      "blockClass": "slider-cinta-multibanner",
+      "showPaginationDots": "never",
+      "showNavigationArrows": "never"
+    }
+  }
+}

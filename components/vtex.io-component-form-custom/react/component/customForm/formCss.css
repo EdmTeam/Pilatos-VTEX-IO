@@ -1,0 +1,309 @@
+/* ====== CONTENEDOR PRINCIPAL ====== */
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+  margin-bottom: 40px;
+}
+
+/* ====== LOGO ====== */
+.logoImage {
+  width: 20%;
+}
+
+/* ====== TEXTOS: TÍTULO, SUBTÍTULO, MENSAJES ====== */
+.customText {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1.10px;
+  color: #343333;
+  margin-top: 1%;
+  margin-bottom: 11px;
+  font-family: 'Mulish', sans-serif;
+}
+
+.subtitleText {
+  font-size: 20px;
+  max-width: 50%;
+  color: #666666;
+  margin-bottom: 20px;
+  text-align: center;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+  font-family: 'Mulish', sans-serif;
+}
+
+.italicText {
+  font-style: italic;
+}
+
+/* ====== LABELS ====== */
+.inputLabel {
+  font-weight: 400;
+  font-size: 20.92px;
+  line-height: 27.99px;
+  color: #343333;
+  margin: 0;
+  margin-bottom: 10px;
+  width: 82%;
+  max-width: 500px;
+  font-family: 'Mulish', sans-serif;
+}
+
+.inputLabelRegister {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 33.99px;
+  color: rgb(52, 51, 51);
+  margin-top: 9%;
+  margin-bottom: 12%;
+  position: relative;
+  font-family: 'Mulish', sans-serif;
+}
+
+/* ====== CAMPOS DE ENTRADA ====== */
+.inputField {
+  width: 534px;
+  height: 41.056427px;
+  border-radius: 6.7px;
+  border: 0.84px solid #000000;
+  margin-bottom: 18px;
+  font-family: Montserrat-Regular;
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+.textareaField {
+  width: 100%;
+  min-height: 180px;
+  resize: vertical;
+}
+
+/* ====== CHECKBOX ====== */
+.checkboxContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 11px auto 29px;
+}
+
+.checkboxInput {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 24px;
+  height: 24px;
+  border: 1px solid #595656;
+  border-radius: 3px;
+  position: relative;
+  background-color: white;
+  cursor: pointer;
+}
+
+.checkboxInput:checked::after {
+  content: '✔';
+  color: green;
+  font-size: 18px;
+  position: absolute;
+  top: 0;
+  left: 5px;
+}
+
+.checkboxLabel {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16.94px;
+  color: #000000;
+  width: 282px;
+  margin-left: 20px;
+}
+
+/* ====== BOTONES Y ACCIONES ====== */
+.containerButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.submitButton {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  max-width: 400px;
+  padding: 2% 3%;
+  border: none;
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.5;
+  cursor: pointer;
+  text-align: center;
+}
+
+.cancelMessage {
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30.26px;
+  text-align: center;
+  color: #000;
+  margin-top: 6%;
+}
+
+.cancelMessage:hover {
+  color: #525252;
+}
+
+/* ====== MENSAJE DE ÉXITO ====== */
+.successMessageContainer {
+  margin-top: 20px;
+  padding: 10px;
+  border: 2px solid #28a745;
+  border-radius: 8px;
+  text-align: center;
+  background-color: #eaf9f0;
+}
+
+.successMessageWrapper {
+  background-color: #e6f6ea;
+  border-radius: 6px;
+     margin-top: 8px;
+  text-align: center;
+}
+
+.successMessage {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #000;
+  margin: 0;
+}
+
+.successButtonContainer {
+  margin-top: 12px;
+}
+
+.successButton {
+  padding: 6px 16px;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* ====== MEDIA QUERIES RESPONSIVE ====== */
+@media (max-width: 850px) {
+  .logoImage {
+    width: 172px;
+    height: 24.59px;
+  }
+
+  .formContainer {
+    margin-top: 65px;
+    margin-bottom: 43px;
+  }
+
+  .customText {
+    font-size: 19.24px;
+    margin-top: 15px;
+    margin-bottom: 11px;
+  }
+
+  .inputLabel {
+    font-size: 9.48px;
+    line-height: 15.4px;
+    margin-bottom: 3px;
+  }
+
+  .inputField {
+    width: 280px;
+    height: 30px;
+    font-size: 11px;
+    border-radius: 3.03px;
+    border: 0.38px solid #6b6b6b;
+    margin-bottom: 7px;
+  }
+
+  .formWrapper {
+    width: 280px;
+  }
+
+  .checkboxLabel {
+    font-size: 6.34px;
+    line-height: 7.68px;
+    margin-left: 9.02px;
+    width: 135px;
+  }
+
+  .checkboxInput {
+    width: 10.87px;
+    height: 10.87px;
+    border-radius: 1.36px;
+  }
+
+  .checkboxInput:checked::after {
+    font-size: 0.8em;
+    top: -3px;
+    left: 0.1em;
+  }
+
+  .submitButton {
+    width: 170px;
+    height: 26px;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 9px;
+    line-height: 11px;
+  }
+
+  .checkboxContainer {
+    margin-top: 13px;
+    margin-bottom: 13px;
+  }
+
+  .cancelMessage {
+    margin-top: 35px;
+    font-size: 11.32px;
+    line-height: 13.71px;
+    text-align: center;
+  }
+
+  .inputLabelRegister {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .successMessageContainer {
+    padding: 20px 24px;
+    width: 88%;
+  }
+
+  .successMessage {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .inputLabel {
+    font-size: 11.7px;
+  }
+
+  .checkboxLabel {
+    font-size: 9px;
+  }
+
+  .formContainer {
+    margin-top: 16px;
+  }
+
+  .subtitleText {
+    max-width: 97%;
+    font-size: 17px;
+  }
+
+  .textareaField {
+    min-height: 100px;
+  }
+}

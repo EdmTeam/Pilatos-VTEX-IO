@@ -1,0 +1,14 @@
+.wrapper--texto-mercado-pago-plp {
+    font-size: 11px;
+}
+
+.strong--texto-mercado-pago-plp {
+    padding: .25rem .35rem;
+    color: #fff;
+    background-color: #000;
+    border-radius: 3px;
+}
+
+.link--texto-mercado-pago-plp {
+    color: #000;
+}

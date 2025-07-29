@@ -52,14 +52,14 @@
         "props": {
             "pointer": "#/properties/name",
             "label": "Nombre completo",
-            "placeholder": "Ingresa tu nombre completo"
+            "placeholder": "Nombre"
         }
     },
     "form-input.text#welcome-form-email":{
         "props": {
             "pointer": "#/properties/mail",
             "label": "Email",
-            "placeholder": "Ingresa tu email"
+            "placeholder": "Email"
         }
     },
     "form-input.text#welcome-form-birthday":{
@@ -73,7 +73,7 @@
         "props": {
             "pointer": "#/properties/phone",
             "label": "Celular",
-            "placeholder": "Ingresa tu número de celular"
+            "placeholder": "Celular"
         }
     },
     "form-input.text#welcome-form-cedula":{

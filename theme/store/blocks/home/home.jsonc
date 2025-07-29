@@ -4,10 +4,12 @@
       "pa-widget",
       "livestreaming",
       // "modal-trigger#welcome",
+      "experimental__visibility-layout#slider-cinta-multibanner-home", // banner cinta slider
       "flex-layout.row#content-slider",
+      "experimental__visibility-layout#banner-video-colombiamoda", //// Banner video colombiamoda
+      "flex-layout.row#bannerDescuento",
       "responsive-layout.desktop#images__department--desk",
       "responsive-layout.mobile#images__department--mob",
-      "flex-layout.row#bannerDescuento",
       "flex-layout.row#bannersCategorias",
       // [TEMPORAL] Activado para evento live shopping – eliminar tras finalizar el evento.
       //"flex-layout.row#carrusel-productos-colombiamoda-home-live-shopping-1",

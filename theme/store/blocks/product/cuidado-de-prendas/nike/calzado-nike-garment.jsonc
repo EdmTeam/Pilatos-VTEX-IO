@@ -191,7 +191,7 @@
     },
     "rich-text#garment-care-cleaning-use-1-nike-tenis": {
         "props": {
-            "text": "**•  Cepillar en seco:** Usa un cepillo de cerdas suaves o un cepillo de dientes viejo para eliminar la suciedad de la suela exterior, la mediasuela y la parte superior del calzado."
+            "text": "Tenis y sandalias:  Calzado Para garantizar el máximo rendimiento de tu calzado durante más tiempo, te recomendamos que sigas las indicaciones de cuidado, mantenimiento y limpieza. Mantené tu calzado como nuevo con unos sencillos consejos de limpieza: \n\n\n **•  Cepillar en seco:** Eliminá la suciedad de la suela exterior, la mediasuela y la parte superior utilizando un cepillo seco de cerdas suaves para calzado. También puedes utilizar un cepillo de dientes viejo."
         }
     },
     "image#garment-care-cleaning-use-1-nike-tenis": {
@@ -215,7 +215,7 @@
     },
     "rich-text#garment-care-cleaning-use-2-nike-tenis": {
         "props": {
-            "text": "**•  Solución de limpieza:** Mezcla agua tibia con un poco de detergente suave para ropa."
+            "text": "**•  Elaborar una solución de limpieza suave.:** Mezclá agua tibia con una pequeña cantidad de detergente suave para la ropa. "
         }
     },
     "image#garment-care-cleaning-use-2-nike-tenis": {
@@ -239,7 +239,7 @@
     },
     "rich-text#garment-care-cleaning-use-3-nike-tenis": {
         "props": {
-            "text": "**•  Limpiar los cordones:** Quita los cordones, frótalos con la solución de limpieza, enjuágalos y sécalos con un paño suave."
+            "text": "**•  Limpiar los cordones:** Quitá los cordones del calzado y aplicá una pequeña cantidad de la solución de limpieza suave. Frotá los cordones, enjuagalos y secalos con un paño suave. "
         }
     },
     "image#garment-care-cleaning-use-3-nike-tenis": {
@@ -263,7 +263,7 @@
     },
     "rich-text#garment-care-cleaning-use-4-nike-tenis": {
         "props": {
-            "text": "**•  Limpiar las suelas:** Aplica la solución de limpieza con un cepillo de cerdas suaves, frota la suela y la mediasuela, y seca con un paño suave."
+            "text": "**•  Limpiar las suelas:** Aplicá la solución de limpieza con un cepillo de cerdas suaves y, frota la suela y la mediasuela. Seca con un paño suave. "
         }
     },
      /******* item completo recomendación de uso****/
@@ -280,7 +280,7 @@
     },
     "rich-text#garment-care-cleaning-use-5-nike-tenis": {
         "props": {
-            "text": "**•  Limpiar la parte superior:** Usa la solución de limpieza y un cepillo de cerdas suaves o un paño suave. Luego seca con una toalla de microfibra o un paño suave. Repite si es necesario."
+            "text": "**•  Limpiar y secar:** Utilizá la solución de limpieza y un cepillo de cerdas suaves o un paño suave para limpiar la parte superior. Después, utiliza una toalla de microfibra o un paño suave para secarla y eliminar la mayor cantidad posible de suciedad y humedad. Repetí el proceso si fuera necesario. "
         }
     },
      /******* item completo recomendación de uso****/
@@ -297,7 +297,7 @@
     },
     "rich-text#garment-care-cleaning-use-6-nike-tenis": {
         "props": {
-            "text": "**•  Secar al aire libre:** Deja secar el calzado al aire libre a temperatura ambiente."
+            "text": "**•  Secar al aire libre:** Deja secar el calzado al aire libre a temperatura ambiente. No recomendamos meter el calzado en lavarropas o secadora, ni utilizar productos de limpieza agresivos. Para obtener los mejores resultados, limpia tu calzado justo después de que se ensucie."
         }
     }
      /******* item completo recomendación de uso****/

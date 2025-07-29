@@ -2,6 +2,31 @@
     font-size: 0;
 }
 
+
+
+
+  /*flag primaton julio 2025*/
+
+.productHighlightWrapper [data-highlight-id="2170"]{
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(/arquivos/Pilatos-finalsale-julio-2025-flag.jpg);
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .productHighlightWrapper [data-highlight-id="2170"]{
+        position: absolute !important;
+        top: 0;
+        left: 0 !important;
+
+    }
+
+  }
+
+
 /*flag addi abril 2025*/
 
 .productHighlightWrapper [data-highlight-id="2090"]{
@@ -22,6 +47,10 @@
     }
     
   }
+
+
+
+
 
  
 
@@ -364,17 +393,17 @@
 /******FLAG 30% PEPE JEANS****/
 
 /******FLAG Quick Sale****/
-.productHighlightWrapper [data-highlight-id="2108"]{
+.productHighlightWrapper [data-highlight-id="2120"]{
     width: 40px;
     height: 40px;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url(/arquivos/Pilatos-quicksale-mayo-2025-flag.jpg);
+    background-image: url(/arquivos/quicksale-jun-Flag.jpg);
     display: block;
 }
 
 @media (max-width: 768px) {
-    .productHighlightWrapper [data-highlight-id="2108"] {
+    .productHighlightWrapper [data-highlight-id="2120"] {
       width: 35px; /* Ajusta el tamaño para mobile */
       height: 35px;
 
@@ -382,6 +411,26 @@
   }
 
 /******FLAG Quick Sale****/
+
+/******FLAG BLACKDAYS****/
+/*.productHighlightWrapper [data-highlight-id="2120"]{
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(/arquivos/Pilatos-BlackDays-mayo-2025-flag.jpg);
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .productHighlightWrapper [data-highlight-id="2120"] {
+      width: 35px;
+      height: 35px;
+
+    }
+  }*/
+
+/******FLAG BLACKDAYS****/
 
 
 .productHighlightWrapper [data-highlight-id="1189"]{

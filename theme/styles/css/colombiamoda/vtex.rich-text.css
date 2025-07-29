@@ -1,0 +1,58 @@
+.link--colombiamoda-titulo {
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #000;
+    margin-left: 10px;
+    padding: 5px;
+    transition: background-color 0.2s ease-in-out;
+}
+.link--colombiamoda-titulo:hover {
+    background-color: #000;
+    color: #fff !important;
+}
+.strong--colombiamoda-titulo {
+    margin: 0;
+}
+.paragraph--colombiamoda-titulo {
+    margin: 0;
+}
+.container--colombiamoda-titulo {
+    width: 100%;
+}
+.link--btn-colombiamoda-volver {
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+  border: 1px solid #000;
+  padding: 10px;
+  margin: 15px 0;
+  transition: background-color 0.3s ease;
+}
+
+.link--btn-colombiamoda-volver::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url('/arquivos/BackBlackNew.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin-right: 8px;
+  vertical-align: middle;
+  transition: background-image 0.3s ease;
+}
+.link--btn-colombiamoda-volver:hover {
+    color: #fff;
+    background-color: #000;
+}
+.link--btn-colombiamoda-volver:hover::before {
+  background-image: url('/arquivos/BackWhiteNew.png');
+}
+
+@media screen and (max-width: 768px) {
+  .container--colombiamoda-titulo {
+    width: 95%;
+    margin: 0 auto;
+  }
+}

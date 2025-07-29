@@ -80,7 +80,9 @@
       "rich-text#submenu-desk-department-2-category-7-subcategory-11", // Stance
       "rich-text#submenu-desk-department-2-category-7-subcategory-35", //Superga mujer
       "rich-text#submenu-desk-department-2-category-7-subcategory-38", //THE NORTH FACE mujer
-      "rich-text#submenu-desk-department-2-category-7-subcategory-22" //Vans mujer
+      "rich-text#submenu-desk-department-2-category-7-subcategory-38-tennis", //Tennis mujer
+      "rich-text#submenu-desk-department-2-category-7-subcategory-22", //Vans mujer
+      "rich-text#submenu-desk-department-2-category-7-subcategory-22-veja" //Veja mujer
     ],
     "props": {
       "blockClass": "contentBlockSubmenu"
@@ -93,6 +95,14 @@
     "blockClass": "textSubcategory"
   }
 },
+"rich-text#submenu-desk-department-2-category-7-subcategory-38-tennis": {
+  "title": "tennis-desk-mujer",
+  "props": {
+    "text": "[Tennis](/tennis?initialMap=b&initialQuery=tennis&map=category-1,b&query=/mujer/tennis&searchState=)",
+    "blockClass": "textSubcategory"
+  }
+},
+
 "rich-text#submenu-desk-department-4-category-62-2": {
   "title": "blackoud-desk-mujer",
   "props": {
@@ -244,6 +254,13 @@
   "title": "vans-desk-mujer",
   "props": {
     "text": "[Vans](/mujer/vans?map=category-1,marca)",
+    "blockClass": "textSubcategory"
+  }
+},
+"rich-text#submenu-desk-department-2-category-7-subcategory-22-veja": {
+  "title": "vans-desk-mujer",
+  "props": {
+    "text": "[Veja](/veja?initialMap=b&initialQuery=veja&map=category-1,b&query=/mujer/veja&searchState=)",
     "blockClass": "textSubcategory"
   }
 },

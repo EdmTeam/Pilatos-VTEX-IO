@@ -3305,13 +3305,17 @@
   }
 
   .flexRow--sliderContentShelf :global(.vtex-product-price-1-x-savings) {
-    top: 0;
-    left: 16px;
+    /*top: 0;
+    left: 16px;*/
+    top: 7%;
+    left: 0;
   }
 
   .flexRow--sliderContentShelf :global(.vtex-product-price-1-x-savings) :global(.vtex-product-price-1-x-savingsPercentage) {
-    width: 28px;
-    height: 28px;
+    /*width: 28px;
+    height: 28px;*/
+    height: 21px;
+    width: 37px;
   }
 
   /* Footer desktop */
@@ -4157,6 +4161,7 @@
 @media (min-width: 1200px) {
   .flexRowContent--billyGame {
     height: 700px;
+    margin-bottom: 12rem;
   }
 }
 
@@ -4206,9 +4211,10 @@
 
 }
 
-@media (max-width: 740px) {
+@media (max-width: 768px) {
   .flexRowContent--billyGame {
     height: 550px;
+    margin-bottom: 10rem;
   }
 }
 
@@ -4221,12 +4227,15 @@
 }
 
 .flexCol--contenedor-primera-compra-icons .flexColChild--contenedor-primera-compra-icons:first-child {
-  display: none;
+  /*display: none;*/
 }
 
 .flexCol--contenedor-primera-compra-icons .flexColChild--contenedor-primera-compra-icons:last-child::before {
-  content: "•";
-  display: flex;
+  /*content: "•";
+*/  /*display: flex;*/
+}
+.flexColChild--contenedor-primera-compra-icons :global(.vtex-store-components-3-x-imageElement) {
+  display: none;
 }
 
 /*****Estilos cuidados de prendas****/
@@ -4248,8 +4257,6 @@
   margin-top: 2%;
 }
 
-
-
 @media (max-width: 767px) {
   .flexRowContent--medios-de-pagos-pdp {
     display: flex;
@@ -4257,4 +4264,14 @@
     width: 80%;
     margin: 0 auto;
   }
+}
+
+/*Icono x de cerrar en los filtros de la plp*/
+.flexRowContent--contentBtnClose :global(.vtex-store-drawer-0-x-closeIcon--drawer-menu-close-button) {
+  width: 25px !important;
+  height: 25px !important;
+}
+
+.flexColChild--formContainer-dsi :global(.vtex-styleguide-9-x-input)::placeholder {
+  color: #000 !important;
 }

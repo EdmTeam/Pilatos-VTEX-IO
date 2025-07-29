@@ -2,13 +2,19 @@
   "responsive-layout.phone#category-banners": {
     "children": [
       "flex-layout.row#mobile-category-banners"
-    ]
+    ],
+    "props": {
+      "blockClass": "responsive-categorias-banners-mob"
+    }
   },
   "flex-layout.row#mobile-category-banners": {
     "children": [
       "flex-layout.row#category-banners-title",
       "list-context.image-list#category-banner"
-    ]
+    ],
+    "props": {
+      "blockClass": "categoria-banners-mobile-home"
+    }
   },
   "flex-layout.row#category-banners-title": {
     "children": [
@@ -90,13 +96,19 @@
     "children": [
       "flex-layout.row#category-banners-title",
       "flex-layout.row#desk-category-banners"
-    ]
+    ],
+    "props": {
+      "blockClass": "responsive-categorias-banners-desk"
+    }
   },
   "responsive-layout.tablet#category-banners": {
     "children": [
       "flex-layout.row#category-banners-title",
       "flex-layout.row#desk-category-banners"
-    ]
+    ],
+    "props": {
+      "blockClass": "responsive-categorias-banners-tablet"
+    }
   },
   "flex-layout.row#desk-category-banners": {
     "children": [

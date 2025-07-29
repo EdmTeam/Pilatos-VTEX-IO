@@ -226,55 +226,55 @@
                 {
                     "image": "/arquivos/Pilatos-PilarPageTenis-NB.png",
                     "link": {
-                        "url": "/new%20balance%20tenis?_q=new%20balance%20tenis&map=ft"
+                        "url": "/tenis?initialMap=productClusterIds&initialQuery=1770&map=brand,productclusternames&query=/new-balance/tenis&searchState="
                     }
                 },
                 {
                     "image": "/arquivos/Pilatos-PilarPageTenis-Diesel.png",
                     "link": {
-                        "url": "/diesel?initialMap=b&initialQuery=Diesel&map=category-3,brand,marca&query=/tenis/diesel/diesel&searchState"
+                        "url": "/tenis?initialMap=productClusterIds&initialQuery=1770&map=brand,productclusternames&query=/diesel/tenis&searchState="
                     }
                 },
                 {
                     "image": "/arquivos/Pilatos-PilarPageTenis-Nike.png",
                     "link": {
-                        "url": "/nike%20tenis?_q=nike%20tenis&map=ft"
+                        "url": "/tenis?initialMap=productClusterIds&initialQuery=1770&map=brand,productclusternames&query=/nike/tenis&searchState="
                     }
                 },
                 {
                     "image": "/arquivos/Pilatos-PilarPageTenis-LeCoq.png",
                     "link": {
-                        "url": "/le-coq-sportif?initialMap=b&initialQuery=Le-Coq-Sportif&map=category-3,brand&query=/tenis/le-coq-sportif&searchState"
+                        "url": "/tenis?initialMap=productClusterIds&initialQuery=1770&map=brand,productclusternames&query=/le-coq-sportif/tenis&searchState="
                     }
                 },
                 {
                     "image": "/arquivos/Pilatos-PilarPageTenis-Lacoste.png",
                     "link": {
-                        "url": "/lacoste?initialMap=b&initialQuery=lacoste&map=category-3,brand&query=/tenis/lacoste&searchState"
+                        "url": "/tenis?initialMap=productClusterIds&initialQuery=1770&map=brand,productclusternames&query=/lacoste/tenis&searchState="
                     }
                 },
                 {
                     "image": "/arquivos/Pilatos-PilarPageTenis-Vans.png",
                     "link": {
-                        "url": "/vans%20tenis?_q=vans%20tenis&fuzzy=0&initialMap=ft&initialQuery=vans%20tenis&map=category-3,ft&operator=and&query=/tenis/vans%20tenis&searchState"
+                        "url": "/tenis?initialMap=productClusterIds&initialQuery=1770&map=brand,productclusternames&query=/vans/tenis&searchState="
                     }
                 },
                 {
                     "image": "/arquivos/Pilatos-PilarPageTenis-Replay.png",
                     "link": {
-                        "url": "/replay%20tenis?_q=replay%20tenis&fuzzy=0&initialMap=ft&initialQuery=replay%20tenis&map=category-3,ft&operator=and&query=/tenis/replay%20tenis&searchState"
+                        "url": "/tenis?initialMap=productClusterIds&initialQuery=1770&map=brand,productclusternames&query=/replay/tenis&searchState="
                     }
                 },
                 {
                     "image": "/arquivos/Pilatos-PilarPageTenis-Superdry.png",
                     "link": {
-                        "url": "/superdry%20tenis?_q=superdry%20tenis&fuzzy=0&initialMap=ft&initialQuery=superdry%20tenis&map=category-3,ft&operator=and&query=/tenis/superdry%20tenis&searchState"
+                        "url": "/tenis?initialMap=productClusterIds&initialQuery=1770&map=brand,productclusternames&query=/superdry/tenis&searchState="
                     }
                 },
                 {
                     "image": "/arquivos/Pilatos-PilarPageTenis-Oakley.png",
                     "link": {
-                        "url": "/oakley%20tenis?_q=oakley%20tenis&fuzzy=0&initialMap=ft&initialQuery=oakley%20tenis&map=category-3,ft&operator=and&query=/tenis/oakley%20tenis&searchState"
+                        "url": "/tenis?initialMap=productClusterIds&initialQuery=1770&map=brand,productclusternames&query=/oakley/tenis&searchState="
                     }
                 },
                 /***nuevas marcas***/
@@ -282,7 +282,7 @@
                     "image": "/arquivos/LogoPepeJeans-150x150px.png",
                     "link": {
                         "title": "pepe jeans",
-                        "url": "/tenis?initialMap=productClusterIds&initialQuery=1770&map=brand,productClusterIds&query=/pepe-jeans/1770&searchState="
+                        "url": "/tenis?initialMap=productClusterIds&initialQuery=1770&map=brand,productclusternames&query=/pepe-jeans/tenis&searchState="
                     }
                 },
                 {
@@ -290,49 +290,49 @@
                     "width": "50%",
                     "link": {
                         "title": "dc shoes",
-                        "url": "/tenis?initialMap=productClusterIds&initialQuery=1770&map=brand,productClusterIds&query=/dcshoes/1770&searchState="
+                        "url": "/tenis?initialMap=productClusterIds&initialQuery=1770&map=brand,productclusternames&query=/dcshoes/tenis&searchState="
                     }
                 },
                 {
                     "image": "/arquivos/logo-the-north-face-new.jpg",
                     "link": {
                         "title": "the north face",
-                        "url": "/tenis?initialMap=productClusterIds&initialQuery=1770&map=brand,productClusterIds&query=/the-north-face/1770&searchState="
+                        "url": "/tenis?initialMap=productClusterIds&initialQuery=1770&map=brand,productclusternames&query=/the-north-face/tenis&searchState="
                     }
                 },
                 {
                     "image": "/arquivos/Logo_Converse.png",
                     "link": {
                         "title": "Converse",
-                        "url": "/tenis?initialMap=productClusterIds&initialQuery=1770&map=brand,productClusterIds&query=/converse/1770&searchState="
+                        "url": "/tenis?initialMap=productClusterIds&initialQuery=1770&map=brand,productclusternames&query=/converse/tenis&searchState="
                     }
                 },
                 {
                     "image": "/arquivos/LogoBrooks-125x125px.png",
                     "link": {
                         "title": "Brooks",
-                        "url": "/tenis?initialMap=productClusterIds&initialQuery=1770&map=brand,productClusterIds&query=/brooks/1770&searchState="
+                        "url": "/tenis?initialMap=productClusterIds&initialQuery=1770&map=brand,productclusternames&query=/brooks/tenis&searchState="
                     }
                 },
                 {
                     "image": "/arquivos/LogoON-125x125px.png",
                     "link": {
                         "title": "ON",
-                        "url": "/tenis?initialMap=productClusterIds&initialQuery=1770&map=brand,productClusterIds&query=/on/1770&searchState="
+                        "url": "/tenis?initialMap=productClusterIds&initialQuery=1770&map=brand,productclusternames&query=/on/tenis&searchState="
                     }
                 },
                 {
                     "image": "/arquivos/Logo_MFG.png",
                     "link": {
                         "title": "Girbaud",
-                        "url": "/tenis?initialMap=productClusterIds&initialQuery=1770&map=brand,productClusterIds&query=/marithe-francois-girbaud/1770&searchState="
+                        "url": "/tenis?initialMap=productClusterIds&initialQuery=1770&map=brand,productclusternames&query=/marithe-francois-girbaud/tenis&searchState="
                     }
                 },
                 {
                     "image": "/arquivos/LogoMonastery-125x125px.png",
                     "link": {
                         "title": "Monastery",
-                        "url": "/tenis?initialMap=productClusterIds&initialQuery=1770&map=brand,productClusterIds&query=/monastery/1770&searchState="
+                        "url": "/tenis?initialMap=productClusterIds&initialQuery=1770&map=brand,productclusternames&query=/monastery/tenis&searchState="
                     }
                 }
                 /***nuevas marcas***/

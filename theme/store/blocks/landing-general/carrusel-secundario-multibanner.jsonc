@@ -1,0 +1,135 @@
+{
+  "experimental__visibility-layout#carrusel-secundario-multibanner": {
+    "title": "Carrusel secundario",
+    "children": ["flex-layout.row#carrusel-secundario-multibanner"],
+    "props": {
+      "visible": false
+    }
+  },
+  "flex-layout.row#carrusel-secundario-multibanner": {
+    "title": "Carrusel secundario",
+    "children": [
+       "flex-layout.col#carrusel-secundario-multibanner"
+    ],
+    "props": {
+        "blockClass": "carrusel-secundario-multibanner",
+        "colGap": 4,
+        "rowGap": 4
+    }
+  },
+
+  "flex-layout.col#carrusel-secundario-multibanner": {
+    "children": [
+      "responsive-layout.desktop#carrusel-secundario-multibanner-desktop",
+      "responsive-layout.mobile#carrusel-secundario-multibanner-mobile"
+    ]
+  },
+
+
+  "responsive-layout.desktop#carrusel-secundario-multibanner-desktop": {
+    "children": [
+      "list-context.image-list#carrusel-secundario-multibanner-desktop"
+    ]
+  },
+  "responsive-layout.mobile#carrusel-secundario-multibanner-mobile": {
+    "children": [
+      "list-context.image-list#carrusel-secundario-multibanner-mobile"
+    ]
+  },
+
+
+    //CARRUSEL MOBILE
+    "list-context.image-list#carrusel-secundario-multibanner-mobile": {
+      "title": "CARRUSEL MOBILE",
+    "children": ["slider-layout#carrusel-secundario-multibanner-mobile"],
+    "props": {
+      "preload": true,
+      "height": 650,
+      "images": [
+        {
+          "loading": "eager",
+          "image": "/arquivos/BANNER-INFORMATIVO-ADDI.jpg",
+          "mobileImage": "/arquivos/BANNER-INFORMATIVO-ADDI.jpg",
+          "description": "imagen aliado 1"
+        },
+        {
+          "loading": "eager",
+          "image": "/arquivos/BANNER-INFORMATIVO-SISTECREDITO.jpg",
+          "mobileImage": "/arquivos/BANNER-INFORMATIVO-SISTECREDITO.jpg",
+          "description": "Imagen aliado 2"
+        },
+        {
+          "loading": "eager",
+          "image": "/arquivos/BANNER-INFORMATIVO-TIGO.jpg",
+          "mobileImage": "/arquivos/BANNER-INFORMATIVO-TIGO.jpg",
+          "description": "Imagen aliado 3"
+        }
+      ]
+    }
+  },
+    //CARRUSEL MOBILE
+
+    //CARRUSEL DESKTOP
+    "list-context.image-list#carrusel-secundario-multibanner-desktop": {
+      "title": "CARRUSEL DEKTOP",
+    "children": ["slider-layout#carrusel-secundario-multibanner-desktop"],
+    "props": {
+      "preload": true,
+      "height": 650,
+      "images": [
+        {
+          "loading": "eager",
+          "image": "/arquivos/BANNER-INFORMATIVO-ADDI.jpg",
+          "mobileImage": "/arquivos/BANNER-INFORMATIVO-ADDI.jpg",
+          "description": "imagen aliado 1"
+        },
+        {
+          "loading": "eager",
+          "image": "/arquivos/BANNER-INFORMATIVO-SISTECREDITO.jpg",
+          "mobileImage": "/arquivos/BANNER-INFORMATIVO-SISTECREDITO.jpg",
+          "description": "Imagen aliado 2"
+        },
+        {
+          "loading": "eager",
+          "image": "/arquivos/BANNER-INFORMATIVO-TIGO.jpg",
+          "mobileImage": "/arquivos/BANNER-INFORMATIVO-TIGO.jpg",
+          "description": "Imagen aliado 3"
+        }
+      ]
+    }
+  },
+    //CARRUSEL DESKTOP
+
+  //SLIDER MOBILE
+  "slider-layout#carrusel-secundario-multibanner-mobile": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "autoplay": {
+        "timeout": "3000"
+      },
+      "blockClass": "slider-secundario-multibanner",
+      "showPaginationDots": "never"
+    }
+  },
+  //SLIDER MOBILE
+
+  //SLIDER DESKTOP
+  "slider-layout#carrusel-secundario-multibanner-desktop": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "blockClass": "slider-secundario-multibanner",
+      "showPaginationDots": "never"
+    }
+  }
+  //SLIDER DESKTOP
+}

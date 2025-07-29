@@ -1,0 +1,19 @@
+{
+  "store.custom#landing-formulario-secundario": {
+    "children": [
+      "experimental__visibility-layout#banner-landing-general",
+      "flex-layout.row#form-custom-2"
+    ]
+  },
+  "flex-layout.row#form-custom-2": {
+    "title": "Form Custom",
+    "children": [
+      "flex-layout.col#form-custom-2"
+    ]
+  },
+  "flex-layout.col#form-custom-2": {
+    "children": [
+      "component-custom-form"
+    ]
+  }
+}

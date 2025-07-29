@@ -328,7 +328,8 @@
 }
 
 .submenuWrapper--contentSubmenuDesk{
-    height: 472px;
+    /*height: 472px;*/
+    height: auto;
     overflow-y: auto;
 }
 

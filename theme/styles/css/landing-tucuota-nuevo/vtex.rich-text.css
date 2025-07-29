@@ -1,0 +1,21 @@
+.link--tu-cuota-boton{
+
+display: inline-block;
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.container--tu-cuota-texto-nuevo{
+        font-size: 20px;
+}
+
+.container--tu-cuota-texto-nuevo{
+
+        text-align: center !important;
+    justify-content: center;
+    align-items: center;
+}

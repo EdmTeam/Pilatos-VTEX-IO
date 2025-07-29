@@ -226,6 +226,7 @@
       "condition-layout.product#garment-care-nike-tenis-mujer",
       "condition-layout.product#garment-care-nike-sandalias-mujer",
       "condition-layout.product#garment-care-nike-zapatos-mujer",
+      "condition-layout.product#garment-veja",
       "condition-layout.product#garment-artdist",
       "condition-layout.product#garment-care-le-coq",
       "condition-layout.product#garment-care-ap-crown",
@@ -335,6 +336,9 @@
       "condition-layout.product#garment-care-superdry-gorras-mujer",
       "condition-layout.product#garment-care-superdry-correa-hombre",
       "condition-layout.product#garment-care-superdry-correa-mujer",
+      "condition-layout.product#garment-care-converse",
+      "condition-layout.product#garment-care-franques",
+      "condition-layout.product#garment-care-champion",
       //"link#scrollLink",
       "disclosure-layout#masDetallesSellers",
       "share#default",
@@ -690,7 +694,9 @@
       //"size-guide#zapatos-hombre-Superdry",
       "size-guide#correa",
       "size-guide#mujer-hombre-vans",
-      "size-guide#pantalon-ap-crown"
+      "size-guide#pantalon-ap-crown",
+      "size-guide#sandalias-hombre-VEJA",
+            "size-guide#sandalias-mujer-VEJA"
     ],
     "props": {
       "blockClass": "product-size-guide-btn"

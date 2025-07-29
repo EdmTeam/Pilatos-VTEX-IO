@@ -1,3 +1,7 @@
 .imageElement--images-ofertas-vigentes {
     height: 170px !important;
+    object-fit: contain;
+}
+.imageElementLink--images-ofertas-vigentes {
+    margin-bottom: 5px;
 }

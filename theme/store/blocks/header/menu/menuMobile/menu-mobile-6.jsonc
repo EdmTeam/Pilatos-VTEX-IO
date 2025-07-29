@@ -2,11 +2,12 @@
     "flex-layout.row#submenu-level-1-row-6": {
         "title": "menu mobile tenis",
         "children": [
-            "flex-layout.row#submenu-level-1-texto-row-6"
+            "flex-layout.row#submenu-level-1-texto-row-6",
+            "drawer#submenu-level-1-row-7"
             // "drawer#submenu-level-1-row-6"
         ],
         "props": {
-            "blockClass": "iconPilatosMobileNew"
+            "blockClass": ["iconPilatosMobileNew", "contenItemsLevel1"]
         }
     },
 
@@ -14,12 +15,20 @@
     "flex-layout.row#submenu-level-1-texto-row-6": {
         "children": [
           //  "rich-text#submenu-level-1-texto-row-6",
-            "menu-item#iconpilatos"
+            "rich-text#submenu-level-1-texto-row-6-tenis",
+            "rich-text#submenu-level-1-icono-row-7"
             // "rich-text#submenu-level-1-icono-row-6"
         ],
         "props":{
-            "preserveLayoutOnMobile":true,
-            "preventHorizontalStretch":true
+            "preserveLayoutOnMobile":true
+        }
+    },
+
+    "rich-text#submenu-level-1-texto-row-6-tenis": {
+        "props": {
+            "text": "**Tenis**",
+            "blockClass": ["itemMenuLevel1", "tenis-mobile-menu"],
+            "width": "90%"
         }
     },
 

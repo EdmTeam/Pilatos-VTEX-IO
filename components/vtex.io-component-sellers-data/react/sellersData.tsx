@@ -10,7 +10,8 @@ const sellers = [
   { sellerName: "jansportc", nit: "900.460.312-0", sic: "900.460.312-0" },
   { sellerName: "Pernine Ltda.", nit: "900.017.250-4", sic: "900.017.250-4" },
   { sellerName: "Kappa", nit: "900.017.250-4", sic: "900.017.250-4" },
-  { sellerName: "Estudio de Moda S.A.S", nit: "890926803", sic: "890.926.803" }
+  { sellerName: "Estudio de Moda S.A.S", nit: "890926803", sic: "890.926.803" },
+  { sellerName: "Tennis SA", nit: "890920043-3", sic: "890920043-3" }
 ];
 
 const CSS_HANDLES = [
@@ -26,8 +27,11 @@ const SellersData = () => {
   
 
   const sellerName = context?.selectedItem?.sellers[0].sellerName;
+  const sellerTennis = context?.product?.properties?.[0]?.values?.[0];
+  const sellerTennisOther = context?.product?.properties?.[1]?.values?.[0];
 
-  console.log("sellerName", sellerName)
+  console.log("sellerName", context?.selectedItem)
+  console.log("sellerTennis", sellerTennisOther)
 
 
   const findSellerDetails = (name: string) => {
@@ -41,6 +45,36 @@ const SellersData = () => {
       setIsOwnSeller(sellerName === "Estudio de Moda S.A.S");
       console.log("Este es el estado >>", isOwnSeller);
   }, [sellerName])
+
+
+ useEffect(() => {
+    if (sellerTennis === "Grupo 13" || sellerTennisOther === "Grupo 13") {
+      setTimeout(() => {
+        const replaceGrupo13 = document.querySelector(
+          ".vtex-product-specifications-1-x-specificationValue--last"
+        );
+
+        if (replaceGrupo13) {
+          const flexGrupo13 = document.querySelector(
+            ".vtex-flex-layout-0-x-flexRowContent--productSpecification"
+          ) as HTMLElement | null;
+
+          if (flexGrupo13) {
+            flexGrupo13.style.display = "flex";
+            flexGrupo13.style.flexDirection = "column";
+          }
+
+          replaceGrupo13.innerHTML = `
+            <img 
+              src="https://pilatos21.vteximg.com.br/arquivos/instrucciones-de-cuidado.JPG" 
+              alt="Cuidado de prenda tennis" 
+              style="display: block; margin-top: 1rem; width: 100%; max-width: 400px;" 
+            />
+          `;
+        }
+      }, 500);
+    }
+  }, [sellerTennis]);
 
 
   return (

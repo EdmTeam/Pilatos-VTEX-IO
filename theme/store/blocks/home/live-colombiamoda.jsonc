@@ -1,0 +1,34 @@
+{
+      //BANNER VIDEO
+  "experimental__visibility-layout#banner-video-colombiamoda": {
+    "title": "Banner Home video colombiamoda",
+    "children": [
+      "flex-layout.row#banner-home-live-colombiamoda"
+    ],
+    "props": {
+      "visible": false
+    }
+  },
+  //BANNER HOME
+  "flex-layout.row#banner-home-live-colombiamoda": {
+    "children": [
+        "video#background-video-colombiamoda"
+    ],
+    "props": {
+        "marginTop": 8,
+        "blockClass": "live-colombiamoda-container"
+    }
+  },
+
+  "video#background-video-colombiamoda": {
+    "props": {
+      "width": "100%",
+      "height": "600px",
+      "loop": false,
+      "autoPlay": true,
+      "muted": false,
+      "src": "https://www.youtube.com/embed/fvosnDQv1X8",
+      "blockClass": "videoEl"
+    }
+  }
+}

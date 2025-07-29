@@ -1,0 +1,8 @@
+@media (min-width: 1024px) {
+  .slideChildrenContainer--banner-tu-cuota-pasos {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+}

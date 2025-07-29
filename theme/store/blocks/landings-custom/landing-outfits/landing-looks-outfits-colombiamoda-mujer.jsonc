@@ -1,0 +1,48 @@
+{
+    "store.custom#landing-looks-outfits-genero": {
+    "blocks": [
+        "flex-layout.row#seo-outfits-colombiamoda",
+        "flex-layout.row#botones-genero-outfits-colombiamoda-mujer",
+        "experimental__visibility-layout#carrusel-fits-1-colombiamoda",
+        "experimental__visibility-layout#carrusel-fits-2-colombiamoda",
+        "experimental__visibility-layout#carrusel-fits-3-colombiamoda",
+        "experimental__visibility-layout#carrusel-fits-4-colombiamoda",
+        "experimental__visibility-layout#carrusel-fits-5-colombiamoda",
+        "experimental__visibility-layout#carrusel-fits-6-colombiamoda",
+        "experimental__visibility-layout#carrusel-fits-7-colombiamoda",
+        "experimental__visibility-layout#carrusel-fits-8--colombiamoda",
+        "rich-text#filtro-seo" 
+    ]
+  },
+
+  //BOTONES GÉNERO
+  "flex-layout.row#botones-genero-outfits-colombiamoda-mujer": {
+    "children": [
+      "flex-layout.col#botones-genero-outfits-colombiamoda-mujer"
+    ]
+  },
+  "flex-layout.col#botones-genero-outfits-colombiamoda-mujer": {
+    "children": [
+      "rich-text#boton-hombre-fits-outfits-colombiamoda-mujer",
+      "rich-text#boton-mujer-fits-outfits-colombiamoda-mujer"
+    ],
+    "props": {
+      "blockClass": "botones-fits-jeans-genero"
+    }
+  },
+
+  "rich-text#boton-hombre-fits-outfits-colombiamoda-mujer": {
+    "props": {
+      "text": "[Hombre](/)",
+      "blockClass": ["boton-fits-jeans-diesel-genero"]
+    }
+  },
+  "rich-text#boton-mujer-fits-outfits-colombiamoda-mujer": {
+    "props": {
+      "text": "[Mujer](/)",
+      "blockClass": ["boton-fits-jeans-diesel-genero", "boton-fits-jeans-diesel-mujer-active"]
+    }
+  }
+  //BOTONES GÉNERO
+
+}
