@@ -399,8 +399,8 @@
   "slider-layout#home-look-recomendador-colombiamoda": {
     "props": {
       "itemsPerPage": {
-        "desktop": 3,
-        "tablet": 3,
+        "desktop": 2,
+        "tablet": 2,
         "phone": 1
       },
       "infinite": false,

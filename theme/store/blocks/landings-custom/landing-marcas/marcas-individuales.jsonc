@@ -1,5 +1,38 @@
 {
     /**************MARCA****************/
+    "flex-layout.row#marca-individual-remanence": {
+        "title": "Marca individual",
+        "children": [
+            "flex-layout.col#marca-individual-remanence"
+        ]
+    },
+
+    "flex-layout.col#marca-individual-remanence": {
+        "children": [
+            "rich-text#marca-individual-remanence",
+            "image#marca-individual-remanence"
+        ],
+        "props": {
+            "blockClass": "marca-individual"
+        }
+    },
+
+    "rich-text#marca-individual-remanence": {
+        "props": {
+            "text": "[Remanence](/remanence)",
+            "font": "t-body",
+            "blockClass": "marca-individual-texto"
+        }
+    },
+
+    "image#marca-individual-remanence": {
+        "props": {
+            "src": "/arquivos/logo-remanence.png",
+            "maxHeight": 28
+        }
+    },
+    /**************MARCA****************/
+    /**************MARCA****************/
     "flex-layout.row#marca-individual": {
         "title": "Marca individual",
         "children": [
