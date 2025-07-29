@@ -24,7 +24,8 @@
         "video#video-principal-colombiamoda"
     ],
     "props": {
-        "marginBottom": 4
+        "marginBottom": 4,
+        "blockClass": "video-container-colombiamoda"
     }
   },
   "video#video-principal-colombiamoda": {
@@ -33,9 +34,11 @@
       "height": "600px",
       "loop": false,
       "autoPlay": true,
-      "muted": false,
+      "muted": true,
       "src": "https://www.youtube.com/watch?v=HAFlgha8KYo",
-      "blockClass": "videoEl"
+      "blockClass": "videoEl",
+      "controlsType": "native",
+      "playsInline": true
     }
   },
   /////VIDEO
@@ -139,9 +142,44 @@
   },
   "flex-layout.row#outfit-slider-1-colombiamoda": {
     "children": [
-        "slider-layout#outfits-colombiamoda"
+        "list-context.image-list#colombiamoda-slider"
     ]
   },
+  "list-context.image-list#colombiamoda-slider": {
+    "children": ["slider-layout#outfits-colombiamoda"],
+    "props": {
+      "preload": true,
+      "height": 650,
+      "images": [
+        {
+          "loading": "eager",
+          "image": "/arquivos/Look-1.jpg",
+          "description": "colombiamoda look"
+        },
+        {
+          "loading": "lazy",
+          "image": "/arquivos/Look-2.jpg",
+          "description": "colombiamoda look"
+        },
+        {
+          "loading": "lazy",
+          "image": "/arquivos/Look-3.jpg",
+          "description": "colombiamoda look"
+        },
+        {
+          "loading": "lazy",
+          "image": "/arquivos/Look-8.jpg",
+          "description": "colombiamoda look"
+        },
+        {
+          "loading": "lazy",
+          "image": "/arquivos/Look-9-y-10.jpg",
+          "description": "colombiamoda look"
+        }
+      ]
+    }
+  },
+
   "slider-layout#outfits-colombiamoda": {
     "props": {
       "itemsPerPage": {
@@ -150,45 +188,8 @@
         "phone": 2
       },
       "infinite": true,
-      "showNavigationArrows": "desktopOnly",
+      "showNavigationArrows": "always",
       "blockClass": ["carousel", "colombiamoda-slider"]
-    },
-    "children": [
-        "image#fits-colombiamoda-1",
-        "image#fits-colombiamoda-2",
-        "image#fits-colombiamoda-3",
-        "image#fits-colombiamoda-4",
-        "image#fits-colombiamoda-5"
-    ]
-  },
-  "image#fits-colombiamoda-1": {
-    "props": {
-        "src": "/arquivos/Look-1.jpg",
-        "link": {"url": "/"}
-    }
-  },
-  "image#fits-colombiamoda-2": {
-    "props": {
-        "src": "/arquivos/Look-2.jpg",
-        "link": {"url": "/"}
-    }
-  },
-  "image#fits-colombiamoda-3": {
-    "props": {
-        "src": "/arquivos/Look-3.jpg",
-        "link": {"url": "/"}
-    }
-  },
-  "image#fits-colombiamoda-4": {
-    "props": {
-        "src": "/arquivos/Look-8.jpg",
-        "link": {"url": "/"}
-    }
-  },
-  "image#fits-colombiamoda-5": {
-    "props": {
-        "src": "/arquivos/Look-9-y-10.jpg",
-        "link": {"url": "/"}
     }
   }
   ////GRUPOS COLOMBIAMODA

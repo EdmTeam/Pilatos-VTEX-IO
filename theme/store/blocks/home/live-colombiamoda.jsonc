@@ -1,0 +1,83 @@
+{
+      //BANNER VIDEO
+  "experimental__visibility-layout#banner-video-colombiamoda": {
+    "title": "Banner Home video colombiamoda",
+    "children": [
+     "responsive-layout.desktop#banner-video-colombiamoda-desk",
+     "responsive-layout.phone#banner-video-colombiamoda-mob",
+     "responsive-layout.tablet#banner-video-colombiamoda-tablet"
+    ],
+    "props": {
+      "visible": false
+    }
+  },
+  //BANNER HOME
+  "responsive-layout.desktop#banner-video-colombiamoda-desk": {
+    "title": "Video colombiamoda desk",
+    "children": [
+      "flex-layout.row#banner-home-live-colombiamoda"
+    ]
+  },
+  "responsive-layout.phone#banner-video-colombiamoda-mob": {
+    "title": "Video colombiamoda mob",
+    "children": [
+      "flex-layout.row#banner-home-live-colombiamoda-mob"
+    ]
+  },
+  "responsive-layout.tablet#banner-video-colombiamoda-tablet": {
+    "title": "Video colombiamoda tablet",
+    "children": [
+      "flex-layout.row#banner-home-live-colombiamoda"
+    ]
+  },
+
+ /////DESK
+  "flex-layout.row#banner-home-live-colombiamoda": {
+    "children": [
+        "video#background-video-colombiamoda"
+    ],
+    "props": {
+        "marginTop": 8,
+        "blockClass": "live-colombiamoda-container"
+    }
+  },
+
+  "video#background-video-colombiamoda": {
+    "props": {
+      "width": "100%",
+      "height": "600px",
+      "loop": false,
+      "autoPlay": true,
+      "muted": false,
+      "src": "https://www.youtube.com/embed/fvosnDQv1X8",
+      "blockClass": "videoEl"
+    }
+  },
+ /////DESK
+
+
+ 
+ /////MOB
+  "flex-layout.row#banner-home-live-colombiamoda-mob": {
+    "children": [
+        "video#background-video-colombiamoda-mob"
+    ],
+    "props": {
+        "marginTop": 8,
+        "blockClass": "live-colombiamoda-container"
+    }
+  },
+
+  "video#background-video-colombiamoda-mob": {
+    "props": {
+      "width": "100%",
+      "height": "auto",
+      "loop": false,
+      "autoPlay": true,
+      "muted": false,
+      "src": "https://www.youtube.com/embed/fvosnDQv1X8",
+      "blockClass": "videoEl"
+    }
+  }
+ /////MOB
+}

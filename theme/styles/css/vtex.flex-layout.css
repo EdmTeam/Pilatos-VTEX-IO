@@ -4184,6 +4184,7 @@
 @media (min-width: 1200px) {
   .flexRowContent--billyGame {
     height: 700px;
+    margin-bottom: 12rem;
   }
 }
 
@@ -4233,9 +4234,10 @@
 
 }
 
-@media (max-width: 740px) {
+@media (max-width: 768px) {
   .flexRowContent--billyGame {
     height: 550px;
+    margin-bottom: 10rem;
   }
 }
 

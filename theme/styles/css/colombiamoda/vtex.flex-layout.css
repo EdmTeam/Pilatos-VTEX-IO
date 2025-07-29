@@ -70,5 +70,9 @@
     margin-bottom: 0;
   }
 }
-
-/* === MIN-WIDTH === */
+.flexRowContent--video-container-colombiamoda :global(.vtex-store-video-1-x-videoContainer--videoEl) {
+  border: 0;
+}
+.flexRowContent--live-colombiamoda-container {
+  margin-top: 0 !important;
+}
