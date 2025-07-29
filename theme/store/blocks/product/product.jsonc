@@ -125,8 +125,8 @@
       /*"responsive-layout.phone#brands-promise",
       "responsive-layout.tablet#brands-promise",
       "responsive-layout.desktop#brands-promise",*/
-      "tab-layout#product-tab",
-      "flex-layout.row#productViewed"
+      "tab-layout#product-tab"
+      //"flex-layout.row#productViewed"
     ],
     "props":{
       "blockClass": "productView"    }
