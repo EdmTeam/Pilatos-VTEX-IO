@@ -361,7 +361,9 @@ ul.checkoutPasos li::before {
 @media screen and (max-width: 767px) {
   ul.checkoutPasos li {
     width: 100%;
-    display: none;
+  }
+  ul.checkoutPasos li .nameStep {
+    font-size: 10px !important;
   }
   ul.checkoutPasos li::before {
     display: none;
@@ -373,13 +375,13 @@ ul.checkoutPasos li::before {
   }
 }
 ul.checkoutPasos li.pasoActivo::before {
-  background-color: #ffd400;
+  background-color: #000;
 }
 ul.checkoutPasos li.pasoActivo div.icon {
-  background-color: #ffd400;
+  background-color: #000;
 }
 ul.checkoutPasos li.pasoActivo div.icon i {
-  color: #000;
+  color: #fff;
   font-size: 1.5625rem;
   font-size: 25px;
 }
@@ -407,15 +409,16 @@ ul.checkoutPasos li p.nameStep {
   margin-top: 9px;
   cursor: pointer;
   font-family: "Mulish";
-  font-size: 0.6875rem;
-  font-size: 11px;
-  font-weight: 700;
+  font-size: 1.125rem;
+  font-size: 18px;
+  font-weight: 600;
   letter-spacing: 0.07em;
   text-decoration: none;
   text-transform: uppercase;
   text-align: center;
-  line-height: 15px;
-  color: #848484;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: #565656;
   text-transform: none;
 }
 
@@ -1298,6 +1301,19 @@ div.checkoutFooter p.copyRight {
   /* CARRITO VACIO */
   /* CARRITO VACIO */
 }
+@media screen and (max-width: 767px) {
+  .body-cart .container-main.container-cart .checkout-container .cart-template .cart-template-holder .cart .cart-items,
+  .body-order-form .container-main.container-cart .checkout-container .cart-template .cart-template-holder .cart .cart-items {
+    display: block;
+    margin-top: 0 !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  .body-cart .container-main.container-cart .checkout-container .cart-template .cart-template-holder .cart .cart-items tbody,
+  .body-order-form .container-main.container-cart .checkout-container .cart-template .cart-template-holder .cart .cart-items tbody {
+    display: block;
+  }
+}
 .body-cart .container-main.container-cart .checkout-container .cart-template .cart-template-holder .empty-cart-content h2.empty-cart-title,
 .body-order-form .container-main.container-cart .checkout-container .cart-template .cart-template-holder .empty-cart-content h2.empty-cart-title {
   margin: 0;
@@ -1625,7 +1641,7 @@ div.checkoutFooter p.copyRight {
   position: static;
   padding: 0;
   line-height: 40px;
-  background-color: #ffd400;
+  background-color: #7c7c7c;
   -webkit-transition: background 0.3s ease 0s;
   -moz-transition: background 0.3s ease 0s;
   -ms-transition: background 0.3s ease 0s;
@@ -1655,7 +1671,7 @@ div.checkoutFooter p.copyRight {
 .body-order-form .container-main.container-cart .checkout-container .cart-template #cartLoadedDiv .cart table tbody tr td.quantity a i {
   font-size: 0.4375rem;
   font-size: 7px;
-  color: #000;
+  color: #fff;
 }
 .body-cart .container-main.container-cart .checkout-container .cart-template #cartLoadedDiv .cart table tbody tr td.quantity a i.icon-minus-sign:before,
 .body-order-form .container-main.container-cart .checkout-container .cart-template #cartLoadedDiv .cart table tbody tr td.quantity a i.icon-minus-sign:before {
@@ -1683,7 +1699,7 @@ div.checkoutFooter p.copyRight {
   font-family: "Mulish";
   font-size: 0.75rem;
   font-size: 12px;
-  font-weight: 400;
+  font-weight: 600;
   letter-spacing: 0.045em;
   text-decoration: none;
   text-transform: unset;
@@ -1807,16 +1823,25 @@ div.checkoutFooter p.copyRight {
 @media screen and (max-width: 1023px) {
   .body-cart .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .summary-coupon-wrap .summary-coupon form fieldset p.coupon-label label,
   .body-order-form .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .summary-coupon-wrap .summary-coupon form fieldset p.coupon-label label {
-    text-align: center;
+    text-align: left;
+    margin-bottom: 4px;
   }
 }
 .body-cart .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .summary-coupon-wrap .summary-coupon form fieldset p.coupon-label label:before,
 .body-order-form .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .summary-coupon-wrap .summary-coupon form fieldset p.coupon-label label:before {
-  content: "AGREGAR CUPÓN DE DESCUENTO";
+  content: "Usar cupón de descuento";
   text-indent: 0;
   float: left;
   display: block;
   width: 100%;
+  font-weight: 400;
+  font-size: 14px;
+}
+@media screen and (max-width: 1023px) {
+  .body-cart .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .summary-coupon-wrap .summary-coupon form fieldset p.coupon-label label:before,
+  .body-order-form .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .summary-coupon-wrap .summary-coupon form fieldset p.coupon-label label:before {
+    font-weight: 600;
+  }
 }
 .body-cart .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .summary-coupon-wrap .summary-coupon form fieldset p.coupon-fields span,
 .body-order-form .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .summary-coupon-wrap .summary-coupon form fieldset p.coupon-fields span {
@@ -1847,6 +1872,7 @@ div.checkoutFooter p.copyRight {
   .body-order-form .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .summary-coupon-wrap .summary-coupon form fieldset p.coupon-fields span {
     justify-content: center;
     width: 100%;
+    flex-direction: row;
   }
 }
 .body-cart .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .summary-coupon-wrap .summary-coupon form fieldset p.coupon-fields span i,
@@ -1862,14 +1888,15 @@ div.checkoutFooter p.copyRight {
 }
 .body-cart .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .summary-coupon-wrap .summary-coupon form fieldset p.coupon-fields span input[type=text],
 .body-order-form .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .summary-coupon-wrap .summary-coupon form fieldset p.coupon-fields span input[type=text] {
-  width: 150px;
+  width: 218px;
   height: 35px;
   border-radius: 0px;
   border: 1px solid #d9d9d9;
   outline: none;
   box-shadow: none;
   padding: 8px 10px;
-  margin-right: 4px;
+  text-align: center;
+  color: #000;
   font-family: "Mulish";
   font-size: 0.875rem;
   font-size: 14px;
@@ -1883,27 +1910,25 @@ div.checkoutFooter p.copyRight {
   .body-order-form .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .summary-coupon-wrap .summary-coupon form fieldset p.coupon-fields span input[type=text] {
     width: 100%;
     margin-right: 0px;
-    margin-bottom: 5px;
   }
 }
 .body-cart .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .summary-coupon-wrap .summary-coupon form fieldset p.coupon-fields span button[type=submit],
 .body-order-form .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .summary-coupon-wrap .summary-coupon form fieldset p.coupon-fields span button[type=submit] {
-  margin-left: 4px;
   border: none;
   outline: none;
   text-shadow: none;
-  box-shadow: mone;
+  box-shadow: none;
   border-radius: 0px;
-  background: #ffd400;
+  background: #000;
   padding: 5px 10px;
-  width: 95px;
+  width: 107px;
   height: 35px;
-  color: #000;
-  font-size: 14px;
+  color: #fff;
+  font-size: 10px;
   font-family: "Mulish";
   font-size: 1.0625rem;
   font-size: 17px;
-  font-weight: 700;
+  font-weight: 400;
   letter-spacing: 0em;
   text-decoration: none;
   text-transform: uppercase;
@@ -1921,6 +1946,8 @@ div.checkoutFooter p.copyRight {
   float: left;
   display: block;
   width: 100%;
+  font-size: 10px;
+  font-weight: 400;
 }
 @media screen and (min-width: 1025px) {
   .body-cart .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .summary-coupon-wrap .summary-coupon form fieldset p.coupon-fields span button[type=submit]:hover,
@@ -1932,9 +1959,8 @@ div.checkoutFooter p.copyRight {
 @media screen and (max-width: 767px) {
   .body-cart .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .summary-coupon-wrap .summary-coupon form fieldset p.coupon-fields span button[type=submit],
   .body-order-form .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .summary-coupon-wrap .summary-coupon form fieldset p.coupon-fields span button[type=submit] {
-    width: 100%;
+    width: 40%;
     margin-left: 0px;
-    margin-top: 5px;
   }
 }
 .body-cart .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .cart-more-options,
@@ -1960,7 +1986,6 @@ div.checkoutFooter p.copyRight {
   .body-cart .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .cart-more-options .cart-select-gift-placeholder,
   .body-order-form .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .cart-more-options .cart-select-gift-placeholder {
     margin-right: 0px;
-    margin-bottom: 40px;
   }
 }
 @media screen and (max-width: 1023px) {
@@ -1978,7 +2003,7 @@ div.checkoutFooter p.copyRight {
   font-weight: 600;
   letter-spacing: 0em;
   text-decoration: none;
-  text-transform: uppercase;
+  text-transform: unset;
   color: #000 !important;
   line-height: 23px;
   font-weight: 800 !important;
@@ -2027,6 +2052,10 @@ div.checkoutFooter p.copyRight {
   .body-order-form .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .cart-more-options #shipping-preview-container p[id*=shp],
   .body-order-form .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .cart-more-options #shipping-preview-container p[class*=ship],
   .body-order-form .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .cart-more-options #shipping-preview-container p[id*=ship] {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
   }
 }
@@ -2045,6 +2074,22 @@ div.checkoutFooter p.copyRight {
   text-indent: -9999px;
   margin-bottom: 18px;
 }
+@media screen and (max-width: 767px) {
+  .body-cart .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .cart-more-options #shipping-preview-container p[class*=srp].srp-description,
+  .body-cart .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .cart-more-options #shipping-preview-container p[id*=srp].srp-description,
+  .body-cart .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .cart-more-options #shipping-preview-container p[class*=shp].srp-description,
+  .body-cart .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .cart-more-options #shipping-preview-container p[id*=shp].srp-description,
+  .body-cart .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .cart-more-options #shipping-preview-container p[class*=ship].srp-description,
+  .body-cart .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .cart-more-options #shipping-preview-container p[id*=ship].srp-description,
+  .body-order-form .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .cart-more-options #shipping-preview-container p[class*=srp].srp-description,
+  .body-order-form .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .cart-more-options #shipping-preview-container p[id*=srp].srp-description,
+  .body-order-form .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .cart-more-options #shipping-preview-container p[class*=shp].srp-description,
+  .body-order-form .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .cart-more-options #shipping-preview-container p[id*=shp].srp-description,
+  .body-order-form .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .cart-more-options #shipping-preview-container p[class*=ship].srp-description,
+  .body-order-form .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .cart-more-options #shipping-preview-container p[id*=ship].srp-description {
+    padding-right: 0px;
+  }
+}
 .body-cart .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .cart-more-options #shipping-preview-container p[class*=srp].srp-description:before,
 .body-cart .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .cart-more-options #shipping-preview-container p[id*=srp].srp-description:before,
 .body-cart .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .cart-more-options #shipping-preview-container p[class*=shp].srp-description:before,
@@ -2057,7 +2102,7 @@ div.checkoutFooter p.copyRight {
 .body-order-form .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .cart-more-options #shipping-preview-container p[id*=shp].srp-description:before,
 .body-order-form .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .cart-more-options #shipping-preview-container p[class*=ship].srp-description:before,
 .body-order-form .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .cart-more-options #shipping-preview-container p[id*=ship].srp-description:before {
-  content: "Conoce todas las opciones de entrega para tus productos, incluidas tarifas de costos y envíos.";
+  content: "Conoce aquí las tarifas y costos de envío.";
   text-indent: 0px;
   float: left;
   display: block;
@@ -2065,7 +2110,7 @@ div.checkoutFooter p.copyRight {
 }
 .body-cart .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .cart-more-options #shipping-preview-container .srp-description,
 .body-order-form .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .cart-more-options #shipping-preview-container .srp-description {
-  padding-right: 3rem !important;
+  padding-right: 3rem;
 }
 .body-cart .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .cart-more-options #shipping-preview-container label[class*=srp],
 .body-cart .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .cart-more-options #shipping-preview-container label[id*=srp],
@@ -2154,7 +2199,7 @@ div.checkoutFooter p.copyRight {
 .body-order-form .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .cart-more-options #shipping-preview-container select[id*=shp]:focus,
 .body-order-form .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .cart-more-options #shipping-preview-container select[class*=ship]:focus,
 .body-order-form .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .cart-more-options #shipping-preview-container select[id*=ship]:focus {
-  border: 1px solid #ffd400;
+  border: 1px solid #000;
 }
 .body-cart .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .cart-more-options #shipping-preview-container span.error,
 .body-order-form .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .cart-more-options #shipping-preview-container span.error {
@@ -2309,8 +2354,8 @@ div.checkoutFooter p.copyRight {
   .body-order-form .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .cart-more-options #shipping-preview-container button[class*=ship]#shipping-calculate-link:hover,
   .body-order-form .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .cart-more-options #shipping-preview-container button[id*=ship]#cart-shipping-calculate:hover,
   .body-order-form .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .cart-more-options #shipping-preview-container button[id*=ship]#shipping-calculate-link:hover {
-    background-color: #ffd400;
-    color: #000;
+    background-color: #000;
+    color: #fff;
   }
   .body-cart .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .cart-more-options #shipping-preview-container button[class*=srp]:hover, .body-cart .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .cart-more-options #shipping-preview-container button[id*=srp]:hover, .body-cart .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .cart-more-options #shipping-preview-container button[class*=shp]:hover, .body-cart .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .cart-more-options #shipping-preview-container button[id*=shp]:hover, .body-cart .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .cart-more-options #shipping-preview-container button[class*=ship]:hover, .body-cart .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .cart-more-options #shipping-preview-container button[id*=ship]:hover,
   .body-order-form .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .cart-more-options #shipping-preview-container button[class*=srp]:hover,
@@ -2616,6 +2661,12 @@ div.checkoutFooter p.copyRight {
   border: none;
   margin-bottom: 8px;
 }
+@media screen and (max-width: 767px) {
+  .body-cart .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .summary-totalizers .accordion-group .accordion-heading,
+  .body-order-form .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .summary-totalizers .accordion-group .accordion-heading {
+    background: #fff;
+  }
+}
 .body-cart .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .summary-totalizers .accordion-group .accordion-heading span,
 .body-order-form .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .summary-totalizers .accordion-group .accordion-heading span {
   font-family: "Mulish";
@@ -2632,6 +2683,13 @@ div.checkoutFooter p.copyRight {
   font-size: 15px !important;
   line-height: 27px;
   letter-spacing: 0.07em;
+}
+@media screen and (max-width: 767px) {
+  .body-cart .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .summary-totalizers .accordion-group .accordion-heading span,
+  .body-order-form .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .summary-totalizers .accordion-group .accordion-heading span {
+    font-size: 16px !important;
+    text-transform: initial;
+  }
 }
 .body-cart .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .summary-totalizers .accordion-group .accordion-body .accordion-inner table,
 .body-order-form .container-main.container-cart .checkout-container .cart-template .summary-template-holder .summary .summary-totalizers .accordion-group .accordion-body .accordion-inner table {
@@ -2766,6 +2824,8 @@ div.checkoutFooter p.copyRight {
 .body-order-form .container-main.container-cart .checkout-container .cart-template .cart-links-bottom {
   width: 45%;
   padding: 0 0px;
+  display: flex !important;
+  flex-direction: column-reverse;
   align-items: center;
   justify-content: space-between;
 }
@@ -2804,24 +2864,24 @@ div.checkoutFooter p.copyRight {
   width: 100%;
   height: 40px;
   margin: 0;
-  padding: 10px 10px;
+  padding: 7px 10px;
   border: none;
   font-family: "Mulish";
-  font-size: 0.8125rem;
-  font-size: 13px;
-  font-weight: 400;
+  font-size: 0.875rem;
+  font-size: 14px;
+  font-weight: 600;
   letter-spacing: 0.025em;
   text-decoration: none;
-  text-transform: uppercase;
-  font-weight: bold;
+  text-transform: unset;
   color: #000;
   text-align: center;
-  text-decoration-line: underline;
+  border: 1px solid #b1abab;
+  border-radius: 16px;
+  margin-top: 19px;
 }
 .body-cart .container-main.container-cart .checkout-container .cart-template .cart-links-bottom .btn-place-order-wrapper,
 .body-order-form .container-main.container-cart .checkout-container .cart-template .cart-links-bottom .btn-place-order-wrapper {
-  width: 50%;
-  padding-left: 9px;
+  width: 100%;
   display: inline-flex;
   justify-content: flex-end;
   float: left;
@@ -2829,10 +2889,21 @@ div.checkoutFooter p.copyRight {
 @media screen and (max-width: 767px) {
   .body-cart .container-main.container-cart .checkout-container .cart-template .cart-links-bottom .btn-place-order-wrapper,
   .body-order-form .container-main.container-cart .checkout-container .cart-template .cart-links-bottom .btn-place-order-wrapper {
-    padding-left: 0;
-    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
     width: 100%;
-    float: none;
+    background: #fff;
+    padding: 20px 10px;
+    box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+    text-align: center;
+    justify-content: center;
+  }
+  .body-cart .container-main.container-cart .checkout-container .cart-template .cart-links-bottom .btn-place-order-wrapper .btn-place-order,
+  .body-order-form .container-main.container-cart .checkout-container .cart-template .cart-links-bottom .btn-place-order-wrapper .btn-place-order {
+    width: 90%;
+    max-width: 400px;
   }
 }
 .body-cart .container-main.container-cart .checkout-container .cart-template .cart-links-bottom .btn-place-order-wrapper a.btn-place-order,
@@ -2843,15 +2914,15 @@ div.checkoutFooter p.copyRight {
   width: 100%;
   height: 40px;
   background: #000;
-  padding: 10px 10px;
+  padding: 13.5px 10px;
   border: none;
   outline: none;
-  border-radius: 100px !important;
+  border-radius: 0px !important;
   float: right;
   font-family: "Mulish";
-  font-size: 0.8125rem;
-  font-size: 13px;
-  font-weight: 800;
+  font-size: 1.125rem;
+  font-size: 18px;
+  font-weight: 700;
   letter-spacing: 0.025em;
   text-decoration: none;
   text-transform: uppercase;
@@ -2867,8 +2938,8 @@ div.checkoutFooter p.copyRight {
 @media screen and (min-width: 1025px) {
   .body-cart .container-main.container-cart .checkout-container .cart-template .cart-links-bottom .btn-place-order-wrapper a.btn-place-order:hover,
   .body-order-form .container-main.container-cart .checkout-container .cart-template .cart-links-bottom .btn-place-order-wrapper a.btn-place-order:hover {
-    background-color: #ffd400;
-    color: #000;
+    background-color: #000;
+    color: #fff;
   }
 }
 @media screen and (max-width: 1023px) {
@@ -6866,6 +6937,11 @@ body {
   align-items: center;
   justify-content: center;
 }
+@media screen and (max-width: 767px) {
+  .content-checkout-footer .allied-rights {
+    background: #fff;
+  }
+}
 .content-checkout-footer .allied-rights .text-allied-rights {
   text-align: center;
   font-weight: normal;
@@ -6874,6 +6950,16 @@ body {
   letter-spacing: 0.025em;
   color: #fff;
   padding: 1rem 2rem;
+}
+@media screen and (max-width: 767px) {
+  .content-checkout-footer .allied-rights .text-allied-rights {
+    color: #000;
+  }
+}
+@media screen and (max-width: 767px) {
+  .content-checkout-footer {
+    margin-bottom: 20%;
+  }
 }
 
 .orderform-template-holder .vtex-omnishipping-1-x-shippingDataDev {
@@ -7123,6 +7209,7 @@ button#payment-data-submit {
 @media (max-width: 760px) {
   button#payment-data-submit {
     width: 85%;
+    margin: 0 auto;
   }
 }
 /* Descripcion texto sistecredito */
@@ -7222,7 +7309,7 @@ button#payment-data-submit {
 
 #payment-group-KaiowaPaymentGroup .payment-group-item-text::after {
   content: "TuCouta";
-  font-size: 13PX;
+  font-size: 13px;
   padding-right: 2rem !important;
   padding-left: 44px !important;
   color: #000000 !important;
@@ -7283,4 +7370,133 @@ optgroup[label="Recogida en tienda"] {
 
 .vtex-omnishipping-1-x-leanShippingGroupList span {
   display: none !important;
+}
+
+.title-mid-size {
+  line-height: 100%;
+}
+
+.available-gift-item.active {
+  background-color: #efefef !important;
+}
+
+.label-vertical-group.active {
+  color: #000;
+}
+
+.available-gift-quantity {
+  max-width: 430px;
+}
+
+.available-gift-item.inactive:hover {
+  color: #000;
+}
+
+.vtex-social-selling .sb-bar {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.vtex-social-selling .sb-bar .sb-b-codigovendedor .sb-icon {
+  display: flex;
+  font-size: 15px;
+  background-color: #656363;
+  border-radius: 6.08px;
+  margin-left: 0px;
+  width: 35px;
+  height: 35px;
+  align-items: center;
+  justify-content: center;
+}
+.vtex-social-selling .sb-bar .sb-b-link .sb-icon {
+  display: flex;
+  font-size: 15px;
+  background-color: #656363;
+  border-radius: 6.08px;
+  margin-left: 0px;
+  width: 35px;
+  height: 35px;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 767px) {
+  .vtex-social-selling .sb-bar {
+    left: 8px !important;
+    gap: 2px;
+    bottom: 50% !important;
+  }
+  .vtex-social-selling .sb-bar .sb-divider {
+    margin-bottom: 0px;
+  }
+}
+.vtex-social-selling .sb-bar .sb-b-erasecart {
+  display: none;
+}
+.vtex-social-selling .sb-bar .sb-b-link .sb-mask {
+  /* width: 50px !important;
+  */
+}
+.vtex-social-selling .sb-bar .sb-b-link .sb-mask .sb-icon {
+  background-color: #656363;
+  border-radius: 6.08px;
+  margin-left: 6px;
+}
+@media screen and (max-width: 767px) {
+  .vtex-social-selling .sb-bar .sb-b-link .sb-mask .sb-icon {
+    display: flex;
+    font-size: 13px;
+    background-color: #656363;
+    border-radius: 6.08px;
+    margin-left: 0px;
+    width: 32px;
+    height: 32px;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.vtex-social-selling .sb-bar .sb-b-link .sb-mask .sb-label {
+  background-color: #656363;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6.08px;
+}
+@media screen and (max-width: 767px) {
+  .vtex-social-selling .sb-bar .sb-b-link .sb-label {
+    background-color: #656363;
+  }
+}
+.vtex-social-selling .sb-bar .sb-b-codigovendedor .sb-mask {
+  /*  width: 50px !important; */
+}
+.vtex-social-selling .sb-bar .sb-b-codigovendedor .sb-mask .sb-icon {
+  background-color: #898787;
+  border-radius: 6.08px;
+  margin-left: 6px;
+}
+@media screen and (max-width: 767px) {
+  .vtex-social-selling .sb-bar .sb-b-codigovendedor .sb-mask .sb-icon {
+    display: flex;
+    font-size: 13px;
+    background-color: #656363;
+    border-radius: 6.08px;
+    margin-left: 0px;
+    width: 32px;
+    height: 32px;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.vtex-social-selling .sb-bar .sb-b-codigovendedor .sb-mask .sb-label {
+  background-color: #898787;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6.08px;
+}
+@media screen and (max-width: 767px) {
+  .vtex-social-selling .sb-bar .sb-b-codigovendedor .sb-label {
+    background-color: #898787;
+  }
 }
