@@ -1,116 +1,117 @@
-.globalContainer{
-    width: 95%;
-    margin: 0 auto;
+.globalContainer {
+  width: 95%;
+  margin: 0 auto;
 }
 
-.globalContainerInfo{
-    justify-content: flex-start;
+.globalContainerInfo {
+  justify-content: flex-start;
 }
 
-.title{
-    font-weight: 900;
-    font-size: 21px;
-    line-height: 25px;
-    letter-spacing: 0.02em;
-    color: #000000;
-    text-transform: uppercase;
-    position: relative;
-    padding-top: 3rem;
-    margin-bottom: 1rem;
+.title {
+  font-weight: 900;
+  font-size: 21px;
+  line-height: 25px;
+  letter-spacing: 0.02em;
+  color: #000000;
+  text-transform: uppercase;
+  position: relative;
+  padding-top: 3rem;
+  margin-bottom: 1rem;
 }
 
-.title::before{
-    content: '\e914';
-    font-family: 'icomoon' !important;
-    speak: never;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    position: absolute;
-    height: 50px;
-    width: 50px;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 2.5rem;
-    text-align: center;
+.title::before {
+  content: '\e914';
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 2.5rem;
+  text-align: center;
 }
 
-.title::after{
-    content: ' Tiendas';
-    color: #FFD400;
+.title::after {
+  content: ' Tiendas';
+  color: #FFD400;
 }
 
-.subtitle, .description, :global(.vtex-dropdown) :global(.vtex-dropdown__label)
-{
-    display: none;
+.subtitle,
+.description,
+:global(.vtex-dropdown) :global(.vtex-dropdown__label) {
+  display: none;
 }
 
-.containerLevel1, .containerLevel2, .containerLevel3{
-    width: 100%;
+.containerLevel1,
+.containerLevel2,
+.containerLevel3 {
+  width: 100%;
 }
 
-.containerInfo :global(.vtex-dropdown__container){
-    border: none;
+.containerInfo :global(.vtex-dropdown__container) {
+  border: none;
 }
 
-.containerInfo :global(.vtex-dropdown){
-    border: 1px solid #AAA9A9;
+.containerInfo :global(.vtex-dropdown) {
+  border: 1px solid #AAA9A9;
 }
 
-.containerLevel1 :global(.vtex-dropdown__container) :global(.vtex-dropdown__caption){
-    color: #000000;
+.containerLevel1 :global(.vtex-dropdown__container) :global(.vtex-dropdown__caption) {
+  color: #000000;
 }
 
-.containerLevel1 :global(.vtex-dropdown){
-    border: 1px solid #000000;
+.containerLevel1 :global(.vtex-dropdown) {
+  border: 1px solid #000000;
 }
 
-.containerLevel1 :global(.vtex-dropdown__container) :global(.vtex-dropdown__caption){
-    color: #000000;
+.containerLevel1 :global(.vtex-dropdown__container) :global(.vtex-dropdown__caption) {
+  color: #000000;
 }
 
-.containerLevel1 :global(.vtex-dropdown__container), 
-.containerLevel2 :global(.vtex-dropdown__container), 
-.containerLevel3 :global(.vtex-dropdown__container){
-    border-radius: 0;
+.containerLevel1 :global(.vtex-dropdown__container),
+.containerLevel2 :global(.vtex-dropdown__container),
+.containerLevel3 :global(.vtex-dropdown__container) {
+  border-radius: 0;
 }
 
-.containerLevel1 :global(.vtex-dropdown__container), 
-.containerLevel2 :global(.vtex-dropdown__container), 
-.containerLevel3 :global(.vtex-dropdown__container){
-    border-radius: 0;
+.containerLevel1 :global(.vtex-dropdown__container),
+.containerLevel2 :global(.vtex-dropdown__container),
+.containerLevel3 :global(.vtex-dropdown__container) {
+  border-radius: 0;
 }
 
-.containerStoreInfo{
-    width: calc(100% - 1rem);
-    border-left: 3px solid #FFD400;
-    padding: .5rem .7rem;
-    margin-top: 1.5rem;
+.containerStoreInfo {
+  width: calc(100% - 1rem);
+  border-left: 3px solid #FFD400;
+  padding: .5rem .7rem;
+  margin-top: 1.5rem;
 }
 
 .containerStoreInfo .storeNameLabel,
 .containerStoreInfo .storeDirectionLabel,
 .containerStoreInfo .storeDirectionLabel,
 .containerStoreInfo .storePhoneLabel,
-.containerStoreInfo .storeHoraryLabel
-{
-    margin-bottom: .8rem;
+.containerStoreInfo .storeHoraryLabel {
+  margin-bottom: .8rem;
 }
 
-.markerInfo{
-    padding: 0 1rem;
+.markerInfo {
+  padding: 0 1rem;
 }
 
 .markerInfo .markerStoreNameLabel,
 .markerInfo .markerStoreDirectionLabel,
 .markerInfo .markerStorePhoneLabel,
-.markerInfo .markerStoreHoraryLabel
-{
-    margin-bottom: .3rem;
+.markerInfo .markerStoreHoraryLabel {
+  margin-bottom: .3rem;
 }
 
 .containerStoreInfo .storeNameLabel,
@@ -118,90 +119,95 @@
 .containerStoreInfo .storeDirectionLabel,
 .containerStoreInfo .storePhoneLabel,
 .containerStoreInfo .storeEmailLabel,
-.containerStoreInfo .storeHoraryLabel
-{
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 15px;
-    letter-spacing: 0.02em;
-    color: #000000;
+.containerStoreInfo .storeHoraryLabel {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.02em;
+  color: #000000;
 }
 
 .markerInfo .markerStoreDirectionLabel,
 .markerInfo .markerStorePhoneLabel,
 .markerInfo .markerStoreHoraryLabel,
-.markerInfo .markerStoreEmailLabel
-{
-    font-weight: normal;
-    font-size: 10px;
-    line-height: 11px;
-    letter-spacing: 0.02em;
-    color: #000000;
+.markerInfo .markerStoreEmailLabel {
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 11px;
+  letter-spacing: 0.02em;
+  color: #000000;
 }
 
 .markerInfo .markerStoreDirection,
 .markerInfo .markerStorePhone,
 .markerInfo .markerStoreHorary,
-.markerInfo .markerStoreEmail
-{
-    font-weight: normal;
-    font-size: 10px;
-    line-height: 11px;
-    letter-spacing: 0.02em;
-    color: #000000;
+.markerInfo .markerStoreEmail {
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 11px;
+  letter-spacing: 0.02em;
+  color: #000000;
 }
 
 .containerStoreInfo .storeName,
-.markerInfo .markerStoreNameLabel
-{
-    font-weight: 800;
-    font-size: 17px;
-    line-height: 21px;
-    letter-spacing: 0.02em;
-    color: #000000;
+.markerInfo .markerStoreNameLabel {
+  font-weight: 800;
+  font-size: 17px;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  color: #000000;
 }
 
-.markerInfo .markerStoreNameLabel{
-    font-size: 14px;
+.markerInfo .markerStoreNameLabel {
+  font-size: 14px;
 }
 
 .containerStoreInfo .storeDirection,
 .containerStoreInfo .storePhone,
 .containerStoreInfo .storeEmail,
-.containerStoreInfo .storeHorary
-{
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 15px;
-    letter-spacing: 0.02em;
-    color: #000000;
+.containerStoreInfo .storeHorary {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.02em;
+  color: #000000;
 }
 
-@media only screen and (min-width: 1080px){
-    .globalContainer{
-        width: 90%;
-    }
-
-    .containerMap{
-        width: 66%;
-    }
-
-    .globalContainerInfo{
-        margin-right: auto;
-        width: 29%;
-    }
-
-    .title{
-        font-size: 25px;
-        line-height: 31px;
-        margin-bottom: 2.5rem;
-    }
+.storeDescriptionLabel {
+  display: none;
 }
 
-.storeDescriptionLabel{
-    display: none;
+.markerStoreDescriptionLabel {
+  display: none;
 }
 
-.markerStoreDescriptionLabel{
-    display: none;
+/* ==========================================================================
+   MEDIA QUERIES (DESDE AQUÍ)
+   Se sigue el enfoque mobile-first. Mantén esta estructura y el orden
+   para asegurar que las reglas específicas sobrescriban correctamente los estilos base.
+   ========================================================================== */
+
+/* Estilos para pantallas(tablet y dispositivos superiores) */
+/* === MAX-WIDTH === */
+/* === MIN-WIDTH === */
+
+@media only screen and (min-width: 1080px) {
+  .globalContainer {
+    width: 90%;
+  }
+
+  .containerMap {
+    width: 66%;
+  }
+
+  .globalContainerInfo {
+    margin-right: auto;
+    width: 29%;
+  }
+
+  .title {
+    font-size: 25px;
+    line-height: 31px;
+    margin-bottom: 2.5rem;
+  }
 }

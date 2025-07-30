@@ -1,52 +1,62 @@
-.productBrandName{
-    font-weight: 800;
-    font-size: 10px;
-    line-height: 13px;
-    letter-spacing: 0.02em;
-    color: #260C11;
-    margin-bottom: .3rem;
+.productBrandName {
+  font-weight: 800;
+  font-size: 10px;
+  line-height: 13px;
+  letter-spacing: 0.02em;
+  color: #260c11;
+  margin-bottom: 0.3rem;
 }
 
-.productName{
-    font-size: 11px;
-    line-height: 14px;
-    letter-spacing: 0.02em;
-    color: #000000;
-    margin-bottom: .5rem;
-    display: block;
+.productName {
+  font-size: 11px;
+  line-height: 14px;
+  letter-spacing: 0.02em;
+  color: #000000;
+  margin-bottom: 0.5rem;
+  display: block;
 }
 
-.productPriceContainer{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
+.productPriceContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
-.productPriceCurrency{
-    font-weight: normal;
-    font-size: 11px;
-    line-height: 15px;
-    letter-spacing: 0.02em;
-    text-decoration-line: line-through;
-    color: #606060;
-    margin-right: .5rem;
-    margin-bottom: 0;
+.productPriceCurrency {
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 0.02em;
+  text-decoration-line: line-through;
+  color: #606060;
+  margin-right: 0.5rem;
+  margin-bottom: 0;
 }
 
-.price{
-    font-weight: 800;
-    font-size: 12px;
-    line-height: 15px;
-    letter-spacing: 0.02em;
-    color: #E30613;
+.price {
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.02em;
+  color: #e30613;
 }
 
-.quantitySelectorContainer{
-    width: auto;
+.quantitySelectorContainer {
+  width: auto;
 }
 
-@media only screen and (min-width: 1180px){
-    .quantitySelectorContainer{
-        width: 3.5rem;
-    }
+/* ==========================================================================
+   MEDIA QUERIES (DESDE AQUÍ)
+   Se sigue el enfoque mobile-first. Mantén esta estructura y el orden
+   para asegurar que las reglas específicas sobrescriban correctamente los estilos base.
+   ========================================================================== */
+
+/* Estilos para pantallas(tablet y dispositivos superiores) */
+/* === MAX-WIDTH === */
+/* === MIN-WIDTH === */
+
+@media only screen and (min-width: 1180px) {
+  .quantitySelectorContainer {
+    width: 3.5rem;
+  }
 }

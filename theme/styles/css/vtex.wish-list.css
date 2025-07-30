@@ -8,22 +8,12 @@
     position: relative;
 }
 
-/* :global(.vtex-wish-list-1-x-outline){
-    font-family: 'icomoon' !important;
-    speak: never;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-}
+/* ==========================================================================
+   MEDIA QUERIES (DESDE AQUÍ)
+   Se sigue el enfoque mobile-first. Mantén esta estructura y el orden
+   para asegurar que las reglas específicas sobrescriban correctamente los estilos base.
+   ========================================================================== */
 
-:global(.vtex-wish-list-1-x-outline)::before{
-    content: '\e923';
-}
-
-:global(.vtex-wish-list-1-x-outline){
-    background: transparent;
-    color: black;
-}    */
+/* Estilos para pantallas(tablet y dispositivos superiores) */
+/* === MAX-WIDTH === */
+/* === MIN-WIDTH === */

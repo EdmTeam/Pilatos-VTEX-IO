@@ -1,34 +1,35 @@
-.openIconContainer--menu-drawer{
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    font-size: 1.8rem;
+.openIconContainer--menu-drawer {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 1.8rem;
 }
 
-.openIconContainer--menu-drawer .menuIcon--menu-drawer{
-    display: none;
+.openIconContainer--menu-drawer .menuIcon--menu-drawer {
+  display: none;
 }
 
 /* Estilos al menu mobile */
-.drawer--menuDrawerLevel1, .drawer--menu-drawer{
-    width: 81% !important;
-    min-width: 250px !important;
+.drawer--menuDrawerLevel1,
+.drawer--menu-drawer {
+  width: 81% !important;
+  min-width: 250px !important;
 }
 
-.drawerHeader--contenedorMenuHeader{
-    margin-bottom: 1.7rem;
+.drawerHeader--contenedorMenuHeader {
+  margin-bottom: 1.7rem;
 }
 
-.closeIconButton{
-    padding: 0;
+.closeIconButton {
+  padding: 0;
 }
 
-.closeIcon{
-    height: 35px !important;
-    width: 35px !important;
-    color: transparent;
+.closeIcon {
+  height: 35px !important;
+  width: 35px !important;
+  color: transparent;
 }
 
 .closeIcon--drawer-menu-close-button {
@@ -40,141 +41,152 @@
   justify-content: right;
 }
 
-.drawerContent--menu-drawer, .drawerContent--menuDrawerLevel1{
-    overflow: visible;
+.drawerContent--menu-drawer,
+.drawerContent--menuDrawerLevel1 {
+  overflow: visible;
 }
 
-.openIconContainer--menuDrawerLevel1{
-    position: absolute;
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%);
-    width: 100%;
+.openIconContainer--menuDrawerLevel1 {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 100%;
 }
 
-.menuIcon--menuDrawerLevel1{
-    color: transparent;
+.menuIcon--menuDrawerLevel1 {
+  color: transparent;
 }
-
 
 /* Estilos a los filtros */
-.openIconContainer--filterDrawer{
-    color: transparent;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: .5rem .75rem .5rem 2rem;
+.openIconContainer--filterDrawer {
+  color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 0.75rem 0.5rem 2rem;
 }
 
-.openIconContainer--filterDrawer::before{
-    content: 'Filtrar';
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 15px;
-    color: #000000;
+.openIconContainer--filterDrawer::before {
+  content: "Filtrar";
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
 }
 
-.drawerContent--filterDrawer{
-    position: relative;
-    padding-top: 1rem;
+.drawerContent--filterDrawer {
+  position: relative;
+  padding-top: 1rem;
 }
 
-.openIconContainer--filterDrawerDeskNew{
-    color: transparent;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: .5rem .75rem .5rem 2rem;
+.openIconContainer--filterDrawerDeskNew {
+  color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 0.75rem 0.5rem 2rem;
 }
 
-.openIconContainer--filterDrawerDeskNew::before{
-    content: 'Filtrar';
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 15px;
-    color: #000000;
+.openIconContainer--filterDrawerDeskNew::before {
+  content: "Filtrar";
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
 }
 
-.drawerContent--filterDrawerDeskNew{
-    position: relative;
-    padding-top: 1rem;
-    margin: 0 auto;
+.drawerContent--filterDrawerDeskNew {
+  position: relative;
+  padding-top: 1rem;
+  margin: 0 auto;
 }
 
-.drawerHeader--contenedorFilterHeader{
+.drawerHeader--contenedorFilterHeader {
   width: 100%;
   justify-content: flex-end;
   position: absolute;
 }
 
-.drawerHeader--contenedorFilterHeader :global(.vtex-rich-text-0-x-wrapper--closeIco){
-    color: #000000;
+.drawerHeader--contenedorFilterHeader :global(.vtex-rich-text-0-x-wrapper--closeIco) {
+  color: #000000;
 }
 
-.drawerContent--filterDrawer :global(.vtex-checkbox__label){
-    font-weight: 300;
-    font-size: 12px;
-    line-height: 18px;
-    letter-spacing: 0.03em;
-    color: #000000;
+.drawerContent--filterDrawer :global(.vtex-checkbox__label) {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.03em;
+  color: #000000;
 }
 
-.drawerContent--filterDrawer :global(.vtex-checkbox__line-container){
-    margin-bottom: .5rem;
+.drawerContent--filterDrawer :global(.vtex-checkbox__line-container) {
+  margin-bottom: 0.5rem;
 }
 
 .drawerContent--filterDrawer :global(.vtex-search-result-3-x-filterTemplateOverflow)::-webkit-scrollbar {
-    width: 6px;
-    background: #FFFFFF;
+  width: 6px;
+  background: #ffffff;
 }
 
 .drawerContent--filterDrawer :global(.vtex-search-result-3-x-filterTemplateOverflow)::-webkit-scrollbar-thumb {
-    display: block;
-    background: #C4C4C4;
-    border-radius: 10px;
+  display: block;
+  background: #c4c4c4;
+  border-radius: 10px;
 }
 
-.drawerContent--filterDrawer :global(.vtex-search-result-3-x-filterTemplateOverflow){
-    width: 221px;
-    padding-left: 1.5rem;
+.drawerContent--filterDrawer :global(.vtex-search-result-3-x-filterTemplateOverflow) {
+  width: 221px;
+  padding-left: 1.5rem;
 }
+
+/*FILTRO MOBILE MÁS ALTO**/
+.opened--filterDrawer {
+  left: 0;
+  /*left: 50%;
+    transform: translateX(-50%) !important;*/
+}
+
+.drawerContent--filterDrawerDeskNew :global(.vtex-checkbox__line-container) {
+  margin-bottom: 0.5rem;
+}
+
+.drawerContent--filterDrawerDeskNew :global(.vtex-search-result-3-x-filterTemplateOverflow)::-webkit-scrollbar {
+  width: 6px;
+  background: #ffffff;
+}
+
+.drawerContent--filterDrawerDeskNew :global(.vtex-search-result-3-x-filterTemplateOverflow)::-webkit-scrollbar-thumb {
+  display: block;
+  background: #c4c4c4;
+  border-radius: 10px;
+}
+
+.drawerContent--filterDrawerDeskNew :global(.vtex-search-result-3-x-filterTemplateOverflow) {
+  width: 221px;
+  padding-left: 1.5rem;
+  max-height: 400px !important;
+}
+
+.opened--filterDrawerDeskNew {
+  right: -5%;
+  transform: translateX(-50%) !important;
+}
+
+/* ==========================================================================
+   MEDIA QUERIES (DESDE AQUÍ)
+   Se sigue el enfoque mobile-first. Mantén esta estructura y el orden
+   para asegurar que las reglas específicas sobrescriban correctamente los estilos base.
+   ========================================================================== */
+
+/* Estilos para pantallas(tablet y dispositivos superiores) */
+/* === MAX-WIDTH === */
+
 /*FILTRO MOBILE MÁS ALTO**/
 @media screen and (max-width: 768px) {
   .drawerContent--filterDrawer :global(.vtex-search-result-3-x-filterTemplateOverflow) {
     max-height: 400px !important;
   }
 }
-/*FILTRO MOBILE MÁS ALTO**/
-.opened--filterDrawer{
-    left: 0;
-    /*left: 50%;
-    transform: translateX(-50%) !important;*/
-}
 
-
-.drawerContent--filterDrawerDeskNew :global(.vtex-checkbox__line-container){
-    margin-bottom: .5rem;
-}
-
-.drawerContent--filterDrawerDeskNew :global(.vtex-search-result-3-x-filterTemplateOverflow)::-webkit-scrollbar {
-    width: 6px;
-    background: #FFFFFF;
-}
-
-.drawerContent--filterDrawerDeskNew :global(.vtex-search-result-3-x-filterTemplateOverflow)::-webkit-scrollbar-thumb {
-    display: block;
-    background: #C4C4C4;
-    border-radius: 10px;
-}
-
-.drawerContent--filterDrawerDeskNew :global(.vtex-search-result-3-x-filterTemplateOverflow){
-    width: 221px;
-    padding-left: 1.5rem;
-    max-height: 400px !important;
-}
-
-.opened--filterDrawerDeskNew{
-    right: -5%;
-    transform: translateX(-50%) !important;
-}
-
+/* === MIN-WIDTH === */

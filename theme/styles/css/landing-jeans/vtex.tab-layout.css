@@ -1,42 +1,51 @@
-
 /****NUEVOS***/
 .listItem--boton-fit-jeans-genero-tab {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .listContainer--botones-fit-jeans-genero-tab :global(.vtex-tab-layout-0-x-listItem) {
-    background-color: #fff;
-    color: #fff !important;
-    cursor: pointer;
-    border: 1px solid #000;
-    border-radius: 0;
-    width: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: #fff;
+  color: #fff !important;
+  cursor: pointer;
+  border: 1px solid #000;
+  border-radius: 0;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .listContainer--botones-fit-jeans-genero-tab :global(.vtex-tab-layout-0-x-listItemActive) {
-    background-color: #000;
-    color: #fff;
-    height: auto;
-    transition: background-color 0.2s ease-in;
+  background-color: #000;
+  color: #fff;
+  height: auto;
+  transition: background-color 0.2s ease-in;
 }
 
 .listItem--boton-fit-jeans-genero-tab :global(.vtex-button):hover {
-    background-color: transparent !important;
+  background-color: transparent !important;
 }
 
 :global(.vtex-tab-layout-0-x-listItemActive--boton-fit-jeans-genero-tab) :global(.vtex-button) {
-    color: #fff;
+  color: #fff;
 }
 
 :global(.vtex-tab-layout-0-x-listItemActive) :global(.vtex-button) {
-    color: #fff;
+  color: #fff;
 }
 
 :global(.vtex-tab-layout-0-x-container--botones-fit-jeans-genero-tab) :global(.vtex-tab-layout-0-x-listContainer) {
-    justify-content: center;
-    margin-bottom: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
 }
+
+/* ==========================================================================
+   MEDIA QUERIES (DESDE AQUÍ)
+   Se sigue el enfoque mobile-first. Mantén esta estructura y el orden
+   para asegurar que las reglas específicas sobrescriban correctamente los estilos base.
+   ========================================================================== */
+
+/* Estilos para pantallas(tablet y dispositivos superiores) */
+/* === MAX-WIDTH === */
+/* === MIN-WIDTH === */

@@ -25,46 +25,31 @@
 @font-face {
   font-family: "Publico Banner Web Ultra";
   src: url("//db.onlinewebfonts.com/t/4b034aa42968984e20335429f8370be8.eot");
-  src: url("//db.onlinewebfonts.com/t/4b034aa42968984e20335429f8370be8.eot?#iefix")
-      format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/4b034aa42968984e20335429f8370be8.woff2")
-      format("woff2"),
-    url("//db.onlinewebfonts.com/t/4b034aa42968984e20335429f8370be8.woff")
-      format("woff"),
-    url("//db.onlinewebfonts.com/t/4b034aa42968984e20335429f8370be8.ttf")
-      format("truetype"),
-    url("//db.onlinewebfonts.com/t/4b034aa42968984e20335429f8370be8.svg#Publico Banner Web Ultra")
-      format("svg");
+  src: url("//db.onlinewebfonts.com/t/4b034aa42968984e20335429f8370be8.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/4b034aa42968984e20335429f8370be8.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/4b034aa42968984e20335429f8370be8.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/4b034aa42968984e20335429f8370be8.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/4b034aa42968984e20335429f8370be8.svg#Publico Banner Web Ultra") format("svg");
 }
 
 @font-face {
   font-family: "Diverda Sans Com";
   src: url("//db.onlinewebfonts.com/t/3fc7fbbcf10d563f006158f0aa671ab9.eot");
-  src: url("//db.onlinewebfonts.com/t/3fc7fbbcf10d563f006158f0aa671ab9.eot?#iefix")
-      format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/3fc7fbbcf10d563f006158f0aa671ab9.woff2")
-      format("woff2"),
-    url("//db.onlinewebfonts.com/t/3fc7fbbcf10d563f006158f0aa671ab9.woff")
-      format("woff"),
-    url("//db.onlinewebfonts.com/t/3fc7fbbcf10d563f006158f0aa671ab9.ttf")
-      format("truetype"),
-    url("//db.onlinewebfonts.com/t/3fc7fbbcf10d563f006158f0aa671ab9.svg#Diverda Sans Com")
-      format("svg");
+  src: url("//db.onlinewebfonts.com/t/3fc7fbbcf10d563f006158f0aa671ab9.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/3fc7fbbcf10d563f006158f0aa671ab9.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/3fc7fbbcf10d563f006158f0aa671ab9.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/3fc7fbbcf10d563f006158f0aa671ab9.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/3fc7fbbcf10d563f006158f0aa671ab9.svg#Diverda Sans Com") format("svg");
 }
 
 @font-face {
   font-family: "BourgeoisW00-MediumCond";
   src: url("//db.onlinewebfonts.com/t/888ccc48806d577d943f49088f4d802c.eot");
-  src: url("//db.onlinewebfonts.com/t/888ccc48806d577d943f49088f4d802c.eot?#iefix")
-      format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/888ccc48806d577d943f49088f4d802c.woff2")
-      format("woff2"),
-    url("//db.onlinewebfonts.com/t/888ccc48806d577d943f49088f4d802c.woff")
-      format("woff"),
-    url("//db.onlinewebfonts.com/t/888ccc48806d577d943f49088f4d802c.ttf")
-      format("truetype"),
-    url("//db.onlinewebfonts.com/t/888ccc48806d577d943f49088f4d802c.svg#BourgeoisW00-MediumCond")
-      format("svg");
+  src: url("//db.onlinewebfonts.com/t/888ccc48806d577d943f49088f4d802c.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/888ccc48806d577d943f49088f4d802c.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/888ccc48806d577d943f49088f4d802c.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/888ccc48806d577d943f49088f4d802c.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/888ccc48806d577d943f49088f4d802c.svg#BourgeoisW00-MediumCond") format("svg");
 }
 
 @font-face {
@@ -88,8 +73,7 @@
 @font-face {
   font-family: "Bourgeois Medium Condensed";
   src: url("/arquivos/BourgeoisMediumCondensed.eot.css");
-  src: url("/arquivos/BourgeoisMediumCondensed.eot.css")
-      format("embedded-opentype"),
+  src: url("/arquivos/BourgeoisMediumCondensed.eot.css") format("embedded-opentype"),
     url("/arquivos/BourgeoisMediumCondensed.woff2.css") format("woff2"),
     url("/arquivos/BourgeoisMediumCondensed.woff.css") format("woff"),
     url("/arquivos/BourgeoisMediumCondensed.svg.css") format("svg");

@@ -25,8 +25,6 @@
   background: red;
 }
 
-
-
 /* Imagenes banners promocionales */
 .imageElement--imageBanner {
   object-fit: cover;
@@ -34,10 +32,8 @@
   width: 100%;
 }
 
-
-
 .imageElement--contentImg {
-  margin-bottom: .3rem;
+  margin-bottom: 0.3rem;
 }
 
 /* footer */
@@ -61,7 +57,7 @@
   background: transparent;
   border: none;
   border-radius: 0;
-  border-bottom: 1px solid #AAA9A9;
+  border-bottom: 1px solid #aaa9a9;
 }
 
 :global(.vtex-styleguide-9-x-input) {
@@ -69,7 +65,7 @@
 }
 
 :global(.vtex-styleguide-9-x-input)::placeholder {
-  color: #260C11;
+  color: #260c11;
   text-align: left;
 }
 
@@ -128,7 +124,7 @@
 :global(.vtex-rich-text-0-x-wrapper--icoInstagram) :global(.vtex-rich-text-0-x-link),
 :global(.vtex-rich-text-0-x-wrapper--icoWhatsapp) :global(.vtex-rich-text-0-x-link),
 :global(.vtex-rich-text-0-x-wrapper--contentIcoWhatsApp) {
-  font-family: 'icomoon' !important;
+  font-family: "icomoon" !important;
   speak: never;
   font-style: normal;
   font-weight: normal;
@@ -139,53 +135,47 @@
 }
 
 :global(.vtex-rich-text-0-x-wrapper--icoWhatsapp) :global(.vtex-rich-text-0-x-link)::before {
-  content: '\e923';
+  content: "\e923";
 }
 
 :global(.vtex-rich-text-0-x-wrapper--icoInstagram) :global(.vtex-rich-text-0-x-link)::before {
-  content: '\e90c';
+  content: "\e90c";
 }
 
 :global(.vtex-rich-text-0-x-wrapper--icoFacebook) :global(.vtex-rich-text-0-x-link)::before {
-  content: '\e905';
+  content: "\e905";
 }
-
-/*
-:global(.vtex-flex-layout-0-x-flexColChild--contentNewsletter) :global(.vtex-button)::before{
-    content: '\e91a';
-}
-*/
 
 :global(.vtex-flex-layout-0-x-flexColChild--contentNewsletter) :global(.vtex-button)::after {
-  content: '\e91a';
+  content: "\e91a";
 }
 
 :global(.vtex-product-list-0-x-removeButton)::before {
-  content: '\e91e';
+  content: "\e91e";
 }
 
 :global(.vtex-rich-text-0-x-wrapper--closeIco)::before {
-  content: '\e901';
+  content: "\e901";
 }
 
 :global(.vtex-flex-layout-0-x-flexColChild--contentBack) :global(.vtex-store-drawer-0-x-closeIconButton)::before {
-  content: '\e90d';
-  color: #BF6E0B;
+  content: "\e90d";
+  color: #bf6e0b;
   font-size: 1.2rem;
 }
 
 :global(.vtex-rich-text-0-x-wrapper--submenuIco)::before {
-  content: '\e917';
-  color: #BF6E0B;
+  content: "\e917";
+  color: #bf6e0b;
   font-size: 1.1rem;
 }
 
 :global(.vtex-rich-text-0-x-wrapper--icoMenuLevel1)::before {
-  content: '\e917';
+  content: "\e917";
 }
 
 :global(.vtex-store-components-3-x-autoCompleteOuterContainer--contentSearch) :global(.vtex-store-components-3-x-searchBarIcon--search)::before {
-  content: '\e918';
+  content: "\e918";
   color: #000000;
   font-size: 1.5rem;
   position: absolute;
@@ -194,84 +184,83 @@
 }
 
 :global(.vtex-login-2-x-container) :global(.vtex-button)::before {
-  content: '\e921';
+  content: "\e921";
   color: #000000;
   font-size: 1.1rem;
   font-weight: bold;
 }
 
 :global(.vtex-rich-text-0-x-wrapper--icoLogin)::before {
-  content: '\e921';
+  content: "\e921";
 }
 
 :global(.vtex-menu-2-x-accordionIcon--accordionLevel1--isOpen)::before,
 :global(.vtex-menu-2-x-accordionIcon--menuAccordionLevel1--isOpen)::before {
-  content: '\e920';
+  content: "\e920";
 }
 
 :global(.vtex-menu-2-x-accordionIcon--accordionLevel1--isClosed)::before,
 :global(.vtex-menu-2-x-accordionIcon--menuAccordionLevel1--isClosed)::before {
-  content: '\e904';
+  content: "\e904";
 }
 
 :global(.vtex-rich-text-0-x-wrapper--icoBlacksip)::before {
-  content: '\e90a';
+  content: "\e90a";
 }
 
 :global(.vtex-flex-layout-0-x-flexCol--icoBlacksip)::before {
-  content: '\e90a';
+  content: "\e90a";
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
 }
 
 :global(.vtex-rich-text-0-x-wrapper--icoVtex)::before {
-  content: '\e90b';
+  content: "\e90b";
 }
 
 :global(.vtex-flex-layout-0-x-flexCol--icoVtex)::before {
-  content: '\e90b';
+  content: "\e90b";
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-
 }
 
 :global(.vtex-minicart-2-x-minicartIconContainer)::before {
-  content: '\e902';
+  content: "\e902";
   color: #000000;
   font-size: 1.6rem;
   font-weight: normal;
 }
 
 :global(.vtex-store-drawer-0-x-openIconContainer--menu-drawer)::before {
-  content: '\e910';
+  content: "\e910";
 }
 
 :global(.vtex-rich-text-0-x-link--icoWishlist)::before,
 :global(.vtex-flex-layout-0-x-flexRowContent--contentBtnWishlist) :global(.vtex-rich-text-0-x-wrapper--icoWishlist)::before {
-  content: '\e908';
+  content: "\e908";
   color: #000000;
   font-size: 1.1rem;
   font-weight: bold;
 }
 
 :global(.vtex-rich-text-0-x-wrapper--icon-Security)::before {
-  content: '\e919';
+  content: "\e919";
 }
 
 :global(.vtex-rich-text-0-x-wrapper--icon-Payment)::before {
-  content: '\e912';
+  content: "\e912";
 }
 
 :global(.vtex-rich-text-0-x-wrapper--icon-Delivery)::before {
-  content: '\e903';
+  content: "\e903";
 }
 
-:global(.vtex-rich-text-0-x-wrapper--icoSearch)::before{
-    content: '\e918';
-    font-size: 1.6rem;
-    color: #000;
+:global(.vtex-rich-text-0-x-wrapper--icoSearch)::before {
+  content: "\e918";
+  font-size: 1.6rem;
+  color: #000;
 }
 
 :global(.vtex-flex-layout-0-x-flexColChild--icoLogin) :global(.vtex-login-2-x-label) {
@@ -316,30 +305,14 @@
   margin-left: 11px;
 }
 
-@media only screen and (min-width: 1180px) {
-  .imageElement--imgLogoFooter1 {
-    margin-right: 14px;
-  }
-
-  .imageElement--imgLogoFooter2 {
-    margin-right: 28px;
-    width: 70% !important;
-  }
-}
-
-/* Vitrina
-:global(.vtex-product-summary-2-x-element--shelfSlide) .skuSelectorSubcontainer--talla{
-    display: none;
-}*/
-
 :global(.vtex-product-summary-2-x-element--shelfSlide) .skuSelectorTextContainer {
   display: none;
-  margin-bottom: .3rem;
+  margin-bottom: 0.3rem;
   text-align: left;
   font-weight: 800;
   font-size: 9px;
   line-height: 9px;
-  color: #260C11;
+  color: #260c11;
 }
 
 .skuSelectorSelectContainer {
@@ -354,7 +327,7 @@
 }
 
 .skuSelectorSelectContainer :global(.vtex-dropdown__button) {
-  padding: 0 .5rem;
+  padding: 0 0.5rem;
   font-weight: 600;
   font-size: 10px;
   line-height: 10px;
@@ -367,17 +340,6 @@
   justify-content: center;
   align-items: center;
 }
-
-
-/*
- link variation linio integracion
- .skuSelectorSubcontainer--lin_variation-required {
-    background: red;
-    display: none;
-}
-*/
-
-
 
 .skuSelectorSubcontainer--talla {
   order: 2;
@@ -400,13 +362,7 @@
 }
 
 .skuSelectorSubcontainer--talla {
-  margin: 0 0 .5rem 0;
-}
-
-@media screen and (max-width:1024px) {
-  .skuSelectorSubcontainer--talla {
-    margin: 0 0 .1rem 0;
-  }
+  margin: 0 0 0.5rem 0;
 }
 
 .skuSelectorOptionsList {
@@ -433,7 +389,6 @@
   width: 100%;
 }
 
-
 .imageElement--PromotionalBannerImg,
 .imageElement--PromotionalBannerImg3 {
   width: 100%;
@@ -450,7 +405,7 @@
 }
 
 .imageElementLink--contentBannerMenu {
-  margin: 1.2rem 0 .9rem 0;
+  margin: 1.2rem 0 0.9rem 0;
 }
 
 .suffixWrapper--contentSearch .closeIcon--contentSearch {
@@ -478,11 +433,11 @@
 
 /*imagen billy*/
 .imageElement--principal-sostenible {
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
 .imageElementLink--departmentBannerImg-1 {
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
 .imageElement--departmentBannerImg-ingre {
@@ -490,7 +445,7 @@
 }
 
 .imageElementLink--departmentBannerImg-3 {
-  margin-right: .6rem;
+  margin-right: 0.6rem;
 }
 
 /*prueba hover billy fondo*/
@@ -498,10 +453,6 @@
 .imageElementLink--departmentBannerImg-sneaker {
   margin: 1%;
 }
-
-/* .imageElementLink--departmentBannerImg-topHome {
-  margin-bottom: 1%;
-} */
 
 .imageElementLink--departmentBannerImg-top:hover {
   margin-bottom: 1%;
@@ -519,41 +470,10 @@
 .imageElement--fraganciayUso-usoSinLin {
   margin: 1%;
   width: 98%;
-
 }
 
 .imageElementLink--sanValentinImagen {
   margin: 1%;
-
-}
-
-@media screen and (min-width:1000px) {
-  .imageElementLink--estilosPilatosDenimCategorias {
-    margin: 1%;
-  }
-}
-
-@media screen and (min-width:1200px) {
-  .imageElementLink--DisandinaImagenCategorias {
-    margin: 10%;
-  }
-}
-
-@media screen and (max-width:500px) {
-  .imageElementLink--DisandinaImagenCategorias {
-    width: 170px;
-    position: relative;
-    top: -80px;
-    margin: 10px;
-  }
-
-  .imageElementLink--DisandinaImagenCategoriasDos {
-    width: 170px;
-    position: relative;
-    top: -80px;
-    margin: 10px;
-    left: 100px;
-  }
 }
 
 .imageElementLink--departmentBannerImg-Frenchie {
@@ -568,27 +488,13 @@
   margin-top: 1%;
 }
 
-
 .imageElementLink--departmentBannerImg-4 {
-  margin: 0 .3rem;
+  margin: 0 0.3rem;
   margin-right: 3%;
 }
 
 .imageElementLink--departmentBannerImg-5 {
-  margin-left: .6rem;
-}
-
-@media (max-width: 640px) {
-  .imageElementLink--departmentBannerImg-topHome {
-    margin-bottom: 2%;
-  }
-}
-
-@media only screen and (min-width: 1180px) {
-  .skuSelectorItem {
-    height: 28px;
-    width: 28px;
-  }
+  margin-left: 0.6rem;
 }
 
 /* Estilos a la pagina de producto */
@@ -611,7 +517,7 @@
   font-size: 18px;
   line-height: 18px;
   text-decoration-line: line-through;
-  color: #AAA9A9;
+  color: #aaa9a9;
 }
 
 .price_listPriceContainer--productPrice,
@@ -646,7 +552,7 @@
 }
 
 :global(.vtex-flex-layout-0-x-flexColChild--stack-product) .skuSelectorSubcontainer--color {
-  margin: .1rem 0 0 0;
+  margin: 0.1rem 0 0 0;
 }
 
 :global(.vtex-flex-layout-0-x-flexColChild--stack-product) .skuSelectorSubcontainer--talla .skuSelectorItem {
@@ -681,7 +587,7 @@
 
 .shareSocialButton:nth-child(2n) {
   background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.19463 17.8619H11.2915V10.0779H13.4677L13.7187 7.48321H11.3333C11.3333 7.48321 11.3333 6.52068 11.3333 5.97663C11.3333 5.34889 11.4589 5.0978 12.0448 5.0978C12.5051 5.0978 13.7187 5.0978 13.7187 5.0978V2.41943C13.7187 2.41943 11.9611 2.41943 11.5426 2.41943C9.24086 2.41943 8.19463 3.42382 8.19463 5.39074C8.19463 7.10657 8.19463 7.48321 8.19463 7.48321H6.5625V10.1197H8.19463V17.8619Z' fill='%23606060'/%3E%3C/svg%3E");
-  margin: 0 .6rem;
+  margin: 0 0.6rem;
 }
 
 .shareSocialButton:last-child {
@@ -698,59 +604,6 @@
   font-size: 16px;
   line-height: 1.5;
   color: #3f3f40;
-}
-
-@media only screen and (min-width: 740px) {
-  .price_className--productPrice {
-    margin: 1.5rem 0 1rem auto;
-  }
-}
-
-@media only screen and (min-width: 1180px) {
-  .listPriceValue {
-    font-size: 20px;
-    font-weight: 900 !important;
-  }
-
-  .price_className--productPrice {
-    margin: 0.5rem auto 1rem 0;
-    /*width: 85%;*/
-    width: 80%;
-  }
-
-  :global(.vtex-flex-layout-0-x-flexColChild--stack-product) .skuSelectorContainer {
-    width: 100%;
-  }
-
-  :global(.vtex-flex-layout-0-x-flexColChild--stack-product) .skuSelectorItem {
-    width: 24px;
-    height: 24px;
-    margin: 4px 9px 4px 0;
-  }
-
-  .productDescriptionText .content {
-    font-size: 16px;
-  }
-
-  .productDescriptionContainer {
-    /*width: 93% !important;*/
-    max-width: none;
-  }
-}
-
-@media only screen and (max-width: 760px) {
-  :global(.vtex-flex-layout-0-x-flexColChild--stack-product) .productImagesContainer--carousel {
-    height: 431px;
-  }
-
-  .price_className--productPrice {
-    margin-top: 1rem;
-  }
-
-  .imageElement--departmentBannerImg-devolucion,
-  .imageElement--departmentBannerImg-devolucion {
-    width: 100% !important;
-  }
 }
 
 .imageElementLink--logoModalMobile {
@@ -771,23 +624,6 @@
   max-width: 320px;
 }
 
-
-@media screen and (min-width: 769px) {
-
-  .imageElementLink--banner-image-sale-portrait,
-  .imageElementLink--sub-banner-image-sale-portrait {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 768px) {
-
-  .imageElementLink--banner-image-sale-landscape,
-  .imageElementLink--sub-banner-image-sale-landscape {
-    display: none;
-  }
-}
-
 .imageElementLink--workWithContentBannerImg {
   margin-bottom: 1rem;
 }
@@ -803,16 +639,13 @@
 
 .imageElement--sneaker-imagenBrand {
   border-radius: 12px;
-  border: 1px solid #EAE7E7;
+  border: 1px solid #eae7e7;
   cursor: pointer;
-
 }
-
 
 .imageElement--sneaker-imagenBrand:hover {
   cursor: pointer;
-  border: 2px solid #FFD400;
-
+  border: 2px solid #ffd400;
 }
 
 .imageElement--imageRituales {
@@ -858,13 +691,6 @@
   object-fit: cover;
 }
 
-/***PDP***/
-@media screen and (min-width: 640px) and (max-width: 860px) {
-  :global(.vtex-flex-layout-0-x-flexColChild--stack-product) .skuSelectorContainer {
-    width: 100%
-  }
-}
-
 /*****LANDING TENIS****/
 
 .infoCardTextContainer--info-card-tenis-desk {
@@ -884,19 +710,9 @@
   font-weight: 400;
 }
 
-@media screen and (max-width: 768px) {
-  .infoCardSubhead--info-card-tenis-desk {
-    width: 100%;
-  }
-
-  .infoCardHeadline--info-card-tenis-desk {
-    font-size: 32px;
-  }
-}
-
 :global(.vtex-store-components-3-x-infoCardCallActionContainer--info-card-tenis-desk) :global(.vtex-button) {
   color: #000;
-  background-color: #FFD400;
+  background-color: #ffd400;
   padding: 10px 20px;
   border-radius: 100px;
   font-weight: 800;
@@ -935,34 +751,6 @@
   background-color: #000;
   border-color: #000;
   width: 45px;
-}
-
-@media screen and (max-width: 1024px) {
-  .imageElement--imagen-1-live-shopping {
-    width: auto;
-    height: auto;
-  }
-
-  .backToTopButtonContainer :global(.vtex-button) {
-    right: -30px;
-    width: 35px;
-  }
-
-  .backToTopButtonContainer :global(.vtex-button__label) {
-    padding: 0px !important;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .imageElement--imagen-1-live-shopping {
-    width: auto;
-    height: auto;
-  }
-
-  :global(.vtex-add-to-cart-button-0-x-buttonText)::after {
-    font-size: 10px !important;
-    content: "Agregar al carrito";
-  }
 }
 
 .swiperCaretNext--pdpImage .caretIcon--pdpImage,
@@ -1008,26 +796,9 @@
   justify-content: center;
 }
 
-@media screen and (max-width: 1024px) {
-  .infoCardContainer--infocardBanner {
-    position: relative;
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-
-  :global(.vtex-flex-layout-0-x-flexColChild--bannersInfoCardRight) {
-    margin-left: 4px !important;
-  }
-
-  :global(.vtex-flex-layout-0-x-flexColChild--bannersInfoCardLeft) {
-    margin-right: 4px !important;
-  }
-}
-
 /*landing sneakers 2024*/
 
 .imageElementLink--imagen-dsneakers-1 {
-
   margin-bottom: 2%;
   margin-top: 2%;
 }
@@ -1035,11 +806,10 @@
 /* Menu Sale */
 
 .imageElement--submenu__hombre--sale,
-.imageElement--submenu__mujer--sale  {
+.imageElement--submenu__mujer--sale {
   max-width: 211px;
   max-height: 272px;
 }
-
 
 .imageElement--departmentBannerImg-topHome {
   width: 100%;
@@ -1060,10 +830,200 @@
   object-fit: cover;
 }
 
-
 /*medios de pago PDP*/
-
 
 .imageElement--imagen-mdeios-de-pago-pdp {
   object-fit: contain;
+}
+
+/* ==========================================================================
+   MEDIA QUERIES (DESDE AQUÍ)
+   Se sigue el enfoque mobile-first. Mantén esta estructura y el orden
+   para asegurar que las reglas específicas sobrescriban correctamente los estilos base.
+   ========================================================================== */
+
+/* Estilos para pantallas(tablet y dispositivos superiores) */
+
+/* === MAX-WIDTH === */
+
+@media only screen and (max-width: 500px) {
+  .imageElementLink--DisandinaImagenCategorias {
+    width: 170px;
+    position: relative;
+    top: -80px;
+    margin: 10px;
+  }
+
+  .imageElementLink--DisandinaImagenCategoriasDos {
+    width: 170px;
+    position: relative;
+    top: -80px;
+    margin: 10px;
+    left: 100px;
+  }
+}
+
+@media (max-width: 640px) {
+  .imageElementLink--departmentBannerImg-topHome {
+    margin-bottom: 2%;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  :global(.vtex-flex-layout-0-x-flexColChild--stack-product) .productImagesContainer--carousel {
+    height: 431px;
+  }
+
+  .price_className--productPrice {
+    margin-top: 1rem;
+  }
+
+  .imageElement--departmentBannerImg-devolucion,
+  .imageElement--departmentBannerImg-devolucion {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+
+  .imageElementLink--banner-image-sale-landscape,
+  .imageElementLink--sub-banner-image-sale-landscape {
+    display: none;
+  }
+
+  .imageElement--imagen-1-live-shopping {
+    width: auto;
+    height: auto;
+  }
+
+  :global(.vtex-add-to-cart-button-0-x-buttonText)::after {
+    font-size: 10px !important;
+    content: "Agregar al carrito";
+  }
+
+  .infoCardSubhead--info-card-tenis-desk {
+    width: 100%;
+  }
+
+  .infoCardHeadline--info-card-tenis-desk {
+    font-size: 32px;
+  }
+
+}
+
+@media only screen and (max-width: 1024px) {
+  .infoCardContainer--infocardBanner {
+    position: relative;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexColChild--bannersInfoCardRight) {
+    margin-left: 4px !important;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexColChild--bannersInfoCardLeft) {
+    margin-right: 4px !important;
+  }
+
+  .imageElement--imagen-1-live-shopping {
+    width: auto;
+    height: auto;
+  }
+
+  .backToTopButtonContainer :global(.vtex-button) {
+    right: -30px;
+    width: 35px;
+  }
+
+  .backToTopButtonContainer :global(.vtex-button__label) {
+    padding: 0px !important;
+  }
+
+  .skuSelectorSubcontainer--talla {
+    margin: 0 0 0.1rem 0;
+  }
+
+}
+
+/* === MIN-WIDTH === */
+
+@media only screen and (min-width: 740px) {
+  .price_className--productPrice {
+    margin: 1.5rem 0 1rem auto;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+
+  .imageElementLink--banner-image-sale-portrait,
+  .imageElementLink--sub-banner-image-sale-portrait {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .imageElementLink--estilosPilatosDenimCategorias {
+    margin: 1%;
+  }
+}
+
+@media only screen and (min-width: 1180px) {
+
+  .imageElement--imgLogoFooter1 {
+    margin-right: 14px;
+  }
+
+  .imageElement--imgLogoFooter2 {
+    margin-right: 28px;
+    width: 70% !important;
+  }
+
+  .skuSelectorItem {
+    height: 28px;
+    width: 28px;
+  }
+
+  .listPriceValue {
+    font-size: 20px;
+    font-weight: 900 !important;
+  }
+
+  .price_className--productPrice {
+    margin: 0.5rem auto 1rem 0;
+    /*width: 85%;*/
+    width: 80%;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexColChild--stack-product) .skuSelectorContainer {
+    width: 100%;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexColChild--stack-product) .skuSelectorItem {
+    width: 24px;
+    height: 24px;
+    margin: 4px 9px 4px 0;
+  }
+
+  .productDescriptionText .content {
+    font-size: 16px;
+  }
+
+  .productDescriptionContainer {
+    /*width: 93% !important;*/
+    max-width: none;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .imageElementLink--DisandinaImagenCategorias {
+    margin: 10%;
+  }
+}
+
+/***PDP***/
+@media screen and (min-width: 640px) and (max-width: 860px) {
+  :global(.vtex-flex-layout-0-x-flexColChild--stack-product) .skuSelectorContainer {
+    width: 100%;
+  }
 }

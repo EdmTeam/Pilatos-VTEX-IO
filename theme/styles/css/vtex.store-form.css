@@ -1,8 +1,6 @@
 .formSubmitButton--submit-dsi :global(.vtex-button) {
-  /* padding: 0 1rem !important; */
   margin-top: 1rem;
   background-color: #000;
-
   /**nuevos estlos**/
   display: flex;
   align-items: center;
@@ -32,31 +30,24 @@
 }
 
 .input {
-background: red;
+  background: red;
 }
 
 /*Traba con nosotros*/
 .formSubmitButton--submit-workwithus-new :global(.vtex-button) {
-background-color: #FFD400;
-border: 0;
-border-radius: 80px;
-padding: 16px 40px;
-color: #000;
-font-weight: bold;
-width: 449px;
-height: 47px;
-}
-
-/**form primera compra**/
-@media (max-width:768px) {
-.formSubmitButton--submit-workwithus-new :global(.vtex-button) {
-  width: 100%;
-}
+  background-color: #ffd400;
+  border: 0;
+  border-radius: 80px;
+  padding: 16px 40px;
+  color: #000;
+  font-weight: bold;
+  width: 449px;
+  height: 47px;
 }
 
 /***Form live shopping**/
 .formSubmitButton--submit-live-shopping :global(.vtex-button) {
-  background-color: #FFD400;
+  background-color: #ffd400;
   border: 0;
   border-radius: 8px;
   width: 80%;
@@ -70,7 +61,7 @@ height: 47px;
 
 /**Friends and family**/
 .formSubmitButton--submit-friends-family :global(.vtex-button) {
-  background-color: #FFD400;
+  background-color: #ffd400;
   border: 0;
   border-radius: 8px;
   width: 40%;
@@ -82,3 +73,21 @@ height: 47px;
   align-items: center;
   height: 40px;
 }
+
+/* ==========================================================================
+   MEDIA QUERIES (DESDE AQUÍ)
+   Se sigue el enfoque mobile-first. Mantén esta estructura y el orden
+   para asegurar que las reglas específicas sobrescriban correctamente los estilos base.
+   ========================================================================== */
+
+/* Estilos para pantallas(tablet y dispositivos superiores) */
+/* === MAX-WIDTH === */
+
+/**form primera compra**/
+@media (max-width: 768px) {
+  .formSubmitButton--submit-workwithus-new :global(.vtex-button) {
+    width: 100%;
+  }
+}
+
+/* === MIN-WIDTH === */

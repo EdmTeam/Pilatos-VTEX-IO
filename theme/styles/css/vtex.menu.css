@@ -1,360 +1,355 @@
 .styledLink--item-departmentos::before {
-    width: 25px;
-    height: 14px;
-    content: "";
-    display: block;
-    float: left;
-    background-size: contain;
-    margin-right: 8px;
-    background-image: url("/arquivos/icono-menu.png");
+  width: 25px;
+  height: 14px;
+  content: "";
+  display: block;
+  float: left;
+  background-size: contain;
+  margin-right: 8px;
+  background-image: url("/arquivos/icono-menu.png");
 }
 
 .menuItem--menuAccordionLevel1--isOpen :global(.vtex-menu-2-x-submenuAccordion--contentSubMenuAcordeon) {
-    height: auto !important;
+  height: auto !important;
 }
 
-.styledLinkContent--item-departmentos{
-    color: white;
+.styledLinkContent--item-departmentos {
+  color: white;
 }
 
 .styledLinkContent--itemMenuLevelIconMobile {
-    font-weight: 700;
-    font-size: 12px !important;
-    line-height: 17px !important;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    color: #000000;
-    margin: 0.5rem 0.5rem;
-    text-decoration: none;
-  }
+  font-weight: 700;
+  font-size: 12px !important;
+  line-height: 17px !important;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #000000;
+  margin: 0.5rem 0.5rem;
+  text-decoration: none;
+}
 
 .menuItem--item-departmentos {
-    background-color: black;
-    width: 205px;
+  background-color: black;
+  width: 205px;
 }
 
 .submenuWrapper--departmentos {
-    padding: 0!important;
-    min-height: 70vh;
-    width: 300px;
-    background-color: #e4e6e6;
+  padding: 0 !important;
+  min-height: 70vh;
+  width: 300px;
+  background-color: #e4e6e6;
 }
 
 .styledLink--titulo-menu {
-    color: #D70D27;
-    font-weight: bold;
-    padding-top: 2px;
-    height: 29px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 1px;
+  color: #D70D27;
+  font-weight: bold;
+  padding-top: 2px;
+  height: 29px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 1px;
 }
 
-:global(.vtex-rich-text-0-x-link--titulo-menu){
-    color: #D70D27;
-    font-weight: bold;
-    padding-top: 2px;
-    height: 29px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 1px;
+:global(.vtex-rich-text-0-x-link--titulo-menu) {
+  color: #D70D27;
+  font-weight: bold;
+  padding-top: 2px;
+  height: 29px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 1px;
 }
 
-:global(.vtex-rich-text-0-x-link--titulo-menu):visited{
-    color: #D70D27;
-    font-weight: bold;
+:global(.vtex-rich-text-0-x-link--titulo-menu):visited {
+  color: #D70D27;
+  font-weight: bold;
 }
 
 .submenuContainer--submenu-principal {
-    position: absolute;
-    top: 0;
-    left: 100%;
-    width: calc(100vw - 300px);
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: calc(100vw - 300px);
 }
+
 .submenu--submenu-principal {
-    width: 100%;
-    min-height: 70vh;
-    justify-content: flex-start;
+  width: 100%;
+  min-height: 70vh;
+  justify-content: flex-start;
 }
 
 .submenuWrapper--submenu-principal {
-    width: 100%;
+  width: 100%;
 }
 
 /*Estilos personalizados*/
-.submenuAccordion--contentSubMenu{
-    display: block;
-    padding-left: .6rem;
+.submenuAccordion--contentSubMenu {
+  display: block;
+  padding-left: .6rem;
 }
 
-.menuItem--accordionLevel1{
-    margin: .5rem 0;
+.menuItem--accordionLevel1 {
+  margin: .5rem 0;
 }
 
-.styledLinkContainer{
-    margin: 0;
-    padding: 0 8px;
+.styledLinkContainer {
+  margin: 0;
+  padding: 0 8px;
 }
 
-.styledLinkContent{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 95%;
-    letter-spacing: 0.02em;
-    color: #000000;
+.styledLinkContent {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 95%;
+  letter-spacing: 0.02em;
+  color: #000000;
 }
 
-.styledLinkContent--accordionLevel1{
-    color: #ffffff;
-    text-transform: uppercase;
-    font-weight: 800;
-    font-size: 13px;
-    line-height: 19px;
-    margin-bottom: 0;
+.styledLinkContent--accordionLevel1 {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 13px;
+  line-height: 19px;
+  margin-bottom: 0;
 }
 
 .accordionIcon--accordionLevel1,
-.accordionIcon--menuAccordionLevel1
-{
-    color: transparent;
-    position: relative;
+.accordionIcon--menuAccordionLevel1 {
+  color: transparent;
+  position: relative;
 }
 
 .accordionIcon--accordionLevel1::before,
-.accordionIcon--menuAccordionLevel1::before
-{
-    position: absolute;
-    right: 0;
-    top: 0;
-    color: #FFFFFF;
+.accordionIcon--menuAccordionLevel1::before {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #FFFFFF;
 }
 
-.accordionIcon--menuAccordionLevel1::before{
-    color: #848484;
+.accordionIcon--menuAccordionLevel1::before {
+  color: #848484;
 }
 
 /* Estilos al header */
-
-.menuContainer--menucontainerDesk{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.menuContainer--menucontainerDesk {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .styledLinkContent--menuLinkHeader,
 .styledLinkContent--menuLinkHeaderHover,
-.styledLinkContent--menuLinkHeaderColor
-{
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 100%;
-    text-align: center;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    /* border-bottom: 4px solid transparent;  */
-    transition: all ease .5s;
+.styledLinkContent--menuLinkHeaderColor {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 100%;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  /* border-bottom: 4px solid transparent;  */
+  transition: all ease .5s;
 }
 
-/* .menuItem--menuLinkHeader:hover .styledLinkContent--menuLinkHeader,
-.menuItem--menuLinkHeader:hover .styledLinkContent--menuLinkHeaderColor{
-    border-bottom: 4px solid #FFD400;
-    transition: all ease .5s;
-} */
-
-.styledLinkContent--menuLinkHeaderColor{
-    color: #000000;
+.styledLinkContent--menuLinkHeaderColor {
+  color: #000000;
 }
+
 /*stylo boton dsi*/
-.styledLinkContent--menuLinkHeaderPilatosIVA{
-    color: #000000;
+.styledLinkContent--menuLinkHeaderPilatosIVA {
+  color: #000000;
 }
-.styledLinkContent--menuLinkHeaderPilatosIVA:hover{
+
+.styledLinkContent--menuLinkHeaderPilatosIVA:hover {
   border-bottom: 2px solid #FFD400;
 }
 
 .styledLinkContainer--itemMenuLevelIconMobile {
-    padding: 0 1rem !important
+  padding: 0 1rem !important
 }
 
 /* Estilos al menu */
-.menuItem--menuAccordionLevel1{
-    margin-top: 0;
+.menuItem--menuAccordionLevel1 {
+  margin-top: 0;
 }
 
 .submenuAccordion--contentSubMenuAcordeon::-webkit-scrollbar {
-    width: 6px;
+  width: 6px;
 }
 
 .submenuAccordion--contentSubMenuAcordeon::-webkit-scrollbar-thumb {
-    display: block;
-    background: #FFD400;
-    border-radius: 10px;
+  display: block;
+  background: #FFD400;
+  border-radius: 10px;
 }
 
-.submenuAccordion--contentSubMenuAcordeon{
-    display: block;
-    padding-left: .8rem;
-    overflow: auto;
-    height: 148px;
-    width: 98.4%;
+.submenuAccordion--contentSubMenuAcordeon {
+  display: block;
+  padding-left: .8rem;
+  overflow: auto;
+  height: 148px;
+  width: 98.4%;
 }
 
-.styledLinkContainer--menuAccordionLevel1{
-    padding: .65rem 0;
+.styledLinkContainer--menuAccordionLevel1 {
+  padding: .65rem 0;
 }
 
-.styledLinkContent--menuAccordionLevel1{
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 13px;
-    letter-spacing: 0.02em;
-    color: #000000;
+.styledLinkContent--menuAccordionLevel1 {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 13px;
+  letter-spacing: 0.02em;
+  color: #000000;
 }
 
 /* Menu Desktop */
 .menuItem--menuLinkHeader,
 .menuItem--menuLinkHeaderHover,
-.menuItem--menuLinkHeaderColor{
-    padding: 1.4rem 0;
+.menuItem--menuLinkHeaderColor {
+  padding: 1.4rem 0;
 }
 
-.menuItem--menuLinkHeaderHover{
-    width: 100%;
+.menuItem--menuLinkHeaderHover {
+  width: 100%;
 }
 
-.submenuContainer--contentSubmenuDesk{
-    position: static;
+.submenuContainer--contentSubmenuDesk {
+  position: static;
 }
 
-.submenuWrapper--contentSubmenuDesk{
-    width: 700px;
-    background: #F2F2F2;
-    padding: 15px 20px 30px 76px;
-    position: fixed;
-    left: 50%;
-    transform: translateX(-50%);
+.submenuWrapper--contentSubmenuDesk {
+  width: 700px;
+  background: #F2F2F2;
+  padding: 15px 20px 30px 76px;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
-.submenuWrapper--contentSubmenuDesk2{
-    width: 100% !important;
-    max-width: 1194px;
-}
-
-@media only screen and (min-width: 1280px){
-    .submenuWrapper--contentSubmenuDesk-1{
-        left: -30px;
-    }
-
-    .submenuWrapper--contentSubmenuDesk-2{
-        left: -113px;
-    }
-
-    .submenuWrapper--contentSubmenuDesk-3{
-        left: -196px;
-    }
-}
-
-@media only screen and (min-width: 1360px){
-    .submenuWrapper--contentSubmenuDesk-1,
-    .submenuWrapper--contentSubmenuDesk-2,
-    .submenuWrapper--contentSubmenuDesk-3
-    {
-        width: 750px;
-    }
-
-    .submenuWrapper--contentSubmenuDesk-1{
-        left: -37px;
-    }
-
-    .submenuWrapper--contentSubmenuDesk-2{
-        left: -125px;
-    }
-
-    .submenuWrapper--contentSubmenuDesk-3{
-        left: -213px;
-    }
+.submenuWrapper--contentSubmenuDesk2 {
+  width: 100% !important;
+  max-width: 1194px;
 }
 
 .submenu--contentSubmenuDesk-1,
 .submenu--contentSubmenuDesk-2,
-.submenu--contentSubmenuDesk-3
-{
-    justify-content: flex-start;
+.submenu--contentSubmenuDesk-3 {
+  justify-content: flex-start;
 }
 
 .styledLinkContent--menu__sale-desk {
-    font-size: 12px;
+  font-size: 12px;
 }
 
-
-.styledLinkContent--menuLinkHeaderHover{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.styledLinkContent--menuLinkHeaderHover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.menuContainer--menucontainerDesk
-{
-    position: relative;
-    z-index: 2;
+.menuContainer--menucontainerDesk {
+  position: relative;
+  z-index: 2;
 }
 
-.menuContainer--menucontainerDesk:hover .menuItem--menuLinkHeaderHover::after{
-    content: "";
-    width: 88%;
-    position: absolute;
-    bottom: 1.4rem;
-    height: 5px;
-    background: #FFD400;
-    z-index: -1;
-    left: 50%;
-    transform: translateX(-50%);
+.menuContainer--menucontainerDesk:hover .menuItem--menuLinkHeaderHover::after {
+  content: "";
+  width: 88%;
+  position: absolute;
+  bottom: 1.4rem;
+  height: 5px;
+  background: #FFD400;
+  z-index: -1;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
-.menuContainer--menucontainerDesk:hover .menuItem--menuLinkHeaderHover::before{
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: -1;
-    width: 0;
-    height: 0;
-    border-right: 10px solid transparent;
-    border-top: 11px solid transparent;
-    border-left: 11px solid transparent;
-    border-bottom: 10px solid #FFD400;
+.menuContainer--menucontainerDesk:hover .menuItem--menuLinkHeaderHover::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+  width: 0;
+  height: 0;
+  border-right: 10px solid transparent;
+  border-top: 11px solid transparent;
+  border-left: 11px solid transparent;
+  border-bottom: 10px solid #FFD400;
 }
 
-.submenuWrapper--contentSubmenuDesk{
-    /*height: 472px;*/
-    height: auto;
-    overflow-y: auto;
+.submenuWrapper--contentSubmenuDesk {
+  height: auto;
+  overflow-y: auto;
 }
 
-.styledLinkContainer--menu__sale-desk{
-
-    padding-top: 2.1rem;
+.styledLinkContainer--menu__sale-desk {
+  padding-top: 2.1rem;
 }
 
 /* Menu Sale */
-
 .submenuWrapper--submenu__sale--hover {
   height: auto !important;
   padding: 16px 16px 50px 16px !important;
 }
 
 /* Negrilla tenis desk y mobile */
-
 .styledLinkContent--menuLinkHeaderPilatos {
-    font-weight: 900;
-    color: black;
+  font-weight: 900;
+  color: black;
+}
+
+.styledLinkContent--itemMenuLevelIconMobile {
+
+  font-weight: 900;
+  color: black;
+}
+
+/* ==========================================================================
+   MEDIA QUERIES (DESDE AQUÍ)
+   Se sigue el enfoque mobile-first. Mantén esta estructura y el orden
+   para asegurar que las reglas específicas sobrescriban correctamente los estilos base.
+   ========================================================================== */
+
+/* Estilos para pantallas(tablet y dispositivos superiores) */
+/* === MAX-WIDTH === */
+/* === MIN-WIDTH === */
+
+@media only screen and (min-width: 1280px) {
+  .submenuWrapper--contentSubmenuDesk-1 {
+    left: -30px;
   }
 
-.styledLinkContent--itemMenuLevelIconMobile{
+  .submenuWrapper--contentSubmenuDesk-2 {
+    left: -113px;
+  }
 
-    font-weight: 900;
-    color: black;
+  .submenuWrapper--contentSubmenuDesk-3 {
+    left: -196px;
+  }
 }
-  
+
+@media only screen and (min-width: 1360px) {
+
+  .submenuWrapper--contentSubmenuDesk-1,
+  .submenuWrapper--contentSubmenuDesk-2,
+  .submenuWrapper--contentSubmenuDesk-3 {
+    width: 750px;
+  }
+
+  .submenuWrapper--contentSubmenuDesk-1 {
+    left: -37px;
+  }
+
+  .submenuWrapper--contentSubmenuDesk-2 {
+    left: -125px;
+  }
+
+  .submenuWrapper--contentSubmenuDesk-3 {
+    left: -213px;
+  }
+}

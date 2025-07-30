@@ -1,13 +1,13 @@
 /*Personalización de estilos*/
-@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,100;1,200;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,100;1,200;1,400&display=swap");
 
 .container--colorBrand {
-  color: #00A2DC;
+  color: #00a2dc;
 }
 
 .container--colorBrand .paragraph {
-  margin: 5px 0 2px .6rem;
+  margin: 5px 0 2px 0.6rem;
 }
 
 .italic--colorBrand {
@@ -36,7 +36,7 @@
 }
 
 .paragraph--colorBrandSection2 {
-  margin: 1px 0 8px .6rem;
+  margin: 1px 0 8px 0.6rem;
   font-size: 9px;
 }
 
@@ -56,7 +56,7 @@
 }
 
 .container--colorPromise2 {
-  color: #00A2DC;
+  color: #00a2dc;
 }
 
 .container--colorPromise2 .paragraph {
@@ -68,7 +68,7 @@
 }
 
 .strong--colorPromise {
-  color: #F2A922;
+  color: #f2a922;
 }
 
 .paragraph--titleOfertasUnicas {
@@ -81,7 +81,7 @@
 }
 
 .strong--titleOfertasUnicas {
-  color: #00A2DC;
+  color: #00a2dc;
 }
 
 .italic--titleOfertasUnicas {
@@ -106,7 +106,7 @@
   font-size: 14px;
   line-height: 95%;
   letter-spacing: 0.02em;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .container--descriptionItemsfooter {
@@ -122,7 +122,7 @@
   font-size: 11px;
   line-height: 13px;
   letter-spacing: 0.02em;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .paragraph--infocontactItemsfooter {
@@ -157,7 +157,7 @@
 }
 
 .wrapper--textSubmenu .link {
-  color: #FFFFFF;
+  color: #ffffff;
   text-decoration: none;
   font-weight: normal;
   font-size: 11px;
@@ -168,7 +168,7 @@
 .container--legalFooter {
   justify-content: center;
   align-items: center;
-  background: #FFFFFF;
+  background: #ffffff;
   margin-top: 0;
 }
 
@@ -184,7 +184,7 @@
 .wrapper--telItemsfooter,
 .paragraph--infocontactItemsfooter,
 .wrapper--whatsappItemsfooter {
-  color: #FFFFFF;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -193,7 +193,7 @@
 }
 
 .wrapper--textSchedule .paragraph {
-  margin: .5rem auto;
+  margin: 0.5rem auto;
   font-size: 11px;
   letter-spacing: 0.02em;
   text-decoration: none;
@@ -206,7 +206,7 @@
 }
 
 .link--linkFooter {
-  color: #FFFFFF;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -240,26 +240,24 @@
 }
 
 .container--paddingActive {
-  padding: .5rem 0;
+  padding: 0.5rem 0;
 }
 
 .paragraph--textTopHeader {
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: bold;
   font-size: 9px;
   line-height: 12px;
   text-align: center;
   letter-spacing: 1px;
   text-transform: uppercase;
-  margin: .5rem 0;
+  margin: 0.5rem 0;
   padding: 0 4rem;
 }
 
 .link--textTopHeader {
   color: white;
   text-decoration: none;
-
-
 }
 
 .container--icoWishlist {
@@ -369,7 +367,7 @@
 }
 
 .wrapper--titleCategoryBanners .paragraph {
-  margin: .5rem 0;
+  margin: 0.5rem 0;
   font-weight: 800;
   font-size: 19px;
   line-height: 19px;
@@ -419,7 +417,7 @@
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #FFFFFF;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -452,7 +450,6 @@
   font-size: 12px;
 }
 
-
 .wrapper--itemMenuLevel1Sale .link--itemMenuLevel1 {
   color: #000000;
 }
@@ -473,8 +470,8 @@
 }
 
 .wrapper--icoMenuLevel1 {
-  font-size: .6rem;
-  background: #FFD400;
+  font-size: 0.6rem;
+  background: #ffd400;
   height: 20px;
   width: 20px;
   border-radius: 50%;
@@ -523,7 +520,7 @@
 }
 
 .wrapper--contentSubmenuTitle .paragraph {
-  margin: .2rem 0;
+  margin: 0.2rem 0;
   font-weight: 900;
   font-size: 16px;
   line-height: 15px;
@@ -532,7 +529,7 @@
 }
 
 .wrapper--contentSubmenuTitleLink .paragraph {
-  margin: .2rem 0;
+  margin: 0.2rem 0;
   font-size: 10px;
   line-height: 9px;
   letter-spacing: 0.05em;
@@ -545,7 +542,7 @@
 }
 
 .paragraph--textSubmenuAcordeon {
-  margin: .6rem 0;
+  margin: 0.6rem 0;
   font-weight: normal;
   font-size: 14px;
   line-height: 9px;
@@ -571,7 +568,7 @@
 }
 
 .wrapper--textCategory .paragraph {
-  margin: .7rem 0 .6rem 0;
+  margin: 0.7rem 0 0.6rem 0;
   color: #000000;
   font-size: 14px;
   font-weight: 700;
@@ -593,11 +590,11 @@
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-  margin: .13rem 0;
+  margin: 0.13rem 0;
 }
 
 .wrapper--textSubcategory .link {
-  color: #260C11;
+  color: #260c11;
   text-decoration: none;
   min-width: 90px;
 }
@@ -635,7 +632,7 @@
   line-height: 16px;
   letter-spacing: 0.04em;
   text-decoration-line: underline;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 /* Estilos al Newsletter */
@@ -649,7 +646,7 @@
   line-height: 24px;
   letter-spacing: 0.075em;
   color: #000000;
-  margin: .5rem 0;
+  margin: 0.5rem 0;
 }
 
 .paragraph--desNewsletter {
@@ -660,7 +657,7 @@
   color: #000000;
   text-align: center;
   padding: 0 1rem;
-  margin: .5rem 0;
+  margin: 0.5rem 0;
 }
 
 .strong--desNewsletter {
@@ -732,13 +729,12 @@
   cursor: pointer;
   border-radius: 25px;
   text-decoration: none;
-
 }
 
 .wrapper--botonReverso .link--botonReverso {
   color: white;
   text-decoration: none;
-  transition: all .35s;
+  transition: all 0.35s;
 }
 
 /*Boton disandina*/
@@ -758,7 +754,7 @@
 }
 
 .wrapper--boton-landing-disandina:hover {
-  background: #222221
+  background: #222221;
 }
 
 .wrapper--boton-landing-disandina:active {
@@ -768,7 +764,7 @@
 .wrapper--boton-landing-disandina .link--boton-landing-disandina {
   color: black;
   text-decoration: none;
-  transition: all .35s;
+  transition: all 0.35s;
 }
 
 /*boton pilatos denim*/
@@ -787,11 +783,10 @@
   cursor: pointer;
   border-radius: 25px;
   text-decoration: none;
-
 }
 
 .wrapper--botonPilatosDenim:hover {
-  background: #191c1d
+  background: #191c1d;
 }
 
 .wrapper--botonPilatosDenim:active {
@@ -801,7 +796,7 @@
 .wrapper--botonPilatosDenim .link--botonPilatosDenim {
   color: black;
   text-decoration: none;
-  transition: all .35s;
+  transition: all 0.35s;
 }
 
 /*Boton beachwear*/
@@ -818,11 +813,10 @@
   cursor: pointer;
   border-radius: 25px;
   text-decoration: none;
-
 }
 
 .wrapper--botonBeachwear:hover {
-  background: #d3ecf3
+  background: #d3ecf3;
 }
 
 .wrapper--botonBeachwear:active {
@@ -832,12 +826,12 @@
 .wrapper--botonBeachwear .link--botonBeachwear {
   color: black;
   text-decoration: none;
-  transition: all .35s;
+  transition: all 0.35s;
 }
 
 /*botones champion*/
 .wrapper--botonChampion:hover {
-  background: #321aae
+  background: #321aae;
 }
 
 .wrapper--botonChampion:active {
@@ -847,7 +841,7 @@
 .wrapper--botonChampion .link--botonChampion {
   color: white;
   text-decoration: none;
-  transition: all .35s;
+  transition: all 0.35s;
 }
 
 /* Estilos botones de guia de regalo */
@@ -873,13 +867,13 @@
 .wrapper--botonesGeneros .paragraph:hover {
   background: #356246;
   color: white;
-  transition: all .35s;
+  transition: all 0.35s;
 }
 
 .wrapper--botonesGeneros .link--botonesGeneros {
   color: white;
   text-decoration: none;
-  transition: all .35s;
+  transition: all 0.35s;
 }
 
 /* Estilos botones para San Valentin */
@@ -905,20 +899,20 @@
 .wrapper--botonSanValentin .paragraph:hover {
   background: #0f70c1;
   color: white;
-  transition: all .35s;
+  transition: all 0.35s;
 }
 
 .wrapper--botonSanValentin .link--botonSanValentin {
   color: white;
   text-decoration: none;
-  transition: all .35s;
+  transition: all 0.35s;
 }
 
 /* Estilos botones para Guia de Padres Regalo */
 
 .wrapper--botonPadresRegalos {
   transition: width 2s;
-  background: #FFD400;
+  background: #ffd400;
   color: #fff;
 }
 
@@ -937,15 +931,15 @@
 }
 
 .wrapper--botonPadresRegalos .paragraph:hover {
-  background: #FFD400;
+  background: #ffd400;
   color: white;
-  transition: all .35s;
+  transition: all 0.35s;
 }
 
 .wrapper--botonPadresRegalos .link--botonPadresRegalos {
   color: white;
   text-decoration: none;
-  transition: all .35s;
+  transition: all 0.35s;
 }
 
 /* Estilos pagina de departamento */
@@ -957,7 +951,7 @@
 .wrapper--departmentBreadCrumb .paragraph {
   line-height: 13px;
   font-size: 9px;
-  margin-top: .2rem;
+  margin-top: 0.2rem;
 }
 
 .flexCol--intento-prueba-titulo-disandina .paragraph {
@@ -975,7 +969,7 @@
 .wrapper--titulo-encuentra-productos-disandina .paragraph {
   line-height: 13px;
   font-size: 40px;
-  margin-top: .2rem;
+  margin-top: 0.2rem;
   white-space: pre-line;
   font-weight: 700;
   position: relative;
@@ -985,7 +979,7 @@
 .wrapper--titulo-encuentra-productos-disandina2 .paragraph {
   line-height: 13px;
   font-size: 19px;
-  margin-top: .2rem;
+  margin-top: 0.2rem;
   white-space: pre-line;
   font-weight: 500;
   position: relative;
@@ -1012,7 +1006,7 @@
   font-size: 13px;
   line-height: 28px;
   color: #000000;
-  margin: .3rem 0 0 0;
+  margin: 0.3rem 0 0 0;
 }
 
 .wrapper--departmentTitle .heading {
@@ -1020,15 +1014,15 @@
   font-size: 16px;
   line-height: 28px;
   color: #000000;
-  margin: .3rem 0 0 0;
+  margin: 0.3rem 0 0 0;
 }
 
 .headingLevel1--departmentTitle-Home {
   font-weight: bold;
   font-size: 13px;
   line-height: 28px;
-  color: rgba(0, 0, 0, .2);
-  margin: .3rem 0 0 0;
+  color: rgba(0, 0, 0, 0.2);
+  margin: 0.3rem 0 0 0;
 }
 
 .container--departmentDescription {
@@ -1100,7 +1094,7 @@
 }
 
 :global(.vtex-tab-layout-0-x-listItemChildrenActive) .paragraph {
-  border-bottom: 3px solid #FFD400;
+  border-bottom: 3px solid #ffd400;
   font-weight: 800;
   font-size: 14px;
   line-height: 18px;
@@ -1123,7 +1117,7 @@
 
 .wrapper--titleShelfProduct .paragraph {
   font-weight: 800;
-  padding: 0 .3rem;
+  padding: 0 0.3rem;
   font-size: 15px;
   line-height: 19px;
   color: #000000;
@@ -1134,14 +1128,14 @@
 }
 
 .wrapper--titleShelfProduct .paragraph::before {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 1px;
   left: 50%;
   transform: translateX(-50%);
   width: 100%;
   height: 4px;
-  background: #FFD400;
+  background: #ffd400;
   z-index: -1;
 }
 
@@ -1195,11 +1189,10 @@
   letter-spacing: 0.055em;
   color: transparent;
   position: relative;
-
 }
 
 :global(.vtex-reviews-and-ratings-1-x-container) :global(.vtex-textarea__label)::before {
-  content: '¿Qué opinas de este producto?';
+  content: "¿Qué opinas de este producto?";
   position: absolute;
   top: 0;
   left: 0;
@@ -1235,11 +1228,11 @@
   font-size: 12px;
   line-height: 15px;
   letter-spacing: 0.02em;
-  color: #FFFFFF;
+  color: #ffffff;
   display: block;
   background: #000000;
   border-radius: 100px;
-  padding: .8rem 1.8rem;
+  padding: 0.8rem 1.8rem;
   text-decoration: none;
 }
 
@@ -1253,7 +1246,7 @@
   line-height: 20px;
   letter-spacing: 0.29em;
   color: #000000;
-  margin-bottom: .3rem;
+  margin-bottom: 0.3rem;
 }
 
 .wrapper--errorBusquedaDes {
@@ -1279,13 +1272,13 @@
 }
 
 .wrapper--btnLink .paragraph {
-  margin: .3rem .5rem;
+  margin: 0.3rem 0.5rem;
 }
 
 .wrapper--btnLink .link {
   width: 100%;
   display: block;
-  padding: .5rem;
+  padding: 0.5rem;
   text-align: center;
   border: 1px solid #000000;
   border-radius: 100px;
@@ -1299,7 +1292,7 @@
 }
 
 .wrapper--btnLinkRed .link {
-  color: #DD0B3D;
+  color: #dd0b3d;
   font-weight: 800;
 }
 
@@ -1314,7 +1307,7 @@
 }
 
 .wrapper--wishlistTitle .paragraph::before {
-  content: '';
+  content: "";
   width: 24px;
   height: 23px;
   position: absolute;
@@ -1329,7 +1322,7 @@
   font-size: 20px;
   line-height: 25px;
   color: #000000;
-  margin: 2rem 0 .3rem 0;
+  margin: 2rem 0 0.3rem 0;
 }
 
 .wrapper--titleConfirmedDetail .paragraph,
@@ -1356,7 +1349,6 @@
   margin-bottom: 1rem;
 }
 
-
 .wrapper--confirmedDetail .paragraph {
   margin: 0;
 }
@@ -1369,7 +1361,7 @@
   line-height: 18px;
   letter-spacing: 0.025em;
   color: #000000;
-  margin-bottom: .4rem;
+  margin-bottom: 0.4rem;
 }
 
 .wrapper--linkBtnOrder .paragraph,
@@ -1402,7 +1394,7 @@
   font-size: 12px;
   line-height: 15px;
   letter-spacing: 0.01em;
-  color: #FFFFFF;
+  color: #ffffff;
   background: #000000;
   padding: 1rem 2rem;
 }
@@ -1416,14 +1408,12 @@
   justify-content: center;
   width: 100%;
   display: flex;
-
 }
 
 .wrapper--title-statict-reverso {
   justify-content: center;
   width: 100%;
   display: flex;
-
 }
 
 .headingLevel1--title-statict-reverso {
@@ -1434,7 +1424,7 @@
   justify-content: center;
   width: 100%;
   display: flex;
-  background: #FFD400;
+  background: #ffd400;
   color: #000;
 }
 
@@ -1455,7 +1445,6 @@
   padding: 1px;
   text-align: justify;
 }
-
 
 /* Modal de promociones */
 .container--promotionalBannerTitle {
@@ -1478,13 +1467,13 @@
 }
 
 .wrapper--promotionalBannerTitle::before {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   height: 15px;
-  background: #FFD400;
+  background: #ffd400;
   left: -4rem;
-  bottom: .1rem;
+  bottom: 0.1rem;
   z-index: -1;
 }
 
@@ -1513,7 +1502,7 @@
   line-height: 100%;
   color: #000000;
   text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
-  margin: .4rem 0 0 0;
+  margin: 0.4rem 0 0 0;
 }
 
 .container--promotionalBannerSubtitleMobile {
@@ -1525,13 +1514,13 @@
 }
 
 .wrapper--promotionalBannerSubtitleMobile::before {
-  content: '';
+  content: "";
   width: 130px;
   height: 10px;
   position: absolute;
   left: -3rem;
   bottom: 1.1rem;
-  background: #FFD400;
+  background: #ffd400;
   z-index: -1;
 }
 
@@ -1560,7 +1549,7 @@
   font-weight: 700;
   font-size: 22px;
   line-height: 28px;
-  color: #FFD400;
+  color: #ffd400;
 }
 
 .strong--event-title {
@@ -1602,7 +1591,7 @@
 
 .link--static-text-politics {
   text-decoration: none;
-  color: #F2A922;
+  color: #f2a922;
 }
 
 /* Estilos Sobre nosotros */
@@ -1652,11 +1641,11 @@
   color: #000000;
   margin-top: 0;
   width: 50%;
-  margin-bottom: .1rem;
+  margin-bottom: 0.1rem;
 }
 
 .wrapper--contentIcoWhatsApp::before {
-  content: '\e923';
+  content: "\e923";
   font-size: 1.5rem;
   font-weight: bold;
   color: #000000;
@@ -1671,9 +1660,9 @@
   font-weight: 700;
   font-size: 14px;
   line-height: 13px;
-  letter-spacing: .02em;
+  letter-spacing: 0.02em;
   color: #000;
-  margin: .65rem 0;
+  margin: 0.65rem 0;
   gap: 9px;
   margin-top: 7px;
   margin-bottom: 7px;
@@ -1715,7 +1704,7 @@
 }
 
 .paragraph--order-from-chaos-coleccion-cta-cta .link--order-from-chaos-coleccion-cta-cta {
-  background-color: #FFD400;
+  background-color: #ffd400;
   width: 100%;
   margin: 0;
   font-size: 2rem;
@@ -1730,7 +1719,6 @@
   background-color: #000;
   color: white;
 }
-
 
 /* LANDING DSI */
 .heading--desc-dsi {
@@ -1765,7 +1753,7 @@
 }
 
 .container--dsi-successSubmit {
-  background-color: #F2A922;
+  background-color: #f2a922;
   margin-top: 15%;
   padding: 15px;
 }
@@ -1776,7 +1764,7 @@
 
 .link--button-to-event-dsi {
   font-weight: 700;
-  background-color: #F5D400;
+  background-color: #f5d400;
   padding: 15px 25px;
   text-decoration: none;
   color: #292929;
@@ -1812,7 +1800,6 @@
   padding: 1%;
   padding-bottom: 0;
   margin-bottom: 0;
-
 }
 
 .headingLevel1--guia-regalos-pride-h1 {
@@ -1854,7 +1841,6 @@
   border: double #c00b0b;
   border-width: 0 4px 1px 1px;
   padding: 0.5rem;
-
 }
 
 .paragraph--producto-lucky {
@@ -1881,7 +1867,6 @@
   margin: 0.1rem 0;
   border-width: 0 4px 1px 1px;
   padding: 0.5rem;
-
 }
 
 .paragraph--seo-pillar {
@@ -1973,7 +1958,7 @@
 }
 
 .paragraph--textStreetAgua {
-  font-family: 'Unbounded', cursive;
+  font-family: "Unbounded", cursive;
 }
 
 .paragraph--product-description-pdp {
@@ -1983,7 +1968,7 @@
   letter-spacing: 0.5px;
   color: #222221;
   margin: 5px 7px;
-  border-bottom: 3px solid #FFD400;
+  border-bottom: 3px solid #ffd400;
   font-weight: 800;
   line-height: 18px;
 }
@@ -2024,11 +2009,10 @@
   color: white;
   margin: 5%;
   cursor: pointer;
-
 }
 
 .wrapper--sneaker-buttom:hover {
-  background: #FFD400;
+  background: #ffd400;
   color: #1d1d1d;
 }
 
@@ -2043,9 +2027,7 @@
   line-height: 29px;
   letter-spacing: 0em;
   text-align: left;
-
 }
-
 
 .link--sneaker-linkBrands {
   color: black;
@@ -2054,11 +2036,10 @@
   line-height: 29px;
   letter-spacing: 0em;
   text-align: left;
-
 }
 
 .link--sneaker-linkBrands:hover {
-  color: #FFD400;
+  color: #ffd400;
 }
 
 .container--title-brandsSneaker {
@@ -2066,13 +2047,12 @@
   width: 80%;
 }
 
-
 .imageElement--sneaker-imagenBrand {
-  border: 1px solid #EAE7E7;
+  border: 1px solid #eae7e7;
 }
 
 .paragraph--sneaker-title-vitrina {
-  color: #FFF;
+  color: #fff;
   font-family: Poppins;
   font-size: 128px;
   font-style: normal;
@@ -2093,9 +2073,8 @@
   margin: 2px;
 }
 
-
 .paragraph--sneaker-title-vitrina-dos {
-  color: #FFF;
+  color: #fff;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -2169,16 +2148,14 @@
   font-size: 75px;
   font-weight: 700;
   color: #000;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   margin: 4% 0 1% 0;
-
 }
 
 .container--ritualesSEO {
   max-width: 700px;
   margin: 0 auto;
   text-align: center;
-
 }
 
 .container--ritualesSeoLargo {
@@ -2192,7 +2169,6 @@
   color: #000;
   margin-top: 0;
   font-size: 15px;
-
 }
 
 .headingLevel3--ritualesSeoLargo {
@@ -2201,7 +2177,7 @@
 
 .link--btnPrincipal {
   border-radius: 80px;
-  background: #FFD400;
+  background: #ffd400;
   color: #1d1d1d;
   cursor: pointer;
   font-size: 16px;
@@ -2228,7 +2204,7 @@
 .paragraph--btnSecundarioCart {
   border-radius: 80px;
   color: #fff;
-  border-color: #FFD400;
+  border-color: #ffd400;
   cursor: pointer;
   font-size: 16px;
   font-weight: 700;
@@ -2245,7 +2221,7 @@
 .paragraph--textoFitRituales {
   font-size: 18px;
   font-weight: 600;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .paragraph--seoEssensialitary {
@@ -2266,7 +2242,7 @@
 .headingLevel1--H1GuiaDeRegalo {
   font-size: 22px;
   font-weight: 700;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #030303;
 }
 
@@ -2286,7 +2262,6 @@
 .link--btnTercerNivel {
   color: #030303;
   font-weight: 600;
-
 }
 
 .paragraph--textCategoryGift {
@@ -2302,9 +2277,8 @@
   width: 92%;
   font-size: 18px;
   font-weight: 700;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   width: 88% !important;
-
 }
 
 .wrapper--tittleArmaTuLook {
@@ -2317,8 +2291,7 @@
   width: 92% !important;
   font-size: 18px;
   font-weight: 700;
-  font-family: 'Poppins', sans-serif;
-
+  font-family: "Poppins", sans-serif;
 }
 
 .wrapper--tittleArmaTuLookInsp {
@@ -2343,7 +2316,7 @@
 .headingLevel1--titleH1 {
   font-size: 16px;
   font-weight: 600;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #030303;
 }
 
@@ -2351,7 +2324,7 @@
 .headingLevel1--H1GuiaDeRegalo {
   font-size: 22px;
   font-weight: 700;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #030303;
 }
 
@@ -2371,11 +2344,10 @@
 .link--btnTercerNivel {
   color: #030303;
   font-weight: 600;
-
 }
 
 .paragraph--textNoneColor {
-  color: #F2F2F2 !important;
+  color: #f2f2f2 !important;
 }
 
 .paragraph--textCategoryGift {
@@ -2391,9 +2363,8 @@
   width: 92%;
   font-size: 18px;
   font-weight: 700;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   width: 88% !important;
-
 }
 
 .wrapper--tittleArmaTuLook {
@@ -2406,8 +2377,7 @@
   width: 92% !important;
   font-size: 18px;
   font-weight: 700;
-  font-family: 'Poppins', sans-serif;
-
+  font-family: "Poppins", sans-serif;
 }
 
 .wrapper--tittleArmaTuLookInsp {
@@ -2432,17 +2402,15 @@
 .headingLevel1--titleH1 {
   font-size: 16px;
   font-weight: 600;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #030303;
 }
-
 
 /*landing colecciones*/
 .link--landing-collection-link {
   color: #000;
   font-weight: bold;
 }
-
 
 /*template nuevo de género*/
 .link--botonGeneroNuevo {
@@ -2467,7 +2435,7 @@
 
 .link--botonGeneroNuevoFriendsFamily {
   text-decoration: none;
-  background-color: #F5D400;
+  background-color: #f5d400;
   padding: 15px 17px;
   border: none;
   font-weight: 700;
@@ -2487,10 +2455,9 @@
 }
 
 .link--botonGeneroNuevo:hover {
-  background-color: #F5D400;
+  background-color: #f5d400;
   color: #000;
 }
-
 
 /* template envio express*/
 .paragraph--titulo-envio-express {
@@ -2581,7 +2548,7 @@
 
 /***form primera compra***/
 .paragraph--form-succes-primera-compra {
-  background-color: #FFD400;
+  background-color: #ffd400;
   padding: 20px;
   font-weight: bold;
 }
@@ -2604,7 +2571,7 @@
   line-height: 1;
   font-size: 32px;
   line-height: 25px;
-  letter-spacing: .02em;
+  letter-spacing: 0.02em;
   color: #000;
   font-weight: 900;
 }
@@ -2614,7 +2581,7 @@
   display: block;
   width: 45%;
   height: 2px;
-  background-color: #FAD91F;
+  background-color: #fad91f;
   margin-top: 20px;
 }
 
@@ -2622,20 +2589,20 @@
   color: #fff;
   font-size: 32px;
   font-weight: 900;
-  letter-spacing: .02em;
+  letter-spacing: 0.02em;
 }
 
 .paragraph--btn-resgistro-sobreNosotros-2024 {
   font-weight: 900;
   color: #000;
-  background-color: #FFD400;
+  background-color: #ffd400;
   border-radius: 80px;
   padding: 12px 30px;
   cursor: pointer;
 }
 
 .strong--registrate-footer-sobrenosotros2024 {
-  color: #FFD400;
+  color: #ffd400;
   font-weight: 900;
 }
 
@@ -2660,7 +2627,6 @@
   font-size: 18px;
   text-decoration: none;
 }
-
 
 .link--texto-marcas-landing-tenis:hover,
 .link--texto-marcas-landing-tenis-mob:hover {
@@ -2703,7 +2669,7 @@
 .paragraph--btn-landing-tenis {
   width: 150px;
   height: 36px;
-  background-color: #FFD400;
+  background-color: #ffd400;
   border-radius: 100px;
   display: flex;
   justify-content: center;
@@ -2843,7 +2809,7 @@
 }
 
 .link--registrate-cta-primera-compra:hover {
-  background: #FAD91F;
+  background: #fad91f;
   color: #000;
   transition: background 1s;
 }
@@ -2862,7 +2828,7 @@
   text-decoration: none;
   color: #000;
   background-color: #fff;
-  border: 1px solid #FFD400;
+  border: 1px solid #ffd400;
   border-radius: 100px;
   padding: 5px 15px;
 }
@@ -2965,7 +2931,6 @@
 /*topheader texto*/
 
 .wrapper--textTopHeader-nuevo {
-
   font-size: 14px;
   font-size: 14px;
   font-weight: bold;
@@ -2977,7 +2942,6 @@
 }
 
 .paragraph--textTopHeader-nuevo {
-
   width: 100%;
   align-items: center;
   text-align: center;
@@ -3009,10 +2973,9 @@
   display: block;
   width: 20px;
   height: 20px;
-  background-image: url('/arquivos/bag-summary.svg');
+  background-image: url("/arquivos/bag-summary.svg");
   background-size: cover;
 }
-
 
 /* Menu Sale */
 
@@ -3023,9 +2986,40 @@
   letter-spacing: 0%;
   text-align: center;
   color: #000000;
-
 }
 
+/*menu mobile sale*/
+
+.link--submenuSaleItem {
+  font-weight: bold;
+  padding-left: 1rem;
+  padding-bottom: 0.25rem;
+  display: inline-block;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.3s ease;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+
+.link--submenuSaleItem:hover {
+  border-bottom: 2px solid #ffd700;
+}
+
+/*FIN menu mobile sale*/
+
+/*medios de pago PDP */
+.paragraph--texto-medio-de-pago-pdp {
+  color: #525050;
+  font-size: 13px;
+  margin: 0;
+}
+
+/*Fin medios de pago PDP */
+
+.strong--tenis-mobile-menu {
+  font-weight: 900;
+}
 
 /* ==========================================================================
    MEDIA QUERIES (A PARTIR DE AQUÍ)
@@ -3060,9 +3054,9 @@
 }
 
 @media only screen and (min-width: 1300px) {
-.wrapper--legalRights .paragraph {
-  margin: 0 0 0 2.5rem;
-}
+  .wrapper--legalRights .paragraph {
+    margin: 0 0 0 2.5rem;
+  }
 }
 
 @media only screen and (min-width: 1180px) {
@@ -3083,19 +3077,20 @@
   .paragraph--titleOfertasUnicas {
     font-size: 30px;
     margin: 1rem 0;
-    line-height: 35px
+    line-height: 35px;
   }
 
   .paragraph--textOfertasUnicas {
     font-size: 15px;
-    margin: .2rem 0;
+    margin: 0.2rem 0;
     text-align: left;
   }
+
   .wrapper--mailItemsfooter,
   .wrapper--telItemsfooter,
   .wrapper--whatsappItemsfooter,
   .wrapper--locatorItemsfooter {
-    font-size: 1.4rem
+    font-size: 1.4rem;
   }
 
   .container--titleItemsfooter {
@@ -3106,7 +3101,7 @@
     font-weight: 800;
     font-size: 12px;
     line-height: 19px;
-    color: #FFFFFF;
+    color: #ffffff;
     text-transform: uppercase;
     margin: 0 0 5px 0;
   }
@@ -3134,11 +3129,11 @@
   }
 
   .paragraph--linkFooter {
-    margin: 0 0 .6rem 0;
+    margin: 0 0 0.6rem 0;
   }
 
   .paragraph--linkFooterEtica {
-    margin: 0 0 .6rem 0;
+    margin: 0 0 0.6rem 0;
     font-weight: normal;
     font-size: 11px;
     line-height: 10px;
@@ -3183,7 +3178,7 @@
     height: 20px;
     display: flex;
     align-items: center;
-    color: #F71963;
+    color: #f71963;
   }
 
   .wrapper--icoSsl {
@@ -3231,7 +3226,7 @@
   .wrapper--titleShelfProduct .paragraph {
     font-size: 25px;
     line-height: 31px;
-    margin-bottom: .5rem;
+    margin-bottom: 0.5rem;
   }
 
   .wrapper--wishlistTitle .paragraph::before {
@@ -3241,7 +3236,7 @@
   }
 
   .wrapper--btnLink .paragraph {
-    margin: .3rem .7rem;
+    margin: 0.3rem 0.7rem;
   }
 
   .container--tabArrow {
@@ -3255,7 +3250,6 @@
   }
 
   .container--filtroSeo {
-
     margin-top: 4%;
   }
 
@@ -3266,12 +3260,12 @@
 
   .wrapper--departmentTitle .paragraph {
     font-size: 22px;
-    margin: 1rem 0 .5rem 0;
+    margin: 1rem 0 0.5rem 0;
   }
 
   .wrapper--departmentTitle .heading {
     font-size: 22px;
-    margin: 1rem 0 .5rem 0;
+    margin: 1rem 0 0.5rem 0;
   }
 
   .wrapper--departmentDescription .paragraph {
@@ -3296,8 +3290,8 @@
     cursor: pointer;
     border-radius: 25px;
     text-decoration: none;
-
   }
+
   .wrapper--botonBeachwear {
     background-color: #35bcd1;
     border: none;
@@ -3311,7 +3305,6 @@
     cursor: pointer;
     border-radius: 25px;
     text-decoration: none;
-
   }
 
   .wrapper--contentIcoWhatsApp::before {
@@ -3323,12 +3316,11 @@
   .wrapper--titulo-categorias-disandina .paragraph {
     line-height: 13px;
     font-size: 19px;
-    margin-top: .2rem;
+    margin-top: 0.2rem;
     white-space: pre-line;
     font-weight: 500;
     position: relative;
     top: -417px;
-
   }
 }
 
@@ -3358,8 +3350,8 @@
 
   .paragraph--titleOfertasUnicas {
     font-size: 18px;
-    margin: .5rem 0;
-    line-height: 20px
+    margin: 0.5rem 0;
+    line-height: 20px;
   }
 
   .paragraph--textOfertasUnicas {
@@ -3370,7 +3362,7 @@
   .wrapper--mailItemsfooter,
   .wrapper--telItemsfooter,
   .wrapper--whatsappItemsfooter {
-    font-size: 1.2rem
+    font-size: 1.2rem;
   }
 
   .paragraph--textTopHeader {
@@ -3515,7 +3507,7 @@
   }
 }
 
-@media only screen and (min-width:620px) {
+@media only screen and (min-width: 620px) {
   .wrapper--botonChampion {
     background-color: black;
     border: none;
@@ -3529,10 +3521,8 @@
     cursor: pointer;
     border-radius: 25px;
     text-decoration: none;
-
   }
 }
-
 
 /* Estilos para pantallas con ancho maximo de 1024px (tablet y dispositivos superiores) */
 
@@ -3547,22 +3537,23 @@
   .container--textTopHeader {
     height: auto;
   }
+
   .wrapper--titulo-categorias-disandina .paragraph {
     line-height: 13px;
     font-size: 19px;
-    margin-top: .2rem;
+    margin-top: 0.2rem;
     white-space: pre-line;
     font-weight: 500;
     position: relative;
     top: -67px !important;
     width: 80%;
     left: 20px;
-
   }
+
   .wrapper--titulo-encuentra-productos-disandina2 .paragraph {
     line-height: 13px;
     font-size: 19px;
-    margin-top: .2rem;
+    margin-top: 0.2rem;
     white-space: pre-line;
     font-weight: 500;
     position: relative;
@@ -3596,15 +3587,15 @@
 
   .strong--titlePromotionalBanners-sneaker {
     color: #fff;
-
   }
+
   .paragraph--textModalLineaEticaMobil {
     padding: 4%;
     text-align: justify;
   }
 
   .paragraph--textSubmenuEtica {
-    color: #FFFFFF;
+    color: #ffffff;
     text-decoration: none;
     font-weight: normal;
     font-size: 11px;
@@ -3640,13 +3631,12 @@
   /* billy pillar tenis mobile*/
   .wrapper--departmentTitle .heading {
     font-size: 22px;
-    margin: 1.5rem 0 .5rem 0 !important;
+    margin: 1.5rem 0 0.5rem 0 !important;
   }
 
   .wrapper--seo-pillar {
     margin: 0.1rem 0;
     padding: 0 !important;
-
   }
 
   .paragraph--textTopHeader {
@@ -3726,7 +3716,7 @@
     margin: 6px 51px;
     cursor: pointer;
     border-radius: 25px;
-    text-decoration: none
+    text-decoration: none;
   }
 
   .wrapper--botonChampion2 {
@@ -3744,7 +3734,6 @@
     cursor: pointer;
     border-radius: 25px;
     text-decoration: none;
-
   }
 
   .paragraph--registrate-footer-sobrenosotros2024 {
@@ -3755,6 +3744,7 @@
     background-color: transparent;
     padding: 0px;
   }
+
   .paragraph--main-sobre-nosotros-2024-title {
     font-size: 24px;
   }
@@ -3781,7 +3771,6 @@
     width: 100%;
     padding: 0 3% 3% 3%;
     margin-top: -13px;
-
   }
 
   .headingLevel1--title-statict-reverso {
@@ -3792,7 +3781,6 @@
   .paragraph--title--static-parrafoReverso {
     background: red;
   }
-
 }
 
 @media (max-width: 768px) {
@@ -3810,7 +3798,6 @@
 
   .wrapper--sneaker-buttom {
     width: 160px;
-
   }
 
   .paragraph--sneaker-buttom {
@@ -3847,6 +3834,7 @@
     margin: 2rem auto 0 auto;
     text-align: justify;
   }
+
   .headingLevel1--ritualesH1 {
     font-size: 24px;
     margin-top: 27px;
@@ -3904,14 +3892,11 @@
 
   .headingLevel2--filtroSeo {
     margin: 10px;
-
   }
 
   .link--filtroSeo {
-
     font-size: 17px;
   }
-
 }
 
 @media (max-width: 760px) {
@@ -3922,7 +3907,6 @@
   .container--paragrapGuiaDeRegalo {
     width: 90% !important;
   }
-
 }
 
 @media (max-width: 750px) {
@@ -3944,7 +3928,6 @@
 
   .paragraph--sanValentin-texto {
     font-size: 14px;
-
   }
 }
 
@@ -4015,12 +3998,11 @@
     top: -93px;
     left: 16px;
   }
-
 }
 
 /* Estilos para pantallas con ancho maximo de 2000px y minimo de 600px (tablet y dispositivos superiores) */
 
-@media screen and (min-width: 600px) and (max-width:1001px) {
+@media screen and (min-width: 600px) and (max-width: 1001px) {
   .wrapper--boton-landing-disandina {
     background-color: black;
     border: none;
@@ -4035,11 +4017,10 @@
     border-radius: 25px;
     text-decoration: none;
     position: relative;
-
   }
 }
 
-@media screen and (min-width:1200px) and (max-width:1500px) {
+@media screen and (min-width: 1200px) and (max-width: 1500px) {
   .wrapper--boton-landing-disandina {
     position: relative;
 
@@ -4047,7 +4028,7 @@
   }
 }
 
-@media screen and (min-width:1501px) and (max-width:1799px) {
+@media screen and (min-width: 1501px) and (max-width: 1799px) {
   .wrapper--boton-landing-disandina {
     position: relative;
 
@@ -4055,7 +4036,7 @@
   }
 }
 
-@media screen and (min-width:1800px) and (max-width:2000px) {
+@media screen and (min-width: 1800px) and (max-width: 2000px) {
   .wrapper--boton-landing-disandina {
     background-color: black;
     border: none;
@@ -4070,43 +4051,5 @@
     border-radius: 25px;
     text-decoration: none;
     position: relative;
-
   }
-}
-
-/*menu mobile sale*/
-
-.link--submenuSaleItem{
-  font-weight: bold;
-  padding-left: 1rem;
-  padding-bottom: 0.25rem;
-  display: inline-block;
-  border-bottom: 2px solid transparent;
-  transition: border-color 0.3s ease;
-  cursor: pointer;
-  text-decoration: none;
-  color: black;
-
-}
-
-.link--submenuSaleItem:hover{
-
-  border-bottom: 2px solid #FFD700;
-}
-
-
-
-/*FIN menu mobile sale*/
-
-
-/*medios de pago PDP */
-.paragraph--texto-medio-de-pago-pdp {
-  color: #525050;
-font-size: 13px;
-margin: 0;
-}
-/*Fin medios de pago PDP */
-
-.strong--tenis-mobile-menu {
-  font-weight: 900;
 }

@@ -1,242 +1,233 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&display=swap');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css');
-
-@import url('/arquivos/font-icommon.css');
-
-@import '../base/global.css';
-
-
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css");
+@import url("/arquivos/font-icommon.css");
+@import "../base/global.css";
 
 /* Estilos forzados */
-:global(.vtex-stack-layout-0-x-stackItem--addWishList)
-:global(.vtex-button__label){
-    padding: 0 !important;
-    margin: 0 !important;
+:global(.vtex-stack-layout-0-x-stackItem--addWishList):global(.vtex-button__label) {
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
-:global(.vtex-store-link-0-x-link){
-    text-decoration: none;
+:global(.vtex-store-link-0-x-link) {
+  text-decoration: none;
 }
 
 :global(.vtex-flex-layout-0-x-flexRow--contentHeaderMenuActive) :global(.vtex-menu-2-x-menuItem--menuLinkHeader),
-:global(.vtex-flex-layout-0-x-flexRow--contentHeaderMenuActive) :global(.vtex-menu-2-x-menuItem--menuLinkHeaderColor)
-{
-    padding: 2.2rem 0;
+:global(.vtex-flex-layout-0-x-flexRow--contentHeaderMenuActive) :global(.vtex-menu-2-x-menuItem--menuLinkHeaderColor) {
+  padding: 2.2rem 0;
 }
 
-:global(.vtex-flex-layout-0-x-flexRow--contentHeaderMenuActive) :global(.vtex-menu-2-x-menuItem--menuLinkHeaderHover){
-    padding: 2.2rem 0;
+:global(.vtex-flex-layout-0-x-flexRow--contentHeaderMenuActive) :global(.vtex-menu-2-x-menuItem--menuLinkHeaderHover) {
+  padding: 2.2rem 0;
 }
 
-:global(.vtex-login-2-x-arrowUp){
-    right: 16px;
+:global(.vtex-login-2-x-arrowUp) {
+  right: 16px;
 }
 
-:global(.vtex-button){
-    outline: none;
+:global(.vtex-button) {
+  outline: none;
 }
 
-@media only screen and (max-width: 1179px){
-    :global(.vtex-flex-layout-0-x-flexRowContent--contentBtnWishlist) :global(.vtex-button__label){
-        display: block !important;
-        padding: 0 2rem !important;
-    }
-
-    :global(.vtex-flex-layout-0-x-flexRowContent--contentBtnWishlist) :global(.vtex-login-2-x-profileIcon){
-        display: none;
-    }
-
-    :global(.vtex-flex-layout-0-x-flexRowContent--contentBtnWishlist) :global(.vtex-login-2-x-label){
-        margin: 1rem 0;
-        font-weight: bold;
-        font-size: 15px;
-        line-height: 15px;
-        color: #000000;
-        display: block;
-        text-transform: unset;
-    }
-
-    :global(.vtex-flex-layout-0-x-flexRowContent--contentBtnWishlist) :global(.vtex-button){
-        display: flex;
-        align-items: center;
-        border: none;
-        outline: none;
-    }
-
-    :global(.vtex-flex-layout-0-x-flexRowContent--contentBtnWishlist) :global(.vtex-button)::before{
-        font-size: 1.3rem !important;
-    }
+:global(.vtex-minicart-2-x-minicartIconContainer) :global(.vtex-store-icons-0-x-cartIcon) {
+  display: none;
 }
 
-
-/* :global(.vtex-wish-list-1-x-outline){
-    background: transparent;
-} */
-
-:global(.vtex-minicart-2-x-minicartIconContainer) :global(.vtex-store-icons-0-x-cartIcon){
-    display: none;
+:global(.vtex-stack-layout-0-x-stackItem--addWishList):global(.vtex-wish-list-1-x-iconSize) {
+  width: 20px;
+  height: 20px;
 }
 
-@media only screen and (min-width: 1180px){
-    :global(.vtex-button)
-    :global(.vtex-button__label){
-        padding: 0 !important;
-        margin: 0 !important;
-    }
+:global(.vtex-stack-layout-0-x-stackItem--addWishList):global(.vtex-button) {
+  min-height: auto !important;
 }
 
-:global(.vtex-stack-layout-0-x-stackItem--addWishList)
-:global(.vtex-wish-list-1-x-iconSize){
-    width: 20px;
-    height: 20px;
-}
-
-:global(.vtex-stack-layout-0-x-stackItem--addWishList)
-:global(.vtex-button){
-    min-height: auto !important;
-}
-
-:global(.vtex-flex-layout-0-x-flexRow--contentButton)
-:global(.vtex-button__label){
-    padding: 0 !important;
+:global(.vtex-flex-layout-0-x-flexRow--contentButton):global(.vtex-button__label) {
+  padding: 0 !important;
 }
 
 ::-webkit-scrollbar {
-    display: block;
-    background: #E5E5E5;
+  display: block;
+  background: #e5e5e5;
 }
+
 ::-webkit-scrollbar-track {
-    display: block;
-
+  display: block;
 }
+
 ::-webkit-scrollbar-thumb {
-    display: block;
-    background: #AAA9A9;
-    border-radius: 10px;
+  display: block;
+  background: #aaa9a9;
+  border-radius: 10px;
 }
 
-:global(.vtex-flex-layout-0-x-flexColChild--contentBack) :global(.vtex-store-drawer-0-x-closeIconButton){
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+:global(.vtex-flex-layout-0-x-flexColChild--contentBack) :global(.vtex-store-drawer-0-x-closeIconButton) {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-:global(.vtex-flex-layout-0-x-flexColChild--contentBack) :global(.vtex-store-drawer-0-x-closeIcon){
-    display: none;
+:global(.vtex-flex-layout-0-x-flexColChild--contentBack) :global(.vtex-store-drawer-0-x-closeIcon) {
+  display: none;
 }
 
 /* Formatear estilos de menu */
-:global(.vtex-flex-layout-0-x-flexRow--contentBarHeaderActive) :global(.vtex-menu-2-x-submenuWrapper--contentSubmenuDesk)
-{
-    top: 82px;
-    width: 1050px;
+:global(.vtex-flex-layout-0-x-flexRow--contentBarHeaderActive) :global(.vtex-menu-2-x-submenuWrapper--contentSubmenuDesk) {
+  top: 82px;
+  width: 1050px;
 }
 
-:global(.vtex-flex-layout-0-x-flexRow--contentBarHeaderInactive) :global(.vtex-menu-2-x-submenuWrapper--contentSubmenuDesk)
-{
-    top: 185px;
-    width: 1050px;
-}
-@media only screen and (min-width: 1200px){
-  :global(.vtex-flex-layout-0-x-flexRow--contentBarHeaderInactive) :global(.vtex-menu-2-x-submenuWrapper--contentSubmenuDesk)
-  {
-      top: 200px;
-      width: 1050px;
-  }
+:global(.vtex-flex-layout-0-x-flexRow--contentBarHeaderInactive) :global(.vtex-menu-2-x-submenuWrapper--contentSubmenuDesk) {
+  top: 185px;
+  width: 1050px;
 }
 
-@media only screen and (min-width: 1350px){
-  :global(.vtex-flex-layout-0-x-flexRow--contentBarHeaderInactive) :global(.vtex-menu-2-x-submenuWrapper--contentSubmenuDesk)
-  {
-      top: 205px;
-      width: 850px;
-      /* z-index: 999999; */
-  }
+:global(.vtex-search-1-x-containerOpenSearchBar) :global(.vtex-rich-text-0-x-container--closeIco) {
+  position: static;
 }
 
-@media only screen and (min-width: 1450px){
-  :global(.vtex-flex-layout-0-x-flexRow--contentBarHeaderInactive) :global(.vtex-menu-2-x-submenuWrapper--contentSubmenuDesk)
-  {
-      top: 215px;
-      width: 1100px;
-  }
+:global(.vtex-search-1-x-containerOpenSearchBar) :global(.vtex-rich-text-0-x-wrapper--closeIco) {
+  font-size: 1.2rem;
 }
 
-@media only screen and (min-width: 1650px){
-  :global(.vtex-flex-layout-0-x-flexRow--contentBarHeaderInactive) :global(.vtex-menu-2-x-submenuWrapper--contentSubmenuDesk)
-  {
-      top: 225px;
-      width: 1050px;
-  }
-}
-
-@media only screen and (min-width: 1920px){
-    :global(.vtex-flex-layout-0-x-flexRow--contentBarHeaderActive) :global(.vtex-menu-2-x-submenuWrapper--contentSubmenuDesk)
-    {
-        top: 81px;
-        width: 1300px;
-    }
-
-    :global(.vtex-flex-layout-0-x-flexRow--contentBarHeaderInactive) :global(.vtex-menu-2-x-submenuWrapper--contentSubmenuDesk)
-    {
-        top: 235px;
-        width: 1034px;
-    }
-}
-
-:global(.vtex-search-1-x-containerOpenSearchBar) :global(.vtex-rich-text-0-x-container--closeIco){
-    position: static;
-}
-
-:global(.vtex-search-1-x-containerOpenSearchBar) :global(.vtex-rich-text-0-x-wrapper--closeIco){
-    font-size: 1.2rem;
-}
-
-:global(.vtex-store-components-3-x-autoCompleteOuterContainer--contentSearch) :global(.vtex-input-prefix__group){
-    border-bottom: none;
-    /*Ubicar el "Buscar" al lado izquierdo*/
-    text-align-last: justify;
+:global(.vtex-store-components-3-x-autoCompleteOuterContainer--contentSearch) :global(.vtex-input-prefix__group) {
+  border-bottom: none;
+  /*Ubicar el "Buscar" al lado izquierdo*/
+  text-align-last: justify;
 }
 
 /* Estilos para el resumen de carrito */
-:global(.vtex-flex-layout-0-x-flexColChild--imageShelfCart) :global(.vtex-product-list-0-x-productImageContainer){
-    width: 100% !important;
+:global(.vtex-flex-layout-0-x-flexColChild--imageShelfCart) :global(.vtex-product-list-0-x-productImageContainer) {
+  width: 100% !important;
 }
 
-:global(.vtex-flex-layout-0-x-flexColChild--contentQuantitySelector) :global(.vtex-dropdown__button){
-    padding: 0 .5rem;
+:global(.vtex-flex-layout-0-x-flexColChild--contentQuantitySelector) :global(.vtex-dropdown__button) {
+  padding: 0 0.5rem;
 }
 
-:global(.vtex-flex-layout-0-x-flexColChild--contentQuantitySelector) :global(.vtex-dropdown__container){
-    height: 2.1rem;
-    border: 1px solid #AAA9A9;
+:global(.vtex-flex-layout-0-x-flexColChild--contentQuantitySelector) :global(.vtex-dropdown__container) {
+  height: 2.1rem;
+  border: 1px solid #aaa9a9;
 }
 
-:global(.vtex-product-list-0-x-deleteIcon){
-    display: none;
-}
-
-@media only screen and (max-width: 1180px){
-    :global(.vtex-flex-layout-0-x-flexColChild--contentQuantitySelector) :global(.vtex-dropdown__container){
-        height: 2.2rem;
-    }
+:global(.vtex-product-list-0-x-deleteIcon) {
+  display: none;
 }
 
 /****VENDIDO POR:***/
 :global(.vtex-seller-selector-0-x-sellerRow--name-seller-product) {
-    border: 0;
+  border: 0;
 }
 
 :global(.vtex-seller-selector-0-x-sellerList--body-seller-product) {
-    margin: 0;
+  margin: 0;
 }
 
 :global(.vtex-seller-selector-0-x-sellerName) {
-    width: 100%;
-    color: #000;
-    cursor: auto;
-    font-weight: normal;
-    padding: 0;
-    font-size: 13px;
+  width: 100%;
+  color: #000;
+  cursor: auto;
+  font-weight: normal;
+  padding: 0;
+  font-size: 13px;
+}
+
+/* ==========================================================================
+   MEDIA QUERIES (DESDE AQUÍ)
+   Se sigue el enfoque mobile-first. Mantén esta estructura y el orden
+   para asegurar que las reglas específicas sobrescriban correctamente los estilos base.
+   ========================================================================== */
+
+/* Estilos para pantallas(tablet y dispositivos superiores) */
+
+/* === MAX-WIDTH === */
+
+@media only screen and (max-width: 1179px) {
+  :global(.vtex-flex-layout-0-x-flexRowContent--contentBtnWishlist) :global(.vtex-button__label) {
+    display: block !important;
+    padding: 0 2rem !important;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--contentBtnWishlist) :global(.vtex-login-2-x-profileIcon) {
+    display: none;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--contentBtnWishlist) :global(.vtex-login-2-x-label) {
+    margin: 1rem 0;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 15px;
+    color: #000000;
+    display: block;
+    text-transform: unset;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--contentBtnWishlist) :global(.vtex-button) {
+    display: flex;
+    align-items: center;
+    border: none;
+    outline: none;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--contentBtnWishlist) :global(.vtex-button)::before {
+    font-size: 1.3rem !important;
+  }
+}
+
+@media only screen and (max-width: 1180px) {
+  :global(.vtex-flex-layout-0-x-flexColChild--contentQuantitySelector) :global(.vtex-dropdown__container) {
+    height: 2.2rem;
+  }
+}
+
+/* === MIN-WIDTH === */
+
+@media only screen and (min-width: 1180px) {
+  :global(.vtex-button) :global(.vtex-button__label) {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  :global(.vtex-flex-layout-0-x-flexRow--contentBarHeaderInactive) :global(.vtex-menu-2-x-submenuWrapper--contentSubmenuDesk) {
+    top: 200px;
+    width: 1050px;
+  }
+}
+
+@media only screen and (min-width: 1350px) {
+  :global(.vtex-flex-layout-0-x-flexRow--contentBarHeaderInactive) :global(.vtex-menu-2-x-submenuWrapper--contentSubmenuDesk) {
+    top: 205px;
+    width: 850px;
+    /* z-index: 999999; */
+  }
+}
+
+@media only screen and (min-width: 1450px) {
+  :global(.vtex-flex-layout-0-x-flexRow--contentBarHeaderInactive) :global(.vtex-menu-2-x-submenuWrapper--contentSubmenuDesk) {
+    top: 215px;
+    width: 1100px;
+  }
+}
+
+@media only screen and (min-width: 1650px) {
+  :global(.vtex-flex-layout-0-x-flexRow--contentBarHeaderInactive) :global(.vtex-menu-2-x-submenuWrapper--contentSubmenuDesk) {
+    top: 225px;
+    width: 1050px;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  :global(.vtex-flex-layout-0-x-flexRow--contentBarHeaderActive) :global(.vtex-menu-2-x-submenuWrapper--contentSubmenuDesk) {
+    top: 81px;
+    width: 1300px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--contentBarHeaderInactive) :global(.vtex-menu-2-x-submenuWrapper--contentSubmenuDesk) {
+    top: 235px;
+    width: 1034px;
+  }
 }

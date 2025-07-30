@@ -1,18 +1,4 @@
-/*.label{
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    font-weight: bold;
-    font-size: 9px;
-    line-height: 11px;
-    text-decoration-line: underline;
-    text-transform: uppercase;
-    color: #000000;
-}*/
-
-.label{
+.label {
   margin: 0 auto;
   border: 1px solid #989393;
   max-width: max-content;
@@ -33,9 +19,20 @@
   color: #717070;
 }
 
+/* ==========================================================================
+   MEDIA QUERIES (DESDE AQUÍ)
+   Se sigue el enfoque mobile-first. Mantén esta estructura y el orden
+   para asegurar que las reglas específicas sobrescriban correctamente los estilos base.
+   ========================================================================== */
+
+/* Estilos para pantallas(tablet y dispositivos superiores) */
+/* === MAX-WIDTH === */
+
 /***PDP***/
 @media screen and (min-width: 640px) and (max-width: 860px) {
-    .label {
-        padding: 8px;
-    }
+  .label {
+    padding: 8px;
+  }
 }
+
+/* === MIN-WIDTH === */
