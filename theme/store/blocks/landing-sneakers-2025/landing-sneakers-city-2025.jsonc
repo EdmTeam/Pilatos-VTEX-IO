@@ -1,0 +1,178 @@
+{
+  "store.custom#landing-sneakers-city-2025": {
+    "blocks": [
+      "experimental__visibility-layout#banner-video-general",
+      "experimental__visibility-layout#banner-landing-general-sneakers",
+      "experimental__visibility-layout#marcas-carrusel-landing-general-sneakers",
+      "experimental__visibility-layout#banner-sgenero-sneakers"
+    ]
+  },
+  //Banner video general
+  "experimental__visibility-layout#banner-video-general": {
+    "title": "banner video general",
+    "children": ["video#background-video-general"],
+    "props": {
+      "visible": true
+    }
+  },
+
+  "video#background-video-general": {
+    "props": {
+      "width": "100%",
+      "height": "600px",
+      "loop": false,
+      "autoPlay": true,
+      "muted": false,
+      "src": "https://www.youtube.com/embed/fvosnDQv1X8",
+      "blockClass": "videoEl"
+    }
+  },
+
+  //Banner landing sneakers city
+  "experimental__visibility-layout#banner-landing-general-sneakers": {
+    "title": "banner landing sneakers",
+    "children": ["flex-layout.row#banner-landing-general-sneakers"],
+    "props": {
+      "visible": true
+    }
+  },
+  "flex-layout.row#banner-landing-general-sneakers": {
+    "children": ["list-context.image-list#banner-landing-general-sneakers"],
+    "props": {
+      "marginBottom": 6,
+      "marginTop": 8,
+      "blockClass": "banner-landing-sneaker-city"
+    }
+  },
+  "list-context.image-list#banner-landing-general-sneakers": {
+    "children": ["slider-layout#general-sneakers"],
+    "props": {
+      "preload": true,
+      "height": 650,
+      "images": [
+        {
+          "loading": "eager",
+          "image": "/arquivos/prueba-sneakers.png",
+          "description": "something something"
+        }
+      ]
+    }
+  },
+
+  "slider-layout#general-sneakers": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true
+    }
+  },
+
+  //Marcas carrusel
+  "experimental__visibility-layout#marcas-carrusel-landing-general-sneakers": {
+    "title": "carrusel marcas tenis",
+    "children": ["flex-layout.row#marcas-carrusel-landing-general-sneakers"],
+    "props": {
+      "visible": true
+    }
+  },
+  "flex-layout.row#marcas-carrusel-landing-general-sneakers": {
+    "title": "Marcas carrusel",
+    "children": ["flex-layout.col#marcas-carrusel-landing-general-sneakers"],
+    "props": {
+      "marginBottom": 8,
+      "blockClass": "logos-marcas-sneakers-city"
+    }
+  },
+  "flex-layout.col#marcas-carrusel-landing-general-sneakers": {
+    "title": "Marcas carrusel col",
+    "children": ["list-context.image-list#demo-pillar-new"]
+  },
+
+  //Banners género sneakers
+  "experimental__visibility-layout#banner-sgenero-sneakers": {
+    "title": "Banners género sneakers",
+    "children": ["flex-layout.row#banner-sgenero-sneakers"],
+    "props": {
+      "visible": true
+    }
+  },
+
+  "flex-layout.row#banner-sgenero-sneakers": {
+    "title": "Banners género",
+    "children": ["flex-layout.col#banners-genero-sneakers"],
+    "props": {
+      "blockClass": "banners-genero-sneakers"
+    }
+  },
+  "flex-layout.col#banners-genero-sneakers": {
+    "children": [
+      "flex-layout.col#banners-genero-sneakers-man",
+      "flex-layout.col#banners-genero-sneakers-woman"
+    ],
+    "props": {
+      "blockClass": "banners-genero-sneakers-col"
+    }
+  },
+
+  "flex-layout.col#banners-genero-sneakers-man": {
+    "children": [
+      "rich-text#titulo-genero-sneakers-man",
+      "list-context.image-list#banners-genero-sneakers-man"
+    ]
+  },
+
+  "rich-text#titulo-genero-sneakers-man":{
+    "props": {
+      "text": "Sneakers man",
+      "blockClass": "titulo-banners-genero-sneakers-cicty"
+    }
+  },
+
+  "flex-layout.col#banners-genero-sneakers-woman": {
+    "children": [
+      "rich-text#titulo-genero-sneakers-woman",
+      "list-context.image-list#banners-genero-sneakers-woman"
+    ]
+  },
+
+  "rich-text#titulo-genero-sneakers-woman":{
+    "props": {
+      "text": "Sneakers woman",
+      "blockClass": "titulo-banners-genero-sneakers-cicty"
+    }
+  },
+
+  "list-context.image-list#banners-genero-sneakers-man": {
+    "children": ["slider-layout#general-sneakers"],
+    "props": {
+      "preload": true,
+      "height": 650,
+      "images": [
+        {
+          "loading": "eager",
+          "image": "/arquivos/Frame990.png",
+          "mobileImage": "/arquivos/Frame990-mob.png",
+          "description": "something something"
+        }
+      ]
+    }
+  },
+  "list-context.image-list#banners-genero-sneakers-woman": {
+    "children": ["slider-layout#general-sneakers"],
+    "props": {
+      "preload": true,
+      "height": 650,
+      "images": [
+        {
+          "loading": "eager",
+          "image": "/arquivos/Frame989.png",
+          "mobileImage": "/arquivos/Frame989-mob.png",
+          "description": "something something"
+        }
+      ]
+    }
+  }
+}
