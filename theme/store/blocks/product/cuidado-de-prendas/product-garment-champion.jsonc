@@ -77,7 +77,7 @@
     },
     "rich-text#garment-care-cleaning-use-1-champion": {
         "props": {
-            "text": "**Materiales con Poliéster:** \n Lavar a máquina en temperatura fría y en ciclo delicado \n Lavar con jabón suave \n No usar blanqueador \n No lavar en seco \n No planchar \n No usar secadora \n No exprimir \n Prenda adecuada para práctica deportiva "
+            "text": "**Materiales con Poliéster para Ropa Running:** \n Lavar a máquina en temperatura fría y en ciclo delicado \n Lavar con jabón suave \n No usar blanqueador \n No lavar en seco \n No planchar \n No usar secadora \n No exprimir \n Prenda adecuada para práctica deportiva"
         }
     },
     "image#garment-care-cleaning-use-1-champion": {
@@ -101,7 +101,7 @@
     },
     "rich-text#garment-care-cleaning-use-2-champion": {
         "props": {
-            "text": "**Materiales Algodón:** \n Lavar a máquina por el revés en temperatura fría \n Lavar con colores similares  \n Lavar con jabón suave \n No usar blanqueador \n No usar secadora \n Planchar por el revés a temperatura baja o media \n Prenda no adecuada para práctica deportiva"
+            "text": "**Materiales con Algodón para Ropa Lifestyle:** \n Lavar a máquina por el revés en temperatura fría \n Lavar con colores similares \n Lavar con jabón suave \n No usar blanqueador \n No usar secadora \n Planchar por el revés a temperatura baja o media \n Prenda no adecuada para práctica deportiva"
         }
     },
     "image#garment-care-cleaning-use-2-champion": {
@@ -125,7 +125,7 @@
     },
     "rich-text#garment-care-cleaning-use-3-champion": {
         "props": {
-            "text": "**Materiales con Poliéster:** \n Lavar a máquina por el revés en temperatura fría \n Lavar con colores similares \n Lavar con jabón suave \n No usar blanqueador \n No usar secadora \n No Planchar \n Prenda no adecuada para práctica deportiva"
+            "text": "**Materiales con Poliéster para Ropa Lifestyle:** \n Lavar a máquina por el revés en temperatura fría \n Lavar con colores similares \n Lavar con jabón suave \n No usar blanqueador \n No usar secadora \n No planchar \n Prenda no adecuada para práctica deportiva"
         }
     },
     "image#garment-care-cleaning-use-3-champion": {
