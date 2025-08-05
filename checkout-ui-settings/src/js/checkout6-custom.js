@@ -486,6 +486,39 @@ function handlePaymentMethodChange(orderForm) {
   }
 }
 
+
+$(window).on('orderFormUpdated.vtex', function (e, orderForm) {
+
+   let addiSetAsDefault = false;
+ 
+const setAddiAsDefaultPayment = () => {
+  if (addiSetAsDefault) return; // Ya se ejecutó una vez
+ 
+  const interval = setInterval(() => {
+    const addiPaymentButton = document.querySelector('#payment-group-AddiPaymentGroup');
+ 
+    if (addiPaymentButton) {
+      addiPaymentButton.click();
+      console.log('✅ Método de pago Addi seleccionado por defecto al primer acceso.');
+      clearInterval(interval);
+      addiSetAsDefault = true; // Evita futuras ejecuciones
+    }
+  }, 500);
+};
+ 
+// Detectar cuando entra a la sección de pago
+const handleRouteChange = () => {
+  if (location.hash === '#/payment' && !addiSetAsDefault) {
+    setAddiAsDefaultPayment();
+  }
+};
+ 
+$(window).on('hashchange', handleRouteChange);
+$(window).on('load', handleRouteChange);
+ 
+
+})
+
 // Escuchar el evento "orderFormUpdated" para detectar cambios en el formulario de pedido
 $(window).on('orderFormUpdated.vtex', function (e, orderForm) {
   handlePaymentMethodChange(orderForm)
