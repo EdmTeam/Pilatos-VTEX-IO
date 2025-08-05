@@ -1,7 +1,7 @@
 {
   "name": "checkout-ui-settings",
   "vendor": "pilatos21",
-  "version": "0.0.24",
+  "version": "0.0.25",
   "title": "Checkout UI Settings",
   "description": "Declare custom settings to be used by checkout ui",
   "builders": {
