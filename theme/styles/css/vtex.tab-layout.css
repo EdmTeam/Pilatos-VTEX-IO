@@ -1,54 +1,52 @@
-.listContainer{
-    justify-content: space-evenly;
+.listContainer {
+  justify-content: space-evenly;
 }
 
 .container .listContainer :global(.vtex-rich-text-0-x-paragraph) {
-    font-weight: bold;
-    text-align: center;
-    cursor: pointer;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
 }
 
-@media only screen and (min-width: 1180px){
-    .contentContainer--tabInfo .contentItem{
-        display: flex;
-    }
+.listContainer--menuTabVitrine {
+  margin-bottom: 48px;
+  justify-content: center;
+  flex-wrap: nowrap;
+  display: none;
 }
 
-.listContainer--menuTabVitrine{
-    margin-bottom: 48px;
-    justify-content: center;
-    flex-wrap: nowrap;
-    display: none;
-}
 .listContainer--menuTabVitrine::-webkit-scrollbar,
 .listContainer--menuTabVitrine::-webkit-scrollbar-track,
 .listContainer--menuTabVitrine::-webkit-scrollbar-thumb {
   display: none;
 }
+
 .listItem--menuTabVitrine-item {
-    margin: 0 12.5px;
-    padding: 0;
+  margin: 0 12.5px;
+  padding: 0;
 }
 
 .listItem--menuTabVitrine-item :global(.vtex-button) {
-    width: 150px;
-    height: 40px;
-    min-height: inherit;
-    border-radius: 1000px;
-    border: 1px solid #848484;
-    background-color: transparent;
+  width: 150px;
+  height: 40px;
+  min-height: inherit;
+  border-radius: 1000px;
+  border: 1px solid #848484;
+  background-color: transparent;
 }
+
 .listItem--menuTabVitrine-item :global(.vtex-button__label) {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 900;
-    font-size: 12px;
-    letter-spacing: 0.075em;
-    color: #848484;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  font-size: 12px;
+  letter-spacing: 0.075em;
+  color: #848484;
 }
+
 .listItemActive--menuTabVitrine-item {
-    position: relative;
+  position: relative;
 }
 
 .listItemActive--guiaDeRegaloLook {
@@ -56,101 +54,80 @@
 }
 
 .listItemActive--menuTabVitrine-item::after {
-    content: '';
-    position: absolute;
-    bottom: -10px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 15px 17.5px 0 17.5px;
-    border-color: #ffd500 transparent transparent transparent;
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 15px 17.5px 0 17.5px;
+  border-color: #ffd500 transparent transparent transparent;
 }
-.listItemActive--menuTabVitrine-item :global(.vtex-button){
-    border-color: #000000;
+
+.listItemActive--menuTabVitrine-item :global(.vtex-button) {
+  border-color: #000000;
 }
+
 .listItemActive--menuTabVitrine-item :global(.vtex-button__label) {
-    color: #000000;
-}
-
-@media screen and (max-width: 767px) {
-    .listContainer--menuTabVitrine{
-        overflow-x: scroll;
-        overflow-y: visible;
-        padding: 0 2%;
-        justify-content: flex-start;
-    }
-    .contentContainer--contentTabVitrine{
-        padding: 0 5%;
-    }
-}
-
-/*INTERVIENE BILLY*/
-.listItem--tabs-newbalanceform{
-    background-color: #d3d6d7 ;
-    min-width: 300px;
-    /* min-width: 200PX; */
-
-}
-
-.listItem--tabs-newbalanceform :global(.vtex-button){
-    color: #000000;
-    text-align: center;
-    width: 100%;
-    min-height: 400px;
-    background-image: url(/arquivos/vacantes-equipo-2-2020.png);
-    object-fit: cover;
-    background-repeat: no-repeat;
-}
-
-.listItem--tabs-politics{
-    background-color: #d3d6d7 ;
-    min-width: 220px;
-}
-
-.listItemActive{
-    background-color: #FFD400;
-}
-
-.listItem--tabs-politics :global(.vtex-button){
-    color: #000000;
-    text-align: center;
-    width: 100%;
-}
-
-.listItemActive :global(.vtex-button){
-    color: #000000;
-    text-align: center;
-    width: 100%;
-    background-color: transparent;
-    border: 0;
-    font-weight: 700;
-    text-transform: none;
-}
-
-.listItem :global(.vtex-button){
-  text-transform: none;
   color: #000000;
 }
 
+/*INTERVIENE BILLY*/
+.listItem--tabs-newbalanceform {
+  background-color: #d3d6d7;
+  min-width: 300px;
+  /* min-width: 200PX; */
+}
 
+.listItem--tabs-newbalanceform :global(.vtex-button) {
+  color: #000000;
+  text-align: center;
+  width: 100%;
+  min-height: 400px;
+  background-image: url(/arquivos/vacantes-equipo-2-2020.png);
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+.listItem--tabs-politics {
+  background-color: #d3d6d7;
+  min-width: 220px;
+}
+
+.listItemActive {
+  background-color: #ffd400;
+}
+
+.listItem--tabs-politics :global(.vtex-button) {
+  color: #000000;
+  text-align: center;
+  width: 100%;
+}
+
+.listItemActive :global(.vtex-button) {
+  color: #000000;
+  text-align: center;
+  width: 100%;
+  background-color: transparent;
+  border: 0;
+  font-weight: 700;
+  text-transform: none;
+}
+
+.listItem :global(.vtex-button) {
+  text-transform: none;
+  color: #000000;
+}
 
 .container--contentSearch {
   width: 90%;
   margin: 0 auto;
 }
-@media (max-width:760px) {
-  .container--contentSearch {
-    width: 96%;
-  }
-
-
-}
 
 /* tablat billy guia de regalos */
-
-.listContainer--guiaDeRegalo{
+.listContainer--guiaDeRegalo {
   justify-content: center;
 }
 
@@ -159,17 +136,50 @@
   border-bottom: 1px solid black;
 }
 
-
 .listContainer--guiaDeRegalo .vtex-button__label {
   color: #ff0000;
 }
 
-.listItem--giftBrand{
+.listItem--giftBrand {
   color: #ff0000;
-
 }
 
-.listContainer--guiaDeRegaloLook{
+.listContainer--guiaDeRegaloLook {
   justify-content: center;
 }
 
+/* ==========================================================================
+   MEDIA QUERIES (DESDE AQUÍ)
+   Se sigue el enfoque mobile-first. Mantén esta estructura y el orden
+   para asegurar que las reglas específicas sobrescriban correctamente los estilos base.
+   ========================================================================== */
+
+/* Estilos para pantallas(tablet y dispositivos superiores) */
+/* === MAX-WIDTH === */
+
+@media screen and (max-width: 767px) {
+  .listContainer--menuTabVitrine {
+    overflow-x: scroll;
+    overflow-y: visible;
+    padding: 0 2%;
+    justify-content: flex-start;
+  }
+
+  .contentContainer--contentTabVitrine {
+    padding: 0 5%;
+  }
+}
+
+/* === MIN-WIDTH === */
+
+@media (max-width: 760px) {
+  .container--contentSearch {
+    width: 96%;
+  }
+}
+
+@media only screen and (min-width: 1180px) {
+  .contentContainer--tabInfo .contentItem {
+    display: flex;
+  }
+}

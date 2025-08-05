@@ -1,26 +1,32 @@
-.flexCol--envio-express-texto{
-
-    text-align: center; 
-    margin: 0 auto;
-    width: 100%;
-    padding-left: 5%;
-    padding-right: 5%;
+.flexCol--envio-express-texto {
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
-.flexRow--contenedor-texto-imagen-envio-express{
-
-    width: 98%;
-    margin-bottom: 1%;
+.flexRow--contenedor-texto-imagen-envio-express {
+  width: 98%;
+  margin-bottom: 1%;
 }
 
+/* ==========================================================================
+   MEDIA QUERIES (DESDE AQUÍ)
+   Se sigue el enfoque mobile-first. Mantén esta estructura y el orden
+   para asegurar que las reglas específicas sobrescriban correctamente los estilos base.
+   ========================================================================== */
+
+/* Estilos para pantallas(tablet y dispositivos superiores) */
+/* === MAX-WIDTH === */
 
 @media screen and (max-width: 767px) {
 
-    .flexRow--contenedor-texto-imagen-envio-express{
-
-        width: 100%;
-        margin-bottom: 1%;
- 
-    }
-
+  .flexRow--contenedor-texto-imagen-envio-express {
+    width: 100%;
+    margin-bottom: 1%;
   }
+
+}
+
+/* === MIN-WIDTH === */

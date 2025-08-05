@@ -1,6 +1,15 @@
+/* ==========================================================================
+   MEDIA QUERIES (DESDE AQUÍ)
+   Se sigue el enfoque mobile-first. Mantén esta estructura y el orden
+   para asegurar que las reglas específicas sobrescriban correctamente los estilos base.
+   ========================================================================== */
+
+/* Estilos para pantallas(tablet y dispositivos superiores) */
+/* === MAX-WIDTH === */
+/* === MIN-WIDTH === */
 
 @media screen and (min-width: 1024px) {
-    .link--contentIcoWhatsApp {
-        right: 2.7rem;
-    }
+  .link--contentIcoWhatsApp {
+    right: 2.7rem;
+  }
 }

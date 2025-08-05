@@ -1,5 +1,6 @@
 {
   "flex-layout.row#content-slider": {
+    "title": "Banner cinta y Banner home",
     "children": [
       "flex-layout.col#content-slider"
     ],
@@ -10,8 +11,18 @@
   "flex-layout.col#content-slider": {
     "children": [
       "experimental__visibility-layout#content-slider",
-      "list-context.image-list#banner-principal"
+      "experimental__visibility-layout#banner-home"
     ]
+  },
+
+  "experimental__visibility-layout#banner-home": {
+    "title": "Banner Home",
+    "children": [
+      "list-context.image-list#banner-principal"
+    ],
+    "props": {
+      "visible": true
+    }
   },
   
   "experimental__visibility-layout#content-slider": {

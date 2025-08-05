@@ -1,41 +1,50 @@
-.footerLayout{
-    background-color:rgba(251, 251, 251, 0.8);
-    padding: 0;
+.footerLayout {
+  background-color: rgba(251, 251, 251, 0.8);
+  padding: 0;
 }
 
 :global(.vtex-rich-text-0-x-wrapper--whatsappItemsfooter),
 :global(.vtex-rich-text-0-x-wrapper--telItemsfooter),
 :global(.vtex-rich-text-0-x-wrapper--mailItemsfooter),
-:global(.vtex-rich-text-0-x-wrapper--locatorItemsfooter)
-{
-    font-family: 'icomoon' !important;
-    speak: never;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
+:global(.vtex-rich-text-0-x-wrapper--locatorItemsfooter) {
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
 }
 
-:global(.vtex-rich-text-0-x-wrapper--telItemsfooter)::before{
-    content: '\e913';
+:global(.vtex-rich-text-0-x-wrapper--telItemsfooter)::before {
+  content: "\e913";
 }
 
-:global(.vtex-rich-text-0-x-wrapper--mailItemsfooter)::before{
-    content: '\e90f';
+:global(.vtex-rich-text-0-x-wrapper--mailItemsfooter)::before {
+  content: "\e90f";
 }
 
-:global(.vtex-rich-text-0-x-wrapper--whatsappItemsfooter)::before{
-    content: "\e923";
+:global(.vtex-rich-text-0-x-wrapper--whatsappItemsfooter)::before {
+  content: "\e923";
 }
 
-:global(.vtex-rich-text-0-x-wrapper--locatorItemsfooter)::before{
-    content: '\e914';
+:global(.vtex-rich-text-0-x-wrapper--locatorItemsfooter)::before {
+  content: "\e914";
 }
 
-@media only screen and (min-width: 1180px){
-    .footerLayout{
-        background-color:rgba(251, 251, 251, 0.8);
-    }
+/* ==========================================================================
+   MEDIA QUERIES (DESDE AQUÍ)
+   Se sigue el enfoque mobile-first. Mantén esta estructura y el orden
+   para asegurar que las reglas específicas sobrescriban correctamente los estilos base.
+   ========================================================================== */
+
+/* Estilos para pantallas(tablet y dispositivos superiores) */
+/* === MAX-WIDTH === */
+/* === MIN-WIDTH === */
+
+@media only screen and (min-width: 1180px) {
+  .footerLayout {
+    background-color: rgba(251, 251, 251, 0.8);
+  }
 }

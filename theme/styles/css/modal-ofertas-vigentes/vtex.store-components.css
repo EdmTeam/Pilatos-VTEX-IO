@@ -1,7 +1,18 @@
 .imageElement--images-ofertas-vigentes {
-    height: 170px !important;
-    object-fit: contain;
+  height: 170px !important;
+  object-fit: contain;
 }
+
 .imageElementLink--images-ofertas-vigentes {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
+
+/* ==========================================================================
+   MEDIA QUERIES (DESDE AQUÍ)
+   Se sigue el enfoque mobile-first. Mantén esta estructura y el orden
+   para asegurar que las reglas específicas sobrescriban correctamente los estilos base.
+   ========================================================================== */
+
+/* Estilos para pantallas(tablet y dispositivos superiores) */
+/* === MAX-WIDTH === */
+/* === MIN-WIDTH === */

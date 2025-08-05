@@ -1,8 +1,10 @@
 {
   "store.custom#formulario-general-2025": {
     "children": [
+         "experimental__visibility-layout#texto-seo-general",
       "experimental__visibility-layout#banner-landing-general",
-      "flex-layout.row#form-custom-general"
+      "flex-layout.row#form-custom-general",
+       "experimental__visibility-layout#texto-seo-final-general"
     ]
   },
   "flex-layout.row#form-custom-general": {

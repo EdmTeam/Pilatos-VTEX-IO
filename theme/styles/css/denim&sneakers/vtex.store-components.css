@@ -1,4 +1,14 @@
 :global(.vtex-store-video-1-x-videoContainer--video-carrusel-productos--denimsneakers) {
-    height: 100%;
-    border: 0;
+  height: 100%;
+  border: 0;
 }
+
+/* ==========================================================================
+   MEDIA QUERIES (DESDE AQUÍ)
+   Se sigue el enfoque mobile-first. Mantén esta estructura y el orden
+   para asegurar que las reglas específicas sobrescriban correctamente los estilos base.
+   ========================================================================== */
+
+/* Estilos para pantallas(tablet y dispositivos superiores) */
+/* === MAX-WIDTH === */
+/* === MIN-WIDTH === */

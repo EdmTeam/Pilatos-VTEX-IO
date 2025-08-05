@@ -205,7 +205,8 @@
       "rich-text#submenu-level-2-item-20-row-7",
       "rich-text#submenu-level-2-item-21-row-7",
        "rich-text#submenu-level-2-item-65-row-7",
-      "rich-text#submenu-level-2-item-6-row-7"
+      "rich-text#submenu-level-2-item-6-row-7",
+      "rich-text#submenu-level-2-item-26-row-9-remanence"
     ],
     "props": {
       "blockClass": "content-a-i"
@@ -348,6 +349,7 @@
       "rich-text#submenu-level-2-item-3-row-7",
       "rich-text#submenu-level-2-item-40-row-7",
       "rich-text#submenu-level-2-item-43-1-row-7",
+      "rich-text#submenu-level-2-item-44-1-row-7",
       "rich-text#submenu-level-2-item-25-row-7",
       "rich-text#submenu-level-2-item-26-row-8"
     ],
@@ -397,6 +399,12 @@
       "blockClass": ["contentSubMenuAcordeon", "textSubcategoryPilatos"]
     }
   },
+  "rich-text#submenu-level-2-item-44-1-row-7": {
+    "props": {
+      "text": "[Tennis](/tennis) ![Tennis](/arquivos/Pilatos-LogosMarcas-tenniss.png)",
+      "blockClass": ["contentSubMenuAcordeon", "textSubcategoryPilatos"]
+    }
+  },
   "rich-text#submenu-level-2-item-25-row-7": {
     "props": {
       "text": "[Vans](/vans) ![Vans](/arquivos/Pilatos-LogosMarcas-Vans.png)",
@@ -406,6 +414,12 @@
   "rich-text#submenu-level-2-item-26-row-8": {
     "props": {
       "text": "[Veja](/veja) ![Veja](/arquivos/veja-logo-brand.png)",
+      "blockClass": ["contentSubMenuAcordeon", "textSubcategoryPilatos"]
+    }
+  },
+  "rich-text#submenu-level-2-item-26-row-9-remanence": {
+    "props": {
+      "text": "[Remanence](/remanence)",
       "blockClass": ["contentSubMenuAcordeon", "textSubcategoryPilatos"]
     }
   },

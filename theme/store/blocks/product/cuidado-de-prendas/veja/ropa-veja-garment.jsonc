@@ -1,0 +1,139 @@
+{
+    "condition-layout.product#garment-veja": {
+        "props": {
+            "conditions": [
+                {
+                    "subject": "brandId",
+                    "arguments": {
+                        "id": "2000145"
+                    }
+                }
+            ],
+            "Then": "disclosure-layout#product-garment-care-veja"
+        }
+    },
+
+    "disclosure-layout#product-garment-care-veja": {
+        "children": [
+            "disclosure-trigger#product-content-garment-care-veja",
+            "disclosure-content#product-description-garment-care-veja"
+        ]
+    },
+
+    "disclosure-trigger#product-content-garment-care-veja": {
+        "children": [
+            "rich-text#garment-care-veja",
+            "disclosure-state-indicator#garment-care"
+        ],
+        "props": {
+            "blockClass": ["container-products", "disclosure-indicator-garment-care"]
+        }
+    },
+
+    "rich-text#garment-care-veja": {
+        "props": {
+            "text": "**Cuidados de la prenda**"
+            //"blockClass": "product-description-pdp"
+        }
+    },
+    "disclosure-content#product-description-garment-care-veja": {
+        "children": [
+            "rich-text#garment-care-use-veja",
+            "flex-layout.row#garment-use-veja"
+        ],
+        "props": {
+            "blockClass": "garment-use-product-pdp"
+        }
+    },
+    
+    "rich-text#garment-care-use-veja": {
+        "props": {
+            "text": "**Recomendaciones de uso**"
+        }
+    },
+    "flex-layout.row#garment-use-veja": {
+        "children": [
+            "flex-layout.col#garment-use-veja"
+        ]
+    },
+
+    "flex-layout.col#garment-use-veja": {
+        "children": [
+            "flex-layout.col#garment-use-1-veja",
+            "flex-layout.col#garment-use-2-veja",
+            "flex-layout.col#garment-use-3-veja"
+        ]
+    },
+    
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-1-veja": {
+        "children": [
+            "image#garment-care-cleaning-use-1-veja",
+            "rich-text#garment-care-cleaning-use-1-veja"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-1-veja": {
+        "props": {
+            "text": "Cepille la suciedad"
+        }
+    },
+    "image#garment-care-cleaning-use-1-veja": {
+        "props": {
+            "src": "/arquivos/secar-a-la-sombra.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-2-veja": {
+        "children": [
+            "image#garment-care-cleaning-use-2-veja",
+            "rich-text#garment-care-cleaning-use-2-veja"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-2-veja": {
+        "props": {
+            "text": "Frote el zapato"
+        }
+    },
+    "image#garment-care-cleaning-use-2-veja": {
+        "props": {
+            "src": "/arquivos/30-grados-maximo.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 30
+        }
+    },
+    /******* item completo recomendación de uso****/
+
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-3-veja": {
+        "children": [
+            "image#garment-care-cleaning-use-3-veja",
+            "rich-text#garment-care-cleaning-use-3-veja"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-3-veja": {
+        "props": {
+            "text": "Pula para darle brillo"
+        }
+    },
+    "image#garment-care-cleaning-use-3-veja": {
+        "props": {
+            "src": "/arquivos/do-not-dry.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    }
+    /******* item completo recomendación de uso****/
+}

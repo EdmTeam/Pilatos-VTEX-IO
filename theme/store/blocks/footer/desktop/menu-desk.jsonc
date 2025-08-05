@@ -19,9 +19,7 @@
     "flex-layout.row#desk-menu-item": {
       "title": "Footer menu DESK",
         "children": [
-     
-        
-            "flex-layout.col#news-letter-desk",
+            "experimental__visibility-layout#newsletter",
             "flex-layout.col#desk-menu-item-col-1",
             "flex-layout.col#desk-menu-item-col-2",
             "flex-layout.col#desk-menu-item-col-3",
@@ -32,6 +30,16 @@
             "blockClass": "contentFooter"
         }
     },
+
+    "experimental__visibility-layout#newsletter": {
+    "title": "Newsletter DESK",
+    "children": [
+        "flex-layout.col#news-letter-desk"
+    ],
+    "props": {
+      "visible": true
+    }
+  },
 
     "flex-layout.col#news-letter-desk":{
         "children":[

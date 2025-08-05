@@ -1,110 +1,123 @@
 .suggestionsListLink {
-    border-radius: 5px;
-    padding: 7px 20px;
-    border: 1px solid #ccc;
-    color: #1e5bc6;
-    display: block;
+  border-radius: 5px;
+  padding: 7px 20px;
+  border: 1px solid #ccc;
+  color: #1e5bc6;
+  display: block;
 }
 
-.biggy-autocomplete{
-    max-height: calc(100vh - 60px);
-    height: calc(100vh - 60px);
-    flex-direction: column !important;
-    left: 12px;
-    top: 1px;
-    width: calc(100vw + 6px) !important;
-    padding-top: 0;
+.biggy-autocomplete {
+  max-height: calc(100vh - 60px);
+  height: calc(100vh - 60px);
+  flex-direction: column !important;
+  left: 12px;
+  top: 1px;
+  width: calc(100vw + 6px) !important;
+  padding-top: 0;
 }
 
-.biggy-autocomplete .itemListTitle{
-    font-weight: 800;
-    font-size: 14px;
-    line-height: 18px;
-    letter-spacing: 0.02em;
-    color: #000000;
-    text-transform: capitalize;
-    font-family: Mulish;
-    margin-bottom: 1rem;
+.biggy-autocomplete .itemListTitle {
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.02em;
+  color: #000000;
+  text-transform: capitalize;
+  font-family: Mulish;
+  margin-bottom: 1rem;
 }
 
-.biggy-autocomplete .itemListLink{
-    display: block;
+.biggy-autocomplete .itemListLink {
+  display: block;
 }
 
-.biggy-autocomplete .itemListSubItemLink, .biggy-autocomplete .itemListLink{
-    line-height: 25px !important;
-    height: 25px;
-    font-family: Mulish;
-    font-weight: normal;
-    font-size: 12px;
-    color: #000000;
-    padding: 0 20px;
+.biggy-autocomplete .itemListSubItemLink,
+.biggy-autocomplete .itemListLink {
+  line-height: 25px !important;
+  height: 25px;
+  font-family: Mulish;
+  font-weight: normal;
+  font-size: 12px;
+  color: #000000;
+  padding: 0 20px;
 }
 
-@media only screen and (max-width: 1180px){
-    .biggy-autocomplete .tileListList{
-        flex-wrap: wrap;
-        width: 80%;
-        margin: 0 auto;
-    }
-
-    .biggy-autocomplete .tileListItem{
-        width: 50%;
-    }
+.biggy-autocomplete .close-btn {
+  display: none;
 }
 
-@media only screen and (min-width: 740px){
-    .biggy-autocomplete{
-        left: 28px;
-        top: 2px;
-        width: calc(100vw + 10px) !important;
-    }
+.biggy-autocomplete .tileListSeeMore {
+  font-weight: bold;
+  font-size: 12px;
+  color: #606060;
 }
 
-.biggy-autocomplete .close-btn{
-    display: none;
+.biggy-autocomplete .tileListTitle {
+  display: none;
 }
 
-.biggy-autocomplete .tileListSeeMore{
-    font-weight: bold;
-    font-size: 12px;
+/* ==========================================================================
+   MEDIA QUERIES (DESDE AQUÍ)
+   Se sigue el enfoque mobile-first. Mantén esta estructura y el orden
+   para asegurar que las reglas específicas sobrescriban correctamente los estilos base.
+   ========================================================================== */
+
+/* Estilos para pantallas(tablet y dispositivos superiores) */
+/* === MAX-WIDTH === */
+
+@media only screen and (max-width: 1180px) {
+  .biggy-autocomplete .tileListList {
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .biggy-autocomplete .tileListItem {
+    width: 50%;
+  }
+}
+
+/* === MIN-WIDTH === */
+
+@media only screen and (min-width: 740px) {
+  .biggy-autocomplete {
+    left: 28px;
+    top: 2px;
+    width: calc(100vw + 10px) !important;
+  }
+}
+
+
+@media only screen and (min-width: 1180px) {
+  .biggy-autocomplete {
+    width: 780px !important;
+    right: 0;
+    left: auto;
+    flex-direction: row !important;
+    min-height: auto;
+    height: 230px;
+  }
+
+  .history-and-top-wrapper {
+    flex: 0.54;
+  }
+
+  .biggy-autocomplete .tileList {
+    width: 70%;
+  }
+
+  .biggy-autocomplete .tileListItem {
+    width: 25%;
+  }
+
+  .biggy-autocomplete .tileListList {
+    margin-bottom: 0;
+  }
+
+  .biggy-autocomplete .tileListSeeMore {
+    height: 40px;
+    line-height: 40px;
+    font-size: 10px;
     color: #606060;
-}
-
-.biggy-autocomplete .tileListTitle{
-    display: none;
-}
-
-@media only screen and (min-width: 1180px){
-    .biggy-autocomplete{
-        width: 780px !important;
-        right: 0;
-        left: auto;
-        flex-direction: row !important;
-        min-height: auto;
-        height: 230px;
-    }
-
-    .history-and-top-wrapper{
-        flex: .54;
-    }
-
-    .biggy-autocomplete .tileList{
-        width: 70%;
-    }
-
-    .biggy-autocomplete .tileListItem{
-        width: 25%;
-    }
-
-    .biggy-autocomplete .tileListList{
-        margin-bottom: 0;
-    }
-
-    .biggy-autocomplete .tileListSeeMore{
-        height: 40px;
-        line-height: 40px;
-        font-size: 10px;
-        color: #606060;
-    }
+  }
 }

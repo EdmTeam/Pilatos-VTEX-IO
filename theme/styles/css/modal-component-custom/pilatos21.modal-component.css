@@ -1,77 +1,88 @@
 .desktopImageModal {
-    display: block;
-    border-radius: 10px;
+  display: block;
+  border-radius: 10px;
 }
 
 .mobileImageModal {
-    display: none;
-    border-radius: 10px;
-}
-
-@media (max-width: 1024px) {
-    .desktopImageModal {
-        display: none;
-    }
-
-    .mobileImageModal {
-        display: block;
-        /* width: 100vw; */
-        width: 200px;
-        position: fixed;
-        right: 4%;
-        /*top: 65%;*/
-        top: 60%;
-    }
-}
-
-@media (max-width: 600px) {
-    .mobileImageModal {
-        width: 40%;
-    }
+  display: none;
+  border-radius: 10px;
 }
 
 .estrategiaModalDctoClose--modal-promo {
-    top: -8px;
-    right: -8px !important;
+  top: -8px;
+  right: -8px !important;
+  background: rgba(0, 0, 0, 0.55);
+  border-radius: 4px;
+  color: #fff !important;
+  transition: background-color 0.2s ease-in;
+}
+
+.estrategiaModalDctoClose--modal-promo:hover {
+  background-color: #FFD400;
+}
+
+/* ==========================================================================
+   MEDIA QUERIES (DESDE AQUÍ)
+   Se sigue el enfoque mobile-first. Mantén esta estructura y el orden
+   para asegurar que las reglas específicas sobrescriban correctamente los estilos base.
+   ========================================================================== */
+
+/* Estilos para pantallas(tablet y dispositivos superiores) */
+/* === MAX-WIDTH === */
+
+@media (max-width: 1024px) {
+  .desktopImageModal {
+    display: none;
+  }
+
+  .mobileImageModal {
+    display: block;
+    /* width: 100vw; */
+    width: 200px;
+    position: fixed;
+    right: 4%;
+    /*top: 65%;*/
+    top: 60%;
+  }
+}
+
+@media (max-width: 600px) {
+  .mobileImageModal {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .estrategiaModalDctoClose {
+    top: -70px;
+    right: -16px !important;
     background: rgba(0, 0, 0, 0.55);
     border-radius: 4px;
     color: #fff !important;
     transition: background-color 0.2s ease-in;
-}
+    z-index: 3;
+  }
 
-.estrategiaModalDctoClose--modal-promo:hover {
+  .estrategiaModalDctoClose:hover {
     background-color: #FFD400;
+  }
+
+  .estrategiaModalDcto {
+    overflow: visible !important;
+  }
+
+  .estrategiaModalDcto--modal-promo {
+    /* bottom: 7px !important; */
+    z-index: 3 !important;
+    top: 70%;
+    right: 2%;
+  }
 }
 
-@media screen and (max-width: 1024px) {
-    .estrategiaModalDctoClose {
-        top: -70px;
-        right: -16px !important;
-        background: rgba(0, 0, 0, 0.55);
-        border-radius: 4px;
-        color: #fff !important;
-        transition: background-color 0.2s ease-in;
-        z-index: 3;
-    }
-
-    .estrategiaModalDctoClose:hover {
-        background-color: #FFD400;
-    }
-
-    .estrategiaModalDcto {
-        overflow: visible !important;
-    }
-
-    .estrategiaModalDcto--modal-promo {
-        /* bottom: 7px !important; */
-        z-index: 3 !important;
-        top: 70%;
-        right: 2%;
-    }
-}
+/* === MIN-WIDTH === */
 
 @media screen and (min-width: 1024px) {
-    .estrategiaModalDcto {
-        width: 240px !important;
-    }
+  .estrategiaModalDcto {
+    width: 240px !important;
+  }
 }

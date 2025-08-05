@@ -1,103 +1,97 @@
 .flexRow--seo-texto-general-contenedor {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    line-height: 1.5;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  line-height: 1.5;
 }
 
 .flexRow--contenedor-genero-botnes {
-    display: flex;
-
+  display: flex;
 }
 
 .flexRowContent--contenedor-genero-botnes {
-    gap: 2rem;
-
+  gap: 2rem;
 }
-
-
-@media (max-width: 768px) {
-
-    .flexRowContent--contenedor-genero-botnes {
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 2rem;
-        flex-wrap: nowrap;
-        margin-right: 1rem;
-    }
-}
-
-
 
 .flexRow--contenedor-categorias-general {
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .flexRowContent--contenedor-categorias-general {
-
-    gap: 2rem;
-}
-
-@media (max-width: 768px) {
-    .flexRow--contenedor-categorias-general {
-        Flex-wrap: wrap
-    }
-
-    .flexRow--categoria-botones-layout {
-
-        display: flex;
-    }
-
-    .flexRowContent--categoria-botones-layout {
-        display: flex;
-        gap: 2rem;
-
-    }
-
-
+  gap: 2rem;
 }
 
 .flexRowContent--categoria-botones-layout {
-    display: flex;
+  display: flex;
 
 }
 
 .flexCol--categoria-fila-botones {
-    justify-content: center;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 
 .flexCol--contenedor-categorias-general-col {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    flex-wrap: wrap;
-    /*margin: 20px 0;*/
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
 
 .flexRowContent--fila-imagenes-mobile {
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-top: 2%;
-    gap: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+  gap: 10px;
 }
 
 .flexRow--fila-imagenes {
-
-    margin-top: 1%;
+  margin-top: 1%;
 }
+
+/* ==========================================================================
+   MEDIA QUERIES (DESDE AQUÍ)
+   Se sigue el enfoque mobile-first. Mantén esta estructura y el orden
+   para asegurar que las reglas específicas sobrescriban correctamente los estilos base.
+   ========================================================================== */
+
+/* Estilos para pantallas(tablet y dispositivos superiores) */
+/* === MAX-WIDTH === */
+
+@media (max-width: 768px) {
+  .flexRow--contenedor-categorias-general {
+    Flex-wrap: wrap
+  }
+
+  .flexRow--categoria-botones-layout {
+    display: flex;
+  }
+
+  .flexRowContent--categoria-botones-layout {
+    display: flex;
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .flexRowContent--contenedor-genero-botnes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: nowrap;
+    margin-right: 1rem;
+  }
+}
+
+
+/* === MIN-WIDTH === */

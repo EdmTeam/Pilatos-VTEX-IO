@@ -1,0 +1,35 @@
+.wrapper--titulo-banners-genero-sneakers-cicty {
+    width: 100%;
+}
+
+.paragraph--titulo-banners-genero-sneakers-cicty {
+    font-weight: 700;
+    color: #000;
+    border: 2px solid #000;
+    text-align: center;
+    margin: 0;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.paragraph--titulo-banners-genero-sneakers-cicty:hover {
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .paragraph--titulo-banners-genero-sneakers-cicty {
+        height: max-content;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .paragraph--titulo-banners-genero-sneakers-cicty {
+        height: 60px;
+    font-size: 2rem;
+    }
+}

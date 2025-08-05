@@ -29,7 +29,6 @@
   animation: textToWhite 6s ease-in-out infinite !important;
 }
 
-
 /* fondo negro se expande de derecha a izquierda */
 @keyframes fillRightToLeft {
 
@@ -56,6 +55,15 @@
   }
 }
 
+/* ==========================================================================
+   MEDIA QUERIES (DESDE AQUÍ)
+   Se sigue el enfoque mobile-first. Mantén esta estructura y el orden
+   para asegurar que las reglas específicas sobrescriban correctamente los estilos base.
+   ========================================================================== */
+
+/* Estilos para pantallas(tablet y dispositivos superiores) */
+/* === MAX-WIDTH === */
+
 @media screen and (max-width: 1024px) {
   .wrapper--btn-ver-ofertas-vigentes :global(.vtex-rich-text-0-x-paragraph) {
     border: 0;
@@ -74,3 +82,5 @@
     margin: 0 !important;
   }
 }
+
+/* === MIN-WIDTH === */

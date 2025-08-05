@@ -1,0 +1,33 @@
+.flexRowContent--logos-marcas-sneakers-city {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.flexRowContent--logos-marcas-sneakers-city :global(.vtex-rich-text-0-x-heading-level-2) {
+    font-size: 18px !important;
+}
+
+.flexRowContent--banners-genero-sneakers {
+    margin: 40px auto;
+}
+
+.flexCol--banners-genero-sneakers-col {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.flexColChild--banners-genero-sneakers-col {
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .flexRowContent--banner-landing-sneaker-city {
+        width: 95%;
+        margin: 30px auto;
+    }
+    .flexRowContent--banners-genero-sneakers {
+    width: 70%;
+}
+}

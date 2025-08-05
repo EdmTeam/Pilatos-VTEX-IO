@@ -185,13 +185,15 @@
             "rich-text#marcas-titulo-q-t",
             "flex-layout.row#marca-individual-3",
             "flex-layout.row#marca-individual-2",
+            "flex-layout.row#marca-individual-remanence",
             "flex-layout.row#marca-individual-10",
             "flex-layout.row#marca-individual-4",
-                "flex-layout.row#marca-individual-14",
+            "flex-layout.row#marca-individual-14",
             "flex-layout.row#marca-individual-5",
             "flex-layout.row#marca-individual-6",
-          
+            
             "flex-layout.row#marca-individual-7",
+            "flex-layout.row#marca-individual-28",
             "flex-layout.row#marca-individual-8",
             "flex-layout.row#marca-individual-9",
             "flex-layout.row#marca-individual-18",
@@ -200,8 +202,7 @@
             "rich-text#marcas-titulo-u-z",
             "flex-layout.row#marca-individual-11",
             "flex-layout.row#marca-individual-21",
-            "flex-layout.row#marca-individual-22",
-            "flex-layout.row#marca-individual-23"
+            "flex-layout.row#marca-individual-22"
         ],
         "props": {
             "blockClass": "marcas-contenedor-individuales"

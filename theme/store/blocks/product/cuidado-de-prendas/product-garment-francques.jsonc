@@ -1,0 +1,93 @@
+{
+    "condition-layout.product#garment-care-franques": {
+        "props": {
+            "conditions": [
+                {
+                    "subject": "brandId",
+                    "arguments": {
+                        "id": "2000133"
+                    }
+                }
+            ],
+            "Then": "disclosure-layout#product-garment-care-francques"
+        }
+    },
+
+    "disclosure-layout#product-garment-care-francques": {
+        "children": [
+            "disclosure-trigger#product-content-garment-care-francques",
+            "disclosure-content#product-description-garment-care-francques"
+        ]
+    },
+
+    "disclosure-trigger#product-content-garment-care-francques": {
+        "children": [
+            "rich-text#garment-care-francques",
+            "disclosure-state-indicator#garment-care"
+        ],
+        "props": {
+            "blockClass": ["container-products", "disclosure-indicator-garment-care"]
+        }
+    },
+
+    "rich-text#garment-care-francques": {
+        "props": {
+            "text": "**Cuidados de la prenda**"
+            //"blockClass": "product-description-pdp"
+        }
+    },
+    "disclosure-content#product-description-garment-care-francques": {
+        "children": [
+            "rich-text#garment-care-use-francques",
+            "flex-layout.row#garment-use-francques"
+        ],
+        "props": {
+            "blockClass": "garment-use-product-pdp"
+        }
+    },
+    
+    "rich-text#garment-care-use-francques": {
+        "props": {
+            "text": "**Recomendaciones de uso**"
+        }
+    },
+    "flex-layout.row#garment-use-francques": {
+        "children": [
+            "flex-layout.col#garment-use-francques"
+        ]
+    },
+
+    "flex-layout.col#garment-use-francques": {
+        "children": [
+            "flex-layout.col#garment-use-1-francques"
+            //"flex-layout.col#garment-use-2-francques",
+            //"flex-layout.col#garment-use-3-francques",
+            //"flex-layout.col#garment-use-4-francques",
+            //"flex-layout.col#garment-use-5-francques"
+        ]
+    },
+    
+    /******* item completo recomendación de uso****/
+    "flex-layout.col#garment-use-1-francques": {
+        "children": [
+            "image#garment-care-cleaning-use-1-francques",
+            "rich-text#garment-care-cleaning-use-1-francques"
+        ],
+        "props": {
+            "blockClass": "contenedor-primera-compra-icons"
+        }
+    },
+    "rich-text#garment-care-cleaning-use-1-francques": {
+        "props": {
+            "text": "Lavado colores medios y claros \n Lavado a máquina a máx 30°C \n No usar cloro \n Planchado a máx 110°C \n Secar a baja temperatura \n Lavados colores oscuros  \n Lavado a máquina delicado a máx 30°C \n No usar cloro \n No planchar \n Secado a la sombra extendido horizontal \n No retorcer"
+        }
+    },
+    "image#garment-care-cleaning-use-1-francques": {
+        "props": {
+            "src": "/arquivos/secar-a-la-sombra.png",
+            "alt": "Icono cuidado de prenda",
+            "maxWidth": 24
+        }
+    }
+    /******* item completo recomendación de uso****/
+}

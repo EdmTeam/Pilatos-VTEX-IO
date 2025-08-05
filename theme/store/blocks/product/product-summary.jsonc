@@ -6,7 +6,7 @@
       "vtex.product-summary:product-summary-brand",
       "vtex.product-summary:product-summary-name",
       "flex-layout.row#price",
-      "experimental__visibility-layout#name_vitrina_fitsjeans",
+      "experimental__visibility-layout#name_vitrina_mercadopago-modal",
       "vtex.product-summary:product-summary-space",
       "responsive-layout.desktop#selectorSkuDesktop",
       "responsive-layout.mobile#selectorSkuMobile"
@@ -16,11 +16,11 @@
     }
   },
   /***MERCADO PAGO***/
-  "experimental__visibility-layout#name_vitrina_fitsjeans": {
+  "experimental__visibility-layout#name_vitrina_mercadopago-modal": {
     "title": "Texto y modal de mercado pago",
     "children": ["flex-layout.col#text-mercado-pago"],
     "props": {
-      "visible": false
+      "visible": true
     }
   },
   "flex-layout.row#text-mercado-pago": {
@@ -50,7 +50,7 @@
   "rich-text#porcentaje-estrategia-mercado-pago": {
     "title": "Porcentaje texto mercado pago",
     "props": {
-      "text": "**0% de interés** hasta 3 coutas [ver bancos](/)",
+      "text": "**0% de interés** hasta 3 cuotas [ver bancos](/)",
       "blockClass": "texto-mercado-pago-plp"
     }
   },
@@ -69,8 +69,8 @@
       "images": [
         {
           "loading": "eager",
-          "image": "/arquivos/modal_mercadopago_desk_prueba.jpg",
-          "mobileImage": "/arquivos/modal_mercadopago_mob_prueba.jpg.jpg",
+          "image": "/arquivos/Pilatos-mediosdepago-banner-1807x700pxnew.jpg",
+          "mobileImage": "/arquivos/Pilatos-mediosdepago-banner-680x946pxnew.jpg",
           "description": "Banner PLP mercado pago"
         }
       ]

@@ -280,7 +280,7 @@ const CustomCheckoutExpress = (function () {
   //   // Muestra todos los métodos de pago excepto "Contraentrega"
   //   $('.payment-group-list-btn a:not(.pg-contra-entrega)').show()
   //   // Simula un clic en el primer método de pago distinto de "Contraentrega"
-  //   $('.payment-group-list-btn a:not(.pg-contra-entrega):first-child').click()  
+  //   $('.payment-group-list-btn a:not(.pg-contra-entrega):first-child').click()
   //   console.log("esta en hidepaymet method")
   // }
 
@@ -347,7 +347,7 @@ const CustomCheckoutExpress = (function () {
         // Función principal que ejecuta la lógica de validación
         function handleOrderFormUpdate(orderForm) {
 
-          
+
 
           const sellers = orderForm.sellers || [];
           const shipSLA = orderForm.shippingData?.logisticsInfo || [];
@@ -357,7 +357,7 @@ const CustomCheckoutExpress = (function () {
           const ogcItem = shipSLA.some(sla => sla.selectedSla === "OGC - Envío gratuito");
 
           console.log('SLA::', isPickit);
-          
+
 
           if (hasDifferentSeller || isPickit || ogcItem || validateGiftCard(orderForm)) {
             const element1 = document.getElementById('payment-group-custom201PaymentGroupPaymentGroup')
@@ -391,7 +391,7 @@ const CustomCheckoutExpress = (function () {
           console.log("El orderForm ha sido actualizado:", orderForm);
           handleOrderFormUpdate(orderForm); // Ejecuta la lógica en cada actualización
           //validatePaymentMethod(orderForm)
-          
+
         });
 
         // Llamada inicial para asegurar que la lógica se ejecute al cargar la página
@@ -399,8 +399,8 @@ const CustomCheckoutExpress = (function () {
           console.log("OrderForm inicial:", orderForm);
           handleOrderFormUpdate(orderForm);
           //validatePaymentMethod(orderForm)
-          
-          
+
+
         });
 
         setTimeout(() => {

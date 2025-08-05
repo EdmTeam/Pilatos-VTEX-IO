@@ -1,21 +1,30 @@
 .flexRowContent--Submenu-desk-sale {
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 
 .flexRowContent--Submenu-desk-sale :global(.vtex-rich-text-0-x-container--contentSubMenuAcordeon) {
-    justify-content: center;
+  justify-content: center;
 }
 
-.flexRowContent--Submenu-desk-sale :global(.vtex-rich-text-0-x-container--contentSubMenuAcordeon) 
-:global(.vtex-rich-text-0-x-paragraph--textSubcategoryPilatos):hover {
-    text-decoration: underline;
+.flexRowContent--Submenu-desk-sale :global(.vtex-rich-text-0-x-container--contentSubMenuAcordeon):global(.vtex-rich-text-0-x-paragraph--textSubcategoryPilatos):hover {
+  text-decoration: underline;
 }
 
 .flexRow--Submenu-desk-sale {
-    width: 10rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+/* ==========================================================================
+   MEDIA QUERIES (DESDE AQUÍ)
+   Se sigue el enfoque mobile-first. Mantén esta estructura y el orden
+   para asegurar que las reglas específicas sobrescriban correctamente los estilos base.
+   ========================================================================== */
+
+/* Estilos para pantallas(tablet y dispositivos superiores) */
+/* === MAX-WIDTH === */
+/* === MIN-WIDTH === */
