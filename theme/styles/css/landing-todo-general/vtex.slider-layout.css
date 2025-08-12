@@ -1,0 +1,41 @@
+.imageElement--brands-carousel-slider{
+
+      width: auto !important;
+  max-height: 102px !important;
+  max-width: 120px !important;
+  object-fit: contain !important;
+  display: block !important;
+  margin: 0 auto;
+}
+
+.vtex-slider-layout-0-x-paginationDotsContainer--brands-carousel-slider {
+  bottom: 0 !important; 
+  top: auto !important;
+}
+
+@media (max-width: 767px) {
+  .imageElement--brands-carousel-slider {
+    width: auto !important;
+    max-height: 70px !important;  
+    max-width: 80px !important;    
+    object-fit: contain !important;
+    display: block !important;
+    margin: 0 auto !important;
+  }
+
+  .paginationDotsContainer--brands-carousel-slider{
+
+       bottom: 0px !important;
+}
+}
+
+.paginationDotsContainer--brands-carousel-slider{
+
+       bottom: -15px;
+}
+
+.sliderLayoutContainer--brands-carousel-slider{
+
+      max-width: 95%;
+    margin: 0 auto;
+}

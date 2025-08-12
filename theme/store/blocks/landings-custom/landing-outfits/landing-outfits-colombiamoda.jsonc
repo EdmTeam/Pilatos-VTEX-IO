@@ -1,0 +1,196 @@
+{
+  "store.custom#landing-outfits-colombiamoda": {
+    "blocks": [
+        "flex-layout.row#seo-outfits",
+        "experimental__visibility-layout#video-principal-colombiamoda",
+        "experimental__visibility-layout#grupo-1-colombiamoda",
+        "experimental__visibility-layout#grupo-2-colombiamoda",
+        "experimental__visibility-layout#grupo-3-colombiamoda",
+        "experimental__visibility-layout#grupo-4-colombiamoda",
+        "experimental__visibility-layout#grupo-5-colombiamoda",
+        "rich-text#filtro-seo" 
+    ]
+  },
+  /////VIDEO
+  "experimental__visibility-layout#video-principal-colombiamoda": {
+    "title": "Video banner principal",
+    "children": ["flex-layout.row#vdeo-banner-principal-colombiamoda"],
+    "props": {
+      "visible": true
+    }
+  },
+  "flex-layout.row#vdeo-banner-principal-colombiamoda": {
+    "children": [
+        "video#video-principal-colombiamoda"
+    ],
+    "props": {
+        "marginBottom": 4,
+        "blockClass": "video-container-colombiamoda"
+    }
+  },
+  "video#video-principal-colombiamoda": {
+    "props": {
+      "width": "100%",
+      "height": "600px",
+      "loop": false,
+      "autoPlay": true,
+      "muted": true,
+      "src": "https://www.youtube.com/watch?v=HAFlgha8KYo",
+      "blockClass": "videoEl",
+      "controlsType": "native",
+      "playsInline": true
+    }
+  },
+  /////VIDEO
+  ////GRUPOS COLOMBIAMODA
+  "experimental__visibility-layout#grupo-1-colombiamoda": {
+    "title": "Grupo 1 colombiamoda visibility",
+    "children": ["flex-layout.row#vitrina-outfit-grupo-1-colombiamoda"],
+    "props": {
+      "visible": true
+    }
+  },
+  "experimental__visibility-layout#grupo-2-colombiamoda": {
+    "title": "Grupo 2 colombiamoda visibility",
+    "children": ["flex-layout.row#vitrina-outfit-grupo-2-colombiamoda"],
+    "props": {
+      "visible": true
+    }
+  },
+  "experimental__visibility-layout#grupo-3-colombiamoda": {
+    "title": "Grupo 3 colombiamoda visibility",
+    "children": ["flex-layout.row#vitrina-outfit-grupo-3-colombiamoda"],
+    "props": {
+      "visible": true
+    }
+  },
+  "experimental__visibility-layout#grupo-4-colombiamoda": {
+    "title": "Grupo 4 colombiamoda visibility",
+    "children": ["flex-layout.row#vitrina-outfit-grupo-4-colombiamoda"],
+    "props": {
+      "visible": true
+    }
+  },
+  "experimental__visibility-layout#grupo-5-colombiamoda": {
+    "title": "Grupo 5 colombiamoda visibility",
+    "children": ["flex-layout.row#vitrina-outfit-grupo-5-colombiamoda"],
+    "props": {
+      "visible": true
+    }
+  },
+  "flex-layout.row#vitrina-outfit-grupo-1-colombiamoda": {
+    "title": "Contenedor grupo 1",
+    "children": [
+        "flex-layout.col#vitrina-outfit-grupo-1-colombiamoda"
+    ],
+    "props": {
+        "marginBottom": 8,
+        "blockClass": "colombiamoda-content"
+    }
+  },
+  "flex-layout.row#vitrina-outfit-grupo-2-colombiamoda": {
+    "title": "Contenedor grupo 2",
+    "children": [
+        "flex-layout.col#vitrina-outfit-grupo-1-colombiamoda"
+    ],
+    "props": {
+        "marginBottom": 8,
+        "blockClass": "colombiamoda-content"
+    }
+  },
+  "flex-layout.row#vitrina-outfit-grupo-3-colombiamoda": {
+    "title": "Contenedor grupo 3",
+    "children": [
+        "flex-layout.col#vitrina-outfit-grupo-1-colombiamoda"
+    ],
+    "props": {
+        "marginBottom": 8,
+        "blockClass": "colombiamoda-content"
+    }
+  },
+  "flex-layout.row#vitrina-outfit-grupo-4-colombiamoda": {
+    "title": "Contenedor grupo 4",
+    "children": [
+        "flex-layout.col#vitrina-outfit-grupo-1-colombiamoda"
+    ],
+    "props": {
+        "marginBottom": 8,
+        "blockClass": "colombiamoda-content"
+    }
+  },
+  "flex-layout.row#vitrina-outfit-grupo-5-colombiamoda": {
+    "title": "Contenedor grupo 5",
+    "children": [
+        "flex-layout.col#vitrina-outfit-grupo-1-colombiamoda"
+    ],
+    "props": {
+        "marginBottom": 8,
+        "blockClass": "colombiamoda-content"
+    }
+  },
+  "flex-layout.col#vitrina-outfit-grupo-1-colombiamoda": {
+    "children": [
+        "rich-text#grupo-text-colombiamoda",
+        "flex-layout.row#outfit-slider-1-colombiamoda"
+    ]
+  },
+   "rich-text#grupo-text-colombiamoda": {
+    "props": {
+        "text": "**Grupo 1 [Ver todo](/)**",
+        "blockClass": "colombiamoda-titulo"
+    }
+  },
+  "flex-layout.row#outfit-slider-1-colombiamoda": {
+    "children": [
+        "list-context.image-list#colombiamoda-slider"
+    ]
+  },
+  "list-context.image-list#colombiamoda-slider": {
+    "children": ["slider-layout#outfits-colombiamoda"],
+    "props": {
+      "preload": true,
+      "height": 650,
+      "images": [
+        {
+          "loading": "eager",
+          "image": "/arquivos/Look-1.jpg",
+          "description": "colombiamoda look"
+        },
+        {
+          "loading": "lazy",
+          "image": "/arquivos/Look-2.jpg",
+          "description": "colombiamoda look"
+        },
+        {
+          "loading": "lazy",
+          "image": "/arquivos/Look-3.jpg",
+          "description": "colombiamoda look"
+        },
+        {
+          "loading": "lazy",
+          "image": "/arquivos/Look-8.jpg",
+          "description": "colombiamoda look"
+        },
+        {
+          "loading": "lazy",
+          "image": "/arquivos/Look-9-y-10.jpg",
+          "description": "colombiamoda look"
+        }
+      ]
+    }
+  },
+
+  "slider-layout#outfits-colombiamoda": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "blockClass": ["carousel", "colombiamoda-slider"]
+    }
+  }
+  ////GRUPOS COLOMBIAMODA
+}

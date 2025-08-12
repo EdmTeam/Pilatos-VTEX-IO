@@ -3,22 +3,33 @@
 }
 
 .sliderArrows--slider-secundario-multibanner {
-    background-color: black !important;
-    color: #fff !important;
-    width: 30px;
-    height: 30px;
+  background-color: black !important;
+  color: #fff !important;
+  width: 30px;
+  height: 30px;
 }
 
 .sliderRightArrow--slider-secundario-multibanner {
-    right: -20px;
+  right: -20px;
 }
 
 .sliderLeftArrow--slider-secundario-multibanner {
-    left: -20px;
+  left: -20px;
 }
+
+/* ==========================================================================
+   MEDIA QUERIES (DESDE AQUÍ)
+   Se sigue el enfoque mobile-first. Mantén esta estructura y el orden
+   para asegurar que las reglas específicas sobrescriban correctamente los estilos base.
+   ========================================================================== */
+
+/* Estilos para pantallas(tablet y dispositivos superiores) */
+/* === MAX-WIDTH === */
 
 @media screen and (max-width: 768px) {
   .sliderTrack--slider-secundario-multibanner {
     gap: 8px;
   }
 }
+
+/* === MIN-WIDTH === */

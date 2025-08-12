@@ -74,11 +74,14 @@
       "rich-text#submenu-desk-department-4-category-21", //ray ban
       "rich-text#submenu-desk-department-4-category-14", //Roxy
           "rich-text#submenu-desk-department-4-category-65", //Rvca
+          "rich-text#submenu-desk-department-4-category-28-remanence", //remanence
       "rich-text#submenu-desk-department-4-category-56", //superga
       "rich-text#submenu-desk-department-4-category-35", //sprayground
       "rich-text#submenu-desk-department-4-category-22", //stance
       "rich-text#submenu-desk-department-4-category-58", //THE NORTH FACE
-      "rich-text#submenu-desk-department-4-category-27" //vans
+      "rich-text#submenu-desk-department-4-category-58-tennis", //Tennis
+      "rich-text#submenu-desk-department-4-category-27", //vans
+      "rich-text#submenu-desk-department-4-category-28-veja" //veja
     ],
     "props":{
         "blockClass": [
@@ -199,6 +202,14 @@
     "rich-text#submenu-desk-department-4-category-58":{
         "props":{
             "text": "[The north face](/the-north-face) ![The north face](/arquivos/Pilatos-LogosMarcas-TheNorthFace2.png)",
+            "blockClass": [
+              "textSubcategory"
+            ]
+        }
+    },
+    "rich-text#submenu-desk-department-4-category-58-tennis":{
+        "props":{
+            "text": "[Tennis](/the-north-face) ![Tennis](/arquivos/Pilatos-LogosMarcas-tenniss.png)",
             "blockClass": [
               "textSubcategory"
             ]
@@ -425,6 +436,20 @@
     "rich-text#submenu-desk-department-4-category-27":{
         "props":{
             "text": "[Vans](/vans) ![Vans](/arquivos/Pilatos-LogosMarcas-Vans.png) ",
+            "blockClass": "textSubcategory"
+        }
+    },
+
+    "rich-text#submenu-desk-department-4-category-28-veja":{
+        "props":{
+            "text": "[Veja](/veja) ![Veja](/arquivos/veja-logo-brand.png) ",
+            "blockClass": "textSubcategory"
+        }
+    },
+
+    "rich-text#submenu-desk-department-4-category-28-remanence":{
+        "props":{
+            "text": "[Remanence](/remanence) ![Remanence](/arquivos/logo-remanence.png)",
             "blockClass": "textSubcategory"
         }
     },

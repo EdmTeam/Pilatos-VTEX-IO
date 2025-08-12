@@ -53,25 +53,49 @@
   position: relative;
 }
 
-@media only screen and (min-width: 1180px) {
-  .nameContainer {
-    margin: 1rem 0 .4rem 0;
-  }
-
-  .nameContainer .nameWrapper {
-    height: 36px;
-  }
-
-  .nameContainer .nameWrapper .brandName {
-    font-size: 13px;
-    line-height: 140%;
-  }
-
-  .container--shelfSlide {
-    margin: 0 1rem;
-    max-width: 100% !important;
-  }
+.element {
+  position: relative;
 }
+
+.clearLink--shelfSlide {
+  padding: 0 .5rem;
+  background: #ffffff;
+}
+
+.clearLink--shelfSlide:hover :global(.vtex-flex-layout-0-x-flexRowContent--contentSkuBtn) {
+  visibility: visible;
+}
+
+.imageNormal {
+  height: auto !important;
+  z-index: 1;
+}
+
+.sliderTrackContainer--sku-selector-color {
+  width: 120px;
+}
+
+.sliderTrackContainer--sku-selector-Talla {
+  width: 120px;
+}
+
+.diagonalCross--sku-selector-color {
+  opacity: 0.5;
+  background-image: linear-gradient(to top right, transparent 44%, rgba(0, 0, 0, 0.3) 48%, currentColor 48%, currentColor 52%, transparent 52%);
+}
+
+.sliderArrows--sku-selector-color {
+  color: #000000;
+}
+
+/* ==========================================================================
+   MEDIA QUERIES (DESDE AQUÍ)
+   Se sigue el enfoque mobile-first. Mantén esta estructura y el orden
+   para asegurar que las reglas específicas sobrescriban correctamente los estilos base.
+   ========================================================================== */
+
+/* Estilos para pantallas(tablet y dispositivos superiores) */
+/* === MAX-WIDTH === */
 
 @media only screen and (max-width: 760px) {
   .element--shelfSearch .brandName {
@@ -98,9 +122,7 @@
   }
 }
 
-.element {
-  position: relative;
-}
+/* === MIN-WIDTH === */
 
 @media only screen and (min-width: 1180px) {
   .element--shelfSearch .nameContainer {
@@ -138,36 +160,21 @@
     color: #575756;
     text-transform: uppercase;
   }
-}
+  .nameContainer {
+    margin: 1rem 0 .4rem 0;
+  }
 
-.clearLink--shelfSlide {
-  padding: 0 .5rem;
-  background: #ffffff;
-}
+  .nameContainer .nameWrapper {
+    height: 36px;
+  }
 
-.clearLink--shelfSlide:hover :global(.vtex-flex-layout-0-x-flexRowContent--contentSkuBtn) {
-  visibility: visible;
-}
+  .nameContainer .nameWrapper .brandName {
+    font-size: 13px;
+    line-height: 140%;
+  }
 
-
-.imageNormal {
-  height: auto !important;
-  z-index: 1;
-}
-
-.sliderTrackContainer--sku-selector-color {
-  width: 120px;
-}
-
-.sliderTrackContainer--sku-selector-Talla {
-  width: 120px;
-}
-
-.diagonalCross--sku-selector-color {
-  opacity: 0.5;
-  background-image: linear-gradient(to top right, transparent 44%, rgba(0, 0, 0, 0.3) 48%, currentColor 48%, currentColor 52%, transparent 52%);
-}
-
-.sliderArrows--sku-selector-color {
-  color: #000000;
+  .container--shelfSlide {
+    margin: 0 1rem;
+    max-width: 100% !important;
+  }
 }

@@ -1,114 +1,106 @@
-.headingLevel1--seo-content-general{
-
-    font-size: 23px;
+.headingLevel1--seo-content-general {
+  font-size: 23px;
 }
 
-.headingLevel2--seo-content-general{
-
-    font-size: 19px;
-}
-
-@media (max-width: 768px) {
-
-    .headingLevel1--seo-content-general{
-
-        font-size: 18px;
-    }
-
-    .paragraph--seo-content-general {
-        padding: 0 12px;
-
-
- }
+.headingLevel2--seo-content-general {
+  font-size: 19px;
 }
 
 
 .link--genero-mujer-boton,
 .link--genero-hombre-boton {
-    position: relative;
-    font-size: 1.2rem;
-    font-weight: bold;
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-    color: black;
-    transition: color 0.3s ease; /* Transición suave para el color */
+  position: relative;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s ease;
+  /* Transición suave para el color */
 }
 
 .link--genero-mujer-boton::after,
 .link--genero-hombre-boton::after {
-    content: "";
-    position: absolute;
-    bottom: -5px; /* Ajusta la distancia de la línea al texto */
-    left: 0;
-    right: 0;
-    height: 2px; /* Grosor de la línea */
-    background-color: black;
-    transform: scaleX(0); /* Línea invisible inicialmente */
-    transform-origin: left; /* Inicia desde la izquierda */
-    transition: transform 0.3s ease; /* Transición suave para la animación */
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  /* Ajusta la distancia de la línea al texto */
+  left: 0;
+  right: 0;
+  height: 2px;
+  /* Grosor de la línea */
+  background-color: black;
+  transform: scaleX(0);
+  /* Línea invisible inicialmente */
+  transform-origin: left;
+  /* Inicia desde la izquierda */
+  transition: transform 0.3s ease;
+  /* Transición suave para la animación */
 }
 
 .link--genero-hombre-boton:hover::after,
 .link--genero-mujer-boton:hover::after {
-    transform: scaleX(1); /* Línea visible al hacer hover */
+  transform: scaleX(1);
+  /* Línea visible al hacer hover */
 }
 
 .link--genero-mujer-boton:hover,
 .link--genero-hombre-boton:hover {
-    color: black; /* Mantiene el color del texto */
+  color: black;
+  /* Mantiene el color del texto */
 }
 
 .link--boton-categoria-1,
 .link--boton-categoria-2,
 .link--boton-categoria-3,
-.link--boton-categoria-4{
+.link--boton-categoria-4 {
 
-    padding: 0.5rem 1rem;
-    font-size: 1rem;
-    font-weight: bold;
-    border: 1px solid black;
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    color: white;
-    background-color: black;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: 1px solid black;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: white;
+  background-color: black;
 
 
-    min-width: 120px; 
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
+  min-width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    
+
 }
 
 .link--boton-cta-landing-general {
-    padding: 0.5rem 1rem;
-    font-size: 1rem;
-    font-weight: bold;
-    border: 1px solid black;
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    color: white;
-    background-color: black;
-    min-width: 200px; 
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: 1px solid black;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: white;
+  background-color: black;
+  min-width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .link--boton-cta-landing-general:hover {
-    background-color: white; 
-    border-color: black; 
-    color: black; 
+  background-color: white;
+  border-color: black;
+  color: black;
 }
 
 .paragraph--textp-landing-general {
-    margin: 0;
+  margin: 0;
 }
 
 
@@ -116,9 +108,9 @@
 .link--boton-categoria-2:hover,
 .link--boton-categoria-3:hover,
 .link--boton-categoria-4:hover {
-    background-color: white; 
-    border-color: black; 
-    color: black; 
+  background-color: white;
+  border-color: black;
+  color: black;
 }
 
 
@@ -126,21 +118,21 @@
 .link--boton-1-categoria-lgeneral-mobile,
 .link--boton-2-categoria-lgeneral-mobile,
 .link--boton-3-categoria-lgeneral-mobile,
-.link--boton-4-categoria-lgeneral-mobile{
-    padding: 0.5rem 1rem;
-    font-size: 1rem;
-    font-weight: bold;
-    border: 1px solid black;
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    color: white;
-    background-color: black;
-    min-width: 120px; 
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
+.link--boton-4-categoria-lgeneral-mobile {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: 1px solid black;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: white;
+  background-color: black;
+  min-width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -149,13 +141,49 @@
 .link--boton-2-categoria-lgeneral-mobile:hover,
 .link--boton-3-categoria-lgeneral-mobile:hover,
 .link--boton-4-categoria-lgeneral-mobile:hover {
-    background-color: white; 
-    border-color: black; 
-    color: black; 
+  background-color: white;
+  border-color: black;
+  color: black;
 }
 
 /***LINEA ETICA***/
 .link--linkFooterEtica {
-    text-decoration: none;
-    color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
+
+
+.wrapper--shelf--title {
+    text-align: center;
+
+    color: #1A1A1A;
+    font-size: 32px;
+
+}
+
+/* ==========================================================================
+   MEDIA QUERIES (DESDE AQUÍ)
+   Se sigue el enfoque mobile-first. Mantén esta estructura y el orden
+   para asegurar que las reglas específicas sobrescriban correctamente los estilos base.
+   ========================================================================== */
+
+/* Estilos para pantallas(tablet y dispositivos superiores) */
+/* === MAX-WIDTH === */
+
+@media (max-width: 768px) {
+  .headingLevel1--seo-content-general {
+    font-size: 18px;
+  }
+
+  .paragraph--seo-content-general {
+    padding: 0 12px;
+  }
+
+        .paragraph--shelf--title {
+    
+          font-size: 19px;
+          font-weight: bold;
+        }
+}
+
+/* === MIN-WIDTH === */

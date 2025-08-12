@@ -138,22 +138,25 @@
     "form-input.text#primera-compra-landing-form-name": {
         "props": {
             "pointer": "#/properties/name",
-            "label": "Nombre completo",
-            "placeholder": "Ingresa tu nombre completo"
+            "label": "",
+            //"placeholder": "Ingresa tu nombre completo"
+            "placeholder": "Nombre"
         }
     },
     "form-input.text#primera-compra-landing-form-email": {
         "props": {
             "pointer": "#/properties/mail",
-            "label": "Correo Electrónico",
-            "placeholder": "Ingresa tu correo electrónico"
+            "label": "",
+            //"placeholder": "Ingresa tu correo electrónico"
+            "placeholder": "Email"
         }
     },
   "form-input.text#primera-compra-landing-form-celular": {
     "props": {
         "pointer": "#/properties/phone",
-        "label": "Celular",
-        "placeholder": "Ingresa tu numero de celular"
+        "label": "",
+        //"placeholder": "Ingresa tu numero de celular"
+        "placeholder": "Celular"
     }
 },
     "form-input.checkbox#primera-compra-landing-form-terms": {

@@ -49,7 +49,6 @@
 }
 
 /* Estilos personalizados footer */
-
 .flexRow--contentFooter {
   padding: 2rem 1.5rem 0 1.5rem;
 }
@@ -143,7 +142,6 @@
 /* Estilos Header */
 
 /*  Header Amarillo */
-
 .flexRowContent--contenedorHeader,
 .flexColChild--contenedorHeader {
   flex-direction: column;
@@ -455,7 +453,6 @@
 }
 
 .flexRow--contentFooterMenu {
-  /* position: fixed; */
   bottom: 0;
   left: 0;
   margin-bottom: 2rem;
@@ -587,7 +584,6 @@
 }
 
 /* Formulario colombia moda */
-
 .flexRowContent--formulario-expectativa-live-shopping :global(.vtex-input-prefix__group) {
   background-color: #DCDCDC;
   border-radius: 8px;
@@ -596,7 +592,6 @@
 }
 
 /* Formulario colombia moda */
-
 .flexColChild--contentNewsletter :global(.vtex-styleguide-9-x-input)::placeholder {
   text-align: left;
 }
@@ -1492,7 +1487,6 @@
 }
 
 /* Estáticos */
-
 .flexRow--static-top-title-promo :global(.vtex-rich-text-0-x-container),
 .flexRow--static-top-title-terms :global(.vtex-rich-text-0-x-container),
 .flexRow--static-top-title-politics :global(.vtex-rich-text-0-x-container),
@@ -1871,10 +1865,8 @@
 }
 
 .flexRow--rowLandingOrderFromSostenible {
-  /*padding: 0 12% 2% 12%;*/
   width: 60%;
   margin: 0 auto;
-
 }
 
 .flexRowContent--rowLandingOrderFromSostenible .stretchChildrenWidth:last-child {
@@ -2059,7 +2051,6 @@
 }
 
 /* Guia de Regalos Diciembre 2023 */
-
 .imageElementLink--giftCategory {
   width: 100%;
 }
@@ -2149,10 +2140,6 @@
   align-items: center;
   justify-content: space-between;
 }
-
-/* .flexColChild--titulo-botones-sale-template {
-  width: 35%;
-} */
 
 .flexCol--botones-nuevo-template-sale {
   flex-direction: row;
@@ -2286,7 +2273,6 @@
   flex-direction: row;
   gap: 10px;
 }
-
 
 /*****LANDING VACACIONES**/
 .flexRowContent--contenedor-banner-landing-desk-vacaciones {
@@ -2491,7 +2477,6 @@
 }
 
 /*Landing t-shirt*/
-
 .flexRowContent--4-imagenes-t-shirt-2024-mobile-1 {
   display: flex;
   justify-content: center;
@@ -2717,7 +2702,6 @@
 }
 
 /* Menu Sale */
-
 .flexRowContent--submenu-desk-sale-options-row-1 .flexCol--submenu-desk-sale-hombre-row-1 {
   justify-content: center;
   align-items: end;
@@ -2747,7 +2731,6 @@
   gap: 24px !important;
 }
 
-
 /****Landing new balance***/
 .flexCol--new-balance-generos-banners {
   display: flex;
@@ -2757,6 +2740,44 @@
   margin: 20px auto;
 }
 
+/*****Estilos cuidados de prendas****/
+.flexColChild--contenedor-primera-compra-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+.flexCol--contenedor-primera-compra-icons .flexColChild--contenedor-primera-compra-icons:first-child {
+  /*display: none;*/
+}
+
+.flexCol--contenedor-primera-compra-icons .flexColChild--contenedor-primera-compra-icons:last-child::before {
+  /*content: "•";
+*/
+  /*display: flex;*/
+}
+
+.flexColChild--contenedor-primera-compra-icons :global(.vtex-store-components-3-x-imageElement) {
+  display: none;
+}
+
+/*medios de pago PDP*/
+.flexRow--medios-de-pagos-pdp {
+  margin-top: 2%;
+}
+
+/*Icono x de cerrar en los filtros de la plp*/
+.flexRowContent--contentBtnClose :global(.vtex-store-drawer-0-x-closeIcon--drawer-menu-close-button) {
+  width: 25px !important;
+  height: 25px !important;
+}
+
+.flexColChild--formContainer-dsi :global(.vtex-styleguide-9-x-input)::placeholder {
+  color: #000 !important;
+}
+
+
 /* ==========================================================================
    MEDIA QUERIES (DESDE AQUÍ)
    Se sigue el enfoque mobile-first. Mantén esta estructura y el orden
@@ -2764,6 +2785,8 @@
    ========================================================================== */
 
 /* Estilos para pantallas con ancho mínimo de 740px (tablet y dispositivos superiores) */
+
+/* === MIN-WIDTH === */
 
 @media only screen and (min-width: 740px) {
   .flexRow--contentFooter {
@@ -3305,13 +3328,17 @@
   }
 
   .flexRow--sliderContentShelf :global(.vtex-product-price-1-x-savings) {
-    top: 0;
-    left: 16px;
+    /*top: 0;
+    left: 16px;*/
+    top: 7%;
+    left: 0;
   }
 
   .flexRow--sliderContentShelf :global(.vtex-product-price-1-x-savings) :global(.vtex-product-price-1-x-savingsPercentage) {
-    width: 28px;
-    height: 28px;
+    /*width: 28px;
+    height: 28px;*/
+    height: 21px;
+    width: 37px;
   }
 
   /* Footer desktop */
@@ -3773,7 +3800,7 @@
 
 }
 
-/* Estilos para pantallas con ancho máximo de 500px (móviles y dispositivos pequeños) */
+/* === MAX-WIDTH === */
 
 @media only screen and (max-width: 500px) {
   .flexColChild--main-marcas-content-carrusel {
@@ -4157,6 +4184,7 @@
 @media (min-width: 1200px) {
   .flexRowContent--billyGame {
     height: 700px;
+    margin-bottom: 12rem;
   }
 }
 
@@ -4206,27 +4234,20 @@
 
 }
 
-@media (max-width: 740px) {
+@media (max-width: 768px) {
   .flexRowContent--billyGame {
     height: 550px;
+    margin-bottom: 10rem;
   }
 }
 
-/*****Estilos cuidados de prendas****/
-.flexColChild--contenedor-primera-compra-icons {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 8px;
-}
-
-.flexCol--contenedor-primera-compra-icons .flexColChild--contenedor-primera-compra-icons:first-child {
-  display: none;
-}
-
-.flexCol--contenedor-primera-compra-icons .flexColChild--contenedor-primera-compra-icons:last-child::before {
-  content: "•";
-  display: flex;
+@media (max-width: 767px) {
+  .flexRowContent--medios-de-pagos-pdp {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 0 auto;
+  }
 }
 
 /*****Estilos cuidados de prendas****/
@@ -4240,21 +4261,4 @@
     gap: 1rem;
   }
 
-}
-
-
-/*medios de pago PDP*/
-.flexRow--medios-de-pagos-pdp {
-  margin-top: 2%;
-}
-
-
-
-@media (max-width: 767px) {
-  .flexRowContent--medios-de-pagos-pdp {
-    display: flex;
-    flex-direction: row;
-    width: 80%;
-    margin: 0 auto;
-  }
 }

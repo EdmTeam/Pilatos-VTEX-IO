@@ -1,26 +1,38 @@
-.fs_globalFreeShippingContainer{
-    padding: 0 1.5rem;
-    width: 100%;
-    display: none;
+.fs_globalFreeShippingContainer {
+  padding: 0 1.5rem;
+  width: 100%;
+  display: none;
 }
 
-.currencyContainer{
-    font-weight: bold;
+.currencyContainer {
+  font-weight: bold;
 }
 
-.fs_rangeFreeShippingContainer{
-    padding: 0;
+.fs_rangeFreeShippingContainer {
+  padding: 0;
 }
 
-.fs_initialRangeFreeShippingText, .fs_endRangeFreeShippingText{
-    font-weight: normal;
-    font-size: 10px;
-    line-height: 13px;
-    color: #FFFFFF;
+.fs_initialRangeFreeShippingText,
+.fs_endRangeFreeShippingText {
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 13px;
+  color: #FFFFFF;
 }
 
-@media only screen and (min-width: 1180px){
-    .fs_rangeFreeShippingContainer{
-        padding: 0 .25rem;
-    }
+
+/* ==========================================================================
+   MEDIA QUERIES (DESDE AQUÍ)
+   Se sigue el enfoque mobile-first. Mantén esta estructura y el orden
+   para asegurar que las reglas específicas sobrescriban correctamente los estilos base.
+   ========================================================================== */
+
+/* Estilos para pantallas(tablet y dispositivos superiores) */
+/* === MAX-WIDTH === */
+/* === MIN-WIDTH === */
+
+@media only screen and (min-width: 1180px) {
+  .fs_rangeFreeShippingContainer {
+    padding: 0 .25rem;
+  }
 }

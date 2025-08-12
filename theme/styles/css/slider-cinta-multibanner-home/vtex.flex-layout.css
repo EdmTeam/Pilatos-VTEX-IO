@@ -1,20 +1,27 @@
 .flexRow--slider-cinta-home-multibanner {
   position: relative;
 }
-.flexRow--slider-cinta-home-multibanner
-  :global(
-    .vtex-slider-layout-0-x-paginationDotsContainer--slider-cinta-multibanner
-  ) {
+
+.flexRow--slider-cinta-home-multibanner :global(.vtex-slider-layout-0-x-paginationDotsContainer--slider-cinta-multibanner) {
   position: absolute;
   bottom: 8%;
   left: -80%;
 }
+
+/* ==========================================================================
+   MEDIA QUERIES (DESDE AQUÍ)
+   Se sigue el enfoque mobile-first. Mantén esta estructura y el orden
+   para asegurar que las reglas específicas sobrescriban correctamente los estilos base.
+   ========================================================================== */
+
+/* Estilos para pantallas(tablet y dispositivos superiores) */
+/* === MAX-WIDTH === */
+
 @media screen and (max-width: 768px) {
-  .flexRow--slider-cinta-home-multibanner
-    :global(
-      .vtex-slider-layout-0-x-paginationDotsContainer--slider-cinta-multibanner
-    ) {
+  .flexRow--slider-cinta-home-multibanner :global(.vtex-slider-layout-0-x-paginationDotsContainer--slider-cinta-multibanner) {
     bottom: 4%;
     left: 0%;
   }
 }
+
+/* === MIN-WIDTH === */

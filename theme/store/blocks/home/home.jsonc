@@ -6,18 +6,19 @@
       // "modal-trigger#welcome",
       "experimental__visibility-layout#slider-cinta-multibanner-home", // banner cinta slider
       "flex-layout.row#content-slider",
+      "experimental__visibility-layout#banner-video-colombiamoda", //// Banner video colombiamoda
+      "flex-layout.row#bannerDescuento",
       "responsive-layout.desktop#images__department--desk",
       "responsive-layout.mobile#images__department--mob",
-      "flex-layout.row#bannerDescuento",
       "flex-layout.row#bannersCategorias",
       // [TEMPORAL] Activado para evento live shopping – eliminar tras finalizar el evento.
       //"flex-layout.row#carrusel-productos-colombiamoda-home-live-shopping-1",
       "flex-layout.row#texto-SEO",
       "rich-text#h1-pilatoshome",
+      "__fold__.mobile",
       "responsive-layout.phone#brands-promise",
       "responsive-layout.tablet#brands-promise",
       "responsive-layout.desktop#brands-promise",
-      "__fold__.mobile",
       "link#content-chat-whatsapp",
       "__fold__.desktop",
       "responsive-layout.phone#category-banners",

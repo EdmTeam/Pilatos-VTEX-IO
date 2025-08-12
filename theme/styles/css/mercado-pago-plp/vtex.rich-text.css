@@ -1,14 +1,24 @@
 .wrapper--texto-mercado-pago-plp {
-    font-size: 11px;
+  font-size: 11px;
 }
 
 .strong--texto-mercado-pago-plp {
-    padding: .25rem .35rem;
-    color: #fff;
-    background-color: #000;
-    border-radius: 3px;
+  padding: .25rem .35rem;
+  color: #fff;
+  background-color: #000;
+  border-radius: 3px;
 }
 
 .link--texto-mercado-pago-plp {
-    color: #000;
+  color: #000;
 }
+
+/* ==========================================================================
+   MEDIA QUERIES (DESDE AQUÍ)
+   Se sigue el enfoque mobile-first. Mantén esta estructura y el orden
+   para asegurar que las reglas específicas sobrescriban correctamente los estilos base.
+   ========================================================================== */
+
+/* Estilos para pantallas(tablet y dispositivos superiores) */
+/* === MAX-WIDTH === */
+/* === MIN-WIDTH === */

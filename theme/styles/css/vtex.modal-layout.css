@@ -1,132 +1,143 @@
-.paper--promotionalBannerModal{
-    position: relative;
+.paper--promotionalBannerModal {
+  position: relative;
 }
 
-.headerContainer--promotionalBannerHeader{
-    position: absolute;
-    width: 100%;
-    top: 0;
-    right: 0;
-    border: none;
+.headerContainer--promotionalBannerHeader {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  border: none;
 }
 
-.backdrop--promotionalBannerModal{
-    background: #000000;
+.backdrop--promotionalBannerModal {
+  background: #000000;
 }
 
 .paper--popup-welcome {
-    /*padding: 2rem;*/
-    padding: 1.5rem;
-    background-image: url("https://pilatos21.vtexassets.com/arquivos/pop-up-bienvenida-pilatos-3.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+  /*padding: 2rem;*/
+  padding: 1.5rem;
+  background-image: url("https://pilatos21.vtexassets.com/arquivos/pop-up-bienvenida-pilatos-3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .paper--popup-welcome .headerContainer {
-    border: none;
-    background-color: #fffffffa;
+  border: none;
+  background-color: #fffffffa;
 }
 
 .paper--popup-welcome .contentContainer {
-    padding-top: 0;
-    background-color: #fffffffa;
+  padding-top: 0;
+  background-color: #fffffffa;
 }
 
 .paper--popup-welcome :global(.vtex-input) {
-    display: block;
-    margin-bottom: 10px;
+  display: block;
+  margin-bottom: 10px;
 }
-    
+
 .paper--popup-welcome :global(.vtex-input__label) {
-    display: block;
-    margin-bottom: 0;
+  display: block;
+  margin-bottom: 0;
 }
 
 .closeButton--popup-close-welcome {
-    background-color: #000000;
-    margin: 1rem auto;   
-    display: block;
+  background-color: #000000;
+  margin: 1rem auto;
+  display: block;
 }
 
 .closeButton--popup-close-welcome:hover {
-    background-color: #ffc600;
+  background-color: #ffc600;
 }
 
-.closeButton--popup-close-welcome:hover
+.closeButton--popup-close-welcome:hover .closeButtonLabel--popup-close-welcome {
+  color: #000000;
+}
+
 .closeButtonLabel--popup-close-welcome {
-    color: #000000;
+  color: #ffffff;
 }
 
-.closeButtonLabel--popup-close-welcome {
-    color: #ffffff;
-}
-
-.paper--cambiosyDevolucionesModal{
-    width: 500px;
-    padding: 1%;
+.paper--cambiosyDevolucionesModal {
+  width: 500px;
+  padding: 1%;
 }
 
 /* Trabaja con nosotros*/
 .closeButton--boton-work-with-cerrar {
-    background-color: #FFD400;
-    color: #000000;
-    width: 449px;
-    height: 47px;
-    border-radius: 80px;
-    padding: 16px 40px;
-    margin: 0 auto;
-    margin-bottom: 30px;
-    font-weight: bold;
-}
-
-@media (max-width:600px) {
-    .closeButton--boton-work-with-cerrar {
-        width: auto;
-    }
+  background-color: #FFD400;
+  color: #000000;
+  width: 449px;
+  height: 47px;
+  border-radius: 80px;
+  padding: 16px 40px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  font-weight: bold;
 }
 
 .closeButton--boton-work-with-cerrar:hover {
-    background-color: #ffc600;
+  background-color: #ffc600;
 }
 
 /******SOBRE NOSOTROS**/
 .paper--form-registro-sobreNosotros2024 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /*width: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*width: max-content;
     height: max-content;*/
-    width: 60%;
-    height: max-content;
-    padding: 40px;
-    border-radius: 10px;
-}
-
-@media screen and (max-width: 600px) {
-    .triggerContainer--content-btn-resgistro-sobreNosotros-2024 {
-        width: 100%;
-        background-color: red;
-        border-radius: 80px;
-        margin-bottom: 2rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: #FFD400;
-    }
-    .paper--form-registro-sobreNosotros2024{
-        width: 100%;
-        padding: 10px;
-    }
+  width: 60%;
+  height: max-content;
+  padding: 40px;
+  border-radius: 10px;
 }
 
 /***Modal buscador header nuevo**/
 .paper--modal-buscador-header {
-    /*width: 100%;*/
-    width: 800px;
-    padding: 20px;
-    margin: 0;
-    position: absolute;
-    top: 26%;
-    box-shadow: -4px 1px 11px 0px rgba(0,0,0,0.47);
+  /*width: 100%;*/
+  width: 800px;
+  padding: 20px;
+  margin: 0;
+  position: absolute;
+  top: 26%;
+  box-shadow: -4px 1px 11px 0px rgba(0, 0, 0, 0.47);
 }
+
+/* ==========================================================================
+   MEDIA QUERIES (DESDE AQUÍ)
+   Se sigue el enfoque mobile-first. Mantén esta estructura y el orden
+   para asegurar que las reglas específicas sobrescriban correctamente los estilos base.
+   ========================================================================== */
+
+/* Estilos para pantallas(tablet y dispositivos superiores) */
+/* === MAX-WIDTH === */
+
+@media (max-width:600px) {
+  .closeButton--boton-work-with-cerrar {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .triggerContainer--content-btn-resgistro-sobreNosotros-2024 {
+    width: 100%;
+    background-color: red;
+    border-radius: 80px;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFD400;
+  }
+
+  .paper--form-registro-sobreNosotros2024 {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+/* === MIN-WIDTH === */

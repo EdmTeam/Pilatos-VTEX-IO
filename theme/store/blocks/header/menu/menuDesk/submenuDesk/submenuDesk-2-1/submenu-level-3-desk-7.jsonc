@@ -71,12 +71,15 @@
       "rich-text#submenu-desk-department-1-category-7-subcategory-17", //Quicksilver
       "rich-text#submenu-desk-department-1-category-7-subcategory-18", //ray-ban
       "rich-text#submenu-desk-department-1-category-7-subcategory-20", //Roxy
-         "rich-text#submenu-desk-department-4-category-67-rvca-13", //Rvca
+      "rich-text#submenu-desk-department-4-category-67-rvca-13", //Rvca
+      "rich-text#submenu-desk-department-1-category-7-subcategory-21", //Remanence
       "rich-text#submenu-desk-department-4-category-60-sprayground-10", //sprayground
       "rich-text#submenu-desk-department-1-category-7-subcategory-19", //Stance
       "rich-text#submenu-desk-department-4-category-60-superga-15", //superga
       "rich-text#submenu-desk-department-4-category-60-the-north-face-18", //the-north-face
-      "rich-text#submenu-desk-department-4-category-60-vans-2" //vans
+      "rich-text#submenu-desk-department-4-category-60-tennis-2", //tennis
+      "rich-text#submenu-desk-department-4-category-60-vans-2", //vans
+      "rich-text#submenu-desk-department-4-category-60-veja-2" //veja
     ],
     "props": {
       "blockClass": "contentBlockSubmenu"
@@ -156,6 +159,12 @@
   "rich-text#submenu-desk-department-4-category-60-vans-2": {
     "props": {
       "text": "[Vans](/hombre/vans?map=category-1,marca)",
+      "blockClass": "textSubcategory"
+    }
+  },
+  "rich-text#submenu-desk-department-4-category-60-veja-2": {
+    "props": {
+      "text": "[Veja](/veja?initialMap=b&initialQuery=veja&map=category-1,b&query=/hombre/veja&searchState=)",
       "blockClass": "textSubcategory"
     }
   },
@@ -248,6 +257,12 @@
   "rich-text#submenu-desk-department-4-category-60-the-north-face-18": {
     "props": {
       "text": "[The North Face](/hombre/the-north-face?map=category-1,marca)",
+      "blockClass": "textSubcategory"
+    }
+  },
+  "rich-text#submenu-desk-department-4-category-60-tennis-2": {
+    "props": {
+      "text": "[Tennis](/tennis?initialMap=b&initialQuery=tennis&map=category-1,b&query=/hombre/tennis&searchState=)",
       "blockClass": "textSubcategory"
     }
   },
@@ -353,6 +368,12 @@
   "rich-text#submenu-desk-department-1-category-7-subcategory-20": {
     "props": {
       "text": "[Roxy](/hombre/roxy?map=category-1,marca)",
+      "blockClass": "textSubcategory"
+    }
+  },
+  "rich-text#submenu-desk-department-1-category-7-subcategory-21": {
+    "props": {
+      "text": "[Remanence](/remanence)",
       "blockClass": "textSubcategory"
     }
   },

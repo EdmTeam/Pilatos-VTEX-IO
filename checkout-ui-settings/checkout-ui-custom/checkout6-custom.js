@@ -25,15 +25,14 @@ var calculatePromotions = e => {
     }
 };
 
-const CustomCheckout = function() {
-    const o = e => {
+let CustomCheckout = (() => {
+    let o = e => {
         for (var t = e + "=", o = document.cookie.split(";"), n = 0; n < o.length; n++) {
             for (var a = o[n]; " " == a.charAt(0); ) a = a.substring(1, a.length);
             if (0 == a.indexOf(t)) return a.substring(t.length, a.length);
         }
         return null;
-    };
-    const n = (e, t) => {
+    }, n = (e, t) => {
         console.log("Estoy en guardarDatosMasterData");
         t = {
             url: "/api/ds/pub/documents/" + t,
@@ -53,24 +52,41 @@ const CustomCheckout = function() {
     };
     return {
         init: function() {
-            {
+            (() => {
                 let e = setInterval(() => {
-                    $("#client-pre-email") && ($("#client-pre-email").attr("placeholder", "Ingresa tu correo electrónico"), 
-                    clearInterval(e));
+                    if ($("#client-pre-email")) {
+                        $("#client-pre-email").attr("placeholder", "Ingresa tu correo electrónico");
+                        clearInterval(e);
+                    }
                 }, 500);
-            }
-            {
-                var e = $(".box-client-info-pj"), t;
-                e.length && (t = "", t += '    <div id="contain-terms">    <p class="terms-conditions dataCheck">        <label for="terms-conditions" class="checkbox check-label label-error">            <input id="terms-conditions" type="checkbox" required>            <span class="btnCheckbox"></span>            <span class="check-text">                He leído y aceptado las <a href="/politicas" target="_blank">políticas de privacidad</a> y <a href="/politicas" target="_blank">Tratamiento de datos Personales</a>            .</span>        </label>        <span class="help error check-error terms-data-error" style="display:none">            Este campo es obligatorio.        </span>    </p>    <p style="margin-top: 10px; font-size: 12px; color: grey">Mediante la aceptación de la Política de Habeas Data y Tratamiento de Datos personales se certifica que el usuario o cliente es una persona mayor de edad (18 años) y podrá ser tratada de acuerdo con la política de tratamiento de datos.</p>    </div>', 
-                $('    <div id="contain-terms">    <p class="terms-conditions dataCheck">        <label for="terms-conditions" class="checkbox check-label label-error">            <input id="terms-conditions" type="checkbox" required>            <span class="btnCheckbox"></span>            <span class="check-text">                He leído y aceptado las <a href="/politicas" target="_blank">políticas de privacidad</a> y <a href="/politicas" target="_blank">Tratamiento de datos Personales</a>            .</span>        </label>        <span class="help error check-error terms-data-error" style="display:none">            Este campo es obligatorio.        </span>    </p>    <p style="margin-top: 10px; font-size: 12px; color: grey">Mediante la aceptación de la Política de Habeas Data y Tratamiento de Datos personales se certifica que el usuario o cliente es una persona mayor de edad (18 años) y podrá ser tratada de acuerdo con la política de tratamiento de datos.</p>    </div>').insertAfter(e), 
-                o("terminosCondiciones") && $("#terms-conditions").attr("checked", !0), 
-                $("#terms-conditions, #authorize-data").change(function() {
-                    var e = $(this);
-                    !1 === e.prop("checked") ? e.parent().next().show() : e.parent().next().hide();
-                }));
-            }
-            setTimeout(function() {
-                const e = document.getElementById("go-to-shipping"), t = document.getElementById("terms-conditions");
+            })(), (() => {
+                const e = $(".box-client-info-pj");
+                if (e.length) {
+                    var t = "";
+                    t += '    <div id="contain-terms">';
+                    t += '    <p class="terms-conditions dataCheck">';
+                    t += '        <label for="terms-conditions" class="checkbox check-label label-error">';
+                    t += '            <input id="terms-conditions" type="checkbox" required>';
+                    t += '            <span class="btnCheckbox"></span>';
+                    t += '            <span class="check-text">';
+                    t += '                He leído y aceptado las <a href="/politicas" target="_blank">políticas de privacidad</a> y <a href="/politicas" target="_blank">Tratamiento de datos Personales</a>';
+                    t += "            .</span>";
+                    t += "        </label>";
+                    t += '        <span class="help error check-error terms-data-error" style="display:none">';
+                    t += "            Este campo es obligatorio.";
+                    t += "        </span>";
+                    t += "    </p>";
+                    t += '    <p style="margin-top: 10px; font-size: 12px; color: grey">Mediante la aceptación de la Política de Habeas Data y Tratamiento de Datos personales se certifica que el usuario o cliente es una persona mayor de edad (18 años) y podrá ser tratada de acuerdo con la política de tratamiento de datos.</p>';
+                    t += "    </div>";
+                    $(t).insertAfter(e);
+                    if (o("terminosCondiciones")) $("#terms-conditions").attr("checked", true);
+                    $("#terms-conditions, #authorize-data").change(function() {
+                        let e = $(this);
+                        if (e.prop("checked") === false) e.parent().next().show(); else e.parent().next().hide();
+                    });
+                }
+            })(), setTimeout(function() {
+                let e = document.getElementById("go-to-shipping"), t = document.getElementById("terms-conditions");
                 t.checked = !0, t.addEventListener("click", function() {
                     !0 === t.checked ? e.classList.remove("disabled") : e.classList.add("disabled");
                 }), $("button#payment-data-submit").on("click", function() {
@@ -114,7 +130,7 @@ const CustomCheckout = function() {
             });
         }
     };
-}(), CustomCheckoutExpress = ($(document).ready(function() {
+})(), CustomCheckoutExpress = ($(document).ready(function() {
     CustomCheckout.init(), CustomCheckout.pasosCheckout(location.pathname + location.hash);
 }), $(document).ajaxStop(function(e) {
     CustomCheckout.changeResolutionImage();
@@ -133,21 +149,21 @@ $(window).on("load", function() {
         e.setAttribute("output", "vtex.deviceFingerprint"), e.setAttribute("view", "checkout"), 
         document.body.appendChild(e), $(window).on("hashchange load", function() {
             var e;
-            function c(e) {
+            function r(e) {
                 return 0 !== e.paymentData.giftCards.length;
             }
             function o(e) {
                 var t = e.sellers || [], o = e.shippingData?.logisticsInfo || [];
-                const n = $(".pg-contra-entrega"), a = t.some(e => "Estudio de Moda S.A." !== e.name), i = o.some(e => "pickit - Envío a Domicilio" === e.selectedSla), s = o.some(e => "OGC - Envío gratuito" === e.selectedSla);
-                if (console.log("SLA::", i), a || i || s || c(e)) {
+                let n = $(".pg-contra-entrega"), a = t.some(e => "Estudio de Moda S.A." !== e.name), i = o.some(e => "pickit - Envío a Domicilio" === e.selectedSla), s = o.some(e => "OGC - Envío gratuito" === e.selectedSla);
+                if (console.log("SLA::", i), a || i || s || r(e)) {
                     t = document.getElementById("payment-group-custom201PaymentGroupPaymentGroup");
-                    const r = document.getElementById("payment-group-WompiCoPaymentGroup");
-                    t && r && t.addEventListener("click", () => {
-                        r.click();
-                    }), "201" === vtexjs.checkout.orderForm.paymentData.payments[0].paymentSystem && r.click();
+                    let e = document.getElementById("payment-group-WompiCoPaymentGroup");
+                    t && e && t.addEventListener("click", () => {
+                        e.click();
+                    }), "201" === vtexjs.checkout.orderForm.paymentData.payments[0].paymentSystem && e.click();
                 }
                 setTimeout(() => {
-                    a || i || s || c(e) ? (console.log("Debe desaparecer contraentrega>>"), 
+                    a || i || s || r(e) ? (console.log("Debe desaparecer contraentrega>>"), 
                     n.addClass("hidden")) : (console.log("NO debe desaparecer contraentrega>>"), 
                     n.removeClass("hidden"));
                 }, 500);
@@ -193,6 +209,20 @@ function waitForVTEXJS(e) {
 $(document).ready(function() {
     CustomCheckoutExpress.init();
 }), $(window).on("orderFormUpdated.vtex", function(e, t) {
+    let o = !1;
+    var n = () => {
+        "#/payment" !== location.hash || o || (() => {
+            if (!o) {
+                let t = setInterval(() => {
+                    var e = document.querySelector("#payment-group-AddiPaymentGroup");
+                    e && (e.click(), console.log("✅ Método de pago Addi seleccionado por defecto al primer acceso."), 
+                    clearInterval(t), o = !0);
+                }, 500);
+            }
+        })();
+    };
+    $(window).on("hashchange", n), $(window).on("load", n);
+}), $(window).on("orderFormUpdated.vtex", function(e, t) {
     handlePaymentMethodChange(t);
 }), waitForVTEXJS(() => {
     vtexjs.checkout.getOrderForm().done(function(e) {
@@ -200,17 +230,15 @@ $(document).ready(function() {
     });
 });
 
-const getScreenEndpoint = () => {
+let getScreenEndpoint = () => {
     try {
-        var e = window.location["href"];
+        var e = window.location.href;
         return e.slice(e.lastIndexOf("/") + 1);
     } catch (e) {
         return "";
     }
-}, isGiftcard = e => {
-    return Object.values(e.productCategories).includes("ohgiftcard");
-}, getGiftcardIndexesAndSkus = e => {
-    const o = [];
+}, isGiftcard = e => Object.values(e.productCategories).includes("ohgiftcard"), getGiftcardIndexesAndSkus = e => {
+    let o = [];
     try {
         e.forEach((e, t) => {
             isGiftcard(e) && o.push({
@@ -224,13 +252,15 @@ const getScreenEndpoint = () => {
 }, hideHtmlElement = e => {
     e && (e.style.display = "none", e.classList.add("hiddenByScript"));
 }, showHiddenElements = () => {
-    for (const e of Array.from(document.getElementsByClassName("hiddenByScript"))) e.style.display = "", 
+    var e;
+    for (e of Array.from(document.getElementsByClassName("hiddenByScript"))) e.style.display = "", 
     e.classList.remove("hiddenByScript");
 }, hideInfoElementByI18n = t => {
     var e = Array.from(document.getElementsByClassName("info")).find(e => e.dataset.i18n === t);
     hideHtmlElement(e?.parentElement);
 }, hideElementsByClassName = e => {
-    for (const t of document.getElementsByClassName(e)) hideHtmlElement(t);
+    var t;
+    for (t of document.getElementsByClassName(e)) hideHtmlElement(t);
 }, hideElementById = e => hideHtmlElement(document.getElementById(e)), hideShippingCalculator = () => {
     var e = document.getElementById("shipping-calculate-link")?.parentElement?.parentElement;
     hideHtmlElement(e);
@@ -241,21 +271,22 @@ const getScreenEndpoint = () => {
     var e = getScreenEndpoint();
     /shipping/.test(e) && fillShippingDetails();
 }, hidePurchaseSummaryElementBySku = e => {
-    for (const t of document.getElementsByClassName("hproduct item")) e === t.dataset.sku && hideHtmlElement(t.getElementsByClassName("shipping-date")[0]);
+    var t;
+    for (t of document.getElementsByClassName("hproduct item")) e === t.dataset.sku && hideHtmlElement(t.getElementsByClassName("shipping-date")[0]);
 }, hideGiftcardsShippingItems = e => {
-    var t = document.getElementsByClassName("shp-summary-package"), o = document.querySelectorAll("td.shipping-date");
-    for (const i of e) {
+    var t, o = document.getElementsByClassName("shp-summary-package"), n = document.querySelectorAll("td.shipping-date");
+    for (t of e) {
         var {
-            index: n,
-            sku: a
-        } = i;
-        hideHtmlElement(t[n]), hideHtmlElement(o[n]?.firstElementChild), hidePurchaseSummaryElementBySku(a);
+            index: a,
+            sku: i
+        } = t;
+        hideHtmlElement(o[a]), hideHtmlElement(n[a]?.firstElementChild), hidePurchaseSummaryElementBySku(i);
     }
 }, scheduleDelayedExcecutions = e => {
     e(), setTimeout(e, 500), setTimeout(e, 1e3), setTimeout(e, 1500);
 }, updateAllHiddenElements = e => {
     showHiddenElements();
-    const t = getGiftcardIndexesAndSkus(e);
+    let t = getGiftcardIndexesAndSkus(e);
     var o = t?.length || 0;
     o && (o === e.length ? scheduleDelayedExcecutions(hideAllShippingInformation) : 0 < o && scheduleDelayedExcecutions(() => hideGiftcardsShippingItems(t)));
 }, addOrderFormListener = (window.addEventListener("DOMContentLoaded", () => defer(addOrderFormListener)), 

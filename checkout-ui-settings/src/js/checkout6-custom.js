@@ -280,7 +280,7 @@ const CustomCheckoutExpress = (function () {
   //   // Muestra todos los métodos de pago excepto "Contraentrega"
   //   $('.payment-group-list-btn a:not(.pg-contra-entrega)').show()
   //   // Simula un clic en el primer método de pago distinto de "Contraentrega"
-  //   $('.payment-group-list-btn a:not(.pg-contra-entrega):first-child').click()  
+  //   $('.payment-group-list-btn a:not(.pg-contra-entrega):first-child').click()
   //   console.log("esta en hidepaymet method")
   // }
 
@@ -347,7 +347,7 @@ const CustomCheckoutExpress = (function () {
         // Función principal que ejecuta la lógica de validación
         function handleOrderFormUpdate(orderForm) {
 
-          
+
 
           const sellers = orderForm.sellers || [];
           const shipSLA = orderForm.shippingData?.logisticsInfo || [];
@@ -357,7 +357,7 @@ const CustomCheckoutExpress = (function () {
           const ogcItem = shipSLA.some(sla => sla.selectedSla === "OGC - Envío gratuito");
 
           console.log('SLA::', isPickit);
-          
+
 
           if (hasDifferentSeller || isPickit || ogcItem || validateGiftCard(orderForm)) {
             const element1 = document.getElementById('payment-group-custom201PaymentGroupPaymentGroup')
@@ -391,7 +391,7 @@ const CustomCheckoutExpress = (function () {
           console.log("El orderForm ha sido actualizado:", orderForm);
           handleOrderFormUpdate(orderForm); // Ejecuta la lógica en cada actualización
           //validatePaymentMethod(orderForm)
-          
+
         });
 
         // Llamada inicial para asegurar que la lógica se ejecute al cargar la página
@@ -399,8 +399,8 @@ const CustomCheckoutExpress = (function () {
           console.log("OrderForm inicial:", orderForm);
           handleOrderFormUpdate(orderForm);
           //validatePaymentMethod(orderForm)
-          
-          
+
+
         });
 
         setTimeout(() => {
@@ -485,6 +485,39 @@ function handlePaymentMethodChange(orderForm) {
     }
   }
 }
+
+
+$(window).on('orderFormUpdated.vtex', function (e, orderForm) {
+
+   let addiSetAsDefault = false;
+ 
+const setAddiAsDefaultPayment = () => {
+  if (addiSetAsDefault) return; // Ya se ejecutó una vez
+ 
+  const interval = setInterval(() => {
+    const addiPaymentButton = document.querySelector('#payment-group-AddiPaymentGroup');
+ 
+    if (addiPaymentButton) {
+      addiPaymentButton.click();
+      console.log('✅ Método de pago Addi seleccionado por defecto al primer acceso.');
+      clearInterval(interval);
+      addiSetAsDefault = true; // Evita futuras ejecuciones
+    }
+  }, 500);
+};
+ 
+// Detectar cuando entra a la sección de pago
+const handleRouteChange = () => {
+  if (location.hash === '#/payment' && !addiSetAsDefault) {
+    setAddiAsDefaultPayment();
+  }
+};
+ 
+$(window).on('hashchange', handleRouteChange);
+$(window).on('load', handleRouteChange);
+ 
+
+})
 
 // Escuchar el evento "orderFormUpdated" para detectar cambios en el formulario de pedido
 $(window).on('orderFormUpdated.vtex', function (e, orderForm) {

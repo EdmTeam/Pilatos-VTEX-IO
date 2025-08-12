@@ -1,0 +1,32 @@
+.sliderTrackContainer--colombiamoda-slider {
+  width: 100% !important;
+}
+
+.sliderTrack--colombiamoda-slider {
+  gap: 15px;
+}
+
+.slide--colombiamoda-slider-2025 :global(.vtex-store-components-3-x-skuSelectorOptionsList) {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+/* ==========================================================================
+   MEDIA QUERIES (DESDE AQUÍ)
+   Se sigue el enfoque mobile-first. Mantén esta estructura y el orden
+   para asegurar que las reglas específicas sobrescriban correctamente los estilos base.
+   ========================================================================== */
+
+/* Estilos para pantallas(tablet y dispositivos superiores) */
+/* === MAX-WIDTH === */
+
+@media screen and (max-width: 768px) {
+  .sliderTrack--colombiamoda-slider {
+    gap: 2px;
+  }
+}
+
+/* === MIN-WIDTH === */
