@@ -56,7 +56,37 @@
 
 .flexRow--fila-imagenes {
   margin-top: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
 }
+
+.flexRowContent--fila-imagenes{
+
+      margin: 0 8px;
+}
+
+
+.flexRow--brands-carousel-fila-imagenes :global(.vtex-store-components-3-x-container) {
+
+  margin: 0;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  width: 100%;
+  min-width: 100%;
+
+}
+
+.flexRow--brands-carousel-fila-imagenes {
+
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  min-width: 100%;
+}
+
 
 /* ==========================================================================
    MEDIA QUERIES (DESDE AQUÍ)
