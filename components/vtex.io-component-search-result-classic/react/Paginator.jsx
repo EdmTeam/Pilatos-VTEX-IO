@@ -7,7 +7,7 @@ import { useCssHandles } from 'vtex.css-handles'
 import LoadingSpinner from './component/loaders/LoadingSpinner'
 import { PAGINATION_TYPE } from './constants/paginationType'
 import { useFetchMore } from './hooks/useFetchMore'
-import { Dropdown } from 'vtex.styleguide'
+import { Dropdown, Spinner } from 'vtex.styleguide' // <-- Spinner
 
 const CSS_HANDLES = [
   'paginatorContainer',
@@ -36,6 +36,9 @@ const Paginator = () => {
 
   const [pageButtons, setPageButtons] = useState([])
   const [currentPage, setCurrentPage] = useState(currPage || 1)
+
+  // página que está cargando ahora (para mostrar spinner en ese botón)
+  const [pendingPage, setPendingPage] = useState(null)
 
   const totalPages = useMemo(() => {
     const mp = Number(maxItemsPerPage) || 1
@@ -85,6 +88,11 @@ const Paginator = () => {
     queryData,
   })
 
+  // Cuando termina la carga, limpiamos el pendingPage
+  useEffect(() => {
+    if (!loading) setPendingPage(null)
+  }, [loading])
+
   const isShowMore = pagination === PAGINATION_TYPE.SHOW_MORE
   const showArrows = totalPages > PER_PAGE
   const atStart = blockStart === 0
@@ -94,10 +102,16 @@ const Paginator = () => {
   const goNextBlock = () => setBlockStart((s) => Math.min(maxBlockStart, s + PER_PAGE))
 
   const goToPage = (page) => {
+    setPendingPage(page)            // <- mostrar spinner en ese botón
     setCurrentPage(page)
-    handleFetchPerPage(page)
+    // mover al bloque que contiene esa página
     const newBlock = Math.floor((page - 1) / PER_PAGE) * PER_PAGE
     setBlockStart(newBlock)
+
+    // ejecutar la carga
+    const maybePromise = handleFetchPerPage(page)
+    // si tu hook devuelve promesa, puedes descomentar para limpiar al resolver
+    // Promise.resolve(maybePromise).finally(() => setPendingPage(null))
   }
 
   const options = pageButtons.map((page) => ({ value: page, label: `Página ${page}` }))
@@ -115,6 +129,7 @@ const Paginator = () => {
 
       {/* Fila de paginación */}
       <div className={classNames(handles.paginationRow, 'justify-center flex items-center')}>
+
         {/* Flecha izquierda */}
         {showArrows ? (
           <button
@@ -141,22 +156,36 @@ const Paginator = () => {
           <span className={handles.paginationEllipsis} aria-hidden="true">...</span>
         )}
 
-        {/* Botones visibles */}
-        {visible.map((btn) => (
-          <button
-            key={`page-${btn}`}
-            id={btn === currentPage ? 'active' : undefined}
-            onClick={() => goToPage(btn)}
-            className={
-              btn === currentPage
-                ? classNames(handles.buttonPerPage, handles.buttonPerPageActive)
-                : handles.buttonPerPage
-            }
-            aria-label={`Página ${btn}`}
-          >
-            {btn}
-          </button>
-        ))}
+        {/* Botones visibles (con spinner por botón) */}
+        {visible.map((btn) => {
+          const isActive = btn === currentPage
+          const isPending = loading && pendingPage === btn
+
+          return (
+            <button
+              key={`page-${btn}`}
+              id={isActive ? 'active' : undefined}
+              onClick={() => goToPage(btn)}
+              className={
+                isActive
+                  ? classNames(handles.buttonPerPage, handles.buttonPerPageActive)
+                  : handles.buttonPerPage
+              }
+              aria-label={`Página ${btn}`}
+              aria-busy={isPending ? 'true' : 'false'}
+              disabled={isPending} // evita doble click mientras carga esa página
+              style={{ minWidth: 40, minHeight: 40, position: 'relative' }}
+            >
+              {isPending ? (
+                <span style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
+                  <Spinner size={16} />
+                </span>
+              ) : (
+                btn
+              )}
+            </button>
+          )
+        })}
 
         {/* Puntos suspensivos a la derecha */}
         {totalPages > PER_PAGE && !atEnd && (
@@ -193,7 +222,7 @@ const Paginator = () => {
           value={currentPage}
           onChange={(_, v) => {
             const page = Number(v)
-            goToPage(page)
+            goToPage(page) // también activa spinner en el botón correspondiente
           }}
         />
       </div>

@@ -1,19 +1,16 @@
 .resultsSummary {
-   font-family: inherit;
-  font-size: 16px;
-  font-weight: 600;
   color: #161616;
-  background: #fff;
-  border-radius: 8px;
-  padding: 16px 36px;
-  margin-bottom: 32px;
-  box-sizing: border-box;
-  margin-left: 24px;
+  font-weight: 600;
+  font-size: 15.43px;
+  line-height: 100%;
+left: ;  vertical-align: middle;
+  margin: -10px;
 }
 
 .paginatorContainer {
   width: 100%;
   margin: 0 auto;
+  max-width: 100%;
 }
 
 .paginationRow {
@@ -110,12 +107,6 @@
   justify-content: center;
 }
 
-@media (min-width: 1200px) {
-  .resultsSummary {
-    margin-left: 40px;
-  }
-}
-
 @media (max-width: 600px) {
   .resultsSummary {
     font-size: 14px;
@@ -125,6 +116,7 @@
 }
 
 @media (max-width: 600px) {
+
   .buttonPerPage,
   .arrowPrev,
   .arrowNext {
@@ -133,4 +125,3 @@
     font-size: 14px;
   }
 }
-

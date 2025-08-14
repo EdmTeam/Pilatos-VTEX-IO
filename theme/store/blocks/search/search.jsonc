@@ -30,8 +30,9 @@
       "seo-schema-plp",
       "flex-layout.row#banner-search",
       "flex-layout.row#bread-crumb",
-      "flex-layout.row#search-info",
+      /* "flex-layout.row#search-info", */
       /* "flex-layout.row#search-info-desk-new", */
+      "search-result-pagination",
       "flex-layout.row#filter-custom-navigator",
       //"flex-layout.row#fetch-previous",
       "flex-layout.row#result",
@@ -166,10 +167,10 @@
   "flex-layout.col#content": {
     "children": [
       "flex-layout.row#fetch-previous",
-      "flex-layout.row#products",
+      "flex-layout.row#products"
       // "flex-layout.row#count-per-page",
       // "flex-layout.row#products-progress-bar",
-      "flex-layout.row#fetch-more"
+      /* "flex-layout.row#fetch-more" */
     ],
     "props": {
       "width": "grow",
