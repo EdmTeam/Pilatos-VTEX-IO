@@ -11,12 +11,16 @@ import { Slider, Slide } from 'vtex.slider'
 import { Dropdown } from 'vtex.styleguide'
 
 const CSS_HANDLES = [
-  'buttonShowMoreLayout',
+  'paginatorContainer',
+  'resultsSummary',
+  'paginationRow',
   'arrowPrev',
   'arrowNext',
   'contentSvg',
   'buttonPerPage',
-  'containerDropdown'
+  'buttonPerPageActive',
+  'containerDropdown',
+  'contentimg'
 ]
 
 const Paginator = () => {
@@ -32,6 +36,9 @@ const Paginator = () => {
   const [currentPage, setCurrentPage] = useState(currPage)
   const [slide, setSlide] = useState(0)
   const numberOfPages = (Math.ceil((recordsFiltered / maxItemsPerPage)) > 50) ? 50 : (Math.ceil((recordsFiltered / maxItemsPerPage)))
+
+  const firstItem = ((currentPage - 1) * maxItemsPerPage) + 1
+  const lastItem = Math.min(currentPage * maxItemsPerPage, recordsFiltered)
 
   useEffect(() => {
     if (typeof (maxItemsPerPage) === 'number' && typeof (recordsFiltered) === 'number') {
@@ -80,31 +87,39 @@ const Paginator = () => {
 
   if (isShowMore && pageButtons.length > 0 && numberOfPages > 1) {
     return (
-      <div className={classNames(handles.buttonShowMoreLayout, 'mw6 justify-center db')}>
-        <div className="w-60 justify-center flex">
-          {(slide >= 1) && (numberOfPages > 5) && (
+      <div className={classNames(handles.paginatorContainer, 'mw6 db')}>
+        {/* Resultados */}
+        <div className={handles.resultsSummary}>
+          {`${firstItem}-${lastItem} de ${recordsFiltered} Resultados`}
+        </div>
+
+        {/* Fila de paginación */}
+        <div className={classNames(handles.paginationRow, 'justify-center flex')}>
+          {(slide >= 1) && (numberOfPages > 3 ) && (
             <button
-              className={classNames('mr2', handles.arrowPrev)}
+              className={handles.arrowPrev}
               onClick={() => { setSlide((prev) => (prev - 1)); }}>
-              <p className={handles.contentSvg}>
-                <svg width="17" height="28" viewBox="0 0 17 28" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M3.82219 26.9035L16.4539 13.8744L3.82219 0.845393..." />
-                </svg>
-              </p>
+              <span className={handles.contentSvg}>
+                <img className={handles.contentimg} src="https://pilatos21.vtexassets.com/assets/vtex.file-manager-graphql/images/9c7f3fe1-e677-452d-8103-09c912a0e43d___4af1785d12725ab599ee71aa5492fcc8.png" alt="" />
+              </span>
             </button>
           )}
-          <Slider currentSlide={slide} onChangeSlide={() => { handleChangeSlide(slide) }} perPage={5}>
+          <Slider currentSlide={slide} onChangeSlide={() => { handleChangeSlide(slide) }} perPage={3}>
             {pageButtons.map((btn, index) => (
               index <= 49 ? (
                 <Slide key={`button ${btn}`}>
                   <button
-                    id={`${(btn === currentPage) ? 'active' : 'noActive'}`}
+                    id={btn === currentPage ? 'active' : undefined}
                     onClick={() => {
                       setCurrentPage(btn)
                       handleFetchPerPage(btn)
                       handleChangeSlide(btn - 1)
                     }}
-                    className={handles.buttonPerPage}
+                    className={
+                      btn === currentPage
+                        ? classNames(handles.buttonPerPage, handles.buttonPerPageActive)
+                        : handles.buttonPerPage
+                    }
                   >
                     {btn}
                   </button>
@@ -112,20 +127,26 @@ const Paginator = () => {
               ) : null
             ))}
           </Slider>
+          {/* Puntos suspensivos antes de la flecha */}
+          {numberOfPages > 3 && (
+            <span className={handles.paginationEllipsis}>...</span>
+          )}
           {(slide !== (numberOfPages - 5)) && (slide < 45) && (numberOfPages > 5) && (
             <button
-              className={classNames('ml2', handles.arrowNext)}
+              className={handles.arrowNext}
               onClick={() => { setSlide((prev) => (prev + 1)); }}>
-              <p className={handles.contentSvg}>
-                <svg width="17" height="28" viewBox="0 0 17 28" xmlns="http://www.w3.org/2000/svg">
+              <span className={handles.contentSvg}>
+                <img src="https://pilatos21.vtexassets.com/assets/vtex.file-manager-graphql/images/621dc853-15b7-4fe9-90a3-7f6948ef8afa___d312e24f9457b5bd83a7be047a64fd78.png" alt="" />
+                {/* <svg width="17" height="28" viewBox="0 0 17 28" xmlns="http://www.w3.org/2000/svg">
                   <path d="M3.82219 26.9035L16.4539 13.8744L3.82219 0.845393..." />
-                </svg>
-              </p>
+                </svg> */}
+              </span>
             </button>
           )}
         </div>
 
-        <div className={classNames('mt5 flex justify-center', handles.containerDropdown)}>
+        {/* Dropdown */}
+        <div className={classNames(handles.containerDropdown, 'mt5 flex justify-center')}>
           <Dropdown
             variation="inline"
             size="large"

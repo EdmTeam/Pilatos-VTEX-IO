@@ -1,0 +1,136 @@
+.resultsSummary {
+   font-family: inherit;
+  font-size: 16px;
+  font-weight: 600;
+  color: #161616;
+  background: #fff;
+  border-radius: 8px;
+  padding: 16px 36px;
+  margin-bottom: 32px;
+  box-sizing: border-box;
+  margin-left: 24px;
+}
+
+.paginatorContainer {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.paginationRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+
+.buttonPerPage {
+  border: 1px solid #D5D3D3;
+  background: #FFFFFF;
+  width: 43px;
+  height: 32px;
+  font-weight: 600;
+  font-size: 15.43px;
+  line-height: 100%;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.containerDropdown :global(.vtex-dropdown__button) {
+  font-weight: 400;
+  font-size: 15.43px;
+  line-height: 100%;
+  text-align: center;
+  vertical-align: middle;
+  color: #000;
+}
+
+.paginatorContainer .paginationRow {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.paginatorContainer .paginationRow :global(.vtex-slider-0-x-sliderFrame) {
+  gap: 8px;
+}
+
+.containerDropdown :global(.vtex-dropdown__arrow) {
+  color: #000;
+}
+
+.buttonPerPage:hover {
+  border: 1.5px solid #000000;
+  color: #222;
+}
+
+.buttonPerPageActive:hover {
+  border: 1.5px solid #ffffff;
+  color: #ffffff;
+}
+
+.buttonPerPageActive {
+  background: #161616;
+  color: #fff;
+  border: 1.5px solid #161616;
+}
+
+.arrowPrev,
+.arrowNext {
+  background: #fff;
+  border: none;
+  min-width: 40px;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: border 0.15s, color 0.15s;
+  margin: 0 3px;
+  padding: 0;
+}
+
+.arrowPrev:hover,
+.arrowNext:hover {
+  border: 1.5px solid #000000;
+}
+
+.contentSvg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 9.172222137451172px;
+  height: 16.67571258544922px;
+  opacity: 1;
+}
+
+.containerDropdown {
+  margin-top: 18px;
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 1200px) {
+  .resultsSummary {
+    margin-left: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .resultsSummary {
+    font-size: 14px;
+    padding: 12px 18px;
+    margin-left: 12px;
+  }
+}
+
+@media (max-width: 600px) {
+  .buttonPerPage,
+  .arrowPrev,
+  .arrowNext {
+    min-width: 32px;
+    min-height: 32px;
+    font-size: 14px;
+  }
+}
+
