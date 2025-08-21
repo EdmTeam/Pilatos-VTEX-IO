@@ -24,6 +24,28 @@
   }
 
 
+    /*flag tigo 2025*/
+
+.productHighlightWrapper [data-highlight-id="2234"]{
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(/arquivos/Pilatos-tigo-agosto-2025-flag.jpg);
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .productHighlightWrapper [data-highlight-id="2234"]{
+        position: absolute !important;
+        top: 0;
+        left: 0 !important;
+
+    }
+
+  }
+
+
 /*flag addi abril 2025*/
 .productHighlightWrapper [data-highlight-id="2090"] {
   width: 40px;
