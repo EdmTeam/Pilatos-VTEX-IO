@@ -364,14 +364,27 @@ const CustomCheckoutExpress = (function () {
             const element2 = document.getElementById('payment-group-WompiCoPaymentGroup')
 
             // Verifica si ambos elementos existen
+            // if (element1 && element2) {
+            //   // Agrega un listener al primer elemento
+            //   element1.addEventListener('click', () => {
+            //     // Simula un clic en el segundo elemento
+            //     element2.click()
+            //   })
+            // }
+            // if(vtexjs.checkout.orderForm.paymentData.payments[0].paymentSystem === "201") {
+            //   element2.click()
+            // }
+
+            const of = vtexjs.checkout.orderForm;
+            const selectedPS = of?.paymentData?.payments?.[0]?.paymentSystem;
+
             if (element1 && element2) {
-              // Agrega un listener al primer elemento
-              element1.addEventListener('click', () => {
-                // Simula un clic en el segundo elemento
-                element2.click()
-              })
-            }if(vtexjs.checkout.orderForm.paymentData.payments[0].paymentSystem === "201") {
-              element2.click()
+              element1.addEventListener('click', () => element2.click());
+            }
+
+            // Solo auto–cambia si realmente hay un payment seleccionado
+            if (selectedPS === "201") { // contraentrega
+              element2.click();
             }
           }
 
