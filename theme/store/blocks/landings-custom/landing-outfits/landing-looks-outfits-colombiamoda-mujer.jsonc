@@ -13,8 +13,8 @@
         "experimental__visibility-layout#carrusel-fits-8--colombiamoda",
         "rich-text#filtro-seo" 
     ]
-  },
-
+  }
+/*
   //BOTONES GÉNERO
   "flex-layout.row#botones-genero-outfits-colombiamoda-mujer": {
     "children": [
@@ -44,5 +44,6 @@
     }
   }
   //BOTONES GÉNERO
+  */
 
 }
