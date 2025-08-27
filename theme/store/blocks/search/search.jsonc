@@ -32,7 +32,6 @@
       "flex-layout.row#bread-crumb",
       /* "flex-layout.row#search-info", */
       /* "flex-layout.row#search-info-desk-new", */
-      "search-result-pagination",
       "flex-layout.row#filter-custom-navigator",
       //"flex-layout.row#fetch-previous",
       "flex-layout.row#result",
@@ -221,7 +220,8 @@
       "marginTop": 3
     },
     "children": [
-      "search-fetch-more"
+      "search-result-pagination"/* ,
+      "search-fetch-more" */
     ]
   },
   "flex-layout.row#products": {
