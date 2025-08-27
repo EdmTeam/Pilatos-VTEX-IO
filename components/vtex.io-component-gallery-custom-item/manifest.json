@@ -1,0 +1,24 @@
+{
+  "vendor": "pilatos21",
+  "name": "plp-gallery-item",
+  "version": "0.0.4",
+  "title": "Galery plp",
+  "description": "Galery plp",
+  "builders": {
+    "react": "3.x",
+    "docs": "0.x",
+    "store": "0.x"
+  },
+  "dependencies": {
+    "vtex.css-handles": "0.x",
+    "vtex.device-detector": "0.x",
+    "vtex.search-page-context": "0.x",
+    "vtex.render-runtime": "8.x",
+    "vtex.store-video": "1.x"
+  },
+  "registries": [
+    "smartcheckout"
+  ],
+  "policies": [],
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}

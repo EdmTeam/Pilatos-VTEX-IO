@@ -165,6 +165,7 @@
   "flex-layout.col#content": {
     "children": [
       "flex-layout.row#fetch-previous",
+      "gallery-image",
       "flex-layout.row#products",
       // "flex-layout.row#count-per-page",
       // "flex-layout.row#products-progress-bar",
