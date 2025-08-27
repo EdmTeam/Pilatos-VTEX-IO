@@ -1,219 +1,142 @@
+# VTEX Custom Filter Navigator
 
-# SEO TAGS
+Este componente reemplaza el `FilterNavigator` nativo de VTEX IO con una versión **personalizada** que permite replicar comportamientos avanzados (dropdown en hover, scroll horizontal, checkboxes estilizados).
 
-<!-- DOCS-IGNORE:start -->
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
-<!-- DOCS-IGNORE:end -->
+---
 
-The **Seo Tags** app provides blocks that can help you to render a seo meta tags and custom schemas if the browser path is included in the indicated urls.
+## 📌 Información del componente
 
-## Configuration 
+- **Nombre:** `component-custom-filter-navigator`
+- **Vendor:** `pilatos21`
+- **Versión:** `0.0.14`
+- **Componente principal:** `CustomFilterNavigator`
+- **Descripción:** Navegador de filtros custom para VTEX IO
+- **Builder:** `react 3.x`, `store 0.x`
 
-To use this component you need:
+---
 
-1. Add the seo tags app to your theme's dependencies in the `manifest.json`:
+## 🧩 Instalación
 
-```diff
-"dependencies": {
-+   "{account}.seo-tags": "0.x"
-}
+Instalar el componente en tu tienda:
+
+```bash
+vtex install pilatos21.component-custom-filter-navigator
 ```
 
-Now, you are able to use all blocks exported by the `seo-tags` app. Check out the full list below:
+---
 
-| Block name | Description | 
-| --------  | ------------ | 
-| `seo-schema-pdp` | Defines the block that renders the desired schema in the PDP if the **productId** coincides with the **productId** declared in the custom schema. (This interface only works in PDP pages) |
-| `seo-schema-plp` | Defines the block that renders the desired schema in any page if the browser path coincides with the **url** declared in the custom schema. |
-| `open-graph-tags` | Defines the block that renders a open graph meta tags in any page if the browser path coincides with the **url** declared in the **metaTags** object. |
+## 🚀 Uso en bloques
 
-### `seo-schema-pdp`
+Declaración en `interfaces.json`:
 
-Declare the app block in your store theme inside the `store.product` block.
-
-```diff
+```json
 {
-  "store.product": {
-    "children": [ "responsive-layout.desktop#pdp"]
-  },
-  "responsive-layout.desktop#pdp": {
-    "children": [
-+     "seo-schema-pdp",
-      "..."
-    ]
+  "component-custom-filter-navigator": {
+    "component": "customFilterNavigator"
   }
 }
 ```
 
-```jsonc
-"seo-schema-pdp" {
-  "props": {
-    "schemas": [
-      {
-        "productId": "3067",
-        "data": {
-          "@context": "https://schema.org/", 
-          "@type": "Product", 
-          "name": "Pants Deportivos GOLD TAB® para Mujer",
-          "image": "https://levimx.vtexassets.com/arquivos/ids/703290-150-auto?v=637986961661130000&width=150&height=auto&aspect=true",
-          "description": "Con los Pants Deportivos para mujer GOLD TAB® eleva tu estilo. Explora nuestra selección de sweatpants para un look juvenil. ¡Descúbrelos!",
-          "brand": {
-            "@type": "Brand",
-            "name": "Levi’s"
-          },
-          "sku": "",
-          "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1",
-            "ratingCount": "5"
-          }
-        }
-      }
-    ]
-  }
-}
-```
+Ejemplo en `search.json`:
 
-### `seo-schema-pdp` props
-
-| Prop name | Type | Description | Default value |
-| --- | --- | --- | --- |
-| `schemas` | `SeoSchemaPdpSchema[]` | Array of custom schemas. | `undefined` |
-
-### `SeoSchemaPdpSchema`
-
-| Prop name | Type | Description | Default value |
-| --- | --- | --- | --- |
-| `productId` | `string` | ![https://img.shields.io/badge/-Mandatory-red](https://img.shields.io/badge/-Mandatory-red) ProductId against which the product context id will be compared to determine if custom schema is rendered or not. | `undefined` |
-| `data` | `object` | Custom schema that will be rendered if the productId coincides with the product context id. | `undefined` |
-
-
-### `seo-schema-plp`
-
-Declare the app block in your store theme.
-
-```diff
+```json
 {
-  "...": {
-    "children": [
-+     "seo-schema-plp",
-      "..."
-    ]
+  "search-result": {
+    "children": ["component-custom-filter-navigator"]
   }
 }
 ```
 
-```jsonc
-"seo-schema-plp" {
-  "props": {
-    "schemas": [
-      {
-        "url": "/hombre/accesorios/underwear-y-socks",
-        "data": {
-          "@context": "https://schema.org/", 
-          "@type": "Product", 
-          "name": "Ropa Interior para Hombre Levi's®",
-          "image": "https://levimx.vtexassets.com/arquivos/ids/840085-660-800?width=660&height=800&aspect=true",
-          "description": "¿Buscas Ropa Interior para hombre? Explora nuestro catálogo y encuentra boxers, calcetines y más. ¡Todo disponible en nuestra tienda en línea!",
-          "brand": {
-            "@type": "Brand",
-            "name": "Levi’s"
-          },
-          "sku": "",
-          "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1",
-            "ratingCount": "5"
-          }
-        }
-      }
-    ]
-  }
-}
-```
-### `seo-schema-plp` props
+---
 
-| Prop name | Type | Description | Default value |
-| --- | --- | --- | --- |
-| `schemas` | `SeoSchemaPlpSchema[]` | Array of custom schemas. | `undefined` |
+## ⚙️ Props disponibles
 
-### `SeoSchemaPlpSchema`
+Actualmente no recibe `props` externos.  
+El componente obtiene la información directamente desde:
 
-| Prop name | Type | Description | Default value |
-| --- | --- | --- | --- |
-| `url` | `string` | ![https://img.shields.io/badge/-Mandatory-red](https://img.shields.io/badge/-Mandatory-red) Url against which the browser path will be compared to determine if custom schema is rendered or not. | `undefined` |
-| `data` | `object` | Custom schema that will be rendered if the browser path coincides with the schema url. | `undefined` |
+- `useSearchPage()` → datos de la búsqueda
+- `useRuntime()` → navegación sin recarga (`setQuery`)
 
+---
 
+## 🧠 Lógica Interna
 
+- Obtiene los **facets** desde `searchQuery.data.facets.specificationFilters`.
+- Construye `query` y `map` a partir de `queryArgs` (manteniendo `initialQuery` y `initialMap`).
+- Al seleccionar/deseleccionar un filtro:
+  - Se actualiza la URL con `setQuery`.
+  - Se conserva el estado de filtros previos y activos.
+- Comportamiento visual:
+  - Cada filtro se despliega en un **dropdown** al hacer `hover`.
+  - Los checkboxes se sincronizan con el estado `selected`.
+  - El ícono (`caret`) rota cuando el dropdown está abierto.
 
+---
 
-### `open-graph-tags`
+## 🎨 CSS Handles
 
-Declare the app block in your store theme.
+El componente expone múltiples handles para personalización:
 
-```diff
-"...": {
-  "children": [
-+   "open-graph-tags",
-  ]
-}
+```ts
+const CSS_HANDLES = [
+  'filtersWrapper',
+  'filterContainer',
+  'filterTitle',
+  'filterContent',
+  'filterItem',
+  'filterLabel',
+  'filterCheckbox',
+  'filterCount',
+  'filterDropdown',
+  'filterOpen',
+  'filterCheckboxLine',
+  'filterCheckboxContainer',
+  'filterCheckboxInner',
+  'filterCheckboxBoxWrapper',
+  'filterCheckboxBox',
+  'filterCheckboxInput',
+  'filterCheckboxLabel',
+  'filterIconContainer',
+  'filterIcon',
+  'filterCheckboxBoxSelected',
+  'filterIconHover',
+  'filterFaceContainer'
+]
 ```
 
-```jsonc
-"open-graph-tags" {
-  "props": {
-    "metaTags": [
-      {
-        "url": "/levis-gold-tab-sweatpants-a3743-0000/p",
-        "tags": [
-          {
-            "property": "og:title",
-            "content": "Pants Deportivos GOLD TAB® para Mujer | Levi's® México"
-          },
-          {
-            "property": "og:image",
-            "content": "https://levimx.vtexassets.com/arquivos/ids/703290/A3743-0000_1.jpg?v=637986961661130000"
-          },
-          {
-            "property": "og:description",
-            "content": "Con los pants deportivos para mujer GOLD TAB® eleva tu estilo. Explora nuestra selección de sweatpants para un look juvenil y cómodo ¡Descúbrelos aquí!"
-          },
-          {
-            "property": "og:type",
-            "content": "website"
-          }
-        ]
-      }
-    ]
-  }
+Puedes sobrescribir estos estilos en un archivo `.css` vinculado al tema.
+
+---
+
+## 🧪 Requisitos y dependencias
+
+Declaradas en `manifest.json`:
+
+```json
+{
+  "vtex.css-handles": "0.x",
+  "vtex.styleguide": "9.x",
+  "vtex.search-page-context": "0.x",
+  "vtex.render-runtime": "8.x",
+  "vtex.slider": "0.x"
 }
 ```
 
-### `open-graph-tags` props
+---
 
-| Prop name | Type | Description | Default value |
-| --- | --- | --- | --- |
-| `metaTags` | `OpenGraphTagsMetaTags[]` | Array of custom meta tags. | `undefined` |
+## 📸 Ejemplo visual
 
-### `OpenGraphTagsMetaTags`
+```md
+![Custom Filter Navigator con dropdowns tipo Pandora]()
+```
 
-| Prop name | Type | Description | Default value |
-| --- | --- | --- | --- |
-| `url` | `string` | ![https://img.shields.io/badge/-Mandatory-red](https://img.shields.io/badge/-Mandatory-red) Url against which the browser path will be compared to determine if custom meta tags are rendered or not. | `undefined` |
-| `OpenGraphTag` | `OpenGraphTag[]` | Custom tags that will be rendered if the browser path coincides with the meta tags url. | `undefined` |
+---
 
-### `OpenGraphTag`
+## 🧑‍💻 Autor
 
-| Prop name | Type | Description | Default value |
-| --- | --- | --- | --- |
-| `property` | `string` | ![https://img.shields.io/badge/-Mandatory-red](https://img.shields.io/badge/-Mandatory-red) Text to set in meta tag property attribute. | `undefined` |
-| `content` | `string` | ![https://img.shields.io/badge/-Mandatory-red](https://img.shields.io/badge/-Mandatory-red) Text to set in meta tag content attribute. | `undefined` |
+Desarrollado por Rubén Darío Suárez  
+📧 [rsuarez@asylummarketing.com](mailto:rsuarez@asylummarketing.com)
 
-<!-- DOCS-IGNORE:start -->
+---
+
+## 📄 Licencia
