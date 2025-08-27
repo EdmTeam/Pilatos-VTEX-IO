@@ -142,9 +142,8 @@ $(window).on("load", function() {
                 if (console.log("SLA::", i), a || i || s || c(e)) {
                     t = document.getElementById("payment-group-custom201PaymentGroupPaymentGroup");
                     const r = document.getElementById("payment-group-WompiCoPaymentGroup");
-                    t && r && t.addEventListener("click", () => {
-                        r.click();
-                    }), "201" === vtexjs.checkout.orderForm.paymentData.payments[0].paymentSystem && r.click();
+                    o = vtexjs.checkout.orderForm?.paymentData?.payments?.[0]?.paymentSystem;
+                    t && r && t.addEventListener("click", () => r.click()), "201" === o && r.click();
                 }
                 setTimeout(() => {
                     a || i || s || c(e) ? (console.log("Debe desaparecer contraentrega>>"), 
@@ -192,6 +191,18 @@ function waitForVTEXJS(e) {
 
 $(document).ready(function() {
     CustomCheckoutExpress.init();
+}), $(window).on("orderFormUpdated.vtex", function(e, t) {
+    let o = !1;
+    var n = () => {
+        if ("#/payment" === location.hash && !o && !o) {
+            const t = setInterval(() => {
+                var e = document.querySelector("#payment-group-AddiPaymentGroup");
+                e && (e.click(), console.log("✅ Método de pago Addi seleccionado por defecto al primer acceso."), 
+                clearInterval(t), o = !0);
+            }, 500);
+        }
+    };
+    $(window).on("hashchange", n), $(window).on("load", n);
 }), $(window).on("orderFormUpdated.vtex", function(e, t) {
     handlePaymentMethodChange(t);
 }), waitForVTEXJS(() => {

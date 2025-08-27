@@ -152,6 +152,15 @@
   color: #fff;
 }
 
+
+.wrapper--shelf--title {
+    text-align: center;
+
+    color: #1A1A1A;
+    font-size: 32px;
+
+}
+
 /* ==========================================================================
    MEDIA QUERIES (DESDE AQUÍ)
    Se sigue el enfoque mobile-first. Mantén esta estructura y el orden
@@ -169,6 +178,12 @@
   .paragraph--seo-content-general {
     padding: 0 12px;
   }
+
+        .paragraph--shelf--title {
+    
+          font-size: 19px;
+          font-weight: bold;
+        }
 }
 
 /* === MIN-WIDTH === */

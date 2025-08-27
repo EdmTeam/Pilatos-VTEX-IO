@@ -4,8 +4,11 @@
     "blocks": [
       "experimental__visibility-layout#texto-seo-general",
       "experimental__visibility-layout#banner-landing-general",
+      "experimental__visibility-layout#banner-video",
       "experimental__visibility-layout#carrusel-secundario-multibanner", //carrusel debajo banner landing
       "experimental__visibility-layout#banner-cinta-general",
+       "experimental__visibility-layout#titulo-slider-marcas",
+        "experimental__visibility-layout#slider-marcas",
       "responsive-layout.desktop#banner-desktop-lado-a-lado",
       "responsive-layout.mobile#banner-mobile-lado-a-lado",
       "experimental__visibility-layout#button-cta-landing-general",
@@ -44,6 +47,133 @@
       "textAlignment": "CENTER"
     }
   },
+
+
+  // video banner
+
+  // video banner 1
+"experimental__visibility-layout#banner-video": {
+  "title": "video Banner landing 1",
+  "children": [
+    "responsive-layout.desktop#video-banner-desk",
+    "responsive-layout.mobile#video-banner-mobile"
+  ],
+  "props": {
+    "visible": false
+  }
+},
+
+"responsive-layout.desktop#video-banner-desk": {
+  "title": "video-bloque Desktop",
+  "children": ["video#videogeneralHome"]
+},
+
+"responsive-layout.mobile#video-banner-mobile": {
+  "title": "video-bloque mobile",
+  "children": ["video#videogeneralHome"]
+},
+
+"video#videogeneralHome": {
+  "title": "Video general",
+  "props": {
+    "width": "100%",
+    "loop": false,
+    "autoPlay": false,
+    "playsInline": true,
+    "muted": false,
+    "src": "https://www.youtube.com/embed/Y7U3F3FVsYw?autoplay=0&mute=0"
+  }
+},
+
+
+/*titulo marca carrusel*/
+
+   "experimental__visibility-layout#titulo-slider-marcas": {
+    "title": "Titulo Carrusel Marcas",
+
+    "children": [
+      "rich-text#title-carrusel-marca"
+    ],
+
+    "props": {
+      "visible": false
+    }
+  },
+
+    "rich-text#title-carrusel-marca": {
+    "title": "Título Slider marca",
+    "props": {
+      "text": "Compra los tenis de tus marcas favoritas",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "isFullModeStyle": false,
+      "blockClass": [
+        "home--shelf--title",
+        "shelf--title"
+      ]
+    }
+  },
+
+
+  // SLIDER MARCAS
+
+ "experimental__visibility-layout#slider-marcas": {
+    "title": "Slider marcas M/O",
+    "children": [
+    "flex-layout.row#brands-carousel-row"
+    ],
+    "props": {
+      "visible": false
+    }
+  },
+
+  "flex-layout.row#brands-carousel-row": {
+  "title": "Fila Carrusel Marcas",
+  "children": ["list-context.image-list#brands-carousel"],
+  "props": {
+    "blockClass": "brands-carousel-fila-imagenes"
+  }
+},
+
+"list-context.image-list#brands-carousel": {
+  "children": ["slider-layout#brands-carousel-1"],
+  "props": {
+     "blockClass": "brands-carousel-imagenes",
+    "height": 80,
+    "preload": true,
+    "images": [
+      {
+        "image": "https://cdn.tusitio.com/brands/superdry.png"
+  
+      },
+      {
+        "image": "https://cdn.tusitio.com/brands/oakley.png"
+
+      },
+      {
+        "image": "https://cdn.tusitio.com/brands/pepejeans.png"
+
+      }
+    ]
+  }
+},
+
+"slider-layout#brands-carousel-1": {
+  "title": "Carrusel Marcas",
+  "props": {
+    "itemsPerPage": {
+      "desktop": 5,
+      "tablet": 3,
+      "phone": 2
+    },
+    "showNavigationArrows": "always",
+    "showPaginationDots": "always",
+    "infinite": true,
+    "fullWidth": false,
+    "blockClass": "brands-carousel-slider"
+  }
+},
+
 
   // banner landing
 

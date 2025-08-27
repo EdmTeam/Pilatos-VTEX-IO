@@ -364,14 +364,27 @@ const CustomCheckoutExpress = (function () {
             const element2 = document.getElementById('payment-group-WompiCoPaymentGroup')
 
             // Verifica si ambos elementos existen
+            // if (element1 && element2) {
+            //   // Agrega un listener al primer elemento
+            //   element1.addEventListener('click', () => {
+            //     // Simula un clic en el segundo elemento
+            //     element2.click()
+            //   })
+            // }
+            // if(vtexjs.checkout.orderForm.paymentData.payments[0].paymentSystem === "201") {
+            //   element2.click()
+            // }
+
+            const of = vtexjs.checkout.orderForm;
+            const selectedPS = of?.paymentData?.payments?.[0]?.paymentSystem;
+
             if (element1 && element2) {
-              // Agrega un listener al primer elemento
-              element1.addEventListener('click', () => {
-                // Simula un clic en el segundo elemento
-                element2.click()
-              })
-            }if(vtexjs.checkout.orderForm.paymentData.payments[0].paymentSystem === "201") {
-              element2.click()
+              element1.addEventListener('click', () => element2.click());
+            }
+
+            // Solo auto–cambia si realmente hay un payment seleccionado
+            if (selectedPS === "201") { // contraentrega
+              element2.click();
             }
           }
 
@@ -485,6 +498,39 @@ function handlePaymentMethodChange(orderForm) {
     }
   }
 }
+
+
+$(window).on('orderFormUpdated.vtex', function (e, orderForm) {
+
+   let addiSetAsDefault = false;
+ 
+const setAddiAsDefaultPayment = () => {
+  if (addiSetAsDefault) return; // Ya se ejecutó una vez
+ 
+  const interval = setInterval(() => {
+    const addiPaymentButton = document.querySelector('#payment-group-AddiPaymentGroup');
+ 
+    if (addiPaymentButton) {
+      addiPaymentButton.click();
+      console.log('✅ Método de pago Addi seleccionado por defecto al primer acceso.');
+      clearInterval(interval);
+      addiSetAsDefault = true; // Evita futuras ejecuciones
+    }
+  }, 500);
+};
+ 
+// Detectar cuando entra a la sección de pago
+const handleRouteChange = () => {
+  if (location.hash === '#/payment' && !addiSetAsDefault) {
+    setAddiAsDefaultPayment();
+  }
+};
+ 
+$(window).on('hashchange', handleRouteChange);
+$(window).on('load', handleRouteChange);
+ 
+
+})
 
 // Escuchar el evento "orderFormUpdated" para detectar cambios en el formulario de pedido
 $(window).on('orderFormUpdated.vtex', function (e, orderForm) {
