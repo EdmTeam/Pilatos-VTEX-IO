@@ -238,7 +238,9 @@
     "title": "BANNER CINTA",
     "children": ["list-context.image-list#bannerCinta-general"],
     "props": {
-      "blockClass": "banner-activaciones-imagen-form"
+      "blockClass": "banner-activaciones-imagen-form",
+      "marginTop": 4,
+      "marginBottom": 4
     }
   },
 
