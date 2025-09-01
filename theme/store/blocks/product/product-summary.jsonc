@@ -6,7 +6,7 @@
       "vtex.product-summary:product-summary-brand",
       "vtex.product-summary:product-summary-name",
       "flex-layout.row#price",
-      "experimental__visibility-layout#name_vitrina_mercadopago-modal",
+      //"experimental__visibility-layout#name_vitrina_mercadopago-modal",
       "vtex.product-summary:product-summary-space",
       "responsive-layout.desktop#selectorSkuDesktop",
       "responsive-layout.mobile#selectorSkuMobile"
