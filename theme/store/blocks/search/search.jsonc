@@ -228,6 +228,13 @@
       "search-content"
     ]
   },
+   "flex-layout.col#products": {
+    "title": "content mobile",
+    "children": [
+      "gallery-image",
+      "search-content"
+    ]
+  },
   //nuevo codigo billy
   "search-content": {
     "blocks": [
@@ -318,7 +325,8 @@
   },
   "flex-layout.row#content-mobile": {
     "children": [
-      "search-content"
+      /* "search-content", */
+      "flex-layout.col#products"
     ],
     "props": {
       "preserveLayoutOnMobile": true
