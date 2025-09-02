@@ -2,6 +2,24 @@
   font-size: 0;
 }
 
+/*flag kit the movement septiembre 2025*/
+
+.productHighlightWrapper [data-highlight-id="2230"] {
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(/arquivos/PILATOS_Charms_Flag.png);
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .productHighlightWrapper [data-highlight-id="2230"] {
+    position: absolute !important;
+    top: 0;
+    left: 0 !important;
+  }
+}
 
 /*flag addi agosto 2025*/
 

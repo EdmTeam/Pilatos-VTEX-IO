@@ -204,6 +204,7 @@
       "sku-selector",
       "flex-layout.row#product-quantity-size-guide",
       "flex-layout.row#product-button",
+      "scroll-add-to-cart-mobile",
       "flex-layout.row#medios-de-pago-pdp",
       "flex-layout.row#productValorOffer",
       //"addi-infos",

@@ -260,8 +260,13 @@
   border-radius: 10px;
 }
 
+.flexRowContent--section2__images--departments {
+  margin-bottom: 15px;
+}
+
 .flexRowContent--section2__images--departments-mobile {
   display: flex;
+  margin-bottom: 15px;
 }
 
 .flexRowContent--section2__images--departments-mobile :global(.vtex-store-components-3-x-imageElement--image_departments) {
@@ -2562,7 +2567,7 @@
   width: 100%;
   max-width: 1920px;
   margin: 0 auto;
-  margin-top: 20px;
+  margin: 30px 0;
 }
 
 .flexRow--bannersCategorias {
@@ -4094,9 +4099,9 @@
     width: 50% !important;
   }
 
-  .flexRow--bannerDescuento {
+  /* .flexRow--bannerDescuento {
     margin-top: 5px;
-  }
+  } */
 
   .flexRow--bannersCategorias {
     margin-top: 10px;
@@ -4104,6 +4109,12 @@
   }
 }
 
+
+@media screen and (max-width:768px) {
+  .flexRow--bannerDescuento {
+  margin: 20px 0;
+}
+}
 
 /* Estilos para dispositivos con ancho entre 600px y 2000px (tablets y pantallas pequeñas) */
 

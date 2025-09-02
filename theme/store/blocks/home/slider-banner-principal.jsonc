@@ -68,7 +68,7 @@
   },
   "slider-layout#banner-principal-desktop": {
     "props": {
-      "blockClass": "contentBanner",
+      "blockClass": ["contentBanner", "contentBannerHome"],
       "itemsPerPage": {
         "desktop": 1,
         "tablet": 1,
