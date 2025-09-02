@@ -2,6 +2,10 @@
   --colornegro: #000
 }
 
+html.smooth-scroll {
+  scroll-behavior: smooth;
+}
+
 :global(.vtex-styleguide-9-x-jsFocusVisible) div[role="button"] {
   flex-direction: row-reverse;
 }

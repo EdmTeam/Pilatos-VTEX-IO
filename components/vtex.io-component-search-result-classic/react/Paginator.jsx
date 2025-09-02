@@ -27,6 +27,10 @@ const CSS_HANDLES = [
 const PER_PAGE = 3
 const MAX_PAGES = 50
 
+// --- Opciones de scroll (ajusta el offset si tienes header sticky)
+const SCROLL_ANCHOR_ID = 'search-top-anchor'
+const SCROLL_OFFSET = 80
+
 const Paginator = () => {
   const { pagination, searchQuery, maxItemsPerPage, page: currPage } = useSearchPage()
   const handles = useCssHandles(CSS_HANDLES)
@@ -39,6 +43,9 @@ const Paginator = () => {
 
   // página que está cargando ahora (para mostrar spinner en ese botón)
   const [pendingPage, setPendingPage] = useState(null)
+
+  // bandera para scrollear tras terminar de cargar
+  const [shouldScrollTop, setShouldScrollTop] = useState(false)
 
   const totalPages = useMemo(() => {
     const mp = Number(maxItemsPerPage) || 1
@@ -93,6 +100,23 @@ const Paginator = () => {
     if (!loading) setPendingPage(null)
   }, [loading])
 
+  // Scroll hacia arriba DESPUÉS de cargar la nueva página
+  useEffect(() => {
+    if (!loading && shouldScrollTop) {
+      requestAnimationFrame(() => {
+        const el = document.getElementById(SCROLL_ANCHOR_ID)
+        if (el) {
+          const y = el.getBoundingClientRect().top + window.scrollY - SCROLL_OFFSET
+          window.scrollTo({ top: y, behavior: 'smooth' })
+        } else {
+          // fallback si no existe el ancla arriba
+          window.scrollTo({ top: 0, behavior: 'smooth' })
+        }
+        setShouldScrollTop(false)
+      })
+    }
+  }, [loading, shouldScrollTop])
+
   const isShowMore = pagination === PAGINATION_TYPE.SHOW_MORE
   const showArrows = totalPages > PER_PAGE
   const atStart = blockStart === 0
@@ -108,7 +132,13 @@ const Paginator = () => {
     const newBlock = Math.floor((page - 1) / PER_PAGE) * PER_PAGE
     setBlockStart(newBlock)
 
-    // ejecutar la carga
+    // notifica al header (si tienes PaginationStatus arriba)
+    try {
+      window.dispatchEvent(new CustomEvent('custom:paginator:page', { detail: { page } }))
+    } catch (_) {}
+
+    // ejecutar la carga y luego scrollear cuando termine
+    setShouldScrollTop(true)
     const maybePromise = handleFetchPerPage(page)
     // si tu hook devuelve promesa, puedes descomentar para limpiar al resolver
     // Promise.resolve(maybePromise).finally(() => setPendingPage(null))

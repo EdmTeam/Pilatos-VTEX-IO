@@ -3,7 +3,7 @@
   font-weight: 600;
   font-size: 15.43px;
   line-height: 100%;
-left: ;  vertical-align: middle;
+  vertical-align: middle;
   margin: -10px;
 }
 
@@ -107,6 +107,14 @@ left: ;  vertical-align: middle;
   justify-content: center;
 }
 
+.paginationStatusText {
+  text-align: center;
+  color: #161616;
+  font-weight: 600;
+  font-size: 15.43px;
+  line-height: 100%;
+  vertical-align: middle;
+}
 
 @media (max-width: 600px) {
   .resultsSummary {

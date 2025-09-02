@@ -4,5 +4,8 @@
     "content": {
       "$ref": "app:pilatos21.component-custom-result-pagination#/definitions/Paginator"
     }
+  },
+  "search-info-pagination": {
+    "component": "PaginationStatus"
   }
 }
