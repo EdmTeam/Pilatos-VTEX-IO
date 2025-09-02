@@ -1,7 +1,7 @@
 {
   "vendor": "pilatos21",
   "name": "scroll-add-to-cart-mobile",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "title": "scroll-add-to-cart-mobile",
   "description": "Agregamos el botón de agregar al carrito en las PDP fijjo",
   "builders": {
