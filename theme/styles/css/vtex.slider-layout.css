@@ -6,6 +6,10 @@
   width: 100% !important;
 }
 
+.sliderLayoutContainer--contentBannerHome {
+  margin: 0 !important;
+}
+
 .sliderLayoutContainer--contentBanner {
   margin-bottom: 2rem;
 }

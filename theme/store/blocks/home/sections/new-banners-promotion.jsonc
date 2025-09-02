@@ -29,7 +29,7 @@
   },
   "slider-layout#bannerDescuento": {
     "props": {
-      "blockClass": "contentBanner",
+      "blockClass": "",
       "itemsPerPage": {
         "desktop": 1,
         "tablet": 1,
