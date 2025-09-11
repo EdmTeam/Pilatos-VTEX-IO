@@ -213,7 +213,7 @@
       "marginBottom": 3
     },
     "children": [
-      "search-fetch-previous"
+      /* "search-fetch-previous" */
     ]
   },
   "flex-layout.row#fetch-more": {
