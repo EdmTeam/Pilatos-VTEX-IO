@@ -2951,8 +2951,8 @@
 .container--buy-fast {
   position: absolute;
   right: 0;
-  /*bottom: 192px;*/
-  bottom: 250px;
+  bottom: 192px;
+  /*bottom: 250px;*/
   padding: 0 2px;
   background: #fff;
   padding: 5px 3px;
